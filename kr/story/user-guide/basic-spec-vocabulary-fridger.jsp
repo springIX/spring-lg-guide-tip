@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%> <%@ include file="/WEB-INF/jsp/common/includes/doctype.jsp"%>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="page description" />
+    <meta content="NOODP, NOYDIR" name="robots" />
+    <link rel="canonical" href="canonical" />
+    <title>LG 가전위키 냉장고편 | LG 전자</title>
+
+    <meta property="fb:app_id" content="562434687259858" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta property="og:site_name" content="LG전자" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="LG 가전위키 냉장고편 | LG 전자" />
+    <meta property="og:description" content="어려운 냉장고 스펙 용어, 쉽고 간단하게 설명해드립니다." />
+    <meta property="og:url" content="https://www.lge.co.kr/story/user-guide/basic-spec-vocabulary-fridger" />
+    <meta property="og:image" content="https://www.lge.co.kr/lg5-common/images/common/share/share-default.jpg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="" />
+    <meta name="google-site-verification" content="kOHWY1Aua-UxMNrWwT8TnUIdw8mSZAog6615Iwc1e4w" />
+    <meta content="#a50034" name="theme-color" />
+
+    <link rel="shortcut icon" href="//www.lge.co.kr/lg5-common/images/favicon.ico" />
+    <link rel="stylesheet" href="//www.lge.co.kr/lg5-common/css/reset.min.css" />
+    <link rel="stylesheet" href="//www.lge.co.kr/lg5-common/css/app.min.css" />
+
+    <!-- UnivEBiz css, script -->
+    <script type="text/javascript" src="/kr/story/user-guide/js/libs/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="/kr/story/user-guide/js/basic-spec-vocabulary-fridger.js"></script>
+    <link rel="stylesheet" href="/kr/story/user-guide/css/swiper-bundle.min.css" type="text/css" />
+    <script type="text/javascript" src="/kr/story/user-guide/js/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="/kr/story/user-guide/css/basic-spec-vocabulary-fridger.css" type="text/css" />
+
+    <c:import url="/WEB-INF/jsp/common/includes/googleHeaderScript.jsp" charEncoding="utf-8" />
+    <c:import url="/WEB-INF/jsp/common/includes/jsDefault.jsp" charEncoding="utf-8" />
+  </head>
+
+    <body>
+      <c:import url="/WEB-INF/jsp/common/includes/googleBodyScript.jsp" charEncoding="utf-8" />
+      <div class="wrap">
+        <!-- gnb -->
+        <jsp:include page="/kr/gnb">
+          <jsp:param name="bizType" value="B2C" />
+        </jsp:include>
+        <!-- // gnb -->
+        <!-- // breadcrumb -->
+        <c:import url="/kr/breadCrumb">
+          <c:param name="bizType" value="${bizType}" />
+        </c:import>
+        <!-- // breadcrumb -->
+
+        <c:import url="/kr/mkt/mobileGnb" charEncoding="utf-8" />
+
+        <!-- Share -->
+        <div itemtype=http://schema.org/WebPage itemscope class="sr-only">
+          <meta itemprop="name" content="LG 가전위키 냉장고편 | LG 전자" />
+          <meta itemprop="description" content="어려운 냉장고 스펙 용어, 쉽고 간단하게 설명해드립니다." />
+          <meta itemprop="url" content="https://www.lge.co.kr/story/user-guide/basic-spec-vocabulary-fridger" />
+          <meta itemprop="image" content="https://www.lge.co.kr/lg5-common/images/common/share/share-default.jpg" />
+          <meta itemprop="Keywords" content="" />
+        </div>
+        <div class="story-page">
+          <div class="sns-cont">
+            <div class="sns-share">
+              <jsp:include page="/kr/story/includes/share.jsp"/><!-- 공유하기 -->
+            </div>
+          </div>
+        </div>
+        <!-- //Share -->
+
+        <!-- 컨텐츠 시작 -->
+        <div class="container fridger">
+          <!--Visual-->
+          <section class="con-box page-tit">
+            <h2 class="blind">LG 가전위키 냉장고편</h2>
+            <!-- <a href="#none" class="go-btn">기초스펙 용어집 냉장고편  바로가기</a> -->
+            <nav class="nav">
+              <ul>
+                <li class="active"><a href="#section01">냉장고 구조</a></li>
+                <li><a href="#section02">냉동 사이클</a></li>
+                <li><a href="#section03">냉각 방식</a></li>
+                <li><a href="#section04">고내 기능</a></li>
+                <li><a href="#section05">외관 디자인</a></li>
+                <li><a href="#section06">프리미엄 기능</a></li>
+              </ul>
+            </nav>
+          </section>
+
+          <!--section01-->
+          <section id="section01" class="con-box section01">
+            <h3 class="main-tit animate__animated animate__fadeInUp">
+              3가지로 구성된<span class="sep">,</span> <br class="m-show"><strong>냉장고 구조</strong>
+            </h3>
+            <p class="main-tit-sub animate__animated animate__fadeInUp">
+              <span class="iblock">냉장고는 크게 ‘도어, 캐비닛, 냉동 사이클' 3가지</span>
+              <span class="iblock">부분으로 나눌 수 있습니다.</span>
+              <span class="iblock">‘도어'는 냉장고 내부의 온도를 보호하고</span>
+              <span class="iblock">식재료를 보관하는 역할을 하며, ‘캐비닛'은 식재료를</span>
+              <span class="iblock">저장하는 주된 공간입니다.</span>
+              <span class="iblock">마지막으로 '냉동 사이클'은</span>
+              <span class="iblock">냉장고 내부에서 냉기를 </span>
+              <span class="iblock">생성하고 유지하는 역할을 합니다.</span>
+            </p>
+            <div class="swiper-list01 animate__animated animate__fadeInUp">
+              <div thumbsSlider="" class="thumb-swiper swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><span class="in">도어 / 캐비닛</span></div>
+                  <div class="swiper-slide"><span class="in">냉동 사이클</span></div>
+                </div>
+              </div>
+              <div class="list-swiper swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="img">
+                      <img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/m-structure-list01.png" alt="" class="m-show" />
+                      <img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/structure-list01.png" alt="" class="pc-show" />
+                    </div>
+                    <div class="text">
+                      냉장고의 ‘도어'는 냉기를 보호하고<br class="m-show">
+                      식재료를 저장합니다. <br class="pc-show">도어의 바깥쪽에는 얼음 정수기,<br class="m-show">
+                      핸들 등의 부품으로 구성되어 있습니다. <br>
+                      또한 냉장고의 ‘캐비닛'은 주 식재료를 <br class="m-show">
+                      저장하는 공간으로, 내부 쪽에는 조명, 선반, 야채실 등의 <br>
+                      부품으로 구성되어 있습니다. 
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="img">
+                      <img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/m-structure-list02.png" alt="" class="m-show" />
+                      <img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/structure-list02.png" alt="" class="pc-show" />
+                    </div>
+                    <div class="text">
+                      냉장고의 ‘냉동 사이클'은 냉장고 뒤편에 위치하며,<br>
+                      식재료를 신선하게 보관하기 위해 필요한 냉기를<br>
+                      만들어주는 역할을 합니다. 
+                    </div>
+                  </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </section>
+
+          <!--section02-->
+          <section id="section02" class="con-box section02">
+            <h3 class="main-tit animate__animated animate__fadeInUp">
+              찬 공기를 만드는<span class="sep">,</span> <br class="m-show"><strong>냉동 사이클</strong></span>
+            </h3>
+            <p class="main-tit-sub animate__animated animate__fadeInUp">
+              <span class="iblock">냉장고는 냉매가 액체에서 기체로</span>
+              <span class="iblock">변하면서 열을 흡수하여 내부를 차갑게 유지합니다.</span>
+              <span class="iblock">냉동 사이클은 일반적으로</span>
+              <span class="iblock">‘압축기 → 방열기 → 모세관 → 증발기(냉각기)' </span>
+              <span class="iblock">구성과 순서로 이루어져 있습니다.</span>
+              <span class="iblock">냉매는 이러한 순서대로 순환하면서 </span>
+              <span class="iblock">열을 흡수하고 방출함으로써 냉기를 만듭니다.</span>
+            </p>
+            <div class="normal-list01 animate__animated animate__fadeInUp">
+              <div class="img">
+                <img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/m-cycle-list01.png" alt="" class="m-show" />
+                <img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/cycle-list01.png" alt="" class="pc-show" />
+              </div>
+            </div>
+            <div class="swiper-list01 animate__animated animate__fadeInUp">
+              <div thumbsSlider="" class="thumb-swiper swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><span class="in">압축기</span></div>
+                  <div class="swiper-slide"><span class="in">방열기</span></div>
+                  <div class="swiper-slide"><span class="in">모세관</span></div>
+                  <div class="swiper-slide"><span class="in">증발기</span></div>
+                </div>
+              </div>
+              <div class="list-swiper swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="img">
+                      <video loop muted playsinline class="m-show" poster="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/m-cycle-list02.png">
+                        <source src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/cycle-list02.mp4">
+                      </video>
+                      <video loop muted playsinline class="pc-show" poster="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/cycle-list02.png">
+                        <source src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/cycle-list02.mp4">
+                      </video>
+                    </div>
+                    <div class="text">
+                      <span class="iblock">‘냉장고의 심장, ‘냉장고의 엔진'으로 불리는</span> 
+                      <span class="iblock">압축기(Compressor)는</span><br class="pc-show">
+                      냉매를 압축시키는 역할과 동시에 냉장고 전체를 순환시킵니다. 전체 전력 소비량 중 약 80%를 차지하며, <br class="pc-show">
+                      저온/저압의 기체 냉매를 압축하여 고온/고압의 기체로 변환하여 에너지를 전달합니다. 
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="img">
+                      <video loop muted playsinline class="m-show" poster="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/m-cycle-list03.png">
+                        <source src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/cycle-list03.mp4">
+                      </video>
+                      <video loop muted playsinline class="pc-show" poster="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/cycle-list03.png">
+                        <source src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/cycle-list03.mp4">
+                      </video>
+                    </div>
+                    <div class="text">
+                      방열기(Condenser)는 보통 압축기의 옆에 위치하지만, 냉장고의 뒷면이나 단열재 안에 <br class="pc-show">
+                      위치하기도 합니다. 방열기의 주요 역할은 뜨거워진 냉매의 열을 식혀주는 것입니다. <br class="pc-show">
+                      냉매가 고온/고압의 기체 상태로 방열기를 통과하면서 액체로 변합니다.
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="img">
+                      <video loop muted playsinline class="m-show" poster="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/m-cycle-list04.png">
+                        <source src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/cycle-list04.mp4">
+                      </video>
+                      <video loop muted playsinline class="pc-show" poster="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/cycle-list04.png">
+                        <source src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/cycle-list04.mp4">
+                      </video>
+                    </div>
+                    <div class="text">
+                      모세관(Capillary tube)은 팽창 장치 역할을 하는 매우 얇은 관으로,<br class="pc-show">
+                      냉매의 압력을 떨어뜨려 쉽게 증발할 수 있는 조건을 만들어 줍니다.<br class="pc-show">
+                      응축된 냉매가 모세관을 통과하면서 압력이 낮아지고, 냉매는 확장되어 다시 기체 상태로 변합니다. 
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="img">
+                      <video loop muted playsinline class="m-show" poster="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/m-cycle-list05.png">
+                        <source src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/cycle-list05.mp4">
+                      </video>
+                      <video loop muted playsinline class="pc-show" poster="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/cycle-list05.png">
+                        <source src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/cycle-list05.mp4">
+                      </video>
+                    </div>
+                    <div class="text">
+                      증발기(Evaporator)는 모세관을 지나온 냉매가 증발하면서 주변의 열을 흡수합니다. <br class="pc-show">
+                      이 과정을 통해 냉장고 내부의 온도를 낮추어 점점 차갑게 만들어줍니다. 열을 더 깊게 핵심을 흡수한 냉매는 다시 압축기로 
+                      이동하여 압축되고, 이후에는 냉장고 전체를 순환하게 됩니다. 
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </section>
+
+          <!--section03-->
+          <section id="section03" class="con-box section03">
+            <h3 class="main-tit animate__animated animate__fadeInUp">
+              <span class="iblock">찬 공기를 신속하게<span class="sep">,</span> <strong>냉각 방식</strong></span>
+            </h3>
+            <p class="main-tit-sub animate__animated animate__fadeInUp">
+              냉각 방식은 냉각기(증발기)의 위치에 따라 간접 냉각과 직접 냉각으로 구분됩니다.<br class="pc-show">
+              냉각기를 통해 저온/저압의 기체 냉매가 열을 흡수하며 기화하고,<br class="pc-show">
+              이 과정에서 온도를 낮춰 냉장고 내부를 시원하게 유지합니다.
+            </p>
+            <div class="swiper-list01 animate__animated animate__fadeInUp">
+              <div thumbsSlider="" class="thumb-swiper swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><span class="in">간접 냉각</span></div>
+                  <div class="swiper-slide"><span class="in">직접 냉각</span></div>
+                </div>
+              </div>
+              <div class="list-swiper swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="img">
+                      <video loop muted playsinline class="m-show" poster="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/m-cooling-list01.png">
+                        <source src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/cooling-list01.mp4">
+                      </video>
+                      <video loop muted playsinline class="pc-show" poster="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/cooling-list01.png">
+                        <source src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/cooling-list01.mp4">
+                      </video>
+                    </div>
+                    <div class="text">
+                      <span class="iblock">간접 냉각은 냉각기가 냉장실 외부에 위치하고,</span> 
+                      <span class="iblock">팬을 통해 냉기를 저장실로 보내는 방식입니다.</span>
+                      <span class="iblock">팬을 이용하여 신속한 냉기 순환으로 냉각 속도가 빠르며, </span>
+                      <span class="iblock">이러한 특징으로 인해 가정용 냉장고에 적합합니다.</span>
+                      <span class="iblock">가정용 냉장고에서는 문을 자주 여닫는 상황이 많은데, </span>
+                      <span class="iblock">간접 냉각은 냉기 손실을 빠르게 보충하여</span>
+                      <span class="iblock">냉장실을 적절한 온도로 유지합니다</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="img">
+                      <video loop muted playsinline class="m-show" poster="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/m-cooling-list02.png">
+                        <source src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/cooling-list02.mp4">
+                      </video>
+                      <video loop muted playsinline class="pc-show" poster="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/cooling-list02.png">
+                        <source src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/cooling-list02.mp4">
+                      </video>
+                    </div>
+                    <div class="text">
+                      <span class="iblock">직접 냉각은 냉각기가 냉장실 내부에 위치하고, </span>
+                      <span class="iblock">냉각기 자체가 차가워져 차가운 공기를 발생시키는 방식입니다.<br class="pc-show">
+                      <span class="iblock">이는 별도의 순환 팬이 없어</span> 
+                      <span class="iblock">냉각 속도가 상대적으로 느릴 수 있지만, </span>
+                      <span class="iblock">냉장실 벽면 자체의 온도를 제어하여 온도를 </span>
+                      <span class="iblock">일정하게 유지할 수 있습니다. 이러한 특징으로 인해 </span>
+                      <span class="iblock">업소용 식품 보관용 냉장고에 적합합니다.</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <dl class="extend-detail animate__animated animate__fadeInUp">
+              <dt>
+                <button type="button" aria-expanded="false">
+                  <small>LG만의 특별함</small>
+                  LG만의 더 본질에 집중한 신선함의 비결 보기
+                  <span class="toggle"></span>
+                </button>
+              </dt>
+              <dd>
+                <div class="img-board">
+                  <ul>
+                    <li>
+                      <div class="img-list-board">
+                        <img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/m-img-board01.png" alt="" class="m-show" />
+                        <img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/img-board01.png" alt="" class="pc-show" />
+                      </div>
+                      <dl>
+                        <dt class="tit-list-board">신선도를 유지해주는, 도어쿨링+</dt>
+                        <dd class="txt-list-board">냉장실 위쪽 별도 냉기홀이 도어 부분에 보관된 식재료 쪽으로도 냉기를 직접 
+                          보내 식품을 보다 빠르게 냉각하여 도어 쪽 식품도 신선하게 보관이 가능하며 
+                          식재료의 신선도를 지켜줍니다.</dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <div class="img-list-board">
+                        <img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/m-img-board02.png" alt="" class="m-show" />
+                        <img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/img-board02.png" alt="" class="pc-show" />
+                      </div>
+                      <dl>
+                        <dt class="tit-list-board">패턴을 학습하는, 인공지능 냉기 케어</dt>
+                        <dd class="txt-list-board">인공지능 냉기 케어 시스템은 ‘신선 케어’와 ‘절전 케어’를 통해 사용자
+                          패턴을 학습하여 냉장고 동작을 제어합니다. '신선 케어'는 문을 여는
+                          시간을 학습해 사용하기 2시간 전에 내부 온도를 조절하여 재료를 신선
+                          하게 보관해 줍니다. '절전 케어'는 사용하지 않는 시간대를 학습하여 
+                          자동으로 절전모드로 전환하여 전력 소비를 최소화합니다.</dd>
+                        <dd class="subtxt-list-board">
+                          * 인공지능 냉기 케어 시스템은 LG ThinQ 앱에서 제품 등록 후 
+                          스마트케어+ 기능을 활성 시켜야 하며, 
+                          외부에서 활성화 시 데이터 사용 환경이 필요합니다.
+                        </dd>
+                      </dl>
+                    </li>
+                  </ul>
+                </div>
+              </dd>
+            </dl>
+            <!-- product //
+            <div class="prod-list01 animate__animated animate__fadeInUp">
+              <h4 class="main-tit02">
+                <small>LG만의 특별함을 담은</small>
+                더 깊게 핵심을 <br class="m-show">파고든 냉장고
+              </h4>
+
+              <div class="swiper-list04">
+                <div class="list-swiper swiper">
+                  <div class="swiper-wrapper">
+                    <a class="swiper-slide" href="https://www.lge.co.kr/refrigerators?lineupId=CD00000016">
+                      <span class="thumb"><img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/prod-list01.png" alt="" /></span>
+                      <span class="go-btn">냉장고 보러 가기</span>
+                    </a>
+                    <a class="swiper-slide" href="https://www.lge.co.kr/refrigerators?lineupId=CD00000016">
+                      <span class="thumb"><img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/prod-list02.png" alt="" /></span>
+                      <span class="go-btn">냉장고 보러 가기</span>
+                    </a>
+                    <a class="swiper-slide" href="https://www.lge.co.kr/refrigerators?lineupId=CD00000016">
+                      <span class="thumb"><img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/prod-list03.png" alt="" /></span>
+                      <span class="go-btn">냉장고 보러 가기</span>
+                    </a>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+            </div>
+            // product -->
+          </section>
+
+          <!--section04-->
+          <section id="section04" class="con-box section04">
+            <h3 class="main-tit animate__animated animate__fadeInUp">
+              <span class="iblock">싱싱함을 담은<span class="sep">,</span> 
+              <span class="iblock"><strong>고내 기능</strong></span>
+            </h3>
+            <p class="main-tit-sub animate__animated animate__fadeInUp">
+              냉장고의 내부 기능은 주로 식재료의 신선도와 안정성을 유지하고 에너지 효율성을 향상시킵니다. <br class="pc-show">
+              냄새를 제거하는 탈취 기능과 다양한 선반과 수납공간을 제공하여<br class="pc-show">
+              식재료 등을 효율적으로 정리하고 보관할 수 있습니다.
+            </p>
+            <div class="swiper-list01 animate__animated animate__fadeInUp">
+              <div thumbsSlider="" class="thumb-swiper swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide swiper-slide-thumb-active"><span class="in">탈취 기능</span></div>
+                  <div class="swiper-slide"><span class="in">수납 공간</span></div>
+                </div>
+              </div>
+              <div class="swiper-box active">
+                <div class="list-swiper swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="img-board type2">
+                        <ul>
+                          <li>
+                            <div class="img-list-board">
+                              <img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/m-filter-list01.png" alt="" class="m-show">
+                              <img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/filter-list01.png" alt="" class="pc-show">
+                            </div>
+                            <div class="text-list-board">
+                              <p class="subtit-list-board">LG만의 특별함</p>
+                              <p class="tit-list-board">UV 청정 탈취 필터+</p>
+                              <p class="txt-list-board">UV 청정탈취필터+는 내부 팬이 공기 중에 떠다니는 
+                                균을 빨아들여 광촉매 필터에 달라붙게 하고, 광촉매 
+                                필터와 함께 필터에 균이 번식하는 것을 억제하여 
+                                더 위생적인 사용 환경을 조성합니다.</p>
+                              <ul class="subtxt-list-board">
+                                <li>* 해당 기능의 명칭은 생산 시점에 따라 “UV 안심 제균+” 혹은 “UV 청정탈취필터+”가 
+                                  혼용되어 사용될 수 있으나 동일한 기능입니다.</li>
+                                <li>* 전용 팬은 70분마다 10분씩  동작하며, 냉장실 도어 오픈 시, 성에 제거 시에는
+                                  동작하지 않습니다.</li>
+                              </ul>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-box">
+                <div class="list-swiper swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="img-board type2">
+                        <ul>
+                          <li>
+                            <div class="img-list-board">
+                              <img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/m-filter-list02.png" alt="" class="m-show">
+                              <img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/filter-list02.png" alt="" class="pc-show">
+                            </div>
+                            <div class="text-list-board">
+                              <p class="subtit-list-board">LG만의 특별함</p>
+                              <p class="tit-list-board">신선야채실</p>
+                              <p class="txt-list-board">식재료 수분을 오랫동안 유지할 수 있도록 설계된 
+                                내부 서랍으로, 특히 수분 유지가 중요한 야채와 
+                                과일 등을 다른 식품들과 분리하여 신선하게 독립적으로 보관할 수 있습니다. </p>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="img-board type2">
+                        <ul>
+                          <li>
+                            <div class="img-list-board">
+                              <img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/m-filter-list03.png" alt="" class="m-show">
+                              <img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/filter-list03.png" alt="" class="pc-show">
+                            </div>
+                            <div class="text-list-board">
+                              <p class="subtit-list-board">LG만의 특별함</p>
+                              <p class="tit-list-board">신선플러스 트레이</p>
+                              <p class="txt-list-board">신선플러스 트레이는 선반 아래 또는 야채실 상단에
+                                부착하여 다양하게 활용할 수 있습니다.</p>
+                              <ul class="subtxt-list-board">
+                                <li>* 신선플러스 트레이의 ‘신선’의 의미는 짓무르기 쉬운 야채를 다른 야채로부터
+                                  분리보관을 하여 신선하게 보관할 수 있다는 의미로 사용되었습니다.</li>
+                                <li>* 신선플러스 트레이 기본 1개 제공됩니다.</li>
+                              </ul>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="img-board type2">
+                        <ul>
+                          <li>
+                            <div class="img-list-board">
+                              <img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/m-filter-list04.png" alt="" class="m-show">
+                              <img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/filter-list04.png" alt="" class="pc-show">
+                            </div>
+                            <div class="text-list-board">
+                              <p class="subtit-list-board">LG만의 특별함</p>
+                              <p class="tit-list-board">접이선반</p>
+                              <p class="txt-list-board">
+                                <span class="iblock">접이식 선반은 선반의 앞부분을 뒤쪽으로 간단하게 </span>
+                                <span class="iblock">밀어 넣을 수 있습니다. 그렇기 때문에 냉장실의 </span>
+                                <span class="iblock">수납칸 높이보다 큰 냄비나 수박 등과 같은</span>
+                                <span class="iblock">큰 식재료를 접이 선반을 활용하여 편리하게 </span>
+                                <span class="iblock">수납할 수 있습니다.</span>
+                              </p>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="img-board type2">
+                        <ul>
+                          <li>
+                            <div class="img-list-board">
+                              <img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/m-filter-list05.png" alt="" class="m-show">
+                              <img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/filter-list05.png" alt="" class="pc-show">
+                            </div>
+                            <div class="text-list-board">
+                              <p class="subtit-list-board">LG만의 특별함</p>
+                              <p class="tit-list-board">멀티수납코너</p>
+                              <p class="txt-list-board">멀티 수납 코너는 냉장고 내부에서 낭비되는 
+                                공간이 없도록 틈새 공간을 활용한 것입니다. 이를 
+                                통해 식자재나 반찬통 등에 가려져 찾기 어려운 
+                                치즈나 햄과 같이 유제품 간식 등을 편리하게 보관할 
+                                수 있으며 손쉽게 찾을 수 있습니다.</p>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+              
+            </div>
+          </section>
+
+          <!--section05-->
+          <section id="section05" class="con-box section05">
+            <h3 class="main-tit animate__animated animate__fadeInUp">
+              <span class="iblock">새로움이 물씬<span class="sep">,</span></span>
+              <span class="iblock"><strong>외관 디자인</strong></span>
+            </h3>
+            <p class="main-tit-sub animate__animated animate__fadeInUp">
+              <span class="iblock">냉장고의 외관 디자인은</span>
+              <span class="iblock">여러 측면에서 향상된 </span>
+              <span class="iblock">경험을 제공합니다.</span>
+              <span class="iblock">집 안의 분위기를 </span>
+              <span class="iblock">고려하여 스테인리스, 스톤 등 </span>
+              <span class="iblock">다양한 소재와 컬러를</span>
+              <span class="iblock">선택하여 조합할 수 있습니다.</span>
+            </p>
+            <div class="swiper-list01 animate__animated animate__fadeInUp">
+              <div class="list-swiper swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="img-board type2">
+                      <ul>
+                        <li>
+                          <div class="img-list-board">
+                            <img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/m-design-list01.png" alt="" class="m-show">
+                            <img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/design-list01.png" alt="" class="pc-show">
+                          </div>
+                          <div class="text-list-board">
+                            <p class="subtit-list-board">LG만의 특별함</p>
+                            <p class="tit-list-board">오브제 컬렉션</p>
+                            <p class="txt-list-board">냉장고 도어 패널을 개인의 취향, 계절, 집 안의 
+                              분위기에 맞게 프리미엄 소재부터 컬러까지 
+                              다양하게 조합하여 나만의 스타일을 연출할 
+                              수 있습니다.</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="img-board type2">
+                      <ul>
+                        <li>
+                          <div class="img-list-board">
+                            <img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/m-design-list02.png" alt="" class="m-show">
+                            <img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/design-list02.png" alt="" class="pc-show">
+                          </div>
+                          <div class="text-list-board">
+                            <p class="subtit-list-board">LG만의 특별함</p>
+                            <p class="tit-list-board">무드업</p>
+                            <p class="txt-list-board">LG ThinQ 앱을 통해 별도의 패널 교체 없이 
+                              라이프 스타일에 맞게 컬러를 조절할 수 있습니다. 
+                              '아티스트 컬렉션'과 '마이 컬렉션'을 통해 다양한 
+                              테마와 컬러 조합으로 새로운 공간을 
+                              연출할 수 있습니다.</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </section>
+
+          <!--section06-->
+          <section id="section06" class="con-box section06">
+            <h3 class="main-tit animate__animated animate__fadeInUp">
+              <span class="iblock">차별화된<span class="sep">,</span></span>
+              <span class="iblock"><strong>프리미엄 기능</strong></span>
+            </h3>
+            <p class="main-tit-sub animate__animated animate__fadeInUp">
+              냉장고의 프리미엄 기능에는 여러 오토 스마트 기능 등 <br class="pc-show">
+              높은 수준의 사용 편의성과 고급스러운 디자인을 제공합니다.
+            </p>
+            <div class="swiper-list01 animate__animated animate__fadeInUp">
+              <div class="list-swiper swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="img-board type3 b1">
+                      <ul>
+                        <li>
+                          <div class="text-list-board">
+                            <p class="subtit-list-board">LG만의 특별함</p>
+                            <p class="tit-list-board">오토 스마트 도어</p>
+                            <p class="txt-list-board">
+                              오토 스마트도어는 냉장고 우측도어의 하단 
+                              센서가 발끝을 인식하여 자동으로 냉장고 문을 여는 기능입니다. 
+                              사용자는 손을 대지 않고도 
+                              냉장고 문을 편리하게 열 수 있습니다.
+                            </p>
+                            <ul class="subtxt-list-board">
+                              <li>* 냉장실 우측도어에만 해당</li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="img-board type3 b2">
+                      <ul>
+                        <li>
+                          <div class="text-list-board">
+                            <p class="subtit-list-board">LG만의 특별함</p>
+                            <p class="tit-list-board">오토 스마트 드로어</p>
+                            <p class="txt-list-board">오토 스마트 드로어는 냉동실 문을 열 때 내부 서랍이
+                              자동으로 나오는 기능입니다. 허리를 많이 굽히지
+                              않고도 냉동실 깊숙한 곳에 있는 식재료 등을 
+                              손쉽게 꺼낼 수 있습니다.</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <!-- product // -->
+            <div class="prod-list01 animate__animated animate__fadeInUp">
+              <h4 class="main-tit02">
+                <small>LG만의 특별함을 담은</small>
+                <span class="iblock">더 새롭고 기품이</span>
+                <span class="iblock">깃든 냉장고</span>
+              </h4>
+              <div class="swiper-list04">
+                <div class="list-swiper swiper">
+                  <div class="swiper-wrapper">
+                    <a class="swiper-slide" href="https://www.lge.co.kr/refrigerators?subCateId=CT50000070">
+                      <span class="thumb"><img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/prod-list01.png" alt="" /></span>
+                      <span class="go-btn">얼음정수기 냉장고 제품 보러가기</span>
+                    </a>
+                    <a class="swiper-slide" href="https://www.lge.co.kr/refrigerators?subCateId=CT50000069">
+                      <span class="thumb"><img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/prod-list02.png" alt="" /></span>
+                      <span class="go-btn">상냉장/하냉동 제품 보러가기</span>
+                    </a>
+                    <a class="swiper-slide" href="https://www.lge.co.kr/refrigerators">
+                      <span class="thumb"><img src="/kr/story/user-guide/images/basic-spec-vocabulary-fridger/prod-list03.png" alt="" /></span>
+                      <span class="go-btn">냉장고 전체 제품 보러가기</span>
+                    </a>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+                <!-- <a href="#none" class="go-btn2">더 많은 제품 보러 가기</a> -->
+              </div>
+            </div>
+            <!-- // product -->
+          </section>
+        </div>
+        <!-- //컨텐츠 끝 -->
+      </div>
+      <!-- Contents -->
+
+      <!-- footer -->
+      <jsp:include page="/kr/footer">
+        <jsp:param name="bizType" value="B2C" />
+      </jsp:include>
+      <!-- // footer -->
+
+      <!-- footerDefault -->
+      <c:import url="/WEB-INF/jsp/common/includes/footerDefault.jsp" charEncoding="utf-8" />
+      <!-- // footerDefault -->
+    </body>
+  </html>

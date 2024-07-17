@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+@import url(./basic-spec-vocabulary.css);
+
+/* ================================================ */
+/* =================== 냉장고 ===================== */
+/* =============================================== */
+.fridger .page-tit .nav {overflow-y: hidden;overflow-x: auto;display: flex;}
+.fridger .page-tit .nav a {white-space: nowrap;}
+.fridger .page-tit .nav li+li {margin-left: 3rem;}
+.fridger .section01 .main-tit::before {background-image: url(../images/basic-spec-vocabulary-fridger/structure-ico.png);}
+.fridger .section02 .main-tit::before {background-image: url(../images/basic-spec-vocabulary-fridger/cycle-ico.png);}
+.fridger .section03 .main-tit::before {background-image: url(../images/basic-spec-vocabulary-fridger/cooling-ico.png);}
+.fridger .section04 .main-tit::before {background-image: url(../images/basic-spec-vocabulary-fridger/filter-ico.png);}
+.fridger .section05 .main-tit::before {background-image: url(../images/basic-spec-vocabulary-fridger/design-ico.png);}
+.fridger .section06 .main-tit::before {background-image: url(../images/basic-spec-vocabulary-fridger/premium-ico.png);}
+.fridger .section06 .main-tit::before{margin-bottom: 2rem;width: 2.85rem;height: 3.05rem;}
+.fridger .main-tit::before {content: '';display: block;width: 2.8rem;height: 3.6rem;margin: 0 auto 2rem;background-position: center center;background-repeat: no-repeat;background-size: contain;}
+.fridger .normal-list01 .img{display: flex;justify-content:center}
+.fridger .thumb-swiper .swiper-slide + .swiper-slide{margin-left: 2rem;}
+.fridger .swiper-list04 .swiper-slide{padding-top: 4rem;}
+.fridger .swiper-list04 .swiper-slide::before{background-color: #f8f8f7;}
+.fridger .swiper-list04 .go-btn{margin-top:3rem;}
+.fridger .swiper-list04 .swiper-slide{padding-bottom: 3.6rem;}
+.fridger .section03{background-color: #fff;}
+.fridger .swiper-button-prev{left: 0;}
+.fridger .swiper-button-prev:after{content: '';width: .7rem;height: 1.25rem;background: url(../images/basic-spec-vocabulary-fridger/btn-arrow-ico.png) no-repeat 0 0/contain;transform: rotate(180deg);}
+.fridger .swiper-button-next{right: 0;}
+.fridger .swiper-button-next:after{content: '';width: .7rem;height: 1.25rem;background: url(../images/basic-spec-vocabulary-fridger/btn-arrow-ico.png) no-repeat 0 0/contain;}
+.fridger .swiper-button-prev,
+.fridger .swiper-button-next{position: absolute;}
+.fridger .section06 .swiper-button-prev{left: 0;}
+.fridger .section06 .swiper-button-next{right: 0;}
+.fridger .section06 .swiper-button-prev:after{content: '';background: url(../images/basic-spec-vocabulary-fridger/btn-arrow-ico2.png) no-repeat 0 0;transform: rotate(180deg);}
+.fridger .section06 .swiper-button-next:after{content: '';background: url(../images/basic-spec-vocabulary-fridger/btn-arrow-ico2.png) no-repeat 0 0;}
+.fridger .img-board.type2 .text-list-board .subtit-list-board{margin-top:3rem;font-size:1.2rem;color: rgba(0, 0, 0, 0.4);font-weight: bold;}
+.fridger .img-board.type2 .text-list-board .tit-list-board{margin-top:.4rem;font-size:2.3rem;font-weight: bold;}
+.fridger .img-board.type2 .text-list-board .txt-list-board{margin-top: 1rem;font-size:1.3rem;color:#000;line-height: 2rem;letter-spacing: -.1rem;}
+.fridger .img-board.type2 .text-list-board .subtxt-list-board{margin-top: 1.4rem;}
+.fridger .img-board.type2 .text-list-board .subtxt-list-board li{font-size:.9rem;color: #6b6b6b;line-height:1.3rem;}
+.fridger .img-board.type3{margin: 0 auto;height: 36.5rem;border-radius: .6rem;}
+.fridger .img-board.type3 .text-list-board{padding: 4.5rem 3rem;}
+.fridger .img-board.type3 .text-list-board p{color: #fff;text-align: center;}
+.fridger .img-board.type3.b1{background: url(../images/basic-spec-vocabulary-fridger/m-premium-list01.png) no-repeat center 100%/31rem auto;}
+.fridger .img-board.type3.b2{background: url(../images/basic-spec-vocabulary-fridger/m-premium-list02.png) no-repeat center 100%/31rem auto;}
+.fridger .img-board.type3 .text-list-board .subtit-list-board{font-size:1.2rem;}
+.fridger .img-board.type3 .text-list-board .tit-list-board{margin-top: .2rem;font-size:2.3rem;font-weight: bold;}
+.fridger .img-board.type3 .text-list-board .txt-list-board{margin-top: 1rem;font-size:1.3rem;line-height: 2rem;letter-spacing: -.1rem;}
+.fridger .img-board.type3 .subtxt-list-board li{display: none;}
+.fridger .section04 {padding-bottom: 3rem;}
+.fridger .section05 {padding-top: 3rem;background-color: #f8f8f7;}
+.fridger .section06 .swiper-button-prev:after{background-image: url(../images/basic-spec-vocabulary-fridger/btn-arrow-ico2.png);background-size: contain;transform: rotate(180deg);}
+.fridger .section06 .swiper-button-next:after{background-image: url(../images/basic-spec-vocabulary-fridger/btn-arrow-ico2.png);background-size: contain;}
+.fridger .swiper-box{display: none;}
+.fridger .swiper-box.active{display: block;}
+.fridger .thumb-swiper{margin-bottom: 4rem;}
+
+/* PC */
+@media (min-width: 768px) {
+	.fridger .thumb-swiper{margin-bottom: 10rem;}
+	.fridger .swiper-list04 .swiper-slide{padding-top: 5rem;}
+	.fridger .swiper-list04 .go-btn{margin-top:5rem;}
+	.fridger .section03{margin-top: 0;padding-top: 20rem;padding-bottom: 20rem;}
+	.fridger .section04{padding-top: 18rem;padding-bottom: 0;}
+	.fridger .section05{padding-top: 18rem;padding-bottom: 18rem;background-color: #f8f8f7;}
+	.fridger .section06{padding-top: 18rem;padding-bottom: 18rem;}
+	.fridger .main-tit02{margin-bottom: 10rem;}
+	.fridger .page-tit { background-image: url(../images/basic-spec-vocabulary-fridger/page-title.png);}
+	.fridger .section01 .thumb-swiper {margin-left: auto;margin-right: auto;max-width: 51rem;}
+	.fridger .main-tit::before {margin-bottom: 4rem;width: 5.6rem;height: 7.2rem;}
+	.fridger .section02 .main-tit::before {margin-bottom: 4rem;width: 7.3rem;height: 4.2rem;}
+	.fridger .section03 .main-tit::before {margin-bottom: 4rem;width: 5.9rem;height: 6.3rem;}
+	.fridger .section06 .main-tit::before {margin-bottom: 4rem;width: 5.7rem;height: 6.1rem;}
+	.fridger .section02 .normal-list01{margin-top: 11.9rem;margin-bottom: 18rem;}
+	.fridger .swiper-list01 .img + .text{max-width: 130rem;}
+	.fridger .extend-detail > dd::before {height: 8rem;}
+	.fridger .img-board > ul > li{display: flex;flex-wrap: nowrap;}
+	.fridger .img-board > ul > li+li{margin-top: 6rem;}
+	.fridger .img-board li dl,
+	.fridger .img-board li .text-list-board{flex: 1;margin-left: 6.9rem;}
+	.fridger .img-board li dl dt,
+	.fridger .img-board li .text-list-board .tit-list-board{font-weight:bold;font-size:4.05rem;color:#252526;}
+	.fridger .img-board li dl dd,
+	.fridger .img-board li .text-list-board p{margin-top:1.4rem;font-size:2.4rem;color:#252526;line-height: 4rem;}
+	.fridger .extend-detail > dd{padding: 1.9rem 5rem 0;}
+	.fridger .img-board li .subtxt-list-board{margin-top: 1.5rem;font-size: 1.8rem;color: #6b6b6b;line-height:3.1rem;text-indent: -1rem;margin-left: 1rem;}
+	.fridger .img-board li .subtxt-list-board li{margin-top: .4rem;}
+	.fridger .img-board li .img-list-board {max-width: 44rem;}
+	.fridger .img-board.type2 li .img-list-board{max-width: 50rem;}
+	.fridger .img-board.type2{min-height: 50rem;}
+	.fridger .img-board.type2 .text-list-board{text-align: left;align-self: center;}
+	.fridger .img-board.type2 .text-list-board .subtit-list-board{margin-top:0;font-size:2.4rem;}
+	.fridger .img-board.type2 .text-list-board .tit-list-board{font-size:4.6rem;}
+	.fridger .img-board.type2 .text-list-board .txt-list-board{margin-top: 3.8rem;font-size:2.8rem;color:#000;line-height: 4.6rem;letter-spacing: -.1rem;}
+	.fridger .img-board.type2 .text-list-board .subtxt-list-board li{font-size: 1.8rem;line-height: 3rem;}
+	.fridger .img-board.type3{width: auto;height: 65rem;}
+	.fridger .img-board.type3 > ul > li{height: 65rem;}
+	.fridger .img-board.type3 .text-list-board{margin-left: 0;padding-left: 70rem;padding-right: 12.6rem;align-self: center;}
+	.fridger .img-board.type3 .text-list-board p{color: #fff;text-align: left;}
+	.fridger .img-board.type3.b1{background: url(../images/basic-spec-vocabulary-fridger/premium-list01.png) no-repeat 0 0;}
+	.fridger .img-board.type3.b2{background: url(../images/basic-spec-vocabulary-fridger/premium-list02.png) no-repeat 0 0;}
+	.fridger .img-board.type3 .text-list-board .subtit-list-board{font-size:2.4rem;}
+	.fridger .img-board.type3 .text-list-board .tit-list-board{margin-top: .4rem;font-size:4.6rem;}
+	.fridger .img-board.type3 .text-list-board .txt-list-board{margin-top: 3.8rem;font-size:2.8rem;line-height: 4.6rem;letter-spacing: -.1rem;height: auto;}
+	.fridger .img-board.type3 .subtit-list-board li{text-align: left;}
+	.fridger .section04 .list-swiper{margin-top: 7.2rem;}
+	.fridger .section04 .list-swiper .swiper-slide,
+	.fridger .section05 .list-swiper .swiper-slide{padding: 8rem;background-color: #fff;border-radius: 1rem;height: 100%;}
+	.fridger .swiper-button-prev{left: 2.5rem;top: 50%;transform: translateY(-50%);}
+	.fridger .swiper-button-prev:after{content: '';position: absolute;width: 1.4rem;height: 2.6rem;background-image: url(../images/basic-spec-vocabulary-fridger/btn-arrow-ico.png);transform: rotate(180deg);}
+	.fridger .swiper-button-next{right: 2.5rem;top: 50%;transform: translateY(-50%);}
+	.fridger .swiper-button-next:after{content: '';position: absolute;width: 1.4rem;height: 2.6rem;background-image: url(../images/basic-spec-vocabulary-fridger/btn-arrow-ico.png);}
+	.fridger .section06 .swiper-button-prev{left: 5rem;}
+	.fridger .section06 .swiper-button-next{right: 5rem;}
+	.fridger .section04 .swiper-list01 .list-swiper .swiper-pagination{position: absolute;bottom: 7rem;}
+	.fridger .section06 .swiper-list01 .swiper-slide {overflow: hidden;border-radius: 1.2rem;}
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+	.fridger .page-tit {background-image: url(../images/basic-spec-vocabulary-fridger/m-page-title.png);}
+	.fridger .section02 .main-tit::before {margin-bottom: 2rem;width: 3.65rem;height: 2.1rem;}
+	.fridger .section03 .main-tit::before {margin-bottom: 2rem;width: 2.95rem;height: 3.15rem;}
+	.fridger .section02 .normal-list01{margin-top: 3.5rem;margin-bottom: 4.5rem;}
+	.fridger .extend-detail > dd::before,
+	.fridger .extend-detail > dd::after {height: 4rem;}
+	.fridger .img-board li{display: grid;}
+	.fridger .img-board li .img-list-board{margin:2rem auto 0;width: 22rem;order: 2;}
+	.fridger .img-board > ul > li+li{margin-top: 6rem;}
+	.fridger .img-board li dl{order: 1;}
+	.fridger .img-board li dl dt{font-weight:bold;font-size:2.05rem;color:#252526;}
+	.fridger .img-board li dl dd{margin-top:1.4rem;font-size:1.2rem;color:#252526;line-height: 2rem;}
+	.fridger .extend-detail > dd{padding: 1.9rem 2rem 0;}
+	.fridger .img-board li dl dd.subtxt-list-board{margin-top: 1.5rem;font-size: .9rem;color: #6b6b6b;line-height:1.3rem;}
+	.fridger .img-board.type2 li{display: block;}
+	.fridger .img-board.type2 li .img-list-board{height: auto;}
+	.fridger .section01,
+	.fridger .section02,
+	.fridger .section03,
+	.fridger .section04,
+	.fridger .section05,
+	.fridger .section06{padding-top: 12rem;padding-bottom: 0;}
+	.fridger .section03,
+	.fridger .section05{padding-bottom: 12rem;}
+	.fridger .section06{padding-bottom: 6rem;}
+	.fridger .section04 .list-swiper .swiper-slide {height: 55.5rem;}
+	.fridger .section04 .list-swiper .swiper-slide, .fridger .section05 .list-swiper .swiper-slide {padding: 4rem 3rem;background-color: #fff;border-radius: 1rem;}
+	.fridger .img-board li .img-list-board{margin: 0 auto;}
+	.fridger .img-board li .img-list-board{width: 25rem;}
+	.fridger .section04 .swiper-button-next,
+	.fridger .section04 .swiper-button-prev{top: 30%;}
+	.fridger .section05 .swiper-button-next,
+	.fridger .section05 .swiper-button-prev{top: 34%;}
+	.fridger .section05 .swiper-list01 .list-swiper .swiper-pagination{position: relative;bottom: 5rem;}
+	.fridger .section02 .main-tit,
+	.fridger .section03 .main-tit,
+	.fridger .section05 .main-tit,
+	.fridger .section06 .main-tit{font-size: 4rem;letter-spacing: -.2rem;}
+	.fridger .section06 .swiper-list01 .swiper-slide {background-color: #252526;border-radius: .6rem;}
+	.fridger .section05 .swiper-list01 .list-swiper .swiper-pagination{bottom: 0;}
+	.fridger .section04 .swiper-list01 .list-swiper .swiper-pagination{position: relative;bottom: 5rem;}
+	.fridger #section01 .swiper-list01 img{max-width: 36rem;}
+	.fridger #section02 .normal-list01 img{max-width: 30.7rem;}
+	.fridger #section03 .swiper-list01 video, 
+	.fridger #section04 .swiper-list01 video {max-width: 31rem;}
+	.fridger #section03 .extend-detail .img-board .img-list-board{margin-top: 3rem;}
+}
+@media (max-width: 409px) {
+	.fridger #section01 .swiper-list01 img{max-width: 100%;}
+}
+
+
+.fridger .swiper-list04 img { zoom:0.5; }
+@media (max-width: 767px) {
+	.fridger .swiper-list04 { margin-left: 1.3rem; margin-right: 1.3rem; }
+	.fridger .swiper-list04 .swiper-slide { width: 28rem; padding-left: 3.0rem; padding-right: 3.0rem; }
+	.fridger .swiper-list04 img { zoom:1; max-width: 7rem; }
+	.fridger .swiper-list04 .go-btn { margin-top: 4.5rem; font-size: 1.425rem; line-height:1.5; padding-top: 0.65em; padding-bottom: 0.65em; letter-spacing: -0.0355rem; }
+	.fridger .swiper-list04 .go-btn::after { border-bottom-width: 1px; border-right-width: 1px; transform: translate(0rem, -0.05rem) rotate(-45deg) scale(0.8); }
+}
+@media (min-width: 768px) {
+	.fridger .prod-list01 { max-width: 129rem; }
+	.fridger .swiper-list04 .swiper-slide { padding: 7.2rem 5.2rem 3.6rem; }
+	.fridger .swiper-list04 .swiper-slide::before { left: 1.7rem; right: 1.7rem; }
+	.fridger .swiper-list04 .go-btn { margin-top: 7rem; font-size: 2.2rem; line-height:1.5; padding-top: 0.65em; padding-bottom: 0.65em; letter-spacing: -0.055rem; }
+}	

@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%> <%@ include file="/WEB-INF/jsp/common/includes/doctype.jsp"%>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="keywords" content="LG전자, LG TV, LG티비, TV, 티비, OLED, 올레드, 화질, 해상도, 명암비, 주사율, 스펙, 사양, 성능, 기능, 기술 사양" />
+    <meta name="description" content="page description" />
+    <meta content="NOODP, NOYDIR" name="robots" />
+    <link rel="canonical" href="canonical" />
+    <title>LG 가전위키 TV편 | LG 전자</title>
+
+    <meta property="fb:app_id" content="562434687259858" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta property="og:site_name" content="LG전자" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="LG 가전위키 TV편 | LG 전자" />
+    <meta property="og:description" content="어려운 TV 스펙 용어, 쉽고 간단하게 설명해드립니다." />
+    <meta property="og:url" content="https://www.lge.co.kr/story/user-guide/basic-spec-vocabulary" />
+    <meta property="og:image" content="https://www.lge.co.kr/lg5-common/images/common/share/share-default.jpg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="" />
+    <meta name="google-site-verification" content="kOHWY1Aua-UxMNrWwT8TnUIdw8mSZAog6615Iwc1e4w" />
+    <meta content="#a50034" name="theme-color" />
+
+    <link rel="shortcut icon" href="//www.lge.co.kr/lg5-common/images/favicon.ico" />
+    <link rel="stylesheet" href="//www.lge.co.kr/lg5-common/css/reset.min.css" />
+    <link rel="stylesheet" href="//www.lge.co.kr/lg5-common/css/app.min.css" />
+
+    <!-- UnivEBiz css, script -->
+    <script type="text/javascript" src="/kr/story/user-guide/js/libs/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="/kr/story/user-guide/js/basic-spec-vocabulary.js"></script>
+    <link rel="stylesheet" href="/kr/story/user-guide/css/swiper-bundle.min.css" type="text/css" />
+    <script type="text/javascript" src="/kr/story/user-guide/js/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="/kr/story/user-guide/css/basic-spec-vocabulary.css" type="text/css" />
+
+    <c:import url="/WEB-INF/jsp/common/includes/googleHeaderScript.jsp" charEncoding="utf-8" />
+    <c:import url="/WEB-INF/jsp/common/includes/jsDefault.jsp" charEncoding="utf-8" />
+  </head>
+
+    <body>
+      <c:import url="/WEB-INF/jsp/common/includes/googleBodyScript.jsp" charEncoding="utf-8" />
+      <div class="wrap">
+        <!-- gnb -->
+        <jsp:include page="/kr/gnb">
+          <jsp:param name="bizType" value="B2C" />
+        </jsp:include>
+        <!-- // gnb -->
+        <!-- // breadcrumb -->
+        <c:import url="/kr/breadCrumb">
+          <c:param name="bizType" value="${bizType}" />
+        </c:import>
+        <!-- // breadcrumb -->
+
+        <c:import url="/kr/mkt/mobileGnb" charEncoding="utf-8" />
+
+        <!-- Share -->
+        <div itemtype=http://schema.org/WebPage itemscope class="sr-only">
+          <meta itemprop="name" content="LG 가전위키 TV편 | LG 전자" />
+          <meta itemprop="description" content="어려운 TV 스펙 용어, 쉽고 간단하게 설명해드립니다." />
+          <meta itemprop="url" content="https://www.lge.co.kr/story/user-guide/basic-spec-vocabulary" />
+          <meta itemprop="image" content="https://www.lge.co.kr/lg5-common/images/common/share/share-default.jpg" />
+          <meta itemprop="Keywords" content="" />
+        </div>
+        <div class="story-page">
+          <div class="sns-cont">
+            <div class="sns-share">
+              <div class="tooltip-wrap share"><a href="#" class="tooltip-icon ui_tooltip-target"
+                  data-fixed="fixed-right" ui-modules="TooltipTarget"><span class="blind">제품 공유하기</span></a>
+                <div class="tooltip-box">
+                  <span class="title">공유</span>
+                  <div class="sns-wrap">
+                    <ul class="sns-list">
+                      <li><a href="#" class="ico-btn fb" title="페이스북에 공유하기, 새창열림" data-link-name="facebook">페이스북<span
+                            class="blind">으로 페이지 공유하기</span></a></li>
+                      <li><a href="#" class="ico-btn tw" title="component-twiiterShareBlank"
+                          data-link-name="twitter">트위터<span class="blind">로 페이지 공유하기</span></a></li>
+                      <li><a href="#" class="ico-btn kk" title="카카오톡에 공유하기, 새창열림" data-link-name="kakaotalk">카카오톡<span
+                            class="blind">으로 페이지 공유하기</span></a></li>
+                      <li><a href="#" class="ico-btn url" data-link-name="copy_url">URL복사<span
+                            class="blind">하기</span></a></li>
+                    </ul>
+                  </div>
+                  <button type="button" class="btn-close"><span class="blind">닫기</span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- //Share -->
+
+        <!-- 컨텐츠 시작 -->
+        <div class="container">
+          <!--Visual-->
+          <section class="con-box page-tit">
+            <h2 class="blind">LG 가전위키 TV편</h2>
+            <!-- <a href="#none" class="go-btn">기초스펙 용어집 TV편  바로가기</a> -->
+            <nav class="nav">
+              <ul>
+                <li class="active"><a href="#section01">화질</a></li>
+                <li><a href="#section02">해상도</a></li>
+                <li><a href="#section03">명암비</a></li>
+                <li><a href="#section04">주사율</a></li>
+                <li><a href="#section05">사운드</a></li>
+                <li><a href="#section06">스마트</a></li>
+              </ul>
+            </nav>
+          </section>
+
+          <!--section01-->
+          <section id="section01" class="con-box section01">
+            <h3 class="main-tit animate__animated animate__fadeInUp">
+              <span class="iblock">기술력에 따라</span>
+              <span class="iblock">달라지는<span class="sep">,</span> <strong>화질</strong></span>
+            </h3>
+            <p class="main-tit-sub animate__animated animate__fadeInUp">
+              <span class="iblock">디스플레이는 여러 층의 패널로 구성되며,</span>
+              <span class="iblock">그 구성에 따라 총 여섯가지의 종류로 나뉩니다.</span>
+              <span class="iblock">그 중에서도 나노셀, QNED, OLED는</span>
+              <span class="iblock">색 재현력과 정확도</span>
+              <span class="iblock">그리고 명암비 향상을 위해</span>
+              <span class="iblock">다양한 기술을 적용하여</span>
+              <span class="iblock">더욱 밝고 선명한 화질을 구현합니다.</span>
+            </p>
+            <div class="swiper-list01 animate__animated animate__fadeInUp">
+              <div thumbsSlider="" class="thumb-swiper swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><span class="in">LCD</span></div>
+                  <div class="swiper-slide"><span class="in">Ultra HD</span></div>
+                  <div class="swiper-slide"><span class="in">나노셀</span></div>
+                  <div class="swiper-slide"><span class="in">QNED</span></div>
+                  <div class="swiper-slide"><span class="in">OLED</span></div>
+                </div>
+              </div>
+              <div class="list-swiper swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="img">
+                      <video muted playsinline class="m-show" poster="/kr/story/user-guide/images/basic-spec-vocabulary/m-quality-list01.png">
+                        <source src="/kr/story/user-guide/images/basic-spec-vocabulary/m-quality-list01.mp4">
+                      </video>
+                      <video muted playsinline class="pc-show" poster="/kr/story/user-guide/images/basic-spec-vocabulary/quality-list01.png">
+                        <source src="/kr/story/user-guide/images/basic-spec-vocabulary/quality-list01.mp4">
+                      </video>
+                    </div>
+                    <div class="text">
+                      <span class="iblock">LCD는 액정 디스플레이라고도 불리며</span>
+                      <span class="iblock">TV, 시계 등 다양한 전자기기에서 사용됩니다.</span><br>
+                      RGB(빨녹파)의 여러 조합을 통해 색을 만들 수 있으며,
+                      형광램프로 이루어진 백라이트를 통해 색상을 표현합니다.
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="img">
+                      <video muted playsinline class="m-show" poster="/kr/story/user-guide/images/basic-spec-vocabulary/m-quality-list01.png">
+                        <source src="/kr/story/user-guide/images/basic-spec-vocabulary/m-quality-list01.mp4">
+                      </video>
+                      <video muted playsinline class="pc-show" poster="/kr/story/user-guide/images/basic-spec-vocabulary/quality-list01.png">
+                        <source src="/kr/story/user-guide/images/basic-spec-vocabulary/quality-list01.mp4">
+                      </video>
+                    </div>
+                    <div class="text">
+                      UHD(Ultra High Definition)는 일반적인 HD보다
+                      4배 이상 화질이 좋은 초고해상도를 의미하며,
+                      <span class="iblock">더욱 선명하고 정교한 화면을 제공하여</span>
+                      <span class="iblock">생동감 있게 표현합니다.</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="img">
+                      <video muted playsinline class="m-show" poster="/kr/story/user-guide/images/basic-spec-vocabulary/m-quality-list03.png">
+                        <source src="/kr/story/user-guide/images/basic-spec-vocabulary/m-quality-list03.mp4">
+                      </video>
+                      <video muted playsinline class="pc-show" poster="/kr/story/user-guide/images/basic-spec-vocabulary/quality-list03.png">
+                        <source src="/kr/story/user-guide/images/basic-spec-vocabulary/quality-list03.mp4">
+                      </video>
+                    </div>
+                    <div class="text">
+                      나노셀은 패널에 약 1나노미터(nm) 크기의
+                      극미세 분자구조를 활용한 LG전자가 독자 개발한 기술입니다.
+                      <span class="iblock">극미세 분자들의 색상을 정확하게 구현하여 측면에서</span>
+                      <span class="iblock">볼 때에도  본연의 색채를 감상할 수 있습니다.</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="img">
+                      <video muted playsinline class="m-show" poster="/kr/story/user-guide/images/basic-spec-vocabulary/m-quality-list04.png">
+                        <source src="/kr/story/user-guide/images/basic-spec-vocabulary/m-quality-list04.mp4">
+                      </video>
+                      <video muted playsinline class="pc-show" poster="/kr/story/user-guide/images/basic-spec-vocabulary/quality-list04.png">
+                        <source src="/kr/story/user-guide/images/basic-spec-vocabulary/quality-list04.mp4">
+                      </video>
+                    </div>
+                    <div class="text">
+                      색 재현력과 정확도를 높여 표현하는 ‘나노셀' 기술에
+                      풍부한 색감을 제공하는 ‘퀀텀닷' 기술을 함께 사용하여
+                      <span class="iblock">색의 표현 능력을 극대화하고,</span> <span class="iblock">나노셀 TV보다 더 작고 촘촘한</span>
+                      <span class="iblock">Mini LED를 사용하여 명암비를 높였습니다.</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="img">
+                      <video muted playsinline class="m-show" poster="/kr/story/user-guide/images/basic-spec-vocabulary/m-quality-list05.png">
+                        <source src="/kr/story/user-guide/images/basic-spec-vocabulary/m-quality-list05.mp4">
+                      </video>
+                      <video muted playsinline class="pc-show" poster="/kr/story/user-guide/images/basic-spec-vocabulary/quality-list05.png">
+                        <source src="/kr/story/user-guide/images/basic-spec-vocabulary/quality-list05.mp4">
+                      </video>
+                    </div>
+                    <div class="text">
+                      스스로 빛을 내는 자체발광 디스플레이로, LED 백라이트가 불필요하기 때문에 두께가 얇습니다.
+                      <span class="iblock">어두운 화면에서도 정확한 색상을 표현하며,</span>
+                      <span class="iblock">다각도에서 시청해도</span>
+                      <span class="iblock">실제와 유사한 색상을 일관되게 구현합니다.</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <dl class="extend-detail animate__animated animate__fadeInUp">
+              <dt>
+                <button type="button" aria-expanded="false">
+                  <small>LG만의 특별함</small>
+                  LG만의  더 실감 나게 하는 비결 보기
+                  <span class="toggle"></span>
+                </button>
+              </dt>
+              <dd>
+                <strong class="subj">더 실감 나게, OLED evo의 <span class="iblock">알파 9 프로세서</span></strong>
+                <p>
+                  LG의 OLED evo 티비에는 인공지능 알파 9 기술이 접목되어 있습니다.
+                  인공지능 알파 9 기반의 밝기 향상 기술(Brightness Booster Max)로 픽셀 하나하나의 밝기를 제어하는 알고리즘과 빛의 각도를 조절해 최대 74% 더 밝고 선명해졌습니다.
+                </p>
+                <div class="img">
+                  <img src="/kr/story/user-guide/images/basic-spec-vocabulary/quality-detail01.jpg" alt="" />
+                </div>
+              </dd>
+            </dl>
+          </section>
+
+          <!--section02-->
+          <section id="section02" class="con-box section02">
+            <h3 class="main-tit animate__animated animate__fadeInUp">
+              <span class="iblock">나뉠수록</span>
+              <span class="iblock">선명해지는<span class="sep">,</span> <strong>해상도</strong></span>
+            </h3>
+            <p class="main-tit-sub animate__animated animate__fadeInUp">
+              <span class="iblock">이미지는 수많은 픽셀(Pixel)로</span>
+              <span class="iblock">이루어진 점들의</span>
+              <span class="iblock">배열로 형성됩니다.</span>
+              <span class="iblock">더 많은 픽셀은 화면을 더 조밀하게</span>
+              <span class="iblock">만들어 고화질 이미지를 구성합니다.</span><br>
+              <span class="iblock">일반적으로 4K 및 8K가 선호되며,</span>
+              <span class="iblock">개인의 시청 환경과</span>
+              <span class="iblock">목적에 따라 해상도를 결정할 수 있습니다.</span>
+            </p>
+            <div class="swiper-list01 animate__animated animate__fadeInUp">
+              <div thumbsSlider="" class="thumb-swiper swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><span class="in">4K</span></div>
+                  <div class="swiper-slide"><span class="in">8K</span></div>
+                </div>
+              </div>
+              <div class="list-swiper swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="img">
+                      <video muted playsinline class="m-show" poster="/kr/story/user-guide/images/basic-spec-vocabulary/m-resolution-list01.png">
+                        <source src="/kr/story/user-guide/images/basic-spec-vocabulary/m-resolution-list01.mp4">
+                      </video>
+                      <video muted playsinline class="pc-show" poster="/kr/story/user-guide/images/basic-spec-vocabulary/resolution-list01.png">
+                        <source src="/kr/story/user-guide/images/basic-spec-vocabulary/resolution-list01.mp4">
+                      </video>
+                    </div>
+                    <div class="text">
+                      ‘K’는 1,000을 의미하며 가로가 약 4,000px인 화면을 4K라고 칭합니다.<br class="pc-show">
+                      가로 3840px, 세로 2160px로 약 800만 픽셀로 이루어져 높은 화질의 이미지를 구현합니다.<br>
+                      이전에는 4K 해상도의 콘텐츠의 생산이 적어 소비자들이 4K TV를 구매하더라도<br class="pc-show">
+                      4K 해상도의 콘텐츠를 시청할 수 있는 기회가 적었습니다.<br class="pc-show">
+                      하지만 현재는 다양하고 풍부한 4K 콘텐츠가 제작되고 있어서 4K TV의 활용도가 높아졌습니다.
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="img">
+                      <video muted playsinline class="m-show" poster="/kr/story/user-guide/images/basic-spec-vocabulary/m-resolution-list02.png">
+                        <source src="/kr/story/user-guide/images/basic-spec-vocabulary/m-resolution-list02.mp4">
+                      </video>
+                      <video muted playsinline class="pc-show" poster="/kr/story/user-guide/images/basic-spec-vocabulary/resolution-list02.png">
+                        <source src="/kr/story/user-guide/images/basic-spec-vocabulary/resolution-list02.mp4">
+                      </video>
+                    </div>
+                    <div class="text">
+                      8K 화면은 가로 7680px, 세로 4320px로 약 3,300만 픽셀로 이루어져 있습니다. 4K에 비해
+                      4배 더 고화질의 이미지를 구현하기 때문에, 시청 거리가 먼 경우 더욱 생동감 있게 영상을 감상할 수 있습니다.<br>
+                      비교적 새로운 기술이어서 8K 해상도의 콘텐츠가 제한적이지만, ‘업스케일링' 기능을 사용하여
+                      낮은 해상도의 콘텐츠도 고화질로 즐길 수있습니다.
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <dl class="extend-detail animate__animated animate__fadeInUp">
+              <dt>
+                <button type="button" aria-expanded="false">
+                  <small>LG만의 특별함</small>
+                  LG만의 더 선명해지는 비결 보기
+                  <span class="toggle"></span>
+                </button>
+              </dt>
+              <dd>
+                <strong class="subj">8K가 아니더라도 인공지능 업스케일링 하면 되니까</strong>
+                <p>
+                  디스플레이가 8K를 지원하더라도 8K로 제작된 콘텐츠가 아니라면 온전하게 감상하기 어렵습니다.<br>
+                  LG는 AI 기술을 활용하여 낮은 해상도의 FHD 콘텐츠를 디스플레이 패널에 맞게 변환하여
+                  <span class="iblock">고화질의 이미지를 제공하고 있습니다.</span>
+                </p>
+                <div class="img">
+                  <img src="/kr/story/user-guide/images/basic-spec-vocabulary/m-resolution-detail01.jpg" alt="" class="m-show" />
+                  <img src="/kr/story/user-guide/images/basic-spec-vocabulary/resolution-detail01.jpg" alt="" class="pc-show" />
+                </div>
+              </dd>
+            </dl>
+          </section>
+
+          <!--section03-->
+          <section id="section03" class="con-box section03">
+            <h3 class="main-tit animate__animated animate__fadeInUp">
+              <span class="iblock">어두운 곳은</span>
+              <span class="iblock">더 어둡게<span class="sep">,</span> <strong>명암비</strong></span>
+            </h3>
+            <p class="main-tit-sub animate__animated animate__fadeInUp">
+              <span class="iblock">명암비를 뜻하는 HDR은</span>
+              <span class="iblock">High Dynamic Range의 약자이며,</span>
+              <span class="iblock">밝음과 어두움 사이의 영역을 디스플레이에</span>
+              <span class="iblock">더 많이 표시할 수 있는 기술을 말합니다.</span><br>
+              <span class="iblock">콘텐츠의 밝은 부분을 더 밝고 어두운 부분을</span>
+              <span class="iblock">더 어둡게 변환하여,</span>
+              <span class="iblock">생동감 있는 화면을 제공합니다.</span>
+            </p>
+            <div class="def-list">
+              <dl class="item animate__animated animate__fadeInUp">
+                <dt>HDR 10</dt>
+                <dd>
+                  <span class="iblock">HDR 10은 최대 100니트인 SDR에 비해</span>
+                  <span class="iblock">최대 1,000니트로 발전된</span>
+                  <span class="iblock">가장 기본적인 HDR 포맷입니다.</span><br>
+                  <span class="iblock">로열티 없이 무료로 사용되어</span>
+                  <span class="iblock">많은 사용자와 콘텐츠</span>
+                  <span class="iblock">제공자에게 선호되고 있습니다.</span>
+                  <span class="iblock">하지만 조금은 오래된</span>
+                  <span class="iblock">HDR 포맷으로 인식되고 있습니다.</span>
+                </dd>
+              </dl>
+              <dl class="item animate__animated animate__fadeInUp">
+                <dt>HLG</dt>
+                <dd>
+                  <span class="iblock">HLG는 실시간 중계방송 및 주요 방송사에서</span>
+                  <span class="iblock">HDR 콘텐츠를 송출할 때 사용합니다.</span><br>
+                  <span class="iblock">HLG는 기존 SDR 위에 HDR을 추가하는 방식입니다.</span>
+                  <span class="iblock">그렇기 때문에 기존의 SDR TV와 더불어 HDR TV와의</span>
+                  <span class="iblock">호환성도 좋습니다.</span>
+                  <span class="iblock">하지만, 어두운 영역에서</span>
+                  <span class="iblock">세부적인 표현이 어렵다는 단점이 있습니다.</span>
+                </dd>
+              </dl>
+              <dl class="item animate__animated animate__fadeInUp">
+                <dt>Dolby <span class="iblock">Vision</span></dt>
+                <dd>
+                  <span class="iblock">Dolby 사에서 개발하여</span>
+                  <span class="iblock">풍부한 색감과 밝기를</span>
+                  <span class="iblock">제공하지만,</span><br class="pc-show">
+                  <span class="iblock">라이선스 비용이</span>
+                  <span class="iblock">발생하는 포맷입니다.</span><br class="pc-show">
+                  <span class="iblock">많은 플랫폼에서</span>
+                  <span class="iblock">돌비 비전 기술을 적용하여</span>
+                  <span class="iblock">고품질의 콘텐츠를</span>
+                  <span class="iblock">제작하고 있습니다.</span>
+                  <span class="iblock">돌비 비전 콘텐츠를</span>
+                  <span class="iblock">온전히 감상하기 위해서는</span>
+                  <span class="iblock">전용 디스플레이가 필요합니다.</span>
+                </dd>
+              </dl>
+              <dl class="item animate__animated animate__fadeInUp">
+                <dt class="side-type">
+                  <img src="/kr/story/user-guide/images/basic-spec-vocabulary/hdr-diagram.png" alt="" class="abs" />
+                  구독 중인 OTT에서 제작한 <br>HDR 콘텐츠를 확인해 보세요.
+                </dt>
+                <dd class="side-type">
+                  최근 OTT 서비스들이 다양한 HDR 포맷의 콘텐츠를 제공하고 있습니다.
+                  주로 이용하는 OTT가 어떤 HDR 포맷의 콘텐츠를 제작하는지 확인해 보세요.
+                  더 정확한 색감을 경험하려면 HDR 포맷과 맞는 디스플레이로 시청하는 것이 좋습니다.
+                </dd>
+                <dd>
+                  <table class="table-type01">
+                    <caption class="show bottom">OTT와 TV 모델의 HDR 비교 예시</caption>
+                    <colgroup><col style="width:33.3%;" /><col style="width:33.3%;" /><col style="width:33.4%;" /></colgroup>
+                    <thead>
+                      <tr>
+                        <th scope="col"><span class="iblock">구독 중인</span> <span class="iblock">OTT 상세 정보</span></th>
+                        <th scope="col">LG TV 상세 정보</th>
+                        <th scope="col" class="other">타사 TV 상세 정보</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>4K / HD</td>
+                        <td class="line01"><div class="in">OLED TV / 245cm<br>올레드 / 4K</div></td>
+                        <td class="other">LED TV / 189cm<br>올레드 / 4K</td>
+                      </tr>
+                      <tr>
+                        <td>Dolby Vision<br>HDR10<br>HLG</td>
+                        <td class="line02"><div class="in">Dolby Vision<br>HDR10<br>HLG</div></td>
+                        <td class="other">HDR10+<br>HLG</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </dd>
+              </dl>
+            </div>
+            <dl class="extend-detail animate__animated animate__fadeInUp">
+              <dt>
+                <button type="button" aria-expanded="false">
+                  <small>LG만의 특별함</small>
+                  LG만의 더 깊이 있는 어둠의 비결 보기
+                  <span class="toggle"></span>
+                </button>
+              </dt>
+              <dd>
+                <strong class="subj">진정한 블랙이 만든 무한 명암비, SELF-LIT Pixels</strong>
+                <p>
+                  각 픽셀이 자체적으로 발광하는 Self-lit pixels는 특정 부분만 활성화되면 나머지 부분은 칠흑같이
+                  어두워지는 특징이 있습니다. 이러한 특징으로 인해, 어두운 장면에서도 세부적인 색상과 명암을
+                  정확하게 표현할 수 있습니다.
+                </p>
+                <div class="img">
+                  <img src="/kr/story/user-guide/images/basic-spec-vocabulary/m-hdr-detail01.jpg" alt="" class="m-show" />
+                  <img src="/kr/story/user-guide/images/basic-spec-vocabulary/hdr-detail01.jpg" alt="" class="pc-show" />
+                </div>
+              </dd>
+            </dl>
+          </section>
+
+          <!--section04-->
+          <section id="section04" class="con-box section04">
+            <h3 class="main-tit animate__animated animate__fadeInUp">
+              <span class="iblock">부드러운</span>
+              <span class="iblock">화면엔<span class="sep">,</span> <strong>주사율</strong></span>
+            </h3>
+            <p class="main-tit-sub animate__animated animate__fadeInUp">
+              <span class="iblock">주사율은 초당 표시되는 이미지 수를 나타내며,</span>
+              <span class="iblock">Hz(헤르츠) 단위로 표시됩니다.</span>
+              <span class="iblock">높은 주사율은 더 많은 이미지를</span>
+              <span class="iblock">짧은 시간에 표시하므로,</span>
+              <span class="iblock">부드럽고 생동감 있는</span>
+              <span class="iblock">화면을 제공합니다.</span>
+              <span class="iblock">일반적으로 사용하는 주사율로는</span>
+              <span class="iblock">60Hz와 120Hz가 있으며,</span>
+              <span class="iblock">개인의 목적에 따라 결정할 수 있습니다.</span>
+            </p>
+            <div class="swiper-list02 animate__animated animate__fadeInUp">
+              <div class="list-swiper swiper">
+                <div class="swiper-wrapper">
+                  <a class="swiper-slide" href="#section04_60Hz" aria-haspopup="true" aria-expanded="false">
+                    <dl class="scanrate-img01">
+                      <dt>
+                        <small>영화를 즐기기에 충분한</small>
+                        60Hz
+                      </dt>
+                      <dd>
+                        영상의 대부분은 60Hz(초당 60 프레임) 이므로영화나 드라마를 보시기에 60Hz만으로 충분합니다.
+                        <span class="more-btn">LG만의 시네마 기능 더 알아보기</span>
+                      </dd>
+                    </dl>
+                  </a>
+                  <a class="swiper-slide" href="#section04_120Hz" aria-haspopup="true" aria-expanded="false">
+                    <dl class="scanrate-img02">
+                      <dt>
+                        <small>박진감 넘치는 액션에는</small>
+                        120Hz
+                      </dt>
+                      <dd>
+                        스포츠 콘텐츠나 게임 콘텐츠를 즐기시는 분들께는 잔상이 없는 높은 주사율의 제품을 추천드립니다.
+                        <span class="more-btn">LG만의 게이밍 기능 더 알아보기</span>
+                      </dd>
+                    </dl>
+                  </a>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <div id="section04_60Hz" class="detail-more">
+              <div class="inner scanrate-img03">
+                <dl>
+                  <dt>
+                    <small>LG만의 특별함</small>
+                    집에서도 영화관처럼, 필름 메이커 모드
+                  </dt>
+                  <dd>
+                    돌비 비전의 선명한 영상과 돌비 애트모스의 몰입형
+                    공간 음향으로 시·청각적인 요소가 어우러져
+                    실제와 가까운 현장감을 느낄 수 있습니다.
+                  </dd>
+                  <dd class="logos"><img src="/kr/story/user-guide/images/basic-spec-vocabulary/scanrate-detail01-2.jpg" alt="" /></dd>
+                </dl>
+                <button type="button" class="close-btn">close</button>
+              </div>
+            </div>
+            <div id="section04_120Hz" class="detail-more">
+              <div class="inner scanrate-img04">
+                <dl>
+                  <dt>
+                    <small>LG만의 특별함</small>
+                    빠져드는 액션, 게이밍 모드
+                  </dt>
+                  <dd>
+                    0.1ms의 초고속 응답속도, NVIDIA G-Sync 호환성,
+                    AMD FreeSync 프리미엄, *VRR 지원까지 선명하고 부드러운 화면을 구현합니다.
+                  </dd>
+                  <dd class="note">
+                    <em class="note-subj">*VRR(Variable Refresh Rate, 가변주사율) :</em><br>
+                    영상 기기의 초당 프레임에 따라 디스플레이 기기의 주사율을 조절해 입력 지연을 최소화하는 기능
+                  </dd>
+                  <dd class="logos"><img src="/kr/story/user-guide/images/basic-spec-vocabulary/scanrate-detail02-2.jpg" alt="" /></dd>
+                </dl>
+                <button type="button" class="close-btn">close</button>
+              </div>
+            </div>
+
+            <!-- product // -->
+            <div class="prod-list01 animate__animated animate__fadeInUp">
+              <h4 class="main-tit02">
+                <small>LG만의 특별함을 담은</small>
+                더 선명하고 부드러운 TV
+              </h4>
+
+              <div class="swiper-list04">
+                <div class="list-swiper swiper">
+                  <div class="swiper-wrapper">
+                    <a class="swiper-slide" href="https://www.lge.co.kr/tvs?subCateId=CT50000028">
+                      <span class="thumb"><img src="/kr/story/user-guide/images/basic-spec-vocabulary/prod-list01.png" alt="" /></span>
+                      <!-- <span class="pname">LG 올레드 LG 올레드 LG 올레드LG 올레드</span>
+                      <span class="pcode">OLED77G3KNA</span> -->
+                      <span class="go-btn">OLED TV 보러 가기</span>
+                    </a>
+                    <a class="swiper-slide" href="https://www.lge.co.kr/tvs?subCateId=CT50041000">
+                      <span class="thumb"><img src="/kr/story/user-guide/images/basic-spec-vocabulary/prod-list02.png" alt="" /></span>
+                      <!-- <span class="pname">LG 올레드 LG 올레드 LG 올레드LG 올레드</span>
+                      <span class="pcode">OLED77G3KNA</span> -->
+                      <span class="go-btn">QNED TV 보러 가기</span>
+                    </a>
+                    <a class="swiper-slide" href="https://www.lge.co.kr/tvs?subCateId=CT50000029">
+                      <span class="thumb"><img src="/kr/story/user-guide/images/basic-spec-vocabulary/prod-list03.png" alt="" /></span>
+                      <!-- <span class="pname">LG 올레드 LG 올레드 LG 올레드LG 올레드</span>
+                      <span class="pcode">OLED77G3KNA</span> -->
+                      <span class="go-btn">나노셀 TV 보러 가기</span>
+                    </a>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+                <!-- <a href="#none" class="go-btn2">더 많은 제품 보러 가기</a> -->
+              </div>
+            </div>
+            <!-- // product -->
+          </section>
+
+          <!--section05-->
+          <section id="section05" class="con-box section05">
+            <h3 class="main-tit animate__animated animate__fadeInUp">
+              <span class="iblock">공간 속에 있는 듯한<span class="sep">,</span></span>
+              <span class="iblock"><strong>사운드</strong></span>
+            </h3>
+            <p class="main-tit-sub animate__animated animate__fadeInUp">
+              <span class="iblock">사운드 출력은 디지털로 된 정보를 스피커를</span>
+              <span class="iblock">통해 들을 수 있는 형태의 소리로 바꾸는</span>
+              <span class="iblock">과정을 의미합니다.</span>
+              <span class="iblock">사운드 채널은 출력한 사운드를</span>
+              <span class="iblock">조정하는 음성 시스템을 의미합니다.</span>
+            </p>
+            <div class="def-list animate__animated animate__fadeInUp">
+              <dl class="item">
+                <dt>2 채널</dt>
+                <dd>
+                  ‘스테레오’라고 불리는 채널입니다.<br>
+                  총 2개의 좌우 스피커를 통해 소리를 송출하며 소리의 위치와 움직임 파악이 가능합니다.
+                </dd>
+              </dl>
+              <dl class="item">
+                <dt>2.1 채널</dt>
+                <dd>
+                  2개의 좌우 스피커와 서브우퍼(0.1채널)로 구성된 채널입니다.<br>
+                  낮은 주파수를 담당하는 서브우퍼의 추가로 깊은 베이스 효과를 제공합니다.
+                </dd>
+              </dl>
+              <dl class="item">
+                <dt>5.1 채널</dt>
+                <dd>
+                  앞쪽에 메인이 되는 좌우 스피커와 센터 스피커 1개, 그리고 2개의 리어 스피커와 서브우퍼(0.1채널)로 구성된 채널입니다.
+                  센터 스피커에서는 사람의 목소리만 출력하고, 뒤쪽에 위치한 리어 스피커는 음향 효과를 재생하여 공간적인 소리를 표현합니다.
+                  소리가 다각도에서 나오기 때문에 몸을 감싸는 듯한 입체적인 느낌을 줍니다.
+                </dd>
+              </dl>
+            </div>
+            <dl class="extend-detail animate__animated animate__fadeInUp">
+              <dt>
+                <button type="button" aria-expanded="false">
+                  <small>LG만의 특별함</small>
+                  LG만의 더 입체적인 음향 비결 보기
+                  <span class="toggle"></span>
+                </button>
+              </dt>
+              <dd>
+                <ul class="thumb-list">
+                  <li>
+                    <div class="img"><img src="/kr/story/user-guide/images/basic-spec-vocabulary/sound-detail01.jpg" alt="" /></div>
+                    <div class="text">
+                      <strong class="subj">깊은 공간감, 와우 오케스트라</strong>
+                      <p>TV 스피커와 사운드바 스피커가 동시에 출력돼 풍부한 음향을 제공합니다. 또한, 영상의 장르와 소리를 구분하고 음성과 배경음을 분리한 9.1.2 서라운드 효과로 깊은 공간감과 입체적인 사운드를 즐길 수 있습니다.</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="img"><img src="/kr/story/user-guide/images/basic-spec-vocabulary/sound-detail02.jpg" alt="" /></div>
+                    <div class="text">
+                      <strong class="subj">우리 집에 맞는, AI 공간 최적화 프로</strong>
+                      <p>사운드바를 설치하는 공간을 고려해 사운드를 최적화합니다. 참조 주파수를 400Hz의 확장된 범위로 매칭 시킴으로써 공간을 더 상세하게 분석하고 소리의 왜곡을 고정합니다.</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="img"><img src="/kr/story/user-guide/images/basic-spec-vocabulary/sound-detail03.jpg" alt="" /></div>
+                    <div class="text">
+                      <strong class="subj">풍부한 사운드, 트리플 상향 스피커</strong>
+                      <p>중앙의 1개 채널을 더해 3개로 업그레이드된 상방향 스피커는 목소리를 더욱 선명하게 전달하고 입체적인 공간 음향감을 완벽하게 구현합니다.</p>
+                    </div>
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+          </section>
+
+          <!--section06-->
+          <section id="section06" class="con-box section06">
+            <h3 class="main-tit animate__animated animate__fadeInUp">
+              <span class="iblock">나에게 딱 맞는<span class="sep">,</span></span>
+              <span class="iblock"><strong>스마트 기능</strong></span>
+            </h3>
+            <p class="main-tit-sub animate__animated animate__fadeInUp">
+              <span class="iblock">스마트 TV, 음성 제어, 스마트홈 등</span>
+              <span class="iblock">여러 스마트 기능을 편리하게 사용하고,</span>
+              <span class="iblock">다양한 콘텐츠를 즐길 수 있는 환경을 제공합니다.</span>
+            </p>
+            <div class="def-list animate__animated animate__fadeInUp">
+              <dl class="item">
+                <dt>스마트 TV</dt>
+                <dd>
+                  <span class="iblock">인터넷 접속이 가능한 TV로, 애플리케이션을</span>
+                  <span class="iblock">설치하여 다양한 서비스를</span>
+                  <span class="iblock">즐길 수 있습니다.</span>
+                </dd>
+              </dl>
+              <dl class="item">
+                <dt>음성 제어</dt>
+                <dd>
+                  <span class="iblock">직접 제어하지 않고도 사용자의</span>
+                  <span class="iblock">음성을 인식하여 실행할 수 있습니다.</span>
+                </dd>
+              </dl>
+              <dl class="item">
+                <dt>스마트홈</dt>
+                <dd>
+                  <span class="iblock">스마트 TV를 중심으로 집 안의 다양한 전자제품을</span>
+                  <span class="iblock">연결하여 제어할 수 있습니다.</span>
+                </dd>
+              </dl>
+            </div>
+            <div class="swiper-list03 animate__animated animate__fadeInUp">
+              <div thumbsSlider="" class="thumb-swiper swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><span class="in">인공지능</span></div>
+                  <div class="swiper-slide"><span class="in">퀵 카드</span></div>
+                  <div class="swiper-slide"><span class="in">맞춤 화면</span></div>
+                  <div class="swiper-slide"><span class="in">ThinQ</span></div>
+                </div>
+              </div>
+              <div class="list-swiper swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide smart-img01">
+                    <dl class="text">
+                      <dt><small>LG만의 특별함</small> 인공지능 맞춤 제안</dt>
+                      <dd>사용자의 음성을 인식하고 이를 학습하여 개인의 취향에 맞는 키워드를 추천해 줍니다.</dd>
+                    </dl>
+                  </div>
+                  <div class="swiper-slide smart-img02">
+                    <dl class="text">
+                      <dt><small>LG만의 특별함</small> 퀵 카드</dt>
+                      <dd>홈 화면의 홈 오피스, 게임, 음악, 스포츠 등 선호하는 콘텐츠의 퀵 카드를 선택하면 관련 서비스와 콘텐츠를 한눈에 보고 사용할 수 있습니다.</dd>
+                    </dl>
+                  </div>
+                  <div class="swiper-slide smart-img03">
+                    <dl class="text">
+                      <dt><small>LG만의 특별함</small> 맞춤 화면 모드</dt>
+                      <dd>선호하는 이미지를 선택하면 8,500만 개 설정 중 가장 적합한 색감, 명암비, 선명도, 채도 등을 설정해 맞춤 화질로 영상을 감상할 수 있습니다.</dd>
+                    </dl>
+                  </div>
+                  <div class="swiper-slide smart-img04">
+                    <dl class="text">
+                      <dt><small>LG만의 특별함</small> ThinQ</dt>
+                      <dd>IoT를 앱에 연결해 원격 작동이 가능합니다. 현재 사용 중인 가전제품을 한 눈에 살펴볼 수 있습니다. 나아가 다양한 제품들에 AI 기능을 통합하여 더 유용한 사용자 경험을 제공합니다.</dd>
+                    </dl>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+
+            <!-- product // -->
+            <div class="prod-list01 animate__animated animate__fadeInUp">
+              <h4 class="main-tit02">
+                <small>LG만의 특별함을 담은</small>
+                더 웅장한 사운드와 더 스마트한 캠
+              </h4>
+
+              <div class="swiper-list04">
+                <div class="list-swiper swiper">
+                  <div class="swiper-wrapper">
+                    <a class="swiper-slide" href="https://www.lge.co.kr/home-audio?subCateId=CT50000041">
+                      <span class="thumb"><img src="/kr/story/user-guide/images/basic-spec-vocabulary/prod-list04.png" alt="" /></span>
+                      <!-- <span class="pname">LG 사운드바LG 사운드바 LG 사운드바LG 사운드바</span>
+                      <span class="pcode">OLED77G3KNA</span> -->
+                      <span class="go-btn">사운드바 보러 가기</span>
+                    </a>
+                    <a class="swiper-slide" href="https://www.lge.co.kr/tvs?subCateId=CT50220000">
+                      <span class="thumb"><img src="/kr/story/user-guide/images/basic-spec-vocabulary/prod-list05.png" alt="" /></span>
+                      <!-- <span class="pname">LG 사운드바LG 사운드바 LG 사운드바LG 사운드바</span>
+                      <span class="pcode">OLED77G3KNA</span> -->
+                      <span class="go-btn">TV+스마트 캠 보러 가기</span>
+                    </a>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+                <!-- <a href="#none" class="go-btn2">더 많은 제품 보러 가기</a> -->
+              </div>
+            </div>
+            <!-- // product -->
+          </section>
+        </div>
+        <!-- //컨텐츠 끝 -->
+      </div>
+      <!-- Contents -->
+
+      <!-- footer -->
+      <jsp:include page="/kr/footer">
+        <jsp:param name="bizType" value="B2C" />
+      </jsp:include>
+      <!-- // footer -->
+
+      <!-- footerDefault -->
+      <c:import url="/WEB-INF/jsp/common/includes/footerDefault.jsp" charEncoding="utf-8" />
+      <!-- // footerDefault -->
+    </body>
+  </html>
