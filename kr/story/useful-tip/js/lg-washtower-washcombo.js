@@ -7,10 +7,10 @@ $(document).ready(function () {
       if(this.getBoundingClientRect().top < _h*0.85){
         this.classList.remove("ani_out");
         this.classList.add("ani");
-        this.querySelectorAll(".swiper-slide-active video").forEach(el => {
-          el.currentTime = 0;
-          el.play();
-        });
+        // this.querySelectorAll(".swiper-slide-active video").forEach(el => {
+        //   el.currentTime = 0;
+        //   el.play();
+        // });
       }else{
         this.classList.add("ani_out");
         this.classList.remove("ani");
@@ -45,7 +45,6 @@ $(document).ready(function () {
   
   if (pc_only.matches == false) {
     $(window).scroll(function () {
-      console.log($(this).scrollTop(),',',$('#tab-contents').offset().top);
       if($(this).scrollTop() > $('#tab-contents').offset().top){
           if ($('.mobile-nav-wrap').hasClass('hide')) {
             $('.page-tit').css({"transform":"translateY(0rem)","transition":".2s ease"});
@@ -186,6 +185,15 @@ $(document).ready(function () {
       $(this).find('img').eq(idx).show().siblings().hide();
     });
   });
+  $('.compare-space .tab-box ul li').on("keydown", function(event) {
+    if ( event.which == 13 ) {
+      var idx = $(this).index();
+      $(this).addClass('on').siblings().removeClass('on');
+      $('.compare-space .img-wrap').each(function () { 
+        $(this).find('img').eq(idx).show().siblings().hide();
+      });
+    }
+  });
   
   // PROGRESS BAR
   sol.find('button').click(function () {
@@ -219,10 +227,16 @@ $(document).ready(function () {
       clickable: true,
     },
     on: {
-      slideChange: function () {
+      slideChangeTransitionEnd: function () {
         $('.info-slot').removeClass('on');
         $('.info-slot .features-box').slideUp(500);
       },
+    },
+    a11y: {
+      enabled: true,
+      prevSlideMessage: '이전 슬라이드',
+      nextSlideMessage: '다음 슬라이드',   
+      slideLabelMessage: '총 {{slidesLength}}장의 슬라이드 중 {{index}}번 슬라이드 입니다.',
     },
   });
   
@@ -247,6 +261,23 @@ $(document).ready(function () {
       el: '.f_delicate .pagi',
       clickable: true
     },
+    a11y: {
+      enabled: true,
+      prevSlideMessage: '이전 슬라이드',
+      nextSlideMessage: '다음 슬라이드',   
+      slideLabelMessage: '총 {{slidesLength}}장의 슬라이드 중 {{index}}번 슬라이드 입니다.',
+    },
+  });
+
+  $('.find-function .function-info .vid-btn').click(function () { 
+    $(this).parent().toggleClass('pause');
+    if ($(this).parent().hasClass('pause')) {
+      $(this).parent().find('video').get(0).pause();
+      $(this).attr('aria-label', '영상 재생 버튼');
+    } else { 
+      $(this).parent().find('video').get(0).play();
+      $(this).attr('aria-label', '영상 일시정지 버튼');
+    }
   });
 
   /******* FIND COLOR *******/
@@ -273,14 +304,11 @@ $(document).ready(function () {
       },
     },
     on: {
-      slideChange: function () {
-        if (pc_only.matches == false) {
-          $('.color-info .swipe-info').hide(500);
-        }
-      },
       slideChangeTransitionStart: function () { 
         if(pc_only.matches){
           $('.color-info .info-slot .swiper-wrap .swiper').addClass('tcX');
+        } else { 
+          $('.color-info .swipe-info').hide(500);
         }
       },
       slideChangeTransitionEnd: function () { 
@@ -288,6 +316,12 @@ $(document).ready(function () {
           $('.color-info .info-slot .swiper-wrap .swiper').removeClass('tcX');
         }
       },
+    },
+    a11y: {
+      enabled: true,
+      prevSlideMessage: '이전 슬라이드',
+      nextSlideMessage: '다음 슬라이드',   
+      slideLabelMessage: '총 {{slidesLength}}장의 슬라이드 중 {{index}}번 슬라이드 입니다.',
     },
   });
 
@@ -312,27 +346,58 @@ $(document).ready(function () {
         }
       },
     },
+    a11y: {
+      enabled: true,
+      prevSlideMessage: '이전 슬라이드',
+      nextSlideMessage: '다음 슬라이드',   
+      slideLabelMessage: '총 {{slidesLength}}장의 슬라이드 중 {{index}}번 슬라이드 입니다.',
+    },
   });
 
   $('.color-info .info-slot').each(function (i, e) {
     $(e).find('.swiper .swiper-slide').click(function () {
       var idx = $(this).index();
       $(this).addClass('on').siblings().removeClass('on');
+      $('.color-info .info-slot .swiper .swiper-slide a').attr('tabindex', '-1');
+      $(this).find('a').removeAttr('tabindex');
       //$(e).find('.img-list img').eq(idx).addClass('on').siblings().removeClass('on');
       $(e).find('.img-list').each(function () {
         $(this).find('img').eq(idx).show().siblings().hide();
       });
+    });
+    $(e).find('.swiper .swiper-slide').keydown(function (event) {
+      if (event.which == 13) {
+        var idx = $(this).index();
+        $(this).addClass('on').siblings().removeClass('on');
+        $('.color-info .info-slot .swiper .swiper-slide a').attr('tabindex', '-1');
+        $(this).find('a').removeAttr('tabindex');
+        //$(e).find('.img-list img').eq(idx).addClass('on').siblings().removeClass('on');
+        $(e).find('.img-list').each(function () {
+          $(this).find('img').eq(idx).show().siblings().hide();
+        });
+      }
     });
   });
 
   $('.color-info .info-slot .swiper-wrap').mouseenter(function () {
     $('.color-info .swipe-info').hide(500);
   });
+
+  // FAQ
   $('.wash-faq .tab-list li').click(function () {
     if ($(this).hasClass('on') == false) {
       $(this).addClass('on').siblings().removeClass('on');
       $('.tab-list .a-box').slideUp(500);
       $(this).find('.a-box').slideDown(500);
+    }
+  });
+  $('.wash-faq .tab-list li').on("keydown", function(event) {
+    if ( event.which == 13 ) {
+      if ($(this).hasClass('on') == false) {
+        $(this).addClass('on').siblings().removeClass('on');
+        $('.tab-list .a-box').slideUp(500);
+        $(this).find('.a-box').slideDown(500);
+      }
     }
   });
 });

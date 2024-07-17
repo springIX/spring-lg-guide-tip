@@ -296,7 +296,7 @@ img, video {
   display: inline-block;
   padding: 0.313vw 0.625vw;
   border-radius: 4rem;
-  background-color: #ece2da;
+  background-color: #ECE2DA;
   font-weight: 700;
   font-size: 1.042vw;
 }
@@ -532,7 +532,7 @@ img, video {
   width: 100%;
   height: 76rem;
   padding: 0 40rem;
-  border: 1px solid #d6d6d6;
+  border: 1px solid #ccc;
   border-radius: 12rem;
   font-size: 22rem;
   font-weight: 500;
@@ -542,7 +542,7 @@ img, video {
   width: 34rem;
   height: 34rem;
   border-radius: 50%;
-  border: 1px solid #d6d6d6;
+  border: 1px solid #ccc;
   position: relative;
 }
 .container-washtower-washcombo .solution-survey .survey-wrap .survey-slot.step-slot .answer-box .ip-box label i::after {
@@ -591,23 +591,17 @@ img, video {
   color: #666;
   transition: 0.3s ease;
 }
-.container-washtower-washcombo .solution-survey .survey-wrap .survey-slot.step-slot .btn-wrap button.disabled {
-  touch-action: none;
-  pointer-events: none;
-}
-.container-washtower-washcombo .solution-survey .survey-wrap .survey-slot.step-slot .btn-wrap button.prv.disabled {
-  background-color: transparent;
-  border: 1px solid #dfdfdf;
-  color: #d6d6d6;
-}
 .container-washtower-washcombo .solution-survey .survey-wrap .survey-slot.step-slot .btn-wrap button.nxt {
   color: #fff;
   background-color: #000;
   margin-left: 24rem;
 }
-.container-washtower-washcombo .solution-survey .survey-wrap .survey-slot.step-slot .btn-wrap button.nxt.disabled {
-  background-color: #eee;
-  color: #ccc;
+.container-washtower-washcombo .solution-survey .survey-wrap .survey-slot.step-slot .btn-wrap button.disabled {
+  touch-action: none;
+  pointer-events: none;
+  background-color: transparent;
+  border: 1px solid #BCBCBC;
+  color: #999;
 }
 .container-washtower-washcombo .solution-survey .survey-wrap .survey-slot.result-slot {
   padding: 68rem 160rem;
@@ -670,6 +664,7 @@ img, video {
 }
 .container-washtower-washcombo .solution-survey .survey-wrap .survey-slot.result-slot .recommend .recommend-list li a {
   width: 100%;
+  height: 100%;
   border: 1px solid #dfdfdf;
   padding: 20rem;
   display: flex;
@@ -699,7 +694,6 @@ img, video {
   line-height: 1.4;
   margin-bottom: 40rem;
   letter-spacing: -0.06em;
-  white-space: nowrap;
 }
 .container-washtower-washcombo .solution-survey .survey-wrap .survey-slot.result-slot .recommend .recommend-list li a .txt-box p b {
   display: block;
@@ -890,6 +884,9 @@ img, video {
   border-radius: 4rem;
   overflow: hidden;
 }
+.container-washtower-washcombo .detail-compare .compare-space .img-box .img-wrap {
+  height: 100%;
+}
 .container-washtower-washcombo .detail-compare .compare-space .img-box img {
   width: 100%;
   height: 100%;
@@ -907,7 +904,8 @@ img, video {
   align-items: center;
   justify-content: space-between;
   font-size: 16rem;
-  color: #fff;
+  color: #f1f1f1;
+  filter: drop-shadow(0 0 15rem #2b251e);
 }
 .container-washtower-washcombo .detail-compare .compare-space .tab-box ul li {
   padding: 40rem 60rem;
@@ -1129,7 +1127,7 @@ img, video {
   height: auto;
   opacity: 1;
   border-radius: 999rem;
-  color: #999;
+  color: #767676;
   font-size: 24rem;
   text-align: center;
   transition: 0.3s ease;
@@ -1205,6 +1203,7 @@ img, video {
 .container-washtower-washcombo .find-function .function-info .info-slot .info-box .img-box .img-wrap {
   overflow: hidden;
   border-radius: 4rem;
+  position: relative;
 }
 .container-washtower-washcombo .find-function .function-info .info-slot .info-box .img-box .img-wrap video {
   width: 100%;
@@ -1212,9 +1211,21 @@ img, video {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.container-washtower-washcombo .find-function .function-info .info-slot .info-box .img-box .img-wrap .vid-btn {
+  width: 24rem;
+  height: 24rem;
+  position: absolute;
+  right: 16rem;
+  bottom: 16rem;
+  background: url(../img/washtower-washcombo/btn-vid-pause.svg) no-repeat center center/contain;
+  z-index: 1;
+}
+.container-washtower-washcombo .find-function .function-info .info-slot .info-box .img-box .img-wrap.pause .vid-btn {
+  background-image: url(../img/washtower-washcombo/btn-vid-play.svg);
+}
 .container-washtower-washcombo .find-function .function-info .info-slot .info-box .img-box p {
   font-size: 16rem;
-  color: #929292;
+  color: #666;
   margin-top: 16rem;
 }
 .container-washtower-washcombo .find-function .function-info .info-slot .info-box .txt-box {
@@ -1242,10 +1253,10 @@ img, video {
   display: flex;
   align-items: center;
   font-size: 16rem;
-  color: #999;
+  color: #666;
   padding: 8rem 15rem;
   border-radius: 99rem;
-  border: 1px solid #999;
+  border: 1px solid #666;
   position: absolute;
   right: 0;
   bottom: -16rem;
@@ -1264,7 +1275,7 @@ img, video {
   width: 100%;
   height: 2rem;
   min-height: 2px;
-  background-color: #999;
+  background-color: #666;
   position: absolute;
   left: 0;
   top: 35%;
@@ -1624,9 +1635,29 @@ img, video {
     display: none !important;
   }
 }
-@media (max-width: 1520px) and (min-width: 768px) {
+@media (max-width: 1520px) {
   .container-washtower-washcombo .find-lifestyle .lifestyle-list > ul > li .txt-box {
     margin: 0 20rem;
+  }
+  .container-washtower-washcombo .solution-survey .survey-wrap .survey-slot.result-slot .wash-info .img-box {
+    flex-shrink: 0;
+  }
+  .container-washtower-washcombo .solution-survey .survey-wrap .survey-slot.result-slot .wash-info .txt-box p br {
+    display: none;
+  }
+  .container-washtower-washcombo .solution-survey .survey-wrap .survey-slot.result-slot .recommend .recommend-list {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .container-washtower-washcombo .solution-survey .survey-wrap .survey-slot.result-slot .recommend .recommend-list li {
+    width: calc(50% - 10rem);
+    margin: 20rem 0 0 !important;
+  }
+  .container-washtower-washcombo .solution-survey .survey-wrap .survey-slot.result-slot .recommend .recommend-list li a .img-box img {
+    transform: scale(0.74);
+  }
+  .container-washtower-washcombo .solution-survey .survey-wrap .survey-slot.result-slot.tower .recommend .recommend-list li a .img-box img {
+    transform: scale(0.62);
   }
 }
 @media (max-width: 1300px) {
@@ -1653,30 +1684,13 @@ img, video {
   .container-washtower-washcombo .solution-survey .survey-swiper .swiper-wrapper .swiper-slide img {
     transform: translateX(-4.6vw);
   }
-  .container-washtower-washcombo .solution-survey .survey-wrap .survey-slot.result-slot .wash-info .img-box {
-    flex-shrink: 0;
-  }
-  .container-washtower-washcombo .solution-survey .survey-wrap .survey-slot.result-slot .wash-info .txt-box p br {
-    display: none;
-  }
-  .container-washtower-washcombo .solution-survey .survey-wrap .survey-slot.result-slot .recommend .recommend-list {
-    display: block;
-  }
-  .container-washtower-washcombo .solution-survey .survey-wrap .survey-slot.result-slot .recommend .recommend-list li + li {
-    margin: 20rem 0 0;
-  }
-  .container-washtower-washcombo .solution-survey .survey-wrap .survey-slot.result-slot .recommend .recommend-list li a .img-box img {
-    transform: scale(0.74);
-  }
-  .container-washtower-washcombo .solution-survey .survey-wrap .survey-slot.result-slot.tower .recommend .recommend-list li a .img-box img {
-    transform: scale(0.62);
-  }
   .container-washtower-washcombo .detail-compare .compare-space .recommend-box img {
     width: 100rem;
     left: 50rem;
   }
   .container-washtower-washcombo .find-lifestyle .lifestyle-list > ul > li .txt-box {
     width: 48%;
+    margin: 0;
   }
   .container-washtower-washcombo .find-lifestyle .lifestyle-list > ul > li .img-box {
     width: 48%;
@@ -1756,6 +1770,7 @@ img, video {
   .container-washtower-washcombo .page-tit .txt-box span {
     padding: 6rem 12rem;
     font-size: 16rem;
+    background-color: #CBBEB1;
   }
   .container-washtower-washcombo .page-tit .txt-box h1 {
     font-size: 52rem;
@@ -1763,6 +1778,7 @@ img, video {
   }
   .container-washtower-washcombo .page-tit .txt-box h1 em {
     font-size: 28rem;
+    color: #A01E16;
   }
   .container-washtower-washcombo .page-tit .txt-box p {
     font-size: 14rem;
@@ -1906,13 +1922,14 @@ img, video {
   }
   .container-washtower-washcombo .solution-survey .survey-wrap .survey-slot.result-slot .recommend .recommend-list {
     margin: 30rem 0 40rem;
+    display: block;
   }
   .container-washtower-washcombo .solution-survey .survey-wrap .survey-slot.result-slot .recommend .recommend-list li {
     width: 295rem;
-    margin: 0 auto;
+    margin: 0 auto !important;
   }
   .container-washtower-washcombo .solution-survey .survey-wrap .survey-slot.result-slot .recommend .recommend-list li + li {
-    margin: 16rem auto 0;
+    margin-top: 16rem !important;
   }
   .container-washtower-washcombo .solution-survey .survey-wrap .survey-slot.result-slot .recommend .recommend-list li a {
     padding: 0;
@@ -2200,7 +2217,7 @@ img, video {
     top: auto;
     bottom: 0;
     transform: rotate(180deg);
-    background-color: #999;
+    background-color: #666;
     opacity: 1;
     border-radius: 50%;
     box-shadow: 2rem 8rem 20rem rgba(132, 139, 162, 0.1);

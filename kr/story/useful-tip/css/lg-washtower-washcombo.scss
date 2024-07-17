@@ -143,7 +143,7 @@ img, video { max-width: 100%; vertical-align: top; }
 	.page-tit{ position: sticky; left: 0; top: -51vw; z-index: 30; overflow: hidden; transition: .4s;
 		.bg{ width: 100%; height: 51vw; object-fit: cover;}
 		.txt-box{ position: absolute; top: 8.646vw; left: 20.313vw; max-width: 100%; z-index: 5;
-			span{ display: inline-block; padding: 0.313vw 0.625vw; border-radius: 4rem; background-color: #ece2da; font-weight: 700; font-size: 1.042vw;}
+			span{ display: inline-block; padding: 0.313vw 0.625vw; border-radius: 4rem; background-color: #ECE2DA; font-weight: 700; font-size: 1.042vw;}
 			h1{ font-size: 4.792vw; font-weight: 800; line-height: 1.2; margin: 1.667vw 0 2.917vw;
 				em{ display: block; font-size: 2.708vw;}
 			}
@@ -213,8 +213,8 @@ img, video { max-width: 100%; vertical-align: top; }
 						.ip-box{ width: 530rem; text-align: left; margin-left: 80rem;
 							label{ display: block; position: relative; cursor: pointer; width: 100%;
 								&:not(:last-child){ margin-bottom: 16rem;}
-								p{ display: flex; align-items: center; justify-content: space-between; width: 100%; height: 76rem; padding: 0 40rem; border: 1px solid #d6d6d6; border-radius: 12rem; font-size: 22rem; font-weight: 500;  color: #666; }
-								i{ width: 34rem; height: 34rem; border-radius: 50%; border: 1px solid #d6d6d6; position: relative;
+								p{ display: flex; align-items: center; justify-content: space-between; width: 100%; height: 76rem; padding: 0 40rem; border: 1px solid #ccc; border-radius: 12rem; font-size: 22rem; font-weight: 500;  color: #666; }
+								i{ width: 34rem; height: 34rem; border-radius: 50%; border: 1px solid #ccc; position: relative;
 									&::after{ content: ''; display: block; width: 100%; height: 100%; position: absolute; left: 0; top: 0; background: url(../img/washtower-washcombo/icon-check.svg)no-repeat center center / 66% auto;}
 								}
 								input{ opacity: 0; width: 0; height: 0; overflow: hidden; position: absolute; right: 0; top: 0;
@@ -230,11 +230,8 @@ img, video { max-width: 100%; vertical-align: top; }
 					}
 					.btn-wrap{
 						button{ width: 235rem; height: 78rem; font-weight: 600;border-radius: 999rem; background-color: #EDEDED; color:#666; transition: .3s ease;
-							&.disabled{ touch-action: none; pointer-events: none;}
-							&.prv.disabled{ background-color: transparent; border: 1px solid #dfdfdf; color:#d6d6d6;}
-							&.nxt{ color: #fff; background-color: #000; margin-left: 24rem;
-								&.disabled{ background-color: #eee; color: #ccc;}
-							}
+							&.nxt{ color: #fff; background-color: #000; margin-left: 24rem;}
+							&.disabled{ touch-action: none; pointer-events: none; background-color: transparent; border: 1px solid #BCBCBC; color:#999;}
 						}
 					}
 				}
@@ -253,11 +250,11 @@ img, video { max-width: 100%; vertical-align: top; }
 						.recommend-list{ display: flex; margin: 44rem 0 60rem; text-align: left;
 							li{ width: 100%;
 								+ li{ margin-left: 24rem;}
-								a{ width: 100%; border: 1px solid #dfdfdf; padding: 20rem; display: flex; align-items: center; border-radius: 4rem;
+								a{ width: 100%; height: 100%; border: 1px solid #dfdfdf; padding: 20rem; display: flex; align-items: center; border-radius: 4rem;
 									.img-box{ width: 130rem; height: 194rem; display: flex; align-items: center; justify-content: center; margin-right: 20rem; background-color: #D9DFD7; flex-shrink: 0; padding: 16rem; border-radius: 4rem;}
 									.txt-box{
 										i{ font-size: 16rem; color: #999; font-style: normal; display: block; margin-bottom: 4rem;}
-										p{ line-height: 1.4; margin-bottom: 40rem; letter-spacing: -0.06em; white-space: nowrap;
+										p{ line-height: 1.4; margin-bottom: 40rem; letter-spacing: -0.06em;
 											b{ display: block;}
 										}
 										span{ display: inline-flex; align-items: center; font-size: 16rem; font-weight: 800; border-bottom: 2px solid #000;
@@ -337,8 +334,9 @@ img, video { max-width: 100%; vertical-align: top; }
 		.compare-space{ position: relative; margin-top: 220rem;
 			.compare-space-wrap{ width: calc(50% - 40rem);}
 			.img-box{ position: absolute; right: 0; top: 0; width: calc(50% - 20rem); height: 100%; border-radius:4rem; overflow: hidden;
+				.img-wrap{ height: 100%;}
 				img{ width: 100%; height: 100%; object-fit: cover; display: none;}
-				.txt-box{ width: 100%; position: absolute; left: 0; bottom: 0; padding: 20rem; display: flex; align-items: center; justify-content: space-between; font-size: 16rem; color: #fff;}
+				.txt-box{ width: 100%; position: absolute; left: 0; bottom: 0; padding: 20rem; display: flex; align-items: center; justify-content: space-between; font-size: 16rem; color: #f1f1f1; filter: drop-shadow(0 0 15rem #2b251e);}
 			}
 			.tab-box{ 
 				ul{
@@ -408,7 +406,7 @@ img, video { max-width: 100%; vertical-align: top; }
 	}
 
 	.wash-pagi{ display: flex; margin: 0 auto; padding: 10rem; border-radius: 99rem; background-color: #fff; width: max-content; max-width: 100%; overflow: hidden; position: relative;
-		button, span{ background-color: transparent; width: 184rem; height: auto; opacity: 1; border-radius: 999rem; color: #999; font-size: 24rem; text-align: center; transition: .3s ease; padding: 12rem;
+		button, span{ background-color: transparent; width: 184rem; height: auto; opacity: 1; border-radius: 999rem; color: #767676; font-size: 24rem; text-align: center; transition: .3s ease; padding: 12rem;
 			&.on, &.swiper-pagination-bullet-active{ background-color: #000; color: #fff;}
 		}
 	}
@@ -436,10 +434,13 @@ img, video { max-width: 100%; vertical-align: top; }
 				.info-box{ display: flex; justify-content: space-between; padding: 60rem; background-color: #fff; border-radius: 4rem;
 					> div{ width: 660rem;}
 					.img-box{
-						.img-wrap{ overflow: hidden; border-radius: 4rem;
+						.img-wrap{ overflow: hidden; border-radius: 4rem; position: relative;
 							video{ width: 100%; height: 610rem; object-fit: cover;}
+							.vid-btn{ width: 24rem; height: 24rem; position: absolute; right: 16rem; bottom: 16rem; background: url(../img/washtower-washcombo/btn-vid-pause.svg)no-repeat center center / contain; z-index: 1;
+							}
+							&.pause .vid-btn{ background-image: url(../img/washtower-washcombo/btn-vid-play.svg);}
 						}
-						p{ font-size: 16rem; color: #929292; margin-top: 16rem;}
+						p{ font-size: 16rem; color: #666; margin-top: 16rem;}
 					}
 					.txt-box{ padding:50rem 0 38rem; margin-left: 20rem; position: relative; display: flex; flex-direction: column; justify-content: space-between;
 						.txt-wrap{
@@ -447,10 +448,10 @@ img, video { max-width: 100%; vertical-align: top; }
 							b{ display: block; margin: 20rem 0 48rem; font-size: 40rem; letter-spacing:-2rem;}
 							p{ color: #292929; line-height: 1.6;}
 						}
-						.more-btn{ display: flex; align-items: center; font-size: 16rem; color: #999; padding: 8rem 15rem; border-radius: 99rem; border: 1px solid #999; position: absolute; right: 0; bottom: -16rem;
+						.more-btn{ display: flex; align-items: center; font-size: 16rem; color: #666; padding: 8rem 15rem; border-radius: 99rem; border: 1px solid #666; position: absolute; right: 0; bottom: -16rem;
 							&::before{ content: '더보기';}
 							i{ width: 10rem; height: 10rem; margin-left: 8rem; position: relative;
-								&::before, &::after{ content: ''; width: 100%; height: 2rem; min-height: 2px; background-color: #999; position: absolute; left: 0; top: 35%;}
+								&::before, &::after{ content: ''; width: 100%; height: 2rem; min-height: 2px; background-color: #666; position: absolute; left: 0; top: 35%;}
 								&::after{ transform: rotate(90deg); transition: .3s ease;}
 							}
 							
@@ -567,8 +568,24 @@ img, video { max-width: 100%; vertical-align: top; }
 	.mo-only{ display: none !important;}
 }
 
-@media (max-width: 1520px) and (min-width:768px) {
-	.container-washtower-washcombo .find-lifestyle .lifestyle-list > ul > li .txt-box{ margin: 0 20rem;}
+@media (max-width: 1520px) {
+	.container-washtower-washcombo{
+		.find-lifestyle .lifestyle-list > ul > li .txt-box{ margin: 0 20rem;}
+		.solution-survey .survey-wrap .survey-slot.result-slot{
+			.wash-info{
+				.img-box{ flex-shrink: 0;}
+				.txt-box p br{ display: none;} 
+			}
+			.recommend .recommend-list{ flex-wrap: wrap; justify-content: space-between;
+				li{ width: calc(50% - 10rem);   margin: 20rem 0 0 !important;
+					a .img-box img{ transform: scale(0.74);}
+				}
+			}
+			&.tower{
+				.recommend .recommend-list li a .img-box img{ transform: scale(.62);}
+			}
+		}
+	}
 }
 @media (max-width: 1300px) {
 	.container-washtower-washcombo{
@@ -587,27 +604,10 @@ img, video { max-width: 100%; vertical-align: top; }
 					}
 				}
 			}
-			.survey-wrap .survey-slot{
-				&.result-slot{
-					.wash-info{
-						.img-box{ flex-shrink: 0;}
-						.txt-box p br{ display: none;} 
-					}
-					.recommend .recommend-list{ display: block;
-						li{
-							+ li{ margin: 20rem 0 0;}
-							a .img-box img{ transform: scale(0.74);}
-						}
-					}
-					&.tower{
-						.recommend .recommend-list li a .img-box img{ transform: scale(.62);}
-					}
-				}
-			}
 		}
 		.detail-compare .compare-space .recommend-box img{ width: 100rem; left: 50rem;}
 		.find-lifestyle .lifestyle-list > ul > li{
-			.txt-box{ width: 48%;}
+			.txt-box{ width: 48%; margin: 0;}
 			.img-box{ width: 48%; padding: 40rem;
 				img{width: auto; height: 100%;}
 			}
@@ -642,9 +642,9 @@ img, video { max-width: 100%; vertical-align: top; }
 		.page-tit{ top:-658rem;
       .bg{ height:658rem;}
 			.txt-box{ top: 60rem; left: 40rem;
-				span{ padding: 6rem 12rem; font-size: 16rem;}
+				span{ padding: 6rem 12rem; font-size: 16rem; background-color: #CBBEB1;}
 				h1{ font-size: 52rem; margin: 20rem 0 14rem;
-					em{font-size: 28rem;}
+					em{font-size: 28rem; color: #A01E16;}
 				}
 				p{ font-size: 14rem;}
 			}
@@ -722,9 +722,9 @@ img, video { max-width: 100%; vertical-align: top; }
 						}
 						.recommend{
 							.tit{ font-size: 24rem;}
-							.recommend-list{  margin: 30rem 0 40rem;
-								li{ width: 295rem; margin: 0 auto;
-									+ li{ margin: 16rem auto 0;}
+							.recommend-list{  margin: 30rem 0 40rem; display: block;
+								li{ width: 295rem; margin: 0 auto !important;
+									+ li{ margin-top: 16rem !important;}
 									a{  padding: 0; border: none;
 										.img-box{ width: 130rem; height: 140rem; padding: 0; border-radius: 4rem; margin-right: 18rem;}
 										.txt-box{
@@ -858,7 +858,7 @@ img, video { max-width: 100%; vertical-align: top; }
 			.wash-tit{ margin-bottom:28rem;}
 			.wash-pagi{ width:301rem; bottom: 0;}
 			.func-nav{ position: relative;
-				span{ width: 36rem; height: 36rem; left: auto; right: 46rem; top:auto; bottom: 0; transform: rotate(180deg); background-color: #999; opacity: 1; border-radius: 50%; box-shadow: 2rem 8rem 20rem rgba($color: #848BA2, $alpha: .1); cursor: pointer; z-index: 10; background-image: url(../img/washtower-washcombo/icon-btn-arr.svg);
+				span{ width: 36rem; height: 36rem; left: auto; right: 46rem; top:auto; bottom: 0; transform: rotate(180deg); background-color: #666; opacity: 1; border-radius: 50%; box-shadow: 2rem 8rem 20rem rgba($color: #848BA2, $alpha: .1); cursor: pointer; z-index: 10; background-image: url(../img/washtower-washcombo/icon-btn-arr.svg);
 					&.nxt{ right: 0; transform: none;}
 					&.swiper-button-disabled{ opacity: 1;}
 					&.disabled{ opacity:.2; background-image: url(../img/washtower-washcombo/icon-btn-arr-b.svg); background-color: transparent; border-color:#000; cursor: default;}
