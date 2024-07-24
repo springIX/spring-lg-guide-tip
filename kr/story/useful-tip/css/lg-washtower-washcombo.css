@@ -866,7 +866,14 @@ img, video {
 }
 .container-washtower-washcombo .detail-compare .compare-volume ul li .txt-box p {
   font-size: 40rem;
-  margin: 56rem 0 28rem;
+  margin-top: 56rem;
+}
+.container-washtower-washcombo .detail-compare .compare-volume ul li .txt-box i {
+  display: block;
+  font-style: normal;
+  color: #666;
+  margin: 16rem 0 28rem;
+  font-size: 26rem;
 }
 .container-washtower-washcombo .detail-compare .compare-space {
   position: relative;
@@ -908,7 +915,7 @@ img, video {
   filter: drop-shadow(0 0 15rem #2b251e);
 }
 .container-washtower-washcombo .detail-compare .compare-space .tab-box ul li {
-  padding: 40rem 60rem;
+  padding: 40rem 50rem 40rem 60rem;
   border: 1px solid #d6d6d6;
   border-radius: 4rem;
   transition: 0.3s ease;
@@ -936,7 +943,7 @@ img, video {
   transition: 0.3s ease;
 }
 .container-washtower-washcombo .detail-compare .compare-space .tab-box ul li .info {
-  font-size: 32rem;
+  font-size: 26rem;
   line-height: 1.5;
   display: none;
 }
@@ -1229,7 +1236,7 @@ img, video {
   margin-top: 16rem;
 }
 .container-washtower-washcombo .find-function .function-info .info-slot .info-box .txt-box {
-  padding: 50rem 0 38rem;
+  padding: 50rem 0 60rem;
   margin-left: 20rem;
   position: relative;
   display: flex;
@@ -1262,7 +1269,7 @@ img, video {
   bottom: -16rem;
 }
 .container-washtower-washcombo .find-function .function-info .info-slot .info-box .txt-box .more-btn::before {
-  content: "더보기";
+  content: "세부정보";
 }
 .container-washtower-washcombo .find-function .function-info .info-slot .info-box .txt-box .more-btn i {
   width: 10rem;
@@ -1285,7 +1292,6 @@ img, video {
   transition: 0.3s ease;
 }
 .container-washtower-washcombo .find-function .function-info .info-slot .info-box .txt-box .swiper {
-  margin-top: 72rem;
   width: 100%;
 }
 .container-washtower-washcombo .find-function .function-info .info-slot .info-box .txt-box .swiper .swiper-wrapper {
@@ -1350,7 +1356,7 @@ img, video {
   background-color: #999;
 }
 .container-washtower-washcombo .find-function .function-info .info-slot.on .info-box .txt-box .more-btn::before {
-  content: "접기";
+  content: "닫기";
 }
 .container-washtower-washcombo .find-function .function-info .info-slot.on .info-box .txt-box .more-btn i::after {
   transform: rotate(0deg);
@@ -1704,8 +1710,7 @@ img, video {
     width: 48%;
   }
   .container-washtower-washcombo .find-function .function-info .info-slot .info-box .txt-box {
-    padding-top: 0;
-    padding-bottom: 80rem;
+    padding-top: 20rem;
   }
   .container-washtower-washcombo .find-function .function-info .info-slot .info-box .txt-box .txt-wrap p br {
     display: none;
@@ -2031,7 +2036,11 @@ img, video {
   }
   .container-washtower-washcombo .detail-compare .compare-volume ul li .txt-box p {
     font-size: 15rem;
-    margin: 17rem 0 10rem;
+    margin-top: 17rem;
+  }
+  .container-washtower-washcombo .detail-compare .compare-volume ul li .txt-box i {
+    margin: 4rem 0 14rem;
+    font-size: 12rem;
   }
   .container-washtower-washcombo .detail-compare .compare-space {
     margin-top: 88rem;
@@ -2072,8 +2081,7 @@ img, video {
     height: 2rem;
   }
   .container-washtower-washcombo .detail-compare .compare-space .tab-box ul li .info {
-    font-size: 18rem;
-    padding-right: 60rem;
+    font-size: 15rem;
   }
   .container-washtower-washcombo .detail-compare .compare-space .tab-box ul li .info br {
     display: none;
@@ -2293,7 +2301,6 @@ img, video {
     margin-left: 6rem;
   }
   .container-washtower-washcombo .find-function .function-info .info-slot .info-box .txt-box .swiper {
-    margin-top: 0;
     position: absolute;
     left: 0;
     top: 100%;
