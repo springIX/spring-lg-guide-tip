@@ -158,12 +158,8 @@ html {
   }
 }
 /*@media (max-width:359px) { html { font-size:2.777777777777778vw; } }*/
-body, button, input, select, table, textarea {
-  font-family: "Pretendard", sans-serif;
-  font-weight: 500;
+body {
   font-size: 20rem;
-  line-height: 1.4;
-  letter-spacing: -0.02em;
 }
 
 blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, select, table, td, textarea, th, ul {
@@ -176,10 +172,19 @@ img, video {
 }
 
 .container-washtower-washcombo {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
   --point-color:#EF453A;
   /* VISUAL */
   /* SURVEY */
   /* DETIALS */
+}
+.container-washtower-washcombo button, .container-washtower-washcombo input, .container-washtower-washcombo select, .container-washtower-washcombo table, .container-washtower-washcombo textarea {
+  font-size: 20rem;
+  font-family: "Pretendard", sans-serif;
+  line-height: 1.4;
 }
 .container-washtower-washcombo .con-box {
   max-width: 100%;
@@ -879,6 +884,9 @@ img, video {
   position: relative;
   margin-top: 220rem;
 }
+.container-washtower-washcombo .detail-compare .compare-space .inner {
+  position: relative;
+}
 .container-washtower-washcombo .detail-compare .compare-space .compare-space-wrap {
   width: calc(50% - 40rem);
 }
@@ -995,6 +1003,18 @@ img, video {
   height: 15rem;
   background: url(../img/washtower-washcombo/icon-btn-arr.png) no-repeat center center/contain;
   margin: -2rem 0 0 6rem;
+}
+.container-washtower-washcombo .detail-compare .compare-space .info-txt {
+  margin-top: 60rem;
+  border-radius: 4rem;
+  padding: 40rem 60rem;
+  background-color: #f9f9f9;
+  color: #666;
+  font-size: 26rem;
+  font-weight: 400;
+}
+.container-washtower-washcombo .detail-compare .compare-space .info-txt span {
+  font-weight: 600;
 }
 .container-washtower-washcombo .find-pd-main-tit {
   text-align: center;
@@ -1192,6 +1212,8 @@ img, video {
 }
 .container-washtower-washcombo .find-function .func-nav span.swiper-button-disabled {
   opacity: 0;
+  touch-action: none;
+  pointer-events: none;
 }
 .container-washtower-washcombo .find-function .function-info {
   margin-top: 60rem;
@@ -1723,13 +1745,17 @@ img, video {
   .pc-only {
     display: none !important;
   }
-  body, button, input, select, table, textarea {
+  body {
     font-size: 15rem;
   }
   .container-washtower-washcombo {
     /* VISUAL */
     /* SURVEY */
     /* DETIALS */
+  }
+  .container-washtower-washcombo button, .container-washtower-washcombo input, .container-washtower-washcombo select, .container-washtower-washcombo table, .container-washtower-washcombo textarea {
+    font-size: 15rem;
+    font-family: "Pretendard", sans-serif;
   }
   .container-washtower-washcombo .con-box {
     width: calc(100% - 40rem);
@@ -2115,6 +2141,11 @@ img, video {
     background: url(../img/washtower-washcombo/icon-btn-arr.png) no-repeat center center/50% auto;
     background-color: #000;
     transform: translate(5rem, 3rem);
+  }
+  .container-washtower-washcombo .detail-compare .compare-space .info-txt {
+    margin-top: 20rem;
+    padding: 20rem;
+    font-size: 12rem;
   }
   .container-washtower-washcombo .find-pd-main-tit {
     padding: 83rem 0;

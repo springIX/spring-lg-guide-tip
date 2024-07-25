@@ -109,11 +109,12 @@
 html{ font-size:1px;}
 @media (min-width: 768px) and (max-width: 1300px) { html { font-size:0.07692307692307692vw; } }
 /*@media (max-width:359px) { html { font-size:2.777777777777778vw; } }*/
-body, button, input, select, table, textarea{ font-family: 'Pretendard', sans-serif; font-weight: 500; font-size: 20rem; line-height: 1.4; letter-spacing: -0.02em;}
+body{ font-size: 20rem;}
 blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, select, table, td, textarea, th, ul{word-break:keep-all;}
 img, video { max-width: 100%; vertical-align: top; }
-.container-washtower-washcombo{
+.container-washtower-washcombo{ font-family: 'Pretendard', sans-serif; font-weight: 500; line-height: 1.4; letter-spacing: -0.02em;
 	--point-color:#EF453A;
+	button, input, select, table, textarea{ font-size: 20rem; font-family: 'Pretendard', sans-serif; line-height: 1.4;}
 	.con-box{ max-width: 100%; width: 1520rem; margin-left: auto; margin-right: auto; position: relative;}
 	h1{ font-size: 72rem; font-weight: 600;}
 	h2{ font-size: 60rem; font-weight: 600; letter-spacing: -.04em;}
@@ -333,6 +334,7 @@ img, video { max-width: 100%; vertical-align: top; }
 		}
 		
 		.compare-space{ position: relative; margin-top: 220rem;
+			.inner{ position: relative;}
 			.compare-space-wrap{ width: calc(50% - 40rem);}
 			.img-box{ position: absolute; right: 0; top: 0; width: calc(50% - 20rem); height: 100%; border-radius:4rem; overflow: hidden;
 				.img-wrap{ height: 100%;}
@@ -363,6 +365,9 @@ img, video { max-width: 100%; vertical-align: top; }
 						}
 					}
 				}
+			}
+			.info-txt{ margin-top: 60rem; border-radius: 4rem; padding: 40rem 60rem; background-color: #f9f9f9; color: #666; font-size: 26rem; font-weight: 400;
+				span{ font-weight: 600;}
 			}
 		}	
 	}
@@ -427,7 +432,7 @@ img, video { max-width: 100%; vertical-align: top; }
 		.func-nav{
 			span{ width: 64rem; height: 64rem; position: absolute; left: 0; top: 643rem; transform: translateX(-50%) rotate(180deg); background: #fff url(../img/washtower-washcombo/icon-btn-arr-b.svg) no-repeat center center / 45% auto; border-radius: 50%; box-shadow: 2rem 8rem 20rem rgba($color: #848BA2, $alpha: .1); cursor: pointer; z-index: 10; transition: .5s ease; border: 1px solid transparent;
 				&.nxt{ transform: translateX(50%); left: auto; right: 0;}
-				&.swiper-button-disabled{ opacity: 0;}
+				&.swiper-button-disabled{ opacity: 0; touch-action: none; pointer-events: none;}
 			}
 		}
 		.function-info{ margin-top: 60rem; position: relative;
@@ -625,8 +630,9 @@ img, video { max-width: 100%; vertical-align: top; }
 
 @media (max-width: 767px) {
 	.pc-only{ display: none !important;}
-	body, button, input, select, table, textarea{ font-size: 15rem;}
+	body{ font-size: 15rem;}
 	.container-washtower-washcombo{
+		button, input, select, table, textarea{ font-size: 15rem; font-family: 'Pretendard', sans-serif;}
 		.con-box{ width: calc(100% - 40rem);}
 		h1{ font-size: 28rem;}
 		h2{ font-size: 24rem;}
@@ -816,6 +822,7 @@ img, video { max-width: 100%; vertical-align: top; }
 						}
 					}
 				}
+				.info-txt{ margin-top: 20rem; padding: 20rem; font-size: 12rem;}
 			}	
 		}
 	

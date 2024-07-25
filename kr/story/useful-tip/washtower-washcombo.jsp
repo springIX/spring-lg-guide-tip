@@ -70,19 +70,19 @@
         <div class="story-page">
           <div class="sns-cont">
             <div class="sns-share">
-              <div class="tooltip-wrap share"><a href="#" class="tooltip-icon ui_tooltip-target"
-                  data-fixed="fixed-right" ui-modules="TooltipTarget"><span class="blind">제품 공유하기</span></a>
-                <div class="tooltip-box">
-                  <span class="title">공유</span>
+              <div class="tooltip-wrap share">
+                <a href="#" class="tooltip-icon ui_tooltip-target" data-fixed="fixed-right" ui-modules="TooltipTarget">
+                  <span class="blind">제품 공유하기</span>
+                </a>
+                <div class="tooltip-box fixed-right" aria-hidden="false">
+                  <span class="title">공유하기</span>
                   <div class="sns-wrap">
-                    <ul class="sns-list">
-                      <li><a href="#" class="ico-btn fb" title="페이스북에 공유하기, 새창열림" data-link-name="facebook">페이스북<span
-                            class="blind">으로 페이지 공유하기</span></a></li>
-                      <li><a href="#" class="ico-btn tw" title="component-twiiterShareBlank"
-                          data-link-name="twitter">트위터<span class="blind">로 페이지 공유하기</span></a></li>
-                      <li><a href="#" class="ico-btn kk" title="카카오톡에 공유하기, 새창열림" data-link-name="kakaotalk">카카오톡<span
-                            class="blind">으로 페이지 공유하기</span></a></li>
-                      <li><a href="#" class="ico-btn url" data-link-name="copy_url">URL복사<span
+                    <ul class="sns-list new-type">
+                      <li><a href="#none" class="ico-btn kk" title="카카오톡에 공유하기, 새창열림"
+                          data-link-name="kakaotalk">카카오톡<span class="blind">으로 페이지 공유하기</span></a></li>
+                      <li><a href="#none" class="ico-btn fb" title="페이스북에 공유하기, 새창열림"
+                          data-link-name="facebook">페이스북<span class="blind">으로 페이지 공유하기</span></a></li>
+                      <li><a href="#none" class="ico-btn url" data-link-name="copy_url">URL복사<span
                             class="blind">하기</span></a></li>
                     </ul>
                   </div>
@@ -587,65 +587,73 @@
                 </div>
 
                 <div class="compare-space">
-                  <div class="compare-space-wrap">
-                    <div class="wash-tit animate__animated animate__fadeInUp">
-                      <span>비교 03</span>
-                      <h3><em>공간</em>을 활용 할 수 있어요</h3>
-                    </div>
+                  <div class="inner">
+                    <div class="compare-space-wrap">
+                      <div class="wash-tit animate__animated animate__fadeInUp">
+                        <span>비교 03</span>
+                        <h3><em>공간</em>을 활용 할 수 있어요</h3>
+                      </div>
 
-                    <div class="img-box animate__animated animate__fadeInUp dly1">
-                      <div class="img-wrap pc-only">
-                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-compare-space.png"
-                          alt="LG 워시타워. 파란색 건조기와 흰색 세탁기가 세로로 쌓인 타워형 제품입니다. 높이는 1890mm, 폭은 700mm입니다. 옆에는 선반과 세탁 바구니가 있습니다. 이 이미지는 소비자의 이해를 돕기 위한 연출된 이미지입니다."
-                          style="display:block;">
-                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-compare-space2.png"
-                          alt="LG 워시콤보. LG 워시콤보. 흰색 바디에 검은색 도어와 상단 조작 패널이 있는 단일 세탁기입니다. 높이는 990mm, 폭은 700mm입니다. 옆에는 선반과 세탁 바구니가 있습니다. 이 이미지는 소비자의 이해를 돕기 위한 연출된 이미지입니다.">
-                      </div>
-                      <div class="img-wrap mo-only">
-                        <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-compare-space.png"
-                          alt="LG 워시타워. 파란색 건조기와 흰색 세탁기가 세로로 쌓인 타워형 제품입니다. 높이는 1890mm, 폭은 700mm입니다. 옆에는 선반과 세탁 바구니가 있습니다. 이 이미지는 소비자의 이해를 돕기 위한 연출된 이미지입니다."
-                          style="display:block;">
-                        <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-compare-space2.png"
-                          alt="LG 워시콤보. 흰색 바디에 검은색 도어와 상단 조작 패널이 있는 단일 세탁기입니다. 높이는 990mm, 폭은 700mm입니다. 옆에는 선반과 세탁 바구니가 있습니다. 이 이미지는 소비자의 이해를 돕기 위한 연출된 이미지입니다.">
-                      </div>
-                      <div class="txt-box">
-                        <p>단위 : mm</p>
-                        <p>* 소비자의 이해를 돕기 위해 연출된 이미지입니다.</p>
-                      </div>
-                    </div>
-
-                    <div class="tab-box animate__animated animate__fadeInUp">
-                      <ul class="tab-list">
-                        <li class="on" tabindex="0">
-                          <span class="tit">워시타워</span>
-                          <p class="info">
-                            세탁기와 건조기를 <b>하나의 조작부로 컨트롤</b> 할 수 있어요. <br>직렬로 두 제품을 설치하는 경우 <br>대비 높이가 8.7cm 더 낮아져서 편하게 사용할
-                            수
-                            있어요. <br>
-                            워시콤보 보다는 상대적으로 더 <b>높은 설치 공간이 필요</b>합니다.
-                          </p>
-                        </li>
-                        <li tabindex="0">
-                          <span class="tit">워시콤보</span>
-                          <p class="info">
-                            <b>세탁기 하나의 사이즈로 세탁과 건조가 가능</b>해 공간을 <br>컴팩트하게 활용할 수 있어요. 미니워시를 추가하면 <br>소량으로 분리 세탁, 동시
-                            세탁이 가능하고, <br>키높이 수납함을 통해 <b>수납공간까지 확보</b>할 수 있어요.
-                          </p>
-                        </li>
-                      </ul>
-                      <a href="https://www.lge.co.kr/wash-tower?filterProduct=AT0000000109:KY0000002622:03"
-                        class="recommend-box">
-                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-recommend-box.png"
-                          alt="LG 워시타워. 녹색 건조기와 흰색 세탁기가 세로로 쌓인 타워형 제품입니다.">
-                        <div class="txt-box">
-                          <p class="txt1 pc-only">워시타워를 선호하지만, 더 컴팩트한 용량과 사이즈를 원하는 고객님께는</p>
-                          <p class="txt1 mo-only">워시타워를 선호하지만, 더 컴팩트함을 원한다면?</p>
-                          <p class="txt2">워시타워 <b>컴팩트 모델</b>도 추천드려요</p>
-                          <span class="pc-only">제품 보기</span>
+                      <div class="img-box animate__animated animate__fadeInUp dly1">
+                        <div class="img-wrap pc-only">
+                          <img src="/kr/story/useful-tip/img/washtower-washcombo/img-compare-space.png"
+                            alt="LG 워시타워. 파란색 건조기와 흰색 세탁기가 세로로 쌓인 타워형 제품입니다. 높이는 1890mm, 폭은 700mm입니다. 옆에는 선반과 세탁 바구니가 있습니다. 이 이미지는 소비자의 이해를 돕기 위한 연출된 이미지입니다."
+                            style="display:block;">
+                          <img src="/kr/story/useful-tip/img/washtower-washcombo/img-compare-space2.png"
+                            alt="LG 워시콤보. LG 워시콤보. 흰색 바디에 검은색 도어와 상단 조작 패널이 있는 단일 세탁기입니다. 높이는 990mm, 폭은 700mm입니다. 옆에는 선반과 세탁 바구니가 있습니다. 이 이미지는 소비자의 이해를 돕기 위한 연출된 이미지입니다.">
                         </div>
-                      </a>
-                    </div>
+                        <div class="img-wrap mo-only">
+                          <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-compare-space.png"
+                            alt="LG 워시타워. 파란색 건조기와 흰색 세탁기가 세로로 쌓인 타워형 제품입니다. 높이는 1890mm, 폭은 700mm입니다. 옆에는 선반과 세탁 바구니가 있습니다. 이 이미지는 소비자의 이해를 돕기 위한 연출된 이미지입니다."
+                            style="display:block;">
+                          <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-compare-space2.png"
+                            alt="LG 워시콤보. 흰색 바디에 검은색 도어와 상단 조작 패널이 있는 단일 세탁기입니다. 높이는 990mm, 폭은 700mm입니다. 옆에는 선반과 세탁 바구니가 있습니다. 이 이미지는 소비자의 이해를 돕기 위한 연출된 이미지입니다.">
+                        </div>
+                        <div class="txt-box">
+                          <p>단위 : mm</p>
+                          <p>* 소비자의 이해를 돕기 위해 연출된 이미지입니다.</p>
+                        </div>
+                      </div>
 
+                      <div class="tab-box animate__animated animate__fadeInUp">
+                        <ul class="tab-list">
+                          <li class="on" tabindex="0">
+                            <span class="tit">워시타워</span>
+                            <p class="info">
+                              세탁기와 건조기를 <b>하나의 조작부로 컨트롤</b> 할 수 있어요. <br>직렬로 두 제품을 설치하는 경우 <br>대비 높이가 8.7cm 더 낮아져서 편하게
+                              사용할
+                              수
+                              있어요. <br>
+                              워시콤보 보다는 상대적으로 더 <b>높은 설치 공간이 필요</b>합니다.
+                            </p>
+                          </li>
+                          <li tabindex="0">
+                            <span class="tit">워시콤보</span>
+                            <p class="info">
+                              <b>세탁기 하나의 사이즈로 세탁과 건조가 가능</b>해 공간을 <br>컴팩트하게 활용할 수 있어요. 미니워시를 추가하면 <br>소량으로 분리 세탁, 동시
+                              세탁이 가능하고, <br>키높이 수납함을 통해 <b>수납공간까지 확보</b>할 수 있어요.
+                            </p>
+                          </li>
+                        </ul>
+                        <a href="https://www.lge.co.kr/wash-tower?filterProduct=AT0000000109:KY0000002622:03"
+                          class="recommend-box">
+                          <img src="/kr/story/useful-tip/img/washtower-washcombo/img-recommend-box.png"
+                            alt="LG 워시타워. 녹색 건조기와 흰색 세탁기가 세로로 쌓인 타워형 제품입니다.">
+                          <div class="txt-box">
+                            <p class="txt1 pc-only">워시타워를 선호하지만, 더 컴팩트한 용량과 사이즈를 원하는 고객님께는</p>
+                            <p class="txt1 mo-only">워시타워를 선호하지만, 더 컴팩트함을 원한다면?</p>
+                            <p class="txt2">워시타워 <b>컴팩트 모델</b>도 추천드려요</p>
+                            <span class="pc-only">제품 보기</span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="info-txt animate__animated animate__fadeInUp">
+                    <span>[높이 측정 기준]</span>
+                    <br><br>
+                    * 원바디 플랫 디자인 높이와 건조통 높이는 기존 직렬설 치 세탁기 F21VDD + 건조기 RH16VS 대비 기준 <br>
+                    * 실측치 기준으로 설치환경에 따라 달라질 수 있음
                   </div>
                 </div>
               </section>
@@ -893,7 +901,8 @@
                               <b>늘 바쁜 일상, 빨래는 최대한 빠르게 <br>시간 절약이 중요해요</b>
                               <p>상하좌우 5방향 터보샷+로 코스에 따라 세기와 방향을 자동으로 조절할 수 있어 <br>세탁을 빠르게 완료할 수 있어요. 또한 세탁이 끝나가면 건조기를
                                 <br>미리
-                                예열하여 세탁과 건조를 진행하는 시간을 줄일 수 있어요.</p>
+                                예열하여 세탁과 건조를 진행하는 시간을 줄일 수 있어요.
+                              </p>
                             </div>
                             <button class="more-btn" aria-label="자세한 설명이 나타나는 버튼"><i></i></button>
                             <div class="func-nav mo-only">
@@ -1682,6 +1691,7 @@
           </section>
         </div>
         <!-- //컨텐츠 끝 -->
+
       </div>
       <!-- Contents -->
 
