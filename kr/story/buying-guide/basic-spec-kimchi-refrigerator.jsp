@@ -153,8 +153,9 @@
                         오래
                         유지시켜 줄 수 있는 것입니다.</p>
                       <div class="vid-box">
-                        <video src="/kr/story/buying-guide/img/basic-spec-kimchi-refrigerator/test_vid.mp4" muted
-                          playsinline loop autoplay title="">냉장고에서 나온 냉기가 돌아가는 팬을 통해 순환되며, 냉장고 내부에 냉기를 골고루 전달하는
+                        <video
+                          src="/kr/story/buying-guide/video/basic-spec-kimchi-refrigerator/06_coldcaresys_detail_1.mp4"
+                          muted playsinline loop autoplay title="">냉장고에서 나온 냉기가 돌아가는 팬을 통해 순환되며, 냉장고 내부에 냉기를 골고루 전달하는
                           영상입니다.</video>
                         <button class="vid-btn" aria-label="영상 일시정지 버튼"></button>
                       </div>
@@ -172,22 +173,23 @@
                         또한 ±0.3℃ 온도 편차로 정온을 유지해 김치와 식재료 본연의 맛을 지켜줍니다.
                       </p>
                       <div class="vid-box">
-                        <video src="/kr/story/buying-guide/img/basic-spec-kimchi-refrigerator/test_vid.mp4" muted
-                          playsinline loop autoplay title="">냉장고를 열더라도 여전히 냉기를 가둘 수 있는 냉기지킴가드의 역할을 보여주는 영상입니다.</video>
+                        <video
+                          src="/kr/story/buying-guide/video/basic-spec-kimchi-refrigerator/06_coldcaresys_detail_2.webm"
+                          muted playsinline loop autoplay title="">냉장고를 열더라도 여전히 냉기를 가둘 수 있는 냉기지킴가드의 역할을 보여주는
+                          영상입니다.</video>
                         <button class="vid-btn" aria-label="영상 일시정지 버튼"></button>
                       </div>
                     </div>
-                    <div class="details-info" data-toggle="detail6">
-                      <button class="circle-btn" data-btn="detail6">세부정보</button>
+                    <div class="details-info" data-toggle="detail1">
+                      <button class="circle-btn" data-btn="detail1">세부정보</button>
                       <div class="details-box">
-                        [±0.3℃ 신선정온]<br><br>
+                        [±0.3℃ 신선정온]<br>
                         <p class="star-txt">자사 내부 평가방법에 의거한 UL 시험 결과로, 김치냉장고(K570TS34E, K510S14, Z491SMM151, K415S14,
                           K335S14) 상/중/하칸 시간에 따른
                           온도 편차 평균 기준, 주위 온도 25℃, 습도 56%, 비어있는 김치통 내부온도, 제품 출하 시 온도설정(맛지킴김치 중) 기준이며 주위 온도, 내부 적재량,
                           냉장고 설정 등 사용 환경에 따라 차이가 있을 수 있습니다.</p>
-                        <br>
                         <p class="star-txt">신선정온 적용 모델에 한함.</p>
-                        <button class="circle-btn" data-btn="detail6">닫기</button>
+                        <button class="circle-btn" data-btn="detail1">닫기</button>
                       </div>
                     </div>
                   </div>
@@ -206,7 +208,7 @@
               <strong>라이프스타일에 따라 원하는대로</strong>
             </h3>
             <p class="main-tit-sub animate__animated animate__fadeInUp">
-              공간 활용성이 높은 스탠드형, 원하는 조합으로 멋을 더해 주는 컨버터블 패키지, <br class="pc-only">기본 기능으로 충분하다면 뚜껑형!
+              공간 활용성이 높은 스탠드형, 원하는 조합으로 멋을 더해 주는 컨버터블 패키지 <br class="pc-only">기본 기능으로 충분하다면 뚜껑형!
             </p>
             <div data-swiper-type="thumb" data-swiper-view="1" class="swiper-list01 animate__animated animate__fadeInUp"
               data-swiper-autoHeight="true">
@@ -232,8 +234,9 @@
                             491L</a>
                         </div>
                         <div class="vid-box">
-                          <video src="/kr/story/buying-guide/img/basic-spec-kimchi-refrigerator/test_vid.mp4" muted
-                            playsinline loop autoplay title="">4도어 냉장고의 수납력과 활용성을 한 번에 보여주는 영상입니다.</video>
+                          <video
+                            src="/kr/story/buying-guide/video/basic-spec-kimchi-refrigerator/01_separationwall_detail_1.webm"
+                            muted playsinline loop autoplay title="">4도어 냉장고의 수납력과 활용성을 한 번에 보여주는 영상입니다.</video>
                           <button class="vid-btn" aria-label="영상 일시정지 버튼"></button>
                         </div>
                         <div class="disclaimer-txt">
@@ -243,11 +246,12 @@
                       <div class="vid-cont">
                         <div class="vid-tit">
                           <strong>3 도어</strong>
-                          <a href="https://www.lge.co.kr/kimchi-refrigerators/z334gbb161" target="_blank">김치톡톡 327L</a>
+                          <a href="https://www.lge.co.kr/kimchi-refrigerators/z339meef11">김치톡톡 327L</a>
                         </div>
                         <div class="vid-box">
-                          <video src="/kr/story/buying-guide/img/basic-spec-kimchi-refrigerator/test_vid.mp4" muted
-                            playsinline loop autoplay title="">3도어 냉장고의 수납력과 활용성을 한 번에 보여주는 영상입니다. </video>
+                          <video
+                            src="/kr/story/buying-guide/video/basic-spec-kimchi-refrigerator/z334_multipurpose_storage_more_2.webm"
+                            muted playsinline loop autoplay title="">3도어 냉장고의 수납력과 활용성을 한 번에 보여주는 영상입니다. </video>
                           <button class="vid-btn" aria-label="영상 일시정지 버튼"></button>
                         </div>
                         <div class="disclaimer-txt">
@@ -322,8 +326,10 @@
                         할 수
                         있습니다.</p>
                       <div class="vid-box">
-                        <video src="/kr/story/buying-guide/img/basic-spec-kimchi-refrigerator/test_vid.mp4" muted
-                          playsinline loop autoplay title="">겨울엔 김장김치, 가을엔 곡식, 봄엔 나물 그리고 여름엔 과일을 계절에 따라 필요한 영역을 분리해서 사용할
+                        <video
+                          src="/kr/story/buying-guide/video/basic-spec-kimchi-refrigerator/01_separationwall_detail_1 (1).webm"
+                          muted playsinline loop autoplay title="">겨울엔 김장김치, 가을엔 곡식, 봄엔 나물 그리고 여름엔 과일을 계절에 따라 필요한 영역을
+                          분리해서 사용할
                           수
                           있는 다용도 분리벽의 예시를 보여주는 영상입니다.</video>
                         <button class="vid-btn" aria-label="영상 일시정지 버튼"></button>
@@ -331,8 +337,8 @@
                       <div class="disclaimer-txt">
                         <p class="star-txt">소비자의 이해를 돕기 위해 연출된 영상입니다.</p>
                       </div>
-                      <div class="details-info" data-toggle="detail6">
-                        <button class="circle-btn" data-btn="detail6">세부정보</button>
+                      <div class="details-info" data-toggle="detail2">
+                        <button class="circle-btn" data-btn="detail2">세부정보</button>
                         <div class="details-box">
                           <p class="star-txt">해당 기능이 구현되는 온도는 자사 기준 보관 온도로 문헌상에 기재된 온도와 상이할 수 있습니다.</p><br>
                           <p class="star-txt">ThinQ 앱을 통해서만 사용 가능하며 앱 내 리스트 중 원하는 식품을 선택하면 편리하게 보관 설정할 수 있습니다. ThinQ 앱
@@ -340,14 +346,11 @@
                             가전제품 등록을 위해서는 가정 내 <br class="pc-only">무선 인터넷 환경이 필요합니다. 스마트폰의 Google Play 스토어 또는 Apple App
                             스토어에서 ‘LG ThinQ’ 앱을 설치하여 Wi-fi에 연결해야 합니다. 자세한 사용 방법은 <br class="pc-only">애플리케이션의 도움말을
                             참고해주세요. 제품
-                            등록 후 UP가전 센터 메뉴를 통해 SW 업그레이드가 필요하며, 이후 세부 설정이 완료되어야 합니다. ThinQ 앱은 일부 스마트폰에서는 <br
-                              class="pc-only">기능 사용에 제약이 발생하거나 작동하지 않을 수 있으니, 최소 사양을 확인 후 사용하세요. (Android OS 9 이상, iOS.
-                            15.0
-                            이상) ThinQ 앱의 실제 기능은 보유 제품, 모델별로 <br class="pc-only">차이가 있을 수 있습니다. 신규 모드(무화과, 망고, 아보카도, 고구마,
-                            토마토, 감자)는 10월 5주차부터 ThinQ 앱 UP 가전 센터를 통해 제공될 예정입니다. 일정은 사전 예고 없이 <br class="pc-only">변경될 수
-                            있습니다.
-                            칸별 적용되는 상세 식재료 모드는 홈페이지에서 확인할 수 있습니다.</p>
-                          <button class="circle-btn" data-btn="detail6">닫기</button>
+                            등록 후 UP가전 센터 메뉴를 통해 SW 업그레이드가 필요하며, 이후 세부 설정이 완료되어야 합니다. ThinQ 앱은 일부 스마트폰에서는 기능 사용에 제약이
+                            발생하거나 작동하지 않을 수 있으니, 최소 사양을 확인 후 사용하세요. (Android OS 9 이상, iOS. 15.0 이상) ThinQ 앱의 실제 기능은 보유
+                            제품, 모델별로 차이가 있을 수 있습니다. 신규 모드(무화과, 망고, 아보카도, 고구마, 토마토, 감자)는 10월 5주차부터 ThinQ 앱 UP 가전 센터를 통해
+                            제공될 예정입니다. 일정은 사전 예고 없이 변경될 수 있습니다. 칸별 적용되는 상세 식재료 모드는 홈페이지에서 확인할 수 있습니다.</p>
+                          <button class="circle-btn" data-btn="detail2">닫기</button>
                         </div>
                       </div>
                     </div>
@@ -356,16 +359,17 @@
                       <p class="row-sub-layout-info">음료, 주류, 각종 채소와 과일까지 ThinQ 앱으로 제공되는 다목적 보관모드 식품 리스트를 <br
                           class="pc-only">선택만 하면 바로 맞춤 온도로 보관할 수 있어 편리합니다.</p>
                       <div class="vid-box">
-                        <video src="/kr/story/buying-guide/img/basic-spec-kimchi-refrigerator/test_vid.mp4" muted
-                          playsinline loop autoplay title="">냉장고 칸별로 보관 중인 음식을 ThinQ 앱에서 입력하면 맞춤 온도를 제공하는 기능을 보여주는
+                        <video
+                          src="/kr/story/buying-guide/video/basic-spec-kimchi-refrigerator/02_multistorage_detail_1.webm"
+                          muted playsinline loop autoplay title="">냉장고 칸별로 보관 중인 음식을 ThinQ 앱에서 입력하면 맞춤 온도를 제공하는 기능을 보여주는
                           영상입니다.</video>
                         <button class="vid-btn" aria-label="영상 일시정지 버튼"></button>
                       </div>
                       <div class="disclaimer-txt">
                         <p class="star-txt">소비자의 이해를 돕기 위해 연출된 영상입니다.</p>
                       </div>
-                      <div class="details-info" data-toggle="detail6">
-                        <button class="circle-btn" data-btn="detail6">세부정보</button>
+                      <div class="details-info" data-toggle="detail3">
+                        <button class="circle-btn" data-btn="detail3">세부정보</button>
                         <div class="details-box">
                           <p class="star-txt">해당 기능이 구현되는 온도는 자사 기준 보관 온도로 문헌상에 기재된 온도와 상이할 수 있습니다.</p><br>
                           <p class="star-txt">ThinQ 앱을 통해서만 사용 가능하며 앱 내 리스트 중 원하는 식품을 선택하면 편리하게 보관 설정할 수 있습니다. ThinQ 앱
@@ -380,7 +384,7 @@
                             토마토,
                             감자)는 10월 5주차부터 ThinQ 앱 UP 가전 센터를 통해 제공될 예정입니다. 일정은 사전 예고 없이 변경될 수 있습니다. 칸별 적용되는 상세 식재료 모드는
                             홈페이지에서 확인할 수 있습니다.</p>
-                          <button class="circle-btn" data-btn="detail6">닫기</button>
+                          <button class="circle-btn" data-btn="detail3">닫기</button>
                         </div>
                       </div>
                     </div>
@@ -392,15 +396,16 @@
                         오래
                         시원한 맛을 유지해 줍니다.</p>
                       <div class="vid-box">
-                        <video src="/kr/story/buying-guide/img/basic-spec-kimchi-refrigerator/test_vid.mp4" muted
-                          playsinline loop autoplay title="">김치의 맛과 영양을 높이는 6.5℃로 숙성한 맛있는 김치에 만족하는 소비자의 영상입니다.</video>
+                        <video src="/kr/story/buying-guide/video/basic-spec-kimchi-refrigerator/03_kimchiplus_d.webm"
+                          muted playsinline loop autoplay title="">김치의 맛과 영양을 높이는 6.5℃로 숙성한 맛있는 김치에 만족하는 소비자의
+                          영상입니다.</video>
                         <button class="vid-btn" aria-label="영상 일시정지 버튼"></button>
                       </div>
                       <div class="disclaimer-txt">
                         <p class="star-txt">소비자의 이해를 돕기 위해 연출된 영상입니다.</p>
                       </div>
-                      <div class="details-info" data-toggle="detail6">
-                        <button class="circle-btn" data-btn="detail6">세부정보</button>
+                      <div class="details-info" data-toggle="detail4">
+                        <button class="circle-btn" data-btn="detail4">세부정보</button>
                         <div class="details-box">
                           <p class="star-txt">류코노스톡 유산균 수치는 자사 내부 평가 방법에 의거한 세계김치연구소 실험 결과(2020.05)로, 자사 400L급(K41*****)
                             모델의
@@ -409,7 +414,7 @@
                           <p class="star-txt">주위 온도 25℃, 상습, 중/하칸 자사 김치통 내 김치 보관 권장량(80%) 적재상태. 중칸과 하칸에 동일한 맛지킴김치 모드 사용
                             시 성능
                             차이 없음.</p>
-                          <button class="circle-btn" data-btn="detail6">닫기</button>
+                          <button class="circle-btn" data-btn="detail4">닫기</button>
                         </div>
                       </div>
                     </div>
@@ -425,11 +430,14 @@
                           <li>맛지킴김치 모드</li>
                         </ul>
                         <div class="vid-box">
-                          <video src="/kr/story/buying-guide/img/basic-spec-kimchi-refrigerator/test_vid.mp4" muted
-                            playsinline loop autoplay title="">김치를 보관하고 있는 칸만 익힘모드로 설정하여 김치가 적절하게 익는 모습을 보여주는
+                          <video
+                            src="/kr/story/buying-guide/video/basic-spec-kimchi-refrigerator/04_customstorage_detail_1.webm"
+                            muted playsinline loop autoplay title="">김치를 보관하고 있는 칸만 익힘모드로 설정하여 김치가 적절하게 익는 모습을 보여주는
                             영상입니다.</video>
-                          <video src="/kr/story/buying-guide/img/basic-spec-kimchi-refrigerator/test_vid.mp4" muted
-                            playsinline loop autoplay title="" style="display: none;">배추김치, 총각무김치, 백김치, 열무김치, 파김치, 동치미까지
+                          <video
+                            src="/kr/story/buying-guide/video/basic-spec-kimchi-refrigerator/04_customstorage_detail_2.webm"
+                            muted playsinline loop autoplay title="" style="display: none;">배추김치, 총각무김치, 백김치, 열무김치, 파김치,
+                            동치미까지
                             각종
                             김치를 적절하게 보관할 수 있는 냉장고
                             내부를 보여주는 영상입니다.</video>
@@ -446,16 +454,17 @@
                         맞춤화된
                         과정에 따라 맛있고 시원하게 익혀줍니다.</p>
                       <div class="vid-box">
-                        <video src="/kr/story/buying-guide/img/basic-spec-kimchi-refrigerator/test_vid.mp4" muted
-                          playsinline loop autoplay title="">ThinQ 앱에서 구매한 김치의 바코드를 스캔하여 제조사와 제조일에 맞는 냉장고 환경을 제공하는
+                        <video
+                          src="/kr/story/buying-guide/video/basic-spec-kimchi-refrigerator/05_aicustom_detail_1.webm"
+                          muted playsinline loop autoplay title="">ThinQ 앱에서 구매한 김치의 바코드를 스캔하여 제조사와 제조일에 맞는 냉장고 환경을 제공하는
                           영상입니다.</video>
                         <button class="vid-btn" aria-label="영상 일시정지 버튼"></button>
                       </div>
                       <div class="disclaimer-txt">
                         <p class="star-txt">소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.</p>
                       </div>
-                      <div class="details-info" data-toggle="detail6">
-                        <button class="circle-btn" data-btn="detail6">세부정보</button>
+                      <div class="details-info" data-toggle="detail5">
+                        <button class="circle-btn" data-btn="detail5">세부정보</button>
                         <div class="details-box">
                           <p class="star-txt">제휴브랜드 외 김치는 디스플레이에서 '구입 김치' 기능을 활용하여 주시기 바랍니다.</p>
                           <p class="star-txt">인공지능 맞춤보관</p>
@@ -466,7 +475,7 @@
                           - 인공지능 맞춤보관 기능을 사용하기 위해서는 LG ThinQ 앱 별도 설치가 필요하며, 초기 김치냉장고와 연결 시 동일한 Wi-Fi 환경 안에서 동작되어야 합니다.
                           외부에서
                           원격제어 사용 시, 데이터 사용 환경이 필요합니다. 또한, LG ThinQ 앱에서 제품 등록 후 김치냉장고 제어창에서 인공지능 맞춤 보관 설정이 필요합니다.
-                          <button class="circle-btn" data-btn="detail6">닫기</button>
+                          <button class="circle-btn" data-btn="detail5">닫기</button>
                         </div>
                       </div>
                     </div>
@@ -476,15 +485,16 @@
                       <strong class="row-sub-layout-tit">멀티보관실</strong>
                       <p class="row-sub-layout-info">접히는 선반으로 식재료에 따라 다양하게 수납할 수 있습니다.</p>
                       <div class="vid-box">
-                        <video src="/kr/story/buying-guide/img/basic-spec-kimchi-refrigerator/test_vid.mp4" muted
-                          playsinline loop autoplay title="">접히는 선반을 사용해 보관 상품의 형태와 높이에 따라 3가지 방법으로 활용할 수 있는 멀티보관실을 보여주는
+                        <video src="/kr/story/buying-guide/video/basic-spec-kimchi-refrigerator/01_muitistorage_d.webm"
+                          muted playsinline loop autoplay title="">접히는 선반을 사용해 보관 상품의 형태와 높이에 따라 3가지 방법으로 활용할 수 있는
+                          멀티보관실을 보여주는
                           영상입니다. </video>
                         <button class="vid-btn" aria-label="영상 일시정지 버튼"></button>
                       </div>
                       <div class="disclaimer-txt">
                         <p class="star-txt">소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.</p>
                       </div>
-                      <div class="details-info" data-toggle="detail6">
+                      <!-- <div class="details-info" data-toggle="detail6">
                         <button class="circle-btn" data-btn="detail6">세부정보</button>
                         <div class="details-box">
                           <p class="star-txt">제품 이미지 및 특장점 등에는 광고적 표현이 포함되어 실제 제품과 차이가 있을 수 있으며 제품 외관, 스펙 등은 제품 개량을 위해
@@ -508,12 +518,13 @@
                           <p class="star-txt">소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.</p>
                           <button class="circle-btn" data-btn="detail6">닫기</button>
                         </div>
-                      </div>
+                      </div> -->
                     </div>
                     <ul class="col2-vid-box">
                       <li>
-                        <video src="/kr/story/buying-guide/img/basic-spec-kimchi-refrigerator/test_vid.mp4" muted
-                          playsinline loop autoplay title="">어패류, 치즈, 김치 등 해산물과 발효식품 냄새를 제거하는 원터치 탈취 기능을 보여주는 영상입니다.
+                        <video src="/kr/story/buying-guide/video/basic-spec-kimchi-refrigerator/08_onetouchdeo_d.webm"
+                          muted playsinline loop autoplay title="">어패류, 치즈, 김치 등 해산물과 발효식품 냄새를 제거하는 원터치 탈취 기능을 보여주는
+                          영상입니다.
                         </video>
                         <div class="txt-box">
                           <strong>원터치 탈취</strong>
@@ -522,8 +533,8 @@
                         <button class="vid-btn" aria-label="영상 일시정지 버튼"></button>
                       </li>
                       <li>
-                        <video src="/kr/story/buying-guide/img/basic-spec-kimchi-refrigerator/test_vid.mp4" muted
-                          playsinline loop autoplay title="">어패류, 치즈, 김치 등 해산물과 발효식품 냄새를 제거하는 원터치 탈취 기능을 보여주는 영상입니다.
+                        <video src="/kr/story/buying-guide/video/basic-spec-kimchi-refrigerator/09_myrefri_d.webm" muted
+                          playsinline loop autoplay title="">냉장고에 주로 보관하는 식재료를 선택하여 나에게 맞춘 김치톡톡을 배송받는 영상입니다.
                         </video>
                         <div class="txt-box">
                           <strong>나만의 김치냉장고</strong>
@@ -560,9 +571,8 @@
                     </a>
                   </div>
                   <div class="swiper-slide">
-                    <a class="in"
-                      href="https://www.lge.co.kr/kimchi-refrigerators/z494gbb171?sKwd=Z494GBB171&sTab=unit_product_list&sRank=1"><span
-                        class="thumb"><img src="/kr/story/buying-guide/img/basic-spec-kimchi-refrigerator/prod02.png"
+                    <a class="in" href="https://www.lge.co.kr/kimchi-refrigerators/z339meef11"><span class="thumb"><img
+                          src="/kr/story/buying-guide/img/basic-spec-kimchi-refrigerator/prod02.png"
                           alt="LG 디오스 오브제컬렉션 김치톡톡 327L 이미지" /></span>
                       <strong class="go-btn">LG 디오스 오브제컬렉션 <br>김치톡톡 327L</strong>
                     </a>
