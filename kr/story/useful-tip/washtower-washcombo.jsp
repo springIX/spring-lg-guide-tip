@@ -1,42 +1,46 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%> <%@ include file="/WEB-INF/jsp/common/includes/doctype.jsp"%>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
-    <meta name="keywords" content="LG전자, LG 워시타워, LG 워시콤보, LG 세탁기, LG 건조기, 워시타워, 워시콤보, 세탁기, 건조기, 타워형 세탁기, 세탁기 비교, 세탁기 기능, 트루스팀, 5방향 터보샷, 6모션 코스" />
-    <meta name="description" content="세탁과 건조를 하나의 제품으로 해결하는 LG 트롬 워시타워와 워시콤보.구매 전 고려해야 할 사항을 꼼꼼하게 알려드려요." />
-    <meta content="NOODP, NOYDIR" name="robots" />
-    <link rel="canonical" href="canonical" />
-    <title>워시타워 &middot; 워시콤보 구매 가이드 | LG전자</title>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+  <%@ include file="/WEB-INF/jsp/common/includes/doctype.jsp" %>
 
-    <meta property="fb:app_id" content="562434687259858" />
-    <meta property="og:locale" content="ko_KR" />
-    <meta property="og:site_name" content="LG전자" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="워시타워 &middot; 워시콤보 구매 가이드 | LG전자" />
-    <meta property="og:description" content="세탁과 건조를 하나의 제품으로 해결하는 LG 트롬 워시타워와 워시콤보.구매 전 고려해야 할 사항을 꼼꼼하게 알려드려요." />
-    <meta property="og:url" content="https://www.lge.co.kr/story/useful-tip/lg-washtower-washcombo" />
-    <meta property="og:image" content="https://www.lge.co.kr/story/useful-tip/img/washtower-washcombo/img-og.jpg" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="" />
-    <meta name="google-site-verification" content="kOHWY1Aua-UxMNrWwT8TnUIdw8mSZAog6615Iwc1e4w" />
-    <meta content="#a50034" name="theme-color" />
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+      <meta name="keywords"
+        content="LG전자, LG 워시타워, LG 워시콤보, LG 세탁기, LG 건조기, 워시타워, 워시콤보, 세탁기, 건조기, 타워형 세탁기, 세탁기 비교, 세탁기 기능, 트루스팀, 5방향 터보샷, 6모션 코스" />
+      <meta name="description" content="세탁과 건조를 하나의 제품으로 해결하는 LG 트롬 워시타워와 워시콤보.구매 전 고려해야 할 사항을 꼼꼼하게 알려드려요." />
+      <meta content="NOODP, NOYDIR" name="robots" />
+      <link rel="canonical" href="canonical" />
+      <title>워시타워 &middot; 워시콤보 구매 가이드 | LG전자</title>
 
-    <link rel="shortcut icon" href="https://www.lge.co.kr/lg5-common/images/favicon.ico" />
-    <link rel="stylesheet" href="https://www.lge.co.kr/lg5-common/css/reset.min.css" />
-    <link rel="stylesheet" href="https://www.lge.co.kr/lg5-common/css/app.min.css" />
+      <meta property="fb:app_id" content="562434687259858" />
+      <meta property="og:locale" content="ko_KR" />
+      <meta property="og:site_name" content="LG전자" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="워시타워 &middot; 워시콤보 구매 가이드 | LG전자" />
+      <meta property="og:description" content="세탁과 건조를 하나의 제품으로 해결하는 LG 트롬 워시타워와 워시콤보.구매 전 고려해야 할 사항을 꼼꼼하게 알려드려요." />
+      <meta property="og:url" content="https://www.lge.co.kr/story/useful-tip/lg-washtower-washcombo" />
+      <meta property="og:image" content="/kr/story/useful-tip/img/washtower-washcombo/img-og.jpg" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:site" content="" />
+      <meta name="google-site-verification" content="kOHWY1Aua-UxMNrWwT8TnUIdw8mSZAog6615Iwc1e4w" />
+      <meta content="#a50034" name="theme-color" />
 
-    <!-- UnivEBiz css, script -->
-    <script type="text/javascript" src="/kr/story/useful-tip/js/libs/jquery-2.2.4.min.js"></script>
-    <script type="text/javascript" src="/kr/story/useful-tip/js/lg-washtower-washcombo.js"></script>
-    <link rel="stylesheet" href="/kr/story/useful-tip/css/swiper-bundle.min.css" type="text/css" />
-    <script type="text/javascript" src="/kr/story/useful-tip/js/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="/kr/story/useful-tip/css/lg-washtower-washcombo.css" type="text/css" />
+      <link rel="shortcut icon" href="https://www.lge.co.kr/lg5-common/images/favicon.ico" />
+      <link rel="stylesheet" href="https://www.lge.co.kr/lg5-common/css/reset.min.css" />
+      <link rel="stylesheet" href="https://www.lge.co.kr/lg5-common/css/app.min.css" />
 
-    <c:import url="/WEB-INF/jsp/common/includes/googleHeaderScript.jsp" charEncoding="utf-8" />
-    <c:import url="/WEB-INF/jsp/common/includes/jsDefault.jsp" charEncoding="utf-8" />
-  </head>
+      <!-- UnivEBiz css, script -->
+      <script type="text/javascript" src="/kr/story/useful-tip/js/libs/jquery-2.2.4.min.js"></script>
+      <script type="text/javascript" src="/kr/story/useful-tip/js/lg-washtower-washcombo.js"></script>
+      <link rel="stylesheet" href="/kr/story/useful-tip/css/swiper-bundle-v11.min.css" type="text/css" />
+      <script type="text/javascript" src="/kr/story/useful-tip/js/swiper-bundle-v11.min.js"></script>
+      <link rel="stylesheet" href="/kr/story/useful-tip/css/lg-washtower-washcombo.css" type="text/css" />
+
+      <c:import url="/WEB-INF/jsp/common/includes/googleHeaderScript.jsp" charEncoding="utf-8" />
+      <c:import url="/WEB-INF/jsp/common/includes/jsDefault.jsp" charEncoding="utf-8" />
+    </head>
 
     <body>
       <c:import url="/WEB-INF/jsp/common/includes/googleBodyScript.jsp" charEncoding="utf-8" />
@@ -59,25 +63,26 @@
           <meta itemprop="name" content="워시타워 &middot; 워시콤보 구매 가이드 | LG전자" />
           <meta itemprop="description" content="세탁과 건조를 하나의 제품으로 해결하는 LG 트롬 워시타워와 워시콤보.구매 전 고려해야 할 사항을 꼼꼼하게 알려드려요." />
           <meta itemprop="url" content="https://www.lge.co.kr/story/useful-tip/lg-washtower-washcombo" />
-          <meta itemprop="image" content="https://www.lge.co.kr/story/useful-tip/img/washtower-washcombo/img-og.jpg" />
-          <meta itemprop="Keywords" content="LG전자, LG 워시타워, LG 워시콤보, LG 세탁기, LG 건조기, 워시타워, 워시콤보, 세탁기, 건조기, 타워형 세탁기, 세탁기 비교, 세탁기 기능, 트루스팀, 5방향 터보샷, 6모션 코스" />
+          <meta itemprop="image" content="/kr/story/useful-tip/img/washtower-washcombo/img-og.jpg" />
+          <meta itemprop="Keywords"
+            content="LG전자, LG 워시타워, LG 워시콤보, LG 세탁기, LG 건조기, 워시타워, 워시콤보, 세탁기, 건조기, 타워형 세탁기, 세탁기 비교, 세탁기 기능, 트루스팀, 5방향 터보샷, 6모션 코스" />
         </div>
         <div class="story-page">
           <div class="sns-cont">
             <div class="sns-share">
-              <div class="tooltip-wrap share"><a href="#" class="tooltip-icon ui_tooltip-target"
-                  data-fixed="fixed-right" ui-modules="TooltipTarget"><span class="blind">제품 공유하기</span></a>
-                <div class="tooltip-box">
-                  <span class="title">공유</span>
+              <div class="tooltip-wrap share">
+                <a href="#" class="tooltip-icon ui_tooltip-target" data-fixed="fixed-right" ui-modules="TooltipTarget">
+                  <span class="blind">제품 공유하기</span>
+                </a>
+                <div class="tooltip-box fixed-right" aria-hidden="false">
+                  <span class="title">공유하기</span>
                   <div class="sns-wrap">
-                    <ul class="sns-list">
-                      <li><a href="#" class="ico-btn fb" title="페이스북에 공유하기, 새창열림" data-link-name="facebook">페이스북<span
-                            class="blind">으로 페이지 공유하기</span></a></li>
-                      <li><a href="#" class="ico-btn tw" title="component-twiiterShareBlank"
-                          data-link-name="twitter">트위터<span class="blind">로 페이지 공유하기</span></a></li>
-                      <li><a href="#" class="ico-btn kk" title="카카오톡에 공유하기, 새창열림" data-link-name="kakaotalk">카카오톡<span
-                            class="blind">으로 페이지 공유하기</span></a></li>
-                      <li><a href="#" class="ico-btn url" data-link-name="copy_url">URL복사<span
+                    <ul class="sns-list new-type">
+                      <li><a href="#none" class="ico-btn kk" title="카카오톡에 공유하기, 새창열림"
+                          data-link-name="kakaotalk">카카오톡<span class="blind">으로 페이지 공유하기</span></a></li>
+                      <li><a href="#none" class="ico-btn fb" title="페이스북에 공유하기, 새창열림"
+                          data-link-name="facebook">페이스북<span class="blind">으로 페이지 공유하기</span></a></li>
+                      <li><a href="#none" class="ico-btn url" data-link-name="copy_url">URL복사<span
                             class="blind">하기</span></a></li>
                     </ul>
                   </div>
@@ -93,8 +98,12 @@
         <div class="container container-washtower-washcombo">
           <!--Visual-->
           <section class=" page-tit">
-            <img src="/kr/story/useful-tip/img/washtower-washcombo/img-main-visual.png" alt="이 이미지는 LG 워시타워와 한 대의 LG 워시콤보를 보여준다. 워시타워는 세탁기와 건조기 한 세트는 쌓여 있고, 워시콤보 세탁기는 따로 배치되어 있다. 오른쪽엔 식물이 있고, 왼쪽엔 큰 창문이 있다." class="bg animate__animated animate__zoomInUp pc-only">
-            <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-main-visual.png" alt="이 이미지는 LG 워시타워와 한 대의 LG 워시콤보를 보여준다. 워시타워는 세탁기와 건조기 한 세트는 쌓여 있고, 워시콤보 세탁기는 따로 배치되어 있다. 오른쪽엔 식물이 있고, 왼쪽엔 큰 창문이 있다." class="bg animate__animated animate__zoomInUp mo-only">
+            <img src="/kr/story/useful-tip/img/washtower-washcombo/img-main-visual.png"
+              alt="이 이미지는 LG 워시타워와 한 대의 LG 워시콤보를 보여준다. 워시타워는 세탁기와 건조기 한 세트는 쌓여 있고, 워시콤보 세탁기는 따로 배치되어 있다. 오른쪽엔 식물이 있고, 왼쪽엔 큰 창문이 있다."
+              class="bg animate__animated animate__zoomInUp pc-only">
+            <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-main-visual.png"
+              alt="이 이미지는 LG 워시타워와 한 대의 LG 워시콤보를 보여준다. 워시타워는 세탁기와 건조기 한 세트는 쌓여 있고, 워시콤보 세탁기는 따로 배치되어 있다. 오른쪽엔 식물이 있고, 왼쪽엔 큰 창문이 있다."
+              class="bg animate__animated animate__zoomInUp mo-only">
             <div class="txt-box">
               <span class="animate__animated animate__fadeInUp">우리집에 딱! 맞는</span>
               <h1 class="animate__animated animate__fadeInUp dly1">
@@ -104,7 +113,8 @@
               <p class="animate__animated animate__fadeInUp dly2">
                 세탁과 건조를 하나의 제품으로 해결하는 <br>
                 <b>LG 트롬 워시타워와 워시콤보</b> <br>
-                구매 전 고려해야 할 사항을 꼼꼼하게 알려드려요</p>
+                구매 전 고려해야 할 사항을 꼼꼼하게 알려드려요
+              </p>
             </div>
             <div class="main-tab">
               <div class="con-box">
@@ -120,18 +130,38 @@
               <!--section01-->
               <section id="section1-1" class="solution-survey">
                 <div class="survey-swiper-wrap on">
-                  <div class="swiper survey-swiper"> 
+                  <div class="swiper survey-swiper">
                     <div class="swiper-wrapper">
-                      <div class="swiper-slide"><img src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-visual1.png" alt="하늘색 배경에 있는 LG 세탁기"></div>
-                      <div class="swiper-slide"><img src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-visual2.png" alt="베이지색 배경에 있는 LG 세탁기"></div>
-                      <div class="swiper-slide"><img src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-visual3.png" alt="파란색 배경에 있는 LG 워시타워"></div>
-                      <div class="swiper-slide"><img src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-visual4.png" alt="회색 배경에 있는 LG 세탁기"></div>
-                      <div class="swiper-slide"><img src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-visual5.png" alt="연두색 배경에 있는 LG 워시타워"></div>
-                      <div class="swiper-slide"><img src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-visual1.png" alt="하늘색 배경에 있는 LG 세탁기"></div>
-                      <div class="swiper-slide"><img src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-visual2.png" alt="베이지색 배경에 있는 LG 세탁기"></div>
-                      <div class="swiper-slide"><img src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-visual3.png" alt="파란색 배경에 있는 LG 워시타워"></div>
-                      <div class="swiper-slide"><img src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-visual4.png" alt="회색 배경에 있는 LG 세탁기"></div>
-                      <div class="swiper-slide"><img src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-visual5.png" alt="연두색 배경에 있는 LG 워시타워"></div>
+                      <div class="swiper-slide"><img
+                          src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-visual1.png"
+                          alt="하늘색 배경에 있는 LG 세탁기"></div>
+                      <div class="swiper-slide"><img
+                          src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-visual2.png"
+                          alt="베이지색 배경에 있는 LG 세탁기"></div>
+                      <div class="swiper-slide"><img
+                          src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-visual3.png"
+                          alt="파란색 배경에 있는 LG 워시타워"></div>
+                      <div class="swiper-slide"><img
+                          src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-visual4.png"
+                          alt="회색 배경에 있는 LG 세탁기"></div>
+                      <div class="swiper-slide"><img
+                          src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-visual5.png"
+                          alt="연두색 배경에 있는 LG 워시타워"></div>
+                      <div class="swiper-slide"><img
+                          src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-visual1.png"
+                          alt="하늘색 배경에 있는 LG 세탁기"></div>
+                      <div class="swiper-slide"><img
+                          src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-visual2.png"
+                          alt="베이지색 배경에 있는 LG 세탁기"></div>
+                      <div class="swiper-slide"><img
+                          src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-visual3.png"
+                          alt="파란색 배경에 있는 LG 워시타워"></div>
+                      <div class="swiper-slide"><img
+                          src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-visual4.png"
+                          alt="회색 배경에 있는 LG 세탁기"></div>
+                      <div class="swiper-slide"><img
+                          src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-visual5.png"
+                          alt="연두색 배경에 있는 LG 워시타워"></div>
                     </div>
                   </div>
                 </div>
@@ -153,7 +183,8 @@
                     </div>
                     <div class="answer-box">
                       <div class="img-box">
-                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-q1.png" alt="세탁기 높이를 표시하는 일러스트 이미지" class="dp-fade-up">
+                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-q1.png"
+                          alt="세탁기 높이를 표시하는 일러스트 이미지" class="dp-fade-up">
                       </div>
                       <div class="ip-box">
                         <label tabindex="0" for="q1-space-y" class="dp-fade-up">
@@ -183,11 +214,12 @@
                     </div>
                     <div class="answer-box">
                       <div class="img-box">
-                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-q2.png" alt="아늑한 소파위에 쿠션이 주황색 놓여져있는 일러스트 이미지" class="dp-fade-up">
+                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-q2.png"
+                          alt="아늑한 소파위에 쿠션이 주황색 놓여져있는 일러스트 이미지" class="dp-fade-up">
                       </div>
                       <div class="ip-box">
                         <label tabindex="0" for="q2-member1" class="dp-fade-up">
-                          <input hidden type="radio" name="sol-q2" id="q2-member1" title="혼자 살고 있어요"/>
+                          <input hidden type="radio" name="sol-q2" id="q2-member1" title="혼자 살고 있어요" />
                           <p>혼자 살고 있어요
                             <i></i>
                           </p>
@@ -211,7 +243,7 @@
                       <button class="nxt disabled" tabindex="1" data-btn="nxt">다음</button>
                     </div>
                   </div>
-                  
+
                   <div class="survey-slot step-slot step3">
                     <div class="txt-box">
                       <p class="dp-fade-up"><span class="rbt">Q3.</span> 세탁 습관</p>
@@ -219,7 +251,8 @@
                     </div>
                     <div class="answer-box">
                       <div class="img-box">
-                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-q3.png" alt="세탁기와 그 옆에 세탁물이 가득쌓인 바구니가 놓여져있는 일러스트 이미지" class="dp-fade-up">
+                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-q3.png"
+                          alt="세탁기와 그 옆에 세탁물이 가득쌓인 바구니가 놓여져있는 일러스트 이미지" class="dp-fade-up">
                       </div>
                       <div class="ip-box">
                         <label tabindex="0" for="q3-cycle1" class="dp-fade-up">
@@ -247,7 +280,7 @@
                       <button class="nxt disabled" tabindex="1" data-btn="nxt">다음</button>
                     </div>
                   </div>
-                  
+
                   <div class="survey-slot step-slot step4">
                     <div class="txt-box">
                       <p class="dp-fade-up"><span class="rbt">Q4.</span> 주요 기능</p>
@@ -255,12 +288,13 @@
                     </div>
                     <div class="answer-box">
                       <div class="img-box">
-                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-q4.png" alt="세탁기와 그 주위에 각종 기능을 표현하는 아이콘이 떠있는 일러스트 이미지" class="dp-fade-up">
+                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-solution-q4.png"
+                          alt="세탁기와 그 주위에 각종 기능을 표현하는 아이콘이 떠있는 일러스트 이미지" class="dp-fade-up">
                       </div>
                       <div class="ip-box ty2">
                         <label tabindex="0" for="q4-function1" class="dp-fade-up">
-                          <input hidden type="radio" name="sol-q4" id="q4-function1" title="트루 스팀" />
-                          <p>트루 스팀
+                          <input hidden type="radio" name="sol-q4" id="q4-function1" title="트루스팀" />
+                          <p>트루스팀
                             <i></i>
                           </p>
                         </label>
@@ -307,12 +341,13 @@
                       <button class="nxt disabled" tabindex="1" data-btn="submit">다음</button>
                     </div>
                   </div>
-                  
+
                   <div class="survey-slot result-slot tower">
                     <h2 class="dp-fade-up">나에게 딱 맞는 <b>세탁 솔루션!</b></h2>
                     <div class="wash-info">
                       <div class="img-box">
-                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-washtower1.png" alt="LG 워시타워. 흰색바디에 검은색 도어와 상단 조작 패널이 있는 단일 세탁기입니다." class="dp-fade-up">
+                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-washtower1.png"
+                          alt="LG 워시타워. 파란색 건조기와 밝은 회색 세탁기가 세로로 쌓인 타워형 제품입니다." class="dp-fade-up">
                       </div>
                       <div class="txt-box">
                         <em class="dp-fade-up">워시타워</em>
@@ -327,9 +362,10 @@
                       <p class="tit">워시타워 제품 추천해 드려요</p>
                       <ul class="recommend-list">
                         <li>
-                          <a href="https://www.lge.co.kr/wash-tower/wl22egzu" >
+                          <a href="https://www.lge.co.kr/wash-tower/wl22egzu">
                             <div class="img-box">
-                              <img src="/kr/story/useful-tip/img/washtower-washcombo/img-washtower2.png" alt="상단은 녹색, 하단은 흰색 바디인 LG 워시타워 입니다.">
+                              <img src="/kr/story/useful-tip/img/washtower-washcombo/img-washtower2.png"
+                                alt="상단은 녹색, 하단은 흰색 바디인 LG 워시타워 입니다.">
                             </div>
                             <div class="txt-box">
                               <i>WL22EGZU</i>
@@ -341,9 +377,10 @@
                           </a>
                         </li>
                         <li>
-                          <a href="https://www.lge.co.kr/wash-tower/wl22gezu" >
+                          <a href="https://www.lge.co.kr/wash-tower/wl22gezu">
                             <div class="img-box">
-                              <img src="/kr/story/useful-tip/img/washtower-washcombo/img-washtower3.png" alt="상단은 흰색, 하단은 녹색 바디인 LG 워시타워 입니다.">
+                              <img src="/kr/story/useful-tip/img/washtower-washcombo/img-washtower3.png"
+                                alt="상단은 흰색, 하단은 녹색 바디인 LG 워시타워 입니다.">
                             </div>
                             <div class="txt-box">
                               <i>WL22GEZU</i>
@@ -355,9 +392,10 @@
                           </a>
                         </li>
                         <li>
-                          <a href="https://www.lge.co.kr/wash-tower/wl22ymzu" >
+                          <a href="https://www.lge.co.kr/wash-tower/wl22ymzu">
                             <div class="img-box">
-                              <img src="/kr/story/useful-tip/img/washtower-washcombo/img-washtower4.png" alt="상단은 회색, 하단은 파란색 바디인 LG 워시타워 입니다.">
+                              <img src="/kr/story/useful-tip/img/washtower-washcombo/img-washtower4.png"
+                                alt="상단은 회색, 하단은 파란색 바디인 LG 워시타워 입니다.">
                             </div>
                             <div class="txt-box">
                               <i>WL22YMZU</i>
@@ -369,9 +407,10 @@
                           </a>
                         </li>
                         <li>
-                          <a href="https://www.lge.co.kr/wash-tower/wl21wdu" >
+                          <a href="https://www.lge.co.kr/wash-tower/wl21wdu">
                             <div class="img-box">
-                              <img src="/kr/story/useful-tip/img/washtower-washcombo/img-washtower5.png" alt="상단과 하단 모두 흰색 바디인 LG 워시타워 입니다.">
+                              <img src="/kr/story/useful-tip/img/washtower-washcombo/img-washtower5.png"
+                                alt="상단과 하단 모두 흰색 바디인 LG 워시타워 입니다.">
                             </div>
                             <div class="txt-box">
                               <i>WL21WDU</i>
@@ -384,14 +423,15 @@
                         </li>
                       </ul>
                     </div>
-                    <a href="https://www.lge.co.kr/wash-tower"  class="more-btn">더 많은 워시타워가 궁금하다면?</a>
+                    <a href="https://www.lge.co.kr/wash-tower" class="more-btn">더 많은 워시타워가 궁금하다면?</a>
                   </div>
-                  
+
                   <div class="survey-slot result-slot combo">
                     <h2 class="dp-fade-up">나에게 딱 맞는 <b>세탁 솔루션!</b></h2>
                     <div class="wash-info">
                       <div class="img-box">
-                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-washcombo1.png" alt="LG 워시콤보. 흰색 바디에 검은색 도어와 상단 조작 패널이 있는 단일 세탁기입니다." class="dp-fade-up">
+                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-washcombo1.png"
+                          alt="LG 워시콤보. 흰색 바디에 검은색 도어와 상단 조작 패널이 있는 단일 세탁기입니다." class="dp-fade-up">
                       </div>
                       <div class="txt-box">
                         <em class="dp-fade-up">워시콤보</em>
@@ -406,9 +446,10 @@
                       <p class="tit">워시콤보 제품 추천해 드려요</p>
                       <ul class="recommend-list">
                         <li>
-                          <a href="https://www.lge.co.kr/wash-combo/fh25kax" >
+                          <a href="https://www.lge.co.kr/wash-combo/fh25kax">
                             <div class="img-box">
-                              <img src="/kr/story/useful-tip/img/washtower-washcombo/img-washcombo2.png" alt="LG 워시콤보. 검은색 바디에 검은색 도어와 상단 조작 패널이 있는 단일 세탁기입니다.">
+                              <img src="/kr/story/useful-tip/img/washtower-washcombo/img-washcombo2.png"
+                                alt="LG 워시 콤보 + 미니워시. 검은색 세탁기 하단에 미니워시 칸이 결합된 세탁기 입니다.">
                             </div>
                             <div class="txt-box">
                               <i>FH25KAX</i>
@@ -420,9 +461,10 @@
                           </a>
                         </li>
                         <li>
-                          <a href="https://www.lge.co.kr/wash-combo/fh25eaef" >
+                          <a href="https://www.lge.co.kr/wash-combo/fh25eaef">
                             <div class="img-box">
-                              <img src="/kr/story/useful-tip/img/washtower-washcombo/img-washcombo3.png" alt="LG 워시콤보. 베이지색 바디에 검은색 도어와 상단 조작 패널이 있는 단일 세탁기입니다.">
+                              <img src="/kr/story/useful-tip/img/washtower-washcombo/img-washcombo3.png"
+                                alt="LG 워시 콤보 + 키높이 수납함. 베이지색 세탁기 하단에 키높이 수납함이 결합된 세탁기 입니다.">
                             </div>
                             <div class="txt-box">
                               <i>FH25EAEF</i>
@@ -434,9 +476,10 @@
                           </a>
                         </li>
                         <li>
-                          <a href="https://www.lge.co.kr/wash-combo/fh25gag" >
+                          <a href="https://www.lge.co.kr/wash-combo/fh25gag">
                             <div class="img-box">
-                              <img src="/kr/story/useful-tip/img/washtower-washcombo/img-washcombo4.png" alt="LG 워시콤보. 녹색 바디에 검은색 도어와 상단 조작 패널이 있는 단일 세탁기입니다.">
+                              <img src="/kr/story/useful-tip/img/washtower-washcombo/img-washcombo4.png"
+                                alt="LG 워시콤보. 녹색 바디에 검은색 도어와 상단 조작 패널이 있는 단일 세탁기입니다.">
                             </div>
                             <div class="txt-box">
                               <i>FH25GAG</i>
@@ -448,9 +491,10 @@
                           </a>
                         </li>
                         <li>
-                          <a href="https://www.lge.co.kr/wash-combo/fh25ka" >
+                          <a href="https://www.lge.co.kr/wash-combo/fh25ka">
                             <div class="img-box">
-                              <img src="/kr/story/useful-tip/img/washtower-washcombo/img-washcombo5.png" alt="LG 워시콤보. 검은색 바디에 검은색 도어와 상단 조작 패널이 있는 단일 세탁기입니다.">
+                              <img src="/kr/story/useful-tip/img/washtower-washcombo/img-washcombo5.png"
+                                alt="LG 워시콤보. 검은색 바디에 검은색 도어와 상단 조작 패널이 있는 단일 세탁기입니다.">
                             </div>
                             <div class="txt-box">
                               <i>FH25KA</i>
@@ -463,7 +507,7 @@
                         </li>
                       </ul>
                     </div>
-                    <a href="https://www.lge.co.kr/wash-combo"  class="more-btn">더 많은 워시콤보가 궁금하다면?</a>
+                    <a href="https://www.lge.co.kr/wash-combo" class="more-btn">더 많은 워시콤보가 궁금하다면?</a>
                   </div>
 
                 </div>
@@ -471,7 +515,7 @@
                   <span><i></i></span>
                 </div>
               </section>
-              
+
               <section id="section1-2" class="con-box detail-compare">
                 <h1>워시타워 &middot; 워시콤보 <br>
                   <strong>비교 분석</strong> 자세히 알려드릴게요
@@ -487,7 +531,8 @@
                     <li class="animate__animated animate__fadeInDown">
                       <div class="img-box">
                         <b>WASH <br>TOWER</b>
-                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-compare-form1.png" alt="LG 워시타워. 파란색 건조기와 밝은 회색 세탁기가 세로로 쌓인 타워형 제품입니다.">      
+                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-compare-form1.png"
+                          alt="LG 워시타워. 파란색 건조기와 밝은 회색 세탁기가 세로로 쌓인 타워형 제품입니다.">
                       </div>
                       <div class="txt-box">
                         <p>세탁기와 건조기가 결합되어 있는 <b>일체형</b></p>
@@ -497,7 +542,8 @@
                     <li class="animate__animated animate__fadeInUp">
                       <div class="img-box">
                         <b>WASH <br>COMBO</b>
-                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-compare-form2.png" alt="LG 워시콤보. 흰색 바디에 검은색 도어와 상단 조작 패널이 있는 단일 세탁기입니다.">      
+                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-compare-form2.png"
+                          alt="LG 워시콤보. 흰색 바디에 검은색 도어와 상단 조작 패널이 있는 단일 세탁기입니다.">
                       </div>
                       <div class="txt-box">
                         <p>세탁과 건조까지 한 번에 가능한 <b>올인원</b></p>
@@ -516,19 +562,24 @@
                   <ul>
                     <li class=" animate__animated animate__fadeInUp">
                       <div class="img-box">
-                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-compare-volume1.png" alt="LG 워시타워. 흰색 건조기와 세탁기가 세로로 쌓여 있는 타워형 제품이며, 주변에 세탁 바구니와 수건이 놓여 있습니다.">      
+                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-compare-volume1.png"
+                          alt="LG 워시타워. 흰색 건조기와 세탁기가 세로로 쌓여 있는 타워형 제품이며, 주변에 세탁 바구니와 수건이 놓여 있습니다.">
                       </div>
                       <div class="txt-box">
-                        <p><b>이불 세탁부터 <br class="mo-only">대용량 세탁까지</b> <br>빨래를 모아두었다가 <br class="mo-only">한 번에 진행하고 싶어요</p>
+                        <p><b>이불 세탁부터 <br class="mo-only">대용량 세탁까지</b> <br>빨래가 많아 빨래와 건조를 <br class="mo-only">동시에 하고 싶어요
+                        </p>
+                        <i>*세탁 최대 25kg / 건조 22kg <br class="mo-only"><br class="mo-only"></i>
                         <span class="line-txt">워시타워</span>
                       </div>
                     </li>
                     <li class=" animate__animated animate__fadeInUp dly1">
                       <div class="img-box">
-                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-compare-volume2.png" alt="LG 워시콤보. 흰색 단일 세탁기이며, 옆에는 세탁 바구니와 수건 보관대, 그리고 화분이 놓여 있습니다.">      
+                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-compare-volume2.png"
+                          alt="LG 워시콤보. 흰색 단일 세탁기이며, 옆에는 세탁 바구니와 수건 보관대, 그리고 화분이 놓여 있습니다.">
                       </div>
                       <div class="txt-box">
                         <p>1~2인 가구여서 <br class="mo-only">빨래 양이 적어요<b> <br>소량 세탁을 <br class="mo-only">자주 해요</b></p>
+                        <i>*세탁 최대 25kg / 건조 15kg , <br class="mo-only">미니워시 추가시 세탁 4kg</i>
                         <span class="line-txt">워시콤보</span>
                       </div>
                     </li>
@@ -536,73 +587,93 @@
                 </div>
 
                 <div class="compare-space">
-                  <div class="compare-space-wrap">
-                    <div class="wash-tit animate__animated animate__fadeInUp">
-                      <span>비교 03</span>
-                      <h3><em>공간</em>을 활용 할 수 있어요</h3>
-                    </div>
-
-                    <div class="img-box animate__animated animate__fadeInUp dly1">
-                      <div class="img-wrap pc-only">
-                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-compare-space.png" alt="LG 워시타워. 파란색 건조기와 흰색 세탁기가 세로로 쌓인 타워형 제품입니다. 높이는 1890mm, 폭은 700mm입니다. 옆에는 선반과 세탁 바구니가 있습니다. 이 이미지는 소비자의 이해를 돕기 위한 연출된 이미지입니다." style="display:block;">     
-                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-compare-space2.png" alt="LG 워시콤보. LG 워시콤보. 흰색 바디에 검은색 도어와 상단 조작 패널이 있는 단일 세탁기입니다. 높이는 990mm, 폭은 700mm입니다. 옆에는 선반과 세탁 바구니가 있습니다. 이 이미지는 소비자의 이해를 돕기 위한 연출된 이미지입니다.">     
+                  <div class="inner">
+                    <div class="compare-space-wrap">
+                      <div class="wash-tit animate__animated animate__fadeInUp">
+                        <span>비교 03</span>
+                        <h3><em>공간</em>을 활용 할 수 있어요</h3>
                       </div>
-                      <div class="img-wrap mo-only">
-                        <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-compare-space.png" alt="LG 워시타워. 파란색 건조기와 흰색 세탁기가 세로로 쌓인 타워형 제품입니다. 높이는 1890mm, 폭은 700mm입니다. 옆에는 선반과 세탁 바구니가 있습니다. 이 이미지는 소비자의 이해를 돕기 위한 연출된 이미지입니다." style="display:block;">     
-                        <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-compare-space2.png" alt="LG 워시콤보. 흰색 바디에 검은색 도어와 상단 조작 패널이 있는 단일 세탁기입니다. 높이는 990mm, 폭은 700mm입니다. 옆에는 선반과 세탁 바구니가 있습니다. 이 이미지는 소비자의 이해를 돕기 위한 연출된 이미지입니다.">     
-                      </div>
-                      <div class="txt-box">
-                        <p>단위 : mm</p>
-                        <p>* 소비자의 이해를 돕기 위해 연출된 이미지입니다.</p>
-                      </div> 
-                    </div>
 
-                    <div class="tab-box animate__animated animate__fadeInUp">
-                      <ul class="tab-list">
-                        <li class="on" tabindex="0">
-                          <span class="tit">워시타워</span>
-                          <p class="info">
-                            워시콤보 보다는 <br>
-                            상대적으로 더 <b>높은 설치 공간</b>이 <br>
-                            필요해요
-                          </p>
-                        </li>
-                        <li tabindex="0">
-                          <span class="tit">워시콤보</span>
-                          <p class="info">
-                            직렬 설치를 할 수 없는 <b>좁은 공간에도 <br>
-                            설치가 가능해</b> 공간을 효율적으로 <br>
-                            활용할 수 있어요.
-                          </p>
-                        </li>
-                      </ul>
-                      <a href="https://www.lge.co.kr/wash-tower?filterProduct=AT0000000109:KY0000002622:03"  class="recommend-box">
-                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-recommend-box.png" alt="LG 워시타워. 녹색 건조기와 흰색 세탁기가 세로로 쌓인 타워형 제품입니다.">      
-                        <div class="txt-box">
-                          <p class="txt1 pc-only">워시타워를 선호하지만, 더 컴팩트한 용량과 사이즈를 원하는 고객님께는</p>
-                          <p class="txt1 mo-only">워시타워를 선호하지만, 더 컴팩트함을 원한다면?</p>
-                          <p class="txt2">워시타워 <b>컴팩트 모델</b>도 추천드려요</p>
-                          <span class="pc-only">제품 보기</span>
+                      <div class="img-box animate__animated animate__fadeInUp dly1">
+                        <div class="img-wrap pc-only">
+                          <img src="/kr/story/useful-tip/img/washtower-washcombo/img-compare-space.png"
+                            alt="LG 워시타워. 파란색 건조기와 흰색 세탁기가 세로로 쌓인 타워형 제품입니다. 높이는 1890mm, 폭은 700mm입니다. 옆에는 선반과 세탁 바구니가 있습니다. 이 이미지는 소비자의 이해를 돕기 위한 연출된 이미지입니다."
+                            style="display:block;">
+                          <img src="/kr/story/useful-tip/img/washtower-washcombo/img-compare-space2.png"
+                            alt="LG 워시콤보. LG 워시콤보. 흰색 바디에 검은색 도어와 상단 조작 패널이 있는 단일 세탁기입니다. 높이는 990mm, 폭은 700mm입니다. 옆에는 선반과 세탁 바구니가 있습니다. 이 이미지는 소비자의 이해를 돕기 위한 연출된 이미지입니다.">
                         </div>
-                      </a>
-                    </div>
+                        <div class="img-wrap mo-only">
+                          <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-compare-space.png"
+                            alt="LG 워시타워. 파란색 건조기와 흰색 세탁기가 세로로 쌓인 타워형 제품입니다. 높이는 1890mm, 폭은 700mm입니다. 옆에는 선반과 세탁 바구니가 있습니다. 이 이미지는 소비자의 이해를 돕기 위한 연출된 이미지입니다."
+                            style="display:block;">
+                          <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-compare-space2.png"
+                            alt="LG 워시콤보. 흰색 바디에 검은색 도어와 상단 조작 패널이 있는 단일 세탁기입니다. 높이는 990mm, 폭은 700mm입니다. 옆에는 선반과 세탁 바구니가 있습니다. 이 이미지는 소비자의 이해를 돕기 위한 연출된 이미지입니다.">
+                        </div>
+                        <div class="txt-box">
+                          <p>단위 : mm</p>
+                          <p>* 소비자의 이해를 돕기 위해 연출된 이미지입니다.</p>
+                        </div>
+                      </div>
 
+                      <div class="tab-box animate__animated animate__fadeInUp">
+                        <ul class="tab-list">
+                          <li class="on" tabindex="0">
+                            <span class="tit">워시타워</span>
+                            <p class="info">
+                              세탁기와 건조기를 <b>하나의 조작부로 컨트롤</b> 할 수 있어요. <br>직렬로 두 제품을 설치하는 경우 <br>대비 높이가 8.7cm 더 낮아져서 편하게
+                              사용할
+                              수
+                              있어요. <br>
+                              워시콤보 보다는 상대적으로 더 <b>높은 설치 공간이 필요</b>합니다.
+                            </p>
+                          </li>
+                          <li tabindex="0">
+                            <span class="tit">워시콤보</span>
+                            <p class="info">
+                              <b>세탁기 하나의 사이즈로 세탁과 건조가 가능</b>해 공간을 <br>컴팩트하게 활용할 수 있어요. 미니워시를 추가하면 <br>소량으로 분리 세탁, 동시
+                              세탁이 가능하고, <br>키높이 수납함을 통해 <b>수납공간까지 확보</b>할 수 있어요.
+                            </p>
+                          </li>
+                        </ul>
+                        <a href="https://www.lge.co.kr/wash-tower?filterProduct=AT0000000109:KY0000002622:03"
+                          class="recommend-box">
+                          <img src="/kr/story/useful-tip/img/washtower-washcombo/img-recommend-box.png"
+                            alt="LG 워시타워. 녹색 건조기와 흰색 세탁기가 세로로 쌓인 타워형 제품입니다.">
+                          <div class="txt-box">
+                            <p class="txt1 pc-only">워시타워를 선호하지만, 더 컴팩트한 용량과 사이즈를 원하는 고객님께는</p>
+                            <p class="txt1 mo-only">워시타워를 선호하지만, 더 컴팩트함을 원한다면?</p>
+                            <p class="txt2">워시타워 <b>컴팩트 모델</b>도 추천드려요</p>
+                            <span class="pc-only">제품 보기</span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="info-txt animate__animated animate__fadeInUp">
+                    <span>[높이 측정 기준]</span>
+                    <br><br>
+                    * 원바디 플랫 디자인 높이와 건조통 높이는 기존 직렬설 치 세탁기 F21VDD + 건조기 RH16VS 대비 기준 <br>
+                    * 실측치 기준으로 설치환경에 따라 달라질 수 있음
                   </div>
                 </div>
               </section>
 
               <section id="section03" class="find-product">
-                <img src="/kr/story/useful-tip/img/washtower-washcombo/img-find-product.png" alt="검은색의 LG 워시타워 이미지. 왼쪽에는 안락의자와 나무스툴이 , 오른쪽엔 화분이 놓여 있습니다." class="bg animate__animated animate__zoomInUp pc-only">      
-                <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-find-product.png" alt="검은색의 LG 워시타워 이미지. 왼쪽에는 안락의자와 나무스툴이 , 오른쪽엔 화분이 놓여 있습니다." class="bg animate__animated animate__zoomInUp mo-only">      
+                <img src="/kr/story/useful-tip/img/washtower-washcombo/img-find-product.png"
+                  alt="검은색의 LG 워시타워 이미지. 왼쪽에는 안락의자와 나무스툴이 , 오른쪽엔 화분이 놓여 있습니다."
+                  class="bg animate__animated animate__zoomInUp pc-only">
+                <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-find-product.png"
+                  alt="검은색의 LG 워시타워 이미지. 왼쪽에는 안락의자와 나무스툴이 , 오른쪽엔 화분이 놓여 있습니다."
+                  class="bg animate__animated animate__zoomInUp mo-only">
                 <div class="txt-box">
                   <h2>내게 맞는 제품을 찾아볼까요?</h2>
-                  <button class="_btn ty_w" data-con="find" >내게 맞는 제품 찾기</button>
+                  <button class="_btn ty_w" data-con="find">내게 맞는 제품 찾기</button>
                 </div>
               </section>
-              
+
             </div>
             <!-- //워시타워 워시콤보 비교 -->
-            
+
             <!-- 내게 맞는 제품 찾기 -->
             <div id="con-find-pd" class="con-wrap">
               <h1 class="find-pd-main-tit animate__animated animate__fadeInUp">나에게 맞는 제품을 찾아볼까요? <br>
@@ -621,15 +692,16 @@
                     <li>
                       <strong class="deco-txt ty1 pc-only animate__animated animate__fadeInUp">WASH <br>COMBO</strong>
                       <div class="img-box animate__animated animate__fadeInUp">
-                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-lifestyle1.png" alt="LG 워시콤보. 흰색 바디에 검은색 도어와 상단 조작 패널이 있는 단일 세탁기입니다.">      
+                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-lifestyle1.png"
+                          alt="LG 워시콤보. 흰색 바디에 검은색 도어와 상단 조작 패널이 있는 단일 세탁기입니다.">
                       </div>
                       <div class="txt-box animate__animated animate__fadeInUp dly1">
                         <em>이런 분들에게 <b>추천</b>해요</em>
                         <strong class="tit">1인 가구</strong>
                         <ul class="point">
                           <li>세탁물의 양이 많지 않아요</li>
-                          <li>세탁물의 종류별로 소량으로 나눠서 세탁건조해요</li>
-                          <li>공간을 자유롭게 활용하고 싶어요</li>
+                          <li>세탁부터 건조까지 한번에 끝내고 싶어요 </li>
+                          <li>공간을 컴팩트하게 활용하고 싶어요</li>
                         </ul>
                         <ul class="hashtag">
                           <li>1인가구</li>
@@ -637,7 +709,7 @@
                           <li>분리세탁건조</li>
                           <li>좁은공간</li>
                         </ul>
-                        <a href="https://www.lge.co.kr/wash-combo"  class="name">
+                        <a href="https://www.lge.co.kr/wash-combo" class="name">
                           <p>LG 트롬 오브제컬렉션 <b>워시콤보</b></p>
                           <span>제품 보기</span>
                         </a>
@@ -646,7 +718,8 @@
                     <li>
                       <strong class="deco-txt ty2 pc-only animate__animated animate__fadeInUp">WASH <br>TOWER</strong>
                       <div class="img-box animate__animated animate__fadeInUp">
-                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-lifestyle2.png" alt="LG 워시타워 컴팩트. 초록색 건조기와 아이보리색 세탁기가 세로로 쌓인 타워형 제품입니다.">      
+                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-lifestyle2.png"
+                          alt="LG 워시타워 컴팩트. 초록색 건조기와 아이보리색 세탁기가 세로로 쌓인 타워형 제품입니다.">
                       </div>
                       <div class="txt-box animate__animated animate__fadeInUp dly1">
                         <em>이런 분들에게 <b>추천</b>해요</em>
@@ -661,7 +734,8 @@
                           <li>기본사이즈</li>
                           <li>가성비</li>
                         </ul>
-                        <a href="https://www.lge.co.kr/wash-tower?filterProduct=AT0000000109:KY0000002622:03"  class="name">
+                        <a href="https://www.lge.co.kr/wash-tower?filterProduct=AT0000000109:KY0000002622:03"
+                          class="name">
                           <p>LG 트롬 오브제컬렉션 <b>워시타워 컴팩트</b></p>
                           <span>제품 보기</span>
                         </a>
@@ -669,7 +743,8 @@
                     </li>
                     <li>
                       <div class="img-box animate__animated animate__fadeInUp">
-                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-lifestyle3.png" alt="LG 워시타워. 파란색 건조기와 밝은 회색 세탁기가 세로로 쌓인 타워형 제품입니다.">      
+                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-lifestyle3.png"
+                          alt="LG 워시타워. 파란색 건조기와 밝은 회색 세탁기가 세로로 쌓인 타워형 제품입니다.">
                       </div>
                       <div class="txt-box animate__animated animate__fadeInUp dly1">
                         <em>이런 분들에게 <b>추천</b>해요</em>
@@ -684,7 +759,8 @@
                           <li>이불건조</li>
                           <li>겨울빨래</li>
                         </ul>
-                        <a href="https://www.lge.co.kr/wash-tower?filterProduct=AT0000000109:KY0000002622:03"  class="name">
+                        <a href="https://www.lge.co.kr/wash-tower?filterProduct=AT0000000109:KY0000002622:03"
+                          class="name">
                           <p>LG 트롬 오브제컬렉션 <b>워시타워</b></p>
                           <span>제품 보기</span>
                         </a>
@@ -715,16 +791,22 @@
                         <div class="info-box">
                           <div class="img-box">
                             <div class="img-wrap">
-                              <video src="/kr/story/useful-tip/img/washtower-washcombo/video/function-info1.mp4" muted playsinline loop autoplay title="100˚C의 트루스팀으로 카페트를 살균하고 있습니다."></video>
+                              <video src="/kr/story/useful-tip/img/washtower-washcombo/video/function-info1.mp4" muted
+                                playsinline loop autoplay title="100˚C의 트루스팀으로 카페트를 살균하고 있습니다."></video>
                               <button class="vid-btn" aria-label="영상 일시정지 버튼"></button>
                             </div>
-                            <p>* 소비자의 이해를 돕기 위해 연출된 영상입니다.</p>
+                            <p>
+                              * 소비자의 이해를 돕기 위해 연출된 영상입니다. <br>
+                              * 트루스팀 알러지케어코스 / 집먼지 진드기 / 빈대 살충 성능 / 바이러스 제거성능
+                            </p>
                           </div>
                           <div class="txt-box">
                             <div class="txt-wrap">
-                              <span>트루스팀 알러지 케어 코스</span>
+                              <span>트루스팀 - 스팀 살균 코스</span>
                               <b>보이지 않는 곳까지 꼼꼼하게, <br>위생이 중요해요</b>
-                              <p>물을 100˚C에서 끓여 만든 트루스팀으로 빈대 100% 살충, 집 먼지 진드기, <br>알러지 유발 물질 제거는 물론 유해 세균까지 99.99% 살균하여 <br>걱정 없이 더 건강하게 세탁하세요.</p>
+                              <p>물을 100˚C에서 끓여 만든 트루스팀으로 빈대 100% 살충, 집 먼지 진드기, <br>알러지 유발 물질 제거는 물론 유해 세균까지 99.99% 살균하여
+                                <br>걱정 없이 더 건강하게 건조하세요.
+                              </p>
                             </div>
                             <button class="more-btn" aria-label="자세한 설명이 나타나는 버튼"><i></i></button>
                             <div class="func-nav mo-only">
@@ -734,42 +816,93 @@
                             <div class="swiper">
                               <ul class="swiper-wrapper">
                                 <li class="swiper-slide">
-                                  <img src="/kr/story/useful-tip/img/washtower-washcombo/img-find-function1-1.png" alt="LG 워시타워. 회색 건조기와 베이지색 세탁기가 세로로 쌓인 타워형 제품입니다.">
-                                  <div class="txt">      
+                                  <img src="/kr/story/useful-tip/img/washtower-washcombo/img-find-function1-1.png"
+                                    alt="LG 워시타워. 회색 건조기와 베이지색 세탁기가 세로로 쌓인 타워형 제품입니다.">
+                                  <div class="txt">
                                     <p>LG 트롬 오브제컬렉션 <b>워시타워</b></p>
-                                    <a href="https://www.lge.co.kr/wash-tower?filterProduct=AT0000000109:KY0000002621:03" >제품 보기</a>
+                                    <a
+                                      href="https://www.lge.co.kr/wash-tower?filterProduct=AT0000000109:KY0000002621:03">제품
+                                      보기</a>
                                   </div>
                                 </li>
                               </ul>
                               <!-- <div class="sld-nav pc-only">
-                                <span class="prv"></span>
-                                <span class="nxt"></span>
-                              </div>
-                              <div class="pagi"></div> -->
+                              <span class="prv"></span>
+                              <span class="nxt"></span>
+                            </div>
+                            <div class="pagi"></div> -->
                             </div>
                           </div>
                         </div>
                         <div class="features-box">
                           <span>[트루스팀 알러지케어코스]</span>
-                          <p>* 전남대학교 산학협력단 시험 결과, 인플루엔자(H3N2), 인플루엔자(H1N1), 엔테로(PEV), 아데노(ICHV), 헤르페스(IBRV), 코로나(MHV), 코로나(PEDV) 바이러스를 30 cm x 30 cm KS포에 접종한 후
-                          정격 용량 50 %와 함께 투입하여 알러지케어 코스 행정 시 99.99 % 제거함.<br>* PEDV와 MHV 바이러스는 코로나 바이러스의 일종으로 신종 코로나바이러스 19(COVID-19)에 대한 시험 결과가 아님.<br>* 상기 제거율은 실사용 조건에 따라 차이가 있을 수 있습니다.<br>* 영국 알러지 협회(BAF) 집먼지진드기, 개, 고양이, 꽃가루 알러젠 제거 인증(알러지 케어코스_트루스팀 적용 기준)<br>* 한국의과학연구원(KRIBS) 시험 결과, 시험편 표면에 유해세균(황색포도상구균, 녹농균, 폐렴간균)을 접종 후 국제 에너지 규격 시험 50 % 부하와 함께 알러지케어 코스 행정 시 99.99 % 살균됨.<br>* 살균 효과는 세균 종류 및 사용 환경에 따라 차이가 있을 수 있습니다.<br>* 국내최다 : 2020년 11월 국내판매 드럼세탁기 홈페이지 시험치 명시 기준(자사 14종=유해세균 3종+바이러스 7종+유해물질 4종)
+                          <p>* 전남대학교 산학협력단 시험 결과, 인플루엔자(H3N2), 인플루엔자(H1N1), 엔테로(PEV), 아데노(ICHV), 헤르페스(IBRV), 코로나(MHV),
+                            코로나(PEDV) 바이러스를 30 cm x 30 cm KS포에 접종한 후
+                            정격 용량 50 %와 함께 투입하여 알러지케어 코스 행정 시 99.99 % 제거함.<br>* PEDV와 MHV 바이러스는 코로나 바이러스의 일종으로 신종
+                            코로나바이러스
+                            19(COVID-19)에 대한 시험 결과가 아님.<br>* 상기 제거율은 실사용 조건에 따라 차이가 있을 수 있습니다.<br>* 영국 알러지 협회(BAF)
+                            집먼지진드기,
+                            개, 고양이, 꽃가루 알러젠 제거 인증(알러지 케어코스_트루스팀 적용 기준)<br>* 한국의과학연구원(KRIBS) 시험 결과, 시험편 표면에 유해세균(황색포도상구균,
+                            녹농균, 폐렴간균)을 접종 후 국제 에너지 규격 시험 50 % 부하와 함께 알러지케어 코스 행정 시 99.99 % 살균됨.<br>* 살균 효과는 세균 종류 및 사용
+                            환경에
+                            따라 차이가 있을 수 있습니다.<br>* 국내최다 : 2020년 11월 국내판매 드럼세탁기 홈페이지 시험치 명시 기준(자사 14종=유해세균 3종+바이러스
+                            7종+유해물질
+                            4종)
                           </p>
+
+                          <span>[집먼지 진드기]</span>
+                          <p>* 시험 기관 : 인터텍 <br>
+                            * 시험 부하 : 국제규격부하 마른상태 4.5kg, 젖은상태 7kg <br>
+                            * 시험 균 : 집먼지 진드기 <br>
+                            * 시험 방법 : 집먼지 진드기 침구털기(스팀옵션) 동작 후 제거력 측정 <br>
+                            * 시험 결과 : 집먼지 진드기 100% 제거</p>
+
+                          <span>[빈대 살충 성능]</span>
+                          <p>* 시험 기관 : KATRI시험연구원의 검증을 받은 산학 시험결과 <br>
+                            * 시험 코스 : 스팀살균코스 <br>
+                            * 시험 부하 : KS C IEC60456 시험기준 국제 규격 부하 마른 상태 4.5kg, 젖은 상태 7kg <br>
+                            * 시험 방법 : 피레트로이드계 내성이 있는 빈대 3령 약충 5마리, 성충 5마리 및 10개의 알을 시험부하에 부착 하여 스팀살균코스 동작 후 빈대 사멸율 및
+                            부화율을 확인
+                            <br>
+                            * 시험 결과 : 스팀살균코스 동작 후 빈대 및 알 100% 살충 <br>
+                            ※ 상기 시험결과는 사용환경, 실사용 조건 등에 따라 차이가 있을 수 있습니다.
+                          </p>
+
+                          <span>[바이러스 제거성능]</span>
+                          <p>* 시험 기관 : 전남대학교 산학협력단 <br>
+                            * 시험 부하 : KS포 마른상태 4kg, 젖은상태 7kg <br>
+                            * 시험 균 : 바이러스 7종 (인플루엔자 A(H3N2), 인플루엔자 A(H1N1), 엔테로 바이러스(PEV), 헤르페스바이러스 (IBRV),
+                            아데노바이러스(ICHV),
+                            코로나[MHV], 코로나[PEDV]) <br>
+                            * 시험 조건 : 시험실 온도 20°±3C, 시험실 습도 40±10% R.H. <br>
+                            * 시험 방법 : 바이러스 오염된 면직물 부착하여 스팀살균 코스 동작 후 살균력 측정 <br>
+                            * 시험 결과 : 바이러스 7종 99.99% 살균 <br>
+                            * MHV, PEDV바이러스는 코로나 바이러스의 일종으로 신종 코로나바이러스 19(COVID-19)에 대한 시험 결과가 아님. <br>
+                            * 시험결과는 사용환경 등에 따라 차이가 있을 수 있습니다.</p>
+
                         </div>
                       </div>
                       <div class="swiper-slide info-slot f_time">
                         <div class="info-box">
                           <div class="img-box">
                             <div class="img-wrap">
-                              <video src="/kr/story/useful-tip/img/washtower-washcombo/video/function-info2.mp4" muted playsinline loop autoplay title="세탁기 안에서 5방향으로 강한 물줄기가 나오면서 회전하며 세탁물을 세탁합니다."></video>
+                              <video src="/kr/story/useful-tip/img/washtower-washcombo/video/function-info2.mp4" muted
+                                playsinline loop autoplay title="세탁기 안에서 5방향으로 강한 물줄기가 나오면서 회전하며 세탁물을 세탁합니다."></video>
                               <button class="vid-btn" aria-label="영상 일시정지 버튼"></button>
                             </div>
-                            <p>* 소비자의 이해를 돕기 위해 연출된 영상입니다.</p>
+                            <p>
+                              * 소비자의 이해를 돕기 위해 연출된 영상입니다. <br>
+                              * 5방향 터보샷+
+                            </p>
                           </div>
                           <div class="txt-box">
                             <div class="txt-wrap">
                               <span>5방향 터보샷 + / 건조 준비</span>
                               <b>늘 바쁜 일상, 빨래는 최대한 빠르게 <br>시간 절약이 중요해요</b>
-                              <p>상하좌우 5방향 터보샷+로 코스에 따라 세기와 방향을 자동으로 조절할 수 있어 <br>세탁을 빠르게 완료할 수 있어요. 또한 세탁이 끝나가면 건조기를 <br>미리 예열하여 세탁과 건조를 진행하는 시간을 줄일 수 있어요.</p>
+                              <p>상하좌우 5방향 터보샷+로 코스에 따라 세기와 방향을 자동으로 조절할 수 있어 <br>세탁을 빠르게 완료할 수 있어요. 또한 세탁이 끝나가면 건조기를
+                                <br>미리
+                                예열하여 세탁과 건조를 진행하는 시간을 줄일 수 있어요.
+                              </p>
                             </div>
                             <button class="more-btn" aria-label="자세한 설명이 나타나는 버튼"><i></i></button>
                             <div class="func-nav mo-only">
@@ -779,24 +912,31 @@
                             <div class="swiper">
                               <ul class="swiper-wrapper">
                                 <li class="swiper-slide">
-                                  <img src="/kr/story/useful-tip/img/washtower-washcombo/img-find-function2-1.png" alt="LG 워시타워. 파란색 건조기와 밝은 회색 세탁기가 세로로 쌓인 타워형 제품입니다.">
-                                  <div class="txt">      
+                                  <img src="/kr/story/useful-tip/img/washtower-washcombo/img-find-function2-1.png"
+                                    alt="LG 워시타워. 파란색 건조기와 밝은 회색 세탁기가 세로로 쌓인 타워형 제품입니다.">
+                                  <div class="txt">
                                     <p>LG 트롬 오브제컬렉션 <b>워시타워 컴팩트</b></p>
-                                    <a href="https://www.lge.co.kr/wash-tower?filterProduct=AT0000000109:KY0000002622:03" >제품 보기</a>
+                                    <a
+                                      href="https://www.lge.co.kr/wash-tower?filterProduct=AT0000000109:KY0000002622:03">제품
+                                      보기</a>
                                   </div>
                                 </li>
                               </ul>
                               <!-- <div class="sld-nav pc-only">
-                                <span class="prv"></span>
-                                <span class="nxt"></span>
-                              </div>
-                              <div class="pagi"></div> -->
+                              <span class="prv"></span>
+                              <span class="nxt"></span>
+                            </div>
+                            <div class="pagi"></div> -->
                             </div>
                           </div>
                         </div>
                         <div class="features-box">
                           <span>[5방향 터보샷+]</span>
-                          <p>* 5방향 터보샷이란? 좌우 4개의 분사 물살과 1개의 낙수 물살의 다양한 작용으로, 수압에 따라 물줄기의 분사 세기, 모양이 달라질 수 있고, 실 사용 환경과 행정 과정에 따라 터보샷 작동은 상이할 수 있습니다.<br> * 인터텍 시험 결과, 자사가 제시한 기준으로 북미 에너지 규격 시험 부하 3 kg, 표준 코스+터보샷 옵션 세탁 시 30분. 표준코스+터보샷 옵션 미적용 대비 <br>
+                          <p>* 5방향 터보샷이란? 좌우 4개의 분사 물살과 1개의 낙수 물살의 다양한 작용으로, 수압에 따라 물줄기의 분사 세기, 모양이 달라질 수 있고, 실 사용 환경과
+                            행정
+                            과정에 따라 터보샷 작동은 상이할 수 있습니다.<br> * 인터텍 시험 결과, 자사가 제시한 기준으로 북미 에너지 규격 시험 부하 3 kg, 표준 코스+터보샷 옵션
+                            세탁 시
+                            30분. 표준코스+터보샷 옵션 미적용 대비 <br>
                             물 사용양 30 %, 세탁 시간 24%가 절약되었습니다. (24kg 드럼세탁기 기준)<br> * 세탁 시간과 물 사용량은 사용 환경에 따라 차이가 있을 수 있습니다.
                           </p>
                         </div>
@@ -805,16 +945,21 @@
                         <div class="info-box">
                           <div class="img-box">
                             <div class="img-wrap">
-                              <video src="/kr/story/useful-tip/img/washtower-washcombo/video/function-info3.mp4" muted playsinline loop autoplay style="object-fit: contain;" title="6가지 모션 중 두드리기는 방망이로 두드리는 효과, 주무르기는 손빨래하듯 꼼꼼하게 세탁하는 효과, 비비기는 세제를 효과적으로 녹여주는 효과, 풀어주기는 옷감이 엉키지 않도록 풀어주는 효과, 꼭꼭짜기는 원심력으로 잘 짜주는 효과, 흔들기는 섬세하게 흔들어 약한 옷감을 부드럽게 세탁하는 효과"></video>
+                              <video src="/kr/story/useful-tip/img/washtower-washcombo/video/function-info3.mp4" muted
+                                playsinline loop autoplay style="object-fit: contain;"
+                                title="6가지 모션 중 두드리기는 방망이로 두드리는 효과, 주무르기는 손빨래하듯 꼼꼼하게 세탁하는 효과, 비비기는 세제를 효과적으로 녹여주는 효과, 풀어주기는 옷감이 엉키지 않도록 풀어주는 효과, 꼭꼭짜기는 원심력으로 잘 짜주는 효과, 흔들기는 섬세하게 흔들어 약한 옷감을 부드럽게 세탁하는 효과"></video>
                               <button class="vid-btn" aria-label="영상 일시정지 버튼"></button>
                             </div>
-                            <p>* 소비자의 이해를 돕기 위해 연출된 영상입니다.</p>
+                            <p>* 소비자의 이해를 돕기 위해 연출된 영상입니다. <br>
+                              * 세계최초 딥러닝 인공지능 검증 / 인공지능 세탁코스
+                            </p>
                           </div>
                           <div class="txt-box">
                             <div class="txt-wrap">
                               <span>딥러닝 AI x 6모션 및 수축 완화 코스</span>
                               <b>아끼는 옷, 줄어들지 않게 <br>세심하게 옷 관리가 중요해요</b>
-                              <p>딥러닝 AI로 세탁물의 무게와 재질을 감지하여 손빨래 동작을 본뜬 <br>6가지 모션 조합으로 섬세하게, 오염도에 따라 세제 양과 세탁 시간을 <br>알아서 조절하여 꼼꼼하게 세탁합니다.</p>
+                              <p>딥러닝 AI로 세탁물의 무게와 재질을 감지하여 손빨래 동작을 본뜬 <br>6가지 모션 조합으로 섬세하게, 오염도에 따라 세제 양과 세탁 시간을 <br>알아서
+                                조절하여 꼼꼼하게 세탁합니다.</p>
                             </div>
                             <button class="more-btn" aria-label="자세한 설명이 나타나는 버튼"><i></i></button>
                             <div class="func-nav mo-only">
@@ -824,24 +969,31 @@
                             <div class="swiper">
                               <ul class="swiper-wrapper">
                                 <li class="swiper-slide">
-                                  <img src="/kr/story/useful-tip/img/washtower-washcombo/img-find-function3-1.png" alt="LG 워시타워. 회색 건조기와 파란색 세탁기가 세로로 쌓인 콤보형 제품입니다.">
-                                  <div class="txt">      
+                                  <img src="/kr/story/useful-tip/img/washtower-washcombo/img-find-function3-1.png"
+                                    alt="LG 워시타워. 회색 건조기와 파란색 세탁기가 세로로 쌓인 타워형 제품입니다.">
+                                  <div class="txt">
                                     <p>LG 트롬 오브제컬렉션 <b>워시타워</b></p>
-                                    <a href="https://www.lge.co.kr/wash-tower?filterProduct=AT0000000109:KY0000002621:03" >제품 보기</a>
+                                    <a
+                                      href="https://www.lge.co.kr/wash-tower?filterProduct=AT0000000109:KY0000002621:03">제품
+                                      보기</a>
                                   </div>
                                 </li>
                                 <li class="swiper-slide">
-                                  <img src="/kr/story/useful-tip/img/washtower-washcombo/img-find-function2-1.png" alt="LG 워시타워. 녹색 건조기와 흰색 세탁기가 세로로 쌓인 콤보형 제품입니다.">
-                                  <div class="txt">      
+                                  <img src="/kr/story/useful-tip/img/washtower-washcombo/img-find-function2-1.png"
+                                    alt="LG 워시타워. 녹색 건조기와 흰색 세탁기가 세로로 쌓인 타워형 제품입니다.">
+                                  <div class="txt">
                                     <p>LG 트롬 오브제컬렉션 <b>워시타워 컴팩트</b></p>
-                                    <a href="https://www.lge.co.kr/wash-tower?filterProduct=AT0000000109:KY0000002622:03" >제품 보기</a>
+                                    <a
+                                      href="https://www.lge.co.kr/wash-tower?filterProduct=AT0000000109:KY0000002622:03">제품
+                                      보기</a>
                                   </div>
                                 </li>
                                 <li class="swiper-slide">
-                                  <img src="/kr/story/useful-tip/img/washtower-washcombo/img-find-function4-1.png" alt="LG 워시콤보. 베이지색 바디에 검은색 도어와 상단 조작 패널이 있는 단일 세탁기입니다.">
-                                  <div class="txt">      
+                                  <img src="/kr/story/useful-tip/img/washtower-washcombo/img-find-function4-1.png"
+                                    alt="LG 워시콤보. 베이지색 바디에 검은색 도어와 상단 조작 패널이 있는 단일 세탁기입니다.">
+                                  <div class="txt">
                                     <p>LG 트롬 오브제컬렉션 <b>워시콤보</b></p>
-                                    <a href="https://www.lge.co.kr/wash-combo" >제품 보기</a>
+                                    <a href="https://www.lge.co.kr/wash-combo">제품 보기</a>
                                   </div>
                                 </li>
                               </ul>
@@ -858,23 +1010,31 @@
                           <p>* 세계최초 글로벌 안전과학회사인 UL로부터 트롬 세탁/건조가전에 대해 “딥러닝 AI 검증＂획득 (2022년 4월 15일)</p>
 
                           <span>[인공지능 세탁코스]</span>
-                          <p>* 인공지능 세탁코스는 최대용량 6kg 이하에서 동작하며, 실사용 환경 및 세탁물 종류에 따라 다를 수 있습니다.<br> * 초기 표시된 시간과 실제 동작 시간은 다를 수 있습니다.<br> * 해당 성능은 실사용 환경에 따라 다를 수 있습니다.</p>
+                          <p>* 인공지능 세탁코스는 최대용량 6kg 이하에서 동작하며, 실사용 환경 및 세탁물 종류에 따라 다를 수 있습니다.<br> * 초기 표시된 시간과 실제 동작 시간은
+                            다를 수
+                            있습니다.<br> * 해당 성능은 실사용 환경에 따라 다를 수 있습니다.</p>
                         </div>
                       </div>
                       <div class="swiper-slide info-slot f_easy">
                         <div class="info-box">
                           <div class="img-box">
                             <div class="img-wrap">
-                              <video src="/kr/story/useful-tip/img/washtower-washcombo/video/function-info4.mp4" muted playsinline loop autoplay style="transform: scale(1.05);" title="99분동안 섬세한 세탁부터 똑똑한 건조까지. 세탁 AI 건조"></video>
+                              <video src="/kr/story/useful-tip/img/washtower-washcombo/video/function-info4.mp4" muted
+                                playsinline loop autoplay style="transform: scale(1.05);"
+                                title="99분동안 섬세한 세탁부터 똑똑한 건조까지. 세탁 AI 건조"></video>
                               <button class="vid-btn" aria-label="영상 일시정지 버튼"></button>
                             </div>
-                            <p>* 소비자의 이해를 돕기 위해 연출된 영상입니다.</p>
+                            <p>* 소비자의 이해를 돕기 위해 연출된 영상입니다. <br>
+                              * 93개 특허기술
+                            </p>
                           </div>
                           <div class="txt-box">
                             <div class="txt-wrap">
                               <span>올인원 세탁 &middot; 건조 / 미니워시</span>
                               <b>세탁기에서 건조기로 옮길 필요 없이 <br>세탁 건조를 끝내는 게 중요해요</b>
-                              <p>세탁기 사이즈로 세탁부터 건조까지 가능해 더욱 컴팩트해진 세탁 &middot; 건조 생활을 <br>경험해 보세요. 상단의 워시콤보가 세탁 &middot; 건조 하는 중에도 하단의 미니워시로 동시에 <br>세탁이 가능하니까 번거롭게 분리 세탁했던 의류들을 효율적으로 세탁할 수 있어요.</p>
+                              <p>세탁기 사이즈로 세탁부터 건조까지 가능해 더욱 컴팩트해진 세탁 &middot; 건조 생활을 <br>경험해 보세요. 상단의 워시콤보가 세탁 &middot;
+                                건조 하는
+                                중에도 하단의 미니워시로 동시에 <br>세탁이 가능하니까 번거롭게 분리 세탁했던 의류들을 효율적으로 세탁할 수 있어요.</p>
                             </div>
                             <button class="more-btn" aria-label="자세한 설명이 나타나는 버튼"><i></i></button>
                             <div class="func-nav mo-only">
@@ -884,23 +1044,28 @@
                             <div class="swiper">
                               <ul class="swiper-wrapper">
                                 <li class="swiper-slide">
-                                  <img src="/kr/story/useful-tip/img/washtower-washcombo/img-find-function4-1.png" alt="LG 워시콤보. 베이지색 바디에 검은색 도어와 상단 조작 패널이 있는 단일 세탁기입니다.">
-                                  <div class="txt">      
+                                  <img src="/kr/story/useful-tip/img/washtower-washcombo/img-find-function4-1.png"
+                                    alt="LG 워시콤보. 베이지색 바디에 검은색 도어와 상단 조작 패널이 있는 단일 세탁기입니다.">
+                                  <div class="txt">
                                     <p>LG 트롬 오브제컬렉션 <b>워시콤보 + 미니워시</b></p>
-                                    <a href="https://www.lge.co.kr/wash-combo" >제품 보기</a>
+                                    <a href="https://www.lge.co.kr/wash-combo">제품 보기</a>
                                   </div>
                                 </li>
                               </ul>
                               <!-- <div class="sld-nav pc-only">
-                                <span class="prv"></span>
-                                <span class="nxt"></span>
-                              </div>
-                              <div class="pagi"></div> -->
+                              <span class="prv"></span>
+                              <span class="nxt"></span>
+                            </div>
+                            <div class="pagi"></div> -->
                             </div>
                           </div>
                         </div>
                         <div class="features-box">
-                          <p>건조 버튼을 추가로 누르면, 세탁이 끝난 후 건조까지 멈춤 없이 한번에 진행됩니다. <br>(세탁 전용/건조 전용 코스 제외, 헹굼 완료 전까지 건조 버튼을 통해 건조 행정 추가 가능) <br>* 국내 최대 용량 세탁 : 국내 판매중인 가정용 세탁기 기준 (24년 3월 한국에너지공단 신고 기준) <br>* 워시콤보 지적재산권 93건 : 특허 등록 88건, 디자인 등록 5건 (2024년 4월 25일 글로벌 기준, 동일 기술에 대한 글로벌 중복 특허와 디자인 포함)</p>
+                          <p>건조 버튼을 추가로 누르면, 세탁이 끝난 후 건조까지 멈춤 없이 한번에 진행됩니다. <br>(세탁 전용/건조 전용 코스 제외, 헹굼 완료 전까지 건조 버튼을 통해
+                            건조
+                            행정 추가 가능) <br>* 국내 최대 용량 세탁 : 국내 판매중인 가정용 세탁기 기준 (24년 3월 한국에너지공단 신고 기준) <br>* 워시콤보 지적재산권 93건
+                            :
+                            특허 등록 88건, 디자인 등록 5건 (2024년 4월 25일 글로벌 기준, 동일 기술에 대한 글로벌 중복 특허와 디자인 포함)</p>
                         </div>
                       </div>
                     </div>
@@ -922,44 +1087,80 @@
                       위 아래 어떤 색상 조합이 우리집에 어울릴까요? <br><b>최대 18개</b>의 색상조합으로 <br class="mo-only">워시타워를 취향에 맞게 골라보세요
                     </p>
                     <div class="img-list pc-only">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower1.png" alt="위는 파란색, 아래는 밝은 회색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다." style="display: block;">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower2.png" alt="위는 파란색, 아래는 녹색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower3.png" alt="위는 밝은 회색, 아래는 베이지색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower4.png" alt="위는 밝은 회색, 아래는 녹색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower5.png" alt="위는 녹색, 아래는 베이지색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower6.png" alt="위는 베이지색, 아래는 파란색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower7.png" alt="위는 베이지색, 아래는 녹색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower8.png" alt="위는 밝은 회색, 아래는 파란색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower9.png" alt="위는 녹색, 아래는 파란색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower10.png" alt="위는 녹색, 아래는 밝은 회색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower11.png" alt="위는 베이지색, 아래는 밝은 회색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower12.png" alt="위 아래 모두 회색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower13.png" alt="위 아래 모두 밝은 회색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower14.png" alt="위 아래 모두 파란색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower15.png" alt="위 아래 모두 검정색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower16.png" alt="위 아래 모두 베이지색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower17.png" alt="위 아래 모두 녹색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower18.png" alt="위 아래 모두 흰색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower1.png"
+                        alt="위는 파란색, 아래는 밝은 회색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다." style="display: block;">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower2.png"
+                        alt="위는 파란색, 아래는 녹색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower3.png"
+                        alt="위는 밝은 회색, 아래는 베이지색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower4.png"
+                        alt="위는 밝은 회색, 아래는 녹색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower5.png"
+                        alt="위는 녹색, 아래는 베이지색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower6.png"
+                        alt="위는 베이지색, 아래는 파란색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower7.png"
+                        alt="위는 베이지색, 아래는 녹색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower8.png"
+                        alt="위는 밝은 회색, 아래는 파란색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower9.png"
+                        alt="위는 녹색, 아래는 파란색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower10.png"
+                        alt="위는 녹색, 아래는 밝은 회색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower11.png"
+                        alt="위는 베이지색, 아래는 밝은 회색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower12.png"
+                        alt="위 아래 모두 회색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower13.png"
+                        alt="위 아래 모두 밝은 회색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower14.png"
+                        alt="위 아래 모두 파란색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower15.png"
+                        alt="위 아래 모두 검정색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower16.png"
+                        alt="위 아래 모두 베이지색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower17.png"
+                        alt="위 아래 모두 녹색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-tower18.png"
+                        alt="위 아래 모두 흰색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
                     </div>
                     <div class="img-list mo-only">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower1.jpg" alt="위는 파란색, 아래는 밝은 회색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다." style="display: block;">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower2.jpg" alt="위는 파란색, 아래는 녹색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower3.jpg" alt="위는 밝은 회색, 아래는 베이지색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower4.jpg" alt="위는 밝은 회색, 아래는 녹색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower5.jpg" alt="위는 녹색, 아래는 베이지색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower6.jpg" alt="위는 베이지색, 아래는 파란색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower7.jpg" alt="위는 베이지색, 아래는 녹색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower8.jpg" alt="위는 밝은 회색, 아래는 파란색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower9.jpg" alt="위는 녹색, 아래는 파란색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower10.jpg" alt="위는 녹색, 아래는 밝은 회색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower11.jpg" alt="위는 베이지색, 아래는 밝은 회색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower12.jpg" alt="위 아래 모두 회색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower13.jpg" alt="위 아래 모두 밝은 회색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower14.jpg" alt="위 아래 모두 파란색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower15.jpg" alt="위 아래 모두 검정색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower16.jpg" alt="위 아래 모두 베이지색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower17.jpg" alt="위 아래 모두 녹색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower18.jpg" alt="위 아래 모두 흰색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower1.jpg"
+                        alt="위는 파란색, 아래는 밝은 회색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다." style="display: block;">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower2.jpg"
+                        alt="위는 파란색, 아래는 녹색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower3.jpg"
+                        alt="위는 밝은 회색, 아래는 베이지색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower4.jpg"
+                        alt="위는 밝은 회색, 아래는 녹색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower5.jpg"
+                        alt="위는 녹색, 아래는 베이지색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower6.jpg"
+                        alt="위는 베이지색, 아래는 파란색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower7.jpg"
+                        alt="위는 베이지색, 아래는 녹색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower8.jpg"
+                        alt="위는 밝은 회색, 아래는 파란색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower9.jpg"
+                        alt="위는 녹색, 아래는 파란색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower10.jpg"
+                        alt="위는 녹색, 아래는 밝은 회색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower11.jpg"
+                        alt="위는 베이지색, 아래는 밝은 회색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower12.jpg"
+                        alt="위 아래 모두 회색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower13.jpg"
+                        alt="위 아래 모두 밝은 회색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower14.jpg"
+                        alt="위 아래 모두 파란색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower15.jpg"
+                        alt="위 아래 모두 검정색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower16.jpg"
+                        alt="위 아래 모두 베이지색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower17.jpg"
+                        alt="위 아래 모두 녹색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-tower18.jpg"
+                        alt="위 아래 모두 흰색의 LG 워시타워 이미지. 왼쪽엔 의자가 놓여 있고, 오른쪽엔 식물이 있습니다.">
                     </div>
                     <div class="swiper-wrap">
                       <span class="sld-nav prv"></span>
@@ -976,7 +1177,7 @@
                               <div class="name">
                                 네이처 네이비 <br>네이처 크림 그레이
                               </div>
-                              <a href="https://www.lge.co.kr/wash-tower/wl22myzu"  class="arr"></a>
+                              <a href="https://www.lge.co.kr/wash-tower/wl22myzu" class="arr"></a>
                             </div>
                           </li>
                           <li class="swiper-slide" tabindex="0">
@@ -990,7 +1191,7 @@
                               <div class="name">
                                 네이처 네이비 <br>네이처 그린
                               </div>
-                              <a href="https://www.lge.co.kr/wash-tower/wl22gyzu"  class="arr"></a>
+                              <a href="https://www.lge.co.kr/wash-tower/wl22gyzu" class="arr"></a>
                             </div>
                           </li>
                           <li class="swiper-slide" tabindex="0">
@@ -1004,7 +1205,7 @@
                               <div class="name">
                                 네이처 크림 그레이 <br>네이처 베이지
                               </div>
-                              <a href="https://www.lge.co.kr/wash-tower/wl22emzu"  class="arr"></a>
+                              <a href="https://www.lge.co.kr/wash-tower/wl22emzu" class="arr"></a>
                             </div>
                           </li>
                           <li class="swiper-slide" tabindex="0">
@@ -1018,7 +1219,7 @@
                               <div class="name">
                                 네이처 크림 그레이 <br>네이처 그린
                               </div>
-                              <a href="https://www.lge.co.kr/wash-tower/wl22gmzu"  class="arr"></a>
+                              <a href="https://www.lge.co.kr/wash-tower/wl22gmzu" class="arr"></a>
                             </div>
                           </li>
                           <li class="swiper-slide" tabindex="0">
@@ -1032,7 +1233,7 @@
                               <div class="name">
                                 네이처 그린 <br>네이처 베이지
                               </div>
-                              <a href="https://www.lge.co.kr/wash-tower/wl22egzu"  class="arr"></a>
+                              <a href="https://www.lge.co.kr/wash-tower/wl22egzu" class="arr"></a>
                             </div>
                           </li>
                           <li class="swiper-slide" tabindex="0">
@@ -1046,7 +1247,7 @@
                               <div class="name">
                                 네이처 베이지 <br>네이처 네이비
                               </div>
-                              <a href="https://www.lge.co.kr/wash-tower/wl22yezu"  class="arr"></a>
+                              <a href="https://www.lge.co.kr/wash-tower/wl22yezu" class="arr"></a>
                             </div>
                           </li>
                           <li class="swiper-slide" tabindex="0">
@@ -1060,7 +1261,7 @@
                               <div class="name">
                                 네이처 베이지 <br>네이처 그린
                               </div>
-                              <a href="https://www.lge.co.kr/wash-tower/wl21gen"  class="arr"></a>
+                              <a href="https://www.lge.co.kr/wash-tower/wl21gen" class="arr"></a>
                             </div>
                           </li>
                           <li class="swiper-slide" tabindex="0">
@@ -1075,7 +1276,7 @@
                                 네이처 크림 그레이 <br>
                                 네이처 네이비
                               </div>
-                              <a href="https://www.lge.co.kr/wash-tower/wl22ymzu"  class="arr"></a>
+                              <a href="https://www.lge.co.kr/wash-tower/wl22ymzu" class="arr"></a>
                             </div>
                           </li>
                           <li class="swiper-slide" tabindex="0">
@@ -1090,7 +1291,7 @@
                                 네이처 그린 <br>
                                 네이처 네이비
                               </div>
-                              <a href="https://www.lge.co.kr/wash-tower/wl22ygzu"  class="arr"></a>
+                              <a href="https://www.lge.co.kr/wash-tower/wl22ygzu" class="arr"></a>
                             </div>
                           </li>
                           <li class="swiper-slide" tabindex="0">
@@ -1105,7 +1306,7 @@
                                 네이처 그린 <br>
                                 네이처 크림 그레이
                               </div>
-                              <a href="https://www.lge.co.kr/wash-tower/wl22mgzu"  class="arr"></a>
+                              <a href="https://www.lge.co.kr/wash-tower/wl22mgzu" class="arr"></a>
                             </div>
                           </li>
                           <li class="swiper-slide" tabindex="0">
@@ -1120,7 +1321,7 @@
                                 네이처 베이지 <br>
                                 네이처 크림 그레이
                               </div>
-                              <a href="https://www.lge.co.kr/wash-tower/wl22mezu"  class="arr"></a>
+                              <a href="https://www.lge.co.kr/wash-tower/wl22mezu" class="arr"></a>
                             </div>
                           </li>
                           <li class="swiper-slide" tabindex="0">
@@ -1131,7 +1332,7 @@
                                 </span>
                               </div>
                               <div class="name">모던 <br>스테인리스</div>
-                              <a href="https://www.lge.co.kr/wash-tower/w20vanq"  class="arr"></a>
+                              <a href="https://www.lge.co.kr/wash-tower/w20vanq" class="arr"></a>
                             </div>
                           </li>
                           <li class="swiper-slide" tabindex="0">
@@ -1142,7 +1343,7 @@
                                 </span>
                               </div>
                               <div class="name">네이처 크림 그레이</div>
-                              <a href="https://www.lge.co.kr/wash-tower/wl22mmzu"  class="arr"></a>
+                              <a href="https://www.lge.co.kr/wash-tower/wl22mmzu" class="arr"></a>
                             </div>
                           </li>
                           <li class="swiper-slide" tabindex="0">
@@ -1153,7 +1354,7 @@
                                 </span>
                               </div>
                               <div class="name">네이처 네이비</div>
-                              <a href="https://www.lge.co.kr/wash-tower/wl22yyzu"  class="arr"></a>
+                              <a href="https://www.lge.co.kr/wash-tower/wl22yyzu" class="arr"></a>
                             </div>
                           </li>
                           <li class="swiper-slide" tabindex="0">
@@ -1164,7 +1365,7 @@
                                 </span>
                               </div>
                               <div class="name">스페이스 블랙</div>
-                              <a href="https://www.lge.co.kr/wash-tower/wl22kdu"  class="arr"></a>
+                              <a href="https://www.lge.co.kr/wash-tower/wl22kdu" class="arr"></a>
                             </div>
                           </li>
                           <li class="swiper-slide" tabindex="0">
@@ -1175,7 +1376,7 @@
                                 </span>
                               </div>
                               <div class="name">네이처 베이지</div>
-                              <a href="https://www.lge.co.kr/wash-tower/w20eean"  class="arr"></a>
+                              <a href="https://www.lge.co.kr/wash-tower/w20eean" class="arr"></a>
                             </div>
                           </li>
                           <li class="swiper-slide" tabindex="0">
@@ -1186,7 +1387,7 @@
                                 </span>
                               </div>
                               <div class="name">네이처 그린</div>
-                              <a href="https://www.lge.co.kr/wash-tower/wl22ggzu"  class="arr"></a>
+                              <a href="https://www.lge.co.kr/wash-tower/wl22ggzu" class="arr"></a>
                             </div>
                           </li>
                           <li class="swiper-slide" tabindex="0">
@@ -1197,12 +1398,13 @@
                                 </span>
                               </div>
                               <div class="name">릴리 화이트</div>
-                              <a href="https://www.lge.co.kr/wash-tower/w20whn"  class="arr"></a>
+                              <a href="https://www.lge.co.kr/wash-tower/w20whn" class="arr"></a>
                             </div>
                           </li>
                         </ul>
-                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-swipe_info.png" alt="좌우로 슬라이드를 하여 워시타워의 컬러를 확인해보세요." class="mo-only swipe-info">
-                        
+                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-swipe_info.png"
+                          alt="좌우로 슬라이드를 하여 워시타워의 컬러를 확인해보세요." class="mo-only swipe-info">
+
                       </div>
                       <span class="sld-nav nxt"></span>
                     </div>
@@ -1212,18 +1414,28 @@
                       어떤 색상이 우리집에 어울릴까요? <br>다양한 색상의 워시콤보를 <br class="mo-only">취향에 맞게 골라보세요
                     </p>
                     <div class="img-list pc-only">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-combo1.png" alt="녹색의 LG 워시콤보 이미지. 왼쪽에는 세탁 바구니와 수건 보관대, 오른쪽엔 화분이 놓여 있습니다." style="display: block;">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-combo2.png" alt="베이지색의 LG 워시콤보 이미지. 왼쪽에는 세탁 바구니와 수건 보관대, 오른쪽엔 화분이 놓여 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-combo3.png" alt="검정색의 LG 워시콤보 이미지. 왼쪽에는 세탁 바구니와 수건 보관대, 오른쪽엔 화분이 놓여 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-combo4.png" alt="회색의 LG 워시콤보 이미지. 왼쪽에는 세탁 바구니와 수건 보관대, 오른쪽엔 화분이 놓여 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-combo5.png" alt="흰색의 LG 워시콤보 이미지. 왼쪽에는 세탁 바구니와 수건 보관대, 오른쪽엔 화분이 놓여 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-combo1.png"
+                        alt="녹색의 LG 워시콤보 이미지. 왼쪽에는 세탁 바구니와 수건 보관대, 오른쪽엔 화분이 놓여 있습니다." style="display: block;">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-combo2.png"
+                        alt="베이지색의 LG 워시콤보 이미지. 왼쪽에는 세탁 바구니와 수건 보관대, 오른쪽엔 화분이 놓여 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-combo3.png"
+                        alt="검정색의 LG 워시콤보 이미지. 왼쪽에는 세탁 바구니와 수건 보관대, 오른쪽엔 화분이 놓여 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-combo4.png"
+                        alt="회색의 LG 워시콤보 이미지. 왼쪽에는 세탁 바구니와 수건 보관대, 오른쪽엔 화분이 놓여 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/img-color-combo5.png"
+                        alt="흰색의 LG 워시콤보 이미지. 왼쪽에는 세탁 바구니와 수건 보관대, 오른쪽엔 화분이 놓여 있습니다.">
                     </div>
                     <div class="img-list mo-only">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-combo1.jpg" alt="녹색의 LG 워시콤보 이미지. 왼쪽에는 세탁 바구니와 수건 보관대, 오른쪽엔 화분이 놓여 있습니다." style="display: block;">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-combo2.jpg" alt="베이지색의 LG 워시콤보 이미지. 왼쪽에는 세탁 바구니와 수건 보관대, 오른쪽엔 화분이 놓여 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-combo3.jpg" alt="검정색의 LG 워시콤보 이미지. 왼쪽에는 세탁 바구니와 수건 보관대, 오른쪽엔 화분이 놓여 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-combo4.jpg" alt="회색의 LG 워시콤보 이미지. 왼쪽에는 세탁 바구니와 수건 보관대, 오른쪽엔 화분이 놓여 있습니다.">
-                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-combo5.jpg" alt="흰색의 LG 워시콤보 이미지. 왼쪽에는 세탁 바구니와 수건 보관대, 오른쪽엔 화분이 놓여 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-combo1.jpg"
+                        alt="녹색의 LG 워시콤보 이미지. 왼쪽에는 세탁 바구니와 수건 보관대, 오른쪽엔 화분이 놓여 있습니다." style="display: block;">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-combo2.jpg"
+                        alt="베이지색의 LG 워시콤보 이미지. 왼쪽에는 세탁 바구니와 수건 보관대, 오른쪽엔 화분이 놓여 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-combo3.jpg"
+                        alt="검정색의 LG 워시콤보 이미지. 왼쪽에는 세탁 바구니와 수건 보관대, 오른쪽엔 화분이 놓여 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-combo4.jpg"
+                        alt="회색의 LG 워시콤보 이미지. 왼쪽에는 세탁 바구니와 수건 보관대, 오른쪽엔 화분이 놓여 있습니다.">
+                      <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-color-combo5.jpg"
+                        alt="흰색의 LG 워시콤보 이미지. 왼쪽에는 세탁 바구니와 수건 보관대, 오른쪽엔 화분이 놓여 있습니다.">
                     </div>
                     <div class="swiper-wrap">
                       <div class="swiper">
@@ -1236,7 +1448,7 @@
                                 </span>
                               </div>
                               <div class="name">네이처 그린</div>
-                              <a href=""  class="arr"></a>
+                              <a href="" class="arr"></a>
                             </div>
                           </li>
                           <li class="swiper-slide" tabindex="0">
@@ -1247,7 +1459,7 @@
                                 </span>
                               </div>
                               <div class="name">네이처 베이지</div>
-                              <a href=""  class="arr"></a>
+                              <a href="" class="arr"></a>
                             </div>
                           </li>
                           <li class="swiper-slide" tabindex="0">
@@ -1258,7 +1470,7 @@
                                 </span>
                               </div>
                               <div class="name">스페이스 블랙</div>
-                              <a href=""  class="arr"></a>
+                              <a href="" class="arr"></a>
                             </div>
                           </li>
                           <li class="swiper-slide" tabindex="0">
@@ -1269,7 +1481,7 @@
                                 </span>
                               </div>
                               <div class="name">모던 스테인리스</div>
-                              <a href=""  class="arr"></a>
+                              <a href="" class="arr"></a>
                             </div>
                           </li>
                           <li class="swiper-slide" tabindex="0">
@@ -1280,11 +1492,12 @@
                                 </span>
                               </div>
                               <div class="name">릴리 화이트</div>
-                              <a href=""  class="arr"></a>
+                              <a href="" class="arr"></a>
                             </div>
                           </li>
                         </ul>
-                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-swipe_info.png" alt="좌우로 슬라이드를 하여 워시콤보의 컬러를 확인해보세요." class="mo-only swipe-info">
+                        <img src="/kr/story/useful-tip/img/washtower-washcombo/img-swipe_info.png"
+                          alt="좌우로 슬라이드를 하여 워시콤보의 컬러를 확인해보세요." class="mo-only swipe-info">
                       </div>
                     </div>
                   </div>
@@ -1293,8 +1506,12 @@
               </section>
 
               <section id="section2-4" class="find-product">
-                <img src="/kr/story/useful-tip/img/washtower-washcombo/img-find-product2.png" alt="건조기는 파란색, 세탁기는 흰색의 LG 워시타워 이미지. 제품 왼쪽에는 수건보관대, 제품 오른쪽에는 수건 보관대가 놓여져있고 그 옆에는 머그컵과 책이 놓여진 협탁과 흰색 의자가 있습니다." class="bg animate__animated animate__zoomInUp pc-only">      
-                <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-find-product2.png" alt="건조기는 파란색, 세탁기는 흰색의 LG 워시타워 이미지. 제품 왼쪽에는 수건보관대, 제품 오른쪽에는 수건 보관대가 놓여져있고 그 옆에는 머그컵과 책이 놓여진 협탁과 흰색 의자가 있습니다." class="bg animate__animated animate__zoomInUp mo-only">      
+                <img src="/kr/story/useful-tip/img/washtower-washcombo/img-find-product2.png"
+                  alt="건조기는 파란색, 세탁기는 흰색의 LG 워시타워 이미지. 제품 왼쪽에는 수건보관대, 제품 오른쪽에는 수건 보관대가 놓여져있고 그 옆에는 머그컵과 책이 놓여진 협탁과 흰색 의자가 있습니다."
+                  class="bg animate__animated animate__zoomInUp pc-only">
+                <img src="/kr/story/useful-tip/img/washtower-washcombo/m-img-find-product2.png"
+                  alt="건조기는 파란색, 세탁기는 흰색의 LG 워시타워 이미지. 제품 왼쪽에는 수건보관대, 제품 오른쪽에는 수건 보관대가 놓여져있고 그 옆에는 머그컵과 책이 놓여진 협탁과 흰색 의자가 있습니다."
+                  class="bg animate__animated animate__zoomInUp mo-only">
                 <div class="txt-box">
                   <h2>워시타워 &middot; 워시콤보 <br class="mo-only">어떤 것을 골라야할까요?</h2>
                   <button class="_btn ty_w" data-con="compare">워시타워 &middot; 워시콤보 비교</button>
@@ -1316,122 +1533,157 @@
                   <div class="a-box">
                     워시타워는 세탁기와 건조기가 하나로 합쳐진 국내 최초 원바디 세탁 건조기 제품입니다. <br>
                     <b>사용이 편리한 중앙 조작 패널, 세탁과 건조를 동시에 할 수 있는 편리함, 그리고 인테리어에 따라 선택할 수 있는 다양한 색상 조합이 장점이죠.</b> <br>
-                    세탁기와 건조기를 각각 구매하여 직렬 설치하는 것보다 높이가 약 8.7cm가량 낮아서 세탁물을 편하게 넣고 뺄 수 있고, 건조 준비 기능을 활용한다면 세탁이 끝날 무렵 건조기를 알아서 예열하기 때문에 건조 시간도 줄일 수 있어요. <br>
+                    세탁기와 건조기를 각각 구매하여 직렬 설치하는 것보다 높이가 약 8.7cm가량 낮아서 세탁물을 편하게 넣고 뺄 수 있고, 건조 준비 기능을 활용한다면 세탁이 끝날 무렵 건조기를
+                    알아서
+                    예열하기 때문에 건조 시간도 줄일 수 있어요. <br>
                     세탁기와 건조기 구매를 고민하고 계신다면, 다양한 장점이 있는 워시타워를 살펴보시길 추천해 드려요.
                   </div>
                 </li>
                 <li tabindex="0">
                   <span class="q-box">워시타워의 모델명은 무슨 뜻인가요?</span>
                   <div class="a-box">모델명을 보면 제품의 특징을 쉽게 알 수 있어요. <br>
-                        <b>예를 들어서, 모델명 내 숫자는 건조기의 용량을 뜻하고, 숫자 다음의 두 글자는 색상을 뜻해요.</b> 모델명을 참고해서 우리 집에 딱 맞는 제품을 찾아보세요.
-                      <img src="https://www.lge.co.kr/kr/story/useful-tip/wash-tower-faq/img-explain-1-pc.png" alt="왼쪽에 위는 파란색, 아래는 회색의 LG 워시 타워 제품 이미지가 있습니다. 오른쪽에는 모델명에 대한 설명이 적혀 있습니다.상단에는  'W', 'L', '22', 'M', 'Y', 'Z', 'U' 가 써져 있고 그 하단에 각 단어의 의미가 설명되어 있습니다. “W”는 제품명(워시타워)를 의미합니다. '22'는 건조기 용량을 의미합니다. '22'는 22kg• 24년형, '21'은 22kg • 24년형, '20'은 20kg • 21 & 22년형 '17'은 17kg • 21년형, '16'은 16kg • 21년형, '10'은 10kg 컴팩트를 의미합니다. 'M'과 'Y'는 제품 색상을 의미합니다. 조합 가능한 색상과 조합 불가능한 색상으로 나뉘는데 조합가능한 색상은 그린을 의미하는 'G', 브라운을 의미하는 'R', 그레이를 의미하는 'M', 레드를 의미하는 'D', 네이비를 의미하는 'Y', 핑크를 의미하는 'P', 베이지를 의미하는 'E', 민트를 의미하는 'N' 이 있습니다.조합 불가능한 색상은 스페이스 블랙을 의미하는 'K', 릴리 화이트를 의미하는 'W', 모던 스테인리스를 의미하는 'V'가 있습니다." class="pc-only">
-                      <img src="https://www.lge.co.kr/kr/story/useful-tip/wash-tower-faq/img-explain-1-mo.png" alt="왼쪽에 위는 파란색, 아래는 회색의 LG 워시 타워 제품 이미지가 있습니다. 오른쪽에는 모델명에 대한 설명이 적혀 있습니다.상단에는  'W', 'L', '22', 'M', 'Y', 'Z', 'U' 가 써져 있고 그 하단에 각 단어의 의미가 설명되어 있습니다. “W”는 제품명(워시타워)를 의미합니다. '22'는 건조기 용량을 의미합니다. '22'는 22kg• 24년형, '21'은 22kg • 24년형, '20'은 20kg • 21 & 22년형 '17'은 17kg • 21년형, '16'은 16kg • 21년형, '10'은 10kg 컴팩트를 의미합니다. M'과 'Y'는 제품 색상을 의미합니다. 조합 가능한 색상과 조합 불가능한 색상으로 나뉘는데 조합가능한 색상은 그린을 의미하는 'G', 브라운을 의미하는 'R', 그레이를 의미하는 'M', 레드를 의미하는 'D', 네이비를 의미하는 'Y', 핑크를 의미하는 'P', 베이지를 의미하는 'E', 민트를 의미하는 'N' 이 있습니다.조합 불가능한 색상은 스페이스 블랙을 의미하는 'K', 릴리 화이트를 의미하는 'W', 모던 스테인리스를 의미하는 'V'가 있습니다." class="mo-only">
+                    <b>예를 들어서, 모델명 내 숫자는 건조기의 용량을 뜻하고, 숫자 다음의 두 글자는 색상을 뜻해요.</b> 모델명을 참고해서 우리 집에 딱 맞는 제품을 찾아보세요.
+                    <img src="https://www.lge.co.kr/kr/story/useful-tip/wash-tower-faq/img-explain-1-pc.png"
+                      alt="왼쪽에 위는 파란색, 아래는 회색의 LG 워시 타워 제품 이미지가 있습니다. 오른쪽에는 모델명에 대한 설명이 적혀 있습니다.상단에는  'W', 'L', '22', 'M', 'Y', 'Z', 'U' 가 써져 있고 그 하단에 각 단어의 의미가 설명되어 있습니다. “W”는 제품명(워시타워)를 의미합니다. '22'는 건조기 용량을 의미합니다. '22'는 22kg• 24년형, '21'은 22kg • 24년형, '20'은 20kg • 21 & 22년형 '17'은 17kg • 21년형, '16'은 16kg • 21년형, '10'은 10kg 컴팩트를 의미합니다. 'M'과 'Y'는 제품 색상을 의미합니다. 조합 가능한 색상과 조합 불가능한 색상으로 나뉘는데 조합가능한 색상은 그린을 의미하는 'G', 브라운을 의미하는 'R', 그레이를 의미하는 'M', 레드를 의미하는 'D', 네이비를 의미하는 'Y', 핑크를 의미하는 'P', 베이지를 의미하는 'E', 민트를 의미하는 'N' 이 있습니다.조합 불가능한 색상은 스페이스 블랙을 의미하는 'K', 릴리 화이트를 의미하는 'W', 모던 스테인리스를 의미하는 'V'가 있습니다."
+                      class="pc-only">
+                    <img src="https://www.lge.co.kr/kr/story/useful-tip/wash-tower-faq/img-explain-1-mo.png"
+                      alt="왼쪽에 위는 파란색, 아래는 회색의 LG 워시 타워 제품 이미지가 있습니다. 오른쪽에는 모델명에 대한 설명이 적혀 있습니다.상단에는  'W', 'L', '22', 'M', 'Y', 'Z', 'U' 가 써져 있고 그 하단에 각 단어의 의미가 설명되어 있습니다. “W”는 제품명(워시타워)를 의미합니다. '22'는 건조기 용량을 의미합니다. '22'는 22kg• 24년형, '21'은 22kg • 24년형, '20'은 20kg • 21 & 22년형 '17'은 17kg • 21년형, '16'은 16kg • 21년형, '10'은 10kg 컴팩트를 의미합니다. M'과 'Y'는 제품 색상을 의미합니다. 조합 가능한 색상과 조합 불가능한 색상으로 나뉘는데 조합가능한 색상은 그린을 의미하는 'G', 브라운을 의미하는 'R', 그레이를 의미하는 'M', 레드를 의미하는 'D', 네이비를 의미하는 'Y', 핑크를 의미하는 'P', 베이지를 의미하는 'E', 민트를 의미하는 'N' 이 있습니다.조합 불가능한 색상은 스페이스 블랙을 의미하는 'K', 릴리 화이트를 의미하는 'W', 모던 스테인리스를 의미하는 'V'가 있습니다."
+                      class="mo-only">
                   </div>
                 </li>
                 <li tabindex="0">
                   <span class="q-box">워시타워와 워시타워 컴팩트는 무엇이 다른가요?</span>
-                  <div class="a-box"><b>워시타워와 워시타워 컴팩트는 사이즈와 용량 측면에서 차이가 있어요. 워시타워 컴팩트는 워시타워 대비 높이 23.5cm, 폭 10cm, 깊이 17cm를 줄여 더 좁은 공간에서도 설치 가능해요.</b> <br>
-                      두 제품 모두 세탁과 건조 기능을 하나의 조작부로 다룰 수 있어 사용이 편리하고, 세탁과 건조를 동시에 하거나, 건조 준비 기능을 통해 건조 시간을 단축할 수 있다는 장점은 동일합니다. <br>그러니 <b>공간이 넓고 세탁물이 많은 집이라면 대용량의 워시타워로, 다소 좁은 공간에서 효율적으로 사용하고 싶다면 워시타워 컴팩트로 LG전자의 원바디 세탁건조 솔루션을 경험해 보세요.</b></div>
+                  <div class="a-box"><b>워시타워와 워시타워 컴팩트는 사이즈와 용량 측면에서 차이가 있어요. 워시타워 컴팩트는 워시타워 대비 높이 23.5cm, 폭 10cm, 깊이
+                      17cm를
+                      줄여 더 좁은 공간에서도 설치 가능해요.</b> <br>
+                    두 제품 모두 세탁과 건조 기능을 하나의 조작부로 다룰 수 있어 사용이 편리하고, 세탁과 건조를 동시에 하거나, 건조 준비 기능을 통해 건조 시간을 단축할 수 있다는 장점은
+                    동일합니다.
+                    <br>그러니 <b>공간이 넓고 세탁물이 많은 집이라면 대용량의 워시타워로, 다소 좁은 공간에서 효율적으로 사용하고 싶다면 워시타워 컴팩트로 LG전자의 원바디 세탁건조 솔루션을
+                      경험해
+                      보세요.</b>
+                  </div>
                 </li>
                 <li tabindex="0">
                   <span class="q-box">워시타워 설치 전에 확인해야 할 조건이 있나요?</span>
                   <div class="a-box">
-                        워시타워를 설치하기 전, 두 가지 사항을 확인해 주세요. <br>
-        <b>먼저, 수도꼭지 위치를 확인해 주세요.</b> 수도꼭지가 정면에 있는 경우와 측면에 있는 경우, 제품 설치에 필요한 설치 공간이 다를 수 있어요. <br>
-        <b>두 번째로, 설치 공간 주변에 보일러/가스계량기가 있는지 확인해 주세요.</b> 설치 공간 측면 또는 후면에 보일러나 가스계량기가 있으면, 공간이 확보되지 않아 설치가 어려울 수 있어요.
+                    워시타워를 설치하기 전, 두 가지 사항을 확인해 주세요. <br>
+                    <b>먼저, 수도꼭지 위치를 확인해 주세요.</b> 수도꼭지가 정면에 있는 경우와 측면에 있는 경우, 제품 설치에 필요한 설치 공간이 다를 수 있어요. <br>
+                    <b>두 번째로, 설치 공간 주변에 보일러/가스계량기가 있는지 확인해 주세요.</b> 설치 공간 측면 또는 후면에 보일러나 가스계량기가 있으면, 공간이 확보되지 않아 설치가 어려울
+                    수
+                    있어요.
 
-              <div class="btn-wrap">
-              <span>워시타워 설치에 관한 더 많은 정보가 궁금하시다면, 아래 버튼을 클릭해 보세요.</span>
-                          <a href="https://www.lge.co.kr/story/user-guide/wash-tower-install-guide"  class="_btn ty_w">설치 가이드 바로가기</a>
-                        </div>
-                        </div>
+                    <div class="btn-wrap">
+                      <span>워시타워 설치에 관한 더 많은 정보가 궁금하시다면, 아래 버튼을 클릭해 보세요.</span>
+                      <a href="https://www.lge.co.kr/story/user-guide/wash-tower-install-guide" class="_btn ty_w">설치 가이드
+                        바로가기</a>
+                    </div>
+                  </div>
                 </li>
                 <li tabindex="0">
                   <span class="q-box">워시타워의 자동 세제 기능, 어떻게 사용하나요?</span>
                   <div class="a-box">
-                        자동 세제 기능은 세탁물 양에 맞게 세제와 유연제를 자동으로 넣어주는 편리한 기능입니다. <br>
-                        <b>사용하는 세제 종류에 따라 액체 세제 또는 섬유유연제를 세제통에 넣고, 중앙 조작 패널에서 [설정] > [자동 세제] > [세제함 사용] 버튼을 차례대로 선택한 후 세부적인 옵션을 조절해서 사용할 수 있어요.</b><br>
-        자동 세제함 청소 방법도 간단합니다. 세제통을 꺼내서 깨끗이 세척한 후, 물을 채워놓고 '자동 세제함 노즐 세척' 기능을 활용하세요. <br>
-                        이 기능을 사용하면 세제가 투입되는 노즐도 깨끗이 청소되어, 세제 흐름이 원활해져요. <br>
-                        만약 수동으로 세제를 넣고 싶으시다면, 설정에서 자동 세제 기능을 끄고 세제 및 유연제를 수동으로 투입하실 수도 있어요.
-                        <div class="btn-wrap">
-                        <span>자동 세제 기능에 관한 더 많은 정보가 궁금하시다면, 아래 버튼을 클릭해 보세요.</span>
-                          <a href="https://www.lge.co.kr/story/user-guide/wash-tower-guide"  class="_btn ty_w">자동 세제 기능 더 알아보기</a>
-                        </div>
+                    자동 세제 기능은 세탁물 양에 맞게 세제와 유연제를 자동으로 넣어주는 편리한 기능입니다. <br>
+                    <b>사용하는 세제 종류에 따라 액체 세제 또는 섬유유연제를 세제통에 넣고, 중앙 조작 패널에서 [설정] > [자동 세제] > [세제함 사용] 버튼을 차례대로 선택한 후 세부적인
+                      옵션을
+                      조절해서 사용할 수 있어요.</b><br>
+                    자동 세제함 청소 방법도 간단합니다. 세제통을 꺼내서 깨끗이 세척한 후, 물을 채워놓고 '자동 세제함 노즐 세척' 기능을 활용하세요. <br>
+                    이 기능을 사용하면 세제가 투입되는 노즐도 깨끗이 청소되어, 세제 흐름이 원활해져요. <br>
+                    만약 수동으로 세제를 넣고 싶으시다면, 설정에서 자동 세제 기능을 끄고 세제 및 유연제를 수동으로 투입하실 수도 있어요.
+                    <div class="btn-wrap">
+                      <span>자동 세제 기능에 관한 더 많은 정보가 궁금하시다면, 아래 버튼을 클릭해 보세요.</span>
+                      <a href="https://www.lge.co.kr/story/user-guide/wash-tower-guide" class="_btn ty_w">자동 세제 기능 더
+                        알아보기</a>
+                    </div>
                   </div>
                 </li>
                 <li tabindex="0">
                   <span class="q-box">건조 선반은 무엇인가요? 워시타워 구매 시 기본적으로 포함되어 있나요?</span>
                   <div class="a-box">
-                        <b>건조 선반은 신발이나 모자같이 평평한 곳에서 건조가 필요한 경우 혹은 스웨터처럼 섬세한 의류를 건조하는 경우 사용할 수 있는 부속품입니다.</b> <br>
-                        선반을 건조기 안에 설치하고 '선반 건조 코스'를 이용해 사용할 수 있어요. <br>
-                        단, 건조 선반은 구매 시 기본 구성품으로 제공되지 않아, 필요시 별도로 구매하여 사용할 수 있어요.
-                        <div class="btn-wrap">
-                        <span>건조 선반 구매를 원하신다면, 아래 버튼을 클릭해 보세요.</span>
-                          <a href="https://www.lge.co.kr/care-accessories/dryer?main=Y"  class="_btn ty_w">케어용품/소모품 바로가기</a>
-                        </div>
+                    <b>건조 선반은 신발이나 모자같이 평평한 곳에서 건조가 필요한 경우 혹은 스웨터처럼 섬세한 의류를 건조하는 경우 사용할 수 있는 부속품입니다.</b> <br>
+                    선반을 건조기 안에 설치하고 '선반 건조 코스'를 이용해 사용할 수 있어요. <br>
+                    단, 건조 선반은 구매 시 기본 구성품으로 제공되지 않아, 필요시 별도로 구매하여 사용할 수 있어요.
+                    <div class="btn-wrap">
+                      <span>건조 선반 구매를 원하신다면, 아래 버튼을 클릭해 보세요.</span>
+                      <a href="https://www.lge.co.kr/care-accessories/dryer?main=Y" class="_btn ty_w">케어용품/소모품 바로가기</a>
+                    </div>
                   </div>
                 </li>
                 <li tabindex="0">
                   <span class="q-box">워시타워는 어떻게 관리하면 좋을까요?</span>
                   <div class="a-box">
-                        워시타워의 청결과 위생을 유지할 수 있는 몇 가지 간단한 관리 방법을 소개해 드릴게요. <br>
-                        <b>우선, 세탁과 건조 후에는 도어를 열어 내부를 환기하고, 정기적으로 내부를 청소해주는 것이 좋아요. <br>
-                        두 번째로, 통살균 기능을 사용하면 세탁기/건조기 내부와 필터를 살균하여 불쾌한 냄새를 예방할 수 있어요.</b>
-                        <div class="btn-wrap">
-                          <a href="https://www.lge.co.kr/support/video-tutorials-1430888637954"  class="_btn ty_w">세탁기 통살균 방법 알아보기</a>
-                          <a href="https://www.lge.co.kr/support/solutions-20151248130546"  class="_btn ty_w">건조기 통살균 방법 알아보기</a>
-                        </div><br><br>
-                      
-                      <b>마지막으로, 건조기의 필터를 청소해 주세요.</b> <br>
-                      내부와 외부 필터를 주기적으로 꺼내어 진공청소기로 먼지를 제거하고 흐르는 물로 깨끗이 세척해 주세요. 필터가 완전히 마른 후 건조기에 다시 넣어주면 돼요. <br>
-        그 밖에도 콘덴서케어, 습도센서, 환기용 도어 홀더 활용법, 자동세제함 청소, 도어 고무패킹 청소 등 워시타워를 잘 사용할 수 있는 다양한 관리 방법이 있으니 참고해 주세요.
-                        <div class="btn-wrap">
-                        <span>상세한 관리 방법이 궁금하시다면, 아래 버튼을 클릭해 보세요.</span>
-                          <a href="https://www.lge.co.kr/story/user-guide/wash-tower-manage-washer"  class="_btn ty_w">세탁기 유지 관리 방법 알아보기</a>
-                          <a href="https://www.lge.co.kr/story/user-guide/wash-tower-manage-dryer"  class="_btn ty_w">건조기 유지 관리 방법 알아보기</a>
-                        </div>
+                    워시타워의 청결과 위생을 유지할 수 있는 몇 가지 간단한 관리 방법을 소개해 드릴게요. <br>
+                    <b>우선, 세탁과 건조 후에는 도어를 열어 내부를 환기하고, 정기적으로 내부를 청소해주는 것이 좋아요. <br>
+                      두 번째로, 통살균 기능을 사용하면 세탁기/건조기 내부와 필터를 살균하여 불쾌한 냄새를 예방할 수 있어요.</b>
+                    <div class="btn-wrap">
+                      <a href="https://www.lge.co.kr/support/video-tutorials-1430888637954" class="_btn ty_w">세탁기 통살균 방법
+                        알아보기</a>
+                      <a href="https://www.lge.co.kr/support/solutions-20151248130546" class="_btn ty_w">건조기 통살균 방법
+                        알아보기</a>
+                    </div><br><br>
+
+                    <b>마지막으로, 건조기의 필터를 청소해 주세요.</b> <br>
+                    내부와 외부 필터를 주기적으로 꺼내어 진공청소기로 먼지를 제거하고 흐르는 물로 깨끗이 세척해 주세요. 필터가 완전히 마른 후 건조기에 다시 넣어주면 돼요. <br>
+                    그 밖에도 콘덴서케어, 습도센서, 환기용 도어 홀더 활용법, 자동세제함 청소, 도어 고무패킹 청소 등 워시타워를 잘 사용할 수 있는 다양한 관리 방법이 있으니 참고해 주세요.
+                    <div class="btn-wrap">
+                      <span>상세한 관리 방법이 궁금하시다면, 아래 버튼을 클릭해 보세요.</span>
+                      <a href="https://www.lge.co.kr/story/user-guide/wash-tower-manage-washer" class="_btn ty_w">세탁기 유지
+                        관리
+                        방법 알아보기</a>
+                      <a href="https://www.lge.co.kr/story/user-guide/wash-tower-manage-dryer" class="_btn ty_w">건조기 유지
+                        관리
+                        방법 알아보기</a>
+                    </div>
                   </div>
                 </li>
                 <li tabindex="0">
                   <span class="q-box">콘덴서케어 기능은 어떻게 사용하나요?</span>
                   <div class="a-box">
-                        콘덴서는 물기 있는 세탁물에서 수분을 응축하는 중요한 부분입니다. <br>
-                        워시타워는 건조할 때마다 자동으로 콘덴서를 세척하는 기능이 있지만, 콘덴서를 직접 청소하고 싶다면 추가로 콘덴서케어 기능까지 사용할 수 있어요. <br>
-                        콘덴서케어 기능을 사용하기 위해서는, <b>먼저 건조기 안의 세탁물을 모두 뺀 후 내부/외부 필터를 꺼내 주어야 해요. 꺼낸 내부와 외부 필터를 깨끗하게 청소한 뒤, 먼저 필터투입구에 외부 필터를 넣고 물 1리터를 천천히 부어 주세요. 그다음 내부 필터까지 제자리에 넣어준 후, 건조기 전원을 켜고 [콘덴서 케어] 버튼을 눌러주시면 돼요.</b><br>
-        모델에 따라 버튼 이름이나 표시 방법이 다를 수 있으니 구입한 제품의 사용 설명서를 참고하는 것을 추천해 드려요.
-                        <div class="btn-wrap">
-                        <span>콘덴서케어 기능에 대한 더 자세한 내용이 궁금하시다면, 아래 버튼을 클릭해 보세요.</span>
-                          <a href="https://www.lge.co.kr/support/solutions-20151247980878"  class="_btn ty_w">콘덴서케어 기능 더 알아보기</a>
-                        </div>
+                    콘덴서는 물기 있는 세탁물에서 수분을 응축하는 중요한 부분입니다. <br>
+                    워시타워는 건조할 때마다 자동으로 콘덴서를 세척하는 기능이 있지만, 콘덴서를 직접 청소하고 싶다면 추가로 콘덴서케어 기능까지 사용할 수 있어요. <br>
+                    콘덴서케어 기능을 사용하기 위해서는, <b>먼저 건조기 안의 세탁물을 모두 뺀 후 내부/외부 필터를 꺼내 주어야 해요. 꺼낸 내부와 외부 필터를 깨끗하게 청소한 뒤, 먼저
+                      필터투입구에
+                      외부 필터를 넣고 물 1리터를 천천히 부어 주세요. 그다음 내부 필터까지 제자리에 넣어준 후, 건조기 전원을 켜고 [콘덴서 케어] 버튼을 눌러주시면 돼요.</b><br>
+                    모델에 따라 버튼 이름이나 표시 방법이 다를 수 있으니 구입한 제품의 사용 설명서를 참고하는 것을 추천해 드려요.
+                    <div class="btn-wrap">
+                      <span>콘덴서케어 기능에 대한 더 자세한 내용이 궁금하시다면, 아래 버튼을 클릭해 보세요.</span>
+                      <a href="https://www.lge.co.kr/support/solutions-20151247980878" class="_btn ty_w">콘덴서케어 기능 더
+                        알아보기</a>
+                    </div>
                   </div>
                 </li>
                 <li tabindex="0">
                   <span class="q-box">워시타워의 통살균 기능은 어떻게 사용하나요?</span>
                   <div class="a-box">
-                        워시타워에는 세탁기와 건조기 각각에 통살균 기능이 있어요. <br>
-        세탁기의 경우, 30회 이상 사용하셨거나 화면에 'TCL' 문구가 나타나면 통살균을 해야 할 시기에요. <b>세탁조 안의 세탁물을 모두 꺼내고, 세탁조 클리너 적정량을 세제함에 넣은 다음 '통살균' 버튼을 눌러 진행하면 돼요.</b><br>
-        건조기의 경우, 한 달에 한 번 정도 '통살균' 기능을 사용하는 것을 추천해 드려요. 물통 배수 방식의 건조기를 사용하고 계신다면, 통살균 전에 배수통의 물을 비워주세요. <br>
-                        <b>건조기의 문을 닫고, 전원을 켠 뒤 '통살균' 버튼을 눌러 기능을 작동시키면 돼요.</b> 통살균이 끝난 후에는 배수통을 꺼내 물을 다시 비워주세요.
-                        <div class="btn-wrap">
-                        <span>통살균 사용법에 대한 더 자세한 내용이 궁금하시다면, 아래 버튼을 클릭해 보세요.</span>
-                          <a href="https://www.lge.co.kr/support/video-tutorials-1430888637954"  class="_btn ty_w">세탁기 통살균 방법 알아보기</a>
-                          <a href="https://www.lge.co.kr/support/solutions-20151248130546"  class="_btn ty_w">건조기 통살균 방법 알아보기</a>
-                        </div>
+                    워시타워에는 세탁기와 건조기 각각에 통살균 기능이 있어요. <br>
+                    세탁기의 경우, 30회 이상 사용하셨거나 화면에 'TCL' 문구가 나타나면 통살균을 해야 할 시기에요. <b>세탁조 안의 세탁물을 모두 꺼내고, 세탁조 클리너 적정량을 세제함에
+                      넣은 다음
+                      '통살균' 버튼을 눌러 진행하면 돼요.</b><br>
+                    건조기의 경우, 한 달에 한 번 정도 '통살균' 기능을 사용하는 것을 추천해 드려요. 물통 배수 방식의 건조기를 사용하고 계신다면, 통살균 전에 배수통의 물을 비워주세요. <br>
+                    <b>건조기의 문을 닫고, 전원을 켠 뒤 '통살균' 버튼을 눌러 기능을 작동시키면 돼요.</b> 통살균이 끝난 후에는 배수통을 꺼내 물을 다시 비워주세요.
+                    <div class="btn-wrap">
+                      <span>통살균 사용법에 대한 더 자세한 내용이 궁금하시다면, 아래 버튼을 클릭해 보세요.</span>
+                      <a href="https://www.lge.co.kr/support/video-tutorials-1430888637954" class="_btn ty_w">세탁기 통살균 방법
+                        알아보기</a>
+                      <a href="https://www.lge.co.kr/support/solutions-20151248130546" class="_btn ty_w">건조기 통살균 방법
+                        알아보기</a>
+                    </div>
                   </div>
                 </li>
                 <li tabindex="0">
                   <span class="q-box">워시타워의 동파 방지 관리 방법은 무엇인가요?</span>
                   <div class="a-box">
-                        겨울철 동파가 걱정되시나요? 동파를 예방하기 위한 몇 가지 방법을 알려드릴게요. <br>
-        먼저 세탁기와 건조기 모두 <b>동결을 예방하기 위해서는, 제품 내부에 남아있는 물이 얼지 않도록 하는 것이 중요해요.</b> <br>
-                      제품을 사용한 뒤 제품 내부에 남아있는 물을 제거하고, 제품과 연결된 호스도 굴곡 없이 아래 방향으로 내려놓거나, 혹은 분리해서 물이 잘 빠져나가도록 해주세요. <br>
-        그럼에도 불구하고 동결이 발생한 경우 해결 방법을 알려드릴게요. 먼저 세탁기는 세탁통에 약 60도의 따뜻한 물을 부은 후 1~2시간 기다려 얼음을 녹인 뒤 잔수를 제거해 주세요. <br>
-                        건조기는 필터 투입구에 약 60도의 따뜻한 물을 부어 30분간 기다린 후, 전원을 켜고 제품을 작동시켜 10분간 배수 오류 등의 에러가 발생하지 않는지 확인해 주시면 돼요.
-                        <div class="btn-wrap">
-                        <span>겨울철 동결 예방 및 자가 조치에 대한 더 자세한 방법이 궁금하시다면, 아래 버튼을 클릭해 보세요.</span>
-                          <a href="https://www.lge.co.kr/support/solutions-20153441104287"  class="_btn ty_w">겨울철 동결 예방 및 자가 조치 방법 더 알아보기</a>
-                        </div>
+                    겨울철 동파가 걱정되시나요? 동파를 예방하기 위한 몇 가지 방법을 알려드릴게요. <br>
+                    먼저 세탁기와 건조기 모두 <b>동결을 예방하기 위해서는, 제품 내부에 남아있는 물이 얼지 않도록 하는 것이 중요해요.</b> <br>
+                    제품을 사용한 뒤 제품 내부에 남아있는 물을 제거하고, 제품과 연결된 호스도 굴곡 없이 아래 방향으로 내려놓거나, 혹은 분리해서 물이 잘 빠져나가도록 해주세요. <br>
+                    그럼에도 불구하고 동결이 발생한 경우 해결 방법을 알려드릴게요. 먼저 세탁기는 세탁통에 약 60도의 따뜻한 물을 부은 후 1~2시간 기다려 얼음을 녹인 뒤 잔수를 제거해 주세요.
+                    <br>
+                    건조기는 필터 투입구에 약 60도의 따뜻한 물을 부어 30분간 기다린 후, 전원을 켜고 제품을 작동시켜 10분간 배수 오류 등의 에러가 발생하지 않는지 확인해 주시면 돼요.
+                    <div class="btn-wrap">
+                      <span>겨울철 동결 예방 및 자가 조치에 대한 더 자세한 방법이 궁금하시다면, 아래 버튼을 클릭해 보세요.</span>
+                      <a href="https://www.lge.co.kr/support/solutions-20153441104287" class="_btn ty_w">겨울철 동결 예방 및 자가
+                        조치
+                        방법 더 알아보기</a>
+                    </div>
                   </div>
                 </li>
               </ul>
@@ -1439,8 +1691,9 @@
           </section>
         </div>
         <!-- //컨텐츠 끝 -->
-</div>
-<!-- Contents -->
+
+      </div>
+      <!-- Contents -->
 
       <!-- footer -->
       <jsp:include page="/kr/footer">
@@ -1452,4 +1705,5 @@
       <c:import url="/WEB-INF/jsp/common/includes/footerDefault.jsp" charEncoding="utf-8" />
       <!-- // footerDefault -->
     </body>
-  </html>
+
+</html>

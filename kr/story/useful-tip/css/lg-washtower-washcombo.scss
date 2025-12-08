@@ -109,11 +109,12 @@
 html{ font-size:1px;}
 @media (min-width: 768px) and (max-width: 1300px) { html { font-size:0.07692307692307692vw; } }
 /*@media (max-width:359px) { html { font-size:2.777777777777778vw; } }*/
-body, button, input, select, table, textarea{ font-family: 'Pretendard', sans-serif; font-weight: 500; font-size: 20rem; line-height: 1.4; letter-spacing: -0.02em;}
+body{ font-size: 20rem;}
 blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, select, table, td, textarea, th, ul{word-break:keep-all;}
 img, video { max-width: 100%; vertical-align: top; }
-.container-washtower-washcombo{
+.container-washtower-washcombo{ font-family: 'Pretendard', sans-serif; font-weight: 500; line-height: 1.4; letter-spacing: -0.02em;
 	--point-color:#EF453A;
+	button, input, select, table, textarea{ font-size: 20rem; font-family: 'Pretendard', sans-serif; line-height: 1.4;}
 	.con-box{ max-width: 100%; width: 1520rem; margin-left: auto; margin-right: auto; position: relative;}
 	h1{ font-size: 72rem; font-weight: 600;}
 	h2{ font-size: 60rem; font-weight: 600; letter-spacing: -.04em;}
@@ -325,13 +326,15 @@ img, video { max-width: 100%; vertical-align: top; }
 					}
 					.txt-box{ margin-top: 82rem;
 						&::before{ content: ''; display: block; width: 57rem; height: 40rem; background: url(../img/washtower-washcombo/icon-dqm.png)no-repeat center center / contain;}
-						p{ font-size: 40rem; margin: 56rem 0 28rem;}
+						p{ font-size: 40rem; margin-top: 56rem;}
+						i{ display: block; font-style: normal; color: #666; margin: 16rem 0 28rem; font-size: 26rem;}
 					}
 				}
 			}
 		}
 		
 		.compare-space{ position: relative; margin-top: 220rem;
+			.inner{ position: relative;}
 			.compare-space-wrap{ width: calc(50% - 40rem);}
 			.img-box{ position: absolute; right: 0; top: 0; width: calc(50% - 20rem); height: 100%; border-radius:4rem; overflow: hidden;
 				.img-wrap{ height: 100%;}
@@ -340,12 +343,12 @@ img, video { max-width: 100%; vertical-align: top; }
 			}
 			.tab-box{ 
 				ul{
-					li{ padding: 40rem 60rem; border: 1px solid #d6d6d6; border-radius: 4rem; transition: .3s ease; cursor: pointer;
+					li{ padding: 40rem 50rem 40rem 60rem; border: 1px solid #d6d6d6; border-radius: 4rem; transition: .3s ease; cursor: pointer;
 						+ li{ margin-top: 24rem;}
 						.tit{ display: block; font-size: 28rem; font-weight: 700; position: relative; 
 							&::before, &::after{ content: ''; display: block; width: 16rem; height: 3rem; background-color: #000; position: absolute; right: 0; top: 50%; border-radius: 10rem; transition: .3s ease;}
 						}
-						.info{ font-size: 32rem; line-height: 1.5; display: none;}
+						.info{ font-size: 26rem; line-height: 1.5; display: none;}
 						&.on{ border-color: #000; cursor: default;
 							.tit::after{ transform: rotate(90deg);}
 							.info{ display: block; padding-top: 36rem;}
@@ -362,6 +365,9 @@ img, video { max-width: 100%; vertical-align: top; }
 						}
 					}
 				}
+			}
+			.info-txt{ margin-top: 60rem; border-radius: 4rem; padding: 40rem 60rem; background-color: #f9f9f9; color: #666; font-size: 26rem; font-weight: 400;
+				span{ font-weight: 600;}
 			}
 		}	
 	}
@@ -426,7 +432,7 @@ img, video { max-width: 100%; vertical-align: top; }
 		.func-nav{
 			span{ width: 64rem; height: 64rem; position: absolute; left: 0; top: 643rem; transform: translateX(-50%) rotate(180deg); background: #fff url(../img/washtower-washcombo/icon-btn-arr-b.svg) no-repeat center center / 45% auto; border-radius: 50%; box-shadow: 2rem 8rem 20rem rgba($color: #848BA2, $alpha: .1); cursor: pointer; z-index: 10; transition: .5s ease; border: 1px solid transparent;
 				&.nxt{ transform: translateX(50%); left: auto; right: 0;}
-				&.swiper-button-disabled{ opacity: 0;}
+				&.swiper-button-disabled{ opacity: 0; touch-action: none; pointer-events: none;}
 			}
 		}
 		.function-info{ margin-top: 60rem; position: relative;
@@ -442,21 +448,21 @@ img, video { max-width: 100%; vertical-align: top; }
 						}
 						p{ font-size: 16rem; color: #666; margin-top: 16rem;}
 					}
-					.txt-box{ padding:50rem 0 38rem; margin-left: 20rem; position: relative; display: flex; flex-direction: column; justify-content: space-between;
+					.txt-box{ padding:50rem 0 60rem; margin-left: 20rem; position: relative; display: flex; flex-direction: column; justify-content: space-between;
 						.txt-wrap{
 							span{ font-weight: 700;}
 							b{ display: block; margin: 20rem 0 48rem; font-size: 40rem; letter-spacing:-2rem;}
 							p{ color: #292929; line-height: 1.6;}
 						}
 						.more-btn{ display: flex; align-items: center; font-size: 16rem; color: #666; padding: 8rem 15rem; border-radius: 99rem; border: 1px solid #666; position: absolute; right: 0; bottom: -16rem;
-							&::before{ content: '더보기';}
+							&::before{ content: '세부정보';}
 							i{ width: 10rem; height: 10rem; margin-left: 8rem; position: relative;
 								&::before, &::after{ content: ''; width: 100%; height: 2rem; min-height: 2px; background-color: #666; position: absolute; left: 0; top: 35%;}
 								&::after{ transform: rotate(90deg); transition: .3s ease;}
 							}
 							
 						}
-						.swiper{margin-top: 72rem; width: 100%;
+						.swiper{ width: 100%;
 							.swiper-wrapper{ height: auto;}
 							.swiper-slide{  height: 136rem; border-radius: 4rem; background-color: #f9f9f9; padding: 0 109rem; display: flex; align-items: center; overflow: hidden;
 								.txt{ margin-left: 36rem;
@@ -478,7 +484,7 @@ img, video { max-width: 100%; vertical-align: top; }
 					}
 				}
 				&.on .info-box .txt-box .more-btn{
-					&::before{ content: '접기';}
+					&::before{ content: '닫기';}
 					i::after{ transform: rotate(0deg);}
 				}
 				.features-box{ display: none; background-color: #eeece9; padding: 40rem 60rem; color: #666; font-size: 18rem; font-weight: 400; line-height: 1.6; border-radius:0 0 4rem 4rem; margin-top:-4rem;
@@ -614,7 +620,7 @@ img, video { max-width: 100%; vertical-align: top; }
 		}
 		.find-function .function-info .info-slot .info-box{
 			> div{ width: 48%;}
-			.txt-box{ padding-top: 0; padding-bottom: 80rem;
+			.txt-box{ padding-top: 20rem;
 				.txt-wrap p br{ display: none;}
 				.swiper .swiper-slide img{ width: 35rem;}
 			}
@@ -624,8 +630,9 @@ img, video { max-width: 100%; vertical-align: top; }
 
 @media (max-width: 767px) {
 	.pc-only{ display: none !important;}
-	body, button, input, select, table, textarea{ font-size: 15rem;}
+	body{ font-size: 15rem;}
 	.container-washtower-washcombo{
+		button, input, select, table, textarea{ font-size: 15rem; font-family: 'Pretendard', sans-serif;}
 		.con-box{ width: calc(100% - 40rem);}
 		h1{ font-size: 28rem;}
 		h2{ font-size: 24rem;}
@@ -758,7 +765,7 @@ img, video { max-width: 100%; vertical-align: top; }
 				ul{
 					li{ width: 100%; transform: translateY(-10%); 
 						+ li{ margin-left: 17rem; transform: translateY(10%);}
-                  		.img-box{ height: 270rem;
+              .img-box{ height: 270rem;
 							b{ font-size: 72rem;}
 							img{ width: 82rem;}
 						}
@@ -779,7 +786,8 @@ img, video { max-width: 100%; vertical-align: top; }
 						}
 						.txt-box{ margin-top: 35rem;
 							&::before{ width: 26rem; height: 18rem;}
-							p{ font-size: 15rem; margin: 17rem 0 10rem;}
+							p{ font-size: 15rem; margin-top: 17rem;}
+							i{margin: 4rem 0 14rem; font-size: 12rem;}
 						}
 					}
 				}
@@ -798,7 +806,7 @@ img, video { max-width: 100%; vertical-align: top; }
 							.tit{ font-size: 15rem; 
 								&::before, &::after{ width: 8rem; height: 2rem;}
 							}
-							.info{ font-size: 18rem; padding-right: 60rem;
+							.info{ font-size: 15rem;
 								br{ display: none;}
 							}
 							&.on .info{ display: block; padding-top: 24rem;}
@@ -814,6 +822,7 @@ img, video { max-width: 100%; vertical-align: top; }
 						}
 					}
 				}
+				.info-txt{ margin-top: 20rem; padding: 20rem; font-size: 12rem;}
 			}	
 		}
 	
@@ -883,7 +892,7 @@ img, video { max-width: 100%; vertical-align: top; }
 							.more-btn{ font-size: 12rem; position: relative; bottom: 0; margin-top: 28rem;
 								i{ width: 8rem; height: 8rem; margin-left: 6rem;}
 							}
-							.swiper{margin-top: 0; position: absolute; left: 0;  top: 100%; border: 20rem solid #fff; border-width: 30rem 20rem; background-color: #fff; border-radius: 0 0 4rem 4rem;
+							.swiper{position: absolute; left: 0;  top: 100%; border: 20rem solid #fff; border-width: 30rem 20rem; background-color: #fff; border-radius: 0 0 4rem 4rem;
 								.swiper-slide{  height: 90rem; padding: 0 27rem;
 									img{ width: 25rem;}
 									.txt{ margin-left: 20rem;
