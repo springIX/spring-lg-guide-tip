@@ -405,13 +405,13 @@
                                 하이드로타워<span></span
                                 ><br class="mobile-only" />가습량 700<small
                                   >cc/h</small
-                                ><span></span>물통 4.5L
+                                ><span></span><br class="mobile-only" />물통 4.5L
                               </td>
                               <td>
                                 하이드로에센셜<span></span
                                 ><br class="mobile-only" />가습량 500<small
                                   >cc/h</small
-                                ><span></span>물통 3.4L
+                                ><span></span><br class="mobile-only" />물통 3.4L
                               </td>
                             </tr>
                             <tr>
@@ -560,7 +560,7 @@
                                     <span class="info pc-only"></span>
                                     <span class="bubble"
                                       >정수 필터링 > 100℃ 가열 살균 > 청정 바람
-                                      > 자동 건조</span
+                                      > 자동건조</span
                                     >
                                   </span>
                                 </p>
@@ -589,11 +589,11 @@
                                 <div class="spec-img">
                                   <img
                                     src="/kr/story/buying-guide/2025/img/humidifier/ic48_03_autodry.svg"
-                                    alt="자동 건조"
+                                    alt="자동건조"
                                   />
                                 </div>
                                 <p>
-                                  자동 건조
+                                  자동건조
                                   <span class="des">
                                     <span class="info pc-only"></span>
                                     <span class="bubble"
@@ -607,11 +607,11 @@
                                 <div class="spec-img">
                                   <img
                                     src="/kr/story/buying-guide/2025/img/humidifier/ic48_03_autodry.svg"
-                                    alt="자동 건조"
+                                    alt="자동건조"
                                   />
                                 </div>
                                 <p>
-                                  자동 건조
+                                  자동건조
                                   <span class="des">
                                     <span class="info pc-only"></span>
                                     <span class="bubble"
@@ -741,16 +741,22 @@
                         <tbody>
                           <tr class="procuct-no">
                             <td>
-                              HW500DAS<span></span>가습량 505<small>cc/h</small
-                              ><span></span>물통 5L
+                              HW500DAS<span></span><br class="mo-only" />
+                              가습량 505<small>cc/h</small
+                              ><span></span><br class="mo-only" />
+                              물통 5L
                             </td>
                             <td>
-                              HW300DBL<span></span>가습량 305<small>cc/h</small
-                              ><span></span>물통 3.6L
+                              HW300DBL<span></span><br class="mo-only" />
+                              가습량 305<small>cc/h</small
+                              ><span></span><br class="mo-only" />
+                              물통 3.6L
                             </td>
                             <td>
-                              HW300BBB<span></span>가습량 305<small>cc/h</small
-                              ><span></span>물통 3.6L
+                              HW300BBB<span></span><br class="mo-only" />
+                              가습량 305<small>cc/h</small
+                              ><span></span><br class="mo-only" />
+                              물통 3.6L
                             </td>
                           </tr>
                           <tr class="procuct-img-wrap">
@@ -1047,7 +1053,7 @@
                         <h5>정수복합식</h5>
                         <p>
                           하이드로타워 / 하이드로에센셜의 가습 방식으로 물 속의
-                          석회질(스케일 원인물질)을 <br />
+                          석회질(스케일 원인물질)을 <br class="pc-only" />
                           정수 필터로 제거한 뒤, 한번 더 100℃로 끓여 살균한 물을
                           사용하여 가습 합니다.<br />
                           정수와 가열의 이중 과정으로 더욱 깨끗하고 위생적인
@@ -1275,12 +1281,12 @@
                     <div class="img">
                       <img
                         src="/kr/story/buying-guide/2025/img/humidifier/img_P03_001_16.jpg"
-                        alt="LG 퓨리케어 하이드로타워 제품의 정수 필터, 먼지 필터, 100℃ 살균, 자동 건조 기능을 소개하는 다이어그램"
+                        alt="LG 퓨리케어 하이드로타워 제품의 정수 필터, 먼지 필터, 100℃ 살균, 자동건조 기능을 소개하는 다이어그램"
                         class="pc-only"
                       />
                       <img
                         src="/kr/story/buying-guide/2025/img/humidifier/img_M03_001_05.jpg"
-                        alt="LG 퓨리케어 하이드로타워 제품의 정수 필터, 먼지 필터, 100℃ 살균, 자동 건조 기능을 소개하는 다이어그램"
+                        alt="LG 퓨리케어 하이드로타워 제품의 정수 필터, 먼지 필터, 100℃ 살균, 자동건조 기능을 소개하는 다이어그램"
                         class="mobile-only"
                       />
                     </div>
@@ -1329,7 +1335,8 @@
                         <p>
                           안방이나 침실과 같은 비교적 넓은 공간(아파트 기준 50m²
                           내외)을 가습해야 한다면 가습량이 700cc인 제품을
-                          추천드려요. 공간에 비해 가습량이 부족하면 희망습도를
+                          추천드려요. <br>
+                          공간에 비해 가습량이 부족하면 희망습도를
                           맞추기 어렵기 때문에 공간이 넓을수록 더 많은 가습량을
                           제공하는 제품을 사용하는 것이 좋습니다.
                         </p>
@@ -1364,8 +1371,8 @@
                         <h5>500cc</h5>
                         <p>
                           작은 공간(아파트 기준 35m² 내외)을 가습해야 한다면
-                          가습량이 500cc인 제품을 추천드려요. 아이방이나 서재와
-                          같은 개인 공간에서 사용하기 좋으며, 작은 공간에서도
+                          가습량이 500cc인 제품을 추천드려요. <br>
+                          아이방이나 서재와 같은 개인 공간에서 사용하기 좋으며, 작은 공간에서도
                           쾌적함을 유지할 수 있습니다.
                         </p>
                         <p class="des">
@@ -1400,7 +1407,7 @@
                         <p>
                           바닥 면적이 좁은 방이나 작은 공간에는 가습량 300cc
                           제품을 추천드려요.<br />
-                          책상, 테이블 위에 올려 사용할 수 있고, <br />적은
+                          책상, 테이블 위에 올려 사용할 수 있고, <br class="pc-only"/>적은
                           공간에서도 쾌적한 습도를 유지하기에 충분한 용량입니다.
                         </p>
                         <p class="des">

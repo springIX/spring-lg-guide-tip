@@ -16,7 +16,7 @@
     <meta name="viewport"
       content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <meta name="keywords" content="LG전자, 김치냉장고, 디오스, 오브제컬렉션, LG 디오스 김치냉장고 오브제컬렉션, 구매가이드">
-    <meta name="description" content="보관부터 식사까지, 본연의 맛을 그대로">
+    <meta name="description" content="익힘부터 보관까지, 내 입맛에 딱 맞는 김치">
     <meta content="NOODP, NOYDIR" name="robots">
     <link rel="canonical" href="canonical">
     <title>김치냉장고 구매 가이드 | 구매 가이드 | 가이드 | 스토리 | LG전자</title>
@@ -26,7 +26,7 @@
     <meta property="og:site_name" content="LG전자">
     <meta property="og:type" content="website">
     <meta property="og:title" content="김치냉장고 구매 가이드 | 구매 가이드 | 가이드 | 스토리 | LG전자">
-    <meta property="og:description" content="보관부터 식사까지, 본연의 맛을 그대로">
+    <meta property="og:description" content="익힘부터 보관까지, 내 입맛에 딱 맞는 김치">
     <meta property="og:url" content="https://www.lge.co.kr/story/buying-guide/lg-kimchi-refrigerator">
     <meta property="og:image" content="/kr/story/buying-guide/2025/img/kimchi-refrigerator/og_P04.jpg">
     <meta name="twitter:card" content="summary">
@@ -96,7 +96,7 @@
       <!-- Share -->
         <div itemtype=http://schema.org/WebPage itemscope class="sr-only">
           <meta itemprop="name" content="김치냉장고 구매 가이드 | 구매 가이드 | 가이드 | 스토리 | LG전자" />
-          <meta itemprop="description" content="보관부터 식사까지, 본연의 맛을 그대로" />
+          <meta itemprop="description" content="익힘부터 보관까지, 내 입맛에 딱 맞는 김치" />
           <meta itemprop="url" content="https://www.lge.co.kr/story/buying-guide/lg-kimchi-refrigerator" />
           <meta itemprop="image" content="/kr/story/buying-guide/2025/img/kimchi-refrigerator/og_P08.jpg" />
           <meta itemprop="Keywords" content="LG전자, 김치냉장고, 디오스, 오브제컬렉션, LG 디오스 김치냉장고 오브제컬렉션, 구매가이드" />
@@ -127,7 +127,7 @@
                 김치냉장고
                 <br />구매 가이드
               </h2>
-              <p>보관부터 식사까지, 본연의 맛을 그대로</p>
+              <p>익힘부터 보관까지, 내 입맛에 딱 맞는 김치</p>
             </div>
           </div>
           <div class="slider">
@@ -575,23 +575,23 @@
                       <tr class="procuct-name">
                         <th>
                           <h4>4도어</h4>
-                          <p>김치와 각종 식재료를 <br />맛있고 여유롭게</p>
+                          <p>다용도 분리벽으로 <br />칸마다 원하는 모드로 맞춤 보관</p>
                         </th>
                         <th>
                           <h4>4도어</h4>
-                          <p>오픈형 상판으로 <br />공간을 자유롭게</p>
+                          <p>오픈형 상칸으로 <br />부피가 큰 식재료를 자유롭게</p>
                         </th>
                         <th>
                           <h4>3도어</h4>
-                          <p>주방 공간은 알차게, <br />식재료는 다양하게</p>
+                          <p>식재료는 다양하게 <br />주방 공간은 여유롭게</p>
                         </th>
                         <th>
                           <h4>컨버터블</h4>
-                          <p>라이프스타일에 맞춰 <br />원하는 대로 깔끔하게</p>
+                          <p>라이프스타일에 맞춰 <br />일체감 있고 깔끔한 인테리어</p>
                         </th>
                         <th>
                           <h4>뚜껑형</h4>
-                          <p>김치 위주의 구성으로 <br />깔끔하고 신선하게</p>
+                          <p>김치 위주의 깔끔한 보관</p>
                         </th>
                       </tr>
                     </thead>
@@ -707,8 +707,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >취향과 공간에 따라 밀착 설치로 우리집에
-                                알맞게</span
+                                >설치와 이동은 프리스탠딩처럼 편리하며, 주방가구와 밀착설치로 깔끔하게</span
                               >
                             </span>
                           </p>
@@ -729,8 +728,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >취향과 공간에 따라 밀착 설치로 우리집에
-                                알맞게</span
+                                >설치와 이동은 프리스탠딩처럼 편리하며, 주방가구와 밀착설치로 깔끔하게</span
                               >
                             </span>
                           </p>
@@ -751,8 +749,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >취향과 공간에 따라 밀착 설치로 우리집에
-                                알맞게</span
+                                >설치와 이동은 프리스탠딩처럼 편리하며, 주방가구와 밀착설치로 깔끔하게</span
                               >
                             </span>
                           </p>
@@ -773,8 +770,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >취향과 공간에 따라 밀착 설치로 우리집에
-                                알맞게</span
+                                >설치와 이동은 프리스탠딩처럼 편리하며, 주방가구와 밀착설치로 깔끔하게</span
                               >
                             </span>
                           </p>
@@ -791,7 +787,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >다양한 공간에서 배치를 자유롭게</span
+                                >단독으로 설치 가능해 배치를 자유롭게</span
                               >
                             </span>
                           </p>
@@ -814,8 +810,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >칸칸마다 원하는대로 식재료를 구분하고, ThinQ
-                                앱으로 손쉽게</span
+                                >상칸을 좌우로 나눠주는 분리벽으로 공간을 알차고 자유롭게, LG ThinQ 앱으로 제공되는 식품 리스트로 편리하게 보관</span
                               >
                             </span>
                           </p>
@@ -835,9 +830,24 @@
                             오픈형 상칸 &<br />다목적 보관모드
                             <span class="des">
                               <span class="info pc-only"></span>
+                              <span class="bubble">분리벽 없이 넓은 상칸으로 부피가 큰 식재료를 통째로! 보관하는 식재료에 따라 ThinQ 앱으로 편리하게 맞춤 온도로 보관</span>
+                            </span>
+                          </p>
+                        </td>
+                        <td class="disabled">
+                          <div class="spec-img">
+                            <img
+                              src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_gourmet.svg"
+                              alt="미식 전문 보관"
+                            />
+                          </div>
+                          <p>
+                            미식 전문 보관
+                            <span class="des">
+                              <span class="info pc-only"></span>
                               <span class="bubble"
-                                >부피가 큰 식재료도 통째로 넣어 여유롭고, ThinQ
-                                앱으로 손쉽게</span
+                                >보관하는 식재료의 특성에 맞춰 최적의 상태로
+                                신선하게</span
                               >
                             </span>
                           </p>
@@ -861,24 +871,6 @@
                           </p>
                         </td>
                         <td class="disabled">
-                          <div class="spec-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_gourmet.svg"
-                              alt="미식 전문 보관"
-                            />
-                          </div>
-                          <p>
-                            미식 전문 보관
-                            <span class="des">
-                              <span class="info pc-only"></span>
-                              <span class="bubble"
-                                >보관하는 식재료의 특성에 맞춰 최적의 상태로
-                                신선하게</span
-                              >
-                            </span>
-                          </p>
-                        </td>
-                        <td>
                           <div class="spec-img">
                             <img
                               src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_multifridge.svg"
@@ -910,8 +902,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >최대 57배 더 많은 유산균과, 4번의 쿨링샷으로
-                                더욱 신선하게</span
+                                >맛있는 유산균을 최대 57배 더 증식시켜주는 맞춤 보관 기술</span
                               >
                             </span>
                           </p>
@@ -928,8 +919,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >최대 57배 더 많은 유산균과, 4번의 쿨링샷으로
-                                더욱 신선하게</span
+                                >맛있는 유산균을 최대 57배 더 증식시켜주는 맞춤 보관 기술</span
                               >
                             </span>
                           </p>
@@ -946,13 +936,12 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >최대 57배 더 많은 유산균과, 4번의 쿨링샷으로
-                                더욱 신선하게</span
+                                >맛있는 유산균을 최대 57배 더 증식시켜주는 맞춤 보관 기술</span
                               >
                             </span>
                           </p>
                         </td>
-                        <td>
+                        <td  class="disabled">
                           <div class="spec-img">
                             <img
                               src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_kimchistorage.svg"
@@ -982,8 +971,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >최대 57배 더 많은 유산균과, 4번의 쿨링샷으로
-                                더욱 신선하게</span
+                                >맛있는 유산균을 최대 57배 더 증식시켜주는 맞춤 보관 기술</span
                               >
                             </span>
                           </p>
@@ -1002,8 +990,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >포장김치의 사용 패턴에 따라 적정한 온도로
-                                신선하게</span
+                                >포장김치를 ThinQ에 앱에 등록하면 사용자 패턴에 따라 온도를 관리해 신선하게 보관</span
                               >
                             </span>
                           </p>
@@ -1020,8 +1007,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >포장김치의 사용 패턴에 따라 적정한 온도로
-                                신선하게</span
+                                >포장김치를 ThinQ에 앱에 등록하면 사용자 패턴에 따라 온도를 관리해 신선하게 보관</span
                               >
                             </span>
                           </p>
@@ -1038,8 +1024,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >포장김치의 제조사와 제조일자에 맞춰 더욱
-                                맛있게</span
+                                >포장김치를 ThinQ 앱에 등록하면 김치에 맞춰서 기능을 맞춤 설정</span
                               >
                             </span>
                           </p>
@@ -1056,8 +1041,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >포장김치의 제조사와 제조일자에 맞춰 더욱
-                                맛있게</span
+                                >포장김치를 ThinQ에 등록하면 맞춰서 보관</span
                               >
                             </span>
                           </p>
@@ -1098,8 +1082,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >±0.3℃의 온도 편차와 일정한 냉기로 식재료 본연의
-                                맛을 일정하게</span
+                                >구석구석 빈틈없이 일정한 냉기로 맛과 신선함을 오래오래</span
                               >
                             </span>
                           </p>
@@ -1120,8 +1103,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >±0.3℃의 온도 편차와 일정한 냉기로 식재료 본연의
-                                맛을 일정하게</span
+                                >구석구석 빈틈없이 일정한 냉기로 맛과 신선함을 오래오래</span
                               >
                             </span>
                           </p>
@@ -1142,8 +1124,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >±0.3℃의 온도 편차와 일정한 냉기로 식재료 본연의
-                                맛을 일정하게</span
+                                >구석구석 빈틈없이 일정한 냉기로 맛과 신선함을 오래오래</span
                               >
                             </span>
                           </p>
@@ -1160,8 +1141,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >±0.3℃의 온도 편차로 식재료 본연의 맛을
-                                온전하게</span
+                                >±0.3℃ 온도편차로 정온을 유지해 식재료와 김치를 신선하게 보관</span
                               >
                             </span>
                           </p>
@@ -1588,10 +1568,14 @@
                           있습니다.
                         </p>
                         <div class="img">
-                          <img
-                            src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/img_P08_101_05.jpg"
-                            alt="김치냉장고 용기에 담긴 배추김치가 김이 날 정도로 신선하게 보관된 모습입니다."
-                          />
+                          <button class="btn-pause">일시멈춤</button>
+                          <video
+                            autoplay
+                            playsinline
+                            loop
+                            muted
+                            src="/kr/story/buying-guide/2025/video/kimchi-refrigerator/img_P08_101_05.mp4"
+                          ></video>
                         </div>
                         <button class="btn-collapse-toggle">
                           <span>* NEW 유산균김치+</span>
@@ -1625,10 +1609,14 @@
                           유지하며 천천히 익힙니다.
                         </p>
                         <div class="img">
-                          <img
-                            src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/img_P08_101_06.jpg"
-                            alt="김치냉장고 서랍에 다양한 종류의 김치가 용기별로 정돈되어 보관된 모습입니다. 왼쪽 상단에는 포기김치, 오른쪽 상단에는 백김치와 물김치가, 하단에는 열무김치와 총각김치 등이 깔끔하게 담겨 있습니다."
-                          />
+                          <button class="btn-pause">일시멈춤</button>
+                          <video
+                            autoplay
+                            playsinline
+                            loop
+                            muted
+                            src="/kr/story/buying-guide/2025/video/kimchi-refrigerator/img_P08_101_06.mp4"
+                          ></video>
                         </div>
                       </div>
                       <div class="content">
@@ -1746,10 +1734,14 @@
                           김치 본연의 맛과 신선함을 오래도록 보존합니다.
                         </p>
                         <div class="img">
-                          <img
-                            src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/img_P08_101_07.jpg"
-                            alt="흰색 접시에 둥글게 말린 배추김치 한 통이 통째로 담겨 있고, 붉은 양념 국물이 접시를 가득 채우고 있습니다. 김치 중앙에는 빨강, 주황, 노랑 고추 슬라이스와 허브 잎이 장식되어 시각적인 포인트를 더하며, 배경의 파형 그래프는 김치 숙성과 온도 조절을 상징적으로 나타냅니다."
-                          />
+                          <button class="btn-pause">일시멈춤</button>
+                          <video
+                            autoplay
+                            playsinline
+                            loop
+                            muted
+                            src="/kr/story/buying-guide/2025/video/kimchi-refrigerator/img_P08_101_07.mp4"
+                          ></video>
                         </div>
                         <button class="btn-collapse-toggle">
                           <span>* ±0.3℃ 신선정온</span>
@@ -1785,10 +1777,14 @@
                           있습니다.
                         </p>
                         <div class="img">
-                          <img
-                            src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/img_P08_101_08.jpg"
-                            alt="프렌치도어 스타일의 김치냉장고가 정면으로 열린 모습으로, 상단 냉장실에는 육류, 채소, 반찬, 곡물통 등이 투명 선반에 종류별로 깔끔하게 정리되어 있습니다. 하단 서랍칸에는 보라색 김치 전용 용기 8개가 나란히 수납되어 있어, 김치 보관의 효율성과 넉넉한 저장 공간을 강조합니다."
-                          />
+                          <button class="btn-pause">일시멈춤</button>
+                          <video
+                            autoplay
+                            playsinline
+                            loop
+                            muted
+                            src="/kr/story/buying-guide/2025/video/kimchi-refrigerator/img_P08_101_08.mp4"
+                          ></video>
                         </div>
                       </div>
                       <div class="content">
