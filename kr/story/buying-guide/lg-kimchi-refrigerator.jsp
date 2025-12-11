@@ -694,11 +694,11 @@
                         <td>
                           <div class="spec-img">
                             <img
-                              src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_fixandmax.svg"
+                              src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_fixandmax_4door.svg"
                               alt="Fit & Max"
                             />
                             <img
-                              src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_freestanding.svg"
+                              src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_freestanding_4door.svg"
                               alt="프리스탠딩"
                             />
                           </div>
@@ -715,11 +715,11 @@
                         <td>
                           <div class="spec-img">
                             <img
-                              src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_fixandmax.svg"
+                              src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_fixandmax_4door.svg"
                               alt="Fit & Max"
                             />
                             <img
-                              src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_freestanding.svg"
+                              src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_freestanding_4door.svg"
                               alt="프리스탠딩"
                             />
                           </div>
@@ -736,11 +736,11 @@
                         <td>
                           <div class="spec-img">
                             <img
-                              src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_fixandmax.svg"
+                              src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_fixandmax_3door.svg"
                               alt="Fit & Max"
                             />
                             <img
-                              src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_freestanding.svg"
+                              src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_freestanding_3door.svg"
                               alt="프리스탠딩"
                             />
                           </div>
@@ -757,11 +757,11 @@
                         <td>
                           <div class="spec-img">
                             <img
-                              src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_fixandmax.svg"
+                              src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_fixandmax_1door.svg"
                               alt="Fit & Max"
                             />
                             <img
-                              src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_freestanding.svg"
+                              src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_freestanding_1door.svg"
                               alt="프리스탠딩"
                             />
                           </div>
@@ -778,7 +778,7 @@
                         <td>
                           <div class="spec-img">
                             <img
-                              src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_freestanding.svg"
+                              src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_freestanding_lid.svg"
                               alt="프리스탠딩"
                             />
                           </div>
@@ -990,7 +990,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >포장김치를 ThinQ에 앱에 등록하면 사용자 패턴에 따라 온도를 관리해 신선하게 보관</span
+                                >포장김치를 ThinQ 앱에 등록하면 사용자 패턴에 따라 온도를 관리해 신선하게 보관</span
                               >
                             </span>
                           </p>
@@ -1007,7 +1007,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >포장김치를 ThinQ에 앱에 등록하면 사용자 패턴에 따라 온도를 관리해 신선하게 보관</span
+                                >포장김치를 ThinQ 앱에 등록하면 사용자 패턴에 따라 온도를 관리해 신선하게 보관</span
                               >
                             </span>
                           </p>
@@ -1041,7 +1041,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >포장김치를 ThinQ에 등록하면 맞춰서 보관</span
+                                >포장김치를 ThinQ 앱에 등록하면 맞춰서 보관</span
                               >
                             </span>
                           </p>

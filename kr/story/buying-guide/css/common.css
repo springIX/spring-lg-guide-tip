@@ -1266,13 +1266,18 @@
   white-space: nowrap;
   z-index: 1;
 }
+.buying-guide .compare-wrap .procuct-summary .procuct-spec td.disabled {
+  position: relative;
+}
 .buying-guide .compare-wrap .procuct-summary .procuct-spec .disabled .spec-img {
   display: none;
 }
 .buying-guide .compare-wrap .procuct-summary .procuct-spec .disabled p {
-  height: 135px;
-  display: flex;
-  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 25px;
   font-size: 0;
   margin-top: 0;
 }
@@ -1442,7 +1447,10 @@
     width: 40px;
   }
   .buying-guide .compare-wrap .procuct-summary .procuct-spec .disabled p {
-    height: 130px;
+    height: 60px;
+  }
+  .buying-guide .compare-wrap .procuct-summary .procuct-spec .disabled p {
+    height: 60px;
   }
   .buying-guide .compare-wrap .procuct-summary .procuct-spec .disabled p:after {
     width: 14px;

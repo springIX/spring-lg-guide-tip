@@ -577,8 +577,7 @@
                                   <span class="des">
                                     <span class="info pc-only"></span>
                                     <span class="bubble"
-                                      >정수 필터링 > 100℃ 가열 살균 > 자동
-                                      건조</span
+                                      >정수 필터링 > 100℃ 가열 살균 > 자동건조</span
                                     >
                                   </span>
                                 </p>
