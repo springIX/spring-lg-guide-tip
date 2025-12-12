@@ -116,7 +116,6 @@
           </div>
         </div>
         <!-- //Share -->
-      </div>
       <!-- 내용 -->
       <!-- 0.9 -->
       <div class="buying-guide" id="content">
@@ -394,8 +393,7 @@
                             <th colspan="4">
                               <h4>AI 360°</h4>
                               <p>
-                                AI가 집 안 공기를 우리집 상황에 맞춰 알아서
-                                쾌적하게
+                                우리 집 오염도에 맞춰 알아서 청정
                               </p>
                             </th>
                           </tr>
@@ -1432,14 +1430,14 @@
                   />
                 </div>
                 <div class="text-wrap">
-                  <h4>더 슬림해진 디자인, <br />여전히 강력한 360° 공기청정</h4>
+                  <h4>슬림해진 디자인, <br />여전히 강력한 360° 공기청정</h4>
                   <div>
                     <p>
                       극초미세먼지부터 유해가스까지 제거해주는 강력한 청정
                       능력과 더 슬림해진 디자인으로 공간의 활용도를 높여 어떤
                       공간이든 미니멀하게 어우러집니다.
                     </p>
-                    <button class="btn-collapse-toggle">
+                    <!-- <button class="btn-collapse-toggle">
                       <span>* 더 슬림해진 사이즈</span>
                     </button>
                     <div class="collapse-content">
@@ -1451,7 +1449,7 @@
                         mm → 315 mm)
                       </p>
                       <button class="btn-collapse-close">접기</button>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
                 <p class="note">
@@ -2991,13 +2989,7 @@
                       <div class="content">
                         <h5>51㎡~82㎡</h5>
                         <p>
-                          거실이나 주방처럼 가족이 자주 머무는 공간을 쾌적하게
-                          관리하고 싶다면 AI 360° 타입 1단이나 360° Hit 타입을
-                          추천드립니다. 아파트 20평대 이상의 공간에서도
-                          효율적으로 공기를 순환시켜 집안 전체를 상쾌하게
-                          유지합니다. 거실 중심의 생활을 하는 분들도, 한 대로
-                          간편하게 공기질을 관리하며 늘 깨끗하고 편안한 공간을
-                          경험할 수 있습니다.
+                          거실이나 주방처럼 가족이 자주 머무는 공간을 쾌적하게 관리하고 싶다면 AI 360° 타입 1단과 360° Hit 타입을 추천합니다. 중형 공간에서도 효율적으로 공기를 청정해 쾌적하게 유지하고 거실 중심의 라이프스타일에도 한 대로 간편하게 공기질을 관리해 깨끗하고 편안한 공간을 누릴 수 있습니다.
                         </p>
                         <div class="btn-wrap">
                           <a
@@ -4696,11 +4688,11 @@
           </div>
         </section>
       </div>
-    <!-- footer -->
-    <jsp:include page="/kr/footer">
-      <jsp:param name="bizType" value="B2C" />
-    </jsp:include>
-    <!-- // footer -->
+      <!-- footer -->
+      <jsp:include page="/kr/footer">
+        <jsp:param name="bizType" value="B2C" />
+      </jsp:include>
+      <!-- // footer -->
     </div>
 
     <!-- footerDefault -->

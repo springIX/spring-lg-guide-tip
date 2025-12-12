@@ -1203,6 +1203,9 @@
   height: 16px;
   background: url(/kr/story/buying-guide/2025/img/ic16_refresh_black.svg) no-repeat center;
 }
+.buying-guide .compare-wrap .procuct-summary .procuct-spec:nth-of-type(even):not(:last-of-type){
+  background-color: #f6f6f6;
+}
 .buying-guide .compare-wrap .procuct-summary .procuct-spec td {
   padding: 17px 0;
   vertical-align: top;

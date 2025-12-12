@@ -769,8 +769,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >냉수와 온수, 정수까지 한 번에, 원하는 온도로
-                                간편하게
+                                >냉수와 온수, 정수까지 한 번에, 원하는 온도로 간편하게
                               </span>
                             </span>
                           </p>
@@ -787,8 +786,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >냉수와 온수, 정수까지 한 번에, 원하는 온도로
-                                간편하게
+                                >냉수와 온수, 정수까지 한 번에, 원하는 온도로 간편하게
                               </span>
                             </span>
                           </p>
@@ -822,8 +820,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >냉수와 온수, 정수까지 한 번에, 원하는 온도로
-                                간편하게
+                                >냉수와 온수, 정수까지 한 번에, 원하는 온도로 간편하게
                               </span>
                             </span>
                           </p>
@@ -840,8 +837,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >빌트인 디자인과 클린세척수로 더욱
-                                깨끗하게</span
+                                >빌트인 디자인과 클린세척수로 더욱 깨끗하게</span
                               >
                             </span>
                           </p>
@@ -875,8 +871,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >냉수와 온수, 정수까지, 원하는 온도를 터치로
-                                간편하게</span
+                                >냉수와 온수, 정수까지, 원하는 온도를 터치로 간편하게</span
                               >
                             </span>
                           </p>
@@ -895,7 +890,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >깨끗한 물로 만든 얼음을 위생적으로 보관
+                                >깨끗한 물로 만든 얼음을 위생적으로 보관 
                               </span>
                             </span>
                           </p>
@@ -912,7 +907,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >깨끗한 물로 만든 얼음을 위생적으로 보관
+                                >깨끗한 물로 만든 얼음을 위생적으로 보관 
                               </span>
                             </span>
                           </p>
@@ -929,7 +924,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >깨끗한 물로 만든 얼음을 위생적으로 보관
+                                >깨끗한 물로 만든 얼음을 위생적으로 보관 
                               </span>
                             </span>
                           </p>
@@ -946,7 +941,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >깨끗한 물로 만든 얼음을 위생적으로 보관
+                                >깨끗한 물로 만든 얼음을 위생적으로 보관 
                               </span>
                             </span>
                           </p>
@@ -963,7 +958,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >깨끗한 물로 만든 얼음을 위생적으로 보관
+                                >깨끗한 물로 만든 얼음을 위생적으로 보관 
                               </span>
                             </span>
                           </p>
@@ -980,7 +975,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >깨끗한 물로 만든 얼음을 위생적으로 보관
+                                >깨끗한 물로 만든 얼음을 위생적으로 보관 
                               </span>
                             </span>
                           </p>
@@ -997,7 +992,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >깨끗한 물로 만든 얼음을 위생적으로 보관
+                                >깨끗한 물로 만든 얼음을 위생적으로 보관 
                               </span>
                             </span>
                           </p>
@@ -1050,8 +1045,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >나만의 루틴대로, 자주 쓰는 용량을
-                                편리하게</span
+                                >나만의 루틴대로, 자주 쓰는 용량을 편리하게</span
                               >
                             </span>
                           </p>
@@ -1119,8 +1113,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >다양한 용량과 연속 출수로, 원하는 양을
-                                정확하게</span
+                                >다양한 용량과 연속 출수로, 원하는 양을 정확하게</span
                               >
                             </span>
                           </p>
@@ -1130,17 +1123,50 @@
                         <td>
                           <div class="spec-img">
                             <img
-                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_hotsterilize.svg"
-                              alt="직수관 & 출수구 고온살균"
+                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_allpuri.svg"
+                              alt="올 퓨리 필터 시스템"
                             />
                           </div>
                           <p>
-                            직수관 & 출수구 <br />고온살균
+                            올 퓨리 필터 시스템
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >물이 흐르는 곳은 99.99% 고온살균으로
-                                깨끗하게</span
+                                >활성탄흡착/정전흡착 방식으로 중금속 9종 및 노로바이러스 99.99% 걸러 깨끗하게
+                              </span>
+                            </span>
+                          </p>
+                        </td>
+                        <td>
+                          <div class="spec-img">
+                            <img
+                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_allpuri.svg"
+                              alt="올 퓨리 필터 시스템"
+                            />
+                          </div>
+                          <p>
+                            올 퓨리 필터 시스템
+                            <span class="des">
+                              <span class="info pc-only"></span>
+                              <span class="bubble"
+                                >활성탄흡착/정전흡착 방식으로 중금속 9종 및 노로바이러스 99.99% 걸러 깨끗하게
+                              </span>
+                            </span>
+                          </p>
+                        </td>
+                        <td>
+                          <div class="spec-img">
+                            <img
+                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_allpuri.svg"
+                              alt="올 퓨리 필터 시스템"
+                            />
+                          </div>
+                          <p>
+                            올 퓨리 필터 시스템
+                            <span class="des">
+                              <span class="info pc-only"></span>
+                              <span class="bubble"
+                                >활성탄흡착/정전흡착 방식으로 중금속 9종 및 노로바이러스 99.99% 걸러 깨끗하게</span
                               >
                             </span>
                           </p>
@@ -1148,17 +1174,16 @@
                         <td>
                           <div class="spec-img">
                             <img
-                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_hotsterilize.svg"
-                              alt="직수관 & 출수구 고온살균"
+                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_allpuri.svg"
+                              alt="올 퓨리 필터 시스템"
                             />
                           </div>
                           <p>
-                            직수관 & 출수구 <br />고온살균
+                            올 퓨리 필터 시스템
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >물이 흐르는 곳은 99.99% 고온살균으로
-                                깨끗하게</span
+                                >활성탄흡착/정전흡착 방식으로 중금속 9종 및 노로바이러스 99.99% 걸러 깨끗하게</span
                               >
                             </span>
                           </p>
@@ -1166,17 +1191,16 @@
                         <td>
                           <div class="spec-img">
                             <img
-                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_hotsterilize.svg"
-                              alt="직수관 & 출수구 고온살균"
+                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_allpuri.svg"
+                              alt="올 퓨리 필터 시스템"
                             />
                           </div>
                           <p>
-                            직수관 & 출수구 <br />고온살균
+                            올 퓨리 필터 시스템
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >물이 흐르는 곳은 99.99% 고온살균으로
-                                깨끗하게</span
+                                >활성탄흡착/정전흡착 방식으로 중금속 9종 및 노로바이러스 99.99% 걸러 깨끗하게</span
                               >
                             </span>
                           </p>
@@ -1184,53 +1208,16 @@
                         <td>
                           <div class="spec-img">
                             <img
-                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_hotsterilize.svg"
-                              alt="직수관 & 출수구 고온살균"
+                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_allpuri.svg"
+                              alt="올 퓨리 필터 시스템"
                             />
                           </div>
                           <p>
-                            직수관 & 출수구 <br />고온살균
+                            올 퓨리 필터 시스템
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >물이 흐르는 곳은 99.99% 고온살균으로
-                                깨끗하게</span
-                              >
-                            </span>
-                          </p>
-                        </td>
-                        <td>
-                          <div class="spec-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_hotsterilize.svg"
-                              alt="직수관 & 출수구 고온살균"
-                            />
-                          </div>
-                          <p>
-                            직수관 & 출수구 <br />고온살균
-                            <span class="des">
-                              <span class="info pc-only"></span>
-                              <span class="bubble"
-                                >물이 흐르는 곳은 99.99% 고온살균으로
-                                깨끗하게</span
-                              >
-                            </span>
-                          </p>
-                        </td>
-                        <td>
-                          <div class="spec-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_hotsterilize.svg"
-                              alt="직수관 & 출수구 고온살균"
-                            />
-                          </div>
-                          <p>
-                            직수관 & 출수구 <br />고온살균
-                            <span class="des">
-                              <span class="info pc-only"></span>
-                              <span class="bubble"
-                                >물이 흐르는 곳은 99.99% 고온살균으로
-                                깨끗하게</span
+                                >활성탄흡착/정전흡착 방식으로 중금속 9종 및 노로바이러스 99.99% 걸러 깨끗하게</span
                               >
                             </span>
                           </p>
@@ -1247,27 +1234,26 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >3단계의 복합 필터로 7가지 중금속을 제거해
-                                깨끗하게</span
+                                >3단계의 복합 필터로  7가지 중금속을 제거해 깨끗하게</span
                               >
                             </span>
                           </p>
                         </td>
                       </tr>
                       <tr class="procuct-spec">
-                        <td class="disabled">
+                        <td>
                           <div class="spec-img">
                             <img
-                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_updowntap.svg"
-                              alt="상하 무빙 출수구"
+                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_onefaucet.svg"
+                              alt="원파우셋"
                             />
                           </div>
                           <p>
-                            상하 무빙 출수구
+                            원파우셋
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >용기 높이에 맞춰 출구가 위아래로 정밀하게
+                                >하나의 출수구로 얼음과 물을 한 번에
                               </span>
                             </span>
                           </p>
@@ -1289,19 +1275,19 @@
                             </span>
                           </p>
                         </td>
-                        <td class="disabled">
+                        <td>
                           <div class="spec-img">
                             <img
-                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_updowntap.svg"
-                              alt="상하 무빙 출수구"
+                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_light.svg"
+                              alt="무드라이팅"
                             />
                           </div>
                           <p>
-                            상하 무빙 출수구
+                            무드라이팅
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >용기 높이에 맞춰 출구가 위아래로 정밀하게</span
+                                >출수 시 자동으로 켜지는 출수등으로 어두운 밤에도 편리하게</span
                               >
                             </span>
                           </p>
@@ -1314,12 +1300,11 @@
                             />
                           </div>
                           <p>
-                            상하좌우 <br class="pc-only" />무빙 출수탭
+                            상하좌우 무빙 출수탭
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >상하좌우 자유롭게 움직이며, 용기 높이에 맞춰
-                                위아래로 정밀하게</span
+                                >상하좌우 자유롭게 움직이며, 용기 높이에 맞춰 위아래로 정밀하게</span
                               >
                             </span>
                           </p>
@@ -1327,17 +1312,16 @@
                         <td>
                           <div class="spec-img">
                             <img
-                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_180dual.svg"
-                              alt="180˚ 듀얼 스윙 출수구"
+                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_cleanwater.svg"
+                              alt="클린세척수 & 듀얼 스윙 출수구"
                             />
                           </div>
                           <p>
-                            180˚ <br class="pc-only" />듀얼 스윙 출수구
+                            클린세척수 & 듀얼 스윙 출수구
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >두 개의 출수구를 원하는 방향으로 180° 회전해
-                                자유롭게</span
+                                >마시는 물, 과일/채소 세척을 위한 클린세척수. 두 개의 출수구를 원하는 방향으로 180° 회전해 자유롭게</span
                               >
                             </span>
                           </p>
@@ -1354,8 +1338,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >출수구를 원하는 방향으로 180° 회전해
-                                자유롭게</span
+                                >출수구를 원하는 방향으로 180° 회전해 자유롭게</span
                               >
                             </span>
                           </p>
@@ -1372,15 +1355,152 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >높은 출수구와 넓은 트레이로 다양한 용기를
-                                안정감 있게</span
+                                >27cm 높은 출수구와 넓은 트레이로 다양한 용기를 안정감 있게</span
                               >
                             </span>
                           </p>
                         </td>
                       </tr>
                       <tr class="procuct-spec">
-                        <td class="disabled">
+                        <td>
+                          <div class="spec-img">
+                            <img
+                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_hotsterilize.svg"
+                              alt="직수관 & 출수구 고온살균"
+                            />
+                          </div>
+                          <p>
+                            직수관 & 출수구 <br />고온살균
+                            <span class="des">
+                              <span class="info pc-only"></span>
+                              <span class="bubble"
+                                >주1회 자동으로 스테인리스 직수관 고온살균, 외부에 노출된 출수구는 원할 때마다 수시로 고온살균</span
+                              >
+                            </span>
+                          </p>
+                        </td>
+                        <td>
+                          <div class="spec-img">
+                            <img
+                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_hotsterilize.svg"
+                              alt="직수관 & 출수구 고온살균"
+                            />
+                          </div>
+                          <p>
+                            직수관 & 출수구 <br />고온살균
+                            <span class="des">
+                              <span class="info pc-only"></span>
+                              <span class="bubble"
+                                >주1회 자동으로 스테인리스 직수관 고온살균, 외부에 노출된 출수구는 원할 때마다 수시로 고온살균</span
+                              >
+                            </span>
+                          </p>
+                        </td>
+                        <td>
+                          <div class="spec-img">
+                            <img
+                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_hotsterilize.svg"
+                              alt="직수관 & 출수구 고온살균"
+                            />
+                          </div>
+                          <p>
+                            직수관 & 출수구 <br />고온살균
+                            <span class="des">
+                              <span class="info pc-only"></span>
+                              <span class="bubble"
+                                >주1회 자동으로 스테인리스 직수관 고온살균, 외부에 노출된 출수구는 원할 때마다 수시로 고온살균</span
+                              >
+                            </span>
+                          </p>
+                        </td>
+                        <td>
+                          <div class="spec-img">
+                            <img
+                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_hotsterilize.svg"
+                              alt="직수관 & 출수구 고온살균"
+                            />
+                          </div>
+                          <p>
+                            직수관 & 출수구 <br />고온살균
+                            <span class="des">
+                              <span class="info pc-only"></span>
+                              <span class="bubble"
+                                >주1회 자동으로 스테인리스 직수관 고온살균, 외부에 노출된 출수구는 원할 때마다 수시로 고온살균</span
+                              >
+                            </span>
+                          </p>
+                        </td>
+                        <td>
+                          <div class="spec-img">
+                            <img
+                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_hotsterilize.svg"
+                              alt="직수관 & 출수구 고온살균"
+                            />
+                          </div>
+                          <p>
+                            직수관 & 출수구 <br />고온살균
+                            <span class="des">
+                              <span class="info pc-only"></span>
+                              <span class="bubble"
+                                >주1회 자동으로 스테인리스 직수관 고온살균, 외부에 노출된 출수구는 원할 때마다 수시로 고온살균</span
+                              >
+                            </span>
+                          </p>
+                        </td>
+                        <td>
+                          <div class="spec-img">
+                            <img
+                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_hotsterilize.svg"
+                              alt="직수관 & 출수구 고온살균"
+                            />
+                          </div>
+                          <p>
+                            직수관 & 출수구 <br />고온살균
+                            <span class="des">
+                              <span class="info pc-only"></span>
+                              <span class="bubble"
+                                >주1회 자동으로 스테인리스 직수관 고온살균, 외부에 노출된 출수구는 원할 때마다 수시로 고온살균</span
+                              >
+                            </span>
+                          </p>
+                        </td>
+                        <td>
+                          <div class="spec-img">
+                            <img
+                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_hotsterilize.svg"
+                              alt="직수관 & 출수구 고온살균"
+                            />
+                          </div>
+                          <p>
+                            직수관 & 출수구 <br />고온살균
+                            <span class="des">
+                              <span class="info pc-only"></span>
+                              <span class="bubble"
+                                >주1회 자동으로 스테인리스 직수관 고온살균, 외부에 노출된 출수구는 원할 때마다 수시로 고온살균</span
+                              >
+                            </span>
+                          </p>
+                        </td>
+                      </tr>
+                      <tr class="procuct-spec">
+                        <td>
+                          <div class="spec-img">
+                            <img
+                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_UVnano.svg"
+                              alt="UVnano 살균"
+                            />
+                          </div>
+                          <p>
+                            UVnano 살균
+                            <span class="des">
+                              <span class="info pc-only"></span>
+                              <span class="bubble"
+                                >출수구 내부는 1시간마다 10분씩, 얼음토출구는 3시간마다 1시간씩 자동 살균</span
+                              >
+                            </span>
+                          </p>
+                        </td>
+                        <td>
                           <div class="spec-img">
                             <img
                               src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_UVnano.svg"
@@ -1397,7 +1517,7 @@
                             </span>
                           </p>
                         </td>
-                        <td class="disabled">
+                        <td>
                           <div class="spec-img">
                             <img
                               src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_UVnano.svg"
@@ -1414,7 +1534,7 @@
                             </span>
                           </p>
                         </td>
-                        <td class="disabled">
+                        <td>
                           <div class="spec-img">
                             <img
                               src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_UVnano.svg"
@@ -1431,7 +1551,7 @@
                             </span>
                           </p>
                         </td>
-                        <td class="disabled">
+                        <td>
                           <div class="spec-img">
                             <img
                               src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_UVnano.svg"
@@ -1448,24 +1568,7 @@
                             </span>
                           </p>
                         </td>
-                        <td class="disabled">
-                          <div class="spec-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_UVnano.svg"
-                              alt="UVnano 살균"
-                            />
-                          </div>
-                          <p>
-                            UVnano 살균
-                            <span class="des">
-                              <span class="info pc-only"></span>
-                              <span class="bubble"
-                                >1시간마다 10분씩 자동 살균으로 깔끔하게</span
-                              >
-                            </span>
-                          </p>
-                        </td>
-                        <td class="disabled">
+                        <td>
                           <div class="spec-img">
                             <img
                               src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_UVnano.svg"
