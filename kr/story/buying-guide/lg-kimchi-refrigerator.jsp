@@ -693,21 +693,21 @@
                       <tr class="procuct-spec">
                         <td>
                           <div class="spec-img">
-                            <img
+                            <!-- <img
                               src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_fixandmax_4door.svg"
                               alt="Fit & Max"
-                            />
+                            /> -->
                             <img
                               src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_freestanding_4door.svg"
                               alt="프리스탠딩"
                             />
                           </div>
                           <p>
-                            Fit & Max <br class="mobile-only" />/ 프리스탠딩
+                            프리스탠딩
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >설치와 이동은 프리스탠딩처럼 편리하며, 주방가구와 밀착설치로 깔끔하게</span
+                                >단독으로 설치 가능해 배치를 자유롭게</span
                               >
                             </span>
                           </p>
@@ -834,25 +834,23 @@
                             </span>
                           </p>
                         </td>
-                        <td class="disabled">
+                        <td>
                           <div class="spec-img">
                             <img
-                              src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_gourmet.svg"
-                              alt="미식 전문 보관"
+                              src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_multiboard.svg"
+                              alt="다목적 보관모드"
                             />
                           </div>
                           <p>
-                            미식 전문 보관
+                            다목적 보관모드
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >보관하는 식재료의 특성에 맞춰 최적의 상태로
-                                신선하게</span
-                              >
+                                >ThinQ 앱을 통해서 칸칸마다 따로 식재료에 맞게 맞춤 보관</span>
                             </span>
                           </p>
                         </td>
-                        <td>
+                        <td class="disabled">
                           <div class="spec-img">
                             <img
                               src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_gourmet.svg"
@@ -894,11 +892,11 @@
                           <div class="spec-img">
                             <img
                               src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_kimchi.svg"
-                              alt="NEW 유산균김치+"
+                              alt="유산균 김치+"
                             />
                           </div>
                           <p>
-                            NEW 유산균김치+
+                            유산균 김치+
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
@@ -911,11 +909,11 @@
                           <div class="spec-img">
                             <img
                               src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_kimchi.svg"
-                              alt="NEW 유산균김치+"
+                              alt="유산균 김치+"
                             />
                           </div>
                           <p>
-                            NEW 유산균김치+
+                            유산균 김치+
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
@@ -928,11 +926,11 @@
                           <div class="spec-img">
                             <img
                               src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_kimchi.svg"
-                              alt="NEW 유산균김치+"
+                              alt="유산균 김치+"
                             />
                           </div>
                           <p>
-                            NEW 유산균김치+
+                            유산균 김치+
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
@@ -963,11 +961,11 @@
                           <div class="spec-img">
                             <img
                               src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_kimchi.svg"
-                              alt="NEW 유산균김치+"
+                              alt="유산균 김치+"
                             />
                           </div>
                           <p>
-                            NEW 유산균김치+
+                            유산균 김치+
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
@@ -998,16 +996,16 @@
                         <td>
                           <div class="spec-img">
                             <img
-                              src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_AIstorage.svg"
-                              alt="AI 맞춤보관"
+                              src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/ic48_08_AIcare.svg"
+                              alt="인공지능 맞춤보관"
                             />
                           </div>
                           <p>
-                            AI 맞춤보관
+                            인공지능 맞춤보관
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >포장김치를 ThinQ 앱에 등록하면 사용자 패턴에 따라 온도를 관리해 신선하게 보관</span
+                                >포장김치를 ThinQ 앱에 등록하면 김치에 맞춰서 기능을 맞춤 설정</span
                               >
                             </span>
                           </p>
@@ -1328,11 +1326,7 @@
                       <div class="content">
                         <h5>컨버터블</h5>
                         <p>
-                          전형적인 냉장고 형태에서 벗어나 주방 인테리어와
-                          자연스럽게 어울리도록 디자인되어 있습니다. 특히,
-                          설치공간에 따라 도어의 핸들 방향을 변경할 수 있고
-                          소재부터 색상을 자유롭게 바꿀 수 있어 계절이나 공간
-                          변화에도 편리하게 대응할 수 있습니다.
+                          전형적인 냉장고 형태에서 벗어나 주방 인테리어와 자연스럽게 어울리도록 디자인되어 있습니다. 특히, 설치공간에 따라 도어 방향을 변경할 수 있어 공간 변화에도 편리하게 사용할 수 있습니다.
                         </p>
                         <div class="btn-wrap">
                           <a
@@ -1370,7 +1364,7 @@
                           매끄럽고 깔끔하게 밀착 설치할 수 있습니다. 돌출된 부분
                           없이 주방 가구와 자연스럽게 어우러져 일체감을 높이며,
                           취향과 공간에 따라 다양한 제품 구성으로 우리 집 주방에
-                          꼭 맞는 인테리어를 조성할수 있습니다.
+                          꼭 맞는 인테리어를 조성할 수 있습니다.
                         </p>
                         <div class="btn-wrap">
                           <a
@@ -1469,14 +1463,9 @@
                         공간은 알맞게, 김치는 넉넉하게, 다양한 식재료는 신선하게
                       </h6>
                       <p class="tip-text">
-                        김치 외에도 자주 사용하는 식재료를 눈높이에서 손쉽게
-                        꺼내고, 주방을 깔끔하게 유지하고 싶은 맞벌이 부부에게는
-                        스탠딩형을 추천합니다. 직접 담근 김치를 넉넉히 보관하며
-                        오랜 기간 숙성시키고 싶은 대가족이라면 뚜껑형을
-                        권장합니다. 주방 인테리어와 조화, 색감을 중요하게
-                        생각하신다면 컨버터블형을 고려해보세요. 도어 방향과
-                        색상을 자유롭게 바꿀 수 있어 공간에 맞게 활용할 수
-                        있습니다.
+                        김치뿐 아니라 자주 쓰는 식재료를 눈높이에서 편리하게 꺼내고 주방을 깔끔하게 유지하고 싶다면 스탠딩형을 추천합니다.<br />
+                        직접 담근 김치를 넉넉히 보관하면서 실속을 중시한다면 뚜껑형이 적합합니다. <br />
+                        주방 인테리어와 조화를 중요하게 생각한다면 도어 방향을 자유롭게 바꿀 수 있는 컨버터블을 고려해보세요.
                       </p>
                     </div>
                     <div class="img">
@@ -1559,7 +1548,7 @@
                     >
                       <h4 class="hide">김치 보관 기능</h4>
                       <div class="content">
-                        <h5>NEW 유산균김치+</h5>
+                        <h5>유산균 김치+</h5>
                         <p>
                           맛있는 김치를 만들어주는 김치 유산균 ‘류코노스톡’을
                           최적 온도로 유지해 최대 57배 더 빠르게 증식시켜줍니다.
@@ -1578,16 +1567,16 @@
                           ></video>
                         </div>
                         <button class="btn-collapse-toggle">
-                          <span>* NEW 유산균김치+</span>
+                          <span>* 유산균 김치+</span>
                         </button>
                         <div class="collapse-content">
                           <p>
                             * 류코노스톡 유산균 수치는 자사 내부 평가 방법에
                             의거한 세계김치연구소 실험 결과(2020.05)로, 자사
                             400L급(K41*****) 모델의 하칸 맛지킴김치 '중' 보관
-                            모드와 중칸 NEW 유산균김치+ 를 비교하여 보관
+                            모드와 중칸 유산균 김치+ 를 비교하여 보관
                             2주(14일) 후 측정한 보관기간 내 최대 수치로,
-                            맛지킴김치'중' 모드 대비 NEW유산균김치+의 유산균
+                            맛지킴김치'중' 모드 대비 NEW유산균 김치+의 유산균
                             수치가 57배였음을 의미합니다. 주위 온도, 내부
                             적재량, 냉장고 설정 등 사용 환경에 따라 차이가 있을
                             수 있습니다.<br />
@@ -2011,14 +2000,14 @@
                       data-target="#buying-point-3-1"
                       data-group="buying-point-3"
                     >
-                      온도 조절형
+                      다목적 보관모드
                     </button>
                     <button
                       name="buying-guide-tab"
                       data-target="#buying-point-3-2"
                       data-group="buying-point-3"
                     >
-                      공간 구분형
+                      다용도 분리벽
                     </button>
                   </div>
                   <div class="subtab-content">
@@ -2027,7 +2016,7 @@
                       id="buying-point-3-1"
                       name="buying-point-3"
                     >
-                      <h4 class="hide">온도 조절형</h4>
+                      <h4 class="hide">다목적 보관모드</h4>
                       <div class="content">
                         <h5>다목적 보관모드</h5>
                         <p>
@@ -2048,7 +2037,7 @@
                           ></video>
                         </div>
                       </div>
-                      <div class="content">
+                      <!-- <div class="content">
                         <h5>미식 전문 보관</h5>
                         <p>
                           김치는 물론 보관하는 식재료의 특성에 맞게 육류/생선,
@@ -2065,7 +2054,7 @@
                             src="/kr/story/buying-guide/2025/video/kimchi-refrigerator/vid_P08_101_06.mp4"
                           ></video>
                         </div>
-                      </div>
+                      </div> -->
                     </div>
                     <div
                       class="point-wrap"
@@ -2073,20 +2062,15 @@
                       name="buying-point-3"
                       style="display: none"
                     >
-                      <h4 class="hide">공간 구분형</h4>
+                      <h4 class="hide">다용도 분리벽</h4>
                       <div class="content">
                         <h5>다용도 분리벽</h5>
                         <p>
-                          상칸을 좌우로 구분하는 '다용도 분리벽'으로 왼쪽
-                          상칸/오른쪽 상칸/중칸/하칸까지 총 4개의 공간을 용도나
-                          식재료에 따라 냉장/냉동/김치로 개별 설정할 수
-                          있습니다. 생활 패턴에 따라 김치는 물론 야채부터
-                          생선까지 다양한 식재료를 유연하고 효율적으로 보관이
-                          가능합니다.
+                          상칸을 좌우로 나누어, 생활 패턴에 따라 김치는 물론 육류, 생선, 과일, 채소, 곡류는 물론 다양한 냉장식품과 김치까지 맛있게 보관할 수 있습니다.
                         </p>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/img_P08_101_10.jpg"
+                            src="/kr/story/buying-guide/2025/img/kimchi-refrigerator/img_P08_101_10.gif"
                             alt="프렌치도어 스타일의 냉장고가 정면으로 열려 있으며, 내부에는 음료, 유제품, 과자, 채소, 도시락 등 다양한 식재료가 카테고리별로 정돈되어 있습니다. 중앙에는 파란색 계열의 ‘다용도 분리벽’이 적용되어 좌우 공간을 효율적으로 구분하고, 투명 선반과 도어 포켓에는 물병과 음료가 깔끔하게 진열되어 있습니다. 하단 서랍에는 채소와 과일이 신선하게 보관되어 정리된 수납과 분리 보관의 기능성을 강조합니다."
                           />
                         </div>
@@ -2299,9 +2283,7 @@
                             <div>
                               <h4>좌우 가변 도어 (컨버터블)</h4>
                               <p>
-                                설치 공간에 맞춰 도어의 열림 방향을 좌·우로
-                                자유롭게 변경할 수 있어, 보다 편리하게 사용할 수
-                                있습니다.
+                                설치 공간에 따라 도어 열림 방향을 좌/우로 선택하여 설치할 수 있어요.
                               </p>
                             </div>
                             <div>
@@ -2318,30 +2300,21 @@
                               <span>* 좌우 가변도어</span>
                             </button>
                             <div class="collapse-content">
+                              <p>제품명의 도어 열림 방향(좌열림/우열림) 표기 여부에 따라, 최초 제품 구매 시 도어 방향을 변경하는 방법이 달라집니다.</p>
                               <p>
-                                *도어 열림 방향에 맞는 패널을 별도 구매하셔야
-                                합니다.<br />
-                                * 최초 주문 시 반드시 모델명 별 제품의 열림
-                                방향을 확인하여 구매해 주세요.<br />
-                                * 완제품 모델명의 경우, 모델명 끝 SK모델:
-                                우터치/우열림, 그외 모델명:
-                                좌터치/좌열림입니다.<br />
-                                (SK모델은 제품 설치 시 설치 기사가 본체의
-                                열림방향을 변경합니다.)<br />
-                                * 반제품 모델로 패널과 개별 구매 할 경우,
-                                원하시는 열림 방향에 맞게 패널을 구매하셔야
-                                합니다.<br />
-                                (우터치/우열림 : 패널모델명 TR, 좌터치/좌열림 :
-                                패널모델명 TL)<br />
-                                * 패널을 맞게 구매하셨다면 최초 설치 시에는
-                                무상으로 패널의 열림 방향에 맞게 설치기사가
-                                본체의 열림방향을 변경해 설치가 진행됩니다.<br />
-                                * 사용 중 도어 방향을 변경을 원하시는 경우에는
-                                먼저 구매처 혹은 가까운 베스트샵에서 열림 방향에
-                                맞는 패널과 설치비용을 유상 지불하시면 변경이
-                                가능합니다.<br />
-                                * 제공된 힌지를 분실한 경우 부품비가 추가
-                                발생됩니다.
+                                1) 도어 방향이 표기된 제품 :<br />
+                                제품명에 표기된 방향으로만 설치 가능합니다.<br />
+                                * 도어 방향을 변경하고 싶은 경우, 오프라인 구매처 또는 서비스센터에서 해당 방향에 맞는 패널을 별도 구매 후 변경 가능합니다.
+                              </p>
+                              <p>
+                                2) 도어 방향 표기가 없는 제품 : 설치 시 좌/우 방향을 선택할 수 있습니다. <br />
+                                * 설치 전 설치기사에게 원하는 도어 방향(좌/우)을 알려주세요. <br />
+                                * 설치 완료 후 도어 방향을 변경하고 싶은 경우, 서비스센터 접수를 통해 도어 방향 변경이 가능하며, 별도 비용이 발생합니다.
+                              </p>
+                              <p>
+                                추가로, 제품명에 기재된 좌열림/우열림 도어 열림 방향에 대한 안내입니다. <br />
+                                * 우열림: 힌지가 왼쪽에 있어, 도어는 오른쪽에서 왼쪽으로 열립니다. <br />
+                                * 좌열림: 힌지가 오른쪽에 있어, 도어는 왼쪽에서 오른쪽으로 열립니다.
                               </p>
                               <button class="btn-collapse-close">접기</button>
                             </div>

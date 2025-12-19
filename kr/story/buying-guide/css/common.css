@@ -1206,6 +1206,9 @@
 .buying-guide .compare-wrap .procuct-summary .procuct-spec:nth-of-type(even):not(:last-of-type){
   background-color: #f6f6f6;
 }
+.buying-guide .compare-wrap .procuct-summary .procuct-spec.last.gray{
+  background-color: #f6f6f6;
+}
 .buying-guide .compare-wrap .procuct-summary .procuct-spec td {
   padding: 17px 0;
   vertical-align: top;
@@ -1336,7 +1339,7 @@
   display: none;
 }
 .buying-guide .compare-wrap .procuct-summary .product-btn td {
-  padding: 23px 0 40px;
+  padding: 40px 0 40px;
   border-bottom: 1px solid #ddd;
 }
 .buying-guide .compare-wrap .procuct-summary .product-btn td.full {
@@ -1464,7 +1467,7 @@
     padding-bottom: 30px;
   }
   .buying-guide .compare-wrap .procuct-summary .product-btn td {
-    padding: 20px 0 30px;
+    padding: 30px 0 30px;
   }
   .buying-guide .compare-wrap .procuct-summary .product-btn td.full {
     padding: 20px 0;
@@ -2023,6 +2026,7 @@
 .buying-guide .point-box {
   position: relative;
   padding-top: 120px;
+  padding-bottom: 52px;
 }
 .buying-guide .point-box .tab-wrap {
   margin-top: 20px;
