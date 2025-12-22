@@ -1563,7 +1563,7 @@
                             playsinline
                             loop
                             muted
-                            src="/kr/story/buying-guide/2025/video/kimchi-refrigerator/img_P08_101_05.mp4"
+                            src="/kr/story/buying-guide/2025/video/kimchi-refrigerator/vid_P08_101_05.mp4"
                           ></video>
                         </div>
                         <button class="btn-collapse-toggle">
@@ -1604,7 +1604,7 @@
                             playsinline
                             loop
                             muted
-                            src="/kr/story/buying-guide/2025/video/kimchi-refrigerator/img_P08_101_06.mp4"
+                            src="/kr/story/buying-guide/2025/video/kimchi-refrigerator/vid_P08_101_06.mp4"
                           ></video>
                         </div>
                       </div>
@@ -1729,7 +1729,7 @@
                             playsinline
                             loop
                             muted
-                            src="/kr/story/buying-guide/2025/video/kimchi-refrigerator/img_P08_101_07.mp4"
+                            src="/kr/story/buying-guide/2025/video/kimchi-refrigerator/vid_P08_101_07.mp4"
                           ></video>
                         </div>
                         <button class="btn-collapse-toggle">
@@ -1772,7 +1772,7 @@
                             playsinline
                             loop
                             muted
-                            src="/kr/story/buying-guide/2025/video/kimchi-refrigerator/img_P08_101_08.mp4"
+                            src="/kr/story/buying-guide/2025/video/kimchi-refrigerator/vid_P08_101_08.mp4"
                           ></video>
                         </div>
                       </div>

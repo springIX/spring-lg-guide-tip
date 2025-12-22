@@ -765,7 +765,7 @@
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_09_AIcare.svg"
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_freshstorage.svg"
                                   alt="신선보관"
                                 />
                               </div>
@@ -1013,7 +1013,7 @@
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_09_AIcare.svg"
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_freshstorage.svg"
                                   alt="신선보관"
                                 />
                               </div>

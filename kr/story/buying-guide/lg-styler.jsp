@@ -1132,7 +1132,7 @@
                 가장 합리적인 선택을 위해<br />
                 스펙을 명확하게 비교해서 보여드려요.
               </h4>
-              <div class="table-wrap vertical-scroll-box include-tab">
+              <div class="table-wrap vertical-scroll-box">
                 <table>
                   <colgroup>
                     <col class="col1" />
