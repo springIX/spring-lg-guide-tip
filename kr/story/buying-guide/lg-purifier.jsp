@@ -16,7 +16,7 @@
     <meta name="viewport"
       content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <meta name="keywords" content="LG전자, 공기청정기, 디오스, 오브제컬렉션, LG 디오스 공기청정기 오브제컬렉션, 구매가이드">
-    <meta name="description" content="작은 먼지 하나까지 잡아 깨끗하게.">
+    <meta name="description" content="작은 먼지 하나까지 깨끗하게.">
     <meta content="NOODP, NOYDIR" name="robots">
     <link rel="canonical" href="canonical">
     <title>공기청정기 구매 가이드 | 구매 가이드 | 가이드 | 스토리 | LG전자</title>
@@ -26,8 +26,8 @@
     <meta property="og:site_name" content="LG전자">
     <meta property="og:type" content="website">
     <meta property="og:title" content="공기청정기 구매 가이드 | 구매 가이드 | 가이드 | 스토리 | LG전자">
-    <meta property="og:description" content="작은 먼지 하나까지 잡아 깨끗하게">
-    <meta property="og:url" content="https://www.lge.co.kr/story/buying-guide/lg-purifier">
+    <meta property="og:description" content="작은 먼지 하나까지 깨끗하게">
+    <meta property="og:url" content="https://www.lge.co.kr/story/buying-guide/lg-air-purifier">
     <meta property="og:image" content="/kr/story/buying-guide/2025/img/purifier/og_P04.jpg">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="">
@@ -96,8 +96,8 @@
       <!-- Share -->
         <div itemtype=http://schema.org/WebPage itemscope class="sr-only">
           <meta itemprop="name" content="공기청정기 구매 가이드 | 구매 가이드 | 가이드 | 스토리 | LG전자" />
-          <meta itemprop="description" content="작은 먼지 하나까지 잡아 깨끗하게" />
-          <meta itemprop="url" content="https://www.lge.co.kr/story/buying-guide/lg-purifier" />
+          <meta itemprop="description" content="작은 먼지 하나까지 깨끗하게" />
+          <meta itemprop="url" content="https://www.lge.co.kr/story/buying-guide/lg-air-purifier" />
           <meta itemprop="image" content="/kr/story/buying-guide/2025/img/purifier/og_P04.jpg" />
           <meta itemprop="Keywords" content="LG전자, 공기청정기, 디오스, 오브제컬렉션, LG 디오스 공기청정기 오브제컬렉션, 구매가이드" />
         </div>
@@ -123,7 +123,7 @@
           <div class="content">
             <div class="inner-wrap">
               <h2>공기청정기 <br />구매 가이드</h2>
-              <p>작은 먼지 하나까지 잡아 깨끗하게</p>
+              <p>작은 먼지 하나까지 깨끗하게</p>
             </div>
           </div>
           <div class="slider">
