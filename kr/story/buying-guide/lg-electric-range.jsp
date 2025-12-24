@@ -819,6 +819,13 @@
                         </tbody>
                       </table>
                     </div>
+                    <p class="des">
+                      * 이 콘텐츠는 LG 디오스 인덕션의 특정 라인업을 기반으로 제품 스펙을 간추려 설명한 것으로, 고객의 이해를 돕기 위해 제작되었습니다.<br />
+                      * 세부 스펙은 각 모델에 따라 다를 수 있어 제품 상세 페이지에서 별도로 확인이 필요합니다.<br />
+                      * 많은 요리도 한 번에 하고 싶다면 와이드존 모델인지 확인하세요.<br />
+                        와이드존 O: BEF*, 와이드존 X: BEI*
+
+                    </p>
                   </div>
                 </div>
               </div>
@@ -1102,12 +1109,7 @@
                         <div class="content">
                           <h5>인덕션</h5>
                           <p>
-                            인덕션은 빠른 열전달과 정밀한 온도 제어 기능으로
-                            조리 시간은 단축하고, 에너지 효율은 높여줍니다. 열이
-                            조리 용기에만 집중되어 불필요한 열 손실이 적어,
-                            시간과 전력을 모두 아끼는 스마트한 조리를
-                            도와줍니다. 깔끔한 디자인으로 주방 관리까지
-                            편리합니다.
+                            인덕션은 자기장을 이용해 용기 자체를 직접 가열하는 방식으로, 상판이 뜨거워지지 않아 보다 안전하게 사용할 수 있습니다. 유도 가열 방식과 강력한 화력을 통해 열 효율을 높여 빠르고 안정적인 조리가 가능하며, 불필요한 열 손실 없이 에너지를 효과적으로 전달합니다.
                           </p>
                           <div class="btn-wrap">
                             <a
@@ -1177,10 +1179,40 @@
                             >
                           </div>
                           <div class="img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/electric-range/img_P09_101_04.jpg"
-                              alt="검은색 상판의 인덕션이 밝은 주방 조리대 위에 깔끔하게 설치되어 있습니다. 상판에는 원형·십자 형태의 조리 구역 표시와 함께 전원, 화력 조절, 타이머 등의 터치 아이콘이 얇고 정교하게 배치되어 있습니다."
-                            />
+                            <div class="point-slider1 autoplay-slider-wrap">
+                              <div class="slider">
+                                <div>
+                                  <img
+                                    src="/kr/story/buying-guide/2025/img/electric-range/img_P09_101_04.jpg"
+                                    alt="검은색 상판의 인덕션이 밝은 주방 조리대 위에 깔끔하게 설치되어 있습니다. 상판에는 원형·십자 형태의 조리 구역 표시와 함께 전원, 화력 조절, 타이머 등의 터치 아이콘이 얇고 정교하게 배치되어 있습니다."
+                                  />
+                                </div>
+                                <div>
+                                  <img
+                                    src="/kr/story/buying-guide/2025/img/electric-range/img_P09_101_04a.jpg"
+                                    alt="검은색 상판의 인덕션이 밝은 주방 조리대 위에 깔끔하게 설치되어 있습니다. 상판에는 원형·십자 형태의 조리 구역 표시와 함께 전원, 화력 조절, 타이머 등의 터치 아이콘이 얇고 정교하게 배치되어 있습니다."
+                                  />
+                                </div>
+                                <div>
+                                  <img
+                                    src="/kr/story/buying-guide/2025/img/electric-range/img_P09_101_04b.jpg"
+                                    alt="검은색 상판의 인덕션이 밝은 주방 조리대 위에 깔끔하게 설치되어 있습니다. 상판에는 원형·십자 형태의 조리 구역 표시와 함께 전원, 화력 조절, 타이머 등의 터치 아이콘이 얇고 정교하게 배치되어 있습니다."
+                                  />
+                                </div>
+                              </div>
+                              <div class="slider-controls">
+                                <button class="btn-play" data-state="playing">
+                                  Pause
+                                </button>
+                                <div class="counter">
+                                  <span class="current">1</span>
+                                  <span class="bar"></span>
+                                  <span class="total">3</span>
+                                </div>
+                                <button class="btn-nav btn-prev">Prev</button>
+                                <button class="btn-nav btn-next">Next</button>
+                              </div>
+                            </div>
                           </div>
                           <button class="btn-collapse-toggle">
                             <span>* 맞춤 설치타입</span>
@@ -1229,10 +1261,34 @@
                             >
                           </div>
                           <div class="img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/electric-range/img_P09_101_05.jpg"
-                              alt="은색 프레임으로 마감된 인덕션이 주방 조리대 위에 안정적으로 놓여 있으며, 상판은 검은색 글라스 소재로 원형·십자 형태의 조리 구역과 화력, 타이머, 잠금 등의 터치 아이콘이 선명하게 표시되어 있습니다."
-                            />
+                            <div class="point-slider2 autoplay-slider-wrap">
+                              <div class="slider">
+                                <div>
+                                  <img
+                                    src="/kr/story/buying-guide/2025/img/electric-range/img_P09_101_05.jpg"
+                                    alt="은색 프레임으로 마감된 인덕션이 주방 조리대 위에 안정적으로 놓여 있으며, 상판은 검은색 글라스 소재로 원형·십자 형태의 조리 구역과 화력, 타이머, 잠금 등의 터치 아이콘이 선명하게 표시되어 있습니다."
+                                  />
+                                </div>
+                                <div>
+                                  <img
+                                    src="/kr/story/buying-guide/2025/img/electric-range/img_P09_101_05a.jpg"
+                                    alt="은색 프레임으로 마감된 인덕션이 주방 조리대 위에 안정적으로 놓여 있으며, 상판은 검은색 글라스 소재로 원형·십자 형태의 조리 구역과 화력, 타이머, 잠금 등의 터치 아이콘이 선명하게 표시되어 있습니다."
+                                  />
+                                </div>
+                              </div>
+                              <div class="slider-controls">
+                                <button class="btn-play" data-state="playing">
+                                  Pause
+                                </button>
+                                <div class="counter">
+                                  <span class="current">1</span>
+                                  <span class="bar"></span>
+                                  <span class="total">3</span>
+                                </div>
+                                <button class="btn-nav btn-prev">Prev</button>
+                                <button class="btn-nav btn-next">Next</button>
+                              </div>
+                            </div>
                           </div>
                           <button class="btn-collapse-toggle">
                             <span>* 세부 정보</span>
@@ -1317,16 +1373,46 @@
                       </p>
                     </div>
                     <div class="img">
-                      <img
-                        src="/kr/story/buying-guide/2025/img/electric-range/img_P09_101_06.jpg"
-                        alt="세 개의 LG 디오스 오브제컬렉션 인덕션이 수직으로 쌓여 있는 모습입니다. 각 인덕션의 전면에는 조작 버튼과 디스플레이가 나란히 배치되어 있으며, 버튼에는 전원, 메뉴, 온도 조절 등의 기능이 표시되어 있습니다."
-                        class="pc-only"
-                      />
-                      <img
-                        src="/kr/story/buying-guide/2025/img/electric-range/img_M09_101_02.jpg"
-                        alt="세 개의 LG 디오스 오브제컬렉션 인덕션이 수직으로 쌓여 있는 모습입니다. 각 인덕션의 전면에는 조작 버튼과 디스플레이가 나란히 배치되어 있으며, 버튼에는 전원, 메뉴, 온도 조절 등의 기능이 표시되어 있습니다."
-                        class="mobile-only"
-                      />
+                      <div class="point-slider autoplay-slider-wrap">
+                        <div class="slider">
+                          <div>
+                            <img
+                              src="/kr/story/buying-guide/2025/img/electric-range/img_P09_101_06.jpg"
+                              alt="주방에 설치된 전기레인지가 보이며, 옆에는 두 개의 장식용 화병이 놓여 있습니다."
+                              class="pc-only"
+                            />
+                            <img
+                              src="/kr/story/buying-guide/2025/img/electric-range/img_M09_101_02.jpg"
+                              alt="주방에 설치된 전기레인지가 보이며, 옆에는 두 개의 장식용 화병이 놓여 있습니다."
+                              class="mobile-only"
+                            />
+                          </div>
+                          <div>
+                            <img
+                              src="/kr/story/buying-guide/2025/img/electric-range/img_P09_101_06a.jpg"
+                              alt="주방에 설치된 전기레인지가 보이며, 옆에는 두 개의 장식용 화병이 놓여 있습니다."
+                              class="pc-only"
+                            />
+                            <img
+                              src="/kr/story/buying-guide/2025/img/electric-range/img_M09_101_02a.jpg"
+                              alt="주방에 설치된 전기레인지가 보이며, 옆에는 두 개의 장식용 화병이 놓여 있습니다."
+                              class="mobile-only"
+                            />
+                          </div>
+                        </div>
+                        <div class="slider-controls">
+                          <button class="btn-play" data-state="playing">
+                            Pause
+                          </button>
+                          <div class="counter">
+                            <span class="current">1</span>
+                            <span class="bar"></span>
+                            <span class="total">2</span>
+                          </div>
+                          <button class="btn-nav btn-prev">Prev</button>
+                          <button class="btn-nav btn-next">Next</button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -1749,12 +1835,7 @@
                       <div class="content">
                         <h5>쿼드인버터</h5>
                         <p>
-                          전류를 통과시키는 통로를 2개에서 4개로 확장한 쿼드
-                          인버터는 최대 3,400W의 초고화력을 기반으로 기존 대비
-                          최대 2.3배 빠른 가열 속도를 제공합니다. 자성이 약한
-                          저효율 용기에서도 빠르고 고르게 조리할 수 있어, 요리
-                          시간을 단축하고 한층 더 효율적인 주방 환경을
-                          만들어줍니다.
+                          2개가 아닌 4개의 인버터를 적용해 용기 가열 효율을 높여 초고화력을 안정적으로 구현합니다. 에너지를 보다 정밀하게 제어해 저효율 용기에서도 기존 인덕션 대비 최대 2.3배 빠른 조리 속도를 제공합니다. 물 끓이기와 같은 기본 조리부터 고화력이 필요한 요리까지, 더욱 빠르고 효율적인 조리가 가능합니다.
                         </p>
                         <div class="btn-wrap">
                           <a
@@ -1839,10 +1920,7 @@
                       <div class="content">
                         <h5>듀얼인버터</h5>
                         <p>
-                          듀얼인버터는 두 개의 인버터가 전류를 정밀하게 제어해,
-                          최대 3,400W의 초고화력을 구현합니다. 가스레인지 대비
-                          최대 2.6배 빠른 조리 속도로 끓이기, 볶기 등 다양한
-                          조리 과정을 신속하게 진행할 수 있습니다.
+                          듀얼인버터는 두 개의 인버터가 전류를 정밀하게 제어해, 최대 3,400W의 초고화력을 구현합니다. 가스레인지 대비 최대 2.6배 빠른 조리 속도로 끓이기, 볶기 등 다양한 조리 과정을 신속하게 진행할 수 있습니다.
                         </p>
                         <div class="btn-wrap">
                           <a
@@ -2099,7 +2177,7 @@
                           <div class="content-wrap">
                             <div>
                               <h4>블랙 세라믹</h4>
-                              <p></p>
+                              <p>블랙 세라믹 글라스는 기장 기본적인 글라스로 실용적이고 깔끔한 디자인을 원하는 고객에게 추천드립니다. 기존 가스레인지 대비 깔끔한 디자인으로 어느 주방에나 잘 어울리는 디자인입니다.</p>
                             </div>
                             <div>
                               <div class="media-wrap">
@@ -2122,7 +2200,7 @@
                           <div class="content-wrap">
                             <div>
                               <h4>클리어트랜스</h4>
-                              <p></p>
+                              <p>클리어트랜스 제품의 경우 주방 인테리어의 품격을 높여주는 고급스러운 색상으로 고객님의 주방에 자연스럽게 스며들어 주방을 완성시켜 줍니다.</p>
                             </div>
                             <div>
                               <div class="media-wrap">
