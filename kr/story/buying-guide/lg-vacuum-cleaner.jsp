@@ -1840,10 +1840,10 @@
                 <div class="subtab-wrap">
                   <div class="subtab-btn">
                     <button
-                      class="active"
                       name="buying-guide-tab"
                       data-target="#buying-point-1-1"
                       data-group="buying-point-1"
+                      class="active"
                     >
                       물걸레 청소
                     </button>
@@ -2376,18 +2376,25 @@
                     data-target="#buying-point-2-1"
                     data-group="buying-point-2"
                   >
-                    물걸레 청소
+                    흡입력&무게
                   </button>
                   <button
                     name="buying-guide-tab"
                     data-target="#buying-point-2-2"
                     data-group="buying-point-2"
                   >
-                    올인원타워
+                    물걸레 청소
                   </button>
                   <button
                     name="buying-guide-tab"
                     data-target="#buying-point-2-3"
+                    data-group="buying-point-2"
+                  >
+                    올인원타워
+                  </button>
+                  <button
+                    name="buying-guide-tab"
+                    data-target="#buying-point-2-4"
                     data-group="buying-point-2"
                   >
                     청소 편의기능
@@ -2398,6 +2405,116 @@
                     class="point-wrap"
                     id="buying-point-2-1"
                     name="buying-point-2"
+                  >
+                    <h4 class="hide">320W / 약 2.54kg</h4>
+                    <div class="content" style="    min-height: 420px !important;">
+                      <h5>320W / 약 2.54kg</h5>
+                      <p>
+                        A9 AI는 스마트 인버터 모터로 최대 320W의 강력한 흡입력을 발휘하여 먼지를 흡입하고, 약 2.54kg의 동급 최경량 무게를 통해 상대적으로 청소하는 동안 손목의 피로도를 줄여 주고 AI 기능으로 청소의 편리함은 높였습니다.
+                      </p>
+                      <div class="btn-wrap">
+                        <a
+                          class="btn-product"
+                          href="https://www.lge.co.kr/category/vacuum-cleaners?filterProduct=AT0000000109:KY0000003961:03"
+                          target="_blank"
+                          >제품 보러 가기</a
+                        >
+                      </div>
+                      <div class="img">
+                        <img
+                          src="/kr/story/buying-guide/2025/img/vacuum-cleane/img_P05_101_07.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <button class="btn-collapse-toggle">
+                        <span>* 최대 320W 흡입력 & 동급 최경량 약 2.54kg</span>
+                      </button>
+                      <div class="collapse-content">
+                        <p>
+                          *25년 3월 한국산업기술시험원(KTL) 시험 결과, 국제 표준 IEC 62885-4:2020/AMD1:2023 5.11절을 기준으로 A9S(모델명 : S9G*******) 본체에 연장관을 결합하고, 흡입구 결합 없이 먼지통이 빈 상태에서, 완전히 충전한 새 배터리를 사용하여 터보 모드 기준 최대 흡입력을 산정하였습니다.<br />
+                          *흡입력(Suction Power, 단위 : W)은 공기 데이터 시험 장비(Equipment for air data test)로 관측된 진공도(Vacuum, 단위 : kPa)와 유량(Air Flow, 단위 : ℓ/s)의 곱으로 계산됩니다.<br />
+                          * 사용 중 제품의 보호 모드(제품이 이물질로 막히면 ‘우웅~우웅~’ 소리가 나고, 이물 막힘이 지속되면 제품 보호를 위해 전원이 꺼지는 모드)가 작동할 경우에는 흡입력이 저하됩니다.<br />
+                          * 흡입력은 연장관과 흡입구의 결합 여부, 측정 환경에 따라 차이가 있을 수 있습니다.<br />
+                          * 25년 2월 기준, 미국 시장에 출시된 무선 스틱 청소기 제품 중 최대 흡입력 표기치가 320W 이상인 제품의 무게(본체, 배터리, 연장관, 기본 흡입구를 결합한 상태) 표기치와 비교함. (독립 시장 조사 기관인 NPD의 2022.1-2025.2 사이 미국 판매 데이터 기준)<br />
+                          * 제품 본체 무게 약 1.55 kg은 청소기 본체, 배터리를 결합한 무게이며, 제품 총 무게 약 2.54 kg은 청소기 본체, 배터리, 연장관, 와이드 LED+(LED 플러스) 마루 흡입구를 결합한 무게입니다.<br />
+                          * 자사 측정 결과, 실제 제품 무게는 제품 제조 과정 및 측정 환경에 따라 차이가 있을 수 있습니다.
+                        </p>
+                        <button class="btn-collapse-close">접기</button>
+                      </div>
+                    </div>
+                    <div class="content" style="border-top:none !important; padding-top: 0 !important; min-height: 340px !important;">
+                      <h5>220W / 약 2.47kg</h5>
+                      <p>
+                        A7 Core는 스마트 인버터 모터의 강력한 흡입력을 위해 2단계로 적용된 싸이클론으로 강력한 회오리를 형성하여 흡입된 공기와 먼지를 분리하고 분리된 먼지가 필터를 막아 흡입력의 성능을 저하시키지 않도록 먼지통에 먼지를 모아줍니다. 그리고 2.47kg의 가벼운 무게로 청소할 수 있습니다.
+                      </p>
+                      <div class="btn-wrap">
+                        <a
+                          class="btn-product"
+                          href="https://www.lge.co.kr/category/vacuum-cleaners?filterProduct=AT0000000109:KY0000003602:03"
+                          target="_blank"
+                          >제품 보러 가기</a
+                        >
+                      </div>
+                      <div class="img" style="opacity: 0 !important;">
+                        <img
+                          src="/kr/story/buying-guide/2025/img/vacuum-cleane/img_P05_101_08.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <button class="btn-collapse-toggle">
+                        <span>* 최대 220W 흡입력</span>
+                      </button>
+                      <div class="collapse-content">
+                        <p>
+                          * 25년 3월 한국산업기술시험원(KTL) 시험 결과, 국제 표준 IEC 62885-4:2020/AMD1:2023 5.11절을 기준으로 A7 Core(모델명 : S6C*******) 본체에 연장관을 결합하고, 흡입구 결합 없이 먼지통이 빈 상태에서, 완전히 충전한 새 배터리를 사용하여 터보 모드 기준 최대 흡입력을 산정하였습니다.<br />
+                          * 흡입력(Suction Power, 단위 : W)은 공기 데이터 시험 장비(Equipment for air data test)로 관측된 진공도(Vacuum, 단위 : kPa)와 유량(Air Flow, 단위 : ℓ/s)의 곱으로 계산됩니다.<br />
+                          * 사용 중 제품의 보호 모드(제품이 이물질로 막히면 ‘우웅~우웅~’ 소리가 나고, 이물 막힘이 지속되면 제품 보호를 위해 전원이 꺼지는 모드)가 작동할 경우에는 흡입력이 저하됩니다.<br />
+                          * 흡입력은 연장관과 흡입구의 결합 여부, 측정 환경에 따라 차이가 있을 수 있습니다.
+                        </p>
+                        <button class="btn-collapse-close">접기</button>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <h5>150W / 약 1.97kg</h5>
+                      <p>
+                        A5를 통해 150W의 흡입력을 약 1.97kg의 가벼운 무게로 경험해보세요. 바닥은 물론 평소 무게로 인해 청소하기 어려웠던 높은 틈새도 가볍게 들어올려 청소할 수 있습니다.
+                      </p>
+                      <div class="btn-wrap">
+                        <a
+                          class="btn-product"
+                          href="https://www.lge.co.kr/category/vacuum-cleaners?filterProduct=AT0000000109:KY0000003511:03"
+                          target="_blank"
+                          >제품 보러 가기</a
+                        >
+                      </div>
+                      <div class="img">
+                        <img
+                          src="/kr/story/buying-guide/2025/img/vacuum-cleane/img_P05_101_09.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <button class="btn-collapse-toggle">
+                        <span>* 최대 흡입력 / 흡입력 / 가벼운 무게</span>
+                      </button>
+                      <div class="collapse-content">
+                        <p>
+                          * 23년 11월 한국산업기술시험원(KTL) 시험 결과, 국제표준 IEC 62885-4:2020+AMD1:2023 CSV 5.11절을 기준으로 본체에 연장관을 결합하고, 흡입구 결합 없이 먼지통이 빈 상태에서, 완전히 충전한 새 배터리를 사용하여 터보 모드 기준 최대 흡입력을 산정하였습니다.<br />
+                          * 흡입력(Suction Power, 단위 : W)은 공기 데이터 시험 장비(Equipment for air data test)로 관측된 진공도(Vacuum, 단위 : kPa)와 유량(Air Flow, 단위 : ℓ/s)의 곱으로 계산됩니다.<br />
+                          * 사용 중 제품의 보호모드(제품이 이물질로 막히면 ‘우웅~ 우웅~’ 소리가 나고, 이물 막힘이 지속되면 제품 보호를 위해 전원이 꺼지는 모드)가 작동할 경우에는 흡입력이 저하됩니다.<br />
+                          * 흡입력은 측정 환경에 따라 차이가 있을 수 있습니다.<br />
+                          * 제품 본체 무게 약 1.1 kg은 청소기 본체, 배터리를 결합한 무게이며, 제품 총 무게 약 1.97 kg은 청소기 본체, 배터리, 연장관, 슬림 마루 흡입구를 결합한 무게입니다.<br />
+                          * 자사 측정 결과, 실제 제품 무게는 제품 제조 과정 및 측정 환경에 따라 차이가 있을 수 있습니다.<br />
+                          * 기존 자사 23년형 A9(모델명 : S97*******)의 흡입력, 무게와 비교하였습니다.
+                        </p>
+                        <button class="btn-collapse-close">접기</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="point-wrap"
+                    id="buying-point-2-2"
+                    name="buying-point-2"
+                    style="display: none"
                   >
                     <h4 class="hide">물걸레 청소</h4>
                     <div class="content">
@@ -2531,7 +2648,7 @@
                   </div>
                   <div
                     class="point-wrap"
-                    id="buying-point-2-2"
+                    id="buying-point-2-3"
                     name="buying-point-2"
                     style="display: none"
                   >
@@ -2619,7 +2736,7 @@
                   </div>
                   <div
                     class="point-wrap"
-                    id="buying-point-2-3"
+                    id="buying-point-2-4"
                     name="buying-point-2"
                     style="display: none"
                   >
@@ -2811,6 +2928,32 @@
                 <h5>이런 포인트도 살펴보면 좋아요!</h5>
                 <div class="tip-content">
                   <div class="content">
+                    <p class="tag">#손목 통증 #빠른 청소 #강력한 흡입력</p>
+                    <h6 class="tip-title">
+                      강력한 흡입력으로 손목 부담 없이 더 가볍게
+                    </h6>
+                    <p class="tip-text">
+                      손목 통증이나 허리 불편이 있는 분들, 퇴근 후 짧은 시간에 빠르게 청소를 끝내고 싶은 분들께 추천해요. 강력한 흡입력과 동급 최경량 바디로 손목과 허리에 가는 부담을 줄여주어, 높은 틈새와 모서리까지 한 손으로 가볍게 들어 올려 청소할 수 있어요. 매일 쌓이는 생활 먼지부터 구석구석 모서리까지, 가볍고 빠르게 관리해보세요.
+                    </p>
+                  </div>
+                  <div class="img">
+                    <img
+                      src="/kr/story/buying-guide/2025/img/vacuum-cleane/img_P05_101_18.jpg"
+                      alt=""
+                      class="pc-only"
+                    />
+                    <img
+                      src="/kr/story/buying-guide/2025/img/vacuum-cleane/img_M05_101_18.jpg"
+                      alt=""
+                      class="mobile-only"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="point-tip" id="point-tip5" style="display: none">
+                <h5>이런 포인트도 살펴보면 좋아요!</h5>
+                <div class="tip-content">
+                  <div class="content">
                     <p class="tag">
                       #아이있는집 #반려가정 #생활오염 #깨끗한바닥
                     </p>
@@ -2841,7 +2984,7 @@
                   </div>
                 </div>
               </div>
-              <div class="point-tip" id="point-tip5" style="display: none">
+              <div class="point-tip" id="point-tip6" style="display: none">
                 <h5>이런 포인트도 살펴보면 좋아요!</h5>
                 <div class="tip-content">
                   <div class="content">
@@ -2872,7 +3015,7 @@
                   </div>
                 </div>
               </div>
-              <div class="point-tip" id="point-tip6" style="display: none">
+              <div class="point-tip" id="point-tip7" style="display: none">
                 <h5>이런 포인트도 살펴보면 좋아요!</h5>
                 <div class="tip-content">
                   <div class="content">
@@ -3146,8 +3289,7 @@
                       <div class="content-wrap">
                         <div>
                           <h4>
-                            구독 (분해세척 클리닝, 에어세척, 소모품 배송 및
-                            교체)
+                            구독 (분해세척 클리닝, 에어세척, 소모품 배송 및 교체)
                           </h4>
                           <p>
                             정기 구독을 통해 청소기를 항상 깨끗하고 최적의

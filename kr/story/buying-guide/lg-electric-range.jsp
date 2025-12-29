@@ -2121,29 +2121,6 @@
                         <div>
                           <div class="content-wrap">
                             <div>
-                              <h4>화이트 일체형</h4>
-                              <p></p>
-                            </div>
-                            <div>
-                              <div class="media-wrap">
-                                <!-- <img
-                                  src="/kr/story/buying-guide/2025/img/electric-range/img_P09_101_21.jpg"
-                                  alt=""
-                                /> -->
-                              </div>
-                            </div>
-                          </div>
-                          <div class="detail-wrap">
-                            <button class="btn-collapse-toggle hidden">
-                              <span>* 세부 정보</span>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div>
-                          <div class="content-wrap">
-                            <div>
                               <h4>오브제 화이트</h4>
                               <p>
                                 화이트 인테리어에 어울리는 심플한 인덕션을
