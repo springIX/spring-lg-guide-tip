@@ -225,7 +225,7 @@
             </h3>
             <div
               class="tab-wrap"
-              style="--btn-width: 206px; --btn-m-width: 208px"
+              style="--btn-width: 225px; --btn-m-width: 208px"
             >
               <!-- <button class="nav nav-left disabled"><</button>
               <button class="nav nav-right">></button> -->
@@ -2235,18 +2235,21 @@
                   <h5>이런 포인트도 살펴보면 좋아요!</h5>
                   <div class="tip-content">
                     <div class="content">
-                      <p class="tag">#습기예민 #의류보존 #운동루틴</p>
+                      <p class="tag">#빠른건조 #교복건조 #장마철건조</p>
                       <h6 class="tip-title">
-                        비 오는 날에도 옷을 방금 다린 듯 산뜻하게
+                        오늘 세탁해도 내일 바로 입기 좋게
                       </h6>
                       <p class="tip-text">
-                        매일 세탁이 필요한 운동복, 교복, 외출복도 빠르게 건조할
-                        수 있어 옷을 자주 세탁하기 어려운 분들에게 유용합니다.
-                        옷과 공간의 습도까지 관리해 비가 오거나 장마철처럼 습한
-                        날에도 방금 스타일링한 듯 깔끔한 상태를 오래도록
-                        유지합니다. 옷의 종류와 상태에 맞춘 맞춤형 스타일링으로
-                        매일 단정하고 쾌적한 옷차림을 완성할 수 있습니다.
+                        내일 입어야 할 옷인데 하루 안에 마를까 걱정된다면, 건조 코스로 빠르게 입을 수 있는 상태로 준비할 수 있어요. 습한 날씨나 환기가 어려운 실내에서 운동복·교복·외출복처럼 자주 세탁하지만 말릴 시간이 부족한 옷도 짧은 시간 안에 건조할 수 있어 실용적입니다.
                       </p>
+                      <div class="btn-wrap">
+                        <a
+                          class="btn-product"
+                          href="https://www.lge.co.kr/story/user-guide/lg-styler-4season-course"
+                          target="_blank"
+                          >다양한 스타일러 코스를 만나보세요</a
+                        >
+                      </div>
                     </div>
                     <div class="img">
                       <img

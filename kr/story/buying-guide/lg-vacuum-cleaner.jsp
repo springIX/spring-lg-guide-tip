@@ -2407,7 +2407,7 @@
                     name="buying-point-2"
                   >
                     <h4 class="hide">320W / 약 2.54kg</h4>
-                    <div class="content" style="min-height: 420px !important;">
+                    <div class="content">
                       <h5>320W / 약 2.54kg</h5>
                       <p>
                         A9 AI는 스마트 인버터 모터로 최대 320W의 강력한 흡입력을 발휘하여 먼지를 흡입하고, 약 2.54kg의 동급 최경량 무게를 통해 상대적으로 청소하는 동안 손목의 피로도를 줄여 주고 AI 기능으로 청소의 편리함은 높였습니다.
@@ -2442,7 +2442,7 @@
                         <button class="btn-collapse-close">접기</button>
                       </div>
                     </div>
-                    <div class="content" style="border-top:none !important; padding-top: 0 !important; min-height: 340px !important;">
+                    <div class="content">
                       <h5>220W / 약 2.47kg</h5>
                       <p>
                         A7 Core는 스마트 인버터 모터의 강력한 흡입력을 위해 2단계로 적용된 싸이클론으로 강력한 회오리를 형성하여 흡입된 공기와 먼지를 분리하고 분리된 먼지가 필터를 막아 흡입력의 성능을 저하시키지 않도록 먼지통에 먼지를 모아줍니다. 그리고 2.47kg의 가벼운 무게로 청소할 수 있습니다.
@@ -2455,11 +2455,15 @@
                           >제품 보러 가기</a
                         >
                       </div>
-                      <div class="img" style="opacity: 0 !important;">
-                        <img
-                          src="/kr/story/buying-guide/2025/img/vacuum-cleane/img_P05_101_08.jpg"
-                          alt=""
-                        />
+                      <div class="img">
+                        <button class="btn-pause">일시멈춤</button>
+                        <video
+                          autoplay
+                          playsinline
+                          loop
+                          muted
+                          src="/kr/story/buying-guide/2025/video/vacuum-cleane/vid_P05_101_17.mp4"
+                        ></video>
                       </div>
                       <button class="btn-collapse-toggle">
                         <span>* 최대 220W 흡입력</span>

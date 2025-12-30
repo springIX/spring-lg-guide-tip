@@ -1004,7 +1004,11 @@
 .buying-guide .compare-wrap .btn-wrap {
   margin-top: 40px;
 }
-.buying-guide .compare-wrap .btn-wrap .btn-product {
+.buying-guide .point-tip .btn-wrap {
+  margin-top: 20px;
+}
+.buying-guide .compare-wrap .btn-wrap .btn-product,
+.buying-guide .point-tip .btn-wrap .btn-product {
   display: flex;
   justify-self: center;
   width: fit-content;
@@ -1018,11 +1022,16 @@
   line-height: 140%;
   letter-spacing: -0.16px;
 }
+.buying-guide .point-tip .btn-wrap .btn-product {
+  padding: 9px 20px;
+  margin-left: 0;
+}
 @media only screen and (max-width: 1023px) {
   .buying-guide .compare-wrap {
     margin-top: 120px;
   }
-  .buying-guide .compare-wrap .btn-wrap .btn-product {
+  .buying-guide .compare-wrap .btn-wrap .btn-product,
+  .buying-guide .point-tip .btn-wrap .btn-product {
     padding: 7px 19px;
     border-radius: 6px;
     font-size: 14px;
