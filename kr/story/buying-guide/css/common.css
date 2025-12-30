@@ -1974,6 +1974,72 @@
 .buying-guide .point-tip .tip-content .img .point-slider .slick-track {
   height: 100%;
 }
+
+.buying-guide .point-tip .point-table-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 140%;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.buying-guide .point-tip .point-table-wrap {
+  overflow: auto;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.buying-guide .point-tip .point-table-wrap table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.buying-guide .point-tip .point-table-wrap thead {
+  z-index: 3;
+}
+.buying-guide .point-tip .point-table-wrap thead tr:first-child th:first-child {
+  border-top-left-radius: 12px;
+}
+.buying-guide .point-tip .point-table-wrap thead tr:first-child th:last-child {
+  border-top-right-radius: 12px;
+}
+.buying-guide .point-tip .point-table-wrap tbody tr:last-child th:first-child {
+  border-bottom-left-radius: 12px;
+  border-left: 1px solid #ddd;
+}
+.buying-guide .point-tip .point-table-wrap tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 12px;
+}
+.buying-guide .point-tip .point-table-wrap th {
+  box-sizing: border-box;
+  padding: 12px 10px;
+  background: #e6e6e6;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+  color: inherit;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: -0.16px;
+}
+.buying-guide .point-tip .point-table-wrap td {
+  height: 60px;
+  padding: 12px 15px;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  font-size: 16px;
+  color: inherit;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0;
+}
+.buying-guide .point-tip .point-table-wrap td img {
+  margin: 0 auto;
+  width: -webkit-fill-available;
+  max-width: 200px;
+}
 @media only screen and (max-width: 1023px) {
   .buying-guide .point-tip {
     margin-top: 20px;
