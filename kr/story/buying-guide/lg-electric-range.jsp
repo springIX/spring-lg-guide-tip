@@ -1323,59 +1323,6 @@
                   </div>
                 </div>
                 <div class="point-tip" id="point-tip1">
-                  <h4 class="point-table-title">전기레인지 화구 유형, 어떤 종류가 있나요?</h4>
-                  <div class="point-table-wrap">
-                    <table>
-                      <colgroup>
-                        <col width="20%" />
-                        <col />
-                        <col />
-                      </colgroup>
-                      <thead>
-                        <tr>
-                          <th rowspan="2">화구유형</th>
-                          <th>인덕션</th>
-                          <th>하이라이트</th>
-                        </tr>
-                        <tr>
-                          <td>
-                            <img
-                              src="/kr/story/buying-guide/2025/img/electric-range/img_P09_001_18.png"
-                              alt="전기레인지 LG 인덕션 이미지"
-                            />
-                          </td>
-                          <td>
-                            <img
-                              src="/kr/story/buying-guide/2025/img/electric-range/img_P09_001_19.png"
-                              alt="전기레인지 LG 하이라이트 이미지"
-                            />
-                          </td>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th>원리</th>
-                          <td>자기장을 이용하여 용기를 가열해서 <br class="pc-only" />전기레인지 부분이 뜨겁지 않아요.</td>
-                          <td>전기 열선으로 가열하기 때문에 조리가 끝난 직후에도<br class="pc-only" /> 전기레인지 표면이 뜨거운 상태로 유지돼요.</td>
-                        </tr>
-                        <tr>
-                          <th>화력</th>
-                          <td>강력한 화력을 통해 <br />효율적인 요리가 가능해요.</td>
-                          <td>인덕션에 비해 <br />다소 낮은 화력을 가졌어요.</td>
-                        </tr>
-                        <tr>
-                          <th>조리 속도</th>
-                          <td>유도 가열 방식으로 빠르게 조리할 수 있어서<br class="pc-only" /> 요리 시간을 절약할 수 있어요.</td>
-                          <td>조리 도구로 열전도가 필요하기 때문에<br class="pc-only" /> 인덕션에 비해 조리가 느려요.</td>
-                        </tr>
-                        <tr>
-                          <th>사용 용기</th>
-                          <td>뚝배기, 유리 냄비 등 일부 용기는<br class="pc-only" /> 인덕션 컨버터를 사용해야 해요.</td>
-                          <td>대부분의 용기를<br /> 사용할 수 있어요.</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
                   <h5>이런 포인트도 살펴보면 좋아요!</h5>
                   <div class="tip-content">
                     <div class="content">
