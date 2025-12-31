@@ -737,9 +737,7 @@
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >LG 전자의 ThinQ 앱 사용으로 소중한
-                                    개인정보가 국외 서버로 전송되지 않도록
-                                    보호</span
+                                    >LG 전자의 ThinQ 앱으로 개인정보 안전하게 보호</span
                                   >
                                 </span>
                               </p>
@@ -756,9 +754,7 @@
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >LG 전자의 ThinQ 앱 사용으로 소중한
-                                    개인정보가 국외 서버로 전송되지 않도록
-                                    보호</span
+                                    >LG 전자의 ThinQ 앱으로 개인정보 안전하게 보호</span
                                   >
                                 </span>
                               </p>
@@ -775,9 +771,7 @@
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >LG 전자의 ThinQ 앱 사용으로 소중한
-                                    개인정보가 국외 서버로 전송되지 않도록
-                                    보호</span
+                                    >LG 전자의 ThinQ 앱으로 개인정보 안전하게 보호</span
                                   >
                                 </span>
                               </p>
@@ -802,14 +796,6 @@
                             </td>
                             <td>
                               <a
-                                href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000119&filterProduct=AT0000000109:KY0000000628:03"
-                                target="_blank"
-                                class="btn-product"
-                                >제품 보러 가기</a
-                              >
-                            </td>
-                            <td>
-                              <a
                                 href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000119&filterProduct=AT0000000109:KY0000000629:03"
                                 target="_blank"
                                 class="btn-product"
@@ -819,6 +805,14 @@
                             <td>
                               <a
                                 href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000119&filterProduct=AT0000000109:KY0000000616:03"
+                                target="_blank"
+                                class="btn-product"
+                                >제품 보러 가기</a
+                              >
+                            </td>
+                            <td>
+                              <a
+                                href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000119&filterProduct=AT0000000109:KY0000000628:03"
                                 target="_blank"
                                 class="btn-product"
                                 >제품 보러 가기</a
@@ -2422,7 +2416,7 @@
                       </div>
                       <div class="img">
                         <img
-                          src="/kr/story/buying-guide/2025/img/vacuum-cleane/img_P05_101_07.jpg"
+                          src="/kr/story/buying-guide/2025/img/vacuum-cleane/img_P05_101_19.jpg"
                           alt=""
                         />
                       </div>
@@ -2493,7 +2487,7 @@
                       </div>
                       <div class="img">
                         <img
-                          src="/kr/story/buying-guide/2025/img/vacuum-cleane/img_P05_101_09.jpg"
+                          src="/kr/story/buying-guide/2025/img/vacuum-cleane/img_P05_101_20.jpg"
                           alt=""
                         />
                       </div>
@@ -2671,7 +2665,7 @@
                       <div class="btn-wrap">
                         <a
                           class="btn-product"
-                          href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000115&filterProduct=AT0000000138:KY0000001241:01"
+                          href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000119&filterProduct=AT0000000138:KY0000001241:01"
                           target="_blank"
                           >제품 보러 가기</a
                         >

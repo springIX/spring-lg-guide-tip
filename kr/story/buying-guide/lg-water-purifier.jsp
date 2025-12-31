@@ -792,7 +792,7 @@
                             />
                           </div>
                           <p>
-                            온정
+                            정수 전용
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
@@ -830,7 +830,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >빌트인 디자인과 클린세척수로 더욱 깨끗하게</span
+                                >빌트인 디자인으로 깔끔하게 클린세척수로 더욱 깨끗하게</span
                               >
                             </span>
                           </p>
@@ -839,15 +839,15 @@
                           <div class="spec-img">
                             <img
                               src="/kr/story/buying-guide/2025/img/water-purifier/ic48_12_single.svg"
-                              alt="싱글"
+                              alt="빌트인"
                             />
                           </div>
                           <p>
-                            싱글
+                            빌트인
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >깔끔한 빌트인으로 주방 공간을 깔끔하게</span
+                                >빌트인 디자인으로 주방 공간을 깔끔하고 넓게</span
                               >
                             </span>
                           </p>
@@ -1034,7 +1034,7 @@
                             />
                           </div>
                           <p>
-                            맞춤출수
+                            맞춤용량출수
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
@@ -1469,11 +1469,11 @@
                             />
                           </div>
                           <p>
-                            직수관 & 출수구 <br />고온살균
+                            직수관 고온살균
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >주1회 자동으로 스테인리스 직수관 고온살균, 외부에 노출된 출수구는 원할 때마다 수시로 고온살균</span
+                                >주1회 자동으로 스테인리스 직수관 고온살균</span
                               >
                             </span>
                           </p>

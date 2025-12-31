@@ -1558,6 +1558,9 @@
   line-height: 140%;
   letter-spacing: 0;
 }
+.buying-guide .product-table .table-wrap td .red {
+  color: #EA1917;
+}
 .buying-guide .product-table .table-wrap .y {
   font-size: 0;
   background-color: #ebf6f1;
