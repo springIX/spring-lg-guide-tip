@@ -281,12 +281,12 @@
                         <div class="inner2">
                           <!-- <div>로닉 AI</div> -->
                           <div>
-                            흡입+물걸레<span></span
+                            B95AWBTH<span></span
                             ><br class="mobile-only" />로보킹
                           </div>
-                          <div>흡입+물걸레<span></span>R5</div>
-                          <div>흡입 전용<span></span>R9</div>
-                          <div>물걸레 전용<span></span>M9</div>
+                          <div>RO585HGH<span></span>R5</div>
+                          <div>R9300WB<span></span>R9</div>
+                          <div>MO972WA<span></span>M9</div>
                         </div>
                       </div>
                     </div>
@@ -308,12 +308,12 @@
                           <tr class="procuct-no">
                             <!-- <td>로닉 AI</td> -->
                             <td>
-                              흡입+물걸레<span></span
+                              B95AWBTH<span></span
                               ><br class="mobile-only" />로보킹
                             </td>
-                            <td>흡입+물걸레<span></span>R5</td>
-                            <td>흡입 전용<span></span>R9</td>
-                            <td>물걸레 전용<span></span>M9</td>
+                            <td>RO585HGH<span></span>R5</td>
+                            <td>R9300WB<span></span>R9</td>
+                            <td>MO972WA<span></span>M9</td>
                           </tr>
                           <tr>
                             <!-- <td>
@@ -1471,9 +1471,9 @@
                     <div class="sticky-product-no include-tab">
                       <div class="inner">
                         <div class="inner2">
-                          <div>흡입 전용<span></span>싸이킹 K8</div>
-                          <div>흡입 전용<span></span>싸이킹 파워</div>
-                          <div>흡입 전용<span></span>싸이킹</div>
+                          <div>K83WGY<span></span>싸이킹 K8</div>
+                          <div>C40WGY<span></span>싸이킹 파워</div>
+                          <div>C33FNT<span></span>싸이킹</div>
                         </div>
                       </div>
                     </div>
@@ -1489,9 +1489,9 @@
                         </thead>
                         <tbody>
                           <tr class="procuct-no">
-                            <td>흡입 전용<span></span>싸이킹 K8</td>
-                            <td>흡입 전용<span></span>싸이킹 파워</td>
-                            <td>흡입 전용<span></span>싸이킹</td>
+                            <td>K83WGY<span></span>싸이킹 K8</td>
+                            <td>C40WGY<span></span>싸이킹 파워</td>
+                            <td>C33FNT<span></span>싸이킹</td>
                           </tr>
                           <tr class="procuct-img-wrap">
                             <td>

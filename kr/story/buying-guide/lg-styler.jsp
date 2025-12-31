@@ -1465,7 +1465,7 @@
                         <h5>3벌용</h5>
                         <p>
                           3벌용 스타일러는 셔츠 기준 최대 3벌까지 케어할 수 있어
-                          실용성이 뛰어납니다. 내부 공간을 효율적으로 활용해 부담 없이 깔끔한
+                          실용성이 뛰어납니다. 공간을 효율적으로 활용해 부담 없이 깔끔한
                           일상을 유지하며, 소형 용량으로도 스타일 관리의
                           편리함을 제공합니다.
                         </p>
@@ -2581,45 +2581,6 @@
                           <button class="btn-collapse-toggle hidden">
                             <span>* 세부 정보</span>
                           </button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div>
-                        <div class="content-wrap">
-                          <div>
-                            <h4>퀵 컨트롤</h4>
-                            <p>
-                              직관적인 터치형 LED 컨트롤로 원하는 기능과 코스를
-                              빠르게 선택하고, 세부 설정까지 손쉽게 조작할 수
-                              있습니다. 진행 상태도 한눈에 확인할 수 있어 더욱
-                              편리합니다.
-                            </p>
-                          </div>
-                          <div>
-                            <div class="media-wrap">
-                              <button class="btn-pause">일시멈춤</button>
-                              <video
-                                autoplay
-                                playsinline
-                                loop
-                                muted
-                                src="/kr/story/buying-guide/2025/video/styler/vid_P13_101_08.mp4"
-                              ></video>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="detail-wrap">
-                          <button class="btn-collapse-toggle">
-                            <span>* 퀵 컨트롤</span>
-                          </button>
-                          <div class="collapse-content">
-                            <p>
-                              * 코스 자동 정렬 기능은 설정 목록에서 켜짐 또는
-                              꺼짐을 선택할 수 있습니다.
-                            </p>
-                            <button class="btn-collapse-close">접기</button>
-                          </div>
                         </div>
                       </div>
                     </div>
