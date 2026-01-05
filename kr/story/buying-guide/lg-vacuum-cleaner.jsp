@@ -2236,6 +2236,7 @@
                             >제품 보러 가기</a
                           >
                         </div>
+
                         <div class="img">
                           <img
                             src="/kr/story/buying-guide/2025/img/vacuum-cleane/img_P05_101_03.jpg"
@@ -2437,6 +2438,50 @@
                       </div>
                     </div>
                     <div class="content">
+                      <h5>280W / 2.49kg</h5>
+                      <p>
+                        A9S는 2중 터보 싸이클론이 흡입된 공기와 먼지를 약 99.7%까지 분리해 제품 내부에 쌓이는 먼지를 최소화하여 효율적인 공기 흐름을 유지하고, 오래도록 강력한 흡입력이 발휘될 수 있도록 합니다. 그리고 2.49kg의 동급 최경량 무게는 청소 중 손목의 피로도를 덜 수 있도록 도와줍니다.
+                      </p>
+                      <div class="btn-wrap">
+                        <a
+                          class="btn-product"
+                          href="https://www.lge.co.kr/category/vacuum-cleaners?filterProduct=AT0000000109:KY0000000574:03"
+                          target="_blank"
+                          >제품 보러 가기</a
+                        >
+                      </div>
+                      <div class="img">
+                        <img
+                          src="/kr/story/buying-guide/2025/img/vacuum-cleane/img_P05_101_21.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <button class="btn-collapse-toggle">
+                        <span>* 최대 280W 흡입력 / 2중 터보 싸이클론 / 동급 최경량</span>
+                      </button>
+                      <div class="collapse-content">
+                        <p>
+                          <b>[최대 280W 흡입력]</b><br />
+                          * 24년 3월 한국산업기술시험원(KTL) 시험 결과, 국제 표준 IEC 62885-4:2020/AMD1:2023 5.11절을 기준으로 A9S(모델명 : S9B*******) 본체에 연장관을 결합하고, 흡입구 결합 없이 먼지통이 빈 상태에서, 완전히 충전한 새 배터리를 사용하여 터보 모드 기준 최대 흡입력을 산정하였습니다.<br />
+                          * 흡입력(Suction Power, 단위 : W)은 공기 데이터 시험 장비(Equipment for air data test)로 관측된 진공도(Vacuum, 단위 : kPa)와 유량(Air Flow, 단위 : ℓ/s)의 곱으로 계산됩니다.<br />
+                          * 사용 중 제품의 보호 모드(제품이 이물질로 막히면 ‘우웅~우웅~’ 소리가 나고, 이물 막힘이 지속되면 제품 보호를 위해 전원이 꺼지는 모드)가 작동할 경우에는 흡입력이 저하됩니다.<br />
+                          * 흡입력은 연장관과 흡입구의 결합 여부, 측정 환경에 따라 차이가 있을 수 있습니다.
+                        </p>
+                        <p>
+                          <b>[2중 터보 싸이클론]</b><br />
+                          * 23년 6월 자사 시험 결과를 3자 시험 기관인 인터텍(Intertek)이 검증한 결과, 자사가 제시한 기준으로 IEC TS 62885-1 5.1절에서 명시하는 시험 먼지를 A9S(모델명 : S9B*******) 제품의 먼지통이 가득찰 때까지 약 50g 흡입 후, 필터부로 넘어간 먼지량을 측정하여, 흡입한 먼지량 대비 필터부로 넘어가지 않은 먼지량의 비율이 약 99.7% 임을 확인하였습니다.<br />
+                          * 먼지 분리 성능은 사용 환경에 따라 차이가 있을 수 있습니다.
+                        </p>
+                        <p>
+                          <b>[동급 최경량]</b><br />
+                          * 24년 2월 기준, 글로벌 시장에 출시된 프리미엄 무선 청소기 제품 중 최대 흡입력 표기치가 280W인 제품의 무게(본체, 배터리, 연장관, 기본 흡입구를 결합한 상태) 표기치와 비교함. (독립 시장 조사 기관인 NPD의 2022.1-2023.11 사이 미국 판매 데이터 및 LG전자 내부의 2023.12-2024.2 사이 글로벌 시장 판매 제품 리서치 데이터 기준)<br />
+                          * 제품 본체 무게 약 1.53kg은 청소기 본체, 배터리를 결합한 무게이며, 제품 총 무게 약 2.49kg은 청소기 본체, 배터리, 연장관, 와이드 LED 마루 흡입구를 결합한 무게입니다.<br />
+                          * 자사 측정 결과, 실제 제품 무게는 제품 제조 과정 및 측정 환경에 따라 차이가 있을 수 있습니다.
+                        </p>
+                        <button class="btn-collapse-close">접기</button>
+                      </div>
+                    </div>
+                    <div class="content">
                       <h5>220W / 약 2.47kg</h5>
                       <p>
                         A7 Core는 스마트 인버터 모터의 강력한 흡입력을 위해 2단계로 적용된 싸이클론으로 강력한 회오리를 형성하여 흡입된 공기와 먼지를 분리하고 분리된 먼지가 필터를 막아 흡입력의 성능을 저하시키지 않도록 먼지통에 먼지를 모아줍니다. 그리고 2.47kg의 가벼운 무게로 청소할 수 있습니다.
@@ -2450,14 +2495,10 @@
                         >
                       </div>
                       <div class="img">
-                        <button class="btn-pause">일시멈춤</button>
-                        <video
-                          autoplay
-                          playsinline
-                          loop
-                          muted
-                          src="/kr/story/buying-guide/2025/video/vacuum-cleane/vid_P05_101_17.mp4"
-                        ></video>
+                        <img
+                          src="/kr/story/buying-guide/2025/img/vacuum-cleane/img_P05_101_22.jpg"
+                          alt=""
+                        />
                       </div>
                       <button class="btn-collapse-toggle">
                         <span>* 최대 220W 흡입력</span>

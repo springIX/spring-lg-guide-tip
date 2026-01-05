@@ -182,4 +182,28 @@ $(document).ready(function () {
     },
   });
 
+  /* buying-guide-tab 버튼 클릭 이벤트 */
+  $('button[name="buying-guide-tab"]').click(function() {
+    var target = $(this).data('target');
+    var group = $(this).data('group');
+    
+    // 같은 그룹의 모든 콘텐츠 숨기기
+    $('[name="' + group + '"]').hide();
+    
+    // 타겟 콘텐츠 표시
+    $(target).show();
+    
+    // 버튼 활성화 상태 변경
+    $('button[name="buying-guide-tab"][data-group="' + group + '"]').removeClass('active');
+    $(this).addClass('active');
+    
+    // point-tip 요소들 모두 숨기기
+    $('.point-tip').hide();
+    
+    // 특정 버튼 클릭 시 추가 요소 표시
+    if (target === '#buying-point-2-4') {
+      $('#point-tip7').show();
+    }
+  });
+
 });
