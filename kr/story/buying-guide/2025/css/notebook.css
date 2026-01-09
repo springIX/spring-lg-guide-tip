@@ -1,0 +1,35 @@
+.buying-guide .product-table .table-wrap table {
+  min-width: 640px;
+}
+.buying-guide .product-table .table-wrap table .col1 {
+  width: 180px;
+}
+.buying-guide .product-table .table-wrap thead tr:first-child th:first-child {
+  width: 180px;
+}
+.buying-guide .product-table .table-wrap thead th img {
+  height: 40px;
+  margin: 0 auto;
+}
+.buying-guide .product-table .table-wrap thead .th2 {
+  vertical-align: middle;
+}
+.buying-guide .product-table .table-wrap td img {
+  width: 120px;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 1023px) {
+  .buying-guide .product-table .table-wrap table {
+    max-width: calc(100vw - 40px);
+  }
+  .buying-guide .product-table .table-wrap table .col1,
+  .buying-guide .product-table .table-wrap table thead tr:first-child th:first-child {
+    width: 70px;
+  }
+  .buying-guide .product-table .table-wrap table thead th img {
+    height: 29px;
+  }
+  .buying-guide .product-table .table-wrap td img {
+    width: 100px;
+  }
+}

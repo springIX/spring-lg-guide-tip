@@ -708,24 +708,19 @@
                                   src="/kr/story/buying-guide/2025/img/vacuum-cleane/ic48_05_LGSDL.svg"
                                   alt="보안 LG SDL"
                                 />
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/vacuum-cleane/ic48_05_thinQ.svg"
-                                  alt="보안 ThinQ 앱"
-                                />
                               </div>
                               <p>
-                                보안(LG SDL, ThinQ 앱)
+                                보안(LG SDL)
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
                                     >LG 표준 보안 개발 프로세스를 적용하여 보안
-                                    리스크까지 철저하게 관리하고 LG ThinQ를 통한
-                                    업데이트로 늘 최신의 소프트웨어를 제공</span
+                                    리스크까지 철저하게 관리</span
                                   >
                                 </span>
                               </p>
                             </td>
-                            <td>
+                            <td class="disabled">
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/vacuum-cleane/ic48_05_thinQ.svg"
@@ -742,7 +737,7 @@
                                 </span>
                               </p>
                             </td>
-                            <td>
+                            <td class="disabled">
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/vacuum-cleane/ic48_05_thinQ.svg"
@@ -759,7 +754,7 @@
                                 </span>
                               </p>
                             </td>
-                            <td>
+                            <td class="disabled">
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/vacuum-cleane/ic48_05_thinQ.svg"
@@ -2438,7 +2433,7 @@
                       </div>
                     </div>
                     <div class="content">
-                      <h5>280W / 2.49kg</h5>
+                      <h5>280W / 약 2.49kg</h5>
                       <p>
                         A9S는 2중 터보 싸이클론이 흡입된 공기와 먼지를 약 99.7%까지 분리해 제품 내부에 쌓이는 먼지를 최소화하여 효율적인 공기 흐름을 유지하고, 오래도록 강력한 흡입력이 발휘될 수 있도록 합니다. 그리고 2.49kg의 동급 최경량 무게는 청소 중 손목의 피로도를 덜 수 있도록 도와줍니다.
                       </p>
@@ -2853,8 +2848,7 @@
                         흡입력 추천 기능을 확인해보세요. 지난달의 청소 패턴을
                         분석해, 청소를 시작하는 순간 내 생활에 꼭 맞는 흡입력
                         모드를 자동으로 제안합니다. 매번 설정할 필요 없이 생활
-                        패턴에 맞춰 스스로 알아서 조절해주어, 더 똑똑하고 편안한
-                        청소 루틴을 완성할 수 있습니다.
+                        패턴에 맞춰 스스로 알아서 조절해 주어 편리하게 청소를 시작할 수 있어요.
                       </p>
                       <div class="btn-wrap">
                         <a
@@ -3060,15 +3054,10 @@
                   <div class="content">
                     <p class="tag">#매일청소 #AI루틴 #스마트청소 #효율중시</p>
                     <h6 class="tip-title">
-                      매일 청소하는 집이라면, AI 루틴으로 간편하게
+                      똑똑하게 즐기는 스마트 청소 라이프
                     </h6>
                     <p class="tip-text">
-                      매일 비슷한 청소 루틴을 반복 설정하는 게 번거롭다면, AI
-                      청소 기능으로 루틴을 더 간편하게 관리해보세요. 내 사용
-                      패턴을 기반으로 시작 시점부터 알맞은 흡입력을 추천하고,
-                      상황에 따라 자동으로 청소 세기를 조절합니다. 매일 꾸준히
-                      청소하지만, 루틴 설정에 시간을 들이기 보단 효율적인 일상을
-                      즐기고 싶은 분들께 어울리는 스마트한 기능이에요.
+                      배터리 방전으로 청소가 중단될 걱정은 줄이고, 청소 패턴과 배터리 잔량 등을 분석해 흡입력을 알아서 조절하는 편의 기능으로 스마트한 청소 라이프를 시작해보세요. 그리고 본체의 배터리 자가 진단을 통해 배터리 이상 현상과 배터리의 충/방전 사이클을 기준으로 배터리 수명까지 4단계로 알려주고, LG ThinQ 앱의 스마트 진단을 통해 제품 이상 여부까지 진단해주니까 관리도 간편해요.
                     </p>
                   </div>
                   <div class="img">

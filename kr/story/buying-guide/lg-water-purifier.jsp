@@ -491,21 +491,21 @@
                         <div class="dot"><span></span></div>
                         <div class="bubble">
                           <a
-                            href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000109:KY0000000849:03"
+                            href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000109:KY0000000737:03"
                             target="_blank"
                             ><span>LG 퓨리케어 오브제컬렉션 정수기</span>
                           </a>
-                          <p>빌트인 정수기</p>
+                          <p>듀얼 정수기</p>
                         </div>
                       </div>
                       <img
                         src="/kr/story/buying-guide/2025/img/water-purifier/img_P12_001_11.jpg"
-                        alt="밝고 미니멀한 주방 공간 위 싱크대 옆에 설치된 화이트 톤의 LG 퓨리케어 오브제컬렉션 빌트인 정수기가 보입니다. 군더더기 없는 디자인이 스테인리스 싱크볼과 조화를 이루며, 고급스럽고 정돈된 주방 분위기를 만들어 줍니다."
+                        alt="밝고 미니멀한 주방 공간 위 싱크대 옆에 설치된 화이트 톤의 LG 퓨리케어 오브제컬렉션 듀얼 정수기가 보입니다. 군더더기 없는 디자인이 스테인리스 싱크볼과 조화를 이루며, 고급스럽고 정돈된 주방 분위기를 만들어 줍니다."
                         class="pc-only"
                       />
                       <img
                         src="/kr/story/buying-guide/2025/img/water-purifier/img_M12_001_08.jpg"
-                        alt="밝고 미니멀한 주방 공간 위 싱크대 옆에 설치된 화이트 톤의 LG 퓨리케어 오브제컬렉션 빌트인 정수기가 보입니다. 군더더기 없는 디자인이 스테인리스 싱크볼과 조화를 이루며, 고급스럽고 정돈된 주방 분위기를 만들어 줍니다."
+                        alt="밝고 미니멀한 주방 공간 위 싱크대 옆에 설치된 화이트 톤의 LG 퓨리케어 오브제컬렉션 듀얼 정수기가 보입니다. 군더더기 없는 디자인이 스테인리스 싱크볼과 조화를 이루며, 고급스럽고 정돈된 주방 분위기를 만들어 줍니다."
                         class="mobile-only"
                       />
                     </div>
@@ -640,7 +640,7 @@
                 <div class="sticky-product-no">
                   <div class="inner">
                     <div class="inner2">
-                      <div>WD721RH</div>
+                      <div>WD722RE</div>
                       <div>WD523VH</div>
                       <div>WD120MCB</div>
                       <div>WD525AHB</div>
@@ -676,7 +676,7 @@
                     </thead>
                     <tbody>
                       <tr class="procuct-no">
-                        <td>WD721RH</td>
+                        <td>WD722RE</td>
                         <td>WD523VH</td>
                         <td>WD120MCB</td>
                         <td>WD525AHB</td>
@@ -689,7 +689,7 @@
                           <div class="procuct-img">
                             <img
                               src="/kr/story/buying-guide/2025/img/water-purifier/img_P12_001_13.png"
-                              alt="정수기 LG 퓨리케어 오브제컬렉션 얼음정수기 (WD721RH.AKOR) 썸네일이미지 2"
+                              alt="정수기 LG 퓨리케어 오브제컬렉션 얼음정수기 (WD722RE.AKOR) 썸네일이미지 2"
                               class="front"
                             />
                           </div>
@@ -1603,7 +1603,7 @@
                       <tr class="product-btn">
                         <td>
                           <a
-                            href="https://www.lge.co.kr/category/care-solutions/water-purifiers?filterProduct=AT0000000109:KY0000002951:03"
+                            href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000121:KY0000000691:01,AT0000000144:KY0000000730:01,AT0000000109:KY0000002951:03"
                             target="_blank"
                             class="btn-product"
                             >제품 보러 가기</a
@@ -1611,7 +1611,7 @@
                         </td>
                         <td>
                           <a
-                            href="https://www.lge.co.kr/category/care-solutions/water-purifiers?filterProduct=AT0000000109:KY0000000774:03"
+                            href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000121:KY0000000691:01,AT0000000144:KY0000000730:01,AT0000000109:KY0000000774:03"
                             target="_blank"
                             class="btn-product"
                             >제품 보러 가기</a
@@ -1619,7 +1619,7 @@
                         </td>
                         <td>
                           <a
-                            href="https://www.lge.co.kr/category/care-solutions/water-purifiers?filterProduct=AT0000000109:KY0000002011:03"
+                            href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000144:KY0000000730:01,AT0000000121:KY0000001091:01"
                             target="_blank"
                             class="btn-product"
                             >제품 보러 가기</a
@@ -1627,7 +1627,7 @@
                         </td>
                         <td>
                           <a
-                            href="https://www.lge.co.kr/category/care-solutions/water-purifiers?filterProduct=AT0000000109:KY0000000855:03"
+                            href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000144:KY0000000730:01,AT0000000121:KY0000000691:01,AT0000000109:KY0000000855:03"
                             target="_blank"
                             class="btn-product"
                             >제품 보러 가기</a
@@ -1635,7 +1635,7 @@
                         </td>
                         <td>
                           <a
-                            href="https://www.lge.co.kr/category/care-solutions/water-purifiers?filterProduct=AT0000000109:KY0000000737:03"
+                            href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000109:KY0000000737:03"
                             target="_blank"
                             class="btn-product"
                             >제품 보러 가기</a
@@ -1643,7 +1643,7 @@
                         </td>
                         <td>
                           <a
-                            href="https://www.lge.co.kr/category/care-solutions/water-purifiers?filterProduct=AT0000000109:KY0000000849:03"
+                            href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000109:KY0000000849:03"
                             target="_blank"
                             class="btn-product"
                             >제품 보러 가기</a
@@ -1651,7 +1651,7 @@
                         </td>
                         <td>
                           <a
-                            href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000144:KY0000000891:01"
+                            href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000109:KY0000000891:03"
                             target="_blank"
                             class="btn-product"
                             >제품 보러 가기</a
@@ -2001,7 +2001,7 @@
                         <div class="btn-wrap">
                           <a
                             class="btn-product"
-                            href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000144:KY0000000849:01,AT0000000109:KY0000000849:03"
+                            href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000144:KY0000000849:01"
                             target="_blank"
                             >제품 보러 가기</a
                           >
@@ -2105,21 +2105,21 @@
                       data-target="#buying-point-3-2"
                       data-group="buying-point-3"
                     >
-                      LG ThinQ 앱
+                      맞춤 출수
                     </button>
                     <button
                       name="buying-guide-tab"
                       data-target="#buying-point-3-3"
                       data-group="buying-point-3"
                     >
-                      맞춤 출수
+                      미세 출수
                     </button>
                     <button
                       name="buying-guide-tab"
                       data-target="#buying-point-3-4"
                       data-group="buying-point-3"
                     >
-                      미세 출수
+                      LG ThinQ 앱
                     </button>
                   </div>
                   <div class="subtab-content">
@@ -2183,48 +2183,6 @@
                       name="buying-point-3"
                       style="display: none"
                     >
-                      <h4 class="hide">LG ThinQ 앱</h4>
-                      <div class="content">
-                        <h5>LG ThinQ 앱</h5>
-                        <p>
-                          물 사용량, 자동 살균 설정, 살균 및 필터 교체 이력등을 한눈에 모니터링할 수 있어 편리하게 관리 할 수 있습니다.
-                        </p>
-                        <div class="img">
-                          <button class="btn-pause">일시멈춤</button>
-                          <video
-                            autoplay
-                            playsinline
-                            loop
-                            muted
-                            src="/kr/story/buying-guide/2025/video/water-purifier/vid_P12_101_04.mp4"
-                          ></video>
-                        </div>
-                        <button class="btn-collapse-toggle">
-                          <span>* LG ThinQ 앱</span>
-                        </button>
-                        <div class="collapse-content">
-                          <p>
-                            * ThinQ 앱 내에 가전제품 등록을 위해서는 가정 내
-                            무선인터넷 환경이 필요합니다.<br />
-                            * 초기 ThinQ 앱에 제품 연결 시 동일한 Wi-Fi 환경
-                            안에 있어야 하며 항상 등록된 Wi-Fi 환경 안에서
-                            동작되어야 합니다.<br />
-                            * 외부에서 원격제어 사용 시, 데이터 사용 환경이
-                            필요합니다. 상세 내용은 사용자 매뉴얼을
-                            참조해주세요.<br />
-                            * ThinQ 앱의 실제 기능은 보유 제품, 모델별로 차이가
-                            있을 수 있습니다.
-                          </p>
-                          <button class="btn-collapse-close">접기</button>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="point-wrap"
-                      id="buying-point-3-3"
-                      name="buying-point-3"
-                      style="display: none"
-                    >
                       <h4 class="hide">맞춤 출수</h4>
                       <div class="content">
                         <h5>맞춤 출수</h5>
@@ -2269,7 +2227,7 @@
                     </div>
                     <div
                       class="point-wrap"
-                      id="buying-point-3-4"
+                      id="buying-point-3-3"
                       name="buying-point-3"
                       style="display: none"
                     >
@@ -2304,6 +2262,48 @@
                           <p>
                             * 물 용량 조절은 120 ~ 1,000ml 범위에서 10ml 단위로
                             가능합니다.
+                          </p>
+                          <button class="btn-collapse-close">접기</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="point-wrap"
+                      id="buying-point-3-4"
+                      name="buying-point-3"
+                      style="display: none"
+                    >
+                      <h4 class="hide">LG ThinQ 앱</h4>
+                      <div class="content">
+                        <h5>LG ThinQ 앱</h5>
+                        <p>
+                          물 사용량, 자동 살균 설정, 살균 및 필터 교체 이력등을 한눈에 모니터링할 수 있어 편리하게 관리 할 수 있습니다.
+                        </p>
+                        <div class="img">
+                          <button class="btn-pause">일시멈춤</button>
+                          <video
+                            autoplay
+                            playsinline
+                            loop
+                            muted
+                            src="/kr/story/buying-guide/2025/video/water-purifier/vid_P12_101_04.mp4"
+                          ></video>
+                        </div>
+                        <button class="btn-collapse-toggle">
+                          <span>* LG ThinQ 앱</span>
+                        </button>
+                        <div class="collapse-content">
+                          <p>
+                            * ThinQ 앱 내에 가전제품 등록을 위해서는 가정 내
+                            무선인터넷 환경이 필요합니다.<br />
+                            * 초기 ThinQ 앱에 제품 연결 시 동일한 Wi-Fi 환경
+                            안에 있어야 하며 항상 등록된 Wi-Fi 환경 안에서
+                            동작되어야 합니다.<br />
+                            * 외부에서 원격제어 사용 시, 데이터 사용 환경이
+                            필요합니다. 상세 내용은 사용자 매뉴얼을
+                            참조해주세요.<br />
+                            * ThinQ 앱의 실제 기능은 보유 제품, 모델별로 차이가
+                            있을 수 있습니다.
                           </p>
                           <button class="btn-collapse-close">접기</button>
                         </div>

@@ -357,12 +357,12 @@
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/electric-range/ic48_09_ceramic.svg"
-                                  alt="세라믹 글라스"
+                                  src="/kr/story/buying-guide/2025/img/electric-range/ic48_09_objetwhite.svg"
+                                  alt="오브제 화이트"
                                 />
                               </div>
                               <p>
-                                세라믹 글라스
+                                오브제 화이트
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
@@ -389,8 +389,8 @@
                               </p>
                             </td>
                           </tr>
-                          <tr class="procuct-spec">
-                            <td>
+                          <!-- <tr class="procuct-spec">
+                            <td class="disabled">
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/electric-range/ic48_09_quadinverter.svg"
@@ -407,7 +407,7 @@
                                 </span>
                               </p>
                             </td>
-                            <td>
+                            <td class="disabled">
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/electric-range/ic48_09_quadinverter.svg"
@@ -424,15 +424,15 @@
                                 </span>
                               </p>
                             </td>
-                            <td>
+                            <td class="disabled">
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/electric-range/ic48_09_magnetic.svg"
-                                  alt="자기유도 방식"
+                                  src="/kr/story/buying-guide/2025/img/electric-range/ic48_09_dualinverter.svg"
+                                  alt="듀얼 인버터"
                                 />
                               </div>
                               <p>
-                                자기유도 방식
+                                듀얼 인버터
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
@@ -441,7 +441,7 @@
                                 </span>
                               </p>
                             </td>
-                          </tr>
+                          </tr> -->
                           <tr class="procuct-spec">
                             <td>
                               <div class="spec-img">
