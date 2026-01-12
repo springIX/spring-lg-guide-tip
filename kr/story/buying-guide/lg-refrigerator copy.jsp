@@ -118,7 +118,7 @@
       <!-- //Share -->
       </div>
       <!-- 내용 -->
-      <!-- 0.3 -->
+      <!-- 0.1 -->
       <div class="buying-guide" id="content">
         <div class="top-banner autoplay-slider-wrap">
           <div class="content">
@@ -240,7 +240,7 @@
             </h3>
             <div
               id="vertical-scroll-tab"
-              class="tab-wrap"
+              class="tab-wrap sticky"
               style="--btn-width: 251px; --btn-m-width: 182px"
             >
               <button class="nav nav-left disabled"><</button>
@@ -370,9 +370,7 @@
                   >
                     <div class="dot"><span></span></div>
                     <div class="bubble">
-                      <a
-                        href="https://www.lge.co.kr/category/refrigerators?lineupId=CD00000022"
-                        target="_blank"
+                      <a href="" target="_blank"
                         ><span>LG SIGNATURE 얼음정수 냉장고</span></a
                       >
                       <p>840L</p>
@@ -402,6 +400,176 @@
                   * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
                   스펙은 다를 수 있습니다.
                 </p>
+                <div class="compare-wrap">
+                  <h3 class="section-title">
+                    <b>대표 모델</b>을 한눈에 비교하고,
+                    <br class="pc-only" />내게 꼭 맞는 제품을 쉽게 찾아보세요.
+                  </h3>
+                  <div
+                    class="procuct-summary vertical-scroll-box"
+                    id="procuct-summary"
+                    style="--max-table-width: 620px"
+                  >
+                    <div class="sticky-product-no include-tab">
+                      <div class="inner">
+                        <div class="inner2">
+                          <div>J842ND79</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="summary-table">
+                      <table class="single">
+                        <thead>
+                          <tr class="procuct-name">
+                            <th>
+                              <h4>LG SIGNATURE</h4>
+                              <p>본질에 집중한 디자인으로 주방을 품격 있게</p>
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="procuct-no">
+                            <td>J842ND79</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_001_24.png"
+                                  alt="LG SIGNATURE 얼음정수 냉장고 (J842ND79.AKOR) 메인이미지"
+                                  class="front"
+                                />
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_001_34.png"
+                                  alt="LG SIGNATURE 얼음정수 냉장고 (J842ND79.AKOR) 내부 이미지"
+                                  class="side"
+                                />
+                                <button class="btn-angle" name="btn-angle">
+                                  다른 각도 보기
+                                </button>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_knock.svg"
+                                  alt="노크온 매직스페이스"
+                                />
+                              </div>
+                              <p>
+                                노크온 매직스페이스
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >냉장고 내부 확인을
+                                    <br class="mobile-only" />노크로
+                                    편리하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_autodoor.svg"
+                                  alt="오토 스마트 도어"
+                                />
+                              </div>
+                              <p>
+                                오토 스마트 도어
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >가까이 서기만 해도
+                                    <br class="mobile-only" />문이 알아서 열려
+                                    편하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_autodrawer.svg"
+                                  alt="오토 스마트 드로어"
+                                />
+                              </div>
+                              <p>
+                                오토 스마트 드로어
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >냉동실 도어를 열면
+                                    <br class="mobile-only" />서랍이 알아서 나와
+                                    손쉽게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_multicooling.svg"
+                                  alt="멀티쿨링 시스템"
+                                />
+                              </div>
+                              <p>
+                                멀티쿨링 시스템
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >냉장실 상단의 냉기로
+                                    <br class="mobile-only" />내부 온도를
+                                    고르게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_pantry.svg"
+                                  alt="컨버터블 팬트리"
+                                />
+                              </div>
+                              <p>
+                                컨버터블 팬트리
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >보관 식재료에 따라
+                                    <br class="mobile-only" />온도 설정을
+                                    다르게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="product-btn">
+                            <td>
+                              <a
+                                href="https://www.lge.co.kr/category/refrigerators?lineupId=CD00000022"
+                                target="_blank"
+                                class="btn-product"
+                                >제품 보러 가기</a
+                              >
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div
                 id="product-type-2"
@@ -421,9 +589,7 @@
                   >
                     <div class="dot"><span></span></div>
                     <div class="bubble">
-                      <a
-                        href="https://www.lge.co.kr/category/refrigerators?subCateId=CT50000070&filterProduct=AT0000000511:KY0000002753:01"
-                        target="_blank"
+                      <a href="" target="_blank"
                         ><span
                           >LG 디오스 AI 오브제컬렉션 STEM 얼음정수 냉장고
                           (노크온 매직스페이스)</span
@@ -457,6 +623,197 @@
                   * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
                   스펙은 다를 수 있습니다.
                 </p>
+                <div class="compare-wrap">
+                  <h3 class="section-title">
+                    <b>대표 모델</b>을 한눈에 비교하고,
+                    <br class="pc-only" />내게 꼭 맞는 제품을 쉽게 찾아보세요.
+                  </h3>
+                  <div
+                    class="procuct-summary vertical-scroll-box"
+                    id="procuct-summary"
+                    style="--max-table-width: 620px"
+                  >
+                    <div class="sticky-product-no include-tab">
+                      <div class="inner">
+                        <div class="inner2">
+                          <div>W826GBB492</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="summary-table">
+                      <table class="single">
+                        <thead>
+                          <tr class="procuct-name">
+                            <th>
+                              <h4>STEM (얼음정수)</h4>
+                              <p>깨끗한 물과 얼음으로 음료 한 잔도 특별하게</p>
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="procuct-no">
+                            <td>W826GBB492</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_001_25.png"
+                                  alt="LG 디오스 AI 오브제컬렉션 STEM 얼음정수 냉장고 (노크온 매직스페이스) (W826GBB48-B.AKOR) 메인이미지"
+                                  class="front"
+                                />
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_001_35.png"
+                                  alt="LG 디오스 AI 오브제컬렉션 STEM 얼음정수 냉장고 (노크온 매직스페이스) (W826GBB48-B.AKOR) 내부 이미지"
+                                  class="side"
+                                />
+                                <button class="btn-angle" name="btn-angle">
+                                  다른 각도 보기
+                                </button>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_directwater.svg"
+                                  alt="직수 SYSTEM"
+                                />
+                              </div>
+                              <p>
+                                직수 SYSTEM
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >물과 4종류의 얼음을
+                                    <br class="mobile-only" />언제나
+                                    편리하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_hygienecare.svg"
+                                  alt="위생 케어 SYSTEM"
+                                />
+                              </div>
+                              <p>
+                                위생 케어 SYSTEM
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >필터와 살균, 방문 케어로
+                                    <br class="mobile-only" />
+                                    안 보이는 곳도 안전하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_AIfresh.svg"
+                                  alt="AI 신선케어 SYSTEM"
+                                />
+                              </div>
+                              <p>
+                                AI 신선케어 SYSTEM
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >자주 사용하는 시간대에
+                                    <br class="mobile-only" />
+                                    냉기를 미리 채워 신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_deodor.svg"
+                                  alt="탈취 SYSTEM"
+                                />
+                              </div>
+                              <p>
+                                탈취 SYSTEM
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >UV 청정탈취필터+와
+                                    <br class="mobile-only" />
+                                    퓨어 프레시 필터로 신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_09_AIcare.svg"
+                                  alt="신선보관"
+                                />
+                              </div>
+                              <p>
+                                신선보관
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >자동 정온과 신선맞춤실로
+                                    <br class="mobile-only" />
+                                    식재료를 언제나 신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_08_fixandmax.svg"
+                                  alt="Fit & Max"
+                                />
+                              </div>
+                              <p>
+                                Fit & Max
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >가구장과 간격을 최소화해
+                                    <br class="mobile-only" />
+                                    다양한 조합으로 자유롭게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="product-btn">
+                            <td>
+                              <a
+                                href="https://www.lge.co.kr/category/refrigerators?subCateId=CT50000070&filterProduct=AT0000000511:KY0000002753:01"
+                                target="_blank"
+                                class="btn-product"
+                                >제품 보러 가기</a
+                              >
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div
                 id="product-type-3"
@@ -476,9 +833,7 @@
                   >
                     <div class="dot"><span></span></div>
                     <div class="bubble">
-                      <a
-                        href="https://www.lge.co.kr/category/refrigerators?subCateId=CT50000070&filterProduct=AT0000000511:KY0000002781:01"
-                        target="_blank"
+                      <a href="" target="_blank"
                         ><span
                           >LG 디오스 AI 오브제컬렉션 STEM 베이직 냉장고
                           (더블매직스페이스)</span
@@ -514,6 +869,197 @@
                   * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
                   스펙은 다를 수 있습니다.
                 </p>
+                <div class="compare-wrap">
+                  <h3 class="section-title">
+                    <b>대표 모델</b>을 한눈에 비교하고,
+                    <br class="pc-only" />내게 꼭 맞는 제품을 쉽게 찾아보세요.
+                  </h3>
+                  <div
+                    class="procuct-summary vertical-scroll-box"
+                    id="procuct-summary"
+                    style="--max-table-width: 620px"
+                  >
+                    <div class="sticky-product-no include-tab">
+                      <div class="inner">
+                        <div class="inner2">
+                          <div>M876GBB282</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="summary-table">
+                      <table class="single">
+                        <thead>
+                          <tr class="procuct-name">
+                            <th>
+                              <h4>STEM (베이직)</h4>
+                              <p>깨끗한 자동 얼음으로 기다림 없이 편리하게</p>
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="procuct-no">
+                            <td>M876GBB282</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_001_26.png"
+                                  alt="LG 디오스 AI 오브제컬렉션 STEM 베이직 냉장고 (더블매직스페이스) (M876GBB28-B.AKOR) 메인이미지"
+                                  class="front"
+                                />
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_001_36.png"
+                                  alt="LG 디오스 AI 오브제컬렉션 STEM 베이직 냉장고 (더블매직스페이스) (M876GBB28-B.AKOR) 내부 이미지"
+                                  class="side"
+                                />
+                                <button class="btn-angle" name="btn-angle">
+                                  다른 각도 보기
+                                </button>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_directwater.svg"
+                                  alt="직수 SYSTEM"
+                                />
+                              </div>
+                              <p>
+                                직수 SYSTEM
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >물과 4종류의 얼음을<br
+                                      class="mobile-only"
+                                    />언제나 편리하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_hygienecare.svg"
+                                  alt="위생 케어 SYSTEM"
+                                />
+                              </div>
+                              <p>
+                                위생 케어 SYSTEM
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >필터와 살균, 방문 케어로
+                                    <br class="mobile-only" />
+                                    안 보이는 곳도 안전하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_AIfresh.svg"
+                                  alt="AI 신선케어 SYSTEM"
+                                />
+                              </div>
+                              <p>
+                                AI 신선케어 SYSTEM
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >자주 사용하는 시간대에
+                                    <br class="mobile-only" />냉기를 미리 채워
+                                    신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_deodor.svg"
+                                  alt="탈취 SYSTEM"
+                                />
+                              </div>
+                              <p>
+                                탈취 SYSTEM
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >UV 청정탈취필터+와
+                                    <br class="mobile-only" />퓨어 프레시 필터로
+                                    신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_09_AIcare.svg"
+                                  alt="신선보관"
+                                />
+                              </div>
+                              <p>
+                                신선보관
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >자동 정온과 신선맞춤실로
+                                    <br class="mobile-only" />식재료를 언제나
+                                    신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_08_fixandmax.svg"
+                                  alt="Fit & Max"
+                                />
+                              </div>
+                              <p>
+                                Fit & Max
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >가구장과 간격을 최소화해
+                                    <br class="mobile-only" />다양한 조합으로
+                                    자유롭게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="product-btn">
+                            <td>
+                              <a
+                                href="https://www.lge.co.kr/category/refrigerators?subCateId=CT50000070&filterProduct=AT0000000511:KY0000002781:01"
+                                target="_blank"
+                                class="btn-product"
+                                >제품 보러 가기</a
+                              >
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div
                 id="product-type-4"
@@ -533,9 +1079,7 @@
                   >
                     <div class="dot"><span></span></div>
                     <div class="bubble">
-                      <a
-                        href="https://www.lge.co.kr/category/refrigerators?subCateId=CT50000069"
-                        target="_blank"
+                      <a href="" target="_blank"
                         ><span
                           >LG 디오스 AI 오브제컬렉션 냉장고 (매직스페이스)</span
                         ></a
@@ -568,6 +1112,198 @@
                   * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
                   스펙은 다를 수 있습니다.
                 </p>
+                <div class="compare-wrap">
+                  <h3 class="section-title">
+                    <b>대표 모델</b>을 한눈에 비교하고,
+                    <br class="pc-only" />내게 꼭 맞는 제품을 쉽게 찾아보세요.
+                  </h3>
+                  <div
+                    class="procuct-summary vertical-scroll-box"
+                    id="procuct-summary"
+                    style="--max-table-width: 620px"
+                  >
+                    <div class="sticky-product-no include-tab">
+                      <div class="inner">
+                        <div class="inner2">
+                          <div>M876GBB131</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="summary-table">
+                      <table class="single">
+                        <thead>
+                          <tr class="procuct-name">
+                            <th>
+                              <h4>상냉장/하냉동</h4>
+                              <p>
+                                실용적인 수납 구조로 식재료 보관을 효율적으로
+                              </p>
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="procuct-no">
+                            <td>M876GBB131</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_001_27.png"
+                                  alt="LG 디오스 AI 오브제컬렉션 냉장고 (매직스페이스) (M876GBB131.AKOR) 메인이미지"
+                                  class="front"
+                                />
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_001_37.png"
+                                  alt="LG 디오스 AI 오브제컬렉션 냉장고 (매직스페이스) (M876GBB131.AKOR) 내부 이미지"
+                                  class="side"
+                                />
+                                <button class="btn-angle" name="btn-angle">
+                                  다른 각도 보기
+                                </button>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_AIfresh.svg"
+                                  alt="AI 신선케어 SYSTEM"
+                                />
+                              </div>
+                              <p>
+                                AI 신선케어 SYSTEM
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >자주 사용하는 시간대에<br
+                                      class="mobile-only"
+                                    />냉기를 미리 채워 신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_autotemp.svg"
+                                  alt="자동정온"
+                                />
+                              </div>
+                              <p>
+                                자동정온
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >±0.5˚C 의 온도편차로
+                                    <br class="mobile-only" />24시간
+                                    신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_deodor.svg"
+                                  alt="탈취 SYSTEM"
+                                />
+                              </div>
+                              <p>
+                                탈취 SYSTEM
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >UV 청정탈취필터+와<br
+                                      class="mobile-only"
+                                    />퓨어 프레시 필터로 신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_multistorage.svg"
+                                  alt="멀티수납코너"
+                                />
+                              </div>
+                              <p>
+                                멀티수납코너
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >숨은 공간을 활용해
+                                    <br class="mobile-only" />식재료 보관을
+                                    넉넉하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_freshveggie.svg"
+                                  alt="신선야채실"
+                                />
+                              </div>
+                              <p>
+                                신선야채실
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >과일과 야채를<br class="mobile-only" />분리
+                                    보관해 신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_08_fixandmax.svg"
+                                  alt="Fit & Max"
+                                />
+                              </div>
+                              <p>
+                                Fit & Max
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >가구장과 간격을 최소화해<br
+                                      class="mobile-only"
+                                    />다양한 조합으로 자유롭게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="product-btn">
+                            <td>
+                              <a
+                                href="https://www.lge.co.kr/category/refrigerators?subCateId=CT50000069                                "
+                                target="_blank"
+                                class="btn-product"
+                                >제품 보러 가기</a
+                              >
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div
                 id="product-type-5"
@@ -620,6 +1356,179 @@
                   * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
                   스펙은 다를 수 있습니다.
                 </p>
+                <div class="compare-wrap">
+                  <h3 class="section-title">
+                    <b>대표 모델</b>을 한눈에 비교하고,
+                    <br class="pc-only" />내게 꼭 맞는 제품을 쉽게 찾아보세요.
+                  </h3>
+                  <div
+                    class="procuct-summary vertical-scroll-box"
+                    id="procuct-summary"
+                    style="--max-table-width: 620px"
+                  >
+                    <div class="sticky-product-no include-tab">
+                      <div class="inner">
+                        <div class="inner2">
+                          <div>S834MEE141</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="summary-table">
+                      <table class="single">
+                        <thead>
+                          <tr class="procuct-name">
+                            <th>
+                              <h4>양문형</h4>
+                              <p>
+                                기본적인 구조와 넉넉한 수납으로 냉동 보관을
+                                편리하게
+                              </p>
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="procuct-no">
+                            <td>S834MEE141</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_001_28.png"
+                                  alt="LG 디오스 AI 오브제컬렉션 냉장고 (양문형, 매직스페이스) (S834MEE141.CKOR) 메인이미지"
+                                  class="front"
+                                />
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_001_38.png"
+                                  alt="LG 디오스 AI 오브제컬렉션 냉장고 (양문형, 매직스페이스) (S834MEE141.CKOR) 내부 이미지"
+                                  class="side"
+                                />
+                                <button class="btn-angle" name="btn-angle">
+                                  다른 각도 보기
+                                </button>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_AIfresh.svg"
+                                  alt="AI 신선케어 SYSTEM"
+                                />
+                              </div>
+                              <p>
+                                AI 신선케어 SYSTEM
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >자주 사용하는 시간대에
+                                    <br class="mobile-only" />냉기를 미리 채워
+                                    신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_autotemp.svg"
+                                  alt="자동정온"
+                                />
+                              </div>
+                              <p>
+                                자동정온
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >±0.5˚C 의 온도편차로
+                                    <br class="mobile-only" />24시간
+                                    신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_deodor.svg"
+                                  alt="탈취 SYSTEM"
+                                />
+                              </div>
+                              <p>
+                                탈취 SYSTEM
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >UV 청정탈취필터+와
+                                    <br class="mobile-only" />퓨어 프레시 필터로
+                                    신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_movingice.svg"
+                                  alt="무빙도어 아이스메이커"
+                                />
+                              </div>
+                              <p>
+                                무빙도어 아이스메이커
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >제빙기를 탈부착해
+                                    <br class="mobile-only" />냉동 보관을
+                                    효율적이게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_freshveggie.svg"
+                                  alt="신선야채실"
+                                />
+                              </div>
+                              <p>
+                                신선야채실
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >과일과 야채를
+                                    <br class="mobile-only" />분리 보관해
+                                    신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="product-btn">
+                            <td>
+                              <a
+                                href="https://www.lge.co.kr/category/refrigerators?subCateId=CT50000066"
+                                target="_blank"
+                                class="btn-product"
+                                >제품 보러 가기</a
+                              >
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div
                 id="product-type-6"
@@ -671,6 +1580,177 @@
                   * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
                   스펙은 다를 수 있습니다.
                 </p>
+                <div class="compare-wrap">
+                  <h3 class="section-title">
+                    <b>대표 모델</b>을 한눈에 비교하고,
+                    <br class="pc-only" />내게 꼭 맞는 제품을 쉽게 찾아보세요.
+                  </h3>
+                  <div
+                    class="procuct-summary vertical-scroll-box"
+                    id="procuct-summary"
+                    style="--max-table-width: 620px"
+                  >
+                    <div class="sticky-product-no include-tab">
+                      <div class="inner">
+                        <div class="inner2">
+                          <div>M874GNN3A1</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="summary-table">
+                      <table class="single">
+                        <thead>
+                          <tr class="procuct-name">
+                            <th>
+                              <h4>무드업</h4>
+                              <p>기분에 따라 바꾸는 컬러로 주방을 다채롭게</p>
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="procuct-no">
+                            <td>M874GNN3A1</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_001_29.png"
+                                  alt="LG 디오스 오브제컬렉션 무드업 냉장고 (노크온) (M874GNN3A1.AKOR) 메인이미지"
+                                  class="front"
+                                />
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_001_39.png"
+                                  alt="LG 디오스 오브제컬렉션 무드업 냉장고
+                                (노크온) (M874GNN3A1.AKOR) 내부 이미지"
+                                  class="side"
+                                />
+                                <button class="btn-angle" name="btn-angle">
+                                  다른 각도 보기
+                                </button>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_color.svg"
+                                  alt="컬러 컬렉션"
+                                />
+                              </div>
+                              <p>
+                                컬러 컬렉션
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >LED 도어 컬러를 바꿔
+                                    <br class="mobile-only" />
+                                    분위기를 매일 새롭게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_music.svg"
+                                  alt="뮤직 컬렉션"
+                                />
+                              </div>
+                              <p>
+                                뮤직 컬렉션
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >내장된 블루투스 스피커로
+                                    <br class="mobile-only" />
+                                    주방을 풍성하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_freshveggie.svg"
+                                  alt="신선야채실"
+                                />
+                              </div>
+                              <p>
+                                신선야채실
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >과일과 야채를
+                                    <br class="mobile-only" />
+                                    분리 보관해 신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_doorcooling.svg"
+                                  alt="도어쿨링+"
+                                />
+                              </div>
+                              <p>
+                                도어쿨링+
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >냉장실 문과 측면까지
+                                    <br class="mobile-only" />
+                                    냉기를 보내 신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_autotemp.svg"
+                                  alt="자동정온"
+                                />
+                              </div>
+                              <p>
+                                자동정온
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >±0.5˚C 의 온도편차로
+                                    <br class="mobile-only" />
+                                    24시간 신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="product-btn">
+                            <td>
+                              <a
+                                href="https://www.lge.co.kr/category/refrigerators?lineupId=CD00000020"
+                                target="_blank"
+                                class="btn-product"
+                                >제품 보러 가기</a
+                              >
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div
                 id="product-type-7"
@@ -719,6 +1799,178 @@
                   * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
                   스펙은 다를 수 있습니다.
                 </p>
+                <div class="compare-wrap">
+                  <h3 class="section-title">
+                    <b>대표 모델</b>을 한눈에 비교하고,
+                    <br class="pc-only" />내게 꼭 맞는 제품을 쉽게 찾아보세요.
+                  </h3>
+                  <div
+                    class="procuct-summary vertical-scroll-box"
+                    id="procuct-summary"
+                    style="--max-table-width: 620px"
+                  >
+                    <div class="sticky-product-no include-tab">
+                      <div class="inner">
+                        <div class="inner2">
+                          <div>Q342GBB133</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="summary-table">
+                      <table class="single">
+                        <thead>
+                          <tr class="procuct-name">
+                            <th>
+                              <h4>모던엣지</h4>
+                              <p>
+                                다른 냉장고와 조합해 나만의 스타일로 실용성 있게
+                              </p>
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="procuct-no">
+                            <td>Q342GBB133</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_001_30.png"
+                                  alt="LG 모던엣지 냉장고 오브제컬렉션 (Q342GBB133.AKOR) 메인이미지"
+                                  class="front"
+                                />
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_001_40.png"
+                                  alt="LG 모던엣지 냉장고 오브제컬렉션 (Q342GBB133.AKOR) 내부 이미지"
+                                  class="side"
+                                />
+                                <button class="btn-angle" name="btn-angle">
+                                  다른 각도 보기
+                                </button>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_sidedoor.svg"
+                                  alt="좌우 가변도어"
+                                />
+                              </div>
+                              <p>
+                                좌우 가변도어
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >도어 핸들 방향을
+                                    <br class="mobile-only" />공간에 맞춰
+                                    자유롭게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_autotemp.svg"
+                                  alt="자동정온"
+                                />
+                              </div>
+                              <p>
+                                자동정온
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >±0.5˚C 의 온도편차로
+                                    <br class="mobile-only" />24시간
+                                    신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_doorcooling.svg"
+                                  alt="도어쿨링+"
+                                />
+                              </div>
+                              <p>
+                                도어쿨링+
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >냉장실 문과 측면까지
+                                    <br class="mobile-only" />냉기를 보내
+                                    신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_freshveggie.svg"
+                                  alt="신선야채실"
+                                />
+                              </div>
+                              <p>
+                                신선야채실
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >과일과 야채를
+                                    <br class="mobile-only" />분리 보관해
+                                    신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_topcool.svg"
+                                  alt="상냉장 하냉동"
+                                />
+                              </div>
+                              <p>
+                                상냉장 하냉동
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >눈높이에 맞춰
+                                    <br class="mobile-only" />허리 숙임 없이
+                                    편리하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="product-btn">
+                            <td>
+                              <a
+                                href="https://www.lge.co.kr/category/refrigerators?lineupId=CD00000021"
+                                target="_blank"
+                                class="btn-product"
+                                >제품 보러 가기</a
+                              >
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div
                 id="product-type-8"
@@ -767,6 +2019,178 @@
                   * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
                   스펙은 다를 수 있습니다.
                 </p>
+                <div class="compare-wrap">
+                  <h3 class="section-title">
+                    <b>대표 모델</b>을 한눈에 비교하고,
+                    <br class="pc-only" />내게 꼭 맞는 제품을 쉽게 찾아보세요.
+                  </h3>
+                  <div
+                    class="procuct-summary vertical-scroll-box"
+                    id="procuct-summary"
+                    style="--max-table-width: 620px"
+                  >
+                    <div class="sticky-product-no include-tab">
+                      <div class="inner">
+                        <div class="inner2">
+                          <div>D265MEE22</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="summary-table">
+                      <table class="single">
+                        <thead>
+                          <tr class="procuct-name">
+                            <th>
+                              <h4>일반형</h4>
+                              <p>
+                                기본에 충실한 기능으로 공간 활용까지 실속 있게
+                              </p>
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="procuct-no">
+                            <td>D265MEE22</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_001_31.png"
+                                  alt="LG 일반냉장고 오브제컬렉션 (D265MEE22.AKOR) 메인이미지"
+                                  class="front"
+                                />
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_001_41.png"
+                                  alt="LG 일반냉장고 오브제컬렉션 (D265MEE22.AKOR) 내부 이미지"
+                                  class="side"
+                                />
+                                <button class="btn-angle" name="btn-angle">
+                                  다른 각도 보기
+                                </button>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_autotemp.svg"
+                                  alt="자동정온"
+                                />
+                              </div>
+                              <p>
+                                자동정온
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >±0.5˚C 의 온도편차로
+                                    <br class="mobile-only" />24시간
+                                    신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_superfreeze.svg"
+                                  alt="특급 냉동"
+                                />
+                              </div>
+                              <p>
+                                특급 냉동
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >냉동고 전체 온도를
+                                    <br class="mobile-only" />빠르게 낮춰
+                                    신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_freshveggie.svg"
+                                  alt="신선야채실"
+                                />
+                              </div>
+                              <p>
+                                신선야채실
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >과일과 야채를
+                                    <br class="mobile-only" />분리 보관해
+                                    신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_coolingmode.svg"
+                                  alt="멀티냉각방식"
+                                />
+                              </div>
+                              <p>
+                                멀티냉각방식
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >냉각기의 성에를
+                                    <br class="mobile-only" />알아서 제거해
+                                    편리하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_glasss.svg"
+                                  alt="강화유리 선반"
+                                />
+                              </div>
+                              <p>
+                                강화유리 선반
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >25kg까지 견뎌
+                                    <br class="mobile-only" />무거운 식품도
+                                    안전하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="product-btn">
+                            <td>
+                              <a
+                                href="https://www.lge.co.kr/category/refrigerators?subCateId=CT50000067"
+                                target="_blank"
+                                class="btn-product"
+                                >제품 보러 가기</a
+                              >
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div
                 id="product-type-9"
@@ -818,458 +2242,282 @@
                   * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
                   스펙은 다를 수 있습니다.
                 </p>
-              </div>
-            </div>
-            <div class="compare-wrap">
-              <h3 class="section-title">
-                <b>대표 모델</b>을 한눈에 비교하고,
-                <br class="pc-only" />내게 꼭 맞는 제품을 쉽게 찾아보세요.
-              </h3>
-              <div
-                class="procuct-summary vertical-scroll-box"
-                id="procuct-summary"
-                style="--col-width: 33.3333%; --max-table-width: 1380px; --table-width: 550px" 
-              >
-                <div class="sticky-product-no">
-                  <div class="inner">
-                    <div class="inner2">
-                      <div>W826GBB492</div>
-                      <div>M876GBB282</div>
-                      <div>M876GBB131</div>
+                <div class="compare-wrap">
+                  <h3 class="section-title">
+                    <b>대표 모델</b>을 한눈에 비교하고,
+                    <br class="pc-only" />내게 꼭 맞는 제품을 쉽게 찾아보세요.
+                  </h3>
+                  <div
+                    class="procuct-summary vertical-scroll-box"
+                    id="procuct-summary"
+                    style="--col-width: 50%; --max-table-width: 920px"
+                  >
+                    <div class="sticky-product-no include-tab">
+                      <div class="inner">
+                        <div class="inner2">
+                          <div>X324GB3S</div>
+                          <div>Y324GB5</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="summary-table">
+                      <table>
+                        <thead>
+                          <tr class="procuct-name">
+                            <th colspan="2">
+                              <h4>컨버터블 패키지</h4>
+                              <p>공간에 맞춘 밀착 설치로 인테리어를 조화롭게</p>
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="procuct-no">
+                            <td>X324GB3S</td>
+                            <td>Y324GB5</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_001_32.png"
+                                  alt="LG 컨버터블 패키지 오브제컬렉션 Fit & Max (냉장전용고, 좌열림) (X324GB3S.AKOR) 메인이미지"
+                                  class="front"
+                                />
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_001_42.png"
+                                  alt="LG 컨버터블 패키지 오브제컬렉션 Fit & Max (냉장전용고, 좌열림) (X324GB3S.AKOR) 내부 이미지"
+                                  class="side"
+                                />
+                                <button class="btn-angle" name="btn-angle">
+                                  다른 각도 보기
+                                </button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_001_33.png"
+                                  alt="LG 컨버터블 패키지 오브제컬렉션 Fit & Max (냉동전용고) (Y324GB5.AKOR) 메인이미지"
+                                  class="front"
+                                />
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_001_43.png"
+                                  alt="LG 컨버터블 패키지 오브제컬렉션 Fit & Max (냉동전용고) (Y324GB5.AKOR) 내부 이미지"
+                                  class="side"
+                                />
+                                <button class="btn-angle" name="btn-angle">
+                                  다른 각도 보기
+                                </button>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_08_fixandmax.svg"
+                                  alt="Fit & Max"
+                                />
+                              </div>
+                              <p>
+                                Fit & Max
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >가구장과 간격을 최소화해 다양한 조합으로
+                                    자유롭게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_08_fixandmax.svg"
+                                  alt="Fit & Max"
+                                />
+                              </div>
+                              <p>
+                                Fit & Max
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >가구장과 간격을 최소화해 다양한 조합으로
+                                    자유롭게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_autotemp.svg"
+                                  alt="자동정온"
+                                />
+                              </div>
+                              <p>
+                                자동정온
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >±0.5˚C 의 온도편차로 24시간 신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_multifreeze.svg"
+                                  alt="멀티냉각시스템"
+                                />
+                              </div>
+                              <p>
+                                멀티냉각시스템
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >냉기를 고르게 전달해 냉장고 구석까지
+                                    신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_freshveggie.svg"
+                                  alt="신선야채실"
+                                />
+                              </div>
+                              <p>
+                                신선야채실
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >과일과 야채를 분리 보관해 신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_freshfreeze.svg"
+                                  alt="신선냉동실"
+                                />
+                              </div>
+                              <p>
+                                신선냉동실
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >생선과 육류를 분리 보관해 신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_supercool.svg"
+                                  alt="특급 냉장"
+                                />
+                              </div>
+                              <p>
+                                특급 냉장
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >냉장실 전체 온도를 빠르게 낮춰
+                                    신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_superfreeze.svg"
+                                  alt="특급 냉동"
+                                />
+                              </div>
+                              <p>
+                                특급 냉동
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >냉동실 전체 온도를 빠르게 낮춰
+                                    신선하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_sidedoor.svg"
+                                  alt="좌우 가변도어"
+                                />
+                              </div>
+                              <p>
+                                좌우 가변도어
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >도어 핸들 방향을 공간에 맞춰 자유롭게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_sidedoor.svg"
+                                  alt="좌우 가변도어"
+                                />
+                              </div>
+                              <p>
+                                좌우 가변도어
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >도어 핸들 방향을 공간에 맞춰 자유롭게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="product-btn">
+                            <td>
+                              <a
+                                href="https://www.lge.co.kr/category/convertible-refrigerators?subCateId=CT50220005"
+                                target="_blank"
+                                class="btn-product"
+                                >제품 보러 가기</a
+                              >
+                            </td>
+                            <td>
+                              <a
+                                href="https://www.lge.co.kr/category/convertible-refrigerators?subCateId=CT50220006"
+                                target="_blank"
+                                class="btn-product"
+                                >제품 보러 가기</a
+                              >
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </div>
                   </div>
-                </div>
-                <div class="summary-table">
-                  <table>
-                    <thead>
-                      <tr class="procuct-name">
-                        <th>
-                          <h4>STEM (얼음정수)</h4>
-                          <p>깨끗한 물과 얼음으로 음료 한 잔도 특별하게</p>
-                        </th>
-                        <th>
-                          <h4>STEM (베이직)</h4>
-                          <p>깨끗한 자동 얼음으로 기다림 없이 편리하게</p>
-                        </th>
-                        <th>
-                          <h4>상냉장/하냉동</h4>
-                          <p>
-                            실용적인 수납 구조로 식재료 보관을 효율적으로
-                          </p>
-                        </th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr class="procuct-no">
-                        <td>W826GBB492</td>
-                        <td>M876GBB282</td>
-                        <td>M876GBB131</td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <div class="procuct-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_001_25.png"
-                              alt="LG 디오스 AI 오브제컬렉션 STEM 얼음정수 냉장고 (노크온 매직스페이스) (W826GBB48-B.AKOR) 메인이미지"
-                              class="front"
-                            />
-                            <img
-                              src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_001_35.png"
-                              alt="LG 디오스 AI 오브제컬렉션 STEM 얼음정수 냉장고 (노크온 매직스페이스) (W826GBB48-B.AKOR) 내부 이미지"
-                              class="side"
-                            />
-                            <button class="btn-angle" name="btn-angle">
-                              다른 각도 보기
-                            </button>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="procuct-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_001_26.png"
-                              alt="LG 디오스 AI 오브제컬렉션 STEM 베이직 냉장고 (더블매직스페이스) (M876GBB28-B.AKOR) 메인이미지"
-                              class="front"
-                            />
-                            <img
-                              src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_001_36.png"
-                              alt="LG 디오스 AI 오브제컬렉션 STEM 베이직 냉장고 (더블매직스페이스) (M876GBB28-B.AKOR) 내부 이미지"
-                              class="side"
-                            />
-                            <button class="btn-angle" name="btn-angle">
-                              다른 각도 보기
-                            </button>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="procuct-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_001_27.png"
-                              alt="LG 디오스 AI 오브제컬렉션 냉장고 (매직스페이스) (M876GBB131.AKOR) 메인이미지"
-                              class="front"
-                            />
-                            <img
-                              src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_001_37.png"
-                              alt="LG 디오스 AI 오브제컬렉션 냉장고 (매직스페이스) (M876GBB131.AKOR) 내부 이미지"
-                              class="side"
-                            />
-                            <button class="btn-angle" name="btn-angle">
-                              다른 각도 보기
-                            </button>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr class="procuct-spec">
-                        <td>
-                          <div class="spec-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_knock.svg"
-                              alt="노크온 매직스페이스"
-                            />
-                          </div>
-                          <p>
-                            노크온 매직스페이스
-                            <span class="des">
-                              <span class="info pc-only"></span>
-                              <span class="bubble"
-                                >냉장고 내부 확인을 노크로 편리하게</span
-                              >
-                            </span>
-                          </p>
-                        </td>
-                        <td>
-                          <div class="spec-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_doublespace.svg"
-                              alt="더블 매직스페이스"
-                            />
-                          </div>
-                          <p>
-                            더블 매직스페이스
-                            <span class="des">
-                              <span class="info pc-only"></span>
-                              <span class="bubble"
-                                >히든 버튼으로 양쪽을 열어 수납을 더욱 편리하게</span
-                              >
-                            </span>
-                          </p>
-                        </td>
-                        <td>
-                          <div class="spec-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_magicspace.svg"
-                              alt="매직스페이스"
-                            />
-                          </div>
-                          <p>
-                            매직스페이스
-                            <span class="des">
-                              <span class="info pc-only"></span>
-                              <span class="bubble"
-                                >히든 버튼으로 식음료 보관을 편리하게</span
-                              >
-                            </span>
-                          </p>
-                        </td>
-                      </tr>
-                      <tr class="procuct-spec">
-                        <td>
-                          <div class="spec-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_dispenser.svg"
-                              alt="얼음/정수 디스펜서"
-                            />
-                          </div>
-                          <p>
-                            얼음/정수 디스펜서
-                            <span class="des">
-                              <span class="info pc-only"></span>
-                              <span class="bubble"
-                                >정수·냉수와 다양한 얼음을 위생적이고 편리하게</span
-                              >
-                            </span>
-                          </p>
-                        </td>
-                        <td class="disabled">
-                          <div class="spec-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_dispenser.svg"
-                              alt="얼음/정수 디스펜서"
-                            />
-                          </div>
-                          <p>
-                            얼음/정수 디스펜서
-                            <span class="des">
-                              <span class="info pc-only"></span>
-                              <span class="bubble"
-                                >정수·냉수와 다양한 얼음을 위생적이고 편리하게</span
-                              >
-                            </span>
-                          </p>
-                        </td>
-                        <td class="disabled">
-                          <div class="spec-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_dispenser.svg"
-                              alt="얼음/정수 디스펜서"
-                            />
-                          </div>
-                          <p>
-                            얼음/정수 디스펜서
-                            <span class="des">
-                              <span class="info pc-only"></span>
-                              <span class="bubble"
-                                >정수·냉수와 다양한 얼음을 위생적이고 편리하게</span
-                              >
-                            </span>
-                          </p>
-                        </td>
-                      </tr>
-                      <tr class="procuct-spec">
-                        <td>
-                          <div class="spec-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_waterline.svg"
-                              alt="수도관 연결"
-                            />
-                          </div>
-                          <p>
-                            수도관 연결
-                            <span class="des">
-                              <span class="info pc-only"></span>
-                              <span class="bubble"
-                                >수도관을 직접 연결해 물을 항상 신선하게</span
-                              >
-                            </span>
-                          </p>
-                        </td>
-                        <td>
-                          <div class="spec-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_waterline.svg"
-                              alt="수도관 연결"
-                            />
-                          </div>
-                          <p>
-                            수도관 연결
-                            <span class="des">
-                              <span class="info pc-only"></span>
-                              <span class="bubble"
-                                >수도관을 직접 연결해 물을 항상 신선하게</span
-                              >
-                            </span>
-                          </p>
-                        </td>
-                        <td class="disabled">
-                          <div class="spec-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_waterline.svg"
-                              alt="수도관 연결"
-                            />
-                          </div>
-                          <p>
-                            수도관 연결
-                            <span class="des">
-                              <span class="info pc-only"></span>
-                              <span class="bubble"
-                                >수도관을 직접 연결해 물을 항상 신선하게</span
-                              >
-                            </span>
-                          </p>
-                        </td>
-                      </tr>
-                      <tr class="procuct-spec">
-                        <td>
-                          <div class="spec-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_voicecontrol.svg"
-                              alt="음성인식"
-                            />
-                          </div>
-                          <p>
-                            음성인식
-                            <span class="des">
-                              <span class="info pc-only"></span>
-                              <span class="bubble"
-                                >‘하이 엘지' 한마디로 설정부터 검색까지 편리하게</span
-                              >
-                            </span>
-                          </p>
-                        </td>
-                        <td class="disabled">
-                          <div class="spec-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_voicecontrol.svg"
-                              alt="음성인식"
-                            />
-                          </div>
-                          <p>
-                            음성인식
-                            <span class="des">
-                              <span class="info pc-only"></span>
-                              <span class="bubble"
-                                >‘하이 엘지' 한마디로 설정부터 검색까지 편리하게</span
-                              >
-                            </span>
-                          </p>
-                        </td>
-                        <td class="disabled">
-                          <div class="spec-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_voicecontrol.svg"
-                              alt="음성인식"
-                            />
-                          </div>
-                          <p>
-                            음성인식
-                            <span class="des">
-                              <span class="info pc-only"></span>
-                              <span class="bubble"
-                                >‘하이 엘지' 한마디로 설정부터 검색까지 편리하게</span
-                              >
-                            </span>
-                          </p>
-                        </td>
-                      </tr>
-                      <tr class="procuct-spec">
-                        <td>
-                          <div class="spec-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_freshstorage.svg"
-                              alt="신선맞춤실"
-                            />
-                          </div>
-                          <p>
-                            신선맞춤실
-                            <span class="des">
-                              <span class="info pc-only"></span>
-                              <span class="bubble"
-                                >식재료별 맞춤 온도로 더욱 신선하게</span
-                              >
-                            </span>
-                          </p>
-                        </td>
-                        <td>
-                          <div class="spec-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_freshstorage.svg"
-                              alt="신선맞춤실"
-                            />
-                          </div>
-                          <p>
-                            신선맞춤실
-                            <span class="des">
-                              <span class="info pc-only"></span>
-                              <span class="bubble"
-                                >식재료별 맞춤 온도로 더욱 신선하게</span
-                              >
-                            </span>
-                          </p>
-                        </td>
-                        <td class="disabled">
-                          <div class="spec-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_freshstorage.svg"
-                              alt="신선맞춤실"
-                            />
-                          </div>
-                          <p>
-                            신선맞춤실
-                            <span class="des">
-                              <span class="info pc-only"></span>
-                              <span class="bubble"
-                                >식재료별 맞춤 온도로 더욱 신선하게</span
-                              >
-                            </span>
-                          </p>
-                        </td>
-                      </tr>
-                      <tr class="procuct-spec">
-                        <td>
-                          <div class="spec-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_fitandmax.svg"
-                              alt="Fit & Max"
-                            />
-                          </div>
-                          <p>
-                            Fit & Max
-                            <span class="des">
-                              <span class="info pc-only"></span>
-                              <span class="bubble"
-                                >가구장과 간격을 최소화해
-                                <br class="mobile-only" />다양한 조합으로
-                                자유롭게</span
-                              >
-                            </span>
-                          </p>
-                        </td>
-                        <td>
-                          <div class="spec-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_fitandmax.svg"
-                              alt="Fit & Max"
-                            />
-                          </div>
-                          <p>
-                            Fit & Max
-                            <span class="des">
-                              <span class="info pc-only"></span>
-                              <span class="bubble"
-                                >가구장과 간격을 최소화해
-                                <br class="mobile-only" />다양한 조합으로
-                                자유롭게</span
-                              >
-                            </span>
-                          </p>
-                        </td>
-                        <td>
-                          <div class="spec-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/refrigerator/ic48_11_fitandmax.svg"
-                              alt="Fit & Max"
-                            />
-                          </div>
-                          <p>
-                            Fit & Max
-                            <span class="des">
-                              <span class="info pc-only"></span>
-                              <span class="bubble"
-                                >가구장과 간격을 최소화해
-                                <br class="mobile-only" />다양한 조합으로
-                                자유롭게</span
-                              >
-                            </span>
-                          </p>
-                        </td>
-                      </tr>
-                      <tr class="product-btn">
-                        <td>
-                          <a
-                            href="https://www.lge.co.kr/category/refrigerators?subCateId=CT50000070&filterProduct=AT0000000511:KY0000002753:01"
-                            target="_blank"
-                            class="btn-product"
-                            >제품 보러 가기</a
-                          >
-                        </td>
-                        <td>
-                          <a
-                            href="https://www.lge.co.kr/category/refrigerators?subCateId=CT50000070&filterProduct=AT0000000511:KY0000002781:01"
-                            target="_blank"
-                            class="btn-product"
-                            >제품 보러 가기</a
-                          >
-                        </td>
-                        <td>
-                          <a
-                            href="https://www.lge.co.kr/category/refrigerators?subCateId=CT50000069"
-                            target="_blank"
-                            class="btn-product"
-                            >제품 보러 가기</a
-                          >
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
                 </div>
               </div>
             </div>
@@ -1946,10 +3194,14 @@
                           >
                         </div>
                         <div class="img">
-                          <img
-                            src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_101_22.gif"
-                            alt="퓨어 프레시 필터가 장착되어 있으며, 파란 공기 흐름이 퍼지듯 표현되어 탈취 기능이 작동하는 모습을 보여줍니다. 냄새 유발 물질을 제거해 신선한 보관 환경을 유지하는 성능을 시각적으로 강조한 장면입니다."
-                          />
+                          <button class="btn-pause">일시멈춤</button>
+                          <!-- <video
+                            autoplay
+                            playsinline
+                            loop
+                            muted
+                            src="/kr/story/buying-guide/2025/video/refrigerator/vid_P11_101_06.mp4"
+                          ></video> -->
                         </div>
                         <button class="btn-collapse-toggle">
                           <span>* 필터 크기 / 탈취 성능 / 탈취 용량</span>
@@ -2087,13 +3339,13 @@
                         </div>
                         <div class="img">
                           <button class="btn-pause">일시멈춤</button>
-                          <video
+                          <!-- <video
                             autoplay
                             playsinline
                             loop
                             muted
                             src="/kr/story/buying-guide/2025/video/refrigerator/vid_P11_101_07.mp4"
-                          ></video>
+                          ></video> -->
                         </div>
                         <button class="btn-collapse-toggle">
                           <span>* 에너지 절감 원리 / 에너지 절약모드</span>

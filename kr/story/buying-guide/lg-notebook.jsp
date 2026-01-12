@@ -233,7 +233,7 @@
                     src="/kr/story/buying-guide/2025/img/notebook/img_P15_001_05.png"
                     alt="노트북 LG 그램 Pro Copilot+ PC 메인이미지 1"
                   />
-                  <span><b>LG gram Pro Copilot+ PC</b>#세련된 디자인 #AI</span>
+                  <span><b>LG gram AI Copilot +</b>#스펙충실 #합리적</span>
                 </button>
                 <button
                   class="tab-img"
@@ -1007,7 +1007,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >AI 성능 탑재로 더욱 스마트하게</span
+                                >EXAONE 3.5 기반의 온디바이스 AI 사용 가능</span
                               >
                             </span>
                           </p>
@@ -2206,7 +2206,7 @@
                         </div>
                       </div>
                       <div class="content">
-                        <h5>Studio Effets</h5>
+                        <h5>Studio Effects</h5>
                         <p>
                           화상 통화 시 인물을 중앙에 고정하거나 조명과 소음을 자동으로 조절해 더 집중할 수 있는 환경을 연출해 줘요.
                         </p>
@@ -2288,7 +2288,7 @@
                   <div id="buying-point-7" name="buying-point-50">
                     <div
                       class="slideWrap colWrap"
-                      style="--box-height: 558px; --box-m-height: 354px"
+                      style="--box-height: 560px; --box-m-height: 400px"
                     >
                       <div class="col">
                         <div>
@@ -2312,6 +2312,11 @@
                               </div>
                             </div>
                           </div>
+                          <div class="detail-wrap">
+                            <button class="btn-collapse-toggle hidden">
+                              <span>* LG gram Link / My ThinQ</span>
+                            </button>
+                          </div>
                         </div>
                       </div>
                       <div class="col">
@@ -2323,50 +2328,50 @@
                                 더 확장된 LG gram Link는 더욱 편리한 기능들을 제공합니다. LG TV나 스마트 모니터에 간편하게 연결할 수 있는 기능은 물론, 자유로운 파일 전송이 가능하고 LG gram Link로 연동된 휴대폰에서 전화를 걸어주거나 My ThinQ 앱을 통해 집 안의 다양한 LG 가전기기를 간편하게 제어할 수 있습니다.
                               </p>
                             </div>
-                          <div>
-                            <div class="media-wrap">
-                              <div class="autoplay-slider-wrap">
-                                <div class="slider">
-                                  <div>
-                                    <img
-                                      src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_14.jpg"
-                                      alt=""
-                                    />
+                            <div>
+                              <div class="media-wrap">
+                                <div class="autoplay-slider-wrap">
+                                  <div class="slider">
+                                    <div>
+                                      <img
+                                        src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_14.jpg"
+                                        alt=""
+                                      />
+                                    </div>
+                                    <div>
+                                      <img
+                                        src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_16.jpg"
+                                        alt=""
+                                      />
+                                    </div>
+                                    <div>
+                                      <img
+                                        src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_17.jpg"
+                                        alt=""
+                                      />
+                                    </div>
+                                    <div>
+                                      <img
+                                        src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_18.jpg"
+                                        alt=""
+                                      />
+                                    </div>
                                   </div>
-                                  <div>
-                                    <img
-                                      src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_16.jpg"
-                                      alt=""
-                                    />
+                                  <div class="slider-controls">
+                                    <button class="btn-play" data-state="playing">
+                                      Pause
+                                    </button>
+                                    <div class="counter">
+                                      <span class="current">1</span>
+                                      <span class="bar"></span>
+                                      <span class="total">4</span>
+                                    </div>
+                                    <button class="btn-nav btn-prev">Prev</button>
+                                    <button class="btn-nav btn-next">Next</button>
                                   </div>
-                                  <div>
-                                    <img
-                                      src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_17.jpg"
-                                      alt=""
-                                    />
-                                  </div>
-                                  <div>
-                                    <img
-                                      src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_18.jpg"
-                                      alt=""
-                                    />
-                                  </div>
-                                </div>
-                                <div class="slider-controls">
-                                  <button class="btn-play" data-state="playing">
-                                    Pause
-                                  </button>
-                                  <div class="counter">
-                                    <span class="current">1</span>
-                                    <span class="bar"></span>
-                                    <span class="total">4</span>
-                                  </div>
-                                  <button class="btn-nav btn-prev">Prev</button>
-                                  <button class="btn-nav btn-next">Next</button>
                                 </div>
                               </div>
                             </div>
-                          </div>
                           </div>
                           <div class="detail-wrap">
                             <button class="btn-collapse-toggle">
