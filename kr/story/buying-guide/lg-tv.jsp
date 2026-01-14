@@ -231,13 +231,13 @@
           <section id="line-up" name="buying-guide-content">
             <h2 class="hide">제품 라인업</h2>
             <h3 class="section-title">
-              우리 집 생활을 더 스마트하게 만들어줄 <b>TV</b>를 추천해드려요.<br />
-              공간과 사용 목적에 따라 꼭 맞는 제품을 골라보세요.
+              라이프스타일과 공간에 어울리는 <b>TV</b>를 추천해드려요.<br />
+              사용 목적에 따라 꼭 맞는 제품을 골라보세요.
             </h3>
             <div
               id="vertical-scroll-tab"
               class="tab-wrap sticky"
-              style="--btn-width: 217px; --btn-m-width: 172px"
+              style="--btn-width: 300px; --btn-m-width: 250px"
             >
               <!-- <button class="nav nav-left disabled"><</button>
               <button class="nav nav-right">></button> -->
@@ -252,7 +252,7 @@
                     src="/kr/story/buying-guide/2025/img/tv/img_P14_001_06.png"
                     alt="TV LG 올레드 evo AI (OLED M) (OLED77M5KW.AKRG) 메인이미지 2"
                   />
-                  <span><b>올레드</b>#완벽한블랙</span>
+                  <span><b>올레드</b>#차원이다른화질 #최상급TV</span>
                 </button>
                 <button
                   class="tab-img"
@@ -264,7 +264,7 @@
                     src="/kr/story/buying-guide/2025/img/tv/img_P14_001_07.png"
                     alt="TV LG 올레드 evo AI (OLED M) (OLED77M5KW.AKRG) 메인이미지 2"
                   />
-                  <span><b>QNED</b>#고색재현기술</span>
+                  <span><b>QNED</b>#풍부한컬러 #프리미엄TV</span>
                 </button>
                 <button
                   class="tab-img"
@@ -276,7 +276,7 @@
                     src="/kr/story/buying-guide/2025/img/tv/img_P14_001_08.png"
                     alt="TV LG 나노셀 AI (스탠드형) (65NANO80AES.AKRG) 메인이미지 2"
                   />
-                  <span><b>나노셀</b>#나노셀기술</span>
+                  <span><b>나노셀</b>#리얼한컬러 #베이직TV</span>
                 </button>
                 <button
                   class="tab-img"
@@ -288,7 +288,7 @@
                     src="/kr/story/buying-guide/2025/img/tv/img_P14_001_09.png"
                     alt="TV LG 울트라 HD TV AI (스탠드형) (65UA7500ES.AKRG) 메인이미지 2"
                   />
-                  <span><b>울트라 HD</b>#합리적인가격</span>
+                  <span><b>울트라 HD</b>#4K고화질 #합리적인가격</span>
                 </button>
               </div>
             </div>
@@ -308,7 +308,7 @@
                     <div class="dot"><span></span></div>
                     <div class="bubble">
                       <a
-                        href="https://www.lge.co.kr/category/tvs?subCateId=CT50000028&filterProduct=AT0000000109:KY0000001009:03,AT0000000145:KY0000002392:01"
+                        href="https://www.lge.co.kr/tvs/oled83m5kna-wall"
                         target="_blank"
                         ><span>LG 올레드 evo AI (OLED M)</span></a
                       >
@@ -332,9 +332,7 @@
                     온전하게
                   </h4>
                   <p>
-                    자체발광 디스플레이가 구현하는 완벽한 블랙과 무한대 명암비,
-                    정확한 컬러로 영화, 다큐, 게임 속 장면 하나하나를 사실적으로
-                    표현해, 마치 화면 속에 들어간 듯한 몰입감을 느낄 수 있어요.
+                    자체발광 디스플레이가 구현하는 퍼펙트 블랙과 무한대 명암비, 정확한 컬러로 영화, 다큐, 게임 속 장면 하나하나를 사실적으로 표현해, 마치 화면 속에 들어간 듯한 몰입감을 느낄 수 있어요.
                   </p>
                 </div>
                 <p class="note">
@@ -348,6 +346,7 @@
                   </h3>
                   <div
                     class="procuct-summary vertical-scroll-box"
+                    id="procuct-summary"
                     style="--col-width: 25%; --table-width: 608px"
                   >
                     <div class="sticky-product-no include-tab">
@@ -361,12 +360,12 @@
                       </div>
                     </div>
                     <div class="summary-table">
-                      <table class="single">
+                      <table class="no-btn">
                         <thead>
                           <tr class="procuct-name">
                             <th colspan="4">
                               <h4>올레드</h4>
-                              <p>밝은 공간에서도 콘텐츠의 감동을 온전하게</p>
+                              <p>세계 최초ㆍ세계 판매 1위 올레드</p>
                             </th>
                           </tr>
                         </thead>
@@ -743,21 +742,20 @@
                               </p>
                             </td>
                           </tr>
-                          <tr class="procuct-spec">
+                          <tr class="procuct-spec last">
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/tv/ic48_14_gaming.svg"
-                                  alt="컨버터블 팬트리"
+                                  src="/kr/story/buying-guide/2025/img/tv/ic48_14_144HZ.svg"
+                                  alt="게이밍 주사율 (144Hz)"
                                 />
                               </div>
                               <p>
-                                클라우드 게이밍
+                                게이밍 주사율 (144Hz)
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >GeForce NOW에 접속해 게임을 몰입감
-                                    있게</span
+                                    >144Hz 가변 주사율로 게임 환경을 티어링 없게</span
                                   >
                                 </span>
                               </p>
@@ -817,43 +815,20 @@
                               </p>
                             </td>
                           </tr>
-                          <tr class="product-btn">
-                            <td>
-                              <a
-                                href="https://www.lge.co.kr/category/tvs?subCateId=CT50000028&filterProduct=AT0000000109:KY0000001009:03,AT0000000145:KY0000002392:01"
-                                target="_blank"
-                                class="btn-product"
-                                >제품 보러 가기</a
-                              >
-                            </td>
-                            <td>
-                              <a
-                                href="https://www.lge.co.kr/category/tvs?subCateId=CT50000028&filterProduct=AT0000000109:KY0000001009:03,AT0000000145:KY0000002392:01"
-                                target="_blank"
-                                class="btn-product"
-                                >제품 보러 가기</a
-                              >
-                            </td>
-                            <td>
-                              <a
-                                href="https://www.lge.co.kr/category/tvs?subCateId=CT50000028&filterProduct=AT0000000109:KY0000001009:03,AT0000000145:KY0000002413:01"
-                                target="_blank"
-                                class="btn-product"
-                                >제품 보러 가기</a
-                              >
-                            </td>
-                            <td>
-                              <a
-                                href="https://www.lge.co.kr/category/tvs?subCateId=CT50000028&filterProduct=AT0000000109:KY0000001009:03,AT0000000145:KY0000002401:01"
-                                target="_blank"
-                                class="btn-product"
-                                >제품 보러 가기</a
-                              >
-                            </td>
-                          </tr>
                         </tbody>
                       </table>
                     </div>
+                  </div>
+                  <p class="des">
+                    * 2013~2024년 올레드 TV 세계 판매 1위 (출하량, Omdia기준)
+                  </p>
+                  <div class="btn-wrap">
+                    <a
+                      href="https://www.lge.co.kr/category/tvs?subCateId=CT50000028"
+                      target="_blank"
+                      class="btn-product"
+                      >제품 보러 가기</a
+                    >
                   </div>
                 </div>
                 <div class="product-table">
@@ -963,13 +938,7 @@
                     </table>
                   </div>
                   <p class="des">
-                    * 이 콘텐츠는 LG 디오스 식기세척기의 특정 라인업을 기반으로
-                    제품 스펙을 간추려 설명한 것으로, 고객의 이해를 돕기 위해
-                    제작되었습니다.<br />
-                    * 세부 스펙은 각 모델에 따라 다를 수 있어 제품 상세
-                    페이지에서 별도로 확인이 필요합니다.<br />
-                    * 음성안내의 경우 DUE6PFL3E, DUE6BGLE, DUE6BGL3E 모델에는
-                    적용되어 있지 않습니다.
+                    * 제품별 스펙은 다를 수 있으니 정확한 내용은 각 제품별 상세 스펙을 확인해주세요.
                   </p>
                 </div>
               </div>
@@ -991,11 +960,11 @@
                     <div class="dot"><span></span></div>
                     <div class="bubble">
                       <a
-                        href="https://www.lge.co.kr/category/tvs?subCateId=CT50041000&filterProduct=AT0000000145:KY0000002413:01,AT0000000145:KY0000002401:01"
+                        href="https://www.lge.co.kr/tvs/86qned86aka-stand"
                         target="_blank"
                         ><span>LG QNED evo AI</span>
                       </a>
-                      <p>스탠드/벽걸이형<span></span>8K/4K</p>
+                      <p>스탠드/벽걸이형<span></span>4K</p>
                     </div>
                   </div>
                   <img
@@ -1011,12 +980,10 @@
                 </div>
                 <div class="text-wrap">
                   <h4>
-                    LG만의 QNED 컬러 솔루션으로 컬러와 명암비를 더욱 풍부하게
+                    LG만의 QNED 컬러 솔루션으로 마치 눈앞에 있는 듯 생생하게
                   </h4>
                   <p>
-                    LG의 고색재현 기술을 적용해 색 표현을 극대화하고, 전 모델
-                    컬러볼륨 100% 인증을 받은 프리미엄 LCD TV예요. 압도적 기술로
-                    한층 더 깊고 생동감 있는 화면을 구현해요.
+                    LG의 고색재현 기술을 적용해 색 표현을 극대화하고, 전 모델 컬러볼륨 100% 인증을 받은 프리미엄 LCD TV예요. 압도적 기술로 한층 더 깊고 생동감 있는 화면을 경험할 수 있어요.
                   </p>
                 </div>
                 <p class="note">
@@ -1041,12 +1008,12 @@
                       </div>
                     </div>
                     <div class="summary-table">
-                      <table class="single">
+                      <table class="no-btn">
                         <thead>
                           <tr class="procuct-name">
                             <th colspan="2">
                               <h4>QNED</h4>
-                              <p>풍부한 컬러와 명암비로 색 표현을 깊이 있게</p>
+                              <p>새롭게 살아나는 컬러, 놀라운 경험의 시작</p>
                             </th>
                           </tr>
                         </thead>
@@ -1147,7 +1114,7 @@
                                 </span>
                               </p>
                             </td>
-                            <td>
+                            <td class="disabled">
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/tv/ic48_14_localdimming.svg"
@@ -1204,7 +1171,7 @@
                               </p>
                             </td>
                           </tr>
-                          <tr class="procuct-spec">
+                          <tr class="procuct-spec last gray">
                             <td>
                               <div class="spec-img">
                                 <img
@@ -1240,65 +1207,19 @@
                                   >
                                 </span>
                               </p>
-                            </td>
-                          </tr>
-                          <tr class="procuct-spec">
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/tv/ic48_14_AIagent.svg"
-                                  alt="AI 에이전트"
-                                />
-                              </div>
-                              <p>
-                                AI 에이전트
-                                <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >검색과 일정 계획까지 쉽고 빠르게</span
-                                  >
-                                </span>
-                              </p>
-                            </td>
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/tv/ic48_14_AIagent.svg"
-                                  alt="AI 에이전트"
-                                />
-                              </div>
-                              <p>
-                                AI 에이전트
-                                <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >검색과 일정 계획까지 쉽고 빠르게</span
-                                  >
-                                </span>
-                              </p>
-                            </td>
-                          </tr>
-                          <tr class="product-btn">
-                            <td>
-                              <a
-                                href="https://www.lge.co.kr/category/tvs?subCateId=CT50041000&filterProduct=AT0000000145:KY0000002413:01,AT0000000145:KY0000002401:01"
-                                target="_blank"
-                                class="btn-product"
-                                >제품 보러 가기</a
-                              >
-                            </td>
-                            <td>
-                              <a
-                                href="https://www.lge.co.kr/category/tvs?subCateId=CT50041000"
-                                target="_blank"
-                                class="btn-product"
-                                >제품 보러 가기</a
-                              >
                             </td>
                           </tr>
                         </tbody>
                       </table>
                     </div>
+                  </div>
+                  <div class="btn-wrap">
+                    <a
+                      href="https://www.lge.co.kr/category/tvs?subCateId=CT50041000"
+                      target="_blank"
+                      class="btn-product"
+                      >제품 보러 가기</a
+                    >
                   </div>
                 </div>
               </div>
@@ -1320,7 +1241,7 @@
                     <div class="dot"><span></span></div>
                     <div class="bubble">
                       <a
-                        href="https://www.lge.co.kr/category/tvs?subCateId=CT50000029"
+                        href="https://www.lge.co.kr/tvs/65nano80aea-stand"
                         target="_blank"
                         ><span>LG 나노셀 AI</span></a
                       >
@@ -1369,12 +1290,12 @@
                       </div>
                     </div>
                     <div class="summary-table">
-                      <table class="single">
+                      <table class="single no-btn">
                         <thead>
                           <tr class="procuct-name">
                             <th>
                               <h4>나노셀</h4>
-                              <p>리얼한 색감을 슬림한 화면에 담아 생생하게</p>
+                              <p>퓨어 컬러로 완성한 리얼 4K</p>
                             </th>
                           </tr>
                         </thead>
@@ -1463,7 +1384,7 @@
                               </p>
                             </td>
                           </tr>
-                          <tr class="procuct-spec">
+                          <tr class="procuct-spec last gray">
                             <td>
                               <div class="spec-img">
                                 <img
@@ -1484,39 +1405,17 @@
                               </p>
                             </td>
                           </tr>
-                          <tr class="procuct-spec">
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/tv/ic48_14_AIagent.svg"
-                                  alt="AI 에이전트"
-                                />
-                              </div>
-                              <p>
-                                AI 에이전트
-                                <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >검색과 일정 계획까지
-                                    <br class="mobile-only" />쉽고 빠르게</span
-                                  >
-                                </span>
-                              </p>
-                            </td>
-                          </tr>
-                          <tr class="product-btn">
-                            <td>
-                              <a
-                                href="https://www.lge.co.kr/category/tvs?subCateId=CT50000029"
-                                target="_blank"
-                                class="btn-product"
-                                >제품 보러 가기</a
-                              >
-                            </td>
-                          </tr>
                         </tbody>
                       </table>
                     </div>
+                  </div>
+                  <div class="btn-wrap">
+                    <a
+                      href="https://www.lge.co.kr/category/tvs?subCateId=CT50000029"
+                      target="_blank"
+                      class="btn-product"
+                      >제품 보러 가기</a
+                    >
                   </div>
                 </div>
               </div>
@@ -1538,7 +1437,7 @@
                     <div class="dot"><span></span></div>
                     <div class="bubble">
                       <a
-                        href="https://www.lge.co.kr/category/tvs?subCateId=CT50000030"
+                        href="https://www.lge.co.kr/tvs/65ua7500ena-stand"
                         target="_blank"
                         ><span>LG 울트라 HD TV AI</span></a
                       >
@@ -1585,12 +1484,12 @@
                       </div>
                     </div>
                     <div class="summary-table">
-                      <table class="single">
+                      <table class="single no-btn">
                         <thead>
                           <tr class="procuct-name">
                             <th>
                               <h4>울트라 HD</h4>
-                              <p>선명한 화질과 AI 기능을 부담 없게</p>
+                              <p>더욱 선명하고 깊이 있는 4K 화질</p>
                             </th>
                           </tr>
                         </thead>
@@ -1680,7 +1579,7 @@
                               </p>
                             </td>
                           </tr>
-                          <tr class="procuct-spec">
+                          <tr class="procuct-spec last gray">
                             <td>
                               <div class="spec-img">
                                 <img
@@ -1701,39 +1600,17 @@
                               </p>
                             </td>
                           </tr>
-                          <tr class="procuct-spec">
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/tv/ic48_14_AIagent.svg"
-                                  alt="AI 에이전트"
-                                />
-                              </div>
-                              <p>
-                                AI 에이전트
-                                <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >검색과 일정 계획까지
-                                    <br class="mobile-only" />쉽고 빠르게</span
-                                  >
-                                </span>
-                              </p>
-                            </td>
-                          </tr>
-                          <tr class="product-btn">
-                            <td>
-                              <a
-                                href="https://www.lge.co.kr/category/tvs?subCateId=CT50000030"
-                                target="_blank"
-                                class="btn-product"
-                                >제품 보러 가기</a
-                              >
-                            </td>
-                          </tr>
                         </tbody>
                       </table>
                     </div>
+                  </div>
+                  <div class="btn-wrap">
+                    <a
+                      href="https://www.lge.co.kr/category/tvs?subCateId=CT50000030"
+                      target="_blank"
+                      class="btn-product"
+                      >제품 보러 가기</a
+                    >
                   </div>
                 </div>
               </div>
@@ -1756,7 +1633,7 @@
                 data-group="buying-point"
                 data-target="#buying-point-1"
               >
-                패널 및 화질
+                화질
               </button>
               <button
                 name="buying-guide-tab"
@@ -1783,14 +1660,21 @@
                       data-target="#buying-point-1-1"
                       data-group="buying-point-1"
                     >
-                      OLED 패널
+                      LCD와 올레드의 차이
                     </button>
                     <button
                       name="buying-guide-tab"
                       data-target="#buying-point-1-2"
                       data-group="buying-point-1"
                     >
-                      LCD(LED) 패널
+                      올레드 TV
+                    </button>
+                    <button
+                      name="buying-guide-tab"
+                      data-target="#buying-point-1-3"
+                      data-group="buying-point-1"
+                    >
+                      (LED) LCD TV
                     </button>
                   </div>
                   <div class="subtab-content">
@@ -1799,98 +1683,108 @@
                       id="buying-point-1-1"
                       name="buying-point-1"
                     >
-                      <h4 class="hide">OLED 패널</h4>
+                      <h4 class="hide">LCD와 올레드의 차이</h4>
                       <div class="content">
-                        <h5>OLED 패널</h5>
+                        <h5>LCD와 올레드의 차이</h5>
                         <p>
-                          OLED는 백라이트 없이 스스로 빛을 내는 자발광
-                          디스플레이로, 픽셀 단위로 빛과 색을 직접 조절해 정확한
-                          블랙과 무한대 명암비를 구현합니다. 100% 컬러 볼륨과 색
-                          정확도로 실물에 가까운 색감을 담아내고, 눈이 피로하지
-                          않은 편안한 콘텐츠 감상이 가능합니다.
+                          TV는 백라이트 없이 스스로 빛을 내는 올레드 TV와 백라이트의 빛을 LCD를 이용해 조절하는 LCD TV (LED TV, 미니LED TV 등) 로 나뉘어요. 올레드 TV는 픽셀 단위로 빛과 색을 직접 조절해 정확한 블랙과 무한대 명암비를 구현하고, 백라이트 없이 스스로 빛을 냅니다. 반면 LCD TV는 백라이트를 통해 화면을 표현하고, 빛 번짐과 블랙 표현에 한계가 있지만, 미니 LED와 고색재현 기술 등 정교한 백라이트 제어 기술을 적용해 생생하고 균일한 화질을 제공합니다.
                         </p>
-                        <div class="btn-wrap">
-                          <a
-                            class="btn-product"
-                            href="https://www.lge.co.kr/category/tvs?subCateId=CT50000028"
-                            target="_blank"
-                            >제품 보러 가기</a
-                          >
-                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
                         <div class="img">
                           <img
                             src="/kr/story/buying-guide/2025/img/tv/img_P14_101_01.jpg"
                             alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다."
                           />
                         </div>
-                        <button class="btn-collapse-toggle">
-                          <span
-                            >* 퍼펙트 블랙 인증 / 아이세이프 일주기 리듬 인증 /
-                            퍼펙트 컬러 인증 / 100% 색 정확도 인증 / 100% 컬러
-                            볼륨 인증 / Reflection Free 인증</span
-                          >
-                        </button>
-                        <div class="collapse-content">
-                          <p>
-                            <b>[퍼펙트 블랙 인증]</b><br />
-                            ① 인증 기관 : UL<br />
-                            ② 인증 기준일 : 2024년 11월<br />
-                            ③ 인증 대상 : 2025년형 올레드 전 모델 모듈 기준<br />
-                            ④ 인증 내용 (인증 번호) : 최대 500lux 환경에서
-                            블랙휘도 0.24nit 이하 (V183632)
-                          </p>
-                          <p>
-                            <b> [아이세이프 일주기 리듬 인증]</b><br />
-                            ① 인증 기관 : UL<br />
-                            ② 인증 기준일 : 2025년 2월<br />
-                            ③ 인증 대상 : 2025년 출시 올레드 전 모델 모듈
-                            기준<br />
-                            ④ 인증 내용 (인증 번호) : 일주기 성능 계수(CPF:
-                            Circadian Performance Factor) 60이상 (V745354)
-                          </p>
-                          <p>
-                            <b>[퍼펙트 컬러 인증]</b><br />
-                            ① 인증 기관 : UL<br />
-                            ② 인증 기준일 : 2024년 10월<br />
-                            ③ 인증 대상 : 2025년형 올레드 전 모델 모듈 기준<br />
-                            ④ 인증 내용 (인증 번호) : 최대 500lux 환경에서
-                            색일관성 99% 이상 (V569367)
-                          </p>
-                          <p>
-                            <b> [100% 색 정확도 인증]</b><br />
-                            ① 인증 기관 : Intertek<br />
-                            ② 인증 기준일 : 2024년 10월<br />
-                            ③ 인증 대상 : 2025년형 올레드 전 모델 모듈 기준<br />
-                            ④ 인증 내용 (인증 번호) : 500lux 환경에서 CIE DE
-                            2000에 따른 125가지 색상 패턴의 목푯값과 측정값
-                            차이가 2.0보다 작아 색 정확도 100% 기준 충족
-                            (24KRQ0950-01)
-                          </p>
-                          <p>
-                            <b> [100% 컬러 볼륨 인증]</b><br />
-                            ① 인증 기관 : Intertek<br />
-                            ② 인증 기준일 : 2024년 12월<br />
-                            ③ 인증 대상: 2025년형 올레드 전 모델 TV 세트 기준<br />
-                            ④ 인증 내용 (인증 번호) : 컬러 볼륨 측정값이 DCI-P3
-                            표준 컬러 볼륨 크기의 100% 이상 (24KRQ1053-01)
-                          </p>
-                          <p>
-                            <b> [Reflection Free 인증]</b><br />
-                            ① 인증 기관 : Intertek<br />
-                            ② 인증 기준일 : 2025년 1월<br />
-                            ③ 인증 대상 : 2025년 OLED M5/G5 모듈 기준 (97형
-                            제외)<br />
-                            ④ 인증 내용(인증 번호) : 전원을 끈 상태에서 550nm
-                            파장의 SCI 반사율 측정시 측정값 1.0% 미만
-                            (23KRQ0587-03)
-                          </p>
-                          <button class="btn-collapse-close">접기</button>
-                        </div>
                       </div>
                     </div>
                     <div
                       class="point-wrap"
                       id="buying-point-1-2"
+                      name="buying-point-1"
+                      style="display: none"
+                    >
+                      <h4 class="hide">퍼펙트 블랙</h4>
+                      <div class="content">
+                        <h5>퍼펙트 블랙</h5>
+                        <p>
+                          픽셀 하나하나 딱 필요한 부분에 필요한 만큼의 빛을 켜기 때문에 완벽한 블랙을 표현할 수 있습니다. 덕분에 까만 우주의 작은 별 하나까지도 정확하게 보여주는 무한대 명암비가 가능합니다.
+                        </p>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
+                        <button class="btn-collapse-toggle">
+                          <span>* 퍼펙트 블랙 인증</span>
+                        </button>
+                        <div class="collapse-content">
+                          <p>
+                            ① 인증 기관 : UL<br />
+                            ② 인증 기준일 : 2024년 11월<br />
+                            ③ 인증 대상 : 2025년형 올레드 전 모델 모듈 기준<br />
+                            ④ 인증 내용 (인증 번호) : 최대 500lux 환경에서 블랙휘도 0.24nit 이하 (V183632)<br />
+                            * 실제 퍼포먼스는 시청환경에 따라 달라질 수 있습니다.
+                          </p>
+                          <button class="btn-collapse-close">접기</button>
+                        </div>
+                        <div class="img">
+                          <button class="btn-pause">일시멈춤</button>
+                          <video
+                            autoplay
+                            playsinline
+                            loop
+                            muted
+                            src="/kr/story/buying-guide/2025/video/tv/vid_P14_101_02.mp4"
+                          ></video>
+                        </div>
+                      </div>
+                      <div class="content">
+                        <h5>퍼펙트 컬러</h5>
+                        <p>
+                          100% 컬러 볼륨과 100% 색 정확도로 실물 그대로의 색감을 담아냅니다. 퍼펙트 컬러 인증을 받아 밝은 공간에서도 변함없이 선명한 화질을 즐길 수 있습니다.
+                        </p>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
+                        <button class="btn-collapse-toggle">
+                          <span>* 퍼펙트 컬러 인증 / 100% 색 정확도 인증 / 100% 컬러 볼륨 인증</span>
+                        </button>
+                        <div class="collapse-content">
+                          <p>
+                            <b>[퍼펙트 컬러 인증]</b><br />
+                            ① 인증 기관 : UL<br />
+                            ② 인증 기준일 : 2024년 10월<br />
+                            ③ 인증 대상 : 2025년형 올레드 전 모델 모듈 기준<br />
+                            ④ 인증 내용 (인증 번호) : 최대 500lux 환경에서 색일관성 99% 이상 (V569367)
+                          </p>
+                          <p>
+                            <b>[100% 색 정확도 인증]</b><br />
+                            ① 인증 기관 : Intertek<br />
+                            ② 인증 기준일 : 2024년 10월<br />
+                            ③ 인증 대상 : 2025년형 올레드 전 모델 모듈 기준<br />
+                            ④ 인증 내용 (인증 번호) : 500lux 환경에서 CIE DE 2000에 따른 125가지 색상 패턴의 목푯값과 측정값 차이가 2.0보다 작아 색 정확도 100% 기준 충족 (24KRQ0950-01)
+                          </p>
+                          <p>
+                            <b>[100% 컬러 볼륨 인증]</b><br />
+                            ① 인증 기관 : Intertek<br />
+                            ② 인증 기준일 : 2024년 12월<br />
+                            ③ 인증 대상: 2025년형 올레드 전 모델 TV 세트 기준<br />
+                            ④ 인증 내용 (인증 번호) : 컬러 볼륨 측정값이 DCI-P3 표준 컬러 볼륨 크기의 100% 이상 (24KRQ1053-01)
+                          </p>
+                          <button class="btn-collapse-close">접기</button>
+                        </div>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_03.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="point-wrap"
+                      id="buying-point-1-3"
                       name="buying-point-1"
                       style="display: none"
                     >
@@ -1928,30 +1822,27 @@
                   <div class="video-wrap">
                     <button class="btn-mute muted">음소거</button>
                     <button class="btn-pause">일시멈춤</button>
-                    <!-- <video
+                    <video
                       playsinline
                       loop
                       muted
                       src="/kr/story/buying-guide/2025/video/tv/vid_P14_101_01.mp4"
-                    ></video> -->
+                    ></video>
                   </div>
+                  <p class="note">
+                    * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                  </p>
                 </div>
                 <div class="point-tip">
                   <h5>이런 포인트도 살펴보면 좋아요!</h5>
                   <div class="tip-content">
                     <div class="content">
-                      <p class="tag">#홈시네마 #가족가전 #리빙룸라이프</p>
+                      <p class="tag">#홈시네마 #라이프스타일</p>
                       <h6 class="tip-title">
-                        취향에 따라, 패널 선택을 맞춤으로
+                        라이프스타일에 따라 TV를 고르는 즐거움
                       </h6>
                       <p class="tip-text">
-                        콘텐츠 애호가시라면, 디테일의 차이가 주는 감동을 잘 아실
-                        거예요. 집에서도 조명을 낮추고 영화관에 온 것처럼 장면
-                        하나의 색감도 놓치지 않고 몰입하고 싶다면, 명암을
-                        확실하게 구분해주는 OLED 패널을 추천드려요. 반대로
-                        가족과 함께 거실에 모여서 뉴스, 예능, OTT 등 다양하고
-                        일상적인 콘텐츠를 함께 즐길 수 있는 가성비 높은 선택을
-                        원한다면 LCD(LED) 패널을 선택해보세요.
+                        콘텐츠 애호가시라면, 디테일의 차이가 주는 감동을 잘 아실 거예요. 집에서도 조명을 낮추고 영화관에 온 것처럼 장면 하나의 색감도 놓치지 않고 몰입하고 싶다면, 명암을 확실하게 구분해주는 올레드 TV를 추천드려요. 가족과 함께 거실에 모여서 뉴스, 예능, OTT 등 다양하고 일상적인 콘텐츠를 함께 즐길 수 있는 합리적인 가격의 TV를 원한다면 LCD(LED) TV를 선택해보세요.
                       </p>
                     </div>
                     <div class="img">

@@ -371,7 +371,7 @@
                     <div class="dot"><span></span></div>
                     <div class="bubble">
                       <a
-                        href="https://www.lge.co.kr/category/refrigerators?lineupId=CD00000022"
+                        href="https://www.lge.co.kr/refrigerators/j842nd79"
                         target="_blank"
                         ><span>LG SIGNATURE 얼음정수 냉장고</span></a
                       >
@@ -422,7 +422,7 @@
                     <div class="dot"><span></span></div>
                     <div class="bubble">
                       <a
-                        href="https://www.lge.co.kr/category/refrigerators?subCateId=CT50000070&filterProduct=AT0000000511:KY0000002753:01"
+                        href="https://www.lge.co.kr/refrigerators/w826gbb492"
                         target="_blank"
                         ><span
                           >LG 디오스 AI 오브제컬렉션 STEM 얼음정수 냉장고
@@ -477,7 +477,7 @@
                     <div class="dot"><span></span></div>
                     <div class="bubble">
                       <a
-                        href="https://www.lge.co.kr/category/refrigerators?subCateId=CT50000070&filterProduct=AT0000000511:KY0000002781:01"
+                        href="https://www.lge.co.kr/refrigerators/m876gbb282"
                         target="_blank"
                         ><span
                           >LG 디오스 AI 오브제컬렉션 STEM 베이직 냉장고
@@ -534,7 +534,7 @@
                     <div class="dot"><span></span></div>
                     <div class="bubble">
                       <a
-                        href="https://www.lge.co.kr/category/refrigerators?subCateId=CT50000069"
+                        href="https://www.lge.co.kr/refrigerators/m876gbb131"
                         target="_blank"
                         ><span
                           >LG 디오스 AI 오브제컬렉션 냉장고 (매직스페이스)</span
@@ -587,7 +587,7 @@
                   >
                     <div class="dot"><span></span></div>
                     <div class="bubble">
-                      <a href="" target="_blank"
+                      <a href="https://www.lge.co.kr/refrigerators/s834mee141" target="_blank"
                         ><span
                           >LG 디오스 AI 오브제컬렉션 냉장고 (양문형,
                           매직스페이스)</span
@@ -639,7 +639,7 @@
                   >
                     <div class="dot"><span></span></div>
                     <div class="bubble">
-                      <a href="" target="_blank"
+                      <a href="https://www.lge.co.kr/refrigerators/m874gnn3a1" target="_blank"
                         ><span
                           >LG 디오스 오브제컬렉션 무드업 냉장고 (노크온)</span
                         ></a
@@ -689,7 +689,7 @@
                   >
                     <div class="dot"><span></span></div>
                     <div class="bubble">
-                      <a href="" target="_blank"
+                      <a href="https://www.lge.co.kr/refrigerators/q342gbb133" target="_blank"
                         ><span>LG 모던엣지 냉장고 오브제컬렉션</span></a
                       >
                       <p>344L</p>
@@ -737,7 +737,7 @@
                   >
                     <div class="dot"><span></span></div>
                     <div class="bubble">
-                      <a href="" target="_blank"
+                      <a href="https://www.lge.co.kr/refrigerators/d265mee22" target="_blank"
                         ><span>LG 일반냉장고 오브제컬렉션</span></a
                       >
                       <p>264L</p>
@@ -786,7 +786,7 @@
                   >
                     <div class="dot"><span></span></div>
                     <div class="bubble">
-                      <a href="" target="_blank"
+                      <a href="https://www.lge.co.kr/convertible-refrigerators/x324gb3s" target="_blank"
                         ><span
                           >LG 컨버터블 패키지 오브제컬렉션 Fit & Max
                           (냉장전용고, 좌열림)</span

@@ -1004,6 +1004,10 @@
 .buying-guide .compare-wrap .btn-wrap {
   margin-top: 40px;
 }
+.buying-guide .compare-wrap > .des {
+  margin-top: 20px;
+  color: #666666;
+}
 .buying-guide .point-tip .btn-wrap {
   margin-top: 20px;
 }
@@ -1800,6 +1804,9 @@
   font-weight: 400;
   line-height: 140%;
   letter-spacing: 0;
+}
+.buying-guide .subtab-wrap .point-wrap .content .des + .btn-collapse-toggle {
+  margin-top: 5px;
 }
 .buying-guide .subtab-wrap .point-wrap .content .btn-wrap {
   margin: 15px -5px -5px;
