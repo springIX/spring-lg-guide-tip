@@ -1260,12 +1260,10 @@
                   />
                 </div>
                 <div class="text-wrap">
-                  <h4>뛰어난 색감 표현력과 슬림한 디자인으로 더 돋보이게</h4>
+                  <h4>뛰어난 색감 표현력과 슬림한 디자인으로 공간을 돋보이게</h4>
                   <div>
                     <p>
-                      1나노미터의 미세 입자로 불순한 색의 파장을 제거하고 색의
-                      순도를 높이는 나노셀 기술로 컬러를 한층 더 선명하게 표현해
-                      깔끔한 디자인으로 공간을 돋보이게 해요.
+                      1나노미터의 미세 입자로 불순한 색의 파장을 제거해 색의 순도를 높이는 나노셀 기술로 컬러를 한층 더 선명하게 표현하고 깔끔한 디자인으로 공간을 돋보이게 만들어줘요.
                     </p>
                   </div>
                 </div>
@@ -1456,11 +1454,9 @@
                   />
                 </div>
                 <div class="text-wrap">
-                  <h4>선명한 4K 화질과 AI 기능을 가장 합리적으로 경험하게</h4>
+                  <h4>선명한 4K 화질과 AI 기능을 합리적 가격으로 부담 없이</h4>
                   <p>
-                    저해상도 콘텐츠를 선명한 4K로 업스케일링하고, 다양한 OTT와
-                    AI 검색, 챗봇 등 편리한 AI 기능들도 경험할 수 있어요. HDR10
-                    Pro 기술이 생동감 넘치는 화면을 구현해요.
+                    저해상도 콘텐츠를 선명한 4K로 업스케일링하고, 다양한 OTT와 AI 검색, 챗봇 등 편리한 AI기능들도 경험할 수 있어요.
                   </p>
                 </div>
                 <p class="note">
@@ -1649,6 +1645,20 @@
               >
                 AI 기능
               </button>
+              <button
+                name="buying-guide-tab"
+                data-target="#buying-point-4"
+                data-group="buying-point"
+              >
+                디자인
+              </button>
+              <button
+                name="buying-guide-tab"
+                data-target="#buying-point-5"
+                data-group="buying-point"
+              >
+                사운드
+              </button>
             </div>
             <div class="tab-content">
               <div id="buying-point-1" name="buying-point">
@@ -1689,15 +1699,15 @@
                         <p>
                           TV는 백라이트 없이 스스로 빛을 내는 올레드 TV와 백라이트의 빛을 LCD를 이용해 조절하는 LCD TV (LED TV, 미니LED TV 등) 로 나뉘어요. 올레드 TV는 픽셀 단위로 빛과 색을 직접 조절해 정확한 블랙과 무한대 명암비를 구현하고, 백라이트 없이 스스로 빛을 냅니다. 반면 LCD TV는 백라이트를 통해 화면을 표현하고, 빛 번짐과 블랙 표현에 한계가 있지만, 미니 LED와 고색재현 기술 등 정교한 백라이트 제어 기술을 적용해 생생하고 균일한 화질을 제공합니다.
                         </p>
-                        <p class="des">
-                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                        </p>
                         <div class="img">
                           <img
                             src="/kr/story/buying-guide/2025/img/tv/img_P14_101_01.jpg"
                             alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다."
                           />
                         </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
                       </div>
                     </div>
                     <div
@@ -1710,8 +1720,18 @@
                       <div class="content">
                         <h5>퍼펙트 블랙</h5>
                         <p>
-                          픽셀 하나하나 딱 필요한 부분에 필요한 만큼의 빛을 켜기 때문에 완벽한 블랙을 표현할 수 있습니다. 덕분에 까만 우주의 작은 별 하나까지도 정확하게 보여주는 무한대 명암비가 가능합니다.
+                          픽셀 하나하나 딱 필요한 부분에 필요한 만큼의 빛을 켜기 때문에 정확한 블랙을 표현할 수 있습니다. 덕분에 까만 우주의 작은 별 하나까지도 정확하게 보여주는 무한대 명암비가 가능합니다.
                         </p>
+                        <div class="img">
+                          <button class="btn-pause">일시멈춤</button>
+                          <video
+                            autoplay
+                            playsinline
+                            loop
+                            muted
+                            src="/kr/story/buying-guide/2025/video/tv/vid_P14_101_02.mp4"
+                          ></video>
+                        </div>
                         <p class="des">
                           * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
                         </p>
@@ -1728,22 +1748,18 @@
                           </p>
                           <button class="btn-collapse-close">접기</button>
                         </div>
-                        <div class="img">
-                          <button class="btn-pause">일시멈춤</button>
-                          <video
-                            autoplay
-                            playsinline
-                            loop
-                            muted
-                            src="/kr/story/buying-guide/2025/video/tv/vid_P14_101_02.mp4"
-                          ></video>
-                        </div>
                       </div>
                       <div class="content">
                         <h5>퍼펙트 컬러</h5>
                         <p>
                           100% 컬러 볼륨과 100% 색 정확도로 실물 그대로의 색감을 담아냅니다. 퍼펙트 컬러 인증을 받아 밝은 공간에서도 변함없이 선명한 화질을 즐길 수 있습니다.
                         </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_03.jpg"
+                            alt=""
+                          />
+                        </div>
                         <p class="des">
                           * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
                         </p>
@@ -1774,12 +1790,132 @@
                           </p>
                           <button class="btn-collapse-close">접기</button>
                         </div>
+                      </div>
+                      <div class="content">
+                        <h5>넓은 시야각</h5>
+                        <p>
+                          어느 각도에서도 선명한 화질을 제공해 거실과 같은 넓은 공간에서 여러 명이 함께 시청해도 왜곡 없이 즐길 수 있습니다.
+                        </p>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_03.jpg"
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_04.jpg"
                             alt=""
                           />
                         </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
+                      </div>
+                      <div class="content">
+                        <h5>홈 시네마 구현</h5>
+                        <p>
+                          마치 우리 집에 영화관을 옮겨 놓은 듯, 돌비비전의 원작 그대로의 선명한 색감과 돌비 애트모스의 입체 사운드로 영화 속 생생한 몰입감을 경험할 수 있습니다.
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_05.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
+                      </div>
+                      <div class="content">
+                        <h5>끊김 없는 게이밍</h5>
+                        <p>
+                          NVIDIA G-Sync 호환, 165Hz 가변 주사율(VRR), 0.1ms의 응답속도, AMD FreeSync Premium으로 화면 티어링이나 지연 걱정 없이 게임을 플레이 할 수 있습니다.
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_06.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br />
+                          * G-Sync, FreeSync 지원은 올레드 M5, G5, C5, B5 시리즈에만 적용됩니다.<br />
+                          * 165Hz 모드는 G5 시리즈에서만 제공됩니다.
+                        </p>
+                      </div>
+                      <div class="content">
+                        <h5>눈이 편안한 화면</h5>
+                        <p>
+                          LED (LCD) TV 대비 블루라이트를 절반 수준으로 줄이고 눈에 보이지 않는 화면 깜빡임이 적어 오랫동안 시청해도 눈이 편안합니다.
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_07.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
+                        <button class="btn-collapse-toggle">
+                          <span>* Low Blue Light Platinum / Flicker Free / Discomfort Glare Free 2z</span>
+                        </button>
+                        <div class="collapse-content">
+                          <p>
+                            ① 인증 기관 : UL<br />
+                            ② 인증 기준일 : 2023년 6월<br />
+                            ③ 인증 대상 : 2024년형 올레드 전 모델 패널 기준<br />
+                            ④ 인증 내용(인증 번호)<br />
+                            Low Blue Light Platinum : 전체 블루라이트 방출량 중 유해블루라이트 40% 미만 (V745051)<br />
+                            Flicker Free : 120hz 최대밝기-최소밝기/최대밝기+최소밝기'의 플리커 비율이 9.6% 미만 (A196009)<br />
+                            Discomfort Glare Free : 70x에서 300lx 사이의 밝기에서 UGR이 22 이하 (V563481)
+                          </p>
+                          <button class="btn-collapse-close">접기</button>
+                        </div>
+                      </div>
+                      <div class="content">
+                        <h5>업계 최다 라인업</h5>
+                        <p>
+                          세계 최대 245cm 부터 105cm의 화면사이즈까지 업계 최다 라인업으로 올레드만의 뛰어난 화질을 용도와 상황에 따라 선택해서 즐길 수 있습니다.
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_08.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br />
+                          * 세계 최대 화면 사이즈 & 세계 최다 라인업 : 2024년 3월 동종업계 OLED TV 라인업 기준
+                        </p>
+                      </div>
+                      <div class="content">
+                        <h5>세계가 인정한 NO.1 LG 올레드</h5>
+                        <p>
+                          12년 연속 세계 판매 1위를 기록하며 전 세계 소비자의 선택을 받고 있습니다. 어떤 TV를 선택할지 고민된다면, 세계가 인정한 LG 올레드가 합리적인 선택입니다.
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_09.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br />
+                          ※ 2024년 CES 혁신상 수상: Digital Imaging / Photography, Audio/Video Components & Accessories, Video Displays 부문(88OLEDZ3), Digital Imaging / Photography 부문(118” 4K Micro LED), Embedded Technologies, Audio/Video Components & Accessories 부문 (OLED M4), Gaming & eSports 부문(83OLEDM4), Audio/Video Components & Accessories 부문 (83OLEDC4), Mobile Devices, Accessories & Apps, Content & Entertainment 부문(StanbyME Go LX5), Video Display, Embedded Technologies, Digital Imaging / Photography 부문(4K Transparent OLED T), Content & Entertainment 부문(Voice ID 기반 컨텐츠 추천), Digital Health 부문 (Intelligent Fit), Content & Entertainment 부문(Transparent Screen UX), Artificial Intelligence (AI) 부문(LG Imagine Live)​<br />
+                          ※ CES혁신상은 제출된 설명 자료에 근거하여 심사하는 상으로, 수여기관인 CTA는 지원서나 주장 내용의 사실관계를 입증하거나, 수상제품 테스트를 진행하지 않습니다.​<br />
+                          ※ 한국소비자원 성능평가: 소비자의 선호도에 따라 주요 고려 요소는 다를 수 있음, SDR 영상품질/HDR영상품질/시야각 부문에서 매우 우수 평가​
+                        </p>
+                      </div>
+                      <div class="content">
+                        <h5>LG올레드 에보 TV, 최고 평가 석권</h5>
+                        <p>
+                          “현대적이고 완벽하며 정교하다”라는 평가를 받은 LG 올레드 에보 TV. 일반 올레드 TV 대비 최대 70% 밝고, 업계 유일의 올레드 전용 프로세서를 탑재해 화질을 강화하였습니다.
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_10.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
                       </div>
                     </div>
                     <div
@@ -1788,31 +1924,99 @@
                       name="buying-point-1"
                       style="display: none"
                     >
-                      <h4 class="hide">LCD(LED) 패널</h4>
+                      <h4 class="hide">QNED보다 더 정교한 색감, QNED evo</h4>
                       <div class="content">
-                        <h5>LCD(LED) 패널</h5>
+                        <h5>QNED보다 더 정교한 색감, QNED evo</h5>
                         <p>
-                          LCD는 OLED와 달리 백라이트를 통해 화면을 표현합니다.
-                          빛 번짐과 블랙 표현에 한계가 있지만, 미니 LED와
-                          고색재현 기술 등 정교한 백라이트 제어 기술을 적용해
-                          생생하고 균일한 화질을 제공합니다. 수평 액정 배열
-                          방식을 적용해 시야각이 넓고, 어느 각도에서나 선명한
-                          화면을 제공합니다.
+                          QNED의 상위 라인업인 QNED evo는 QNED TV의 정교한 색감에 더해 빛을 더 섬세하게 제어하는 미니 LED를 적용했습니다. 작은 디테일까지 더 선명하게, 블랙은 더 깊게, 컬러는 더 생생하게 표현해줍니다.
                         </p>
                         <div class="btn-wrap">
                           <a
                             class="btn-product"
-                            href="https://www.lge.co.kr/category/tvs?filterProduct=AT0000000109:KY0000001066:03,AT0000000109:KY0000001018:03,AT0000000109:KY0000000687:03,AT0000000109:KY0000000627:03"
+                            href="https://www.lge.co.kr/category/tvs?subCateId=CT50041000"
                             target="_blank"
                             >제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_03.jpg"
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_11.jpg"
                             alt="화려한 색상의 꽃이 어두운 배경 위에 피어 있습니다. 꽃잎은 파란색, 빨간색, 노란색이 조화를 이루며 빛나고 있으며, 중심부는 붉은색으로 강조되어 있습니다. 꽃잎의 섬세한 디테일이 돋보이며, 전체적으로 생동감 넘치는 아름다움을 표현하고 있습니다."
                           />
                         </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br />
+                          * LG QNED evo는 LG QNED MiniLED의 새로운 이름입니다.
+                        </p>
+                      </div>
+                      <div class="content">
+                        <h5>더 극대화된 컬러 표현력, QNED</h5>
+                        <p>
+                          기존 나노셀 TV에서 색 재현율, 명암비, 밝기를 개선해 출시한 QNED TV 입니다. 순도 높은 컬러를 표현하는 나노셀 기준, 각각의 색 표현을 끌어올리는 고색재현기술이 결합해 정교한 색감을 구현합니다.
+                        </p>
+                        <div class="btn-wrap">
+                          <a
+                            class="btn-product"
+                            href="https://www.lge.co.kr/category/tvs?subCateId=CT50041000"
+                            target="_blank"
+                            >제품 보러 가기</a
+                          >
+                        </div>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_12.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
+                      </div>
+                      <div class="content">
+                        <h5>본연의 색 그대로 더 리얼한, 나노셀</h5>
+                        <p>
+                          1나노미터(nm)의 미세 입자를 적용해 불순한 색의 파장을 제거하고 색의 순도를 높여 실제 눈으로 보는 듯 생생하게 표현해줍니다. 넓은 시야각으로 어떤 각도에서 보더라도 선명하게 감상할 수 있습니다.
+                        </p>
+                        <div class="btn-wrap">
+                          <a
+                            class="btn-product"
+                            href="https://www.lge.co.kr/category/tvs?subCateId=CT50000029"
+                            target="_blank"
+                            >제품 보러 가기</a
+                          >
+                        </div>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_13.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
+                      </div>
+                      <div class="content">
+                        <h5>기본에 충실한, 울트라 HD</h5>
+                        <p>
+                          뛰어난 성능은 기본으로 넓은 시야각과 생생한 4K 화질까지 합리적인 가격으로 구매할 수 있는 TV입니다.
+                        </p>
+                        <div class="btn-wrap">
+                          <a
+                            class="btn-product"
+                            href="https://www.lge.co.kr/category/tvs?subCateId=CT50000030"
+                            target="_blank"
+                            >제품 보러 가기</a
+                          >
+                        </div>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_14.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -1842,7 +2046,7 @@
                         라이프스타일에 따라 TV를 고르는 즐거움
                       </h6>
                       <p class="tip-text">
-                        콘텐츠 애호가시라면, 디테일의 차이가 주는 감동을 잘 아실 거예요. 집에서도 조명을 낮추고 영화관에 온 것처럼 장면 하나의 색감도 놓치지 않고 몰입하고 싶다면, 명암을 확실하게 구분해주는 올레드 TV를 추천드려요. 가족과 함께 거실에 모여서 뉴스, 예능, OTT 등 다양하고 일상적인 콘텐츠를 함께 즐길 수 있는 합리적인 가격의 TV를 원한다면 LCD(LED) TV를 선택해보세요.
+                        콘텐츠 애호가시라면, 디테일의 차이가 주는 감동을 잘 아실 거예요. 집에서도 조명을 낮추고 영화관에 온 것처럼 장면 하나의 색감도 놓치지 않고 몰입하고 싶다면, 명암을 확실하게 구분해주는 올레드 TV를 추천드려요. 가족과 함께 거실에 모여서 뉴스, 예능, OTT 등 다양하고 일상적인 콘텐츠를 함께 즐길 수 있는 합리적인 가격의 TV를 원한다면 LCD(LED) TV를 선택해 보세요.
                       </p>
                     </div>
                     <div class="img">
@@ -1873,28 +2077,28 @@
                       data-target="#buying-point-2-1"
                       data-group="buying-point-2"
                     >
-                      207~245cm
+                      190cm 이상
                     </button>
                     <button
                       name="buying-guide-tab"
                       data-target="#buying-point-2-2"
                       data-group="buying-point-2"
                     >
-                      177~194cm
+                      165~190cm
                     </button>
                     <button
                       name="buying-guide-tab"
                       data-target="#buying-point-2-3"
                       data-group="buying-point-2"
                     >
-                      152~176cm
+                      139~165cm
                     </button>
                     <button
                       name="buying-guide-tab"
                       data-target="#buying-point-2-4"
                       data-group="buying-point-2"
                     >
-                      100~151cm
+                      109~139cm
                     </button>
                     <button
                       name="buying-guide-tab"
@@ -1910,14 +2114,11 @@
                       id="buying-point-2-1"
                       name="buying-point-2"
                     >
-                      <h4 class="hide">207~245cm</h4>
+                      <h4 class="hide">190cm 이상</h4>
                       <div class="content">
-                        <h5>207~245cm</h5>
+                        <h5>190cm 이상</h5>
                         <p>
-                          TV를 중심으로 홈시어터나 홈엔터테이먼트 공간을 꾸밀 수
-                          있을 정도로 큽니다. 탁 트인 시야와 압도적인 스케일이
-                          콘텐츠의 몰입감을 극대화하고, 8K 고화질로 생동감 있는
-                          영상까지 즐길 수 있습니다.
+                          거실은 물론 별도 공간에서도 영화관처럼 홈시어터를 꾸릴 수 있을 만큼 초대형 화면과 8K 고화질로 생동감 넘치는 영상을 즐길 수 있습니다.
                         </p>
                         <div class="btn-wrap">
                           <a
@@ -1929,10 +2130,13 @@
                         </div>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_04.jpg"
-                            alt="밝고 현대적인 거실 공간입니다. 벽에 큰 TV가 설치되어 있으며, 화면에는 다채로운 색상의 추상적인 그림이 표시되어 있습니다. TV 아래에는 사운드바가 놓여 있고, 그 옆에는 검은색 스피커가 있습니다. 방 한쪽에는 식물과 함께 편안한 소파와 테이블이 배치되어 있으며, 테이블 위에는 책과 장식품이 놓여 있습니다. 소파에는 담요가 걸쳐져 있습니다."
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_15.jpg"
+                            alt=""
                           />
                         </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
                       </div>
                     </div>
                     <div
@@ -1941,29 +2145,29 @@
                       name="buying-point-2"
                       style="display: none"
                     >
-                      <h4 class="hide">177~194cm</h4>
+                      <h4 class="hide">165~190cm</h4>
                       <div class="content">
-                        <h5>177~194cm</h5>
+                        <h5>165~190cm</h5>
                         <p>
-                          거실에서 가장 대중적으로 선호되는 사이즈로, 영화는
-                          물론, 스포츠나 게임까지 대형 화면으로 한층 더 생생하게
-                          즐길 수 있습니다. 대형 화면이 넉넉한 거실 공간에
-                          멋스러운 포인트까지 더해줍니다.
+                          거실에서 가장 대중적으로 선호되는 사이즈로, 영화는 물론, 스포츠나 게임까지 대형 화면으로 한층 더 생생하게 즐길 수 있습니다.
                         </p>
                         <div class="btn-wrap">
                           <a
                             class="btn-product"
-                            href="https://www.lge.co.kr/category/tvs?filterProduct=AT0000000170:KY0000000211:02,AT0000000170:KY0000000163:02"
+                            href="https://www.lge.co.kr/category/tvs?filterProduct=AT0000000170:KY0000000163:02"
                             target="_blank"
                             >제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_06.jpg"
-                            alt="따뜻한 조명 아래의 거실 벽면에 TV가 설치되어 있고, 화면에는 우주와 행성이 담긴 장면이 선명하게 재생되어 몰입감 있는 분위기를 연출합니다."
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_17.jpg"
+                            alt=""
                           />
                         </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
                       </div>
                     </div>
                     <div
@@ -1972,29 +2176,29 @@
                       name="buying-point-2"
                       style="display: none"
                     >
-                      <h4 class="hide">152~176cm</h4>
+                      <h4 class="hide">139~165cm</h4>
                       <div class="content">
-                        <h5>152~176cm</h5>
+                        <h5>139~165cm</h5>
                         <p>
-                          영화나 드라마, 예능, OTT 콘텐츠를 일상적으로 즐기기에
-                          적절한 크기입니다. 가족과 함께 콘텐츠를 감상하며
-                          여유로운 시간을 보내기에 알맞습니다. 혼자서도
-                          부담스럽지 않게 몰입감을 느낄 수 있습니다.
+                          일상에서 즐기는 영화와 드라마부터 OTT 콘텐츠까지, 가족과 함께하는 순간과 혼자만의 시간 모두를 만족시켜주는 이상적인 크기입니다.
                         </p>
                         <div class="btn-wrap">
                           <a
                             class="btn-product"
-                            href="https://www.lge.co.kr/category/tvs?filterProduct=AT0000000170:KY0000002103:02,AT0000000170:KY0000000163:02"
+                            href="https://www.lge.co.kr/category/tvs?filterProduct=AT0000000170:KY0000002103:02"
                             target="_blank"
                             >제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_07.jpg"
-                            alt="밝고 생동감 있는 거실에 TV가 설치되어 있으며, 화면에는 알록달록한 건물들이 줄지어 선 길이 선명하게 담겨 공간 전체에 활기찬 분위기를 더합니다."
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_18.jpg"
+                            alt=""
                           />
                         </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
                       </div>
                     </div>
                     <div
@@ -2003,29 +2207,29 @@
                       name="buying-point-2"
                       style="display: none"
                     >
-                      <h4 class="hide">100~151cm</h4>
+                      <h4 class="hide">109~139cm</h4>
                       <div class="content">
-                        <h5>100~151cm</h5>
+                        <h5>109~139cm</h5>
                         <p>
-                          원룸에서, 혹은 침실용 서브 TV로 사용하기에 알맞은
-                          크기입니다. 책상 위에서 모니터나 게이밍 TV로
-                          활용하기에도 좋습니다. 혼자 사용하기에 부담 없는
-                          사이즈로, 공간을 효율적으로 활용할 수 있습니다.
+                          침실이나 개인 공간에 서브 TV로 사용하기에 알맞은 크기입니다. 책상 위에서 모니터나 게이밍 TV로 활용할 수 있어 공간 효율도 높일 수 있습니다.
                         </p>
                         <div class="btn-wrap">
                           <a
                             class="btn-product"
-                            href="https://www.lge.co.kr/category/tvs?filterProduct=AT0000000170:KY0000000073:02,AT0000000170:KY0000000071:02,AT0000000170:KY0000002103:02"
+                            href="https://www.lge.co.kr/category/tvs?filterProduct=AT0000000170:KY0000000071:02"
                             target="_blank"
                             >제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_08.jpg"
-                            alt="밝은 톤의 거실 선반 위에 TV가 놓여 있으며, 화면에는 황금빛 모래 언덕이 부드럽게 펼쳐진 사막 풍경이 선명하게 표현되어 차분하고 따뜻한 분위기를 더합니다."
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_19.jpg"
+                            alt=""
                           />
                         </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
                       </div>
                     </div>
                     <div
@@ -2038,19 +2242,17 @@
                       <div class="content">
                         <h5>권장 TV 사이즈</h5>
                         <p>
-                          앉는 위치에서 TV까지의 거리를 기준으로 화면 크기를
-                          계산하면 더 편안하고 몰입감 높은 시청 환경을 만들 수
-                          있습니다. 시청거리(m)에 25 × 2.54를 곱해 TV 추천
-                          사이즈(cm)를 산출할 수 있으며, 66㎡·97㎡·132㎡ 등 공간
-                          크기에 맞춘 시청 거리별 권장 사이즈를 참고하면 보다
-                          정확하게 TV 크기를 선택할 수 있습니다.
+                          앉는 위치에서 TV까지의 거리를 기준으로 화면 크기를 계산하면 더 편안하고 몰입감 높은 시청 환경을 만들 수 있습니다. 시청 거리(m)에 1.2 × 2.54를 곱해 TV 권장 사이즈(cm)를 확인하고, 우리 집에 맞는 TV를 선택해보세요.
                         </p>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_09.jpg"
-                            alt="따뜻한 햇빛이 드는 거실에 TV가 놓여 있으며, 화면의 부드러운 곡선 패턴과 넓은 소파, 큰 창으로 보이는 녹음이 어우러져 편안하고 세련된 분위기를 연출합니다."
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_20.jpg"
+                            alt=""
                           />
                         </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -2064,7 +2266,7 @@
                       playsinline
                       loop
                       muted
-                      src="/kr/story/buying-guide/2025/video/tv/vid_P14_101_02.mp4"
+                      src="/kr/story/buying-guide/2025/video/tv/vid_P14_101_02_720p.mp4"
                     ></video>
                   </div>
                 </div>
@@ -2074,21 +2276,15 @@
                     <div class="content">
                       <p class="tag">#맞춤선택 #공간활용 #엔터가전</p>
                       <h6 class="tip-title">
-                        생활 방식이 다르다면, TV 선택도 다르게
+                        TV 크기가 커질수록 몰입감 있게
                       </h6>
                       <p class="tip-text">
-                        공간과 라이프스타일에 따라 필요한 TV의 크기도 달라요.
-                        홈시어터처럼 몰입감 있는 시청 환경을 원하신다면
-                        207~245cm, 30평대의 넓은 거실에서 가족들과 영화나 스포츠
-                        경기 등을 즐기고 싶다면 177~194cm, 20평대 집에서
-                        가족들과 일상적인 콘텐츠를 즐기고 싶다면 152~176cm,
-                        원룸이나 서재 등 개인 공간에서 편하게 콘텐츠를 즐기고
-                        싶다면 100~151cm 크기를 추천드려요.
+                        우리 집에 어떤 사이즈의 TV가 잘 어울릴지 고민되시나요? 콘텐츠가 다양해지고 온라인 수업과 재택근무가 늘어난 요즘, TV는 화면이 클수록 몰입감이 높아져요. 그래서 이제는 ‘적당한 크기’보다 우리 집 공간에 맞는 가장 큰 화면을 선택하는 것이 중요해요. TV 시청 거리를 기준으로, 우리 집에 딱 맞는 권장 사이즈를 확인해보세요.
                       </p>
                     </div>
                     <div class="img">
                       <img
-                        src="/kr/story/buying-guide/2025/img/tv/img_P14_101_05.jpg"
+                        src="/kr/story/buying-guide/2025/img/tv/img_P14_101_16.jpg"
                         alt="밝은 거실 선반 위에 TV가 놓여 있으며, 화면에는 다채로운 색감의 기하학적 구조가 깊이감 있게 표현되어 공간에 생동감과 현대적인 분위기를 더하고 있습니다."
                         class="pc-only"
                       />
@@ -2162,13 +2358,7 @@
                       <div class="content">
                         <h5>알파11 AI 프로세서</h5>
                         <p>
-                          올레드의 12년 기술이 집약된 프로세서가 내가 보는
-                          영상과 사운드를 스스로 분석해 최적의 화질과 사운드로
-                          자동 조정해줍니다. 어떤 콘텐츠를 시청하든 압도적인
-                          퀄리티로 즐길 수 있습니다. 6.7배 향상된 AI 성능과
-                          2.2배 빨라진 처리 속도, 3.6배 개선된 그래픽 성능으로
-                          한층 더 선명한 화질과 풍부한 사운드, 생생한 컬러와
-                          밝기를 경험할 수 있습니다.
+                          내가 보는 영상과 사운드를 알아서 분석해 최적의 화질과 사운드를 바꿔주는 올레드의 12년 기술이 담긴 똑똑한 프로세서에요. 6.7배 향상된 AI 성능과 2.2배 빨라진 처리 속도, 3.6배 개선된 그래픽 성능으로 원본 그대로 생생하게 고화질 영상과 게임을 즐길 수 있습니다.
                         </p>
                         <div class="btn-wrap">
                           <a
@@ -2180,10 +2370,13 @@
                         </div>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_10.jpg"
-                            alt="이미지에는 LG의 AI 프로세서 α11 4K Gen2가 중앙에 강조되어 있으며, 배경은 전자 회로를 연상시키는 디자인입니다. 하단에는 NPU 6.7배, CPU 2.2배, GPU 3.6배라는 성능 향상 수치와 함께 각각 향상된 AI 퍼포먼스, 빨라진 처리 속도, 개선된 그래픽 성능이라는 문구가 적혀 있습니다."
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_21.jpg"
+                            alt=""
                           />
                         </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
                         <button class="btn-collapse-toggle">
                           <span>* 알파11 AI 프로세서</span>
                         </button>
@@ -2206,20 +2399,8 @@
                       <div class="content">
                         <h5>AI 화질 프로</h5>
                         <p>
-                          AI 4K 업스케일링 프로, AI 객체 인식, AI 다이내믹 톤
-                          매핑 프로가 장면을 세밀하게 분석하고 픽셀 단위로
-                          업스케일링해 더욱 부드럽고 선명한 4K 화질로 감상할 수
-                          있습니다. 밝기, 선명도, 대비까지 섬세하게 조절해 한층
-                          더 생생한 화면을 경험할 수 있습니다.
+                          장면을 세밀하게 분석하고 픽셀 단위로 업스케일해 더 부드럽고 선명한 4K 화질로 감상할 수 있고 밝기, 선명도, 대비까지 섬세하게 조절해줍니다.
                         </p>
-                        <div class="btn-wrap">
-                          <a
-                            class="btn-product"
-                            href="https://www.lge.co.kr/category/tvs?filterProduct=AT0000000145:KY0000002415:01,AT0000000145:KY0000002422:01,AT0000000145:KY0000002401:01,AT0000000145:KY0000002413:01,AT0000000145:KY0000002392:01"
-                            target="_blank"
-                            >제품 보러 가기</a
-                          >
-                        </div>
                         <div class="img">
                           <button class="btn-pause">일시멈춤</button>
                           <video
@@ -2227,9 +2408,12 @@
                             playsinline
                             loop
                             muted
-                            src="/kr/story/buying-guide/2025/video/tv/vid_P14_101_04.mp4"
+                            src="/kr/story/buying-guide/2025/video/tv/vid_P14_101_05.mp4"
                           ></video>
                         </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
                         <button class="btn-collapse-toggle">
                           <span>* AI 4K 업스케일링</span>
                         </button>
@@ -2255,25 +2439,17 @@
                       <div class="content">
                         <h5>AI 사운드 프로</h5>
                         <p>
-                          마치 14개의 스피커에 둘러싸인 듯 공간을 가득 채우는
-                          입체 서라운드 기술과, 배경음 속에서도 인물의 목소리를
-                          또렷하게 분리해주는 AI 보이스 리마스터링으로 더욱
-                          생생하게 대사를 전달합니다.
+                          마치 14개의 스피커에 둘러싸인 듯 공간을 가득 채우는 입체 서라운드와 배경음 속에서도 등장인물의 목소리를 추출해 더욱 또렷하고 선명하게 대사를 전달합니다.
                         </p>
-                        <div class="btn-wrap">
-                          <a
-                            class="btn-product"
-                            href="https://www.lge.co.kr/category/tvs?filterProduct=AT0000000145:KY0000002415:01,AT0000000145:KY0000002422:01,AT0000000145:KY0000002401:01,AT0000000145:KY0000002413:01,AT0000000145:KY0000002392:01"
-                            target="_blank"
-                            >제품 보러 가기</a
-                          >
-                        </div>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_12.jpg"
-                            alt="한 여성이 마이크를 잡고 노래를 부르고 있습니다. 그녀는 눈을 감고 있으며, 손을 들어 감정을 표현하고 있습니다. 배경은 흐릿하며, 음악의 파동을 나타내는 듯한 곡선형의 빛이 이미지에 더해져 있습니다. 조명은 부드럽고 따뜻한 분위기를 연출하고 있습니다."
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_23.jpg"
+                            alt=""
                           />
                         </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
                         <button class="btn-collapse-toggle">
                           <span>* AI 사운드 프로</span>
                         </button>
@@ -2302,33 +2478,23 @@
                       <div class="content">
                         <h5>AI 에이전트</h5>
                         <p>
-                          친구와 대화하듯, 말을 걸면 AI가 문맥을 파악해
-                          자연스럽게 답변합니다. 다양한 콘텐츠 검색은 기본,
-                          날씨나 뉴스 같은 실시간 정보 검색과 TV 등 가전 제어도
-                          가능합니다. 해외여행 일정 계획까지 쉽고 빠르게 도움
-                          받을 수 있습니다.
+                          친구와 대화하듯, 말을 걸면 AI가 문맥을 파악해 자연스럽게 답변합니다. 다양한 콘텐츠 검색은 기본, 날씨나 뉴스 같은 실시간 정보 검색과 TV 등 가전 제어도 가능합니다. 해외여행 일정 계획까지 쉽고 빠르게 도움 받을 수 있습니다.
                         </p>
-                        <div class="btn-wrap">
-                          <a
-                            class="btn-product"
-                            href="https://www.lge.co.kr/category/tvs?filterProduct=AT0000000145:KY0000002415:01,AT0000000145:KY0000002422:01,AT0000000145:KY0000002401:01,AT0000000145:KY0000002413:01,AT0000000145:KY0000002392:01"
-                            target="_blank"
-                            >제품 보러 가기</a
-                          >
-                        </div>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_13.jpg"
-                            alt="이미지에는 대형 경기장의 조명이 켜져 있는 모습과 다양한 스포츠 장면이 나열되어 있습니다. 축구, 격투기, 아이스하키, 배구, 농구, 미식축구 등의 장면이 포함되어 있습니다. 화면 하단에는 Please speak while holding down...이라는 문구가 있으며, 그 아래에는 이번 주 토요일 8시에 하는 스포츠 경기 알려줘라는 문구가 있습니다."
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_24.jpg"
+                            alt=""
                           />
                         </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
                         <button class="btn-collapse-toggle">
                           <span>* AI 에이전트</span>
                         </button>
                         <div class="collapse-content">
                           <p>
-                            * AI 에이전트 기능은 2024년 이후 출시된 올레드,
-                            QNED, 나노셀, UHD 전모델에 적용되었습니다.<br />
+                            * AI 에이전트 기능은 2024년 이후 출시된 올레드, QNED, 나노셀, UHD 전모델에 적용되었습니다.<br />
                             * AI 에이전트는 LLM Model 기반으로 작동합니다.<br />
                             * 사용을 위해서는 인터넷 연결이 필요합니다.
                           </p>
@@ -2346,31 +2512,18 @@
                       <div class="content">
                         <h5>AI 챗봇</h5>
                         <p>
-                          AI 챗봇을 불러 화면 밝기 등의 TV 설정을 손쉽게 조정할
-                          수 있습니다. 메뉴를 일일이 찾지 않아도, 말 한마디에
-                          원하는 설정으로 빠르게 변경이 가능합니다.
+                          화면 밝기 등의 TV 설정값을 조정하고 싶다면 AI 챗봇을 불러보세요. 메뉴를 찾아 헤매지 않아도 말 한마디에 원하는 설정으로 손쉽게 변경할 수 있습니다.
                         </p>
-                        <div class="btn-wrap">
-                          <a
-                            class="btn-product"
-                            href="https://www.lge.co.kr/category/tvs?filterProduct=AT0000000145:KY0000002415:01,AT0000000145:KY0000002422:01,AT0000000145:KY0000002401:01,AT0000000145:KY0000002413:01,AT0000000145:KY0000002392:01"
-                            target="_blank"
-                            >제품 보러 가기</a
-                          >
-                        </div>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_14.jpg"
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_25.jpg"
                             alt="이미지에는 우주복을 입은 인물이 미래 도시를 배경으로 서 있으며, 공중에 떠 있는 홀로그램을 보고 있습니다. 왼쪽에는 AI Chatbot 인터페이스가 있습니다. 배경은 붉은 하늘과 행성, 그리고 미래적인 구조물이 보입니다."
                           />
                         </div>
-                        <button class="btn-collapse-toggle">
-                          <span>* 인터넷 연결</span>
-                        </button>
-                        <div class="collapse-content">
-                          <p>* 사용을 위해서는 인터넷 연결이 필요합니다.</p>
-                          <button class="btn-collapse-close">접기</button>
-                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br />
+                          * 사용을 위해서는 인터넷 연결이 필요합니다.
+                        </p>
                       </div>
                     </div>
                     <div
@@ -2383,31 +2536,18 @@
                       <div class="content">
                         <h5>AI 매직 리모컨</h5>
                         <p>
-                          홈 버튼으로 webOS에 바로 접속하고, AI 버튼을 눌러
-                          궁금한 것을 물어보거나 도움을 요청할 수 있습니다. 휠을
-                          마우스처럼 조작해 손쉽게 사용이 가능합니다.
+                          홈 버튼으로 webOS에 바로 접속하고, AI 버튼을 눌러 궁금한 것을 물어보거나 도움을 요청해보세요. 휠을 마우스처럼 조작해 손쉽게 사용할 수 있습니다.
                         </p>
-                        <div class="btn-wrap">
-                          <a
-                            class="btn-product"
-                            href="https://www.lge.co.kr/category/tvs?filterProduct=AT0000000145:KY0000002415:01,AT0000000145:KY0000002422:01,AT0000000145:KY0000002401:01,AT0000000145:KY0000002413:01,AT0000000145:KY0000002392:01"
-                            target="_blank"
-                            >제품 보러 가기</a
-                          >
-                        </div>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_15.jpg"
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_26.jpg"
                             alt="검은색 리모컨이 어두운 배경 위에 놓여 있으며, 리모컨 위에는 AI 버튼, 쉬운 사용, 홈허브라는 텍스트가 각각의 아이콘과 함께 표시되어 있습니다. 리모컨에는 다양한 버튼이 있으며, 중앙에 휠이 있습니다. 배경은 여러 색의 원형이 겹쳐져 있는 모습입니다."
                           />
                         </div>
-                        <button class="btn-collapse-toggle">
-                          <span>* 인터넷 연결</span>
-                        </button>
-                        <div class="collapse-content">
-                          <p>* 사용을 위해서는 인터넷 연결이 필요합니다.</p>
-                          <button class="btn-collapse-close">접기</button>
-                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br />
+                          * 사용을 위해서는 인터넷 연결이 필요합니다.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -2429,29 +2569,510 @@
                   <h5>이런 포인트도 살펴보면 좋아요!</h5>
                   <div class="tip-content">
                     <div class="content">
-                      <p class="tag">#스마트홈 #효율중시 #똑똑한TV</p>
+                      <p class="tag">#스마트홈 #똑똑한TV</p>
                       <h6 class="tip-title">
-                        취향과 환경을 인식해, 선택과 고민도 TV가 알아서
+                        내 취향에 맞춘 쉽고 편한 AI 라이프
                       </h6>
                       <p class="tip-text">
-                        선택과 고민의 연속인 일상 속에서, 집에 돌아온 순간만큼은
-                        아무 생각 없이 쉬고 싶어져요. 하지만 막상 소파에 앉으면
-                        어떤 콘텐츠를 볼지 고민하느라 시간을 낭비하고, 사라진
-                        리모컨을 찾느라 집안 곳곳을 뒤지며 번거로웠던 적이 있을
-                        거예요. LG AI TV와 함께라면 어떤 걸 볼지 고민할 필요도,
-                        리모컨을 찾을 필요도 없어요. 선택과 고민은 TV에게 맡기고
-                        가만히 앉아서 여유를 즐기세요.
+                        고된 하루 끝에 집에 돌아온 순간만큼은 아무 생각 없이 쉬고 싶을 때가 있어요. 그런데 막상 소파에 앉으면 볼 콘텐츠를 고르느라 시간을 보내곤 합니다. LG AI TV와 함께라면 그런 고민은 끝! 볼 만한 콘텐츠를 추천해 주고, 날씨·뉴스 같은 실시간 정보 확인부터 해외여행 일정 계획까지 AI가 쉽고 빠르게 도와줍니다.
                       </p>
                     </div>
                     <div class="img">
                       <img
-                        src="/kr/story/buying-guide/2025/img/tv/img_P14_101_11.jpg"
-                        alt="거실에 소파에 앉아 있는 두 사람과 TV를 가리키는 아이가 있습니다. TV 화면에는 물속에서 수영하는 두 마리의 돌고래가 보입니다. "
+                        src="/kr/story/buying-guide/2025/img/tv/img_P14_101_22.jpg"
+                        alt=""
                         class="pc-only"
                       />
                       <img
                         src="/kr/story/buying-guide/2025/img/tv/img_M14_101_03.jpg"
-                        alt="거실에 소파에 앉아 있는 두 사람과 TV를 가리키는 아이가 있습니다. TV 화면에는 물속에서 수영하는 두 마리의 돌고래가 보입니다. "
+                        alt=""
+                        class="mobile-only"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                id="buying-point-4"
+                name="buying-point"
+                style="display: none"
+              >
+                <div class="subtab-wrap">
+                  <div class="subtab-btn">
+                    <button
+                      class="active"
+                      name="buying-guide-tab"
+                      data-target="#buying-point-4-1"
+                      data-group="buying-point-4"
+                    >
+                      무선 올레드 TV
+                    </button>
+                    <button
+                      name="buying-guide-tab"
+                      data-target="#buying-point-4-2"
+                      data-group="buying-point-4"
+                    >
+                      아트 오브제 디자인
+                    </button>
+                    <button
+                      name="buying-guide-tab"
+                      data-target="#buying-point-4-3"
+                      data-group="buying-point-4"
+                    >
+                      슬림 디자인
+                    </button>
+                    <button
+                      name="buying-guide-tab"
+                      data-target="#buying-point-4-4"
+                      data-group="buying-point-4"
+                    >
+                      갤러리 디자인
+                    </button>
+                    <button
+                      name="buying-guide-tab"
+                      data-target="#buying-point-4-5"
+                      data-group="buying-point-4"
+                    >
+                      갤러리 스탠드
+                    </button>
+                    <button
+                      name="buying-guide-tab"
+                      data-target="#buying-point-4-6"
+                      data-group="buying-point-4"
+                    >
+                      스탠바이미 / 스탠바이미 GO
+                    </button>
+                  </div>
+                  <div class="subtab-content">
+                    <div
+                      class="point-wrap"
+                      id="buying-point-4-1"
+                      name="buying-point-4"
+                    >
+                      <h4 class="hide">무선 올레드 TV</h4>
+                      <div class="content">
+                        <h5>무선 올레드 TV</h5>
+                        <p>
+                          LG 시그니처 OLED M 시리즈는 세계 최초 무선 연결로 모든 연결을 제로 커넥트 박스 하나에 담아 주변기기의 복잡한 선을 없애 공간을 깔끔하게, 원하는 곳 어디든 자유롭게 설치할 수 있습니다.
+                        </p>
+                        <div class="img">
+                          <button class="btn-pause">일시멈춤</button>
+                          <video
+                            autoplay
+                            playsinline
+                            loop
+                            muted
+                            src="/kr/story/buying-guide/2025/video/tv/vid_P14_101_06.mp4"
+                          ></video>
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br />
+                          * 구동 시 TV와 제로 커넥트 박스에 각각 전원 연결이 필요합니다.<br />
+                          * 세계 최초 무선 : 4k 120Hz 무선 AV 전송 기술, CES 2023 공식 어워드 인증 및 수상(혁신상)기준, 美 라스베이거스 (‘23년 1월)
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="point-wrap"
+                      id="buying-point-4-2"
+                      name="buying-point-4"
+                      style="display: none"
+                    >
+                      <h4 class="hide">아트 오브제 디자인</h4>
+                      <div class="content">
+                        <h5>아트 오브제 디자인</h5>
+                        <p>
+                          LG 올레드 오브제컬렉션 Pose (포제) TV는 벽에 걸거나 스탠드에 놓는다는 고정관념을 깨고, 예술작품처럼 인테리어에 스며들도록 디자인되었습니다. TV를 시청하지 않을 때도 원하는 그림이나 사진을 화면에 띄워 집안을 마치 갤러리처럼 연출할 수 있습니다.
+                        </p>
+                        <div class="img">
+                          <div class="point-slider2 autoplay-slider-wrap">
+                            <div class="slider">
+                              <div>
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/tv/img_P14_101_27.jpg"
+                                  alt=""
+                                />
+                              </div>
+                              <div>
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/tv/img_P14_101_27a.jpg"
+                                  alt=""
+                                />
+                              </div>
+                            </div>
+                            <div class="slider-controls">
+                              <button class="btn-play" data-state="playing">
+                                Pause
+                              </button>
+                              <div class="counter">
+                                <span class="current">1</span>
+                                <span class="bar"></span>
+                                <span class="total">2</span>
+                              </div>
+                              <button class="btn-nav btn-prev">Prev</button>
+                              <button class="btn-nav btn-next">Next</button>
+                            </div>
+                          </div>
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br />
+                          * TV와 스탠드를 분리하여 벽걸이(OLW480A 사용) 설치도 가능합니다.<br />
+                          * 본 촬영 컷은 연출된 이미지로, 실제 제품 구동시 전원 선이 연결되어야 하는 유선제품입니다.
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="point-wrap"
+                      id="buying-point-4-3"
+                      name="buying-point-4"
+                      style="display: none"
+                    >
+                      <h4 class="hide">슬림 디자인</h4>
+                      <div class="content">
+                        <h5>슬림 디자인</h5>
+                        <p>
+                          스스로 빛을 내는 올레드는 백라이트가 없어 슬림 디자인을 구현해 어떤 공간에서도 자연스럽게 어울립니다. 또한 베젤이 얇아 화면에 대한 몰입도가 높아집니다.
+                        </p>
+                        <div class="img">
+                          <button class="btn-pause">일시멈춤</button>
+                          <video
+                            autoplay
+                            playsinline
+                            loop
+                            muted
+                            src="/kr/story/buying-guide/2025/video/tv/vid_P14_101_07.mp4"
+                          ></video>
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="point-wrap"
+                      id="buying-point-4-4"
+                      name="buying-point-4"
+                      style="display: none"
+                    >
+                      <h4 class="hide">갤러리 디자인</h4>
+                      <div class="content">
+                        <h5>갤러리 디자인</h5>
+                        <p>
+                          LG 올레드 evo 벽걸이형 (벽밀착)은 벽면에 간격 없이 밀착되어 액자처럼 연출할 수 있고 외부 입력 단자를 본체에 모두 내장해 마치 벽과 하나 된 듯 깔끔하게 설치할 수 있습니다.
+                        </p>
+                        <div class="img">
+                          <button class="btn-pause">일시멈춤</button>
+                          <video
+                            autoplay
+                            playsinline
+                            loop
+                            muted
+                            src="/kr/story/buying-guide/2025/video/tv/vid_P14_101_09.mp4"
+                          ></video>
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다. <br />
+                          * 벽면 상황에 따라 유격이 생길 수 있고, 설치가 불가할 수 있습니다.
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="point-wrap"
+                      id="buying-point-4-5"
+                      name="buying-point-4"
+                      style="display: none"
+                    >
+                      <h4 class="hide">갤러리 스탠드</h4>
+                      <div class="content">
+                        <h5>갤러리 스탠드</h5>
+                        <p>
+                          TV를 보지 않을 땐 갤러리 스탠드를 활용해 공간을 갤러리처럼 바꿔보세요. 예술 작품을 화면에 띄워 분위기를 전환하거나 인테리어에 감각적인 변화를 줄 수 있습니다.
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_29.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br />
+                          * 갤러리 스탠드는 별도 구매가 필요합니다.
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="point-wrap"
+                      id="buying-point-4-6"
+                      name="buying-point-4"
+                      style="display: none"
+                    >
+                      <h4 class="hide">스탠바이미 /스탠바이미 Go</h4>
+                      <div class="content">
+                        <h5>스탠바이미 /스탠바이미 Go</h5>
+                        <p>
+                          원하는 곳에서 자유롭게 즐길 수 있는 이동형 스크린으로 집 안 곳곳을 이동하며 공간 제약 없이 콘텐츠를 감상할 수 있습니다. 스탠바이미 Go는 캐리어형 디자인으로 휴대성을 극대화하였습니다.
+                        </p>
+                        <div class="img">
+                          <div class="point-slider2 autoplay-slider-wrap">
+                            <div class="slider">
+                              <div>
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/tv/img_P14_101_30.jpg"
+                                  alt=""
+                                />
+                              </div>
+                              <div>
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/tv/img_P14_101_30a.jpg"
+                                  alt=""
+                                />
+                              </div>
+                            </div>
+                            <div class="slider-controls">
+                              <button class="btn-play" data-state="playing">
+                                Pause
+                              </button>
+                              <div class="counter">
+                                <span class="current">1</span>
+                                <span class="bar"></span>
+                                <span class="total">2</span>
+                              </div>
+                              <button class="btn-nav btn-prev">Prev</button>
+                              <button class="btn-nav btn-next">Next</button>
+                            </div>
+                          </div>
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="media-des">
+                  <h5>영상으로 한번 더, 쉽게 설명해 드릴게요.</h5>
+                  <div class="video-wrap">
+                    <button class="btn-mute muted">음소거</button>
+                    <button class="btn-pause">일시멈춤</button>
+                    <video
+                      playsinline
+                      loop
+                      muted
+                      src="/kr/story/buying-guide/2025/video/tv/vid_P14_101_08.mp4"
+                    ></video>
+                  </div>
+                </div>
+                <div class="point-tip">
+                  <h5>이런 포인트도 살펴보면 좋아요!</h5>
+                  <div class="tip-content">
+                    <div class="content">
+                      <p class="tag">#인테리어 완성 #공간 여백 #감각적인 일상</p>
+                      <h6 class="tip-title">
+                        우리 집 인테리어를 한층 더 빛나게
+                      </h6>
+                      <p class="tip-text">
+                        TV 하나만으로도 집 분위기가 훨씬 달라질 수 있어요. 선이 보이지 않는 깔끔한 디자인과 슬림한 화면이 공간을 더 정돈되고 여유 있게 만들어줘요. TV를 보지 않을 때는 예술 작품처럼 자연스럽게 어우러져 집안 분위기를 한층 더 쾌적하게 해줘요. 필요한 순간에는 몰입감 있는 화면으로, 일상에서는 감각적인 인테리어 포인트로 활용할 수 있어요.
+                      </p>
+                    </div>
+                    <div class="img">
+                      <img
+                        src="/kr/story/buying-guide/2025/img/tv/img_M14_101_05.jpg"
+                        alt=""
+                        class="pc-only"
+                      />
+                      <img
+                        src="/kr/story/buying-guide/2025/img/tv/img_M14_101_05.jpg"
+                        alt=""
+                        class="mobile-only"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                id="buying-point-5"
+                name="buying-point"
+                style="display: none"
+              >
+                <div class="subtab-wrap">
+                  <div class="subtab-btn">
+                    <button
+                      class="active"
+                      name="buying-guide-tab"
+                      data-target="#buying-point-5-1"
+                      data-group="buying-point-5"
+                    >
+                      버추얼 서라운드
+                    </button>
+                    <button
+                      name="buying-guide-tab"
+                      data-target="#buying-point-5-2"
+                      data-group="buying-point-5"
+                    >
+                      돌비 애트모스
+                    </button>
+                    <button
+                      name="buying-guide-tab"
+                      data-target="#buying-point-5-3"
+                      data-group="buying-point-5"
+                    >
+                      WOWCAST 빌트인
+                    </button>
+                    <button
+                      name="buying-guide-tab"
+                      data-target="#buying-point-5-4"
+                      data-group="buying-point-5"
+                    >
+                      블루투스 서라운드 기능
+                    </button> 
+                  </div>
+                  <div class="subtab-content">
+                    <div
+                      class="point-wrap"
+                      id="buying-point-5-1"
+                      name="buying-point-5"
+                    >
+                      <h4 class="hide">버추얼 서라운드</h4>
+                      <div class="content">
+                        <h5>버추얼 서라운드</h5>
+                        <p>
+                          공간 곳곳에 스피커가 펼쳐진 듯한 입체적인 음향을 즐길 수 있습니다. 소리가 상하좌우로 자연스럽게 퍼지며 깊은 몰입감을 선사합니다.
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_31.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="point-wrap"
+                      id="buying-point-5-2"
+                      name="buying-point-5"
+                      style="display: none"
+                    >
+                      <h4 class="hide">돌비 애트모스</h4>
+                      <div class="content">
+                        <h5>돌비 애트모스</h5>
+                        <p>
+                          별도 사운드바 없이도 현실감 넘치는 입체 사운드가 온몸을 감싸며 마치 영화 속에 들어가 있는 듯한 생동감을 느낄 수 있습니다.
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_32.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="point-wrap"
+                      id="buying-point-5-3"
+                      name="buying-point-5"
+                      style="display: none"
+                    >
+                      <h4 class="hide">WOWCAST 빌트인</h4>
+                      <div class="content">
+                        <h5>WOWCAST 빌트인</h5>
+                        <p>
+                          TV와 사운드바를 복잡한 선 없이 무선으로 연결할 수 있어, 더욱 깔끔한 공간에서 풍성한 고음질 사운드를 즐길 수 있습니다.
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_33.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
+                        <button class="btn-collapse-toggle">
+                          <span>* 빌트인</span>
+                        </button>
+                        <div class="collapse-content">
+                          <p>
+                            * 해당 기능을 지원하는 LG 사운드바를 연결해야 합니다. (사운드바 별매) 
+                          </p>
+                          <button class="btn-collapse-close">접기</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="point-wrap"
+                      id="buying-point-5-4"
+                      name="buying-point-5"
+                      style="display: none"
+                    >
+                      <h4 class="hide">블루투스 서라운드 기능 </h4>
+                      <div class="content">
+                        <h5>블루투스 서라운드 기능 </h5>
+                        <p>
+                          TV와 블루투스 스피커를 동시에 연결해 생생한 현장감을 선사합니다. 특히 스포츠 경기를 시청할 때 더욱 몰입감을 더해줍니다.
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/tv/img_P14_101_34.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
+                        <button class="btn-collapse-toggle">
+                          <span>* 블루투스 서라운드 레디</span>
+                        </button>
+                        <div class="collapse-content">
+                          <p>
+                            * 블루투스 스피커를 연결한 상태에서도 TV 스피커에서 사운드가 출력되므로 관중의 함성소리까지 재현하는 서라운드 환경을 즐기실 수 있습니다.<br />
+                            * 최대 두 대의 LG 블루투스 스피커를 동시에 연결할 수 있으며, 다른 브랜드의 블루투스 스피커는 연결이 제한될 수 있습니다.
+                          </p>
+                          <button class="btn-collapse-close">접기</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="media-des">
+                  <h5>영상으로 한번 더, 쉽게 설명해 드릴게요.</h5>
+                  <div class="video-wrap">
+                    <button class="btn-mute muted">음소거</button>
+                    <button class="btn-pause">일시멈춤</button>
+                    <video
+                      playsinline
+                      loop
+                      muted
+                      src="/kr/story/buying-guide/2025/video/tv/vid_P14_101_06_720p.mp4"
+                    ></video>
+                  </div>
+                </div>
+                <div class="point-tip">
+                  <h5>이런 포인트도 살펴보면 좋아요!</h5>
+                  <div class="tip-content">
+                    <div class="content">
+                      <p class="tag">#AI 편의성 #몰입 사운드 #무선 환경</p>
+                      <h6 class="tip-title">
+                        입체적인 사운드로 높아지는 몰입감
+                      </h6>
+                      <p class="tip-text">
+                        퇴근 후 소파에 앉아 리모컨을 찾기보다 말 한마디로 분위기를 바꾸는 집을 떠올려보세요. 화면 밝기나 사운드를 상황에 맞게 손쉽게 바꾸며, 복잡한 설정 없이 콘텐츠에 바로 몰입할 수 있어요. 별도의 사운드바 없이도 공간을 가득 채우는 입체적인 사운드가 일상을 작은 영화관처럼 만들어줘요. 집에서도 영화나 스포츠를 몰입감 있게 즐기고 싶고, 공간은 항상 깔끔하게 유지하고 싶은 분께 추천해요.
+                      </p>
+                    </div>
+                    <div class="img">
+                      <img
+                        src="/kr/story/buying-guide/2025/img/tv/img_M14_101_05.jpg"
+                        alt=""
+                        class="pc-only"
+                      />
+                      <img
+                        src="/kr/story/buying-guide/2025/img/tv/img_M14_101_04.jpg"
+                        alt=""
                         class="mobile-only"
                       />
                     </div>
@@ -2472,21 +3093,21 @@
                   <button
                     class="active"
                     name="buying-guide-tab"
-                    data-target="#buying-point-4"
+                    data-target="#buying-point-6"
                     data-group="buying-point-45"
                   >
-                    사운드
+                    webOS 25
                   </button>
                   <button
                     name="buying-guide-tab"
-                    data-target="#buying-point-5"
+                    data-target="#buying-point-7"
                     data-group="buying-point-45"
                   >
-                    디자인
+                    LG Gallery+
                   </button>
                 </div>
                 <div class="tab-content">
-                  <div id="buying-point-4" name="buying-point-45">
+                  <div id="buying-point-6" name="buying-point-45">
                     <div
                       class="slideWrap colWrap"
                       style="--box-height: 472px; --box-m-height: 354px"
@@ -2495,207 +3116,37 @@
                         <div>
                           <div class="content-wrap">
                             <div>
-                              <h4>버추얼 서라운드</h4>
+                              <h4>webOS 25</h4>
                               <p>
-                                버추얼 서라운드는 공간 곳곳에 스피커가 펼쳐진
-                                듯한 입체적인 음향을 만들어줍니다. 소리가
-                                상하좌우로 자연스럽게 퍼져, 영상 속에 들어간 듯
-                                한층 깊은 몰입감을 느낄 수 있습니다.
+                                보이스 ID를 등록하면 별도의 조작 없이 자동으로 로그인되어, 개인 취향에 맞는 콘텐츠와 서비스를 바로 이용할 수 있습니다. 간단한 선택만으로 화면과 사운드를 각각 최적의 설정값으로 맞춰, 나에게 가장 편안한 감상 환경을 제공합니다. 또한 최대 5년간 webOS 업그레이드를 지원해, 매년 새롭게 진화하는 기능과 서비스를 경험할 수 있습니다.
                               </p>
                             </div>
                             <div>
                               <div class="media-wrap">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/tv/img_P14_101_16.jpg"
-                                  alt="기타를 연주하는 사람의 모습이 화면에 나타나 있습니다. 화면 주위로 음악을 상징하는 듯한 점과 선들이 배경에 퍼져 있습니다. 배경은 어두운 색조로 되어 있으며, 화면은 밝은 조명 아래에서 기타 연주자의 모습을 선명하게 보여주고 있습니다."
-                                />
-                              </div>
-                            </div>
-                          </div>
-                          <div class="detail-wrap">
-                            <button class="btn-collapse-toggle hidden">
-                              <span>* 세부 정보</span>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div>
-                          <div class="content-wrap">
-                            <div>
-                              <h4>돌비 애트모스</h4>
-                              <p>
-                                돌비 애트모스는 소리를 360°로 전달하는 서라운드
-                                사운드 시스템입니다. 별도의 사운드바 없이도
-                                좌우와 머리 위까지 퍼지는 입체적인 사운드로,
-                                집에서도 마치 영화관에 있는 듯한 몰입감을 느낄
-                                수 있습니다.
-                              </p>
-                            </div>
-                            <div>
-                              <div class="media-wrap">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/tv/img_P14_101_17.jpg"
-                                  alt="세 명의 사람들이 음악을 연주하는 장면입니다. 한 사람은 기타를 연주하고, 다른 사람은 마이크를 잡고 노래를 부르고 있으며, 또 다른 사람은 키보드를 연주하고 있습니다. 각 사람 주변에 다양한 색상의 원형 파장이 표현되어 있어 소리의 움직임을 시각적으로 나타내고 있습니다. 배경은 실내로 보이며, 조명이 따뜻한 분위기를 연출하고 있습니다."
-                                />
-                              </div>
-                            </div>
-                          </div>
-                          <div class="detail-wrap">
-                            <button class="btn-collapse-toggle hidden">
-                              <span>* 세부 정보</span>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div>
-                          <div class="content-wrap">
-                            <div>
-                              <h4>알파11 AI 프로세서</h4>
-                              <p>
-                                알파11 AI 프로세서는 올레드의 12년 기술력이
-                                집약된 결과물입니다. 알파11 AI 프로세서가 픽셀
-                                단위로 정밀하게 업스케일링해, 시청 환경과
-                                콘텐츠에 따라 최적화된 음질을 제공합니다. 덕분에
-                                한층 더 깊이 있는 사운드를 즐길 수 있습니다.
-                              </p>
-                            </div>
-                            <div>
-                              <div class="media-wrap">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/tv/img_P14_101_18.jpg"
-                                  alt="이미지에는 LG의 AI 프로세서 α11 4K Gen2가 중앙에 강조되어 있으며, 배경은 전자 회로를 연상시키는 디자인입니다. 하단에는 NPU 6.7배, CPU 2.2배, GPU 3.6배라는 성능 향상 수치와 함께 각각 향상된 AI 퍼포먼스, 빨라진 처리 속도, 개선된 그래픽 성능이라는 문구가 적혀 있습니다."
+                                  src="/kr/story/buying-guide/2025/img/tv/img_P14_101_35.jpg"
+                                  alt=""
                                 />
                               </div>
                             </div>
                           </div>
                           <div class="detail-wrap">
                             <button class="btn-collapse-toggle">
-                              <span>* 알파11 AI 프로세서</span>
+                              <span>* 보이스 ID / webOS 25 </span>
                             </button>
                             <div class="collapse-content">
                               <p>
-                                * 12년의 기술력: 2013년 LG 올레드 출시 기준<br />
-                                * 알파7 프로세서 비교 기준
-                              </p>
-                              <button class="btn-collapse-close">접기</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div>
-                          <div class="content-wrap">
-                            <div>
-                              <h4>WOWCAST 빌트인</h4>
-                              <p>
-                                TV와 사운드바를 복잡한 선 없이 무선으로 연결할
-                                수 있어, 더욱 깔끔한 공간에서 사운드바에 탑재된
-                                고음질의 풍성한 사운드를 즐길 수 있습니다.
-                              </p>
-                            </div>
-                            <div>
-                              <div class="media-wrap">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/tv/img_P14_101_19.jpg"
-                                  alt="TV 하단 베젤 근처에 위치한 Wi-Fi 아이콘이 보이며, 화면에는 현악기 연주 장면 일부가 비쳐 있는 디테일 클로즈업 이미지입니다."
-                                />
-                              </div>
-                            </div>
-                          </div>
-                          <div class="detail-wrap">
-                            <button class="btn-collapse-toggle">
-                              <span>* 빌트인</span>
-                            </button>
-                            <div class="collapse-content">
-                              <p>
-                                * 해당 기능을 지원하는 LG 사운드바를 연결해야
-                                합니다. (사운드바 별매)
-                              </p>
-                              <button class="btn-collapse-close">접기</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div>
-                          <div class="content-wrap">
-                            <div>
-                              <h4>AI 공간 인식 사운드+</h4>
-                              <p>
-                                AI가 TV가 설치된 공간의 크기와 가구의 배치를
-                                자동으로 인식합니다. 거실처럼 넓은 공간에서도,
-                                벽면이 가까운 작은 방에서도, 청취자의 위치는
-                                물론, 후방 스피커가 설치된 위치까지 파악해 왜곡
-                                없는 사운드를 즐길 수 있도록 음향을
-                                최적화합니다.
-                              </p>
-                            </div>
-                            <div>
-                              <div class="media-wrap">
-                                <button class="btn-pause">일시멈춤</button>
-                                <video
-                                  autoplay
-                                  playsinline
-                                  loop
-                                  muted
-                                  src="/kr/story/buying-guide/2025/video/tv/vid_P14_105_01.mp4"
-                                ></video>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="detail-wrap">
-                            <button class="btn-collapse-toggle">
-                              <span>* AI 공간 인식 사운드+</span>
-                            </button>
-                            <div class="collapse-content">
-                              <p>
-                                * 해당 기능을 사용하기 위해서는 인공지능
-                                리모컨이 필요합니다.<br />
-                                * 주변 환경에 따라 차이가 있을 수 있습니다.
-                              </p>
-                              <button class="btn-collapse-close">접기</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div>
-                          <div class="content-wrap">
-                            <div>
-                              <h4>블루투스 서라운드 기능</h4>
-                              <p>
-                                블루투스 서라운드 기능은 TV와 블루투스 스피커를
-                                동시에 연결해 생생한 현장감을 선사합니다. 특히
-                                스포츠 경기를 시청할 때 더욱 몰입감을
-                                더해줍니다.
-                              </p>
-                            </div>
-                            <div>
-                              <div class="media-wrap">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/tv/img_P14_101_20.jpg"
-                                  alt="네 명의 사람들이 거실에서 TV로 축구 경기를 시청하며 환호하고 있고, 테이블 위에는 간식이 놓여 있어 생동감 넘치는 응원 분위기가 연출된 장면입니다."
-                                />
-                              </div>
-                            </div>
-                          </div>
-                          <div class="detail-wrap">
-                            <button class="btn-collapse-toggle">
-                              <span>* 블루투스 서라운드 레디</span>
-                            </button>
-                            <div class="collapse-content">
-                              <p>
-                                블루투스 스피커를 연결한 상태에서도 TV
-                                스피커에서 사운드가 출력되므로 관중의
-                                함성소리까지 재현하는 서라운드 환경을 즐기실 수
-                                있습니다.
+                                <b>[보이스 ID]</b>
+                                * 소비자의 이해를 돕기 위해 연출된 이미지입니다.<br />
+                                * 최대 10개의 프로필 설정이 가능합니다.<br />
+                                * 보이스 ID는 24년 이후 출시된 UHD 이상 모델에서 지원됩니다.<br />
+                                * 보이스 ID는 LG Apps, 홈 화면, LG 피트니스, 스포츠 알람, 홈 오피스, 음악, 게임 등의 메뉴에서 사용 가능합니다.
                               </p>
                               <p>
-                                * 최대 두 대의 LG 블루투스 스피커를 동시에
-                                연결할 수 있으며, 다른 브랜드의 블루투스
-                                스피커는 연결이 제한될 수 있습니다.
+                                <b>[webOS 25]</b>
+                                * 소비자의 이해를 돕기 위해 연출된 이미지입니다.<br />
+                                * 구매한 TV의 기본 탑재된 webOS 버전을 기준으로, 최대 5년간 총 4회의 OS 업그레이드를 지원합니다.<br />
+                                * 2023년형 이후 모델은 올레드, QNED, 나노셀, UHD 전모델 대상, 2022년형 모델은 올레드 전제품 및 8K QNED 대상
                               </p>
                               <button class="btn-collapse-close">접기</button>
                             </div>
@@ -2707,267 +3158,58 @@
                       * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상
                       및 스펙은 다를 수 있습니다.
                     </p>
-                    <div class="media-des">
+                    <!-- <div class="media-des">
                       <h5>영상으로 한번 더, 쉽게 설명해 드릴게요.</h5>
                       <div class="video-wrap">
                         <button class="btn-mute muted">음소거</button>
                         <button class="btn-pause">일시멈춤</button>
-                        <!-- <video
+                        <video
                           playsinline
                           loop
                           muted
                           src="/kr/story/buying-guide/2025/video/tv/vid_P14_101_06.mp4"
-                        ></video> -->
+                        ></video>
                       </div>
-                    </div>
+                    </div> -->
                   </div>
                   <div
-                    id="buying-point-5"
+                    id="buying-point-7"
                     name="buying-point-45"
                     style="display: none"
                   >
                     <div
                       class="slideWrap colWrap"
-                      style="--box-height: 590px; --box-m-height: 437px"
+                      style="--box-height: 472px; --box-m-height: 354px"
                     >
                       <div class="col">
                         <div>
                           <div class="content-wrap">
                             <div>
-                              <h4>스탠바이미 /스탠바이미 GO</h4>
+                              <h4>LG Gallery+</h4>
                               <p>
-                                LG StanbyME와 StanbyME Go는 원하는 곳에서
-                                자유롭게 즐길 수 있는 이동형 스크린입니다. 집
-                                안에서는 편하게 이동해 다양한 자세에 맞춰 시청할
-                                수 있고, StandbyME Go는 캐리어형 디자인으로
-                                야외에서도 간편하게 펼쳐 사용할 수 있습니다.
-                                화면을 꺼두면 사진이나 이미지로 공간 분위기를
-                                감각적으로 바꿔줄 수 있습니다.
-                              </p>
-                              <a
-                                href="https://www.lge.co.kr/category/stan-by-me"
-                                target="_blank"
-                                class="btn-product"
-                                >제품 보러 가기</a
-                              >
-                            </div>
-                            <div>
-                              <div class="media-wrap">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/tv/img_P14_101_21.jpg"
-                                  alt="밝은 햇살이 드는 거실에 디지털 시계 화면이 표시된 스마트 디스플레이와 메시지 보드, 벽에 걸린 액자형 디스플레이 등이 배치되어 있어 감각적이고 산뜻한 분위기를 연출하는 장면입니다."
-                                />
-                              </div>
-                            </div>
-                          </div>
-                          <div class="detail-wrap">
-                            <button class="btn-collapse-toggle hidden">
-                              <span>* 세부 정보</span>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div>
-                          <div class="content-wrap">
-                            <div>
-                              <h4>무선 올레드 TV</h4>
-                              <p>
-                                LG 시그니처 OLED M 시리즈는 심플한 공간을 해치지
-                                않도록, 모든 연결을 제로 커넥트 박스 하나에
-                                담았습니다. 세계 최초 무선 연결로 주변이 한층
-                                깔끔해집니다. 전용 스탠드를 활용해 TV를 하나의
-                                작품처럼 세워두거나, 갤러리 디자인 그대로 벽에
-                                걸 수 있습니다.
-                              </p>
-                            </div>
-                            <div>
-                              <div class="media-wrap">
-                                <button class="btn-pause">일시멈춤</button>
-                                <video
-                                  autoplay
-                                  playsinline
-                                  loop
-                                  muted
-                                  src="/kr/story/buying-guide/2025/video/tv/vid_P14_105_02.mp4"
-                                ></video>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="detail-wrap">
-                            <button class="btn-collapse-toggle">
-                              <span>* 제로 커넥트 박스</span>
-                            </button>
-                            <div class="collapse-content">
-                              <p>
-                                * 제로 커넥트 박스는 TV의 무선 수신기보다 낮게
-                                설치해야 합니다.<br />
-                                * 장치는 제로 커넥트 박스에 유선으로 연결해야
-                                합니다.<br />
-                                * TV 화면과 제로 커넥트 박스에 전원 케이블을
-                                연결해야 합니다.
-                              </p>
-                              <button class="btn-collapse-close">접기</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div>
-                          <div class="content-wrap">
-                            <div>
-                              <h4>아트 오브제 디자인</h4>
-                              <p>
-                                LG 올레드 오브제컬렉션 Pose (포제) TV는 벽걸이와
-                                스탠드형의 고정관념을 깬 디자인입니다. 벽에
-                                기대거나 밀착 설치, 혹은 예술 작품처럼 세워둘 수
-                                있습니다. TV를 보지 않을 땐 작품을 화면에 띄워
-                                갤러리처럼 분위기를 전환하고, 감각적으로 연출할
-                                수 있습니다.
+                                LG Gallery+를 구독하면 4천여 점 이상의 아트, 사진, 음악 등 다양한 콘텐츠로 TV 화면을 꾸밀 수 있습니다. 나만의 맞춤형 갤러리로 쉽고 간편하게 공간의 분위기를 바꿔보세요.
                               </p>
                             </div>
                             <div>
                               <div class="media-wrap">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/tv/img_P14_101_22.jpg"
-                                  alt="고급스러운 클래식 인테리어의 거실 한가운데 TV가 놓여 있으며, 화면에는 파도가 부드럽게 밀려오는 해안 풍경이 재생되어 공간의 차분하고 품격 있는 분위기를 더욱 강조합니다."
+                                  src="/kr/story/buying-guide/2025/img/tv/img_P14_101_36.jpg"
+                                  alt=""
                                 />
                               </div>
                             </div>
                           </div>
                           <div class="detail-wrap">
                             <button class="btn-collapse-toggle">
-                              <span>* 아트 오브제 디자인</span>
+                              <span>* LG Gallery+</span>
                             </button>
                             <div class="collapse-content">
                               <p>
-                                * TV와 스탠드를 분리하여 벽걸이(OLW480A) 설치도
-                                가능합니다.<br />
-                                * 실제 제품 구동시 전원선이 연결돼야 하는 유선
-                                제품입니다.
-                              </p>
-                              <button class="btn-collapse-close">접기</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div>
-                          <div class="content-wrap">
-                            <div>
-                              <h4>슬림 디자인</h4>
-                              <p>
-                                스스로 빛을 내는 올레드는 백라이트, 액정, 컬러
-                                필터 등의 구성 요소를 필요로 하지 않아, 얇고
-                                가벼운 무게의 구현이 가능합니다. 얇은 베젤의
-                                슬림한 디자인으로 공간을 아름답게 연출할 수
-                                있습니다.
-                              </p>
-                            </div>
-                            <div>
-                              <div class="media-wrap">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/tv/img_P14_101_23.jpg"
-                                  alt="미니멀한 거실 벽면에 TV가 설치되어 있으며, 화면에는 거친 파도가 부딪히는 해변 풍경이 그림처럼 표현되어 있습니다. 큰 창을 통해 밝은 하늘과 야외 테라스가 보이며, 차분한 색감의 가구들과 함께 여유롭고 세련된 분위기를 연출합니다."
-                                />
-                              </div>
-                            </div>
-                          </div>
-                          <div class="detail-wrap">
-                            <button class="btn-collapse-toggle hidden">
-                              <span>* 세부 정보</span>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div>
-                          <div class="content-wrap">
-                            <div>
-                              <h4>갤러리 디자인</h4>
-                              <p>
-                                LG올레드 evo(벽걸이형)는 벽면에 간격 없이
-                                밀착돼, 액자처럼 연출할 수 있습니다. 외부 입력
-                                단자를 본체에 모두 내장해, 진짜 벽처럼 깔끔하게
-                                설치할 수 있습니다. 어느 공간에서나 우아한
-                                인테리어를 연출합니다.
-                              </p>
-                            </div>
-                            <div>
-                              <div class="media-wrap">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/tv/img_P14_101_24.jpg"
-                                  alt="넓은 공간의 거실 벽면에 액자처럼 걸린 TV가 미술 작품을 선명하게 띄우고 있으며, 주변에는 다양한 예술 작품이 배치되어 갤러리 같은 고급스러운 분위기를 연출합니다."
-                                />
-                              </div>
-                            </div>
-                          </div>
-                          <div class="detail-wrap">
-                            <button class="btn-collapse-toggle">
-                              <span>* 벽밀착 벽걸이</span>
-                            </button>
-                            <div class="collapse-content">
-                              <p>
-                                * 설치 환경에 따라 '벽밀착 벽걸이' 적용이
-                                어렵거나 TV와 벽 사이에 틈이 생길 수 있습니다.
-                              </p>
-                              <button class="btn-collapse-close">접기</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div>
-                          <div class="content-wrap">
-                            <div>
-                              <h4>갤러리 스탠드</h4>
-                              <p>
-                                TV를 보지 않을 땐, 갤러리 스탠드를 활용해 공간을
-                                갤러리처럼 바꿔보세요. 모던한 감성과 고급스러운
-                                소재감의 스탠드가 공간을 아름답게 연출합니다.
-                                예술 작품을 화면에 띄워 분위기를 전환하거나,
-                                인테리어에 감각적인 변화를 줄 수 있습니다.
-                              </p>
-                            </div>
-                            <div>
-                              <div class="media-wrap">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/tv/img_P14_101_25.jpg"
-                                  alt="창가가 시원하게 트인 거실에 스탠드형 TV가 배치되어 있으며, 화면에는 다채로운 색감의 추상 아트가 선명하게 표현되어 모던하고 감각적인 분위기를 더합니다."
-                                />
-                              </div>
-                            </div>
-                          </div>
-                          <div class="detail-wrap">
-                            <button class="btn-collapse-toggle">
-                              <span>* 갤러리 스탠드</span>
-                            </button>
-                            <div class="collapse-content">
-                              <p>
-                                * 갤러리 스탠드는 별도 구매가 필요합니다.<br />
-                                * 완벽하게 정돈되는 올인원 스탠드 : 원하는
-                                위치에 갤러리 스탠드를 설치하기 위해 제품 후면에
-                                멀티탭을 설치하고 TV전원 코드를 연결한 후 멀티탭
-                                케이블을 스탠드 다리에 넣어 사용하시기
-                                바랍니다.(멀티탭 별매)<br />
-                                * 셋탑박스, 공유기, 멀티탭의 종류 및 형태에 따라
-                                갤러리 스탠드 후면 거치 가능 여부가 달라질 수
-                                있습니다.<br />
-                                * 갤러리 스탠드 적용 가능 모델 :<br />
-                                - `24년형 OLED65/55 G4,C4,B4 | 65/55QNED85T,
-                                65/55QNED80T | 65/55UT9300, 65/55UT8300<br />
-                                - `23년형 OLED65/55 G3,C3,B3,A3 | 65/55QNED80R |
-                                65/55UR9300, 65/55UR8300<br />
-                                - `22년형 OLED65/55 G2,C2,B2,A2 | 65NANO83,
-                                65/55NANO75 | 65/55UQ9300, 65/55UQ8300<br />
-                                - `21년형 OLED65/55G1, C1, B1, A1 | 65/55NANO83,
-                                75 | 65/55UP8300<br />
-                                - `20년형 OLED65/55GX, CX, BX | 65/55NANO93,
-                                87,83
-                                <br />
-                                - `19년형 OLED65/55C9,B9 | 55SM9800, 9600 |
-                                65/55SM8900, 8300 (해당 모델 외에는 갤러리
-                                스탠드 적용 불가)
+                                * LG Gallery+의 모든 콘텐츠와 기능을 이용하려면 구독이 필요하며, 유료 구독시 4천여개 이상의 컨텐츠를 제한 없이 이용할 수 있습니다.<br />
+                                * 월간 구독료는 매월 5천 원이며, 구독 시 webOS Pay를 통해 요금이 부과됩니다. 구독료는 추후 변동될 수 있습니다.<br />
+                                * 신규 가입 고객에게는 1개월 무료 체험이 제공되며, 해당 혜택은 사전 안내 없이 변경 및 중단될 수 있습니다.<br />
+                                * 제공되는 콘텐츠는 국가별로 상이하며, 사전 안내 없이 변경되거나 중단될 수 있습니다.<br />
+                                * 소비자의 이해를 돕기 위해 연출된 영상/이미지입니다.
                               </p>
                               <button class="btn-collapse-close">접기</button>
                             </div>
@@ -2979,19 +3221,19 @@
                       * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상
                       및 스펙은 다를 수 있습니다.
                     </p>
-                    <div class="media-des">
+                    <!-- <div class="media-des">
                       <h5>영상으로 한번 더, 쉽게 설명해 드릴게요.</h5>
                       <div class="video-wrap">
                         <button class="btn-mute muted">음소거</button>
                         <button class="btn-pause">일시멈춤</button>
-                        <!-- <video
+                        <video
                           playsinline
                           loop
                           muted
                           src="/kr/story/buying-guide/2025/video/tv/vid_P14_101_08.mp4"
-                        ></video> -->
+                        ></video>
                       </div>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
               </div>
