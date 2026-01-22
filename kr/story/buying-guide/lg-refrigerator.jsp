@@ -443,7 +443,7 @@
                 <div class="text-wrap">
                   <h4>냉장고 하나로 정수와 얼음을 동시에</h4>
                   <p>
-                    800L대 넉넉한 용량과 직수형 얼음정수 시스템으로 별도의 정수기 없이도 깨끗한 물과 얼음을 즐길 수 있어요. 3단계 정수 필터와 케어 서비스로 위생 걱정없이, 각얼음·조각얼음·크래프트 아이스까지 취향에 맞게 선택할 수 있어요.
+                    800L대 넉넉한 용량과 직수형 얼음정수 시스템으로 별도의 정수기 없이도 깨끗한 물과 얼음을 즐길 수 있어요. 3단계 정수 필터와 케어 서비스로 위생 걱정없이, 각얼음·조각얼음·미니 각얼음·크래프트 아이스까지 취향에 맞게 선택할 수 있어요.
                   </p>
                 </div>
                 <p class="note">
@@ -495,7 +495,7 @@
                   <h4>정수 기능 없이도 얼음은 간편하게</h4>
                   <div>
                     <p>
-                      LG만의 직수 SYSTEM으로 깨끗한 얼음을 언제든지 안심하고 즐길 수 있어요. 자동으로 얼음을 만들어주니, 필요할 때마다 바로 사용할 수 있어요.
+                      LG만의 직수 SYSTEM으로 깨끗한 얼음을 언제든지 안심하고 즐길 수 있어요. 미니 각얼음, 크래프트 아이스를 일상과 취향에 맞춰 활용할 수 있어요.
                     </p>
                   </div>
                 </div>
@@ -726,7 +726,7 @@
                       <a href="https://www.lge.co.kr/refrigerators/d604mps52" target="_blank"
                         ><span>LG 일반냉장고 오브제컬렉션</span></a
                       >
-                      <p>264L</p>
+                      <p>612L</p>
                     </div>
                   </div>
                   <img
@@ -1238,7 +1238,7 @@
                       <tr class="product-btn">
                         <td>
                           <a
-                            href="https://www.lge.co.kr/category/refrigerators?subCateId=CT50000070&filterProduct=AT0000000511:KY0000002753:01"
+                            href="https://www.lge.co.kr/category/refrigerators?subCateId=CT50000070&filterProduct=AT0000000511:KY0000002781:01,AT0000000511:KY0000004711:01"
                             target="_blank"
                             class="btn-product"
                             >제품 보러 가기</a
@@ -1246,7 +1246,7 @@
                         </td>
                         <td>
                           <a
-                            href="https://www.lge.co.kr/category/refrigerators?subCateId=CT50000070&filterProduct=AT0000000511:KY0000002781:01"
+                            href="https://www.lge.co.kr/category/refrigerators?subCateId=CT50000070&filterProduct=AT0000000511:KY0000002781:01,AT0000000511:KY0000004712:01"
                             target="_blank"
                             class="btn-product"
                             >제품 보러 가기</a
@@ -1403,10 +1403,7 @@
                       <div class="content">
                         <h5>프리스탠딩</h5>
                         <p>
-                          냉장고장 없이도 단독으로 설치할 수 있어 다용도실이나
-                          거실 등 다양한 공간에 자유롭게 배치할 수 있습니다.
-                          별도 시공이 필요 없어 설치가 간편하며, 공간 구성에
-                          따라 유연하게 활용할 수 있는 장점을 갖추고 있습니다.​
+                          500~800L 대의 다양한 용량과 넉넉한 수납공간으로 많은 식재료 보관이 가능하고 다용도실이나 거실 등 다양한 공간에 자유롭게 배치할 수 있습니다.
                         </p>
                         <div class="btn-wrap">
                           <a
@@ -1593,7 +1590,7 @@
                         <div class="btn-wrap">
                           <a
                             class="btn-product"
-                            href="https://www.lge.co.kr/category/refrigerators?filterProduct=AT0000000112:KY0000000728:01,AT0000000112:KY0000000919:01"
+                            href="https://www.lge.co.kr/category/refrigerators?filterProduct=AT0000000112:KY0000000919:01"
                             target="_blank"
                             >제품 보러 가기</a
                           >
@@ -1741,7 +1738,7 @@
                       data-target="#buying-point-3-6"
                       data-group="buying-point-3"
                     >
-                      리니어 컴프레서
+                      인버터 리니어 컴프레서
                     </button>
                     <button
                       name="buying-guide-tab"
@@ -1933,7 +1930,7 @@
                         <div class="btn-wrap">
                           <a
                             class="btn-product"
-                            href="https://www.lge.co.kr/category/refrigerators"
+                            href="https://www.lge.co.kr/category/refrigerators?filterBrand=AT0000000111:KY0000003992:01&filterProduct=AT0000001251:KY0000004717:03"
                             target="_blank"
                             >제품 보러 가기</a
                           >
@@ -2141,9 +2138,9 @@
                       name="buying-point-3"
                       style="display: none"
                     >
-                      <h4 class="hide">리니어 컴프레서</h4>
+                      <h4 class="hide">인버터 리니어 컴프레서</h4>
                       <div class="content">
-                        <h5>리니어 컴프레서</h5>
+                        <h5>인버터 리니어 컴프레서</h5>
                         <p>
                           인터버 리니어 컴프레서를 적용해 에너지 효율을 높이고
                           소음은 줄였습니다. 원형으로 회전하는 일반 모터와는
@@ -2155,7 +2152,7 @@
                         <div class="btn-wrap">
                           <a
                             class="btn-product"
-                            href="https://www.lge.co.kr/category/refrigerators"
+                            href="https://www.lge.co.kr/category/refrigerators?filterProduct=AT0000001251:KY0000003504:03"
                             target="_blank"
                             >제품 보러 가기</a
                           >
@@ -2185,7 +2182,7 @@
                       name="buying-point-3"
                       style="display: none"
                     >
-                      <h4 class="hide">리니어 컴프레서</h4>
+                      <h4 class="hide">자동정온</h4>
                       <div class="content">
                         <h5>자동정온</h5>
                         <p>
@@ -2244,7 +2241,7 @@
                         <div class="btn-wrap">
                           <a
                             class="btn-product"
-                            href="https://www.lge.co.kr/category/refrigerators"
+                            href="https://www.lge.co.kr/category/refrigerators?filterProduct=AT0000001251:KY0000004675:03"
                             target="_blank"
                             >제품 보러 가기</a
                           >
