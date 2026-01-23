@@ -305,51 +305,62 @@ function createStickyController($sticky) {
 }
 
 function detailTableTopFix() {
-  const $wrap = $(".table-wrap");
-  const $table = $wrap.find("table");
-  const $thead = $table.find("thead");
+  const $wraps = $(".table-wrap");
+  if (!$wraps.length) return;
 
-  // 클론 테이블(헤더만)
-  const $cloneWrap = $("<div class='clone-header-table-wrap'></div>");
-  const $cloneTbl = $("<table class='clone-header-table'></table>");
-  const $cloneHead = $thead.clone();
-  $cloneTbl.append($cloneHead);
-  $cloneWrap.append($cloneTbl);
-  $wrap.append($cloneWrap);
+  $wraps.each(function () {
+    const $wrap = $(this);
+    const $table = $wrap.find("table");
+    const $thead = $table.find("thead");
 
-  const headerTop = () => {
+    if (!$table.length || !$thead.length) return;
+    if ($wrap.find(".clone-header-table-wrap").length) return;
+
+    // 클론 테이블(헤더만)
+    const $cloneWrap = $("<div class='clone-header-table-wrap'></div>");
+    const $cloneTbl = $("<table class='clone-header-table'></table>");
+    const $cloneHead = $thead.clone();
+    $cloneTbl.append($cloneHead);
+    $cloneWrap.append($cloneTbl);
+    $wrap.append($cloneWrap);
+  });
+
+  const headerTop = ($wrap) => {
     if ($wrap.hasClass("include-tab")) {
       return isDesktop() ? 150 : 120;
     } else {
       return isDesktop() ? 60 : 40;
     }
   };
-  // const delayOffset = $wrap.hasClass("include-tab")
-  //   ? isDesktop()
-  //     ? 100
-  //     : 200
-  //   : 0;
 
   // 위치/표시 제어 (absolute + top 계산, 좌측 오프셋 반영)
   function updatePosition() {
-    if (!$wrap.length) return false;
-    const wrapTop = $wrap.offset().top;
-    const wrapH = $wrap.outerHeight();
-    const headH = $thead.outerHeight();
     const st = $(window).scrollTop();
-    const topFix = headerTop();
-    let y = 0;
-    if (st < wrapTop - topFix) {
-      $cloneWrap.css({ opacity: 0 });
-      y = 0;
-    } else if (st <= wrapTop + wrapH - headH - topFix) {
-      $cloneWrap.css({ opacity: 1 });
-      y = st - wrapTop + topFix;
-    } else {
-      $cloneWrap.css({ opacity: 0 });
-      y = wrapH - headH;
-    }
-    $cloneWrap.css("transform", `translateY(${y}px)`);
+
+    $(".table-wrap").each(function () {
+      const $wrap = $(this);
+      const $cloneWrap = $wrap.find(".clone-header-table-wrap");
+      if (!$cloneWrap.length) return;
+
+      const $thead = $wrap.find("table thead");
+      const wrapTop = $wrap.offset().top;
+      const wrapH = $wrap.outerHeight();
+      const headH = $thead.outerHeight();
+      const topFix = headerTop($wrap);
+
+      let y = 0;
+      if (st < wrapTop - topFix) {
+        $cloneWrap.css({ opacity: 0 });
+        y = 0;
+      } else if (st <= wrapTop + wrapH - headH - topFix) {
+        $cloneWrap.css({ opacity: 1 });
+        y = st - wrapTop + topFix;
+      } else {
+        $cloneWrap.css({ opacity: 0 });
+        y = wrapH - headH;
+      }
+      $cloneWrap.css("transform", `translateY(${y}px)`);
+    });
   }
 
   // 초기/이벤트

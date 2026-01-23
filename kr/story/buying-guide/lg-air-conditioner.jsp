@@ -96,7 +96,7 @@
       <!-- Share -->
       <div itemtype=http://schema.org/WebPage itemscope class="sr-only">
         <meta itemprop="name" content="에어컨 구매 가이드 | 구매 가이드 | 가이드 | 스토리 | LG전자" />
-        <meta itemprop="description" content="언제나 시원한 바람으로 공간을 쾌적하게" />
+        <meta itemprop="description" content="사계절 휘센으로 완성하는 쾌적함" />
         <meta itemprop="url" content="https://www.lge.co.kr/story/buying-guide/lg-air-conditioner" />
         <meta itemprop="image" content="/kr/story/buying-guide/2025/img/air-conditioning/og_P10.jpg" />
         <meta itemprop="Keywords" content="LG전자, 에어컨, 디오스, 오브제컬렉션, LG 디오스 에어컨 오브제컬렉션, 구매가이드" />
@@ -124,7 +124,7 @@
           <div class="content">
             <div class="inner-wrap">
               <h2>에어컨<br />구매 가이드</h2>
-              <p>언제나 시원한 바람으로 공간을 쾌적하게</p>
+              <p>사계절 휘센으로 완성하는 쾌적함</p>
             </div>
           </div>
           <div class="slider">
@@ -219,9 +219,8 @@
           <section id="line-up" name="buying-guide-content">
             <h2 class="hide">제품 라인업</h2>
             <h3 class="section-title">
-              우리 집 생활을 더 시원하게 만들어줄 <b>에어컨</b>을
-              추천해드려요.<br />
-              공간과 사용 목적에 따라 꼭 맞는 제품을 골라보세요.
+              쾌적함을 위한 필수 가전<br />
+              공간과 사용 목적에 맞는 <b>에어컨</b>을 찾아보세요
             </h3>
             <div
               class="tab-wrap sticky"
@@ -240,7 +239,7 @@
                     src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_05.png"
                     alt="에어컨 LG 휘센 AI 오브제컬렉션 타워I 에어컨 싱글 (9시리즈) (FQ18FN9BE1.AKOR) 메인이미지 3"
                   />
-                  <span><b>스탠드 에어컨</b>#넓은공간 #사계절</span>
+                  <span><b>스탠드 에어컨</b>#넓은공간 #빠른냉방</span>
                 </button>
                 <button
                   class="tab-img"
@@ -252,7 +251,7 @@
                     src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_06.png"
                     alt="에어컨 LG 휘센 AI 오브제컬렉션 듀얼쿨 사계절에어컨 (벽걸이) (SW09FS1EES.AKOR) 줌이미지 3"
                   />
-                  <span><b>벽걸이 에어컨</b>#원룸 #개인방 #사계절</span>
+                  <span><b>벽걸이 에어컨</b>#개인공간 #공간효율</span>
                 </button>
                 <button
                   class="tab-img"
@@ -276,7 +275,7 @@
                     src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_08.png"
                     alt=""
                   />
-                  <span><b>이동식 에어컨</b>#자유롭게사용 #간편설치</span>
+                  <span><b>이동식 에어컨</b>#편리한이동 #간편설치</span>
                 </button>
               </div>
             </div>
@@ -317,11 +316,9 @@
                   />
                 </div>
                 <div class="text-wrap">
-                  <h4>맞춤형 바람으로 언제나 쾌적하게</h4>
+                  <h4>가족과 함께하는 넓은 공간을 쾌적하게</h4>
                   <p>
-                    AI가 실내 온도와 사용 패턴을 분석해 바람을 자동으로
-                    최적화하여 넓은 공간에서도 전기료를 아껴주고, 나에게 꼭 맞는
-                    시원함을 즐길 수 있어요.
+                    거실처럼 넓은 공간을 빠르게 냉방하고 싶다면 스탠드 에어컨이 효과적인 선택이에요. 무더운 여름 강력한 냉방이 가능해 쾌적한 실내를 유지할 수 있어요.
                   </p>
                 </div>
                 <p class="note">
@@ -356,7 +353,7 @@
                           <tr class="procuct-name">
                             <th colspan="6">
                               <h4>스탠드 에어컨</h4>
-                              <p>AI를 활용해 넓은 공간에도 시원하고 쾌적하게</p>
+                              <p>넓은 공간에서도 빠르고 쾌적하게</p>
                             </th>
                           </tr>
                         </thead>
@@ -486,8 +483,8 @@
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >나의 위치와 공간을 감지하여 어디서나
-                                    시원하게
+                                    >레이더센서와 ThinQ앱으로 공간을 파악하고 사용자 패턴을 학습하여 내게 맞춘 온도·기류<br />
+                                    *레이더센서 탑재 모델에 한 함
                                   </span>
                                 </span>
                               </p>
@@ -504,8 +501,8 @@
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >나의 위치와 공간을 감지하여 어디서나
-                                    시원하게
+                                    >레이더센서와 ThinQ앱으로 공간을 파악하고 사용자 패턴을 학습하여 내게 맞춘 온도·기류<br />
+                                    *레이더센서 탑재 모델에 한 함
                                   </span>
                                 </span>
                               </p>
@@ -522,8 +519,8 @@
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >공간을 분석해 나에게 맞춘 바람으로 더욱
-                                    쾌적하게</span
+                                    >레이더센서와 ThinQ앱으로 공간을 파악하고 사용자 패턴을 학습하여 내게 맞춘 온도·기류<br />
+                                    *레이더센서 탑재 모델에 한 함</span
                                   >
                                 </span>
                               </p>
@@ -540,7 +537,7 @@
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >실내 환경을 감지해 언제나 시원하게</span
+                                    >ThinQ앱으로 공간을 파악하고 사용자 패턴을 학습하여 내게 맞춘 온도·기류</span
                                   >
                                 </span>
                               </p>
@@ -557,7 +554,7 @@
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >실내 환경을 감지해 언제나 시원하게</span
+                                    >ThinQ앱으로 공간을 파악하고 사용자 패턴을 학습하여 내게 맞춘 온도·기류</span
                                   >
                                 </span>
                               </p>
@@ -566,16 +563,15 @@
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_AIsmartcare.svg"
-                                  alt="AI 스마트케어"
+                                  alt="냉방&온풍"
                                 />
                               </div>
                               <p>
-                                AI 스마트케어
+                                냉방&온풍
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >AI가 이미지를 분석해 나에게 맞는 바람과
-                                    온도를 스마트하게
+                                    >영하 10도 추위에도 포근하고 무더위엔 공간을 시원하게
                                   </span>
                                 </span>
                               </p>
@@ -586,15 +582,15 @@
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_AlwaysAI.svg"
-                                  alt="Always AI"
+                                  alt="AI콜드프리"
                                 />
                               </div>
                               <p>
-                                Always AI
+                                AI콜드프리
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >음성인식·절전·AOD까지 AI로 스마트하게
+                                    >정교한 온도와 습도 조절로 춥지 않은 쾌적한 바람 *AI콜드프리 탑재 모델에 한 함
                                   </span>
                                 </span>
                               </p>
@@ -603,83 +599,83 @@
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_AlwaysAI.svg"
-                                  alt="Always AI"
+                                  alt="AI콜드프리"
                                 />
                               </div>
                               <p>
-                                Always AI
+                                AI콜드프리
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >음성인식·절전·AOD까지 AI로 스마트하게
+                                    >정교한 온도와 습도 조절로 춥지 않은 쾌적한 바람 *AI콜드프리 탑재 모델에 한 함
                                   </span>
                                 </span>
                               </p>
                             </td>
-                            <td class="disabled">
+                            <td>
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_AlwaysAI.svg"
-                                  alt="Always AI"
+                                  alt="대용량 제습"
                                 />
                               </div>
                               <p>
-                                Always AI
+                                대용량 제습
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >음성인식·절전·AOD까지 AI로 스마트하게
+                                    >습도 높은 날에도 공간을 보송하게
                                   </span>
                                 </span>
                               </p>
                             </td>
-                            <td class="disabled">
+                            <td>
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_AlwaysAI.svg"
-                                  alt="Always AI"
+                                  alt="대용량 제습"
                                 />
                               </div>
                               <p>
-                                Always AI
+                                대용량 제습
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >음성인식·절전·AOD까지 AI로 스마트하게
+                                    >습도 높은 날에도 공간을 보송하게
                                   </span>
                                 </span>
                               </p>
                             </td>
-                            <td class="disabled">
+                            <td>
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_AlwaysAI.svg"
-                                  alt="Always AI"
+                                  alt="대용량 제습"
                                 />
                               </div>
                               <p>
-                                Always AI
+                                대용량 제습
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >음성인식·절전·AOD까지 AI로 스마트하게
+                                    >습도 높은 날에도 공간을 보송하게
                                   </span>
                                 </span>
                               </p>
                             </td>
-                            <td class="disabled">
+                            <td>
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_AlwaysAI.svg"
-                                  alt="Always AI"
+                                  alt="대용량 제습"
                                 />
                               </div>
                               <p>
-                                Always AI
+                                대용량 제습
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >음성인식·절전·AOD까지 AI로 스마트하게
+                                    >습도 높은 날에도 공간을 보송하게
                                   </span>
                                 </span>
                               </p>
@@ -690,20 +686,37 @@
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_4X.svg"
-                                  alt="4X집중냉방"
+                                  alt="AI음성인식"
                                 />
                               </div>
                               <p>
-                                4X집중냉방
+                                AI음성인식
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >에어컨 전면에 4개의 팬으로 강력하게
+                                    >“Hi LG” 대화로 쉽고 빠른 제어 모드 추천부터 실내 환경 안내까지
                                   </span>
                                 </span>
                               </p>
                             </td>
                             <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_oneside.svg"
+                                  alt="AI음성인식"
+                                />
+                              </div>
+                              <p>
+                                AI음성인식
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >“Hi LG” 대화로 쉽고 빠른 제어 모드 추천부터 실내 환경 안내까지
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                            <td class="disabled">
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_oneside.svg"
@@ -721,25 +734,7 @@
                                 </span>
                               </p>
                             </td>
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_oneside.svg"
-                                  alt="한쪽바람"
-                                />
-                              </div>
-                              <p>
-                                한쪽바람
-                                <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >원하는 방향으로 바람을 보내 부드럽고
-                                    시원하게
-                                  </span>
-                                </span>
-                              </p>
-                            </td>
-                            <td>
+                            <td class="disabled">
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_icepower.svg"
@@ -757,7 +752,7 @@
                                 </span>
                               </p>
                             </td>
-                            <td>
+                            <td class="disabled">
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_icepower.svg"
@@ -775,7 +770,7 @@
                                 </span>
                               </p>
                             </td>
-                            <td>
+                            <td class="disabled">
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_oneside.svg"
@@ -789,6 +784,110 @@
                                   <span class="bubble"
                                     >원하는 방향으로 바람을 보내 부드럽고
                                     시원하게
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_viewcustom.svg"
+                                  alt="AI수면"
+                                />
+                              </div>
+                              <p>
+                                AI수면
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >숙면 중 깨지 않도록 사용 패턴을 분석해 최적의 온도·습도·기류로 맞춤
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_viewcustom.svg"
+                                  alt="AI수면"
+                                />
+                              </div>
+                              <p>
+                                AI수면
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >숙면 중 깨지 않도록 사용 패턴을 분석해 최적의 온도·습도·기류로 맞춤
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                            <td class="disabled">
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_viewcustom.svg"
+                                  alt="뷰케이스 커스텀"
+                                />
+                              </div>
+                              <p>
+                                뷰케이스 커스텀
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >하단 패널을 교체해 우리집 인테리어에 맞게
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                            <td class="disabled">
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_viewcustom.svg"
+                                  alt="뷰케이스 커스텀"
+                                />
+                              </div>
+                              <p>
+                                뷰케이스 커스텀
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >하단 패널을 교체해 우리집 인테리어에 맞게
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                            <td class="disabled">
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_viewcustom.svg"
+                                  alt="뷰케이스 커스텀"
+                                />
+                              </div>
+                              <p>
+                                뷰케이스 커스텀
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >하단 패널을 교체해 우리집 인테리어에 맞게
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                            <td class="disabled">
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_viewcustom.svg"
+                                  alt="뷰케이스 커스텀"
+                                />
+                              </div>
+                              <p>
+                                뷰케이스 커스텀
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >하단 패널을 교체해 우리집 인테리어에 맞게
                                   </span>
                                 </span>
                               </p>
@@ -880,7 +979,7 @@
                                 </span>
                               </p>
                             </td>
-                            <td>
+                            <td class="disabled">
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_viewcustom.svg"
@@ -893,244 +992,6 @@
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
                                     >하단 패널을 교체해 우리집 인테리어에 맞게
-                                  </span>
-                                </span>
-                              </p>
-                            </td>
-                          </tr>
-                          <tr class="procuct-spec">
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_airclean.svg"
-                                  alt="휘센 청정관리"
-                                />
-                              </div>
-                              <p>
-                                휘센 청정관리
-                                <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >스스로 청소하고 살균해 깨끗하게
-                                  </span>
-                                </span>
-                              </p>
-                            </td>
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_airclean.svg"
-                                  alt="휘센 청정관리"
-                                />
-                              </div>
-                              <p>
-                                휘센 청정관리
-                                <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >스스로 청소하고 살균해 깨끗하게
-                                  </span>
-                                </span>
-                              </p>
-                            </td>
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_airclean.svg"
-                                  alt="휘센 청정관리"
-                                />
-                              </div>
-                              <p>
-                                휘센 청정관리
-                                <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >스스로 청소하고 살균해 깨끗하게
-                                  </span>
-                                </span>
-                              </p>
-                            </td>
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_airclean.svg"
-                                  alt="휘센 청정관리"
-                                />
-                              </div>
-                              <p>
-                                휘센 청정관리
-                                <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >스스로 청소하고 살균해 깨끗하게
-                                  </span>
-                                </span>
-                              </p>
-                            </td>
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_airclean.svg"
-                                  alt="휘센 청정관리"
-                                />
-                              </div>
-                              <p>
-                                휘센 청정관리
-                                <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >스스로 청소하고 살균해 깨끗하게
-                                  </span>
-                                </span>
-                              </p>
-                            </td>
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_airclean.svg"
-                                  alt="휘센 청정관리"
-                                />
-                              </div>
-                              <p>
-                                휘센 청정관리
-                                <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >스스로 청소하고 살균해 깨끗하게
-                                  </span>
-                                </span>
-                              </p>
-                            </td>
-                          </tr>
-                          <tr class="procuct-spec">
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_2eco.svg"
-                                  alt="2단계 절전모드"
-                                />
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_ecoplanner.svg"
-                                  alt="2단계 플래너"
-                                />
-                              </div>
-                              <p>
-                                2단계 절전모드 <br />& 절전 플래너
-                                <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >나에게 맞는 절전 모드로 전력 소비를
-                                    똑똑하게
-                                  </span>
-                                </span>
-                              </p>
-                            </td>
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_2eco.svg"
-                                  alt="2단계 절전모드"
-                                />
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_ecoplanner.svg"
-                                  alt="2단계 플래너"
-                                />
-                              </div>
-                              <p>
-                                2단계 절전모드 <br />& 절전 플래너
-                                <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >나에게 맞는 절전 모드로 전력 소비를
-                                    똑똑하게
-                                  </span>
-                                </span>
-                              </p>
-                            </td>
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_2eco.svg"
-                                  alt="2단계 절전모드"
-                                />
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_ecoplanner.svg"
-                                  alt="2단계 플래너"
-                                />
-                              </div>
-                              <p>
-                                2단계 절전모드 <br />& 절전 플래너
-                                <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >나에게 맞는 절전 모드로 전력 소비를
-                                    똑똑하게
-                                  </span>
-                                </span>
-                              </p>
-                            </td>
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_2eco.svg"
-                                  alt="2단계 절전모드"
-                                />
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_ecoplanner.svg"
-                                  alt="2단계 플래너"
-                                />
-                              </div>
-                              <p>
-                                2단계 절전모드 <br />& 절전 플래너
-                                <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >나에게 맞는 절전 모드로 전력 소비를
-                                    똑똑하게
-                                  </span>
-                                </span>
-                              </p>
-                            </td>
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_2eco.svg"
-                                  alt="2단계 절전모드"
-                                />
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_ecoplanner.svg"
-                                  alt="2단계 플래너"
-                                />
-                              </div>
-                              <p>
-                                2단계 절전모드 <br />& 절전 플래너
-                                <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >나에게 맞는 절전 모드로 전력 소비를
-                                    똑똑하게
-                                  </span>
-                                </span>
-                              </p>
-                            </td>
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_2eco.svg"
-                                  alt="2단계 절전모드"
-                                />
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_ecoplanner.svg"
-                                  alt="2단계 플래너"
-                                />
-                              </div>
-                              <p>
-                                2단계 절전모드 <br />& 절전 플래너
-                                <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >나에게 맞는 절전 모드로 전력 소비를
-                                    똑똑하게
                                   </span>
                                 </span>
                               </p>
@@ -1191,6 +1052,392 @@
                     </div>
                   </div>
                 </div>
+                <div class="product-table">
+                  <h4 class="box-subtitle">
+                    가장 합리적인 선택을 위해<br />
+                    스펙을 명확하게 비교해서 보여드려요.
+                  </h4>
+                  <div class="table-wrap include-tab vertical-scroll-box">
+                    <table>
+                      <colgroup>
+                        <col class="col1" />
+                        <col class="col2" />
+                        <col />
+                        <col />
+                        <col />
+                        <col />
+                        <col />
+                        <col />
+                        <col />
+                        <col />
+                        <col />
+                        <col />
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <th colspan="2" rowspan="2">모델 라인업</th>
+                          <th>타워I<br />9시리즈</th>
+                          <th>타워I<br />7시리즈</th>
+                          <th>타워I<br />5시리즈</th>
+                          <th>뷰I 프로<br />6시리즈</th>
+                          <th>뷰I 프로<br />5시리즈</th>
+                          <th>뷰I<br />3시리즈</th>
+                          <th>뷰II<br />2시리즈</th>
+                          <th>뷰II<br />1시리즈</th>
+                          <th>쿨<br />2시리즈</th>
+                          <th>쿨<br />1시리즈</th>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  alt=""
+                                />
+                            </div>
+                          </td>
+                          <td>
+                            <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  alt=""
+                                />
+                            </div>
+                          </td>
+                          <td>
+                            <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  alt=""
+                                />
+                            </div>
+                          </td>
+                          <td>
+                            <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  alt=""
+                                />
+                            </div>
+                          </td>
+                          <td>
+                            <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  alt=""
+                                />
+                            </div>
+                          </td>
+                          <td>
+                            <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  alt=""
+                                />
+                            </div>
+                          </td>
+                          <td>
+                            <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  alt=""
+                                />
+                            </div>
+                          </td>
+                          <td>
+                            <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  alt=""
+                                />
+                            </div>
+                          </td>
+                          <td>
+                            <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  alt=""
+                                />
+                            </div>
+                          </td>
+                          <td>
+                            <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  alt=""
+                                />
+                            </div>
+                          </td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th rowspan="4">AI<br />특화</th>
+                          <th class="th2">레이더 센서 (외출절전/AI 홈모니터링)</th>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                        </tr>
+                        <tr>
+                          <th class="th2">AI콜드프리</th>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="n">X</td>
+                          <td class="text"><p>*모델별 상이</p></td>
+                          <td class="y">O</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                        </tr>
+                        <tr>
+                          <th class="th2">AI수면</th>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                        </tr>
+                        <tr>
+                          <th class="th2">AI음성인식</th>
+                          <td class="y text">
+                            <span class="o">O</span>
+                            <p>(본체/리모컨)</p>
+                          </td>
+                          <td class="y text">
+                            <span class="o">O</span>
+                            <p>(본체/리모컨)</p>
+                          </td>
+                          <td class="y text">
+                            <span class="o">O</span>
+                            <p>(본체/리모컨)</p>
+                          </td>
+                          <td class="y text">
+                            <span class="o">O</span>
+                            <p>(리모컨)</p>
+                          </td>
+                          <td class="y text">
+                            <span class="o">O</span>
+                            <p>(리모컨)</p>
+                          </td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                        </tr>
+                        <tr>
+                          <th rowspan="2">냉방</th>
+                          <th class="th2">AI바람</th>
+                          <td class="y text">
+                            <span class="o">O</span>
+                          </td>
+                          <td class="y text">
+                            <span class="o">O</span>
+                          </td>
+                          <td class="y text">
+                            <span class="o">O</span>
+                          </td>
+                          <td class="y text">
+                            <span class="o">O</span>
+                          </td>
+                          <td class="y text">
+                            <span class="o">O</span>
+                          </td>
+                          <td class="y text">
+                            <span class="o">O</span>
+                          </td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                        </tr>
+                        <tr>
+                          <th class="th2">소프트바람</th>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                        </tr>
+                        <tr>
+                          <th rowspan="3">AI<br />청정</th>
+                          <th class="th2">필터클린봇</th>
+                          <td class="y">O</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                        </tr>
+                        <tr>
+                          <th class="th2">알러지케어 공기청정</th>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="n">X</td>
+                          <td class="y">O</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="y">O</td>
+                          <td class="n">X</td>
+                          <td class="y">O</td>
+                          <td class="n">X</td>
+                        </tr>
+                        <tr>
+                          <th class="th2">UV-LED 팬살균</th>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="text"><p>*모델별 상이</p></td>
+                          <td class="text"><p>*모델별 상이</p></td>
+                          <td class="text"><p>*모델별 상이</p></td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                        </tr>
+                        <tr>
+                          <th>공기<br />청정</th>
+                          <th class="th2">공기청정</th>
+                          <td class="y text">
+                            <span class="o">O</span>
+                            <p>(PM1.0센서)</p>
+                          </td>
+                          <td class="y text">
+                            <span class="o">O</span>
+                            <p>(PM1.0센서)</p>
+                          </td>
+                          <td class="n">X</td>
+                          <td class="y">O</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="y">O</td>
+                          <td class="n">X</td>
+                          <td class="y">O</td>
+                          <td class="n">X</td>
+                        </tr>
+                        <tr>
+                          <th>셀프<br />청정</th>
+                          <td>셀프청정</td>
+                          <td>셀프청정</td>
+                          <td>셀프청정</td>
+                          <td>클린뷰</td>
+                          <td>클린뷰</td>
+                          <td>클린뷰</td>
+                          <td>클린뷰</td>
+                          <td>클린뷰</td>
+                          <td>클린뷰</td>
+                          <td>쿨오픈</td>
+                          <td>쿨오픈</td>
+                        </tr>
+                        <tr>
+                          <th>에너지<br />등급</th>
+                          <th class="th2">에너지등급</th>
+                          <td class="text">
+                            1/2등급
+                            <p>*모델별 상이</p>
+                          </td>
+                          <td class="text">2등급</td>
+                          <td class="text">2등급</td>
+                          <td class="text">
+                            1/2등급
+                            <p>*모델별 상이</p>
+                          </td>
+                          <td class="text">2등급</td>
+                          <td class="text">
+                            1/2등급
+                            <p>*모델별 상이</p>
+                          </td>
+                          <td class="text">3등급</td>
+                          <td class="text">3등급</td>
+                          <td class="text">3등급</td>
+                          <td class="text">3등급</td>
+                        </tr>
+                        <tr class="tr-color">
+                          <th rowspan="3">디자인</th>
+                          <th class="th2">색상</th>
+                          <td><span>카밍베이지</span><span>크림화이트</span></td>
+                          <td><span>카밍베이지</span><span>크림화이트</span></td>
+                          <td><span>카밍베이지</span><span>크림화이트</span></td>
+                          <td><span>에센스화이트</span><span>카밍베이지</span></td>
+                          <td><span>에센스화이트</span><span>카밍베이지</span></td>
+                          <td><span>에센스화이트</span></td>
+                          <td><span>에센스화이트</span><span>카밍베이지</span></td>
+                          <td><span>에센스화이트</span><span>카밍베이지</span></td>
+                          <td><span>에센스화이트</span></td>
+                          <td><span>에센스화이트</span></td>
+                        </tr>
+                        <tr>
+                          <th class="th2">뷰케이스(별매)</th>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                        </tr>
+                        <tr>
+                          <th class="th2">토출구 커버 자동개폐</th>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                        </tr>
+                        <tr>
+                          <th colspan="2">출시연도</th>
+                          <td>2026</td>
+                          <td>2026</td>
+                          <td>2026</td>
+                          <td>2026</td>
+                          <td>2026</td>
+                          <td>2025</td>
+                          <td>2025</td>
+                          <td>2025</td>
+                          <td>2025</td>
+                          <td>2025</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <p class="des">
+                    * 제품별 스펙은 다를 수 있으니 정확한 내용은 각 제품별 상세
+                    스펙을 확인해주세요.<br />
+                    * 셀프청정 : 원할 때 에어컨을 열어서 간단하게 내부 청소 가능한
+                    구조입니다. (타워 : 셀프청정, 뷰 : 클린뷰, 쿨 : 쿨오픈)
+                  </p>
+                </div>
               </div>
               <div
                 id="product-type-2"
@@ -1232,11 +1479,9 @@
                   />
                 </div>
                 <div class="text-wrap">
-                  <h4>작은 공간에도 시원함은 넉넉하게</h4>
+                  <h4>벽에 설치해 공간을 효율적으로</h4>
                   <p>
-                    공간을 차지하지 않는 슬림한 디자인에 AI가 실내 상황을 인식해
-                    바람을 섬세하게 제어하여 효율적으로 시원한 냉방을 경험할 수
-                    있어요.
+                    공간을 차지 않아 원룸과 개인 공간에 딱 맞는 실속 있는 선택이에요. 벽에 설치해 인테리어는 깔끔하게 공간은 효율적으로 활용할 수 있어요.
                   </p>
                 </div>
                 <p class="note">
@@ -1257,8 +1502,9 @@
                       <div class="inner">
                         <div class="inner2">
                           <div>듀얼쿨</div>
-                          <div>사계절</div>
+                          <div>듀얼쿨사계절</div>
                           <div>일반</div>
+                          <div>일반 사계절</div>
                         </div>
                       </div>
                     </div>
@@ -1266,11 +1512,10 @@
                       <table>
                         <thead>
                           <tr class="procuct-name">
-                            <th colspan="3">
+                            <th colspan="4">
                               <h4>벽걸이 에어컨</h4>
                               <p>
-                                슬림한 디자인으로 좁은 공간에도 여유롭고
-                                시원하게
+                                슬림한 디자인으로 좁은 공간에도 여유롭고 시원하게
                               </p>
                             </th>
                           </tr>
@@ -1278,8 +1523,9 @@
                         <tbody>
                           <tr class="procuct-no">
                             <td>듀얼쿨</td>
-                            <td>사계절</td>
+                            <td>듀얼쿨 사계절</td>
                             <td>일반</td>
+                            <td>일반 사계절</td>
                           </tr>
                           <tr>
                             <td>
@@ -1333,6 +1579,23 @@
                                 </button>
                               </div>
                             </td>
+                            <td>
+                              <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_21.png"
+                                  alt="에어컨 LG 휘센 사계절에어컨 (벽걸이) (SW07FK1WAS.AKOR) 메인이미지 2"
+                                  class="front"
+                                />
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_32.png"
+                                  alt="에어컨 LG 휘센 사계절에어컨 (벽걸이) (SW07FK1WAS.AKOR) 메인이미지 4"
+                                  class="side"
+                                />
+                                <button class="btn-angle" name="btn-angle">
+                                  다른 각도 보기
+                                </button>
+                              </div>
+                            </td>
                           </tr>
                           <tr class="procuct-spec">
                             <td>
@@ -1347,8 +1610,8 @@
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >내 위치를 감지해 언제나 쾌적한 바람을
-                                    유지하게
+                                    >레이더센서와 ThinQ앱으로 공간을 파악하고 사용자 패턴을 학습하여 내게 맞춘 온도·기류<br />
+                                    *레이더센서 탑재 모델에 한 함
                                   </span>
                                 </span>
                               </p>
@@ -1365,8 +1628,8 @@
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >내 위치를 감지해 언제나 쾌적한 바람을
-                                    유지하게
+                                    >레이더센서와 ThinQ앱으로 공간을 파악하고 사용자 패턴을 학습하여 내게 맞춘 온도·기류<br />
+                                    *레이더센서 탑재 모델에 한 함
                                   </span>
                                 </span>
                               </p>
@@ -1375,15 +1638,32 @@
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_smartcare.svg"
-                                  alt="스마트케어"
+                                  alt="직접·간접 냉방"
                                 />
                               </div>
                               <p>
-                                스마트케어
+                                직접·간접 냉방
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >나의 생활에 맞춰 자동으로 공간을 시원하게
+                                    >강력한 직접 냉방으로 더위를 빠르게 식히고 몸에 닿지 않은 은은한 간접 냉방으로 쾌적하게
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_smartcare.svg"
+                                  alt="간접 냉방"
+                                />
+                              </div>
+                              <p>
+                                간접 냉방
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >몸에 닿지 않은 은은한 간접 냉방으로 쾌적하게
                                   </span>
                                 </span>
                               </p>
@@ -1394,15 +1674,15 @@
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_AIdry.svg"
-                                  alt="AI건조"
+                                  alt="AI콜드프리"
                                 />
                               </div>
                               <p>
-                                AI건조
+                                AI콜드프리
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >에어컨 사용 후 송풍으로 내부를 뽀송하게
+                                    >정교한 온도와 습도 조절로 춥지 않은 쾌적한 바람 *AI콜드프리 탑재 모델에 한 함
                                   </span>
                                 </span>
                               </p>
@@ -1411,16 +1691,15 @@
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_Aidryplus.svg"
-                                  alt="AI건조+"
+                                  alt="제습"
                                 />
                               </div>
                               <p>
-                                AI건조+
+                                제습
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >에어컨 사용 후 습도를 센싱하여 건조를 더
-                                    빠르게</span
+                                    >습도 높은 날에도 공간을 보송하게</span
                                   >
                                 </span>
                               </p>
@@ -1429,15 +1708,32 @@
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_AIdry.svg"
-                                  alt="AI건조"
+                                  alt="제습"
                                 />
                               </div>
                               <p>
-                                AI건조
+                                제습
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >에어컨 사용 후 송풍으로 내부를 뽀송하게
+                                    >습도 높은 날에도 공간을 보송하게
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_AIdry.svg"
+                                  alt="제습"
+                                />
+                              </div>
+                              <p>
+                                제습
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >습도 높은 날에도 공간을 보송하게
                                   </span>
                                 </span>
                               </p>
@@ -1448,21 +1744,20 @@
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_soft.svg"
-                                  alt="소프트바람"
+                                  alt="AI음성인식"
                                 />
                               </div>
                               <p>
-                                소프트바람
+                                AI음성인식
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >몸에 닿지 않는 부드러운 바람으로 조용하고
-                                    쾌적하게
+                                    >“Hi LG” 대화로 쉽고 빠른 제어 모드 추천부터 실내 환경 안내까지
                                   </span>
                                 </span>
                               </p>
                             </td>
-                            <td>
+                            <td class="disabled">
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_indirect.svg"
@@ -1479,7 +1774,24 @@
                                 </span>
                               </p>
                             </td>
-                            <td>
+                            <td class="disabled">
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_indirect.svg"
+                                  alt="간접바람"
+                                />
+                              </div>
+                              <p>
+                                간접바람
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >직접 닿지 않는 냉기로 공간 전체를 쾌적하게
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                            <td class="disabled">
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_indirect.svg"
@@ -1502,21 +1814,20 @@
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_icepower.svg"
-                                  alt="아이스쿨파워"
+                                  alt="AI수면"
                                 />
                               </div>
                               <p>
-                                아이스쿨파워
+                                AI수면
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >최대 4°C 더 낮은 강력한 바람으로 더 빠르고
-                                    시원하게
+                                    >숙면 중 깨지 않도록 사용 패턴을 분석해 최적의 온도·습도·기류로 맞춤
                                   </span>
                                 </span>
                               </p>
                             </td>
-                            <td>
+                            <td class="disabled">
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_icepower.svg"
@@ -1534,7 +1845,25 @@
                                 </span>
                               </p>
                             </td>
-                            <td>
+                            <td class="disabled">
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_icepower.svg"
+                                  alt="아이스쿨파워"
+                                />
+                              </div>
+                              <p>
+                                아이스쿨파워
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >최대 4°C 더 낮은 강력한 바람으로 더 빠르고
+                                    시원하게
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                            <td class="disabled">
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_icepower.svg"
@@ -1560,19 +1889,13 @@
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_2eco.svg"
                                   alt="2단계 절전모드"
                                 />
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_ecoplanner.svg"
-                                  alt="2단계 플래너"
-                                />
                               </div>
                               <p>
-                                2단계 절전모드 <br class="mobile-only" />& 절전
-                                플래너
+                                절전
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >나에게 맞는 절전 모드로 전력 소비를
-                                    똑똑하게
+                                    >나에게 맞는 절전 모드로 전력 소비를 똑똑하게
                                   </span>
                                 </span>
                               </p>
@@ -1585,12 +1908,11 @@
                                 />
                               </div>
                               <p>
-                                2단계 절전모드
+                                절전
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >절전모드를 2단계로 세분화해 에너지를
-                                    효율적으로
+                                    >나에게 맞는 절전 모드로 전력 소비를 똑똑하게
                                   </span>
                                 </span>
                               </p>
@@ -1601,54 +1923,247 @@
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_2eco.svg"
                                   alt="2단계 절전모드"
                                 />
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_ecoplanner.svg"
-                                  alt="2단계 플래너"
-                                />
                               </div>
                               <p>
-                                2단계 절전모드 <br class="mobile-only" />& 절전
-                                플래너
+                                절전
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >나에게 맞는 절전 모드로 전력 소비를
-                                    똑똑하게
+                                    >나에게 맞는 절전 모드로 전력 소비를 똑똑하게
                                   </span>
                                 </span>
                               </p>
                             </td>
-                          </tr>
-                          <tr class="product-btn">
                             <td>
-                              <a
-                                href="https://www.lge.co.kr/category/air-conditioners?subCateId=CT50000135&filterProduct=AT0000000109:KY0000002671:03"
-                                target="_blank"
-                                class="btn-product"
-                                >제품 보러 가기</a
-                              >
-                            </td>
-                            <td>
-                              <a
-                                href="https://www.lge.co.kr/category/air-conditioners?subCateId=CT50000135&filterProduct=AT0000000109:KY0000000851:03"
-                                target="_blank"
-                                class="btn-product"
-                                >제품 보러 가기</a
-                              >
-                            </td>
-                            <td>
-                              <a
-                                href="https://www.lge.co.kr/category/air-conditioners?subCateId=CT50000135"
-                                target="_blank"
-                                class="btn-product"
-                                >제품 보러 가기</a
-                              >
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_2eco.svg"
+                                  alt="2단계 절전모드"
+                                />
+                              </div>
+                              <p>
+                                절전
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >나에게 맞는 절전 모드로 전력 소비를 똑똑하게
+                                  </span>
+                                </span>
+                              </p>
                             </td>
                           </tr>
                         </tbody>
                       </table>
                     </div>
                   </div>
+                  <div class="btn-wrap">
+                    <a
+                      href="https://www.lge.co.kr/category/air-conditioners?subCateId=CT50000135"
+                      target="_blank"
+                      class="btn-product"
+                      >제품 보러 가기</a
+                    >
+                  </div>
+                </div>
+                <div class="product-table">
+                  <h4 class="box-subtitle">
+                    가장 합리적인 선택을 위해<br />
+                    스펙을 명확하게 비교해서 보여드려요.
+                  </h4>
+                  <div class="table-wrap include-tab vertical-scroll-box">
+                    <table>
+                      <colgroup>
+                        <col class="col1" />
+                        <col class="col2" />
+                        <col />
+                        <col />
+                        <col />
+                        <col />
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <th colspan="2" rowspan="2">모델 라인업</th>
+                          <th>듀얼쿨</th>
+                          <th>듀얼쿨 사계절</th>
+                          <th>일반</th>
+                          <th>일반 사계절</th>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  alt=""
+                                />
+                            </div>
+                          </td>
+                          <td>
+                            <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  alt=""
+                                />
+                            </div>
+                          </td>
+                          <td>
+                            <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  alt=""
+                                />
+                            </div>
+                          </td>
+                          <td>
+                            <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  alt=""
+                                />
+                            </div>
+                          </td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th rowspan="4">AI<br />특화</th>
+                          <th class="th2">레이더 센서</th>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                        </tr>
+                        <tr>
+                          <th class="th2">AI콜드프리</th>
+                          <td class="y">O</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                        </tr>
+                        <tr>
+                          <th class="th2">AI수면</th>
+                          <td class="y">O</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                        </tr>
+                        <tr>
+                          <th class="th2">AI음성인식</th>
+                          <td class="y text">
+                            <span class="o">O</span>
+                            <p>(리모컨)</p>
+                          </td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                        </tr>
+                        <tr>
+                          <th rowspan="5">냉방</th>
+                          <th class="th2">AI바람</th>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                        </tr>
+                        <tr>
+                          <th class="th2">소프트바람</th>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                        </tr>
+                        <tr>
+                          <th class="th2">직접·간접냉방</th>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td>직접·간접냉방</td>
+                          <td>간접냉방</td>
+                        </tr>
+                        <tr>
+                          <th class="th2">아이스쿨파워</th>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                        </tr>
+                        <tr>
+                          <th class="th2">스마트케어</th>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                        </tr>
+                        <tr>
+                          <th>난방</th>
+                          <th class="th2">온풍</th>
+                          <td class="n">X</td>
+                          <td class="y">O</td>
+                          <td class="n">X</td>
+                          <td class="y">O</td>
+                        </tr>
+                        <tr>
+                          <th rowspan="3">청정관리</th>
+                          <th class="th2">UV-LED 팬살균</th>
+                          <td class="y">O</td>
+                          <td class="n">X</td>
+                          <td class="text"><p>*모델별 상이</p></td>
+                          <td class="n">X</td>
+                        </tr>
+                        <tr>
+                          <th class="th2">AI건조</th>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                        </tr>
+                        <tr>
+                          <th class="th2">올클리닝</th>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="n">X</td>
+                        </tr>
+                        <tr>
+                          <th>셀프청정</th>
+                          <th class="th2">셀프청정</th>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="n">X</td>
+                          <td class="n">X</td>
+                        </tr>
+                        <tr>
+                          <th>제습</th>
+                          <th class="th2">제습</th>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                        </tr>
+                        <tr>
+                          <th>절전</th>
+                          <th class="th2">절전 2단계 / 절전플래너</th>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="y">O</td>
+                          <td class="text"><p>*모델별 상이</p></td>
+                        </tr>
+                        <tr>
+                          <th>에너지<br />등급</th>
+                          <th class="th2">에너지등급</th>
+                          <td class="text">
+                            1/2등급
+                            <p>*모델별 상이</p>
+                          </td>
+                          <td class="text"><p>*모델별 상이</p></td>
+                          <td class="text"><p>*모델별 상이</p></td>
+                          <td class="text"><p>*모델별 상이</p></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <p class="des">
+                    * 제품별 스펙은 다를 수 있으니 정확한 내용은 각 제품별 상세
+                    스펙을 확인해주세요.
+                  </p>
                 </div>
               </div>
               <div
@@ -1691,12 +2206,10 @@
                   />
                 </div>
                 <div class="text-wrap">
-                  <h4>장마철에도 걱정 없이 시원하게</h4>
+                  <h4>에어컨 설치가 어려운 공간에도 간편하게</h4>
                   <div>
                     <p>
-                      창문에 간편하게 설치해 공간을 아끼면서 장마철에도
-                      빗물·습기 걱정 없이 시원함을 유지하고, 강력 제습과
-                      AI건조로 내부 습기까지 관리해 쾌적하게 사용할 수 있어요.
+                      복잡한 시공 없이 창문에 간편하게 설치할 수 있어 설치 제약이 있는 공간에서도 쾌적하게 지낼 수 있어요. 무배관 설치로 벽 타공 없이 간편하게 다양한 창문 사이즈에 맞춰 편리하게 설치할 수 있습니다.
                     </p>
                   </div>
                 </div>
@@ -1726,8 +2239,8 @@
                         <thead>
                           <tr class="procuct-name">
                             <th>
-                              <h4>창호형 에어컨</h4>
-                              <p>창문에 간편히 설치하고 장마철에도 쾌적하게</p>
+                              <h4>엣지 창호형 에어컨</h4>
+                              <p>내가 찾던 인테리어 에어컨</p>
                             </th>
                           </tr>
                         </thead>
@@ -1759,16 +2272,15 @@
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_powerdry.svg"
-                                  alt="강력제습"
+                                  alt="절전&스마트케어"
                                 />
                               </div>
                               <p>
-                                강력제습
+                                절전&스마트케어
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >장마철에도 습기를 줄여 하루종일 뽀송하고
-                                    쾌적하게
+                                    >절전모드와 목표사용량 설정으로 소비전력 효율적 관리 나에게 쾌적한 온도를 맞춰주는 에어컨
                                   </span>
                                 </span>
                               </p>
@@ -1779,17 +2291,15 @@
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_AIdry.svg"
-                                  alt="AI건조"
+                                  alt="장마철 맞춤 에어컨"
                                 />
                               </div>
                               <p>
-                                AI건조
+                                장마철 맞춤 에어컨
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >에어컨 사용 후
-                                    <br class="mobile-only" />송풍으로 내부를
-                                    뽀송하게
+                                    >빗물이 스며들지 않도록 설계되고 강력제습으로 장마철에도 쾌적하게
                                   </span>
                                 </span>
                               </p>
@@ -1804,12 +2314,11 @@
                                 />
                               </div>
                               <p>
-                                간편 설치
+                                깨끗한 에어컨
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >이사할 때도 설치와
-                                    <br class="mobile-only" />분리를 손쉽게
+                                    >사용 후 맞춤건조로 내부 습기를 제거하고 클린바스켓을 항균 처리해 위생적으로 사용
                                   </span>
                                 </span>
                               </p>
@@ -1820,39 +2329,15 @@
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_cleanbasket.svg"
-                                  alt="클린바스켓"
+                                  alt="인테리어 에어컨"
                                 />
                               </div>
                               <p>
-                                클린바스켓
+                                인테리어 에어컨
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >보이지 않는 에어컨 내부까지 깨끗하게
-                                  </span>
-                                </span>
-                              </p>
-                            </td>
-                          </tr>
-                          <tr class="procuct-spec">
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_eco.svg"
-                                  alt="절전모드"
-                                />
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_ecoplanner.svg"
-                                  alt="절전모드 플래너"
-                                />
-                              </div>
-                              <p>
-                                절전모드 & 절전 플래너
-                                <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >나에게 맞는 절전 모드로 전력 소비를
-                                    똑똑하게
+                                    >오브제컬렉션 디자인과 깔끔한 마감키트로 공간에 조화로운 감각적인 에어컨
                                   </span>
                                 </span>
                               </p>
@@ -1861,7 +2346,7 @@
                           <tr class="product-btn">
                             <td>
                               <a
-                                href="https://www.lge.co.kr/category/air-conditioners?subCateId=CT50114000&filterProduct=AT0000000109:KY0000000991:03"
+                                href="https://www.lge.co.kr/category/air-conditioners?subCateId=CT50114000&filterProduct=AT0000000114:KY0000000991:03"
                                 target="_blank"
                                 class="btn-product"
                                 >제품 보러 가기</a
@@ -1914,10 +2399,9 @@
                   />
                 </div>
                 <div class="text-wrap">
-                  <h4>공간 제약없이 언제 어디서나 시원하게</h4>
+                  <h4>냉방이 필요한 공간에 자유롭게</h4>
                   <p>
-                    실외기 설치가 어렵거나 이사가 잦아 설치가 고민되는 경우에도
-                    손쉽게 설치해 시원함을 즐길 수 있어요.
+                    잦은 이사로 설치가 부담될 때 실외기 설치가 어려울 때 설치가 간편한 이동식 에어컨을 선택해 보세요. 이동도 쉬워 다양한 공간에서 자유롭게 사용할 수 있어요.
                   </p>
                 </div>
                 <p class="note">
@@ -1947,7 +2431,7 @@
                           <tr class="procuct-name">
                             <th colspan="3">
                               <h4>이동식 에어컨</h4>
-                              <p>효율적인 냉방으로 언제 어디서나 시원하게</p>
+                              <p>내가 원하는 공간에 자유롭게</p>
                             </th>
                           </tr>
                         </thead>
@@ -1979,6 +2463,25 @@
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_dualhose.svg"
+                                  alt="듀얼 인버터 & 에너지 1등급"
+                                />
+                              </div>
+                              <p>
+                                듀얼 인버터 & 에너지 1등급
+                                <span class="des">
+                                  <span class="info pc-only"></span>
+                                  <span class="bubble"
+                                    >듀얼 인버터 기술이 적용된 1등급 에너지소비효율로 전기료 걱정을 덜어주는 냉방</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_dualhose.svg"
                                   alt="듀얼호스"
                                 />
                               </div>
@@ -1987,9 +2490,7 @@
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >싱글호스 대비 소비전력을 줄여
-                                    <br class="mobile-only" />
-                                    더 효율적으로</span
+                                    >싱글 호스 대비 실내 온도를 빠르게 낮추고 소비전력량을 줄여 효율적으로 사용</span
                                   >
                                 </span>
                               </p>
@@ -2000,17 +2501,15 @@
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_icepower.svg"
-                                  alt="아이스쿨파워"
+                                  alt="쾌적관리 & 절전"
                                 />
                               </div>
                               <p>
-                                아이스쿨파워
+                                쾌적관리 & 절전
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >최대 4°C 더 낮은 강력한 바람으로
-                                    <br class="mobile-only" />더 빠르고
-                                    시원하게</span
+                                    >절전모드와 목표사용량 설정으로 소비젼력 효율적 관리, 강력제습과 맞춤건조로 쾌적하게</span
                                   >
                                 </span>
                               </p>
@@ -2021,69 +2520,21 @@
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_AIdry.svg"
-                                  alt="AI건조"
+                                  alt="편리한 사용성"
                                 />
                               </div>
                               <p>
-                                AI건조
+                                편리한 사용성
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >에어컨 사용 후
-                                    <br class="mobile-only" />
-                                    송풍으로 내부를 뽀송하게</span
+                                    >설치는 간편하게 손쉬운 이동으로 편리한 사용</span
                                   >
                                 </span>
                               </p>
                             </td>
                           </tr>
-                          <tr class="procuct-spec">
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_smartcare.svg"
-                                  alt="스마트케어"
-                                />
-                              </div>
-                              <p>
-                                스마트케어
-                                <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >나의 생활에 맞춰
-                                    <br class="mobile-only" />
-                                    자동으로 공간을 시원하게</span
-                                  >
-                                </span>
-                              </p>
-                            </td>
-                          </tr>
-                          <tr class="procuct-spec">
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_2eco.svg"
-                                  alt="2단계 절전모드"
-                                />
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_ecoplanner.svg"
-                                  alt="절전 플래너"
-                                />
-                              </div>
-                              <p>
-                                2단계 절전모드 & 절전 플래너
-                                <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >나에게 맞는 절전 모드로
-                                    <br class="mobile-only" />
-                                    전력 소비를 똑똑하게</span
-                                  >
-                                </span>
-                              </p>
-                            </td>
-                          </tr>
-                          <tr class="product-btn">
+                          <!-- <tr class="product-btn">
                             <td>
                               <a
                                 href="https://www.lge.co.kr/category/air-conditioners?subCateId=CT50114000"
@@ -2092,297 +2543,13 @@
                                 >제품 보러 가기</a
                               >
                             </td>
-                          </tr>
+                          </tr> -->
                         </tbody>
                       </table>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="product-table">
-              <h4 class="box-subtitle">
-                가장 합리적인 선택을 위해<br />
-                스펙을 명확하게 비교해서 보여드려요.
-              </h4>
-              <div class="table-wrap include-tab vertical-scroll-box">
-                <table>
-                  <colgroup>
-                    <col class="col1" />
-                    <col class="col2" />
-                    <col />
-                    <col />
-                    <col />
-                    <col />
-                    <col />
-                    <col />
-                    <col />
-                    <col />
-                    <col />
-                    <col />
-                  </colgroup>
-                  <thead>
-                    <tr>
-                      <th colspan="2">모델 라인업</th>
-                      <th>타워I<br />9시리즈</th>
-                      <th>타워I<br />7시리즈</th>
-                      <th>타워I<br />5시리즈</th>
-                      <th>뷰I 프로<br />6시리즈</th>
-                      <th>뷰I 프로<br />4시리즈</th>
-                      <th>뷰I<br />3시리즈</th>
-                      <th>뷰II<br />2시리즈</th>
-                      <th>뷰II<br />1시리즈</th>
-                      <th>쿨<br />2시리즈</th>
-                      <th>쿨<br />1시리즈</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th rowspan="2">AI<br />특화</th>
-                      <th class="th2">레이더 센서 (외출절전/AI 홈모니터링)</th>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                    </tr>
-                    <tr>
-                      <th class="th2">AI음성인식</th>
-                      <td class="y text">
-                        <span class="o">O</span>
-                        <p>(본체/리모컨)</p>
-                      </td>
-                      <td class="y text">
-                        <span class="o">O</span>
-                        <p>(본체/리모컨)</p>
-                      </td>
-                      <td class="y text">
-                        <span class="o">O</span>
-                        <p>(본체/리모컨)</p>
-                      </td>
-                      <td class="y text">
-                        <span class="o">O</span>
-                        <p>(리모컨)</p>
-                      </td>
-                      <td class="y text">
-                        <span class="o">O</span>
-                        <p>(리모컨)</p>
-                      </td>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                    </tr>
-                    <tr>
-                      <th rowspan="2">냉방</th>
-                      <th class="th2">AI바람</th>
-                      <td class="y text">
-                        <span class="o">O</span>
-                        <p>(레이더 센서/공간분석)</p>
-                      </td>
-                      <td class="y text">
-                        <span class="o">O</span>
-                        <p>(레이더 센서/공간분석)</p>
-                      </td>
-                      <td class="y text">
-                        <span class="o">O</span>
-                        <p>(레이더 센서/공간분석)</p>
-                      </td>
-                      <td class="y text">
-                        <span class="o">O</span>
-                        <p>(레이더 센서/공간분석)</p>
-                      </td>
-                      <td class="y text">
-                        <span class="o">O</span>
-                        <p>(공간분석)</p>
-                      </td>
-                      <td class="y text">
-                        <span class="o">O</span>
-                        <p>(공간분석)</p>
-                      </td>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                    </tr>
-                    <tr>
-                      <th class="th2">소프트바람</th>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                    </tr>
-                    <tr>
-                      <th rowspan="3">AI<br />청정</th>
-                      <th class="th2">필터클린봇</th>
-                      <td class="y">O</td>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                    </tr>
-                    <tr>
-                      <th class="th2">알러지케어 공기청정</th>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                      <td class="n">X</td>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                      <td class="n">X</td>
-                      <td class="y">O</td>
-                      <td class="n">X</td>
-                      <td class="y">O</td>
-                      <td class="n">X</td>
-                    </tr>
-                    <tr>
-                      <th class="th2">UV-LED 팬살균</th>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                      <td class="text"><p>*모델별 상이</p></td>
-                      <td class="text"><p>*모델별 상이</p></td>
-                      <td class="text"><p>*모델별 상이</p></td>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                    </tr>
-                    <tr>
-                      <th>공기<br />청정</th>
-                      <th class="th2">공기청정</th>
-                      <td class="y text">
-                        <span class="o">O</span>
-                        <p>(PM1.0센서)</p>
-                      </td>
-                      <td class="y text">
-                        <span class="o">O</span>
-                        <p>(PM1.0센서)</p>
-                      </td>
-                      <td class="n">X</td>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                      <td class="n">X</td>
-                      <td class="y">O</td>
-                      <td class="n">X</td>
-                      <td class="y">O</td>
-                      <td class="n">X</td>
-                    </tr>
-                    <tr>
-                      <th>셀프<br />청정</th>
-                      <th class="th2">셀프청정<br />/클린뷰 쿨오픈</th>
-                      <td>셀프청정</td>
-                      <td>셀프청정</td>
-                      <td>셀프청정</td>
-                      <td>클린뷰</td>
-                      <td>클린뷰</td>
-                      <td>클린뷰</td>
-                      <td>클린뷰</td>
-                      <td>클린뷰</td>
-                      <td>쿨오픈</td>
-                      <td>쿨오픈</td>
-                    </tr>
-                    <tr>
-                      <th>에너지<br />등급</th>
-                      <th class="th2">에너지등급</th>
-                      <td class="text">
-                        1/2등급
-                        <p>*모델별 상이</p>
-                      </td>
-                      <td class="text">2등급</td>
-                      <td class="text">2등급</td>
-                      <td class="text">
-                        1/2등급
-                        <p>*모델별 상이</p>
-                      </td>
-                      <td class="text">2등급</td>
-                      <td class="text">
-                        1/2등급
-                        <p>*모델별 상이</p>
-                      </td>
-                      <td class="text">3등급</td>
-                      <td class="text">3등급</td>
-                      <td class="text">3등급</td>
-                      <td class="text">3등급</td>
-                    </tr>
-                    <tr class="tr-color">
-                      <th rowspan="3">디자인</th>
-                      <th class="th2">색상</th>
-                      <td><span>크림화이트</span><span>카밍베이지</span></td>
-                      <td><span>크림화이트</span><span>카밍베이지</span></td>
-                      <td><span>크림화이트</span><span>카밍베이지</span></td>
-                      <td><span>에센스화이트</span></td>
-                      <td><span>에센스화이트</span></td>
-                      <td><span>에센스화이트</span></td>
-                      <td><span>에센스화이트</span><span>카밍베이지</span></td>
-                      <td><span>에센스화이트</span><span>카밍베이지</span></td>
-                      <td><span>에센스화이트</span></td>
-                      <td><span>에센스화이트</span></td>
-                    </tr>
-                    <tr>
-                      <th class="th2">뷰케이스</th>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                    </tr>
-                    <tr>
-                      <th class="th2">토출구 커버 자동개폐</th>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                      <td class="y">O</td>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                      <td class="n">X</td>
-                    </tr>
-                    <tr>
-                      <th colspan="2">출시연도</th>
-                      <td>2025</td>
-                      <td>2025</td>
-                      <td>2025</td>
-                      <td>2025</td>
-                      <td>2025</td>
-                      <td>2025</td>
-                      <td>2025</td>
-                      <td>2025</td>
-                      <td>2025</td>
-                      <td>2025</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <p class="des">
-                * 제품별 스펙은 다를 수 있으니 정확한 내용은 각 제품별 상세
-                스펙을 확인해주세요.<br />
-                * 셀프청정 : 원할 때 에어컨을 열어서 간단하게 내부 청소 가능한
-                구조입니다. (타워 : 셀프청정, 뷰 : 클린뷰, 쿨 : 쿨오픈)
-              </p>
             </div>
           </section>
           <section

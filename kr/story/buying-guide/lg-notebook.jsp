@@ -2235,7 +2235,7 @@
                   생활에 편리함을 더하는 <br />
                   실용적인 기능도 함께 알아보세요.
                 </h4>
-                <div class="tab-wrap">
+                <!-- <div class="tab-wrap">
                   <button
                     class="active"
                     name="buying-guide-tab"
@@ -2244,14 +2244,14 @@
                   >
                     편의기능
                   </button>
-                  <!-- <button
+                  <button
                     name="buying-guide-tab"
                     data-target="#buying-point-8"
                     data-group="buying-point-50"
                   >
                     디스플레이
-                  </button> -->
-                </div>
+                  </button>
+                </div> -->
                 <div class="tab-content">
                   <div id="buying-point-7" name="buying-point-50">
                     <div
