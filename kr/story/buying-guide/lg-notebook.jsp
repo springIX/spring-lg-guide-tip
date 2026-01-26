@@ -1860,6 +1860,32 @@
                           />
                         </div>
                       </div>
+                      <h4 class="hide">Intel ARC Graphics</h4>
+                      <div class="content">
+                        <h5>Intel ARC Graphics</h5>
+                        <p>
+                          인텔 코어 울트라 시리즈3은 인텔 Xe 그래픽으로 그래픽 성능을 전작 대비 최대 77% 향상시켜 영상 편집, 고해상도 스트리밍, 게임 플레이까지 더 부드럽고 선명하게 즐길 수 있어요. 최신 인텔 아키텍처가 CPU와 GPU 연산을 효율적으로 처리해 콘텐츠 제작과 멀티 태스킹에서도 빠르게 응답하고 속도를 안정적으로 유지할 수 있어요.
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_05.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <h4 class="hide">AMD Radeon™ Graphics</h4>
+                      <div class="content">
+                        <h5>AMD Radeon™ Graphics</h5>
+                        <p>
+                          
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_05.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </div>
                     </div>
                     <div
                       class="point-wrap"

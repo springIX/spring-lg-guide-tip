@@ -1496,7 +1496,7 @@
                   <div
                     class="procuct-summary"
                     id="procuct-summary2"
-                    style="--col-width: 33.33%; --table-width: 456px"
+                    style="--col-width: 25%; --table-width: 456px"
                   >
                     <div class="sticky-product-no include-tab">
                       <div class="inner">
@@ -1509,7 +1509,7 @@
                       </div>
                     </div>
                     <div class="summary-table">
-                      <table>
+                      <table class="no-btn">
                         <thead>
                           <tr class="procuct-name">
                             <th colspan="4">
@@ -1882,7 +1882,7 @@
                               </p>
                             </td>
                           </tr>
-                          <tr class="procuct-spec">
+                          <tr class="procuct-spec last">
                             <td>
                               <div class="spec-img">
                                 <img
@@ -2515,7 +2515,7 @@
                               </p>
                             </td>
                           </tr>
-                          <tr class="procuct-spec">
+                          <tr class="procuct-spec last gray">
                             <td>
                               <div class="spec-img">
                                 <img
@@ -2567,6 +2567,13 @@
                 class="active"
                 name="buying-guide-tab"
                 data-group="buying-point"
+                data-target="#buying-point-4"
+              >
+                냉방면적
+              </button>
+              <button
+                name="buying-guide-tab"
+                data-group="buying-point"
                 data-target="#buying-point-1"
               >
                 AI 기능
@@ -2585,134 +2592,83 @@
               >
                 관리/위생
               </button>
+              <button
+                name="buying-guide-tab"
+                data-target="#buying-point-5"
+                data-group="buying-point"
+              >
+                절전
+              </button>
             </div>
             <div class="tab-content">
-              <div id="buying-point-1" name="buying-point">
+              <div id="buying-point-4" name="buying-point">
                 <div class="subtab-wrap">
                   <div class="subtab-btn">
                     <button
                       class="active"
                       name="buying-guide-tab"
-                      data-target="#buying-point-1-1"
-                      data-group="buying-point-1"
+                      data-target="#buying-point-4-1"
+                      data-group="buying-point-4"
                     >
-                      레이더 센서
+                      스탠드형
                     </button>
                     <button
                       name="buying-guide-tab"
-                      data-target="#buying-point-1-2"
-                      data-group="buying-point-1"
+                      data-target="#buying-point-4-2"
+                      data-group="buying-point-4"
                     >
-                      AI 음성인식
-                    </button>
-                    <button
-                      name="buying-guide-tab"
-                      data-target="#buying-point-1-3"
-                      data-group="buying-point-1"
-                    >
-                      Always AI
+                      벽걸이형
                     </button>
                   </div>
                   <div class="subtab-content">
                     <div
                       class="point-wrap"
-                      id="buying-point-1-1"
-                      name="buying-point-1"
+                      id="buying-point-4-1"
+                      name="buying-point-4"
                     >
-                      <h4 class="hide">레이더 센서</h4>
+                      <h4 class="hide">스탠드형</h4>
                       <div class="content">
-                        <h5>레이더 센서</h5>
+                        <h5>스탠드형</h5>
                         <p>
-                          레이더 센서는 사람이 있는 위치를 세밀하게 인식해
-                          시원한 바람은 필요한 곳으로 보내고, 사람이 없을 땐
-                          절전 모드로 전환하여 불필요한 에너지 소비를
-                          줄여줍니다. 또한 인체 감지 성능이 뛰어나 외출 시에는
-                          자동으로 전원을 꺼주는 등, 생활 속 편리함과 효율을
-                          동시에 제공합니다. 사용자는 별도의 조작 없이도 항상
-                          쾌적하고 똑똑한 냉방 환경을 경험할 수 있습니다.
+                          넓은 공간 냉방이 필요하다면 스탠드형 에어컨을 추천합니다. 거실 공간처럼 창문이 크고 방으로 이어지는 통로가 많아 냉기 손실되는 경우 면적 대비 크게 선택하는 것을 추천해요.
                         </p>
-                        <div class="btn-wrap">
-                          <a
-                            class="btn-product"
-                            href="https://www.lge.co.kr/category/air-conditioners?filterProduct=AT0000001251:KY0000003894:03"
-                            target="_blank"
-                            >제품 보러 가기</a
-                          >
-                        </div>
+                        <table>
+                          <tr>
+                            <th>우리집 면적</th>
+                            <th>추천 냉방 면적</th>
+                            <th>제품추천</th>
+                          </tr>
+                          <tr>
+                            <td>~ 115.7 m²</td>
+                            <td>56.9 m² ~ 58.5 m²</td>
+                            <td>FQ18******~FQ20******</td>
+                          </tr>
+                          <tr>
+                            <td>~ 148.76 m²</td>
+                            <td>62.6 m² ~ 65.9 m²</td>
+                            <td>FQ20******~FQ25******</td>
+                          </tr>
+                          <tr>
+                            <td>148.76 m² ~</td>
+                            <td>81.8 m²</td>
+                            <td>FQ25******</td>
+                          </tr>
+                        </table>
                         <div class="img">
                           <img
                             src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_01.jpg"
-                            alt="탁 트인 유리창 앞에 슬림한 스탠드형 에어컨이 설치되어 있으며, 내장된 레이더 센서를 통해 사용자 위치와 움직임을 감지해 보다 스마트한 바람을 제공하는 기능을 강조합니다."
+                            alt=""
                           />
                         </div>
                         <button class="btn-collapse-toggle">
                           <span
-                            >* 레이더 센서 인체감지 / 외출절전 / 절전율 / AI
-                            홈모니터링</span
+                            >* 설치환경</span
                           >
                         </button>
                         <div class="collapse-content">
                           <p>
-                            <b>[레이더 센서 인체감지]</b><br />
-                            * 리모컨의 AI 바람 버튼 또는 LG ThinQ 앱을 통해
-                            레이더 센서 기능을 사용할 수 있습니다.<br />
-                            * 최초 사용 시 LG ThinQ 앱을 통한 레이더 센서 기능
-                            활성화가 필요합니다. 자세한 사항은 LG ThinQ 앱 내
-                            나만의 스마트케어 설정 화면을 참고해 주세요.<br />
-                            * AI 바람 동작시 레이더 센서가 재실자의 위치를
-                            감지하여 쾌속 / 쾌적 바람을 자동으로 동작합니다.<br />
-                            * 레이더 센서는 최대 5m 내에서 재실자의 위치를
-                            감지하며, 제품 설치 및 사용 환경에 따라 감지 범위의
-                            차이가 있을 수 있습니다.<br />
-                            * 레이더 센서가 적용된 모델에 한정해서 기능을 사용할
-                            수 있습니다.
-                          </p>
-                          <p>
-                            <b>[외출 절전]</b><br />
-                            * 제품 내의 레이더 센서를 통해 에어컨 동작 중 인체
-                            부재 여부를 자동 감지하고 부재일 경우 설정에 따라
-                            절전모드로 진입하거나 전원을 off 하여 에너지를
-                            절약해 줍니다.<br />* 리모컨의 설정 버튼을 눌러 사용
-                            가능합니다.<br />* 자세한 사용 방법은 사용 설명서를
-                            참고하세요.
-                          </p>
-                          <p>
-                            <b>[절전율]</b><br />
-                            * 시험 기관: TÜV Rheinland 참관시험<br />
-                            * 시험 장소: 자사 주택 환경 시험실, 45.6㎡(면적,
-                            13.8평), 109.4㎥(체적)<br />
-                            * 시험 일시: 2023. 11<br />
-                            * 시험 모델: FQ18EN9BAN<br />
-                            * 시험 조건: 실내 33±0.3˚C 60±5%, 실외 35±0.3˚C
-                            60±5%<br />
-                            * 시험 방법: 아이스쿨파워(18도, Default온도),
-                            쾌적절전(설정온도26˚C) 각 4시간 운전 시의 소비전력량
-                            비교<br />
-                            * 시험 결과: 아이스쿨파워 대비 쾌적절전 운전시
-                            절전율 77%<br />
-                            * 성적서 증빙번호: KR23EQ05-001<br />
-                            * 실험실 측정 결과 기준으로 실 사용환경에서는 달라질
-                            수 있습니다.<br />
-                            * 리모컨 사용시 기본 설정은 파워절전이며, 절전 /
-                            파워절전 모드 변경은 LG ThinQ 앱에서 설정
-                            가능합니다.
-                          </p>
-                          <p>
-                            <b>[AI 홈모니터링]</b><br />
-                            * AI 홈모니터링 기능은 레이더 센서가 적용된 모델에
-                            한정하여 사용할 수 있는 기능입니다.<br />
-                            제품에 따라 기능적용 여부가 다를 수 있으니, 제품
-                            구매 전에 기능사양을 확인하시기 바랍니다.<br />
-                            * 제품 운전이 OFF된 상태에서 레이더 센서를 통해 재실
-                            자 움직임이 10분 내 3회 이상 감지될 경우 LG ThinQ
-                            앱을 통해 알림을 제공합니다.<br />
-                            * AI홈모니터링 기능을 사용하기 위해서는 LG ThinQ
-                            앱을 통한 기능 활성화가 필요합니다.<br />
-                            * LG ThinQ 앱 내에 가전제품 등록을 위해서는 가정 내
-                            무선 인터넷 환경이 필요합니다.<br />
-                            * LG ThinQ 앱 기능 사용을 위해서는 스마트폰의 Google
-                            Play 스토어 또는 Apple App 스토어에서 LG ThinQ 앱을
-                            설치하여 Wi-Fi에 연결해야 합니다.
+                            * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br />
+                            * 위 가이드는 단순 참고사항으로 실제 에어컨이 설치되는 공간의 상황에 따라 다를 수 있습니다.
                           </p>
                           <button class="btn-collapse-close">접기</button>
                         </div>
@@ -2720,122 +2676,52 @@
                     </div>
                     <div
                       class="point-wrap"
-                      id="buying-point-1-2"
-                      name="buying-point-1"
+                      id="buying-point-4-2"
+                      name="buying-point-4"
                       style="display: none"
                     >
-                      <h4 class="hide">AI 음성인식</h4>
+                      <h4 class="hide">벽걸이형</h4>
                       <div class="content">
-                        <h5>AI 음성인식</h5>
+                        <h5>벽걸이형</h5>
                         <p>
-                          음성인식 기능은 리모컨을 찾을 필요 없이, 자연스러운 말
-                          한마디로 에어컨을 제어할 수 있게 해주는 스마트 제어
-                          방식입니다. 일상 언어만으로 작동이 가능하며, 사용자의
-                          의도까지 파악하는 GPT 기반으로 보다 직관적이고 편리한
-                          사용 경험을 제공합니다.
+                          작은 공간 냉방이 필요하다면 벽걸이형 에어컨을 추천합니다. 침실이나 원룸처럼 아담한 공간에서도 벽에 설치해 공간을 차지하지 않으면서 시원하게 공간을 유지할 수 있어요.
                         </p>
-                        <div class="btn-wrap">
-                          <a
-                            class="btn-product"
-                            href="https://www.lge.co.kr/category/air-conditioners?filterProduct=AT0000001251:KY0000003375:03"
-                            target="_blank"
-                            >제품 보러 가기</a
-                          >
-                        </div>
+                        <table>
+                          <tr>
+                            <th>공간형태</th>
+                            <th>추천 냉방 면적</th>
+                            <th>제품추천</th>
+                          </tr>
+                          <tr>
+                            <td>안방</td>
+                            <td>18.7 m² ~ 22.8 m²</td>
+                            <td>SQ06~07******</td>
+                          </tr>
+                          <tr>
+                            <td>상가, 사무실 <br />원룸, 오피스텔</td>
+                            <td>
+                              18.7 m² ~ 22.8 m²<br />
+                              29.3 m² ~ 34.1 m²<br />
+                              42.3 m² ~ 52.8 m²
+                            </td>
+                            <td>SQ06~SQ16******</td>
+                          </tr>
+                        </table>
                         <div class="img">
                           <img
                             src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_02.jpg"
-                            alt="밝은 거실에서 한 여성이 컵을 들고 미소 짓고 있는 장면으로, AI 음성인식 기능을 통해 손쉽게 조작 가능한 스탠드형 에어컨이 함께 배치되어 있습니다."
+                            alt=""
                           />
                         </div>
                         <button class="btn-collapse-toggle">
-                          <span>* AI 음성인식</span>
+                          <span
+                            >* 설치환경</span
+                          >
                         </button>
                         <div class="collapse-content">
                           <p>
-                            * 해당 기능은 음성인식 기능이 적용된 모델에 한정하여
-                            사용할 수 있는 기능입니다.<br />
-                            제품에 따라 기능 적용 여부가 다를 수 있으니 제품
-                            구매 전에 기능 사양을 확인하시기 바랍니다.<br />
-                            * 사용 환경에 따라 특정 명령어나 문구는 인식되지
-                            않을 수 있으며 음성 인식 기능이 모든 상황에서
-                            완벽하게 작동하지 않을 수 있습니다.<br />
-                            자세한 사용법 및 예시 명령어는 제품에 동봉된
-                            사용설명서 또는 홈페이지를 참고하세요.<br />
-                            * AI 음성인식 기능을 사용하기 위해서는 LG ThinQ 앱
-                            내 제품 등록이 필요합니다.<br />
-                            * LG ThinQ 앱 내에 가전제품 등록을 위해서는 가정 내
-                            무선 인터넷 환경이 필요합니다.<br />
-                            * LG ThinQ 앱 기능 사용을 위해서는 스마트폰의 Google
-                            Play 스토어 또는 Apple App 스토어에서 LG ThinQ 앱을
-                            설치하여 Wi-Fi에 연결해야 합니다.
-                          </p>
-                          <button class="btn-collapse-close">접기</button>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="point-wrap"
-                      id="buying-point-1-3"
-                      name="buying-point-1"
-                      style="display: none"
-                    >
-                      <h4 class="hide">Always AI</h4>
-                      <div class="content">
-                        <h5>Always AI</h5>
-                        <p>
-                          Always AI 기능은 음성 제어부터 절전 모드, 디스플레이
-                          정보까지 한 번에 관리할 수 있는 스마트 기능입니다.
-                          음성으로 간편하게 제어하고, 외출 시에는 자동 절전
-                          모드로 에너지를 아껴줍니다.또한 전면 AOD(Always On
-                          Display)를 통해 온도·습도·공기질과 같은 정보를 한눈에
-                          확인할 수 있어, 사계절 내내 똑똑하고 편리한 생활을
-                          제공합니다.
-                        </p>
-                        <div class="img">
-                          <img
-                            src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_03.jpg"
-                            alt="전면 디스플레이에 실외 온도와 날씨, 운전 상태가 직관적으로 표시되어 사용자가 한눈에 확인할 수 있으며, Always AI를 통해 간편하게 제어할 수 있는 모습입니다."
-                          />
-                        </div>
-                        <button class="btn-collapse-toggle">
-                          <span>* AOD(Always On Display) / 스마트 스케줄 </span>
-                        </button>
-                        <div class="collapse-content">
-                          <p>
-                            <b>[AOD(Always On Display)]</b><br />
-                            * 본 기능은 제품 본체 LCD 디스플레이 기능이 적용된
-                            모델에 한정하여 사용할 수 있는 기능입니다.<br />
-                            * 제품에 따라 기능 적용 여부가 다를 수 있으니, 제품
-                            구매 전에 기능 사양을 확인하시기 바랍니다.<br />
-                            * AOD / 스마트 스케줄 기능을 사용하기 위해서는 LG
-                            ThinQ 앱 내 제품 등록이 필요합니다.<br />
-                            * LG ThinQ 앱 내에 가전제품 등록을 위해서는 가정 내
-                            무선 인터넷 환경이 필요합니다.<br />
-                            * LG ThinQ 앱 기능 사용을 위해서는 스마트폰의 Google
-                            Play 스토어 또는 Apple App 스토어에서 LG ThinQ 앱을
-                            설치하여 Wi-Fi에 연결해야 합니다.
-                          </p>
-                          <p>
-                            <b>[스마트 스케줄]</b><br />
-                            * LG ThinQ 앱을 통해 기념일 및 스케줄 설정 시, 제품
-                            본체 디스플레이를 통한 이미지 및 메시지 알림을
-                            제공합니다.<br />
-                            * 기념일 추가는 최대 10개까지 생성이 가능합니다.<br />
-                            * 자세한 설정 방법은 LG ThinQ 앱 내 "기념일 표시"
-                            화면의 가이드를 확인해 주세요<br />
-                            * 본 기능은 제품 본체 LCD 디스플레이 및 음성인식
-                            기능이 적용된 모델에 한정하여 사용할 수 있는
-                            기능입니다.<br />
-                            제품에 따라 기능 적용 여부가 다를 수 있으니, 제품
-                            구매 전에 기능 사양을 확인하시기 바랍니다.<br />
-                            * AOD / 스마트 스케줄 기능을 사용하기 위해서는 LG
-                            ThinQ 앱 내 제품 등록이 필요합니다.<br />
-                            * LG ThinQ 앱 내에 가전제품 등록을 위해서는 가정 내
-                            무선 인터넷 환경이 필요합니다.<br />
-                            * LG ThinQ 앱 기능 사용을 위해서는 스마트폰의 Google
-                            Play 스토어 또는 Apple App 스토어에서 LG ThinQ 앱을
-                            설치하여 Wi-Fi에 연결해야 합니다.
+                            * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br />
+                            * 위 가이드는 단순 참고사항으로 실제 에어컨이 설치되는 공간의 상황에 따라 다를 수 있습니다.
                           </p>
                           <button class="btn-collapse-close">접기</button>
                         </div>
@@ -2848,30 +2734,321 @@
                   <div class="tip-content">
                     <div class="content">
                       <p class="tag">
-                        #편리함 #효율중시 #핸즈프리 #스마트라이프
+                        #냉방면적 #거실 #원룸
                       </p>
                       <h6 class="tip-title">
-                        손대지 않아도 나의 생활패턴에 맞게
+                        설치 환경을 고려한 냉방 면적 계산법
                       </h6>
                       <p class="tip-text">
-                        매일 바쁜 일정으로 집을 비우거나, 기기를 직접 조작하기
-                        어려운 분께 잘 어울리는 기능이에요. 집은 스스로 온도와
-                        에너지를 조절해 항상 쾌적하게 유지되고, 요리하거나 짐을
-                        들고 있을 때처럼 손이 자유롭지 않을 때도 말 한마디면
-                        필요한 기능이 작동해 흐름이 끊기지 않아요. 직접 제어하지
-                        않아도 언제나 최적의 상태로 유지되기 때문에 편리함을
-                        선호하는 분께 추천드려요.
+                        에어컨 냉방 면적은 설치할 공간보다 큰 게 좋아요. 거실에 설치할 경우에는 아파트, 빌라는 공급 면적의 ½이상을, 오피스텔과 단독주택은 전용 면적의 2/3이상으로 냉장 면적을 선택하세요. 거실은 창문이 크고 방으로 이어지는 통로가 많아 냉기가 손실되므로 면적 대비 크게 선택하는 것을 추천해요. 방이나 원룸에 설치하는 경우에는 공간의 면적이 작고 거실 대비 냉기 손실이 적으므로 해당 공간의 면적과 동일하게 선택하는 것을 추천해요.
                       </p>
                     </div>
                     <div class="img">
                       <img
                         src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_10.jpg"
-                        alt="LG 스탠드형 에어컨 정면 이미지로, 원형 디스플레이에 아이콘과 함께 우리 결혼 3주년! 축하하고 사랑해라는 문구가 표시되어 있습니다."
+                        alt=""
                         class="pc-only"
                       />
                       <img
                         src="/kr/story/buying-guide/2025/img/air-conditioning/img_M10_101_01.jpg"
-                        alt="LG 스탠드형 에어컨 정면 이미지로, 원형 디스플레이에 아이콘과 함께 우리 결혼 3주년! 축하하고 사랑해라는 문구가 표시되어 있습니다."
+                        alt=""
+                        class="mobile-only"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="buying-point-1" name="buying-point" style="display: none">
+                <div class="subtab-wrap">
+                  <div class="subtab-btn">
+                    <button
+                      class="active"
+                      name="buying-guide-tab"
+                      data-target="#buying-point-1-1"
+                      data-group="buying-point-1"
+                    >
+                      AI콜드프리
+                    </button>
+                    <button
+                      name="buying-guide-tab"
+                      data-target="#buying-point-1-2"
+                      data-group="buying-point-1"
+                    >
+                      AI바람
+                    </button>
+                    <button
+                      name="buying-guide-tab"
+                      data-target="#buying-point-1-3"
+                      data-group="buying-point-1"
+                    >
+                      AI수면
+                    </button>
+                    <button
+                      name="buying-guide-tab"
+                      data-target="#buying-point-1-4"
+                      data-group="buying-point-1"
+                    >
+                      AI음성인식
+                    </button>
+                  </div>
+                  <div class="subtab-content">
+                    <div
+                      class="point-wrap"
+                      id="buying-point-1-1"
+                      name="buying-point-1"
+                    >
+                      <h4 class="hide">AI콜드프리</h4>
+                      <div class="content">
+                        <h5>AI콜드프리</h5>
+                        <p>
+                          냉방을 틀면 꿉꿉하고, 제습을 틀면 추우셨나요? AI콜드프리는 원하는 온도와 습도를 동시에 설정할 수 있어, 장시간 운전을 하더라도 춥지도 않고 꿉꿉하지도 않은 쾌적한 실내 환경을 유지해줘요.
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_01.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <button class="btn-collapse-toggle">
+                          <span
+                            >* AI콜드프리 / AI콜드프리 피부온도 측정 시험</span
+                          >
+                        </button>
+                        <div class="collapse-content">
+                          <p>
+                            * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                          </p>
+                          <p>
+                            <b>[AI콜드프리]</b><br />
+                            * AI콜드프리 기능은 실외 부하 및 고객의 사용 패턴을 기반으로 고객 선호 쾌적감을 분석하여 자동으로 설정 온·습도를 제공해줍니다.<br />
+                            * 최초 사용 시 고객의 사용패턴 정보 누적되기 전까지 설정된 희망온도와 50% 습도로 운전됩니다.<br />
+                            * 리모컨 또는 LG ThinQ앱을 통해 설정 온·습도를 변경할 수 있습니다. 설정 습도는 30~70% 범위에서 7단계(30%, 40%, 45%, 50%, 55%, 60%, 70%)로 조절 가능합니다.<br />
+                            * AI콜드프리 기능은 냉방 운전을 기반으로 온·습도를 조절하며, 희망온도 도달 전까지 실내온도 보다 낮은 바람이 나올 수 있습니다.
+                          </p>
+                          <p>
+                            * 시험 일시: 2025.12<br />
+                            * 시험 기관: 자사 에어컨 항온항습 시험실<br />
+                            * 시험 모델: FQ18GV6EEN<br />
+                            * 시험 조건: KS-C-9317(제습능력 시험평가 기준) - 실내 DB(27 ± 0.5)℃, WB(21.2 ± 0.3)℃ - 실외 DB(35 ± 0.5)℃, WB(24 ± 0.3)℃<br />
+                            * 시험 방법: KS 규격 제습능력 시험평가 기준의 시험조건에서 스탠드 냉방 중풍 운전 시 실내측 제습량을 측정하고 1일 평균 제습량을 계산했습니다.<br />
+                            * 시험 결과: FQ18GV6EEN 1일평균 제습량 62.7L<br />
+                            * 자사 시험 결과로 설치 및 운전 환경에 따라 차이가 있을 수 있습니다.
+                          </p>
+                          <p>
+                            <b>[AI콜드프리 피부온도 측정 시험]</b><br />
+                            * 시험 일시: 2025.11<br />
+                            * 시험 기관: 자사 에어컨 주택환경 시험실(44.4㎡ 주거환경 모사, 천고 높이 2.4m)<br />
+                            * 시험 모델: FQ25GN9BEN(26년 휘센타워)<br />
+                            * 시험 조건: KS C 9306(에어컨디셔너 이슬맺힘 조건) - 실내외 DB(27 ± 1.0)℃, WB(24 ± 0.5)℃ RH(78 ± 2.0)% - 설정온도 26℃ - 제품으로부터 좌·우측 1.7m 거리에서 피험자 2명, 앉은 자세로 측정<br />
+                            * 시험 방법: - 제안된 시험 조건에서 스탠드 자사 제습 모드 및 AI콜드프리(설정습도 40%) 모드 운전 - 1시간 동안의 피험자 2명의 평균 피부온도 측정 비교하였습니다.<br />
+                            * 시험 결과: - AI콜드프리 모드 운전 시 평균 피부 온도 0.1℃ 감소 - 제습 모드 운전 시 평균 피부 온도 0.7℃ 감소<br />
+                            * 시험실 측정 결과 기준이며 실사용 조건에서는 제품 성능에 차이가 있을 수 있습니다.
+                          </p>
+                          <button class="btn-collapse-close">접기</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="point-wrap"
+                      id="buying-point-1-2"
+                      name="buying-point-1"
+                      style="display: none"
+                    >
+                      <h4 class="hide">AI바람</h4>
+                      <div class="content">
+                        <h5>AI바람</h5>
+                        <p>
+                          실내 환경을 감지해 내가 설정한 온도를 학습하고, 실내 온도가 높으면 내 위치로 강력한 바람을 보내줍니다. 시원해지면 한쪽 바람이나 소프트바람으로 은은하게 시원함을 채워줘요.
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_02.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <button class="btn-collapse-toggle">
+                          <span>*레이더센서 인체감지 / AI바람 / LG ThinQ 앱 / AI공간분석 / 공간 직접 설정 / 소프트바람 / 소프트바람 소음</span>
+                        </button>
+                        <div class="collapse-content">
+                          <p>
+                            * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                          </p>
+                          <p>
+                            <b>[레이더센서 인체감지]</b><br />
+                            * 리모컨의 AI바람 버튼 또는 LG ThinQ 앱을 통해 레이더센서 기능을 사용할 수 있습니다.<br />
+                            * 최초 사용 시 LG ThinQ 앱을 통한 레이더센서 기능 활성화가 필요합니다. 자세한 사항은 LG ThinQ 앱 내 나만의 AI바람 설정 화면을 참고해 주세요.<br />
+                            * AI바람 동작 시 레이더센서가 재실자의 위치를 감지하여 집중 / 와이드 / 한쪽 / 소프트바람을 자동으로 동작합니다.<br />
+                            * 레이더센서는 최대 5m 내에서 재실자의 위치를 감지하며, 제품 설치 및 사용 환경에 따라 감지 범위의 차이가 있을 수 있습니다.<br />
+                            * 레이더센서가 적용된 모델에 한정해서 기능을 사용할 수 있습니다.
+                          </p>
+                          <p>
+                            <b>[AI바람]</b><br />
+                            * AI바람 운전 시 레이더센서 또는 AI공간분석 / 공간 직접 설정을 통해 실내 환경에 따라 쾌적 / 쾌속 모드를 자동으로 운전합니다.<br />
+                            * 제품 냉방 운전 시 AI바람 모드로 자동 운전 되며, 리모컨 또는 LG ThinQ 앱을 통해 운전모드를 변경할 수 있습니다.<br />
+                            * AI바람 운전 시 제품 본체 디스플레이에 AI바람과 현재 동작모드가 표시 됩니다.
+                          </p>
+                          <p>
+                            <b>[LG ThinQ 앱]</b><br />
+                            * LG ThinQ 앱 내에 가전제품 등록을 위해서는 가정 내 무선인터넷 환경이 필요합니다.<br />
+                            * LG ThinQ 앱 기능 사용을 위해서는 스마트폰의 Google Play 스토어 또는 Apple App Store에서 'LG ThinQ' 앱을 설치하여 Wi-Fi에 연결해야 합니다.
+                          </p>
+                          <p>
+                            <b>[AI공간분석]</b><br />
+                            * AI공간분석 / 공간 직접 설정 기능 사용 전 LG ThinQ 앱을 통한 공간 사진촬영 또는 에어컨 및 사용자 위치 설정이 필요합니다.<br />
+                            * 스마트폰의 카메라로 에어컨 주변 환경을 촬영하면 AI가 주 생활 공간을 분석하여 쾌적한 환경을 유지해 줍니다.<br />
+                            * 자세한 사용 방법은 LG ThinQ 앱 내의 나만의 AI바람 설정 화면을 참고해 주세요.
+                          </p>
+                          <p>
+                            <b>[공간 직접 설정]</b><br />
+                            * AI공간분석 / 공간직접 설정 기능 사용 전 LG ThinQ 앱을 통한 공간 사진촬영 또는 에어컨 및 사용자 위치 설정이 필요합니다.<br />
+                            * LG ThinQ 앱에서 에어컨과 주로 머무는 생활 공간의 위치를 설정하여 쾌적한 환경을 유지해 줍니다.<br />
+                            * 자세한 사용 방법은 LG ThinQ 앱 내의 나만의 AI바람 설정 화면을 참고해 주세요.
+                          </p>
+                          <p>
+                            <b>[소프트바람]</b><br />
+                            * 소프트바람 모드 동작 시 고객이 느끼는 바람의 양을 낮춰 일반 냉방 운전 대비 약한 바람으로 제공 해 줍니다.<br />
+                            * 소프트바람 모드는 냉방 및 공기 청정, 송풍 운전 시 사용 가능하며, 운전 모드 변경 시 기능이 해제됩니다.<br />
+                            * 소프트바람 모드에서의 희망온도 설정 범위는 24℃ 이상입니다.<br />
+                            * 소프트바람은 무선 리모컨 또는 LG ThinQ 앱을 통해 사용할 수 있습니다.<br />
+                            * 소프트바람 모드 사용 시 일반 냉방 운전 대비 약한 바람으로 운전되므로, 환경에 따라 냉방 성능의 저하가 있을 수 있습니다. 강한 냉방이 필요한 경우 아이스쿨파워 또는 일반 냉방 모드를 사용하는 것을 권장합니다.
+                          </p>
+                          <p>
+                            <b>[소프트바람 소음]</b><br />
+                            * 시험 일시 : 2024.11<br />
+                            * 시험 기관 : 자사 에어컨 소음측정 시험실<br />
+                            * 시험 모델 : FQ25FN9BEN<br />
+                            * 시험 조건 : LG(67)-F0-6021(LG 소음측정 시험 기준)
+                            실내 DB(27 ± 0.5) ℃, WB(19.0 ± 0.3) ℃/실외 DB(35 ± 0.5) ℃, WB(24 ± 0.3) ℃<br />
+                            * 시험 방법 : 상기 제안된 조건에서 스탠드 냉방 운전, 소프트바람 1단계 풍량, 설정온도 24℃ 설정 후 실내 측 소음을 측정하였습니다.<br />
+                            * 시험 결과 : 25년형 휘센 타워1 소프트바람 1단계 소음 22dB 이하<br />
+                            * 자사 시험 결과로 설치 및 운전 환경에 따라 차이가 있을 수 있습니다.
+                          </p>
+                          <button class="btn-collapse-close">접기</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="point-wrap"
+                      id="buying-point-1-3"
+                      name="buying-point-1"
+                      style="display: none"
+                    >
+                      <h4 class="hide">AI수면</h4>
+                      <div class="content">
+                        <h5>AI수면</h5>
+                        <p>
+                          모두의 숙면은 중요하니까, 잠결에 더워서 혹은 추워서 깨지 않도록 사용패턴을 분석하여 최적의 온도, 기류, 습도를 맞춰줍니다.
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_03.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <button class="btn-collapse-toggle">
+                          <span>* AI수면 / AI 수면 만족도</span>
+                        </button>
+                        <div class="collapse-content">
+                          <p>
+                            * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                          </p>
+                          <p>
+                            <b>[AI수면]</b><br />
+                            * AI 수면 기능은 취침예약 운전 중 고객의 사용패턴을 분석하여 자동으로 온도 및 습도를 조절하여 동작합니다.<br />
+                            * AI 수면 기능 동작 시 레이더 센서를 통해 고객의 움직임을 감지하여 입면과 기상 시점을 파악하고, 수면 종료 시 LG ThinQ 앱을 통해 알림을 제공하여 수면 패턴을 모니터링할 수 있습니다.<br />
+                            * 최초 사용 시 고객의 사용패턴 정보 누적되기 전까지 설정된 희망온도와 50% 습도로 운전됩니다.<br />
+                            * 수면 모니터링을 하기 위해 LG ThinQ 앱를 통해 활동량 감지 설정 활성화가 필요합니다. LG ThinQ 앱 내에 가전제품 등록을 위해서는 가정 내 무선 인터넷 환경이 필요합니다. LG ThinQ 앱 기능 사용을 위해서는 스마트폰의 Google Play 스토어 또는 Apple App 스토어에서 “LG ThinQ” 앱을 설치하여 Wi-Fi에 연결해야 합니다.<br />
+                            * 리모컨이나 LG ThinQ 앱으로 최대 12시간까지 설정 가능하며 최소는 30분이며 1시간부터 12시간까지는 1시간 단위로 예약이 가능합니다.
+                          </p>
+                          <p>
+                            <b>[AI 수면 만족도]</b><br />
+                            * 시험 일시: 2025.12<br />
+                            * 시험 기관: 자사 에어컨 주택환경 시험실 (74.0m2 주거환경 모사, 천고 높이 2.4m)<br />
+                            * 시험 모델: SQ06FS3EAJ<br />
+                            * 시험 조건: 실내 DB(30±0.5)℃, WB(22±0.5)℃ / 실외 DB(30±0.5)℃, WB(22±0.5)℃, 설정온도 26℃<br />
+                            * 시험 방법: 자사 벽걸이 AI 수면 모드로 운전(총 운전 시간 7시간), 재실 영역의 온도, 유속 측정 후 온열감 산출하여 수면 쾌적감을 계산하였습니다. <br />
+                            - 온열감 산출(ISO 7730 PMV equation) : 온도, 습도, 유속, 복사온도(측정값) <br />
+                            - 수면 쾌적감: 수면 시 침구 착의량을 고려한 PMV 계산식으로 도출<br />
+                            - 착의량(1.37clo: 침구 착의량, 일본 Kansai Univ.에서 공동연구 진행하여 취득한 값)<br />
+                            - 활동량(0.7MET: 누운 상태 사용)<br />
+                            * 시험 결과: <br />
+                            - 전체 시간 동안의 수면 쾌적감 95%<br />
+                            - 수면쾌적감 지수: 80% 이상: 매우 쾌적, 60~80%: 보통, 60%미만: 불쾌적<br />
+                            - 참조규격: 미국냉동공조학회 ASHRAE standard 55<br />
+                            * 시험실 측정 결과 기준이며 실 사용환경에서는 달라질 수 있습니다.
+                          </p>
+                          <button class="btn-collapse-close">접기</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="point-wrap"
+                      id="buying-point-1-4"
+                      name="buying-point-1"
+                      style="display: none"
+                    >
+                      <h4 class="hide">AI음성인식</h4>
+                      <div class="content">
+                        <h5>AI음성인식</h5>
+                        <p>
+                          이제 세세한 기능을 학습할 필요 없이, 대화하듯 쉽고 빠르게 음성으로 에어컨을 사용해보세요. GPT 기반으로 내가 말하는 의도까지 파악해 운전하고 제품이 꺼지면 운전시간과 소비전력량 등을 대한 정보를 안내해줍니다.
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_03.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <button class="btn-collapse-toggle">
+                          <span>* 퓨론 / AI음성인식</span>
+                        </button>
+                        <div class="collapse-content">
+                          <p>
+                            * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                          </p>
+                          <p>
+                            <b>[퓨론]</b><br />
+                            * LG전자의 GPT 기반 AI 에이전트 퓨론(FURON)에게 말을 걸면 퓨론이 말에 담긴 의도를 파악해 적합한 운전 모드와 온도로 에어컨을 작동합니다.
+                          </p>
+                          <p>
+                            <b>[AI음성인식]</b><br />
+                            * 해당 기능은 음성인식 기능이 적용 된 모델에 한정하여 사용할 수 있는 기능입니다.<br />
+                            제품에 따라 기능적용 여부가 다를 수 있으니 제품 구매 전에 기능사양을 확인하시기 바랍니다.<br />
+                            *사용 환경에 따라 특정 명령어나 문구는 인식되지 않을 수 있으며 음성 인식 기능이 모든 상황에서 완벽하게 작동하지 않을 수 있습니다. 자세한 사용법 및 예시명령어는 제품에 동봉된 사용설명서 또는 홈페이지를 참고하세요.<br />
+                            * AI 음성인식 기능을 사용하기 위해서는 LG ThinQ 앱 내 제품 등록이 필요합니다.<br />
+                            * 에어컨 리모컨을 통한 음성인식 기능입니다.<br />
+                            * LG ThinQ 앱 내에 가전제품 등록을 위해서는 가정 내 무선 인터넷 환경이 필요합니다.<br />
+                            * LG ThinQ 앱 기능 사용을 위해서는 스마트폰의 Google Play 스토어 또는 Apple App 스토어에서 LG ThinQ 앱을 설치하여 Wi-Fi에 연결해야 합니다.
+                          </p>
+                          <button class="btn-collapse-close">접기</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="point-tip" id="point-tip1">
+                  <h5>이런 포인트도 살펴보면 좋아요!</h5>
+                  <div class="tip-content">
+                    <div class="content">
+                      <p class="tag">
+                        #맞춤형에어컨 #편리함
+                      </p>
+                      <h6 class="tip-title">
+                        내게 맞춰주는 편리한 AI 라이프
+                      </h6>
+                      <p class="tip-text">
+                        매일 바쁜 일상, 에어컨이 내게 맞춰서 조절해준다면 얼마나 편리할까요? 공간과 사람을 분석해 상황에 맞는 바람을 보내주고, 말 한마디로 간편하게 작동시킬 수 있어요. 제습할 때도 내가 원하는 온도로 쾌적함을 유지해주고, 잠들 땐 추워서 깨지 않도록 온도·습도·기류를 알아서 조절해줍니다.
+                      </p>
+                    </div>
+                    <div class="img">
+                      <img
+                        src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_10.jpg"
+                        alt=""
+                        class="pc-only"
+                      />
+                      <img
+                        src="/kr/story/buying-guide/2025/img/air-conditioning/img_M10_101_01.jpg"
+                        alt=""
                         class="mobile-only"
                       />
                     </div>
@@ -2881,8 +3058,7 @@
               <div
                 id="buying-point-2"
                 name="buying-point"
-                style="display: none"
-              >
+                style="display: none">
                 <div class="subtab-wrap">
                   <div class="subtab-btn">
                     <button
@@ -2895,10 +3071,10 @@
                     </button>
                     <button
                       name="buying-guide-tab"
-                      data-target="#buying-point-2-2"
+                      data-target="#buying-point-2-4"
                       data-group="buying-point-2"
                     >
-                      와이드케어 냉방
+                      4X집중냉방
                     </button>
                     <button
                       name="buying-guide-tab"
@@ -2909,10 +3085,10 @@
                     </button>
                     <button
                       name="buying-guide-tab"
-                      data-target="#buying-point-2-4"
+                      data-target="#buying-point-2-2"
                       data-group="buying-point-2"
                     >
-                      4X집중냉방
+                      와이드케어 냉방
                     </button>
                     <button
                       name="buying-guide-tab"
@@ -2932,11 +3108,7 @@
                       <div class="content">
                         <h5>소프트바람</h5>
                         <p>
-                          소프트바람은 바람의 세기와 흐름을 부드럽게 조절하여
-                          직접적인 냉기가 닿지 않도록 설계된 냉방 기능입니다.
-                          공간 전체에 은은하게 확산되는 바람으로 쾌적한 온도를
-                          유지하며, 최저 22dB의 낮은 소음으로 조용하고 편안한
-                          냉방 환경을 제공합니다.
+                          최저 22dB의 조용함으로 바람이 직접 닿지 않으면서 쾌적한 바람을 만들어줍니다. 공간 전체를 은은하게 시원함을 채워줘요.
                         </p>
                         <div class="btn-wrap">
                           <a
@@ -2957,117 +3129,25 @@
                         </button>
                         <div class="collapse-content">
                           <p>
+                            * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                          </p>
+                          <p>
                             <b> [소프트바람]</b><br />
-                            * 소프트바람 모드 동작 시 고객이 느끼는 바람의 양을
-                            낮춰 일반 냉방 운전 대비 약한 바람으로 제공해
-                            줍니다.<br />
-                            * 소프트바람 모드는 냉방 및 공기 청정, 송풍 운전 시
-                            사용 가능하며, 운전 모드 변경 시 기능이
-                            해제됩니다.<br />
-                            * 소프트바람 모드에서의 희망온도 설정 범위는 24℃
-                            이상입니다.<br />
-                            * 소프트바람은 무선 리모컨 또는 LG ThinQ 앱을 통해
-                            사용할 수 있습니다.<br />
-                            * 소프트바람 모드 사용 시 일반 냉방 운전 대비 약한
-                            바람으로 운전되므로, 환경에 따라 냉방 성능의 저하가
-                            있을 수 있습니다.<br />
-                            강한 냉방이 필요한 경우 아이스쿨파워 또는 일반 냉방
-                            모드를 사용하는 것을 권장합니다.
+                            * 소프트바람 모드 동작 시 고객이 느끼는 바람의 양을 낮춰 일반 냉방 운전 대비 약한 바람으로 제공 해 줍니다.<br />
+                            * 소프트바람 모드는 냉방 및 공기 청정, 송풍 운전 시 사용 가능하며, 운전 모드 변경 시 기능이 해제됩니다.<br />
+                            * 소프트바람 모드에서의 희망온도 설정 범위는 24℃ 이상입니다.<br />
+                            * 소프트바람은 무선 리모컨 또는 LG ThinQ 앱을 통해 사용할 수 있습니다.<br />
+                            * 소프트바람 모드 사용 시 일반 냉방 운전 대비 약한 바람으로 운전되므로, 환경에 따라 냉방 성능의 저하가 있을 수 있습니다. 강한 냉방이 필요한 경우 아이스쿨파워 또는 일반 냉방 모드를 사용하는 것을 권장합니다.
                           </p>
                           <p>
                             <b>[소프트바람 소음]</b><br />
                             * 시험 일시 : 2024.11<br />
                             * 시험 기관 : 자사 에어컨 소음측정 시험실<br />
                             * 시험 모델 : FQ25FN9BEN<br />
-                            * 시험 조건 : LG(67)-F0-6021(LG 소음측정 시험 기준)
-                            실내 DB(27 ± 0.5) ℃, WB(19.0 ± 0.3) ℃/실외 DB(35 ±
-                            0.5) ℃, WB(24 ± 0.3) ℃<br />
-                            * 시험 방법 : 상기 제안된 조건에서 스탠드 냉방 운전,
-                            소프트바람 1단계 풍량, 설정온도 24℃ 설정 후 실내 측
-                            소음을 측정하였습니다.<br />
-                            * 시험 결과 : 25년형 휘센 타워1 소프트바람 1단계
-                            소음 22dB 이하<br />
-                            * 자사 시험 결과로 설치 및 운전 환경에 따라 차이가
-                            있을 수 있습니다.
-                          </p>
-                          <button class="btn-collapse-close">접기</button>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="point-wrap"
-                      id="buying-point-2-2"
-                      name="buying-point-2"
-                      style="display: none"
-                    >
-                      <h4 class="hide">와이드케어 냉방</h4>
-                      <div class="content">
-                        <h5>와이드케어 냉방</h5>
-                        <p>
-                          와이드케어 냉방은 바람이 벽면을 따라 흘러 몸에 직접
-                          닿지 않아도 공간 전체를 시원하게 유지하는 냉방
-                          기능입니다. 바람의 흐름을 균일하게 분산시켜 직접적인
-                          냉기 없이도 시원함이 오래 지속되도록 도와줍니다.
-                        </p>
-                        <div class="img">
-                          <img
-                            src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_05.jpg"
-                            alt="넓은 공간을 시원하게 감싸는 와이드케어 냉방 기능이 적용된 모습으로, 강력하고 균일한 바람이 거실 전체로 퍼지며 쾌적한 실내 환경을 조성합니다. 햇살이 들어오는 환한 공간과 어우러져 상쾌하고 시원한 분위기를 전달합니다."
-                          />
-                        </div>
-                        <button class="btn-collapse-toggle">
-                          <span>* 와이드케어</span>
-                        </button>
-                        <div class="collapse-content">
-                          <p>
-                            * 리모컨 버튼의 바람 방향 버튼을 눌러 와이드케어
-                            냉방 설정이 가능합니다.<br />
-                            * 2개의 에어 가드가 돌출하여 바람을 벽면으로
-                            보내줍니다.
-                          </p>
-                          <button class="btn-collapse-close">접기</button>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="point-wrap"
-                      id="buying-point-2-3"
-                      name="buying-point-2"
-                      style="display: none"
-                    >
-                      <h4 class="hide">한쪽바람</h4>
-                      <div class="content">
-                        <h5>한쪽바람</h5>
-                        <p>
-                          한쪽바람은 사용자의 위치나 상황에 따라 바람의 방향을
-                          한쪽으로 조절할 수 있는 냉방 기능입니다. 에어컨
-                          가까이에 있어도 바람이 직접 닿지 않도록 반대편으로
-                          보낼 수 있어 추위 없이 쾌적한 온도를 오래 유지할 수
-                          있습니다.
-                        </p>
-                        <div class="btn-wrap">
-                          <a
-                            class="btn-product"
-                            href="https://www.lge.co.kr/category/air-conditioners?filterProduct=AT0000001251:KY0000001262:03"
-                            target="_blank"
-                            >제품 보러 가기</a
-                          >
-                        </div>
-                        <div class="img">
-                          <img
-                            src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_06.jpg"
-                            alt="거실에서 커플이 대화를 나누며 시간을 보내고 있으며, LG 스탠드형 에어컨이 한쪽 방향으로 시원한 바람을 커튼 쪽으로 보내고 있는 모습입니다."
-                          />
-                        </div>
-                        <button class="btn-collapse-toggle">
-                          <span>* 한쪽바람</span>
-                        </button>
-                        <div class="collapse-content">
-                          <p>
-                            * 스마트케어 버튼을 누를 때 마다 ‘한쪽바람
-                            왼쪽열림’, ‘한쪽바람 오른쪽 열림’, 기타 부가기능
-                            순으로 작동됩니다.<br />
-                            * 자세한 사용법은 사용 설명서를 참고하세요.
+                            * 시험 조건 : LG(67)-F0-6021(LG 소음측정 시험 기준) 실내 DB(27 ± 0.5) ℃, WB(19.0 ± 0.3) ℃/실외 DB(35 ± 0.5) ℃, WB(24 ± 0.3) ℃<br />
+                            * 시험 방법 : 상기 제안된 조건에서 스탠드 냉방 운전, 소프트바람 1단계 풍량, 설정온도 24℃ 설정 후 실내 측 소음을 측정하였습니다.<br />
+                            * 시험 결과 : 25년형 휘센 타워1 소프트바람 1단계 소음 22dB 이하<br />
+                            * 자사 시험 결과로 설치 및 운전 환경에 따라 차이가 있을 수 있습니다.
                           </p>
                           <button class="btn-collapse-close">접기</button>
                         </div>
@@ -3083,10 +3163,7 @@
                       <div class="content">
                         <h5>4X집중냉방</h5>
                         <p>
-                          4X집중냉방은 에어컨 전면의 4개의 팬이 동시에 작동해
-                          강력한 바람을 만들어내는 냉방 기능입니다. 넓은
-                          공간에서도 빠르게 냉기를 전달해 폭염 속에서도 즉각적인
-                          시원함을 제공합니다.
+                          강력한 4개의 팬이 에어컨 전면에서 강력한 바람을 만들어 시원한 공기를 빠르게 채워줍니다.
                         </p>
                         <div class="btn-wrap">
                           <a
@@ -3107,16 +3184,92 @@
                         </button>
                         <div class="collapse-content">
                           <p>
-                            * 자사 시험 결과로 실제 사용 환경에 따라 다를 수
-                            있습니다.<br />
-                            * 시험 장소: 주택 환경시험실, 76.2 ㎡(면적: 23평),
-                            182.9 ㎥(루베)<br />
-                            * 시험 조건: 실내 건구 33℃, 습구 26.4℃(RH 60%) /
-                            실외 건구 35℃, 습구 28℃<br />
-                            * 시험 모델: FQ20LBNRA2, FQ20DADWA2, 듀얼 모델 대비
-                            냉방 속도 9% 개선<br />
-                            * 시험 방법: 일반 강풍 운전 시 설정온도(26℃) 도달 시
-                            냉방 속도 측정
+                            * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                          </p>
+                          <p>
+                            * 자사 시험 결과로 실제 사용 환경에 따라 다를 수 있습니다.<br />
+                            * 시험 장소: 주택 환경시험실, 76.2 ㎡(면적: 23평), 182.9 ㎥(루베)<br />
+                            * 시험 조건: 실내 건구 33℃, 습구 26.4℃(RH 60%) / 실외 건구 35℃, 습구 28℃<br />
+                            * 시험 모델: FQ20LBNRA2, FQ20DADWA2, 듀얼 모델 대비 냉방 속도 9% 개선<br />
+                            * 시험 방법: 일반 강풍 운전 시 설정온도(26℃) 도달 시 냉방 속도 측정
+                          </p>
+                          <button class="btn-collapse-close">접기</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="point-wrap"
+                      id="buying-point-2-3"
+                      name="buying-point-2"
+                      style="display: none"
+                    >
+                      <h4 class="hide">한쪽바람</h4>
+                      <div class="content">
+                        <h5>한쪽바람</h5>
+                        <p>
+                          에어컨의 왼쪽, 오른쪽 중 원하는 방향으로만 바람을 보낼 수 있어요. 직바람이 추울 때면 나의 반대 방향으로 바람을 보내 시원함만 유지해보세요.
+                        </p>
+                        <div class="btn-wrap">
+                          <a
+                            class="btn-product"
+                            href="https://www.lge.co.kr/category/air-conditioners?filterProduct=AT0000001251:KY0000001262:03"
+                            target="_blank"
+                            >제품 보러 가기</a
+                          >
+                        </div>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_06.jpg"
+                            alt="거실에서 커플이 대화를 나누며 시간을 보내고 있으며, LG 스탠드형 에어컨이 한쪽 방향으로 시원한 바람을 커튼 쪽으로 보내고 있는 모습입니다."
+                          />
+                        </div>
+                        <button class="btn-collapse-toggle">
+                          <span>* 한쪽바람</span>
+                        </button>
+                        <div class="collapse-content">
+                          <p>
+                            * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                          </p>
+                          <p>
+                            * 스마트케어 버튼을 누를 때 마다 ‘한쪽바람
+                            왼쪽열림’, ‘한쪽바람 오른쪽 열림’, 기타 부가기능
+                            순으로 작동됩니다.<br />
+                            * 자세한 사용법은 사용 설명서를 참고하세요.
+                          </p>
+                          <button class="btn-collapse-close">접기</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="point-wrap"
+                      id="buying-point-2-2"
+                      name="buying-point-2"
+                      style="display: none"
+                    >
+                      <h4 class="hide">와이드케어 냉방</h4>
+                      <div class="content">
+                        <h5>와이드케어 냉방</h5>
+                        <p>
+                          바람이 벽면을 따라 흘러 공간 전체를 냉방해줘요. 직바람이 추울 때면 와이드케어로 공간의 시원함을 유지해보세요.
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_05.jpg"
+                            alt="넓은 공간을 시원하게 감싸는 와이드케어 냉방 기능이 적용된 모습으로, 강력하고 균일한 바람이 거실 전체로 퍼지며 쾌적한 실내 환경을 조성합니다. 햇살이 들어오는 환한 공간과 어우러져 상쾌하고 시원한 분위기를 전달합니다."
+                          />
+                        </div>
+                        <button class="btn-collapse-toggle">
+                          <span>* 와이드케어</span>
+                        </button>
+                        <div class="collapse-content">
+                          <p>
+                            * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                          </p>
+                          <p>
+                            * 리모컨 버튼의 바람 방향 버튼을 눌러 와이드케어
+                            냉방 설정이 가능합니다.<br />
+                            * 2개의 에어 가드가 돌출하여 바람을 벽면으로
+                            보내줍니다.
                           </p>
                           <button class="btn-collapse-close">접기</button>
                         </div>
@@ -3132,10 +3285,7 @@
                       <div class="content">
                         <h5>아이스쿨파워</h5>
                         <p>
-                          아이스쿨파워는 최대 4 ℃ 더 낮은 온도의 강력한 바람을
-                          만들어 실내 열기를 빠르게 식혀주는 냉방 기능입니다.
-                          폭염에 달궈진 공기를 단시간에 식혀주어, 무더운
-                          여름에도 쾌적한 실내 환경을 유지할 수 있습니다.
+                          최대 4°C 더 낮은 바람을 보내주는 아이스쿨파워로 순식간에 시원한 바람으로 채워줍니다.
                         </p>
                         <div class="img">
                           <img
@@ -3169,17 +3319,12 @@
                   <h5>이런 포인트도 살펴보면 좋아요!</h5>
                   <div class="tip-content">
                     <div class="content">
-                      <p class="tag">#소프트바람 #와이드케어냉방 #한쪽바람</p>
+                      <p class="tag">#소프트바람 #4X집중냉방 #특화바람</p>
                       <h6 class="tip-title">
-                        부드럽게 퍼지는 바람으로, 모두가 편안한 공간
+                        바람 세기와 방향도 내 마음대로
                       </h6>
                       <p class="tip-text">
-                        직접 닿는 찬바람이 부담스럽거나, 가족이 오래 머무는
-                        공간을 보다 편안하게 유지하고 싶다면 이 기능이 잘
-                        어울려요. 아이와 반려동물이 함께 있는 집에서도 바람이
-                        세지 않아 불편함 없이 사용할 수 있어요. 장시간 사용해도
-                        냉기로 인한 피로나 건조함 없이 쾌적한 실내 환경을 유지할
-                        수 있습니다.
+                        조용한 바람부터 강력한 바람까지 휘센의 다양한 특화바람을 상황에 맞게 선택해보세요. 무더위엔 4X 집중냉방으로 강력하게, 바람이 부담스러울 땐 한쪽바람으로 원하는 방향만 시원하게. 휴식엔 최저 22dB의 조용함으로 은은하게 공간을 시원하게 채워줍니다.
                       </p>
                     </div>
                     <div class="img">
@@ -3191,38 +3336,6 @@
                       <img
                         src="/kr/story/buying-guide/2025/img/air-conditioning/img_M10_101_02.jpg"
                         alt="따뜻한 조명이 은은하게 비추는 침실 내부로, 베이지 톤의 폭신한 침구가 정갈하게 정리된 더블 침대가 놓여 있습니다. 침대 옆에는 원형 조명이 켜진 모던한 디자인의 스탠드 조명이 배치되어 있으며, 편안하고 아늑한 분위기의 휴식 공간을 연출하고 있습니다."
-                        class="mobile-only"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div class="point-tip" id="point-tip3" style="display: none">
-                  <h5>이런 포인트도 살펴보면 좋아요!</h5>
-                  <div class="tip-content">
-                    <div class="content">
-                      <p class="tag">#4X집중냉방 #아이스쿨파워</p>
-                      <h6 class="tip-title">
-                        한여름 더위도 걱정없이 강력한 냉방으로 시원하게
-                      </h6>
-                      <p class="tip-text">
-                        강한 햇살 아래에서 돌아온 집, 문을 여는 순간부터
-                        시원함이 느껴지길 바라는 분께 잘 어울리는 기능이에요.
-                        답답했던 공기가 빠르게 바뀌며 공간 전체가 순식간에
-                        시원해지고, 뜨겁게 달아올랐던 열기까지 금세 사라져요.
-                        외출 후나 운동 후, 혹은 주방에서 요리할 때처럼 열이 많은
-                        순간에도 쾌적함을 오래 유지할 수 있어 폭염 속에서도
-                        시원함을 기다리지 않아도 됩니다.
-                      </p>
-                    </div>
-                    <div class="img">
-                      <img
-                        src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_12.jpg"
-                        alt="거실에 설치된 LG 스탠드형 에어컨이 작동 중이며, 디스플레이에 실내 온도 25도가 표시되어 있습니다. 양옆으로 부드럽게 퍼지는 냉기가 시각적으로 표현되어 있으며, 밝은 컬러의 소파와 하얀 커튼이 조화를 이루어 세련되고 쾌적한 실내 공간을 강조하고 있습니다. 균일한 바람 분산과 정밀한 온도 제어 기능이 돋보이는 모습입니다."
-                        class="pc-only"
-                      />
-                      <img
-                        src="/kr/story/buying-guide/2025/img/air-conditioning/img_M10_101_03.jpg"
-                        alt="거실에 설치된 LG 스탠드형 에어컨이 작동 중이며, 디스플레이에 실내 온도 25도가 표시되어 있습니다. 양옆으로 부드럽게 퍼지는 냉기가 시각적으로 표현되어 있으며, 밝은 컬러의 소파와 하얀 커튼이 조화를 이루어 세련되고 쾌적한 실내 공간을 강조하고 있습니다. 균일한 바람 분산과 정밀한 온도 제어 기능이 돋보이는 모습입니다."
                         class="mobile-only"
                       />
                     </div>
@@ -3262,15 +3375,7 @@
                       <div class="content">
                         <h5>휘센 청정관리</h5>
                         <p>
-                          휘센 청정관리는 바람이 들어오는 필터부터 나가는
-                          토출구까지 공기의 흐름 전 과정을 깨끗하게 관리하는
-                          위생 케어 시스템입니다. 필터 클린봇이 극세필터 먼지를
-                          자동으로 청소하고, 알러지 케어 공기청정 기능이
-                          생활먼지와 알러지 유발 물질을 걸러줍니다. 또한 AI
-                          열교환기 세척과 AI건조가 내부 습기와 오염을 스스로
-                          관리하며, UV-LED 팬살균과 항균 토출구로 위생을 한층
-                          강화했습니다. 버튼 한 번으로 공기부터 제품 내부까지
-                          깨끗하게 유지할 수 있습니다.
+                          필터클린봇 - 극세필터 - 알러지케어공기청정 - 클린케이스 -AI열교환기세척 - AI건조 - UV-LED팬살균 - 클린토 출구로 바람이 들어오는 필터부터 바람이 나가는 토출구까지 깨끗한 바람을 만듭니다.
                         </p>
                         <div class="img">
                           <img
@@ -3280,18 +3385,13 @@
                         </div>
                         <button class="btn-collapse-toggle">
                           <span
-                            >* 필터 클린봇 / 청소 성능 / 극세필터 / CAC인증
-                            공기청정 / 알러지 유발물질 필터링 BAF 인증 / AI
-                            열교환기 세척 / AI건조 / UV-LED 팬살균 / 올
-                            클리닝</span
+                            >* 필터 클린봇 / 청소 성능 / 극세필터 / CAC인증 공기청정 / 알러지 유발물질 필터링 BAF 인증 / AI 열교환기 세척 / AI건조 / UV-LED 팬살균 / 올 클리닝</span
                           >
                         </button>
                         <div class="collapse-content">
                           <p>
-                            * 필터 클린봇, 극세필터, 알러지케어 공기청정,
-                            클린케이스, AI열교환기 세척, AI건조, UV-LED 팬살균,
-                            클린 토출구 입니다. 적용된 기능은 모델에 따라 차이가
-                            있을 수 있습니다.
+                            * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                            * 필터 클린봇, 극세필터, 알러지케어 공기청정, 클린케이스, AI열교환기 세척, AI건조, UV-LED 팬살균, 클린 토출구 입니다. 적용된 기능은 모델에 따라 차이가 있을 수 있습니다.
                           </p>
                           <p>
                             <b>[필터 클린봇]</b><br />
@@ -3503,22 +3603,161 @@
                     </div>
                   </div>
                 </div>
-                <div class="point-tip" id="point-tip4">
+                <div class="point-tip" id="point-tip3">
                   <h5>이런 포인트도 살펴보면 좋아요!</h5>
                   <div class="tip-content">
                     <div class="content">
-                      <p class="tag">#위생중시 #반려가정 #청정라이프</p>
+                      <p class="tag">#간편청소 #구독케어서비스</p>
                       <h6 class="tip-title">
-                        위생에 민감한 집이라면, 똑똑한 위생 케어
+                        번거로움 덜어주는 간편한 위생관리
                       </h6>
                       <p class="tip-text">
-                        가족의 건강과 실내 공기 질을 중요하게 생각하신다면 이
-                        기능이 잘 맞아요. 눈에 보이지 않는 먼지나 세균까지
-                        관리해 위생적인 바람을 유지하고, 자동 청정 관리
-                        시스템으로 매번 청소에 신경 쓰지 않아도 쾌적한 환경을
-                        유지할 수 있어요. 알레르기나 먼지에 민감한 가족이라면
-                        매일 마시는 공기까지 믿고 관리할 수 있는 안심 냉방을
-                        경험할 수 있습니다.
+                        휘센 청정관리로 에어컨 관리의 번거로움을 덜어보세요. 필요할 땐 직접 열어 내부 팬을 꼼꼼하게 청소하고 제품을 구독하면 케어 전문가가 주기적으로 방문해 제품 내부를 꼼꼼하게 세척하고 점검해 새 제품처럼 오래오래 깨끗하게 사용할 수 있어요. 
+                      </p>
+                      <p class="note">
+                        * 가전 구독 시 계약기간과 케어십 신청 주기, 필터 교체 적정 시점에 맞춰 서비스가 제공됩니다.<br />
+                        * 일시불 구매 시 케어십 서비스가 포함되어 있지 않으며, 구매 후 케어십 서비스 신청은 별도 비용이 발생합니다.<br />
+                        * 에어컨 제품과 구독 상품 종류에 따라 케어서비스 범위가 다를 수 있습니다.
+                      </p>
+                    </div>
+                    <div class="img">
+                      <img
+                        src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_13.jpg"
+                        alt="벽에 설치된 LG 벽걸이형 에어컨의 하단을 한 사람이 양손으로 열고 있는 모습입니다."
+                        class="pc-only"
+                      />
+                      <img
+                        src="/kr/story/buying-guide/2025/img/air-conditioning/img_M10_101_04.jpg"
+                        alt="벽에 설치된 LG 벽걸이형 에어컨의 하단을 한 사람이 양손으로 열고 있는 모습입니다."
+                        class="mobile-only"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                id="buying-point-5"
+                name="buying-point"
+                style="display: none"
+              >
+                <div class="subtab-wrap">
+                  <div class="subtab-btn">
+                    <button
+                      class="active"
+                      name="buying-guide-tab"
+                      data-target="#buying-point-5-1"
+                      data-group="buying-point-5"
+                    >
+                      외출절전
+                    </button>
+                    <button
+                      name="buying-guide-tab"
+                      data-target="#buying-point-5-2"
+                      data-group="buying-point-5"
+                    >
+                      2단계 절전모드 & 절전플래너
+                    </button>
+                  </div>
+                  <div class="subtab-content">
+                    <div
+                      class="point-wrap"
+                      id="buying-point-5-1"
+                      name="buying-point-5"
+                    >
+                      <h4 class="hide">외출절전</h4>
+                      <div class="content">
+                        <h5>외출절전</h5>
+                        <p>
+                          마트에 가거나 아이를 데리러 갈 때, 에어컨을 꺼야 할지 고민되셨죠? LG ThinQ 앱에서 외출절전을 켜두면 에너지 소비를 줄이는 절전 모드로 작동되니까 외출할 때 고민을 덜어줍니다.
+                        </p>
+                        <div class="img">
+                          <button class="btn-pause">일시멈춤</button>
+                          <video
+                            autoplay
+                            playsinline
+                            loop
+                            muted
+                            src="/kr/story/buying-guide/2025/video/air-conditioning/vid_P10_101_01.mp4"
+                          ></video>
+                        </div>
+                        <button class="btn-collapse-toggle">
+                          <span
+                            >* 외출절전</span
+                          >
+                        </button>
+                        <div class="collapse-content">
+                          <p>
+                            * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                          </p>
+                          <p>
+                            * 외출 절전 기능은 냉방 운전 중 레이더센서를 통해 재실자 부재 시 절전모드 또는 제품 운전을 종료하며, 재감지 시 이전 운전 모드로 복귀합니다. 단, 제품 운전이 종료된 경우에는 제품이 OFF 상태로 유지됩니다.<br />
+                            * 최초 사용 시 LG ThinQ 앱을 통한 레이더센서 활성화가 필요하며, LG ThinQ 앱을 통해 운전 모드와 재실자 부재 시간(30분~120분, 10분 단위)을 설정할 수 있습니다.<br />
+                            * LG ThinQ 앱 내에 가전제품 등록을 위해서는 가정 내 무선 인터넷 환경이 필요합니다. ThinQ 기능 사용을 위해서는 스마트폰의 Google Play 스토어 또는 Apple App 스토어에서 “LG ThinQ” 앱을 설치하여 Wi-Fi에 연결해야 합니다. 자세한 사용 방법은 애플리케이션의 도움말을 참고해주세요.
+                          </p>
+                          <button class="btn-collapse-close">접기</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="point-wrap"
+                      id="buying-point-5-2"
+                      name="buying-point-5"
+                      style="display: none"
+                    >
+                      <h4 class="hide">2단계 절전모드 & 절전플래너</h4>
+                      <div class="content">
+                        <h5>2단계 절전모드 & 절전플래너</h5>
+                        <p>
+                          절전, 파워절전 2단계로 세분화해 나에게 맞는 절전모드로설정할 수 있고 절전플래너로 목표 사용량을 설정해 에어컨의 소비전력을 효율적으로 모니터링할 수 있습니다.
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_09.jpg"
+                            alt="에어컨 내부 필터 구조를 투명하게 보여주는 이미지로, LG 휘센의 청정관리 기능을 시각화한 장면입니다."
+                          />
+                        </div>
+                        <button class="btn-collapse-toggle">
+                          <span>* 2단계 절전 / 절전플래너</span>
+                        </button>
+                        <div class="collapse-content">
+                          <p>
+                            * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                          </p>
+                          <p>
+                            <b>[2단계 절전]</b><br />
+                            * 시험 기관: TÜV Rheinland 참관시험<br />
+                            * 시험 장소: 자사 주택 환경시험실, 45.6㎡(면적, 13.8평), 109.4㎥(체적)<br />
+                            * 시험 일시: 2023. 11<br />
+                            * 시험 모델: FQ18EN9BAN<br />
+                            * 시험 조건: 실내 33±0.3˚C 60±5%, 실외 35±0.3˚C 60±5%<br />
+                            * 시험 방법: 아이스쿨파워(18도, Default온도), 절전(설정온도26˚C) 각 4시간 운전 시의 소비전력량 비교<br />
+                            * 시험 결과: 아이스쿨파워 대비 절전 운전시 절전율 77%<br />
+                            * 성적서 증빙 번호: KR23EQ05-001<br />
+                            * 실험실 측정 결과 기준으로 실 사용환경에서는 달라질 수 있습니다.<br />
+                            * 리모컨 사용시 기본 설정은 파워절전이며, 절전 / 파워절전 모드 변경은 LG ThinQ 앱에서 설정 가능합니다.
+                          </p>
+                          <p>
+                            <b>[절전 플래너]</b><br />
+                            * 절전 플래너 기능 사용 전 LG ThinQ 앱을 통한 기간 / 목표 전력량 설정이 필요합니다.<br />
+                            * 설정된 기간동안 목표 소비전력에 맞춰 에어컨을 자동으로 조절하여 동작합니다.<br />
+                            * 설정 기간 내 누적 전력량이 목표량을 초과하거나, 설정 기간이 만료되는 시점에 절전 플래너 기능이 해제 되며 LG ThinQ 앱 알림과 함께 일반 운전 모드로 변경 됩니다.
+                          </p>
+                          <button class="btn-collapse-close">접기</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="point-tip" id="point-tip5">
+                  <h5>이런 포인트도 살펴보면 좋아요!</h5>
+                  <div class="tip-content">
+                    <div class="content">
+                      <p class="tag">#에너지 #절전</p>
+                      <h6 class="tip-title">
+                        효율적인 절전 모드로 에너지 절약도 똑똑하게
+                      </h6>
+                      <p class="tip-text">
+                        “에어컨 껐나?”, “이번 달 전기요금 괜찮을까?” 걱정되셨다면 효율적인 절전 모드 기능을 활용해보세요. 마트에 가거나 아이를 데리러 갈 때 LG ThinQ 앱으로 외출절전을 켜두면 에너지 소비를 줄여주고, 나에게 맞는 절전모드로 설정하거나 목표 사용량을 설정해 에어컨의 소비전력을 효율적으로 모니터링할 수 있어요.
                       </p>
                     </div>
                     <div class="img">
@@ -3549,55 +3788,49 @@
                   <button
                     class="active"
                     name="buying-guide-tab"
-                    data-target="#buying-point-4"
-                    data-group="buying-point-45"
+                    data-target="#buying-point-6"
+                    data-group="buying-point-60"
                   >
-                    냉방 면적
+                    스마트위젯
                   </button>
                   <button
                     name="buying-guide-tab"
-                    data-target="#buying-point-5"
-                    data-group="buying-point-45"
+                    data-target="#buying-point-7"
+                    data-group="buying-point-60"
                   >
-                    절전
+                    에너지소비효율
+                  </button>
+                  <button
+                    name="buying-guide-tab"
+                    data-target="#buying-point-8"
+                    data-group="buying-point-60"
+                  >
+                    펫케어 모드
+                  </button>
+                  <button
+                    name="buying-guide-tab"
+                    data-target="#buying-point-9"
+                    data-group="buying-point-60"
+                  >
+                    AOD
                   </button>
                 </div>
                 <div class="tab-content">
-                  <div id="buying-point-4" name="buying-point-45">
+                  <div id="buying-point-6" name="buying-point-60">
                     <div
                       class="slideWrap colWrap"
-                      style="--box-height: 648px; --box-m-height: 548px"
+                      style="--box-height: 425px; --box-m-height: 420px"
                     >
                       <div class="col">
                         <div>
                           <div class="content-wrap">
                             <div>
-                              <h4>스탠드형</h4>
+                              <h4>스마트위젯</h4>
                               <p>
-                                거실처럼 넓은 공간을 빠르게 냉방하고 싶다면
-                                스탠드형 에어컨이 효과적입니다. 침실까지 함께
-                                고려하신다면. 실내기 2대와 실외기 1대로 구성되는
-                                2in1 에어컨이 더욱 경제적인 선택이 될 수
+                                스마트폰 홈 화면이나 잠금 화면에 LG ThinQ 앱 위젯을 추가해 휘센을 간편하게 운전할 수 있습니다. 몇 번의 터치만으로 빠르게 쾌적해집니다.
+
                                 있습니다.
                               </p>
-                              <table>
-                                <tr>
-                                  <th>우리집 면적</th>
-                                  <th>추천 냉방 면적</th>
-                                </tr>
-                                <tr>
-                                  <td>~ 115.7 m²</td>
-                                  <td>56.9 m² ~ 58.5 m²</td>
-                                </tr>
-                                <tr>
-                                  <td>~ 148.76 m²</td>
-                                  <td>62.6 m² ~ 65.9 m²</td>
-                                </tr>
-                                <tr>
-                                  <td>148.76 m² ~</td>
-                                  <td>81.8 m²</td>
-                                </tr>
-                              </table>
                             </div>
                             <div>
                               <div class="media-wrap">
@@ -3610,118 +3843,16 @@
                           </div>
                           <div class="detail-wrap">
                             <button class="btn-collapse-toggle">
-                              <span>* 설치 환경</span>
+                              <span>* 스마트위젯</span>
                             </button>
                             <div class="collapse-content">
                               <p>
-                                * 위 가이드는 단순 참고사항으로 실제 에어컨이
-                                설치되는 공간의 상황에 따라 다를 수 있습니다.
+                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
                               </p>
-                              <button class="btn-collapse-close">접기</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div>
-                          <div class="content-wrap">
-                            <div>
-                              <h4>벽걸이형</h4>
                               <p>
-                                벽걸이형 에어컨은 원룸이나 작은 거실처럼 개인
-                                공간을 효율적으로 활용하고 싶을 때 적합합니다.
-                                벽에 설치해 공간을 차지하지 않으면서 작은 공간도
-                                시원하게 유지할 수 있습니다.
-                              </p>
-                              <table>
-                                <tr>
-                                  <th>공간형태</th>
-                                  <th>추천 냉방 면적</th>
-                                </tr>
-                                <tr>
-                                  <td>안방</td>
-                                  <td>18.7 m² ~ 22.8 m²</td>
-                                </tr>
-                                <tr>
-                                  <td>상가, 사무실 <br />원룸, 오피스텔</td>
-                                  <td>
-                                    18.7 m² ~ 22.8 m²<br />
-                                    29.3 m² ~ 34.1 m²<br />
-                                    42.3 m² ~ 52.8 m²
-                                  </td>
-                                </tr>
-                              </table>
-                            </div>
-                            <div>
-                              <div class="media-wrap">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_15.jpg"
-                                  alt="침실 벽면 상단에 설치된 LG 벽걸이형 에어컨이 침대 위로 균일하게 냉기를 공급하는 구조로 배치되어 있으며, 베이지 톤 침대와 원형 조명이 있는 우드 사이드 테이블, 자연광이 들어오는 창이 어우러져 쾌적한 수면 환경을 연출하고 있습니다."
-                                />
-                              </div>
-                            </div>
-                          </div>
-                          <div class="detail-wrap">
-                            <button class="btn-collapse-toggle">
-                              <span>* 설치 환경</span>
-                            </button>
-                            <div class="collapse-content">
-                              <p>
-                                * 위 가이드는 단순 참고사항으로 실제 에어컨이
-                                설치되는 공간의 상황에 따라 다를 수 있습니다.
-                              </p>
-                              <button class="btn-collapse-close">접기</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div>
-                          <div class="content-wrap">
-                            <div>
-                              <h4>에어컨 냉방면적 구매 팁</h4>
-                              <p>
-                                에어컨 냉방 면적은 설치 공간보다 넉넉하게
-                                선택하는 것이 좋습니다. 거실처럼 냉기 손실이 큰
-                                곳은 더 넓은 용량을, 방이나 원룸은 공간 면적과
-                                동일한 용량을 선택하는 것이 적합합니다.
-                              </p>
-                              <table>
-                                <tr>
-                                  <th>공간형태</th>
-                                  <th>추천 냉방 면적</th>
-                                </tr>
-                                <tr>
-                                  <td>아파트, 빌라</td>
-                                  <td>공급면적의 1/2 이상</td>
-                                </tr>
-                                <tr>
-                                  <td>오피스텔·단독주택</td>
-                                  <td>전용면적의 2/3 이상</td>
-                                </tr>
-                                <tr>
-                                  <td>방, 원룸</td>
-                                  <td>해당 공간 면적과 동일한 면적 권장</td>
-                                </tr>
-                              </table>
-                            </div>
-                            <div>
-                              <div class="media-wrap">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_16.jpg"
-                                  alt="햇살이 들어오는 밝은 거실에 LG 스탠드형 에어컨이 설치되어 있으며, 상단 디스플레이에 현재 온도 24.5도가 표시되어 있습니다. 옆에는 연한 회색 소파와 화분, 식물 일러스트 액자가 배치되어 있어 자연과 어우러진 쾌적하고 세련된 실내 공간을 연출하고 있습니다."
-                                />
-                              </div>
-                            </div>
-                          </div>
-                          <div class="detail-wrap">
-                            <button class="btn-collapse-toggle">
-                              <span>* 설치 환경</span>
-                            </button>
-                            <div class="collapse-content">
-                              <p>
-                                * 위 가이드는 단순 참고사항으로 실제 에어컨이
-                                설치되는 공간의 상황에 따라 다를 수 있습니다.
+                                * 위젯 설정에서 LG ThinQ 앱을 클릭하면 찾을 수 있습니다.<br />
+                                * 전원과 온도 설정이 가능하며 상단 홈 이름을 누르면 바로 LG ThinQ 앱 에어컨 메인페이지로 연결됩니다.<br />
+                                * Android, iOS 공용으로 개발되었습니다.
                               </p>
                               <button class="btn-collapse-close">접기</button>
                             </div>
@@ -3731,28 +3862,21 @@
                     </div>
                   </div>
                   <div
-                    id="buying-point-5"
-                    name="buying-point-45"
+                    id="buying-point-7"
+                    name="buying-point-60"
                     style="display: none"
                   >
                     <div
                       class="slideWrap colWrap"
-                      style="--box-height: 591px; --box-m-height: 413px"
+                      style="--box-height: 425px; --box-m-height: 420px"
                     >
                       <div class="col">
                         <div>
                           <div class="content-wrap">
                             <div>
-                              <h4>2단계 절전모드 & 똑 부러진 절전 플래너</h4>
+                              <h4>에너지소비효율</h4>
                               <p>
-                                2단계 절전모드는 절전과 파워 절전 두 가지 모드를
-                                제공해, 상황에 맞게 전력 사용량을 세밀하게
-                                조절할 수 있습니다. 사용자는 LG ThinQ 앱에서
-                                손쉽게 절전 단계를 선택할 수 있으며, 최대
-                                77%까지 에너지 절약이 가능합니다. 또한 똑 부러진
-                                절전 플래너 기능을 통해 목표 사용량을 설정하고,
-                                에어컨의 소비전력을 실시간으로 확인하며
-                                효율적으로 관리할 수 있습니다.
+                                에너지 소비효율 1등급으로 전기료 부담까지 줄여 알뜰하게 냉방할 수 있습니다.
                               </p>
                             </div>
                             <div>
@@ -3766,79 +3890,131 @@
                           </div>
                           <div class="detail-wrap">
                             <button class="btn-collapse-toggle">
-                              <span>* 2단계 절전 / 절전 플래너</span>
+                              <span>* 에너지소비효율 1등급</span>
                             </button>
                             <div class="collapse-content">
                               <p>
-                                <b>[2단계 절전]</b><br />
-                                * 시험 기관: TÜV Rheinland 참관시험<br />
-                                * 시험 장소: 자사 주택 환경시험실, 45.6㎡(면적,
-                                13.8평), 109.4㎥(체적)<br />
-                                * 시험 일시: 2023. 11<br />
-                                * 시험 모델: FQ18EN9BAN<br />
-                                * 시험 조건: 실내 33±0.3˚C 60±5%, 실외 35±0.3˚C
-                                60±5%<br />
-                                * 시험 방법: 아이스쿨파워(18도, Default온도),
-                                절전(설정온도26˚C) 각 4시간 운전 시의 소비전력량
-                                비교<br />
-                                * 시험 결과: 아이스쿨파워 대비 절전 운전시
-                                절전율 77%<br />
-                                * 성적서 증빙 번호: KR23EQ05-001<br />
-                                * 실험실 측정 결과 기준으로 실 사용환경에서는
-                                달라질 수 있습니다.<br />
-                                * 리모컨 사용시 기본 설정은 파워절전이며, 절전 /
-                                파워절전 모드 변경은 LG ThinQ 앱에서 설정
-                                가능합니다.
-                              </p>
-                              <p>
-                                <b>[절전 플래너]</b><br />
-                                * 절전 플래너 기능 사용 전 LG ThinQ 앱을 통한
-                                기간 / 목표 전력량 설정이 필요합니다.<br />
-                                * 설정된 기간동안 목표 소비전력에 맞춰 에어컨을
-                                자동으로 조절하여 동작합니다.<br />
-                                * 설정 기간 내 누적 전력량이 목표량을
-                                초과하거나, 설정 기간이 만료되는 시점에 절전
-                                플래너 기능이 해제 되며 LG ThinQ 앱 알림과 함께
-                                일반 운전 모드로 변경 됩니다.
+                                *소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
                               </p>
                               <button class="btn-collapse-close">접기</button>
                             </div>
                           </div>
                         </div>
                       </div>
+                    </div>
+                  </div>
+                  <div
+                    id="buying-point-8"
+                    name="buying-point-60"
+                    style="display: none"
+                  >
+                    <div
+                      class="slideWrap colWrap"
+                      style="--box-height: 425px; --box-m-height: 420px"
+                    >
                       <div class="col">
                         <div>
                           <div class="content-wrap">
                             <div>
-                              <h4>에너지소비효율 1등급</h4>
+                              <h4>펫케어 모드</h4>
                               <p>
-                                에너지 효율을 높여 냉방 성능은 그대로
-                                유지하면서도 전력 소모를 최소화합니다. 정교한
-                                인버터 제어와 절전 알고리즘이 불필요한 에너지
-                                낭비를 줄여주어, 장시간 사용 시에도 전기료
-                                부담을 낮춰줍니다. 탁월한 효율과 경제성을 모두
-                                고려한 스마트 절전 기능입니다. 제품 보러 가기
+                                LG ThinQ 앱으로 루틴을 설정해두면 외출 중에도 냉방 제어로 반려동물이 시원하게 지낼 수 있습니다.
                               </p>
-                              <a
-                                class="btn-product"
-                                href="https://www.lge.co.kr/category/air-conditioners?filterProduct=AT0000000136:KY0000000219:01"
-                                target="_blank"
-                                >제품 보러 가기</a
-                              >
                             </div>
                             <div>
                               <div class="media-wrap">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_18.jpg"
-                                  alt="에너지소비효율등급 라벨 이미지로, 1부터 5등급까지 색상으로 구분된 반원형 그래프에서 가장 왼쪽 초록색 영역의 1등급이 강조되어 있으며, ‘1등급일수록 에너지가 절약됩니다’라는 문구와 함께 에너지 효율이 뛰어난 제품임을 나타냅니다."
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_17.jpg"
+                                  alt="스마트폰 화면에 LG 에어컨 제어 앱이 실행된 모습으로, 왼쪽 화면에서는 희망 온도 25.0도 설정, 바람 세기 및 방향 조절, 예약, 열대야/취침 기능, 에너지 절약 모드 등의 조작 옵션이 보입니다. 오른쪽 화면에서는 ‘스마트 절전’ 기능이 확대되어 표시되며, ‘파워 절전’과 일반 ‘절전’ 중 선택할 수 있는 메뉴가 나타나 절전 운전 방식 설정이 가능함을 보여줍니다."
                                 />
                               </div>
                             </div>
                           </div>
                           <div class="detail-wrap">
-                            <button class="btn-collapse-toggle hidden">
-                              <span>* 세부 사항</span>
+                            <button class="btn-collapse-toggle">
+                              <span>* 펫케어 모드</span>
                             </button>
+                            <div class="collapse-content">
+                              <p>
+                                *소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                              </p>
+                              <p>
+                                * 에어컨이 와이파이와 연결되고 LG ThinQ 앱에 제품 등록이 필요합니다.​<br />
+                                * LG ThinQ 앱의 에어컨 유용한 기능에서 설정 및 사용이 가능합니다.​<br />
+                                * LG ThinQ 앱 내에 가전제품 등록을 위해서는 가정 내 무선인터넷 환경이 필요합니다.​<br />
+                                * 해당 기능 사용을 위해서는 스마트폰의 Google Play 스토어 또는 Apple App 스토어에서 'LG ThinQ' 앱을 설치하여 Wi-Fi에 연결해야 합니다. 자세한 사용 방법은 애플리케이션의 도움말을 참고해 주세요.
+                              </p>
+                              <button class="btn-collapse-close">접기</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    id="buying-point-9"
+                    name="buying-point-60"
+                    style="display: none"
+                  >
+                    <div
+                      class="slideWrap colWrap"
+                      style="--box-height: 550px; --box-m-height: 420px"
+                    >
+                      <div class="col">
+                        <div>
+                          <div class="content-wrap">
+                            <div>
+                              <h4>AOD</h4>
+                              <p>
+                                외출 전에 LCD 디스플레이를 통해 온도, 습도, 공기질, 시간까지 간편하게 확인할 수 있습니다. LG ThinQ 앱에 등록된 기념일에 맞춰 이미지와 메시지를 보여주기도 합니다. 부모님과 아이들을 위한 특별한 안부 인사를 전할 수 있습니다. 나의 감정과 공간 감성에 맞춰, 90가지 색상의 무드라이팅으로 감성적인 연출이 가능합니다.
+                              </p>
+                            </div>
+                            <div>
+                              <div class="media-wrap">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_17.jpg"
+                                  alt="스마트폰 화면에 LG 에어컨 제어 앱이 실행된 모습으로, 왼쪽 화면에서는 희망 온도 25.0도 설정, 바람 세기 및 방향 조절, 예약, 열대야/취침 기능, 에너지 절약 모드 등의 조작 옵션이 보입니다. 오른쪽 화면에서는 ‘스마트 절전’ 기능이 확대되어 표시되며, ‘파워 절전’과 일반 ‘절전’ 중 선택할 수 있는 메뉴가 나타나 절전 운전 방식 설정이 가능함을 보여줍니다."
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="detail-wrap">
+                            <button class="btn-collapse-toggle">
+                              <span>* AOD / 스마트스케줄 / 서클 무드라이팅</span>
+                            </button>
+                            <div class="collapse-content">
+                              <p>
+                                *소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                              </p>
+                              <p>
+                                <b>[AOD(Always On Display)]</b><br />
+                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br />
+                                * 본 기능은 제품 본체 LCD 디스플레이 기능이 적용 된 모델에 한정하여 사용할 수 있는 기능입니다.<br />
+                                * 제품에 따라 기능 적용 여부가 다를 수 있으니, 제품 구매전에 기능 사양을 확인하시기 바랍니다.<br />
+                                * AOD / 스마트 스케줄 기능을 사용하기 위해서는 LG ThinQ 앱 내 제품 등록이 필요합니다.<br />
+                                * LG ThinQ 앱 내에 가전제품 등록을 위해서는 가정내 무선 인터넷 환경이 필요합니다.<br />
+                                * LG ThinQ 앱 기능 사용을 위해서는 스마트폰의 Google Play 스토어 또는 Apple App 스토어에서 LG ThinQ 앱을 설치하여 Wi-Fi에 연결해야 합니다.
+                              </p>
+                              <p>
+                                <b>[스마트 스케줄]</b><br />
+                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br />
+                                * LG ThinQ 앱을 통해 기념일 및 스케줄 설정시, 제품 본체 디스플레이를 통한 이미지 및 메세지 알림을 제공합니다.<br />
+                                * 기념일 추가는 최대 10개까지 생성이 가능합니다.<br />
+                                * 자세한 설정 방법은 LG ThinQ 앱 내 "기념일 표시" 화면의 가이드를 확인해 주세요<br />
+                                * 본 기능은 제품 본체 LCD 디스플레이 및 음성인식 기능이 적용 된 모델에 한정하여 사용할 수 있는 기능입니다. 제품에 따라 기능 적용 여부가 다를 수 있으니, 제품 구매전에 기능 사양을 확인하시기 바랍니다.<br />
+                                * AOD / 스마트 스케줄 기능을 사용하기 위해서는 LG ThinQ 앱 내 제품 등록이 필요합니다.<br />
+                                * LG ThinQ 앱 내에 가전제품 등록을 위해서는 가정내 무선 인터넷 환경이 필요합니다.<br />
+                                * LG ThinQ 앱 기능 사용을 위해서는 스마트폰의 Google Play 스토어 또는 Apple App 스토어에서 LG ThinQ 앱을 설치하여 Wi-Fi에 연결해야 합니다.
+                              </p>
+                              <p>
+                                <b>[서클 무드라이팅]</b><br />
+                                * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br />
+                                * 리모컨의 설정 버튼을 사용하거나 LG ThinQ 앱으로 무드라이팅 기능을 사용할 수 있습니다.<br />
+                                * 쿨화이트, 내추럴, 웜화이트 색상은 리모컨으로 선택이 가능하고 이외의 색상은 LG ThinQ 앱을 통하여 선택 가능합니다.<br />
+                                * 자세한 내용은 사용 설명서를 참조하세요.
+                              </p>
+                              <button class="btn-collapse-close">접기</button>
+                            </div>
                           </div>
                         </div>
                       </div>
