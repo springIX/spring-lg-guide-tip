@@ -1868,7 +1868,7 @@
                         </p>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_05.jpg"
+                            src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_20.jpg"
                             alt=""
                           />
                         </div>
@@ -1881,7 +1881,7 @@
                         </p>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_05.jpg"
+                            src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_20.jpg"
                             alt=""
                           />
                         </div>
