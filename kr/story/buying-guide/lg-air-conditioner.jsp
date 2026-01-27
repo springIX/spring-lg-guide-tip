@@ -295,7 +295,7 @@
                     <div class="dot"><span></span></div>
                     <div class="bubble">
                       <a
-                        href="https://www.lge.co.kr/category/air-conditioners?subCateId=CT50000134&filterProduct=AT0000000109:KY0000001206:03,AT0000000105:KY0000002255:02&filterBrand=AT0000000111:KY0000003992:01"
+                        href="https://www.lge.co.kr/air-conditioners/fq25gn9be1"
                         target="_blank"
                         ><span
                           >LG 휘센 AI 오브제컬렉션 타워I 에어컨 (9시리즈)</span
@@ -375,7 +375,7 @@
                                   class="front"
                                 />
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_24.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_41.png"
                                   alt="에어컨 LG 휘센 AI 오브제컬렉션 타워I 에어컨 싱글 (9시리즈) (FQ18FN9BE1.AKOR) 메인이미지 5"
                                   class="side"
                                 />
@@ -392,7 +392,7 @@
                                   class="front"
                                 />
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_25.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_42.png"
                                   alt="에어컨 LG 휘센 AI 오브제컬렉션 뷰I 프로 에어컨 싱글 (6시리즈)  (FQ18FV6EP1.AKOR) 줌이미지 6"
                                   class="side"
                                 />
@@ -409,7 +409,7 @@
                                   class="front"
                                 />
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_26.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_43.png"
                                   alt="에어컨 LG 휘센 AI 오브제컬렉션 뷰I 에어컨 싱글 (3시리즈)  (FQ18FV3EE1.AKOR) 줌이미지 5"
                                   class="side"
                                 />
@@ -426,7 +426,7 @@
                                   class="front"
                                 />
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_27.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_44.png"
                                   alt="에어컨 LG 휘센 AI 오브제컬렉션 뷰II 에어컨 싱글 (2시리즈) (FQ22FU2EA1.AKOR) 메인이미지 5"
                                   class="side"
                                 />
@@ -443,7 +443,7 @@
                                   class="front"
                                 />
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_28.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_45.png"
                                   alt="에어컨 LG 휘센 오브제컬렉션 쿨 에어컨 싱글 (1시리즈)  (FQ18FC1EA1.AKOR) 메인이미지 5"
                                   class="side"
                                 />
@@ -460,7 +460,7 @@
                                   class="front"
                                 />
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_29.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_46.png"
                                   alt="에어컨 LG 휘센 오브제컬렉션 뷰I 사계절에어컨(3시리즈) (FW18EV3EA1.AKOR) 메인이미지 4"
                                   class="side"
                                 />
@@ -590,7 +590,8 @@
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >정교한 온도와 습도 조절로 춥지 않은 쾌적한 바람 *AI콜드프리 탑재 모델에 한 함
+                                    >정교한 온도와 습도 조절로 춥지 않은 쾌적한 바람 <br />
+                                    *AI콜드프리 탑재 모델에 한 함
                                   </span>
                                 </span>
                               </p>
@@ -607,7 +608,8 @@
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >정교한 온도와 습도 조절로 춥지 않은 쾌적한 바람 *AI콜드프리 탑재 모델에 한 함
+                                    >정교한 온도와 습도 조절로 춥지 않은 쾌적한 바람 <br />
+                                    *AI콜드프리 탑재 모델에 한 함
                                   </span>
                                 </span>
                               </p>
@@ -1091,7 +1093,7 @@
                           <td>
                             <div class="procuct-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_25.png"
                                   alt=""
                                 />
                             </div>
@@ -1099,7 +1101,7 @@
                           <td>
                             <div class="procuct-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_26.png"
                                   alt=""
                                 />
                             </div>
@@ -1107,7 +1109,7 @@
                           <td>
                             <div class="procuct-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_27.png"
                                   alt=""
                                 />
                             </div>
@@ -1115,7 +1117,7 @@
                           <td>
                             <div class="procuct-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_28.png"
                                   alt=""
                                 />
                             </div>
@@ -1123,7 +1125,7 @@
                           <td>
                             <div class="procuct-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_29.png"
                                   alt=""
                                 />
                             </div>
@@ -1131,7 +1133,7 @@
                           <td>
                             <div class="procuct-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_30.png"
                                   alt=""
                                 />
                             </div>
@@ -1139,7 +1141,7 @@
                           <td>
                             <div class="procuct-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_31.png"
                                   alt=""
                                 />
                             </div>
@@ -1147,7 +1149,7 @@
                           <td>
                             <div class="procuct-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_32.png"
                                   alt=""
                                 />
                             </div>
@@ -1155,7 +1157,7 @@
                           <td>
                             <div class="procuct-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_33.png"
                                   alt=""
                                 />
                             </div>
@@ -1163,7 +1165,7 @@
                           <td>
                             <div class="procuct-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_34.png"
                                   alt=""
                                 />
                             </div>
@@ -1340,7 +1342,7 @@
                         </tr>
                         <tr>
                           <th>셀프<br />청정</th>
-                          <td>셀프청정</td>
+                          <td class="th2">셀프청정/클린뷰/쿨오픈</td>
                           <td>셀프청정</td>
                           <td>셀프청정</td>
                           <td>클린뷰</td>
@@ -1458,7 +1460,7 @@
                     <div class="dot"><span></span></div>
                     <div class="bubble">
                       <a
-                        href="https://www.lge.co.kr/category/air-conditioners?subCateId=CT50000135&filterProduct=AT0000000109:KY0000002671:03,AT0000000136:KY0000000219:01"
+                        href="https://www.lge.co.kr/air-conditioners/sq07gs9ees-akor"
                         target="_blank"
                         ><span
                           >LG 휘센 AI 오브제컬렉션 듀얼쿨 벽걸이 에어컨</span
@@ -1496,7 +1498,7 @@
                   <div
                     class="procuct-summary"
                     id="procuct-summary2"
-                    style="--col-width: 25%; --table-width: 456px"
+                    style="--col-width: 25%; --table-width: 680px"
                   >
                     <div class="sticky-product-no include-tab">
                       <div class="inner">
@@ -1536,7 +1538,7 @@
                                   class="front"
                                 />
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_30.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_47.png"
                                   alt="에어컨 LG 휘센 AI 오브제컬렉션 듀얼쿨 사계절에어컨 (벽걸이) (SW09FS1EES.AKOR) 줌이미지 6"
                                   class="side"
                                 />
@@ -1553,7 +1555,7 @@
                                   class="front"
                                 />
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_31.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_48.png"
                                   alt="에어컨 LG 휘센 사계절에어컨 (벽걸이) (SW07FK1WAS.AKOR) 메인이미지 4"
                                   class="side"
                                 />
@@ -1570,7 +1572,7 @@
                                   class="front"
                                 />
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_32.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_49.png"
                                   alt="에어컨 LG 휘센 사계절에어컨 (벽걸이) (SW07FK1WAS.AKOR) 메인이미지 4"
                                   class="side"
                                 />
@@ -1582,12 +1584,12 @@
                             <td>
                               <div class="procuct-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_21.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_22.png"
                                   alt="에어컨 LG 휘센 사계절에어컨 (벽걸이) (SW07FK1WAS.AKOR) 메인이미지 2"
                                   class="front"
                                 />
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_32.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_50.png"
                                   alt="에어컨 LG 휘센 사계절에어컨 (벽걸이) (SW07FK1WAS.AKOR) 메인이미지 4"
                                   class="side"
                                 />
@@ -1610,13 +1612,13 @@
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >레이더센서와 ThinQ앱으로 공간을 파악하고 사용자 패턴을 학습하여 내게 맞춘 온도·기류<br />
+                                    >레이더센서와 ThinQ앱으로 공간을 파악하고 사용자 패턴을 학습하여 내게 맞춘 온도·기류 <br />
                                     *레이더센서 탑재 모델에 한 함
                                   </span>
                                 </span>
                               </p>
                             </td>
-                            <td class="disabled">
+                            <td>
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_AIair_hanging.svg"
@@ -1628,7 +1630,7 @@
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >레이더센서와 ThinQ앱으로 공간을 파악하고 사용자 패턴을 학습하여 내게 맞춘 온도·기류<br />
+                                    >레이더센서와 ThinQ앱으로 공간을 파악하고 사용자 패턴을 학습하여 내게 맞춘 온도·기류 <br />
                                     *레이더센서 탑재 모델에 한 함
                                   </span>
                                 </span>
@@ -1682,7 +1684,8 @@
                                 <span class="des">
                                   <span class="info pc-only"></span>
                                   <span class="bubble"
-                                    >정교한 온도와 습도 조절로 춥지 않은 쾌적한 바람 *AI콜드프리 탑재 모델에 한 함
+                                    >정교한 온도와 습도 조절로 춥지 않은 쾌적한 바람 <br />
+                                    *AI콜드프리 탑재 모델에 한 함
                                   </span>
                                 </span>
                               </p>
@@ -1988,11 +1991,11 @@
                           <th>일반</th>
                           <th>일반 사계절</th>
                         </tr>
-                        <tr>
+                        <tr class="width-100">
                           <td>
                             <div class="procuct-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_35.png"
                                   alt=""
                                 />
                             </div>
@@ -2000,7 +2003,7 @@
                           <td>
                             <div class="procuct-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_36.png"
                                   alt=""
                                 />
                             </div>
@@ -2008,7 +2011,7 @@
                           <td>
                             <div class="procuct-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_37.png"
                                   alt=""
                                 />
                             </div>
@@ -2016,7 +2019,7 @@
                           <td>
                             <div class="procuct-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_13.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_38.png"
                                   alt=""
                                 />
                             </div>
@@ -2185,7 +2188,7 @@
                     <div class="dot"><span></span></div>
                     <div class="bubble">
                       <a
-                        href="https://www.lge.co.kr/category/air-conditioners?subCateId=CT50114000&filterBrand=AT0000000111:KY0000000617:01&filterProduct=AT0000000136:KY0000000219:01"
+                        href="https://www.lge.co.kr/air-conditioners/wq05fewcs1"
                         target="_blank"
                         ><span
                           >LG 휘센 AI 오브제컬렉션 엣지 창호형 에어컨</span
@@ -2225,7 +2228,7 @@
                   <div
                     class="procuct-summary"
                     id="procuct-summary3"
-                    style="--max-table-width: 460px"
+                    style="--max-table-width: 620px"
                   >
                     <div class="sticky-product-no include-tab">
                       <div class="inner">
@@ -2252,12 +2255,12 @@
                             <td>
                               <div class="procuct-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_22.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_23.png"
                                   alt="에어컨 LG 휘센 오브제컬렉션 엣지 창호형 에어컨 마감키트 (WQ05FCWDS1.AKOR) 메인이미지 2"
                                   class="front"
                                 />
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_33.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_51.png"
                                   alt="에어컨 LG 휘센 오브제컬렉션 엣지 창호형 에어컨 마감키트 (WQ05FCWDS1.AKOR) 줌이미지 8"
                                   class="side"
                                 />
@@ -2358,6 +2361,93 @@
                     </div>
                   </div>
                 </div>
+                <div class="product-table single-table">
+                  <h4 class="box-subtitle">
+                    가장 합리적인 선택을 위해<br />
+                    스펙을 명확하게 비교해서 보여드려요.
+                  </h4>
+                  <div class="table-wrap include-tab vertical-scroll-box">
+                    <table>
+                      <colgroup>
+                        <col class="col1" />
+                        <col class="col2" />
+                        <col />
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <th colspan="2" rowspan="2">모델 라인업</th>
+                          <th>창호형</th>
+                        </tr>
+                        <tr class="width-100">
+                          <td>
+                            <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_39.png"
+                                  alt=""
+                                />
+                            </div>
+                          </td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th rowspan="4">냉방</th>
+                          <th class="th2">아이스쿨파워</th>
+                          <td class="y">O</td>
+                        </tr>
+                        <tr>
+                          <th class="th2">스마트케어</th>
+                          <td class="y">O</td>
+                        </tr>
+                        <tr>
+                          <th class="th2">바람세기</th>
+                          <td class="text">5단계</td>
+                        </tr>
+                        <tr>
+                          <th class="th2">바람방향(좌/우 자동)</th>
+                          <td class="y">O</td>
+                        </tr>
+                        <tr>
+                          <th rowspan="2">청정관리</th>
+                          <th class="th2">AI건조</th>
+                          <td class="y">O</td>
+                        </tr>
+                        <tr>
+                          <th class="th2">클린바스켓</th>
+                          <td class="y">O</td>
+                        </tr>
+                        <tr>
+                          <th>제습</th>
+                          <th class="th2">제습</th>
+                          <td class="y">O</td>
+                        </tr>
+                        <tr>
+                          <th rowspan="2">스마트/편의</th>
+                          <th class="th2">저소음</th>
+                          <td class="text">34dB</td>
+                        </tr>
+                        <tr>
+                          <th class="th2">ThinQ (Wi-Fi)</th>
+                          <td class="y">O</td>
+                        </tr>
+                        <tr>
+                          <th>절전</th>
+                          <th class="th2">절전 2단계/절전플래너</th>
+                          <td class="y">O</td>
+                        </tr>
+                        <tr>
+                          <th>에너지등급</th>
+                          <th class="th2">에너지등급</th>
+                          <td class="text">1등급</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <p class="des">
+                    * 제품별 스펙은 다를 수 있으니 정확한 내용은 각 제품별 상세
+                    스펙을 확인해주세요.
+                  </p>
+                </div>
               </div>
               <div
                 id="product-type-4"
@@ -2378,7 +2468,7 @@
                     <div class="dot"><span></span></div>
                     <div class="bubble">
                       <a
-                        href="https://www.lge.co.kr/category/air-conditioners?subCateId=CT50114000&filterBrand=AT0000000111:KY0000000617:01&filterProduct=AT0000000136:KY0000000219:01"
+                        href="https://www.lge.co.kr/air-conditioners/pq07fdwds-akor"
                         target="_blank"
                         ><span
                           >LG 휘센 AI 오브제컬렉션 이동식 에어컨(듀얼호스)</span
@@ -2416,7 +2506,7 @@
                   <div
                     class="procuct-summary"
                     id="procuct-summary4"
-                    style="--max-table-width: 460px"
+                    style="--max-table-width: 620px"
                   >
                     <div class="sticky-product-no include-tab">
                       <div class="inner">
@@ -2443,12 +2533,12 @@
                             <td>
                               <div class="procuct-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_23.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_24.png"
                                   alt="에어컨 LG 휘센 오브제컬렉션 이동식 에어컨 (듀얼호스)  (PQ07FDWDS.AKOR) 메인이미지 2"
                                   class="front"
                                 />
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_34.png"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_52.png"
                                   alt="에어컨 LG 휘센 오브제컬렉션 이동식 에어컨 (듀얼호스)  (PQ07FDWDS.AKOR) 메인이미지 3"
                                   class="side"
                                 />
@@ -2549,6 +2639,89 @@
                     </div>
                   </div>
                 </div>
+                <div class="product-table single-table">
+                  <h4 class="box-subtitle">
+                    가장 합리적인 선택을 위해<br />
+                    스펙을 명확하게 비교해서 보여드려요.
+                  </h4>
+                  <div class="table-wrap include-tab vertical-scroll-box">
+                    <table>
+                      <colgroup>
+                        <col class="col1" />
+                        <col class="col2" />
+                        <col />
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <th colspan="2" rowspan="2">모델 라인업</th>
+                          <th>이동식</th>
+                        </tr>
+                        <tr class="width-100">
+                          <td>
+                            <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_40.png"
+                                  alt=""
+                                />
+                            </div>
+                          </td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th rowspan="4">냉방</th>
+                          <th class="th2">아이스쿨파워</th>
+                          <td class="y">O</td>
+                        </tr>
+                        <tr>
+                          <th class="th2">스마트케어</th>
+                          <td class="y">O</td>
+                        </tr>
+                        <tr>
+                          <th class="th2">바람세기</th>
+                          <td class="text">3단계</td>
+                        </tr>
+                        <tr>
+                          <th class="th2">바람방향(상/하 자동)</th>
+                          <td class="y">O</td>
+                        </tr>
+                        <tr>
+                          <th>청정관리</th>
+                          <th class="th2">AI건조</th>
+                          <td class="y">O</td>
+                        </tr>
+                        <tr>
+                          <th>제습</th>
+                          <th class="th2">제습</th>
+                          <td class="y">O</td>
+                        </tr>
+                        <tr>
+                          <th rowspan="2">스마트/편의</th>
+                          <th class="th2">저소음</th>
+                          <td class="text">34dB</td>
+                        </tr>
+                        <tr>
+                          <th class="th2">ThinQ (Wi-Fi)</th>
+                          <td class="y">O</td>
+                        </tr>
+                        <tr>
+                          <th>절전</th>
+                          <th class="th2">절전 2단계/절전플래너</th>
+                          <td class="y">O</td>
+                        </tr>
+                        <tr>
+                          <th>에너지등급</th>
+                          <th class="th2">에너지등급</th>
+                          <td class="text">1등급</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <p class="des">
+                    * 제품별 스펙은 다를 수 있으니 정확한 내용은 각 제품별 상세
+                    스펙을 확인해주세요.
+                  </p>
+                </div>
               </div>
             </div>
           </section>
@@ -2559,8 +2732,7 @@
           >
             <h2 class="hide">구매포인트</h2>
             <h3 class="section-title">
-              우리 집 <b>라이프스타일</b>을 한층 더 쾌적하게, <br />
-              우리 집 공간을 시원하게 만들어 줄 에어컨 핵심 기능을 만나보세요.
+              우리 집 공간을 시원하게 만들어 줄 <br />에어컨 핵심 기능을 만나보세요.
             </h3>
             <div class="tab-wrap">
               <button
@@ -2745,7 +2917,7 @@
                     </div>
                     <div class="img">
                       <img
-                        src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_10.jpg"
+                        src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_03.jpg"
                         alt=""
                         class="pc-only"
                       />
@@ -2801,13 +2973,17 @@
                       <div class="content">
                         <h5>AI콜드프리</h5>
                         <p>
-                          냉방을 틀면 꿉꿉하고, 제습을 틀면 추우셨나요? AI콜드프리는 원하는 온도와 습도를 동시에 설정할 수 있어, 장시간 운전을 하더라도 춥지도 않고 꿉꿉하지도 않은 쾌적한 실내 환경을 유지해줘요.
+                          냉방을 틀면 꿉꿉하고, 제습을 틀면 추우셨나요? <br />AI콜드프리는 원하는 온도와 습도를 동시에 설정할 수 있어, 장시간 운전을 하더라도 춥지도 않고 꿉꿉하지도 않은 쾌적한 실내 환경을 유지해줘요.
                         </p>
                         <div class="img">
-                          <img
-                            src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_01.jpg"
-                            alt=""
-                          />
+                          <button class="btn-pause">일시멈충</button>
+                          <video
+                            autoplay
+                            playsinline
+                            loop
+                            muted
+                            src="/kr/story/buying-guide/2025/video/air-conditioning/vid_P10_101_01.mp4"
+                          ></video>
                         </div>
                         <button class="btn-collapse-toggle">
                           <span
@@ -2861,10 +3037,14 @@
                           실내 환경을 감지해 내가 설정한 온도를 학습하고, 실내 온도가 높으면 내 위치로 강력한 바람을 보내줍니다. 시원해지면 한쪽 바람이나 소프트바람으로 은은하게 시원함을 채워줘요.
                         </p>
                         <div class="img">
-                          <img
-                            src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_02.jpg"
-                            alt=""
-                          />
+                          <button class="btn-pause">일시멈충</button>
+                          <video
+                            autoplay
+                            playsinline
+                            loop
+                            muted
+                            src="/kr/story/buying-guide/2025/video/air-conditioning/vid_P10_101_02.mp4"
+                          ></video>
                         </div>
                         <button class="btn-collapse-toggle">
                           <span>*레이더센서 인체감지 / AI바람 / LG ThinQ 앱 / AI공간분석 / 공간 직접 설정 / 소프트바람 / 소프트바람 소음</span>
@@ -2941,7 +3121,7 @@
                         </p>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_03.jpg"
+                            src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_04.jpg"
                             alt=""
                           />
                         </div>
@@ -2994,10 +3174,14 @@
                           이제 세세한 기능을 학습할 필요 없이, 대화하듯 쉽고 빠르게 음성으로 에어컨을 사용해보세요. GPT 기반으로 내가 말하는 의도까지 파악해 운전하고 제품이 꺼지면 운전시간과 소비전력량 등을 대한 정보를 안내해줍니다.
                         </p>
                         <div class="img">
-                          <img
-                            src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_03.jpg"
-                            alt=""
-                          />
+                          <button class="btn-pause">일시멈충</button>
+                          <video
+                            autoplay
+                            playsinline
+                            loop
+                            muted
+                            src="/kr/story/buying-guide/2025/video/air-conditioning/vid_P10_101_03.mp4"
+                          ></video>
                         </div>
                         <button class="btn-collapse-toggle">
                           <span>* 퓨론 / AI음성인식</span>
@@ -3042,12 +3226,12 @@
                     </div>
                     <div class="img">
                       <img
-                        src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_10.jpg"
+                        src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_05.jpg"
                         alt=""
                         class="pc-only"
                       />
                       <img
-                        src="/kr/story/buying-guide/2025/img/air-conditioning/img_M10_101_01.jpg"
+                        src="/kr/story/buying-guide/2025/img/air-conditioning/img_M10_101_02.jpg"
                         alt=""
                         class="mobile-only"
                       />
@@ -3120,7 +3304,7 @@
                         </div>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_04.jpg"
+                            src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_06.jpg"
                             alt="탁 트인 창가에 설치된 스탠드형 에어컨이 부드럽고 쾌적한 소프트 바람을 제공하며 공간을 편안하게 채워줍니다. 은은한 커튼과 조화된 세련된 인테리어는 차분하고 아늑한 분위기를 연출합니다."
                           />
                         </div>
@@ -3219,7 +3403,7 @@
                         </div>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_06.jpg"
+                            src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_08.jpg"
                             alt="거실에서 커플이 대화를 나누며 시간을 보내고 있으며, LG 스탠드형 에어컨이 한쪽 방향으로 시원한 바람을 커튼 쪽으로 보내고 있는 모습입니다."
                           />
                         </div>
@@ -3254,7 +3438,7 @@
                         </p>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_05.jpg"
+                            src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_09.jpg"
                             alt="넓은 공간을 시원하게 감싸는 와이드케어 냉방 기능이 적용된 모습으로, 강력하고 균일한 바람이 거실 전체로 퍼지며 쾌적한 실내 환경을 조성합니다. 햇살이 들어오는 환한 공간과 어우러져 상쾌하고 시원한 분위기를 전달합니다."
                           />
                         </div>
@@ -3289,7 +3473,7 @@
                         </p>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_08.jpg"
+                            src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_10.jpg"
                             alt="벽에 설치된 LG 벽걸이형 에어컨이 ‘아이스쿨파워’ 기능을 작동시키며 차가운 냉기를 아래로 분사하고 있는 모습입니다. 왼쪽에는 파란색 온도계 아이콘과 함께 ‘-4°C’, ‘아이스쿨파워’라는 문구가 표시되어 있어, 일반 냉방 대비 최대 4도 더 낮은 강력한 냉각 성능을 시각적으로 강조하고 있습니다."
                           />
                         </div>
@@ -3334,7 +3518,7 @@
                         class="pc-only"
                       />
                       <img
-                        src="/kr/story/buying-guide/2025/img/air-conditioning/img_M10_101_02.jpg"
+                        src="/kr/story/buying-guide/2025/img/air-conditioning/img_M10_101_03.jpg"
                         alt="따뜻한 조명이 은은하게 비추는 침실 내부로, 베이지 톤의 폭신한 침구가 정갈하게 정리된 더블 침대가 놓여 있습니다. 침대 옆에는 원형 조명이 켜진 모던한 디자인의 스탠드 조명이 배치되어 있으며, 편안하고 아늑한 분위기의 휴식 공간을 연출하고 있습니다."
                         class="mobile-only"
                       />
@@ -3378,10 +3562,14 @@
                           필터클린봇 - 극세필터 - 알러지케어공기청정 - 클린케이스 -AI열교환기세척 - AI건조 - UV-LED팬살균 - 클린토 출구로 바람이 들어오는 필터부터 바람이 나가는 토출구까지 깨끗한 바람을 만듭니다.
                         </p>
                         <div class="img">
-                          <img
-                            src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_09.jpg"
-                            alt="에어컨 내부 필터 구조를 투명하게 보여주는 이미지로, LG 휘센의 청정관리 기능을 시각화한 장면입니다."
-                          />
+                          <button class="btn-pause">일시멈충</button>
+                          <video
+                            autoplay
+                            playsinline
+                            loop
+                            muted
+                            src="/kr/story/buying-guide/2025/video/air-conditioning/vid_P10_101_04.mp4"
+                          ></video>
                         </div>
                         <button class="btn-collapse-toggle">
                           <span
@@ -3559,11 +3747,7 @@
                       <div class="content">
                         <h5>셀프 청정관리</h5>
                         <p>
-                          셀프 청정관리 기능은 사용자가 원할 때 에어컨 내부를
-                          직접 열어 팬과 내부 구조를 손쉽게 청소할 수 있도록
-                          설계된 관리 기능입니다. 복잡한 분해 과정 없이 간단한
-                          조작만으로 먼지와 오염을 제거할 수 있어, 언제나
-                          깨끗하고 위생적인 바람을 유지할 수 있습니다.
+                          내가 원할 때 언제든 에어컨을 직접 열어 내부 팬을 꼼꼼하게 청소할 수 있습니다.
                         </p>
                         <div class="img">
                           <button class="btn-pause">일시멈충</button>
@@ -3572,7 +3756,7 @@
                             playsinline
                             loop
                             muted
-                            src="/kr/story/buying-guide/2025/video/air-conditioning/vid_P10_101_01.mp4"
+                            src="/kr/story/buying-guide/2025/video/air-conditioning/vid_P10_101_05.mp4"
                           ></video>
                         </div>
                         <button class="btn-collapse-toggle">
@@ -3622,7 +3806,7 @@
                     </div>
                     <div class="img">
                       <img
-                        src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_13.jpg"
+                        src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_12.jpg"
                         alt="벽에 설치된 LG 벽걸이형 에어컨의 하단을 한 사람이 양손으로 열고 있는 모습입니다."
                         class="pc-only"
                       />
@@ -3677,7 +3861,7 @@
                             playsinline
                             loop
                             muted
-                            src="/kr/story/buying-guide/2025/video/air-conditioning/vid_P10_101_01.mp4"
+                            src="/kr/story/buying-guide/2025/video/air-conditioning/vid_P10_101_06.mp4"
                           ></video>
                         </div>
                         <button class="btn-collapse-toggle">
@@ -3712,7 +3896,7 @@
                         </p>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_09.jpg"
+                            src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_13.jpg"
                             alt="에어컨 내부 필터 구조를 투명하게 보여주는 이미지로, LG 휘센의 청정관리 기능을 시각화한 장면입니다."
                           />
                         </div>
@@ -3762,12 +3946,12 @@
                     </div>
                     <div class="img">
                       <img
-                        src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_13.jpg"
+                        src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_14.jpg"
                         alt="벽에 설치된 LG 벽걸이형 에어컨의 하단을 한 사람이 양손으로 열고 있는 모습입니다."
                         class="pc-only"
                       />
                       <img
-                        src="/kr/story/buying-guide/2025/img/air-conditioning/img_M10_101_04.jpg"
+                        src="/kr/story/buying-guide/2025/img/air-conditioning/img_M10_101_05.jpg"
                         alt="벽에 설치된 LG 벽걸이형 에어컨의 하단을 한 사람이 양손으로 열고 있는 모습입니다."
                         class="mobile-only"
                       />
@@ -3835,7 +4019,7 @@
                             <div>
                               <div class="media-wrap">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_14.jpg"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_15.jpg"
                                   alt="깔끔한 파스텔 블루 벽면 앞에 LG 스탠드형 에어컨이 설치되어 있으며, 디스플레이에는 현재 온도 24도가 표시되어 있습니다. 주변에는 화이트 소파와 모던한 액자, 쿠션 등이 어우러져 세련되고 미니멀한 인테리어 공간이 연출되어 있습니다."
                                 />
                               </div>
@@ -3882,7 +4066,7 @@
                             <div>
                               <div class="media-wrap">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_17.jpg"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_16.jpg"
                                   alt="스마트폰 화면에 LG 에어컨 제어 앱이 실행된 모습으로, 왼쪽 화면에서는 희망 온도 25.0도 설정, 바람 세기 및 방향 조절, 예약, 열대야/취침 기능, 에너지 절약 모드 등의 조작 옵션이 보입니다. 오른쪽 화면에서는 ‘스마트 절전’ 기능이 확대되어 표시되며, ‘파워 절전’과 일반 ‘절전’ 중 선택할 수 있는 메뉴가 나타나 절전 운전 방식 설정이 가능함을 보여줍니다."
                                 />
                               </div>
@@ -3972,7 +4156,7 @@
                             <div>
                               <div class="media-wrap">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_17.jpg"
+                                  src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_18.jpg"
                                   alt="스마트폰 화면에 LG 에어컨 제어 앱이 실행된 모습으로, 왼쪽 화면에서는 희망 온도 25.0도 설정, 바람 세기 및 방향 조절, 예약, 열대야/취침 기능, 에너지 절약 모드 등의 조작 옵션이 보입니다. 오른쪽 화면에서는 ‘스마트 절전’ 기능이 확대되어 표시되며, ‘파워 절전’과 일반 ‘절전’ 중 선택할 수 있는 메뉴가 나타나 절전 운전 방식 설정이 가능함을 보여줍니다."
                                 />
                               </div>

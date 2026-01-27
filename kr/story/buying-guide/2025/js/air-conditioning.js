@@ -85,7 +85,7 @@ function detailTableTopFix() {
         $cloneWrap.css({ opacity: 0 });
         y = wrapH - headH;
       }
-      $cloneWrap.css("transform", `translateY(${y}px)`);
+      $cloneWrap.css("transform", `translate(-50%, ${y}px)`);
     });
   }
 
