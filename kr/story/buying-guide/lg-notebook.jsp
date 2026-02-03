@@ -295,7 +295,7 @@
                   <div class="text-wrap">
                     <h4>회의 중 필기나 아이디어 스케치를 자유롭게</h4>
                     <p>
-                      노트북을 태블릿처럼 자유롭게 활용하고 싶다면 LG gram Pro 360이 선택이에요. 360˚ 회전 기능에 120Hz 프로 다이내믹 디스플레이와 강력한 AI 성능이
+                      노트북을 태블릿처럼 자유롭게 활용하고 싶다면 LG gram Pro 360을 추천드려요. 360˚ 회전 기능에 120Hz 프로 다이내믹 디스플레이와 강력한 AI 성능이
                       더해져 순간 떠오른 아이디어도 놓치지 않고 스타일러스 펜으로 바로 기록할 수 있습니다.
                     </p>
                   </div>
@@ -374,7 +374,7 @@
                         <div>16Z95U-GU7BK</div>
                         <div>16T95TP-KA5HK</div>
                         <div>15Z95U-GS5HK</div>
-                        <div>15U50U-GA5VK</div>
+                        <div>15U50U-GROWK</div>
                       </div>
                     </div>
                   </div>
@@ -384,11 +384,11 @@
                         <tr class="procuct-name">
                           <th>
                             <h4>LG gram Pro AI</h4>
-                            <p>AI 성능으로 작업도 스마트하게</p>
+                            <p>외장그래픽 탑재로 고사양 작업도 빠르게</p>
                           </th>
                           <th>
                             <h4>LG gram Pro AI <br />Copilot+ PC</h4>
-                            <p>강력한 성능으로 멀티태스킹도 편리하게</p>
+                            <p>프로급 성능으로 멀티태스킹도 편리하게</p>
                           </th>
                           <th>
                             <h4>LG gram Pro 360 AI</h4>
@@ -410,7 +410,7 @@
                           <td>16Z95U-GU7BK</td>
                           <td>16T95TP-KA5HK</td>
                           <td>15Z95U-GS5HK</td>
-                          <td>15U50U-GA5VK</td>
+                          <td>15U50U-GROWK</td>
                         </tr>
                         <tr>
                           <td>
@@ -460,9 +460,9 @@
                           <td>
                             <div class="procuct-img">
                               <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_001_31.png"
-                                alt="노트북 LG 그램 Book AI (15U50U-GA5VK) 메인이미지 1" class="front" />
+                                alt="노트북 LG 그램 Book AI (15U50U-GROWK) 메인이미지 1" class="front" />
                               <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_001_21.png"
-                                alt="노트북 LG 그램 Book AI (15U50U-GA5VK) 제품을 위에서 바라본 이미지" class="side" />
+                                alt="노트북 LG 그램 Book AI (15U50U-GROWK) 제품을 위에서 바라본 이미지" class="side" />
                               <button class="btn-angle" name="btn-angle">
                                 다른 각도 보기
                               </button>
@@ -792,70 +792,65 @@
                           <td>
                             <div class="spec-img">
                               <img src="/kr/story/buying-guide/2025/img/notebook/ic48_15_lightweight.svg"
-                                alt="초경량 gram" />
+                                alt="데일리 gram" />
                             </div>
                             <p>
-                              초경량 gram
+                              데일리 gram
                               <span class="des">
                                 <span class="info pc-only"></span>
-                                <span class="bubble">고성능과 AI를 담고도 여전히 gram답게,
-                                  가볍게</span>
+                                <span class="bubble">언제든 편하게 쓰는 데일리 gram</span>
                               </span>
                             </p>
                           </td>
                           <td>
                             <div class="spec-img">
                               <img src="/kr/story/buying-guide/2025/img/notebook/ic48_15_lightweight.svg"
-                                alt="초경량 gram" />
+                                alt="데일리 gram" />
                             </div>
                             <p>
-                              초경량 gram
+                              데일리 gram
                               <span class="des">
                                 <span class="info pc-only"></span>
-                                <span class="bubble">고성능과 AI를 담고도 여전히 gram답게,
-                                  가볍게</span>
+                                <span class="bubble">언제든 편하게 쓰는 데일리 gram</span>
                               </span>
                             </p>
                           </td>
                           <td>
                             <div class="spec-img">
                               <img src="/kr/story/buying-guide/2025/img/notebook/ic48_15_lightweight.svg"
-                                alt="초경량 gram" />
+                                alt="데일리 gram" />
                             </div>
                             <p>
-                              초경량 gram
+                              데일리 gram
                               <span class="des">
                                 <span class="info pc-only"></span>
-                                <span class="bubble">고성능과 AI를 담고도 여전히 gram답게,
-                                  가볍게</span>
+                                <span class="bubble">언제든 편하게 쓰는 데일리 gram</span>
                               </span>
                             </p>
                           </td>
                           <td>
                             <div class="spec-img">
                               <img src="/kr/story/buying-guide/2025/img/notebook/ic48_15_lightweight.svg"
-                                alt="초경량 gram" />
+                                alt="데일리 gram" />
                             </div>
                             <p>
-                              초경량 gram
+                              데일리 gram
                               <span class="des">
                                 <span class="info pc-only"></span>
-                                <span class="bubble">고성능과 AI를 담고도 여전히 gram답게,
-                                  가볍게</span>
+                                <span class="bubble">언제든 편하게 쓰는 데일리 gram</span>
                               </span>
                             </p>
                           </td>
                           <td class="disabled">
                             <div class="spec-img">
                               <img src="/kr/story/buying-guide/2025/img/notebook/ic48_15_lightweight.svg"
-                                alt="초경량 gram" />
+                                alt="데일리 gram" />
                             </div>
                             <p>
-                              초경량 gram
+                              데일리 gram
                               <span class="des">
                                 <span class="info pc-only"></span>
-                                <span class="bubble">고성능과 AI를 담고도 여전히 gram답게,
-                                  가볍게</span>
+                                <span class="bubble">언제든 편하게 쓰는 데일리 gram</span>
                               </span>
                             </p>
                           </td>
@@ -878,7 +873,7 @@
                               보러 가기</a>
                           </td>
                           <td>
-                            <a href="https://www.lge.co.kr/notebook/15u50u-ga5vk" target="_blank" class="btn-product">제품
+                            <a href="https://www.lge.co.kr/notebook/15u50u-growk?utm_medium=banner&utm_source=naverbs&utm_campaign=20200301_pc_gram_bs_bc&utm_content=Dthumb2-5&utm_term=LG%EA%B7%B8%EB%9E%A8" target="_blank" class="btn-product">제품
                               보러 가기</a>
                           </td>
                         </tr>
@@ -941,7 +936,7 @@
                             인텔 팬서레이크<br /> AMD 고르곤포인트
                           </th>
                           <th class="th2">
-                            인텔 팬서레이크 <br />AMD 고르곤포인트
+                            인텔 팬서레이크
                           </th>
                         </tr>
                         <tr>
@@ -1166,7 +1161,8 @@
                   </div>
                   <p class="des">
                     * 제품별 스펙은 다를 수 있으니 정확한 내용은 각 제품별 상세
-                    스펙을 확인해주세요.
+                    스펙을 확인해주세요.<br />
+                    * gram Book AMD 고르곤 포인트 제품은 26년 3월 출시 예정입니다.
                   </p>
                 </div>
               </div>

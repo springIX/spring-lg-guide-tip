@@ -3,7 +3,7 @@
 	<% 
 	Cookie[] cookies = request.getCookies();
 	if (cookies != null) {
-			  for (Cookie cookie : cookies) {
+			 for (Cookie cookie : cookies) {
 					if ("LGEKR_FEATURE_ACCESS".equals(cookie.getName())) {
 						request.setAttribute("featureAccess", cookie.getValue());
 						break;

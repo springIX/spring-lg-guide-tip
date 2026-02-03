@@ -389,11 +389,11 @@
                               </p>
                             </td>
                           </tr>
-                          <!-- <tr class="procuct-spec">
-                            <td class="disabled">
+                          <tr class="procuct-spec">
+                            <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/electric-range/ic48_09_quadinverter.svg"
+                                  src="/kr/story/buying-guide/2025/img/electric-range/ic48_09_quadinverter.png"
                                   alt="쿼드 인버터"
                                 />
                               </div>
@@ -407,10 +407,10 @@
                                 </span>
                               </p>
                             </td>
-                            <td class="disabled">
+                            <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/electric-range/ic48_09_quadinverter.svg"
+                                  src="/kr/story/buying-guide/2025/img/electric-range/ic48_09_quadinverter.png"
                                   alt="쿼드 인버터"
                                 />
                               </div>
@@ -424,10 +424,10 @@
                                 </span>
                               </p>
                             </td>
-                            <td class="disabled">
+                            <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/electric-range/ic48_09_dualinverter.svg"
+                                  src="/kr/story/buying-guide/2025/img/electric-range/ic48_09_dualinverter.png"
                                   alt="듀얼 인버터"
                                 />
                               </div>
@@ -441,7 +441,7 @@
                                 </span>
                               </p>
                             </td>
-                          </tr> -->
+                          </tr>
                           <tr class="procuct-spec">
                             <td>
                               <div class="spec-img">

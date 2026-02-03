@@ -1138,7 +1138,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >용도와 분위기에 맞춰 4가지의 다양한 얼음을 선택하게</span
+                                >용도와 분위기에 맞춰 4가지의 다양한 얼음을 편리하게 선택 가능</span
                               >
                             </span>
                           </p>
@@ -1159,7 +1159,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >2종류의 얼음을 상황에 맞춰 선택하게</span
+                                >용도와 분위기에 맞춰 2가지의 다양한 얼음을 편리하게 선택 가능</span
                               >
                             </span>
                           </p>
@@ -1176,7 +1176,7 @@
                             <span class="des">
                               <span class="info pc-only"></span>
                               <span class="bubble"
-                                >식재료별 맞춤 온도로 더욱 신선하게</span
+                                >시원한 각얼음을 편리하게 사용 가능</span
                               >
                             </span>
                           </p>

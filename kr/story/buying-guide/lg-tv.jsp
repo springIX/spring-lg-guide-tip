@@ -946,7 +946,7 @@
                     ">
                       <div class="dot"><span></span></div>
                       <div class="bubble">
-                        <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50041000" target="_blank"><span>LG 나노셀
+                        <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000029" target="_blank"><span>LG 나노셀
                             AI</span></a>
                         <p>스탠드/벽걸이형<span></span>4K</p>
                       </div>
@@ -1851,7 +1851,28 @@
                             가능합니다. 해외여행 일정 계획까지 쉽고 빠르게 도움 받을 수 있습니다.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_24.jpg" alt="" />
+                            <div class="point-slider2 autoplay-slider-wrap">
+                              <div class="slider">
+                                <div>
+                                  <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_24.jpg" alt="" />
+                                </div>
+                                <div>
+                                  <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_24a.jpg" alt="" />
+                                </div>
+                              </div>
+                              <div class="slider-controls">
+                                <button class="btn-play" data-state="playing">
+                                  Pause
+                                </button>
+                                <div class="counter">
+                                  <span class="current">1</span>
+                                  <span class="bar"></span>
+                                  <span class="total">2</span>
+                                </div>
+                                <button class="btn-nav btn-prev">Prev</button>
+                                <button class="btn-nav btn-next">Next</button>
+                              </div>
+                            </div>
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
