@@ -384,11 +384,11 @@
                         <tr class="procuct-name">
                           <th>
                             <h4>LG gram Pro AI</h4>
-                            <p>외장그래픽 탑재로 고사양 작업도 빠르게</p>
+                            <p>AI 성능으로 작업도 스마트하게</p>
                           </th>
                           <th>
                             <h4>LG gram Pro AI <br />Copilot+ PC</h4>
-                            <p>프로급 성능으로 멀티태스킹도 편리하게</p>
+                            <p>강력한 성능으로 멀티태스킹도 편리하게</p>
                           </th>
                           <th>
                             <h4>LG gram Pro 360 AI</h4>
@@ -792,56 +792,56 @@
                           <td>
                             <div class="spec-img">
                               <img src="/kr/story/buying-guide/2025/img/notebook/ic48_15_lightweight.svg"
-                                alt="데일리 gram" />
+                                alt="초경량 gram" />
                             </div>
                             <p>
-                              데일리 gram
+                              초경량 gram
                               <span class="des">
                                 <span class="info pc-only"></span>
-                                <span class="bubble">언제든 편하게 쓰는 데일리 gram</span>
+                                <span class="bubble">고성능과 AI를 담고도 여전히 gram답게, 가볍게</span>
                               </span>
                             </p>
                           </td>
                           <td>
                             <div class="spec-img">
                               <img src="/kr/story/buying-guide/2025/img/notebook/ic48_15_lightweight.svg"
-                                alt="데일리 gram" />
+                                alt="초경량 gram" />
                             </div>
                             <p>
-                              데일리 gram
+                              초경량 gram
                               <span class="des">
                                 <span class="info pc-only"></span>
-                                <span class="bubble">언제든 편하게 쓰는 데일리 gram</span>
+                                <span class="bubble">고성능과 AI를 담고도 여전히 gram답게, 가볍게</span>
                               </span>
                             </p>
                           </td>
                           <td>
                             <div class="spec-img">
                               <img src="/kr/story/buying-guide/2025/img/notebook/ic48_15_lightweight.svg"
-                                alt="데일리 gram" />
+                                alt="초경량 gram" />
                             </div>
                             <p>
-                              데일리 gram
+                              초경량 gram
                               <span class="des">
                                 <span class="info pc-only"></span>
-                                <span class="bubble">언제든 편하게 쓰는 데일리 gram</span>
+                                <span class="bubble">고성능과 AI를 담고도 여전히 gram답게, 가볍게</span>
                               </span>
                             </p>
                           </td>
                           <td>
                             <div class="spec-img">
                               <img src="/kr/story/buying-guide/2025/img/notebook/ic48_15_lightweight.svg"
-                                alt="데일리 gram" />
+                                alt="초경량 gram" />
                             </div>
                             <p>
-                              데일리 gram
+                              초경량 gram
                               <span class="des">
                                 <span class="info pc-only"></span>
-                                <span class="bubble">언제든 편하게 쓰는 데일리 gram</span>
+                                <span class="bubble">고성능과 AI를 담고도 여전히 gram답게, 가볍게</span>
                               </span>
                             </p>
                           </td>
-                          <td class="disabled">
+                          <td>
                             <div class="spec-img">
                               <img src="/kr/story/buying-guide/2025/img/notebook/ic48_15_lightweight.svg"
                                 alt="데일리 gram" />

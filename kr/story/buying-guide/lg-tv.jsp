@@ -239,8 +239,7 @@
                     ">
                       <div class="dot"><span></span></div>
                       <div class="bubble">
-                        <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000028" target="_blank"><span>LG 올레드
-                            evo AI</span></a>
+                        <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000028" target="_blank"><span>LG 올레드</span></a>
                         <p>스탠드/벽걸이형<span></span>4K</p>
                       </div>
                     </div>
@@ -352,10 +351,10 @@
                                     alt="무선 4K 해상도" />
                                 </div>
                                 <p>
-                                  무선 올레드 evo
+                                  무선 4K 해상도
                                   <span class="des">
                                     <span class="info pc-only"></span>
-                                    <span class="bubble">무선으로 만나는 올레드 evo의 차원이 다른 경험</span>
+                                    <span class="bubble">깔끔한 무선 연결로 4K 해상도를 편리하게</span>
                                   </span>
                                 </p>
                               </td>
@@ -364,10 +363,10 @@
                                   <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_4k.svg" alt="4K 해상도" />
                                 </div>
                                 <p>
-                                  퍼펙트 블랙 & 컬러
+                                  4K 해상도
                                   <span class="des">
                                     <span class="info pc-only"></span>
-                                    <span class="bubble">실물의 색감은 더 선명하게 어둠은 더 깊게 구현한 디스플레이</span>
+                                    <span class="bubble">탁월한 컬러와 밝기로 4K 영상을 생생하게</span>
                                   </span>
                                 </p>
                               </td>
@@ -376,10 +375,10 @@
                                   <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_4k.svg" alt="4K 해상도" />
                                 </div>
                                 <p>
-                                  퍼펙트 블랙 & 컬러
+                                  4K 해상도
                                   <span class="des">
                                     <span class="info pc-only"></span>
-                                    <span class="bubble">실물의 색감은 더 선명하게 어둠은 더 깊게 구현한 디스플레이</span>
+                                    <span class="bubble">탁월한 컬러와 밝기로 4K 영상을 생생하게</span>
                                   </span>
                                 </p>
                               </td>
@@ -388,10 +387,10 @@
                                   <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_4k.svg" alt="4K 해상도" />
                                 </div>
                                 <p>
-                                  퍼펙트 블랙 & 컬러
+                                  4K 해상도
                                   <span class="des">
                                     <span class="info pc-only"></span>
-                                    <span class="bubble">실물의 색감은 더 선명하게 어둠은 더 깊게 구현한 디스플레이</span>
+                                    <span class="bubble">탁월한 컬러와 밝기로 4K 영상을 생생하게</span>
                                   </span>
                                 </p>
                               </td>
@@ -416,6 +415,47 @@
                                     alt="퍼펙트 블랙 & 컬러" />
                                 </div>
                                 <p>
+                                  퍼펙트 블랙 & 컬러
+                                  <span class="des">
+                                    <span class="info pc-only"></span>
+                                    <span class="bubble">실물의 색감은 더 선명하게 어둠은 더 깊게 구현한 디스플레이</span>
+                                  </span>
+                                </p>
+                              </td>
+                              <td>
+                                <div class="spec-img">
+                                  <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_perfectcolor.svg"
+                                    alt="퍼펙트 블랙 & 컬러" />
+                                </div>
+                                <p>
+                                  퍼펙트 블랙 & 컬러
+                                  <span class="des">
+                                    <span class="info pc-only"></span>
+                                    <span class="bubble">실물의 색감은 더 선명하게 어둠은 더 깊게 구현한 디스플레이</span>
+                                  </span>
+                                </p>
+                              </td>
+                              <td>
+                                <div class="spec-img">
+                                  <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_perfectcolor.svg"
+                                    alt="퍼펙트 블랙 & 컬러" />
+                                </div>
+                                <p>
+                                  퍼펙트 블랙 & 컬러
+                                  <span class="des">
+                                    <span class="info pc-only"></span>
+                                    <span class="bubble">실물의 색감은 더 선명하게 어둠은 더 깊게 구현한 디스플레이</span>
+                                  </span>
+                                </p>
+                              </td>
+                            </tr>
+                            <tr class="procuct-spec">
+                              <td>
+                                <div class="spec-img">
+                                  <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_alpha11.svg"
+                                    alt="알파11 AI 프로세서" />
+                                </div>
+                                <p>
                                   알파11 AI 프로세서
                                   <span class="des">
                                     <span class="info pc-only"></span>
@@ -425,8 +465,20 @@
                               </td>
                               <td>
                                 <div class="spec-img">
-                                  <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_perfectcolor.svg"
-                                    alt="퍼펙트 블랙 & 컬러" />
+                                  <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_alpha11.svg"
+                                    alt="알파11 AI 프로세서" />
+                                </div>
+                                <p>
+                                  알파11 AI 프로세서
+                                  <span class="des">
+                                    <span class="info pc-only"></span>
+                                    <span class="bubble">4배 더 빠른 딥러닝 성능으로 향상된 화질과 사운드 제공</span>
+                                  </span>
+                                </p>
+                              </td>
+                              <td>
+                                <div class="spec-img">
+                                  <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_alpha9.svg" alt="알파9 AI 프로세서" />
                                 </div>
                                 <p>
                                   알파9 AI 프로세서
@@ -438,8 +490,7 @@
                               </td>
                               <td>
                                 <div class="spec-img">
-                                  <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_perfectcolor.svg"
-                                    alt="퍼펙트 블랙 & 컬러" />
+                                  <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_alpha8.svg" alt="알파8 AI 프로세서" />
                                 </div>
                                 <p>
                                   알파8 AI 프로세서
@@ -453,21 +504,7 @@
                             <tr class="procuct-spec">
                               <td>
                                 <div class="spec-img">
-                                  <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_alpha11.svg"
-                                    alt="알파11 AI 프로세서" />
-                                </div>
-                                <p>
-                                  알파11 AI 프로세서
-                                  <span class="des">
-                                    <span class="info pc-only"></span>
-                                    <span class="bubble">4배 더 빠른 딥러닝 성능으로 향상된 화질과 사운드 제공</span>
-                                  </span>
-                                </p>
-                              </td>
-                              <td>
-                                <div class="spec-img">
-                                  <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_alpha11.svg"
-                                    alt="알파11 AI 프로세서" />
+                                  <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_webOS.svg" alt="webOS" />
                                 </div>
                                 <p>
                                   webOS
@@ -479,7 +516,7 @@
                               </td>
                               <td>
                                 <div class="spec-img">
-                                  <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_alpha9.svg" alt="알파9 AI 프로세서" />
+                                  <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_webOS.svg" alt="webOS" />
                                 </div>
                                 <p>
                                   webOS
@@ -491,7 +528,19 @@
                               </td>
                               <td>
                                 <div class="spec-img">
-                                  <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_alpha8.svg" alt="알파8 AI 프로세서" />
+                                  <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_webOS.svg" alt="webOS" />
+                                </div>
+                                <p>
+                                  webOS
+                                  <span class="des">
+                                    <span class="info pc-only"></span>
+                                    <span class="bubble">영상부터 음악, 게임, 앱까지 취향에 맞는 콘텐츠를 한눈에 제공</span>
+                                  </span>
+                                </p>
+                              </td>
+                              <td>
+                                <div class="spec-img">
+                                  <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_webOS.svg" alt="webOS" />
                                 </div>
                                 <p>
                                   webOS
@@ -502,57 +551,7 @@
                                 </p>
                               </td>
                             </tr>
-                            <tr class="procuct-spec last gray">
-                              <td>
-                                <div class="spec-img">
-                                  <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_webOS.svg" alt="webOS" />
-                                </div>
-                                <p>
-                                  webOS
-                                  <span class="des">
-                                    <span class="info pc-only"></span>
-                                    <span class="bubble">영상부터 음악, 게임, 앱까지 취향에 맞는 콘텐츠를 한눈에 제공</span>
-                                  </span>
-                                </p>
-                              </td>
-                              <td>
-                                <div class="spec-img">
-                                  <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_webOS.svg" alt="webOS" />
-                                </div>
-                                <p>
-                                  게이밍 주사율 (165Hz)
-                                  <span class="des">
-                                    <span class="info pc-only"></span>
-                                    <span class="bubble">165Hz 가변 주사율(VRR)로 티어링 걱정 없는 게임 환경</span>
-                                  </span>
-                                </p>
-                              </td>
-                              <td>
-                                <div class="spec-img">
-                                  <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_webOS.svg" alt="webOS" />
-                                </div>
-                                <p>
-                                  게이밍 주사율 (144Hz)
-                                  <span class="des">
-                                    <span class="info pc-only"></span>
-                                    <span class="bubble">144Hz 가변 주사율(VRR)로 티어링 걱정 없는 게임 환경</span>
-                                  </span>
-                                </p>
-                              </td>
-                              <td>
-                                <div class="spec-img">
-                                  <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_webOS.svg" alt="webOS" />
-                                </div>
-                                <p>
-                                  게이밍 주사율 (120Hz)
-                                  <span class="des">
-                                    <span class="info pc-only"></span>
-                                    <span class="bubble">NVIDIA G-Sync 호환, 0.1ms의 응답속도의 게임 환경</span>
-                                  </span>
-                                </p>
-                              </td>
-                            </tr>
-                            <!-- <tr class="procuct-spec last">
+                            <tr class="procuct-spec last">
                               <td>
                                 <div class="spec-img">
                                   <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_144HZ.svg"
@@ -562,7 +561,7 @@
                                   게이밍 주사율 (144Hz)
                                   <span class="des">
                                     <span class="info pc-only"></span>
-                                    <span class="bubble">144Hz 가변 주사율로 게임 환경을 티어링 없게</span>
+                                    <span class="bubble">144Hz 가변 주사율(VRR)로 티어링 걱정없는 게임 환경</span>
                                   </span>
                                 </p>
                               </td>
@@ -575,8 +574,7 @@
                                   게이밍 주사율 (165Hz)
                                   <span class="des">
                                     <span class="info pc-only"></span>
-                                    <span class="bubble">165Hz 가변 주사율로 게임 환경을 티어링
-                                      없게</span>
+                                    <span class="bubble">165Hz 가변 주사율(VRR)로 티어링 걱정없는 게임 환경</span>
                                   </span>
                                 </p>
                               </td>
@@ -589,8 +587,7 @@
                                   게이밍 주사율 (144Hz)
                                   <span class="des">
                                     <span class="info pc-only"></span>
-                                    <span class="bubble">144Hz 가변 주사율로 게임 환경을 티어링
-                                      없게</span>
+                                    <span class="bubble">144Hz 가변 주사율(VRR)로 티어링 걱정없는 게임 환경</span>
                                   </span>
                                 </p>
                               </td>
@@ -603,12 +600,11 @@
                                   게이밍 주사율 (120Hz)
                                   <span class="des">
                                     <span class="info pc-only"></span>
-                                    <span class="bubble">0.1ms의 응답속도로 게임 환경을 티어링
-                                      없게</span>
+                                    <span class="bubble">NVIDIA G-Sync 호환, 0.1ms의 응답속도의 게임 환경</span>
                                   </span>
                                 </p>
                               </td>
-                            </tr> -->
+                            </tr>
                           </tbody>
                         </table>
                       </div>
@@ -742,8 +738,7 @@
                     ">
                       <div class="dot"><span></span></div>
                       <div class="bubble">
-                        <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50041000" target="_blank"><span>LG QNED
-                            evo AI</span>
+                        <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50041000" target="_blank"><span>LG QNED</span>
                         </a>
                         <p>스탠드/벽걸이형<span></span>4K</p>
                       </div>
@@ -946,8 +941,7 @@
                     ">
                       <div class="dot"><span></span></div>
                       <div class="bubble">
-                        <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000029" target="_blank"><span>LG 나노셀
-                            AI</span></a>
+                        <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000029" target="_blank"><span>LG 나노셀</span></a>
                         <p>스탠드/벽걸이형<span></span>4K</p>
                       </div>
                     </div>
@@ -1088,9 +1082,7 @@
                     ">
                       <div class="dot"><span></span></div>
                       <div class="bubble">
-                        <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000030" target="_blank"><span>LG 울트라
-                            HD TV
-                            AI</span></a>
+                        <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000030" target="_blank"><span>LG 울트라 HD</span></a>
                         <p>스탠드/벽걸이형<span></span>4K</p>
                       </div>
                     </div>
@@ -1224,7 +1216,7 @@
               <h2 class="hide">구매포인트</h2>
               <h3 class="section-title">
                 영화부터 게임까지, <b>우리집 즐거움</b>의 시작 <br />
-                다양한 엔터테인먼트를 즐기기 위한 TV의 핵심 기능 만나보세요.
+                다양한 엔터테인먼트를 즐기기 위한 TV의 핵심 기능을 만나보세요.
               </h3>
               <div class="tab-wrap">
                 <button class="active" name="buying-guide-tab" data-group="buying-point" data-target="#buying-point-1">
@@ -1945,7 +1937,7 @@
                         </h6>
                         <p class="tip-text">
                           하루 종일 선택과 고민이 이어지는 일상, 집에 돌아온 순간만큼은 아무 생각 없이 쉬고 싶죠. 그런데 막상 소파에 앉으면 볼 컨텐츠를 고르느라 시간을 보내곤 합니다. LG
-                          AI TV와 함께라면 그런 고민은 끝! 볼 만한 콘텐츠를 추천해주고, 날씨뉴스 같은 실시간 정보 확인부터 해외여행 일정 계획까지 AI가 쉽고 빠르게 도와줍니다.
+                          AI TV와 함께라면 그런 고민은 끝! 볼 만한 콘텐츠를 추천해주고, 날씨ㆍ뉴스 같은 실시간 정보 확인부터 해외여행 일정 계획까지 AI가 쉽고 빠르게 도와줍니다.
                         </p>
                       </div>
                       <div class="img">
@@ -2148,7 +2140,7 @@
                         </h6>
                         <p class="tip-text">
                           TV 하나만으로도 집 분위기가 훨씬 달라질 수 있어요. 슬림하고 깔끔한 디자인은 공간을 더 정돈되고 여유 있게 만들어줘요. TV를 보지 않을 때는 원하는 그림이나 사진을
-                          화면에 띄워 집안을 마치 갤러리처럼 연출할 수 있고 필요한 순간에는 몰입감 있는 화면으로, 일상에서는 감각적인 인테리어 포인트로 활용할 수 있어요.
+                          화면에 띄워 집 안을 마치 갤러리처럼 연출할 수 있고 필요한 순간에는 몰입감 있는 화면으로, 일상에서는 감각적인 인테리어 포인트로 활용할 수 있어요.
                         </p>
                       </div>
                       <div class="img">
@@ -2268,12 +2260,12 @@
                         </h6>
                         <p class="tip-text">
                           콘텐츠를 감상할 때 큰 화면과 뛰어난 화질만큼 중요한 요소가 있죠. 바로 사운드입니다.
-                          집에서도 게임이나 스포츠를 몰입감 있게 즐기고, 공간을 가득 채우는 입체적인 사운드가 일상을 작은 영화관처럼 만들어줘요. 여기에 TV에 어울리는 LG 사운드바를
+                          집에서도 게임이나 스포츠를 몰입감 있게 즐기고, 공간을 가득 채우는 입체적인 사운드는 일상을 작은 영화관처럼 만들어줘요. 여기에 TV에 어울리는 LG 사운드바를
                           추가한다면 WOW 오케스트라 기능으로 TV와 사운드바의 스피커를 동시에 활용해 더 풍성하고 입체적인 사운드를 경험할 수 있어요.
                         </p>
                       </div>
                       <div class="img">
-                        <img src="/kr/story/buying-guide/2025/img/tv/img_M14_101_05.jpg" alt="" class="pc-only" />
+                        <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_36.jpg" alt="" class="pc-only" />
                         <img src="/kr/story/buying-guide/2025/img/tv/img_M14_101_04.jpg" alt="" class="mobile-only" />
                       </div>
                     </div>
@@ -2324,13 +2316,13 @@
                               </button>
                               <div class="collapse-content">
                                 <p>
-                                  <b>[보이스 ID]</b>
+                                  <b>[보이스 ID]</b><br />
                                   * 최대 10개의 프로필 설정이 가능합니다.<br />
                                   * 보이스 ID는 24년 이후 출시된 UHD 이상 모델에서 지원됩니다.<br />
                                   * 보이스 ID는 LG Apps, 홈 화면, LG 피트니스, 스포츠 알람, 홈 오피스, 음악, 게임 등의 메뉴에서 사용 가능합니다.
                                 </p>
                                 <p>
-                                  <b>[webOS 25]</b>
+                                  <b>[webOS 25]</b><br />
                                   * 구매한 TV의 기본 탑재된 webOS 버전을 기준으로, 최대 5년간 총 4회의 OS 업그레이드를 지원합니다.<br />
                                   * 2023년형 이후 모델은 올레드, QNED, 나노셀, UHD 전모델 대상, 2022년형 모델은 올레드 전제품 및 8K QNED 대상
                                 </p>

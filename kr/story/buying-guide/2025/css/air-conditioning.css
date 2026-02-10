@@ -25,6 +25,9 @@
 .buying-guide .product-table .table-wrap thead tr:first-child th:first-child {
   width: 190px;
 }
+.buying-guide .product-table .clone-header-table-wrap {
+  left: 50%;
+}
 @media only screen and (max-width: 1023px) {
   .buying-guide .product-table.single-table{
     min-width: unset;
