@@ -187,7 +187,7 @@
                     <div class="dot"><span></span></div>
                     <div class="bubble">
                       <a
-                        href="https://wwwstg.lge.co.kr/kr/usp_dcr/RD25ESE_summary_pc.jpg/hdims/format/avif%3Bfallback=webp/optimize"
+                        href="https://wwwstg.lge.co.kr/dryers/rd25ese"
                         target="_blank"
                         ><span>LG 트롬 AI 오브제컬렉션 건조기</span>
                       </a>
@@ -1149,7 +1149,7 @@
                       </div>
                   </div>
                 </div>
-                <div class="point-tip" id="point-tip4">
+                <div class="point-tip" id="point-tip4" style="display: none">
                   <h5>이런 포인트도 살펴보면 좋아요!</h5>
                   <div class="tip-content">
                     <div class="content">
