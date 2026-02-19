@@ -123,7 +123,7 @@
           <div class="content">
             <div class="inner-wrap">
               <h2>
-                건조기·<br />구매 가이드
+                건조기<br />구매 가이드
               </h2>
               <p>건조를 더 스마트하게</p>
             </div>
@@ -443,7 +443,7 @@
                         <div class="btn-wrap">
                           <a
                             class="btn-product"
-                            href="https://www.lge.co.kr/category/dryers?filterProduct=AT0000000142:KY0000000283:02,AT0000000142:KY0000004541:02"
+                            href="https://www.lge.co.kr/category/dryers?filterProduct=AT0000000142:KY0000000283:02,AT0000000142:KY0000004541:02" target="_blank"
                             >제품 보러 가기</a
                           >
                         </div>
@@ -482,7 +482,7 @@
                         <div class="btn-wrap">
                           <a
                             class="btn-product"
-                            href="https://www.lge.co.kr/category/dryers?filterProduct=AT0000000142:KY0000000077:02"
+                            href="https://www.lge.co.kr/category/dryers?filterProduct=AT0000000142:KY0000000077:02" target="_blank"
                             >제품 보러 가기</a
                           >
                         </div>
@@ -633,10 +633,10 @@
                           style="--btn-width: 197px; --btn-m-width: 169px"
                         >
                           <a
-                            class="btn-product"
+                            class="btn-guide"
                             href="https://wwwstg.lge.co.kr/story/setup-guide/washer-installation-guide#result-08-01-01-01"
                             target="_blank"
-                            >설치가이드 보러가기</a
+                            >설치 가이드 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -664,10 +664,10 @@
                           style="--btn-width: 197px; --btn-m-width: 169px"
                         >
                           <a
-                            class="btn-product"
+                            class="btn-guide"
                             href="https://wwwstg.lge.co.kr/story/setup-guide/washer-installation-guide#result-04-01-01-01"
                             target="_blank"
-                            >설치가이드 보러가기</a
+                            >설치 가이드 보러 가기</a
                           >
                           <a
                             class="btn-product"
@@ -796,7 +796,7 @@
                             class="btn-product"
                             href="https://www.lge.co.kr/category/dryers?filterBrand=AT0000000111:KY0000003992:01"
                             target="_blank"
-                            >건조기 제품 보러 가기</a
+                            >제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1365,7 +1365,7 @@
                   />문의 답변
                 </h3>
                 <p>
-                  세탁기·건조기·워시타워·워시콤보, 궁금했던 모든 것에 답해 드려요.
+                  건조기, 궁금했던 모든 것에 답해 드려요.
                 </p>
                 <div class="btn-wrap">
                   <a
@@ -1383,7 +1383,7 @@
                   />구독 상품
                 </h3>
                 <p>
-                  세탁기·건조기·워시타워·워시콤보를 정기적으로 구독하고 싶다면?
+                  건조기를 정기적으로 구독하고 싶다면?
                 </p>
                 <div class="btn-wrap">
                   <a
@@ -1401,7 +1401,7 @@
                   />인기 상품
                 </h3>
                 <p>
-                  지금 가장 인기 있는 세탁기·건조기·워시타워·워시콤보 확인해 보세요!
+                  지금 가장 인기 있는 건조기 확인해 보세요!
                 </p>
                 <div class="btn-wrap">
                   <a
