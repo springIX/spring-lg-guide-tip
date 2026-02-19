@@ -69,9 +69,9 @@
 
     <!-- 이모션 추가 -->
     <link rel="stylesheet" href="/kr/story/buying-guide/2025/css/common.css" type="text/css" />
-    <!-- <link rel="stylesheet" href="/kr/story/buying-guide/2025/css/drying-machine.css" type="text/css" /> -->
+    <link rel="stylesheet" href="/kr/story/buying-guide/2025/css/drying-machine.css" type="text/css" />
     <script src="/kr/story/buying-guide/2025/js/common.js"></script>
-    <!-- <script src="/kr/story/buying-guide/2025/js/drying-machine.js"></script> -->
+    <script src="/kr/story/buying-guide/2025/js/drying-machine.js"></script>
     <!-- // 이모션 추가 -->
   </head>
 
@@ -570,7 +570,7 @@
                         </p>
                         <div
                           class="btn-wrap"
-                          style="--btn-width: 223px; --btn-m-width: 169px"
+                          style="--btn-width: 223px; --btn-m-width: 200px"
                         >
                           <a
                             class="btn-product"
@@ -593,7 +593,7 @@
                         </div>
                         <div
                           class="btn-wrap"
-                          style="--btn-width: 221px; --btn-m-width: 169px"
+                          style="--btn-width: 223px; --btn-m-width: 200px"
                         >
                           <a
                             class="btn-product"
@@ -630,7 +630,7 @@
                         </p>
                         <div
                           class="btn-wrap"
-                          style="--btn-width: 197px; --btn-m-width: 169px"
+                          style="--btn-width: 184px; --btn-m-width: 156px"
                         >
                           <a
                             class="btn-guide"
@@ -661,7 +661,7 @@
                         </p>
                         <div
                           class="btn-wrap"
-                          style="--btn-width: 197px; --btn-m-width: 169px"
+                          style="--btn-width: 184px; --btn-m-width: 156px"
                         >
                           <a
                             class="btn-guide"
@@ -1147,6 +1147,32 @@
                             src="/kr/story/buying-guide/2025/video/drying-machine/vid_M07_001_01.mp4" class="mo-only"></video>
                         </div>
                       </div>
+                  </div>
+                </div>
+                <div class="point-tip" id="point-tip4">
+                  <h5>이런 포인트도 살펴보면 좋아요!</h5>
+                  <div class="tip-content">
+                    <div class="content">
+                      <p class="tag">#위생중시 #살균케어 #구김케어</p>
+                      <h6 class="tip-title">
+                        집먼지 진드기 살충, 바이러스 살균으로 위생 걱정은 줄이고 편리함은 높인 건조
+                      </h6>
+                      <p class="tip-text">
+                        아이가 있는 집은 물론 평소 위생에 민감한 분이라면 트루스팀을 활용한 스팀 코스로 간편하게 관리해보세요. 고온의 미세스팀으로 집먼지 진드기는 물론 알러지 유발물질 그리고 유해세균까지 99.99% 살균해주니까 우리 아이가 사용하는 옷과 인형부터 외출복까지 안심하고 간편하게 살균·건조할 수 있어요.
+                      </p>
+                    </div>
+                    <div class="img">
+                      <img
+                        src="/kr/story/buying-guide/2025/img/drying-machine/img_P07_001_16.jpg"
+                        alt=""
+                        class="pc-only"
+                      />
+                      <img
+                        src="/kr/story/buying-guide/2025/img/drying-machine/img_M07_001_05.jpg"
+                        alt=""
+                        class="mobile-only"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>

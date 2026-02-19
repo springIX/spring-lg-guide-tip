@@ -1,0 +1,14 @@
+.buying-guide .procuct-summary .sticky-product-no .inner .inner2 div span,
+.buying-guide .procuct-summary .procuct-no span {
+  display: inline-block;
+  width: 1px;
+  height: 14px;
+  margin: 0 10px;
+  background: #ccc;
+  vertical-align: middle;
+}
+@media only screen and (max-width: 1023px) {
+  .buying-guide .procuct-summary .procuct-no span {
+    margin: 0 5px;
+  }
+}
