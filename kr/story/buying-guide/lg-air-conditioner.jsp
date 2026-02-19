@@ -1251,7 +1251,7 @@
                               <th colspan="4">
                                 <h4>벽걸이 에어컨</h4>
                                 <p>
-                                  슬림한 디자인으로 좁은 공간에도 여유롭고 시원하게
+                                  벽에 설치해 공간을 효율적이고 시원하게
                                 </p>
                               </th>
                             </tr>
@@ -1663,7 +1663,10 @@
                           <tr>
                             <th rowspan="4">AI<br />특화기능</th>
                             <th class="th2">레이더 센서</th>
-                            <td class="y">O</td>
+                            <td class="y text">
+                              <span class="o">O</span>
+                              <p>*모델별 상이</p>
+                            </td>
                             <td class="n">X</td>
                             <td class="n">X</td>
                             <td class="n">X</td>
@@ -1693,7 +1696,7 @@
                             <td class="n">X</td>
                           </tr>
                           <tr>
-                            <th rowspan="5">냉방</th>
+                            <th rowspan="3">냉방</th>
                             <th class="th2">AI바람</th>
                             <td class="y">O</td>
                             <td class="y">O</td>
@@ -1708,23 +1711,9 @@
                             <td class="n">X</td>
                           </tr>
                           <tr>
-                            <th class="th2">직접·간접냉방</th>
-                            <td class="n">X</td>
-                            <td class="n">X</td>
-                            <td>직접·간접냉방</td>
-                            <td>간접냉방</td>
-                          </tr>
-                          <tr>
                             <th class="th2">아이스쿨파워</th>
                             <td class="y">O</td>
                             <td class="y">O</td>
-                            <td class="y">O</td>
-                            <td class="y">O</td>
-                          </tr>
-                          <tr>
-                            <th class="th2">스마트케어</th>
-                            <td class="n">X</td>
-                            <td class="n">X</td>
                             <td class="y">O</td>
                             <td class="y">O</td>
                           </tr>
@@ -1758,14 +1747,6 @@
                             <td class="y">O</td>
                             <td class="y">O</td>
                             <td class="y">O</td>
-                            <td class="n">X</td>
-                          </tr>
-                          <tr>
-                            <th>셀프청정</th>
-                            <th class="th2">셀프청정</th>
-                            <td class="y">O</td>
-                            <td class="y">O</td>
-                            <td class="n">X</td>
                             <td class="n">X</td>
                           </tr>
                           <tr>
@@ -2025,7 +2006,7 @@
                           <tr>
                             <th rowspan="2">스마트/편의</th>
                             <th class="th2">저소음</th>
-                            <td class="text">34dB</td>
+                            <td class="y">O</td>
                           </tr>
                           <tr>
                             <th class="th2">ThinQ (Wi-Fi)</th>
@@ -2156,15 +2137,13 @@
                               <td>
                                 <div class="spec-img">
                                   <img src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_eco.svg"
-                                    alt="쾌적관리 & 절전" />
-                                  <img src="/kr/story/buying-guide/2025/img/air-conditioning/ic48_10_comfortcare.svg"
-                                    alt="쾌적관리 & 절전" />
+                                    alt="절전" />
                                 </div>
                                 <p>
-                                  쾌적관리 & 절전
+                                  절전
                                   <span class="des">
                                     <span class="info pc-only"></span>
-                                    <span class="bubble">절전모드와 목표사용량 설정으로 소비젼력 효율적 관리, 강력제습과 맞춤건조로 쾌적하게</span>
+                                    <span class="bubble">절전모드와 목표사용량 설정으로 소비젼력 효율적 관리</span>
                                   </span>
                                 </p>
                               </td>
@@ -2255,7 +2234,7 @@
                           <tr>
                             <th rowspan="2">스마트/편의</th>
                             <th class="th2">저소음</th>
-                            <td class="text">34dB</td>
+                            <td class="y">O</td>
                           </tr>
                           <tr>
                             <th class="th2">ThinQ (Wi-Fi)</th>

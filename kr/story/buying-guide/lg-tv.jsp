@@ -2144,7 +2144,7 @@
                         </p>
                       </div>
                       <div class="img">
-                        <img src="/kr/story/buying-guide/2025/img/tv/img_M14_101_05.jpg" alt="" class="pc-only" />
+                        <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_37.jpg" alt="" class="pc-only" />
                         <img src="/kr/story/buying-guide/2025/img/tv/img_M14_101_05.jpg" alt="" class="mobile-only" />
                       </div>
                     </div>
@@ -2423,7 +2423,7 @@
                   <div class="btn-wrap">
                     <a target="_blank" href="https://www.lge.co.kr/story/faq/tvs-faq">TV FAQ
                     </a>
-                    <a target="_blank" href=": https://www.lge.co.kr/story/useful-tip/oled-tv-faq">올레드 TV FAQ
+                    <a target="_blank" href="https://www.lge.co.kr/story/useful-tip/oled-tv-faq">올레드 TV FAQ
                     </a>
                   </div>
                 </div>

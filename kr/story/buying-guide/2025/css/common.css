@@ -1639,7 +1639,7 @@
 .buying-guide .product-table .clone-header-table-wrap {
   position: absolute;
   top: 0;
-  left: 50%;
+  left: 0;
   z-index: 5;
   background: #fff;
   padding-top: 40px;
@@ -1823,6 +1823,9 @@
   margin: 15px -5px -5px;
   font-size: 0;
 }
+.buying-guide .subtab-wrap .point-wrap .content .btn-wrap + .btn-wrap {
+  margin-top: 10px;
+}
 .buying-guide .subtab-wrap .point-wrap .content .btn-wrap a {
   display: inline-block;
   margin: 5px;
@@ -1887,6 +1890,9 @@
   }
   .buying-guide .subtab-wrap .point-wrap .content .btn-wrap {
     margin: 20px 0 0;
+  }
+  .buying-guide .subtab-wrap .point-wrap .content .btn-wrap + .btn-wrap {
+    margin-top: 5px;
   }
   .buying-guide .subtab-wrap .point-wrap .content .btn-wrap a {
     display: block;
@@ -2521,5 +2527,18 @@
     width: 16px;
     height: 16px;
     background-image: url(/kr/story/buying-guide/2025/img/ic16_arrow_right_black_bold.svg);
+  }
+}
+  
+.buying-guide .point-box .colWrap .col .media-wrap p {
+  font-size: 14px;
+  margin-top: 6px;
+  color: #444;
+}
+
+@media only screen and (max-width: 768px) {
+  .buying-guide .point-box .colWrap .col .media-wrap p {
+    font-size: 12px;
+    margin-top: 4px;
   }
 }
