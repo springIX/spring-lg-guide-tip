@@ -8,24 +8,20 @@ $("document").ready(function () {
         $("#point-tip1").show().siblings(".point-tip").hide();
         break;
       case "#buying-point-1-3":
-      case "#buying-point-1-4":
         $("#point-tip2").show().siblings(".point-tip").hide();
         break;
       case "#buying-point-2-1":
-        $("#point-tip3").show().siblings(".point-tip").hide();
-        break;
       case "#buying-point-2-2":
-        $("#point-tip4").show().siblings(".point-tip").hide();
-        break;
       case "#buying-point-2-3":
       case "#buying-point-2-4":
-        $("#point-tip5").show().siblings(".point-tip").hide();
+      case "#buying-point-2-5":
+        $("#point-tip3").show().siblings(".point-tip").hide();
         break;
       case "#buying-point-3-1":
-        $("#point-tip6").show().siblings(".point-tip").hide();
+        $("#point-tip4").show().siblings(".point-tip").hide();
         break;
       case "#buying-point-3-2":
-        $("#point-tip7").show().siblings(".point-tip").hide();
+        $("#point-tip5").show().siblings(".point-tip").hide();
         break;
     }
   });

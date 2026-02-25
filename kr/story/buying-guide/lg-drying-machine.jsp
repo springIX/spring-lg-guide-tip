@@ -443,7 +443,7 @@
                         <div class="btn-wrap">
                           <a
                             class="btn-product"
-                            href="https://www.lge.co.kr/category/dryers?filterProduct=AT0000000142:KY0000000283:02,AT0000000142:KY0000004541:02" target="_blank"
+                            href="https://www.lge.co.kr/category/dryers?filterProduct=AT0000000142:KY0000000283:02" target="_blank"
                             >제품 보러 가기</a
                           >
                         </div>
@@ -462,7 +462,7 @@
                         <div class="btn-wrap">
                           <a
                             class="btn-product"
-                            href="https://www.lge.co.kr/category/dryers?filterProduct=AT0000000142:KY0000000080:02"
+                            href="https://www.lge.co.kr/category/dryers?filterProduct=AT0000000142:KY0000000080:02,AT0000000142:KY0000004541:02"
                             target="_blank"
                             >제품 보러 가기</a
                           >
@@ -573,20 +573,20 @@
                           style="--btn-width: 223px; --btn-m-width: 200px"
                         >
                           <a
-                            class="btn-product"
-                            href="https://www.lge.co.kr/story/setup-guide/washer-installation-guide#result-08-02-01-01"
+                            class="btn-guide"
+                            href="https://wwwstg.lge.co.kr/story/setup-guide/washer-installation-guide#result-08-02-01-01"
                             target="_blank"
                             >일반 스태킹 (직렬형) 키트</a
                           >
                           <a
-                            class="btn-product"
-                            href="https://www.lge.co.kr/story/setup-guide/washer-installation-guide#result-08-02-02-01"
+                            class="btn-guide"
+                            href="https://wwwstg.lge.co.kr/story/setup-guide/washer-installation-guide#result-08-02-02-01"
                             target="_blank" style="white-space: nowrap;"
                             >전용 스태킹 키트 (블루투스)</a
                           >
                           <a
-                            class="btn-product"
-                            href="https://www.lge.co.kr/story/setup-guide/washer-installation-guide#result-08-02-03-01"
+                            class="btn-guide"
+                            href="https://wwwstg.lge.co.kr/story/setup-guide/washer-installation-guide#result-08-02-03-01"
                             target="_blank"
                             >전용 브라켓</a
                           >
@@ -596,14 +596,14 @@
                           style="--btn-width: 223px; --btn-m-width: 200px"
                         >
                           <a
-                            class="btn-product"
+                            class="btn-guide"
                             href="https://wwwstg.lge.co.kr/story/setup-guide/washer-installation-guide#result-08-02-04-01"
                             target="_blank"
                             >서랍형 키트</a
                           >
                           <a
-                            class="btn-product"
-                            href="https://wwwstg.lge.co.kr/story/setup-guide/washer-installation-guide#result-08-02-05-01"
+                            class="btn-guide"
+                            href="https://www.lge.co.kr/story/setup-guide/washer-installation-guide#result-08-02-05-01"
                             target="_blank"
                             >범용 스태킹 키트 (앵글)</a
                           >
@@ -634,7 +634,7 @@
                         >
                           <a
                             class="btn-guide"
-                            href="https://wwwstg.lge.co.kr/story/setup-guide/washer-installation-guide#result-08-01-01-01"
+                            href="https://wwwstg.lge.co.kr/story/setup-guide/washer-installation-guide#result-04-01-01-01"
                             target="_blank"
                             >설치 가이드 보러 가기</a
                           >
@@ -664,24 +664,22 @@
                           style="--btn-width: 184px; --btn-m-width: 156px"
                         >
                           <a
-                            class="btn-guide"
-                            href="https://wwwstg.lge.co.kr/story/setup-guide/washer-installation-guide#result-04-01-01-01"
-                            target="_blank"
-                            >설치 가이드 보러 가기</a
-                          >
-                          <a
                             class="btn-product"
-                            href="https://www.lge.co.kr/category/dryers?subCateId=CT50210005&filterProduct=AT0000000142:KY0000000283:02&filterBrand=AT0000000111:KY0000003992:01"
+                            href="https://www.lge.co.kr/category/dryers?subCateId=CT50210005"
                             target="_blank"
                             >제품 보러가기</a
                           >
+                          <a
+                            class="btn-guide"
+                            href="https://wwwstg.lge.co.kr/story/setup-guide/washer-installation-guide#result-04-01-01-01"
+                            target="_blank"
+                            >설치 가이드 보러 가기</a>
                         </div>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/drying-machine/img_P07_001_11.jpg"
+                            src="/kr/story/buying-guide/2025/img/drying-machine/img_P07_001_05.jpg"
                             alt="밝고 깨끗한 세탁실 인테리어에 단독 설치된 크림 베이지 컬러 LG 오브제컬렉션 세탁기"
-                          />
-                        </div>
+                          /> 
                       </div>
                     </div>
                   </div>
@@ -697,7 +695,8 @@
                       <p class="tip-text">
                         보통의 세탁 공간을 생각하면, 세탁기와 건조기를 나란히 설치해 사용하기는 쉽지 않아요. 이런 경우 보유하고 있는 세탁기 위에 건조기를 올려 효율적인 공간 활용이 가능한 방법을 고려해보세요. 제품 용량이나 유형에 따라 사용 가능한 키트의 종류는 다르지만, 아래 내용을 참고하면 상황에 맞게 어떤 키트를 설치해야하는지 쉽게 알 수 있어요.
                       </p>
-                      <p class="note">
+                      <br />
+                      <p class="tip-text">
                         * [세탁기와 건조기의 외관 크기가 같은 경우] 일반 스태킹 키트, 전용 스태킹 키트, 전용 브라켓 <br />
                         * [9~10kg 건조기를 설치해야 하는 경우] 서랍형 키트 <br />
                         * [세탁기와 건조기의 외관 크기 및 브랜드가 다른 경우] 범용 스태킹 키트
@@ -1318,18 +1317,9 @@
                               </div>
                             </div>
                             <div class="detail-wrap">
-                              <button class="btn-collapse-toggle">
-                                <span>* 콘덴서 자동세척 시스템</span>
+                              <button class="btn-collapse-toggle hidden" tabindex="0">
+                                <span>* 세부 정보</span>
                               </button>
-                              <div class="collapse-content">
-                                <p>
-                                   * 모든 건조코스에서 콘덴서 자동세척 시스템 동작 , 단 건조 코스가 아닌 침구털기코스, 송풍코스 등은 이후 젖은 옷감으로 건조행정 시 콘덴서 자동세척 진행.<br />
-                                   * 사용환경 및 수압에 따라 콘덴서 세척 정도에 차이가 있을 수 있습니다.<br />
-                                   * 세탁물 2kg 이하의 소량 건조 시 별도 '콘덴서 케어' 기능 사용을 권장합니다.<br />
-                                   * 반려동물을 키우는 환경에서는 펫케어 코스 및 펫케어 악세서리 키트 사용을 권장하며, 건조 전 반려동물 털을 충분히 털어서 사용하세요.
-                                </p>
-                                <button class="btn-collapse-close">접기</button>
-                              </div>
                             </div>
                           </div>
                         </div>
@@ -1354,14 +1344,17 @@
                             </div>
                             <div class="detail-wrap">
                               <button class="btn-collapse-toggle">
-                                <span>* 콘덴서 자동세척 시스템</span>
+                                <span>* 스팀 통살균</span>
                               </button>
                               <div class="collapse-content">
                                 <p>
-                                   * 모든 건조코스에서 콘덴서 자동세척 시스템 동작 , 단 건조 코스가 아닌 침구털기코스, 송풍코스 등은 이후 젖은 옷감으로 건조행정 시 콘덴서 자동세척 진행.<br />
-                                   * 사용환경 및 수압에 따라 콘덴서 세척 정도에 차이가 있을 수 있습니다.<br />
-                                   * 세탁물 2kg 이하의 소량 건조 시 별도 '콘덴서 케어' 기능 사용을 권장합니다.<br />
-                                   * 반려동물을 키우는 환경에서는 펫케어 코스 및 펫케어 악세서리 키트 사용을 권장하며, 건조 전 반려동물 털을 충분히 털어서 사용하세요.
+                                   * 시험 기관 : KATRI (의류시험연구원) / 시험 일자 : ‘25년 03월<br />
+                                   * 시험 코스 : 스팀통살균<br />
+                                   * 시험 균 : 유해세균 3종 (황색포도상구균, 녹농균, 폐렴간균)<br />
+                                   * 시험 조건 : 시험실 온도 21°±2C, 시험실 습도 50±15% R.H.<br />
+                                   * 시험 방법 : 유해세균 오염된 면직물 부착 또는 면봉을 사용하여 균 도포 하여 스팀 통살균 동작<br />
+                                   * 시험 결과 : 필터 내부, 콘덴서 전면, 열교환기 전면, 드럼 후면, 팬, 드럼 내부, 드럼 리프터, 도어 내부, 열교환기 하단, 필터 하단, 시작점, 열풍이동 끝점 12포인트 확인결과 평균 99.9% 살균력<br />
+                                   * 시험결과는 사용환경 등에 따라 차이가 있을 수 있습니다.
                                 </p>
                                 <button class="btn-collapse-close">접기</button>
                               </div>

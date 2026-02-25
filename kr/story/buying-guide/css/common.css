@@ -1980,6 +1980,10 @@
   height: 100%;
   object-fit: cover;
 }
+.buying-guide .point-tip .tip-content .img video {
+  height: 100%;
+  object-fit: cover;
+}
 .buying-guide .point-tip .tip-content .img .point-slider,
 .buying-guide .point-tip .tip-content .img .point-slider .slider,
 .buying-guide .point-tip .tip-content .img .point-slider .slick-list,
