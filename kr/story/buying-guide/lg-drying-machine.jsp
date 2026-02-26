@@ -683,36 +683,37 @@
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="point-tip" id="point-tip2">
-                  <h5>이런 포인트도 살펴보면 좋아요!</h5>
-                  <div class="tip-content">
-                    <div class="content">
-                      <p class="tag">#생활공간맞춤</p>
-                      <h6 class="tip-title">
-                        우리집 공간에 맞춘 효율적인 설치
-                      </h6>
-                      <p class="tip-text">
-                        보통의 세탁 공간을 생각하면, 세탁기와 건조기를 나란히 설치해 사용하기는 쉽지 않아요. 이런 경우 보유하고 있는 세탁기 위에 건조기를 올려 효율적인 공간 활용이 가능한 방법을 고려해보세요. 제품 용량이나 유형에 따라 사용 가능한 키트의 종류는 다르지만, 아래 내용을 참고하면 상황에 맞게 어떤 키트를 설치해야하는지 쉽게 알 수 있어요.
-                      </p>
-                      <br />
-                      <p class="tip-text">
-                        * [세탁기와 건조기의 외관 크기가 같은 경우] 일반 스태킹 키트, 전용 스태킹 키트, 전용 브라켓 <br />
-                        * [9~10kg 건조기를 설치해야 하는 경우] 서랍형 키트 <br />
-                        * [세탁기와 건조기의 외관 크기 및 브랜드가 다른 경우] 범용 스태킹 키트
-                      </p>
-                    </div>
-                    <div class="img">
-                      <img
-                        src="/kr/story/buying-guide/2025/img/drying-machine/img_P07_001_12.jpg"
-                        alt="LG 오브제컬렉션 워시타워 수직 설치형 (하단 베이지 세탁기와 상단 그린 건조기가 위아래로 결합된 일체형 구조)"
-                        class="pc-only"
-                      />
-                      <img
-                        src="/kr/story/buying-guide/2025/img/drying-machine/img_M07_001_04.jpg"
-                        alt="LG 오브제컬렉션 워시타워 수직 설치형 (하단 베이지 세탁기와 상단 그린 건조기가 위아래로 결합된 일체형 구조)"
-                        class="mobile-only"
-                      />
+                  </div>
+                  <div class="point-tip" id="point-tip2">
+                    <h5>이런 포인트도 살펴보면 좋아요!</h5>
+                    <div class="tip-content">
+                      <div class="content">
+                        <p class="tag">#생활공간맞춤</p>
+                        <h6 class="tip-title">
+                          우리집 공간에 맞춘 효율적인 설치
+                        </h6>
+                        <p class="tip-text">
+                          보통의 세탁 공간을 생각하면, 세탁기와 건조기를 나란히 설치해 사용하기는 쉽지 않아요. 이런 경우 보유하고 있는 세탁기 위에 건조기를 올려 효율적인 공간 활용이 가능한 방법을 고려해보세요. 제품 용량이나 유형에 따라 사용 가능한 키트의 종류는 다르지만, 아래 내용을 참고하면 상황에 맞게 어떤 키트를 설치해야하는지 쉽게 알 수 있어요.
+                        </p>
+                        <br />
+                        <p class="tip-text">
+                          * [세탁기와 건조기의 외관 크기가 같은 경우] 일반 스태킹 키트, 전용 스태킹 키트, 전용 브라켓 <br />
+                          * [9~10kg 건조기를 설치해야 하는 경우] 서랍형 키트 <br />
+                          * [세탁기와 건조기의 외관 크기 및 브랜드가 다른 경우] 범용 스태킹 키트
+                        </p>
+                      </div>
+                      <div class="img">
+                        <img
+                          src="/kr/story/buying-guide/2025/img/drying-machine/img_P07_001_12.jpg"
+                          alt="LG 오브제컬렉션 워시타워 수직 설치형 (하단 베이지 세탁기와 상단 그린 건조기가 위아래로 결합된 일체형 구조)"
+                          class="pc-only"
+                        />
+                        <img
+                          src="/kr/story/buying-guide/2025/img/drying-machine/img_M07_001_04.jpg"
+                          alt="LG 오브제컬렉션 워시타워 수직 설치형 (하단 베이지 세탁기와 상단 그린 건조기가 위아래로 결합된 일체형 구조)"
+                          class="mobile-only"
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -852,14 +853,8 @@
                           세탁물 투입 후 시작 버튼을 누르면 무게를 감지해 약 3초만에 코스별 예상 종료 시간을 알려줍니다.
                         </p>
                         <div class="img">
-                          <button class="btn-pause">일시멈춤</button>
-                          <video
-                            autoplay
-                            playsinline
-                            loop
-                            muted
-                            src="/kr/story/buying-guide/2025/video/drying-machine/vid_P07_001_02.mp4"
-                          ></video>
+                          <img src="/kr/story/buying-guide/2025/img/drying-machine/img_P07_001_18.jpg"
+                            alt="" />
                         </div>
                         <button class="btn-collapse-toggle">
                           <span>* AI 타임 센싱</span>

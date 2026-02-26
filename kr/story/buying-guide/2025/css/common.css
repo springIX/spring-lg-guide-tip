@@ -1997,6 +1997,7 @@
 .buying-guide .point-tip .tip-content .img .media-wrap {
   position: relative;
   height: 100%;
+  right: -1px;
 }
 .buying-guide .point-tip .tip-content .img .media-wrap video {
   display: block;
