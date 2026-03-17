@@ -716,8 +716,10 @@
 .buying-guide .tab-content .img-wrap .bubble-wrap:hover {
   width: auto;
 }
-.buying-guide .tab-content .img-wrap .bubble-wrap:hover .bubble {
+.buying-guide .tab-content .img-wrap .bubble-wrap:hover .bubble,
+.buying-guide .tab-content .img-wrap .bubble-wrap:focus .bubble {
   z-index: 1;
+  display: block;
 }
 .buying-guide .tab-content .img-wrap .bubble-wrap.left {
   left: auto;
@@ -728,8 +730,10 @@
 }
 .buying-guide .tab-content .img-wrap .bubble-wrap.left:hover .bubble {
   order: 1;
+  display: block;
 }
 .buying-guide .tab-content .img-wrap .bubble-wrap .bubble {
+  display: none;
   position: relative;
   z-index: -9;
   max-width: 500px;
@@ -1274,7 +1278,8 @@
 .buying-guide .compare-wrap .procuct-summary .procuct-spec p .des .info:hover:before {
   opacity: 1;
 }
-.buying-guide .compare-wrap .procuct-summary .procuct-spec p .des .info:hover + .bubble {
+.buying-guide .compare-wrap .procuct-summary .procuct-spec p .des .info:hover + .bubble,
+.buying-guide .compare-wrap .procuct-summary .procuct-spec p .des .info:focus + .bubble {
   display: block;
 }
 .buying-guide .compare-wrap .procuct-summary .procuct-spec p .des .bubble {
@@ -1390,6 +1395,10 @@
   font-weight: 700;
   line-height: 140%;
   letter-spacing: -0.16px;
+}
+.buying-guide .compare-wrap .procuct-summary .btn-product:focus {
+  outline: 1px solid #000;
+  outline-offset: -4px !important;
 }
 @media only screen and (max-width: 1023px) {
   .buying-guide .compare-wrap .procuct-summary {

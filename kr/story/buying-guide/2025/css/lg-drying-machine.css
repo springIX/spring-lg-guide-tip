@@ -1,0 +1,51 @@
+.buying-guide .tab-content .slider-controls {
+  right: 20px;
+}
+.buying-guide .subtab-wrap .point-wrap .content .btn-wrap + .btn-wrap {
+  margin-top: 5px;
+}
+.buying-guide .procuct-summary .sticky-product-no .inner .inner2 div span,
+.buying-guide .procuct-summary .procuct-no span {
+  display: inline-block;
+  width: 1px;
+  height: 14px;
+  margin: 0 10px;
+  background: #ccc;
+  vertical-align: middle;
+}
+.buying-guide .procuct-summary .procuct-spec-wrap td {
+  display: flex;
+}
+.buying-guide .procuct-summary .procuct-spec-wrap td .procuct-spec {
+  width: 20%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.buying-guide .procuct-summary .procuct-spec-wrap td .procuct-spec p {
+  flex-direction: column;
+}
+.buying-guide .procuct-summary .procuct-spec-wrap td .procuct-spec .des {
+  margin-top: 4px;
+  font-size: 16px;
+  color: #666;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -1%;
+}
+@media only screen and (max-width: 1023px) {
+  .buying-guide .procuct-summary .procuct-spec-wrap td {
+    flex-direction: column;
+  }
+  .buying-guide .procuct-summary .procuct-spec-wrap td .procuct-spec {
+    width: 100%;
+    padding: 10px;
+  }
+  .buying-guide .procuct-summary .procuct-spec-wrap td .procuct-spec .des {
+    display: block;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .buying-guide .procuct-summary .procuct-no span {
+    margin: 0 5px;
+  }
+}
