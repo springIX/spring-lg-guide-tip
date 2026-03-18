@@ -280,7 +280,7 @@
                               <p>
                                 25kg 건조 용량
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >국내 최대 25kg 건조 용량으로 부피가 큰 빨래도 부담없이 건조
                                   </span>
@@ -299,7 +299,7 @@
                               <p>
                                 AI 타임 센싱
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >세탁물 투입 후 시작버튼을 눌러 3초만에 확인하는 예상 종료 시간
                                   </span>
@@ -318,7 +318,7 @@
                               <p>
                                 AI 시간 안내
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >사용할수록 AI가 스스로 학습해 정확도 높은 건조 완료 예상 시간 안내
                                   </span>
@@ -337,7 +337,7 @@
                               <p>
                                 트루스팀 2.0
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >건조 시 트루스팀으로 케어해 살균, 탈취 그리고 구김 완화 까지 간편하게 관리
                                   </span>
@@ -356,7 +356,7 @@
                               <p>
                                 딥러닝 AI X 6모션 건조
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >세탁물의 무게와 재질, 오염도 등을 감지해 최적의 모션으로 건조
                                   </span>

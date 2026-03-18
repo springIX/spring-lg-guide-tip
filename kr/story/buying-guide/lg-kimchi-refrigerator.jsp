@@ -705,7 +705,7 @@
                           <p>
                             프리스탠딩
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >단독으로 설치 가능해 배치를 자유롭게</span
                               >
@@ -726,7 +726,7 @@
                           <p>
                             Fit & Max <br class="mobile-only" />/ 프리스탠딩
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >설치와 이동은 프리스탠딩처럼 편리하며, 주방가구와 밀착설치로 깔끔하게</span
                               >
@@ -747,7 +747,7 @@
                           <p>
                             Fit & Max <br class="mobile-only" />/ 프리스탠딩
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >설치와 이동은 프리스탠딩처럼 편리하며, 주방가구와 밀착설치로 깔끔하게</span
                               >
@@ -768,7 +768,7 @@
                           <p>
                             Fit & Max <br class="mobile-only" />/ 프리스탠딩
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >설치와 이동은 프리스탠딩처럼 편리하며, 주방가구와 밀착설치로 깔끔하게</span
                               >
@@ -785,7 +785,7 @@
                           <p>
                             프리스탠딩
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >단독으로 설치 가능해 배치를 자유롭게</span
                               >
@@ -808,7 +808,7 @@
                           <p>
                             다용도 분리벽 &<br />다목적 보관모드
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >상칸을 좌우로 나눠주는 분리벽으로 공간을 알차고 자유롭게, LG ThinQ 앱으로 제공되는 식품 리스트로 편리하게 보관</span
                               >
@@ -829,7 +829,7 @@
                           <p>
                             오픈형 상칸 &<br />다목적 보관모드
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble">분리벽 없이 넓은 상칸으로 부피가 큰 식재료를 통째로! 보관하는 식재료에 따라 ThinQ 앱으로 편리하게 맞춤 온도로 보관</span>
                             </span>
                           </p>
@@ -844,7 +844,7 @@
                           <p>
                             다목적 보관모드
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >ThinQ 앱을 통해서 칸칸마다 따로 식재료에 맞게 맞춤 보관</span>
                             </span>
@@ -860,7 +860,7 @@
                           <p>
                             미식 전문 보관
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >보관하는 식재료의 특성에 맞춰 최적의 상태로
                                 신선하게</span
@@ -878,7 +878,7 @@
                           <p>
                             다용도 냉장고
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >김치/냉동/야채/육류 등 원하는 용도로
                                 알차게</span
@@ -898,7 +898,7 @@
                           <p>
                             유산균 김치+
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >맛있는 유산균을 최대 57배 더 증식시켜주는 맞춤 보관 기술</span
                               >
@@ -915,7 +915,7 @@
                           <p>
                             유산균 김치+
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >맛있는 유산균을 최대 57배 더 증식시켜주는 맞춤 보관 기술</span
                               >
@@ -932,7 +932,7 @@
                           <p>
                             유산균 김치+
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >맛있는 유산균을 최대 57배 더 증식시켜주는 맞춤 보관 기술</span
                               >
@@ -949,7 +949,7 @@
                           <p>
                             김치 보관/익힘기
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >주변 온도에 맞는 익힘 알고리즘과 염도에 따라
                                 적절하게</span
@@ -967,7 +967,7 @@
                           <p>
                             유산균 김치+
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >맛있는 유산균을 최대 57배 더 증식시켜주는 맞춤 보관 기술</span
                               >
@@ -986,7 +986,7 @@
                           <p>
                             AI 맞춤보관
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >포장김치를 ThinQ 앱에 등록하면 사용자 패턴에 따라 온도를 관리해 신선하게 보관</span
                               >
@@ -1003,7 +1003,7 @@
                           <p>
                             인공지능 맞춤보관
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >포장김치를 ThinQ 앱에 등록하면 김치에 맞춰서 기능을 맞춤 설정</span
                               >
@@ -1020,7 +1020,7 @@
                           <p>
                             인공지능 맞춤보관
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >포장김치를 ThinQ 앱에 등록하면 김치에 맞춰서 기능을 맞춤 설정</span
                               >
@@ -1037,7 +1037,7 @@
                           <p>
                             인공지능 맞춤보관
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >포장김치를 ThinQ 앱에 등록하면 맞춰서 보관</span
                               >
@@ -1054,7 +1054,7 @@
                           <p>
                             인공지능 맞춤보관
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >포장김치의 제조사와 제조일자에 맞춰 더욱
                                 맛있게</span
@@ -1078,7 +1078,7 @@
                           <p>
                             냉기케어 시스템 <br />& 신선정온
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >구석구석 빈틈없이 일정한 냉기로 맛과 신선함을 오래오래</span
                               >
@@ -1099,7 +1099,7 @@
                           <p>
                             냉기케어 시스템 <br />& 신선정온
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >구석구석 빈틈없이 일정한 냉기로 맛과 신선함을 오래오래</span
                               >
@@ -1120,7 +1120,7 @@
                           <p>
                             냉기케어 시스템 <br />& 신선정온
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >구석구석 빈틈없이 일정한 냉기로 맛과 신선함을 오래오래</span
                               >
@@ -1137,7 +1137,7 @@
                           <p>
                             신선정온
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >±0.3℃ 온도편차로 정온을 유지해 식재료와 김치를 신선하게 보관</span
                               >
@@ -1154,7 +1154,7 @@
                           <p>
                             신선정온
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >±0.3℃의 온도 편차로 식재료 본연의 맛을
                                 온전하게</span

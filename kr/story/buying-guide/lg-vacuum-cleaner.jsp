@@ -413,7 +413,7 @@
                               <p>
                                 물걸레 세척/건조
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >올인원타워로 이동 후 물걸레 세척 및 건조를
                                     자동으로 진행</span
@@ -431,7 +431,7 @@
                               <p>
                                 물걸레 세척/건조
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >올인원타워로 이동 후 물걸레 세척 및 건조를
                                     자동으로 진행</span
@@ -449,7 +449,7 @@
                               <p>
                                 물걸레 세척/건조
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >올인원타워로 이동 후 물걸레 세척 및 건조를
                                     자동으로 진행</span
@@ -467,7 +467,7 @@
                               <p>
                                 물걸레 세척/건조
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >올인원타워로 이동 후 물걸레 세척 및 건조를
                                     자동으로 진행</span
@@ -487,7 +487,7 @@
                               <p>
                                 자동먼지비움
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >올인원타워로 이동 후 먼지통 안의 먼지를
                                     손대지 않아도 자동으로 비움</span
@@ -505,7 +505,7 @@
                               <p>
                                 자동먼지비움
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >올인원타워로 이동 후 먼지통 안의 먼지를
                                     손대지 않아도 자동으로 비움</span
@@ -523,7 +523,7 @@
                               <p>
                                 자동먼지비움
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >올인원타워로 이동 후 먼지통 안의 먼지를
                                     손대지 않아도 자동으로 비움</span
@@ -541,7 +541,7 @@
                               <p>
                                 자동먼지비움
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >올인원타워로 이동 후 먼지통 안의 먼지를
                                     손대지 않아도 자동으로 비움</span
@@ -561,7 +561,7 @@
                               <p>
                                 물걸레 흡입 동시 청소
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >바닥 물걸레 청소와 먼지 흡입 청소를 동시에
                                     진행</span
@@ -579,7 +579,7 @@
                               <p>
                                 물걸레 흡입 동시 청소
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >바닥 물걸레 청소와 먼지 흡입 청소를 동시에
                                     진행</span
@@ -597,7 +597,7 @@
                               <p>
                                 흡입 전용
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >물걸레 청소 없이 먼지 흡입 청소</span
                                   >
@@ -614,7 +614,7 @@
                               <p>
                                 물걸레 전용
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >먼지 흡입 없이 바닥을 꾹꾹 눌러 손으로
                                     걸레질 한 듯 물걸레 청소</span
@@ -639,7 +639,7 @@
                                 스마트 터보<br class="mobile-only" />
                                 + 물걸레 리프팅
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >카펫 위에서는 흡입 세기를 알아서 강하게
                                     높이고, 물걸레를 들어올려 청소</span
@@ -657,7 +657,7 @@
                               <p>
                                 스마트 터보
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >카펫 위에서는 흡입 세기를 알아서 강하게
                                     높여 청소</span
@@ -675,7 +675,7 @@
                               <p>
                                 스마트 터보
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >카펫이나 벽면 등 환경에 따라 흡입 세기를 알아서 강하게 높여 청소</span
                                   >
@@ -692,7 +692,7 @@
                               <p>
                                 스마트 터보
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >카펫이나 벽면 등 환경에 따라 흡입 세기를
                                     알아서 강하게 높여 청소</span
@@ -712,7 +712,7 @@
                               <p>
                                 보안(LG SDL)
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >LG 표준 보안 개발 프로세스를 적용하여 보안
                                     리스크까지 철저하게 관리</span
@@ -730,7 +730,7 @@
                               <p>
                                 보안(ThinQ 앱)
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >LG 전자의 ThinQ 앱으로 개인정보 안전하게 보호</span
                                   >
@@ -747,7 +747,7 @@
                               <p>
                                 보안(ThinQ 앱)
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >LG 전자의 ThinQ 앱으로 개인정보 안전하게 보호</span
                                   >
@@ -764,7 +764,7 @@
                               <p>
                                 보안(ThinQ 앱)
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >LG 전자의 ThinQ 앱으로 개인정보 안전하게 보호</span
                                   >
@@ -975,7 +975,7 @@
                               <p>
                                 스팀 물걸레+흡입
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >60° 스팀 물걸레 청소와 먼지 흡입을 동시
                                     청소</span
@@ -993,7 +993,7 @@
                               <p>
                                 물걸레+흡입
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >물걸레 청소와 먼지 흡입을 동시 청소</span
                                   >
@@ -1010,7 +1010,7 @@
                               <p>
                                 물걸레+흡입
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >물걸레 청소와 먼지 흡입을 동시 청소</span
                                   >
@@ -1029,7 +1029,7 @@
                               <p>
                                 올인원타워
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >자동 먼지 비움·충전은 물론 다양한 흡입구를
                                     보관</span
@@ -1047,7 +1047,7 @@
                               <p>
                                 올인원타워
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >자동 먼지 비움·충전은 물론 다양한 흡입구를
                                     보관</span
@@ -1065,7 +1065,7 @@
                               <p>
                                 올인원타워
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >자동 먼지 비움·충전은 물론 다양한 흡입구를
                                     보관</span
@@ -1085,7 +1085,7 @@
                               <p>
                                 AI · 스마트 청소
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >청소 패턴, 상황, 배터리 잔량을 분석해
                                     흡입력을 스마트하게 조절</span
@@ -1103,7 +1103,7 @@
                               <p>
                                 AI · 스마트 청소
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >청소 패턴, 상황, 배터리 잔량을 분석해
                                     흡입력을 스마트하게 조절</span
@@ -1121,7 +1121,7 @@
                               <p>
                                 AI · 스마트 청소
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >청소 패턴, 상황, 배터리 잔량을 분석해
                                     흡입력을 스마트하게 조절</span
@@ -1141,7 +1141,7 @@
                               <p>
                                 320W
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble">320W의 흡입력 청소</span>
                                 </span>
                               </p>
@@ -1156,7 +1156,7 @@
                               <p>
                                 220W
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble">220W의 흡입력 청소</span>
                                 </span>
                               </p>
@@ -1171,7 +1171,7 @@
                               <p>
                                 150W
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble">150W의 흡입력 청소</span>
                                 </span>
                               </p>
@@ -1188,7 +1188,7 @@
                               <p>
                                 5단계 미세먼지 차단
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >내부 미세먼지가 다시 배출되지 않도록
                                     5단계로 차단</span
@@ -1206,7 +1206,7 @@
                               <p>
                                 5단계 미세먼지 차단
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >내부 미세먼지가 다시 배출되지 않도록
                                     5단계로 차단</span
@@ -1224,7 +1224,7 @@
                               <p>
                                 5단계 미세먼지 차단
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >내부 미세먼지가 다시 배출되지 않도록
                                     5단계로 차단</span
@@ -1552,7 +1552,7 @@
                               <p>
                                 트윈 싸이클론
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >2중 싸이클론 구조로 먼지를 분리하여 흡입력
                                     유지, 먼지통 분리형 설계로 관리와 세척이
@@ -1571,7 +1571,7 @@
                               <p>
                                 터보 싸이클론
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >원형 구조의 터보 싸이클론 시스템으로 강력한
                                     흡입력을 오래 유지</span
@@ -1589,7 +1589,7 @@
                               <p>
                                 터보 싸이클론
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >원형 구조의 터보 싸이클론 시스템으로 강력한
                                     흡입력을 오래 유지</span
@@ -1609,7 +1609,7 @@
                               <p>
                                 자동 먼지 압축
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >먼지통 속 날개로 먼지를 압축해 3배 이상
                                     담고, 비우기도 간편</span
@@ -1627,7 +1627,7 @@
                               <p>
                                 자동 먼지 압축
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >먼지통 속 날개로 먼지를 압축해 3배 이상
                                     담고, 비우기도 간편</span
@@ -1645,7 +1645,7 @@
                               <p>
                                 자동 먼지 압축
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >먼지통 속 날개로 먼지를 압축해 3배 이상
                                     담고, 비우기도 간편</span
@@ -1665,7 +1665,7 @@
                               <p>
                                 배기필터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >미세먼지까지 걸러주는 배기필터</span
                                   >
@@ -1682,7 +1682,7 @@
                               <p>
                                 배기필터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >미세먼지까지 걸러주는 배기필터</span
                                   >
@@ -1699,7 +1699,7 @@
                               <p>
                                 배기필터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >미세먼지까지 걸러주는 배기필터</span
                                   >
@@ -1718,7 +1718,7 @@
                               <p>
                                 저소음구조
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >모터를 두번 감싼 구조로 진동과 소음까지
                                     감소</span
@@ -1736,7 +1736,7 @@
                               <p>
                                 저소음구조
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >모터를 두번 감싼 구조로 진동과 소음까지
                                     감소</span
@@ -1754,7 +1754,7 @@
                               <p>
                                 저소음구조
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >모터를 두번 감싼 구조로 진동과 소음까지
                                     감소</span
@@ -2168,6 +2168,30 @@
                             muted
                             src="/kr/story/buying-guide/2025/video/vacuum-cleane/vid_P05_101_06.mp4"
                           ></video>
+                        </div>
+                        
+                        <button class="btn-collapse-toggle">
+                          <span>* 전면카메라 사물인식</span>
+                        </button>
+                        <div class="collapse-content">
+                          <p>
+                            * 소비자의 이해를 돕기 위해 연출된 영상으로 실제와 다를 수 있습니다.
+                            <br />
+                            * 인식 가능한 대표 사물 : 전선, 신발(운동화/슬리퍼), 양말/수건, 선풍기, 체중계, 반려동물 식기, 공, 컵, 병, 블록, 화분, 휴지통, 의자, 스툴, 테이블, 냉장고, 탁자, 신발장, 침대, 책, 건조대, 강아지/고양이, 리모컨
+                            <br />
+                            * 인식 가능한 사물은 소프트웨어 업데이트로 추가 또는 변경될 수 있습니다.
+                            <br />
+                            * 인식 성능은 사물의 크기·형상·색상·재질 및 조명(어두움/역광), 바닥 패턴/광택, 주변 환경에 따라 달라질 수 있으며, 일부 물체는 오인식 되거나 인식되지 않을 수 있습니다.
+                            <br />
+                            * AI 사물인식을 사용하기 위해서는 LG ThinQ 앱에서 'AI 장애물 회피' 설정이 필요합니다.
+                            <br />
+                            * 3D 센서는 가로•세로 약 2cm, 높이 약 1cm 수준의 장애물까지 감지 가능하며, 센서와 장애물과의 거리가 약 8cm 이상일 때 감지할 수 있습니다. (좌/우 감지 각도 : 98°, 상/하 감지 각도 : 79°)
+                            <br />
+                            * 3D 센서 시야 밖(본체 바로 근접 영역, 감지 가능 각도 외)에는 사각이 존재할 수 있어, 일부 장애물은 감지되지 않거나 부딪힐 수 있습니다.
+                            <br />
+                            * 얇은 다리의 가구나 반사 장애물, 20mm 이하의 낮은 장애물은 인식이 어려울 수 있으므로, 원활한 청소를 위해 사전 정리 또는 금지 구역 설정을 권장합니다.
+                          </p>
+                          <button class="btn-collapse-close">접기</button>
                         </div>
                       </div>
                       <div class="content">

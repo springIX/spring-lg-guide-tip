@@ -347,7 +347,7 @@
                               <p>
                                 미라듀어 글라스
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >긁힘에 강해 스크래치가 적어 깨끗하게
                                   </span>
@@ -364,7 +364,7 @@
                               <p>
                                 오브제 화이트
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >600℃ 내열성으로 강화유리보다 강하게
                                   </span>
@@ -381,7 +381,7 @@
                               <p>
                                 세라믹 글라스
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >600℃ 내열성으로 강화유리보다 강하게
                                   </span>
@@ -400,7 +400,7 @@
                               <p>
                                 쿼드 인버터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >4개의 인버터가 화력을 세밀하게
                                   </span>
@@ -417,7 +417,7 @@
                               <p>
                                 쿼드 인버터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >4개의 인버터가 화력을 세밀하게
                                   </span>
@@ -434,7 +434,7 @@
                               <p>
                                 듀얼 인버터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >열 손실은 줄이고 에너지는 효율적이게
                                   </span>
@@ -453,7 +453,7 @@
                               <p>
                                 자동용기감지
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >화구 선택 필요 없이 자동으로 감지해
                                     편리하게
@@ -471,7 +471,7 @@
                               <p>
                                 자동용기감지
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >화구 선택 필요 없이 자동으로 감지해
                                     편리하게
@@ -489,7 +489,7 @@
                               <p>
                                 화력 인디케이터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >인디케이터 램프 길이로 화력 상태를 한눈에
                                   </span>
@@ -508,7 +508,7 @@
                               <p>
                                 끓음 알림
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >AI가 화력을 스스로 조절해 편리하게
                                   </span>
@@ -525,7 +525,7 @@
                               <p>
                                 끓음 알림
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >AI가 화력을 스스로 조절해 편리하게
                                   </span>
@@ -542,7 +542,7 @@
                               <p>
                                 끓음 알림
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >AI가 화력을 스스로 조절해 편리하게
                                   </span>
@@ -561,7 +561,7 @@
                               <p>
                                 와이드존
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >넓은 공간으로 다양한 요리를 동시에 완성하게
                                   </span>
@@ -578,7 +578,7 @@
                               <p>
                                 와이드존
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >넓은 공간으로 다양한 요리를 동시에 완성하게
                                   </span>
@@ -595,7 +595,7 @@
                               <p>
                                 와이드존
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >넓은 공간으로 다양한 요리를 동시에 완성하게
                                   </span>
@@ -614,7 +614,7 @@
                               <p>
                                 맞춤설치
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >주방 환경에 맞게 설치 타입을 선택하게
                                   </span>
@@ -631,7 +631,7 @@
                               <p>
                                 맞춤설치
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >주방 환경에 맞게 설치 타입을 선택하게
                                   </span>
@@ -648,7 +648,7 @@
                               <p>
                                 초슬림 디자인
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >4cm의 높이로 보관이 용이하게
                                   </span>
@@ -709,6 +709,7 @@
                             <th colspan="2" rowspan="3">라인업</th>
                             <th colspan="2">미라듀어</th>
                             <th colspan="2">매트라인</th>
+                            <th colspan="2">모노라인 글라스</th>
                             <th colspan="2">오브제 화이트</th>
                             <th colspan="2">블랙 세라믹</th>
                           </tr>
@@ -720,6 +721,10 @@
                             <th colspan="2" class="th2">
                               인테리어에 고급스럽게 어우러지는 무광 디자인을
                               원하는 고객
+                            </th>
+                            <th colspan="2" class="th2">
+                              깔끔한 원바디 디자인과 맑고 선명한
+                              프리미엄 화이트 글라스를 원하는 고객
                             </th>
                             <th colspan="2" class="th2">
                               화이트 인테리어에 어울리는 심플한 인덕션을 원하는
@@ -744,6 +749,12 @@
                             </td>
                             <td colspan="2">
                               <img
+                                src="/kr/story/buying-guide/2025/img/electric-range/img_P09_001_20.png"
+                                alt="전기레인지 LG 디오스 인덕션 (BEI3ABWLE.AKOR) 메인이미지"
+                              />
+                            </td>
+                            <td colspan="2">
+                              <img
                                 src="/kr/story/buying-guide/2025/img/electric-range/img_P09_001_16.png"
                                 alt="전기레인지 LG 디오스 오브제컬렉션 인덕션 (BEI3ANHLE.AKOR) 메인이미지 2"
                               />
@@ -761,6 +772,7 @@
                             <th colspan="2">모델명</th>
                             <td colspan="2">BE*3*<span class="red">M</span>****</td>
                             <td colspan="2">BE*3*<span class="red">SM</span>***</td>
+                            <td colspan="2">BE*3*<span class="red">B</span>****</td>
                             <td colspan="2">BE*3*<span class="red">N</span>**** / BE*3*<span class="red">K</span>****</td>
                             <td colspan="2">
                               BE*3<span class="red">SB</span>*** / BE*3*<span class="red">EB</span>*** / BE*3*<span class="red">RB</span>**
@@ -770,6 +782,7 @@
                             <th colspan="2">글라스 색상</th>
                             <td colspan="2">블랙</td>
                             <td colspan="2">무광 블랙</td>
+                            <td colspan="2">웜 화이트</td>
                             <td colspan="2">
                               화이트<br />
                               <small>*조작부 컬러는 모델별 별도 확인</small>
@@ -782,9 +795,11 @@
                             <td colspan="2">3,400W</td>
                             <td colspan="2">3,400W</td>
                             <td colspan="2">3,400W</td>
+                            <td colspan="2">3,400W</td>
                           </tr>
                           <tr>
                             <th colspan="2">에너지등급</th>
+                            <td colspan="2">1등급</td>
                             <td colspan="2">1등급</td>
                             <td colspan="2">1등급</td>
                             <td colspan="2">1등급</td>
@@ -795,12 +810,14 @@
                             <th class="y th2">O</th>
                             <td colspan="2">BE*3<span class="red">AM</span>****</td>
                             <td colspan="2">BE*3<span class="red">ASM</span>***</td>
+                            <td colspan="2">BE*3<span class="red">AB</span>****</td>
                             <td colspan="2">BE*3<span class="red">AN</span>****</td>
                             <td colspan="2">BE*3<span class="red">ASB</span>***</td>
                           </tr>
                           <tr>
                             <th class="n th2">X</th>
                             <td colspan="2">BE*3<span class="red">QM</span>****</td>
+                            <td colspan="2">-</td>
                             <td colspan="2">-</td>
                             <td colspan="2">BE*3<span class="red">QK</span>****</td>
                             <td class="line-break">
@@ -810,6 +827,7 @@
                           </tr>
                           <tr>
                             <th colspan="2">사양</th>
+                            <td colspan="2" class="th2">쿼드인버터</td>
                             <td colspan="2" class="th2">쿼드인버터</td>
                             <td colspan="2" class="th2">쿼드인버터</td>
                             <td colspan="2" class="th2">쿼드인버터</td>
@@ -938,7 +956,7 @@
                               <p>
                                 미라듀어 글라스
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >긁힘에 강해 스크래치가 적어
                                     <br class="mobile-only" />깨끗하게
@@ -958,7 +976,7 @@
                               <p>
                                 3중 고화력 부스터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >적은 전력으로도
                                     <br class="mobile-only" />빠르고 강력하게
@@ -979,7 +997,7 @@
                               <p>
                                 다이아몬드 커팅 글라스
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >청소가 쉬운 다이아몬드 커팅 글라스로
                                     <br class="mobile-only" />깔끔하게
@@ -999,7 +1017,7 @@
                               <p>
                                 16종 안전장치
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >16종 안전장치 시스템으로
                                     <br class="mobile-only" />더욱 안전하게
@@ -1019,7 +1037,7 @@
                               <p>
                                 원터치 다이렉트 컨트롤
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >원하는 화력 조절을
                                     <br class="mobile-only" />

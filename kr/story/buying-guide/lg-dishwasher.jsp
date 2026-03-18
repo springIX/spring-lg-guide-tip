@@ -495,7 +495,7 @@
                           <p>
                             100℃ 트루스팀
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >100℃ 미세스팀으로<br class="mobile-only" />
                                 유해세균 걱정없이</span
@@ -513,7 +513,7 @@
                           <p>
                             100℃ 트루스팀
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >100℃ 미세스팀으로<br class="mobile-only" />
                                 유해세균 걱정없이</span
@@ -531,7 +531,7 @@
                           <p>
                             100℃ 트루스팀
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >100℃ 미세스팀으로<br class="mobile-only" />
                                 유해세균 걱정없이</span
@@ -549,7 +549,7 @@
                           <p>
                             100℃ 트루스팀
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >100℃ 미세스팀으로<br class="mobile-only" />
                                 유해세균 걱정없이</span
@@ -567,7 +567,7 @@
                           <p>
                             100℃ 트루스팀
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >100℃ 미세스팀으로<br class="mobile-only" />
                                 유해세균 걱정없이</span
@@ -587,7 +587,7 @@
                           <p>
                             토네이도 세척날개
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >입체 물살을 만들어 구석구석 깨끗하게</span
                               >
@@ -604,7 +604,7 @@
                           <p>
                             토네이도 세척날개
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >입체 물살을 만들어 구석구석 깨끗하게</span
                               >
@@ -621,7 +621,7 @@
                           <p>
                             토네이도 세척날개
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >입체 물살을 만들어 구석구석 깨끗하게</span
                               >
@@ -638,7 +638,7 @@
                           <p>
                             토네이도 세척날개
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >입체 물살을 만들어 구석구석 깨끗하게</span
                               >
@@ -655,7 +655,7 @@
                           <p>
                             토네이도 세척날개
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >입체 물살을 만들어 구석구석 깨끗하게</span
                               >
@@ -674,7 +674,7 @@
                           <p>
                             연수장치
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >석회질 물질을 감소시켜
                                 <br class="mobile-only" />물 얼룩 걱정없이</span
@@ -692,7 +692,7 @@
                           <p>
                             연수장치
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >석회질 물질을 감소시켜
                                 <br class="mobile-only" />물 얼룩 걱정없이</span
@@ -710,7 +710,7 @@
                           <p>
                             연수장치
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >석회질 물질을 감소시켜
                                 <br class="mobile-only" />물 얼룩 걱정없이</span
@@ -728,7 +728,7 @@
                           <p>
                             연수장치
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >석회질 물질을 감소시켜
                                 <br class="mobile-only" />물 얼룩 걱정없이</span
@@ -746,7 +746,7 @@
                           <p>
                             연수장치
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >석회질 물질을 감소시켜
                                 <br class="mobile-only" />물 얼룩 걱정없이</span
@@ -766,7 +766,7 @@
                           <p>
                             AI 자동코스
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >식기 오염도에 맞춘<br class="mobile-only" />
                                 세척 코스로 스마트하게</span
@@ -784,7 +784,7 @@
                           <p>
                             AI 자동코스
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >식기 오염도에 맞춘<br class="mobile-only" />
                                 세척 코스로 스마트하게</span
@@ -802,7 +802,7 @@
                           <p>
                             AI 자동코스
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >식기 오염도에 맞춘<br class="mobile-only" />
                                 세척 코스로 스마트하게</span
@@ -820,7 +820,7 @@
                           <p>
                             AI 자동코스
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >식기 오염도에 맞춘<br class="mobile-only" />
                                 세척 코스로 스마트하게</span
@@ -838,7 +838,7 @@
                           <p>
                             자동코스
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >식기 오염도에 따라<br class="mobile-only" />
                                 시간과 온도를 자동으로</span
@@ -862,7 +862,7 @@
                           <p>
                             자동문열림 + 열풍건조
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >세척 후 열풍으로 <br class="mobile-only" />
                                 물기 없이 뽀송하게</span
@@ -884,7 +884,7 @@
                           <p>
                             자동문열림 + 열풍건조
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >세척 후 열풍으로 <br class="mobile-only" />
                                 물기 없이 뽀송하게</span
@@ -902,7 +902,7 @@
                           <p>
                             자동문열림
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >세척 후 문을 열어 <br class="mobile-only" />
                                 냄새없이 깔끔하게</span
@@ -920,7 +920,7 @@
                           <p>
                             자동문열림
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >세척 후 문을 열어 <br class="mobile-only" />
                                 냄새없이 깔끔하게</span
@@ -938,7 +938,7 @@
                           <p>
                             자동문열림
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >세척 후 문을 열어 <br class="mobile-only" />
                                 냄새없이 깔끔하게</span
@@ -962,7 +962,7 @@
                           <p>
                             스마트 선반 +
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >3단 선반과 레일로 <br class="mobile-only" />
                                 식기 수납을 편리하게</span
@@ -984,7 +984,7 @@
                           <p>
                             스마트 선반 +
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >3단 선반과 레일로 <br class="mobile-only" />
                                 식기 수납을 편리하게</span
@@ -1002,7 +1002,7 @@
                           <p>
                             스마트 선반
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >3단 선반으로 <br class="mobile-only" />
                                 식기 수납을 다양하게
@@ -1020,7 +1020,7 @@
                           <p>
                             스마트 선반
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >2단 선반으로 식기
                                 <br class="mobile-only" />수납을 다양하게
@@ -1038,7 +1038,7 @@
                           <p>
                             스탠다드 선반
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >2단 선반으로 식기 <br class="mobile-only" />
                                 수납을 효율적으로</span

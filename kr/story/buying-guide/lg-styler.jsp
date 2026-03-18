@@ -413,7 +413,7 @@
                               <p>
                                 트루스팀
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >스팀 분사로 유해세균과 <br class="mobile-only" />
                                     바이러스까지 99%살균하고 <br class="mobile-only" />
@@ -434,7 +434,7 @@
                               <p>
                                 무빙행어
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >옷을 직접 흔들어 <br class="mobile-only" />의류의 미세먼지까지 <br class="mobile-only" />제거</span>
                                 </span>
@@ -452,7 +452,7 @@
                               <p>
                                 실내 제습
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >최대 10L 제습 용량으로 <br class="mobile-only" />실내를 제습하여 <br class="mobile-only" />의류를 보관하는 공간까지 <br class="mobile-only" />쾌적하게 관리</span>
                                 </span>
@@ -470,7 +470,7 @@
                               <p>
                                 트루스팀 탈취
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >옷에 스며든 다양한
                                     <br class="mobile-only" />냄새를 강력하게
@@ -492,7 +492,7 @@
                               <p>
                                 블랙 틴트 미러 디자인
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >거울 소재로 스타일링한
                                     <br class="mobile-only" />옷을 바로 확인할
@@ -668,7 +668,7 @@
                           <p>
                             듀얼히팅 트루스팀
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >듀얼 스팀 분사로 유해세균과 바이러스까지 99%살균하고 탈취하여 안심되는 의류 위생 케어</span>
                             </span>
@@ -684,7 +684,7 @@
                           <p>
                             듀얼히팅 트루스팀
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >듀얼 스팀 분사로 유해세균과 바이러스까지 99%살균하고 탈취하여 안심되는 의류 위생 케어</span>
                             </span>
@@ -700,7 +700,7 @@
                           <p>
                             듀얼히팅 트루스팀
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >듀얼 스팀 분사로 유해세균과 바이러스까지 99%살균하고 탈취하여 안심되는 의류 위생 케어</span>
                             </span>
@@ -716,7 +716,7 @@
                           <p>
                             듀얼히팅 트루스팀
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >듀얼 스팀 분사로 유해세균과 바이러스까지 99%살균하고 탈취하여 안심되는 의류 위생 케어</span>
                             </span>
@@ -732,7 +732,7 @@
                           <p>
                             트루스팀
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >스팀 분사로 유해세균과 
                                 바이러스까지 99%살균하고 
@@ -753,7 +753,7 @@
                           <p>
                             다이내믹 무빙행어
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >분당 최대 350회 회전으로 미세먼지를 99%까지 제거</span>
                             </span>
@@ -769,7 +769,7 @@
                           <p>
                             다이내믹 무빙행어
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >분당 최대 350회 회전으로 미세먼지를 99%까지 제거</span>
                             </span>
@@ -785,7 +785,7 @@
                           <p>
                             다이내믹 무빙행어
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >분당 최대 350회 회전으로 미세먼지를 99%까지 제거</span>
                             </span>
@@ -801,7 +801,7 @@
                           <p>
                             다이내믹 무빙행어
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >분당 최대 350회 회전으로 미세먼지를 99%까지 제거</span>
                             </span>
@@ -817,7 +817,7 @@
                           <p>
                             무빙행어
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >옷을 직접 흔들어 의류의 미세먼지까지 제거</span>
                             </span>
@@ -835,7 +835,7 @@
                           <p>
                             자동 환기 시스템
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble">스타일링 후 공기가 제품 안/밖으로 순환해 바로 꺼내지 않아도 눅눅하지 않게 관리</span>
                             </span>
                           </p>
@@ -850,7 +850,7 @@
                           <p>
                             자동 환기 시스템
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble">스타일링 후 공기가 제품 안/밖으로 순환해 바로 꺼내지 않아도 눅눅하지 않게 관리</span>
                             </span>
                           </p>
@@ -865,7 +865,7 @@
                           <p>
                             자동 환기 시스템
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble">스타일링 후 공기가 제품 안/밖으로 순환해 바로 꺼내지 않아도 눅눅하지 않게 관리</span>
                             </span>
                           </p>
@@ -880,7 +880,7 @@
                           <p>
                             실내 제습
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble">최대 10L 제습 용량으로 실내를 제습하여 의류를 보관하는 공간까지 쾌적하게 관리</span>
                             </span>
                           </p>
@@ -895,7 +895,7 @@
                           <p>
                             실내 제습
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >최대 10L 제습 용량으로 실내를 제습하여 의류를 보관하는 공간까지 쾌적하게 관리</span>
                             </span>
@@ -913,7 +913,7 @@
                           <p>
                             빌트인 고압 스티머
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >3분만에 예열되는 고압 스팀으로 생활 주름까지 간편하게 관리</span>
                             </span>
@@ -929,7 +929,7 @@
                           <p>
                             빌트인 고압 스티머
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >3분만에 예열되는 고압 스팀으로 생활 주름까지 간편하게 관리</span>
                             </span>
@@ -945,7 +945,7 @@
                           <p>
                             바지관리기
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >3분 만에 예열되는 고압 스팀으로 빠르고
                                 깔끔하게</span
@@ -963,7 +963,7 @@
                           <p>
                             바지관리기
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >3분 만에 예열되는 고압 스팀으로 빠르고
                                 깔끔하게</span
@@ -981,7 +981,7 @@
                           <p>
                             바지관리기
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >3분 만에 예열되는 고압 스팀으로 빠르고
                                 깔끔하게</span
@@ -1001,7 +1001,7 @@
                           <p>
                             이지핏 바지관리기
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >바지의 칼주름을 살리는 전용 관리기로 무릎 뒤 주름까지 깔끔하게 케어</span>
                             </span>
@@ -1017,7 +1017,7 @@
                           <p>
                             심플 플랫 디자인
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >심플한 플랫 디자인으로 어떤 공간에도
                                 자연스럽게</span
@@ -1035,7 +1035,7 @@
                           <p>
                             이지핏 바지관리기
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >바지의 칼주름을 살리는 전용 관리기로 무릎 뒤 주름까지 깔끔하게 케어</span>
                             </span>
@@ -1051,7 +1051,7 @@
                           <p>
                             심플 플랫 디자인
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >심플한 플랫 디자인으로 어떤 공간에도
                                 자연스럽게</span
@@ -1069,7 +1069,7 @@
                           <p>
                             심플 플랫 디자인
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >심플한 플랫 디자인으로 어떤 공간에도
                                 자연스럽게</span

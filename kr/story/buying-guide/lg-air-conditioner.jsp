@@ -373,7 +373,7 @@
                                 <p>
                                   AI바람
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">레이더센서와 ThinQ앱으로 공간을 파악하고 사용자 패턴을 학습하여 내게 맞춘 온도·기류<br />
                                       *레이더센서 탑재 모델에 한함
                                     </span>
@@ -388,7 +388,7 @@
                                 <p>
                                   AI바람
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">레이더센서와 ThinQ앱으로 공간을 파악하고 사용자 패턴을 학습하여 내게 맞춘 온도·기류<br />
                                       *레이더센서 탑재 모델에 한함
                                     </span>
@@ -403,7 +403,7 @@
                                 <p>
                                   AI바람
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">레이더센서와 ThinQ앱으로 공간을 파악하고 사용자 패턴을 학습하여 내게 맞춘 온도·기류<br />
                                       *레이더센서 탑재 모델에 한함</span>
                                   </span>
@@ -417,7 +417,7 @@
                                 <p>
                                   AI바람
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">ThinQ앱으로 공간을 파악하고 사용자 패턴을 학습하여 내게 맞춘 온도·기류</span>
                                   </span>
                                 </p>
@@ -430,7 +430,7 @@
                                 <p>
                                   AI바람
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">ThinQ앱으로 공간을 파악하고 사용자 패턴을 학습하여 내게 맞춘 온도·기류</span>
                                   </span>
                                 </p>
@@ -443,7 +443,7 @@
                                 <p>
                                   냉방&온풍
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">영하 10도 추위에도 포근하고 무더위엔 공간을 시원하게
                                     </span>
                                   </span>
@@ -460,7 +460,7 @@
                                 <p>
                                   AI콜드프리
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">정교한 온도와 습도 조절로 춥지 않은 쾌적한 바람 <br />
                                       *AI콜드프리 탑재 모델에 한함
                                     </span>
@@ -476,7 +476,7 @@
                                 <p>
                                   AI콜드프리
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">정교한 온도와 습도 조절로 춥지 않은 쾌적한 바람 <br />
                                       *AI콜드프리 탑재 모델에 한함
                                     </span>
@@ -491,7 +491,7 @@
                                 <p>
                                   대용량 제습
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">습도 높은 날에도 공간을 보송하게
                                     </span>
                                   </span>
@@ -505,7 +505,7 @@
                                 <p>
                                   대용량 제습
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">습도 높은 날에도 공간을 보송하게
                                     </span>
                                   </span>
@@ -519,7 +519,7 @@
                                 <p>
                                   대용량 제습
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">습도 높은 날에도 공간을 보송하게
                                     </span>
                                   </span>
@@ -533,7 +533,7 @@
                                 <p>
                                   대용량 제습
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">습도 높은 날에도 공간을 보송하게
                                     </span>
                                   </span>
@@ -549,7 +549,7 @@
                                 <p>
                                   AI음성인식
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">모드 추천부터 실내 환경 안내까지, “Hi LG” 대화로 쉽고 빠른 제어
                                     </span>
                                   </span>
@@ -563,7 +563,7 @@
                                 <p>
                                   AI음성인식
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">모드 추천부터 실내 환경 안내까지, “Hi LG” 대화로 쉽고 빠른 제어
                                     </span>
                                   </span>
@@ -577,7 +577,7 @@
                                 <p>
                                   한쪽바람
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">원하는 방향으로 바람을 보내 부드럽고
                                       시원하게
                                     </span>
@@ -592,7 +592,7 @@
                                 <p>
                                   아이스쿨파워
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">최대 4°C 더 낮은 강력한 바람으로 더 빠르고
                                       시원하게</span>
                                   </span>
@@ -606,7 +606,7 @@
                                 <p>
                                   아이스쿨파워
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">최대 4°C 더 낮은 강력한 바람으로 더 빠르고
                                       시원하게</span>
                                   </span>
@@ -620,7 +620,7 @@
                                 <p>
                                   한쪽바람
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">원하는 방향으로 바람을 보내 부드럽고
                                       시원하게
                                     </span>
@@ -637,7 +637,7 @@
                                 <p>
                                   AI수면
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">숙면 중 깨지 않도록 사용 패턴을 분석해 최적의 온도·습도·기류로 맞춤
                                     </span>
                                   </span>
@@ -651,7 +651,7 @@
                                 <p>
                                   AI수면
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">숙면 중 깨지 않도록 사용 패턴을 분석해 최적의 온도·습도·기류로 맞춤
                                     </span>
                                   </span>
@@ -665,7 +665,7 @@
                                 <p>
                                   뷰케이스 커스텀
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">하단 패널을 교체해 인테리어에 맞게 뷰케이스 연출
                                     </span>
                                   </span>
@@ -679,7 +679,7 @@
                                 <p>
                                   뷰케이스 커스텀
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">하단 패널을 교체해 인테리어에 맞게 뷰케이스 연출
                                     </span>
                                   </span>
@@ -693,7 +693,7 @@
                                 <p>
                                   뷰케이스 커스텀
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">하단 패널을 교체해 인테리어에 맞게 뷰케이스 연출
                                     </span>
                                   </span>
@@ -707,7 +707,7 @@
                                 <p>
                                   뷰케이스 커스텀
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">하단 패널을 교체해 인테리어에 맞게 뷰케이스 연출
                                     </span>
                                   </span>
@@ -723,7 +723,7 @@
                                 <p>
                                   뷰케이스 커스텀
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">하단 패널을 교체해 인테리어에 맞게 뷰케이스 연출
                                     </span>
                                   </span>
@@ -737,7 +737,7 @@
                                 <p>
                                   뷰케이스 커스텀
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">하단 패널을 교체해 인테리어에 맞게 뷰케이스 연출
                                     </span>
                                   </span>
@@ -751,7 +751,7 @@
                                 <p>
                                   뷰케이스 커스텀
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">하단 패널을 교체해 인테리어에 맞게 뷰케이스 연출
                                     </span>
                                   </span>
@@ -765,7 +765,7 @@
                                 <p>
                                   뷰케이스 커스텀
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">하단 패널을 교체해 인테리어에 맞게 뷰케이스 연출
                                     </span>
                                   </span>
@@ -779,7 +779,7 @@
                                 <p>
                                   뷰케이스 커스텀
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">하단 패널을 교체해 인테리어에 맞게 뷰케이스 연출
                                     </span>
                                   </span>
@@ -793,7 +793,7 @@
                                 <p>
                                   뷰케이스 커스텀
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">하단 패널을 교체해 인테리어에 맞게 뷰케이스 연출
                                     </span>
                                   </span>
@@ -1318,7 +1318,7 @@
                                 <p>
                                   AI바람
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">레이더센서와 ThinQ앱으로 공간을 파악하고 사용자 패턴을 학습하여 내게 맞춘 온도·기류 <br />
                                       *레이더센서 탑재 모델에 한함
                                     </span>
@@ -1333,7 +1333,7 @@
                                 <p>
                                   AI바람
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">레이더센서와 ThinQ앱으로 공간을 파악하고 사용자 패턴을 학습하여 내게 맞춘 온도·기류 <br />
                                       *레이더센서 탑재 모델에 한함
                                     </span>
@@ -1348,7 +1348,7 @@
                                 <p>
                                   직접·간접 냉방
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">강력한 직접 냉방으로 더위를 빠르게 식히고 몸에 닿지 않은 은은한 간접 냉방으로 쾌적하게
                                     </span>
                                   </span>
@@ -1362,7 +1362,7 @@
                                 <p>
                                   간접 냉방
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">몸에 닿지 않은 은은한 간접 냉방으로 쾌적하게
                                     </span>
                                   </span>
@@ -1379,7 +1379,7 @@
                                 <p>
                                   AI콜드프리
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">정교한 온도와 습도 조절로 춥지 않은 쾌적한 바람 <br />
                                       *AI콜드프리 탑재 모델에 한함
                                     </span>
@@ -1394,7 +1394,7 @@
                                 <p>
                                   제습
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">습도 높은 날에도 공간을 보송하게</span>
                                   </span>
                                 </p>
@@ -1407,7 +1407,7 @@
                                 <p>
                                   제습
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">습도 높은 날에도 공간을 보송하게
                                     </span>
                                   </span>
@@ -1421,7 +1421,7 @@
                                 <p>
                                   제습
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">습도 높은 날에도 공간을 보송하게
                                     </span>
                                   </span>
@@ -1437,7 +1437,7 @@
                                 <p>
                                   AI음성인식
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">모드 추천부터 실내 환경 안내까지, “Hi LG” 대화로 쉽고 빠른 제어</span>
                                   </span>
                                 </p>
@@ -1450,7 +1450,7 @@
                                 <p>
                                   간접바람
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">직접 닿지 않는 냉기로 공간 전체를 쾌적하게
                                     </span>
                                   </span>
@@ -1464,7 +1464,7 @@
                                 <p>
                                   간접바람
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">직접 닿지 않는 냉기로 공간 전체를 쾌적하게
                                     </span>
                                   </span>
@@ -1478,7 +1478,7 @@
                                 <p>
                                   간접바람
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">직접 닿지 않는 냉기로 공간 전체를 쾌적하게
                                     </span>
                                   </span>
@@ -1494,7 +1494,7 @@
                                 <p>
                                   AI수면
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">숙면 중 깨지 않도록 사용 패턴을 분석해 최적의 온도·습도·기류로 맞춤
                                     </span>
                                   </span>
@@ -1508,7 +1508,7 @@
                                 <p>
                                   아이스쿨파워
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">최대 4°C 더 낮은 강력한 바람으로 더 빠르고
                                       시원하게
                                     </span>
@@ -1523,7 +1523,7 @@
                                 <p>
                                   아이스쿨파워
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">최대 4°C 더 낮은 강력한 바람으로 더 빠르고
                                       시원하게
                                     </span>
@@ -1538,7 +1538,7 @@
                                 <p>
                                   아이스쿨파워
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">최대 4°C 더 낮은 강력한 바람으로 더 빠르고
                                       시원하게
                                     </span>
@@ -1555,7 +1555,7 @@
                                 <p>
                                   절전
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">나에게 맞는 절전 모드로 전력 소비를 똑똑하게
                                     </span>
                                   </span>
@@ -1569,7 +1569,7 @@
                                 <p>
                                   절전
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">나에게 맞는 절전 모드로 전력 소비를 똑똑하게
                                     </span>
                                   </span>
@@ -1583,7 +1583,7 @@
                                 <p>
                                   절전
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">나에게 맞는 절전 모드로 전력 소비를 똑똑하게
                                     </span>
                                   </span>
@@ -1597,7 +1597,7 @@
                                 <p>
                                   절전
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">나에게 맞는 절전 모드로 전력 소비를 똑똑하게
                                     </span>
                                   </span>
@@ -1879,7 +1879,7 @@
                                 <p>
                                   절전&스마트케어
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">절전모드와 목표사용량 설정으로 소비전력 효율적 관리<br />
                                       나에게 쾌적한 온도를 맞춰주는 에어컨
                                     </span>
@@ -1896,7 +1896,7 @@
                                 <p>
                                   장마철 맞춤 에어컨
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">빗물이 스며들지 않도록 설계되고 강력제습으로 장마철에도 쾌적하게
                                     </span>
                                   </span>
@@ -1912,7 +1912,7 @@
                                 <p>
                                   깨끗한 에어컨
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">사용 후 맞춤건조로 내부 습기를 제거하고 클린바스켓을 항균 처리해 위생적으로 사용
                                     </span>
                                   </span>
@@ -1928,7 +1928,7 @@
                                 <p>
                                   인테리어 에어컨
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">오브제컬렉션 디자인과 깔끔한 마감키트로 공간에 조화로운 감각적인 에어컨
                                     </span>
                                   </span>
@@ -2112,7 +2112,7 @@
                                 <p>
                                   듀얼 인버터 & 에너지 1등급
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">듀얼 인버터 기술이 적용된 1등급 에너지소비효율로 전기료 걱정을 덜어주는 냉방</span>
                                   </span>
                                 </p>
@@ -2127,7 +2127,7 @@
                                 <p>
                                   듀얼호스
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">싱글 호스 대비 실내 온도를 빠르게 낮추고 소비전력량을 줄여 효율적으로 사용</span>
                                   </span>
                                 </p>
@@ -2142,7 +2142,7 @@
                                 <p>
                                   절전
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">절전모드와 목표사용량 설정으로 소비젼력 효율적 관리</span>
                                   </span>
                                 </p>
@@ -2157,7 +2157,7 @@
                                 <p>
                                   편리한 사용성
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">설치는 간편하게 손쉬운 이동으로 편리한 사용</span>
                                   </span>
                                 </p>

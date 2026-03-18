@@ -477,7 +477,7 @@
                             <p>
                               에어로미늄
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">무게는 가볍지만 메탈의 고급스러움과 강도를 갖춘 신소재</span>
                               </span>
                             </p>
@@ -489,7 +489,7 @@
                             <p>
                               에어로미늄
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">무게는 가볍지만 메탈의 고급스러움과 강도를 갖춘 신소재</span>
                               </span>
                             </p>
@@ -501,7 +501,7 @@
                             <p>
                               에어로미늄
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">무게는 가볍지만 메탈의 고급스러움과 강도를 갖춘 신소재</span>
                               </span>
                             </p>
@@ -513,7 +513,7 @@
                             <p>
                               에어로미늄
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">무게는 가볍지만 메탈의 고급스러움과 강도를 갖춘 신소재</span>
                               </span>
                             </p>
@@ -525,7 +525,7 @@
                             <p>
                               에어로미늄
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">무게는 가볍지만 메탈의 고급스러움과 강도를 갖춘 신소재</span>
                               </span>
                             </p>
@@ -540,7 +540,7 @@
                             <p>
                               NVIDIA® GeForce <br />RTX™ 5050
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">게임, 그래픽 편집과 같은 고부하 작업에서도 부드러운 성능을 제공</span>
                               </span>
                             </p>
@@ -553,7 +553,7 @@
                             <p>
                               AMD Radeon™ Graphics
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">CPU 통합 내장형 GPU로 문서와 영상, 일상 작업들을 부드럽게 처리</span>
                               </span>
                             </p>
@@ -566,7 +566,7 @@
                             <p>
                               Intel Arc 130T GPU
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">영상 재생·사진 편집 같은 일상 그래픽 작업에서 부드러운 성능을 제공</span>
                               </span>
                             </p>
@@ -579,7 +579,7 @@
                             <p>
                               AMD Radeon™ Graphics
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">영상 재생·문서 작업 등에 적합하며 가벼운 게임과 그래픽 작업까지 효율적으로 처리</span>
                               </span>
                             </p>
@@ -592,7 +592,7 @@
                             <p>
                               Intel® Graphics
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">문서·영상·웹 작업과 같은 일상적인 그래픽 처리부터 가벼운 2D, 3D 작업도 부드럽게 처리</span>
                               </span>
                             </p>
@@ -606,7 +606,7 @@
                             <p>
                               인텔® 코어™ Ultra 7 <br />프로세서 255H
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">고속 멀티태스킹과 콘텐츠 작업, AI 기능을 균형 있게 처리할 수 있도록 설계</span>
                               </span>
                             </p>
@@ -618,7 +618,7 @@
                             <p>
                               AMD Ryzen™ AI 7 450
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">빠른 문서, 웹, 멀티태스킹 성능과 로컬 AI 기능도 부드럽고 효율적으로 처리</span>
                               </span>
                             </p>
@@ -630,7 +630,7 @@
                             <p>
                               인텔® 코어™ Ultra 5 <br />프로세서 225H
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">일상 작업부터 멀티태스킹·콘텐츠 편집까지 빠르고 효율적으로 처리</span>
                               </span>
                             </p>
@@ -642,7 +642,7 @@
                             <p>
                               AMD Ryzen™ AI 5 435
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">문서·웹·멀티태스킹과 AI 가속 기능을 효율적으로 처리</span>
                               </span>
                             </p>
@@ -654,7 +654,7 @@
                             <p>
                               인텔® 코어™ Ultra 5 <br />프로세서 115U
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">일상 작업과 멀티태스킹, AI 기반 기능까지 효율적으로 처리</span>
                               </span>
                             </p>
@@ -668,7 +668,7 @@
                             <p>
                               gram AI
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">EXAONE 3.5 기반의 온디바이스 AI 사용 가능</span>
                               </span>
                             </p>
@@ -682,7 +682,7 @@
                             <p>
                               gram AI X Copilot+ PC
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">멀티 AI 탑재로 자유로운 솔루션 선택 가능</span>
                               </span>
                             </p>
@@ -694,7 +694,7 @@
                             <p>
                               gram AI
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">EXAONE 3.5 기반의 온디바이스 AI 사용 가능</span>
                               </span>
                             </p>
@@ -708,7 +708,7 @@
                             <p>
                               gram AI X Copilot+ PC
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">멀티 AI 탑재로 자유로운 솔루션 선택 가능</span>
                               </span>
                             </p>
@@ -720,7 +720,7 @@
                             <p>
                               gram AI
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">EXAONE 3.5 기반의 온디바이스 AI 사용 가능</span>
                               </span>
                             </p>
@@ -734,7 +734,7 @@
                             <p>
                               돌비 애트모스 사운드
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">공간을 가득 채우는 사운드로 생생하게</span>
                               </span>
                             </p>
@@ -746,7 +746,7 @@
                             <p>
                               돌비 애트모스 사운드
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">공간을 가득 채우는 사운드로 생생하게</span>
                               </span>
                             </p>
@@ -758,7 +758,7 @@
                             <p>
                               돌비 애트모스 사운드
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">공간을 가득 채우는 사운드로 생생하게</span>
                               </span>
                             </p>
@@ -770,7 +770,7 @@
                             <p>
                               돌비 애트모스 사운드
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">공간을 가득 채우는 사운드로 생생하게</span>
                               </span>
                             </p>
@@ -782,7 +782,7 @@
                             <p>
                               돌비 애트모스 사운드
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">공간을 가득 채우는 사운드로 생생하게</span>
                               </span>
                             </p>
@@ -797,7 +797,7 @@
                             <p>
                               초경량 gram
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">고성능과 AI를 담고도 여전히 gram답게, 가볍게</span>
                               </span>
                             </p>
@@ -810,7 +810,7 @@
                             <p>
                               초경량 gram
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">고성능과 AI를 담고도 여전히 gram답게, 가볍게</span>
                               </span>
                             </p>
@@ -823,7 +823,7 @@
                             <p>
                               초경량 gram
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">고성능과 AI를 담고도 여전히 gram답게, 가볍게</span>
                               </span>
                             </p>
@@ -836,7 +836,7 @@
                             <p>
                               초경량 gram
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">고성능과 AI를 담고도 여전히 gram답게, 가볍게</span>
                               </span>
                             </p>
@@ -849,7 +849,7 @@
                             <p>
                               데일리 gram
                               <span class="des">
-                                <span class="info pc-only"></span>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">언제든 편하게 쓰는 데일리 gram</span>
                               </span>
                             </p>

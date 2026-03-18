@@ -912,7 +912,7 @@
                           <p>
                             노크온 매직스페이스
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >노크로 확인하고, 자주 먹는 음식은 쉽게 꺼낼 수 있어 편리하게</span
                               >
@@ -929,7 +929,7 @@
                           <p>
                             매직스페이스
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >냉장고 도어 속 수납공간. 자주 먹는 음식을 쉽게 꺼낼 수 있어 편리하게</span
                               >
@@ -946,7 +946,7 @@
                           <p>
                             더블 매직스페이스
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >편리한 매직스페이스가 상단 양쪽 도어에 더블로</span
                               >
@@ -965,7 +965,7 @@
                           <p>
                             수도관 연결
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >수도관을 통해 냉장고에 물을 공급</span
                               >
@@ -982,7 +982,7 @@
                           <p>
                             수도관 연결
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >수도관을 통해 냉장고에 물을 공급</span
                               >
@@ -999,7 +999,7 @@
                           <p>
                             수도관 연결
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >수도관을 통해 냉장고에 물을 공급</span
                               >
@@ -1018,7 +1018,7 @@
                           <p>
                             얼음/정수 디스펜서
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >정수·냉수와 다양한 얼음을 위생적이고 편리하게</span
                               >
@@ -1035,7 +1035,7 @@
                           <p>
                             얼음/정수 디스펜서
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >정수·냉수와 다양한 얼음을 위생적이고 편리하게</span
                               >
@@ -1052,7 +1052,7 @@
                           <p>
                             얼음/정수 디스펜서
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >정수·냉수와 다양한 얼음을 위생적이고 편리하게</span
                               >
@@ -1071,7 +1071,7 @@
                           <p>
                             듀얼 오토 아이스메이커
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >두 종류 얼음을 자동으로 동시에 만들어 편리하게</span
                               >
@@ -1088,7 +1088,7 @@
                           <p>
                             듀얼 오토 아이스메이커
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >두 종류 얼음을 자동으로 동시에 만들어 편리하게</span
                               >
@@ -1105,7 +1105,7 @@
                           <p>
                             듀얼 오토 아이스메이커
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >두 종류 얼음을 자동으로 동시에 만들어 편리하게</span
                               >
@@ -1136,7 +1136,7 @@
                           <p>
                             크래프트 아이스, 조각얼음, 각얼음, 미니 각얼음
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >용도와 분위기에 맞춰 4가지의 다양한 얼음을 편리하게 선택 가능</span
                               >
@@ -1157,7 +1157,7 @@
                           <p>
                             크래프트 아이스, 미니 각얼음
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >용도와 분위기에 맞춰 2가지의 다양한 얼음을 편리하게 선택 가능</span
                               >
@@ -1174,7 +1174,7 @@
                           <p>
                             각얼음
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >시원한 각얼음을 편리하게 사용 가능</span
                               >
@@ -1193,7 +1193,7 @@
                           <p>
                             신선맞춤 야채실
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >식재료별 맞춤 온도로 더욱 신선하게</span
                               >
@@ -1210,7 +1210,7 @@
                           <p>
                             신선맞춤 야채실
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >식재료별 맞춤 온도로 더욱 신선하게</span
                               >
@@ -1227,7 +1227,7 @@
                           <p>
                             신선맞춤 야채실
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >식재료별 맞춤 온도로 더욱 신선하게</span
                               >

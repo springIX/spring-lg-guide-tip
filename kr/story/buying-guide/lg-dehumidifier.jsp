@@ -360,7 +360,7 @@
                                 제습능력 23L<span class="pc-only"> / </span
                                 ><br class="mobile-only" />사용면적 95㎡
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >23L 제습 능력으로 최대 95㎡ 공간을 빠르고
                                     쾌적하게</span
@@ -383,7 +383,7 @@
                                 제습능력 21L<span class="pc-only"> / </span
                                 ><br class="mobile-only" />사용면적 87㎡
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >21L 제습 능력으로 최대 87㎡ 공간을 빠르고
                                     쾌적하게</span
@@ -406,7 +406,7 @@
                                 제습능력 20L<span class="pc-only"> / </span
                                 ><br class="mobile-only" />사용면적 83㎡
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >20L 제습 능력으로 최대 83㎡ 공간을 빠르고
                                     쾌적하게</span
@@ -426,7 +426,7 @@
                               <p>
                                 대용량 물통
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >만수 용량 4.1L로 자주 비울 걱정 없이
                                     여유롭게</span
@@ -444,7 +444,7 @@
                               <p>
                                 대용량 물통
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >만수 용량 4.1L로 자주 비울 걱정 없이
                                     여유롭게</span
@@ -462,7 +462,7 @@
                               <p>
                                 대용량 물통
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >만수 용량 4.1L로 자주 비울 걱정 없이
                                     여유롭게</span
@@ -482,7 +482,7 @@
                               <p>
                                 저소음
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >저소음 제습모드로 도서관보다 조용하게</span
                                   >
@@ -499,7 +499,7 @@
                               <p>
                                 저소음
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >저소음 제습모드로 도서관보다 조용하게</span
                                   >
@@ -516,7 +516,7 @@
                               <p>
                                 저소음
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >저소음 제습모드로 도서관보다 조용하게</span
                                   >
@@ -535,7 +535,7 @@
                               <p>
                                 UV 팬살균
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >제습된 바람을 내보내는 팬을 UV-C로 99.99%
                                     살균하여 청결하게</span
@@ -553,7 +553,7 @@
                               <p>
                                 UV 팬살균
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >제습된 바람을 내보내는 팬을 UV-C로 99.99%
                                     살균하여 청결하게</span
@@ -571,7 +571,7 @@
                               <p>
                                 UV 팬살균
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >제습된 바람을 내보내는 팬을 UV-C로 99.99%
                                     살균하여 청결하게</span
@@ -591,7 +591,7 @@
                               <p>
                                 자동건조
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >제습 후 내부 습기를 자동 건조해 제품 내부까지 청결하게 관리</span
                                   >
@@ -608,7 +608,7 @@
                               <p>
                                 자동건조
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >제습 후 내부 습기를 자동 건조해 제품 내부까지 청결하게 관리</span
                                   >
@@ -625,7 +625,7 @@
                               <p>
                                 자동건조
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >제습 후 내부 습기를 자동 건조해 제품 내부까지 청결하게 관리</span
                                   >
@@ -644,7 +644,7 @@
                               <p>
                                 에너지소비효율 1등급
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >강력한 제습 능력에도<br
                                       class="mobile-only"
@@ -664,7 +664,7 @@
                               <p>
                                 에너지소비효율 1등급
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >쾌적함은 높이고 전기료 부담은 낮추고</span
                                   >
@@ -681,7 +681,7 @@
                               <p>
                                 에너지소비효율 1등급
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >쾌적함은 높이고 전기료 부담은 낮추고</span
                                   >
@@ -834,7 +834,7 @@
                                 제습능력 18L<span class="pc-only"> / </span
                                 ><br class="mobile-only" />사용면적 75㎡
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >18L 제습 능력으로 최대 75㎡ 공간을 빠르고
                                     쾌적하게</span
@@ -857,7 +857,7 @@
                                 제습능력 15L<span class="pc-only"> / </span
                                 ><br class="mobile-only" />사용면적 62㎡
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >15L 제습 능력으로 최대 62㎡ 공간을 빠르고
                                     쾌적하게</span
@@ -877,7 +877,7 @@
                               <p>
                                 대용량 물통
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >만수 용량 4.1L로 자주 비울 걱정 없이
                                     여유롭게</span
@@ -895,7 +895,7 @@
                               <p>
                                 대용량 물통
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >만수 용량 4.1L로 자주 비울 걱정 없이
                                     여유롭게</span
@@ -915,7 +915,7 @@
                               <p>
                                 저소음
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >저소음 제습모드로 도서관보다 조용하게</span
                                   >
@@ -932,7 +932,7 @@
                               <p>
                                 저소음
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >저소음 제습모드로 도서관보다 조용하게</span
                                   >
@@ -951,7 +951,7 @@
                               <p>
                                 UV 팬살균
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >제습된 바람을 내보내는 팬을 UV-C로 99.99%
                                     살균하여 청결하게</span
@@ -969,7 +969,7 @@
                               <p>
                                 UV 팬살균
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >제습된 바람을 내보내는 팬을 UV-C로 99.99%
                                     살균하여 청결하게</span
@@ -989,7 +989,7 @@
                               <p>
                                 자동건조
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >제습 후 내부 습기를 자동 건조해 제품 내부까지 청결하게 관리</span
                                   >
@@ -1006,7 +1006,7 @@
                               <p>
                                 자동건조
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >제습 후 내부 습기를 자동 건조해 제품 내부까지 청결하게 관리</span
                                   >
@@ -1025,7 +1025,7 @@
                               <p>
                                 에너지소비효율 1등급
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >쾌적함은 높이고 전기료 부담은 낮추고</span
                                   >
@@ -1042,7 +1042,7 @@
                               <p>
                                 에너지소비효율 1등급
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >쾌적함은 높이고 전기료 부담은 낮추고</span
                                   >
@@ -1175,7 +1175,7 @@
                                 <span
                                   ><br class="mobile-only" />사용면적 54㎡
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble"
                                       >13L 제습 능력으로
                                       <br class="mobile-only" />최대 54㎡ 공간을
@@ -1198,7 +1198,7 @@
                               <p>
                                 대용량 물통
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >만수 용량 4.1L로
                                     <br class="mobile-only" />자주 비울 걱정
@@ -1220,7 +1220,7 @@
                               <p>
                                 저소음
                                 <span class="des"
-                                  ><span class="info pc-only"></span>
+                                  ><button class="info pc-only"></button>
                                   <span class="bubble"
                                     >저소음 제습모드로
                                     <br class="mobile-only" />도서관보다
@@ -1241,7 +1241,7 @@
                               <p>
                                 UV 팬살균
                                 <span class="des"
-                                  ><span class="info pc-only"></span>
+                                  ><button class="info pc-only"></button>
                                   <span class="bubble"
                                     >제습된 바람을 내보내는
                                     <br class="mobile-only" />팬을 UV-C로 99.99%
@@ -1263,7 +1263,7 @@
                               <p>
                                 자동건조
                                 <span class="des"
-                                  ><span class="info pc-only"></span>
+                                  ><button class="info pc-only"></button>
                                   <span class="bubble"
                                     >제습 후 내부 습기를 자동 건조해 <br class="mo-only"/>제품 내부까지 청결하게 관리</span
                                   ></span
@@ -1282,7 +1282,7 @@
                               <p>
                                 에너지소비효율 1등급
                                 <span class="des"
-                                  ><span class="info pc-only"></span>
+                                  ><button class="info pc-only"></button>
                                   <span class="bubble"
                                     >쾌적함은 높이고 전기료 부담은 낮추고</span
                                   ></span

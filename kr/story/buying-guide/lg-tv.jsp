@@ -353,7 +353,7 @@
                                 <p>
                                   무선 4K 해상도
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">깔끔한 무선 연결로 4K 해상도를 편리하게</span>
                                   </span>
                                 </p>
@@ -365,7 +365,7 @@
                                 <p>
                                   4K 해상도
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">탁월한 컬러와 밝기로 4K 영상을 생생하게</span>
                                   </span>
                                 </p>
@@ -377,7 +377,7 @@
                                 <p>
                                   4K 해상도
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">탁월한 컬러와 밝기로 4K 영상을 생생하게</span>
                                   </span>
                                 </p>
@@ -389,7 +389,7 @@
                                 <p>
                                   4K 해상도
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">탁월한 컬러와 밝기로 4K 영상을 생생하게</span>
                                   </span>
                                 </p>
@@ -404,7 +404,7 @@
                                 <p>
                                   퍼펙트 블랙 & 컬러
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">실물의 색감은 더 선명하게 어둠은 더 깊게 구현한 디스플레이</span>
                                   </span>
                                 </p>
@@ -417,7 +417,7 @@
                                 <p>
                                   퍼펙트 블랙 & 컬러
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">실물의 색감은 더 선명하게 어둠은 더 깊게 구현한 디스플레이</span>
                                   </span>
                                 </p>
@@ -430,7 +430,7 @@
                                 <p>
                                   퍼펙트 블랙 & 컬러
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">실물의 색감은 더 선명하게 어둠은 더 깊게 구현한 디스플레이</span>
                                   </span>
                                 </p>
@@ -443,7 +443,7 @@
                                 <p>
                                   퍼펙트 블랙 & 컬러
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">실물의 색감은 더 선명하게 어둠은 더 깊게 구현한 디스플레이</span>
                                   </span>
                                 </p>
@@ -458,7 +458,7 @@
                                 <p>
                                   알파11 AI 프로세서
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">4배 더 빠른 딥러닝 성능으로 향상된 화질과 사운드 제공</span>
                                   </span>
                                 </p>
@@ -471,7 +471,7 @@
                                 <p>
                                   알파11 AI 프로세서
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">4배 더 빠른 딥러닝 성능으로 향상된 화질과 사운드 제공</span>
                                   </span>
                                 </p>
@@ -483,7 +483,7 @@
                                 <p>
                                   알파9 AI 프로세서
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">딥러닝으로 화질 레벨을 분류해 영상 화질 개선</span>
                                   </span>
                                 </p>
@@ -495,7 +495,7 @@
                                 <p>
                                   알파8 AI 프로세서
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">딥러닝으로 화질 레벨을 분류해 영상 화질 개선</span>
                                   </span>
                                 </p>
@@ -509,7 +509,7 @@
                                 <p>
                                   webOS
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">영상부터 음악, 게임, 앱까지 취향에 맞는 콘텐츠를 한눈에 제공</span>
                                   </span>
                                 </p>
@@ -521,7 +521,7 @@
                                 <p>
                                   webOS
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">영상부터 음악, 게임, 앱까지 취향에 맞는 콘텐츠를 한눈에 제공</span>
                                   </span>
                                 </p>
@@ -533,7 +533,7 @@
                                 <p>
                                   webOS
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">영상부터 음악, 게임, 앱까지 취향에 맞는 콘텐츠를 한눈에 제공</span>
                                   </span>
                                 </p>
@@ -545,7 +545,7 @@
                                 <p>
                                   webOS
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">영상부터 음악, 게임, 앱까지 취향에 맞는 콘텐츠를 한눈에 제공</span>
                                   </span>
                                 </p>
@@ -560,7 +560,7 @@
                                 <p>
                                   게이밍 주사율 (144Hz)
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">144Hz 가변 주사율(VRR)로 티어링 걱정없는 게임 환경</span>
                                   </span>
                                 </p>
@@ -573,7 +573,7 @@
                                 <p>
                                   게이밍 주사율 (165Hz)
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">165Hz 가변 주사율(VRR)로 티어링 걱정없는 게임 환경</span>
                                   </span>
                                 </p>
@@ -586,7 +586,7 @@
                                 <p>
                                   게이밍 주사율 (144Hz)
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">144Hz 가변 주사율(VRR)로 티어링 걱정없는 게임 환경</span>
                                   </span>
                                 </p>
@@ -599,7 +599,7 @@
                                 <p>
                                   게이밍 주사율 (120Hz)
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">NVIDIA G-Sync 호환, 0.1ms의 응답속도의 게임 환경</span>
                                   </span>
                                 </p>
@@ -824,7 +824,7 @@
                                 <p>
                                   QNED 컬러 프로
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">LG QNED의 최신 컬러 솔루션으로 마치 눈앞에 있는 듯 생생한 화질</span>
                                   </span>
                                 </p>
@@ -836,7 +836,7 @@
                                 <p>
                                   QNED 컬러
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">최신 컬러 솔루션으로 한층 더 풍부한 화질</span>
                                   </span>
                                 </p>
@@ -851,7 +851,7 @@
                                 <p>
                                   QNED 미니 LED
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">미니 LED로 작은 디테일까지 더 밝고 선명하게 표현</span>
                                   </span>
                                 </p>
@@ -863,7 +863,7 @@
                                 <p>
                                   알파7 AI 프로세서
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">화질 엔진으로 알아서 최적의 화질과 사운드 향상</span>
                                   </span>
                                 </p>
@@ -877,7 +877,7 @@
                                 <p>
                                   알파8 AI 프로세서
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">딥러닝으로 화질 레벨을 분류해 영상 화질 개선</span>
                                   </span>
                                 </p>
@@ -889,7 +889,7 @@
                                 <p>
                                   알파7 AI 프로세서
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">화질 엔진으로 알아서 최적의 화질과 사운드 향상</span>
                                   </span>
                                 </p>
@@ -903,7 +903,7 @@
                                 <p>
                                   webOS
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">영상부터 음악, 게임, 앱까지 취향에 맞는 콘텐츠를 한눈에 제공</span>
                                   </span>
                                 </p>
@@ -915,7 +915,7 @@
                                 <p>
                                   webOS
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">영상부터 음악, 게임, 앱까지 취향에 맞는 콘텐츠를 한눈에 제공</span>
                                   </span>
                                 </p>
@@ -1010,7 +1010,7 @@
                                 <p>
                                   나노셀 퓨어 컬러
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">미세 입자로 불순한 색 파장을 제거해
                                       <br class="mobile-only" />순도를 높이는 나노셀</span>
                                   </span>
@@ -1025,7 +1025,7 @@
                                 <p>
                                   알파7 AI 프로세서
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">화질 엔진으로 알아서
                                       <br class="mobile-only" />최적의 화질과 사운드 향상</span>
                                   </span>
@@ -1040,7 +1040,7 @@
                                 <p>
                                   4K 업스케일링
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">강력한 프로세서로 콘텐츠의 해상도,
                                       <br class="mobile-only" />선명도 업스케일링</span>
                                   </span>
@@ -1055,7 +1055,7 @@
                                 <p>
                                   webOS
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">영상부터 음악, 게임, 앱까지 취향에 맞는
                                       <br class="mobile-only" />콘텐츠를 한눈에 제공</span>
                                   </span>
@@ -1151,7 +1151,7 @@
                                 <p>
                                   HDR10 PRO
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">장면별로 명암비와 컬러를 극대화하여 더 밝고, 생동감 넘치는 화질 구현</span>
                                   </span>
                                 </p>
@@ -1165,7 +1165,7 @@
                                 <p>
                                   알파7 AI 프로세서
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">콘텐츠에 맞춰 화질과 사운드를 자동으로 최적화</span>
                                   </span>
                                 </p>
@@ -1179,7 +1179,7 @@
                                 <p>
                                   4K 업스케일링
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">강력한 프로세서로 콘텐츠의 해상도,
                                       <br class="mobile-only" />선명도 업스케일링</span>
                                   </span>
@@ -1194,7 +1194,7 @@
                                 <p>
                                   webOS
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble">영상부터 음악, 게임, 앱까지 취향에 맞는 콘텐츠를 한눈에 제공</span>
                                   </span>
                                 </p>

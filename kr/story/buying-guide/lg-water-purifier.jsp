@@ -760,7 +760,7 @@
                           <p>
                             냉온정
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >냉수와 온수, 정수까지 한 번에, 원하는 온도로 간편하게
                               </span>
@@ -777,7 +777,7 @@
                           <p>
                             냉온정
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >냉수와 온수, 정수까지 한 번에, 원하는 온도로 간편하게
                               </span>
@@ -794,7 +794,7 @@
                           <p>
                             정수 전용
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >깨끗한 정수를 바로 사용할 수 있게
                               </span>
@@ -811,7 +811,7 @@
                           <p>
                             냉온정
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >냉수와 온수, 정수까지 한 번에, 원하는 온도로 간편하게
                               </span>
@@ -828,7 +828,7 @@
                           <p>
                             듀얼
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >빌트인 디자인으로 깔끔하게 클린세척수로 더욱 깨끗하게</span
                               >
@@ -845,7 +845,7 @@
                           <p>
                             빌트인
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >빌트인 디자인으로 주방 공간을 깔끔하고 넓게</span
                               >
@@ -862,7 +862,7 @@
                           <p>
                             냉온정
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >냉수와 온수, 정수까지, 원하는 온도를 터치로 간편하게</span
                               >
@@ -881,7 +881,7 @@
                           <p>
                             얼음 냉동 보관
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >깨끗한 물로 만든 얼음을 위생적으로 보관 
                               </span>
@@ -898,7 +898,7 @@
                           <p>
                             얼음 냉동 보관
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >깨끗한 물로 만든 얼음을 위생적으로 보관 
                               </span>
@@ -915,7 +915,7 @@
                           <p>
                             얼음 냉동 보관
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >깨끗한 물로 만든 얼음을 위생적으로 보관 
                               </span>
@@ -932,7 +932,7 @@
                           <p>
                             얼음 냉동 보관
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >깨끗한 물로 만든 얼음을 위생적으로 보관 
                               </span>
@@ -949,7 +949,7 @@
                           <p>
                             얼음 냉동 보관
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >깨끗한 물로 만든 얼음을 위생적으로 보관 
                               </span>
@@ -966,7 +966,7 @@
                           <p>
                             얼음 냉동 보관
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >깨끗한 물로 만든 얼음을 위생적으로 보관 
                               </span>
@@ -983,7 +983,7 @@
                           <p>
                             얼음 냉동 보관
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >깨끗한 물로 만든 얼음을 위생적으로 보관 
                               </span>
@@ -1002,7 +1002,7 @@
                           <p>
                             미세 & 맞춤출수
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >10ml 단위로 내가 필요한 용량을 손쉽게</span
                               >
@@ -1019,7 +1019,7 @@
                           <p>
                             미세 & 맞춤출수
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >10ml 단위로 내가 필요한 용량을 손쉽게</span
                               >
@@ -1036,7 +1036,7 @@
                           <p>
                             맞춤용량출수
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >나만의 루틴대로, 자주 쓰는 용량을 편리하게</span
                               >
@@ -1053,7 +1053,7 @@
                           <p>
                             정량출수
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >간편한 터치로 필요한 용량만큼 정확하게</span
                               >
@@ -1070,7 +1070,7 @@
                           <p>
                             정량출수
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >간편한 터치로 필요한 용량만큼 정확하게</span
                               >
@@ -1087,7 +1087,7 @@
                           <p>
                             정량출수
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >간편한 터치로 필요한 용량만큼 정확하게</span
                               >
@@ -1104,7 +1104,7 @@
                           <p>
                             정량 & 연속 출수
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >다양한 용량과 연속 출수로, 원하는 양을 정확하게</span
                               >
@@ -1123,7 +1123,7 @@
                           <p>
                             올 퓨리 필터 시스템
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >활성탄흡착/정전흡착 방식으로 중금속 9종 및 노로바이러스 99.99% 걸러 깨끗하게
                               </span>
@@ -1140,7 +1140,7 @@
                           <p>
                             올 퓨리 필터 시스템
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >활성탄흡착/정전흡착 방식으로 중금속 9종 및 노로바이러스 99.99% 걸러 깨끗하게
                               </span>
@@ -1157,7 +1157,7 @@
                           <p>
                             올 퓨리 필터 시스템
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >활성탄흡착/정전흡착 방식으로 중금속 9종 및 노로바이러스 99.99% 걸러 깨끗하게</span
                               >
@@ -1174,7 +1174,7 @@
                           <p>
                             올 퓨리 필터 시스템
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >활성탄흡착/정전흡착 방식으로 중금속 9종 및 노로바이러스 99.99% 걸러 깨끗하게</span
                               >
@@ -1191,7 +1191,7 @@
                           <p>
                             올 퓨리 필터 시스템
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >활성탄흡착/정전흡착 방식으로 중금속 9종 및 노로바이러스 99.99% 걸러 깨끗하게</span
                               >
@@ -1208,7 +1208,7 @@
                           <p>
                             올 퓨리 필터 시스템
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >활성탄흡착/정전흡착 방식으로 중금속 9종 및 노로바이러스 99.99% 걸러 깨끗하게</span
                               >
@@ -1225,7 +1225,7 @@
                           <p>
                             3단계 복합 필터
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >3단계의 복합 필터로  7가지 중금속을 제거해 깨끗하게</span
                               >
@@ -1244,7 +1244,7 @@
                           <p>
                             원파우셋
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >하나의 출수구로 얼음과 물을 한 번에
                               </span>
@@ -1261,7 +1261,7 @@
                           <p>
                             상하 무빙 출수구
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >용기 높이에 맞춰 출구가 위아래로 정밀하게
                               </span>
@@ -1278,7 +1278,7 @@
                           <p>
                             무드라이팅
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >출수 시 자동으로 켜지는 출수등으로 어두운 밤에도 편리하게</span
                               >
@@ -1295,7 +1295,7 @@
                           <p>
                             상하좌우 무빙 출수탭
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >상하좌우 자유롭게 움직이며, 용기 높이에 맞춰 위아래로 정밀하게</span
                               >
@@ -1316,7 +1316,7 @@
                           <p>
                             클린세척수 & 듀얼 스윙 출수구
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >마시는 물, 과일/채소 세척을 위한 클린세척수. 두 개의 출수구를 원하는 방향으로 180° 회전해 자유롭게</span
                               >
@@ -1333,7 +1333,7 @@
                           <p>
                             180˚ <br class="pc-only" />스윙 출수구
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >출수구를 원하는 방향으로 180° 회전해 자유롭게</span
                               >
@@ -1350,7 +1350,7 @@
                           <p>
                             높은 출수구
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >27cm 높은 출수구와 넓은 트레이로 다양한 용기를 안정감 있게</span
                               >
@@ -1369,7 +1369,7 @@
                           <p>
                             직수관 & 출수구 <br />고온살균
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >주1회 자동으로 스테인리스 직수관 고온살균, 외부에 노출된 출수구는 원할 때마다 수시로 고온살균</span
                               >
@@ -1386,7 +1386,7 @@
                           <p>
                             직수관 & 출수구 <br />고온살균
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >주1회 자동으로 스테인리스 직수관 고온살균, 외부에 노출된 출수구는 원할 때마다 수시로 고온살균</span
                               >
@@ -1403,7 +1403,7 @@
                           <p>
                             직수관 & 출수구 <br />고온살균
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >주1회 자동으로 스테인리스 직수관 고온살균, 외부에 노출된 출수구는 원할 때마다 수시로 고온살균</span
                               >
@@ -1420,7 +1420,7 @@
                           <p>
                             직수관 & 출수구 <br />고온살균
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >주1회 자동으로 스테인리스 직수관 고온살균, 외부에 노출된 출수구는 원할 때마다 수시로 고온살균</span
                               >
@@ -1437,7 +1437,7 @@
                           <p>
                             직수관 & 출수구 <br />고온살균
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >주1회 자동으로 스테인리스 직수관 고온살균, 외부에 노출된 출수구는 원할 때마다 수시로 고온살균</span
                               >
@@ -1454,7 +1454,7 @@
                           <p>
                             직수관 & 출수구 <br />고온살균
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >주1회 자동으로 스테인리스 직수관 고온살균, 외부에 노출된 출수구는 원할 때마다 수시로 고온살균</span
                               >
@@ -1471,7 +1471,7 @@
                           <p>
                             직수관 고온살균
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >주1회 자동으로 스테인리스 직수관 고온살균</span
                               >
@@ -1490,7 +1490,7 @@
                           <p>
                             UVnano 살균
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >출수구 내부는 1시간마다 10분씩, 얼음토출구는 3시간마다 1시간씩 자동 살균</span
                               >
@@ -1507,7 +1507,7 @@
                           <p>
                             UVnano 살균
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >1시간마다 10분씩 자동 살균으로 깔끔하게</span
                               >
@@ -1524,7 +1524,7 @@
                           <p>
                             UVnano 살균
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >1시간마다 10분씩 자동 살균으로 깔끔하게</span
                               >
@@ -1541,7 +1541,7 @@
                           <p>
                             UVnano 살균
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >1시간마다 10분씩 자동 살균으로 깔끔하게</span
                               >
@@ -1558,7 +1558,7 @@
                           <p>
                             UVnano 살균
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >1시간마다 10분씩 자동 살균으로 깔끔하게</span
                               >
@@ -1575,7 +1575,7 @@
                           <p>
                             UVnano 살균
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >1시간마다 10분씩 자동 살균으로 깔끔하게</span
                               >
@@ -1592,7 +1592,7 @@
                           <p>
                             UVnano 살균
                             <span class="des">
-                              <span class="info pc-only"></span>
+                              <button class="info pc-only"></button>
                               <span class="bubble"
                                 >1시간마다 10분씩 자동 살균으로 깔끔하게</span
                               >

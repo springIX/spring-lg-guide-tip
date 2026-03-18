@@ -443,7 +443,7 @@
                                 <p>
                                   정수 필터링
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble"
                                       >석회질(스케일 원인 물질)을 99.99% 걸러내
                                       깨끗하게</span
@@ -461,7 +461,7 @@
                                 <p>
                                   정수 필터링
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble"
                                       >석회질(스케일 원인 물질)을 99% 걸러내
                                       깨끗하게</span
@@ -481,7 +481,7 @@
                                 <p>
                                   100℃ 가열
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble"
                                       >정수된 물을 한 번 더 끓여 유해균 3종
                                       99.999% 제거</span
@@ -499,7 +499,7 @@
                                 <p>
                                   100℃ 가열
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble"
                                       >정수된 물을 한 번 더 끓여 유해균 3종
                                       99.999% 제거</span
@@ -519,7 +519,7 @@
                                 <p>
                                   공기 청정 필터
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble"
                                       >공기 청정 필터로 극초미세먼지까지 제거한
                                       청정바람</span
@@ -537,7 +537,7 @@
                                 <p>
                                   청정 가습 필터
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble"
                                       >청정 가습 필터가 먼지 유입을 막아주어
                                       위생적인 내부 관리</span
@@ -557,7 +557,7 @@
                                 <p>
                                   4단계 프리미엄 정수 가습
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble"
                                       >정수 필터링 > 100℃ 가열 살균 > 청정 바람
                                       > 자동 건조</span
@@ -575,7 +575,7 @@
                                 <p>
                                   3단계 프리미엄 정수 가습
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble"
                                       >정수 필터링 > 100℃ 가열 살균 > 자동
                                       건조</span
@@ -595,7 +595,7 @@
                                 <p>
                                   자동 건조
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble"
                                       >가습 후 물이 지나간 통로까지 건조되어
                                       청결하게</span
@@ -613,7 +613,7 @@
                                 <p>
                                   자동 건조
                                   <span class="des">
-                                    <span class="info pc-only"></span>
+                                    <button class="info pc-only"></button>
                                     <span class="bubble"
                                       >가습 후 물이 지나간 통로까지 건조되어
                                       청결하게</span
@@ -790,7 +790,7 @@
                               <p>
                                 미세 수분
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >세균보다 작은 수분입자로 위생 걱정 없이
                                     깨끗하게</span
@@ -808,7 +808,7 @@
                               <p>
                                 미세 수분
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >세균보다 작은 수분입자로 위생 걱정 없이
                                     깨끗하게</span
@@ -826,7 +826,7 @@
                               <p>
                                 미세 수분
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >세균보다 작은 수분입자로 위생 걱정 없이
                                     깨끗하게</span
@@ -846,7 +846,7 @@
                               <p>
                                 자동 세척
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >내부를 스스로 관리해 늘 청결하게</span
                                   >
@@ -863,7 +863,7 @@
                               <p>
                                 자동 세척
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >내부를 스스로 관리해 늘 청결하게</span
                                   >
@@ -880,7 +880,7 @@
                               <p>
                                 자동 세척
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >내부를 스스로 관리해 늘 청결하게</span
                                   >
@@ -899,7 +899,7 @@
                               <p>
                                 무드 라이팅(수유등)
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >은은한 조명으로 밤에도 편안하게</span
                                   >
@@ -916,7 +916,7 @@
                               <p>
                                 무드 라이팅(수유등)
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >은은한 조명으로 밤에도 편안하게</span
                                   >
@@ -933,7 +933,7 @@
                               <p>
                                 무드 라이팅(수유등)
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >은은한 조명으로 밤에도 편안하게</span
                                   >

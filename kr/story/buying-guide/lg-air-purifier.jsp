@@ -130,7 +130,7 @@
             <div>
               <img
                 src="/kr/story/buying-guide/2025/img/purifier/img_P04_001_01.jpg"
-                alt="밝은 대리석 바닥에 LG 퓨리케어 AI 오브제컬렉션 360˚ 공기청정기가 놓여 있으며, 배경에는 흰색 벽과 창문이 있고, 창밖으로는 흐릿한 녹색 풍경이 보입니다. 공기청정기는 원통형 디자인으로 하단과 중간 부분이 세로 줄무늬가 있는 회색톤이며, 상단은 흰색 원형 패널과 검은색 테두리, 작은 디스플레이 화면으로 구성되어 있습니다."
+                alt="탁 트인 창가 공간에 원형 디스플레이를 갖춘 공기청정기가 세워져 있으며, 주변의 심플한 가구와 어우러져 세련되고 조용한 실내 환경을 연출하는 모습입니다."
                 class="pc-only"
               />
               <img
@@ -249,7 +249,7 @@
                 >
                   <img
                     src="/kr/story/buying-guide/2025/img/purifier/img_P04_001_06.png"
-                    alt="공기청정기 LG 퓨리케어 AI 오브제컬렉션 360˚ 공기청정기 (M 필터) (AS355NSNA.AKOR) 줌이미지 3"
+                    alt="공기청정기 LG 퓨리케어 AI 오브제컬렉션 360˚ 공기청정기 (AS356NSMA)"
                   />
                   <span><b>AI 360°</b>#AI공기청정 #UV공기살균</span>
                 </button>
@@ -342,12 +342,12 @@
                   </div>
                   <img
                     src="/kr/story/buying-guide/2025/img/purifier/img_P04_001_12.jpg"
-                    alt="차분하고 깔끔한 거실 공간에 공기청정기가 놓여 있습니다. 원형 헤드와 세로 결 무늬가 돋보이는 본체 디자인이 세련된 분위기를 더하며, 옆에는 화이트 소파와 커튼이 어우러져 편안한 공간감을 연출합니다. 전면 유리창 너머로는 푸른 숲이 펼쳐져 자연과 조화로운 인테리어를 완성합니다."
+                    alt="모던한 거실 공간에 공기청정기가 놓여 있습니다. 원형 디스플레이와 세로 결 무늬가 돋보이는 본체 디자인이 세련된 분위기를 더하며, 옆에는 회색 소파와 원형 테이블이 어우러져 편안한 공간감을 연출합니다. 전면 유리창 너머로는 탁 트인 뷰가 펼쳐져 조화로운 인테리어를 완성합니다."
                     class="pc-only"
                   />
                   <img
                     src="/kr/story/buying-guide/2025/img/purifier/img_M04_001_06.jpg"
-                    alt="차분하고 깔끔한 거실 공간에 공기청정기가 놓여 있습니다. 원형 헤드와 세로 결 무늬가 돋보이는 본체 디자인이 세련된 분위기를 더하며, 옆에는 화이트 소파와 커튼이 어우러져 편안한 공간감을 연출합니다. 전면 유리창 너머로는 푸른 숲이 펼쳐져 자연과 조화로운 인테리어를 완성합니다."
+                    alt="모던한 거실 공간에 공기청정기가 놓여 있습니다. 원형 디스플레이와 세로 결 무늬가 돋보이는 본체 디자인이 세련된 분위기를 더하며, 옆에는 회색 소파와 원형 테이블이 어우러져 편안한 공간감을 연출합니다. 전면 유리창 너머로는 탁 트인 뷰가 펼쳐져 조화로운 인테리어를 완성합니다."
                     class="mobile-only"
                   />
                 </div>
@@ -374,15 +374,16 @@
                   <div
                     class="procuct-summary vertical-scroll-box"
                     id="procuct-summary"
-                    style="--col-width: 25%; --table-width: 604px"
+                    style="--col-width: 20%; --table-width: 604px"
                   >
                     <div class="sticky-product-no include-tab">
                       <div class="inner">
                         <div class="inner2">
-                          <div>114㎡<span></span>AS355NSNA</div>
-                          <div>114㎡<span></span>AS355NSEL</div>
-                          <div>109㎡<span></span>AS335NSAC</div>
-                          <div>66㎡ <span></span>AS205NSJA</div>
+                          <div>114㎡<span></span>AS356NSMA</div>
+                          <div>114㎡<span></span>AS356NSLL</div>
+                          <div>114㎡<span></span>AS356NSHH</div>
+                          <div>109㎡<span></span>AS336NSLC</div>
+                          <div>66㎡ <span></span>AS206NSHA</div>
                         </div>
                       </div>
                     </div>
@@ -390,7 +391,7 @@
                       <table class="no-btn">
                         <thead>
                           <tr class="procuct-name">
-                            <th colspan="4">
+                            <th colspan="5">
                               <h4>AI 360°</h4>
                               <p>
                                 우리 집 오염도에 맞춰 알아서 청정
@@ -400,22 +401,23 @@
                         </thead>
                         <tbody>
                           <tr class="procuct-no">
-                            <td>114㎡<span></span>AS355NSNA</td>
-                            <td>114㎡<span></span>AS355NSEL</td>
-                            <td>109㎡<span></span>AS335NSAC</td>
-                            <td>66㎡ <span></span>AS205NSJA</td>
+                            <td>114㎡<span></span>AS356NSMA</td>
+                            <td>114㎡<span></span>AS356NSLL</td>
+                            <td>114㎡<span></span>AS356NSHH</td>
+                            <td>109㎡<span></span>AS336NSLC</td>
+                            <td>66㎡ <span></span>AS206NSHA</td>
                           </tr>
                           <tr class="procuct-img-wrap">
                             <td>
                               <div class="procuct-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/purifier/img_P04_001_22.png"
-                                  alt="공기청정기 LG 퓨리케어 AI 오브제컬렉션 360˚ 공기청정기 (M 필터) (AS355NSNA.AKOR) 줌이미지 3"
+                                  alt="공기청정기 LG 퓨리케어 AI 오브제컬렉션 360˚ 공기청정기(AS356NSMA)의 디스플레이가 올라온 상태"
                                   class="front"
                                 />
                                 <img
                                   src="/kr/story/buying-guide/2025/img/purifier/img_P04_001_38.png"
-                                  alt="공기청정기 LG 퓨리케어 AI 오브제컬렉션 360˚ 공기청정기 (M 필터) (AS355NSNA.AKOR) 메인이미지 4"
+                                  alt="공기청정기 LG 퓨리케어 AI 오브제컬렉션 360˚ 공기청정기(AS356NSMA)의 디스플레이가 내려간 상태"
                                   class="side"
                                 />
                                 <button class="btn-angle" name="btn-angle">
@@ -427,12 +429,12 @@
                               <div class="procuct-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/purifier/img_P04_001_23.png"
-                                  alt="공기청정기 LG 퓨리케어 AI 오브제컬렉션 360˚ 공기청정기 UV살균 (G 필터) (AS355NSEL.AKOR) 줌이미지 3"
+                                  alt="공기청정기 LG 퓨리케어 AI 오브제컬렉션 360˚ 공기청정기(AS356NSLL)의 디스플레이가 올라온 상태"
                                   class="front"
                                 />
                                 <img
                                   src="/kr/story/buying-guide/2025/img/purifier/img_P04_001_39.png"
-                                  alt="공기청정기 LG 퓨리케어 AI 오브제컬렉션 360˚ 공기청정기 UV살균 (G 필터) (AS355NSEL.AKOR) 메인이미지 4"
+                                  alt="공기청정기 LG 퓨리케어 AI 오브제컬렉션 360˚ 공기청정기(AS356NSLL)의 디스플레이가 내려간 상태"
                                   class="side"
                                 />
                                 <button class="btn-angle" name="btn-angle">
@@ -444,12 +446,12 @@
                               <div class="procuct-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/purifier/img_P04_001_24.png"
-                                  alt="공기청정기 LG 퓨리케어 AI 오브제컬렉션 360˚ 공기청정기 알파UP (G 필터) (AS335NSAC.AKOR) 줌이미지 3"
+                                  alt="공기청정기 LG 퓨리케어 AI 오브제컬렉션 360˚ 공기청정기(AS356NSHH)의 디스플레이가 올라온 상태"
                                   class="front"
                                 />
                                 <img
                                   src="/kr/story/buying-guide/2025/img/purifier/img_P04_001_40.png"
-                                  alt="공기청정기 LG 퓨리케어 AI 오브제컬렉션 360˚ 공기청정기 알파UP (G 필터) (AS335NSAC.AKOR) 메인이미지 4"
+                                  alt="공기청정기 LG 퓨리케어 AI 오브제컬렉션 360˚ 공기청정기(AS356NSHH)의 디스플레이가 내려간 상태"
                                   class="side"
                                 />
                                 <button class="btn-angle" name="btn-angle">
@@ -461,12 +463,29 @@
                               <div class="procuct-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/purifier/img_P04_001_25.png"
-                                  alt="공기청정기 LG 퓨리케어 AI 오브제컬렉션 360˚ 공기청정기 (G 필터) (AS205NSJA.AKOR) 줌이미지 3"
+                                  alt="공기청정기 LG 퓨리케어 AI 오브제컬렉션 360˚ 공기청정기(AS336NSLC)의 디스플레이가 올라온 상태"
                                   class="front"
                                 />
                                 <img
                                   src="/kr/story/buying-guide/2025/img/purifier/img_P04_001_41.png"
-                                  alt="공기청정기 LG 퓨리케어 AI 오브제컬렉션 360˚ 공기청정기 (G 필터) (AS205NSJA.AKOR) 메인이미지 4"
+                                  alt="공기청정기 LG 퓨리케어 AI 오브제컬렉션 360˚ 공기청정기(AS336NSLC)의 디스플레이가 내려간 상태"
+                                  class="side"
+                                />
+                                <button class="btn-angle" name="btn-angle">
+                                  다른 각도 보기
+                                </button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/purifier/img_P04_001_54.png"
+                                  alt="공기청정기 LG 퓨리케어 AI 오브제컬렉션 360˚ 공기청정기(AS206NSHA)의 디스플레이가 올라온 상태"
+                                  class="front"
+                                />
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/purifier/img_P04_001_55.png"
+                                  alt="공기청정기 LG 퓨리케어 AI 오브제컬렉션 360˚ 공기청정기(AS206NSHA)의 디스플레이가 내려간 상태"
                                   class="side"
                                 />
                                 <button class="btn-angle" name="btn-angle">
@@ -486,7 +505,7 @@
                               <p>
                                 2단 / 듀얼, 싱글청정
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >상단·하단 공기청정기가 동시에 작동해 실내
                                     공기를 빠르게 청정
@@ -504,7 +523,7 @@
                               <p>
                                 2단 / 듀얼, 싱글청정
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >상단·하단 공기청정기가 동시에 작동해 실내
                                     공기를 빠르게 청정
@@ -522,7 +541,25 @@
                               <p>
                                 2단 / 듀얼, 싱글청정
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >상단·하단 공기청정기가 동시에 작동해 실내
+                                    공기를 빠르게 청정
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/purifier/ic48_04_2step.svg"
+                                  alt="2단 / 듀얼, 싱글청정"
+                                />
+                              </div>
+                              <p>
+                                2단 / 듀얼, 싱글청정
+                                <span class="des">
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >상단·하단 공기청정기가 동시에 작동해 실내
                                     공기를 빠르게 청정
@@ -540,7 +577,7 @@
                               <p>
                                 1단 / 싱글청정
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >하단 공기청정기로 실내 공기를 청정
                                   </span>
@@ -559,43 +596,7 @@
                               <p>
                                 AI 공기질 센서
                                 <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >미세먼지, 생활냄새, 유증기와 유해가스까지
-                                    정밀하게 감지
-                                  </span>
-                                </span>
-                              </p>
-                            </td>
-                            <td class="disabled">
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/purifier/ic48_04_AIsensor.svg"
-                                  alt="AI 공기질 센서"
-                                />
-                              </div>
-                              <p>
-                                AI 공기질 센서
-                                <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >미세먼지, 생활냄새, 유증기와 유해가스까지
-                                    정밀하게 감지
-                                  </span>
-                                </span>
-                              </p>
-                            </td>
-                            <td class="disabled">
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/purifier/ic48_04_AIsensor.svg"
-                                  alt="AI 공기질 센서"
-                                />
-                              </div>
-                              <p>
-                                AI 공기질 센서
-                                <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >미세먼지, 생활냄새, 유증기와 유해가스까지
                                     정밀하게 감지
@@ -613,7 +614,61 @@
                               <p>
                                 AI 공기질 센서
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >미세먼지, 생활냄새, 유증기와 유해가스까지
+                                    정밀하게 감지
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/purifier/ic48_04_AIsensor.svg"
+                                  alt="AI 공기질 센서"
+                                />
+                              </div>
+                              <p>
+                                AI 공기질 센서
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >미세먼지, 생활냄새, 유증기와 유해가스까지
+                                    정밀하게 감지
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/purifier/ic48_04_AIsensor.svg"
+                                  alt="AI 공기질 센서"
+                                />
+                              </div>
+                              <p>
+                                AI 공기질 센서
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >미세먼지, 생활냄새, 유증기와 유해가스까지
+                                    정밀하게 감지
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/purifier/ic48_04_AIsensor.svg"
+                                  alt="AI 공기질 센서"
+                                />
+                              </div>
+                              <p>
+                                AI 공기질 센서
+                                <span class="des">
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >미세먼지, 생활냄새, 유증기와 유해가스까지
                                     정밀하게 감지
@@ -633,7 +688,7 @@
                               <p>
                                 AI 맞춤운전
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >실시간 오염도에 맞는 맞춤 운전으로 에너지
                                     절약까지</span
@@ -651,7 +706,7 @@
                               <p>
                                 AI 맞춤운전
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >실시간 오염도에 맞는 맞춤 운전으로 에너지
                                     절약까지</span
@@ -669,7 +724,7 @@
                               <p>
                                 AI 맞춤운전
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >실시간 오염도에 맞는 맞춤 운전으로 에너지
                                     절약까지</span
@@ -687,7 +742,25 @@
                               <p>
                                 AI 맞춤운전
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >실시간 오염도에 맞는 맞춤 운전으로 에너지
+                                    절약까지</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/purifier/ic48_04_AIcontrol.svg"
+                                  alt="AI 맞춤운전"
+                                />
+                              </div>
+                              <p>
+                                AI 맞춤운전
+                                <span class="des">
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >실시간 오염도에 맞는 맞춤 운전으로 에너지
                                     절약까지</span
@@ -707,25 +780,7 @@
                               <p>
                                 UV 공기살균
                                 <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >UV-C로 흡입된 공기 속 세균과 바이러스를 99%
-                                    제거
-                                  </span>
-                                </span>
-                              </p>
-                            </td>
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/purifier/ic48_04_UVair.svg"
-                                  alt="UV 공기살균"
-                                />
-                              </div>
-                              <p>
-                                UV 공기살균
-                                <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >UV-C로 흡입된 공기 속 세균과 바이러스를 99%
                                     제거
@@ -743,7 +798,7 @@
                               <p>
                                 UV 공기살균
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >UV-C로 흡입된 공기 속 세균과 바이러스를 99%
                                     제거
@@ -761,7 +816,43 @@
                               <p>
                                 UV 공기살균
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >UV-C로 흡입된 공기 속 세균과 바이러스를 99%
+                                    제거
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                            <td class="disabled">
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/purifier/ic48_04_UVair.svg"
+                                  alt="UV 공기살균"
+                                />
+                              </div>
+                              <p>
+                                UV 공기살균
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >UV-C로 흡입된 공기 속 세균과 바이러스를 99%
+                                    제거
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                            <td class="disabled">
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/purifier/ic48_04_UVair.svg"
+                                  alt="UV 공기살균"
+                                />
+                              </div>
+                              <p>
+                                UV 공기살균
+                                <span class="des">
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >UV-C로 흡입된 공기 속 세균과 바이러스를 99%
                                     제거
@@ -774,69 +865,75 @@
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/purifier/ic48_04_M.svg"
-                                  alt="M 필터"
+                                  src="/kr/story/buying-guide/2025/img/purifier/ic48_04_M7.svg"
+                                  alt="M7 필터"
                                 />
                               </div>
                               <p>
-                                M 필터
+                                M7 필터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >업계 최고 탈취 성능으로 극초미세먼지와
-                                    생활냄새, 유해가스 제거</span
-                                  >
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble">고함량 MOF 소재를 적용해 유해가스, 공기 속 세균과 바이러스까지 제거</span>
                                 </span>
                               </p>
                             </td>
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/purifier/ic48_04_G.svg"
-                                  alt="G 필터"
+                                  src="/kr/story/buying-guide/2025/img/purifier/ic48_04_M5.svg"
+                                  alt="M5 필터"
                                 />
                               </div>
                               <p>
-                                G 필터
+                                M5 필터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >극초미세먼지, 생활냄새, 유해가스 제거
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble">MOF 소재를 적용해 유해가스를 효과적으로 제거</span>
                                   </span>
+                                </p>
+                            </td>
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/purifier/ic48_04_M5.svg"
+                                  alt="M5 필터"
+                                />
+                              </div>
+                              <p>
+                                M5 필터
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble">MOF 소재를 적용해 유해가스를 효과적으로 제거</span>
                                 </span>
                               </p>
                             </td>
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/purifier/ic48_04_G.svg"
-                                  alt="G 필터"
+                                  src="/kr/story/buying-guide/2025/img/purifier/ic48_04_M5.svg"
+                                  alt="M5 필터"
                                 />
                               </div>
                               <p>
-                                G 필터
+                                M5 필터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >극초미세먼지, 생활냄새, 유해가스 제거
-                                  </span>
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble">MOF 소재를 적용해 유해가스를 효과적으로 제거</span>
                                 </span>
                               </p>
                             </td>
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/purifier/ic48_04_G.svg"
-                                  alt="G 필터"
+                                  src="/kr/story/buying-guide/2025/img/purifier/ic48_04_M5.svg"
+                                  alt="M5 필터"
                                 />
                               </div>
                               <p>
-                                G 필터
+                                M5 필터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
-                                  <span class="bubble"
-                                    >극초미세먼지, 생활냄새, 유해가스 제거
-                                  </span>
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble">MOF 소재를 적용해 유해가스를 효과적으로 제거</span>
                                 </span>
                               </p>
                             </td>
@@ -845,16 +942,16 @@
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/purifier/ic48_04_UVfan.svg"
-                                  alt="UV 팬살균"
+                                  src="/kr/story/buying-guide/2025/img/purifier/ico48_04_light.svg"
+                                  alt="중앙청정표시등"
                                 />
                               </div>
                               <p>
-                                UV 팬살균
+                                중앙청정표시등
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
-                                    >UV-C로 제품 안쪽 팬을 99.99% 살균
+                                    >제품 중앙의 표시등으로 공기 상태를 간편하게 확인
                                   </span>
                                 </span>
                               </p>
@@ -862,50 +959,67 @@
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/purifier/ic48_04_UVfan.svg"
-                                  alt="UV 팬살균"
+                                  src="/kr/story/buying-guide/2025/img/purifier/ico48_04_light.svg"
+                                  alt="중앙청정표시등"
                                 />
                               </div>
                               <p>
-                                UV 팬살균
+                                중앙청정표시등
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
-                                    >UV-C로 제품 안쪽 팬을 99.99% 살균
+                                    >제품 중앙의 표시등으로 공기 상태를 간편하게 확인
                                   </span>
                                 </span>
                               </p>
                             </td>
-                            <td>
+                            <td class="disabled">
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/purifier/ic48_04_UVfan.svg"
-                                  alt="UV 팬살균"
+                                  src="/kr/story/buying-guide/2025/img/purifier/ico48_04_light.svg"
+                                  alt="중앙청정표시등"
                                 />
                               </div>
                               <p>
-                                UV 팬살균
+                                중앙청정표시등
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
-                                    >UV-C로 제품 안쪽 팬을 99.99% 살균
+                                    >제품 중앙의 표시등으로 공기 상태를 간편하게 확인
                                   </span>
                                 </span>
                               </p>
                             </td>
-                            <td>
+                            <td class="disabled">
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/purifier/ic48_04_UVfan.svg"
-                                  alt="UV 팬살균"
+                                  src="/kr/story/buying-guide/2025/img/purifier/ico48_04_light.svg"
+                                  alt="중앙청정표시등"
                                 />
                               </div>
                               <p>
-                                UV 팬살균
+                                중앙청정표시등
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
-                                    >UV-C로 제품 안쪽 팬을 99.99% 살균
+                                    >제품 중앙의 표시등으로 공기 상태를 간편하게 확인
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                            <td class="disabled">
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/purifier/ico48_04_light.svg"
+                                  alt="중앙청정표시등"
+                                />
+                              </div>
+                              <p>
+                                중앙청정표시등
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >제품 중앙의 표시등으로 공기 상태를 간편하게 확인
                                   </span>
                                 </span>
                               </p>
@@ -1099,7 +1213,7 @@
                               <p>
                                 2단 / 듀얼, 싱글청정
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >상단·하단 공기청정기가 동시에 작동해 실내
                                     공기를 빠르게 청정
@@ -1117,7 +1231,7 @@
                               <p>
                                 2단 / 듀얼, 싱글청정
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >상단·하단 공기청정기가 동시에 작동해 실내
                                     공기를 빠르게 청정
@@ -1135,7 +1249,7 @@
                               <p>
                                 1단 / 싱글청정
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >하단 공기청정기로 실내 공기를 청정
                                   </span>
@@ -1152,7 +1266,7 @@
                               <p>
                                 1단 / 싱글청정
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >하단 공기청정기로 실내 공기를 청정
                                   </span>
@@ -1171,7 +1285,7 @@
                               <p>
                                 AI 맞춤운전
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >실시간 오염도에 맞는 맞춤 운전으로 에너지
                                     절약까지</span
@@ -1189,7 +1303,7 @@
                               <p>
                                 AI 맞춤운전
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >실시간 오염도에 맞는 맞춤 운전으로 에너지
                                     절약까지</span
@@ -1207,7 +1321,7 @@
                               <p>
                                 AI 맞춤운전
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >실시간 오염도에 맞는 맞춤 운전으로 에너지
                                     절약까지</span
@@ -1225,7 +1339,7 @@
                               <p>
                                 AI 맞춤운전
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >실시간 오염도에 맞는 맞춤 운전으로 에너지
                                     절약까지</span
@@ -1245,7 +1359,7 @@
                               <p>
                                 클린부스터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >최대 7.5m까지 깨끗한 공기를 보내 빠르게
                                     청정
@@ -1263,7 +1377,7 @@
                               <p>
                                 클린부스터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >최대 7.5m까지 깨끗한 공기를 보내 빠르게
                                     청정
@@ -1281,7 +1395,7 @@
                               <p>
                                 클린부스터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >최대 7.5m까지 깨끗한 공기를 보내 빠르게
                                     청정
@@ -1299,7 +1413,7 @@
                               <p>
                                 클린부스터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >최대 7.5m까지 깨끗한 공기를 보내 빠르게
                                     청정
@@ -1319,7 +1433,7 @@
                               <p>
                                 V 필터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >극초미세먼지, 생활냄새, 유해가스 제거
                                   </span>
@@ -1336,7 +1450,7 @@
                               <p>
                                 V 필터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >극초미세먼지, 생활냄새, 유해가스 제거
                                   </span>
@@ -1353,7 +1467,7 @@
                               <p>
                                 V 필터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >극초미세먼지, 생활냄새, 유해가스 제거
                                   </span>
@@ -1370,7 +1484,7 @@
                               <p>
                                 V 필터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >극초미세먼지, 생활냄새, 유해가스 제거
                                   </span>
@@ -1539,7 +1653,7 @@
                               <p>
                                 360° 청정
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >360° 방향으로 공기를 흡입해 집안 공기를
                                     쾌적하게
@@ -1557,7 +1671,7 @@
                               <p>
                                 360° 청정
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >360° 방향으로 공기를 흡입해 집안 공기를
                                     쾌적하게
@@ -1577,7 +1691,7 @@
                               <p>
                                 슬림 디자인
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >슬림한 사이즈로 공간 제약 없이 자유롭게
                                   </span>
@@ -1594,7 +1708,7 @@
                               <p>
                                 슬림 디자인
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >슬림한 사이즈로 공간 제약 없이 자유롭게
                                   </span>
@@ -1613,7 +1727,7 @@
                               <p>
                                 공기청정 디스플레이
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >청정표시등으로 우리집 공기 상태를 한눈에
                                   </span>
@@ -1630,7 +1744,7 @@
                               <p>
                                 공기청정 디스플레이
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >청정표시등으로 우리집 공기 상태를 한눈에
                                   </span>
@@ -1649,7 +1763,7 @@
                               <p>
                                 PM 1.0 센서
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >눈에 보이지 않는 극초미세먼지까지 감지
                                   </span>
@@ -1666,7 +1780,7 @@
                               <p>
                                 PM 1.0 센서
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >눈에 보이지 않는 극초미세먼지까지 감지
                                   </span>
@@ -1685,7 +1799,7 @@
                               <p>
                                 V 필터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >극초미세먼지, 생활냄새, 유해가스 제거
                                   </span>
@@ -1702,7 +1816,7 @@
                               <p>
                                 V 필터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >극초미세먼지, 생활냄새, 유해가스 제거
                                   </span>
@@ -1859,7 +1973,7 @@
                               <p>
                                 따뜻한 온풍
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >차가운 공기를 17분만에 5˚C 높여 실내를
                                     따뜻하게</span
@@ -1877,7 +1991,7 @@
                               <p>
                                 따뜻한 온풍
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >차가운 공기를 17분만에 5˚C 높여 실내를
                                     따뜻하게</span
@@ -1897,7 +2011,7 @@
                               <p>
                                 집중청정 선풍
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >11단계 바람세기 조절 가능한 선풍으로
                                     멀리서도 쾌적하게</span
@@ -1915,7 +2029,7 @@
                               <p>
                                 집중청정 선풍
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >11단계 바람세기 조절 가능한 선풍으로
                                     멀리서도 쾌적하게</span
@@ -1935,7 +2049,7 @@
                               <p>
                                 UV 팬살균
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >UV-C로 제품 안쪽 팬을 99.99% 살균</span
                                   >
@@ -1952,7 +2066,7 @@
                               <p>
                                 UV 팬살균
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >UV-C로 제품 안쪽 팬을 99.99% 살균</span
                                   >
@@ -1971,7 +2085,7 @@
                               <p>
                                 V 필터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >극초미세먼지, 생활냄새, 유해가스 제거</span
                                   >
@@ -1988,7 +2102,7 @@
                               <p>
                                 V 필터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >극초미세먼지, 생활냄새, 유해가스 제거</span
                                   >
@@ -2007,7 +2121,7 @@
                               <p>
                                 저소음
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >25dB 저소음으로 집안 공기를 조용하고
                                     쾌적하게</span
@@ -2025,7 +2139,7 @@
                               <p>
                                 저소음
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >25dB 저소음으로 집안 공기를 조용하고
                                     쾌적하게</span
@@ -2284,7 +2398,7 @@
                               <p>
                                 테이블형
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >사이드 테이블처럼 사용할 수 있는 공기청정기
                                   </span>
@@ -2301,7 +2415,7 @@
                               <p>
                                 캣타워형
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >건강부터 휴식까지 반려묘를 위해 설계한
                                     공기청정기
@@ -2319,7 +2433,7 @@
                               <p>
                                 스피커형
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >깨끗한 공기와 고품질 사운드로 공간을 채우는
                                     공기청정기
@@ -2339,7 +2453,7 @@
                               <p>
                                 편의 기능
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >무선 충전, 무드등, 저소음으로 일상 생활을
                                     편리하게
@@ -2357,7 +2471,7 @@
                               <p>
                                 편의 기능
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >고양이 체중 확인으로 건강관리, 온열좌석으로
                                     포근한 휴식까지
@@ -2375,7 +2489,7 @@
                               <p>
                                 편의 기능
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >무선충전, 무드등, 저소음으로 일상 생활을
                                     편리하게
@@ -2395,7 +2509,7 @@
                               <p>
                                 AI 맞춤운전
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >실시간 오염도에 맞는 맞춤 운전으로 에너지
                                     절약까지</span
@@ -2413,7 +2527,7 @@
                               <p>
                                 AI 맞춤운전
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >실시간 오염도에 맞는 맞춤 운전으로 에너지
                                     절약까지</span
@@ -2431,7 +2545,7 @@
                               <p>
                                 AI 맞춤운전
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >실시간 오염도에 맞는 맞춤 운전으로 에너지
                                     절약까지</span
@@ -2451,7 +2565,7 @@
                               <p>
                                 UV 팬살균
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >UV-C로 제품 안쪽 팬을 99.99% 살균
                                   </span>
@@ -2468,7 +2582,7 @@
                               <p>
                                 UV 팬살균
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >UV-C로 제품 안쪽 팬을 99.99% 살균
                                   </span>
@@ -2485,7 +2599,7 @@
                               <p>
                                 UV 팬살균
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >UV-C로 제품 안쪽 팬을 99.99% 살균
                                   </span>
@@ -2504,7 +2618,7 @@
                               <p>
                                 V 필터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >극초미세먼지, 생활냄새, 유해가스 제거
                                   </span>
@@ -2521,7 +2635,7 @@
                               <p>
                                 V 펫필터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >극초미세먼지, 생활냄새, 유해가스 제거에 광촉매 성능을 더해 탈취 성능 재생
                                   </span>
@@ -2538,7 +2652,7 @@
                               <p>
                                 V 필터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >극초미세먼지, 생활냄새, 유해가스 제거
                                   </span>
@@ -2760,7 +2874,7 @@
                               <p>
                                 상하단 멀티 청정
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >위와 아래로 깨끗한 공기를
                                     <br class="mobile-only" />보내는 멀티
@@ -2782,7 +2896,7 @@
                               <p>
                                 클린부스터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >최대 5.5m까지 깨끗한
                                     <br class="mobile-only" />공기를 보내 빠르게
@@ -2803,7 +2917,7 @@
                               <p>
                                 슬림 디자인
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >슬림한 사이즈로 공간
                                     <br class="mobile-only" />제약 없이
@@ -2824,7 +2938,7 @@
                               <p>
                                 UV 팬살균
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >UV-C로 제품 안쪽 팬을
                                     <br class="mobile-only" />99.99% 살균</span
@@ -2844,7 +2958,7 @@
                               <p>
                                 V 필터
                                 <span class="des">
-                                  <span class="info pc-only"></span>
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >극초미세먼지, 생활냄새,
                                     <br class="mobile-only" />유해가스
@@ -3190,7 +3304,7 @@
                         <div class="img">
                           <img
                             src="/kr/story/buying-guide/2025/img/purifier/img_P04_101_06.jpg"
-                            alt="LG 공기청정기의 원형 디스플레이가 확대된 모습으로, 공기질 상태와 다양한 설정이 표시됨. 오른쪽 상단에는 AI 기능을 나타내는 아이콘이 있으며, 배경에는 주방 공간과 조리 중인 냄비가 보임."
+                            alt="LG 퓨리케어 AI 오브제컬렉션 360˚ 공기청정기의 디스플레이가 확대되어 있는 모습입니다. 미세먼지 매우 나쁨, 가스 보통, 냄새 약함, 공기살균 켜짐 등의 상태가 표시되어 있으며, 주변에는 운전모드, 청정세기, 부스터제어, 설정 아이콘 등이 보입니다."
                           />
                         </div>
                         <button class="btn-collapse-toggle">
@@ -3270,25 +3384,25 @@
                               <div>
                                 <img
                                   src="/kr/story/buying-guide/2025/img/purifier/img_P04_101_07.jpg"
-                                  alt="'좋음' 상태에서는 상단과 하단 클린부스터가 off로 운전되는 공기청정기의 작동 모습을 안내하는 이미지입니다. 세련된 거실 공간에 공기청정기가 놓여 있으며, 사용 환경에 따라 자동으로 바람 세기를 조절해 쾌적한 실내 공기를 유지하는 기능을 강조하고 있습니다."
+                                  alt="실내 공간에 LG 퓨리케어 AI 오브제컬렉션 360˚ 공기청정기가 놓여 있으며, 화분과 소파가 보입니다. 박스 안에 좋음이라는 큰 글자와 함께 공기청정기의 작동 상태를 설명하는 그래픽과 텍스트가 있습니다. 좋음 상태에서는 상/하단 클린부스터 바람을 '약'으로 운전합니다.라는 설명이 포함되어 있습니다."
                                 />
                               </div>
                               <div>
                                 <img
                                   src="/kr/story/buying-guide/2025/img/purifier/img_P04_101_07a.jpg"
-                                  alt="'보통' 상태에서는 상단과 하단 클린부스터가 ‘중’ 풍량으로 작동하는 공기청정기의 운전 모드를 설명한 이미지입니다. 깔끔한 거실 한켠에 공기청정기가 놓여 있으며, 실내 공기 상태에 따라 자동으로 풍량이 조절되어 안정적인 공기 청정을 유지함을 나타냅니다."
+                                  alt="거실에 공기청정기가 놓여 있으며, 소파와 두 마리의 고양이가 캣타워에 앉아 있는 모습이 보입니다. 박스 안에 보통이라는 큰 글자와 함께 공기청정기의 작동 상태를 설명하는 그래픽과 텍스트가 있습니다. 보통 상태에서는 상/하단 클린부스터 바람을 '중'으로 운전합니다.라는 설명이 포함되어 있습니다."
                                 />
                               </div>
                               <div>
                                 <img
                                   src="/kr/story/buying-guide/2025/img/purifier/img_P04_101_07b.jpg"
-                                  alt="'나쁨' 상태에서는 상단 클린부스터가 상승하며 바람을 ‘중’ 풍량으로 운전하는 공기청정기의 동작 상태를 보여주는 이미지입니다. 대도시 고층 뷰가 보이는 세련된 실내 공간에 공기청정기가 놓여 있어, 실내 공기 질이 나쁠 때 더욱 강력한 순환 기능이 작동함을 시각적으로 표현하고 있습니다."
+                                  alt="창밖으로 도시의 전경이 보이는 거실 공간에 LG 퓨리케어 AI 오브제컬렉션 360˚ 공기청정기가 놓여 있으며, 소파, 쿠션, 테이블이 보입니다. 박스 안에 나쁨이라는 큰 글자와 함께 공기청정기의 작동 상태를 설명하는 그래픽과 텍스트가 있습니다. 나쁨 상태에서는 상단 클린부스터가 일어나고 바람을 '중'으로 운전합니다.라는 설명이 포함되어 있습니다."
                                 />
                               </div>
                               <div>
                                 <img
                                   src="/kr/story/buying-guide/2025/img/purifier/img_P04_101_07c.jpg"
-                                  alt="'매우 나쁨'일 때의 공기청정기 작동 방식을 설명합니다. 상단 클린부스터가 상승하고, 상·하단 클린부스터가 모두 회전하면서 ‘강’ 풍량으로 작동하는 모습이 묘사되어 있습니다. 이를 통해 오염된 공기를 빠르게 정화하려는 기능이 강조되며, 고급스러운 주방 인테리어와도 조화를 이루는 디자인이 돋보입니다."
+                                  alt="주방 공간에 공기청정기가 놓여 있으며, 인덕션 위에 연기가 나고 있는 팬이 보입니다. 박스 안에 매우 나쁨이라는 큰 글자와 함께 공기청정기의 작동 상태를 설명하는 그래픽과 텍스트가 있습니다. 매우 나쁨 상태에서는 상단 클린부스터가 일어나고 상/하단 클린부스터 모두 회전하며 바람을 '강'으로 운전합니다.라는 설명이 포함되어 있습니다."
                                 />
                               </div>
                             </div>
@@ -3590,12 +3704,12 @@
                     <div class="img">
                       <img
                         src="/kr/story/buying-guide/2025/img/purifier/img_P04_101_10.jpg"
-                        alt="주방 공간에 공기청정기가 놓여 있고, 싱크대와 수납장이 있습니다. 큰 창문을 통해 자연광이 들어오고 있으며, 녹색 나무가 보입니다."
+                        alt="거실 공간에 LG 퓨리케어 AI 오브제컬렉션 360˚ 공기청정기가 놓여 있습니다. 양쪽에 베이지색 소파가 있으며, 쿠션과 담요가 놓여 있습니다. 유리 상판의 원형 테이블이 있고 그림과 검은색 스탠드 조명이 보입니다."
                         class="pc-only"
                       />
                       <img
                         src="/kr/story/buying-guide/2025/img/purifier/img_M04_101_02.jpg"
-                        alt="주방 공간에 공기청정기가 놓여 있고, 싱크대와 수납장이 있습니다. 큰 창문을 통해 자연광이 들어오고 있으며, 녹색 나무가 보입니다."
+                        alt="거실 공간에 LG 퓨리케어 AI 오브제컬렉션 360˚ 공기청정기가 놓여 있습니다. 양쪽에 베이지색 소파가 있으며, 쿠션과 담요가 놓여 있습니다. 유리 상판의 원형 테이블이 있고 그림과 검은색 스탠드 조명이 보입니다."
                         class="mobile-only"
                       />
                     </div>
@@ -3651,7 +3765,7 @@
                         <div class="btn-wrap">
                           <a
                             class="btn-product"
-                            href="https://www.lge.co.kr/category/air-purifier?filterProduct=AT0000000161:KY0000003301:03"
+                            href="https://www.lge.co.kr/category/air-purifier?filterProduct=AT0000000161:KY0000003301:03,AT0000000161:KY0000004778:03,AT0000000161:KY0000004779:03"
                             target="_blank"
                             >제품 보러 가기</a
                           >
@@ -3659,7 +3773,7 @@
                         <div class="img">
                           <img
                             src="/kr/story/buying-guide/2025/img/purifier/img_P04_101_11.jpg"
-                            alt="이미지는 공기청정기의 내부 구조를 보여줍니다. 중앙에 초록색 필터가 있으며, 그 주변으로 세로 줄무늬의 외관이 보입니다. 필터 아래쪽으로는 공기가 흐르는 방향을 나타내는 녹색 화살표가 있습니다. 배경은 밝은 색상입니다."
+                            alt="25년 노벨화학상 핵심물질 MOF 적용이라는 텍스트가 원형 확대창 안에 표시되어 있는 녹색 필터의 모습입니다."
                           />
                         </div>
                         <button class="btn-collapse-toggle">
