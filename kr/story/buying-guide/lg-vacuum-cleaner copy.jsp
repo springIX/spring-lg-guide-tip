@@ -261,8 +261,8 @@
                   data-group="product-type"
                 >
                   <img
-                    src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_05.png"
-                    alt="세탁기 LG 트롬 오브제컬렉션 세탁기 (FX25WSQ.AKOR2) 메인이미지 2"
+                    src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_40.png"
+                    alt="세탁기 LG 통돌이 컴포트 세탁기 메인이미지 2"
                   />
                   <span><b>통돌이</b>#AI #인체공학설계</span>
                 </button>

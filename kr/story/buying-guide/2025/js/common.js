@@ -15,6 +15,7 @@ const sliderOption = {
     },
   ],
 };
+const TAB_SELECTED_TEXT = "\uC120\uD0DD\uB428 ";
 $(document).ready(function () {
   // mountTopAnchorIfNeeded(); // top anchor
   // $("body").append(
@@ -25,6 +26,7 @@ $(document).ready(function () {
   detailCollapseClose(); // 세부 정보 닫기
   angleImageToggle(); // 다른각도 보기 버튼 일괄
   videoHandler(); // 영상 pause/play
+  initTabAccessibility();
   enableHorizontalDragScroll();
   verticalScrollTabHandler(); // 상품 탭 가로 스크롤 네비게이션
   $(".bubble-wrap .dot").on("click", function (e) {
@@ -73,6 +75,179 @@ function isDesktop() {
   return screenWidth >= 1024;
 }
 
+function initTabAccessibility() {
+  const $tabButtons = $("button[name=buying-guide-tab]");
+  if (!$tabButtons.length) return;
+
+  const groups = [];
+
+  $tabButtons.each(function () {
+    const $button = $(this);
+    const group = $button.data("group");
+    if (!group) return;
+
+    if (!$button.attr("type")) {
+      $button.attr("type", "button");
+    }
+
+    if (!groups.includes(group)) {
+      groups.push(group);
+    }
+  });
+
+  groups.forEach((group) => {
+    syncTabAccessibilityForGroup(group);
+  });
+
+  $tabButtons.on("keydown", handleTabButtonKeydown);
+}
+
+function syncTabAccessibilityForGroup(group) {
+  const $buttons = $(`button[name='buying-guide-tab'][data-group='${group}']`);
+  if (!$buttons.length) return;
+
+  const $tabList = $buttons.first().parent();
+  if ($tabList.length) {
+    $tabList.attr({
+      role: "tablist",
+      "aria-orientation": "horizontal",
+    });
+  }
+
+  let $selectedButton = $buttons.filter(".active").first();
+  if (!$selectedButton.length) {
+    $selectedButton = $buttons
+      .filter(function () {
+        const target = $(this).data("target");
+        return target ? $(target).is(":visible") : false;
+      })
+      .first();
+  }
+  if (!$selectedButton.length) {
+    $selectedButton = $buttons.first();
+  }
+
+  $buttons.each(function (index) {
+    const $button = $(this);
+    const isSelected = $button.is($selectedButton);
+    const buttonId = ensureTabButtonId($button, group, index);
+    const targetSelector = $button.data("target");
+
+    $button.attr({
+      role: "tab",
+      "aria-selected": isSelected ? "true" : "false",
+      tabindex: isSelected ? "0" : "-1",
+    });
+    syncTabSelectedText($button, isSelected);
+
+    if (!targetSelector || targetSelector.charAt(0) !== "#") return;
+
+    const $panel = $(targetSelector).first();
+    if (!$panel.length) return;
+
+    const panelId = ensureTabPanelId($panel, targetSelector, group, index);
+    $button.attr("aria-controls", panelId);
+    $panel.attr({
+      role: "tabpanel",
+      "aria-labelledby": buttonId,
+      "aria-hidden": isSelected ? "false" : "true",
+    });
+
+    if (isSelected) {
+      $panel.removeAttr("hidden");
+    } else {
+      $panel.attr("hidden", "hidden");
+    }
+  });
+}
+
+function ensureTabButtonId($button, group, index) {
+  const currentId = $button.attr("id");
+  if (currentId) return currentId;
+
+  const safeGroup = String(group || "group")
+    .trim()
+    .replace(/[^a-zA-Z0-9_-]+/g, "-");
+  const buttonId = `buying-guide-tab-${safeGroup}-${index + 1}`;
+
+  $button.attr("id", buttonId);
+  return buttonId;
+}
+
+function ensureTabPanelId($panel, targetSelector, group, index) {
+  const currentId = $panel.attr("id");
+  if (currentId) return currentId;
+
+  const selectorId = String(targetSelector || "")
+    .replace(/^#/, "")
+    .trim();
+  if (selectorId) {
+    $panel.attr("id", selectorId);
+    return selectorId;
+  }
+
+  const safeGroup = String(group || "group")
+    .trim()
+    .replace(/[^a-zA-Z0-9_-]+/g, "-");
+  const panelId = `buying-guide-panel-${safeGroup}-${index + 1}`;
+
+  $panel.attr("id", panelId);
+  return panelId;
+}
+
+function handleTabButtonKeydown(event) {
+  const key = event.key;
+  if (
+    key !== "ArrowRight" &&
+    key !== "ArrowLeft" &&
+    key !== "ArrowDown" &&
+    key !== "ArrowUp" &&
+    key !== "Home" &&
+    key !== "End"
+  ) {
+    return;
+  }
+
+  const $button = $(event.currentTarget);
+  const group = $button.data("group");
+  const $buttons = $(`button[name='buying-guide-tab'][data-group='${group}']`);
+  if ($buttons.length < 2) return;
+
+  let nextIndex = $buttons.index($button);
+
+  if (key === "ArrowRight" || key === "ArrowDown") {
+    nextIndex = (nextIndex + 1) % $buttons.length;
+  } else if (key === "ArrowLeft" || key === "ArrowUp") {
+    nextIndex = (nextIndex - 1 + $buttons.length) % $buttons.length;
+  } else if (key === "Home") {
+    nextIndex = 0;
+  } else if (key === "End") {
+    nextIndex = $buttons.length - 1;
+  }
+
+  event.preventDefault();
+
+  const $nextButton = $buttons.eq(nextIndex);
+  $nextButton.focus();
+  $nextButton.trigger("click");
+}
+
+function syncTabSelectedText($button, isSelected) {
+  const selectedTextClass = "js-tab-selected-text";
+  const $selectedText = $button.children(`.${selectedTextClass}`);
+
+  if (isSelected) {
+    if (!$selectedText.length) {
+      $button.prepend(
+        `<span class="a11y-hidden ${selectedTextClass}">${TAB_SELECTED_TEXT}</span>`
+      );
+    }
+    return;
+  }
+
+  $selectedText.remove();
+}
+
 function tabButtonHandler() {
   const tabButton = $("button[name=buying-guide-tab]");
   tabButton.on("click", function () {
@@ -90,6 +265,7 @@ function tabButtonHandler() {
 
     $(`[name='${group}']`).hide();
     $(target).show();
+    syncTabAccessibilityForGroup(group);
     const $slides = $(target).find(".slideWrap");
 
     $slides.each(function () {

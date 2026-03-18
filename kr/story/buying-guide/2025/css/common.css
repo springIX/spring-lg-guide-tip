@@ -197,6 +197,23 @@
   height: 0;
   opacity: 0;
 }
+.buying-guide .blind,
+.buying-guide .sr-only,
+.buying-guide .a11y-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+.buying-guide [role="tabpanel"][hidden] {
+  display: none !important;
+}
 .buying-guide .inner-wrap {
   max-width: 1380px;
   margin: 0 auto;
