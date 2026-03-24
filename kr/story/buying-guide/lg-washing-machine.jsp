@@ -305,7 +305,7 @@
                 <div class="text-wrap">
                   <h4>세탁기와 건조기가 하나의 바디에서 편리하게</h4>
                   <p>
-                    세탁기와 건조기가 아래 위로 놓여 있어 하나의 바디에서 세탁과 건조를 편리하게 할 수 있어요. 디스플레이가 제품 중간에 있어 조작이 편리하고 세탁기와 건조기를 각각 직렬로 설치했을 때보다 투입구 높이가 낮아 세탁물을 넣고, 빼기가 편리합니다. 건조하는 동안에도 세탁을 할 수 있어 많은 양의 빨래를 하고 싶다면 워시타워를 선택해 보세요.
+                    세탁기와 건조기가 아래 위로 놓여 있어 하나의 바디에서 세탁과 건조를 편리하게 할 수 있어요. 디스플레이가 제품 중간에 있어 조작이 편리하고 세탁기와 건조기를 각각 직렬로 설치했을 때보다 투입구 높이가 낮아 세탁물을 넣고, 빼기가 편리합니다. 건조와 동시에 세탁이 가능해 평소 세탁물의 양이 많다면, 효율적인 세탁을 위해 워시타워를 선택해보세요.
                   </p>
                 </div>
                 <p class="note">
@@ -1170,7 +1170,7 @@
                   />
                 </div>
                 <div class="text-wrap">
-                  <h4>다양한 세탁용량과 기본에 충실</h4>
+                  <h4>기본에 충실한 기능과 다양한 세탁 용량</h4>
                   <p>
                     8kg~25kg까지의 다양한 용량과 AI 세탁 기능부터 기본에 충실한 기능까지 공간과 라이프스타일, 세탁 패턴 등 다양한 요소를 고려해 내게 맞는 세탁기를 골라보세요.
                   </p>
@@ -1851,21 +1851,21 @@
                         <p>
                           23~25kg 용량의 세탁기와 20~25kg의 용량의 건조기가 수직으로 쌓인 구조를 통해 세탁과 건조를 동시에 진행할 수 있어요. 기본적으로 용량이 넉넉해 이불처럼 부피가 큰 빨래를 자주 하는 가구나 세탁량이 많은 가구에 추천드려요.
                         </p>
-                        <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 300px">
+                        <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/wash-tower?subCateId=CT50210002&filterProduct=AT0000000143:KY0000004252:01,AT0000000143:KY0000000259:01,AT0000000143:KY0000000104:01,AT0000000143:KY0000003881:01"
                             target="_blank"
-                            >세탁 25~24kg / 건조 25~20kg 제품 보러 가기</a
+                            >세탁 25~24kg / 건조 25~20kg<br> 제품 보러 가기</a
                           >
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/wash-tower?subCateId=CT50210002&filterProduct=AT0000000143:KY0000003571:01,AT0000000143:KY0000002051:01,AT0000000143:KY0000000277:01,AT0000000143:KY0000000276:01,AT0000000143:KY0000002851:01,AT0000000143:KY0000000268:01"
                             target="_blank"
-                            >세탁 23kg / 건조23~21kg 제품 보러 가기</a
+                            >세탁 23kg / 건조23~21kg<br> 제품 보러 가기</a
                           >
                         </div>
-                        <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 300px">
+                        <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
                           <a
                             class="btn-guide"
                             href="https://www.lge.co.kr/story/user-guide/wash-tower-install-guide"
@@ -1888,8 +1888,8 @@
                         <h5>워시타워 컴팩트</h5>
                         <p>
                           13kg 용량의 세탁기와 10kg 용량의 건조기가 수직으로 쌓인 구조를 통해 세탁과 건조를 동시에 진행할 수 있는 건 물론, 컴팩트한 사이즈로 설치 공간에 대한 걱정은 줄였습니다. 합리적인 용량으로 독립한 1인 가구나 신혼 부부, 실버 부부 등 세탁량이 많지 않은 가구에 추천드립니다.
-                        </p>
-                        <div class="btn-wrap">
+                        </p> 
+                        <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/care-solutions/wash-tower?filterProduct=AT0000000109:KY0000002622:03"
@@ -1927,7 +1927,7 @@
                         <p>
                           하나의 통 안에서 세탁과 건조를 한 번에 해결할 수 있는 제품입니다. 23/15kg와 25/15kg 종류가 있어서  가정에서 유연하게 용량을 선택할 수 있어요. 세탁기 한 대의 공간만으로 건조 기능까지 겸비한 제품을 설치할 수 있어 공간 제약이 있는 가구에 추천드립니다.
                         </p>
-                        <div class="btn-wrap">
+                        <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/care-solutions/wash-combo"
@@ -1961,7 +1961,7 @@
                           정교하게 보완해, 복잡한 환경에서도 부드럽게 경로를
                           유지합니다.
                         </p>
-                        <div class="btn-wrap">
+                        <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/washing-machines?filterProduct=AT0000000142:KY0000000283:02,AT0000000142:KY0000000245:02"
@@ -1981,7 +1981,7 @@
                         <p>
                           두세 명이 함께 사는 가정이라면 매일 쌓이는 빨래를 한 번에 해결할 수 있는 기본 용량이 적합합니다. 드럼세탁기는 24~20kg 정도의 용량을 추천드립니다. 겉옷과 속옷을 분리해 세탁하는 가정이라면 더욱 효율적으로 사용할 수 있습니다.
                         </p>
-                        <div class="btn-wrap">
+                        <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/washing-machines?filterProduct=AT0000000142:KY0000000245:02,AT0000000142:KY0000000131:02"
@@ -2000,7 +2000,7 @@
                         <h5>19kg~8kg 소용량</h5>
                         <p>
                           세탁량이 많지 않거나 세탁실이 협소해 공간을 효율적으로 사용하고 싶은 1인 가구에게 적합한 용량입니다. 1인 가구의 일주일 치 세탁물이 4kg임을 감안했을 때, 드럼세탁기 기준으
-                        <div class="btn-wrap">
+                        <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/washing-machines?filterProduct=AT0000000142:KY0000000052:02,AT0000000142:KY0000000568:02"
@@ -2058,7 +2058,7 @@
                     </div>
                     <div class="img">
                       <div class="media-wrap">
-                        <button class="btn-pause">일시멈춤</button> 
+                        <button class="btn-pause">일시멈춤</button>
                         <video
                           autoplay
                           playsinline
@@ -2133,10 +2133,7 @@
                       <p>
                         약 3초만에 빠르게 알려주는 예상 시간 안내, 세탁물의 무게와 오염도에 맞춰 알맞은 양으로 자동 투입되는 세제, 의류에 맞춘 최적의 모션과 세탁 패턴으로 섬세한 세탁까지 세탁부터 탈수에 이르는 모든 과정을 AI로 간편하게 경험해보세요.
                       </p>
-                      <div
-                        class="btn-wrap"
-                        style="--btn-width: 197px; --btn-m-width: 169px"
-                      >
+                      <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
                         <a
                           class="btn-product"
                           href="https://www.lge.co.kr/category/washing-machines?filterProduct=AT0000000116:KY0000000882:03,AT0000000116:KY0000001051:03,AT0000000116:KY0000000583:03,AT0000000116:KY0000000906:03"
@@ -2184,16 +2181,13 @@
                     name="buying-point-2"
                     style="display: none"
                   >
-                    <h4 class="hide">AI 맞춤 건조 (워시타워)</h4>
+                    <h4 class="hide">AI 맞춤 건조 (워시타워, 건조기)</h4>
                     <div class="content">
-                      <h5>AI 맞춤 건조 (워시타워)</h5>
+                      <h5>AI 맞춤 건조 (워시타워, 건조기)</h5>
                       <p>
                         세탁물을 투입하면 3초만에 코스 예상 종료시간을 안내하고 의류의 재질, 그리고 내부 습도의 변화를 감지해 내 옷에 맞춰 섬세하게 건조합니다. 건조의 모든 과정을 AI로 더욱 똑똑하게 경험해보세요.
                       </p>
-                      <div
-                        class="btn-wrap"
-                        style="--btn-width: 197px; --btn-m-width: 169px"
-                      >
+                      <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
                         <a
                           class="btn-product"
                           href="https://www.lge.co.kr/category/wash-tower?filterProduct=AT0000000095:KY0000001053:01,AT0000000095:KY0000000583:01"
@@ -2250,10 +2244,7 @@
                       <p>
                         AI DD 기술이 세탁물의 무게와 재질, 오염도를 스스로 감지하여 옷감에 꼭 맞는 세탁/건조 모션을 선택합니다. 6가지의 섬세한 모션으로 세탁양과 시간을 자동 조절해 옷감 손상은 줄이고 세탁/건조 효율은 높입니다.
                       </p>
-                      <div
-                        class="btn-wrap"
-                        style="--btn-width: 197px; --btn-m-width: 169px"
-                      >
+                      <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
                         <a
                           class="btn-product"
                           href="https://www.lge.co.kr/category/washing-machines?filterProduct=AT0000000116:KY0000000882:03,AT0000000116:KY0000001051:03,AT0000000116:KY0000000583:03,AT0000000116:KY0000000906:03"
@@ -2267,10 +2258,7 @@
                           >워시타워 제품 보러 가기</a
                         >
                       </div>
-                      <div
-                        class="btn-wrap"
-                        style="--btn-width: 197px; --btn-m-width: 169px"
-                      >
+                      <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
                         <a
                           class="btn-product"
                           href="https://www.lge.co.kr/category/wash-combo?filterProduct=AT0000000116:KY0000001051:03,AT0000000116:KY0000000583:03"
@@ -2321,7 +2309,7 @@
                       </p>
                       <div class="img">
                         <img
-                          src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_45.jpg"
+                          src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_45.png"
                           alt=""
                         />
                       </div>
@@ -2464,10 +2452,7 @@
                       <p>
                         AI 맞춤 세탁 기능은 세탁물의 무게, 재질, 오염도를 스스로 인식하여 세탁 과정을 자동으로 조정합니다. 바쁜 일상 속에서도 세탁 품질을 유지하고 싶은 분들께 유용하며, 코스 설정이나 세기 조절이 번거로운 분에게 편리하고 효율적인 세탁생활을 제공합니다.
                       </p>
-                      <div
-                        class="btn-wrap"
-                        style="--btn-width: 197px; --btn-m-width: 169px"
-                      >
+                      <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
                         <a
                           class="btn-product"
                           href="https://www.lge.co.kr/category/washing-machines"
@@ -2497,10 +2482,7 @@
                       <p>
                         AI 섬세 건조 기능은 의류의 무게, 재질, 그리고 내부 습도 변화를 정밀하게 감지하여 최적의 6모션으로 부드럽고 꼼꼼하게 건조합니다. 옷감 손상을 최소화하면서도 완벽한 건조 결과를 제공하며, 손이 많이 가는 세탁 과정을 자동으로 관리하고 싶은 분들께 적합한 기능입니다.
                       </p>
-                      <div
-                        class="btn-wrap"
-                        style="--btn-width: 197px; --btn-m-width: 169px"
-                      >
+                      <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
                         <a
                           class="btn-product"
                           href="https://www.lge.co.kr/category/dryers"
@@ -2715,11 +2697,7 @@
                 </button>
               </div>
               <div class="tab-content">
-                <div
-                  id="buying-point-4"
-                  name="buying-point-45"
-                  style="--box-height: 446px; --box-m-height: 400px"
-                >
+                <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
                   <div class="slideWrap colWrap">
                     <div class="col">
                       <div>
@@ -2879,7 +2857,7 @@
                 세탁기·워시타워·워시콤보, 궁금했던 모든 것에 답해
                 드려요.
               </p>
-              <div class="btn-wrap">
+              <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
                 <a
                   target="_blank"
                   href="https://www.lge.co.kr/story/useful-tip/washing-machines-faq"
@@ -2891,7 +2869,7 @@
                   >워시타워 FAQ</a
                 >
               </div>
-              <div class="btn-wrap">
+              <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
                 <a
                   target="_blank"
                   href="https://www.lge.co.kr/story/faq/wash-combo-faq"
@@ -2909,7 +2887,7 @@
               <p>
                 세탁기·워시타워·워시콤보를 정기적으로 구독하고 싶다면?
               </p>
-              <div class="btn-wrap">
+              <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
                 <a
                   target="_blank"
                   href="https://www.lge.co.kr/category/care-solutions/washing_machines"
@@ -2921,7 +2899,7 @@
                   >워시타워 구독 상품</a
                 >
               </div>
-              <div class="btn-wrap">
+              <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
                 <a
                   target="_blank"
                   href="https://www.lge.co.kr/category/care-solutions/wash-combo"
@@ -2940,7 +2918,7 @@
                 지금 가장 인기 있는 세탁기·워시타워·워시콤보 확인해
                 보세요!
               </p>
-              <div class="btn-wrap">
+              <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
                 <a
                   target="_blank"
                   href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000100&categoryId=CT50000101&categoryName=%EC%84%B8%ED%83%81%EA%B8%B0"
@@ -2952,7 +2930,7 @@
                   >워시타워 베스트 랭킹</a
                 >
               </div>
-              <div class="btn-wrap">
+              <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
                 <a
                   target="_blank"
                   href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000100&categoryId=CT50250001&categoryName=%EC%9B%8C%EC%8B%9C%EC%BD%A4%EB%B3%B4"
