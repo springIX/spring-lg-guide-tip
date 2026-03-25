@@ -684,36 +684,35 @@
                     </div>
                   </div>
                   </div>
-                  <div class="point-tip" id="point-tip2">
-                    <h5>이런 포인트도 살펴보면 좋아요!</h5>
-                    <div class="tip-content">
-                      <div class="content">
-                        <p class="tag">#생활공간맞춤</p>
-                        <h6 class="tip-title">
-                          우리집 공간에 맞춘 효율적인 설치
-                        </h6>
-                        <p class="tip-text">
-                          보통의 세탁 공간을 생각하면, 세탁기와 건조기를 나란히 설치해 사용하기는 쉽지 않아요. 이런 경우 보유하고 있는 세탁기 위에 건조기를 올려 효율적인 공간 활용이 가능한 방법을 고려해보세요. 제품 용량이나 유형에 따라 사용 가능한 키트의 종류는 다르지만, 아래 내용을 참고하면 상황에 맞게 어떤 키트를 설치해야하는지 쉽게 알 수 있어요.
-                        </p>
-                        <br />
-                        <p class="tip-text">
-                          * [세탁기와 건조기의 외관 크기가 같은 경우] 일반 스태킹 키트, 전용 스태킹 키트, 전용 브라켓 <br />
-                          * [9~10kg 건조기를 설치해야 하는 경우] 서랍형 키트 <br />
-                          * [세탁기와 건조기의 외관 크기 및 브랜드가 다른 경우] 범용 스태킹 키트
-                        </p>
-                      </div>
-                      <div class="img">
-                        <img
-                          src="/kr/story/buying-guide/2025/img/drying-machine/img_P07_001_12.jpg"
-                          alt="LG 오브제컬렉션 워시타워 수직 설치형 (하단 베이지 세탁기와 상단 그린 건조기가 위아래로 결합된 일체형 구조)"
-                          class="pc-only"
-                        />
-                        <img
-                          src="/kr/story/buying-guide/2025/img/drying-machine/img_M07_001_04.jpg"
-                          alt="LG 오브제컬렉션 워시타워 수직 설치형 (하단 베이지 세탁기와 상단 그린 건조기가 위아래로 결합된 일체형 구조)"
-                          class="mobile-only"
-                        />
-                      </div>
+                </div>
+                <div class="point-tip" id="point-tip2">
+                  <h5>이런 포인트도 살펴보면 좋아요!</h5>
+                  <div class="tip-content">
+                    <div class="content">
+                      <p class="tag">#생활공간맞춤</p>
+                      <h6 class="tip-title">
+                        우리집 공간에 맞춘 효율적인 설치
+                      </h6>
+                      <p class="tip-text">
+                        보통의 세탁 공간을 생각하면, 세탁기와 건조기를 나란히 설치해 사용하기는 쉽지 않아요. 이런 경우 보유하고 있는 세탁기 위에 건조기를 올려 효율적인 공간 활용이 가능한 방법을 고려해보세요. 제품 용량이나 유형에 따라 사용 가능한 키트의 종류는 다르지만, 아래 내용을 참고하면 상황에 맞게 어떤 키트를 설치해야하는지 쉽게 알 수 있어요.
+                      </p>
+                      <p class="note">
+                        * [세탁기와 건조기의 외관 크기가 같은 경우] 일반 스태킹 키트, 전용 스태킹 키트, 전용 브라켓 <br />
+                        * [9~10kg 건조기를 설치해야 하는 경우] 서랍형 키트 <br />
+                        * [세탁기와 건조기의 외관 크기 및 브랜드가 다른 경우] 범용 스태킹 키트
+                      </p>
+                    </div>
+                    <div class="img">
+                      <img
+                        src="/kr/story/buying-guide/2025/img/drying-machine/img_P07_001_12.jpg"
+                        alt="LG 오브제컬렉션 워시타워 수직 설치형 (하단 베이지 세탁기와 상단 그린 건조기가 위아래로 결합된 일체형 구조)"
+                        class="pc-only"
+                      />
+                      <img
+                        src="/kr/story/buying-guide/2025/img/drying-machine/img_M07_001_04.jpg"
+                        alt="LG 오브제컬렉션 워시타워 수직 설치형 (하단 베이지 세탁기와 상단 그린 건조기가 위아래로 결합된 일체형 구조)"
+                        class="mobile-only"
+                      />
                     </div>
                   </div>
                 </div>
@@ -809,13 +808,13 @@
                             src="/kr/story/buying-guide/2025/video/drying-machine/vid_P07_001_01.mp4"
                           ></video>
                         </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
                         <button class="btn-collapse-toggle">
                           <span>* AI 타임 센싱 / AI 시간 안내 / AI 건조</span>
                         </button>
                         <div class="collapse-content">
-                          <p>
-                            * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                          </p>
                           <p>
                             <b>[AI 타임 센싱]</b><br />
                              * AI 타임 센싱 3초 : 시작 버튼을 누른 후 부터 측정된 시간입니다. <br />
@@ -856,13 +855,13 @@
                           <img src="/kr/story/buying-guide/2025/img/drying-machine/img_P07_001_18.jpg"
                             alt="" />
                         </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
                         <button class="btn-collapse-toggle">
                           <span>* AI 타임 센싱</span>
                         </button>
                         <div class="collapse-content">
-                          <p>
-                            * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                          </p>
                           <p>
                              * AI 타임 센싱 3초 : 시작 버튼을 누른 후 부터 측정된 시간입니다.<br />
                              * 마른 세탁물 기준 5kg 이하에서 약 3초 소요되며, 세탁물이 가득 찬 경우 최대 1분까지 소요될 수 있습니다.<br />
@@ -892,6 +891,9 @@
                           <img src="/kr/story/buying-guide/2025/img/drying-machine/img_P07_001_13.jpg"
                             alt="LG 오브제컬렉션 AI 시간 안내 기능 설명 (디스플레이에 'AI 건조, 절약모드 자동, 건조정도 표준' 메시지가 표시되어 있고, 하단에 '시간 오차 범위 단축'을 의미하는 아이콘이 강조된 모습)" />
                         </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
                         <button class="btn-collapse-toggle">
                           <span>* AI 시간 안내</span>
                         </button>
@@ -920,7 +922,7 @@
                           AI DD X 6모션
                         </h5>
                         <p>
-                          AI가 세탁물의 무게와 습도를 스스로 감지하여 옷감에 꼭 맞는 건조 모션을 선택하고 DD모터를 통해 6가지의 섬세한 모션을 구현해 옷감에 맞춘 최적의 모션으로 건조해 옷감의 손상을 줄여 건조 효율을 높여줍니다.
+                          AI가 세탁물의 무게와 습도를 스스로 감지하여 옷감에 꼭 맞는 건조 모션을 선택합니다. DD모터를 통해 6가지의 섬세한 모션을 구현해 옷감에 맞는 최적의 모션을 구현해 옷감 손상을 줄이는 섬세한 건조가 가능합니다.
                         </p>
                         <div class="img">
                           <button class="btn-pause">일시멈춤</button>
@@ -932,6 +934,9 @@
                             src="/kr/story/buying-guide/2025/video/drying-machine/vid_P07_001_03.mp4"
                           ></video>
                         </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
                       </div>
                     </div>
                     <div
@@ -948,18 +953,20 @@
                           트루스팀 2.0
                         </h5>
                         <p>
-                          바이러스로 걱정되지만 매일 빨기 어려운 옷이나 이불을 스팀 살균 코스로 간편하게 케어 해보세요. 집먼지 진드기, 알러지 유발 물질, 유해 세균까지 99.99% 살균해 걱정을 줄여줘요. 그리고 까다로운 아웃도어 의류나 옷장 속에서 구겨진 옷들도 스팀 리프레쉬 코스를 통해 살균과 탈취는 물론 구김까지 간편하게 관리할 수 있어요.  
+                          바이러스는 걱정되지만, 매일 빨기 어려운 옷이나 이불은 스팀 살균 코스로 간편하게 케어해보세요. 집먼지 진드기, 알러지 유발 물질, 유해 세균까지 99.99% 살균해 걱정을 줄여줘요. 그리고 까다로운 아웃도어 의류나 옷장 속에서 구겨진 옷들도 스팀 리프레쉬 코스를 통해 살균과 탈취는 물론 구김까지 간편하게 관리할 수 있어요.  
                         </p>
                         <div class="img">
                           <img src="/kr/story/buying-guide/2025/img/drying-machine/img_P07_001_14.jpg"
                             alt="LG 오브제컬렉션 트루스팀 2.0 살균 기능 (깨끗한 흰색 세탁물이 들어있는 스테인리스 드럼 내부 모습과 99.99% 살균 인증 마크 강조)" />
                         </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
                         <button class="btn-collapse-toggle">
                           <span>* 유해세균 살균 / 바이러스 제거 / 알러지 유발물질 제거 / 꽃가루 알레르겐 불활성화 / 탈취 / 구김제거</span>
                         </button>
                         <div class="collapse-content">
                           <p>
-                            * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br />
                             * 물을 끓여 만든 트루스팀과 드럼 내부 온도를 60℃ 이상의 고온으로 건조하여 유해세균을 살균합니다.
                           </p>
                           <p>
@@ -1056,13 +1063,13 @@
                             src="/kr/story/buying-guide/2025/video/drying-machine/vid_P07_001_04.mp4"
                           ></video>
                         </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
                         <button class="btn-collapse-toggle">
                           <span>* 수축완화</span>
                         </button>
                         <div class="collapse-content">
-                          <p>
-                            * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                          </p>
                           <p>
                              * 시험 기관 : KATRI (한국의류시험연구원) /시험 일자 : ‘25년 03월<br />
                              * 시험 코스 : 수축완화<br />
@@ -1097,13 +1104,13 @@
                           <img src="/kr/story/buying-guide/2025/img/drying-machine/img_P07_001_15.jpg"
                             alt="LG 오브제컬렉션 타월 코스 기능 설명 (세탁 후 쌓여있는 깨끗한 타월 이미지와 함께 '올 풀림 35% 개선'이라는 수치 정보가 강조된 모습)" />
                         </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
                         <button class="btn-collapse-toggle">
-                          <span>* 수축완화</span>
+                          <span>* 타월코스+ </span>
                         </button>
                         <div class="collapse-content">
-                          <p>
-                            * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                          </p>
                           <p>
                               * 시험 기관 : KATRI (한국의류시험연구원) / 시험 일자 : ‘25년 03월<br />
                               * 시험 코스 : 타월<br />

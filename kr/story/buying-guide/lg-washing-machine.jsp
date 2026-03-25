@@ -2157,6 +2157,9 @@
                           src="/kr/story/buying-guide/2025/video/washing-machine/vid_P07_001_25.mp4"
                         ></video>
                       </div>
+                      <p class="des">
+                        * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                      </p>
                       <button class="btn-collapse-toggle">
                         <span>* AI 타임 센싱 / AI 맞춤 세탁, AI 맞춤 탈수</span>
                       </button>
@@ -2206,13 +2209,13 @@
                           src="/kr/story/buying-guide/2025/video/washing-machine/vid_P07_001_28.mp4">
                         </video>
                       </div>
+                      <p class="des">
+                        * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                      </p>
                       <button class="btn-collapse-toggle">
                         <span>* AI 타임 센싱 / AI 시간 안내 / AI 건조</span>
                       </button>
                       <div class="collapse-content">
-                        <p>
-                          * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                        </p>
                         <p>
                           <b>[전력 효율]</b><br />
                           * AI 타임 센싱 3초 : 시작 버튼을 누른 후 부터 측정된 시간입니다.<br />
@@ -2276,6 +2279,9 @@
                           src="/kr/story/buying-guide/2025/video/washing-machine/vid_P07_001_30.mp4"
                         ></video>
                       </div>
+                      <p class="des">
+                        * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                      </p>
                       <button class="btn-collapse-toggle">
                         <span>* AI 세탁 / AI 건조</span>
                       </button>
@@ -2313,6 +2319,9 @@
                           alt=""
                         />
                       </div>
+                      <p class="des">
+                        * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                      </p>
                       <button class="btn-collapse-toggle">
                         <span>* 바이러스 제거 / 유해세균 살균 / 알러지 유발물질 제거</span>
                       </button>
@@ -2372,13 +2381,13 @@
                           alt="세탁기 세제 투입구의 상세 모습으로, 좌측에는 연보라색 뚜껑에 흰색 글씨로 ‘섬유 유연제’가 표기되어 있고, 우측에는 연한 파란색 뚜껑에 흰색 글씨로 ‘액체 세제’가 적혀 있습니다. 하단 흰색 배경에는 세제 사용 관련 안내 문구가 검은색 글씨로 표시되어 있습니다."
                         />
                       </div>
+                      <p class="des">
+                        * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                      </p>
                       <button class="btn-collapse-toggle">
                         <span>* 자동세제함</span>
                       </button>
                       <div class="collapse-content">
-                        <p>
-                          * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                        </p>
                         <p>
                           <b>[자동세제함]</b><br />
                           * 해당 기능은 자동세제 모델에 한하며, 자동세제 설정 시 세탁량에 알맞게 세제/유연제를 자동으로 투입됩니다.<br />
@@ -2476,6 +2485,9 @@
                           src="/kr/story/buying-guide/2025/video/washing-machine/vid_P07_001_27.mp4"
                         ></video>
                       </div>
+                      <p class="des">
+                        * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                      </p>
                     </div>
                     <div class="content">
                       <h5>AI 섬세 건조 (워시타워, 워시콤보)</h5>
@@ -2506,6 +2518,9 @@
                           src="/kr/story/buying-guide/2025/video/washing-machine/vid_P07_001_33.mp4"
                         ></video>
                       </div>
+                      <p class="des">
+                        * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                      </p>
                       <button class="btn-collapse-toggle">
                         <span>* AI 건조</span>
                       </button>
@@ -2543,6 +2558,9 @@
                           src="/kr/story/buying-guide/2025/video/washing-machine/vid_P07_001_29.mp4"
                         ></video>
                       </div>
+                      <p class="des">
+                        * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                      </p>
                       <button class="btn-collapse-toggle">
                         <span>* AI 타임 센싱</span>
                       </button>
@@ -2572,6 +2590,9 @@
                           src="/kr/story/buying-guide/2025/video/washing-machine/vid_P07_001_31.mp4"
                         ></video>
                       </div>
+                      <p class="des">
+                        * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                      </p>
                       <button class="btn-collapse-toggle">
                         <span>* AI 세탁 리포트</span>
                       </button>
@@ -2597,6 +2618,9 @@
                           src="/kr/story/buying-guide/2025/video/washing-machine/vid_P07_001_32.mp4"
                         ></video>
                       </div>
+                      <p class="des">
+                        * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                      </p>
                       <button class="btn-collapse-toggle">
                         <span>* AI My 코스</span>
                       </button>
