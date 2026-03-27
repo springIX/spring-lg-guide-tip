@@ -1538,12 +1538,12 @@
                             <td>
                               <div class="procuct-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_40.png" 
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_51.png"
                                   alt="LG 통돌이 컴포트 세탁기 메인이미지 2"
                                   class="front"
                                 />
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_40.png"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_52.png"
                                   alt="LG 통돌이 컴포트 세탁기 메인이미지 5"
                                   class="side"
                                 />
@@ -1555,12 +1555,12 @@
                             <td>
                               <div class="procuct-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_43.png"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_53.png"
                                   alt="LG 통돌이 컴포트 세탁기 메인이미지 2"
                                   class="front"
                                 />
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_43.png"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_54.png"
                                   alt="LG 통돌이 컴포트 세탁기 메인이미지 5"
                                   class="side"
                                 />
@@ -2455,24 +2455,24 @@
                     id="buying-point-3-1"
                     name="buying-point-3"
                   >
-                    <h4 class="hide">AI 맞춤세탁, AI 섬세 건조</h4>
+                    <h4 class="hide">AI 맞춤세탁(워시타워, 세탁기)</h4>
                     <div class="content">
-                      <h5>AI 맞춤세탁, AI 섬세 건조</h5>
+                      <h5>AI 맞춤세탁(워시타워, 세탁기)</h5>
                       <p>
                         AI 맞춤 세탁 기능은 세탁물의 무게, 재질, 오염도를 스스로 인식하여 세탁 과정을 자동으로 조정합니다. 바쁜 일상 속에서도 세탁 품질을 유지하고 싶은 분들께 유용하며, 코스 설정이나 세기 조절이 번거로운 분에게 편리하고 효율적인 세탁생활을 제공합니다.
                       </p>
                       <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
                         <a
                           class="btn-product"
-                          href="https://www.lge.co.kr/category/washing-machines"
-                          target="_blank"
-                          >세탁기 제품 보러 가기</a
-                        >
-                        <a
-                          class="btn-product"
                           href="https://www.lge.co.kr/category/wash-tower?filterProduct=AT0000001251:KY0000003963:03"
                           target="_blank"
                           >워시타워 제품 보러 가기</a
+                        >
+                        <a
+                          class="btn-product"
+                          href="https://www.lge.co.kr/category/washing-machines"
+                          target="_blank"
+                          >세탁기 제품 보러 가기</a
                         >
                       </div>
                       <div class="img">
@@ -2490,22 +2490,22 @@
                       </p>
                     </div>
                     <div class="content">
-                      <h5>AI 섬세 건조 (워시타워, 워시콤보)</h5>
+                      <h5>AI 섬세 건조(워시타워, 건조기)</h5>
                       <p>
                         AI 섬세 건조 기능은 의류의 무게, 재질, 그리고 내부 습도 변화를 정밀하게 감지하여 최적의 6모션으로 부드럽고 꼼꼼하게 건조합니다. 옷감 손상을 최소화하면서도 완벽한 건조 결과를 제공하며, 손이 많이 가는 세탁 과정을 자동으로 관리하고 싶은 분들께 적합한 기능입니다.
                       </p>
                       <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
                         <a
                           class="btn-product"
-                          href="https://www.lge.co.kr/category/dryers"
-                          target="_blank"
-                          >건조기 제품 보러 가기</a
-                        >
-                        <a
-                          class="btn-product"
                           href="https://www.lge.co.kr/category/wash-tower?filterProduct=AT0000001251:KY0000002682:03"
                           target="_blank"
                           >워시타워 제품 보러 가기</a
+                        >
+                        <a
+                          class="btn-product"
+                          href="https://www.lge.co.kr/category/dryers"
+                          target="_blank"
+                          >건조기 제품 보러 가기</a
                         >
                       </div>
                       <div class="img">
@@ -2542,9 +2542,9 @@
                     name="buying-point-3"
                     style="display: none"
                   >
-                    <h4 class="hide">AI 타임 센싱 (세탁기, 워시타워, 워시콤보)</h4>
+                    <h4 class="hide">AI 타임 센싱 (워시타워, 세탁기)</h4>
                     <div class="content">
-                      <h5>AI 타임 센싱 (세탁기, 워시타워, 워시콤보)</h5>
+                      <h5>AI 타임 센싱 (워시타워, 세탁기)</h5>
                       <p>
                         세탁물 투입 후 시작 버튼을 누르면, AI 타임 센싱 기능이 세탁물의 무게를 자동으로 감지하여 약 3초 안에 코스별 예상 종료 시간을 안내합니다. 세탁 및 건조 소요 시간을 미리 알려주어 세탁이 얼마나 걸릴지 매번 확인하기 번거로운 분들에게 유용한 기능입니다.
                       </p>
@@ -2576,7 +2576,7 @@
                       </div>
                     </div>
                     <div class="content">
-                      <h5>AI 세탁 리포트 (워시타워, 워시콤보)</h5>
+                      <h5>AI 세탁 리포트 (워시타워)</h5>
                       <p>
                         AI 세탁·건조가 끝나면 꼼꼼 하게 리뷰한 리포트를 제공하는 기능입니다. 세탁 리포트를 통해서 나만의 개인 세탁 패턴을 확인할 수 있어 보다 스마트하고 효율적인 세탁 경험을 제공합니다.
                       </p>
@@ -2604,7 +2604,7 @@
                       </div>
                     </div>
                     <div class="content">
-                      <h5>AI My 코스 (워시타워, 워시콤보)</h5>
+                      <h5>AI My 코스 (워시타워)</h5>
                       <p>
                         매번 설정할 필요 없이 AI가 세탁과 건조 패턴을 분석하여 나만의 맞춤 코스를 자동으로 추천해줍니다. 자주 사용하는 코스를 등록해 상황에 따라 간편하게 선택할 수 있습니다.
                       </p>
@@ -2648,25 +2648,16 @@
                     </p>
                   </div>
                   <div class="img">
-                    <div class="media-wrap">
-                      <button class="btn-pause">일시멈춤</button> 
-                      <video
-                        autoplay
-                        playsinline
-                        loop
-                        muted
-                        src="/kr/story/buying-guide/2025/video/washing-machine/img_P07_001_35.mp4"
-                        class="pc-only"
-                      ></video>
-                      <video
-                        autoplay
-                        playsinline
-                        loop
-                        muted
-                        src="/kr/story/buying-guide/2025/video/washing-machine/img_M07_001_06.mp4"
-                        class="mobile-only"
-                      ></video>
-                    </div>
+                    <img
+                      src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_35.jpg"
+                      alt=""
+                      class="pc-only"
+                    />
+                    <img
+                      src="/kr/story/buying-guide/2025/img/washing-machine/img_M07_001_09.jpg"
+                      alt=""
+                      class="mobile-only"
+                    />
                   </div>
                 </div>
               </div>
@@ -2683,13 +2674,16 @@
                     </p>
                   </div>
                   <div class="img">
-                    <div class="media-wrap">
-                      <button class="btn-pause">일시멈춤</button>
-                      <video autoplay playsinline loop muted
-                        src="/kr/story/buying-guide/2025/video/washing-machine/img_P07_001_36.mp4" class="pc-only"></video>
-                      <video autoplay playsinline loop muted
-                        src="/kr/story/buying-guide/2025/video/washing-machine/img_M07_001_07.mp4" class="mo-only"></video>
-                    </div>
+                    <img
+                      src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_36.jpg"
+                      alt=""
+                      class="pc-only"
+                    />
+                    <img
+                      src="/kr/story/buying-guide/2025/img/washing-machine/img_M07_001_10.jpg"
+                      alt=""
+                      class="mobile-only"
+                    />
                   </div>
                 </div>
               </div>
@@ -2721,7 +2715,10 @@
                 </button>
               </div>
               <div class="tab-content">
-                <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
+                <div
+                  id="buying-point-4"
+                  name="buying-point-45"
+                  style="--box-height: 450px; --box-m-height: 400px">
                   <div class="slideWrap colWrap">
                     <div class="col">
                       <div>
@@ -2753,115 +2750,115 @@
                     및 스펙은 다를 수 있습니다.
                   </p>
                 </div>
-              </div>
-              <div
-                id="buying-point-5"
-                name="buying-point-45"
-                style="--box-height: 500px; --box-m-height: 400px; display: none"
-              >
-                <div class="slideWrap colWrap">
-                  <div class="col">
-                    <div>
-                      <div class="content-wrap">
-                        <div>
-                          <h4>콘덴서 자동 세척</h4>
-                          <p>
-                            콘덴서는 젖은 빨래에서 발생하는 따뜻하고 습한 공기를 건조한 공기로 바꿔주는 핵심 부품입니다. 콘덴서 자동 세척 기능은 필터에서 거르지 못한 먼지가 쌓이는 것을 방지해, 손이 닿기 어려운 내부까지 간편하게 관리할 수 있습니다.
-                          </p>
-                        </div>
-                        <div>
-                          <div class="media-wrap">
-                            <button class="btn-pause">일시멈춤</button>
-                            <video autoplay playsinline loop muted
-                              src="/kr/story/buying-guide/2025/video/washing-machine/img_P07_001_81.mp4"></video>
+                <div
+                  id="buying-point-5"
+                  name="buying-point-45"
+                  style="--box-height: 500px; --box-m-height: 400px; display: none"
+                >
+                  <div class="slideWrap colWrap">
+                    <div class="col">
+                      <div>
+                        <div class="content-wrap">
+                          <div>
+                            <h4>콘덴서 자동 세척</h4>
+                            <p>
+                              콘덴서는 젖은 빨래에서 발생하는 따뜻하고 습한 공기를 건조한 공기로 바꿔주는 핵심 부품입니다. 콘덴서 자동 세척 기능은 필터에서 거르지 못한 먼지가 쌓이는 것을 방지해, 손이 닿기 어려운 내부까지 간편하게 관리할 수 있습니다.
+                            </p>
+                          </div>
+                          <div>
+                            <div class="media-wrap">
+                              <button class="btn-pause">일시멈춤</button>
+                              <video autoplay playsinline loop muted
+                                src="/kr/story/buying-guide/2025/video/washing-machine/img_P07_001_81.mp4"></video>
+                            </div>
                           </div>
                         </div>
+                          <div class="detail-wrap">
+                            <button class="btn-collapse-toggle">
+                              <span>* 콘덴서 자동세척 시스템</span>
+                            </button>
+                              <div class="collapse-content">
+                                <p>
+                                    * 모든 건조코스에서 콘덴서 자동세척 시스템 동작 , 단 건조 코스가 아닌 침구털기코스, 송풍코스 등은 이후 젖은 옷감으로 건조행정 시 콘덴서 자동세척 진행.  <br />
+                                    * 사용환경 및 수압에 따라 콘덴서 세척 정도에 차이가 있을 수 있습니다.  <br />
+                                    * 세탁물 2kg 이하의 소량 건조 시 별도 '콘덴서 케어' 기능 사용을 권장합니다.  <br />
+                                    * 반려동물을 키우는 환경에서는 펫케어 코스 및 펫케어 악세서리 키트 사용을 권장하며, 건조 전 반려동물 털을 충분히 털어서 사용하세요.  
+                                </p>
+                                <button class="btn-collapse-close">접기</button>
+                              </div>
+                          </div>
                       </div>
+                    </div>
+                    <div class="col">
+                      <div>
+                        <div class="content-wrap">
+                          <div>
+                            <h4>
+                              2중 안심 필터
+                            </h4>
+                            <p>
+                              필터가 제품 내부에 2중으로 설계되어 건조 후 발생하는 먼지를 더욱 효과적으로 걸러냅니다.
+                            </p>
+                          </div>
+                          <div>
+                            <div class="media-wrap">
+                              <button class="btn-pause">일시멈춤</button>
+                              <video autoplay playsinline loop muted
+                                src="/kr/story/buying-guide/2025/video/washing-machine/img_P07_001_82.mp4"></video>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="detail-wrap">
+                          <button class="btn-collapse-toggle hidden">
+                            <span>*</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div>
+                        <div class="content-wrap">
+                          <div>
+                            <h4>
+                              통살균 케어
+                            </h4>
+                            <p>
+                              건조기 내부에 스팀 살균을 위한 12개의 포인트가 통 내부를 간편하게 관리할 수 있도록 도와줍니다.
+                            </p>
+                          </div>
+                          <div>
+                            <div class="media-wrap">
+                              <button class="btn-pause">일시멈춤</button>
+                              <video autoplay playsinline loop muted
+                                src="/kr/story/buying-guide/2025/video/washing-machine/img_P07_001_83.mp4"></video>
+                            </div>
+                          </div>
+                        </div>
                         <div class="detail-wrap">
                           <button class="btn-collapse-toggle">
-                            <span>* 콘덴서 자동세척 시스템</span>
+                            <span>* 스팀 통살균</span>
                           </button>
                             <div class="collapse-content">
                               <p>
-                                  * 모든 건조코스에서 콘덴서 자동세척 시스템 동작 , 단 건조 코스가 아닌 침구털기코스, 송풍코스 등은 이후 젖은 옷감으로 건조행정 시 콘덴서 자동세척 진행.  <br />
-                                  * 사용환경 및 수압에 따라 콘덴서 세척 정도에 차이가 있을 수 있습니다.  <br />
-                                  * 세탁물 2kg 이하의 소량 건조 시 별도 '콘덴서 케어' 기능 사용을 권장합니다.  <br />
-                                  * 반려동물을 키우는 환경에서는 펫케어 코스 및 펫케어 악세서리 키트 사용을 권장하며, 건조 전 반려동물 털을 충분히 털어서 사용하세요.  
+                                  * 시험 기관 : KATRI (의류시험연구원) / 시험 일자 : ‘25년 03월 <br />
+                                  * 시험 코스 : 스팀통살균 <br />
+                                  * 시험 균 : 유해세균 3종 (황색포도상구균, 녹농균, 폐렴간균) <br />
+                                  * 시험 조건 : 시험실 온도 21°±2C, 시험실 습도 50±15% R.H. <br />
+                                  * 시험 방법 : 유해세균 오염된 면직물 부착 또는 면봉을 사용하여 균 도포 하여 스팀 통살균 동작 <br />
+                                  * 시험 결과 : 필터 내부, 콘덴서 전면, 열교환기 전면, 드럼 후면, 팬, 드럼 내부, 드럼 리프터, 도어 내부, 열교환기 하단, 필터 하단, 시작점, 열풍이동 끝점 12포인트 확인결과 평균 99.9% 살균력 <br />
+                                  * 시험결과는 사용환경 등에 따라 차이가 있을 수 있습니다.
                               </p>
                               <button class="btn-collapse-close">접기</button>
                             </div>
                         </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div>
-                      <div class="content-wrap">
-                        <div>
-                          <h4>
-                            2중 안심 필터
-                          </h4>
-                          <p>
-                            필터가 제품 내부에 2중으로 설계되어 건조 후 발생하는 먼지를 더욱 효과적으로 걸러냅니다.
-                          </p>
-                        </div>
-                        <div>
-                          <div class="media-wrap">
-                            <button class="btn-pause">일시멈춤</button>
-                            <video autoplay playsinline loop muted
-                              src="/kr/story/buying-guide/2025/video/washing-machine/img_P07_001_82.mp4"></video>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="detail-wrap">
-                        <button class="btn-collapse-toggle hidden">
-                          <span>*</span>
-                        </button>
                       </div>
                     </div>
                   </div>
-                  <div class="col">
-                    <div>
-                      <div class="content-wrap">
-                        <div>
-                          <h4>
-                            통살균 케어
-                          </h4>
-                          <p>
-                            건조기 내부에 스팀 살균을 위한 12개의 포인트가 통 내부를 간편하게 관리할 수 있도록 도와줍니다.
-                          </p>
-                        </div>
-                        <div>
-                          <div class="media-wrap">
-                            <button class="btn-pause">일시멈춤</button>
-                            <video autoplay playsinline loop muted
-                              src="/kr/story/buying-guide/2025/video/washing-machine/img_P07_001_83.mp4"></video>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="detail-wrap">
-                        <button class="btn-collapse-toggle">
-                          <span>* 스팀 통살균</span>
-                        </button>
-                          <div class="collapse-content">
-                            <p>
-                                * 시험 기관 : KATRI (의류시험연구원) / 시험 일자 : ‘25년 03월 <br />
-                                * 시험 코스 : 스팀통살균 <br />
-                                * 시험 균 : 유해세균 3종 (황색포도상구균, 녹농균, 폐렴간균) <br />
-                                * 시험 조건 : 시험실 온도 21°±2C, 시험실 습도 50±15% R.H. <br />
-                                * 시험 방법 : 유해세균 오염된 면직물 부착 또는 면봉을 사용하여 균 도포 하여 스팀 통살균 동작 <br />
-                                * 시험 결과 : 필터 내부, 콘덴서 전면, 열교환기 전면, 드럼 후면, 팬, 드럼 내부, 드럼 리프터, 도어 내부, 열교환기 하단, 필터 하단, 시작점, 열풍이동 끝점 12포인트 확인결과 평균 99.9% 살균력 <br />
-                                * 시험결과는 사용환경 등에 따라 차이가 있을 수 있습니다.
-                            </p>
-                            <button class="btn-collapse-close">접기</button>
-                          </div>
-                      </div>
-                    </div>
-                  </div>
+                  <p class="note">
+                    * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
+                    스펙은 다를 수 있습니다.
+                  </p>
                 </div>
-                <p class="note">
-                  * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
-                  스펙은 다를 수 있습니다.
-                </p>
               </div>
             </div>
           </section>
