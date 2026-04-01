@@ -88,7 +88,10 @@
           </p>
         </div>
         <div class="kv">
-          <img src="/kr/story/hands-on-reviews/img/lglife-air-conditioner/KV.jpg" alt="">
+          <picture>
+            <source media="(max-width: 767px)" srcset="/kr/story/hands-on-reviews/img/lglife-air-conditioner/KV_m.jpg" />
+            <img src="/kr/story/hands-on-reviews/img/lglife-air-conditioner/KV.jpg" alt="" />
+          </picture>
         </div>
         <div class="contents">
           <div class="contents-intro">
