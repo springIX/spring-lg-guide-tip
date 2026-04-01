@@ -1894,7 +1894,7 @@
                             class="btn-product"
                             href="https://www.lge.co.kr/category/care-solutions/wash-tower?filterProduct=AT0000000109:KY0000002622:03"
                             target="_blank"
-                            >제품 보러 가기</a
+                            >세탁 13kg / 건조 10kg 제품 보러 가기</a
                           >
                           <a
                             class="btn-guide"
