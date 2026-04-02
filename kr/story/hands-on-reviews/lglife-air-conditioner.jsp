@@ -134,17 +134,12 @@
                 <li>리모컨 설정 온도와 실제 체감 온도 차이를 기록해 비교</li>
               </ul>
             </section>
-            <section class="contents-panel" id="panel-service" role="tabpanel" aria-labelledby="tab-service" hidden>
+            <section class="contents-panel care-service" id="panel-service" role="tabpanel" aria-labelledby="tab-service" hidden>
               <p class="panel-kicker">Care Service</p>
               <h4 class="panel-title">전문 케어 서비스에서 받을 수 있는 관리</h4>
               <p class="panel-desc">
                 정기 점검부터 세척, 사용 습관 안내까지 구독형 케어 서비스의 핵심 항목을 담았습니다.
               </p>
-              <ul class="panel-points">
-                <li>제품 상태 진단과 사용 환경에 맞춘 맞춤 관리</li>
-                <li>필터와 주요 내부 부품의 점검 및 위생 케어 진행</li>
-                <li>계절별 사용법과 장기 관리 팁까지 한 번에 안내</li>
-              </ul>
             </section>
           </div>
         </div>
