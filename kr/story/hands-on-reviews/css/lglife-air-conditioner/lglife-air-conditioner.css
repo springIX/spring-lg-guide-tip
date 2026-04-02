@@ -22,13 +22,35 @@
     display: block;
   }
 }
+
+.fx-fade-up {
+  opacity: 0;
+  transform: translate3d(0, 24px, 0);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+  transition-delay: var(--fade-delay, 0ms);
+  will-change: opacity, transform;
+}
+
+.fx-fade-up.is-visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fx-fade-up {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
 main {
   font-family: Pretendard, sans-serif;
   margin: 0 auto;
   margin-top: 144px;
   background-color: #fff;
 }
-.header {
+.review-header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -88,8 +110,12 @@ main {
   display: flex;
   justify-content: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background-color: #fff;
 }
-.tabs-wrap {
+.review-tabs-wrap {
   max-width: 1380px;
   width: 100%;
   display: flex;
@@ -276,7 +302,7 @@ main {
   top: 130px;
   left: 78px;
   width: 1182px;
-  height: 7px;
+  height: 8px;
 }
 
 .care-process .care-process-contents .txt-box li {
@@ -352,7 +378,7 @@ main {
     top: 9.42vw;
     left: 5.652vw;
     width: 85.652vw;
-    height: 0.507vw;
+    height: 0.5797vw;
   }
 
   .care-process .care-process-contents .txt-box li {
@@ -439,7 +465,7 @@ main {
   left: 50%;
   width: 16px;
   height: 16px;
-  background-image: url("/kr/story/hands-on-reviews/img/lglife-air-conditioner/double-quotation01.png");
+  background-image: url("https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/double-quotation01.png");
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -453,7 +479,7 @@ main {
   width: 66px;
   height: 66px;
   transform: translateX(-50%);
-  background-image: url("/kr/story/hands-on-reviews/img/lglife-air-conditioner/polygon.svg");
+  background-image: url("https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/polygon.svg");
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -496,7 +522,7 @@ main {
 
 .before-after-list li::before {
   content: "";
-  background-image: url("/kr/story/hands-on-reviews/img/lglife-air-conditioner/x-btn.svg");
+  background-image: url("https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/x-btn.svg");
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -510,7 +536,7 @@ main {
 }
 
 .before-after-card.is-after .before-after-list li::before {
-  background-image: url("/kr/story/hands-on-reviews/img/lglife-air-conditioner/check-btn.svg");
+  background-image: url("https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/check-btn.svg");
 }
 
 .note {
@@ -643,11 +669,33 @@ main {
   width: 100%;
   margin: 0 auto;
   position: relative;
+  overflow: hidden;
 }
 .care-service-kv-txt {
   position: absolute;
   top: 162px;
   left: 80px;
+  z-index: 2;
+}
+.care-service-kv-img-box {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 100%;
+  height: 638px;
+}
+.care-service-kv-img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  right: 0;
+  bottom: 0;;
+  object-fit: cover;
+  object-position: center center;
+  display: block;
 }
 .care-service-kv .panel-title {
   text-align: left;
@@ -772,7 +820,177 @@ main {
   font-size: 18px;
   font-weight: 700;
   letter-spacing: -0.36px;
+  transition: background-color 0.3s ease-in-out;
 }
+.care-benefit-link:hover,
+.care-benefit-link:focus {
+  background-color: #2b2b2b;
+  color: #fff;
+}
+
+.care-benefit-expand-wrap {
+  max-width: 800px;
+  width: 100%;
+  padding: 0 32px 32px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+.care-benefit-expand-title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: -0.56px;
+  padding: 19px;
+  text-align: center;
+  border-bottom: 1px solid #DDD;
+}
+.care-benefit-expand-img {
+  width: 100%;
+  padding: 24px 0;
+  border-bottom: 1px solid #DDD;
+}
+.care-benefit-expand-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 24px;
+}
+.care-benefit-expand-item {
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 180%;
+  letter-spacing: -0.32px;
+  padding: 5.5px 0 5.5px 25px;
+  border-bottom: 1px solid #DDD;
+}
+.care-benefit-expand-item::after {
+  content: "";
+  width: 3px;
+  height: 3px;
+  background-color: #191C1F;
+  border-radius: 50%;
+  position: absolute;
+  top: 47%;
+  left: 13px;
+  transform: translateY(-50%);
+}
+.care-benefit-expand-item:nth-child(odd) {
+  border-right: 1px solid #DDD;
+}
+.care-benefit-expand {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.care-benefit-expand .care-benefit-toggle-btn {
+  width: 145px;
+  padding: 12px 0;
+  background-color: #111;
+  color: #fff;
+  border-radius: 27px;
+}
+.care-benefit-detail {
+  margin-top: 32px;
+}
+.care-benefit-detail .note {
+  margin-top: 16px;
+}
+.care-benefit-detail-box {
+  background-color: #F3F5F7;
+  padding: 32px 42px 0 62px;
+  border-radius: 20px;
+}
+.care-benefit-timeline {
+  display: flex;
+  flex-direction: column;
+}
+.care-benefit-timeline-item {
+  padding-bottom: 79px;
+  position: relative;
+}
+.care-benefit-timeline-item:last-child {
+  padding-bottom: 86px;
+}
+.care-benefit-timeline-item::after {
+  content: "";
+  width: 1px;
+  height: 85%;
+  background-color: #DB3437;
+  position: absolute;
+  bottom: 0;
+  left: -25px;
+  display: block;
+}
+.care-benefit-timeline-item::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #DB3437;
+  position: absolute;
+  top: 10px;
+  left: -28px;
+  display: block;
+}
+.care-benefit-timeline-item:nth-child(1)::after {
+  height: 92%;
+}
+.care-benefit-timeline-item:nth-child(3)::after {
+  height: 90%;
+}
+.care-benefit-timeline-title {
+  text-align: left;
+  color: #DB3437;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 158%; /* 28.44px */
+  letter-spacing: -0.36px;
+}
+.care-benefit-timeline-desc {
+  margin-top: 4px;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 28.8px */
+  letter-spacing: -0.36px;
+}
+.care-benefit-compare {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
+}
+.care-benefit-compare-col {
+    flex: 1;
+}
+.care-benefit-compare-title {
+  padding: 8px;
+  text-align: center;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.32px;
+  border-bottom: 1px solid #DDD;
+}
+.care-benefit-compare-desc {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 144%; /* 20.16px */
+  letter-spacing: -0.28px;
+  text-align: center;
+  padding: 25px;
+}
+.care-benefit-compare-col:first-child {
+  border-right: 1px solid #DDD;
+}
+
 @media screen and (max-width: 768px) {
   .care-process .care-process-contents .care-process-item {
     width: 290px;
@@ -866,7 +1084,6 @@ main {
 @media screen and (max-width: 767px) {
   main {
     margin-top: 60px;
-    margin-bottom: 80px;
   }
   .eyebrow {
     font-size: 18px;
@@ -911,7 +1128,7 @@ main {
     margin-bottom: 32px;
   }
   .contents-panel {
-    padding: 60px 20px 0 20px;
+    padding: 60px 20px 80px 20px;
   }
   .contents-panel .gray-box {
     padding: 30px 20px 24px;
@@ -1063,5 +1280,142 @@ main {
   .guide-inner .call-box .left-box {
     text-align: left;
     font-size: 32px;
+  }
+  .care-service-kv-img-box {
+    height: 320px;
+  }
+  .care-service-kv-txt {
+    width: 100%;
+    position: absolute;
+    top: 36px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    text-align: center;
+  }
+  .panel-desc {
+    max-width: none;
+    font-size: 16px;
+    line-height: 145%;
+  }
+  .care-service-kv .panel-desc,
+  .care-service-kv .panel-kicker,
+  .care-service-kv .panel-title{
+    text-align: center;
+  }
+  .panel-title:has(+ .panel-desc) {
+    margin-bottom: 4px;
+  }
+  .care-service-notice {
+    flex-direction: column;
+    padding: 16px;
+  }
+  .care-service-notice-head {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding-bottom: 12px;
+    font-size: 15px;
+  }
+  .care-service-notice-desc {
+    padding-left: 0;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 16px;
+    line-height: 145%;
+  }
+  .care-benefit {
+    margin-top: 80px;
+  }
+  .care-benefit-list {
+    height: auto;
+    flex-direction: column;
+    padding: 33px 36px;
+  }
+  .care-benefit-item {
+    border-right: none;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    height: 100%;
+    width: 100%;
+  }
+  .care-benefit-item:last-child {
+    border-bottom: 0;
+  }
+  .care-benefit-point {
+    padding: 6px 16px;
+    font-size: 12px;
+    margin-bottom: 16px;
+  }
+  .care-benefit-item-title {
+    margin-bottom: 2px;
+  }
+  .care-benefit-link {
+    font-size: 16px;
+  }
+  .care-benefit-expand-wrap {
+    margin-top: 60px;
+  }
+  .care-benefit-expand-title {
+    font-size: 20px;
+    padding: 15px;
+  }
+  .care-benefit-expand-list {
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 20px;
+  }
+  .care-benefit-expand-item {
+    font-size: 14px;
+    border-right: none !important;
+  }
+  .care-benefit-compare {
+    margin-top: 16px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .care-benefit-compare-col:first-child {
+    border-right: none;
+    border-bottom: 1px solid #000;
+  }
+  .care-benefit-detail-box {
+    padding: 24px 27px 0 40px;
+  }
+  .care-benefit-timeline-title {
+    font-size: 16px;
+  }
+  .care-benefit-timeline-desc {
+    font-size: 14px;
+  }
+  .care-benefit-compare-title {
+    padding: 6px;
+  }
+  .care-benefit-compare-desc {
+    padding: 20px;
+  }
+  .care-benefit-timeline-item {
+    padding-bottom: 40px;
+    position: relative;
+  }
+  .care-benefit-timeline-item:last-child {
+    padding-bottom: 24px;
+  }
+  .care-benefit-timeline-item::before {
+    top: 8px;
+    left: -18px;
+  }
+  .care-benefit-timeline-item::after {
+    left: -16px;
+  }
+  .care-benefit-timeline-item:nth-child(1)::after {
+    height: 94.5%;
+  }
+  .care-benefit-timeline-item:nth-child(3)::after {
+    height: 93%;
+  }
+  .care-benefit-timeline-item:nth-child(4)::after {
+    height: 82%;
   }
 }

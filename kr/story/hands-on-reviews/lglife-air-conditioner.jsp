@@ -17,32 +17,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport"
       content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="가전구독, 에어컨, 케어서비스, 케어십, LG전자" />
     <meta name="description" content="page description" />
     <meta content="NOODP, NOYDIR" name="robots" />
     <link rel="canonical" href="canonical" />
     <title>
-      구독 케어 서비스로 처음처럼 오래오래 | 리뷰 | 스토리 | LG전자
+      에어컨 구독 케어서비스 이용 후기 ㅣ 스토리 ㅣ LG전자
     </title>
 
     <meta property="fb:app_id" content="562434687259858" />
     <meta property="og:locale" content="ko_KR" />
     <meta property="og:site_name" content="LG전자" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="구독 케어 서비스로 처음처럼 오래오래 | 리뷰 | 스토리 | LG전자" />
+    <meta property="og:title" content="에어컨 구독 케어서비스 이용 후기 ㅣ 스토리 ㅣ LG전자" />
     <meta property="og:description"
-      content="눈에 보이지 않는 곳까지 깨끗해야 안심할 수 있는 에어컨, 배옥진 기자님의 실제 리뷰를 통해 구독 전문 케어 서비스의 체계적인 관리를 경험해 보세요." />
-    <meta property="og:url" content="https://www.lge.co.kr/story/lglife-air-conditioner" />
+      content="전자 산업 전문 기자 배옥진 님이 경험한 구독 케어 서비스를 만나보세요." />
+    <meta property="og:url" content="https://www.lge.co.kr/story/hands-on-reviews/lglife-air-conditioner" />
     <meta property="og:image" content="${storyMainThumbnailPath}" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="" />
+    <meta name="twitter:site" content="가전구독, 에어컨, 케어서비스, 케어십, LG전자" />
     <meta name="google-site-verification" content="kOHWY1Aua-UxMNrWwT8TnUIdw8mSZAog6615Iwc1e4w" />
     <meta content="#a50034" name="theme-color" />
 
-    <link rel="stylesheet" href="/kr/story/hands-on-reviews/css/life-style-gram-view/reset.min.css" />
-    <link rel="stylesheet" href="/kr/story/hands-on-reviews/css/life-style-gram-view/app.min.css" />
-    <link rel="stylesheet" href="/kr/story/hands-on-reviews/css/life-style-gram-view/animate.min.css" />
+    <link rel="stylesheet" href="https://www.lge.co.kr/story/hands-on-reviews/css/life-style-gram-view/animate.min.css" />
     <link rel="stylesheet" href="/kr/story/hands-on-reviews/css/life-style-gram-view/swiper.min.css" />
+    <link href="/lg5-common/css/components/KRP0016.min.css?v=20210930" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="/kr/story/hands-on-reviews/css/lglife-air-conditioner/lglife-air-conditioner.css" />
 
     <link rel="shortcut icon" href="/lg5-common/./images/favicon.ico" />
@@ -74,88 +73,513 @@
       </c:import>
       <!-- // breadcrumb -->
       <c:import url="/kr/mkt/mobileGnb" charEncoding="utf-8" />
-      <div class="sns-share">
-        <jsp:include page="/kr/story/includes/share.jsp" /><!-- 공유하기 -->
-      </div>
-      <!-- 컨텐츠 시작 -->
-      <main>
-        <div class="header">
-          <div class="eyebrow"></div>
-          <h2 class="title">구독 케어 서비스로 <br>처음처럼 오래오래</h2>
-          <h3 class="subtitle">- 전문가에게 맡기는 에어컨 관리 -</h3>
-          <p class="desc">
-            눈에 보이지 않는 곳까지 깨끗해야 안심할 수 있는 에어컨, 배옥진 기자님의 실제 리뷰를 통해 <br>구독 전문 케어 서비스의 체계적인 관리를 경험해 보세요. 
-          </p>
-        </div>
-        <div class="kv">
-          <picture>
-            <source media="(max-width: 767px)" srcset="/kr/story/hands-on-reviews/img/lglife-air-conditioner/KV_m.jpg" />
-            <img src="/kr/story/hands-on-reviews/img/lglife-air-conditioner/KV.jpg" alt="" />
-          </picture>
-        </div>
-        <div class="contents">
-          <div class="contents-intro">
-            <p class="contents-kicker">Contents</p>
-            <h3 class="contents-title">구독 케어 서비스를 한눈에 살펴보세요</h3>
-          </div>
-          <div class="contents-tabs" role="tablist" aria-label="에어컨 케어 콘텐츠 탭">
-            <button class="contents-tab is-active" id="tab-review" type="button" role="tab" aria-selected="true" aria-controls="panel-review">
-              리뷰
-            </button>
-            <button class="contents-tab" id="tab-tip" type="button" role="tab" aria-selected="false" aria-controls="panel-tip" tabindex="-1">
-              점검 TIP
-            </button>
-            <button class="contents-tab" id="tab-service" type="button" role="tab" aria-selected="false" aria-controls="panel-service" tabindex="-1">
-              케어 서비스
-            </button>
-          </div>
-          <div class="contents-panels">
-            <section class="contents-panel is-active" id="panel-review" role="tabpanel" aria-labelledby="tab-review">
-              <p class="panel-kicker">Review</p>
-              <h4 class="panel-title">실사용 리뷰로 확인하는 체감 변화</h4>
-              <p class="panel-desc">
-                구독 케어 서비스를 받은 뒤 달라진 사용감과 관리 편의성을 리뷰 형식으로 정리했습니다.
-              </p>
-              <ul class="panel-points">
-                <li>냉방 시작 직후 느껴지는 냄새와 바람의 변화를 확인</li>
-                <li>혼자 하기 어려운 내부 세척 과정을 전문 케어로 해결</li>
-                <li>정기 방문 관리로 시즌 내내 컨디션을 안정적으로 유지</li>
-              </ul>
-            </section>
-            <section class="contents-panel" id="panel-tip" role="tabpanel" aria-labelledby="tab-tip" hidden>
-              <p class="panel-kicker">Check Tip</p>
-              <h4 class="panel-title">셀프로 먼저 확인하면 좋은 점검 포인트</h4>
-              <p class="panel-desc">
-                사용 전후로 간단히 체크하면 에어컨 상태를 더 빠르게 파악할 수 있는 팁을 모았습니다.
-              </p>
-              <ul class="panel-points">
-                <li>필터 먼지량과 흡입구 막힘 여부를 주기적으로 확인</li>
-                <li>배수 주변 습기와 물맺힘이 있는지 냉방 초기에 점검</li>
-                <li>리모컨 설정 온도와 실제 체감 온도 차이를 기록해 비교</li>
-              </ul>
-            </section>
-            <section class="contents-panel care-service" id="panel-service" role="tabpanel" aria-labelledby="tab-service" hidden>
-              <p class="panel-kicker">Care Service</p>
-              <h4 class="panel-title">전문 케어 서비스에서 받을 수 있는 관리</h4>
-              <p class="panel-desc">
-                정기 점검부터 세척, 사용 습관 안내까지 구독형 케어 서비스의 핵심 항목을 담았습니다.
-              </p>
-            </section>
-          </div>
-        </div>
 
-      </main>
+      <div class="preview-shell">
+        <div class="wrap subRenewWrap subRenewWrap--share subRenewWrap--story">
+          <!-- Share -->
+          <div itemtype=http://schema.org/WebPage itemscope class="sr-only">
+            <meta itemprop="name" content="에어컨 구독 케어서비스 이용 후기 ㅣ 스토리 ㅣ LG전자" />
+            <meta itemprop="description" content="전자 산업 전문 기자 배옥진 님이 경험한 구독 케어 서비스를 만나보세요." />
+            <meta itemprop="url" content="https://www.lge.co.kr/story/hands-on-reviews/lglife-air-conditioner" />
+            <meta itemprop="image" content="https://www.lge.co.kr/lg5-common/images/common/share/share-default.jpg" />
+            <meta itemprop="Keywords" content="가전구독, 에어컨, 케어서비스, 케어십, LG전자" />
+          </div>
+          <!-- //Share -->
+          
+          <!-- 컨텐츠 시작 -->
+          <div class="component KRP0016">
+            <div class="inner">
+              <div class="sns-share">
+                <span class="btn-story-box">
+                  <button type="button" class="btn-story" onclick="location.href='/story';"><span>스토리홈</span></button>
+                </span>
+                <jsp:include page="/kr/story/includes/share.jsp" /><!-- 공유하기 -->
+              </div>
+            </div>
+          </div>
+          <main>
+            <div class="review-header">
+              <div class="eyebrow fx-fade-up" data-fade-delay="0">가전리뷰</div>
+              <h2 class="title fx-fade-up" data-fade-delay="60">구독 케어 서비스로 <br />처음처럼 오래오래</h2>
+              <h3 class="subtitle fx-fade-up" data-fade-delay="120">- 전문가에게 맡기는 에어컨 관리 -</h3>
+              <p class="desc fx-fade-up" data-fade-delay="180">
+                눈에 보이지 않는 곳까지 깨끗해야 안심할 수 있는 에어컨, 배옥진 기자님의 실제 리뷰를 통해 <br>구독 전문 케어 서비스의 체계적인 관리를 경험해 보세요.
+              </p>
+            </div>
+            <div class="kv fx-fade-up" data-fade-delay="240">
+              <picture>
+                <source media="(max-width: 767px)" srcset="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/KV_m.jpg" />
+                <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/KV.jpg" alt="" />
+              </picture>
+            </div>
+            <div class="contents">
+              <div class="contents-tabs" role="tablist" aria-label="에어컨 케어 콘텐츠 탭">
+                <div class="review-tabs-wrap">
+                  <button class="contents-tab is-active" id="tab-review" type="button" role="tab" aria-selected="true" aria-controls="panel-review">
+                    리뷰
+                  </button>
+                  <button class="contents-tab" id="tab-tip" type="button" role="tab" aria-selected="false" aria-controls="panel-tip" tabindex="-1">
+                    점검 TIP
+                  </button>
+                  <button class="contents-tab" id="tab-service" type="button" role="tab" aria-selected="false" aria-controls="panel-service" tabindex="-1">
+                    케어 서비스
+                  </button>
+                </div>
+              </div>
+              <div class="contents-panels">
+                <section class="contents-panel is-active" id="panel-review" role="tabpanel" aria-labelledby="tab-review">
+                  <p class="panel-kicker fx-fade-up" data-fade-delay="0">REVIEW</p>
+                  <h4 class="panel-title fx-fade-up" data-fade-delay="60">전자 전문 기자가 말하는 <br class="mo-only">구독 케어 서비스</h4>
+                  <div class="gray-box fx-fade-up" data-fade-delay="120">
+                    <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/panel-img01.png" art="">
+                    <div class="gray-txt-box">
+                      <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/double-quotation01.png" art="" class="quotation01">
+                      <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/double-quotation02.png" art="" class="quotation02">
+                      <h5>
+                        평소에도 꼼꼼하게 관리해 왔다고 생각했는데, <br>전문가의 케어는 다르더군요.
+                      </h5>
+                      <p>- 전자신문 배옥진 기자님 -</p>
+                    </div>
+                  </div>
+                  <div class="care-process">
+                    <h4 class=" fx-fade-up" data-fade-delay="0">케어 진행 과정</h4>
+                    <div class="care-process-contents fx-fade-up" data-fade-delay="60">
+                      <div class="care-process-item">
+                        <div class="img-box">
+                          <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/care-process01.png" art="" class="care-process-img01">
+                          <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/care-process02.png" art="" class="care-process-img02">
+                          <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/care-process03.png" art="" class="care-process-img03">
+                          <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/care-process04.png" art="" class="care-process-img04">
+                          <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/care-process05.png" art=""class="care-process-img05">
+                          <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/care-process06.png" art="" class="care-process-img06">
+                        </div>
+                        <ul class="txt-box">
+                          <li>전문 케어 매니저의 방문</li>
+                          <li>에어컨 주변 보양 작업 </li>
+                          <li>전면부 분리</li>
+                          <li>본체 및 내부 세척</li>
+                          <li>살균 · 소독 </li>
+                          <li>제품 조립 </li>
+                        </ul>
+                      </div>
+                      <picture>
+                        <source media="(max-width: 767px)" srcset="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/line_m.png" />
+                        <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/line.png" art="" class="care-process-line" />
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="care-process before-after">
+                    <h4 class=" fx-fade-up" data-fade-delay="0">BEFORE & AFTER</h4>
+                    <div class="care-process-contents fx-fade-up" data-fade-delay="60">
+                      <article class="gray-box before-after-card is-before">
+                        <p class="before-after-label">케어 전</p>
+                        <figure class="before-after-media">
+                          <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/before-after-img01.png" alt="케어 전 에어컨 내부 상태" />
+                        </figure>
+                        <blockquote class="before-after-quote">
+                          <p>
+                            겉으로는 깨끗해 보였지만, <br>에어컨 전면부를 분리하는 순간 <br class="mo-only">깜짝 놀랐어요.
+                          </p>
+                          <p>
+                            막상 내부를 보니 열교환기, <br class="mo-only">송풍 팬 곳곳에 먼지와 곰팡이가 <br class="mo-only">잔뜩 내려앉아 있더라고요.<br class="mo-only">
+                            셀프 청소만으로는 관리에 한계가<br class="mo-only"> 있다는 걸 실감했어요.
+                          </p>
+                        </blockquote>
+                        <ul class="before-after-list">
+                          <li>내부에 켜켜이 쌓인 먼지와 곰팡이</li>
+                          <li>냉방 시 미묘하게 느껴지는 냄새</li>
+                          <li>예전보다 약해진 듯한 바람 세기</li>
+                        </ul>
+                      </article>
+                      <article class="gray-box before-after-card is-after">
+                        <p class="before-after-label">케어 후</p>
+                        <figure class="before-after-media">
+                          <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/before-after-img02.png" alt="케어 후 에어컨 내부 상태" />
+                        </figure>
+                        <blockquote class="before-after-quote">
+                          <p>
+                            9년 동안 묵은 때가 말끔하게 정리되는 <br class="mo-only">걸 보니, <br class="pc-only">이래서 전문가의 관리가 <br class="mo-only">필요하구나 싶었어요.
+                          </p>
+                          <p>
+                            오래 사용해 온 에어컨을 앞으로도 <br class="mo-only">잘 쓸 수 있겠다는 <br class="pc-only">생각에 <br class="mo-only">만족감이 컸습니다.
+                          </p>
+                        </blockquote>
+                        <ul class="before-after-list">
+                          <li>분해 세척 후 내부 오염 제거</li>
+                          <li>고압 세척과 건조 후 마무리 점검</li>
+                          <li>냄새 없이 시원해진 바람</li>
+                        </ul>
+                      </article>
+                    </div>
+                    <p class="note">
+                      * 에어컨 가전 구독 및 케어십은 프리미엄, 라이트 플러스 상품 중 선택 가능하며, 신청 가능한 서비스가 상이합니다.<br>
+                      * 프리미엄 : 분해 세척 케어 서비스, 제품 성능 점검, 필터 클리닝 및 교체, 무상 A/S 제공<br>
+                      * 라이트플러스 : 기본 세척 케어 서비스, 제품 성능 점검, 필터 클리닝 및 교체, 무상 A/S 제공
+                    </p>
+                  </div>
+                </section>
+                <section class="contents-panel cleanup-tip" id="panel-tip" role="tabpanel" aria-labelledby="tab-tip" hidden>
+                  <p class="panel-kicker fx-fade-up" data-fade-delay="0">TIP</p>
+                  <h4 class="panel-title fx-fade-up" data-fade-delay="60">에어컨 청소가 필요한 순간</h4>
+                  <p class="panel-desc fx-fade-up" data-fade-delay="120">
+                    에어컨 청소 시기가 고민되신다면, <br>아래 항목에 해당하는지 확인해 보세요.
+                  </p>
+                  <div class="tip-check-list fx-fade-up" data-fade-delay="180" aria-label="에어컨 청소 필요 체크리스트">
+                    <div class="tip-check-row">
+                      <p class="tip-check-text">냉방 할 때마다 <strong>불쾌한 냄새</strong>가 날 때</p>
+                      <div class="tip-check-icon-box">
+                        <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/ico_check.svg" alt="" class="tip-check-icon" />
+                      </div>
+                    </div>
+                    <div class="tip-check-row">
+                      <p class="tip-check-text"><strong>바람 세기</strong>가 약해졌다고 느껴질 때</p>
+                      <div class="tip-check-icon-box">
+                        <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/ico_check.svg" alt="" class="tip-check-icon" />
+                      </div>
+                    </div>
+                    <div class="tip-check-row">
+                      <p class="tip-check-text">필터에 <strong>먼지가 눈에 띄게 쌓였을 때</strong></p>
+                      <div class="tip-check-icon-box">
+                        <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/ico_check.svg" alt="" class="tip-check-icon" />
+                      </div>
+                    </div>
+                    <div class="tip-check-row">
+                      <p class="tip-check-text">구매 후 <strong>1년 이상</strong> 청소하지 않았을 때</p>
+                      <div class="tip-check-icon-box">
+                        <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/ico_check.svg" alt="" class="tip-check-icon" />
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section class="contents-panel care-service" id="panel-service" role="tabpanel" aria-labelledby="tab-service" hidden>
+                  <div class="care-service-kv">
+                    <div class="care-service-kv-txt">
+                      <p class="panel-kicker fx-fade-up" data-fade-delay="0">Care Service</p>
+                      <h4 class="panel-title fx-fade-up" data-fade-delay="60">케어 서비스</h4>
+                      <p class="panel-desc fx-fade-up" data-fade-delay="120">
+                        가전 구독 시, 제품을 더 오래 더 깨끗하게<br class="mo-only"> 사용할 수 있도록 <br class="pc-only">LG전자 가전 케어 전문가가<br class="mo-only"> 정기 방문하여 관리하는 서비스
+                      </p>
+                    </div>
+                    <div class="care-service-kv-img-box">
+                      <picture>
+                        <source media="(max-width: 767px)" srcset="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/care-service-img-m.png" />
+                        <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/care-service-img.png" alt="" class="care-service-kv-img" />
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="care-service-notice fx-fade-up" data-fade-delay="0">
+                    <div class="care-service-notice-head">
+                      <img src="/kr/story/hands-on-reviews/img/lglife-air-conditioner/ico_check2.svg" alt="" class="care-service-icon" />
+                      <div class="care-service-notice-title">케어 서비스를 받고 싶은데 <br>이미 가전을 구매했다면?</div>
+                    </div>
+                    <div class="care-service-notice-desc">
+                      일시불로 구매한 제품이나 가전 구독 계약이 종료된 <br class="mo-only">제품은 케어십을 통해 관리 서비스를 이용할 수 있습니다. <br>보유 제품의 케어십 가능 여부 및 등록 방법은 <br class="mo-only">고객센터(1544-7777)로 문의해 주세요.
+                    </div>
+                  </div>
+                  <div class="care-benefit">
+                    <div class="care-benefit-title fx-fade-up" data-fade-delay="0">한눈에 보는 <br class="mo-only">구독 케어 서비스 혜택</div>
+                    <div class="care-benefit-list-wrap fx-fade-up" data-fade-delay="0">
+                      <ul class="care-benefit-list">
+                        <li class="care-benefit-item">
+                          <span class="care-benefit-point">POINT 01</span>
+                          <div class="care-benefit-item-title">초기 비용 절감</div>
+                          <p class="care-benefit-item-desc">구독 방식으로 <br>구매 부담 최소화</p>
+                        </li>
+                        <li class="care-benefit-item">
+                          <span class="care-benefit-point">POINT 02</span>
+                          <div class="care-benefit-item-title">필터 · 소모품 교체</div>
+                          <p class="care-benefit-item-desc">교체 주기에 따른 필터와 <br>소모품 정기 관리</p>
+                        </li>
+                        <li class="care-benefit-item">
+                          <span class="care-benefit-point">POINT 03</span>
+                          <div class="care-benefit-item-title">내 · 외부 토탈 클리닝</div>
+                          <p class="care-benefit-item-desc">에어컨을 깨끗하게 사용할 수 <br>있도록 서비스 제공</p>
+                        </li>
+                        <li class="care-benefit-item">
+                          <span class="care-benefit-point">POINT 04</span>
+                          <div class="care-benefit-item-title">제품 성능 점검</div>
+                          <p class="care-benefit-item-desc">연 1회 설치 환경 냉방, 배수 등의 <br>성능 점검 진행</p>
+                        </li>
+                        <li class="care-benefit-item">
+                          <span class="care-benefit-point">POINT 05</span>
+                          <div class="care-benefit-item-title">무상 A/S 가전</div>
+                          <p class="care-benefit-item-desc">가전 구독 기간 내 <br>제품 고장 시 무상 A/S 제공 </p>
+                        </li>
+                      </ul>
+                    </div>
+                    <p class="note">
+                      * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다. <br>
+                      * 무상 A/S는 고객 과실로 이한 제품 고장 및 훼손은 제외되며, 가전구독 고객에 한해 제공합니다.<br>
+                      * 무상 A/S는 케어십에는 제공되지 않습니다.
+                    </p>
+                    <a class="care-benefit-link fx-fade-up" data-fade-delay="0" href="https://www.lge.co.kr/care-solutions/rentalService-benefits">구독 할인 혜택 보러가기</a>
+                  </div>
+                  <div class="care-benefit-expand-wrap fx-fade-up" data-fade-delay="0">
+                    <h5 class="care-benefit-expand-title">라이트 플러스</h5>
+                    <div class="care-benefit-expand-content">
+                      <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/care-benefit-expand-img01.png" alt="" class="care-benefit-expand-img" />
+                    </div>
+                    <ul class="care-benefit-expand-list">
+                      <li class="care-benefit-expand-item">
+                        기본 세척 케어 서비스
+                      </li>
+                      <li class="care-benefit-expand-item">
+                        필터 클리닝 및 교체
+                      </li>
+                      <li class="care-benefit-expand-item">
+                        제품 성능 점검
+                      </li>
+                      <li class="care-benefit-expand-item">
+                        무상 A/S 제공
+                      </li>
+                    </ul>
+                    <div class="care-benefit-expand">
+                      <button type="button" class="care-benefit-toggle-btn" aria-expanded="false" aria-controls="care-benefit-detail">
+                        <span class="care-benefit-toggle-text">자세히 보기</span>
+                      </button>
+                      <div class="care-benefit-detail" id="care-benefit-detail" hidden>
+                        <div class="care-benefit-detail-box">
+                          <ol class="care-benefit-timeline">
+                            <li class="care-benefit-timeline-item">
+                              <h5 class="care-benefit-timeline-title">기본 세척</h5>
+                              <p class="care-benefit-timeline-desc">전면 커버를 분리한 뒤, 전문 장비 및 케어제를 활용해 냉방 팬 및 모듈 등 내외부를 케어합니다.</p>
+                              <div class="care-benefit-compare">
+                                <div class="care-benefit-compare-col">
+                                  <p class="care-benefit-compare-title">스탠드형</p>
+                                  <p class="care-benefit-compare-desc">전면 커버 분리 후<br>케어 서비스를 실시합니다.</p>
+                                </div>
+                                <div class="care-benefit-compare-col">
+                                  <p class="care-benefit-compare-title">벽걸이형</p>
+                                  <p class="care-benefit-compare-desc">전면 패널 분리 후<br>케어 서비스를 제공합니다.<br>(팬 및 모듈 세척)</p>
+                                </div>
+                              </div>
+                            </li>
+                            <li class="care-benefit-timeline-item">
+                              <h5 class="care-benefit-timeline-title">위생 케어</h5>
+                              <p class="care-benefit-timeline-desc">분해 세척 또는 기본 세척 케어 시 피톤치드, UV 케어를 통해 깨끗하고 위생적으로 사용하도록 관리합니다.</p>
+                            </li>
+                            <li class="care-benefit-timeline-item">
+                              <h5 class="care-benefit-timeline-title">필터 세척 및 교체</h5>
+                              <p class="care-benefit-timeline-desc">에어컨을 깨끗하게 사용할 수 있도록 공기청정 필터 교체 및 세척 서비스를 제공합니다.</p>
+                              <div class="care-benefit-compare">
+                                <div class="care-benefit-compare-col">
+                                  <p class="care-benefit-compare-title">스탠드형</p>
+                                  <p class="care-benefit-compare-desc">공기청정 기능이 있는 모델에 한해<br>필터 교체 및 세척 서비스를 실시합니다</p>
+                                </div>
+                                <div class="care-benefit-compare-col">
+                                  <p class="care-benefit-compare-title">벽걸이형</p>
+                                  <p class="care-benefit-compare-desc">공기청정 필터 교체 및<br>공기질 센서를 점검합니다.</p>
+                                </div>
+                              </div>
+                            </li>
+                            <li class="care-benefit-timeline-item">
+                              <h5 class="care-benefit-timeline-title">제품 성능 점검 및 무상 A/S</h5>
+                              <p class="care-benefit-timeline-desc">1년에 한 번 설치 환경 냉방, 배수 등의 성능을 꼼꼼하게 점검하고, 가전 구독 기간 내 제품 고장 시 무상 A/S를 제공합니다.</p>
+                            </li>
+                          </ol>
+                        </div>
+                        <p class="note">
+                          * 제공되는 서비스에 따라 케어 방식 및 장비는 상이할 수 있습니다.<br>
+                          * 케어십은 제품 구매 시점에만 신청 가능하며, 보유 제품은 신청 불가능합니다.<br>
+                          * 라이트 플러스 케어서비스는 12개월 주기로 제공되며, 기본 세척은 36/72개월 차에 진행됩니다.<br>
+                          * 라이트 플러스는 1~2월 구매 시, 같은 해 9월 방문 / 3월 구매 시, 같은 해 10월 방문 / 4월 구매 시, 같은 해 11월 방문 / 5월 구매 시, 다음 해 3월 방문 / 6월 구매 시, 다음 해 4월 방문 / 7월 구매 시, 다음 해 5월 방문 / 8월 구매 시, 다음 해 6월 방문 / 9월 구매 시, 다음 해 9월 방문 / 10월 구매 시, 다음 해 10월 방문 / 11~12월 구매 시, 다음 해 11월 방문합니다.<br>
+                          * 방문 일정은 상황에 따라 변경될 수 있으며 방문 전 케어 서비스 매니저가 사전 연락을 드립니다.<br>
+                          * 필터 세척 및 교체는 공기청정 기능이 있는 모델에 한하며, 12개월에 1회 교체 서비스 제공됩니다.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="care-benefit-expand-wrap fx-fade-up" data-fade-delay="0">
+                    <h5 class="care-benefit-expand-title">프리미엄</h5>
+                    <div class="care-benefit-expand-content">
+                      <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/care-benefit-expand-img02.png" alt="" class="care-benefit-expand-img" />
+                    </div>
+                    <ul class="care-benefit-expand-list">
+                      <li class="care-benefit-expand-item">
+                        분해 세척 케어 서비스
+                      </li>
+                      <li class="care-benefit-expand-item">
+                        필터 클리닝 및 교체
+                      </li>
+                      <li class="care-benefit-expand-item">
+                        제품 성능 점검
+                      </li>
+                      <li class="care-benefit-expand-item">
+                        무상 A/S 제공
+                      </li>
+                    </ul>
+                    <div class="care-benefit-expand">
+                      <button type="button" class="care-benefit-toggle-btn" aria-expanded="false" aria-controls="care-benefit-detail">
+                        <span class="care-benefit-toggle-text">자세히 보기</span>
+                      </button>
+                      <div class="care-benefit-detail" id="care-benefit-detail" hidden>
+                        <div class="care-benefit-detail-box">
+                          <ol class="care-benefit-timeline">
+                            <li class="care-benefit-timeline-item">
+                              <h5 class="care-benefit-timeline-title">기본 세척</h5>
+                              <p class="care-benefit-timeline-desc">전면 커버를 분리한 뒤, 전문 장비 및 케어제를 활용해 냉방 팬 및 모듈 등 내외부를 케어합니다.</p>
+                              <div class="care-benefit-compare">
+                                <div class="care-benefit-compare-col">
+                                  <p class="care-benefit-compare-title">스탠드형</p>
+                                  <p class="care-benefit-compare-desc">전면 커버 분리 후<br>케어 서비스를 실시합니다.</p>
+                                </div>
+                                <div class="care-benefit-compare-col">
+                                  <p class="care-benefit-compare-title">벽걸이형</p>
+                                  <p class="care-benefit-compare-desc">전면 패널 분리 후<br>케어 서비스를 제공합니다.<br>(팬 및 모듈 세척)</p>
+                                </div>
+                              </div>
+                            </li>
+                            <li class="care-benefit-timeline-item">
+                              <h5 class="care-benefit-timeline-title">위생 케어</h5>
+                              <p class="care-benefit-timeline-desc">분해 세척 또는 기본 세척 케어 시 피톤치드, UV 케어를 통해 깨끗하고 위생적으로 사용하도록 관리합니다. </p>
+                            </li>
+                            <li class="care-benefit-timeline-item">
+                              <h5 class="care-benefit-timeline-title">필터 세척 및 교체</h5>
+                              <p class="care-benefit-timeline-desc">에어컨을 깨끗하게 사용할 수 있도록 공기청정 필터 교체 및 세척 서비스를 제공합니다.</p>
+                            </li>
+                            <li class="care-benefit-timeline-item">
+                              <h5 class="care-benefit-timeline-title">제품 성능 점검 및 무상 A/S</h5>
+                              <p class="care-benefit-timeline-desc">1년에 한 번 설치 환경 냉방, 배수 등의 성능을 꼼꼼하게 점검하고, <br>가전 구독 기간 내 제품 고장 시 무상 A/S를 제공합니다. </p>
+                            </li>
+                          </ol>
+                        </div>
+                        <p class="note">
+                          * 제공되는 서비스에 따라 케어 방식 및 장비는 상이할 수 있습니다. <br>
+                          * 케어십은 제품 구매 시점에만 신청 가능하며, 보유 제품은 신청 불가능합니다.<br>
+                          * 프리미엄 케어서비스는 12개월 주기로 제공되며, 분해 세척은 36/72개월 차에 진행됩니다. <br>
+                          * 프리미엄은 1~3월 구매 시, 다음 해 3월 방문 / 4~6월 구매 시, 다음 해 4월 방문 / 7~8월 구매 시, <br>
+                          다음 해 5월 방문 / 9월 구매 시, 다음 해 9월 방문 / 10월 구매 시, 다음 해 10월 방문 / 11~12월 구매 시,<br>
+                          다음 해 11월 방문합니다. <br>
+                          * 케어 서비스는 1개월 주기로 실시하며 분해 세척 케어 서비스는 36개월 주기에 진행됩니다. <br>
+                          * 방문 일정은 상황에 따라 변경될 수 있으며 방문 전 케어 서비스 매니저가 사전 연락을 드립니다. <br>
+                          * 필터 세척 및 교체는 공기청정 기능이 있는 모델에 한하며, 12개월에 1회 교체 서비스 제공됩니다. 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </main>
+          <div class="guide-inner">
+            <div class="guide-box">
+              <a href="https://www.lge.co.kr/care-solutions/rentalService-aboutcare">
+                <p>케어 서비스 알아보기</p>
+                <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/arrow-btn.svg">
+              </a>
+              <a href="https://www.lge.co.kr/category/care-solutions/air-conditioner">
+                <p>에어컨 구독 시작하기</p>
+                <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/arrow-btn.svg">
+              </a>
+            </div>
+            <div class="call-box">
+              <div class="right-box">
+              <div class="call-title">구독 전문 전화 상담</div>
+              <div class="call-time">
+                평 일 09:00~18:00 / 토요일 09:00~13:00 <br>ARS 상담예약 상시 운영
+              </div>
+            </div>
+            <div class="left-box">
+              1544 - 7777
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
       <!-- 컨텐츠 끝 -->
-      <script type="text/javascript">
+      <script>
         document.addEventListener('DOMContentLoaded', function () {
           var tabs = Array.prototype.slice.call(document.querySelectorAll('.contents-tab'));
           var panels = Array.prototype.slice.call(document.querySelectorAll('.contents-panel'));
+          var contentsSection = document.querySelector('.contents');
+          var careBenefitExpandBlocks = Array.prototype.slice.call(document.querySelectorAll('.care-benefit-expand'));
+          var fadeUpTargets = Array.prototype.slice.call(document.querySelectorAll('.fx-fade-up'));
+
+          fadeUpTargets.forEach(function (el) {
+            var rawDelay = el.getAttribute('data-fade-delay');
+            var delayClass = '';
+            var delay = Number(rawDelay);
+            var classNames = Array.prototype.slice.call(el.classList);
+
+            classNames.forEach(function (className) {
+              if (className.indexOf('fx-delay-') === 0) {
+                delayClass = className;
+              }
+            });
+
+            if ((rawDelay === null || rawDelay === '') && delayClass) {
+              delay = Number(delayClass.replace('fx-delay-', ''));
+            }
+
+            if (!isNaN(delay)) {
+              el.style.setProperty('--fade-delay', delay + 'ms');
+            }
+          });
+
+          if ('IntersectionObserver' in window) {
+            var fadeObserver = new IntersectionObserver(function (entries, observer) {
+              entries.forEach(function (entry) {
+                if (!entry.isIntersecting) {
+                  return;
+                }
+
+                entry.target.classList.add('is-visible');
+                observer.unobserve(entry.target);
+              });
+            }, {
+              threshold: 0.2,
+              rootMargin: '0px 0px -8% 0px'
+            });
+
+            fadeUpTargets.forEach(function (el) {
+              fadeObserver.observe(el);
+            });
+          } else {
+            fadeUpTargets.forEach(function (el) {
+              el.classList.add('is-visible');
+            });
+          }
+
+          careBenefitExpandBlocks.forEach(function (block, index) {
+            var careBenefitToggle = block.querySelector('.care-benefit-toggle-btn');
+            var careBenefitDetail = block.querySelector('.care-benefit-detail');
+            var careBenefitToggleText = careBenefitToggle ? careBenefitToggle.querySelector('.care-benefit-toggle-text') : null;
+
+            if (!careBenefitToggle || !careBenefitDetail || !careBenefitToggleText) {
+              return;
+            }
+
+            var detailId = 'care-benefit-detail-' + (index + 1);
+            careBenefitDetail.id = detailId;
+            careBenefitToggle.setAttribute('aria-controls', detailId);
+
+            careBenefitToggle.addEventListener('click', function () {
+              var isExpanded = careBenefitToggle.getAttribute('aria-expanded') === 'true';
+              var nextExpanded = !isExpanded;
+
+              careBenefitToggle.setAttribute('aria-expanded', String(nextExpanded));
+              careBenefitDetail.hidden = !nextExpanded;
+              careBenefitToggleText.textContent = nextExpanded ? '닫기' : '자세히 보기';
+            });
+          });
 
           if (!tabs.length || !panels.length) {
             return;
           }
 
-          function activateTab(nextTab) {
+          function scrollContentsToTop() {
+            if (!contentsSection) {
+              return;
+            }
+
+            var targetTop = contentsSection.getBoundingClientRect().top + window.pageYOffset;
+            window.scrollTo({
+              top: targetTop,
+              behavior: 'smooth'
+            });
+          }
+
+          function activateTab(nextTab, shouldScrollToTop) {
             var targetId = nextTab.getAttribute('aria-controls');
 
             tabs.forEach(function (tab) {
@@ -170,11 +594,15 @@
               panel.classList.toggle('is-active', active);
               panel.hidden = !active;
             });
+
+            if (shouldScrollToTop) {
+              scrollContentsToTop();
+            }
           }
 
           tabs.forEach(function (tab, index) {
             tab.addEventListener('click', function () {
-              activateTab(tab);
+              activateTab(tab, true);
             });
 
             tab.addEventListener('keydown', function (event) {
@@ -190,7 +618,7 @@
 
               event.preventDefault();
               tabs[nextIndex].focus();
-              activateTab(tabs[nextIndex]);
+              activateTab(tabs[nextIndex], true);
             });
           });
         });
