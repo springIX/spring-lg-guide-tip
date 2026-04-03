@@ -103,6 +103,7 @@ main {
 
 .kv {
   overflow: hidden;
+  position: relative;
 }
 
 .kv img {
@@ -550,6 +551,25 @@ main {
 .note {
   width: 100%;
 }
+.kv-desc {
+  color: #F0F0F0;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: -0.24px;
+  position: absolute;
+  left: 13.5%;
+  bottom: 16px;
+  padding-left: 10px;
+}
+.kv-desc::before {
+  content: "*";
+  display: inline-block;
+  color: #F0F0F0;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
 .note li {
   padding-left: 10px;
   font-size: 14px;
@@ -950,7 +970,7 @@ main {
   position: relative;
 }
 .care-benefit-timeline-item:last-child {
-  padding-bottom: 86px;
+  padding-bottom: 32px;
 }
 .care-benefit-timeline-item::after {
   content: "";
@@ -1382,6 +1402,7 @@ main {
     padding: 0;
     padding-bottom: 12px;
     font-size: 15px;
+    gap: 10px;
   }
   .care-service-notice-desc {
     padding-left: 0;
@@ -1413,6 +1434,10 @@ main {
     font-size: 12px;
     margin-bottom: 16px;
     font-weight: 600;
+  }
+  .care-service-icon {
+    width: 20px;
+    height: 20px;
   }
   .care-service-notice-title {
     font-size: 15px;
@@ -1478,7 +1503,7 @@ main {
     position: relative;
   }
   .care-benefit-timeline-item:last-child {
-    padding-bottom: 24px;
+    padding-bottom: 25px;
   }
   .care-benefit-timeline-item::before {
     top: 8px;
@@ -1495,5 +1520,15 @@ main {
   }
   .care-benefit-timeline-item:nth-child(4)::after {
     height: 82%;
+  }
+  .kv-desc {
+    color: #444444;
+    font-size: 12px;
+    left: 19px;
+    width: 83%;
+    font-weight: 400;
+  }
+  .kv-desc::before {
+    color: #444444;
   }
 }
