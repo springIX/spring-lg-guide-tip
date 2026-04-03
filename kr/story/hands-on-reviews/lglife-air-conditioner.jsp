@@ -74,6 +74,7 @@
       <!-- // breadcrumb -->
       <c:import url="/kr/mkt/mobileGnb" charEncoding="utf-8" />
       
+      
       <div class="preview-shell">
         <div class="wrap subRenewWrap subRenewWrap--share subRenewWrap--story">
           <!-- Share -->
@@ -104,15 +105,15 @@
               <p class="desc fx-fade-up" data-fade-delay="180">
                 눈에 보이지 않는 곳까지 깨끗해야 <br class="mo-only">안심할 수 있는 에어컨, <br>'배옥진 기자님'의 실제 리뷰를 통해 <br class="mo-only"><strong>구독 전문 케어 서비스</strong>의 체계적인 관리를 <br class="mo-only">경험해 보세요.
               </p>
-              <ul class="note fx-fade-up" data-fade-delay="240">
-                <li>본 콘텐츠는 AI로 생성된 이미지가 포함되어 있습니다.</li>
-              </ul>
             </div>
             <div class="kv fx-fade-up" data-fade-delay="300">
               <picture>
                 <source media="(max-width: 767px)" srcset="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/KV_m.jpg" />
                 <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/KV.jpg" alt="" />
               </picture>
+              <p class="kv-desc">
+                소비자의 이해를 돕기 위해 생성형 AI를 활용하여 연출된 이미지로 <br class="mo-only">실제 제품과 색상 및 스펙은 다를 수 있습니다.
+              </p>
             </div>
             <div class="contents">
               <div class="contents-tabs" role="tablist" aria-label="에어컨 케어 콘텐츠 탭">
@@ -386,9 +387,9 @@
                           <li>케어십은 제품 구매 시점에만 신청 가능하며, 보유 제품은 신청 불가능합니다.</li>
                           <li>라이트 플러스 케어서비스는 12개월 주기로 제공되며, 기본 세척은 36/72개월 차에 진행됩니다.</li>
                           <li>
-                            라이트 플러스는 1~2월 구매 시, 같은 해 9월 방문 / 3월 구매 시, 같은 해 10월 방문 / 4월 구매 시, <br>
-                            같은 해 11월 방문 / 5월 구매 시, 다음 해 3월 방문 / 6월 구매 시, 다음 해 4월 방문 / 7월 구매 시, <br>
-                            다음 해 5월 방문 / 8월 구매 시, 다음 해 6월 방문 / 9월 구매 시, 다음 해 9월 방문 / 10월 구매 시, <br>
+                            라이트 플러스는 1~2월 구매 시, 같은 해 9월 방문 / 3월 구매 시, 같은 해 10월 방문 / 4월 구매 시, 
+                            같은 해 11월 방문 / 5월 구매 시, 다음 해 3월 방문 / 6월 구매 시, 다음 해 4월 방문 / 7월 구매 시, 
+                            다음 해 5월 방문 / 8월 구매 시, 다음 해 6월 방문 / 9월 구매 시, 다음 해 9월 방문 / 10월 구매 시, 
                             다음 해 10월 방문 / 11~12월 구매 시, 다음 해 11월 방문합니다.
                           </li>
                           <li>방문 일정은 상황에 따라 변경될 수 있으며 방문 전 케어 서비스 매니저가 사전 연락을 드립니다.</li>
@@ -457,8 +458,8 @@
                           <li>케어십은 제품 구매 시점에만 신청 가능하며, 보유 제품은 신청 불가능합니다.</li>
                           <li>프리미엄 케어서비스는 12개월 주기로 제공되며, 분해 세척은 36/72개월 차에 진행됩니다.</li>
                           <li>
-                            프리미엄은 1~3월 구매 시, 다음 해 3월 방문 / 4~6월 구매 시, 다음 해 4월 방문 / 7~8월 구매 시, <br>
-                            다음 해 5월 방문 / 9월 구매 시, 다음 해 9월 방문 / 10월 구매 시, 다음 해 10월 방문 / 11~12월 구매 시, <br>
+                            프리미엄은 1~3월 구매 시, 다음 해 3월 방문 / 4~6월 구매 시, 다음 해 4월 방문 / 7~8월 구매 시, 
+                            다음 해 5월 방문 / 9월 구매 시, 다음 해 9월 방문 / 10월 구매 시, 다음 해 10월 방문 / 11~12월 구매 시, 
                             다음 해 11월 방문합니다.
                           </li>
                           <li>케어 서비스는 1개월 주기로 실시하며 분해 세척 케어 서비스는 36개월 주기에 진행됩니다.</li>
