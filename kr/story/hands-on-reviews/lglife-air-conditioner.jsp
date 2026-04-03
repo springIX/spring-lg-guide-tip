@@ -85,7 +85,6 @@
             <meta itemprop="Keywords" content="가전구독, 에어컨, 케어서비스, 케어십, LG전자" />
           </div>
           <!-- //Share -->
-          
           <!-- 컨텐츠 시작 -->
           <div class="component KRP0016">
             <div class="inner">
@@ -103,10 +102,13 @@
               <h2 class="title fx-fade-up" data-fade-delay="60">구독 케어 서비스로 <br />처음처럼 오래오래</h2>
               <h3 class="subtitle fx-fade-up" data-fade-delay="120">- 전문가에게 맡기는 에어컨 관리 -</h3>
               <p class="desc fx-fade-up" data-fade-delay="180">
-                눈에 보이지 않는 곳까지 깨끗해야 <br class="mo-only">안심할 수 있는 에어컨, <br>배옥진 기자님의 실제 리뷰를 통해 <br class="mo-only"><strong>구독 전문 케어 서비스</strong>의 체계적인 관리를 <br class="mo-only">경험해 보세요.
+                눈에 보이지 않는 곳까지 깨끗해야 <br class="mo-only">안심할 수 있는 에어컨, <br>'배옥진 기자님'의 실제 리뷰를 통해 <br class="mo-only"><strong>구독 전문 케어 서비스</strong>의 체계적인 관리를 <br class="mo-only">경험해 보세요.
               </p>
+              <ul class="note fx-fade-up" data-fade-delay="240">
+                <li>본 콘텐츠는 AI로 생성된 이미지가 포함되어 있습니다.</li>
+              </ul>
             </div>
-            <div class="kv fx-fade-up" data-fade-delay="240">
+            <div class="kv fx-fade-up" data-fade-delay="300">
               <picture>
                 <source media="(max-width: 767px)" srcset="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/KV_m.jpg" />
                 <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/KV.jpg" alt="" />
@@ -244,7 +246,7 @@
                       </div>
                     </div>
                     <div class="tip-check-row">
-                      <p class="tip-check-text">구매 후 <strong>1년 이상</strong> 청소하지 않았을 때</p>
+                      <p class="tip-check-text"><strong>구매 후 1년 이상</strong> 청소하지 않았을 때</p>
                       <div class="tip-check-icon-box">
                         <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/ico_check.svg" alt="" class="tip-check-icon" />
                       </div>
@@ -336,6 +338,7 @@
                     <div class="care-benefit-expand">
                       <button type="button" class="care-benefit-toggle-btn" aria-expanded="false" aria-controls="care-benefit-detail">
                         <span class="care-benefit-toggle-text">자세히 보기</span>
+                        <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/ico_arrow.svg" alt="" class="care-benefit-toggle-icon">
                       </button>
                       <div class="care-benefit-detail" id="care-benefit-detail" hidden>
                         <div class="care-benefit-detail-box">
@@ -364,7 +367,7 @@
                               <div class="care-benefit-compare">
                                 <div class="care-benefit-compare-col">
                                   <p class="care-benefit-compare-title">스탠드형</p>
-                                  <p class="care-benefit-compare-desc">공기청정 기능이 있는 모델에 한해<br>필터 교체 및 세척 서비스를 실시합니다</p>
+                                  <p class="care-benefit-compare-desc">공기청정 기능이 있는 모델에 한해<br>필터 교체 및 세척 서비스를 실시합니다.</p>
                                 </div>
                                 <div class="care-benefit-compare-col">
                                   <p class="care-benefit-compare-title">벽걸이형</p>
@@ -416,6 +419,7 @@
                     <div class="care-benefit-expand">
                       <button type="button" class="care-benefit-toggle-btn" aria-expanded="false" aria-controls="care-benefit-detail">
                         <span class="care-benefit-toggle-text">자세히 보기</span>
+                        <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/ico_arrow.svg" alt="" class="care-benefit-toggle-icon">
                       </button>
                       <div class="care-benefit-detail" id="care-benefit-detail" hidden>
                         <div class="care-benefit-detail-box">
@@ -460,7 +464,6 @@
                           <li>케어 서비스는 1개월 주기로 실시하며 분해 세척 케어 서비스는 36개월 주기에 진행됩니다.</li>
                           <li>방문 일정은 상황에 따라 변경될 수 있으며 방문 전 케어 서비스 매니저가 사전 연락을 드립니다.</li>
                           <li>필터 세척 및 교체는 공기청정 기능이 있는 모델에 한하며, 12개월에 1회 교체 서비스 제공됩니다.</li>
-                          <li></li>
                         </ul>
                       </div>
                     </div>

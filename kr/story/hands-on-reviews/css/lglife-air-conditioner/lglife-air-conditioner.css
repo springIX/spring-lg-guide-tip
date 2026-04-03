@@ -55,8 +55,14 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 78px;
+  margin-bottom: 36px;
   text-align: center;
+}
+.review-header .note li {
+  text-align: center;
+  color: #888888;
+  display: inline-block;
+  margin-top: 32px;
 }
 
 .eyebrow {
@@ -96,7 +102,6 @@ main {
 }
 
 .kv {
-  margin-top: 56px;
   overflow: hidden;
 }
 
@@ -267,33 +272,33 @@ main {
   top: 0;
 }
 .care-process .care-process-contents .img-box img:nth-child(1) {
-  left: 40px;
+  left: 10px;
   width: 149px;
   height: 118px;
 }
 .care-process .care-process-contents .img-box img:nth-child(2) {
-  left: 277px;
+  left: 242.65px;
   width: 130px;
   height: 118px;
 }
 .care-process .care-process-contents .img-box img:nth-child(3) {
-  left: 530px;
+  left: 496.91px;
   width: 113px;
   height: 118px;
 }
 .care-process .care-process-contents .img-box img:nth-child(4) {
-  left: 745px;
+  left: 707.95px;
   width: 133px;
   height: 118px;
 }
 .care-process .care-process-contents .img-box img:nth-child(5) {
-  left: 980px;
+  left: 948.31px;
   width: 132px;
   height: 130px;
 }
 .care-process .care-process-contents .img-box img:nth-child(6) {
   top: 8px;
-  left: 1181px;
+  left: 1151.51px;
   width: 144px;
   height: 118px;
 }
@@ -900,11 +905,30 @@ main {
     align-items: center
 }
 .care-benefit-expand .care-benefit-toggle-btn {
-  width: 145px;
-  padding: 12px 0;
+  padding: 12px 32px;
   background-color: #111;
   color: #fff;
   border-radius: 27px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.care-benefit-expand .care-benefit-toggle-btn .care-benefit-toggle-text {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 158%;
+  letter-spacing: -0.36px;
+}
+.care-benefit-expand .care-benefit-toggle-btn .care-benefit-toggle-icon,
+.care-benefit-expand .care-benefit-toggle-btn img {
+  width: 12px;
+  height: 7px;
+  transition: transform 0.3s ease;
+}
+.care-benefit-expand .care-benefit-toggle-btn[aria-expanded="true"] .care-benefit-toggle-icon,
+.care-benefit-expand .care-benefit-toggle-btn[aria-expanded="true"] img {
+  transform: rotate(180deg);
 }
 .care-benefit-detail {
   margin-top: 32px;
@@ -937,6 +961,9 @@ main {
   bottom: 0;
   left: -25px;
   display: block;
+}
+.care-benefit-timeline-item:last-child:after {
+  display: none;
 }
 .care-benefit-timeline-item::before {
   content: "";
@@ -1062,6 +1089,7 @@ main {
 
   .care-process .care-process-contents .txt-box li {
     font-size: 15px;
+    font-weight: 500;
   }
 
   .care-process .care-process-contents .txt-box li:nth-child(1) {
@@ -1102,13 +1130,16 @@ main {
   }
   .eyebrow {
     font-size: 18px;
+    font-weight: 600;
   }
   .title {
     font-size: 36px;
     margin-bottom: 8px;
+    font-weight: 600;
   }
   .subtitle {
     font-size: 16px;
+    margin-bottom: 16px;
   }
   .desc {
     max-width: 305px;
@@ -1116,6 +1147,9 @@ main {
   }
   .contents-tab {
     font-size: 14px;
+  }
+  .review-header {
+    margin-bottom: 28px;
   }
   .tip-check-list {
     margin-top: 32px;
@@ -1136,11 +1170,16 @@ main {
     width: 12px;
     height: 11px;
   }
+  .panel-kicker {
+    font-size: 14px;
+    font-weight: 600;
+  }
   .panel-title {
     font-size: 28px;
     line-height: 1.5;
     letter-spacing: -0.56px;
     margin-bottom: 32px;
+    font-weight: 600;
   }
   .contents-panel {
     padding: 60px 20px 80px 20px;
@@ -1159,6 +1198,9 @@ main {
     font-size: 15px;
     line-height: 145%;
     letter-spacing: -0.3px;
+    font-weight: 600;
+    width: 84%;
+    margin: 0 auto;
   }
   .gray-txt-box .quotation01,
   .gray-txt-box .quotation02{
@@ -1181,6 +1223,7 @@ main {
   }
   .care-process h4 {
     font-size: 24px;
+    font-weight: 600;
   }
   .care-process {
     gap: 20px;
@@ -1321,6 +1364,10 @@ main {
   .panel-title:has(+ .panel-desc) {
     margin-bottom: 4px;
   }
+  .care-benefit-expand .care-benefit-toggle-btn .care-benefit-toggle-text {
+    font-size: 16px;
+    font-weight: 600;
+  }
   .care-service-notice {
     flex-direction: column;
     padding: 16px;
@@ -1365,16 +1412,32 @@ main {
     padding: 6px 16px;
     font-size: 12px;
     margin-bottom: 16px;
+    font-weight: 600;
+  }
+  .care-service-notice-title {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .care-benefit-title {
+  font-weight: 600;
+  font-size: 24px;
+  }
+  .care-benefit-list-wrap {
+        margin-top: 40px;
   }
   .care-benefit-item-title {
     margin-bottom: 2px;
+    font-weight: 600;
   }
   .care-benefit-link {
     font-size: 16px;
+    font-weight: 600;
   }
   .care-benefit-expand-wrap {
     margin-top: 60px;
+    padding: 0 16px 32px;
   }
+  
   .care-benefit-expand-title {
     font-size: 20px;
     padding: 15px;
