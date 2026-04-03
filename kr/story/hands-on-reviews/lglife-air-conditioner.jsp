@@ -41,7 +41,7 @@
 
     <link rel="stylesheet" href="https://www.lge.co.kr/story/hands-on-reviews/css/life-style-gram-view/animate.min.css" />
     <link rel="stylesheet" href="/kr/story/hands-on-reviews/css/life-style-gram-view/swiper.min.css" />
-    <link href="/lg5-common/css/components/KRP0016.min.css?v=20210930" type="text/css" rel="stylesheet">
+    <link href="https://www.lge.co.kr/lg5-common/css/components/KRP0016.min.css?v=20210930" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="/kr/story/hands-on-reviews/css/lglife-air-conditioner/lglife-air-conditioner.css" />
 
     <link rel="shortcut icon" href="/lg5-common/./images/favicon.ico" />
@@ -73,7 +73,7 @@
       </c:import>
       <!-- // breadcrumb -->
       <c:import url="/kr/mkt/mobileGnb" charEncoding="utf-8" />
-
+      
       <div class="preview-shell">
         <div class="wrap subRenewWrap subRenewWrap--share subRenewWrap--story">
           <!-- Share -->
@@ -103,7 +103,7 @@
               <h2 class="title fx-fade-up" data-fade-delay="60">구독 케어 서비스로 <br />처음처럼 오래오래</h2>
               <h3 class="subtitle fx-fade-up" data-fade-delay="120">- 전문가에게 맡기는 에어컨 관리 -</h3>
               <p class="desc fx-fade-up" data-fade-delay="180">
-                눈에 보이지 않는 곳까지 깨끗해야 안심할 수 있는 에어컨, 배옥진 기자님의 실제 리뷰를 통해 <br>구독 전문 케어 서비스의 체계적인 관리를 경험해 보세요.
+                눈에 보이지 않는 곳까지 깨끗해야 <br class="mo-only">안심할 수 있는 에어컨, <br>배옥진 기자님의 실제 리뷰를 통해 <br class="mo-only"><strong>구독 전문 케어 서비스</strong>의 체계적인 관리를 <br class="mo-only">경험해 보세요.
               </p>
             </div>
             <div class="kv fx-fade-up" data-fade-delay="240">
@@ -211,11 +211,11 @@
                         </ul>
                       </article>
                     </div>
-                    <p class="note">
-                      * 에어컨 가전 구독 및 케어십은 프리미엄, 라이트 플러스 상품 중 선택 가능하며, 신청 가능한 서비스가 상이합니다.<br>
-                      * 프리미엄 : 분해 세척 케어 서비스, 제품 성능 점검, 필터 클리닝 및 교체, 무상 A/S 제공<br>
-                      * 라이트플러스 : 기본 세척 케어 서비스, 제품 성능 점검, 필터 클리닝 및 교체, 무상 A/S 제공
-                    </p>
+                    <ul class="note">
+                      <li>에어컨 가전 구독 및 케어십은 프리미엄, 라이트 플러스 상품 중 선택 가능하며, 신청 가능한 서비스가 상이합니다.</li>
+                      <li>프리미엄 : 분해 세척 케어 서비스, 제품 성능 점검, 필터 클리닝 및 교체, 무상 A/S 제공</li>
+                      <li>라이트플러스 : 기본 세척 케어 서비스, 제품 성능 점검, 필터 클리닝 및 교체, 무상 A/S 제공</li>
+                    </ul>
                   </div>
                 </section>
                 <section class="contents-panel cleanup-tip" id="panel-tip" role="tabpanel" aria-labelledby="tab-tip" hidden>
@@ -307,11 +307,11 @@
                         </li>
                       </ul>
                     </div>
-                    <p class="note">
-                      * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다. <br>
-                      * 무상 A/S는 고객 과실로 이한 제품 고장 및 훼손은 제외되며, 가전구독 고객에 한해 제공합니다.<br>
-                      * 무상 A/S는 케어십에는 제공되지 않습니다.
-                    </p>
+                    <ul class="note">
+                      <li>소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.</li>
+                      <li>무상 A/S는 고객 과실로 이한 제품 고장 및 훼손은 제외되며, 가전구독 고객에 한해 제공합니다.</li>
+                      <li>무상 A/S는 케어십에는 제공되지 않습니다.</li>
+                    </ul>
                     <a class="care-benefit-link fx-fade-up" data-fade-delay="0" href="https://www.lge.co.kr/care-solutions/rentalService-benefits">구독 할인 혜택 보러가기</a>
                   </div>
                   <div class="care-benefit-expand-wrap fx-fade-up" data-fade-delay="0">
@@ -378,14 +378,19 @@
                             </li>
                           </ol>
                         </div>
-                        <p class="note">
-                          * 제공되는 서비스에 따라 케어 방식 및 장비는 상이할 수 있습니다.<br>
-                          * 케어십은 제품 구매 시점에만 신청 가능하며, 보유 제품은 신청 불가능합니다.<br>
-                          * 라이트 플러스 케어서비스는 12개월 주기로 제공되며, 기본 세척은 36/72개월 차에 진행됩니다.<br>
-                          * 라이트 플러스는 1~2월 구매 시, 같은 해 9월 방문 / 3월 구매 시, 같은 해 10월 방문 / 4월 구매 시, 같은 해 11월 방문 / 5월 구매 시, 다음 해 3월 방문 / 6월 구매 시, 다음 해 4월 방문 / 7월 구매 시, 다음 해 5월 방문 / 8월 구매 시, 다음 해 6월 방문 / 9월 구매 시, 다음 해 9월 방문 / 10월 구매 시, 다음 해 10월 방문 / 11~12월 구매 시, 다음 해 11월 방문합니다.<br>
-                          * 방문 일정은 상황에 따라 변경될 수 있으며 방문 전 케어 서비스 매니저가 사전 연락을 드립니다.<br>
-                          * 필터 세척 및 교체는 공기청정 기능이 있는 모델에 한하며, 12개월에 1회 교체 서비스 제공됩니다.
-                        </p>
+                        <ul class="note">
+                          <li>제공되는 서비스에 따라 케어 방식 및 장비는 상이할 수 있습니다.</li>
+                          <li>케어십은 제품 구매 시점에만 신청 가능하며, 보유 제품은 신청 불가능합니다.</li>
+                          <li>라이트 플러스 케어서비스는 12개월 주기로 제공되며, 기본 세척은 36/72개월 차에 진행됩니다.</li>
+                          <li>
+                            라이트 플러스는 1~2월 구매 시, 같은 해 9월 방문 / 3월 구매 시, 같은 해 10월 방문 / 4월 구매 시, <br>
+                            같은 해 11월 방문 / 5월 구매 시, 다음 해 3월 방문 / 6월 구매 시, 다음 해 4월 방문 / 7월 구매 시, <br>
+                            다음 해 5월 방문 / 8월 구매 시, 다음 해 6월 방문 / 9월 구매 시, 다음 해 9월 방문 / 10월 구매 시, <br>
+                            다음 해 10월 방문 / 11~12월 구매 시, 다음 해 11월 방문합니다.
+                          </li>
+                          <li>방문 일정은 상황에 따라 변경될 수 있으며 방문 전 케어 서비스 매니저가 사전 연락을 드립니다.</li>
+                          <li>필터 세척 및 교체는 공기청정 기능이 있는 모델에 한하며, 12개월에 1회 교체 서비스 제공됩니다.</li>
+                        </ul>
                       </div>
                     </div>
                   </div>
@@ -417,7 +422,7 @@
                           <ol class="care-benefit-timeline">
                             <li class="care-benefit-timeline-item">
                               <h5 class="care-benefit-timeline-title">기본 세척</h5>
-                              <p class="care-benefit-timeline-desc">전면 커버를 분리한 뒤, 전문 장비 및 케어제를 활용해 냉방 팬 및 모듈 등 내외부를 케어합니다.</p>
+                              <p class="care-benefit-timeline-desc">제품 분리 후, 전문 장비 및 케어제를 활용해 열교환기, 냉방 팬 등 내외부를 케어합니다.</p>
                               <div class="care-benefit-compare">
                                 <div class="care-benefit-compare-col">
                                   <p class="care-benefit-compare-title">스탠드형</p>
@@ -443,17 +448,20 @@
                             </li>
                           </ol>
                         </div>
-                        <p class="note">
-                          * 제공되는 서비스에 따라 케어 방식 및 장비는 상이할 수 있습니다. <br>
-                          * 케어십은 제품 구매 시점에만 신청 가능하며, 보유 제품은 신청 불가능합니다.<br>
-                          * 프리미엄 케어서비스는 12개월 주기로 제공되며, 분해 세척은 36/72개월 차에 진행됩니다. <br>
-                          * 프리미엄은 1~3월 구매 시, 다음 해 3월 방문 / 4~6월 구매 시, 다음 해 4월 방문 / 7~8월 구매 시, <br>
-                          다음 해 5월 방문 / 9월 구매 시, 다음 해 9월 방문 / 10월 구매 시, 다음 해 10월 방문 / 11~12월 구매 시,<br>
-                          다음 해 11월 방문합니다. <br>
-                          * 케어 서비스는 1개월 주기로 실시하며 분해 세척 케어 서비스는 36개월 주기에 진행됩니다. <br>
-                          * 방문 일정은 상황에 따라 변경될 수 있으며 방문 전 케어 서비스 매니저가 사전 연락을 드립니다. <br>
-                          * 필터 세척 및 교체는 공기청정 기능이 있는 모델에 한하며, 12개월에 1회 교체 서비스 제공됩니다. 
-                        </p>
+                        <ul class="note">
+                          <li>제공되는 서비스에 따라 케어 방식 및 장비는 상이할 수 있습니다. </li>
+                          <li>케어십은 제품 구매 시점에만 신청 가능하며, 보유 제품은 신청 불가능합니다.</li>
+                          <li>프리미엄 케어서비스는 12개월 주기로 제공되며, 분해 세척은 36/72개월 차에 진행됩니다.</li>
+                          <li>
+                            프리미엄은 1~3월 구매 시, 다음 해 3월 방문 / 4~6월 구매 시, 다음 해 4월 방문 / 7~8월 구매 시, <br>
+                            다음 해 5월 방문 / 9월 구매 시, 다음 해 9월 방문 / 10월 구매 시, 다음 해 10월 방문 / 11~12월 구매 시, <br>
+                            다음 해 11월 방문합니다.
+                          </li>
+                          <li>케어 서비스는 1개월 주기로 실시하며 분해 세척 케어 서비스는 36개월 주기에 진행됩니다.</li>
+                          <li>방문 일정은 상황에 따라 변경될 수 있으며 방문 전 케어 서비스 매니저가 사전 연락을 드립니다.</li>
+                          <li>필터 세척 및 교체는 공기청정 기능이 있는 모델에 한하며, 12개월에 1회 교체 서비스 제공됩니다.</li>
+                          <li></li>
+                        </ul>
                       </div>
                     </div>
                   </div>
