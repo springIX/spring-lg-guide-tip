@@ -1174,6 +1174,7 @@ padding-bottom: 8px;
 
 /* ************** INSPIRATION ************** */
 #designlg #INSPIRATION{
+  overflow: hidden;
   /* background-color: #000; */
   padding-top: 120px;
   padding-bottom: 24px;
@@ -1260,3 +1261,221 @@ padding-bottom: 8px;
   margin-top: 106px;
 }
 
+#designlg #INSPIRATION .roni-inspiration-swiper-wrap {
+  position: relative;
+  --gallery-width: calc(100vw - 64px);
+  --active-size: min(930px, calc((var(--gallery-width) - 64px) / 1.9709677419));
+  --side-size: calc(var(--active-size) * 301 / 930);
+  margin: 0 auto;
+  padding: 0;
+}
+#designlg #INSPIRATION .roni-inspiration-swiper {
+  width: calc(var(--active-size) + (var(--side-size) * 3) + 64px);
+  margin: 0 auto;
+  overflow: visible;
+}
+#designlg #INSPIRATION .roni-inspiration-swiper .swiper-wrapper {
+  align-items: flex-end;
+}
+#designlg #INSPIRATION .roni-inspiration-swiper .swiper-slide {
+  width: var(--side-size);
+  min-height: calc(var(--active-size) + 30px);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  padding-bottom: 22px;
+  overflow: visible;
+  opacity: 0.5;
+  transition: opacity 0.55s ease;
+}
+#designlg #INSPIRATION .roni-inspiration-swiper .swiper-slide-active {
+  opacity: 1;
+  z-index: 4;
+}
+#designlg #INSPIRATION .roni-inspiration-swiper .slide-media {
+  position: absolute;
+  left: 50%;
+  bottom: 22px;
+  width: var(--side-size);
+  transform: translateX(-50%);
+  aspect-ratio: 1 / 1;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #0c0f16;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.36);
+  transition: width 0.72s ease, box-shadow 0.72s ease;
+}
+#designlg #INSPIRATION .roni-inspiration-swiper .swiper-slide-active .slide-media {
+  width: var(--active-size);
+  box-shadow: 0 24px 56px rgba(0, 0, 0, 0.44);
+}
+#designlg #INSPIRATION .roni-inspiration-swiper .slide-media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.72s ease;
+}
+#designlg #INSPIRATION .roni-inspiration-swiper .swiper-slide-active .slide-media::after {
+  opacity: 0;
+}
+#designlg #INSPIRATION .roni-inspiration-swiper .slide-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#designlg #INSPIRATION .roni-inspiration-swiper .slide-disclaimer {
+  position: absolute;
+  right: calc(50% - (var(--active-size) / 2));
+  bottom: 0;
+  font-size: 11px;
+  line-height: 1.45;
+  letter-spacing: -0.22px;
+  color: rgba(255, 255, 255, 0.78);
+  text-align: right;
+  opacity: 0;
+  transition: opacity 0.5s ease 0.3s;
+}
+#designlg #INSPIRATION .roni-inspiration-swiper .swiper-slide-active .slide-disclaimer {
+  opacity: 1;
+}
+#designlg #INSPIRATION .roni-swiper-button {
+  position: absolute;
+  top: calc((var(--active-size) - 25px) / 2);
+  z-index: 11;
+  width: 61px;
+  height: 25px;
+  border: 0;
+  padding: 0;
+  background: url('/kr/story/tech-inside/img/designlg/ep03/swiper-arrow.svg') no-repeat center / contain;
+  cursor: pointer;
+  opacity: 0.86;
+  transition: opacity 0.25s ease;
+}
+#designlg #INSPIRATION .roni-swiper-button:hover,
+#designlg #INSPIRATION .roni-swiper-button:focus-visible {
+  opacity: 1;
+}
+#designlg #INSPIRATION .roni-swiper-button-prev {
+  left: 20px;
+}
+#designlg #INSPIRATION .roni-swiper-button-next {
+  right: 20px;
+  transform: rotate(180deg);
+}
+
+@media (max-width: 1199px) {
+  #designlg #INSPIRATION .roni-inspiration-swiper-wrap {
+    --gallery-width: calc(100vw - 48px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #designlg #INSPIRATION .roni-inspiration-swiper-wrap {
+    --gallery-width: 100%;
+    --active-size: 100%;
+    --side-size: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #designlg #INSPIRATION .roni-swiper-button {
+    display: none;
+  }
+  #designlg #INSPIRATION .roni-inspiration-swiper {
+    width: 100%;
+    margin: 0;
+    overflow: visible;
+  }
+  #designlg #INSPIRATION .roni-inspiration-swiper .swiper-wrapper {
+    display: block;
+    transform: none !important;
+  }
+  #designlg #INSPIRATION .roni-inspiration-swiper .swiper-slide {
+    width: 100% !important;
+    margin: 0 0 20px !important;
+    min-height: auto;
+    display: block;
+    padding-bottom: 0;
+    opacity: 1 !important;
+  }
+  #designlg #INSPIRATION .roni-inspiration-swiper .swiper-slide:last-child {
+    margin-bottom: 0 !important;
+  }
+  #designlg #INSPIRATION .roni-inspiration-swiper .slide-media {
+    position: relative;
+    left: auto;
+    bottom: auto;
+    transform: none;
+    width: 100%;
+    border-radius: 4px;
+  }
+  #designlg #INSPIRATION .roni-inspiration-swiper .slide-media::after {
+    background: rgba(0, 0, 0, 0);
+  }
+  #designlg #INSPIRATION .roni-inspiration-swiper .slide-disclaimer {
+    position: static;
+    right: auto;
+    margin-top: 8px;
+    opacity: 1;
+    font-size: 10px;
+    line-height: 1.4;
+  }
+}
+
+/* ************** BANNER ************** */
+#designlg #BANNER{
+  height: 29.1667vw;
+  min-height: 560px;
+  position: relative;
+}
+#designlg #BANNER .inwrap{
+  padding: 0 16px;
+  background: url('/kr/story/tech-inside/img/designlg/ep03/banner-img.jpg') no-repeat 60% center / cover;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  margin: 0 auto;
+}
+#designlg #BANNER .inwrap .heading{
+  display: flex;
+  padding: 9.0104vw 7.7083vw 0;
+  gap:32px;
+  overflow: visible;
+  flex-direction: column;
+  max-width: 1920px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+#designlg #BANNER .inwrap .heading .title{
+  font-size: 32px;
+  color: #111111;
+  line-height: 1.4;
+  letter-spacing: -0.64px;
+  height: auto;
+}
+#designlg #BANNER .inwrap .heading .btn-wrap {
+  display: flex;
+  gap: 16px;
+}
+#designlg #BANNER .inwrap .heading .banner-btn a{
+  border-radius: 10px;
+  background-color: #111;
+  font-size: 15px;
+  line-height: 1.7;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+  padding: 11px 16px;
+  transition: all 0.5s;
+  display: inline-block;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-weight: 700;
+}
+#designlg #BANNER .inwrap .heading .banner-btn a:hover{
+  background-color: #0A0A0A;
+  color: #F3F5F7;
+}
