@@ -1,6 +1,13 @@
 @charset "UTF-8";
 
 /* ************** 공통 ************** */
+:root{
+  --color-black:#111111;
+  --border-radius: 4px;
+}
+[hidden] {
+    display: none !important;
+}
 .sr-only {
   position: absolute;
   width: 1px;
@@ -31,6 +38,7 @@
   display:inline-block;
 }
 #designlg section .disclaimer{
+  margin-top: 12px;
   text-align: left;
 }
 #designlg section .disclaimer p{
@@ -59,6 +67,67 @@
   line-height: 1.54;
   letter-spacing: -0.24px;
   color: #6A6D70;
+}
+#designlg section .sec-inner .controller-wrap{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  right: unset;
+  bottom: unset;
+}
+#designlg section .sec-inner .controller-wrap .js-video-toggle {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border: none;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 100%;
+  cursor: pointer;
+  padding: 0;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  pointer-events: none;
+
+}
+#designlg section .sec-inner .controller-wrap .js-video-toggle{
+  width: 66px;
+  height: 66px;
+}
+
+/* 아이콘 전환 */
+#designlg section .sec-inner .controller-wrap .js-video-toggle.play {
+  background-image: url('/kr/story/tech-inside/img/designlg/icon-video-play.png');
+  opacity: 1 !important;
+}
+#designlg section .sec-inner .controller-wrap .js-video-toggle.pause {
+  background-image: url('/kr/story/tech-inside/img/designlg/icon-video-pause.png');
+}
+
+/* is-controls-visible / focus-within 일 때만 노출 */
+#designlg section .sec-inner .video-inner-wrap.is-controls-visible .js-video-toggle,
+#designlg section .sec-inner .video-inner-wrap:focus-within .js-video-toggle{
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+/* (중요) 컨트롤이 숨겨져 있을 때 오버레이가 탭을 가로채지 않도록 */
+#designlg section .sec-inner .video-inner-wrap .controller-wrap{
+  pointer-events: none;
+}
+#designlg section .sec-inner .video-inner-wrap.is-controls-visible .controller-wrap,
+#designlg section .sec-inner .video-inner-wrap:focus-within .controller-wrap{
+  pointer-events: auto;
+}
+
+#designlg section .inwrap article video{
+  border-radius: 50%;
+  transform: translateZ(0);
+  overflow: hidden;
+  display: block;
+  width: 100%;
 }
 
 #designlg section .disclaimer button::after{
@@ -148,6 +217,7 @@
   letter-spacing: -0.36px;
   width: 550px;
   font-weight: 400;
+  flex: 1;
 }
 #designlg section .content-sec .sec-head .sec-copy .copy .disclaimer{
   margin-top: 24px;
@@ -158,6 +228,14 @@
 #designlg #STORY .content-sec .disclaimer ul li .disclaimer-copy {
 padding-bottom: 8px;
 }
+#designlg section .inwrap article video{
+  border-radius: var(--border-radius);
+  transform: translateZ(0);
+  overflow: hidden;
+  display: block;
+  width: 100%;
+}
+
 
 /* ************** kv ************** */
 
@@ -491,7 +569,7 @@ padding-bottom: 8px;
 /* ************** STORY ************** */
 #designlg #STORY{
   background: linear-gradient(180deg, #040304 53.88%, #111 81.57%);
-  padding: 120px 0 130px;
+  padding: 120px 0;
   z-index: 1;
   overflow: hidden;
 }
@@ -511,10 +589,6 @@ padding-bottom: 8px;
 #designlg #STORY .content-sec.sec1{
   position: relative;
   display: grid;
-  grid-auto-columns: 1fr 1fr 1fr;
-}
-#designlg #STORY .content-sec.sec1 .sec-inner{
-  grid-column: 2 / 4;
 }
 #designlg #STORY .content-sec.sec1 .sec-inner .sec-head{
   transform: translateY(10%);
@@ -532,26 +606,24 @@ padding-bottom: 8px;
   transform: translateY(0);
   opacity: 1;
 }
-#designlg #STORY .content-sec.sec1 .cnt-slide-wrap{
+#designlg #STORY .content-sec.sec1 .sec-cnt {
   margin-top: 60px;
 }
-#designlg #STORY .content-sec.sec1 .cnt-slide-wrap .swiper-story{
-  border-radius: 4px;
-  overflow: hidden;
-}
-#designlg #STORY .content-sec.sec1 .cnt-slide-wrap .disclaimer{
-  margin-top: 16px;
-}
-#designlg #STORY .content-sec.sec1 .cnt-slide-wrap .swiper-pagination{
-  font-size: 10px;
-  line-height: 1;
-}
-#designlg #STORY .content-sec.sec1 .cnt-slide-wrap .swiper-pagination .swiper-pagination-bullet{
-  margin: 0 0 0 8px;
-}
+
 
 #designlg #STORY .content-sec.sec2{
-  padding-top: 240px;
+  padding: 240px 16px 0;
+}
+#designlg #STORY .content-sec.sec2 .sec-head{
+  max-width: 1210px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+#designlg #STORY .content-sec.sec2 .sec-cnt .disclaimer{
+  margin-top: 24px;
+}
+#designlg #STORY .content-sec.sec2 .sec-cnt{
+  margin-top: 53px;
 }
 #designlg #STORY .content-sec.sec2 .sec-inner .sec-head{
   transform: translateY(10%);
@@ -569,74 +641,622 @@ padding-bottom: 8px;
   transform: translateY(0);
   opacity: 1;
 }
-#designlg #STORY .content-sec.sec2 .sec-cnt{
-  margin-top: 78px;
-}
-#designlg #STORY .content-sec.sec2 .sec-cnt ul{
-  display: flex;
-  justify-content: flex-start;
-  gap: 175px;
-}
-#designlg #STORY .content-sec.sec2 .sec-cnt>ul>li{
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-#designlg #STORY .content-sec.sec2 .sec-cnt ul .sec-cnt-video{
-  width: 1253px;
-}
-#designlg #STORY .content-sec.sec2 .sec-cnt ul .sec-cnt-video video{
-  border-radius: 4px;
-  transform:translateZ(0);
-  overflow: hidden;
-  display: block;
-}
-#designlg #STORY .content-sec.sec2 .sec-cnt ul .sec-cnt-img{
-  width: 468px;
-}
-#designlg #STORY .content-sec.sec2 .sec-cnt ul .sec-cnt-img img{
-  border-radius: 4px;
-  overflow: hidden;
-}
-#designlg #STORY .content-sec.sec3{
-  padding: 220px 0 0;
-}
-#designlg #STORY .content-sec.sec3 .sec-head,
-#designlg #STORY .content-sec.sec3 .sec-cnt .disclaimer{
-  max-width: 1210px;
-  padding: 0 16px;
-  margin: 0 auto;
-}
-#designlg #STORY .content-sec.sec3 .sec-cnt .disclaimer{
-  margin-top: 24px;
-}
-#designlg #STORY .content-sec.sec3 .sec-cnt{
-  margin-top: 60px;
-}
-#designlg #STORY .content-sec.sec3 .sec-inner .sec-head{
-  transform: translateY(10%);
-  opacity: 0;
-  transition: all 0.8s ease-in-out;
-}
-#designlg #STORY .content-sec.sec3 .sec-inner .sec-cnt{
-  transform: translateY(5%);
-  opacity: 0;
-  transition: all 0.5s ease-in-out;
-  transition-delay: 0.4s;
-}
-#designlg #STORY .content-sec.sec3.on .sec-inner .sec-head,
-#designlg #STORY .content-sec.sec3.on .sec-inner .sec-cnt{
-  transform: translateY(0);
-  opacity: 1;
-}
-#designlg #STORY .content-sec.sec3 .sec-cnt .swiper-lineup .swiper-wrapper {
+#designlg #STORY .content-sec.sec2 .sec-cnt .swiper-lineup .swiper-wrapper {
   transition-timing-function: linear !important
 }
-#designlg #STORY .content-sec.sec3 .sec-cnt .swiper-lineup .swiper-wrapper .swiper-slide{
+#designlg #STORY .content-sec.sec2 .sec-cnt .swiper-lineup .swiper-wrapper .swiper-slide{
   width: 414px;
   pointer-events: none;
+}
+
+
+#designlg #STORY .content-sec.sec3{
+  padding-top: 206px;
+  max-width: 1517px;
+  margin: 0 auto;
+}
+#designlg #STORY .content-sec.sec3 .sec-head{
+  position: relative;
+  box-sizing: border-box;
+}
+
+#designlg #STORY .content-sec.sec3 .sec-cnt{
+  margin-top: 52px;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+#designlg #STORY .content-sec .sec-head .sec-copy {
+  display: flex;
+  gap: 20px;
+}
+#designlg #STORY .content-sec.sec3 .caption{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 12px;
+  justify-content: space-between;
+  gap: 5px;
+}
+#designlg #STORY .content-sec.sec3 .caption .caption-desc{
+  width: 48%;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.58;
+  letter-spacing: -0.36px;
 }
 
 #designlg #STORY .inwrap .heading .title img{
   filter: invert(1);
 }
+
+#designlg section .sec-inner video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+
+/* ************** DESIGN ************** */
+#designlg #DESIGN{
+  background-color: #F3F3F3;
+  padding: 120px 0;
+}
+#designlg #DESIGN .inwrap{
+  max-width: 1920px;
+  padding: 0 16px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+#designlg #DESIGN .heading{
+  margin-bottom: 115px;
+}
+#designlg #DESIGN .content-sec .sec-head .sec-title,
+#designlg #DESIGN .content-sec .sec-head .sec-copy .copy{
+  color: #000;
+}
+#designlg #DESIGN .content-sec .sec-cnt {
+  margin-top: 60px;
+}
+/* DESIGN sec1 image ratio
+ * left  : 1252 x 1000
+ * right :  620 x 1000 (620 x 493 image x 2, vertical stack)
+ */
+#designlg #DESIGN .content-sec.sec1 .sec-cnt .cnt-img {
+  display: flex;
+  align-items: stretch;
+  gap: 16px;
+}
+#designlg #DESIGN .content-sec.sec1 .sec-cnt .cnt-img .left-img {
+  width: 100%;
+  max-width: calc(1252 / (1252 + 620) * 100%);
+  aspect-ratio: 1252 / 1000;
+  border-radius: 4px;
+  overflow: hidden;
+}
+#designlg #DESIGN .content-sec.sec1 .sec-cnt .cnt-img > ul {
+  width: 100%;
+  max-width: calc(620 / (1252 + 620) * 100%);
+  aspect-ratio: 620 / 1000;
+  display: grid;
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  row-gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#designlg #DESIGN .content-sec.sec1 .sec-cnt .cnt-img > ul > li {
+  min-height: 0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+#designlg #DESIGN .content-sec.sec1 .sec-cnt .cnt-img picture,
+#designlg #DESIGN .content-sec.sec1 .sec-cnt .cnt-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#designlg #DESIGN .content-sec.sec1 .sec-cnt .cnt-img img {
+  object-fit: contain;
+  object-position: center;
+}
+#designlg #DESIGN .content-sec.sec2 {
+  margin-top: 240px;
+}
+#designlg #DESIGN .content-sec.sec2 .sec-cnt .cnt-img {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+#designlg #DESIGN .content-sec.sec2 .sec-cnt .cnt-img .left-img{
+  width: 100%;
+  flex: 1;
+}
+#designlg #DESIGN .content-sec.sec2 .sec-cnt .cnt-img ul{
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+#designlg #DESIGN .content-sec.sec2 .sec-cnt .cnt-img ul li {
+  flex: 1;
+  width: 100%;
+}
+#designlg #DESIGN .content-sec.sec2 .sec-cnt .cnt-img .caption{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 12px;
+  justify-content: space-between;
+  gap: 5px;
+}
+#designlg #DESIGN .content-sec.sec2 .sec-cnt .cnt-img .caption .caption-desc{
+  width: 48%;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.58;
+  letter-spacing: -0.36px;
+  color: #111;
+}
+#designlg #DESIGN .content-sec.sec2 .sec-cnt .cnt-img .caption .disclaimer{
+  max-width: 506px;
+  margin-top: 3.5px;
+}
+
+
+#designlg #DESIGN .content-sec.sec3 .sec-cnt .cnt-img-wrap{
+  margin-top: 240px;
+}
+#designlg #DESIGN .content-sec.sec4 {
+  margin-top: 240px;
+}
+#designlg #DESIGN .content-sec.sec4 .sec-inner .sec-head {
+  max-width: 1254px;
+  width: 100%;
+  margin: 0 auto;
+  transform: translateY(10%);
+  transition: all 0.8s ease-in-out;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-bottom: 60px;
+}
+#designlg #DESIGN .content-sec.sec4 .sec-head .sec-copy {
+  grid-column: 3;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#designlg #DESIGN .content-sec.sec4 .sec-cnt ul {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+#designlg #DESIGN .content-sec.sec4 .sec-cnt ul li {
+  border-radius: 4px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 460px;
+}
+#designlg #DESIGN .content-sec.sec4 .sec-cnt ul li:nth-child(2){
+  width: 100%;
+  max-width: 936px;
+  aspect-ratio: 936 / 990;
+}
+
+#designlg #DESIGN .content-sec.sec4 .sec-cnt .cnt-img .caption{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 12px;
+  justify-content: space-between;
+  gap: 5px;
+}
+#designlg #DESIGN .content-sec.sec4 .sec-cnt .cnt-img .caption .caption-desc{
+  width: 48%;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.58;
+  letter-spacing: -0.36px;
+  color: #111;
+}
+#designlg #DESIGN .content-sec.sec4 .sec-cnt .cnt-img ul li:nth-child(1) .caption .caption-desc,
+#designlg #DESIGN .content-sec.sec4 .sec-cnt .cnt-img ul li:nth-child(3) .caption .caption-desc {
+  width: 61%;
+}
+#designlg #DESIGN .content-sec.sec4 .sec-cnt .cnt-img .caption .disclaimer{
+  max-width: 506px;
+  margin-top: 3.5px;
+}
+/* ************** INTERVIEW ************** */
+#designlg #INTERVIEW{
+  background-color: #EEECF0;
+  padding-top: 120px;
+  position: relative;
+}
+#designlg #INTERVIEW .inwrap{
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0 auto;
+}
+#designlg #INTERVIEW .inwrap .heading{
+  padding-left: 16px;
+  padding-right:16px;
+  box-sizing: border-box;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+#designlg #INTERVIEW .heading .desc{
+  padding: 80px 0 60px;
+  font-size: 18px;
+  line-height: 1.8;
+  letter-spacing: -0.36px;
+  color: #111;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  transition-delay: 0.3s;
+  font-weight: 500;
+}
+#designlg #INTERVIEW.on .heading .desc{
+  opacity: 1;
+}
+#designlg #INTERVIEW .content{
+  position: relative;
+  opacity: 0;
+  transition: opacity 0.5s;
+  transition-delay: 0.5s;
+}
+#designlg #INTERVIEW.on .content{
+  opacity: 1;
+}
+
+
+#designlg #INTERVIEW .inwrap .content{
+  background-color: #FAFAFA;
+  min-height: calc(100vh - 52px);
+  overflow: visible;
+
+}
+
+
+#designlg #INTERVIEW .inwrap .content .content-inner{
+  padding:0;
+  box-sizing: border-box;
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  height: 100%;
+  overflow: visible;
+  min-height: calc(100vh - 52px);
+}
+#designlg #INTERVIEW .inwrap .people-list{
+  width: 34.8542vw;
+  max-width: 650px;
+  padding: 60px 30px;
+  box-sizing: border-box;
+  border-left: 1px solid #DDD;
+  position: sticky;
+  top:8px;
+  align-self: flex-start;
+}
+/* (전체 높이 - sticky top - people-list padding-top - padding-bottom) */
+#designlg #INTERVIEW .inwrap .people-list .people-sticky{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  height: 100vh;
+  box-sizing: border-box;
+  max-height: calc(100vh - 52px - 8px - 8px); 
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+#designlg #INTERVIEW .inwrap .people-list .tag-wrap{
+  display: flex;
+  gap: 7px;
+  flex-direction: column;
+}
+#designlg #INTERVIEW .inwrap .people-list .tag-wrap button span{
+  display: inline-block;
+}
+#designlg #INTERVIEW .inwrap .people-list .tag-wrap button .tag{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: -0.32px;
+  text-align: left;
+  color: rgba(17, 17, 17, 0.7);
+  transition: color 0.5s ease-in-out;
+  
+}
+
+#designlg #INTERVIEW .inwrap .people-list .tag-wrap button.is-active .tag{
+  color: #373739;
+  font-weight: 700;
+}
+
+
+
+#designlg #INTERVIEW .inwrap .people-list .people-detail-wrap{
+  margin-top: auto;
+}
+#designlg #INTERVIEW .inwrap .people-list .people-detail-wrap .interview-people{
+  display: flex;
+  flex-direction: column;
+}
+#designlg #INTERVIEW .inwrap .people-list .people-detail-wrap .interview-people .img{
+  max-width: 100px;
+  margin-bottom: 24px;
+}
+#designlg #INTERVIEW .inwrap .people-list .people-detail-wrap .interview-people .name{
+  margin-bottom: 2px;
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: -0.56px;
+  font-weight: 700;
+  color: #1A1816;
+}
+#designlg #INTERVIEW .inwrap .people-list .people-detail-wrap .interview-people .group{
+  margin-bottom: 8px;
+  font-size: 20px;
+  line-height: 1.8;
+  letter-spacing: -0.36px;
+  color: #111111;
+}
+#designlg #INTERVIEW .inwrap .people-list .people-detail-wrap .interview-people .comment{
+  font-size: 14px;
+  line-height: 1.6;
+  letter-spacing: -0.26px;
+  color: #111111;
+  padding-bottom: 8px;
+}
+
+
+
+#designlg #INTERVIEW .inwrap .qna-wrap{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list{
+  padding-bottom: 350px;
+  padding-top: 60px;
+  border-top: 1px solid rgba(221, 221, 221, 0.15);
+}
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list:first-child{
+  border-top: 0;
+}
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dl{
+  padding: 0 16px;
+}
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dt{
+  padding-bottom: 44px;
+}
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dt h3{
+  display: flex;
+  gap: 11px;
+  align-items: flex-start;
+
+}
+
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dt span{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.58;
+  letter-spacing: -0.36px;
+  color: #444444;
+}
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dt span:first-child{
+  flex: 0 0 auto;
+}
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dt span:last-child{
+  flex: 1 1 auto;
+}
+/* 인터뷰: 인물 탭 선택 후 첫 질문(dt/h3)으로 포커스 이동 시 표시 */
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list .is-interview-qna-keyboard-focus{
+  outline: 3px solid currentColor !important;
+  outline-offset: 4px !important;
+  border-radius: 2px;
+}
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd{
+  margin-bottom: 60px;
+  padding: 30px 37px 30px 30px;
+  background-color: #EEECF0;
+  border-radius: var(--border-radius);
+  box-sizing: border-box;
+}
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd:last-child{
+  margin-bottom: 0;
+}
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd>p{
+  font-size: 18px;
+  line-height: 1.8;
+  letter-spacing: -0.36px;
+  color: #111111;
+  font-weight: 500;
+}
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd>p sup{
+  color: var(--color-black);
+}
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd .qna-img{
+  max-width: 1167px;
+  margin: 44px auto 0;
+  list-style: none;
+  padding: 0;
+  box-sizing: border-box;
+}
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd .qna-img li{
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd .qna-img li .caption{
+  display: inline-flex;
+  justify-content: flex-end;
+  color: #2E2C27;
+  font-size: 18px;
+  line-height: 1.8;
+  letter-spacing: -0.36px;
+  font-weight: 500;
+  text-align: right;
+}
+
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd .disclaimer{
+  margin-top: 60px;
+}
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd .disclaimer p,
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd .disclaimer li{
+  color: #2A2926;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: -0.28px;
+  font-weight: 500;
+}
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd .disclaimer p::before{
+  color: #2A2926;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: -0.28px;
+  font-weight: 500;
+}
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd .disclaimer .disclaimer-sub-tit{
+  color: #2A2926;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: -0.28px;
+  font-weight: 500;
+}
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd .disclaimer button{
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: -0.28px;
+  font-weight: 500;
+  color: #2A2926;
+  padding-top: 5px;
+}
+
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd .disclaimer button::after{
+  background-image: url('/kr/story/tech-inside/img/designlg/icon-arrow-up-black.png');
+  width: 20px;
+  height: 20px;
+  transform: rotate(180deg);
+}
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd .disclaimer button[aria-expanded="true"]::after, 
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd .disclaimer button[aria-selected="true"]::after{
+  transform: rotate(0deg);
+}
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dl+.disclaimer{
+  padding: 0 16px;
+}
+
+
+
+/* ************** INTERVIEW MODAL POPUP ************** */
+#designlg #INTERVIEWMODAL .modal-content{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+#designlg #INTERVIEWMODAL .modal-content>div{
+  flex-grow: 1;
+  width: 50%;
+}
+
+
+/* ************** INSPIRATION ************** */
+#designlg #INSPIRATION{
+  /* background-color: #000; */
+  padding-top: 120px;
+  padding-bottom: 24px;
+  position: relative;
+  background: #000 url('/kr/story/tech-inside/img/designlg/wash-tower/inspiration-bg.webp') no-repeat right bottom / cover;
+}
+#designlg #INSPIRATION .inwrap{
+  padding: 0 16px;
+  max-width: 1920px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+#designlg #INSPIRATION .inwrap .heading{
+  margin-bottom: 50px;
+}
+#designlg #INSPIRATION .inwrap .heading .eyebrow span{
+  color: #94989C;
+}
+
+
+#designlg #INSPIRATION .inwrap .insp-line-wrap {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 5;
+  pointer-events: none;
+}
+
+#designlg #INSPIRATION .inwrap .insp-line-wrap .insp-line {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background: #000;
+  height: 50%;
+  z-index: 6;
+  transition: height 1.2s ease-in-out;
+  transition-delay: 0.8s;
+}
+#designlg #INSPIRATION.on .inwrap .insp-line-wrap .insp-line--top {
+  top: 0;
+  transform-origin: 50% 0%;
+
+}
+#designlg #INSPIRATION.on .inwrap .insp-line-wrap .insp-line--bottom {
+  bottom: 0;
+  transform-origin: 50% 100%;
+
+}
+
+#designlg #INSPIRATION .inwrap .insp-line-wrap .insp-line--top::after,
+#designlg #INSPIRATION .inwrap .insp-line-wrap .insp-line--bottom::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: rgba(255,255,255,0.15);
+}
+#designlg #INSPIRATION.on .inwrap .insp-line-wrap .insp-line--top,
+#designlg #INSPIRATION.on .inwrap .insp-line-wrap .insp-line--bottom {
+ 
+  height: 0%;
+  
+}
+#designlg #INSPIRATION .inwrap .insp-line-wrap .insp-line--top::after {
+  bottom: -1px;
+}
+#designlg #INSPIRATION .inwrap .insp-line-wrap .insp-line--bottom::after {
+  top: -1px;
+}
+
+/* GALLERY 영역(검은 박스) */
+#designlg #INSPIRATION .inwrap .content {
+  position: relative;
+  z-index: 1;
+  transition: none;
+  padding: 20px 0 40px;
+}
+
+
+#designlg #INSPIRATION .inwrap .disclaimer{
+  margin-top: 106px;
+}
+
