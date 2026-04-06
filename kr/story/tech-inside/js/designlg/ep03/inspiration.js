@@ -4,6 +4,22 @@
   var swiperInstance = null;
   var resizeTimer = null;
 
+  function applyDesktopSlideWidths(swiper) {
+    if (!swiper || !swiper.slides || !swiper.slides.length) return;
+
+    for (var i = 0; i < swiper.slides.length; i += 1) {
+      swiper.slides[i].style.width =
+        i === swiper.activeIndex ? "var(--active-size)" : "var(--side-size)";
+    }
+  }
+
+  function refreshDesktopLayout(swiper) {
+    if (!swiper) return;
+    applyDesktopSlideWidths(swiper);
+    swiper.update();
+    swiper.slideTo(swiper.activeIndex, 0, false);
+  }
+
   function isMobileView() {
     return window.matchMedia("(max-width: 767px)").matches;
   }
@@ -13,6 +29,7 @@
     if (!swiperEl || typeof Swiper === "undefined" || swiperInstance || isMobileView()) return;
 
     swiperInstance = new Swiper(swiperEl, {
+      loop: true,
       centeredSlides: true,
       slidesPerView: "auto",
       spaceBetween: 16,
@@ -24,6 +41,14 @@
       navigation: {
         nextEl: ".roni-swiper-button-next",
         prevEl: ".roni-swiper-button-prev",
+      },
+      on: {
+        init: function () {
+          refreshDesktopLayout(this);
+        },
+        slideChange: function () {
+          refreshDesktopLayout(this);
+        },
       },
     });
   }

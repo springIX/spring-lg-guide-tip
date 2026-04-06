@@ -1264,8 +1264,8 @@ padding-bottom: 8px;
 #designlg #INSPIRATION .roni-inspiration-swiper-wrap {
   position: relative;
   --gallery-width: calc(100vw - 64px);
-  --active-size: min(930px, calc((var(--gallery-width) - 64px) / 1.9709677419));
-  --side-size: calc(var(--active-size) * 301 / 930);
+  --active-size: 930px;
+  --side-size: 301px;
   margin: 0 auto;
   padding: 0;
 }
@@ -1289,9 +1289,10 @@ padding-bottom: 8px;
   padding-bottom: 22px;
   overflow: visible;
   opacity: 0.5;
-  transition: opacity 0.55s ease;
+  transition: width 0.72s ease, opacity 0.55s ease;
 }
 #designlg #INSPIRATION .roni-inspiration-swiper .swiper-slide-active {
+  width: var(--active-size);
   opacity: 1;
   z-index: 4;
 }
