@@ -1271,6 +1271,7 @@ caption.show {
   .tb-scroll-x .tb-data {
     max-width: none;
     min-width: 100%;
+    width: -moz-fit-content;
     width: fit-content;
     table-layout: fixed;
   }
@@ -1426,75 +1427,40 @@ caption.show {
 }
 /* ************* Animation ************* */
 .animate__fadeInUp {
-  -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
 
 .animate__animated {
-  -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
 
 .animate__animated:not(.ani) {
   opacity: 0;
-  -webkit-animation-name: none;
   animation-name: none;
 }
 
 .animate__animated.ani_out {
-  -webkit-animation-duration: 0.6s;
   animation-duration: 0.6s;
-  -webkit-animation-name: aniOut;
   animation-name: aniOut;
-}
-
-@-webkit-keyframes fadeInUp {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 20vh, 0);
-    transform: translate3d(0, 20vh, 0);
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-  }
 }
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(0, 20vh, 0);
     transform: translate3d(0, 20vh, 0);
   }
   to {
     opacity: 1;
-    -webkit-transform: translateZ(0);
     transform: translateZ(0);
-  }
-}
-@-webkit-keyframes aniOut {
-  from {
-    opacity: 1;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-  }
-  to {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 20vh, 0);
-    transform: translate3d(0, 20vh, 0);
   }
 }
 @keyframes aniOut {
   from {
     opacity: 1;
-    -webkit-transform: translateZ(0);
     transform: translateZ(0);
   }
   to {
     opacity: 0;
-    -webkit-transform: translate3d(0, 20vh, 0);
     transform: translate3d(0, 20vh, 0);
   }
 }
@@ -1611,6 +1577,7 @@ caption.show {
 
 .circle-btn {
   display: block;
+  width: -moz-max-content;
   width: max-content;
   font-size: 2.2rem;
   font-weight: 500;
@@ -1680,7 +1647,8 @@ caption.show {
 .col2-layout-field .vid-box img, .col2-layout-field .vid-box video {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .col2-layout-field.right .vid-box {
@@ -1691,7 +1659,8 @@ caption.show {
 .col2-layout-field .vid-box video {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .col2-layout-field .tit {
@@ -2034,6 +2003,7 @@ caption.show {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .container-vacuum-cleaner #section04 .intake-gray-box .part-type-list {
+  width: -moz-max-content;
   width: max-content;
 }
 .container-vacuum-cleaner #section04 .intake-gray-box .part-type-list .part-tit {
@@ -2112,7 +2082,8 @@ caption.show {
 .prod-list02.ty_2 .thumb img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   position: absolute;
   left: 0;
   top: 0;
@@ -2390,4 +2361,4 @@ caption.show {
     margin-top: 0.4rem;
     font-size: 1rem;
   }
-}
+}/*# sourceMappingURL=basic-spec-vacuum-cleaner.css.map */
