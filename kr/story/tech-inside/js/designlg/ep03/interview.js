@@ -30,6 +30,7 @@
     }
 
     var SCROLL_OFFSET = 0;
+    var MOBILE_MEDIA_QUERY = "(max-width: 767px)";
 
     // ================================
     // 스크롤 이동 후 Q&A 영역으로 포커스 (nav → 섹션 타이틀과 동일 패턴)
@@ -123,7 +124,7 @@
     // tag / writer 표시 토글
     // ================================
     function updateTagWriterVisibility() {
-      var isMobile = window.matchMedia("(max-width: 768px)").matches;
+      var isMobile = window.matchMedia(MOBILE_MEDIA_QUERY).matches;
 
       tagWrapBtns.forEach(function (btn) {
         var tagEl    = btn.querySelector('.tag');
@@ -148,7 +149,7 @@
     function updateTagPrevNext() {
       if (!tagWrapBtns.length) return;
     
-      var isMobileView = window.matchMedia("(max-width: 768px)").matches;
+      var isMobileView = window.matchMedia(MOBILE_MEDIA_QUERY).matches;
       var tagLis = [].slice.call(section.querySelectorAll('.tag-wrap > li'));
     
       // ✅ 데스크톱(웹)에서는 currentPersonId 유무와 상관없이 무조건 초기화
@@ -307,7 +308,7 @@
           qnaList.forEach(function (q) { q.classList.remove('is-active'); });
           qna.classList.add('is-active');
 
-          var isMobile = window.matchMedia("(max-width: 768px)").matches;
+          var isMobile = window.matchMedia(MOBILE_MEDIA_QUERY).matches;
           if (isMobile) {
             // ✅ 모바일: detail은 여기서 안 바꿈
             activatePersonUI(personId, false, { skipDetail: true });
@@ -320,7 +321,7 @@
           qnaList.forEach(function (q) { q.classList.remove('is-active'); });
           qna.classList.add('is-active');
 
-          var isMobile = window.matchMedia("(max-width: 768px)").matches;
+          var isMobile = window.matchMedia(MOBILE_MEDIA_QUERY).matches;
           if (isMobile) {
             // ✅ 모바일: (아래에서 위로) 다시 end를 넘어 재진입하면 현재 detail로 복귀
             activatePersonUI(personId, false, { skipDetail: true });
@@ -332,7 +333,7 @@
 
         // ✅ 여기부터가 "end 지나면 토글" 핵심
         onLeave: function () {
-          var isMobile = window.matchMedia("(max-width: 768px)").matches;
+          var isMobile = window.matchMedia(MOBILE_MEDIA_QUERY).matches;
           if (!isMobile) return;
 
           // 아래로 내려서 end를 지나면 → 다음 사람 detail로 토글
@@ -340,7 +341,7 @@
         },
 
         onLeaveBack: function () {
-          var isMobile = window.matchMedia("(max-width: 768px)").matches;
+          var isMobile = window.matchMedia(MOBILE_MEDIA_QUERY).matches;
           if (!isMobile) return;
 
           // 위로 올라가서 start를 지나면 → 이전 사람 detail로 토글
@@ -404,7 +405,7 @@
     function initMobileStickyBehavior() {
       killMobileStickyTriggers();
 
-      var isMobile = window.matchMedia("(max-width: 768px)").matches;
+      var isMobile = window.matchMedia(MOBILE_MEDIA_QUERY).matches;
       if (!isMobile) {
         if (peopleList) {
           peopleList.classList.remove("mobile-hidden", "mobile-show");
@@ -416,8 +417,9 @@
       // ✅ 초기 상태: hidden
       setPeopleListState("hidden");
 
-      // 1) #qna-LGA 내 첫 .qna-item 기준
-      var firstItem = section.querySelector("#qna-LGA .qna-item");
+      // 1) 첫 Q&A block의 .qna-item 기준
+      var firstQnaList = qnaList[0] || section.querySelector(".qna-wrap .qna-list");
+      var firstItem = firstQnaList ? firstQnaList.querySelector(".qna-item") : null;
       if (firstItem) {
         var qnaTopST = ScrollTrigger.create({
           trigger: firstItem,

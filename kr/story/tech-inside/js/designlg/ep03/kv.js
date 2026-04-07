@@ -50,6 +50,14 @@
   function setRoniKvInitialState() {
     setHeadInitialState();
 
+    // Keep kv layers centered by percentage so GSAP doesn't freeze X into px.
+    gsap.set("#kv .bg-img-wrap .kv3 img, #kv .bg-img-wrap .kv4 img", {
+      xPercent: -50,
+      yPercent: -50,
+      x: 0,
+      y: 0,
+    });
+
     gsap.set("#kv .bg-img-wrap .kv4 img", {
       opacity: 1,
       scale: 1,
@@ -111,6 +119,15 @@
         pin: "#kv .inwrap",
         anticipatePin: 1,
         invalidateOnRefresh: true,
+        onRefresh: function () {
+          if (!hasRoniKvLayer) return;
+          gsap.set("#kv .bg-img-wrap .kv3 img, #kv .bg-img-wrap .kv4 img", {
+            xPercent: -50,
+            yPercent: -50,
+            x: 0,
+            y: 0,
+          });
+        },
         // markers: true,
       },
     });
@@ -120,45 +137,23 @@
     if (kvScrollInited) return;
     kvScrollInited = true;
 
-    ScrollTrigger.matchMedia({
-      "(max-width: 767px)": function () {
-        var tl = createKvTimeline();
+    var tl = createKvTimeline();
 
-        if (hasRoniKvLayer) {
-          buildRoniKvTimeline(tl);
-          return;
-        }
+    // Same interaction on desktop + mobile.
+    if (hasRoniKvLayer) {
+      buildRoniKvTimeline(tl);
+      return;
+    }
 
-        tl.to("#kv .head", { opacity: 0 })
-          .to("#kv .bg-img-wrap .kv2 img", { opacity: 1 })
-          .to("#kv .bg-img-wrap .kv3 img", { opacity: 1 })
-          .to("#kv .bg-img-wrap .kv-shine1 img", { opacity: 1 })
-          .to("#kv .bg-img-wrap .kv-shine2 img", { opacity: 1 }, "+=0.3");
+    tl.to("#kv .head", { opacity: 0 })
+      .to("#kv .bg-img-wrap .kv2 img", { opacity: 1 })
+      .to("#kv .bg-img-wrap .kv3 img", { opacity: 1 })
+      .to("#kv .bg-img-wrap .kv-shine1 img", { opacity: 1 })
+      .to("#kv .bg-img-wrap .kv-shine2 img", { opacity: 1 }, "+=0.3");
 
-        if (hasIntroWrapLayer) {
-          tl.to("#kv .intro-wrap", { opacity: 1 });
-        }
-      },
-
-      "(min-width: 768px)": function () {
-        var tl = createKvTimeline();
-
-        if (hasRoniKvLayer) {
-          buildRoniKvTimeline(tl);
-          return;
-        }
-
-        tl.to("#kv .head", { opacity: 0 })
-          .to("#kv .bg-img-wrap .kv2 img", { opacity: 1 })
-          .to("#kv .bg-img-wrap .kv3 img", { opacity: 1 })
-          .to("#kv .bg-img-wrap .kv-shine1 img", { opacity: 1 })
-          .to("#kv .bg-img-wrap .kv-shine2 img", { opacity: 1 }, "+=0.3");
-
-        if (hasIntroWrapLayer) {
-          tl.to("#kv .intro-wrap", { opacity: 1 });
-        }
-      },
-    });
+    if (hasIntroWrapLayer) {
+      tl.to("#kv .intro-wrap", { opacity: 1 });
+    }
   }
 
   function loadHead() {

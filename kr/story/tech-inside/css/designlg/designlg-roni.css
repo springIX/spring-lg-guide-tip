@@ -581,20 +581,20 @@
 }
 
 #designlg #kv .bg-img-wrap .kv3 {
-  width: 1800px;
-  height: 496px;
+  width: 93.75vw;
+  height: 25.8333vw;
   position: absolute;
-  bottom: -110px;
+  bottom: -5.7292vw;
   left: 50%;
   transform: translateX(-50%) scale(0.9);
 }
 
 #designlg #kv .bg-img-wrap .kv4 {
   width: 100%;
-  max-width: 777px;
+  max-width: 40.4688vw;
   height: auto;
   position: absolute;
-  top: 470px;
+  top: 24.4792vw;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -1681,6 +1681,159 @@
     opacity: 1;
     font-size: 10px;
     line-height: 1.4;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #designlg #INTERVIEW {
+    padding-top: 80px;
+  }
+  #designlg #INTERVIEW .inwrap {
+    padding: 0;
+  }
+  #designlg #INTERVIEW .inwrap .heading {
+    padding: 0 20px;
+    max-width: 100%;
+    margin: 0;
+  }
+  #designlg #INTERVIEW .heading .desc {
+    padding: 80px 0 40px;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: -0.28px;
+  }
+  #designlg #INTERVIEW .inwrap .content {
+    min-height: 100%;
+  }
+  #designlg #INTERVIEW .inwrap .content .content-inner {
+    padding: 0;
+    flex-direction: column;
+    max-width: 100%;
+    min-height: auto;
+  }
+  #designlg #INTERVIEW .inwrap .people-list {
+    width: 100%;
+    padding: 24px 26px 30px;
+    border-bottom: 1px solid rgba(221, 221, 221, 0.15);
+    top: 40px;
+    left: 0;
+    background-color: var(--color-black);
+    z-index: 20;
+    height: 136px;
+    padding-top: 25px;
+    border-left: 0;
+    transition: transform 0.35s ease, opacity 0.35s ease, top 0.3s;
+    max-width: 100%;
+    position: fixed;
+    opacity: 0;
+    transform: translateY(-202px);
+  }
+  #designlg #INTERVIEW .inwrap .people-list.mobile-hidden {
+    transform: translateY(-202px);
+    opacity: 0;
+  }
+  #designlg #INTERVIEW .inwrap .people-list.mobile-show {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  #designlg #INTERVIEW .inwrap .people-list .people-sticky {
+    flex-direction: column-reverse;
+    overflow: visible;
+    gap: 0;
+    height: 100%;
+    max-height: none;
+  }
+  #designlg #INTERVIEW .inwrap .people-list .tag-wrap {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #designlg #INTERVIEW .inwrap .people-list .tag-wrap li.prev {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+  }
+  #designlg #INTERVIEW .inwrap .people-list .tag-wrap li.next {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+  }
+  #designlg #INTERVIEW .inwrap .people-list .tag-wrap button {
+    flex: 1 1 0;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    line-height: 1.36;
+    position: relative;
+  }
+  #designlg #INTERVIEW .inwrap .people-list .tag-wrap li.prev button {
+    padding-left: 40px;
+  }
+  #designlg #INTERVIEW .inwrap .people-list .tag-wrap li.prev button::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: url('/kr/story/tech-inside/img/designlg/icon-arrow24.png') no-repeat center / contain;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+  }
+  #designlg #INTERVIEW .inwrap .people-list .tag-wrap li.next button {
+    padding-right: 40px;
+  }
+  #designlg #INTERVIEW .inwrap .people-list .tag-wrap li.next button::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: url('/kr/story/tech-inside/img/designlg/icon-arrow24.png') no-repeat center / contain;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(180deg);
+    display: block;
+  }
+  #designlg #INTERVIEW .inwrap .people-list .people-detail-wrap {
+    margin-top: 0;
+    text-align: center;
+  }
+  #designlg #INTERVIEW .inwrap .people-list .people-detail-wrap .interview-people {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    grid-template-rows: repeat(2, auto);
+    width: max-content;
+    column-gap: 12px;
+    align-items: center;
+  }
+  #designlg #INTERVIEW .inwrap .people-list .people-detail-wrap .interview-people .img {
+    max-width: 48px;
+    margin-bottom: 0;
+    grid-column: 1/2;
+    grid-row: 1/span 2;
+  }
+  #designlg #INTERVIEW .inwrap .people-list .people-detail-wrap .interview-people .name {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: -0.36px;
+    margin-bottom: 2px;
+  }
+  #designlg #INTERVIEW .inwrap .people-list .people-detail-wrap .interview-people .group {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: left;
+    font-size: 13px;
+    line-height: 1.44;
+    letter-spacing: -0.26px;
+    margin-bottom: 0;
+  }
+  #designlg #INTERVIEW .inwrap .people-list .people-detail-wrap .interview-people .comment {
+    display: none;
+  }
+  #designlg #INTERVIEW .inwrap .qna-wrap {
+    padding: 136px 0 0;
   }
 }
 
