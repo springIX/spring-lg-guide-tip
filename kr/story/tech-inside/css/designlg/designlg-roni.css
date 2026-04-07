@@ -638,6 +638,33 @@ padding-bottom: 8px;
 
 #designlg #STORY .content-sec.sec2{
   padding: 240px 16px 0;
+  position: relative;
+  overflow: hidden;
+  --sec2-steam-shift-x: 0px;
+}
+#designlg #STORY .content-sec.sec2::before{
+  content: '';
+  position: absolute;
+  top: 23%;
+  left: 14%;
+  transform: translate(calc(-45% + var(--sec2-steam-shift-x)), -50%);
+  background: url('/kr/story/tech-inside/img/designlg/ep03/steam3.png') no-repeat center top / cover;
+  opacity: 1;
+  mix-blend-mode: screen;
+  pointer-events: none;
+  z-index: 0;
+  width: 3454.563px;
+  height: 2303.042px;
+  aspect-ratio: 3/2;
+  transition: transform 5s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform;
+}
+#designlg #STORY .content-sec.sec2.on::before{
+  --sec2-steam-shift-x: 220px;
+}
+#designlg #STORY .content-sec.sec2 .sec-inner{
+  position: relative;
+  z-index: 1;
 }
 #designlg #STORY .content-sec.sec2 .sec-head{
   max-width: 1210px;
@@ -672,6 +699,20 @@ padding-bottom: 8px;
 #designlg #STORY .content-sec.sec2 .sec-cnt .swiper-lineup .swiper-wrapper .swiper-slide{
   width: 414px;
   pointer-events: none;
+}
+
+@media screen and (max-width: 767px) {
+  #designlg #STORY .content-sec.sec2::before{
+    top: 120px;
+    height: 520px;
+    background-image: url('/kr/story/tech-inside/img/designlg/ep03/steam3-mo.png');
+    background-position: center top;
+    background-size: cover;
+    transform: translate(calc(-60% + var(--sec2-steam-shift-x)), -50%);
+  }
+  #designlg #STORY .content-sec.sec2.on::before{
+    --sec2-steam-shift-x: 120px;
+  }
 }
 
 
