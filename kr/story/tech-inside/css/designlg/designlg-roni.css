@@ -647,7 +647,7 @@ padding-bottom: 8px;
   position: absolute;
   top: 23%;
   left: 14%;
-  transform: translate(calc(-45% + var(--sec2-steam-shift-x)), -50%);
+  transform: translate(calc(-51% + var(--sec2-steam-shift-x)), -50%);
   background: url('/kr/story/tech-inside/img/designlg/ep03/steam3.png') no-repeat center top / cover;
   opacity: 1;
   mix-blend-mode: screen;
@@ -660,7 +660,7 @@ padding-bottom: 8px;
   will-change: transform;
 }
 #designlg #STORY .content-sec.sec2.on::before{
-  --sec2-steam-shift-x: 220px;
+  --sec2-steam-shift-x: 300px;
 }
 #designlg #STORY .content-sec.sec2 .sec-inner{
   position: relative;
