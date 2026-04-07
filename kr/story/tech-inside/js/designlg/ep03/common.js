@@ -8,7 +8,7 @@
   $(function () {
 
     // **************** nav ****************
-    var $nav      = $('#designlg nav[aria-label="본문 섹션 탐색"]');
+    var $nav      = $('#designlg nav[aria-label="癰귣챶揆 ?諭???癒?퉳"]');
     var $links    = $nav.find('a');
     var sections  = ['#STORY', '#DESIGN', '#INTERVIEW', '#INSPIRATION', '#BANNER'];
     var lastScrollTop = 0;
@@ -21,21 +21,21 @@
       $nav.find('li.active').removeClass('active');
       $targetLink.parent().addClass('active');
 
-      // 스크린리더용 "현재 위치" 정보는 링크에 부여
+      // ??쎄쾿?깃퀡??遺우뒠 "?袁⑹삺 ?袁⑺뒄" ?類ｋ궖??筌띻낱寃???봔??
       $nav.find('a[aria-current]').removeAttr('aria-current');
       $targetLink.attr('aria-current', 'location');
     }
 
-    // article 캐시
-    var $articles = $('#designlg section .content article');
+    // article/div ??깆삺 筌띾뜇寃?????? ?醫딅빍筌롫뗄??????怨? .content-sec 疫꿸퀣???곗쨮 ??륁춿
+    var $articles = $('#designlg section .content-sec');
 
-    // 클릭 시 부드럽게 이동
+    // ???????봔??뺤쓦野???猷?
     $links.on('click', function(e) {
       e.preventDefault();
       var target = $(this).attr('href');
       var offsetTop = $(target).offset().top - ($nav.outerHeight() || 0);
 
-      // 클릭 시 즉시 현재 선택 정보 갱신(스크린리더 인지 보강)
+      // ??????筌앸맩???袁⑹삺 ?醫뤾문 ?類ｋ궖 揶쏄퉮????쎄쾿?깃퀡????紐? 癰귣떯而?
       setActiveNav(target);
 
 
@@ -46,7 +46,7 @@
           if ($heading.length) {
             $heading.attr('tabindex', '-1').focus();
 
-            // 포커스가 이동하면 제거
+            // ??鍮??? ??猷??롢늺 ??볤탢
             $heading.one('blur', function () {
               $(this).removeAttr('tabindex');
             });
@@ -55,7 +55,7 @@
       );
     });
 
-    // 스크롤 시 섹션 감지 + article on 처리
+    // ??쎄쾿嚥????諭??揶쏅Ŋ? + article on 筌ｌ꼶??
     $(window).on('scroll', function() {
       var wTop   = $(window).scrollTop();
       var winH   = $(window).height();
@@ -69,20 +69,20 @@
         var secTop   = $section.offset().top;
         var bottom   = secTop + $section.outerHeight();
 
-        // 현재 위치보다 위에 있는 섹션도 on 추가
+        // ?袁⑹삺 ?袁⑺뒄癰귣????袁⑸퓠 ??덈뮉 ?諭???on ?곕떽?
         if (wTop >= secTop - winH / 2) {
           if (!$section.hasClass('on')) {
             $section.addClass('on');
           }
         }
 
-        // 현재 보이는 섹션 판별
+        // ?袁⑹삺 癰귣똻????諭???癒??
         if (wTop >= secTop - 100 && wTop < bottom) {
           current = id;
         }
       });
 
-      // 네비 활성화 표시 — 변경될 때만
+      // ??삵돩 ??뽮쉐????뽯뻻 ??癰궰野껋럥留????춸
       if (current) {
         var $currentLi = $nav.find('a[href="' + current + '"]').parent();
 
@@ -90,13 +90,13 @@
       }
 
       // ===========================
-      // 2) article on (뷰포트 3/4 지점)
+      // 2) article on (?됯퀬猷??3/4 筌왖??
       // ===========================
-      var triggerLine = wTop + winH * 3 / 4;  // 브라우저 상단에서 3/4 지점
+      var triggerLine = wTop + winH * 3 / 4;  // ?됰슢??怨? ?怨룸뼊?癒?퐣 3/4 筌왖??
 
       $articles.each(function () {
         var $article = $(this);
-        if ($article.hasClass('on')) return;   // 이미 on이면 패스
+        if ($article.hasClass('on')) return;   // ??? on??????λ뮞
 
         var artTop = $article.offset().top;
         if (triggerLine >= artTop) {
@@ -105,22 +105,22 @@
       });
 
       // ===========================
-      // 3) nav 위치
+      // 3) nav ?袁⑺뒄
       // ===========================
       var st       = wTop;
       var topGap   = 0;
       var currentURL = window.location.href;
-      var isMobile = window.innerWidth < 768; // 모바일 기준
+      var isMobile = window.innerWidth < 768; // 筌뤴뫀而??疫꿸퀣?
 
       if (st > lastScrollTop) {
-        // ▼ 스크롤 내리는 중 — header 숨김 상태라 topGap = 0
+        // ????쎄쾿嚥??????餓???header ??? ?怨밴묶??topGap = 0
         topGap = 0;
       } else {
-        // ▲ 스크롤 올리는 중
+        // ????쎄쾿嚥??????餓?
         if (isMobile) {
-          //모바일일 때만 처리
+          //筌뤴뫀而??깆뵬 ???춸 筌ｌ꼶??
           if (currentURL.startsWith('https://wwwstg.lge.co.kr/')) {
-            // 스테이징 URL인 경우
+            // ??쎈??곸췅 URL??野껋럩??
             if ($('header.header').length) {
               // topGap = $('header').height() + $('.hello-bar-wrap.hello-app').height();
               topGap = $('header').height();
@@ -128,7 +128,7 @@
               topGap = 0;
             }
           } else {
-            // 일반 모바일일 경우
+            // ??곗뺘 筌뤴뫀而??깆뵬 野껋럩??
             if ($('header.header').length) {
               topGap = $('header').height();
             } else {
@@ -136,7 +136,7 @@
             }
           }
         } else {
-          // 웹일 때는 항상 0
+          // ?諭?????뮉 ??湲?0
           topGap = 0;
         }
       }
@@ -148,7 +148,7 @@
       lastScrollTop = st;
     });
 
-    // 첫 진입 시도 한 번 체크
+    // 筌?筌욊쑴????뺣즲 ??甕?筌ｋ똾寃?
     $(window).trigger('scroll');
 
   // ===========================
@@ -191,8 +191,8 @@
       $btn.attr('aria-selected') === 'true';
 
     // --------------------------------
-    // 포커스 안전 유틸
-    // - 숨길 패널 내부에 포커스가 남아있으면 버튼으로 되돌림
+    // ??鍮????됱읈 ?醫뤿뼢
+    // - ??ｋ쭔 ??ㅺ섯 ???????鍮??? ??λ툡??됱몵筌?甕곌쑵???곗쨮 ??롫즼??
     // --------------------------------
     function ensureFocusOutOf($container, $fallbackFocus) {
       if (!$container || !$container.length) return;
@@ -201,25 +201,25 @@
       if (!active) return;
 
       if ($container[0].contains(active)) {
-        // 패널 내부 요소가 포커스를 잡은 상태면 먼저 버튼으로 반환
+        // ??ㅺ섯 ??? ?遺용꺖揶쎛 ??鍮??? ??? ?怨밴묶筌??믪눘? 甕곌쑵???곗쨮 獄쏆꼹??
         if ($fallbackFocus && $fallbackFocus.length) {
           $fallbackFocus[0].focus();
         } else {
-          // 최후 폴백
+          // 筌ㅼ뮉????媛?
           active.blur();
         }
       }
     }
 
     // --------------------------------
-    // 열기 전에: 같은 disclaimer 안의 다른 패널들 닫기(포커스 안전 포함)
+    // ??용┛ ?袁⑸퓠: 揶쏆늿? disclaimer ??됱벥 ??삘뀲 ??ㅺ섯????る┛(??鍮????됱읈 ??釉?
     // --------------------------------
     if (!isOpen) {
       $disclaimer.find('.disclaimer-copy').each(function () {
         var $p = $(this);
-        if ($p.is($panel)) return; // 지금 열 패널은 제외
+        if ($p.is($panel)) return; // 筌왖疫?????ㅺ섯?? ??뽰뇚
 
-        // 이 패널을 제어하는 버튼 찾기(있으면 그쪽으로 포커스 반환 가능)
+        // ????ㅺ섯????뽯선??롫뮉 甕곌쑵??筌≪뼐由???됱몵筌?域밸챷???곗쨮 ??鍮??獄쏆꼹??揶쎛??
         var id = $p.attr('id');
         var $ownerBtn = id ? $disclaimer.find('button[aria-controls="' + id + '"]') : $();
 
@@ -234,24 +234,24 @@
     }
 
     // --------------------------------
-    // 토글
+    // ?醫?
     // --------------------------------
     if (isOpen) {
-      // 닫기: 패널 내부에 포커스가 있으면 먼저 버튼으로 반환
+      // ??る┛: ??ㅺ섯 ???????鍮??? ??됱몵筌??믪눘? 甕곌쑵???곗쨮 獄쏆꼹??
       ensureFocusOutOf($panel, $btn);
 
       $btn.attr({ 'aria-expanded': 'false' });
       $panel.attr('hidden', true);
 
-      // 텍스트/라벨 동기화
-      $btn.text('더보기');
+      // ??용뮞????곌볼 ??녿┛??
+      $btn.text('Show more');
 
     } else {
       $btn.attr({ 'aria-expanded': 'true'});
       $panel.removeAttr('hidden');
 
-      // 텍스트/라벨 동기화
-      $btn.text('닫기');
+      // ??용뮞????곌볼 ??녿┛??
+      $btn.text('Close');
 
       window.requestAnimationFrame(function () {
         moveFocusToDisclaimerPanelContent($panel);
@@ -267,14 +267,15 @@
 
   // ========================================
   // video + play/pause control (FINAL v3) + IN-VIEW AUTO PLAY
-  // - viewport out  : pause (옵션에 따라 reset)
-  // - viewport in   : play (역방향 스크롤 포함, best-effort)
+  // - viewport out  : pause (??????怨뺤뵬 reset)
+  // - viewport in   : play (??媛????쎄쾿嚥???釉? best-effort)
   // ========================================
   (function initScrollVideoControlFinalV3() {
     var videos = Array.prototype.slice.call(
-      document.querySelectorAll('video.designlg-video')
+      document.querySelectorAll('#designlg video')
     );
     if (!videos.length) return;
+    var usedVideoIds = Object.create(null);
 
     // ===== Config =====
     var IDLE_HIDE_MS_FINE   = 1500;
@@ -313,28 +314,80 @@
       } catch (_) {}
     }
 
+    function ensureUniqueVideoId(video, idx) {
+      var baseId = (video.id && String(video.id).trim()) || ('designlg-video-' + (idx + 1));
+      var nextId = baseId;
+      var suffix = 1;
+
+      while (usedVideoIds[nextId]) {
+        suffix += 1;
+        nextId = baseId + '-' + suffix;
+      }
+      usedVideoIds[nextId] = true;
+
+      if (video.id !== nextId) video.id = nextId;
+      return nextId;
+    }
+
+    function getOrCreateToggleButton(video, idx) {
+      var wrap = video.closest('.video-inner-wrap');
+      if (!wrap) {
+        wrap = video.parentElement;
+        if (!wrap) return null;
+        wrap.classList.add('video-inner-wrap');
+      }
+
+      var btn = wrap.querySelector(
+        '.js-video-toggle[aria-controls="' + video.id + '"]'
+      );
+      if (!btn) {
+        btn = wrap.querySelector('.js-video-toggle');
+        if (btn) btn.setAttribute('aria-controls', video.id);
+      }
+      if (btn) return btn;
+
+      var control = document.createElement('div');
+      control.className = 'controller-wrap video-btn';
+
+      btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'js-video-toggle pause';
+      btn.setAttribute('aria-controls', video.id);
+      btn.setAttribute('data-play-text', 'Play video');
+      btn.setAttribute('data-pause-text', 'Pause video');
+      btn.setAttribute('aria-label', 'Pause video');
+
+      control.appendChild(btn);
+      wrap.appendChild(control);
+
+      return btn;
+    }
+
     videos.forEach(function (video, idx) {
-      // iOS inline 보강
+      // iOS inline 癰귣떯而?
       try {
         video.setAttribute('playsinline', '');
         video.setAttribute('webkit-playsinline', '');
         video.muted = true;
       } catch (_) {}
 
-      if (!video.id) video.id = 'designlg-video-' + (idx + 1);
+      ensureUniqueVideoId(video, idx);
 
-      var btn = document.querySelector(
-        '.js-video-toggle[aria-controls="' + video.id + '"]'
-      );
+      var btn = getOrCreateToggleButton(video, idx);
       if (!btn) return;
 
       var wrap = btn.closest('.video-inner-wrap');
       if (!wrap) return;
 
+      var playText = btn.getAttribute('data-play-text') || 'Play video';
+      var pauseText = btn.getAttribute('data-pause-text') || 'Pause video';
+      btn.setAttribute('data-play-text', playText);
+      btn.setAttribute('data-pause-text', pauseText);
+
       var hideTimer = 0;
       var lastInputWasPointer = false;
 
-      // viewport in/out 상태 기억(재진입 감지용)
+      // viewport in/out ?怨밴묶 疫꿸퀣堉???彛??揶쏅Ŋ???
       var lastInView = null;
 
       function clearHideTimer() {
@@ -364,25 +417,25 @@
         btn.setAttribute(
           'aria-label',
           isPlaying
-            ? btn.getAttribute('data-pause-text')
-            : btn.getAttribute('data-play-text')
+            ? pauseText
+            : playText
         );
 
         btn.classList.toggle('pause', isPlaying);
         btn.classList.toggle('play', !isPlaying);
 
-        // Desktop: 잠깐 노출 후 숨김
+        // Desktop: ?醫됲돵 ?紐꾪뀱 ?????
         if (isFine()) {
           showControls();
           scheduleHide(IDLE_HIDE_MS_FINE);
         }
       }
 
-      // ===== 초기 상태 =====
+      // ===== ?λ뜃由??怨밴묶 =====
       hideControls();
       updateUI();
 
-      // ===== 입력 방식 구분 =====
+      // ===== ??낆젾 獄쎻뫗???닌됲뀋 =====
       btn.addEventListener('pointerdown', function () {
         lastInputWasPointer = true;
       }, { passive: true });
@@ -395,19 +448,19 @@
         }
       });
 
-      // ===== 버튼 클릭 =====
+      // ===== 甕곌쑵??????=====
       btn.addEventListener('click', function (e) {
         e.preventDefault();
 
         if (video.paused) safePlay(video);
         else safePause(video, false);
 
-        // Desktop: 포인터 클릭 시 blur
+        // Desktop: ???????????blur
         if (lastInputWasPointer && isFine()) {
           try { btn.blur(); } catch (_) {}
         }
 
-        // Mobile: 재생/정지 버튼 클릭 즉시 숨김
+        // Mobile: ??源??類? 甕곌쑵??????筌앸맩?????
         if (isCoarse()) {
           clearHideTimer();
           hideControls();
@@ -417,7 +470,7 @@
         updateUI();
       });
 
-      // ===== 접근성 =====
+      // ===== ?臾롫젏??=====
       wrap.addEventListener('focusin', function () {
         showControls();
         clearHideTimer();
@@ -427,7 +480,7 @@
         scheduleHide(isCoarse() ? IDLE_HIDE_MS_COARSE : IDLE_HIDE_MS_FINE);
       });
 
-      // ===== Desktop: 마우스 이동 시만 노출 =====
+      // ===== Desktop: 筌띾뜆?????猷???뺤춸 ?紐꾪뀱 =====
       var onMove = rafThrottle(function () {
         if (!isFine()) return;
         showControls();
@@ -437,7 +490,7 @@
       wrap.addEventListener('mousemove', onMove, { passive: true });
       wrap.addEventListener('mouseleave', hideControls, { passive: true });
 
-      // ===== Mobile: 영상 영역 탭 시 노출 =====
+      // ===== Mobile: ?怨멸맒 ?怨몃열 ?????紐꾪뀱 =====
       wrap.addEventListener('pointerdown', function () {
         if (!isCoarse()) return;
         showControls();
@@ -454,24 +507,24 @@
         var rect = video.getBoundingClientRect();
         var vh = window.innerHeight || document.documentElement.clientHeight;
 
-        // 화면과 완전히 분리되면 out
+        // ?遺얇늺???袁⑹읈???브쑬???롢늺 out
         var out = rect.bottom <= 0 || rect.top >= vh;
         var inView = !out;
 
-        // 최초 1회 상태 동기화
+        // 筌ㅼ뮇??1???怨밴묶 ??녿┛??
         if (lastInView === null) lastInView = inView;
 
-        // out → pause (+옵션 reset)
+        // out ??pause (+????reset)
         if (!inView && lastInView) {
           safePause(video, RESET_ON_OUT);
           hideControls();
         }
 
-        // in → play (역방향 스크롤 포함, best-effort)
+        // in ??play (??媛????쎄쾿嚥???釉? best-effort)
         if (inView && !lastInView) {
           safePlay(video);
 
-          // Desktop UX 유지: 잠깐 컨트롤 노출 후 숨김
+          // Desktop UX ?醫?: ?醫됲돵 ?뚢뫂?껅에??紐꾪뀱 ?????
           if (isFine()) {
             showControls();
             scheduleHide(IDLE_HIDE_MS_FINE);
@@ -484,7 +537,7 @@
       window.addEventListener('scroll', onScrollOrResize, { passive: true });
       window.addEventListener('resize', onScrollOrResize);
 
-      // 초기 1회 계산(첫 진입이 이미 inView인 경우 포함)
+      // ?λ뜃由?1???④쑴沅?筌?筌욊쑴?????? inView??野껋럩????釉?
       onScrollOrResize();
     });
   })();

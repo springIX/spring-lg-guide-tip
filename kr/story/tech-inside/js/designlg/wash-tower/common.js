@@ -272,7 +272,7 @@
   // ========================================
   (function initScrollVideoControlFinalV3() {
     var videos = Array.prototype.slice.call(
-      document.querySelectorAll('video.designlg-video')
+      document.querySelectorAll('#designlg video')
     );
     if (!videos.length) return;
 
@@ -313,6 +313,38 @@
       } catch (_) {}
     }
 
+    function getOrCreateToggleButton(video, idx) {
+      if (!video.id) video.id = 'designlg-video-' + (idx + 1);
+
+      var btn = document.querySelector(
+        '.js-video-toggle[aria-controls="' + video.id + '"]'
+      );
+      if (btn) return btn;
+
+      var wrap = video.closest('.video-inner-wrap');
+      if (!wrap) {
+        wrap = video.parentElement;
+        if (!wrap) return null;
+        wrap.classList.add('video-inner-wrap');
+      }
+
+      var control = document.createElement('div');
+      control.className = 'controller-wrap video-btn';
+
+      btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'js-video-toggle pause';
+      btn.setAttribute('aria-controls', video.id);
+      btn.setAttribute('data-play-text', '영상 재생');
+      btn.setAttribute('data-pause-text', '영상 일시정지');
+      btn.setAttribute('aria-label', '영상 일시정지');
+
+      control.appendChild(btn);
+      wrap.appendChild(control);
+
+      return btn;
+    }
+
     videos.forEach(function (video, idx) {
       // iOS inline 보강
       try {
@@ -321,15 +353,16 @@
         video.muted = true;
       } catch (_) {}
 
-      if (!video.id) video.id = 'designlg-video-' + (idx + 1);
-
-      var btn = document.querySelector(
-        '.js-video-toggle[aria-controls="' + video.id + '"]'
-      );
+      var btn = getOrCreateToggleButton(video, idx);
       if (!btn) return;
 
       var wrap = btn.closest('.video-inner-wrap');
       if (!wrap) return;
+
+      var playText = btn.getAttribute('data-play-text') || '?곸긽 ?ъ깮';
+      var pauseText = btn.getAttribute('data-pause-text') || '?곸긽 ?쇱떆?뺤?';
+      btn.setAttribute('data-play-text', playText);
+      btn.setAttribute('data-pause-text', pauseText);
 
       var hideTimer = 0;
       var lastInputWasPointer = false;
@@ -364,8 +397,8 @@
         btn.setAttribute(
           'aria-label',
           isPlaying
-            ? btn.getAttribute('data-pause-text')
-            : btn.getAttribute('data-play-text')
+            ? pauseText
+            : playText
         );
 
         btn.classList.toggle('pause', isPlaying);

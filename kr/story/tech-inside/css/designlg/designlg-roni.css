@@ -68,7 +68,11 @@
   letter-spacing: -0.24px;
   color: #6A6D70;
 }
-#designlg section .sec-inner .controller-wrap{
+#designlg .video-inner-wrap{
+  position: relative;
+}
+#designlg section .sec-inner .controller-wrap,
+#designlg .controller-wrap.video-btn{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -76,7 +80,8 @@
   right: unset;
   bottom: unset;
 }
-#designlg section .sec-inner .controller-wrap .js-video-toggle {
+#designlg section .sec-inner .controller-wrap .js-video-toggle,
+#designlg .controller-wrap.video-btn .js-video-toggle {
   display: block;
   width: 100px;
   height: 100px;
@@ -91,34 +96,41 @@
   pointer-events: none;
 
 }
-#designlg section .sec-inner .controller-wrap .js-video-toggle{
+#designlg section .sec-inner .controller-wrap .js-video-toggle,
+#designlg .controller-wrap.video-btn .js-video-toggle{
   width: 66px;
   height: 66px;
 }
 
 /* 아이콘 전환 */
-#designlg section .sec-inner .controller-wrap .js-video-toggle.play {
+#designlg section .sec-inner .controller-wrap .js-video-toggle.play,
+#designlg .controller-wrap.video-btn .js-video-toggle.play {
   background-image: url('/kr/story/tech-inside/img/designlg/icon-video-play.png');
   opacity: 1 !important;
 }
-#designlg section .sec-inner .controller-wrap .js-video-toggle.pause {
+#designlg section .sec-inner .controller-wrap .js-video-toggle.pause,
+#designlg .controller-wrap.video-btn .js-video-toggle.pause {
   background-image: url('/kr/story/tech-inside/img/designlg/icon-video-pause.png');
 }
 
 /* is-controls-visible / focus-within 일 때만 노출 */
-#designlg section .sec-inner .video-inner-wrap.is-controls-visible .js-video-toggle,
-#designlg section .sec-inner .video-inner-wrap:focus-within .js-video-toggle{
+#designlg section .sec-inner .video-inner-wrap.is-controls-visible .controller-wrap .js-video-toggle,
+#designlg section .sec-inner .video-inner-wrap:focus-within .controller-wrap .js-video-toggle,
+#designlg .video-inner-wrap.is-controls-visible .js-video-toggle,
+#designlg .video-inner-wrap:focus-within .js-video-toggle{
   opacity: 1;
   pointer-events: auto;
   transform: translateY(0);
 }
 
 /* (중요) 컨트롤이 숨겨져 있을 때 오버레이가 탭을 가로채지 않도록 */
-#designlg section .sec-inner .video-inner-wrap .controller-wrap{
+#designlg .video-inner-wrap .controller-wrap{
   pointer-events: none;
 }
 #designlg section .sec-inner .video-inner-wrap.is-controls-visible .controller-wrap,
-#designlg section .sec-inner .video-inner-wrap:focus-within .controller-wrap{
+#designlg section .sec-inner .video-inner-wrap:focus-within .controller-wrap,
+#designlg .video-inner-wrap.is-controls-visible .controller-wrap,
+#designlg .video-inner-wrap:focus-within .controller-wrap{
   pointer-events: auto;
 }
 
@@ -1479,4 +1491,74 @@ padding-bottom: 8px;
 #designlg #BANNER .inwrap .heading .banner-btn a:hover{
   background-color: #0A0A0A;
   color: #F3F5F7;
+}
+
+
+
+/* ************** OTHERDESIGNLG ************** */
+#designlg #OTHERDESIGNLG{
+  position: relative;
+  background-color: #fff;
+}
+#designlg #OTHERDESIGNLG .inwrap{
+  padding: 80px 16px;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 1412px;
+  margin: 0 auto;
+}
+#designlg #OTHERDESIGNLG .inwrap .heading{
+  position: absolute;
+  left: 120px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+#designlg #OTHERDESIGNLG .inwrap .heading .title{
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+#designlg #OTHERDESIGNLG .inwrap .heading .title .tit{
+  font-size: 30px;
+  font-weight: 1.46;
+  letter-spacing: -0.6px;
+  font-weight: 700;
+}
+#designlg #OTHERDESIGNLG .inwrap .heading .title .eyebrow{
+  font-size: 24px;
+  line-height: 1.46;
+  letter-spacing: -0.48px;
+  color: #C6C9CE;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+#designlg #OTHERDESIGNLG .inwrap .heading .banner-btn a{
+  border-radius: 12px;
+  background-color: var(--color-black);
+  font-size: 18px;
+  line-height: 1.68;
+  letter-spacing: -0.36px;
+  color: #ffffff;
+  padding: 12px 32px;
+  transition: all 0.5s;
+  display: inline-block;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-weight: 500;
+}
+#designlg #OTHERDESIGNLG .inwrap .heading .banner-btn a:hover{
+  background-color: #F3F5F7;
+  color: #0A0A0A;
+}
+#designlg #OTHERDESIGNLG .inwrap .bg-img{
+  margin: 0 auto;
+  border-radius: 25px;
+  overflow: hidden;
+}
+#designlg #OTHERDESIGNLG .inwrap .bg-img a{
+  pointer-events: none;
 }

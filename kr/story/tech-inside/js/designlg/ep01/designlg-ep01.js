@@ -159,6 +159,190 @@
         $btn.text('닫기').attr('aria-label', '닫기');
       }
     });
+
+    (function initVideoToggleControls() {
+      var videos = Array.prototype.slice.call(
+        document.querySelectorAll('#designlg video')
+      );
+      if (!videos.length) return;
+
+      var IDLE_HIDE_MS_FINE = 1500;
+      var IDLE_HIDE_MS_COARSE = 2000;
+
+      var mqFine = window.matchMedia('(hover: hover) and (pointer: fine)');
+      var mqCoarse = window.matchMedia('(pointer: coarse)');
+
+      function isFine() { return mqFine.matches; }
+      function isCoarse() { return mqCoarse.matches; }
+
+      function rafThrottle(fn) {
+        var ticking = false;
+        return function () {
+          if (ticking) return;
+          ticking = true;
+          requestAnimationFrame(function () {
+            ticking = false;
+            fn();
+          });
+        };
+      }
+
+      function safePlay(video) {
+        if (!video || !video.paused) return;
+        var p = video.play && video.play();
+        if (p && p.catch) p.catch(function () {});
+      }
+
+      function safePause(video) {
+        if (!video || video.paused) return;
+        try { video.pause(); } catch (_) {}
+      }
+
+      function getOrCreateToggleButton(video, idx) {
+        if (!video.id) video.id = 'designlg-video-' + (idx + 1);
+
+        var btn = document.querySelector(
+          '.js-video-toggle[aria-controls="' + video.id + '"]'
+        );
+        if (btn) return btn;
+
+        var wrap = video.closest('.video-inner-wrap');
+        if (!wrap) {
+          wrap = video.parentElement;
+          if (!wrap) return null;
+          wrap.classList.add('video-inner-wrap');
+        }
+
+        var control = document.createElement('div');
+        control.className = 'controller-wrap video-btn';
+
+        btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'js-video-toggle pause';
+        btn.setAttribute('aria-controls', video.id);
+        btn.setAttribute('data-play-text', 'Play video');
+        btn.setAttribute('data-pause-text', 'Pause video');
+        btn.setAttribute('aria-label', 'Pause video');
+
+        control.appendChild(btn);
+        wrap.appendChild(control);
+        return btn;
+      }
+
+      videos.forEach(function (video, idx) {
+        try {
+          video.setAttribute('playsinline', '');
+          video.setAttribute('webkit-playsinline', '');
+          video.muted = true;
+        } catch (_) {}
+
+        var btn = getOrCreateToggleButton(video, idx);
+        if (!btn) return;
+
+        var wrap = btn.closest('.video-inner-wrap');
+        if (!wrap) return;
+
+        var playText = btn.getAttribute('data-play-text') || 'Play video';
+        var pauseText = btn.getAttribute('data-pause-text') || 'Pause video';
+        btn.setAttribute('data-play-text', playText);
+        btn.setAttribute('data-pause-text', pauseText);
+
+        var hideTimer = 0;
+        var lastInputWasPointer = false;
+
+        function clearHideTimer() {
+          if (!hideTimer) return;
+          clearTimeout(hideTimer);
+          hideTimer = 0;
+        }
+
+        function showControls() {
+          wrap.classList.add('is-controls-visible');
+        }
+
+        function hideControls() {
+          if (wrap.matches(':focus-within')) return;
+          wrap.classList.remove('is-controls-visible');
+        }
+
+        function scheduleHide(ms) {
+          clearHideTimer();
+          hideTimer = setTimeout(hideControls, ms);
+        }
+
+        function updateUI() {
+          var isPlaying = !video.paused;
+          btn.classList.toggle('pause', isPlaying);
+          btn.classList.toggle('play', !isPlaying);
+          btn.setAttribute('aria-label', isPlaying ? pauseText : playText);
+
+          if (isFine()) {
+            showControls();
+            scheduleHide(IDLE_HIDE_MS_FINE);
+          }
+        }
+
+        hideControls();
+        updateUI();
+
+        btn.addEventListener('pointerdown', function () {
+          lastInputWasPointer = true;
+        }, { passive: true });
+
+        btn.addEventListener('keydown', function (e) {
+          if (e.key === ' ' || e.key === 'Enter') {
+            lastInputWasPointer = false;
+            e.preventDefault();
+            btn.click();
+          }
+        });
+
+        btn.addEventListener('click', function (e) {
+          e.preventDefault();
+          if (video.paused) safePlay(video);
+          else safePause(video);
+
+          if (lastInputWasPointer && isFine()) {
+            try { btn.blur(); } catch (_) {}
+          }
+
+          if (isCoarse()) {
+            clearHideTimer();
+            hideControls();
+            return;
+          }
+
+          updateUI();
+        });
+
+        wrap.addEventListener('focusin', function () {
+          showControls();
+          clearHideTimer();
+        });
+
+        wrap.addEventListener('focusout', function () {
+          scheduleHide(isCoarse() ? IDLE_HIDE_MS_COARSE : IDLE_HIDE_MS_FINE);
+        });
+
+        var onMove = rafThrottle(function () {
+          if (!isFine()) return;
+          showControls();
+          scheduleHide(IDLE_HIDE_MS_FINE);
+        });
+        wrap.addEventListener('mousemove', onMove, { passive: true });
+        wrap.addEventListener('mouseleave', hideControls, { passive: true });
+
+        wrap.addEventListener('pointerdown', function () {
+          if (!isCoarse()) return;
+          showControls();
+          scheduleHide(IDLE_HIDE_MS_COARSE);
+        }, { passive: true });
+
+        ['play', 'pause', 'ended', 'loadedmetadata'].forEach(function (ev) {
+          video.addEventListener(ev, updateUI, { passive: true });
+        });
+      });
+    })();
     
   });
 })(jQuery);
