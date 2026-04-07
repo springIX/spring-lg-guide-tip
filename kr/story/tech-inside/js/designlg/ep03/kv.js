@@ -83,6 +83,7 @@
 
     tl.to("#kv .bg-img-wrap .kv3 img, #kv .bg-img-wrap .kv4 img", {
       scale: 1.06,
+      yPercent: -38, // -50 baseline -> move down about 2%
       ease: "none",
     })
       .to(

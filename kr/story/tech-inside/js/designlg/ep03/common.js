@@ -142,7 +142,7 @@
       }
 
       $nav.css('top', topGap + 'px');
-      if(isMobile) $('#designlg #INTERVIEW .inwrap .people-list').css('top', topGap + $nav.height()+'px');
+      if(isMobile) $('#designlg #INTERVIEW .inwrap .people-list').css('top', '40px');
       else $('#designlg #INTERVIEW .inwrap .people-list').css('top', '8px');
       
       lastScrollTop = st;

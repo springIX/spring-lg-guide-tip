@@ -74,137 +74,157 @@
 
     var inspirationPrevButton = inspirationGalleryWrap.querySelector(".roni-swiper-button-prev");
     var inspirationNextButton = inspirationGalleryWrap.querySelector(".roni-swiper-button-next");
-    var inspirationSlideItems = inspirationGalleryWrap.querySelectorAll(".img-list > li");
+    var inspirationList = inspirationGalleryWrap.querySelector(".img-list");
+    if (!inspirationPrevButton || !inspirationNextButton || !inspirationList) return;
 
-    if (!inspirationPrevButton || !inspirationNextButton || !inspirationSlideItems.length) return;
+    var inspirationSlideItems = Array.prototype.slice
+      .call(inspirationList.children)
+      .filter(function (item) {
+        return item && item.tagName === "LI" && !item.classList.contains("mo-only");
+      });
 
-    var inspirationImageList = [
-      {
-        no: "01",
-        src: "/kr/story/tech-inside/img/designlg/ep03/inspiration-img01.jpg",
-        alt: "RONi 인스피레이션 이미지 01"
-      },
-      {
-        no: "02",
-        src: "/kr/story/tech-inside/img/designlg/ep03/inspiration-img02.jpg",
-        alt: "RONi 인스피레이션 이미지 02"
-      },
-      {
-        no: "03",
-        src: "/kr/story/tech-inside/img/designlg/ep03/inspiration-img03.jpg",
-        alt: "RONi 인스피레이션 이미지 03"
-      },
-      {
-        no: "04",
-        src: "/kr/story/tech-inside/img/designlg/ep03/inspiration-img04.jpg",
-        alt: "RONi 인스피레이션 이미지 04"
-      },
-      {
-        no: "05",
-        src: "/kr/story/tech-inside/img/designlg/ep03/inspiration-img05.jpg",
-        alt: "RONi 인스피레이션 이미지 05"
-      },
-      {
-        no: "06",
-        src: "/kr/story/tech-inside/img/designlg/ep03/inspiration-img06.jpg",
-        alt: "RONi 인스피레이션 이미지 06"
-      }
-    ];
+    if (!inspirationSlideItems.length) return;
 
-    var inspirationActiveIndex = 0;
+    var inspirationActiveIndex = inspirationSlideItems.findIndex(function (item) {
+      return item.classList.contains("active-box");
+    });
+    if (inspirationActiveIndex < 0) inspirationActiveIndex = 0;
+    var ALIGN_MS = 420;
+    var centerTrackRaf = 0;
+    var centerTrackUntil = 0;
 
     function isInspirationMobileView() {
       return window.matchMedia("(max-width: 767px)").matches;
     }
 
-    function getInspirationLoopedIndex(index) {
-      var total = inspirationImageList.length;
-      return (index + total) % total;
+    function clampIndex(index) {
+      var total = inspirationSlideItems.length;
+      if (index < 0) return 0;
+      if (index > total - 1) return total - 1;
+      return index;
     }
 
-    function setInspirationSlideData(inspirationSlideItem, inspirationImageData, isActiveSlide) {
-      var inspirationImage = inspirationSlideItem.querySelector("img");
-      var inspirationMedia = inspirationSlideItem.querySelector(".slide-media");
-      var inspirationDisclaimer = inspirationSlideItem.querySelector(".slide-disclaimer");
+    function readCurrentTranslateX(el) {
+      var transform = window.getComputedStyle(el).transform;
+      if (!transform || transform === "none") return 0;
 
-      if (!inspirationImage || !inspirationMedia) return;
+      var match3d = transform.match(/^matrix3d\((.+)\)$/);
+      if (match3d) {
+        var values3d = match3d[1].split(",");
+        return parseFloat(values3d[12]) || 0;
+      }
 
-      inspirationImage.src = inspirationImageData.src;
-      inspirationImage.alt = inspirationImageData.alt;
+      var match2d = transform.match(/^matrix\((.+)\)$/);
+      if (match2d) {
+        var values2d = match2d[1].split(",");
+        return parseFloat(values2d[4]) || 0;
+      }
 
-      if (isActiveSlide) {
-        inspirationSlideItem.classList.add("active-box");
+      return 0;
+    }
 
-        if (!inspirationDisclaimer) {
-          inspirationDisclaimer = document.createElement("p");
-          inspirationDisclaimer.className = "slide-disclaimer";
-          inspirationMedia.appendChild(inspirationDisclaimer);
+    function updateArrowState() {
+      inspirationPrevButton.disabled = inspirationActiveIndex <= 0;
+      inspirationNextButton.disabled = inspirationActiveIndex >= inspirationSlideItems.length - 1;
+      inspirationPrevButton.setAttribute("aria-disabled", inspirationPrevButton.disabled ? "true" : "false");
+      inspirationNextButton.setAttribute("aria-disabled", inspirationNextButton.disabled ? "true" : "false");
+    }
+
+    function stopCenterTracking() {
+      if (!centerTrackRaf) return;
+      window.cancelAnimationFrame(centerTrackRaf);
+      centerTrackRaf = 0;
+    }
+
+    function alignActiveToCenter() {
+      if (isInspirationMobileView()) return;
+
+      var activeSlide = inspirationSlideItems[inspirationActiveIndex];
+      if (!activeSlide) return;
+
+      var wrapRect = inspirationGalleryWrap.getBoundingClientRect();
+      var activeRect = activeSlide.getBoundingClientRect();
+      var wrapCenterX = wrapRect.left + wrapRect.width / 2;
+      var activeCenterX = activeRect.left + activeRect.width / 2;
+      var deltaX = wrapCenterX - activeCenterX;
+
+      var currentX = readCurrentTranslateX(inspirationList);
+      var nextX = currentX + deltaX;
+
+      inspirationList.style.transition = "none";
+      inspirationList.style.transform = "translate3d(" + nextX + "px, 0, 0)";
+    }
+
+    function startCenterTracking(durationMs) {
+      stopCenterTracking();
+
+      var now = (window.performance && window.performance.now)
+        ? window.performance.now()
+        : Date.now();
+      centerTrackUntil = now + durationMs;
+
+      function tick(t) {
+        alignActiveToCenter();
+
+        if (t < centerTrackUntil) {
+          centerTrackRaf = window.requestAnimationFrame(tick);
+          return;
         }
 
-        inspirationDisclaimer.textContent =
-          inspirationImageData.no + " * 소비자의 이해를 돕기 위해 연출된 이미지입니다.";
-      } else {
-        inspirationSlideItem.classList.remove("active-box");
-
-        if (inspirationDisclaimer) {
-          inspirationDisclaimer.remove();
-        }
+        alignActiveToCenter();
+        centerTrackRaf = 0;
       }
+
+      centerTrackRaf = window.requestAnimationFrame(tick);
     }
 
-    function renderInspirationDesktop() {
-      var desktopVisibleIndexes = [
-        getInspirationLoopedIndex(inspirationActiveIndex - 2),
-        getInspirationLoopedIndex(inspirationActiveIndex - 1),
-        getInspirationLoopedIndex(inspirationActiveIndex),
-        getInspirationLoopedIndex(inspirationActiveIndex + 1),
-        getInspirationLoopedIndex(inspirationActiveIndex + 2)
-      ];
+    function setActive(nextIndex) {
+      inspirationActiveIndex = clampIndex(nextIndex);
 
       for (var i = 0; i < inspirationSlideItems.length; i += 1) {
-        if (i > 4) break;
-        setInspirationSlideData(
-          inspirationSlideItems[i],
-          inspirationImageList[desktopVisibleIndexes[i]],
-          i === 2
-        );
+        inspirationSlideItems[i].classList.toggle("active-box", i === inspirationActiveIndex);
       }
-    }
 
-    function renderInspirationMobile() {
-      for (var i = 0; i < inspirationSlideItems.length; i += 1) {
-        if (!inspirationImageList[i]) continue;
-        setInspirationSlideData(
-          inspirationSlideItems[i],
-          inspirationImageList[i],
-          false
-        );
-      }
-    }
-
-    function renderInspirationGallery() {
       if (isInspirationMobileView()) {
-        renderInspirationMobile();
+        stopCenterTracking();
+        inspirationList.style.transition = "none";
+        inspirationList.style.transform = "none";
       } else {
-        renderInspirationDesktop();
+        requestAnimationFrame(function () {
+          alignActiveToCenter();
+          startCenterTracking(ALIGN_MS + 120);
+        });
       }
+
+      updateArrowState();
     }
 
+    // Left arrow: move gallery to the right.
     inspirationPrevButton.addEventListener("click", function () {
-      if (isInspirationMobileView()) return;
-      inspirationActiveIndex = getInspirationLoopedIndex(inspirationActiveIndex - 1);
-      renderInspirationDesktop();
+      setActive(inspirationActiveIndex - 1);
     });
 
+    // Right arrow: move gallery to the left.
     inspirationNextButton.addEventListener("click", function () {
-      if (isInspirationMobileView()) return;
-      inspirationActiveIndex = getInspirationLoopedIndex(inspirationActiveIndex + 1);
-      renderInspirationDesktop();
+      setActive(inspirationActiveIndex + 1);
     });
 
-    window.addEventListener("resize", renderInspirationGallery);
+    for (var i = 0; i < inspirationSlideItems.length; i += 1) {
+      (function (slideIndex) {
+        var slideItem = inspirationSlideItems[slideIndex];
+        slideItem.addEventListener("click", function () {
+          if (slideIndex === inspirationActiveIndex) return;
+          setActive(slideIndex);
+        });
+      })(i);
+    }
 
-    renderInspirationGallery();
+    window.addEventListener("resize", function () {
+      stopCenterTracking();
+      setActive(inspirationActiveIndex);
+    });
+
+    setActive(inspirationActiveIndex);
   })();
   /* //260407 */
 
@@ -217,7 +237,7 @@
   function syncSwiperByViewport() {
     if (isMobileView()) {
       destroySwiperForMobile();
-    } else {
+    } else if (typeof initDesktopSwiper === "function") {
       initDesktopSwiper();
     }
   }
