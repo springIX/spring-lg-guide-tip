@@ -24,7 +24,7 @@
     return window.matchMedia("(max-width: 767px)").matches;
   }
 
-  // function initDesktopSwiper() {
+  // function initDesktopSwiper() { 
   //   var swiperEl = document.querySelector(".roni-inspiration-swiper");
   //   if (!swiperEl || typeof Swiper === "undefined" || swiperInstance || isMobileView()) return;
 
