@@ -64,6 +64,7 @@
   //       activeSlide.style.width = "48.4375vw";
   //     }
   //   }
+
   // }
 
   /* 260407 */
