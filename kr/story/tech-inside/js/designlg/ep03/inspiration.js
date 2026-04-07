@@ -1,53 +1,46 @@
-(function (window, document) {
+﻿(function (window, document) {
   "use strict";
 
   var swiperInstance = null;
   var resizeTimer = null;
-
-  function applyDesktopSlideWidths(swiper) {
-    if (!swiper || !swiper.slides || !swiper.slides.length) return;
-
-    for (var i = 0; i < swiper.slides.length; i += 1) {
-      swiper.slides[i].style.width =
-        i === swiper.activeIndex ? "var(--active-size)" : "var(--side-size)";
-    }
-  }
-
-  function refreshDesktopLayout(swiper) {
-    if (!swiper) return;
-    applyDesktopSlideWidths(swiper);
-    swiper.update();
-    swiper.slideTo(swiper.activeIndex, 0, false);
-  }
 
   function isMobileView() {
     return window.matchMedia("(max-width: 767px)").matches;
   }
 
   function initDesktopSwiper() {
-    var swiperEl = document.querySelector(".roni-inspiration-swiper");
-    if (!swiperEl || typeof Swiper === "undefined" || swiperInstance || isMobileView()) return;
+    var swiperEl = document.querySelector("#INSPIRATION .roni-inspiration-swiper");
+    if (!swiperEl || typeof window.Swiper === "undefined" || swiperInstance || isMobileView()) return;
+
+    // Guard: if another script initialized this element first, reset it once.
+    if (swiperEl.swiper && typeof swiperEl.swiper.destroy === "function") {
+      swiperEl.swiper.destroy(true, true);
+    }
 
     swiperInstance = new Swiper(swiperEl, {
       loop: true,
+      loopedSlides: 6,
+      loopAdditionalSlides: 6,
       centeredSlides: true,
       slidesPerView: "auto",
+      slidesPerGroup: 1,
       spaceBetween: 16,
       speed: 700,
       grabCursor: true,
       allowTouchMove: true,
-      slideToClickedSlide: true,
-      watchSlidesProgress: true,
+      slideToClickedSlide: false,
+      watchSlidesProgress: false,
+      watchOverflow: true,
       navigation: {
-        nextEl: ".roni-swiper-button-next",
-        prevEl: ".roni-swiper-button-prev",
+        nextEl: "#INSPIRATION .roni-swiper-button-next",
+        prevEl: "#INSPIRATION .roni-swiper-button-prev",
       },
       on: {
         init: function () {
-          refreshDesktopLayout(this);
+          this.update();
         },
-        slideChange: function () {
-          refreshDesktopLayout(this);
+        resize: function () {
+          this.update();
         },
       },
     });
