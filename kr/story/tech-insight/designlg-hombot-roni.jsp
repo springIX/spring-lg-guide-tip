@@ -1,0 +1,1815 @@
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "inLanguage": "ko-KR",
+    "headline": "가전미학 Ep.01 - Fit & Max | 스토리 | LG전자",
+    "alternativeHeadline": "LG 디오스 오브제컬렉션 핏앤맥스 냉장고는 냉장고장과 4mm 밀착 설치로 냉툭튀 해결한 빌트인 스타일 냉장고",
+    "description": "LG 디오스 오브제컬렉션 핏앤맥스 냉장고는 냉장고와 냉장고장 사이 4mm 여뷰 공간만으로 완벽 밀착 설치 가능한 제로 클리어런스 힌지 기술로 냉툭튀를 해결해 빌트인 스타일 냉장고를 완성. 전문가들의 인터뷰를 통해 기술을 넘어선 아름다운 디자인 가치를 소개하는 가전미학 Ep.01",
+    "image": [
+      "https://www.lge.co.kr/kr/story/tech-inside/img/designlg/ep01/chapter1-story-slide-img1.webp",
+      "https://www.lge.co.kr/kr/story/tech-inside/img/designlg/ep01/chapter1-story-slide-img2.webp",
+      "https://www.lge.co.kr/kr/story/tech-inside/img/designlg/ep01/chapter1-story-slide-img3.webp",
+      "https://www.lge.co.kr/kr/story/tech-inside/img/designlg/ep01/chapter1-story-slide-img4.webp",
+      "https://www.lge.co.kr/kr/story/tech-inside/img/designlg/ep01/chapter1-story-slide-img5.webp",
+      "https://www.lge.co.kr/kr/story/tech-inside/img/designlg/ep01/chapter1-story-slide-img6.webp",
+      "https://www.lge.co.kr/kr/story/tech-inside/img/designlg/ep01/chapter1-story-slide-img7.webp"
+    ],
+    "datePublished": "2025-10-23T09:00:00+09:00",
+    "dateModified": "2025-11-21T00:00:00+09:00",
+    "author": {
+      "@type": "Organization",
+      "name": "LG전자",
+      "url": "https://www.lge.co.kr/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "LG전자",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.lge.co.kr/lg5-common/images/header/lg_logo_new.svg",
+        "width": 107,
+        "height": 28
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max",
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://www.lge.co.kr/kr/story/tech-inside/img/designlg/ep01/chapter1-story-slide-img1.webp",
+        "width": 784,
+        "height": 362
+      }
+    },
+    "url": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "LG전자 스토리",
+      "url": "https://www.lge.co.kr/story"
+    },
+    "articleSection": "가전미학",
+    "keywords": [
+      "핏앤맥스냉장고",
+      "Fit & Max",
+      "냉툭튀해결",
+      "LG 디오스 오브제컬렉션",
+      "주방인테리어",
+      "제로 클리어런스 힌지",
+      "냉장고장",
+      "좁은 주방"
+    ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "LG 디오스 오브제컬렉션 핏앤맥스",
+        "description": "냉장고장에 최적화된 빌트인 스타일로 4mm의 여유 공간만으로 설치 냉툭튀를 해결한 주방 인테리어 냉장고"
+      },
+      {
+        "@type": "Thing",
+        "name": "냉툭튀 해결",
+        "description": "제로 클리어런스 힌지 기술을 적용해 4mm 여유 공간만 있어도 문을 열 수 있어 냉툭튀를 해결하는 빌트인 효과"
+      },
+      {
+        "@type": "Thing",
+        "name": "제로 클리어런스 힌지",
+        "description": "냉장고와 냉장고장 사이 4mm 여유 공간만 있어도 문이 안쪽으로 회전하여 밀착 설치를 가능하게 하는 경로 힌지 기술"
+      },
+      {
+        "@type": "Thing",
+        "name": "주방인테리어",
+        "description": "무몰딩, 무문선, 무걸레받이 같이 미니멀한 인테리어 트렌드가 주방을 더 넓어 보이게하여 깔끔한 분위기를 연출"
+      }
+    ],
+    "hasPart": [
+      {
+        "@type": "CreativeWork",
+        "name": "STORY",
+        "description": "LG 디오스 오브제컬렉션 핏앤맥스 냉장고가 공간과 조화를 이루며 시작 된 배경과 히스토리를 소개합니다. 기술과 디자인이 만나 탄생한 제품 철학을 담았습니다.",
+        "url": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max#STORY"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "DESIGN",
+        "description": "무몰딩, 무문선, 무걸레받이 등 최신 인테리어 트렌드와 뉴트럴 컬러 감성으로 완성된 핏앤맥스 디자인 가치를 소개합니다.",
+        "url": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max#DESIGN"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "INTERVIEW",
+        "description": "LG 디오스 오브제컬렉션 핏앤맥스 냉장고를 개발한 엔지니어와 디자이너들의 전문가 인터뷰를 통해 디자인적 문제 해결 과정과 기술 개발 비하인드 스토리를 전합니다.",
+        "url": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max#INTERVIEW"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "INSPIRATION",
+        "description": "LG 디오스 오브제컬렉션 핏앤맥스 냉장고 라인업 7종의 다양한 라이프스타일을 반영한 제품 조합과 주방 인테리어 조화를 AI 생성형 이미지로 갤러리 형태로 소개합니다.",
+        "url": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max#INSPIRATION"
+      }
+    ]
+  }
+</script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTermSet",
+    "name": "LG 디오스 핏앤맥스 기술 용어집",
+    "hasDefinedTerm": [
+      {
+        "@type": "DefinedTerm",
+        "name": "핏앤맥스",
+        "alternateName": "Fit & Max",
+        "description": "냉장고와 냉장고장 사이 4mm 여유 공간만으로 밀착 설치해 냉툭튀를 해결한 LG 디오스 오브제컬렉션 핏앤맥스 냉장고. 제로 클리어런스 힌지와 전면 흡방열 설계로 빌트인 스타일의 새로운 주방 인테리어 솔루션 제안",
+        "inDefinedTermSet": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max"
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": "냉툭튀",
+        "description": "일반 냉장고는 문열림 공간과 발열 환기를 위해 벽과 냉장고 사이 측면 20~30mm, 후면 50mm 간격이 필요해 표준 냉장고장(700mm)보다 깊은 냉장고가 설치되어 냉장고가 냉장고장보다 툭 튀어나오는 현상",
+        "inDefinedTermSet": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max"
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": "냉툭튀 해결",
+        "description": "핏앤맥스 냉장고의 제로 클리어런스 힌지와 전면 흡방열 설계로 냉장고와 냉장고장 사이 측면 각 4mm(총 8mm) 여유 공간만으로 설치가 가능해 빌트인 효과를 구현하고 냉툭튀를 해결",
+        "inDefinedTermSet": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max"
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": "제로 클리어런스 힌지",
+        "alternateName": "경로 힌지",
+        "description": "기존 22mm였던 냉장고장과의 틈을 4mm로 줄인 힌지 기술. 냉장고 문이 밖으로 돌출되지 않고 안쪽으로 회전하도록 설계되어 벽이나 냉장고장에 밀착 설치해도 110도로 개방이 가능한 냉툭튀 해결의 핵심 기술",
+        "inDefinedTermSet": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max"
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": "전면 흡방열 설계",
+        "description": "전면에서 공기를 흡입하고 다시 배출하는 전면 방열기술로 냉장고의 기계실 열 교환을 효율적으로 방출. 냉장고 후면과 간격을 최소화해 냉장고장과 딱 맞는 빌트인 스타일의 주방 인테리어 구현",
+        "inDefinedTermSet": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max"
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": "냉장고장",
+        "description": "주방에 냉장고를 깔끔하게 설치할 수 있도록 냉장고를 설치하는 주방 가구장. 표준 규격은 깊이 700mm이며, 핏앤맥스는 표준 규격에 맞춰 설계되어 별도 리폼 없이 4mm 간격만으로 빌트인 스타일 냉장고 구현이 가능",
+        "inDefinedTermSet": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max"
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": "빌트이니쉬 룩",
+        "alternateName": "Built-inish Look",
+        "description": "프리스탠딩(독립형) 가전이지만 빌트인 냉장고처럼 주방 가구와 일체감 있게 설치 되어 가구의 일부처럼 보이는 외관 스타일. 핏앤맥스의 뉴트럴 컬러와 심리스 디자인이 냉툭튀를 해결해 깔끔한 주방 인테리어를 완성",
+        "inDefinedTermSet": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max"
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": "3무",
+        "alternateName": "무몰딩, 무문선, 무걸레받이",
+        "description": "최신 인테리어 트렌드로, 몰딩(장식 테두리), 문선(문틀 장식), 걸레받이(벽 하단 보호대)를 없애 공간을 깔끔하고 미니멀하게 연출하는 스타일. 핏앤맥스는 이에 맞춰 가전이 공간과 조화를 이루는 주방 인테리어 제안",
+        "inDefinedTermSet": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max"
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": "CMF",
+        "description": "컬러(Color), 소재(Material), 후가공(Finish)을 아우르는 표면 처리 디자인 작업. 가전의 첫 인상을 결정하는 가장 강력한 도구로, 컬러는 공간의 분위기를 조성하고 소재감은 질감을 구축하며 표면 후가공은 공간의 완성도를 높이는 역할",
+        "inDefinedTermSet": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max"
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": "컨버터블 패키지",
+        "description": "냉장, 냉동, 김치냉장고 등 1도어 모듈로 자유롭게 조합할 수 있는 핏앤맥스 냉장고 라인업. 냉장고장과 설치 시 냉툭튀가 해결된 완벽한 빌트인 룩을 구현하며, 세로 라인만 있어 가장 깔끔한 주방 인테리어를 완성",
+        "inDefinedTermSet": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max"
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": "뉴트럴 컬러",
+        "alternateName": "토프, 아몬드",
+        "description": "2025년 핏앤맥스에서 최신 인테리어에 맞춰 새로 선보인 뉴트럴 톤의 컬러. 가구와의 조화로 빌트인 냉장고처럼 딱 맞는 빌트이니쉬 룩을 완성하며, 소재는 글라스와 메탈을 레이어링하여 깊이감 있는 프리미엄 주방 인테리어 감성을 구현",
+        "inDefinedTermSet": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max"
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": "에센스 화이트",
+        "description": "냉장고 내부 이너 케이스와 도어 라이너에 적용된 반무광 화이트 컬러. 기존 유광 화이트에서 변경하여 깔끔함을 강조하고 프리미엄 감성을 구현",
+        "inDefinedTermSet": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max"
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": "블랙 틴트 클리어",
+        "description": "냉장고 내부 바스켓 및 드로어에 적용된 검은색 반투명 소재. 기존 투명 부품 대비 미니멀하고 프리미엄한 감성 강화",
+        "inDefinedTermSet": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max"
+      }
+    ]
+  }
+</script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "홈",
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://www.lge.co.kr"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "스토리",
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://www.lge.co.kr/story"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "테크 인사이드",
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://www.lge.co.kr/story/tech-insight"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "가전미학 - 핏앤맥스 냉툭튀 해결 스토리",
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max"
+        }
+      }
+    ]
+  }
+</script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "LG 오브제컬렉션 디자인 철학에서 CMF가 가지는 의미와 Fit & Max 디자인에서의 역할을 무엇이라 생각하나요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "CMF는 단순한 미적 요소를 넘어, 첫인상을 결정하는 가장 강력한 도구입니다. 컬러는 공간의 분위기를 조성하고, 소재감은 공간의 질감을 구축하며, 표면 후가공을 통한 마감 처리는 공간의 완성도를 높이는 역할을 합니다. 고객에게 CMF는 ‘첫인상’과 같습니다.",
+          "author": {
+            "@type": "Person",
+            "name": "노연성",
+            "jobTitle": "책임연구원",
+            "description": "LG 디오스 오브제컬렉션 핏앤맥스 CMF(컬러, 소재, 후가공) 디자인 담당. 트렌드 요소를 분석해 컬러, 소재, 후가공을 선정하고 주방 인테리어 적용하는 디자인 전문가",
+            "url": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max#INTERVIEW",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "LG전자",
+              "department": {
+                "@type": "Organization",
+                "name": "디자인경영센터 CMF팀"
+              }
+            }
+          }
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "컬러 및 소재 선정 시, 사용성과 감성적 측면 간의 밸런스는 어떻게 조율하며 고객만족을 위해 어떠한 부분까지 치열하게 고민했는지 개발 과정 히스토리가 있다면 알려주세요.",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "LG전자는 2025년 Fit & Max 냉장고 디자인에 고객 목소리를 반영하기 위해 다양한 연령, 직업, 가족 구성, 평형대를 대상으로 심도 있는 FGD 조사를 진행했습니다. 이를 통해 눈에 띄지 않는 ‘숨은 니즈’까지 발굴해 만족도를 높였습니다. 뉴트럴 톤인 토프와 아몬드 컬러는 절제된 분위기 속에서도 공간과 자연스럽게 어우러지도록 소재 표면의 광택도를 조절했고, 내구성과 관리가 쉬운 글라스 소재를 사용해 사용 편의성을 향상시켰습니다. 이처럼 고객 경험과 공간 철학을 디자인에 반영하여 감성적이고 실용적인 제품을 만들기 위해 노력하고 있습니다.",
+          "author": {
+            "@type": "Person",
+            "name": "노연성",
+            "jobTitle": "책임연구원",
+            "description": "LG 디오스 오브제컬렉션 핏앤맥스 CMF(컬러, 소재, 후가공) 디자인 담당. 트렌드 요소를 분석해 컬러, 소재, 후가공을 선정하고 주방 인테리어 적용하는 디자인 전문가",
+            "url": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max#INTERVIEW",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "LG전자",
+              "department": {
+                "@type": "Organization",
+                "name": "디자인경영센터 CMF팀"
+              }
+            }
+          }
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Fit & Max 디자인이 주방 공간의 분위기 또는 라이프스타일에 미치는 영향에 대해 디자이너로서 어떤 기대와 철학을 가지고 계신가요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Fit & Max가 설치된 공간은 단순한 주방을 넘어 한정된 공간에서 최고의 성능과 편의성을 제공하는 것을 목표로 합니다. 사용자의 일상을 더욱 즐겁게 하기 위해 불필요한 요소를 제거하고, 필요한 기능과 미적 요소를 조화롭게 배치하는 철학으로 디자인하였습니다. 이를 통해 주방이 삶의 중심이 되는 공간이 되도록, 사용자와 공간, 기술이 어우러지는 디자인을 지속적으로 추구하고 있습니다.",
+          "author": {
+            "@type": "Person",
+            "name": "윤승진",
+            "jobTitle": "책임연구원",
+            "description": "LG 전자의 디자인 철학을 반영해 LG 디오스 오브제컬렉션 핏앤맥스 디자인을 담당한 제품 디자이너. 사용자 중심 주방 인테리어 디자인 전문가",
+            "url": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max#INTERVIEW",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "LG전자",
+              "department": {
+                "@type": "Organization",
+                "name": "HS/ES디자인(연)키친솔루션디자인팀"
+              }
+            }
+          }
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "디자인 과정에서 기술적 한계(냉장 효율, 구조 안정성 등)와 미적 목표 간의 충돌이 발생할 때 우선순위를 정하는 기준과 조율 방법은 어떻게 되나요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "디자인 및 개발 과정에서는 사용자 경험, 제품의 본질적 기능, 시장 요구를 기준으로 우선순위를 정합니다. 가장 중요한 고객을 중심으로 관계 부서들과 주 2~3회 집중 협의를 진행하며, 목업 샘플을 활용한 고객 조사와 사용자 피드백을 반영해 문제를 조율합니다. 궁극적으로 좋은 디자인은 기능과 미적 요소가 조화를 이루는 것으로, 기술적 한계와 미적 목표 사이에서 균형을 찾는 것이 핵심입니다.",
+          "author": {
+            "@type": "Person",
+            "name": "윤승진",
+            "jobTitle": "책임연구원",
+            "description": "LG 전자의 디자인 철학을 반영해 LG 디오스 오브제컬렉션 핏앤맥스 디자인을 담당한 제품 디자이너. 사용자 중심 주방 인테리어 디자인 전문가",
+            "url": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max#INTERVIEW",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "LG전자",
+              "department": {
+                "@type": "Organization",
+                "name": "HS/ES디자인(연)키친솔루션디자인팀"
+              }
+            }
+          }
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Fit & Max라는 네이밍에 맞게 기술적으로도 좀 더 Fit 하게 구현하기 위해 ‘제로 클리어런스 힌지’ 기술이 어떻게 개발되었는지 궁금합니다.",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Fit & Max는 기존 22mm였던 냉장고장과의 틈을 4mm로 대폭 줄이면서, 냉장고 문이 열릴 때 냉장고장 측면에 닿지 않도록 하는 기술적 숙제가 있었습니다. 이를 해결하기 위해 ‘경로 힌지’라는 새로운 *힌지 기술을 도입하고 도어 구조를 변경했습니다. 기존 냉장고 문은 힌지를 중심으로 밖으로 돌출되기 때문에 간격을 넉넉히 두어야 했지만, ‘경로 힌지’는 문이 안쪽으로 회전하도록 설계되어 벽이나 냉장고장에 밀착 설치해도 문이 부딪히지 않게 했습니다. 이 힌지 구조는 기존보다 복잡하고 부품 강화를 필요로 했지만, 결과적으로 공간 활용도를 크게 높이며 고객에게 더 만족스러운 주방 인테리어 경험을 제공합니다.",
+          "author": {
+            "@type": "Person",
+            "name": "권준영",
+            "jobTitle": "선임연구원",
+            "description": "핏앤맥스 냉장고 개발리더로 업무를 담당하여 제품 개발 전체적인 프로세스를 챙기고 제로 클리어런스 힌지 및 전면 흡방열 설계 기술 개발 담당. 냉툭튀 해결을 위한 핵심 기술에 참여한 전문가 ",
+            "url": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max#INTERVIEW",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "LG전자",
+              "department": {
+                "@type": "Organization",
+                "name": "냉장고Next개발Project팀"
+              }
+            }
+          }
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "제품을 냉장고장에 밀착 설치할 때 발생할 수 있는 냉장고 기계실 열 교환 문제를 어떻게 파악하고 기술적으로 해결하셨나요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "냉장고는 기계실에서 발생하는 열을 효율적으로 배출하는 것이 중요합니다. 기계실 내에는 외부 공기가 들어오는 곳과 열기가 나가는 곳이 있는데, 좁은 공간에 설치 시 더운 공기가 다시 흡입되어 냉장고 내부 온도에 영향을 줄 수 있습니다. 이를 개선하기 위해 PE 소재의 부드러운 Gasket Foam을 사용해 열기의 흐름을 최적화했습니다. 이 소재는 열이 빠져나가는 공간을 분리하여, 뜨거운 공기가 재흡입 되는 것을 방지하고 열이 고르게 분포되도록 돕습니다. 이러한 설계는 유동 해석을 통해 Gasket의 최적 위치를 도출한 결과로 냉장고 전면에서도 효과적으로 열을 방출하는 ‘전면 흡방열 설계’를 구현했습니다.",
+          "author": {
+            "@type": "Person",
+            "name": "권준영",
+            "jobTitle": "선임연구원",
+            "description": "핏앤맥스 냉장고 개발리더로 업무를 담당하여 제품 개발 전체적인 프로세스를 챙기고 제로 클리어런스 힌지 및 전면 흡방열 설계 기술 개발 담당. 냉툭튀 해결을 위한 핵심 기술에 참여한 전문가 ",
+            "url": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max#INTERVIEW",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "LG전자",
+              "department": {
+                "@type": "Organization",
+                "name": "냉장고Next개발Project팀"
+              }
+            }
+          }
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Fit & Max 7종 라인업 출시 시 고객의 라이프 스타일을 어떻게 반영하셨나요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "고객의 다양한 라이프스타일에 맞추기 위해 Fit & Max는 7종 라인업을 한 번에 출시했습니다. 좁은 공간에는 상냉장 1대 또는 컨버터블 2대를 선택할 수 있고, 식구가 많으면 김치냉장고를 추가하는 조합이 많습니다. 요리를 좋아하는 고객은 다양한 식재료 보관을 위해 컨버터블 패키지 냉동고까지 함께 선택합니다. 특히 컨버터블 패키지는 냉장고장과 설치 시 '냉툭튀'가 해결된 빌트인 룩을 가장 잘 구현해 인테리어에 민감한 고객들이 선호하며, 세로 라인만 있어 가장 깔끔한 주방 인테리어를 완성합니다. 7종 라인업은 어떤 고객도 자신의 라이프스타일에 맞게 자유롭게 구성할 수 있는 점이 큰 강점입니다.",
+          "author": {
+            "@type": "Person",
+            "name": "최훈지",
+            "jobTitle": "책임",
+            "description": "핏앤맥스 냉장고 7종 라인업 상품기획 담당. 냉장고장과 함께 빌트인처럼 설치 되는 시장 트렌드 조사, 고객 니즈 발굴, 불편사항 및 개선점을 파악해 핏앤맥스 컨셉을 만들고, 고객 라이프스타일 맞춤형 주방인테리어 솔루션 전문가",
+            "url": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max#INTERVIEW",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "LG전자",
+              "department": {
+                "@type": "Organization",
+                "name": "HS빌트인오브제TDR"
+              }
+            }
+          }
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "LG 오브제컬렉션을 시작으로 Fit & Max가 가전을 넘어 가구의 경계를 허물며 가전과 가구가 하나로 어우러지는 심미성을 제공하는 것 같습니다. 앞으로 가전제품이 기능을 넘어 공간 내에서 어떤 역할과 진화를 할 것이라 생각하시나요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "가전과 가구는 앞으로 뗄 수 없는 관계가 될 것 같습니다. 내부적으로도 가구/인테리어 회사와 협업해 Fit & Max의 가치를 극대화하고 고객에게 전달하는 시도를 하고 있습니다. 가구와 Fit & Max 가전이 함께하는 컬래버레이션 공간을 연내 시범적으로 선보일 예정입니다. 단순히 가전 단품을 보는 것이 아니라, 공간 안에서 조화롭게 어우러지는 모습을 통해 고객에게 완성도 있는 인테리어 경험을 제공하고자 준비하고 있습니다.",
+          "author": {
+            "@type": "Person",
+            "name": "최훈지",
+            "jobTitle": "책임",
+            "description": "핏앤맥스 냉장고 7종 라인업 상품기획 담당. 냉장고장과 함께 빌트인처럼 설치 되는 시장 트렌드 조사, 고객 니즈 발굴, 불편사항 및 개선점을 파악해 핏앤맥스 컨셉을 만들고, 고객 라이프스타일 맞춤형 주방인테리어 솔루션 전문가",
+            "url": "https://www.lge.co.kr/story/tech-insight/designlg-fit-and-max#INTERVIEW",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "LG전자",
+              "department": {
+                "@type": "Organization",
+                "name": "HS빌트인오브제TDR"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+</script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ImageGallery",
+    "name": "LG 디오스 오브제컬렉션 핏앤맥스 냉장고 7종 라인업 디자인 조합 갤러리",
+    "description": "다양한 주방 공간과 라이프스타일에 맞춘 핏앤맥스 냉장고 조합 인테리어 이미지. 냉툭튀가 해결된 빌트인 룩 구현하여 심플하고 고급스러운 주방 인테리어 구현",
+    "associatedMedia": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://www.lge.co.kr/kr/story/tech-inside/img/designlg/ep01/chapter4-inspiration-img1.webp",
+        "name": "LG 디오스 오브제컬렉션 핏앤맥스 컨버터블 패키지 냉장고 + 컨버터블 패키지 냉동고 + 컨버터블 패키지 김치 냉장고",
+        "description": "핏앤맥스 냉장고 중 컨버터블 패키지 냉장, 냉동, 김치냉장고 조합으로 너비가 가장 넓은 라인입니다. 냉장고장과 설치 시 빌트인 스타일을 가장 잘 구현하며 세로 라인만 있어 제일 심플한 디자인입니다. 4인 가족 이상 50평대의 모던하고 하이엔드 감성 선호하는 인테리어 고관여자에게 추천합니다."
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://www.lge.co.kr/kr/story/tech-inside/img/designlg/ep01/chapter4-inspiration-img2.webp",
+        "name": "LG 디오스 오브제컬렉션 핏앤맥스 컨버터블 패키지 냉장고 + 컨버터블 패키지 냉동고",
+        "description": "핏앤맥스 컨버터블 패키지는 빌트인 스타일로 냉장고 핏을 가장 잘 구현할 수 있는 냉장고입니다. 인테리어 고관여자분들이 많이 선택하며, 컨버터블 패키지 냉장, 컨버터블 패키지 냉동 조합은 라이프스타일 감도가 좋고 컬러로 포인트를 주는 주방 인테리어에 추천합니다."
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://www.lge.co.kr/kr/story/tech-inside/img/designlg/ep01/chapter4-inspiration-img3.webp",
+        "name": "LG 디오스 오브제컬렉션 핏앤맥스 상냉장하냉동 냉장고 (500리터급) + 컨버터블 패키지 김치냉장고",
+        "description": "핏앤맥스 상냉장하냉동 500리터 급과 컨버터블 패키지 김치냉장고는 페어 설치로 인기가 많으며 북유럽 스타일의 따뜻하면서 부드러운 감성의 주방 인테리어를 선호하는 신혼부부와 가족에게 추천합니다."
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://www.lge.co.kr/kr/story/tech-inside/img/designlg/ep01/chapter4-inspiration-img4.webp",
+        "name": "LG 디오스 오브제컬렉션 핏앤맥스 상냉장하냉동 냉장고 (600리터급)",
+        "description": "핏앤맥스 냉장고 상냉장하냉동 600리터 급은 자주 사용하는 냉장실은 상단에 넓게 배치하고, 오래 보관하는 냉동실은 하단에 위치시켜 실용성을 높인 제품입니다. 한국 시장 스탠더드 제품으로 20평대 신혼부부가 선호합니다. 냉장고장과 조화로운 깔끔한 주방 인테리어를 선호하는 사람에게 추천합니다."
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://www.lge.co.kr/kr/story/tech-inside/img/designlg/ep01/chapter4-inspiration-img5.webp",
+        "name": "LG 디오스 오브제컬렉션 핏앤맥스 상냉장하냉동 냉장고 (600리터급) + 김치냉장고 4도어",
+        "description": "핏앤맥스 냉장고 상냉장하냉동 600리터급과 김치냉장고 4도어 조합은 동일한 너비로 페어설치를 원하는 고객을 위한 트윈 패키지 제품입니다. 내추럴한 인테리어에 냉툭튀를 해결한 깔끔하고 미니멀한 주방 인테리어를 선호하는 4인 가구에 추천합니다."
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://www.lge.co.kr/kr/story/tech-inside/img/designlg/ep01/chapter4-inspiration-img6.webp",
+        "name": "LG 디오스 오브제컬렉션 핏앤맥스 김치냉장고 3도어 + 컨버터블 패키지 냉동고",
+        "description": "핏앤맥스 김치냉장고 3도어와 컨버터블 패키지 냉동고 조합은 여유로운 냉동실 용량으로 1인 가구의 인테리어 고관여자에게 추천합니다. 심리스한 디자인에 냉장고장과 어우러진 모던하고 시크한 주방 인테리어에 추천합니다."
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://www.lge.co.kr/kr/story/tech-inside/img/designlg/ep01/chapter4-inspiration-img7.webp",
+        "name": "LG 디오스 오브제컬렉션 핏앤맥스 상냉장하냉동 냉장고 (500리터급) + 김치냉장고 3도어",
+        "description": "핏앤맥스 냉장고 상냉장하냉동 500리터 급과 김치냉장고 3도어 조합은 페어설치를 많이 하는 조합으로 3도어 김치톡톡은 2-3인 가구가 많이 사용하는 다용도 김치냉장고입니다. 클린하고 깨끗한 인테리어에 냉장고장과 빈틈을 최소화해 빌트인 느낌을 선호하는 고객에게 추천합니다."
+      }
+    ]
+  }
+</script>
+<link rel="stylesheet" href="/kr/story/tech-inside/css/designlg/designlg-roni2.css">
+<link rel="stylesheet" href="/kr/story/tech-inside/css/designlg/swiper.css">
+<script type="text/javascript" src="/kr/story/tech-inside/js/designlg/gsap.min.js">
+</script>
+<script type="text/javascript" src="/kr/story/tech-inside/js/designlg/ScrollTrigger.min.js">
+</script>
+<script type="text/javascript" src="/kr/story/tech-inside/js/designlg/ScrollToPlugin.min.js">
+</script>
+<script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="libs/swiper_v4.min" src="https://www.lge.co.kr/lg5-common/js/libs/swiper_v4.min.js">
+</script>
+  <main id="designlg" class="intro">
+    <!-- 0.KV -->
+    <section id="kv" class="wr-kv">
+      <div class="inwrap">
+        <div class="kv-stage">
+          <div class="head">
+            <div class="head-inner">
+              <div class="headline">
+                <span class="word word1">
+                  <span class="line-before"> </span>
+                  <span class="char">가</span>
+                  <span class="line-after"> </span>
+                </span>
+                <span class="word word2">
+                  <span class="line-before"> </span>
+                  <span class="char">전</span>
+                  <span class="line-after"> </span>
+                </span>
+                <span class="word word3">
+                  <span class="line-before"> </span>
+                  <span class="char">美</span>
+                  <span class="line-after"> </span>
+                </span>
+                <span class="word word4">
+                  <span class="line-before"> </span>
+                  <span class="char">학</span>
+                  <span class="line-after"> </span>
+                </span>
+                <span class="headline-after"> </span>
+              </div>
+              <div class="desc">
+                가전이라는 캔버스 위의 미학, <br />기술을 넘어선 아름다움의
+                가치를 전합니다.
+              </div>
+            </div>
+          </div>
+          <div class="intro-wrap">
+            <div class="copy-inner">
+              <div class="title-wrap">
+                <div class="eyebrow">Ep.03</div>
+                <h2 class="tit">
+                  AI 오브제컬렉션 로니(RONi)
+                </h2>
+              </div>
+              <div class="desc-wrap">
+                탁월한 성능으로 인정받아 온 LG전자의 특허 기술 ‘스팀’은 100°C로 끓여 생성한 미세 스팀으로 탈취와 살균 영역에서 새로운 기준을 제시해 왔습니다. 
+                <br class="mo-only"><br class="mo-only">
+                LG 스팀 가전의 계보를 잇는 LG HOM-BOT AI 오브제컬렉션 로니(이하 청소 로봇 로니)는 세계 최초 투웨이 스팀 물걸레 시스템을 통해 새로운 패러다임을 제시합니다. AI 기반 인식 기술로 오염도를 고려해
+                스팀을 정교하게 제어하고, 공간 상황에 맞게 스스로 판단하며 작동합니다. 여기에 오브제 스테이션과 히든 스테이션의 설계를 더해 가전이 삶에 자연스럽게 스며들도록 했습니다. <br class="mo-only"><br class="mo-only">
+                스팀 기술과 On Device AI 기술, 그리고 공간 친화적 디자인이 결합된 로니(RONi)는 청소 경험의 기준을 다시 세웁니다.
+              </div>
+            </div>
+            <div class="disclaimer">
+              <p>
+                소비자의 이해를 돕기 위해 생성형 AI를 활용하여 연출된 이미지로
+                실제 제품과 색상 및 스펙은 다를 수 있습니다.
+              </p>
+            </div>
+          </div>
+          <div class="bg-img-wrap">
+            <div class="bg-type bg1">
+              <picture class="kv1 active">
+                <source srcset="
+                        /kr/story/tech-inside/img/designlg/ep03/kv-mo.webp 2x
+                      " media="(max-width: 767px)" />
+                <source srcset="/kr/story/tech-inside/img/designlg/ep03/kv.webp" media="(min-width: 768px)" />
+                <img src="/kr/story/tech-inside/img/designlg/ep03/kv.webp" alt="" />
+              </picture>
+              <picture class="kv2">
+                <source srcset="
+                        /kr/story/tech-inside/img/designlg/ep03/steam2-mo.webp 2x
+                      " media="(max-width: 767px)" />
+                <source srcset="/kr/story/tech-inside/img/designlg/ep03/steam2.webp" media="(min-width: 768px)" />
+                <img src="/kr/story/tech-inside/img/designlg/ep03/steam2.webp" alt="" />
+              </picture>
+              <picture class="kv3 active">
+                <source srcset="
+                        /kr/story/tech-inside/img/designlg/ep03/shadow-mo.webp 2x
+                      " media="(max-width: 767px)" />
+                <source srcset="/kr/story/tech-inside/img/designlg/ep03/shadow.webp" media="(min-width: 768px)" />
+                <img src="/kr/story/tech-inside/img/designlg/ep03/shadow.webp" alt="" />
+              </picture>
+              <picture class="kv4 active">
+                <source srcset="
+                        /kr/story/tech-inside/img/designlg/ep03/vacuum-mo.webp 2x
+                      " media="(max-width: 767px)" />
+                <source srcset="/kr/story/tech-inside/img/designlg/ep03/vacuum.webp" media="(min-width: 768px)" />
+                <img src="/kr/story/tech-inside/img/designlg/ep03/vacuum.webp" alt="" />
+              </picture>
+              <picture class="kv5">
+                <source srcset="
+                        /kr/story/tech-inside/img/designlg/ep03/steam1-mo.webp 2x
+                      " media="(max-width: 767px)" />
+                <source srcset="/kr/story/tech-inside/img/designlg/ep03/steam1.webp" media="(min-width: 768px)" />
+                <img src="/kr/story/tech-inside/img/designlg/ep03/steam1.webp" alt="" />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- //1.KV -->
+    <!-- section 네비게이션 -->
+    <nav id="nav" aria-label="본문 섹션 탐색">
+      <ul>
+        <li class="active">
+          <a href="#STORY" aria-current="location">
+            <span class="pc-only">Chapter 1. </span>STORY</a>
+        </li>
+        <li>
+          <a href="#DESIGN">
+            <span class="pc-only">Chapter 2. </span>DESIGN</a>
+        </li>
+        <li>
+          <a href="#INTERVIEW">
+            <span class="pc-only">Chapter 3. </span>INTERVIEW</a>
+        </li>
+        <li>
+          <a href="#INSPIRATION">
+            <span class="pc-only">Chapter 4. </span>INSPIRATION</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- //section 네비게이션 -->
+    <!-- Chapter 1. STORY -->
+    <section id="STORY" class="d-story">
+      <div class="inwrap">
+        <div class="heading">
+          <h2 class="eyebrow" aria-hidden="true">
+            <span>Chapter 1.</span>
+          </h2>
+          <p class="title" aria-label="Chapter 1. STORY">
+            <img src="/kr/story/tech-inside/img/designlg/ep01/chapter1-tit-story.webp" alt="STORY" />
+          </p>
+        </div>
+        <div class="content">
+          <article class="content-sec sec1">
+            <div class="sec-inner">
+              <div class="sec-head">
+                <h3 class="sec-title">차별화된 청소 경험 <br>Zero Labor Home </h3>
+                <div class="sec-copy">
+                  <div class="copy"> 청소 로봇 로니(RONi)는 복잡한 기술을 앞세우기보다, 고객의 일상을 가볍게 만드는 데서 출발했습니다. ‘기술을 위한 기술’이 아닌, 사용하는 순간
+                    필요성을 체감할 수 있는 기술을 구현하는 것이 로니(RONi)의 핵심 철학입니다. 로니(RONi)가 목표로 한 청소 경험은 분명합니다. ‘생활에 가장 밀착된 청소 경험의 완성’.
+                    이를 위해 고객 경험을 최우선 가치로 삼아 설계되었습니다. </div>
+                  <div class="copy"> 특히 중요하게 고려한 요소는 ‘사용자가 신경 쓰지 않아도 되는 청소’ 과정입니다. 물걸레를 직접 세척하거나 관리할 필요가 없고, 청소 후 위생 상태나
+                    냄새를 걱정하지 않아도 됩니다. 바닥의 오염 상태를 로니(RONi)가 스스로 판단해, 필요한 곳은 더 꼼꼼하게, 불필요한 움직임은 줄이며 최적의 동선으로 청소합니다. 이를 통해
+                    청소 과정에서 발생하는 번거로운 집안일을 최소화하고 일상의 부담을 덜어냅니다. 로니(RONi)는 가사 노동을 최소화(Zero Labor Home)하는 가치를 중심에 두고, 한 차원
+                    다른 청소 경험을 제안합니다. </div>
+                </div>
+              </div>
+              <div class="sec-cnt">
+                <div class="cnt-video-wrap">
+                  <div class="video-inner-wrap"> <video class="designlg-video" muted playsinline loop autoplay
+                      aria-describedby="design-video1-desc" id="design-sec1-video" preload="metadata"
+                      poster="/kr/story/tech-inside/img/designlg/ep03/design-video1-poster.webp">
+                      <source src="/kr/story/tech-inside/img/designlg/ep03/n95twu_keyvideo_kitchen_mo.webm"
+                        type="video/mp4" media="(max-width: 767px)">
+                      <source src="/kr/story/tech-inside/img/designlg/ep03/story-sec1-video.webm" type="video/webm"
+                        aria-hidden="true">
+                      <source src="/kr/story/tech-inside/img/designlg/ep03/story-sec1-video.webm" type="video/mp4"
+                        aria-hidden="true">
+                    </video>
+                    <div class="controller-wrap video-btn"> <button class="active pause js-video-toggle"
+                        aria-label="영상 일시정지" aria-controls="design-sec1-video" data-play-text="영상 재생"
+                        data-pause-text="영상 일시정지"> </button> </div>
+                    <p id="design-video1-desc" class="sr-only"> </p>
+                  </div>
+                </div>
+                <div class="disclaimer">
+                  <p>소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="content-sec sec2">
+          <div class="sec-inner">
+            <div class="sec-head sec-column">
+              <h3 class="sec-title">세계 최초 투웨이 스팀, <br>무빙 스팀 & 살균 스팀 </h3>
+              <div class="sec-copy">
+                <div class="copy">
+                  LG전자의 뛰어난 스팀 기술을 청소 로봇 분야로 확장한 로니(RONi)는 세계 최초 투웨이 스팀 물걸레청소 로봇이라는 타이틀에 걸맞게 국제 표준 인증 준비 단계부터 철저한 기술 검증을
+                  걸쳐 개발되었습니다. 특히, 스팀을 걸레에 안정적으로 분사하기 위해 회전부 누설 방지 구조와 맙(Mop) 플레이트 내부 공간을 활용한 스팀 유로 구성을 핵심 특허 기술로 적용했습니다.
+                </div>
+                <div class="copy">
+                  이를 통해 실제 걸레를 효과적으로 데울 수 있는 독자적인 스팀 유로 및 구동부 설계를 완성했으며, 배터리 기반 청소 로봇에서도 스팀 기능 구현을 가능하게 했습니다. 또한
+                  로니(RONi)에는 청소 로봇 본체 스팀뿐만 아니라 스테이션에도 스팀 기능을 적용해 걸레 살균이 가능하도록 설계했으며, 99.99%의 살균 성능은 3자 인증 기관을 통해 검증되어
+                  신뢰도를 한층 강화했습니다.
+                </div>
+              </div>
+            </div>
+            <div class="sec-cnt">
+              <div class="cnt-video-wrap">
+                <div class="video-inner-wrap"> <video class="designlg-video" muted playsinline loop autoplay
+                    aria-describedby="design-video1-desc" id="design-sec1-video" preload="metadata"
+                    poster="/kr/story/tech-inside/img/designlg/ep03/design-video1-poster.webp">
+                    <source src="/kr/story/tech-inside/img/designlg/ep03/n95twu_keyvideo_kitchen_mo.webm"
+                      type="video/mp4" media="(max-width: 767px)">
+                    <source src="/kr/story/tech-inside/img/designlg/ep03/story-sec2-video.webm" type="video/webm"
+                      aria-hidden="true">
+                    <source src="/kr/story/tech-inside/img/designlg/ep03/story-sec2-video.webm" type="video/mp4"
+                      aria-hidden="true">
+                  </video>
+                  <div class="controller-wrap video-btn"> <button class="active pause js-video-toggle"
+                      aria-label="영상 일시정지" aria-controls="design-sec1-video" data-play-text="영상 재생"
+                      data-pause-text="영상 일시정지"> </button> </div>
+                  <p id="design-video1-desc" class="sr-only"> </p>
+                </div>
+              </div>
+              <div class="disclaimer">
+                <p>소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-sec sec3">
+          <div class="sec-inner">
+            <div class="sec-head sec-column">
+              <h3 class="sec-title">On Device AI로 <br>인지, 인식 능력 강화</h3>
+              <div class="sec-copy">
+                <div class="copy">
+                  AI 기술을 활용해 청소 주행을 하면서 바닥 오염도를 실시간으로 감지하고, 얼룩이 감지될 때만 스팀을 사용하도록 설계했습니다. 이를 통해 에너지 효율을 높이는 동시에 청소 속도와
+                  완성도를 동시에 향상시켰습니다. 이러한 AI 바닥 고체 오염 인식 기술을 기반으로 기본 청소 설정을 스팀 물걸레 청소로 구성해, 눈에 보이지 않는 오염까지 감지하고 상황에 맞는 청소
+                  방식을 자동으로 판단합니다. 오염이 인식되면 AI 스팀 청소를 통해 해당 부분을 집중적으로 청소하고, ThinQ 앱에서 청소 전/후 사진을 제공합니다.
+                </div>
+                <div class="copy">
+                  또한 전선이나 반려동물 배설물 등 청소 중 장애가 될 수 있는 요소를 인식해 자동으로 회피하는 AI 기반 위험 장애물 인식 기술을 적용함으로써, 사용자의 사전 정리를 최소화했습니다.
+                  이처럼 AI 기반 위험 장애물 인식과 AI 오염 인식 기술은 LG전자 청소 로봇 로니(RONi)의 핵심 기술로, 지속적인 고도화를 통해 청소 경험을 한 단계 끌어올릴 것으로
+                  기대됩니다.
+                </div>
+                <div class="disclaimer mo-only">
+                  <p>
+                    소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="sec-cnt">
+              <div class="cnt-video-wrap">
+                <div class="video-inner-wrap">
+                  <video class="designlg-video" muted playsinline loop autoplay aria-describedby="design-video1-desc"
+                    id="design-sec1-video" preload="metadata"
+                    poster="/kr/story/tech-inside/img/designlg/ep03/design-video1-poster.webp">
+                    <source src="/kr/story/tech-inside/img/designlg/ep03/n95twu_keyvideo_kitchen_mo.webm"
+                      type="video/mp4" media="(max-width: 767px)">
+                    <source src="/kr/story/tech-inside/img/designlg/ep03/story-sec3-video1.webm" type="video/webm"
+                      aria-hidden="true">
+                    <source src="/kr/story/tech-inside/img/designlg/ep03/story-sec3-video1.webm" type="video/mp4"
+                      aria-hidden="true">
+                  </video>
+                  <div class="controller-wrap video-btn">
+                    <button class="active pause js-video-toggle" aria-label="영상 일시정지" aria-controls="design-sec1-video"
+                      data-play-text="영상 재생" data-pause-text="영상 일시정지">
+                    </button>
+                  </div>
+                  <p id="design-video1-desc" class="sr-only"> </p>
+                </div>
+                <div class="caption">
+                  <p class="caption-desc">
+                    위험상황회피 Ai주행
+                  </p>
+                </div>
+              </div>
+              <div class="cnt-video-wrap">
+                <div class="video-inner-wrap">
+                  <video class="designlg-video" muted playsinline loop autoplay aria-describedby="design-video1-desc"
+                    id="design-sec1-video" preload="metadata"
+                    poster="/kr/story/tech-inside/img/designlg/ep03/design-video1-poster.webp">
+                    <source src="/kr/story/tech-inside/img/designlg/ep03/n95twu_keyvideo_kitchen_mo.webm"
+                      type="video/mp4" media="(max-width: 767px)">
+                    <source src="/kr/story/tech-inside/img/designlg/ep03/story-sec3-video2.webm" type="video/webm"
+                      aria-hidden="true">
+                    <source src="/kr/story/tech-inside/img/designlg/ep03/story-sec3-video2.webm" type="video/mp4"
+                      aria-hidden="true">
+                  </video>
+                  <div class="controller-wrap video-btn">
+                    <button class="active pause js-video-toggle" aria-label="영상 일시정지" aria-controls="design-sec1-video"
+                      data-play-text="영상 재생" data-pause-text="영상 일시정지">
+                    </button>
+                  </div>
+                  <p id="design-video1-desc" class="sr-only"> </p>
+                </div>
+                <div class="caption">
+                  <p class="caption-desc">
+                    공간별 맞춤 청소 모드
+                  </p>
+                  <div class="disclaimer pc-only">
+                    <p>
+                      소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //Chapter 1. STORY -->
+    <!-- Chapter 2. DESIGN -->
+    <section id="DESIGN" class="d-design">
+      <div class="inwrap">
+        <div class="heading">
+          <h2 class="eyebrow" aria-hidden="true"><span>Chapter 2.</span></h2>
+          <p class="title" aria-label="Chapter 2. DESIGN"><img
+              src="/kr/story/tech-inside/img/designlg/ep01/chapter2-tit-design.webp" alt="DESIGN"></p>
+        </div>
+        <div class="content">
+          <article class="content-sec sec1">
+            <div class="sec-inner">
+              <div class="sec-head sec-row">
+                <h3 class="sec-title">삶의 공간에 스며든 <br>존재감의 미학</h3>
+                <div class="sec-copy">
+                  <div class="copy">
+                    청소 로봇 로니(RONi)는 제품이 공간 속에서 시선을 독점하는 ‘주인공’이 되기보다, 생활 공간에 자연스럽게 스며들어 묵묵히 제 역할을 수행하는 ‘숨겨진 존재감’을 지향합니다.
+                    이러한 접근은 기존 가전 디자인과는 차별화된 로니(RONi)만의 관점입니다. 청소 로봇 본체는 단순히 자동으로 청소를 수행하는 기계가 아닌, 사용자와 상호 교감하는 존재로
+                    인식되도록 설계되었습니다.
+                  </div>
+                  <div class="copy">
+                    이를 위해 사물 중심의 형태를 벗어나, 얼굴을 연상시키는 안면부 인상을 적용해 보다 친근하고 감성적인 이미지를 완성했습니다. 디자인 전반에는 LG전자 디자인 아이덴티티의 근간인
+                    간결한 형태와 절제된 선(Seamless)을 바탕으로, 시간이 지나도 변함없고 누구에게나 부담 없는 디자인을 구현했습니다. 유행에 좌우되지 않는 균형 잡힌 조형은
+                    로니(RONi)만의 차별화된 경쟁력입니다.
+                  </div>
+                </div>
+              </div>
+              <div class="sec-cnt">
+                <div class="cnt-img-wrap">
+                  <div class="cnt-img">
+                    <div class="left-img">
+                      <picture>
+                        <source srcset="/kr/story/tech-inside/img/designlg/ep03/design-sec1-img1-mo.webp 2x"
+                          media="(max-width: 767px)">
+
+                        <source srcset="/kr/story/tech-inside/img/designlg/ep03/design-sec1-img1.webp 1.5x"
+                          media="(min-width: 768px)">
+                        <img src="/kr/story/tech-inside/img/designlg/ep03/design-sec1-img1.webp" alt="" />
+                      </picture>
+                    </div>
+                    <ul>
+                      <li>
+                        <picture>
+                          <source srcset="/kr/story/tech-inside/img/designlg/ep03/design-sec1-img2-mo.webp 2x"
+                            media="(max-width: 767px)">
+
+                          <source srcset="/kr/story/tech-inside/img/designlg/ep03/design-sec1-img2.webp 1.5x"
+                            media="(min-width: 768px)">
+                          <img src="/kr/story/tech-inside/img/designlg/ep03/design-sec1-img2.webp" alt="" />
+                        </picture>
+                      </li>
+                      <li>
+                        <picture>
+                          <source srcset="/kr/story/tech-inside/img/designlg/ep03/design-sec1-img3-mo.webp 2x"
+                            media="(max-width: 767px)">
+
+                          <source srcset="/kr/story/tech-inside/img/designlg/ep03/design-sec1-img3.webp 1.5x"
+                            media="(min-width: 768px)">
+                          <img src="/kr/story/tech-inside/img/designlg/ep03/design-sec1-img3.webp" alt="" />
+                        </picture>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="disclaimer">
+                    <p>소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="content-sec sec2">
+            <div class="sec-inner">
+              <div class="sec-head sec-row">
+                <h3 class="sec-title">공간의 완성 가구형 <br>오브제 스테이션 </h3>
+                <div class="sec-copy">
+                  <div class="copy">
+                    청소 로봇 로니(RONi)의 오브제 스테이션은 협탁에서 착안한 디자인을 바탕으로, 인테리어와 조화를 이루는 가구형 오브제로 디자인되었습니다. 청소 중이 아닐 때는 로니(RONi)가
+                    완전히 숨겨지는 심리스한 구조를 적용해 청소 로봇이 아닌 하나의 생활 오브제로 인식되도록 새로운 시각적 언어를 구현했습니다. ‘완벽한 정리의 끝은 수납’이라는 말처럼 청소 로봇의
+                    스테이션은 충전을 넘어 자동 먼지 비움과 물걸레 자동 세척·건조 등 건·습식 청소 후처리 기능이 더해지며 필연적으로 부피가 커질 수밖에 없습니다. 이러한 구조적 한계 속에서
+                    로니(RONi)는 단순히 크기를 줄이기보다, 제한된 크기 내에서 가치를 극대화하는 방향을 선택했습니다.
+                  </div>
+                  <div class="copy">
+                    오브제 스테이션을 가구로 활용할 수 있도록 설계해 크기에 대한 부담을 또 하나의 가치로 전환했습니다. 동시에 기능 중심의 기계적인 디자인이 공간에 놓일 때 발생하는 심리적 이질감을
+                    줄이기 위해, 청소 로봇 본체를 스테이션 내부로 자연스럽게 감추는 숨김과 수납의 미학을 핵심 디자인 기준으로 삼았습니다. 그 결과, 로니(RONi)의 오브제 스테이션은 단순한
+                    청소기 거치대를 넘어, 공간의 질서를 정돈하고 일상의 풍경을 완성하는 가구형 오브제로 자리합니다.
+                  </div>
+                </div>
+              </div>
+              <div class="sec-cnt">
+                <div class="cnt-img-wrap">
+                  <div class="cnt-img">
+                    <div class="left-img pc-only">
+                      <picture>
+                        <source srcset="/kr/story/tech-inside/img/designlg/ep03/design-sec2-img1-mo.webp 2x"
+                          media="(max-width: 767px)">
+
+                        <source srcset="/kr/story/tech-inside/img/designlg/ep03/design-sec2-img1.webp 1.5x"
+                          media="(min-width: 768px)">
+                        <img src="/kr/story/tech-inside/img/designlg/ep03/design-sec2-img1.webp" alt="" />
+                      </picture>
+                      <div class="caption">
+                        <p class="caption-desc">
+                          공간 맞춤 오브제 스테이션
+                        </p>
+                        <div class="disclaimer">
+                          <p>
+                            소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <ul>
+                      <li>
+                        <picture>
+                          <source srcset="/kr/story/tech-inside/img/designlg/ep03/design-sec2-img2-mo.webp 2x"
+                            media="(max-width: 767px)">
+
+                          <source srcset="/kr/story/tech-inside/img/designlg/ep03/design-sec2-img2.webp 1.5x"
+                            media="(min-width: 768px)">
+                          <img src="/kr/story/tech-inside/img/designlg/ep03/design-sec2-img2.webp" alt="" />
+                        </picture>
+                        <div class="caption">
+                          <p class="caption-desc">
+                            어디에 두어도 어울리는 디자인
+                          </p>
+                        </div>
+                      </li>
+                      <li class="mo-only">
+                        <picture>
+                          <source srcset="/kr/story/tech-inside/img/designlg/ep03/design-sec2-img1-mo.webp 2x"
+                            media="(max-width: 767px)">
+
+                          <source srcset="/kr/story/tech-inside/img/designlg/ep03/design-sec2-img1.webp 1.5x"
+                            media="(min-width: 768px)">
+                          <img src="/kr/story/tech-inside/img/designlg/ep03/design-sec2-img1.webp" alt="" />
+                        </picture>
+                        <div class="caption">
+                          <p class="caption-desc">
+                            공간 맞춤 오브제 스테이션
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <picture>
+                          <source srcset="/kr/story/tech-inside/img/designlg/ep03/design-sec2-img3-mo.webp 2x"
+                            media="(max-width: 767px)">
+
+                          <source srcset="/kr/story/tech-inside/img/designlg/ep03/design-sec2-img3.webp 1.5x"
+                            media="(min-width: 768px)">
+                          <img src="/kr/story/tech-inside/img/designlg/ep03/design-sec2-img3.webp" alt="" />
+                        </picture>
+                        <div class="caption">
+                          <p class="caption-desc">
+                            사이드 테이블로 자연스러운 배치
+                          </p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+      <article class="content-sec sec3">
+        <div class="sec-inner">
+          <div class="sec-cnt">
+            <div class="cnt-img-wrap">
+              <div class="cnt-img">
+                <picture>
+                  <source srcset="/kr/story/tech-inside/img/designlg/ep03/design-sec2-img4-mo.webp 2x"
+                    media="(max-width: 767px)">
+
+                  <source srcset="/kr/story/tech-inside/img/designlg/ep03/design-sec2-img4.webp 1.5x"
+                    media="(min-width: 768px)">
+                  <img src="/kr/story/tech-inside/img/designlg/ep03/design-sec2-img4.webp" alt="" />
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <div class="inwrap">
+        <article class="content-sec sec4">
+          <div class="sec-inner">
+            <div class="sec-head sec-row">
+              <h3 class="sec-title">진정한 맞춤형 빌트인 <br>히든 스테이션 </h3>
+              <div class="sec-copy">
+                <div class="copy"> 로니(RONi)의 히든 스테이션은 ‘히든’이라는 키워드에 충실하게, 보일 필요가 없는 요소는 확실히 감추는 것에서 출발했습니다. 청소 로봇 스테이션에서
+                  번거롭게 느껴지는 급수·배수 관리와 오수 처리의 불편함을 보이지 않는 영역에서 해결해 사용자의 일상에는 최대한 드러나지 않도록 했습니다. 도킹 시 필요한 센서창과 조작 버튼 역시
+                  하나의 수평 라인으로 정돈하고, 시선에 닿지 않는 최상단에 배치해 시각적 노출을 최소화했습니다. 이를 통해 생활 공간 속에서 스테이션의 존재감을 거의 느끼지 않도록 하는 ‘존재감
+                  제로’ 디자인을 구현했습니다. </div>
+                <div class="copy">설치 환경을 고려한 설계도 중요한 기준이었습니다. 일반적인 주방 구조에서 걸레받이 안쪽에 형성되는 데드 스페이스(Dead Space)를 활용해 별도의 시공
+                  없이 설치할 수 있도록 했으며, 싱크대 하부의 다릿발 구조까지 고려해 전체 하중을 안정적으로 지지하는 구조를 완성했습니다. 또한 주방 인테리어와 조화를 이루도록 오브제 컬러를 적용해
+                  빌트인 가구처럼 깔끔한 인상을 구현했습니다. 이러한 디자인 철학을 바탕으로 로니(RONi)는 약 15cm 높이의 초슬림 스테이션으로 완성되었으며, 생활 공간에 자연스럽게 스며들어
+                  세련되고 고급스러운 인상으로 공간과 조화를 이룹니다. </div>
+              </div>
+            </div>
+            <div class="sec-cnt">
+              <div class="cnt-img-wrap">
+                <div class="cnt-img">
+                  <ul>
+                    <li>
+                      <picture>
+                        <source srcset="/kr/story/tech-inside/img/designlg/ep03/design-sec4-img1-mo.webp 2x"
+                          media="(max-width: 767px)">
+
+                        <source srcset="/kr/story/tech-inside/img/designlg/ep03/design-sec4-img1.webp 1.5x"
+                          media="(min-width: 768px)">
+                        <img src="/kr/story/tech-inside/img/designlg/ep03/design-sec4-img1.webp" alt="" />
+                      </picture>
+                      <div class="caption">
+                        <p class="caption-desc">
+                          약 15cm 높이의 초슬림 히든 스테이션
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="video-inner-wrap">
+                        <video class="designlg-video" muted playsinline loop autoplay preload="metadata">
+                          <source src="/kr/story/tech-inside/img/designlg/ep03/design-sec4-video-mo.webm"
+                            type="video/mp4" media="(max-width: 767px)">
+                          <source src="/kr/story/tech-inside/img/designlg/ep03/design-sec4-video.webm" type="video/mp4"
+                            media="(min-width: 768px)">
+                          <source src="/kr/story/tech-inside/img/designlg/ep03/design-sec4-video.webm" type="video/mp4">
+                        </video>
+                      </div>
+                      <div class="caption">
+                        <p class="caption-desc">
+                          숨겨진 공간을 가치 있게 활용
+                        </p>
+                        <div class="disclaimer">
+                          <p>
+                            소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <picture>
+                        <source srcset="/kr/story/tech-inside/img/designlg/ep03/design-sec4-img3-mo.webp 2x"
+                          media="(max-width: 767px)">
+
+                        <source srcset="/kr/story/tech-inside/img/designlg/ep03/design-sec4-img3.webp 1.5x"
+                          media="(min-width: 768px)">
+                        <img src="/kr/story/tech-inside/img/designlg/ep03/design-sec4-img3.webp" alt="" />
+                      </picture>
+                      <div class="caption">
+                        <p class="caption-desc">
+                          공사 없이 싱크대 하단 걸레받이 설치
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- //Chapter 2. DESIGN-->
+    <!-- Chapter 3. INTERVIEW -->
+    <section id="INTERVIEW" class="d-interview">
+      <div class="inwrap">
+        <div class="heading">
+          <h2 class="eyebrow" aria-hidden="true"><span>Chapter 3.</span></h2>
+          <p class="title" aria-label="Chapter 3. INTERVIEW"><img
+              src="/kr/story/tech-inside/img/designlg/ep01/chapter3-tit-interview.webp" alt="INTERVIEW"></p>
+          <div class="desc"> LG 트롬 오브제컬렉션 AI 워시타워는 AI 코어테크를 기반으로 기술을 정교하게 다듬어 온 장인정신에서 출발했습니다. <br class="pc-only"> 제품
+            디자인과 UX 디자인을 비롯해 상품 기획, 제품팀, 개발 부서 등 여러 조직이 긴밀하게 협업하여 기술과 디자인을 하나의 경험으로 매끄럽게 이었습니다. <br class="pc-only"> 이러한
+            협업의 중심에 있었던 각 부서 전문가들을 만나 디자인적 문제 해결 과정과 AI 기술 개발 히스토리를 보다 깊이 있게 소개합니다. 
+          </div>
+          <div class="disclaimer">
+            <p>본 내용은 인터뷰 참여자의 경험 및 견해가 포함되어 있으며, 제품의 상세한 스펙은 LGE.COM 홈페이지를 통하여 확인하세요.</p>
+          </div>
+        </div>
+        <div class="content">
+          <div class="content-inner">
+            <div class="people-list" data-sticky-offset="202">
+              <div class="people-sticky">
+                <ul class="tag-wrap" role="tablist">
+                  <li> <button class="person-card is-active" type="button" id="person-KSM" data-person-id="KSM"
+                      role="tab" aria-selected="true" aria-controls="qna-KSM detail-KSM" tabindex="0"> <span
+                        class="tag"># 하나의 오브제로 완성한 심리스 디자인</span> <span class="writer" hidden>김성민 책임연구원</span>
+                    </button> </li>
+                  <li> <button class="person-card" type="button" id="person-LKH" data-person-id="LKH" role="tab"
+                      aria-selected="false" aria-controls="qna-LKH detail-LKH" tabindex="-1"> <span class="tag"># 하나의
+                        오브제로 완성한 심리스 디자인</span> <span class="writer" hidden>이국행 책임연구원 </span> </button> </li>
+                  <li> <button class="person-card" type="button" id="person-LDJ" data-person-id="LDJ" role="tab"
+                      aria-selected="false" aria-controls="qna-LDJ detail-LDJ" tabindex="-1"> <span class="tag"># 보이지 않는
+                        공간까지 설계한 스테이션 전략</span> <span class="writer" hidden>이동재 책임연구원</span> </button> </li>
+                  <li> <button class="person-card" type="button" id="person-CJH" data-person-id="CJH" role="tab"
+                      aria-selected="false" aria-controls="qna-CJH detail-CJH" tabindex="-1"> <span class="tag"># 신경 쓰지
+                        않아도 되는 청소 경험 완성</span> <span class="writer" hidden>최정훈 선임</span> </button>
+                  </li>
+                  <li> <button class="person-card" type="button" id="person-YIK" data-person-id="YIK" role="tab"
+                      aria-selected="false" aria-controls="qna-YIK detail-YIK" tabindex="-1"> <span class="tag"># 고출력 팬
+                        모터 최적화로 완성한 흡입력 혁신</span> <span class="writer" hidden>양인규 책임연구원 </span> </button> </li>
+                  <li> <button class="person-card" type="button" id="person-CJO" data-person-id="CJO" role="tab"
+                      aria-selected="false" aria-controls="qna-CJO detail-CJO" tabindex="-1"> <span class="tag"># 스팀 청소를
+                        기준으로 AI 오염 인식 개발</span> <span class="writer" hidden>최준오 책임연구원</span> </button> </li>
+                  <li> <button class="person-card" type="button" id="person-KJH" data-person-id="KJH" role="tab"
+                      aria-selected="false" aria-controls="qna-KJH detail-KJH" tabindex="-1"> <span class="tag"># AI 학습
+                        기반 위험 회피와 신뢰형 사용자 경험 구현</span> <span class="writer" hidden>김정환 책임연구원 </span> </button> </li>
+                  <li> <button class="person-card" type="button" id="person-JSW" data-person-id="JSW" role="tab"
+                      aria-selected="false" aria-controls="qna-JSW detail-JSW" tabindex="-1"> <span class="tag"># 생활
+                        파트너로 진화하는 로니(RONi)의 시장 차별화 </span> <span class="writer" hidden>장선우 선임</span> </button> </li>
+                </ul>
+                <div class="people-detail-wrap">
+                  <article id="detail-KSM" class="people-detail" aria-labelledby="person-KSM">
+                    <div class="interview-people">
+                      <div class="img"><img src="/kr/story/tech-inside/img/designlg/ep03/interview-people1.webp" alt="">
+                      </div>
+                      <h3 class="name">김성민 책임연구원</h3>
+                      <div class="group">HS/ES디자인(연)리빙솔루션디자인팀</div>
+                      <div class="comment">HS디자인연구소 리빙솔루션디자인팀에서 2017년부터 현재까지 근무중입니다. 제품디자인업무(제품 컨셉 발굴, 디자인 렌더링, 3D모델링,
+                        CMF디자인, 양산개발지원) 전반에 걸친 업무를 진행했습니다 </div>
+                    </div>
+                  </article>
+                  <article id="detail-LKH" class="people-detail" aria-labelledby="person-LKH" hidden>
+                    <div class="interview-people">
+                      <div class="img"><img src="/kr/story/tech-inside/img/designlg/ep03/interview-people2.webp" alt="">
+                      </div>
+                      <h3 class="name">이국행 책임연구원 </h3>
+                      <div class="group">NR TDR</div>
+                      <div class="comment">HS응용기술연구소 Dynamic모듈기술 Project 소속으로, 2024년 9월부터 NR TDR에 파견되어 차세대 청소 로봇 플랫폼 개발에
+                        참여하고 있습니다. NR TDR은 청소 로봇 본체와 오브제·히든 스테이션 2종을 동시 개발하는 조직입니다. 습식 청소 성능 및 스팀 기술 개발을 위한 선행 개발 및 제품
+                        구조, 성능 확보 업무를 진행하였습니다. </div>
+                    </div>
+                  </article>
+                  <article id="detail-LDJ" class="people-detail" aria-labelledby="person-LDJ" hidden>
+                    <div class="interview-people">
+                      <div class="img"><img src="/kr/story/tech-inside/img/designlg/ep03/interview-people3.webp" alt="">
+                      </div>
+                      <h3 class="name">이동재 책임연구원</h3>
+                      <div class="group">NR TDR</div>
+                      <div class="comment">현재 소속은 NR TDR(로니(RONi) 개발)이며, 응용기술연구소 Dynamic 모듈 기술 Part에 근무합니다. 로니(RONi) 개발
+                        당시에는 입자유동 PJT 소속으로 약 7년간 관련 업무를 수행했습니다. 스테이션의 먼지 비움·세척·건조 등 핵심 기능에 대한 목표 성능을 정의하고 이를 검증했으며, 시스템
+                        구동을 위한 SW 요구조건을 수립해 구현 결과를 검증하고, 스테이션 시스템 구성에 필요한 전장 부품의 사양을 선정하고 기능 적합성을 검토했습니다</div>
+                    </div>
+                  </article>
+                  <article id="detail-CJH" class="people-detail" aria-labelledby="person-CJH" hidden>
+                    <div class="interview-people">
+                      <div class="img"><img src="/kr/story/tech-inside/img/designlg/ep03/interview-people4.webp" alt="">
+                      </div>
+                      <h3 class="name">최정훈 선임</h3>
+                      <div class="group">리빙솔루션상품기획2팀</div>
+                      <div class="comment">리빙솔루션상품기획2팀에 소속되어 있으며, 2022년 7월부터 상품기획 업무를 맡고 있습니다. 이전에는 청소 로봇 개발팀에서 약 2년 반
+                        동안 연구·개발을 담당했습니다. 개발 경험을 바탕으로 히든 스테이션 콘셉트 발굴과 프로젝트 기획을 수행하며, 사용자 요구와 가격 구조를 정의해 최종 상품 구성과 판매
+                        스킴까지 연결하는 기획을 담당했습니다.</div>
+                    </div>
+                  </article>
+                  <article id="detail-YIK" class="people-detail" aria-labelledby="person-YIK" hidden>
+                    <div class="interview-people">
+                      <div class="img"><img src="/kr/story/tech-inside/img/designlg/ep03/interview-people5.webp" alt="">
+                      </div>
+                      <h3 class="name">양인규 책임연구원</h3>
+                      <div class="group">NR TDR</div>
+                      <div class="comment"> 한국 시장에 맞는 제품 콘셉트를 발굴하고 이를 기반으로 출시 기획과 상품화를 <br class="pc-only">입자유동Project팀은
+                        최적 유로 설계, 입자 포집·사이클론·필터레이션 기술을 연구합니다. 2024년 3월부터 로니(RONi) 선행 연구에 참여했으며, 2024년 10월 TDR 합류해 현재까지
+                        개발을 수행하고 있습니다. 흡입력 향상과 최고의 건식 청소 성능 확보를 위해 유로 설계, 필터 설계, 흡입모터 개발, 소음저감, 시스템 매칭 업무를 수행하고 있습니다.
+                      </div>
+                    </div>
+                  </article>
+                  <article id="detail-CJO" class="people-detail" aria-labelledby="person-CJO" hidden>
+                    <div class="interview-people">
+                      <div class="img"><img src="/kr/story/tech-inside/img/designlg/ep03/interview-people6.webp" alt="">
+                      </div>
+                      <h3 class="name">최준오 책임연구원</h3>
+                      <div class="group">NR TDR</div>
+                      <div class="comment">본 소속은 리빙솔루션Innovative Tech제어Project이며, 작년부터 NR TDR 소속으로 청소 로봇 로니(RONi) 출시까지
+                        제품 개발업무를 진행하고 있습니다. 청소 로봇에서 AI 바닥 오염 인식 기능을 담당하며, 시나리오 개발, 인식률 관리, 필드 이슈 대응을 진행했습니다. </div>
+                    </div>
+                  </article>
+                  <article id="detail-KJH" class="people-detail" aria-labelledby="person-KJH" hidden>
+                    <div class="interview-people">
+                      <div class="img"><img src="/kr/story/tech-inside/img/designlg/ep03/interview-people7.webp" alt="">
+                      </div>
+                      <h3 class="name">김정환 책임연구원</h3>
+                      <div class="group">NR TDR</div>
+                      <div class="comment">HS 사업본부 내 리빙솔루션 Innovative Tech제어 Project에서 근무하며, 2016년 부터 청소 로봇 AI 개발 및 총괄을
+                        담당하고 있습니다. 로니(RONi) 개발에서는 카메라 기반 AI 사물 인식과 센서 기반 위험 상황 인식 기술을 중심으로, 실제 주행 환경에서 이동을 방해하는 요소를 정의하고
+                        이를 해결하는 업무를 맡았습니다. 특히 기존 센서나 주행 로직만으로 대응하기 어려운 영역을 AI 기술로 보완하는 방법을 연구하고, 이를 제품에 적용하는 업무를 수행했습니다.
+                      </div>
+                    </div>
+                  </article>
+                  <article id="detail-JSW" class="people-detail" aria-labelledby="person-JSW" hidden>
+                    <div class="interview-people">
+                      <div class="img"><img src="/kr/story/tech-inside/img/designlg/ep03/interview-people8.webp" alt="">
+                      </div>
+                      <h3 class="name">장선우 선임</h3>
+                      <div class="group">리빙솔루션상품기획2팀</div>
+                      <div class="comment">리빙솔루션상품기획2팀에서 청소 로봇 기획을 담당하고 있습니다. 2023년 NR 프로젝트를 시작하면서부터 고객 인사이트 분석부터 제품 콘셉트
+                        정의, 기능·디자인 요구사항 수립, 경쟁 전략 설정까지 전반적인 상품 기획을 맡았습니다. ‘기술 중심 제품’이 아니라 ‘생활을 이해하는 제품’이 되도록 전체 기획을
+                        이끌었습니다.</div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+            <div class="qna-wrap">
+              <article id="qna-KSM" class="qna-list" data-person-id="KSM" aria-labelledby="person-KSM">
+                <div class="interview-people mo-only" aria-hidden="true">
+                  <div class="img"><img src="/kr/story/tech-inside/img/designlg/ep03/interview-people1.webp" alt="">
+                  </div>
+                  <h3 class="name">김성민 책임연구원</h3>
+                  <div class="group">HS/ES디자인(연)리빙솔루션디자인팀</div>
+                  <div class="comment"> 리빙솔루션디자인팀은 다양한 리빙 제품 디자인 경험을 바탕으로, <br> AI 워시타워에 플랫 디자인을 적용하면서 워시타워 아이덴티티와 전체
+                    비례, <br class="pc-only"> 외관 CMF 및 시장 트렌드를 고려해 <br class="mo-only">체계적인 디자인을 진행했습니다. </div>
+                </div>
+                <dl class="qna-item">
+                  <dt id="q-KSM-1">
+                    <h3> <span role="img" aria-label="질문">Q</span> <span>기존 자사 제품 대비, 청소 로봇 로니(RONi) 히든 스테이션의 업그레이드된 부분은
+                        무엇이며, 설치 및 사용성 측면에서 고객이 어떻게 체감하길 바라나요?</span> </h3>
+                  </dt>
+                  <dd aria-labelledby="q-KSM-1">
+                    <p>기존 자사 제품에는 없던 형태의 스테이션이기 때문에 직접적인 일대일 비교는 어렵지만, 직배수 장치를 내장한 기존 로보킹 올인원 스테이션과 비교했을 때 가장 큰 변화는 걸레받이
+                      커팅을 최소화할 수 있도록 가로 폭과 높이를 새롭게 설계한 폼팩터에 있습니다. 이를 통해 기존과는 다른 설치 환경을 구현했습니다. <br class="mo-only">
+                      기존 제품이 세미 빌트인 방식에 가까웠다면,
+                      로니(RONi)의 히든 스테이션은 풀 빌트인에 가까운 구조를 갖추고 있습니다. 별도의 하부장을 제작해 삽입해야 했던 기존 방식과 달리, 현재 사용 중인 주방 가구를 크게
+                      변경하지 않고 싱크대 하부 걸레받이 부분만 절개해 설치할 수 있도록 설계했습니다. 또한 다릿발이 전체 하중을 안정적으로 지지할 수 있는 구조를 적용해 설치 부담도 낮췄습니다.<br class="mo-only">
+                      이를 통해 빌트인 설치에 대한 심리적 허들을 한층 낮추고자 했습니다. 고객이 로니(RONi) 히든 스테이션을 통해 공간에서는 거의 드러나지 않지만 사용 편의성은 자연스럽게
+                      향상되는 경험을 체감하시길 기대합니다.<br class="mo-only"> 보이지 않을수록 더 편리해지는 청소 경험, 그 차이를 직접 경험해 보시기 바랍니다.</p>
+                    <ul class="qna-img q-KSM-1-img">
+                      <li>
+                        <picture>
+                          <source srcset="/kr/story/tech-inside/img/designlg/ep03/interview-KSM-img1-mo.webp 2x"
+                            media="(max-width: 767px)">
+
+                          <source srcset="/kr/story/tech-inside/img/designlg/ep03/interview-KSM-img1.webp 1.5x"
+                            media="(min-width: 768px)">
+                          <img src="/kr/story/tech-inside/img/designlg/ep03/interview-KSM-img1.webp"
+                            alt="블랙 통합 컨트롤 원형 도어는 유지하면서 대화면 LCD 중심으로 비례감을 맞춘 새로운 디자인 밸런스 구축">
+                        </picture>
+                        <span class="caption">로보킹 올인원과 로니(RONi) 직배수 설치씬 비교</span>
+                      </li>
+                    </ul>
+                    <div class="disclaimer">
+                      <p>소비자의 이해를 돕기 위해 생성형 AI를 활용하여 연출된 이미지로 실제 제품과 색상 및 스펙은 다를 수 있습니다.</p>
+                    </div>
+                  </dd>
+                  <dt id="q-KSM-2">
+                    <h3> <span role="img" aria-label="질문">Q</span> <span>청소 로봇 본체 디자인에서 상부 심리스 디자인 영역에 대해 설명해 주세요. 기능적인 제약으로 인해 타협해야 했던 부분은 무엇이고 어떻게 해결하셨나요?</span> </h3>
+                  </dt>
+                  <dd aria-labelledby="q-KSM-2">
+                    <p> 타 브랜드의 경우 전면 범퍼 구조로 인해 상부에 전형적인 파팅 라인이 드러나는 경우가 많습니다. 로니(RONi)는 이러한 구조적 한계를 극복하기 위해 전면 범퍼와 상면 커버를 하나로 연결해 동시에 범핑이 이루어지는 구조를 설계했습니다. 이를 통해 상부에 드러나는 파팅 라인을 최소화하고, 로니(RONi)가 추구하는 절제된 미니멀리즘의 심리스 디자인을 구현했습니다. <br> 다만 주행에 필수적인 상부 LiDAR 센서는 기능상 완전히 감추는 데 한계가 있었습니다. 이 부분을 단순한 타협으로 남기기보다, 오히려 디자인 아이덴티티로 적극 활용하는 방향을 선택했습니다. 돌출된 LiDAR 센서를 하나의 상징적인 요소로 재해석해 청소 로봇 로니(RONi)만의 차별화된 아이코닉 디자인으로 완성했습니다.</p>
+                    <ul class="qna-img q-KSM-1-img">
+                      <li>
+                        <picture>
+                          <source srcset="/kr/story/tech-inside/img/designlg/ep03/interview-KSM-img2-mo.webp 2x"
+                            media="(max-width: 767px)">
+
+                          <source srcset="/kr/story/tech-inside/img/designlg/ep03/interview-KSM-img2.webp 1.5x"
+                            media="(min-width: 768px)">
+                          <img src="/kr/story/tech-inside/img/designlg/ep03/interview-KSM-img2.webp"
+                            alt="블랙 통합 컨트롤 원형 도어는 유지하면서 대화면 LCD 중심으로 비례감을 맞춘 새로운 디자인 밸런스 구축">
+                        </picture>
+                        <span class="caption">청소 로봇 로니(RONi)의 심리스한 디자인 Top view</span>
+                      </li>
+                    </ul>
+                    <div class="disclaimer">
+                      <p>소비자의 이해를 돕기 위해 연출된 이미지입니다.</p>
+                    </div>
+                  </dd>
+                  <dt id="q-KSM-3">
+                    <h3> <span role="img" aria-label="질문">Q</span> <span>청소 로봇 로니(RONi)의 재질과 컬러는 어떤 생활 환경을 고려해
+                        디자인했나요?</span> </h3>
+                  </dt>
+                  <dd aria-labelledby="q-KSM-3">
+                    <p>로니(RONi)는 센서창이 많은 제품 특성상 블랙 하이글로시 윈도우가 외관에 많이 드러납니다. 이에 블랙과 자연스럽게 조화를 이루도록 차분하면서도 깊이감 있는 어두운 컬러인
+                      에센스 그라파이트(Essence Graphite)를 본체의 기본 컬러로 적용했습니다. 어두운 톤을 유지하면서도 시각적인 단조로움을 피하기 위해 센서창을 제외한 대부분의 영역에는
+                      무광택 질감을 적용했습니다. 이를 통해 하이글로시 블랙과의 질감 대비를 살리고, 전체적으로 안정적이고 정제된 인상을 완성했습니다.<br class="mo-only"> 스테이션은 벽면과 바닥의 재질과 색상에
+                      자연스럽게 어우러질 수 있도록 베이지와 화이트 톤을 선택했습니다. 또한 본체와 동일한 무광택 질감을 적용해 공간에 부드럽게 스며드는 일체감 있는 디자인을 구현했습니다.</p>
+                  </dd>
+                </dl>
+                <div class="disclaimer">
+                  <p>본 내용은 인터뷰 참여자의 경험 및 견해가 포함되어 있으며, 제품의 상세한 스펙은 LGE.COM 홈페이지를 통하여 확인하세요.</p>
+                </div>
+              </article>
+              <article id="qna-LKH" class="qna-list" data-person-id="LKH" aria-labelledby="person-LKH">
+                <div class="interview-people mo-only" aria-hidden="true">
+                  <div class="img"><img src="/kr/story/tech-inside/img/designlg/ep03/interview-people2.webp" alt="">
+                  </div>
+                  <h3 class="name">이국행 책임연구원</h3>
+                  <div class="group">NR TDR</div>
+                  <div class="comment"> HS응용기술연구소 Dynamic모듈기술 Project 소속으로, 2024년 9월부터 NR TDR에 파견되어 차세대 청소 로봇 플랫폼 개발에
+                    참여하고 있습니다. NR TDR은 청소 로봇 본체와 오브제·히든 스테이션 2종을 동시 개발하는 조직입니다. 습식 청소 성능 및 스팀 기술 개발을 위한 선행 개발 및 제품 구조,
+                    성능 확보 업무를 진행하였습니다.</div>
+                </div>
+                <dl class="qna-item">
+                  <dt id="q-LKH-1">
+                    <h3> <span role="img" aria-label="질문">Q</span> <span>초기 기획 단계에서 로니(RONi)의 스팀 물걸레 구현과 관련해 가장 큰 기술적 허들은 무엇이었으며, 이를 해결하기 위해 어떤 설계를 적용했나요?</span> </h3>
+                  </dt>
+                  <dd aria-labelledby="q-LKH-1">
+                    <p>가장 큰 과제는 제한된 배터리 용량과 내부 공간 제약 속에서 100℃ 이상의 스팀을 안정적으로 생성·제어하고, 이를 손실 없이 회전하는 물걸레까지 전달하는 일이었습니다. <br class="mo-only">
+                      우선 소형 히터를 적용한 뒤 물 공급량과 펌프 구동 주기를 반복적으로 검증해 과열 없이 안정적으로 스팀을 생성할 수 있도록 제어 로직을 최적화했습니다. 히터 내부 압력 상승을
+                      최소화하기 위해 직가열 방식을 채택했으며, 히터 오동작이나 급수 이상 상황에 대비해 Thermistor, TP, 퓨즈로 구성된 3중 안전 설계도 적용했습니다. <br class="mo-only">
+                      특히 어려웠던 부분은 스팀 유로 설계였습니다. 스팀이 누설되거나 응축되지 않고 곧바로 걸레로 전달되도록 회전부에는 리테이너 기반 씰링 구조를 적용하고, 걸레판 내부에는 전용 유로를
+                      형성했습니다. 또한 제한된 공간을 효율적으로 활용하기 위해 물통·펌프·전장 부품의 레이아웃을 제로 베이스에서 재설계했으며, 좌우 물걸레로 이어지는 스팀 유로를 급수 유로와
+                      통합해 공간 효율을 높였습니다. <br class="mo-only">그 결과 배터리 기반의 소형 청소 로봇에서도 고온 스팀을 안정적으로 구현할 수 있는 구조를 완성하며, 로니(RONi)의 투웨이 스팀 물걸레
+                      시스템의 기반을 마련했습니다.</p>
+                  </dd>
+                  <dt id="q-LKH-2">
+                    <h3> <span role="img" aria-label="질문">Q</span> <span>스팀 물걸레의 닦임 성능을 극대화하기 위해 어떤 기술적 고민을 했으며, 실제 가정
+                        환경과 다양한 바닥재에서는 어떻게 적용되나요?</span> </h3>
+                  </dt>
+                  <dd aria-labelledby="q-LKH-2">
+                    <p>스팀 물걸레의 닦임 성능은 일반적으로 걸레를 얼마나 강하게 눌러 닦는지, 그리고 어느 정도의 젖은 상태를 유지하는지에 크게 영향을 받습니다. 압력을 높이면 걸레판 구동 모터의
+                      부하가 증가하고, 수분을 과도하게 공급하면 청소 후 바닥이 젖어 사용자에게 불편을 줄 수 있다는 한계가 있습니다. <br class="mo-only">저희 팀은 이러한 한계를 극복하기 위해 발상을 전환해 물걸레의 온도를 높이는 전략을 선택했습니다. 스팀을 적용해 오염 분해력을 강화함으로써, 과도한 압력이나 수분 공급 없이도 높은 닦임 성능을 구현하고자 했습니다. 이를 위해 제한된 에너지
+                      환경에서도 효율적으로 온도를 끌어올릴 수 있도록 히터 단열 구조를 고도화했습니다. 특히 스팀 공급 유로를 정교하게 설계해, 스팀이 걸레판 중심부로 유입된 뒤 내부 유로를 따라
+                      곧바로 표면으로 전달되도록 했습니다. 이를 통해 에너지 손실을 최소화하면서 목표 온도에 빠르게 도달할 수 있도록 했고, 그 결과 높은 수준의 닦임 성능을 확보했습니다. <br class="mo-only"> 
+                      실제 가정 환경에서는 아이가 있는 가정에서 그 효과가 두드러집니다. 아이스크림이나 초콜릿처럼 굳은 당류 오염, 주방 조리 과정에서 발생하는 기름 얼룩은 일반 물걸레로 제거하기
+                      어렵지만, 로니(RONi)는 AI가 오염을 감지해 스팀을 자동으로 활성화함으로써 즉각적으로 대응합니다. 또한 구역 지정 스팀 청소 기능을 통해 필요한 공간에만 집중적으로 스팀을
+                      적용할 수 있어 보다 효율적인 관리가 가능합니다. <br class="mo-only">
+                      아울러 다양한 라이프스타일과 생활 환경을 고려해 바닥 손상 방지도 설계 단계에서 반영했습니다. 소재별 내열 온도 데이터를
+                      수집하고 반복 시험을 통해 안전 범위를 검증했으며, 이를 바탕으로 바닥재 특성에 맞는 온도 제어 알고리즘을 적용해 강력한 세정력과 안전성을 동시에 확보했습니다.</p>
+                  </dd>
+                </dl>
+                <div class="disclaimer">
+                  <p>본 내용은 인터뷰 참여자의 경험 및 견해가 포함되어 있으며, 제품의 상세한 스펙은 LGE.COM 홈페이지를 통하여 확인하세요.</p>
+                </div>
+              </article>
+              <article id="qna-LDJ" class="qna-list" data-person-id="LDJ" aria-labelledby="person-LDJ">
+                <div class="interview-people mo-only" aria-hidden="true">
+                  <div class="img"><img src="/kr/story/tech-inside/img/designlg/ep03/interview-people3.webp" alt="">
+                  </div>
+                  <h3 class="name">이동재 책임연구원</h3>
+                  <div class="group">NR TDR</div>
+                  <div class="comment">현재 소속은 NR TDR(로니(RONi) 개발)이며, 응용기술연구소 Dynamic 모듈 기술 Part에 근무합니다. 로니(RONi) 개발 당시에는
+                    입자유동 PJT 소속으로 약 7년간 관련 업무를 수행했습니다. 스테이션의 먼지 비움·세척·건조 등 핵심 기능에 대한 목표 성능을 정의하고 이를 검증했으며, 시스템 구동을 위한 SW
+                    요구조건을 수립해 구현 결과를 검증하고, 스테이션 시스템 구성에 필요한 전장 부품의 사양을 선정하고 기능 적합성을 검토했습니다</div>
+                </div>
+                <dl class="qna-item">
+                  <dt id="q-LDJ-1">
+                    <h3> <span role="img" aria-label="질문">Q</span> <span>물걸레 세척 기능을 개발하면서, 기존 청소 로봇 시장에서 고객 불편과 직배수 설치
+                        제약을 어떻게 해결했나요?</span> </h3>
+                  </dt>
+                  <dd aria-labelledby="q-LDJ-1">
+                    <p>시장에 출시된 청소 로봇은 먼지 비움과 걸레 세척 기능 구현에는 성공했지만, 사용 과정에서 발생하는 위생 관리의 한계가 주요 불편 요소로 지적되어 왔습니다. 특히 세척 이후
+                      완전 건조가 이루어지지 않아 발생하는 냄새와 세균 번식 등 ‘세척 이후의 위생 사각지대’가 문제로 남아 있었습니다. <br class="mo-only">
+                      한편, 강력한 세척·건조 성능을 확보하려면 스테이션이
+                      대형화될 수밖에 없어 공간을 많이 차지하거나 인테리어를 해치는 한계도 존재했습니다. 직배수 모델 역시 설치 위치가 세탁실이나 싱크대 인근으로 제한되고, 수전과 거리가 멀 경우
+                      긴 연결 유로로 인해 미관을 해치는 단점이 있었습니다. <br class="mo-only">
+                      이러한 제약을 해소하기 위해 싱크대 하부 걸레받이와 같은 데드 스페이스(Dead Space)에 설치할 수 있는 히든
+                      스테이션 구조를 개발했습니다. 좁은 공간 안에서도 먼지 비움, 물걸레 세척, 건조 기능을 구현할 수 있도록 부품 배치를 고도화하고, 공기 흐름과 습기 배출 구조를
+                      최적화했습니다. 또한 오브제 스테이션에는 소음과 배출 공기로 인한 불쾌감을 최소화하는 설계를 적용해, 사용 환경 전반의 쾌적성을 높였습니다.</p>
+                  </dd>
+                  <dt id="q-LDJ-2">
+                    <h3> <span role="img" aria-label="질문">Q</span> <span>스팀 기술을 청소 로봇 로니(RONi)에 어떻게 구현했으며, 히든 스테이션과 오브제
+                        스테이션의 물걸레 세척 알고리즘은 어떤 차이가 있나요? </span> </h3>
+                  </dt>
+                  <dd aria-labelledby="q-LDJ-2">
+                    <p>LG전자의 상징적인 기술인 스팀을 청소 로봇에 적용하는 과정은 단순히 온도를 높이는 것을 넘어, 스테이션이라는 제한된 공간 안에서 열에너지를 정밀하게 다루는 기술을 구현하는
+                      일이었습니다. <br class="mo-only">
+                      물걸레 온수 세척 이후 생성된 100℃ 스팀을 안정적으로 분사하기 위해 정밀 유량 제어를 적용하고, 스팀과 건조를 연동한 알고리즘과 배기팬 기반 강제 대류 구조를
+                      통해 내부 습기를 효과적으로 배출하도록 설계했습니다. 히든 스테이션은 유량 센서를 기반으로 한 정밀 제어 방식을, 오브제 스테이션은 펌프 구동 시간 제어 방식을 적용해 스팀을
+                      생성합니다. 이를 통해 세척–살균–건조의 전 과정을 하나의 위생 사이클로 완성했습니다. <br class="mo-only">
+                      물걸레 세척 알고리즘은 스테이션 구조에 따라 차별화했습니다. 히든 스테이션은 직배수
+                      타입으로 물 사용량 제약이 상대적으로 적은 대신, 가정마다 다른 수압 환경에 대응해야 하므로 유량 센서를 기반으로 한 정밀 제어를 적용했습니다. 반면 오브제 스테이션은 정해진
+                      물통 용량 내에서 최적의 성능을 구현해야 하므로, 펌프 구동 시간 제어 중심으로 알고리즘을 구성했습니다. <br class="mo-only">
+                      오염수 처리 방식 역시 스테이션별로 다르게 설계했습니다. 히든
+                      스테이션은 별도의 오수통 없이 세척수를 즉시 배출해 싱크대 하부 오수관으로 연결되며, 오브제 스테이션은 세척 후 오염수를 내부 오수통에 저장하고 사용자가 직접 비우는
+                      방식입니다. <br class="mo-only">이러한 스팀 기술의 적용은 청소 로봇을 단순한 편의 가전에서 위생 가전으로 확장하는 중요한 전환점이 될 것으로 보고 있습니다. 걸레 냄새와 세균 번식에 대한 고객의
+                      불안을 해소하고, ‘편리함’ 중심이던 시장에 ‘위생 신뢰’라는 새로운 기준을 제시하는 기술입니다. </p>
+                  </dd>
+                </dl>
+                <div class="disclaimer">
+                  <p>본 내용은 인터뷰 참여자의 경험 및 견해가 포함되어 있으며, 제품의 상세한 스펙은 LGE.COM 홈페이지를 통하여 확인하세요.</p>
+                </div>
+              </article>
+              <article id="qna-CJH" class="qna-list" data-person-id="CJH" aria-labelledby="person-CJH">
+                <div class="interview-people mo-only" aria-hidden="true">
+                  <div class="img"><img src="/kr/story/tech-inside/img/designlg/ep03/interview-people4.webp" alt="">
+                  </div>
+                  <h3 class="name">최정훈 선임</h3>
+                  <div class="group">리빙솔루션상품기획2팀</div>
+                  <div class="comment">리빙솔루션상품기획2팀에 소속되어 있으며, 2022년 7월부터 상품기획 업무를 맡고 있습니다. 이전에는 청소 로봇 개발팀에서 약 2년 반 동안
+                    연구·개발을 담당했습니다. 개발 경험을 바탕으로 히든 스테이션 콘셉트 발굴과 프로젝트 기획을 수행하며, 사용자 요구와 가격 구조를 정의해 최종 상품 구성과 판매 스킴까지 연결하는
+                    기획을 담당했습니다.</div>
+                </div>
+                <dl class="qna-item">
+                  <dt id="q-CJH-1">
+                    <h3> <span role="img" aria-label="질문">Q</span> <span>고객 의견을 반영해 히든 스테이션을 기획할 때, 어떤 인사이트를 발견했고 이를 어떻게
+                        풀어냈나요?</span> </h3>
+                  </dt>
+                  <dd aria-labelledby="q-CJH-1">
+                    <p> 고객 조사를 통해 가장 분명하게 드러난 인사이트는 세 가지였습니다. 깔끔한 외관, 내부가 보이지 않는 구조, 그리고 소음과 위생 부담을 줄이고 싶다는 니즈였습니다. 이를
+                      바탕으로 스테이션이 동작할 때만 열리고 평소에는 닫혀 있는 자동 도어 오픈 시스템을 적용해 시각적 노출을 줄이는 동시에 사용 중 발생하는 소음 부담도 낮췄습니다. <br class="mo-only">
+                      또한 물걸레 사용 후 발생하는 냄새와 위생 문제에 대한 요구가 높았던 만큼, 100℃ 스팀 살균 기능을 스테이션까지 확장해 본체와 스테이션을 함께 관리하는 투웨이 스팀 모듈을 구현했습니다.
+                      단순한 보관 공간을 넘어 위생까지 책임지는 관리 공간으로 스테이션의 역할을 재정의한 것입니다. <br class="mo-only">
+                      한편 고객이 제품을 보고 ‘사고 싶다’고 느끼는 순간과, 실제 주거 환경에 설치 가능 여부를 고민하는 순간 사이에는 분명한 간극이 존재했습니다. 이를 줄이기 위해 설치 과정을 단순화하고, 구매 전 전문가의 사전 방문을 통해 별도 공사 없이 빌트인 자동
+                      급배수 스테이션 설치 가능 여부를 확인하는 프로세스를 마련했습니다. 구매 이후가 아닌 이전 단계부터 불안을 해소하는 경험을 설계한 셈입니다. <br class="mo-only">
+                      히든 스테이션의 물리적 설계 역시
+                      주거 공간과의 밀착을 중요한 기준으로 삼았습니다. ‘보이지 않지만 신경 쓰이는 부분까지 해결하는 경험’을 목표로, 생활 공간 속에서 자연스럽게 작동하는 청소 경험을 구현하고자
+                      했습니다.</p>
+                  </dd>
+                  <dt id="q-CJH-2">
+                    <h3> <span role="img" aria-label="질문">Q</span> <span>고객이 로니(RONi)를 사용하며 어떤 감정을 느끼길 바랐고, 청소가 ‘신경 쓰지
+                        않아도 되는 순간’을 만들기 위해 가장 깊이 고민한 지점과 비하인드가 있다면 무엇인가요?</span> </h3>
+                  </dt>
+                  <dd aria-labelledby="q-CJH-2">
+                    <p>로니(RONi)를 통해 고객이 느끼길 바랐던 감정은 ‘잘 관리되고 있다는 신뢰감’이었습니다. 청소 이후까지 사용자의 추가 개입 없이 관리가 이루어지도록, 보이지 않는 과정까지
+                      자동화하는 것을 핵심 과제로 삼았습니다. 그중에서도 가장 많은 논의가 이루어진 부분은 걸레 세척 이후의 오수 처리 구조였습니다.<br class="mo-only">
+                      일반적인 거름망 방식은 찌꺼기가 쉽게 쌓이고,
+                      시간이 지나면서 악취로 이어지거나 사용자가 직접 관리해야 하는 불편이 발생할 수 있다는 점이 문제로 지적되었습니다. 이를 개선하기 위해 거름망을 두지 않는 구조를 선택하고,
+                      세척판에서 배수관으로 이어지는 메쉬의 구멍 크기를 단계적으로 조정해 이물이 남지 않도록 설계했습니다. 동시에 구멍이 지나치게 커질 경우 배수관 막힘으로 이어질 수 있어, 수차례
+                      실험과 시뮬레이션을 통해 최적의 균형점을 도출했습니다. <br class="mo-only">
+                      또 하나의 비하인드는 스테이션에서 스팀으로 걸레를 세척하는 기능을 구현하는 과정이었습니다. 타사 사례에서 스케일이나
+                      습기로 인한 곰팡이 문제가 반복적으로 나타났던 만큼, 개발 초기에는 내부 우려도 적지 않았습니다. 이를 해소하기 위해 스케일 방지를 위한 이온교환수지를 적용하고, 스팀 사용 시
+                      발생하는 습한 공기를 외부로 배출하는 구조에는 특허 출원까지 병행하며 기술적 완성도를 높였습니다. <br class="mo-only">
+                      이처럼 보이지 않는 영역까지 세심하게 완성할 수 있었던 배경에는 로봇청소기
+                      개발팀, 입자유동 프로젝트, Innovative Tech 연구소 등 여러 조직의 긴밀한 협업이 있었습니다. 로니(RONi)는 단순한 청소 성능을 넘어, 사용자가 관리의 존재조차
+                      인식하지 않아도 되는 경험을 목표로 완성된 제품입니다.</p>
+                  </dd>
+                </dl>
+                <div class="disclaimer">
+                  <p>본 내용은 인터뷰 참여자의 경험 및 견해가 포함되어 있으며, 제품의 상세한 스펙은 LGE.COM 홈페이지를 통하여 확인하세요.</p>
+                </div>
+              </article>
+              <article id="qna-YIK" class="qna-list" data-person-id="YIK" aria-labelledby="person-YIK">
+                <div class="interview-people mo-only" aria-hidden="true">
+                  <div class="img"><img src="/kr/story/tech-inside/img/designlg/ep03/interview-people5.webp" alt="">
+                  </div>
+                  <h3 class="name">양인규 책임연구원</h3>
+                  <div class="group">NR TDR</div>
+                  <div class="comment">입자유동Project팀은 최적 유로 설계, 입자 포집·사이클론·필터레이션 기술을 연구합니다. 2024년 3월부터 로니(RONi) 선행 연구에
+                    참여했으며, 2024년 10월 TDR 합류해 현재까지 개발을 수행하고 있습니다. 흡입력 향상과 최고의 건식 청소 성능 확보를 위해 유로 설계, 필터 설계, 흡입모터 개발,
+                    소음저감, 시스템 매칭 업무를 수행하고 있습니다.</div>
+                </div>
+                <dl class="qna-item">
+                  <dt id="q-YIK-1">
+                    <h3> <span role="img" aria-label="질문">Q</span> <span>이번 세대 청소 로봇에서 ‘최고 흡입력’을 목표로 설정한 배경은
+                        무엇인가요?</span> </h3>
+                  </dt>
+                  <dd aria-labelledby="q-YIK-1">
+                    <p>가정용 청소기 시장은 케니스터형에서 핸디스틱을 거쳐, 이제는 청소 로봇 중심으로 이동하고 있습니다. 청소 로봇이 보조 수단을 넘어 ‘메인 청소기’로 자리 잡기 위해서는 최소한
+                      핸디스틱 수준의 성능 확보가 필요하다고 판단했습니다. 로니(RONi)는 이러한 전환점을 만드는 제품을 목표로 기획되었습니다. <br class="mo-only">
+                      특히 단순히 Pa(진공도) 수치를 경쟁적으로
+                      높이기보다, 고객이 실제로 체감하는 ‘청소 결과’에 집중했습니다. 구매 단계에서는 흡입력이라는 수치가 중요한 판단 기준이 되지만, 실제 사용 단계에서 중요한 것은 바닥이 얼마나
+                      깨끗해졌는지이기 때문입니다. <br class="mo-only">
+                      이에 따라 단순한 수치 확보에 그치지 않고, 이를 실제 성능으로 연결하기 위해 공기 유로, 먼지 집진 구조, 모터와 시스템 매칭까지 통합적으로
+                      설계했습니다. 동시에 가정에서 매일 사용하는 제품인 만큼 소음까지 함께 고려해 성능과 정숙성의 균형을 맞추는 데 집중했습니다.<br class="mo-only"> 내부적으로는 마루와 카펫에서의 먼지 픽업 성능을
+                      국제 표준인 IEC 기준에 맞춰 강화하고, 이를 기반으로 실제 청소 성능 검증을 진행했습니다. 로니(RONi)는 단순한 흡입력 수치를 넘어, 생활 환경에서 체감할 수 있는
+                      실질적인 강력한 청소 성능을 구현하고자 했습니다.</p>
+                  </dd>
+                  <dt id="q-YIK-2">
+                    <h3> <span role="img" aria-label="질문">Q</span> <span>청소 로봇 로니(RONi)에 적용된 흡입 모터의 핵심 기술적 특징은
+                        무엇인가요?</span> </h3>
+                  </dt>
+                  <dd aria-labelledby="q-YIK-2">
+                    <p>로니(RONi)의 핵심은 하나의 모터로 저출력부터 고출력까지 안정적으로 운용할 수 있도록 최적화한 데 있습니다. 적용된 모터는 완전히 새로운 구조라기보다, 핸디스틱·핸드헬드
+                      제품에 사용되던 고출력 팬 모터를 기반으로 합니다. <br class="mo-only">
+                      다만 이 모터는 본래 고출력 중심으로 설계되어 있어, 해당 상태로 지속 구동할 경우 청소 로봇에 요구되는 장시간 사용 시간을
+                      충족하기 어렵다는 한계가 있었습니다. 이를 해결하기 위해 모터 코일 턴수 최적화, Duty 제어와 RPM 제어의 복합 적용, 역기전력 기반 제어 로직 등 다양한 제어 기술을
+                      적용해 운용 효율을 개선했습니다. 이 과정은 모터 제조사인 Nidec과의 긴밀한 협업을 통해 완성되었습니다. <br class="mo-only">
+                      또한 고출력 팬 모터를 안정적으로 구동할 수 있도록 고출력 배터리
+                      셀을 적용해, 전력 공급 측면에서도 안정성을 확보했습니다.</p>
+                  </dd>
+                  <dt id="q-YIK-3">
+                    <h3> <span role="img" aria-label="질문">Q</span> <span>흡입력이 강해질수록 발열·소음·전력 소모 문제가 함께 발생하는데, 이번 개발에서 가장
+                        어려웠던 균형 지점은 무엇이었으며 이를 어떻게 해결하셨나요?</span> </h3>
+                  </dt>
+                  <dd aria-labelledby="q-YIK-3">
+                    <p>가장 큰 과제는 고RPM 기반의 강력한 흡입력을 유지하면서 소음을 줄이고, 사용 시간을 동시에 확보하는 것이었습니다. 이번 모터는 기존 대비 RPM이 두 배 이상 높아
+                      구조적으로 소음이 증가하기 쉬운 조건이었기 때문에, 소음 저감이 핵심 과제였습니다. <br class="mo-only">
+                      이를 해결하기 위해 사내 소음 전담 조직은 물론 외부 전문가 및 연구기관과 협업해 사운드
+                      구조를 재설계했습니다. 특히 헬름홀츠 공명기 원리를 적용한 다공형 공명 구조를 도입해 소음을 효과적으로 감쇠했으며, 그 결과 SPL 기준 76dB에서 64.7dB까지
+                      저감했습니다. 양산 조건을 반영한 최종 제품은 PWL 기준 66dB 수준을 확보했습니다. <br class="mo-only">
+                      또한 단순히 소음의 ‘크기’를 줄이는 데 그치지 않고, 고RPM 특성에서 발생하는
+                      고주파 영역의 *감성 소음 개선에도 집중했습니다. 주파수 분석을 통해 공진 구간을 회피하도록 설계하고, 진동 저감을 위한 *댐핑(Damping) 구조를 최적화해 청음 품질을
+                      개선했습니다. 그 결과 기존 모터 구조 대비 동등 이상의 청음도를 확보했으며, 이는 Sound Quality Index를 통해 검증했습니다. <br class="mo-only">
+                      전력 소모 측면에서는 고출력 사용
+                      시 배터리 소모가 급증하는 점을 고려해, 일반 청소와 고출력 집중 청소 모드를 분리해 운용하도록 설계했습니다. 이를 통해 필요한 구간에서는 강력한 성능을 발휘하고, 일상
+                      청소에서는 에너지를 효율적으로 관리하는 균형을 구현했습니다.</p>
+                    <div class="disclaimer">
+                      <p>감성 소음 : 감성 소음은 물리적인 음압(크기, dB)보다는 주관적 불쾌감이나 감정적 스트레스를 유발하는 소리를 뜻합니다.</p>
+                      <p>댐핑(Damping) 구조 : 댐핑은 진동·충격 에너지를 흡수·분산시켜 진동 크기를 줄이는 것으로 모터를 고정함과 동시에 작동 중 발생하는 진동을 흡수·완화하는 댐퍼 구조
+                        설계를 말합니다. </p>
+                    </div>
+                  </dd>
+                </dl>
+                <div class="disclaimer">
+                  <p>본 내용은 인터뷰 참여자의 경험 및 견해가 포함되어 있으며, 제품의 상세한 스펙은 LGE.COM 홈페이지를 통하여 확인하세요.</p>
+                </div>
+              </article>
+              <article id="qna-CJO" class="qna-list" data-person-id="CJO" aria-labelledby="person-CJO">
+                <div class="interview-people mo-only" aria-hidden="true">
+                  <div class="img"><img src="/kr/story/tech-inside/img/designlg/ep03/interview-people6.webp" alt="">
+                  </div>
+                  <h3 class="name">최준오 책임연구원</h3>
+                  <div class="group">NR TDR</div>
+                  <div class="comment">본 소속은 리빙솔루션Innovative Tech제어Project이며, 작년부터 NR TDR 소속으로 청소 로봇 로니(RONi) 출시까지 제품
+                    개발업무를 진행하고 있습니다. 청소 로봇에서 AI 바닥 오염 인식 기능을 담당하며, 시나리오 개발, 인식률 관리, 필드 이슈 대응을 진행했습니다. </div>
+                </div>
+                <dl class="qna-item">
+                  <dt id="q-CJO-1">
+                    <h3> <span role="img" aria-label="질문">Q</span> <span>AI 오염 인식 기술을 처음 정의할 때, 어떤 기준과 데이터를 바탕으로 오염을
+                        판단하도록 설계했나요?</span> </h3>
+                  </dt>
+                  <dd aria-labelledby="q-CJO-1">
+                    <p>AI 오염 인식 기술을 설계할 때 가장 먼저 설정한 기준은 청소 로봇 관점에서 ‘오염’을 명확히 정의하는 것이었습니다. 로니(RONi)는 이를 단순한 먼지가 아닌, 스팀으로
+                      집중 관리가 필요한 대상으로 규정했습니다. 이에 따라 스팀 물걸레를 기본 청소 방식으로 설정했으며, 동시에 카메라로 식별 가능한 대상이어야 한다는 점을 핵심 요건으로
+                      삼았습니다. <br class="mo-only">
+                      이를 바탕으로 로니(RONi)는 카메라로 촬영한 바닥 영상을 비전 세그멘테이션(Vision Segmentation) 기술로 분석해 오염과 유사한 패턴을 식별합니다.
+                      이미지의 형태와 질감 정보를 기반으로 오염 여부를 판단하고, 그 결과에 따라 적합한 청소 방식을 자동으로 결정합니다. 바닥 상태에 맞는 청소 전략을 스스로 판단함으로써, 보다
+                      효율적인 청소를 수행합니다. </p>
+                  </dd>
+                  <dt id="q-CJO-2">
+                    <h3> <span role="img" aria-label="질문">Q</span> <span>오염 전·후 비교 기능은 어떤 배경에서 개발됐으며, AI는 오염을 어떻게 기억하고
+                        실제 청소 동작에 반영하나요?</span> </h3>
+                  </dt>
+                  <dd aria-labelledby="q-CJO-2">
+                    <p>스팀 청소를 적용하면서 로니(RONi)는 한층 강화된 닦임 성능을 구현했습니다. 이에 사용자가 결과를 직관적으로 확인할 수 있도록, 오염 전·후를 비교해 보여주는 기능을
+                      도입했습니다. 한 번의 청소로 제거되지 않은 경우에도 AI가 동일한 오염을 다시 인식하는 과정에서 결과를 시각적으로 확인할 수 있어 신뢰도와 만족도를 높일 수 있습니다. <br class="mo-only">
+                      이를 위해 AI는 오염을 인식한 위치와 카메라 시점 정보를 함께 저장합니다. 청소가 완료되면 동일한 위치와 각도로 다시 이동해 후처리 영상을 촬영함으로써 전·후 비교가 가능하도록
+                      설계했습니다. <br class="mo-only">
+                      오염이 감지되면 AI는 해당 영역을 기준으로 약 50cm × 50cm 범위를 설정하고, 반경을 점차 좁혀가며 집중적으로 관리합니다. 스팀 청소는 습식 방식이기
+                      때문에 이 과정에서는 흡입 모터가 작동하지 않으며, 청소 옵션으로는 스팀 물걸레와 일반 물걸레 방식을 제공합니다. 특히 AI가 바닥 오염을 인식한 경우에는 일반 스팀 구역
+                      청소와 달리 히터를 터보 모드로 구동해 보다 강력한 성능을 구현합니다. <br class="mo-only">
+                      로니(RONi)는 사용자가 청소 과정을 직접 확인하지 않아도 결과를 신뢰할 수 있는 경험을 제공하고자
+                      했습니다. </p>
+                  </dd>
+                  <dt id="q-CJO-3">
+                    <h3> <span role="img" aria-label="질문">Q</span> <span>AI가 사용자 환경을 인식하는 기술을 구현하며 개인정보 보호와 보안을 어떻게
+                        확보했으며, 동시에 AI 성능을 높이기 위해 물리적 설계와 협업은 어떻게 이뤄졌나요?</span> </h3>
+                  </dt>
+                  <dd aria-labelledby="q-CJO-3">
+                    <p>로니(RONi)는 AI가 사용자 환경을 인식하는 제품인 만큼, 개인정보 보호와 보안에 대한 신뢰를 기술 설계의 최우선 전제로 삼았습니다. 장애물 및 오염 사진 표시 기능은
+                      고객이 약관에 동의한 경우에만 작동하도록 했으며, 해당 옵션을 활성화하더라도 촬영된 이미지는 암호화된 상태로 서버에 업로드되고 제품 내에서는 즉시 삭제됩니다. 서버에 저장된
+                      사진 역시 최대 3일간만 보관되며, 그 이전에도 고객이 앱을 통해 직접 삭제할 수 있도록 설계했습니다. <br class="mo-only">
+                      또한 PbD(Privacy by Design, 개인정보보호설계)에 대한
+                      제3자 인증을 획득해 보안 신뢰도를 높였습니다. 한편 AI 성능 측면에서는 센서 위치와 카메라 각도가 오염의 위치를 정확히 인식하고 추정하는 데 중요한 역할을 합니다. 이를
+                      위해 개발 초기 단계부터 물리 설계를 담당하는 유관 부서와 긴밀하게 협업하며, 센서 배치와 카메라 각도 정보를 지속적으로 공유했습니다. 특히 실제 제품과 동일한 형태의 카메라
+                      지그를 제작해 학습용 영상을 수집함으로써, 하드웨어 설계와 AI 학습 간 정합성을 높였습니다. <br class="mo-only">
+                       이처럼 로니(RONi)는 사용자 신뢰를 위한 보안 설계와 AI 성능 확보를 위한
+                      물리적 설계를 함께 고려해, 스팀 청소와 오염 인식이 유기적으로 작동하는 AI 청소 경험을 구현하고자 했습니다. </p>
+                  </dd>
+                </dl>
+                <div class="disclaimer">
+                  <p>본 내용은 인터뷰 참여자의 경험 및 견해가 포함되어 있으며, 제품의 상세한 스펙은 LGE.COM 홈페이지를 통하여 확인하세요.</p>
+                </div>
+              </article>
+              <article id="qna-KJH" class="qna-list" data-person-id="KJH" aria-labelledby="person-KJH">
+                <div class="interview-people mo-only" aria-hidden="true">
+                  <div class="img"><img src="/kr/story/tech-inside/img/designlg/ep03/interview-people7.webp" alt="">
+                  </div>
+                  <h3 class="name">김정환 책임연구원</h3>
+                  <div class="group">NR TDR</div>
+                  <div class="comment">HS 사업본부 내 리빙솔루션 Innovative Tech제어 Project에서 근무하며, 2016년 부터 청소 로봇 AI 개발 및 총괄을 담당하고
+                    있습니다. 로니(RONi) 개발에서는 카메라 기반 AI 사물 인식과 센서 기반 위험 상황 인식 기술을 중심으로, 실제 주행 환경에서 이동을 방해하는 요소를 정의하고 이를 해결하는
+                    업무를 맡았습니다. 특히 기존 센서나 주행 로직만으로 대응하기 어려운 영역을 AI 기술로 보완하는 방법을 연구하고, 이를 제품에 적용하는 업무를 수행했습니다.</div>
+                </div>
+                <dl class="qna-item">
+                  <dt id="q-KJH-1">
+                    <h3> <span role="img" aria-label="질문">Q</span> <span>기존 센서 기반 위험 회피의 한계를 어떻게 극복했으며, AI 학습 기반 접근을 선택한
+                        이유는 무엇입니까?</span> </h3>
+                  </dt>
+                  <dd aria-labelledby="q-KJH-1">
+                    <p> 기존 청소 로봇은 기체에 장착된 센서를 기반으로 장애물을 감지하고 즉각적으로 회피하는 방식을 사용해 왔습니다. 이 방식은 반응 속도는 빠르지만, 감지된 대상이 등반 가능한
+                      장애물인지 반드시 회피해야 할 위험 요소인지를 구분하지 못하는 한계가 있었습니다. 그 결과 전선, 의류, 반려동물 배설물과 같은 대상에서 걸림이나 충돌이 발생하는 문제가
+                      나타나기도 했습니다. <br class="mo-only">
+                      이러한 한계를 극복하기 위해 단순 센서 기반을 넘어 AI 학습 기반 접근을 도입했습니다. 전방 카메라 영상을 활용한 사물 인식 기술을 적용해, 장애물의
+                      존재 여부뿐 아니라 객체의 종류까지 식별하도록 설계했으며, 위험 요소로 판단된 경우에는 선제적으로 회피하도록 구현했습니다. 이를 통해 기존의 ‘감지’ 중심 회피 방식을 ‘판단’
+                      기반으로 확장했습니다. <br class="mo-only">
+                      다만 사물 인식은 사전에 정의된 객체를 중심으로 동작한다는 제약이 있습니다. 이를 보완하기 위해 비정형 장애물이나 특정 공간에서 반복적으로 발생하는 위험
+                      상황에 대응할 수 있도록, 센서 데이터 기반 위험 인식 기술을 추가로 적용했습니다. 청소 로봇에 탑재된 기본 센서의 시계열 패턴을 학습해 정상 주행과 다른 이상 징후를
+                      감지함으로써, 정의되지 않은 위험 영역까지 인식할 수 있도록 설계했습니다. <br class="mo-only">
+                      가정마다 환경 조건이 크게 다른 만큼, 정해진 규칙만으로 모든 상황에 대응하기는 어렵습니다.
+                      로니(RONi)는 실제 사용 환경에서 축적되는 데이터를 기반으로 판단을 지속적으로 개선하도록 설계해, 다양한 환경에서도 안정적으로 작동할 수 있는 범용성과 환경 적응력을
+                      확보했습니다. </p>
+                  </dd>
+                  <dt id="q-KJH-2">
+                    <h3> <span role="img" aria-label="질문">Q</span> <span>청소 로봇 로니(RONi)는 다양한 위험 상황을 어떻게 인식·학습하며, 가정마다 다른
+                        환경에 맞춰 개인화가 가능합니까?</span> </h3>
+                  </dt>
+                  <dd aria-labelledby="q-KJH-2">
+                    <p> 로니(RONi)는 카메라 기반 인식과 센서 기반 이상 탐지를 결합한 구조로 다양한 위험 상황에 대응합니다. 먼저 카메라 기반 위험 장애물 인식에는 전방 카메라 영상을
+                      입력으로 객체의 종류와 위치를 판별하는 객체 탐지(Object Detection) 기반 사물 인식 기술을 적용했습니다. 이를 위해 150종 이상의 위험 사물 데이터베이스를
+                      구축하고 학습시켜 범용적인 인식 성능을 확보했습니다. <br class="mo-only">
+                      한편 센서 기반 위험 상황 인식에는 자이로 센서, 휠 센서, 낭떠러지 감지 센서 등 로봇에 탑재된 기본 센서를
+                      활용했습니다. 위험 상황에서 나타나는 동작 패턴을 학습하고 이를 이상 탐지(Anomaly Detection) 방식으로 분석해, 비정형 장애물 등반, 낙하 위험, 물기 있는
+                      공간, 헤맴 상황 등 센서 변화가 크게 달라지는 조건을 인식하도록 설계했습니다. 특히 시계열 데이터 기반의 LSTM 모델을 적용해 연속적인 변화 흐름을 보다 정밀하게 분석할 수
+                      있도록 했습니다. <br class="mo-only">
+                      가정마다 구조와 환경이 다른 만큼, 센서 패턴과 정상·이상 판단 기준 역시 달라질 수 있습니다. 이에 로니(RONi)는 공통 위험 패턴이 학습된 기본 모델을
+                      탑재하는 동시에, 각 가정에서 주행하며 데이터를 지속적으로 축적하도록 설계했습니다. 수집된 데이터는 충전 중 기기 내 학습(On-Device Learning)을 통해 반영되며,
+                      사용할수록 해당 환경에 점차 최적화되는 개인화 구조를 완성했습니다.</p>
+                    <ul class="qna-img q-KJH-1-img">
+                      <li>
+                        <picture>
+                          <source srcset="/kr/story/tech-inside/img/designlg/ep03/interview-KJH-img1-mo.webp 2x"
+                            media="(max-width: 767px)">
+
+                          <source srcset="/kr/story/tech-inside/img/designlg/ep03/interview-KJH-img1.webp 1.5x"
+                            media="(min-width: 768px)">
+                          <img src="/kr/story/tech-inside/img/designlg/ep03/interview-KJH-img1.webp"
+                            alt="블랙 통합 컨트롤 원형 도어는 유지하면서 대화면 LCD 중심으로 비례감을 맞춘 새로운 디자인 밸런스 구축">
+                        </picture>
+                        <span class="caption">청소 로봇 로니(RONi)의 사물 탐지</span>
+                      </li>
+                    </ul>
+                    <div class="disclaimer">
+                      <p>소비자의 이해를 돕기 위해 생성형 AI를 활용하여 연출된 이미지로 실제 제품과 색상 및 스펙은 다를 수 있습니다.</p>
+                    </div>
+                  </dd>
+                  <dt id="q-KJH-3">
+                    <h3> <span role="img" aria-label="질문">Q</span> <span>AI 기반 위험 회피 기능이 고객에게 신뢰를 주기 위해 어떤 사용자 경험을
+                        설계했으며, 이를 구현하기 위해 진행한 과정을 알려주세요. </span> </h3>
+                  </dt>
+                  <dd aria-labelledby="q-KJH-3">
+                    <p>AI 기반 위험 회피 기능이 고객의 신뢰를 얻기 위해서는 단순히 위험을 피하는 것을 넘어, 그 판단 과정을 사용자가 이해하고 납득할 수 있어야 한다고 보았습니다. 궁극적인
+                      목표는 고객이 “이 로봇이 우리 집 환경을 이해하고 있다”고 느끼도록 만드는 것이었습니다. <br class="mo-only">
+                      이를 위해 위험 인식 결과를 사용자에게 투명하게 전달하는 경험을 설계했습니다.
+                      ThinQ 앱에서는 전선이나 의류 등 감지된 사물을 아이콘 형태로 지도 위에 표시해 상황을 직관적으로 확인할 수 있도록 했습니다. 또한 낙하 위험이나 고립 가능 구역이 감지되면
+                      해당 위치를 지도상에 표시하고, 사용자가 직접 금지 구역을 설정하거나 편집할 수 있도록 기능을 구현했습니다. 이를 통해 AI의 자동 판단에 사용자 제어 권한을 더해, 상황에
+                      능동적으로 대응할 수 있는 구조를 완성했습니다. <br class="mo-only">
+                      이 과정에서는 사물 인식 및 위험 상황 인식 기술을 고도화하기 위해 CTO 조직과 협업했으며, 실제 사용자 경험 관점의
+                      시나리오를 구체화하기 위해 상품기획팀과 ThinQ 앱 개발팀과도 긴밀히 협력했습니다. 기술 개발과 사용자 경험 설계를 병행함으로써, AI의 판단이 단순한 자동 동작에 그치지
+                      않고 사용자가 이해하고 신뢰할 수 있는 경험으로 이어지도록 했습니다. </p>
+                  </dd>
+                </dl>
+                <div class="disclaimer">
+                  <p>본 내용은 인터뷰 참여자의 경험 및 견해가 포함되어 있으며, 제품의 상세한 스펙은 LGE.COM 홈페이지를 통하여 확인하세요.</p>
+                </div>
+              </article>
+              <article id="qna-JSW" class="qna-list" data-person-id="JSW" aria-labelledby="person-JSW">
+                <div class="interview-people mo-only" aria-hidden="true">
+                  <div class="img"><img src="/kr/story/tech-inside/img/designlg/ep03/interview-people8.webp" alt="">
+                  </div>
+                  <h3 class="name">장선우 선임</h3>
+                  <div class="group">리빙솔루션상품기획2팀</div>
+                  <div class="comment">리빙솔루션상품기획2팀에서 청소 로봇 기획을 담당하고 있습니다. 2023년 NR 프로젝트를 시작하면서부터 고객 인사이트 분석부터 제품 콘셉트 정의,
+                    기능·디자인 요구사항 수립, 경쟁 전략 설정까지 전반적인 상품 기획을 맡았습니다. ‘기술 중심 제품’이 아니라 ‘생활을 이해하는 제품’이 되도록 전체 기획을 이끌었습니다.
+                  </div>
+                </div>
+                <dl class="qna-item">
+                  <dt id="q-JSW-1">
+                    <h3> <span role="img" aria-label="질문">Q</span> <span>상품기획 관점에서 바라본 청소 로봇 시장의 변화와, 그 안에서 로니(RONi)가
+                        지향한 차별화는 무엇이었나요?</span> </h3>
+                  </dt>
+                  <dd aria-labelledby="q-JSW-1">
+                    <p>청소 로봇 시장은 이제 단순한 스펙 비교 단계에서 벗어나고 있다고 보았습니다. 고객은 청소 결과를 직접 확인할 수 있기를 원하고, 유지 관리 역시 냄새나 번거로움 없이
+                      자동으로 이루어지기를 기대합니다. 또한 우리 집 구조에 자연스럽게 설치되며, 일상을 방해하지 않는 존재이기를 바랍니다. <br class="mo-only">
+                      로니(RONi)의 기획은 이러한 ‘생활 인식의 변화’에서
+                      출발했습니다. 단순히 스펙이 뛰어난 제품이 아니라, 일상을 더 편리하게 만들고 청소의 본질적인 가치를 재정의하는 것을 목표로 했습니다. 이에 경쟁사들이 성능 수치에 집중할 때,
+                      로니(RONi)는 청소 결과와 사용 경험, 그리고 공간과의 조화까지 함께 설계하고자 했습니다. <br class="mo-only">
+                      국내 유일의 투웨이 스팀인 100℃ 무빙 스팀과 살균 스팀은 청소 결과에 대한
+                      신뢰를 높이기 위한 선택이었으며, 강력한 흡입 성능과 AI 오염 인식 기술은 다양한 환경에서도 안정적인 결과를 제공하기 위한 접근이었습니다. 또한 높이 15cm의 히든
+                      스테이션은 설치 부담을 줄이고 공간과 자연스럽게 어우러지도록 설계했습니다. 여기에 확장 물걸레와 확장 브러시를 적용해, 눈에 잘 보이지 않는 구석까지 청소 완성도를 높였습니다.<br class="mo-only">
+                      로니(RONi)는 단순히 ‘강한 로봇’이 아니라, 생활 속에 자연스럽게 스며들어 일상을 더 편리하게 만드는 존재를 지향합니다. 이것이 로니(RONi)가 시장을 바라본 방식이자
+                      차별화의 핵심입니다. </p>
+                  </dd>
+                  <dt id="q-JSW-2">
+                    <h3> <span role="img" aria-label="질문">Q</span> <span>이번 청소 로봇 로니(RONi) 개발 과정에서 가장 기억에 남는 도전과, 이를
+                        해결하기 위한 협업 방식은 무엇이었나요?</span> </h3>
+                  </dt>
+                  <dd aria-labelledby="q-JSW-2">
+                    <p>이번 세대 개발에서 가장 큰 도전은 스팀 물걸레라는 새로운 사용자 경험을 현실적인 배터리 용량 안에서 구현하는 것이었습니다. 100℃ 스팀은 분명 강력한 차별화 요소이지만,
+                      동시에 배터리 소모가 큰 기능이기도 합니다. <br class="mo-only">
+                      특히 스팀 분사와 회전 물걸레, 주행 알고리즘이 동시에 작동하면 전력 소비가 급격히 증가합니다. 기획 단계에서 가장 큰
+                      고민은 “스팀이라는 차별화된 경험을 유지하면서도 고객이 실제로 만족할 수 있는 청소 면적과 사용 시간을 어떻게 확보할 것인가”였습니다. 스펙만 높이면 청소 도중 로봇이
+                      스테이션으로 복귀할 수 있고, 반대로 배터리를 아끼기 위해 스팀을 약하게 하면 고객이 기대하는 ‘스팀 청소의 감동’이 반감됩니다. 이 딜레마를 해결하는 것이 핵심 과제였습니다.<br class="mo-only">
+                      이 과정에서 기획, 디자인, 선행연구, 개발 부서는 기존처럼 순차적으로 움직이기보다, 서로의 진행 상황을 공유하며 병렬적으로 문제를 해결하는 방식으로 협업했습니다.
+                      선행연구 기간이 충분하지 않은 상황에서 디자인은 이상적인 형태만을 고집하기보다 구조적 한계를 반영해 제안했고, 선행연구와 개발팀은 그 범위 내에서 구현 가능한 성능을 최대한
+                      끌어내는 방향으로 접근했습니다. <br class="mo-only">서로의 제약 조건을 공유하면서도 ‘실제 사용에서 만족스러운 스팀 청소 경험’이라는 하나의 목표에 집중한 협업이었습니다. 그 결과
+                      로니(RONi)는 단순히 강력한 스팀 기능을 갖춘 로봇을 넘어, 일상 속에서 청소를 끝까지 수행하고 스스로 복귀할 수 있는 현실적인 사용성을 갖춘 제품으로 완성되었습니다.
+                    </p>
+                  </dd>
+                  <dt id="q-JSW-3">
+                    <h3> <span role="img" aria-label="질문">Q</span> <span>향후 가전 트렌드 변화와, 그 안에서 LG 청소 로봇은 어떤 방향으로 발전해 나갈
+                        것으로 보시나요?</span> </h3>
+                  </dt>
+                  <dd aria-labelledby="q-JSW-3">
+                    <p>앞으로의 가전은 점점 더 ‘Zero Labor’에 가까운 방향으로 진화할 것으로 봅니다. 사용자가 직접 조작하고 관리해야 했던 영역은 점차 줄어들고, 가전이 집과 생활 전반을
+                      이해하며 자연스럽게 일을 대신해주는 방식으로 변화하고 있습니다.<br class="mo-only"> 청소 역시 단순히 바닥을 깨끗하게 하는 기능을 넘어, 집 안의 다양한 가전과 유기적으로 연결되어 가사 부담을
+                      실질적으로 줄여주는 경험으로 확장되고 있습니다. 이러한 흐름 속에서 LG 청소 로봇은 하나의 단독 제품을 넘어, 집 전체와 연동되는 생활 파트너로 발전해 나갈 것입니다. 고객의
+                      생활 패턴과 공간을 이해하고, 다른 가전과 협업하며 청소 전후의 과정까지 스스로 관리하는 방향을 지향합니다. <br class="mo-only">과거의 가전이 ‘쉽게 조작하는 것’을 목표로 했다면,
+                      이제는 ‘알아서 해주는 가전’이 새로운 기준이 되고 있습니다. 이에 따라 고객이 마주하는 디자인은 더욱 단순해지고, 기능은 눈에 띄지 않게 숨겨지며, 가전은 하나의 제품을 넘어
+                      집의 일부처럼 자연스럽게 존재하는 방향으로 진화할 것입니다. </p>
+                  </dd>
+                </dl>
+                <div class="disclaimer">
+                  <p>본 내용은 인터뷰 참여자의 경험 및 견해가 포함되어 있으며, 제품의 상세한 스펙은 LGE.COM 홈페이지를 통하여 확인하세요.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //Chapter 3. INTERVIEW-->
+    <!-- Chapter 4. INSPIRATION -->
+    <section id="INSPIRATION" class="d-inspiration">
+      <div class="inwrap">
+        <div class="heading">
+          <h2 class="eyebrow" aria-hidden="true"><span>Chapter 4.</span></h2>
+          <p class="title" aria-label="Chapter 4. INSPIRATION"><img
+              src="/kr/story/tech-inside/img/designlg/ep01/chapter4-tit-inspiration.webp" alt="INSPIRATION"></p>
+        </div>
+        <div class="content">
+          <div class="roni-inspiration-swiper-wrap">
+            <button type="button" class="roni-swiper-button roni-swiper-button-prev" aria-label="이전 이미지"></button>
+            <ul class="img-list">
+              <li>
+                <div class="slide-media">
+                  <img src="/kr/story/tech-inside/img/designlg/ep03/inspiration-img05.webp" alt="RONi 인스피레이션 이미지 05">
+                  <p>03-라이프스타일_오브제 스테이션(침실)</p>
+                </div>
+              </li>
+              <li>
+                <div class="slide-media">
+                  <img src="/kr/story/tech-inside/img/designlg/ep03/inspiration-img06.webp" alt="RONi 인스피레이션 이미지 06">
+                  <p>03-인테리어_오브제 스테이션(침실)</p>
+                </div>
+              </li>
+              <li class="active-box">
+                <div class="slide-media">
+                  <img src="/kr/story/tech-inside/img/designlg/ep03/inspiration-img01.webp" alt="RONi 인스피레이션 이미지 01">
+                  <p class="slide-disclaimer">01-라이프스타일_히든 스테이션(주방)</p>
+                </div>
+              </li>
+              <li>
+                <div class="slide-media">
+                  <img src="/kr/story/tech-inside/img/designlg/ep03/inspiration-img02.webp" alt="RONi 인스피레이션 이미지 02">
+                  <p>01-인테리어_히든 스테이션(주방)</p>
+                </div>
+              </li>
+              <li>
+                <div class="slide-media">
+                  <img src="/kr/story/tech-inside/img/designlg/ep03/inspiration-img03.webp" alt="RONi 인스피레이션 이미지 03">
+                  <p>02-라이프스타일_오브제 스테이션(거실)</p>
+                </div>
+              </li>
+              <li>
+                <div class="slide-media">
+                  <img src="/kr/story/tech-inside/img/designlg/ep03/inspiration-img04.webp" alt="RONi 인스피레이션 이미지 03">
+                  <p>02-인테리어_오브제 스테이션(거실)</p>
+                </div>
+              </li>
+              <li class="mo-only">
+                <div class="slide-media">
+                  <img src="/kr/story/tech-inside/img/designlg/ep03/inspiration-img03.webp" alt="RONi 인스피레이션 이미지 03">
+                  <p>02-라이프스타일_오브제 스테이션(거실)</p>
+                </div>
+              </li>
+            </ul>
+            <button type="button" class="roni-swiper-button roni-swiper-button-next" aria-label="다음 이미지"></button>
+          </div>
+        </div>
+        <div class="disclaimer">
+          <p> 소비자의 이해를 돕기 위해 생성형 AI를 활용하여 연출된 이미지로 실제 제품과 색상 및 스펙은 다를 수 있습니다. </p>
+        </div>
+      </div>
+    </section>
+    <!-- //Chapter 4. INSPIRATION-->
+    <!-- BANNER -->
+    <section id="BANNER" class="d-banner">
+      <div class="inwrap">
+        <div class="heading">
+          <h2 class="title">
+            세계 최초 100℃ 투웨이 스팀과 On Device AI로 진화한 <br>
+            청소 로봇 LG HOM-BOT AI 오브제컬렉션 로니(RONi)가 <br>
+            공간과의 조화 속에서 청소의 본질을 완성합니다.
+          </h2>
+          <div class="btn-wrap">
+            <div class="banner-btn">
+              <a href="https://wwwstg.lge.co.kr/vacuum-cleaners/n95twu">
+                <span class="pc-only">로니(RONi) 히든 스테이션 제품 보러가기</span>
+                <span class="mo-only">로니(RONi) 히든</span>
+              </a>
+            </div>
+            <div class="banner-btn">
+              <a href="https://wwwstg.lge.co.kr/vacuum-cleaners/n95tho">
+                <span class="pc-only">로니(RONi) 오브제 스테이션 제품 보러가기</span>
+                <span class="mo-only">로니(RONi) 오브제</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- // BANNER -->
+    <!-- Other designlg  -->
+    <section id="OTHERDESIGNLG" class="d-other-designlg on">
+      <div class="inwrap">
+        <div class="heading">
+          <h2 class="title"> <span class="tit">가전의 지평선을 <br class="mo-only">넓히는 가전미학</span> <span class="eyebrow">
+              Ep.02 AI 오브제컬렉션 워시타워</span> </h2>
+          <div class="banner-btn pc-only"> <a
+              href="https://www.lge.co.kr/story/tech-insight/designlg-wash-tower">보러가기</a> </div>
+        </div>
+        <div class="bg-img"> <a href="https://www.lge.co.kr/story/tech-insight/designlg-wash-tower">
+            <picture>
+              <source srcset="/kr/story/tech-inside/img/designlg/ep03/other-designlg-img1-mo.webp 2x"
+                media="(max-width: 1024px)">
+
+              <source srcset="/kr/story/tech-inside/img/designlg/ep03/other-designlg-img1.webp"
+                media="(min-width: 1025px)">
+              <img class="door-bg door-bottom" src="/kr/story/tech-inside/img/designlg/ep03/other-designlg-img1.webp"
+                alt="">
+            </picture>
+          </a> </div>
+      </div>
+    </section>
+    <!-- // Other designlg -->
+  </main>
+  <script type="text/javascript" src="/kr/story/tech-inside/js/designlg/ep03/common.js"></script>
+  <script type="text/javascript" src="/kr/story/tech-inside/js/designlg/ep03/designlg-ep03.js"></script>
+  <script type="text/javascript" src="/kr/story/tech-inside/js/designlg/ep03/kv.js">
+  </script>
+  <script type="text/javascript" src="/kr/story/tech-inside/js/designlg/ep03/interview.js">
+  </script>
+  <script type="text/javascript" src="/kr/story/tech-inside/js/designlg/ep03/inspiration.js">
+  </script>

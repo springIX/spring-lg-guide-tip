@@ -128,13 +128,13 @@
 /* 아이콘 전환 */
 #designlg section .sec-inner .controller-wrap .js-video-toggle.play,
 #designlg .controller-wrap.video-btn .js-video-toggle.play {
-  background-image: url('/kr/story/tech-inside/img/designlg/icon-video-play.png');
+  background-image: url('/kr/story/tech-inside/img/designlg/icon-video-play.webp');
   opacity: 1 !important;
 }
 
 #designlg section .sec-inner .controller-wrap .js-video-toggle.pause,
 #designlg .controller-wrap.video-btn .js-video-toggle.pause {
-  background-image: url('/kr/story/tech-inside/img/designlg/icon-video-pause.png');
+  background-image: url('/kr/story/tech-inside/img/designlg/icon-video-pause.webp');
 }
 
 /* is-controls-visible / focus-within 일 때만 노출 */
@@ -559,7 +559,7 @@
 
 #designlg #kv .intro-wrap .desc-wrap {
   font-size: 18px;
-  line-height: 1.8;
+  line-height: 158%;
   letter-spacing: -0.36px;
   color: #929292;
 
@@ -624,7 +624,7 @@
   width: 75.8333vw;
   height: 42.6563vw;
   left: 50%;
-  bottom: 4.4375vw;
+  bottom: 7.4375vw;
   opacity: 0.7;
   transform: translateX(-50%);
   mix-blend-mode: screen;
@@ -635,13 +635,12 @@
   width: 100%;
   height: 30.5208vw;
   left: 50%;
-  bottom: 4.2604vw;
+  bottom: 11.2604vw;
   transform: translateX(-50%);
   mix-blend-mode: screen;
   filter: brightness(1.12) contrast(1.18);
 }
 #designlg #kv .bg-img-wrap .kv1 img {
-  
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.20) 100%);
   backdrop-filter: blur(10px);
 }
@@ -664,7 +663,7 @@
   width: 93.75vw;
   height: 25.8333vw;
   position: absolute;
-  bottom: -6.2708vw;
+  bottom: -0.4708vw;
   left: 50%;
   transform: translateX(-50%);
   opacity: 0.9;
@@ -678,7 +677,7 @@
   width: 40.4688vw;
   height: auto;
   position: absolute;
-  bottom: 23.4792vw;
+  bottom: 29.99792vw;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -937,10 +936,10 @@
   will-change: transform;
   transition: top 0.3s;
   height: 52px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.10);
 
   @media screen and (max-width: 767px) {
     height: auto;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
   }
 }
 
@@ -1091,8 +1090,8 @@
   top: 27%;
   left: 50%;
   transform: translate(calc(-65% + var(--sec2-steam-shift-x)), -50%);
-  background: url('/kr/story/tech-inside/img/designlg/ep03/steam3.png') no-repeat center top / cover;
-  opacity: 0.5;
+  background: url('/kr/story/tech-inside/img/designlg/ep03/steam3.webp') no-repeat center top / cover;
+  opacity: 1;
   mix-blend-mode: screen;
   pointer-events: none;
   z-index: 0;
@@ -1439,7 +1438,7 @@
 }
 
 #designlg #DESIGN .content-sec.sec2 .sec-cnt .cnt-img .caption .caption-desc {
-  width: 48%;
+  width: 51%;
   text-align: right;
   font-size: 18px;
   font-weight: 400;
@@ -1961,7 +1960,7 @@
 }
 
 #designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd .disclaimer button::after {
-  background-image: url('/kr/story/tech-inside/img/designlg/icon-arrow-up-black.png');
+  background-image: url('/kr/story/tech-inside/img/designlg/icon-arrow-up-black.webp');
   width: 20px;
   height: 20px;
   transform: rotate(180deg);
@@ -2073,7 +2072,7 @@
     position: absolute;
     width: 17px;
     height: 13px;
-    background: url('/kr/story/tech-inside/img/designlg/ep03/icon-arrow24.png') no-repeat center / contain;
+    background: url('/kr/story/tech-inside/img/designlg/ep03/icon-arrow24.webp') no-repeat center / contain;
     left: 0;
     top: 50%;
     transform: translateY(-50%);
@@ -2087,7 +2086,7 @@
     position: absolute;
     width: 17px;
     height: 13px;
-    background: url('/kr/story/tech-inside/img/designlg/ep03/icon-arrow24.png') no-repeat center / contain;
+    background: url('/kr/story/tech-inside/img/designlg/ep03/icon-arrow24.webp') no-repeat center / contain;
     right: 0;
     top: 50%;
     transform: translateY(-50%) rotate(180deg);
@@ -2378,9 +2377,9 @@
   position: relative;
   opacity: 0.2;
   cursor: pointer;
-  transition: width 0.42s cubic-bezier(0.22, 1, 0.36, 1),
-    height 0.42s cubic-bezier(0.22, 1, 0.36, 1),
-    opacity 0.32s ease;
+  transition: width 1.5s cubic-bezier(0.22, 1, 0.36, 1),
+    height 1.5s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 1s ease;
 
   @media screen and (max-width: 767px) {
     width: 100%;
@@ -2569,13 +2568,13 @@
 
 #designlg #BANNER .inwrap {
   padding: 0 16px;
-  background: url('/kr/story/tech-inside/img/designlg/ep03/banner-img.jpg') no-repeat 60% center / cover;
+  background: url('/kr/story/tech-inside/img/designlg/ep03/banner-img.webp') no-repeat 60% center / cover;
   width: 100%;
   height: 100%;
   overflow: visible;
   margin: 0 auto;
   @media screen and (max-width: 767px) {
-    background: url('/kr/story/tech-inside/img/designlg/ep03/banner-img-mo.jpg') no-repeat 60% center / cover;
+    background: url('/kr/story/tech-inside/img/designlg/ep03/banner-img-mo.webp') no-repeat 60% center / cover;
   }
 }
 
