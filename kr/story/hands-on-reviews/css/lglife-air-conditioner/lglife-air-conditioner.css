@@ -14,13 +14,19 @@
 .mo-only {
   display: none;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .pc-only {
     display: none;
   }
   .mo-only {
     display: block;
   }
+}
+
+.underline-shadow {
+  box-shadow: inset 0 -7.28em 0 #FBFF004D; /* = rgba(251, 255, 0, 0.3) */
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
 .fx-fade-up {
@@ -112,6 +118,104 @@ main {
   height: auto;
 }
 
+.summary-section {
+  max-width: 1380px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+@media screen and (max-width: 768px) {
+  .summary-section {
+    gap: 32px;
+  }
+}
+
+.summary-title {
+  color: #191C1F;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 168%;
+}
+@media screen and (max-width: 768px) {
+  .summary-title {
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: -0.48px;
+  }
+}
+
+.summary-items {
+  border-radius: 30px;
+  background: rgba(245, 245, 245, 0.60);
+  display: flex;
+  padding: 48px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+@media screen and (max-width: 768px) {
+  .summary-items {
+    width: 100%;
+    padding: 24px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 7.609px; 
+  }
+}
+.summary-item {
+  color: #191C1F;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: -0.4px;
+}
+@media screen and (max-width: 768px) {
+  .summary-item {
+    font-size: 14px;
+  letter-spacing: -0.28px;
+  }
+}
+.summary-item::before {
+  content: "•";
+  color: #191C1F;
+  display: inline-block;
+  margin-right: 10px;
+}
+.article-note {
+  padding: 0 30px;
+  color: #646669;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 144%; /* 20.16px */
+  letter-spacing: -0.28px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .article-note {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 142%;
+    letter-spacing: -0.22px;
+    left: auto;
+    bottom: auto;
+    transform: none;
+    position: static;
+    margin-top: 10px;
+  }
+}
 .contents-tabs {
   display: flex;
   justify-content: center;
@@ -160,7 +264,7 @@ main {
 .contents-panel {
   max-width: 1380px;
   margin: 0 auto;
-  padding-top: 160px;
+  padding-top: 104px;
   padding-bottom: 200px;
 }
 .contents-panel[hidden] {
@@ -461,51 +565,107 @@ main {
 .before-after-quote {
   position: relative;
   margin-top: 48px;
-  padding: 87px 70px 55px;
+  padding: 87px 70px 38px;
   border-radius: 14px;
-  background: #ffffff;
-  height: 294px;
+  height: 614px;
 }
 
 .before-after-quote::before {
   content: "";
   position: absolute;
-  top: 47px;
+  top: 40px;
   left: 50%;
-  width: 16px;
-  height: 16px;
-  background-image: url("https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/double-quotation01.png");
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.before-after-quote::after {
-  content: "";
-  position: absolute;
-  top: -24px;
-  left: 50%;
-  width: 66px;
-  height: 66px;
   transform: translateX(-50%);
-  background-image: url("https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/polygon.svg");
+  width: 92px;
+  height: 34px;
+  background-image: url("https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/double-quotation03.png");
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .before-after-quote p {
-  position: relative;
-  margin: 0;
-  font-size: 20px;
-  line-height: 1.4;
-  font-weight: 500;
-  text-align: center;
-  color: #191C1F;
-  letter-spacing: -0.4px;
+  padding: 24px 26px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background: #FFF;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.10);
+  color: #444;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.32px;
+  position: absolute;
 }
-.before-after-quote p + p {
-  margin-top: 12px;
+@media screen and (max-width: 768px) {
+  .before-after-quote {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    padding: 0 10px;
+  }
+  .before-after-quote p {
+    position: static;
+    padding: 16px 32px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.10);
+    color: var(--Color-Neutral-Gray700, #191C1F);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 144%;
+    letter-spacing: -0.28px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .is-before .before-after-quote p:nth-child(1) {
+    width: 252px;
+    height: auto;
+    top: 90px;
+    left: 30px;
+  }
+  .is-before .before-after-quote p:nth-child(2) {
+    font-size: 20px;
+    width: 300px;
+    height: auto;
+    top: 111px;
+    right: 30px;
+  }
+  .is-before .before-after-quote p:nth-child(3) {
+    font-size: 20px;
+    width: 252px;
+    height: auto;
+    top: 264px;
+    left: 31px;
+  }
+  .is-before .before-after-quote p:nth-child(4) {
+    font-size: 16px;
+    width: 285px;
+    height: auto;
+    top: 321px;
+    right: 42px;
+  }
+  .is-after .before-after-quote p:nth-child(1) {
+    font-size: 20px;
+    width: 398px;
+    height: auto;
+    top: 110px;
+    left: 60px;
+  }
+  .is-after .before-after-quote p:nth-child(2) {
+    font-size: 24px;
+    width: 416px;
+    height: auto;
+    top: 293px;
+    right: 30px;
+  }
+  .is-after .before-after-quote p:nth-child(3) {
+    font-size: 16px;
+    width: 400px;
+    height: auto;
+    top: 403px;
+    left: 60px;
+  }
 }
 
 .before-after-quote p::before {
@@ -577,6 +737,7 @@ main {
   color: #646669;
   text-align: left;
   position: relative;
+  overflow-wrap: break-word;
 }
 .note li::after {
   content: "*";
@@ -585,6 +746,10 @@ main {
   position: absolute;
   top: 0;
   left: 0;
+}
+.note li a {
+  overflow-wrap: anywhere;
+  word-break: break-all;
 }
 
 .guide-inner {
@@ -1144,7 +1309,7 @@ main {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   main {
     margin-top: 60px;
   }
@@ -1268,25 +1433,9 @@ main {
     border-radius: 12px;
   }
 
-  .before-after-quote {
-    margin-top: 32px;
-    padding: 60px 37px 28px;
-    border-radius: 16px;
-    height: auto;
-  }
-
   .before-after-quote::before {
-    top: 36px;
-    width: 12px;
-    height: 12px;
+    top: -20px;
   }
-
-  .before-after-quote::after {
-    top: -16px;
-    width: 52px;
-    height: 52px;
-  }
-
   .before-after-quote p {
     font-size: 16px;
     line-height: 1.5;

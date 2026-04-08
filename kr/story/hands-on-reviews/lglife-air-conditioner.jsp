@@ -73,14 +73,13 @@
       </c:import>
       <!-- // breadcrumb -->
       <c:import url="/kr/mkt/mobileGnb" charEncoding="utf-8" />
-      
-      
+
       <div class="preview-shell">
         <div class="wrap subRenewWrap subRenewWrap--share subRenewWrap--story">
           <!-- Share -->
           <div itemtype=http://schema.org/WebPage itemscope class="sr-only">
             <meta itemprop="name" content="에어컨 구독 케어서비스 이용 후기 ㅣ 스토리 ㅣ LG전자" />
-            <meta itemprop="description" content="전자 산업 전문 기자 배옥진 님이 경험한 구독 케어 서비스를 만나보세요." />
+            <meta itemprop="description" content="전자 산업 전문 기자 배옥진 님이 경험한 구독 케어서비스를 만나보세요." />
             <meta itemprop="url" content="https://www.lge.co.kr/story/hands-on-reviews/lglife-air-conditioner" />
             <meta itemprop="image" content="https://www.lge.co.kr/lg5-common/images/common/share/share-default.jpg" />
             <meta itemprop="Keywords" content="가전구독, 에어컨, 케어서비스, 케어십, LG전자" />
@@ -100,10 +99,10 @@
           <main>
             <div class="review-header">
               <div class="eyebrow fx-fade-up" data-fade-delay="0">가전리뷰</div>
-              <h2 class="title fx-fade-up" data-fade-delay="60">구독 케어 서비스로 <br />처음처럼 오래오래</h2>
+              <h2 class="title fx-fade-up" data-fade-delay="60">전자신문 기자가 말하는 <br />구독 케어서비스</h2>
               <h3 class="subtitle fx-fade-up" data-fade-delay="120">- 전문가에게 맡기는 에어컨 관리 -</h3>
               <p class="desc fx-fade-up" data-fade-delay="180">
-                눈에 보이지 않는 곳까지 깨끗해야 <br class="mo-only">안심할 수 있는 에어컨, <br>'배옥진 기자님'의 실제 리뷰를 통해 <br class="mo-only"><strong>구독 전문 케어 서비스</strong>의 체계적인 관리를 <br class="mo-only">경험해 보세요.
+                눈에 보이지 않는 곳까지 깨끗해야 <br class="mo-only">안심할 수 있는 에어컨, <br>'배옥진 기자님'의 실제 리뷰를 통해 <br class="mo-only"><strong>구독 전문 케어서비스</strong>의 체계적인 관리를 <br class="mo-only">경험해 보세요.
               </p>
             </div>
             <div class="kv fx-fade-up" data-fade-delay="300">
@@ -125,14 +124,22 @@
                     점검 TIP
                   </button>
                   <button class="contents-tab" id="tab-service" type="button" role="tab" aria-selected="false" aria-controls="panel-service" tabindex="-1">
-                    케어 서비스
+                    케어서비스
                   </button>
                 </div>
               </div>
               <div class="contents-panels">
+                <section class="summary-section">
+                  <h4 class="summary-title">3줄로 요약해 드려요.</h4>
+                  <ul class="summary-items">
+                    <li class="summary-item">LG가전 구독 시, 케어 전문가가 정기 방문해 세척, 살균, 성능 점검 등 케어서비스를 제공합니다.</li>
+                    <li class="summary-item">케어서비스 이용 시, 셀프 청소로는 어려운 내부 관리의 필요성을 체감할 수 있습니다. </li>
+                    <li class="summary-item">불쾌한 냄새, 약한 바람, 눈에 보이는 먼지가 느껴진다면 에어컨 청소를 권장합니다.</li>
+                  </ul>
+                </section>
                 <section class="contents-panel is-active" id="panel-review" role="tabpanel" aria-labelledby="tab-review">
                   <p class="panel-kicker fx-fade-up" data-fade-delay="0">REVIEW</p>
-                  <h4 class="panel-title fx-fade-up" data-fade-delay="60">전자 전문 기자가 말하는 <br class="mo-only">구독 케어 서비스</h4>
+                  <h4 class="panel-title fx-fade-up" data-fade-delay="60">전자신문 기자가 말하는 <br class="mo-only">구독 케어서비스</h4>
                   <div class="gray-box fx-fade-up" data-fade-delay="120">
                     <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/panel-img01.png" art="">
                     <div class="gray-txt-box">
@@ -181,12 +188,25 @@
                         </figure>
                         <blockquote class="before-after-quote">
                           <p>
-                            겉으로는 깨끗해 보였지만, <br>에어컨 전면부를 분리하는 순간 <br class="mo-only">깜짝 놀랐어요.
+                            에어컨을 철저히 관리해왔다고 <br class="pc-only">
+                            생각했는데, <span class="underline-shadow">먼지와 곰팡이는 <br class="pc-only">
+                            9년이라는 시간의 뒤편에서 <br class="pc-only">
+                            조용하면서도 왕성하게<br class="pc-only">
+                            자라고 있었다.</span>
                           </p>
                           <p>
-                            막상 내부를 보니 열교환기, <br class="mo-only">송풍 팬 곳곳에 먼지와 곰팡이가 <br class="mo-only">잔뜩 내려앉아 있더라고요.<br class="mo-only">
-                            셀프 청소만으로는 관리에 한계가<br class="mo-only"> 있다는 걸 실감했어요.
+                            화장실과 거실 동선을 확인 후 <br class="pc-only">
+                            에어컨 주변 가구, 화장실 내부를 <br class="pc-only">깨끗하게 보호하는 보양 작업부터 시작됐다. <span class="underline-shadow">별도 보양 작업은 <br class="pc-only">
+                            물 한 방울도 허투로 새지 않게 <br class="pc-only">
+                            하는 작업이었다.</span>
                           </p>
+                          <p>
+                            케어 매니저는 집 주변에 산이 있고 큰 도로가 없어 비교적 먼지가 적은 환경이라 <span class="underline-shadow">사용기간 대비 내부 오염이 심하지 않은 편이라고 설명했다.</span>
+                          </p>
+                          <p>
+                            상업용 냉난방기의 경우 거의 매일 사용하다 보니 1년만 지나도 상태가 훨씬 심각해질 수 있다고 덧붙였다. <span class="underline-shadow">가정용 에어컨도 집안 습도가 높거나 차량 통행량이 많아 먼지가 많은 <br class="pc-only">지역, 에어컨 사용 빈도에 따라 내부 상태 차이가 크다고 했다.</span>
+                          </p>
+                          <span class="article-note">&lt;[디지털라이프]9년 만의 첫 에어컨 분해 청소…LG 구독 케어 받아보니, 「전자신문」, 2026.01&gt;  기사 일부 발췌</span>
                         </blockquote>
                         <ul class="before-after-list">
                           <li>내부에 켜켜이 쌓인 먼지와 곰팡이</li>
@@ -201,11 +221,19 @@
                         </figure>
                         <blockquote class="before-after-quote">
                           <p>
-                            9년 동안 묵은 때가 말끔하게 정리되는 <br class="mo-only">걸 보니, <br class="pc-only">이래서 전문가의 관리가 <br class="mo-only">필요하구나 싶었어요.
+                            먼지와 곰팡이로 뒤덮여 있던 에어컨 내부 <br class="pc-only">
+                            부품들은 <span class="underline-shadow">이처럼 번거로운 세척 작업 끝에 <br class="pc-only">
+                            흔적도 없이 사라졌다.</span>
                           </p>
                           <p>
-                            오래 사용해 온 에어컨을 앞으로도 <br class="mo-only">잘 쓸 수 있겠다는 <br class="pc-only">생각에 <br class="mo-only">만족감이 컸습니다.
+                            내부 부품 상태만 보면 막 설치한 <br class="pc-only">
+                            <span class="underline-shadow">새 에어컨을 보는 기분이었다.</span>
                           </p>
+                          <p>
+                            9년간 조용히 쌓인 세월의 흔적은 생각보다 강력했다. <span class="underline-shadow">여름이 오기 전 한 번쯤은 에어컨의 속내를 <br class="pc-only">
+                            제대로 들여다봐야 한다는 이유가 충분해 보였다.</span>
+                          </p>
+                          <span class="article-note">&lt;[디지털라이프]9년 만의 첫 에어컨 분해 청소…LG 구독 케어 받아보니, 「전자신문」, 2026.01&gt; 기사 일부 발췌</span>
                         </blockquote>
                         <ul class="before-after-list">
                           <li>분해 세척 후 내부 오염 제거</li>
@@ -216,8 +244,10 @@
                     </div>
                     <ul class="note">
                       <li>에어컨 가전 구독 및 케어십은 프리미엄, 라이트 플러스 상품 중 선택 가능하며, 신청 가능한 서비스가 상이합니다.</li>
-                      <li>프리미엄 : 분해 세척 케어 서비스, 제품 성능 점검, 필터 클리닝 및 교체, 무상 A/S 제공</li>
-                      <li>라이트플러스 : 기본 세척 케어 서비스, 제품 성능 점검, 필터 클리닝 및 교체, 무상 A/S 제공</li>
+                      <li>프리미엄 : 분해 세척 케어서비스, 제품 성능 점검, 필터 클리닝 및 교체, 무상 A/S 제공</li>
+                      <li>라이트플러스 : 기본 세척 케어서비스, 제품 성능 점검, 필터 클리닝 및 교체, 무상 A/S 제공</li>
+                      <li>기사 일부를 발췌·재구성한 내용입니다. 자세한 내용은 원문을 참고해 주세요. <br>기사원문: <a href="https://n.news.naver.com/mnews/article/030/0003394429?sid=105" target="_blank">https://n.news.naver.com/mnews/article/030/0003394429?sid=105</a>
+                      </li>
                     </ul>
                   </div>
                 </section>
@@ -258,7 +288,7 @@
                   <div class="care-service-kv">
                     <div class="care-service-kv-txt">
                       <p class="panel-kicker fx-fade-up" data-fade-delay="0">Care Service</p>
-                      <h4 class="panel-title fx-fade-up" data-fade-delay="60">케어 서비스</h4>
+                      <h4 class="panel-title fx-fade-up" data-fade-delay="60">케어서비스</h4>
                       <p class="panel-desc fx-fade-up" data-fade-delay="120">
                         가전 구독 시, 제품을 더 오래 더 깨끗하게<br class="mo-only"> 사용할 수 있도록 <br class="pc-only">LG전자 가전 케어 전문가가<br class="mo-only"> 정기 방문하여 관리하는 서비스
                       </p>
@@ -273,14 +303,14 @@
                   <div class="care-service-notice fx-fade-up" data-fade-delay="0">
                     <div class="care-service-notice-head">
                       <img src="/kr/story/hands-on-reviews/img/lglife-air-conditioner/ico_check2.svg" alt="" class="care-service-icon" />
-                      <div class="care-service-notice-title">케어 서비스를 받고 싶은데 <br>이미 가전을 구매했다면?</div>
+                      <div class="care-service-notice-title">케어서비스를 받고 싶은데 <br>이미 가전을 구매했다면?</div>
                     </div>
                     <div class="care-service-notice-desc">
                       일시불로 구매한 제품이나 가전 구독 계약이 종료된 <br class="mo-only">제품은 케어십을 통해 관리 서비스를 이용할 수 있습니다. <br>보유 제품의 케어십 가능 여부 및 등록 방법은 <br class="mo-only">고객센터(1544-7777)로 문의해 주세요.
                     </div>
                   </div>
                   <div class="care-benefit">
-                    <div class="care-benefit-title fx-fade-up" data-fade-delay="0">한눈에 보는 <br class="mo-only">구독 케어 서비스 혜택</div>
+                    <div class="care-benefit-title fx-fade-up" data-fade-delay="0">한눈에 보는 <br class="mo-only">구독 케어서비스 혜택</div>
                     <div class="care-benefit-list-wrap fx-fade-up" data-fade-delay="0">
                       <ul class="care-benefit-list">
                         <li class="care-benefit-item">
@@ -324,7 +354,7 @@
                     </div>
                     <ul class="care-benefit-expand-list">
                       <li class="care-benefit-expand-item">
-                        기본 세척 케어 서비스
+                        기본 세척 케어서비스
                       </li>
                       <li class="care-benefit-expand-item">
                         필터 클리닝 및 교체
@@ -350,11 +380,11 @@
                               <div class="care-benefit-compare">
                                 <div class="care-benefit-compare-col">
                                   <p class="care-benefit-compare-title">스탠드형</p>
-                                  <p class="care-benefit-compare-desc">전면 커버 분리 후<br>케어 서비스를 실시합니다.</p>
+                                  <p class="care-benefit-compare-desc">전면 커버 분리 후<br>케어서비스를 실시합니다.</p>
                                 </div>
                                 <div class="care-benefit-compare-col">
                                   <p class="care-benefit-compare-title">벽걸이형</p>
-                                  <p class="care-benefit-compare-desc">전면 패널 분리 후<br>케어 서비스를 제공합니다.<br>(팬 및 모듈 세척)</p>
+                                  <p class="care-benefit-compare-desc">전면 패널 분리 후<br>케어서비스를 제공합니다.<br>(팬 및 모듈 세척)</p>
                                 </div>
                               </div>
                             </li>
@@ -392,7 +422,7 @@
                             다음 해 5월 방문 / 8월 구매 시, 다음 해 6월 방문 / 9월 구매 시, 다음 해 9월 방문 / 10월 구매 시, 
                             다음 해 10월 방문 / 11~12월 구매 시, 다음 해 11월 방문합니다.
                           </li>
-                          <li>방문 일정은 상황에 따라 변경될 수 있으며 방문 전 케어 서비스 매니저가 사전 연락을 드립니다.</li>
+                          <li>방문 일정은 상황에 따라 변경될 수 있으며 방문 전 케어서비스 매니저가 사전 연락을 드립니다.</li>
                           <li>필터 세척 및 교체는 공기청정 기능이 있는 모델에 한하며, 12개월에 1회 교체 서비스 제공됩니다.</li>
                         </ul>
                       </div>
@@ -405,7 +435,7 @@
                     </div>
                     <ul class="care-benefit-expand-list">
                       <li class="care-benefit-expand-item">
-                        분해 세척 케어 서비스
+                        분해 세척 케어서비스
                       </li>
                       <li class="care-benefit-expand-item">
                         필터 클리닝 및 교체
@@ -431,11 +461,11 @@
                               <div class="care-benefit-compare">
                                 <div class="care-benefit-compare-col">
                                   <p class="care-benefit-compare-title">스탠드형</p>
-                                  <p class="care-benefit-compare-desc">전면 커버 분리 후<br>케어 서비스를 실시합니다.</p>
+                                  <p class="care-benefit-compare-desc">전면 커버 분리 후<br>케어서비스를 실시합니다.</p>
                                 </div>
                                 <div class="care-benefit-compare-col">
                                   <p class="care-benefit-compare-title">벽걸이형</p>
-                                  <p class="care-benefit-compare-desc">전면 패널 분리 후<br>케어 서비스를 제공합니다.<br>(팬 및 모듈 세척)</p>
+                                  <p class="care-benefit-compare-desc">전면 패널 분리 후<br>케어서비스를 제공합니다.<br>(팬 및 모듈 세척)</p>
                                 </div>
                               </div>
                             </li>
@@ -462,8 +492,8 @@
                             다음 해 5월 방문 / 9월 구매 시, 다음 해 9월 방문 / 10월 구매 시, 다음 해 10월 방문 / 11~12월 구매 시, 
                             다음 해 11월 방문합니다.
                           </li>
-                          <li>케어 서비스는 1개월 주기로 실시하며 분해 세척 케어 서비스는 36개월 주기에 진행됩니다.</li>
-                          <li>방문 일정은 상황에 따라 변경될 수 있으며 방문 전 케어 서비스 매니저가 사전 연락을 드립니다.</li>
+                          <li>케어서비스는 1개월 주기로 실시하며 분해 세척 케어서비스는 36개월 주기에 진행됩니다.</li>
+                          <li>방문 일정은 상황에 따라 변경될 수 있으며 방문 전 케어서비스 매니저가 사전 연락을 드립니다.</li>
                           <li>필터 세척 및 교체는 공기청정 기능이 있는 모델에 한하며, 12개월에 1회 교체 서비스 제공됩니다.</li>
                         </ul>
                       </div>
@@ -476,7 +506,7 @@
           <div class="guide-inner">
             <div class="guide-box">
               <a href="https://www.lge.co.kr/care-solutions/rentalService-aboutcare">
-                <p>케어 서비스 알아보기</p>
+                <p>케어서비스 알아보기</p>
                 <img src="https://www.lge.co.kr/kr/story/hands-on-reviews/img/lglife-air-conditioner/arrow-btn.svg">
               </a>
               <a href="https://www.lge.co.kr/category/care-solutions/air-conditioner">
