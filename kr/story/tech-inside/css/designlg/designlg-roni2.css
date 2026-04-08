@@ -99,6 +99,7 @@
   transform: translate(-50%, -50%);
   right: unset;
   bottom: unset;
+  z-index: 2;
 }
 
 #designlg section .sec-inner .controller-wrap .js-video-toggle,
@@ -126,20 +127,22 @@
 /* 아이콘 전환 */
 #designlg section .sec-inner .controller-wrap .js-video-toggle.play,
 #designlg .controller-wrap.video-btn .js-video-toggle.play {
-  background-image: url("/kr/story/tech-inside/img/designlg/icon-video-play.webp");
+  background-image: url("/kr/story/tech-inside/img/designlg/icon-video-play.png");
   opacity: 1 !important;
 }
 
 #designlg section .sec-inner .controller-wrap .js-video-toggle.pause,
 #designlg .controller-wrap.video-btn .js-video-toggle.pause {
-  background-image: url("/kr/story/tech-inside/img/designlg/icon-video-pause.webp");
+  background-image: url("/kr/story/tech-inside/img/designlg/icon-video-pause.png");
 }
 
 /* is-controls-visible / focus-within 일 때만 노출 */
 #designlg section .sec-inner .video-inner-wrap.is-controls-visible .controller-wrap .js-video-toggle,
 #designlg section .sec-inner .video-inner-wrap:focus-within .controller-wrap .js-video-toggle,
+#designlg section .sec-inner .video-inner-wrap:hover .controller-wrap .js-video-toggle,
 #designlg .video-inner-wrap.is-controls-visible .js-video-toggle,
-#designlg .video-inner-wrap:focus-within .js-video-toggle {
+#designlg .video-inner-wrap:focus-within .js-video-toggle,
+#designlg .video-inner-wrap:hover .js-video-toggle {
   opacity: 1;
   pointer-events: auto;
   transform: translateY(0);
@@ -152,8 +155,10 @@
 
 #designlg section .sec-inner .video-inner-wrap.is-controls-visible .controller-wrap,
 #designlg section .sec-inner .video-inner-wrap:focus-within .controller-wrap,
+#designlg section .sec-inner .video-inner-wrap:hover .controller-wrap,
 #designlg .video-inner-wrap.is-controls-visible .controller-wrap,
-#designlg .video-inner-wrap:focus-within .controller-wrap {
+#designlg .video-inner-wrap:focus-within .controller-wrap,
+#designlg .video-inner-wrap:hover .controller-wrap {
   pointer-events: auto;
 }
 
@@ -1346,7 +1351,7 @@
 
 #designlg #DESIGN .content-sec.sec1 .sec-cnt .cnt-img > ul {
   width: 100%;
-  max-width: 616px;
+  max-width: 615px;
   display: flex;
   flex-direction: column;
   row-gap: 16px;
@@ -1402,6 +1407,62 @@
   }
 }
 
+/* DESIGN sec2 stagger reveal */
+#designlg #DESIGN .content-sec.sec2 {
+  transform: none;
+  opacity: 1;
+  transition: none;
+}
+
+#designlg #DESIGN .content-sec.sec2 .sec-head,
+#designlg #DESIGN .content-sec.sec2 .sec-cnt .cnt-img .left-img,
+#designlg #DESIGN .content-sec.sec2 .sec-cnt .cnt-img ul li:nth-child(1),
+#designlg #DESIGN .content-sec.sec2 .sec-cnt .cnt-img ul li:nth-child(2),
+#designlg #DESIGN .content-sec.sec2 .sec-cnt .cnt-img ul li:nth-child(3) {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.7s ease, transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+
+#designlg #DESIGN .content-sec.sec2.on .sec-head,
+#designlg #DESIGN .content-sec.sec2.on .sec-cnt .cnt-img .left-img,
+#designlg #DESIGN .content-sec.sec2.on .sec-cnt .cnt-img ul li:nth-child(1),
+#designlg #DESIGN .content-sec.sec2.on .sec-cnt .cnt-img ul li:nth-child(2),
+#designlg #DESIGN .content-sec.sec2.on .sec-cnt .cnt-img ul li:nth-child(3) {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* PC order: sec-head -> left-img -> li(1) -> li(3) */
+#designlg #DESIGN .content-sec.sec2.on .sec-head {
+  transition-delay: 0.05s;
+}
+
+#designlg #DESIGN .content-sec.sec2.on .sec-cnt .cnt-img .left-img {
+  transition-delay: 0.25s;
+}
+
+#designlg #DESIGN .content-sec.sec2.on .sec-cnt .cnt-img ul li:nth-child(1) {
+  transition-delay: 0.45s;
+}
+
+#designlg #DESIGN .content-sec.sec2.on .sec-cnt .cnt-img ul li:nth-child(3) {
+  transition-delay: 0.65s;
+}
+
+/* Mobile order: sec-head -> li(1) -> li(2) -> li(3) */
+@media screen and (max-width: 767px) {
+  #designlg #DESIGN .content-sec.sec2.on .sec-cnt .cnt-img ul li:nth-child(1) {
+    transition-delay: 0.25s;
+  }
+  #designlg #DESIGN .content-sec.sec2.on .sec-cnt .cnt-img ul li:nth-child(2) {
+    transition-delay: 0.45s;
+  }
+  #designlg #DESIGN .content-sec.sec2.on .sec-cnt .cnt-img ul li:nth-child(3) {
+    transition-delay: 0.65s;
+  }
+}
 #designlg #DESIGN .content-sec.sec2 .sec-cnt .cnt-img {
   display: flex;
   flex-direction: row;
@@ -1503,6 +1564,9 @@
 
 #designlg #DESIGN .content-sec.sec4 {
   margin-top: 240px;
+  transform: none;
+  opacity: 1;
+  transition: none;
 }
 @media screen and (max-width: 767px) {
   #designlg #DESIGN .content-sec.sec4 {
@@ -1510,19 +1574,59 @@
   }
 }
 
+/* DESIGN sec4 stagger reveal
+ * order: sec-head -> li(1) -> li(2) -> li(3)
+ */
+#designlg #DESIGN .content-sec.sec4 .sec-inner .sec-head,
+#designlg #DESIGN .content-sec.sec4 .sec-cnt .cnt-img ul li:nth-child(1),
+#designlg #DESIGN .content-sec.sec4 .sec-cnt .cnt-img ul li:nth-child(2),
+#designlg #DESIGN .content-sec.sec4 .sec-cnt .cnt-img ul li:nth-child(3) {
+  transition: opacity 0.9s ease, transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+
+#designlg #DESIGN .content-sec.sec4:not(.on) .sec-inner .sec-head,
+#designlg #DESIGN .content-sec.sec4:not(.on) .sec-cnt .cnt-img ul li:nth-child(1),
+#designlg #DESIGN .content-sec.sec4:not(.on) .sec-cnt .cnt-img ul li:nth-child(2),
+#designlg #DESIGN .content-sec.sec4:not(.on) .sec-cnt .cnt-img ul li:nth-child(3) {
+  opacity: 0;
+  transform: translateY(32px);
+}
+
+#designlg #DESIGN .content-sec.sec4.on .sec-inner .sec-head,
+#designlg #DESIGN .content-sec.sec4.on .sec-cnt .cnt-img ul li:nth-child(1),
+#designlg #DESIGN .content-sec.sec4.on .sec-cnt .cnt-img ul li:nth-child(2),
+#designlg #DESIGN .content-sec.sec4.on .sec-cnt .cnt-img ul li:nth-child(3) {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#designlg #DESIGN .content-sec.sec4.on .sec-inner .sec-head {
+  transition-delay: 0.05s;
+}
+
+#designlg #DESIGN .content-sec.sec4.on .sec-cnt .cnt-img ul li:nth-child(1) {
+  transition-delay: 0.35s;
+}
+
+#designlg #DESIGN .content-sec.sec4.on .sec-cnt .cnt-img ul li:nth-child(2) {
+  transition-delay: 0.55s;
+}
+
+#designlg #DESIGN .content-sec.sec4.on .sec-cnt .cnt-img ul li:nth-child(3) {
+  transition-delay: 0.75s;
+}
+
 #designlg #DESIGN .content-sec.sec4 .sec-inner .sec-head {
   max-width: 1254px;
   width: 100%;
   margin: 0 auto;
-  transform: translateY(10%);
-  transition: all 0.8s ease-in-out;
   position: relative;
   display: flex;
   padding-bottom: 60px;
 }
 @media screen and (max-width: 767px) {
   #designlg #DESIGN .content-sec.sec4 .sec-inner .sec-head {
-    transform: translateY(0);
     max-width: unset;
     display: block;
     padding-bottom: 40px;
@@ -2352,7 +2456,8 @@
   position: relative;
   z-index: 1;
   transition: none;
-  padding: 20px 0 66px;
+  padding: 37px 0 66px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
 @media screen and (max-width: 767px) {
   #designlg #INSPIRATION .inwrap .content {

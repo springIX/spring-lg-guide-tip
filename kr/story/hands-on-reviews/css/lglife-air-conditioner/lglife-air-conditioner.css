@@ -175,9 +175,23 @@ main {
   font-weight: 500;
   line-height: 150%;
   letter-spacing: -0.4px;
+  position: relative;
+  padding-left: 15px;
 }
 @media screen and (max-width: 768px) {
   .summary-item {
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: -0.28px;
+    padding-left: 13px;
+  }
+}
+.summary-item p {
+  display: inline-block;
+}
+@media screen and (max-width: 768px) {
+  .summary-item {
+    text-align: left;
     font-size: 14px;
   letter-spacing: -0.28px;
   }
@@ -186,7 +200,9 @@ main {
   content: "•";
   color: #191C1F;
   display: inline-block;
-  margin-right: 10px;
+  position: absolute;
+  left: 0;
+  top: -1px;
 }
 .article-note {
   padding: 0 30px;
@@ -604,6 +620,7 @@ main {
     gap: 8px;
     width: 100%;
     padding: 0 10px;
+    margin-top: 102px;
   }
   .before-after-quote p {
     position: static;
@@ -1434,7 +1451,7 @@ main {
   }
 
   .before-after-quote::before {
-    top: -20px;
+    top: -54px;
   }
   .before-after-quote p {
     font-size: 16px;

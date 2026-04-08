@@ -1210,46 +1210,40 @@
           <div class="roni-inspiration-swiper-wrap">
             <button type="button" class="roni-swiper-button roni-swiper-button-prev" aria-label="이전 이미지"></button>
             <ul class="img-list">
-              <li>
-                <div class="slide-media">
-                  <img src="/kr/story/tech-inside/img/designlg/ep03/inspiration-img05.webp" alt="RONi 인스피레이션 이미지 05">
-                  <p>03-라이프스타일_오브제 스테이션(침실)</p>
-                </div>
-              </li>
-              <li>
-                <div class="slide-media">
-                  <img src="/kr/story/tech-inside/img/designlg/ep03/inspiration-img06.webp" alt="RONi 인스피레이션 이미지 06">
-                  <p>03-인테리어_오브제 스테이션(침실)</p>
-                </div>
-              </li>
               <li class="active-box">
                 <div class="slide-media">
                   <img src="/kr/story/tech-inside/img/designlg/ep03/inspiration-img01.webp" alt="RONi 인스피레이션 이미지 01">
-                  <p class="slide-disclaimer">01-라이프스타일_히든 스테이션(주방)</p>
+                  <p class="slide-disclaimer">01-라이프스타일_히든 스테이션(주방)</p>
                 </div>
               </li>
               <li>
                 <div class="slide-media">
                   <img src="/kr/story/tech-inside/img/designlg/ep03/inspiration-img02.webp" alt="RONi 인스피레이션 이미지 02">
-                  <p>01-인테리어_히든 스테이션(주방)</p>
+                  <p class="slide-disclaimer">01-인테리어_히든 스테이션(주방)</p>
                 </div>
               </li>
               <li>
                 <div class="slide-media">
                   <img src="/kr/story/tech-inside/img/designlg/ep03/inspiration-img03.webp" alt="RONi 인스피레이션 이미지 03">
-                  <p>02-라이프스타일_오브제 스테이션(거실)</p>
+                  <p class="slide-disclaimer">02-라이프스타일_오브제 스테이션(거실)</p>
                 </div>
               </li>
               <li>
                 <div class="slide-media">
                   <img src="/kr/story/tech-inside/img/designlg/ep03/inspiration-img04.webp" alt="RONi 인스피레이션 이미지 03">
-                  <p>02-인테리어_오브제 스테이션(거실)</p>
+                  <p class="slide-disclaimer">02-인테리어_오브제 스테이션(거실)</p>
                 </div>
               </li>
-              <li class="mo-only">
+              <li>
                 <div class="slide-media">
-                  <img src="/kr/story/tech-inside/img/designlg/ep03/inspiration-img03.webp" alt="RONi 인스피레이션 이미지 03">
-                  <p>02-라이프스타일_오브제 스테이션(거실)</p>
+                  <img src="/kr/story/tech-inside/img/designlg/ep03/inspiration-img05.webp" alt="RONi 인스피레이션 이미지 05">
+                  <p class="slide-disclaimer">03-라이프스타일_오브제 스테이션(침실)</p>
+                </div>
+              </li>
+              <li>
+                <div class="slide-media">
+                  <img src="/kr/story/tech-inside/img/designlg/ep03/inspiration-img06.webp" alt="RONi 인스피레이션 이미지 06">
+                  <p class="slide-disclaimer">03-인테리어_오브제 스테이션(침실)</p>
                 </div>
               </li>
             </ul>

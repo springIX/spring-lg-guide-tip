@@ -1,4 +1,4 @@
-(function (window, document, $) {
+﻿(function (window, document, $) {
   'use strict';
   gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
@@ -8,7 +8,7 @@
   $(function () {
 
     // **************** nav ****************
-    var $nav      = $('#designlg nav[aria-label="癰귣챶揆 ?諭???癒?퉳"]');
+    var $nav      = $("#designlg nav#nav");
     var $links    = $nav.find('a');
     var sections  = ['#STORY', '#DESIGN', '#INTERVIEW', '#INSPIRATION', '#BANNER'];
     var lastScrollTop = 0;
@@ -21,21 +21,21 @@
       $nav.find('li.active').removeClass('active');
       $targetLink.parent().addClass('active');
 
-      // ??쎄쾿?깃퀡??遺우뒠 "?袁⑹삺 ?袁⑺뒄" ?類ｋ궖??筌띻낱寃???봔??
+      // Keep a single aria-current="location" on the active nav link.
       $nav.find('a[aria-current]').removeAttr('aria-current');
       $targetLink.attr('aria-current', 'location');
     }
 
-    // article/div ??깆삺 筌띾뜇寃?????? ?醫딅빍筌롫뗄??????怨? .content-sec 疫꿸퀣???곗쨮 ??륁춿
+    // Target only content sections for scroll-triggered fade-in classes.
     var $articles = $('#designlg section .content-sec');
 
-    // ???????봔??뺤쓦野???猷?
+    // Smooth-scroll to section when a nav link is clicked.
     $links.on('click', function(e) {
       e.preventDefault();
       var target = $(this).attr('href');
       var offsetTop = $(target).offset().top - ($nav.outerHeight() || 0);
 
-      // ??????筌앸맩???袁⑹삺 ?醫뤾문 ?類ｋ궖 揶쏄퉮????쎄쾿?깃퀡????紐? 癰귣떯而?
+      // Update active state immediately for better keyboard/screen-reader feedback.
       setActiveNav(target);
 
 
@@ -46,7 +46,7 @@
           if ($heading.length) {
             $heading.attr('tabindex', '-1').focus();
 
-            // ??鍮??? ??猷??롢늺 ??볤탢
+            // Remove temporary tabindex after focus moves away.
             $heading.one('blur', function () {
               $(this).removeAttr('tabindex');
             });
@@ -55,7 +55,7 @@
       );
     });
 
-    // ??쎄쾿嚥????諭??揶쏅Ŋ? + article on 筌ｌ꼶??
+    // Update active nav + add .on classes while scrolling.
     $(window).on('scroll', function() {
       var wTop   = $(window).scrollTop();
       var winH   = $(window).height();
@@ -69,20 +69,20 @@
         var secTop   = $section.offset().top;
         var bottom   = secTop + $section.outerHeight();
 
-        // ?袁⑹삺 ?袁⑺뒄癰귣????袁⑸퓠 ??덈뮉 ?諭???on ?곕떽?
+        // Add .on once the section enters around half viewport height.
         if (wTop >= secTop - winH / 2) {
           if (!$section.hasClass('on')) {
             $section.addClass('on');
           }
         }
 
-        // ?袁⑹삺 癰귣똻????諭???癒??
+        // Determine current section for nav highlight.
         if (wTop >= secTop - 100 && wTop < bottom) {
           current = id;
         }
       });
 
-      // ??삵돩 ??뽮쉐????뽯뻻 ??癰궰野껋럥留????춸
+      // Sync nav active state with current scroll position.
       if (current) {
         var $currentLi = $nav.find('a[href="' + current + '"]').parent();
 
@@ -90,13 +90,13 @@
       }
 
       // ===========================
-      // 2) article on (?됯퀬猷??3/4 筌왖??
+      // 2) Add .on to each article when it reaches 3/4 viewport line.
       // ===========================
-      var triggerLine = wTop + winH * 3 / 4;  // ?됰슢??怨? ?怨룸뼊?癒?퐣 3/4 筌왖??
+      var triggerLine = wTop + winH * 3 / 4;  // 3/4 viewport trigger line
 
       $articles.each(function () {
         var $article = $(this);
-        if ($article.hasClass('on')) return;   // ??? on??????λ뮞
+        if ($article.hasClass('on')) return;   // already activated
 
         var artTop = $article.offset().top;
         if (triggerLine >= artTop) {
@@ -105,22 +105,22 @@
       });
 
       // ===========================
-      // 3) nav ?袁⑺뒄
+      // 3) Sticky nav top offset control
       // ===========================
       var st       = wTop;
       var topGap   = 0;
       var currentURL = window.location.href;
-      var isMobile = window.innerWidth < 768; // 筌뤴뫀而??疫꿸퀣?
+      var isMobile = window.innerWidth < 768; // mobile breakpoint check
 
       if (st > lastScrollTop) {
-        // ????쎄쾿嚥??????餓???header ??? ?怨밴묶??topGap = 0
+        // Scrolling down: keep nav pinned to top.
         topGap = 0;
       } else {
-        // ????쎄쾿嚥??????餓?
+        // Scrolling up: restore top gap on mobile if needed.
         if (isMobile) {
-          //筌뤴뫀而??깆뵬 ???춸 筌ｌ꼶??
+          // Mobile behavior by environment (stg/prod).
           if (currentURL.startsWith('https://wwwstg.lge.co.kr/')) {
-            // ??쎈??곸췅 URL??野껋럩??
+            // STG URL branch
             if ($('header.header').length) {
               // topGap = $('header').height() + $('.hello-bar-wrap.hello-app').height();
               topGap = $('header').height();
@@ -128,7 +128,7 @@
               topGap = 0;
             }
           } else {
-            // ??곗뺘 筌뤴뫀而??깆뵬 野껋럩??
+            // PROD URL branch
             if ($('header.header').length) {
               topGap = $('header').height();
             } else {
@@ -136,7 +136,7 @@
             }
           }
         } else {
-          // ?諭?????뮉 ??湲?0
+          // Desktop: no additional top gap.
           topGap = 0;
         }
       }
@@ -148,7 +148,7 @@
       lastScrollTop = st;
     });
 
-    // 筌?筌욊쑴????뺣즲 ??甕?筌ｋ똾寃?
+    // Initialize once so nav/article states are correct on first paint.
     $(window).trigger('scroll');
 
   // ===========================
@@ -191,8 +191,8 @@
       $btn.attr('aria-selected') === 'true';
 
     // --------------------------------
-    // ??鍮????됱읈 ?醫뤿뼢
-    // - ??ｋ쭔 ??ㅺ섯 ???????鍮??? ??λ툡??됱몵筌?甕곌쑵???곗쨮 ??롫즼??
+    // Accessibility: move focus out before collapsing panels.
+    // Prevent focus from remaining inside hidden disclaimer content.
     // --------------------------------
     function ensureFocusOutOf($container, $fallbackFocus) {
       if (!$container || !$container.length) return;
@@ -201,25 +201,25 @@
       if (!active) return;
 
       if ($container[0].contains(active)) {
-        // ??ㅺ섯 ??? ?遺용꺖揶쎛 ??鍮??? ??? ?怨밴묶筌??믪눘? 甕곌쑵???곗쨮 獄쏆꼹??
+        // If active element is inside collapsed area, move focus safely.
         if ($fallbackFocus && $fallbackFocus.length) {
           $fallbackFocus[0].focus();
         } else {
-          // 筌ㅼ뮉????媛?
+          // Fallback: blur when no button is available.
           active.blur();
         }
       }
     }
 
     // --------------------------------
-    // ??용┛ ?袁⑸퓠: 揶쏆늿? disclaimer ??됱벥 ??삘뀲 ??ㅺ섯????る┛(??鍮????됱읈 ??釉?
+    // Open one disclaimer panel at a time within the same disclaimer block.
     // --------------------------------
     if (!isOpen) {
       $disclaimer.find('.disclaimer-copy').each(function () {
         var $p = $(this);
-        if ($p.is($panel)) return; // 筌왖疫?????ㅺ섯?? ??뽰뇚
+        if ($p.is($panel)) return; // skip the currently toggled panel
 
-        // ????ㅺ섯????뽯선??롫뮉 甕곌쑵??筌≪뼐由???됱몵筌?域밸챷???곗쨮 ??鍮??獄쏆꼹??揶쎛??
+        // Ensure hidden panel does not keep keyboard focus.
         var id = $p.attr('id');
         var $ownerBtn = id ? $disclaimer.find('button[aria-controls="' + id + '"]') : $();
 
@@ -234,23 +234,23 @@
     }
 
     // --------------------------------
-    // ?醫?
+    // Toggle target panel
     // --------------------------------
     if (isOpen) {
-      // ??る┛: ??ㅺ섯 ???????鍮??? ??됱몵筌??믪눘? 甕곌쑵???곗쨮 獄쏆꼹??
+      // Closing: hide panel and return focus to owner button if needed.
       ensureFocusOutOf($panel, $btn);
 
       $btn.attr({ 'aria-expanded': 'false' });
       $panel.attr('hidden', true);
 
-      // ??용뮞????곌볼 ??녿┛??
+      // Update button label text
       $btn.text('Show more');
 
     } else {
       $btn.attr({ 'aria-expanded': 'true'});
       $panel.removeAttr('hidden');
 
-      // ??용뮞????곌볼 ??녿┛??
+      // Update button label text
       $btn.text('Close');
 
       window.requestAnimationFrame(function () {
@@ -267,8 +267,8 @@
 
   // ========================================
   // video + play/pause control (FINAL v3) + IN-VIEW AUTO PLAY
-  // - viewport out  : pause (??????怨뺤뵬 reset)
-  // - viewport in   : play (??媛????쎄쾿嚥???釉? best-effort)
+  // - viewport out  : pause (optionally reset currentTime)
+  // - viewport in   : play (best-effort autoplay)
   // ========================================
   (function initScrollVideoControlFinalV3() {
     var videos = Array.prototype.slice.call(
@@ -364,7 +364,7 @@
     }
 
     videos.forEach(function (video, idx) {
-      // iOS inline 癰귣떯而?
+      // Ensure iOS inline playback compatibility.
       try {
         video.setAttribute('playsinline', '');
         video.setAttribute('webkit-playsinline', '');
@@ -378,6 +378,7 @@
 
       var wrap = btn.closest('.video-inner-wrap');
       if (!wrap) return;
+      var controlWrap = btn.closest('.controller-wrap');
 
       var playText = btn.getAttribute('data-play-text') || 'Play video';
       var pauseText = btn.getAttribute('data-pause-text') || 'Pause video';
@@ -387,7 +388,7 @@
       var hideTimer = 0;
       var lastInputWasPointer = false;
 
-      // viewport in/out ?怨밴묶 疫꿸퀣堉???彛??揶쏅Ŋ???
+      // Track whether the video is currently in viewport.
       var lastInView = null;
 
       function clearHideTimer() {
@@ -399,11 +400,22 @@
 
       function showControls() {
         wrap.classList.add('is-controls-visible');
+        if (controlWrap) {
+          controlWrap.style.pointerEvents = 'auto';
+          controlWrap.style.zIndex = '2';
+        }
+        btn.style.setProperty('opacity', '1', 'important');
+        btn.style.pointerEvents = 'auto';
       }
 
       function hideControls() {
         if (wrap.matches(':focus-within')) return;
         wrap.classList.remove('is-controls-visible');
+        if (controlWrap) {
+          controlWrap.style.pointerEvents = '';
+        }
+        btn.style.removeProperty('opacity');
+        btn.style.removeProperty('pointer-events');
       }
 
       function scheduleHide(ms) {
@@ -424,18 +436,18 @@
         btn.classList.toggle('pause', isPlaying);
         btn.classList.toggle('play', !isPlaying);
 
-        // Desktop: ?醫됲돵 ?紐꾪뀱 ?????
+        // Desktop: show controls briefly when UI updates.
         if (isFine()) {
           showControls();
           scheduleHide(IDLE_HIDE_MS_FINE);
         }
       }
 
-      // ===== ?λ뜃由??怨밴묶 =====
+      // ===== Initial state =====
       hideControls();
       updateUI();
 
-      // ===== ??낆젾 獄쎻뫗???닌됲뀋 =====
+      // ===== Input modality tracking =====
       btn.addEventListener('pointerdown', function () {
         lastInputWasPointer = true;
       }, { passive: true });
@@ -448,19 +460,19 @@
         }
       });
 
-      // ===== 甕곌쑵??????=====
+      // ===== Toggle play/pause =====
       btn.addEventListener('click', function (e) {
         e.preventDefault();
 
         if (video.paused) safePlay(video);
         else safePause(video, false);
 
-        // Desktop: ???????????blur
+        // Desktop pointer click: remove focus ring from button.
         if (lastInputWasPointer && isFine()) {
           try { btn.blur(); } catch (_) {}
         }
 
-        // Mobile: ??源??類? 甕곌쑵??????筌앸맩?????
+        // Mobile: hide controls right after tap interaction.
         if (isCoarse()) {
           clearHideTimer();
           hideControls();
@@ -470,7 +482,7 @@
         updateUI();
       });
 
-      // ===== ?臾롫젏??=====
+      // ===== Focus accessibility =====
       wrap.addEventListener('focusin', function () {
         showControls();
         clearHideTimer();
@@ -480,17 +492,27 @@
         scheduleHide(isCoarse() ? IDLE_HIDE_MS_COARSE : IDLE_HIDE_MS_FINE);
       });
 
-      // ===== Desktop: 筌띾뜆?????猷???뺤춸 ?紐꾪뀱 =====
+      // ===== Desktop pointer movement =====
       var onMove = rafThrottle(function () {
         if (!isFine()) return;
         showControls();
         scheduleHide(IDLE_HIDE_MS_FINE);
       });
 
+      wrap.addEventListener('mouseenter', function () {
+        if (!isFine()) return;
+        showControls();
+        scheduleHide(IDLE_HIDE_MS_FINE);
+      }, { passive: true });
+      wrap.addEventListener('pointerenter', function () {
+        if (!isFine()) return;
+        showControls();
+        scheduleHide(IDLE_HIDE_MS_FINE);
+      }, { passive: true });
       wrap.addEventListener('mousemove', onMove, { passive: true });
       wrap.addEventListener('mouseleave', hideControls, { passive: true });
 
-      // ===== Mobile: ?怨멸맒 ?怨몃열 ?????紐꾪뀱 =====
+      // ===== Mobile tap interaction =====
       wrap.addEventListener('pointerdown', function () {
         if (!isCoarse()) return;
         showControls();
@@ -507,24 +529,24 @@
         var rect = video.getBoundingClientRect();
         var vh = window.innerHeight || document.documentElement.clientHeight;
 
-        // ?遺얇늺???袁⑹읈???브쑬???롢늺 out
+        // Fully outside viewport = out
         var out = rect.bottom <= 0 || rect.top >= vh;
         var inView = !out;
 
-        // 筌ㅼ뮇??1???怨밴묶 ??녿┛??
+        // Initialize last state on first run.
         if (lastInView === null) lastInView = inView;
 
-        // out ??pause (+????reset)
+        // Transition to out: pause
         if (!inView && lastInView) {
           safePause(video, RESET_ON_OUT);
           hideControls();
         }
 
-        // in ??play (??媛????쎄쾿嚥???釉? best-effort)
+        // Transition to in: play
         if (inView && !lastInView) {
           safePlay(video);
 
-          // Desktop UX ?醫?: ?醫됲돵 ?뚢뫂?껅에??紐꾪뀱 ?????
+          // Desktop UX: show controls briefly when re-entering viewport.
           if (isFine()) {
             showControls();
             scheduleHide(IDLE_HIDE_MS_FINE);
@@ -537,7 +559,7 @@
       window.addEventListener('scroll', onScrollOrResize, { passive: true });
       window.addEventListener('resize', onScrollOrResize);
 
-      // ?λ뜃由?1???④쑴沅?筌?筌욊쑴?????? inView??野껋럩????釉?
+      // Run once on init to sync playback state.
       onScrollOrResize();
     });
   })();
