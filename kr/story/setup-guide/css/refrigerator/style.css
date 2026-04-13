@@ -3366,16 +3366,7 @@ install-case (설치사례)
 .popup-guide-wrap .install-case-sp .swiper .swiper-wrapper .swiper-slide img {
   width: 100%;
 }
-@media (min-width: 0px) and (max-width: 1444px) {
-  .popup-guide-wrap .install-case-sp .swiper-button-box {
-    display: none;
-  }
-}
-@media (min-width: 1025px) and (max-width: 1444px) {
-  .popup-guide-wrap .install-case-sp .swiper-button-box {
-    display: block;
-  }
-}
+
 .popup-guide-wrap .install-case-sp .swiper-button-box .swiper-button {
   box-shadow: none;
   width: 54px;

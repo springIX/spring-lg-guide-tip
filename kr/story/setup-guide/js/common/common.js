@@ -89,14 +89,10 @@ const LGE_SETUP = (function (window) {
                 const currentIndex = elRadioInputs.indexOf(elInput);
                 if (currentIndex < 0) return;
 
-                function focusAndSelect(index) {
+                function focusOnly(index) {
                     const elTarget = elRadioInputs[index];
                     if (!elTarget) return;
                     elTarget.focus();
-                    elTarget.checked = true;
-
-                    // 기존 코드의 .trigger("change") 동작 보장
-                    elTarget.dispatchEvent(new Event("change", { bubbles: true }));
                 }
 
                 switch (e.key) {
@@ -104,7 +100,7 @@ const LGE_SETUP = (function (window) {
                     case "ArrowDown": {
                         e.preventDefault();
                         const nextIndex = (currentIndex + 1) % elRadioInputs.length;
-                        focusAndSelect(nextIndex);
+                        focusOnly(nextIndex);
                         break;
                     }
                     case "ArrowLeft":
@@ -112,17 +108,30 @@ const LGE_SETUP = (function (window) {
                         e.preventDefault();
                         const prevIndex =
                             currentIndex === 0 ? elRadioInputs.length - 1 : currentIndex - 1;
-                        focusAndSelect(prevIndex);
+                        focusOnly(prevIndex);
                         break;
                     }
                     case "Home": {
                         e.preventDefault();
-                        focusAndSelect(0);
+                        focusOnly(0);
                         break;
                     }
                     case "End": {
                         e.preventDefault();
-                        focusAndSelect(elRadioInputs.length - 1);
+                        focusOnly(elRadioInputs.length - 1);
+                        break;
+                    }
+                    case "Enter": {
+                        e.preventDefault();
+                        if (!elInput.checked) {
+                            elInput.checked = true;
+                        }
+                        elInput.dispatchEvent(new Event("change", { bubbles: true }));
+                        break;
+                    }
+                    case " ":
+                    case "Spacebar": {
+                        e.preventDefault();
                         break;
                     }
                     default:
@@ -312,6 +321,61 @@ const LGE_SETUP = (function (window) {
 
             if (elNavItems.length === 0 || elNavTriggers.length === 0) return;
 
+            const updateFaqLinksTabState = function (elNavContent, isExpanded) {
+                if (!elNavContent) return;
+
+                const elFaqLinks = findAllElements(".faq-content a", elNavContent);
+                if (elFaqLinks.length === 0) return;
+
+                elFaqLinks.forEach(function (elLink) {
+                    if (isExpanded) {
+                        if (!elLink.hasAttribute("data-accordion-tabindex")) return;
+
+                        const prevTabIndex = elLink.getAttribute("data-accordion-tabindex");
+                        if (prevTabIndex === "__none__") {
+                            removeAttr(elLink, "tabindex");
+                        } else {
+                            setAttr(elLink, "tabindex", prevTabIndex);
+                        }
+                        removeAttr(elLink, "data-accordion-tabindex");
+                        return;
+                    }
+
+                    if (!elLink.hasAttribute("data-accordion-tabindex")) {
+                        const savedValue = elLink.hasAttribute("tabindex")
+                            ? elLink.getAttribute("tabindex")
+                            : "__none__";
+                        setAttr(elLink, "data-accordion-tabindex", savedValue);
+                    }
+                    setAttr(elLink, "tabindex", "-1");
+                });
+            };
+
+            const setAccordionContentState = function (elNavContent, isExpanded) {
+                if (!elNavContent) return;
+
+                setAttr(elNavContent, "aria-hidden", isExpanded ? "false" : "true");
+                if (isExpanded) {
+                    removeAttr(elNavContent, "inert");
+                } else {
+                    setAttr(elNavContent, "inert", "");
+                }
+
+                updateFaqLinksTabState(elNavContent, isExpanded);
+            };
+
+            elNavItems.forEach(function (elNavItem) {
+                const elTrigger = findElement(".js-accTrigger", elNavItem);
+                const elNavContent = findElement(".nav-content", elNavItem);
+                const isActive = hasClass(elNavItem, "nav-active");
+
+                if (elTrigger) setAttr(elTrigger, "aria-expanded", isActive ? "true" : "false");
+                if (elNavContent) {
+                    elNavContent.style.maxHeight = isActive ? elNavContent.scrollHeight + "px" : "0";
+                    setAccordionContentState(elNavContent, isActive);
+                }
+            });
+
             // 열린 패널들의 max-height 업데이트 함수
             const updateOpenPanelsHeight = function () {
                 elNavItems.forEach(function (elNavItem) {
@@ -359,8 +423,7 @@ const LGE_SETUP = (function (window) {
 
                     if (elNavContent) {
                         elNavContent.style.maxHeight = "0";
-                        setAttr(elNavContent, "aria-hidden", "true");
-                        setAttr(elNavContent, "inert", "");
+                        setAccordionContentState(elNavContent, false);
                     }
                 } else {
                     // 다른 패널들 닫기 (같은 컨테이너 내에서만)
@@ -374,8 +437,7 @@ const LGE_SETUP = (function (window) {
                             if (elOtherTrigger) setAttr(elOtherTrigger, "aria-expanded", "false");
                             if (elOtherContent) {
                                 elOtherContent.style.maxHeight = "0";
-                                setAttr(elOtherContent, "aria-hidden", "true");
-                                setAttr(elOtherContent, "inert", "");
+                                setAccordionContentState(elOtherContent, false);
                             }
                         }
                     });
@@ -386,9 +448,8 @@ const LGE_SETUP = (function (window) {
 
                     if (elNavContent) {
                         elNavContent.style.maxHeight = elNavContent.scrollHeight + "px";
-                        setAttr(elNavContent, "aria-hidden", "false");
                         removeAttr(elContainer, "inert");
-                        removeAttr(elNavContent, "inert");
+                        setAccordionContentState(elNavContent, true);
                     }
                     updateOpenPanelsHeight();
                     scheduleRecalc(elNavItem);
@@ -443,8 +504,7 @@ const LGE_SETUP = (function (window) {
                     if (elTrigger) setAttr(elTrigger, "aria-expanded", "true");
                     if (elContent) {
                         elContent.style.maxHeight = elContent.scrollHeight + "px";
-                        setAttr(elContent, "aria-hidden", "false");
-                        removeAttr(elContent, "inert");
+                        setAccordionContentState(elContent, true);
                     }
 
                     updateOpenPanelsHeight();
@@ -534,6 +594,15 @@ const LGE_SETUP = (function (window) {
                             elAcctgContent.style.maxHeight = "0";
                             setAttr(elAcctgContent, "aria-hidden", "true");
                             setAttr(elAcctgContent, "inert", "");
+                            findAllElements(".faq-content a", elAcctgContent).forEach(function (elLink) {
+                                if (!elLink.hasAttribute("data-accordion-tabindex")) {
+                                    const savedValue = elLink.hasAttribute("tabindex")
+                                        ? elLink.getAttribute("tabindex")
+                                        : "__none__";
+                                    setAttr(elLink, "data-accordion-tabindex", savedValue);
+                                }
+                                setAttr(elLink, "tabindex", "-1");
+                            });
                         }
                     }
                     })
@@ -723,7 +792,6 @@ const LGE_SETUP = (function (window) {
                     afterInit: function (swiper) {
                         window.requestAnimationFrame(function () {
                             handleSlideA11y(swiper);
-                            
                             // 초기화 시 생성되는 aria-live 영역을 찾아 비활성화
                             const liveRegion = elSwiper.querySelector('.swiper-wrapper');
                             if (liveRegion) {
@@ -1073,6 +1141,15 @@ const LGE_SETUP = (function (window) {
                                 elContent.style.maxHeight = "0";
                                 setAttr(elContent, "aria-hidden", "true");
                                 setAttr(elContent, "inert", "");
+                                findAllElements(".faq-content a", elContent).forEach(function (elLink) {
+                                    if (!elLink.hasAttribute("data-accordion-tabindex")) {
+                                        const savedValue = elLink.hasAttribute("tabindex")
+                                            ? elLink.getAttribute("tabindex")
+                                            : "__none__";
+                                        setAttr(elLink, "data-accordion-tabindex", savedValue);
+                                    }
+                                    setAttr(elLink, "tabindex", "-1");
+                                });
                             }
                         });
                     }
@@ -2565,6 +2642,80 @@ const LGE_CONFIGURATION_OPTION = (function (window) {
         // bind (이 인스턴스 root 범위로 delegation)
         // ----------------------------------------
         const bindEvents = () => {
+            // Radio keyboard handling:
+            // Arrow/Home/End move focus only, Enter applies selection.
+            root.addEventListener(
+                "keydown",
+                (e) => {
+                    const input = e.target;
+                    if (!input || input.tagName !== "INPUT") return;
+                    if (input.type !== "radio") return;
+
+                    const navItem = getClosest(input, ".lgig-nav .nav-item");
+                    if (!navItem) return;
+
+                    const radioGroup = getClosest(input, ".lgig-radio-group");
+                    const allRadioInputs = radioGroup
+                        ? findAllElements("input[type='radio']", radioGroup)
+                        : [];
+                    const groupInputs = allRadioInputs.filter((el) => el.name === input.name && !el.disabled);
+                    if (groupInputs.length === 0) return;
+
+                    const currentIndex = groupInputs.indexOf(input);
+                    if (currentIndex < 0) return;
+
+                    const focusOnly = (index) => {
+                        const target = groupInputs[index];
+                        if (!target) return;
+                        target.focus();
+                    };
+
+                    switch (e.key) {
+                        case "ArrowRight":
+                        case "ArrowDown": {
+                            e.preventDefault();
+                            const nextIndex = (currentIndex + 1) % groupInputs.length;
+                            focusOnly(nextIndex);
+                            break;
+                        }
+                        case "ArrowLeft":
+                        case "ArrowUp": {
+                            e.preventDefault();
+                            const prevIndex =
+                                currentIndex === 0 ? groupInputs.length - 1 : currentIndex - 1;
+                            focusOnly(prevIndex);
+                            break;
+                        }
+                        case "Home": {
+                            e.preventDefault();
+                            focusOnly(0);
+                            break;
+                        }
+                        case "End": {
+                            e.preventDefault();
+                            focusOnly(groupInputs.length - 1);
+                            break;
+                        }
+                        case "Enter": {
+                            e.preventDefault();
+                            if (!input.checked) {
+                                input.checked = true;
+                            }
+                            input.dispatchEvent(new Event("change", { bubbles: true }));
+                            break;
+                        }
+                        case " ":
+                        case "Spacebar": {
+                            e.preventDefault();
+                            break;
+                        }
+                        default:
+                            break;
+                    }
+                },
+                true
+            );
+
             // navTrigger 클릭
             root.addEventListener("click", (e) => {
                 const trigger = getClosest(e.target, ".js-navTrigger");
