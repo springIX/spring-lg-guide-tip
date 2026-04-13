@@ -110,6 +110,7 @@ img.pc-img {
   color: #525252;
   padding-left: 14px;
   line-height: 1.5;
+  word-break: keep-all;
 }
 .dot-ls > li:before {
   content: "";
@@ -284,7 +285,7 @@ img.pc-img {
 .icon-mark.icon-question {
   width: 16px;
   height: 16px;
-  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/styler/icon-question.svg");
+  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/refrigerator/icon-question.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -304,7 +305,7 @@ img.pc-img {
 .icon-mark.icon-more {
   width: 16px;
   height: 16px;
-  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/styler/icon-more.png");
+  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/refrigerator/icon-more.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -334,7 +335,7 @@ img.pc-img {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/styler/result-swiper-nav.svg");
+  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/refrigerator/result-swiper-nav.svg");
   color: transparent;
 }
 .swiper .swiper-button .swiper-button.swiper-button-prev {
@@ -477,10 +478,16 @@ header
   }
 }
 .lgig-header .item .icon-refrigerator.icon-1 {
-  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/styler/ic_main_styler1.svg");
+  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/refrigerator/ic_main_fridge1.svg");
 }
 .lgig-header .item .icon-refrigerator.icon-2 {
-  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/styler/ic_main_styler2.svg");
+  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/refrigerator/ic_main_fridge2.svg");
+}
+.lgig-header .item .icon-refrigerator.icon-3 {
+  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/refrigerator/ic_main_fridge3.svg");
+}
+.lgig-header .item .icon-refrigerator.icon-4 {
+  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/refrigerator/ic_main_fridge4.svg");
 }
 
 .nav-dim {
@@ -516,17 +523,15 @@ header
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.3s ease;
   padding: 12px 0;
 }
 .nav-controll .nav-control-btn .icon-arrow {
   width: 20px;
   height: 20px;
-  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/styler/ic.svg");
+  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/refrigerator/ic.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  transition: transform 0.3s ease;
 }
 @media (min-width: 0px) and (max-width: 1444px) {
   .nav-controll .nav-control-btn .icon-arrow {
@@ -598,11 +603,6 @@ header
 }
 .nav-list .nav-item:last-child {
   margin-bottom: 0;
-}
-@media (min-width: 0px) and (max-width: 1444px) {
-  .nav-list .nav-item:last-child {
-    border-bottom: 0;
-  }
 }
 @media (min-width: 1025px) and (max-width: 1444px) {
   .nav-list .nav-item:last-child {
@@ -712,7 +712,7 @@ header
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/styler/ic.png");
+  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/refrigerator/ic.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -750,7 +750,7 @@ header
 }
 .nav-list .nav-content-inner .lgig-radio-group {
   display: flex;
-  gap: 12px 18px;
+  gap: 12px 16px;
   flex-wrap: wrap;
 }
 @media (min-width: 0px) and (max-width: 1444px) {
@@ -783,7 +783,7 @@ header
   border: 1px solid #000;
   border-radius: 4px;
   background: #fff;
-  margin-right: 10px;
+  margin-right: 8px;
   transition: all 0.3s ease;
 }
 @media (min-width: 0px) and (max-width: 1444px) {
@@ -1073,7 +1073,7 @@ header
   width: 20px;
   height: 20px;
   flex-shrink: 0;
-  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/styler/ic_down.svg");
+  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/refrigerator/ic_down.svg");
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: center;
@@ -1213,7 +1213,7 @@ header
   }
 }
 .lgig-last-result .result-title .result-con .represent-title .btn-model-select .arrow-icon {
-  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/styler/ic_up.svg");
+  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/refrigerator/ic_up.svg");
 }
 .lgig-last-result .result-title .result-con .represent-title .model-num {
   display: block;
@@ -1225,16 +1225,15 @@ header
 }
 @media (min-width: 0px) and (max-width: 1444px) {
   .lgig-last-result .result-title .result-con .represent-title .model-num {
+    margin-top: 0.625rem;
     font-size: 0.625rem;
     line-height: 1.5;
-    margin-top: 10px;
     color: #525252;
   }
 }
 @media (min-width: 1025px) and (max-width: 1444px) {
   .lgig-last-result .result-title .result-con .represent-title .model-num {
     font-size: 0.875rem;
-    color: #000;
   }
 }
 .lgig-last-result .result-title .result-con .more-model-list > li {
@@ -1520,6 +1519,16 @@ header
   background-color: #f4f4f4;
   border-radius: 8px;
 }
+@media (min-width: 0px) and (max-width: 1444px) {
+  .lgig-last-result .result-detail-notice .notice-item .install-process-list {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1444px) {
+  .lgig-last-result .result-detail-notice .notice-item .install-process-list {
+    margin-bottom: 40px;
+  }
+}
 .lgig-last-result .result-detail-notice .notice-item .install-process-list .install-process-step {
   position: relative;
   display: flex;
@@ -1557,7 +1566,7 @@ header
   width: clamp(6px, 1.2vw, 11px);
   height: clamp(10px, 1.6vw, 19px);
   transform: translate(-50%, -50%);
-  background: url("https://www.lge.co.kr/kr/story/setup-guide/images/styler/ico-install-step-arrow.svg") no-repeat center/contain;
+  background: url("https://www.lge.co.kr/kr/story/setup-guide/images/refrigerator/ico-install-step-arrow.svg") no-repeat center/contain;
 }
 .lgig-last-result .result-detail-notice .notice-item .install-process-list .install-process-step:last-child::after {
   display: none;
@@ -1582,6 +1591,7 @@ header
   display: block;
   color: #000;
   white-space: nowrap;
+  font-size: 16px;
 }
 .lgig-last-result .result-detail-notice .detail-box .btn-more {
   display: inline-block;
@@ -1814,17 +1824,17 @@ header
   }
 }
 .lgig-last-result .draw-detail-box .draw-dimension ul > li .draw-icon.product {
-  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/styler/draw-icon-product.svg");
+  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/refrigerator/draw-icon-product.svg");
 }
 .lgig-last-result .draw-detail-box .draw-dimension ul > li .draw-icon.requiredspace {
-  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/styler/draw-icon-requiredspace.svg");
+  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/refrigerator/draw-icon-requiredspace.svg");
 }
 .lgig-last-result .draw-detail-box .draw-dimension ul > li .draw-icon.clearance {
   opacity: 0.2;
-  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/styler/draw-icon-clearance.svg");
+  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/refrigerator/draw-icon-clearance.svg");
 }
 .lgig-last-result .draw-detail-box .draw-dimension ul > li .draw-icon.dooropen {
-  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/styler/draw-icon-dooropen.svg");
+  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/refrigerator/draw-icon-dooropen.svg");
 }
 .lgig-last-result .draw-detail-box .draw-img {
   width: 662px;
@@ -1844,7 +1854,7 @@ header
   }
   .lgig-last-result .draw-detail-box .draw-img img {
     position: relative;
-    width: 109%;
+    width: 100%;
     left: 50%;
     transform: translateX(-50%);
     padding-top: 0;
@@ -2510,6 +2520,22 @@ additional
     font-size: 1rem;
   }
 }
+.popup-guide-wrap .additional-set-box .as-inner .as-cont-tt .txt span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #FD312E;
+  line-height: 1.5;
+}
+@media (min-width: 0px) and (max-width: 1444px) {
+  .popup-guide-wrap .additional-set-box .as-inner .as-cont-tt .txt span {
+    font-size: 0.75rem;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1444px) {
+  .popup-guide-wrap .additional-set-box .as-inner .as-cont-tt .txt span {
+    font-size: 1rem;
+  }
+}
 .popup-guide-wrap .additional-set-box .as-inner .as-img {
   position: absolute;
   top: 0;
@@ -2639,6 +2665,22 @@ additional
   font-size: 16px;
   font-weight: 400;
   color: #000;
+}
+.popup-guide-wrap .pair-kit-box .pk-inner .tbl-pair-kit tbody p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  line-height: 1.5;
+}
+@media (min-width: 0px) and (max-width: 1444px) {
+  .popup-guide-wrap .pair-kit-box .pk-inner .tbl-pair-kit tbody p {
+    font-size: 0.75rem;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1444px) {
+  .popup-guide-wrap .pair-kit-box .pk-inner .tbl-pair-kit tbody p {
+    font-size: 1rem;
+  }
 }
 .popup-guide-wrap .pair-kit-box .pk-inner .tbl-pair-kit tbody .dot-ls li {
   font-size: 16px;
@@ -3127,7 +3169,7 @@ faq
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/styler/ic.png");
+  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/refrigerator/ic.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -3273,13 +3315,13 @@ contact (문의)
   }
 }
 .popup-guide-wrap .contact-ls-box ul > li .box .icon.mail {
-  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/styler/ic_popup_mail.svg");
+  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/refrigerator/ic_popup_mail.svg");
 }
 .popup-guide-wrap .contact-ls-box ul > li .box .icon.phone {
-  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/styler/ic_popup_call.svg");
+  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/refrigerator/ic_popup_call.svg");
 }
 .popup-guide-wrap .contact-ls-box ul > li .box .icon.service {
-  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/styler/ic_popup_service.svg");
+  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/refrigerator/ic_popup_service.svg");
 }
 .popup-guide-wrap .contact-ls-box ul > li .box span {
   display: block;
@@ -3341,7 +3383,7 @@ install-case (설치사례)
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/styler/result-swiper-nav.svg");
+  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/refrigerator/result-swiper-nav.svg");
   color: transparent;
 }
 .popup-guide-wrap .install-case-sp .swiper-button-box .swiper-button.swiper-button-prev {
@@ -3480,8 +3522,14 @@ product-view (제품보러가기)
     margin-bottom: 30px;
   }
 }
-.popup-guide-wrap .product-view-ls-box ul > li .box .icon.styler {
-  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/styler/ic_popup_styler.svg");
+.popup-guide-wrap .product-view-ls-box ul > li .box .icon.fridge {
+  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/refrigerator/ic_popup_fridge.svg");
+}
+.popup-guide-wrap .product-view-ls-box ul > li .box .icon.kimchi {
+  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/refrigerator/ic_popup_kimchi.svg");
+}
+.popup-guide-wrap .product-view-ls-box ul > li .box .icon.convertible {
+  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/refrigerator/ic_popup_convertible.svg");
 }
 .popup-guide-wrap .product-view-ls-box ul > li .box span {
   display: block;
@@ -3611,47 +3659,46 @@ tooltip (도움말)
   border: 1px solid #000;
   border-radius: 8px;
   padding: 29px 23px 23px;
-  width: 464px;
-  text-align: left;
+  width: 456px;
+  text-align: center;
 }
 @media (min-width: 0px) and (max-width: 1444px) {
   .tooltip-pop-wrap .tooltip-box {
-    padding: 10px 15px 20px;
+    padding: 15px 15px 35px;
     width: auto;
-    max-width: 330px;
+    max-width: 328px;
     border: 0;
     border-radius: 0.5rem;
-    text-align: left;
+    text-align: center;
   }
 }
 @media (min-width: 1025px) and (max-width: 1444px) {
   .tooltip-pop-wrap .tooltip-box {
-    padding: 32px 32px 14px;
+    padding: 30px 23px 23px;
     max-width: none;
-    width: 464px;
+    width: 456px;
     border: 1px solid #000;
     border-radius: 8px;
   }
 }
 .tooltip-pop-wrap .tooltip-box .pop-header .pop-title {
-  border-bottom: 1px solid #000;
-  padding-bottom: 18px;
+  padding-bottom: 30px;
 }
 @media (min-width: 0px) and (max-width: 1444px) {
   .tooltip-pop-wrap .tooltip-box .pop-header .pop-title {
     padding-top: 1.25rem;
-    padding-bottom: 1.875rem;
+    padding-bottom: 1.5625rem;
   }
 }
 @media (min-width: 1025px) and (max-width: 1444px) {
   .tooltip-pop-wrap .tooltip-box .pop-header .pop-title {
     padding-top: 0;
-    padding-bottom: 1.125rem;
+    padding-bottom: 1.875rem;
   }
 }
 .tooltip-pop-wrap .tooltip-box .pop-header .pop-title .tt {
   display: block;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   color: #000;
   line-height: 1;
@@ -3669,7 +3716,93 @@ tooltip (도움말)
 }
 @media (min-width: 1025px) and (max-width: 1444px) {
   .tooltip-pop-wrap .tooltip-box .pop-header .pop-title .tt {
-    font-size: 1rem;
+    font-size: 1.125rem;
+  }
+}
+.tooltip-pop-wrap .tooltip-box .pop-header .popup-tab-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 0px) and (max-width: 1444px) {
+  .tooltip-pop-wrap .tooltip-box .pop-header .popup-tab-wrap {
+    width: 100%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1444px) {
+  .tooltip-pop-wrap .tooltip-box .pop-header .popup-tab-wrap {
+    width: 100%;
+  }
+}
+.tooltip-pop-wrap .tooltip-box .pop-header .popup-tab-wrap ul {
+  display: flex;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+}
+@media (min-width: 0px) and (max-width: 1444px) {
+  .tooltip-pop-wrap .tooltip-box .pop-header .popup-tab-wrap ul {
+    gap: 0.5625rem;
+    width: 100%;
+    max-width: 192px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1444px) {
+  .tooltip-pop-wrap .tooltip-box .pop-header .popup-tab-wrap ul {
+    gap: 0.875rem;
+    max-width: none;
+  }
+}
+.tooltip-pop-wrap .tooltip-box .pop-header .popup-tab-wrap ul > li {
+  width: calc(33.3% - 1px);
+}
+@media (min-width: 0px) and (max-width: 1444px) {
+  .tooltip-pop-wrap .tooltip-box .pop-header .popup-tab-wrap ul > li {
+    flex: 1;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1444px) {
+  .tooltip-pop-wrap .tooltip-box .pop-header .popup-tab-wrap ul > li {
+    flex: 1;
+  }
+}
+.tooltip-pop-wrap .tooltip-box .pop-header .popup-tab-wrap ul > li .pop-btn {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  padding: 7px 0;
+  line-height: 1;
+}
+@media (min-width: 0px) and (max-width: 1444px) {
+  .tooltip-pop-wrap .tooltip-box .pop-header .popup-tab-wrap ul > li .pop-btn {
+    padding: 0.625rem 0;
+    border-radius: 0.25rem;
+    line-height: 1.4;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1444px) {
+  .tooltip-pop-wrap .tooltip-box .pop-header .popup-tab-wrap ul > li .pop-btn {
+    border-radius: 6px;
+    padding: 7px 0;
+    line-height: 1;
+  }
+}
+@media (min-width: 0px) and (max-width: 1444px) {
+  .tooltip-pop-wrap .tooltip-box .pop-header .popup-tab-wrap.m-col-tow ul {
+    width: 100%;
+    max-width: 500px;
+    flex-wrap: wrap;
+    gap: 0.3125rem;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1444px) {
+  .tooltip-pop-wrap .tooltip-box .pop-header .popup-tab-wrap.m-col-tow ul {
+    flex-wrap: nowrap;
+    max-width: none;
+    margin: 0;
+    gap: 8px;
   }
 }
 .tooltip-pop-wrap .tooltip-box .pop-con {
@@ -3681,6 +3814,94 @@ tooltip (도움말)
   overflow-y: auto;
   height: 100%;
   box-sizing: border-box;
+}
+.tooltip-pop-wrap .tooltip-box .pop-con .pop-con-inner .tooltip-item {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  gap: 24px;
+  color: #000;
+}
+@media (min-width: 0px) and (max-width: 1444px) {
+  .tooltip-pop-wrap .tooltip-box .pop-con .pop-con-inner .tooltip-item {
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1444px) {
+  .tooltip-pop-wrap .tooltip-box .pop-con .pop-con-inner .tooltip-item {
+    flex-direction: row;
+    gap: 1.5rem;
+    margin-top: 1.25rem;
+  }
+}
+.tooltip-pop-wrap .tooltip-box .pop-con .pop-con-inner .tooltip-item img {
+  border-radius: 6px;
+  width: 162px;
+  height: 162px;
+}
+@media (min-width: 0px) and (max-width: 1444px) {
+  .tooltip-pop-wrap .tooltip-box .pop-con .pop-con-inner .tooltip-item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.25rem;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1444px) {
+  .tooltip-pop-wrap .tooltip-box .pop-con .pop-con-inner .tooltip-item img {
+    border-radius: 6px;
+    width: 162px;
+    height: 162px;
+  }
+}
+.tooltip-pop-wrap .tooltip-box .pop-con .pop-con-inner .tooltip-item ul {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 10px;
+}
+.tooltip-pop-wrap .tooltip-box .pop-con .pop-con-inner .tooltip-item ul .tt {
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+}
+@media (min-width: 0px) and (max-width: 1444px) {
+  .tooltip-pop-wrap .tooltip-box .pop-con .pop-con-inner .tooltip-item ul .tt {
+    font-size: 0.875rem;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1444px) {
+  .tooltip-pop-wrap .tooltip-box .pop-con .pop-con-inner .tooltip-item ul .tt {
+    font-size: 1rem;
+  }
+}
+.tooltip-pop-wrap .tooltip-box .pop-con .pop-con-inner .tooltip-item ul .sub-txt {
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 400;
+}
+@media (min-width: 0px) and (max-width: 1444px) {
+  .tooltip-pop-wrap .tooltip-box .pop-con .pop-con-inner .tooltip-item ul .sub-txt {
+    font-size: 0.75rem;
+    line-height: 1.5;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1444px) {
+  .tooltip-pop-wrap .tooltip-box .pop-con .pop-con-inner .tooltip-item ul .sub-txt {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+}
+@media (min-width: 0px) and (max-width: 1444px) {
+  .tooltip-pop-wrap .tooltip-box .pop-con .pop-con-inner .tooltip-item ul {
+    text-align: center;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1444px) {
+  .tooltip-pop-wrap .tooltip-box .pop-con .pop-con-inner .tooltip-item ul {
+    text-align: left;
+  }
 }
 .tooltip-pop-wrap .tooltip-box .pop-close {
   position: absolute;
@@ -4159,7 +4380,7 @@ br.br-tablet, div.br-tablet {
 
 .lgig-header {
   width: 360px;
-  height: 120px;
+  height: 240px;
 }
 @media (min-width: 0px) and (max-width: 1444px) {
   .lgig-header {
@@ -4171,7 +4392,7 @@ br.br-tablet, div.br-tablet {
 @media (min-width: 1025px) and (max-width: 1444px) {
   .lgig-header {
     width: 360px;
-    height: 120px;
+    height: 240px;
     padding: 0;
   }
 }
@@ -4230,7 +4451,7 @@ br.br-tablet, div.br-tablet {
 
 .lgig-content {
   order: 2;
-  margin-top: -170px;
+  margin-top: -290px;
   flex: none;
   width: 870px;
 }
@@ -4253,7 +4474,7 @@ br.br-tablet, div.br-tablet {
 @media (min-width: 1025px) and (max-width: 1444px) {
   .lgig-content {
     order: 2;
-    margin-top: -180px;
+    margin-top: -300px;
     flex: 1;
     height: auto;
   }
@@ -4292,7 +4513,7 @@ br.br-tablet, div.br-tablet {
 }
 .lgig-nav .nav-reset .icon-reset {
   position: relative;
-  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/styler/icon-reset.svg");
+  background-image: url("https://www.lge.co.kr/kr/story/setup-guide/images/refrigerator/icon-reset.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
@@ -4359,7 +4580,7 @@ br.br-tablet, div.br-tablet {
     overflow: hidden;
   }
   .lgig-nav.result-nav.nav-status-bar .lgig-nav-inner {
-    padding-bottom: 75px;
+    padding-bottom: 57px !important;
   }
 }
 @media (min-width: 1025px) and (max-width: 1444px) {
