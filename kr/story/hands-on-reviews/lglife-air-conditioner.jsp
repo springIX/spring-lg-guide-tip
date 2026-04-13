@@ -129,15 +129,15 @@
                 </div>
               </div>
               <div class="contents-panels">
-                <section class="summary-section">
-                  <h4 class="summary-title">3줄로 요약해 드려요.</h4>
-                  <ul class="summary-items">
-                    <li class="summary-item"><p>LG가전 구독 시, 케어 전문가가 정기 방문해<br class="mo-only"> 세척, 살균, 성능 점검 등 케어서비스를 제공합니다.</p></li>
-                    <li class="summary-item"><p>케어서비스 이용 시, 셀프 청소로는 어려운 내부 관리의 <br class="mo-only">필요성을 체감할 수 있습니다. </p></li>
-                    <li class="summary-item"><p>불쾌한 냄새, 약한 바람, 눈에 보이는 먼지가<br class="mo-only"> 느껴진다면 에어컨 청소를 권장합니다.</p></li>
-                  </ul>
-                </section>
                 <section class="contents-panel is-active" id="panel-review" role="tabpanel" aria-labelledby="tab-review">
+                  <section class="summary-section">
+                    <h4 class="summary-title">3줄로 요약해 드려요.</h4>
+                    <ul class="summary-items">
+                      <li class="summary-item"><p>LG가전 구독 시, 케어 전문가가 정기 방문해<br class="mo-only"> 세척, 살균, 성능 점검 등 케어서비스를 제공합니다.</p></li>
+                      <li class="summary-item"><p>케어서비스 이용 시, 셀프 청소로는 어려운 내부 관리의 <br class="mo-only">필요성을 체감할 수 있습니다. </p></li>
+                      <li class="summary-item"><p>불쾌한 냄새, 약한 바람, 눈에 보이는 먼지가<br class="mo-only"> 느껴진다면 에어컨 청소를 권장합니다.</p></li>
+                    </ul>
+                  </section>
                   <p class="panel-kicker fx-fade-up" data-fade-delay="0">REVIEW</p>
                   <h4 class="panel-title fx-fade-up" data-fade-delay="60">전자신문 기자가 말하는 <br class="mo-only">구독 케어서비스</h4>
                   <div class="gray-box fx-fade-up" data-fade-delay="120">
@@ -206,7 +206,7 @@
                           <p>
                             상업용 냉난방기의 경우 거의 매일 사용하다 보니 1년만 지나도 상태가 훨씬 심각해질 수 있다고 덧붙였다. <span class="underline-shadow">가정용 에어컨도 집안 습도가 높거나 차량 통행량이 많아 먼지가 많은 <br class="pc-only">지역, 에어컨 사용 빈도에 따라 내부 상태 차이가 크다고 했다.</span>
                           </p>
-                          <span class="article-note">&lt;「[디지털라이프]9년 만의 첫 에어컨 분해 청소…LG 구독 케어 받아보니」, 전자신문, 2026.01&gt; 기사 일부 발췌</span>
+                          <span class="article-note">&lt;「[디지털라이프]9년 만의 첫 에어컨 분해 청소…LG 구독 케어 받아보니」, 전자신문, 2026.01&gt; <br>기사 일부 발췌</span>
                         </blockquote>
                         <ul class="before-after-list">
                           <li>내부에 켜켜이 쌓인 먼지와 곰팡이</li>
@@ -233,7 +233,7 @@
                             9년간 조용히 쌓인 세월의 흔적은 생각보다 강력했다. <span class="underline-shadow">여름이 오기 전 한 번쯤은 에어컨의 속내를 <br class="pc-only">
                             제대로 들여다봐야 한다는 이유가 충분해 보였다.</span>
                           </p>
-                          <span class="article-note">&lt;「[디지털라이프]9년 만의 첫 에어컨 분해 청소…LG 구독 케어 받아보니」, 전자신문, 2026.01&gt; 기사 일부 발췌</span>
+                          <span class="article-note">&lt;「[디지털라이프]9년 만의 첫 에어컨 분해 청소…LG 구독 케어 받아보니」, 전자신문, 2026.01&gt; <br>기사 일부 발췌</span>
                         </blockquote>
                         <ul class="before-after-list">
                           <li>분해 세척 후 내부 오염 제거</li>
@@ -246,7 +246,7 @@
                       <li>에어컨 가전 구독 및 케어십은 프리미엄, 라이트 플러스 상품 중 선택 가능하며, 신청 가능한 서비스가 상이합니다.</li>
                       <li>프리미엄 : 분해 세척 케어서비스, 제품 성능 점검, 필터 클리닝 및 교체, 무상 A/S 제공</li>
                       <li>라이트플러스 : 기본 세척 케어서비스, 제품 성능 점검, 필터 클리닝 및 교체, 무상 A/S 제공</li>
-                      <li>기사 일부를 발췌·재구성한 내용입니다. 자세한 내용은 원문을 참고해 주세요. <br>기사원문: <a href="https://n.news.naver.com/mnews/article/030/0003394429?sid=105" target="_blank">https://n.news.naver.com/mnews/article/030/0003394429?sid=105</a>
+                      <li>기사 일부를 발췌·재구성한 내용입니다. 자세한 내용은 원문을 참고해 주세요. <br>기사원문: <a href="https://www.etnews.com/20260129000093" target="_blank">https://www.etnews.com/20260129000093</a>
                       </li>
                     </ul>
                   </div>

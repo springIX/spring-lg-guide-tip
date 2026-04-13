@@ -122,15 +122,16 @@ main {
   max-width: 1380px;
   width: 100%;
   margin: 0 auto;
-  padding-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  margin-bottom: 104px;
 }
 @media screen and (max-width: 768px) {
   .summary-section {
     gap: 32px;
+    margin-bottom: 60px;
   }
 }
 
@@ -165,7 +166,7 @@ main {
     padding: 24px 20px;
     align-items: flex-start;
     gap: 10px;
-    border-radius: 7.609px; 
+    border-radius: 7.61px; 
   }
 }
 .summary-item {
@@ -1388,6 +1389,7 @@ main {
   }
   .contents-panel .gray-box {
     padding: 30px 20px 24px;
+    border-radius: 7.61px;
   }
   .contents-panel .gray-box > img {
     width: 60px;

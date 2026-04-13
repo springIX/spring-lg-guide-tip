@@ -1802,14 +1802,14 @@
                 data-target="#buying-point-2"
                 data-group="buying-point"
               >
-                세탁건조 기능
+                AI 기능
               </button>
               <button
                 name="buying-guide-tab"
                 data-target="#buying-point-3"
                 data-group="buying-point"
               >
-                AI 기능
+                간편 의류 케어 기능
               </button>
             </div>
             <div class="tab-content">
@@ -1836,7 +1836,7 @@
                       data-target="#buying-point-1-3"
                       data-group="buying-point-1"
                     >
-                      세탁기
+                      트롬 세탁기
                     </button>
                   </div>
                   <div class="subtab-content">
@@ -2082,355 +2082,6 @@
               </div>
             </div>
             <div id="buying-point-2" name="buying-point" style="display: none">
-              <div class="subtab-wrap">
-                <div class="subtab-btn">
-                  <button
-                    class="active"
-                    name="buying-guide-tab"
-                    data-target="#buying-point-2-1"
-                    data-group="buying-point-2"
-                  >
-                    AI 맞춤 세탁
-                  </button>
-                  <button
-                    name="buying-guide-tab"
-                    data-target="#buying-point-2-2"
-                    data-group="buying-point-2"
-                  >
-                    AI 맞춤 건조
-                  </button>
-                  <button
-                    name="buying-guide-tab"
-                    data-target="#buying-point-2-3"
-                    data-group="buying-point-2"
-                  >
-                    AI DD X 6모션
-                  </button>
-                  <button
-                    name="buying-guide-tab"
-                    data-target="#buying-point-2-4"
-                    data-group="buying-point-2"
-                  >
-                    트루스팀
-                  </button>
-                  <button
-                    name="buying-guide-tab"
-                    data-target="#buying-point-2-5"
-                    data-group="buying-point-2"
-                  >
-                    자동세제함
-                  </button>
-                </div>
-                <div class="subtab-content">
-                  <div
-                    class="point-wrap"
-                    id="buying-point-2-1"
-                    name="buying-point-2"
-                  >
-                    <h4 class="hide">AI 맞춤 세탁 (워시타워, 세탁기)</h4>
-                    <div class="content">
-                      <h5>AI 맞춤 세탁 (워시타워, 세탁기)</h5>
-                      <p>
-                        약 3초만에 빠르게 알려주는 예상 시간 안내, 세탁물의 무게와 오염도에 맞춰 알맞은 양으로 자동 투입되는 세제, 의류에 맞춘 최적의 모션과 세탁 패턴으로 섬세한 세탁까지 세탁부터 탈수에 이르는 모든 과정을 AI로 간편하게 경험해보세요.
-                      </p>
-                      <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
-                        <a
-                          class="btn-product"
-                          href="https://www.lge.co.kr/category/washing-machines?filterProduct=AT0000000116:KY0000000882:03,AT0000000116:KY0000001051:03,AT0000000116:KY0000000583:03,AT0000000116:KY0000000906:03"
-                          target="_blank"
-                          >세탁기 제품 보러 가기</a
-                        >
-                        <a
-                          class="btn-product"
-                          href="https://www.lge.co.kr/category/wash-tower?filterProduct=AT0000000095:KY0000001053:01,AT0000000095:KY0000000583:01"
-                          target="_blank"
-                          >워시타워 제품 보러 가기</a
-                        >
-                      </div>
-                      <div class="img">
-                        <button class="btn-pause">일시멈춤</button>
-                        <video
-                          autoplay
-                          playsinline
-                          loop
-                          muted
-                          src="/kr/story/buying-guide/2025/video/washing-machine/vid_P07_001_25.mp4"
-                        ></video>
-                      </div>
-                      <p class="des">
-                        * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                      </p>
-                      <button class="btn-collapse-toggle">
-                        <span>* AI 타임 센싱 / AI 맞춤 세탁, AI 맞춤 탈수</span>
-                      </button>
-                      <div class="collapse-content">
-                        <p>
-                          <b>[AI 타임 센싱]</b><br />
-                            * AI 타임 센싱 3초 : 문을 닫은 후 전원 버튼을 누르고 웰컴 메시지가 나타난 이후 측정된 시간입니다. <br />
-                            * 세탁기의 경우 마른 세탁물 기준 세탁물이 가득 찬 경우 최대 약 15초까지 소요될 수 있습니다. <br />
-                            * 세탁물의 종류나 사용 환경에 따라 센싱 시간은 달라질 수 있습니다.  
-                        </p>
-                        <p>
-                          <b>[AI 맞춤 세탁, AI 맞춤 탈수]</b><br />
-                            * AI세탁 코스는 딥러닝 AI 기술을 이용해 의류의 재질을 인식한 후 6모션 중 최적의 모션으로 세탁하며, 빅데이터 기반 환경에 맞춰 큰 진동을 미리 예측해 안정적으로 탈수합니다. 최대 용량 6kg 이하에서 동작하며, 실사용 환경 및 세탁물 종류에 따라 다를 수 있습니다.
-                        </p>
-                        <button class="btn-collapse-close">접기</button>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="point-wrap"
-                    id="buying-point-2-2"
-                    name="buying-point-2"
-                    style="display: none"
-                  >
-                    <h4 class="hide">AI 맞춤 건조 (워시타워, 건조기)</h4>
-                    <div class="content">
-                      <h5>AI 맞춤 건조 (워시타워, 건조기)</h5>
-                      <p>
-                        세탁물을 투입하면 3초만에 코스 예상 종료시간을 안내하고 의류의 재질, 그리고 내부 습도의 변화를 감지해 내 옷에 맞춰 섬세하게 건조합니다. 건조의 모든 과정을 AI로 더욱 똑똑하게 경험해보세요.
-                      </p>
-                      <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
-                        <a
-                          class="btn-product"
-                          href="https://www.lge.co.kr/category/wash-tower?filterProduct=AT0000000095:KY0000001053:01,AT0000000095:KY0000000583:01"
-                          target="_blank"
-                          >워시타워 제품 보러 가기</a
-                        >
-                        >
-                      </div>
-                      <div class="img">
-                        <button class="btn-pause">일시멈춤</button>
-                        <video
-                          autoplay
-                          playsinline
-                          loop
-                          muted
-                          src="/kr/story/buying-guide/2025/video/washing-machine/vid_P07_001_28.mp4">
-                        </video>
-                      </div>
-                      <p class="des">
-                        * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                      </p>
-                      <button class="btn-collapse-toggle">
-                        <span>* AI 타임 센싱 / AI 시간 안내 / AI 건조</span>
-                      </button>
-                      <div class="collapse-content">
-                        <p>
-                          <b>[전력 효율]</b><br />
-                          * AI 타임 센싱 3초 : 시작 버튼을 누른 후 부터 측정된 시간입니다.<br />
-                          * 마른 세탁물 기준 5kg 이하에서 약 3초 소요되며, 세탁물이 가득 찬 경우 최대 1분까지 소요될 수 있습니다.<br />
-                          * 세탁물의 종류나 사용환경에 따라 센싱 시간은 달라질 수 있습니다.
-                        </p>
-                        <p>
-                          <b>[AI 시간 안내]</b><br />
-                        </p>
-                        <p>
-                          <b>[AI 건조]</b><br />
-                          * AI 건조 코스는 1kg 이상 ~ 5kg 이하에서 동작하며, 실사용 환경 및 세탁물 종류에 따라 다를 수 있습니다.<br />
-                          * AI 건조는 딥러닝 AI 기술을 이용해 의류의 재질을 감지하여 최적의 온도와 시간으로 건조합니다.<br />
-                          * 초기 표시된 시간과 실제 동작 시간은 다를 수 있습니다.
-                        </p>
-                        <button class="btn-collapse-close">접기</button>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="point-wrap"
-                    id="buying-point-2-3"
-                    name="buying-point-2"
-                    style="display: none"
-                  >
-                    <h4 class="hide">AI DD X6모션 (세탁기, 워시타워, 워시콤보)</h4>
-                    <div class="content">
-                      <h5>AI DD X6모션 (세탁기, 워시타워, 워시콤보)</h5>
-                      <p>
-                        AI DD 기술이 세탁물의 무게와 재질, 오염도를 스스로 감지하여 옷감에 꼭 맞는 세탁/건조 모션을 선택합니다. 6가지의 섬세한 모션으로 세탁양과 시간을 자동 조절해 옷감 손상은 줄이고 세탁/건조 효율은 높입니다.
-                      </p>
-                      <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
-                        <a
-                          class="btn-product"
-                          href="https://www.lge.co.kr/category/washing-machines?filterProduct=AT0000000116:KY0000000882:03,AT0000000116:KY0000001051:03,AT0000000116:KY0000000583:03,AT0000000116:KY0000000906:03"
-                          target="_blank"
-                          >세탁기 제품 보러 가기</a
-                        >
-                        <a
-                          class="btn-product"
-                          href="https://www.lge.co.kr/category/wash-tower?filterProduct=AT0000000095:KY0000001053:01,AT0000000095:KY0000000583:01"
-                          target="_blank"
-                          >워시타워 제품 보러 가기</a
-                        >
-                      </div>
-                      <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
-                        <a
-                          class="btn-product"
-                          href="https://www.lge.co.kr/category/wash-combo?filterProduct=AT0000000116:KY0000001051:03,AT0000000116:KY0000000583:03"
-                          target="_blank"
-                          >워시콤보 제품 보러 가기</a
-                        >
-                      </div>
-                      <div class="img">
-                        <button class="btn-pause">일시멈춤</button>
-                        <video
-                          autoplay
-                          playsinline
-                          loop
-                          muted
-                          src="/kr/story/buying-guide/2025/video/washing-machine/vid_P07_001_30.mp4"
-                        ></video>
-                      </div>
-                      <p class="des">
-                        * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                      </p>
-                      <button class="btn-collapse-toggle">
-                        <span>* AI 세탁 / AI 건조</span>
-                      </button>
-                      <div class="collapse-content">
-                        <p>
-                          <b>[AI 세탁]</b><br />
-                            * AI 세탁코스는 최대용량 6kg 이하에서 동작하며, 실사용 환경 및 세탁물 종류에 따라 다를 수 있습니다. <br />
-                            * AI 세탁은 딥러닝 AI 기술을 이용해 의류의 재질을 감지한 후 6모션 중 최적의 모션으로 세탁하며, 빅데이터 기반 환경에 맞춰 큰 진동을 미리 예측해 안정적으로 탈수합니다.
-                        </p>
-                        <p>
-                          <b>[AI 건조]</b><br />
-                            * AI 건조 코스는 1kg 이상 ~ 5kg 이하에서 동작하며, 실사용 환경 및 세탁물 종류에 따라 다를 수 있습니다. <br />
-                            * AI 건조는 딥러닝 AI 기술을 이용해 의류의 재질을 감지하여 최적의 온도와 시간으로 건조합니다. <br />
-                            * 초기 표시된 시간과 실제 동작 시간은 다를 수 있습니다.
-                        </p>
-                        <button class="btn-collapse-close">접기</button>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="point-wrap"
-                    id="buying-point-2-4"
-                    name="buying-point-2"
-                    style="display: none"
-                  >
-                    <h4 class="hide">트루스팀</h4>
-                    <div class="content">
-                      <h5>트루스팀</h5>
-                      <p>
-                        물을 끓여 만든 스팀과 60℃ 이상의 고온의 물로 유해 세균과 알러겐을 99.99% 살균해 줍니다.
-                      </p>
-                      <div class="img">
-                        <img
-                          src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_45.png"
-                          alt=""
-                        />
-                      </div>
-                      <p class="des">
-                        * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                      </p>
-                      <button class="btn-collapse-toggle">
-                        <span>* 바이러스 제거 / 유해세균 살균 / 알러지 유발물질 제거</span>
-                      </button>
-                      <div class="collapse-content">
-                        <p>
-                          <b>[바이러스 제거]</b><br />
-                            * 시험 기관 : KATRI (한국의류시험연구원) / 시험 일자 : '25년 03월 <br />
-                            * 시험 코스 : 알러지케어 <br />
-                            * 시험 부하 : KS C IEC60456 시험기준 국제 규격 부하 4kg <br />
-                            * 시험 바이러스 : 바이러스 3종 (인플루엔자 A(H1N1), 아데노(HAdV-C5), 코로나(HCoV-229E) <br />
-                            * 시험 조건 : 시험실 온도 21°±2C, 시험실 습도 50±15% R.H. <br />
-                            * 시험 방법 : 바이러스 오염된 면직물 부착하여 알러지케어 코스 동작 후 바이러스 제거 능력 측정 <br />
-                            * 시험 결과 : 바이러스 3종 99.99% 제거 <br />
-                            * HCoV 바이러스는 코로나 바이러스의 일종으로 신종 코로나바이러스 19(COVID-19)에 대한 시험 결과가 아님. <br />
-                            * 시험결과는 사용환경 등에 따라 차이가 있을 수 있습니다.
-                        </p>
-                        <p>
-                          <b>[유해세균 살균]</b><br />
-                            * 시험 기관 : KATRI (한국의류시험연구원) / 시험 일자 : '25년 03월 <br />
-                            * 시험 코스 : 알러지케어 <br />
-                            * 시험 부하 : KS C IEC60456 시험기준 국제 규격 부하 4kg <br />
-                            * 시험 균 : 유해세균 3종 (황색포도상구균, 녹농균, 폐렴간균) <br />
-                            * 시험 조건 : 시험실 온도 21°±2C, 시험실 습도 50±15% R.H. <br />
-                            * 시험 방법 : 유해세균 오염된 면직물 부착하여 알러지케어 코스 동작 후 살균력 측정 <br />
-                            * 시험 결과 : 유해세균 3종 99.99% 살균 <br />
-                            * 시험결과는 사용환경 등에 따라 차이가 있을 수 있습니다.
-                        </p>
-                        <p>
-                          <b>[알러지 유발물질 제거]</b><br />
-                            * 시험 기관 : Environmental Allergens Info and Care Inc.(일본소재) / 시험 일자 : '25년 03월 <br />
-                            * 시험 코스 : 알러지케어 <br />
-                            * 시험 부하 : KS C IEC60456 시험기준 국제 규격 부하 4kg <br />
-                            * 시험 알레르겐 : 집먼지진드기 성충, 고양이 (Fel d 1), 개(Can f 1), 집먼지진드기 (Der f1) <br />
-                            * 시험 방법 : 집먼지 진드기 및 알레르겐이 오염된 면직물 부착하여 알러지케어 코스 동작 후 집먼지 진드기 살충 및 알레르겐 제거율 확인  <br />
-                            * 시험 결과 : 집먼지 진드기 성충 100% 살충, 고양이(Fel d 1), 개(Can f 1), 집먼지진드기(Der f 1) 알레르겐 99.99% 제거  <br />
-                            * 시험결과는 사용환경 등에 따라 차이가 있을 수 있습니다.
-                        </p>
-                        <button class="btn-collapse-close">접기</button>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="point-wrap"
-                    id="buying-point-2-5"
-                    name="buying-point-2"
-                    style="display: none"
-                  >
-                    <h4 class="hide">자동세제함</h4>
-                    <div class="content">
-                      <h5>자동세제함</h5>
-                      <p>
-                        세제와 유연제를 원하는 대로 선택은 물론 세탁물의 무게와 오염도를 감지해 자동으로 적정량을 투입해 줍니다. 세탁 코스에 따라 알맞은 세제를 투입하고 세제 종류에 따라 투입량도 원하는 대로 설정할 수 있습니다.
-                      </p>
-                      <div class="img">
-                        <img
-                          src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_23.gif"
-                          alt="세탁기 세제 투입구의 상세 모습으로, 좌측에는 연보라색 뚜껑에 흰색 글씨로 ‘섬유 유연제’가 표기되어 있고, 우측에는 연한 파란색 뚜껑에 흰색 글씨로 ‘액체 세제’가 적혀 있습니다. 하단 흰색 배경에는 세제 사용 관련 안내 문구가 검은색 글씨로 표시되어 있습니다."
-                        />
-                      </div>
-                      <p class="des">
-                        * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                      </p>
-                      <button class="btn-collapse-toggle">
-                        <span>* 자동세제함</span>
-                      </button>
-                      <div class="collapse-content">
-                        <p>
-                          <b>[자동세제함]</b><br />
-                          * 해당 기능은 자동세제 모델에 한하며, 자동세제 설정 시 세탁량에 알맞게 세제/유연제를 자동으로 투입됩니다.<br />
-                          * AI 세탁 코스 동작 시 세탁물의 오염도에 따라 세제가 추가 투입 될 수 있으며, 세제의 양은 오염도에 따라 달라질 수 있습니다. <br />
-                          * 자동세제 또는 수동세제투입으로 사용 할 수 있어, 필요에 따라 원하는 세제/유연제 투입 가능합니다.<br />
-                          * 자동세제 기준 투입량은 세제/유연제에 표시된 권장량을 참고해 5kg 기준으로 투입량을 설정해 주세요.<br />
-                          * 기본값은 세제 45ml, 유연제 60ml로 설정되어 있습니다.<br />
-                          * 세제함 사용 설정 변경 시 세제통을 꺼내 세척 한 뒤 물을 채워놓고 ‘설정’의 ‘자동세제함 노즐 세척‘ 기능을 사용 후 세제함에 세제/유연제를 넣어주세요.
-                        </p>
-                        <button class="btn-collapse-close">접기</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="point-tip" id="point-tip3">
-                <h5>이런 포인트도 살펴보면 좋아요!</h5>
-                <div class="tip-content">
-                  <div class="content">
-                    <p class="tag">#손빨래세탁 #섬세관리 #스마트세탁</p>
-                    <h6 class="tip-title">
-                      매일 입는 옷부터 소중한 옷까지 더욱 스마트하고 섬세하게 관리
-                    </h6>
-                    <p class="tip-text">
-                      매일 입는 일상복, 운동복부터 관리가 어려운 다양한 소재의 의류를 간편하게 관리해보세요. 세탁부터 건조까지 AI로 맞춤 관리가 가능한 워시타워는 옷의 무게와 오염도를 파악해 알맞은 모션으로 의류 관리를 도와줍니다.
-                    </p>
-                  </div>
-                  <div class="img">
-                    <img
-                      src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_40.jpg"
-                      alt="집에서 문이 열린 LG 건조기 앞에 선 여성이 라벤더색 레깅스를 넣으려 하고 있습니다. 그녀는 검은색 가방을 메고 있으며 미소를 짓고 있습니다."
-                      class="pc-only"
-                    />
-                    <img
-                      src="/kr/story/buying-guide/2025/img/washing-machine/img_M07_001_11.jpg"
-                      alt="집에서 문이 열린 LG 건조기 앞에 선 여성이 라벤더색 레깅스를 넣으려 하고 있습니다. 그녀는 검은색 가방을 메고 있으며 미소를 짓고 있습니다."
-                      class="mobile-only"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div id="buying-point-3" name="buying-point" style="display: none">
               <div class="subtab-wrap">
                 <div class="subtab-btn">
                   <button
@@ -2682,6 +2333,355 @@
                     <img
                       src="/kr/story/buying-guide/2025/img/washing-machine/img_M07_001_10.jpg"
                       alt=""
+                      class="mobile-only"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="buying-point-3" name="buying-point" style="display: none">
+              <div class="subtab-wrap">
+                <div class="subtab-btn">
+                  <!-- <button
+                    class="active"
+                    name="buying-guide-tab"
+                    data-target="#buying-point-2-1"
+                    data-group="buying-point-2"
+                  >
+                    AI 맞춤 세탁
+                  </button>
+                  <button
+                    name="buying-guide-tab"
+                    data-target="#buying-point-2-2"
+                    data-group="buying-point-2"
+                  >
+                    AI 맞춤 건조
+                  </button> -->
+                  <button
+                    class="active"
+                    name="buying-guide-tab"
+                    data-target="#buying-point-2-3"
+                    data-group="buying-point-2"
+                  >
+                    AI DD X 6모션
+                  </button>
+                  <button
+                    name="buying-guide-tab"
+                    data-target="#buying-point-2-4"
+                    data-group="buying-point-2"
+                  >
+                    트루스팀
+                  </button>
+                  <button
+                    name="buying-guide-tab"
+                    data-target="#buying-point-2-5"
+                    data-group="buying-point-2"
+                  >
+                    자동세제함
+                  </button>
+                </div>
+                <div class="subtab-content">
+                  <!-- <div
+                    class="point-wrap"
+                    id="buying-point-2-1"
+                    name="buying-point-2"
+                  >
+                    <h4 class="hide">AI 맞춤 세탁 (워시타워, 세탁기)</h4>
+                    <div class="content">
+                      <h5>AI 맞춤 세탁 (워시타워, 세탁기)</h5>
+                      <p>
+                        약 3초만에 빠르게 알려주는 예상 시간 안내, 세탁물의 무게와 오염도에 맞춰 알맞은 양으로 자동 투입되는 세제, 의류에 맞춘 최적의 모션과 세탁 패턴으로 섬세한 세탁까지 세탁부터 탈수에 이르는 모든 과정을 AI로 간편하게 경험해보세요.
+                      </p>
+                      <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
+                        <a
+                          class="btn-product"
+                          href="https://www.lge.co.kr/category/washing-machines?filterProduct=AT0000000116:KY0000000882:03,AT0000000116:KY0000001051:03,AT0000000116:KY0000000583:03,AT0000000116:KY0000000906:03"
+                          target="_blank"
+                          >세탁기 제품 보러 가기</a
+                        >
+                        <a
+                          class="btn-product"
+                          href="https://www.lge.co.kr/category/wash-tower?filterProduct=AT0000000095:KY0000001053:01,AT0000000095:KY0000000583:01"
+                          target="_blank"
+                          >워시타워 제품 보러 가기</a
+                        >
+                      </div>
+                      <div class="img">
+                        <button class="btn-pause">일시멈춤</button>
+                        <video
+                          autoplay
+                          playsinline
+                          loop
+                          muted
+                          src="/kr/story/buying-guide/2025/video/washing-machine/vid_P07_001_25.mp4"
+                        ></video>
+                      </div>
+                      <p class="des">
+                        * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                      </p>
+                      <button class="btn-collapse-toggle">
+                        <span>* AI 타임 센싱 / AI 맞춤 세탁, AI 맞춤 탈수</span>
+                      </button>
+                      <div class="collapse-content">
+                        <p>
+                          <b>[AI 타임 센싱]</b><br />
+                            * AI 타임 센싱 3초 : 문을 닫은 후 전원 버튼을 누르고 웰컴 메시지가 나타난 이후 측정된 시간입니다. <br />
+                            * 세탁기의 경우 마른 세탁물 기준 세탁물이 가득 찬 경우 최대 약 15초까지 소요될 수 있습니다. <br />
+                            * 세탁물의 종류나 사용 환경에 따라 센싱 시간은 달라질 수 있습니다.  
+                        </p>
+                        <p>
+                          <b>[AI 맞춤 세탁, AI 맞춤 탈수]</b><br />
+                            * AI세탁 코스는 딥러닝 AI 기술을 이용해 의류의 재질을 인식한 후 6모션 중 최적의 모션으로 세탁하며, 빅데이터 기반 환경에 맞춰 큰 진동을 미리 예측해 안정적으로 탈수합니다. 최대 용량 6kg 이하에서 동작하며, 실사용 환경 및 세탁물 종류에 따라 다를 수 있습니다.
+                        </p>
+                        <button class="btn-collapse-close">접기</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="point-wrap"
+                    id="buying-point-2-2"
+                    name="buying-point-2"
+                    style="display: none"
+                  >
+                    <h4 class="hide">AI 맞춤 건조 (워시타워, 건조기)</h4>
+                    <div class="content">
+                      <h5>AI 맞춤 건조 (워시타워, 건조기)</h5>
+                      <p>
+                        세탁물을 투입하면 3초만에 코스 예상 종료시간을 안내하고 의류의 재질, 그리고 내부 습도의 변화를 감지해 내 옷에 맞춰 섬세하게 건조합니다. 건조의 모든 과정을 AI로 더욱 똑똑하게 경험해보세요.
+                      </p>
+                      <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
+                        <a
+                          class="btn-product"
+                          href="https://www.lge.co.kr/category/wash-tower?filterProduct=AT0000000095:KY0000001053:01,AT0000000095:KY0000000583:01"
+                          target="_blank"
+                          >워시타워 제품 보러 가기</a
+                        >
+                        >
+                      </div>
+                      <div class="img">
+                        <button class="btn-pause">일시멈춤</button>
+                        <video
+                          autoplay
+                          playsinline
+                          loop
+                          muted
+                          src="/kr/story/buying-guide/2025/video/washing-machine/vid_P07_001_28.mp4">
+                        </video>
+                      </div>
+                      <p class="des">
+                        * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                      </p>
+                      <button class="btn-collapse-toggle">
+                        <span>* AI 타임 센싱 / AI 시간 안내 / AI 건조</span>
+                      </button>
+                      <div class="collapse-content">
+                        <p>
+                          <b>[전력 효율]</b><br />
+                          * AI 타임 센싱 3초 : 시작 버튼을 누른 후 부터 측정된 시간입니다.<br />
+                          * 마른 세탁물 기준 5kg 이하에서 약 3초 소요되며, 세탁물이 가득 찬 경우 최대 1분까지 소요될 수 있습니다.<br />
+                          * 세탁물의 종류나 사용환경에 따라 센싱 시간은 달라질 수 있습니다.
+                        </p>
+                        <p>
+                          <b>[AI 시간 안내]</b><br />
+                        </p>
+                        <p>
+                          <b>[AI 건조]</b><br />
+                          * AI 건조 코스는 1kg 이상 ~ 5kg 이하에서 동작하며, 실사용 환경 및 세탁물 종류에 따라 다를 수 있습니다.<br />
+                          * AI 건조는 딥러닝 AI 기술을 이용해 의류의 재질을 감지하여 최적의 온도와 시간으로 건조합니다.<br />
+                          * 초기 표시된 시간과 실제 동작 시간은 다를 수 있습니다.
+                        </p>
+                        <button class="btn-collapse-close">접기</button>
+                      </div>
+                    </div>
+                  </div> -->
+                  <div
+                    class="point-wrap"
+                    id="buying-point-2-3"
+                    name="buying-point-2"
+                  >
+                    <h4 class="hide">AI DD X6모션 (세탁기, 워시타워, 워시콤보)</h4>
+                    <div class="content">
+                      <h5>AI DD X6모션 (세탁기, 워시타워, 워시콤보)</h5>
+                      <p>
+                        AI DD 기술이 세탁물의 무게와 재질, 오염도를 스스로 감지하여 옷감에 꼭 맞는 세탁/건조 모션을 선택합니다. 6가지의 섬세한 모션으로 세탁양과 시간을 자동 조절해 옷감 손상은 줄이고 세탁/건조 효율은 높입니다.
+                      </p>
+                      <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
+                        <a
+                          class="btn-product"
+                          href="https://www.lge.co.kr/category/washing-machines?filterProduct=AT0000000116:KY0000000882:03,AT0000000116:KY0000001051:03,AT0000000116:KY0000000583:03,AT0000000116:KY0000000906:03"
+                          target="_blank"
+                          >세탁기 제품 보러 가기</a
+                        >
+                        <a
+                          class="btn-product"
+                          href="https://www.lge.co.kr/category/wash-tower?filterProduct=AT0000000095:KY0000001053:01,AT0000000095:KY0000000583:01"
+                          target="_blank"
+                          >워시타워 제품 보러 가기</a
+                        >
+                      </div>
+                      <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
+                        <a
+                          class="btn-product"
+                          href="https://www.lge.co.kr/category/wash-combo?filterProduct=AT0000000116:KY0000001051:03,AT0000000116:KY0000000583:03"
+                          target="_blank"
+                          >워시콤보 제품 보러 가기</a
+                        >
+                      </div>
+                      <div class="img">
+                        <button class="btn-pause">일시멈춤</button>
+                        <video
+                          autoplay
+                          playsinline
+                          loop
+                          muted
+                          src="/kr/story/buying-guide/2025/video/washing-machine/vid_P07_001_30.mp4"
+                        ></video>
+                      </div>
+                      <p class="des">
+                        * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                      </p>
+                      <button class="btn-collapse-toggle">
+                        <span>* AI 세탁 / AI 건조</span>
+                      </button>
+                      <div class="collapse-content">
+                        <p>
+                          <b>[AI 세탁]</b><br />
+                            * AI 세탁코스는 최대용량 6kg 이하에서 동작하며, 실사용 환경 및 세탁물 종류에 따라 다를 수 있습니다. <br />
+                            * AI 세탁은 딥러닝 AI 기술을 이용해 의류의 재질을 감지한 후 6모션 중 최적의 모션으로 세탁하며, 빅데이터 기반 환경에 맞춰 큰 진동을 미리 예측해 안정적으로 탈수합니다.
+                        </p>
+                        <p>
+                          <b>[AI 건조]</b><br />
+                            * AI 건조 코스는 1kg 이상 ~ 5kg 이하에서 동작하며, 실사용 환경 및 세탁물 종류에 따라 다를 수 있습니다. <br />
+                            * AI 건조는 딥러닝 AI 기술을 이용해 의류의 재질을 감지하여 최적의 온도와 시간으로 건조합니다. <br />
+                            * 초기 표시된 시간과 실제 동작 시간은 다를 수 있습니다.
+                        </p>
+                        <button class="btn-collapse-close">접기</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="point-wrap"
+                    id="buying-point-2-4"
+                    name="buying-point-2"
+                    style="display: none"
+                  >
+                    <h4 class="hide">트루스팀</h4>
+                    <div class="content">
+                      <h5>트루스팀</h5>
+                      <p>
+                        물을 끓여 만든 스팀과 60℃ 이상의 고온의 물로 유해 세균과 알러겐을 99.99% 살균해 줍니다.
+                      </p>
+                      <div class="img">
+                        <img
+                          src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_45.png"
+                          alt=""
+                        />
+                      </div>
+                      <p class="des">
+                        * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                      </p>
+                      <button class="btn-collapse-toggle">
+                        <span>* 바이러스 제거 / 유해세균 살균 / 알러지 유발물질 제거</span>
+                      </button>
+                      <div class="collapse-content">
+                        <p>
+                          <b>[바이러스 제거]</b><br />
+                            * 시험 기관 : KATRI (한국의류시험연구원) / 시험 일자 : '25년 03월 <br />
+                            * 시험 코스 : 알러지케어 <br />
+                            * 시험 부하 : KS C IEC60456 시험기준 국제 규격 부하 4kg <br />
+                            * 시험 바이러스 : 바이러스 3종 (인플루엔자 A(H1N1), 아데노(HAdV-C5), 코로나(HCoV-229E) <br />
+                            * 시험 조건 : 시험실 온도 21°±2C, 시험실 습도 50±15% R.H. <br />
+                            * 시험 방법 : 바이러스 오염된 면직물 부착하여 알러지케어 코스 동작 후 바이러스 제거 능력 측정 <br />
+                            * 시험 결과 : 바이러스 3종 99.99% 제거 <br />
+                            * HCoV 바이러스는 코로나 바이러스의 일종으로 신종 코로나바이러스 19(COVID-19)에 대한 시험 결과가 아님. <br />
+                            * 시험결과는 사용환경 등에 따라 차이가 있을 수 있습니다.
+                        </p>
+                        <p>
+                          <b>[유해세균 살균]</b><br />
+                            * 시험 기관 : KATRI (한국의류시험연구원) / 시험 일자 : '25년 03월 <br />
+                            * 시험 코스 : 알러지케어 <br />
+                            * 시험 부하 : KS C IEC60456 시험기준 국제 규격 부하 4kg <br />
+                            * 시험 균 : 유해세균 3종 (황색포도상구균, 녹농균, 폐렴간균) <br />
+                            * 시험 조건 : 시험실 온도 21°±2C, 시험실 습도 50±15% R.H. <br />
+                            * 시험 방법 : 유해세균 오염된 면직물 부착하여 알러지케어 코스 동작 후 살균력 측정 <br />
+                            * 시험 결과 : 유해세균 3종 99.99% 살균 <br />
+                            * 시험결과는 사용환경 등에 따라 차이가 있을 수 있습니다.
+                        </p>
+                        <p>
+                          <b>[알러지 유발물질 제거]</b><br />
+                            * 시험 기관 : Environmental Allergens Info and Care Inc.(일본소재) / 시험 일자 : '25년 03월 <br />
+                            * 시험 코스 : 알러지케어 <br />
+                            * 시험 부하 : KS C IEC60456 시험기준 국제 규격 부하 4kg <br />
+                            * 시험 알레르겐 : 집먼지진드기 성충, 고양이 (Fel d 1), 개(Can f 1), 집먼지진드기 (Der f1) <br />
+                            * 시험 방법 : 집먼지 진드기 및 알레르겐이 오염된 면직물 부착하여 알러지케어 코스 동작 후 집먼지 진드기 살충 및 알레르겐 제거율 확인  <br />
+                            * 시험 결과 : 집먼지 진드기 성충 100% 살충, 고양이(Fel d 1), 개(Can f 1), 집먼지진드기(Der f 1) 알레르겐 99.99% 제거  <br />
+                            * 시험결과는 사용환경 등에 따라 차이가 있을 수 있습니다.
+                        </p>
+                        <button class="btn-collapse-close">접기</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="point-wrap"
+                    id="buying-point-2-5"
+                    name="buying-point-2"
+                    style="display: none"
+                  >
+                    <h4 class="hide">자동세제함</h4>
+                    <div class="content">
+                      <h5>자동세제함</h5>
+                      <p>
+                        세제와 유연제를 원하는 대로 선택은 물론 세탁물의 무게와 오염도를 감지해 자동으로 적정량을 투입해 줍니다. 세탁 코스에 따라 알맞은 세제를 투입하고 세제 종류에 따라 투입량도 원하는 대로 설정할 수 있습니다.
+                      </p>
+                      <div class="img">
+                        <img
+                          src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_23.gif"
+                          alt="세탁기 세제 투입구의 상세 모습으로, 좌측에는 연보라색 뚜껑에 흰색 글씨로 ‘섬유 유연제’가 표기되어 있고, 우측에는 연한 파란색 뚜껑에 흰색 글씨로 ‘액체 세제’가 적혀 있습니다. 하단 흰색 배경에는 세제 사용 관련 안내 문구가 검은색 글씨로 표시되어 있습니다."
+                        />
+                      </div>
+                      <p class="des">
+                        * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                      </p>
+                      <button class="btn-collapse-toggle">
+                        <span>* 자동세제함</span>
+                      </button>
+                      <div class="collapse-content">
+                        <p>
+                          <b>[자동세제함]</b><br />
+                          * 해당 기능은 자동세제 모델에 한하며, 자동세제 설정 시 세탁량에 알맞게 세제/유연제를 자동으로 투입됩니다.<br />
+                          * AI 세탁 코스 동작 시 세탁물의 오염도에 따라 세제가 추가 투입 될 수 있으며, 세제의 양은 오염도에 따라 달라질 수 있습니다. <br />
+                          * 자동세제 또는 수동세제투입으로 사용 할 수 있어, 필요에 따라 원하는 세제/유연제 투입 가능합니다.<br />
+                          * 자동세제 기준 투입량은 세제/유연제에 표시된 권장량을 참고해 5kg 기준으로 투입량을 설정해 주세요.<br />
+                          * 기본값은 세제 45ml, 유연제 60ml로 설정되어 있습니다.<br />
+                          * 세제함 사용 설정 변경 시 세제통을 꺼내 세척 한 뒤 물을 채워놓고 ‘설정’의 ‘자동세제함 노즐 세척‘ 기능을 사용 후 세제함에 세제/유연제를 넣어주세요.
+                        </p>
+                        <button class="btn-collapse-close">접기</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="point-tip" id="point-tip3">
+                <h5>이런 포인트도 살펴보면 좋아요!</h5>
+                <div class="tip-content">
+                  <div class="content">
+                    <p class="tag">#손빨래세탁 #섬세관리 #스마트세탁</p>
+                    <h6 class="tip-title">
+                      매일 입는 옷부터 소중한 옷까지 더욱 스마트하고 섬세하게 관리
+                    </h6>
+                    <p class="tip-text">
+                      매일 입는 일상복, 운동복부터 관리가 어려운 다양한 소재의 의류를 간편하게 관리해보세요. 세탁부터 건조까지 AI로 맞춤 관리가 가능한 워시타워는 옷의 무게와 오염도를 파악해 알맞은 모션으로 의류 관리를 도와줍니다.
+                    </p>
+                  </div>
+                  <div class="img">
+                    <img
+                      src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_40.jpg"
+                      alt="집에서 문이 열린 LG 건조기 앞에 선 여성이 라벤더색 레깅스를 넣으려 하고 있습니다. 그녀는 검은색 가방을 메고 있으며 미소를 짓고 있습니다."
+                      class="pc-only"
+                    />
+                    <img
+                      src="/kr/story/buying-guide/2025/img/washing-machine/img_M07_001_11.jpg"
+                      alt="집에서 문이 열린 LG 건조기 앞에 선 여성이 라벤더색 레깅스를 넣으려 하고 있습니다. 그녀는 검은색 가방을 메고 있으며 미소를 짓고 있습니다."
                       class="mobile-only"
                     />
                   </div>

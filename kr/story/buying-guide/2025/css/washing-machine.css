@@ -32,6 +32,9 @@
   line-height: 140%;
   letter-spacing: -1%;
 }
+.buying-guide #buying-point .tab-wrap button {
+  width: 200px;
+}
 @media only screen and (max-width: 1023px) {
   .buying-guide .procuct-summary .procuct-spec-wrap td {
     flex-direction: column;
