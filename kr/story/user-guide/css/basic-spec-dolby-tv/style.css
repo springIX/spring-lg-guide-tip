@@ -1,3 +1,83 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Pretendard";
+  font-display: swap;
+  src: url(../fonts/Pretendard-Light.eot);
+  src:
+    local("☺"),
+    url(../fonts/Pretendard-Light.eot#iefix) format("embedded-opentype"),
+    url(../fonts/Pretendard-Light.woff2) format("woff2"),
+    url(../fonts/Pretendard-Light.woff) format("woff"),
+    url(../fonts/Pretendard-Light.otf) format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard";
+  font-display: swap;
+  src: url(../fonts/Pretendard-Regular.eot);
+  src:
+    local("☺"),
+    url(../fonts/Pretendard-Regular.eot#iefix) format("embedded-opentype"),
+    url(../fonts/Pretendard-Regular.woff2) format("woff2"),
+    url(../fonts/Pretendard-Regular.woff) format("woff"),
+    url(../fonts/Pretendard-Regular.otf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard";
+  font-display: swap;
+  src: url(../fonts/Pretendard-Medium.eot);
+  src:
+    local("☺"),
+    url(../fonts/Pretendard-Medium.eot#iefix) format("embedded-opentype"),
+    url(../fonts/Pretendard-Medium.woff2) format("woff2"),
+    url(../fonts/Pretendard-Medium.woff) format("woff"),
+    url(../fonts/Pretendard-Medium.otf) format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard";
+  font-display: swap;
+  src: url(../fonts/Pretendard-SemiBold.eot);
+  src:
+    local("☺"),
+    url(../fonts/Pretendard-SemiBold.eot#iefix) format("embedded-opentype"),
+    url(../fonts/Pretendard-SemiBold.woff2) format("woff2"),
+    url(../fonts/Pretendard-SemiBold.woff) format("woff"),
+    url(../fonts/Pretendard-SemiBold.otf) format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard";
+  font-display: swap;
+  src: url(../fonts/Pretendard-Bold.eot);
+  src:
+    local("☺"),
+    url(../fonts/Pretendard-Bold.eot#iefix) format("embedded-opentype"),
+    url(../fonts/Pretendard-Bold.woff2) format("woff2"),
+    url(../fonts/Pretendard-Bold.woff) format("woff"),
+    url(../fonts/Pretendard-Bold.otf) format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard";
+  font-display: swap;
+  src: url(../fonts/Pretendard-ExtraBold.eot);
+  src:
+    local("☺"),
+    url(../fonts/Pretendard-ExtraBold.eot#iefix) format("embedded-opentype"),
+    url(../fonts/Pretendard-ExtraBold.woff2) format("woff2"),
+    url(../fonts/Pretendard-ExtraBold.woff) format("woff"),
+    url(../fonts/Pretendard-ExtraBold.otf) format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
 /* CSS Reset */
 #gjw001 * {
   margin: 0;
@@ -82,7 +162,7 @@
   font-size: 14px;
   color: #646669;
   line-height: 144%;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.002em;
   margin-top: 15px;
 }
 
@@ -143,11 +223,12 @@
 }
 
 #gjw001 .sec-desc {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 500;
   margin-bottom: 60px;
   color: #191c1f;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.005em;
+  line-height: 1.4;
 }
 
 /* 메인 헤더 */
@@ -164,12 +245,12 @@
 }
 
 #gjw001 .hero-desc {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 600;
   margin-bottom: 80px;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.005em;
   color: #191c1f;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 #gjw001 .hero-img-wrap {
@@ -189,7 +270,7 @@
 #gjw001 p.notice-text.hero-notice {
   font-size: 14px;
   line-height: 144%;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.002em;
   color: #646669;
 }
 
@@ -211,12 +292,12 @@
   font-weight: 700;
   margin-bottom: 28px;
   text-align: center;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.002em;
   line-height: 1.4;
 }
 
 #gjw001 .check-list {
-  max-width: 972px;
+  max-width: 1124px;
   justify-self: center;
   display: flex;
   flex-direction: column;
@@ -246,21 +327,25 @@
 }
 
 #gjw001 .check-list .tit {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   margin-bottom: 8px;
   display: flex;
   align-items: center;
-  letter-spacing: -0.02em;
+  line-height: 1.4;
+  letter-spacing: -0.005em;
 }
 
 #gjw001 .check-list .txt {
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.4;
   color: #333;
   display: block;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.005em;
   padding-bottom: 20px;
   border-bottom: 1px solid #dddddd;
+  padding-left: 33px;
 }
 
 #gjw001 .check-list li:last-child .txt {
@@ -275,23 +360,24 @@
 #gjw001 .tip-badge {
   color: #ea1917;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 10px;
   display: block;
 }
 
 #gjw001 .tip-title {
-  font-size: 28px;
+  font-size: 40px;
   font-weight: 700;
   margin-bottom: 16px;
   color: #191c1f;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.002em;
 }
 
 #gjw001 .tip-desc {
-  font-size: 14px;
+  font-size: 24px;
   font-weight: 500;
-  letter-spacing: -0.02em;
+  line-height: 1.4;
+  letter-spacing: -0.005em;
   color: #191c1f;
 }
 
@@ -308,7 +394,7 @@
   margin-bottom: 7.43px;
   line-height: 1.5;
   color: #191c1f;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.002em;
 }
 
 #gjw001 .tip-box-title .light-text {
@@ -317,22 +403,23 @@
 }
 
 #gjw001 .tip-list {
-  max-width: 521px;
+  max-width: 838px;
   margin: 0 auto;
 }
 
 #gjw001 .tip-list li {
-  font-size: 14px;
+  font-size: 22px;
   display: flex;
   justify-content: flex-start;
   text-align: left;
-  line-height: 1.6;
-  letter-spacing: -0.02em;
+  line-height: 1.4;
+  letter-spacing: -0.005em;
 }
 
 #gjw001 .tip-list li strong {
   font-weight: 700;
   white-space: nowrap;
+  margin-right: 5px;
 }
 
 /* 가이드 박스 (Section 04) */
@@ -425,8 +512,7 @@
   background-color: #333;
 }
 
-#gjw001 .container.pdtb120 {
-  padding-top: 120px;
+#gjw001 .container.pdb120 {
   padding-bottom: 120px;
 }
 
@@ -454,7 +540,8 @@
     padding-top: 0;
   }
 
-  #gjw001 .mo-br {
+  #gjw001 .mo-br,
+  #gjw001 .hero-title .mo-br {
     display: block;
   }
 
@@ -503,7 +590,7 @@
   #gjw001 .sec-title {
     font-size: 28px;
     line-height: 1.5;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.002em;
   }
 
   #gjw001 .sec-desc {
@@ -661,8 +748,8 @@
     margin-top: 6px;
   }
 
-  #gjw001 .container.pdtb120 {
-    padding-top: 60px;
+  #gjw001 .container.pdb120 {
+  
     padding-bottom: 70px;
   }
   #gjw001 .rounded-img {
