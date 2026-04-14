@@ -98,7 +98,11 @@
 #gjw001 ol {
   list-style: none;
 }
-
+#gjw001 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
 #gjw001 a {
   text-decoration: none;
   color: inherit;
@@ -146,8 +150,8 @@
   margin-top: 80px;
 }
 
-#gjw001 .mt-108 {
-  margin-top: 108px;
+#gjw001 .mt-140 {
+  margin-top: 140px;
 }
 
 #gjw001 .mt-140 {
@@ -162,7 +166,7 @@
   font-size: 14px;
   color: #646669;
   line-height: 144%;
-  letter-spacing: -0.002em;
+  letter-spacing: -0.005em;
   margin-top: 15px;
 }
 
@@ -199,7 +203,7 @@
 
 #gjw001 .sec-num {
   display: inline-block;
-  width: 55px;
+
   height: 33px;
   line-height: 1.5;
   padding-top: 5px;
@@ -211,6 +215,8 @@
   font-weight: bold;
   font-size: 16px;
   margin-bottom: 15px;
+  padding-left: 18px;
+  padding-right: 18px;
 }
 
 /* 섹션 타이틀 */
@@ -233,7 +239,7 @@
 
 /* 메인 헤더 */
 #gjw001 .hero-section {
-  padding-top: 60px;
+  padding-top: 66px;
 }
 
 #gjw001 .hero-title {
@@ -261,24 +267,67 @@
 
 #gjw001 .hero-notice {
   text-align: left;
-  padding: 0 40px;
   max-width: 1920px;
   margin: 0 auto;
-  margin-top: 12px;
+  margin-top: 16px;
 }
 
 #gjw001 p.notice-text.hero-notice {
   font-size: 14px;
   line-height: 144%;
-  letter-spacing: -0.002em;
+  letter-spacing: -0.005em;
   color: #646669;
+  max-width: 1380px;
+}
+
+/* 3줄 요약 섹션 */
+#gjw001 .summary-title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.68;
+  margin-bottom: 24px;
+}
+
+#gjw001 .summary-box {
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  padding: 48px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#gjw001 .summary-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 9px;
+}
+
+#gjw001 .summary-list li {
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: -0.005em;
+  position: relative;
+  padding-left: 14px;
+  text-align: left;
+}
+
+#gjw001 .summary-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 12px;
+  width: 4px;
+  height: 4px;
+  background-color: #000;
+  border-radius: 50%;
 }
 
 /* 회색 박스 (Check Point) */
 #gjw001 .gray-box {
   background-color: #f6f6f6;
   border-radius: 20px;
-  padding: 48px 80px 80px;
+  padding: 60px 128px 48px 128px;
   margin-top: 20px;
   text-align: left;
 }
@@ -292,12 +341,13 @@
   font-weight: 700;
   margin-bottom: 28px;
   text-align: center;
-  letter-spacing: -0.002em;
+  letter-spacing: -0.005em;
   line-height: 1.4;
 }
 
 #gjw001 .check-list {
   max-width: 1124px;
+  width: 100%;
   justify-self: center;
   display: flex;
   flex-direction: column;
@@ -335,10 +385,12 @@
   line-height: 1.4;
   letter-spacing: -0.005em;
 }
-
+#gjw001 .g-box2 .check-list .tit {
+  margin-bottom: 4px;
+}
 #gjw001 .check-list .txt {
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.4;
   color: #333;
   display: block;
@@ -354,7 +406,7 @@
 
 /* Tip 박스 */
 #gjw001 .tip-section {
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 #gjw001 .tip-badge {
@@ -370,7 +422,7 @@
   font-weight: 700;
   margin-bottom: 16px;
   color: #191c1f;
-  letter-spacing: -0.002em;
+  letter-spacing: -0.005em;
 }
 
 #gjw001 .tip-desc {
@@ -385,7 +437,7 @@
   background-color: #f6f6f6;
   border-radius: 20px;
   padding: 40px;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 #gjw001 .tip-box-title {
@@ -394,7 +446,7 @@
   margin-bottom: 7.43px;
   line-height: 1.5;
   color: #191c1f;
-  letter-spacing: -0.002em;
+  letter-spacing: -0.005em;
 }
 
 #gjw001 .tip-box-title .light-text {
@@ -448,15 +500,17 @@
 }
 
 #gjw001 .guide-item p.desc {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   margin-bottom: 20px;
+  letter-spacing: -0.005em;
+  line-height: 1.4;
 }
 
 #gjw001 .guide-item ul li {
   font-size: 16px;
   line-height: 1.6;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.005em;
   display: flex;
   align-items: flex-start;
 }
@@ -483,11 +537,12 @@
   align-items: center;
   max-width: 1380px;
   text-align: left;
+  aspect-ratio: 1380/360;
 }
 
 #gjw001 .bottom-banner h2 {
   font-size: 24px;
-  font-weight: 800;
+  font-weight: 700;
   margin-bottom: 20px;
 }
 
@@ -534,14 +589,18 @@
   display: none;
 }
 
+#gjw001 .mo-530-br {
+  display: none;
+}
+
 /* 반응형 모바일 (767px 이하) */
 @media screen and (max-width: 767px) {
   #gjw001 {
     padding-top: 0;
   }
 
-  #gjw001 .mo-br,
-  #gjw001 .hero-title .mo-br {
+  #gjw001 .mo-br2,
+  #gjw001 .hero-title .mo-br2 {
     display: block;
   }
 
@@ -561,49 +620,87 @@
     padding: 0 20px;
   }
 
+  #gjw001 .summary-title {
+    font-size: 24px;
+    line-height: 1.6;
+    margin-bottom: 32px;
+  }
+
+  #gjw001 .summary-box {
+    padding: 24px 20px;
+    border-radius: 7.6px;
+  }
+
+  #gjw001 .summary-list li {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: -0.005em;
+  }
+
+  #gjw001 .summary-list li::before {
+    top: 9px;
+  }
+
   #gjw001 .hero-title {
     font-size: 32px;
-    line-height: 135%;
+    line-height: 1.4;
     margin-bottom: 12px;
   }
 
   #gjw001 .badge-guide {
     width: 100px;
-    height: 34px;
+    height: 32px;
     font-size: 14px;
     line-height: 168%;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
+
+    padding: 0;
+    padding-top: 2px;
+    place-content: center;
   }
 
   #gjw001 .hero-desc {
     font-size: 16px;
-    margin-bottom: 56px;
+    margin-bottom: 48px;
+    line-height: 1.6;
   }
 
   #gjw001 .sec-num {
-    width: 52px;
-    height: 32px;
+    width: auto;
+    padding-left: 18px;
+    padding-right: 18px;
+    height: 30px;
     font-size: 14px;
     margin-bottom: 8px;
+    padding-top: 2px;
+    padding-bottom: 0;
+    align-content: center;
+    letter-spacing: -0.005em;
   }
 
   #gjw001 .sec-title {
     font-size: 28px;
-    line-height: 1.5;
-    letter-spacing: -0.002em;
+    line-height: 1.4;
+    letter-spacing: -0.005em;
+    margin-bottom: 8px;
   }
 
   #gjw001 .sec-desc {
-    font-size: 14px;
-    line-height: 145%;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: -0.005em;
     margin-bottom: 32px;
   }
 
   #gjw001 .gray-box {
-    padding: 32px 25px;
+    padding: 20px 25px;
     margin-top: 12px;
   }
-
+  #gjw001 .g-box2 {
+    margin-top: 32px;
+    padding-top: 28px;
+  }
   #gjw001 .box-title {
     font-size: 20px;
     margin-bottom: 16px;
@@ -614,11 +711,18 @@
   }
 
   #gjw001 .check-list div {
-    padding: 12px 0 12px 10px;
+    padding: 10px 0 16px 10px;
   }
-
+  #gjw001 .g-box2 .check-list div {
+    padding-top: 14px;
+    padding-bottom: 12px;
+  }
+  #gjw001 .g-box2 .check-list li:last-child div {
+    padding-bottom: 0;
+  }
   #gjw001 .check-list .tit {
     font-size: 16px;
+    line-height: 1.44;
   }
 
   #gjw001 .check-list .num {
@@ -630,32 +734,48 @@
 
   #gjw001 .check-list .txt {
     font-size: 14px;
-    padding-bottom: 12px;
-    min-width: 299px;
+    padding-bottom: 14px;
+    padding-left: 29px;
+    line-height: 1.6;
   }
-
+  #gjw001 .g-box2 .check-list .txt {
+    padding-bottom: 16px;
+  }
   #gjw001 .tip-badge {
     font-size: 14px;
     margin-bottom: 8px;
+    line-height: 1.6;
   }
 
   #gjw001 .tip-title {
     font-size: 24px;
-    line-height: 145%;
+    line-height: 1.4;
+    margin-bottom: 8px;
+  }
+
+  #gjw001 .tip-desc {
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: -0.005em;
   }
 
   #gjw001 .tip-box {
-    padding: 32px 49px;
+    padding: 32px 46px;
+    margin-top: 32px;
   }
 
   #gjw001 .tip-box-title {
     font-size: 24px;
     line-height: 1.4;
-    margin-bottom: 19px;
+    margin-bottom: 16px;
   }
 
   #gjw001 .tip-list li {
     display: block;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: -0.005em;
+    font-weight: 400;
   }
 
   #gjw001 .guide-grid {
@@ -666,21 +786,28 @@
   #gjw001 .bottom-banner {
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    text-align: left;
-    padding: 32px 34px 21px 24px;
+    align-items: center;
+    text-align: center;
+    padding: 28px 30px 22px 28px;
     background-image: url("../../images/basic-spec-dolby-tv/mo/img5.jpg");
     background-position: right;
+    aspect-ratio: 1 / 1;
   }
 
   #gjw001 .bottom-banner h2 {
-    font-size: 16px;
+    font-size: 22px;
     margin-bottom: 15px;
+    line-height: 1.4;
+    letter-spacing: -0.005em;
   }
 
   #gjw001 .bottom-banner .banner-txt {
     margin-bottom: 0px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
   }
 
   #gjw001 .btn-wrap {
@@ -711,12 +838,17 @@
   }
 
   #gjw001 p.notice-text.hero-notice {
-    font-size: 12px;
-    line-height: 1.5;
+    font-size: 11px;
+    line-height: 1.6;
+    letter-spacing: -0.005em;
+    margin-left: 20px;
+    margin-bottom: 4px;
   }
 
   #gjw001 ul.notice-text {
     margin-top: 12px;
+    line-height: 1.6;
+    gap: 0;
   }
 
   #gjw001 .notice-text {
@@ -730,18 +862,22 @@
   #gjw001 .guide-item {
     padding: 32px 20px;
   }
-
+  #gjw001 .guide-item h4 {
+    margin-bottom: 16px;
+    font-size: 18px;
+    line-height: 1.4;
+  }
   #gjw001 .guide-item p.desc {
     margin-bottom: 16px;
-    line-height: 1.5;
+    line-height: 1.6;
+    letter-spacing: -0.005em;
+    font-size: 16px;
   }
 
   #gjw001 .guide-item ul li {
     font-size: 14px;
-  }
-
-  #gjw001 .guide-item ul li:not(:last-child) {
-    margin-bottom: 4px;
+    letter-spacing: -0.005em;
+    line-height: 1.6;
   }
 
   #gjw001 .guide-item ul li img.chk {
@@ -749,11 +885,26 @@
   }
 
   #gjw001 .container.pdb120 {
-  
     padding-bottom: 70px;
   }
   #gjw001 .rounded-img {
     border-radius: 20px;
+  }
+}
+
+/* 530px 이하 */
+@media screen and (max-width: 530px) {
+  #gjw001 .mo-530-br {
+    display: block;
+  }
+
+  #gjw001 p.notice-text.hero-notice {
+    padding-left: 8px;
+    text-indent: -8px;
+  }
+  #gjw001 .mo-br,
+  #gjw001 .hero-title .mo-br {
+    display: block;
   }
 }
 
