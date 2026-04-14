@@ -91,6 +91,12 @@
   margin-top: 20px;
 }
 
+.gjw001 ul.notice-text li {
+  padding-left: 1em;
+  text-indent: -0.6em;
+  word-break: break-all; /* 긴 영문 단어가 있을 경우 줄바꿈이 되도록 추가 */
+}
+
 .gjw001 ul.notice-text li.mt-12 {
   margin-top: 12px;
 }
