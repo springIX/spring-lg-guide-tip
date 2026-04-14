@@ -375,7 +375,7 @@
 /* 하단 배너 */
 .gjw001 .bottom-banner {
   background-color: #f4f4f4;
-  background-image: url("./img/pc/img5.png");
+  background-image: url("../../images/basic-spec-dolby-tv/pc/img5.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -573,7 +573,7 @@
     align-items: flex-start;
     text-align: left;
     padding: 32px 34px 21px 24px;
-    background-image: url("./img/mo/img5.png");
+    background-image: url("../../images/basic-spec-dolby-tv/mo/img5.jpg");
     background-position: right;
   }
 
