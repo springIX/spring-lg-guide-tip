@@ -1,12 +1,12 @@
 /* CSS Reset */
-.gjw001 * {
+#gjw001 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   word-break: keep-all;
 }
 
-.gjw001 {
+#gjw001 {
   font-family: "Pretendard", sans-serif;
   color: #191c1f;
   line-height: 1.6;
@@ -14,17 +14,17 @@
   padding-top: 60px;
 }
 
-.gjw001 ul,
-.gjw001 ol {
+#gjw001 ul,
+#gjw001 ol {
   list-style: none;
 }
 
-.gjw001 a {
+#gjw001 a {
   text-decoration: none;
   color: inherit;
 }
 
-.gjw001 img {
+#gjw001 img {
   max-width: 100%;
   height: auto;
   display: block;
@@ -33,52 +33,52 @@
   margin: 0 auto;
   border-radius: 40px;
 }
-.gjw001 .blind {
+#gjw001 .blind {
   position: absolute;
   width: 1px;
   height: 1px;
 }
 
 /* 공통 스타일 */
-.gjw001 .container {
+#gjw001 .container {
   max-width: 1380px;
   margin: 0 auto;
   padding: 0;
 }
 
-.gjw001 .text-center {
+#gjw001 .text-center {
   text-align: center;
 }
 
-.gjw001 .mt-20 {
+#gjw001 .mt-20 {
   margin-top: 20px;
 }
 
-.gjw001 .mt-40 {
+#gjw001 .mt-40 {
   margin-top: 40px;
 }
 
-.gjw001 .mt-60 {
+#gjw001 .mt-60 {
   margin-top: 60px;
 }
 
-.gjw001 .mt-80 {
+#gjw001 .mt-80 {
   margin-top: 80px;
 }
 
-.gjw001 .mt-108 {
+#gjw001 .mt-108 {
   margin-top: 108px;
 }
 
-.gjw001 .mt-140 {
+#gjw001 .mt-140 {
   margin-top: 140px;
 }
 
-.gjw001 .point-color {
+#gjw001 .point-color {
   color: #ea1917;
 }
 
-.gjw001 .notice-text {
+#gjw001 .notice-text {
   font-size: 14px;
   color: #646669;
   line-height: 144%;
@@ -86,23 +86,23 @@
   margin-top: 15px;
 }
 
-.gjw001 ul.notice-text {
+#gjw001 ul.notice-text {
   text-align: left;
   margin-top: 20px;
 }
 
-.gjw001 ul.notice-text li {
+#gjw001 ul.notice-text li {
   padding-left: 1em;
   text-indent: -0.6em;
   word-break: break-all; /* 긴 영문 단어가 있을 경우 줄바꿈이 되도록 추가 */
 }
 
-.gjw001 ul.notice-text li.mt-12 {
+#gjw001 ul.notice-text li.mt-12 {
   margin-top: 12px;
 }
 
 /* 뱃지 & 넘버링 */
-.gjw001 .badge-guide {
+#gjw001 .badge-guide {
   display: inline-block;
   border: 1px solid #ea1917;
   color: #ea1917;
@@ -117,7 +117,7 @@
   margin-bottom: 16px;
 }
 
-.gjw001 .sec-num {
+#gjw001 .sec-num {
   display: inline-block;
   width: 55px;
   height: 33px;
@@ -134,7 +134,7 @@
 }
 
 /* 섹션 타이틀 */
-.gjw001 .sec-title {
+#gjw001 .sec-title {
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -142,7 +142,7 @@
   color: #191c1f;
 }
 
-.gjw001 .sec-desc {
+#gjw001 .sec-desc {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 60px;
@@ -151,11 +151,11 @@
 }
 
 /* 메인 헤더 */
-.gjw001 .hero-section {
+#gjw001 .hero-section {
   padding-top: 60px;
 }
 
-.gjw001 .hero-title {
+#gjw001 .hero-title {
   font-size: 48px;
   font-weight: 700;
   line-height: 1.4;
@@ -163,7 +163,7 @@
   margin-bottom: 28px;
 }
 
-.gjw001 .hero-desc {
+#gjw001 .hero-desc {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 80px;
@@ -172,13 +172,13 @@
   line-height: 1.5;
 }
 
-.gjw001 .hero-img-wrap {
+#gjw001 .hero-img-wrap {
   width: 100%;
   max-width: 2560px;
   margin: 0 auto;
 }
 
-.gjw001 .hero-notice {
+#gjw001 .hero-notice {
   text-align: left;
   padding: 0 40px;
   max-width: 1920px;
@@ -186,7 +186,7 @@
   margin-top: 12px;
 }
 
-.gjw001 p.notice-text.hero-notice {
+#gjw001 p.notice-text.hero-notice {
   font-size: 14px;
   line-height: 144%;
   letter-spacing: -0.02em;
@@ -194,7 +194,7 @@
 }
 
 /* 회색 박스 (Check Point) */
-.gjw001 .gray-box {
+#gjw001 .gray-box {
   background-color: #f6f6f6;
   border-radius: 20px;
   padding: 48px 80px 80px;
@@ -202,11 +202,11 @@
   text-align: left;
 }
 
-.gjw001 .gray-box.text-center {
+#gjw001 .gray-box.text-center {
   text-align: center;
 }
 
-.gjw001 .box-title {
+#gjw001 .box-title {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 28px;
@@ -215,7 +215,7 @@
   line-height: 1.4;
 }
 
-.gjw001 .check-list {
+#gjw001 .check-list {
   max-width: 972px;
   justify-self: center;
   display: flex;
@@ -223,14 +223,14 @@
   gap: 28px;
 }
 
-.gjw001 .check-list li {
+#gjw001 .check-list li {
 }
 
-.gjw001 .check-list li:last-child {
+#gjw001 .check-list li:last-child {
   margin-bottom: 0;
 }
 
-.gjw001 .check-list .num {
+#gjw001 .check-list .num {
   display: inline-block;
   width: 25px;
   height: 24px;
@@ -245,7 +245,7 @@
   flex-shrink: 0;
 }
 
-.gjw001 .check-list .tit {
+#gjw001 .check-list .tit {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 8px;
@@ -254,7 +254,7 @@
   letter-spacing: -0.02em;
 }
 
-.gjw001 .check-list .txt {
+#gjw001 .check-list .txt {
   font-size: 20px;
   color: #333;
   display: block;
@@ -263,16 +263,16 @@
   border-bottom: 1px solid #dddddd;
 }
 
-.gjw001 .check-list li:last-child .txt {
+#gjw001 .check-list li:last-child .txt {
   border-bottom: none;
 }
 
 /* Tip 박스 */
-.gjw001 .tip-section {
+#gjw001 .tip-section {
   margin-top: 60px;
 }
 
-.gjw001 .tip-badge {
+#gjw001 .tip-badge {
   color: #ea1917;
   font-weight: bold;
   font-size: 18px;
@@ -280,7 +280,7 @@
   display: block;
 }
 
-.gjw001 .tip-title {
+#gjw001 .tip-title {
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 16px;
@@ -288,21 +288,21 @@
   letter-spacing: -0.02em;
 }
 
-.gjw001 .tip-desc {
+#gjw001 .tip-desc {
   font-size: 14px;
   font-weight: 500;
   letter-spacing: -0.02em;
   color: #191c1f;
 }
 
-.gjw001 .tip-box {
+#gjw001 .tip-box {
   background-color: #f6f6f6;
   border-radius: 20px;
   padding: 40px;
   margin-top: 30px;
 }
 
-.gjw001 .tip-box-title {
+#gjw001 .tip-box-title {
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 7.43px;
@@ -311,17 +311,17 @@
   letter-spacing: -0.02em;
 }
 
-.gjw001 .tip-box-title .light-text {
+#gjw001 .tip-box-title .light-text {
   color: rgba(25, 28, 31, 0.6);
   /* #191C1F의 60% 투명도 */
 }
 
-.gjw001 .tip-list {
+#gjw001 .tip-list {
   max-width: 521px;
   margin: 0 auto;
 }
 
-.gjw001 .tip-list li {
+#gjw001 .tip-list li {
   font-size: 14px;
   display: flex;
   justify-content: flex-start;
@@ -330,13 +330,13 @@
   letter-spacing: -0.02em;
 }
 
-.gjw001 .tip-list li strong {
+#gjw001 .tip-list li strong {
   font-weight: 700;
   white-space: nowrap;
 }
 
 /* 가이드 박스 (Section 04) */
-.gjw001 .guide-grid {
+#gjw001 .guide-grid {
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -344,7 +344,7 @@
   margin-bottom: 140px;
 }
 
-.gjw001 .guide-item {
+#gjw001 .guide-item {
   background-color: #f6f6f6;
   border-radius: 15px;
   padding: 30px;
@@ -353,20 +353,20 @@
   flex: 1;
 }
 
-.gjw001 .guide-item h4 {
+#gjw001 .guide-item h4 {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 20px;
   color: #ea1917;
 }
 
-.gjw001 .guide-item p.desc {
+#gjw001 .guide-item p.desc {
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 20px;
 }
 
-.gjw001 .guide-item ul li {
+#gjw001 .guide-item ul li {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: -0.01em;
@@ -374,7 +374,7 @@
   align-items: flex-start;
 }
 
-.gjw001 .guide-item ul li img.chk {
+#gjw001 .guide-item ul li img.chk {
   width: 16px;
   margin-right: 6px;
   margin-top: 5px;
@@ -382,7 +382,7 @@
 }
 
 /* 하단 배너 */
-.gjw001 .bottom-banner {
+#gjw001 .bottom-banner {
   background-color: #f4f4f4;
   background-image: url("../../images/basic-spec-dolby-tv/pc/img5.jpg");
   background-size: cover;
@@ -398,19 +398,19 @@
   text-align: left;
 }
 
-.gjw001 .bottom-banner h2 {
+#gjw001 .bottom-banner h2 {
   font-size: 24px;
   font-weight: 800;
   margin-bottom: 20px;
 }
 
-.gjw001 .btn-wrap {
+#gjw001 .btn-wrap {
   display: flex;
   flex-direction: row;
   gap: 10px;
 }
 
-.gjw001 .btn-black {
+#gjw001 .btn-black {
   display: inline-block;
   background-color: #111;
   color: #fff;
@@ -421,66 +421,66 @@
   transition: background 0.3s;
 }
 
-.gjw001 .btn-black:hover {
+#gjw001 .btn-black:hover {
   background-color: #333;
 }
 
-.gjw001 .container.pdtb120 {
+#gjw001 .container.pdtb120 {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
 @media screen and (max-width: 950px) {
-  .gjw001 .hero-title br {
+  #gjw001 .hero-title br {
     display: none;
   }
 }
 
-.gjw001 .mo-br {
+#gjw001 .mo-br {
   display: none;
 }
 
-.gjw001 .mo-sm-br {
+#gjw001 .mo-sm-br {
   display: none;
 }
 
-.gjw001 .mo-xs-br {
+#gjw001 .mo-xs-br {
   display: none;
 }
 
 /* 반응형 모바일 (767px 이하) */
 @media screen and (max-width: 767px) {
-  .gjw001 {
+  #gjw001 {
     padding-top: 0;
   }
 
-  .gjw001 .mo-br {
+  #gjw001 .mo-br {
     display: block;
   }
 
-  .gjw001 .pc-br {
+  #gjw001 .pc-br {
     display: none;
   }
 
-  .gjw001 .mt-108 {
+  #gjw001 .mt-108 {
     margin-top: 82px;
   }
 
-  .gjw001 .mt-140 {
+  #gjw001 .mt-140 {
     margin-top: 80px;
   }
 
-  .gjw001 .container {
+  #gjw001 .container {
     padding: 0 20px;
   }
 
-  .gjw001 .hero-title {
+  #gjw001 .hero-title {
     font-size: 32px;
     line-height: 135%;
     margin-bottom: 12px;
   }
 
-  .gjw001 .badge-guide {
+  #gjw001 .badge-guide {
     width: 100px;
     height: 34px;
     font-size: 14px;
@@ -488,95 +488,95 @@
     margin-bottom: 12px;
   }
 
-  .gjw001 .hero-desc {
+  #gjw001 .hero-desc {
     font-size: 16px;
     margin-bottom: 56px;
   }
 
-  .gjw001 .sec-num {
+  #gjw001 .sec-num {
     width: 52px;
     height: 32px;
     font-size: 14px;
     margin-bottom: 8px;
   }
 
-  .gjw001 .sec-title {
+  #gjw001 .sec-title {
     font-size: 28px;
     line-height: 1.5;
     letter-spacing: -0.02em;
   }
 
-  .gjw001 .sec-desc {
+  #gjw001 .sec-desc {
     font-size: 14px;
     line-height: 145%;
     margin-bottom: 32px;
   }
 
-  .gjw001 .gray-box {
+  #gjw001 .gray-box {
     padding: 32px 25px;
     margin-top: 12px;
   }
 
-  .gjw001 .box-title {
+  #gjw001 .box-title {
     font-size: 20px;
     margin-bottom: 16px;
   }
 
-  .gjw001 .check-list {
+  #gjw001 .check-list {
     gap: 0;
   }
 
-  .gjw001 .check-list div {
+  #gjw001 .check-list div {
     padding: 12px 0 12px 10px;
   }
 
-  .gjw001 .check-list .tit {
+  #gjw001 .check-list .tit {
     font-size: 16px;
   }
 
-  .gjw001 .check-list .num {
+  #gjw001 .check-list .num {
     width: 20px;
     height: 20px;
     line-height: 20px;
     font-size: 11.2px;
   }
 
-  .gjw001 .check-list .txt {
+  #gjw001 .check-list .txt {
     font-size: 14px;
     padding-bottom: 12px;
     min-width: 299px;
   }
 
-  .gjw001 .tip-badge {
+  #gjw001 .tip-badge {
     font-size: 14px;
     margin-bottom: 8px;
   }
 
-  .gjw001 .tip-title {
+  #gjw001 .tip-title {
     font-size: 24px;
     line-height: 145%;
   }
 
-  .gjw001 .tip-box {
+  #gjw001 .tip-box {
     padding: 32px 49px;
   }
 
-  .gjw001 .tip-box-title {
+  #gjw001 .tip-box-title {
     font-size: 24px;
     line-height: 1.4;
     margin-bottom: 19px;
   }
 
-  .gjw001 .tip-list li {
+  #gjw001 .tip-list li {
     display: block;
   }
 
-  .gjw001 .guide-grid {
+  #gjw001 .guide-grid {
     flex-direction: column;
     margin-bottom: 80px;
   }
 
-  .gjw001 .bottom-banner {
+  #gjw001 .bottom-banner {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -586,23 +586,23 @@
     background-position: right;
   }
 
-  .gjw001 .bottom-banner h2 {
+  #gjw001 .bottom-banner h2 {
     font-size: 16px;
     margin-bottom: 15px;
   }
 
-  .gjw001 .bottom-banner .banner-txt {
+  #gjw001 .bottom-banner .banner-txt {
     margin-bottom: 0px;
     width: 100%;
   }
 
-  .gjw001 .btn-wrap {
+  #gjw001 .btn-wrap {
     flex-direction: row;
     gap: 7.5px;
     height: 40px;
   }
 
-  .gjw001 .btn-black {
+  #gjw001 .btn-black {
     font-size: 13px;
     height: 40px;
     padding: 0 12px;
@@ -614,72 +614,72 @@
     flex: 1;
   }
 
-  .gjw001 .btn-wrap .btn-black:first-child {
+  #gjw001 .btn-wrap .btn-black:first-child {
     flex: 0 0 120px;
   }
 
-  .gjw001 .hero-notice {
+  #gjw001 .hero-notice {
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  .gjw001 p.notice-text.hero-notice {
+  #gjw001 p.notice-text.hero-notice {
     font-size: 12px;
     line-height: 1.5;
   }
 
-  .gjw001 ul.notice-text {
+  #gjw001 ul.notice-text {
     margin-top: 12px;
   }
 
-  .gjw001 .notice-text {
+  #gjw001 .notice-text {
     font-size: 11px;
   }
 
-  .gjw001 ul.notice-text li.mt-12 {
+  #gjw001 ul.notice-text li.mt-12 {
     margin-top: 8px;
   }
 
-  .gjw001 .guide-item {
+  #gjw001 .guide-item {
     padding: 32px 20px;
   }
 
-  .gjw001 .guide-item p.desc {
+  #gjw001 .guide-item p.desc {
     margin-bottom: 16px;
     line-height: 1.5;
   }
 
-  .gjw001 .guide-item ul li {
+  #gjw001 .guide-item ul li {
     font-size: 14px;
   }
 
-  .gjw001 .guide-item ul li:not(:last-child) {
+  #gjw001 .guide-item ul li:not(:last-child) {
     margin-bottom: 4px;
   }
 
-  .gjw001 .guide-item ul li img.chk {
+  #gjw001 .guide-item ul li img.chk {
     margin-top: 6px;
   }
 
-  .gjw001 .container.pdtb120 {
+  #gjw001 .container.pdtb120 {
     padding-top: 60px;
     padding-bottom: 70px;
   }
-  .rounded-img {
+  #gjw001 .rounded-img {
     border-radius: 20px;
   }
 }
 
 /* 반응형 소형 모바일 (500px 이하) */
 @media screen and (max-width: 500px) {
-  .gjw001 .mo-sm-br {
+  #gjw001 .mo-sm-br {
     display: block !important;
   }
 }
 
 /* 반응형 초소형 모바일 (450px 이하) */
 @media screen and (max-width: 450px) {
-  .gjw001 .mo-xs-br {
+  #gjw001 .mo-xs-br {
     display: block !important;
   }
 }
