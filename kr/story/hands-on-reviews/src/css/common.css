@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* Responsive */
+/* 모바일에서 레이아웃에 가둬진 박스의 너비가 풀로 가져가야 할때 */
+/* Ellipsis */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import url("main.css");
+html {
+  scroll-behavior: smooth;
+}
+
+.lge-stanby-me2 {
+  font-size: 14px;
+  position: relative;
+  line-height: 1.4;
+}
+@media (max-width: 780px) {
+  .lge-stanby-me2 {
+    font-size: 12px;
+  }
+}
+.lge-stanby-me2 ::-webkit-scrollbar {
+  display: none;
+}
+.lge-stanby-me2 ::placeholder {
+  color: #6c6c6c;
+}
+.lge-stanby-me2 body,
+.lge-stanby-me2 div,
+.lge-stanby-me2 p,
+.lge-stanby-me2 span,
+.lge-stanby-me2 a,
+.lge-stanby-me2 section,
+.lge-stanby-me2 label,
+.lge-stanby-me2 input,
+.lge-stanby-me2 button,
+.lge-stanby-me2 h1,
+.lge-stanby-me2 h2,
+.lge-stanby-me2 h3,
+.lge-stanby-me2 h4,
+.lge-stanby-me2 h5,
+.lge-stanby-me2 h6,
+.lge-stanby-me2 ul,
+.lge-stanby-me2 ol,
+.lge-stanby-me2 li,
+.lge-stanby-me2 header,
+.lge-stanby-me2 footer,
+.lge-stanby-me2 main,
+.lge-stanby-me2 b,
+.lge-stanby-me2 i,
+.lge-stanby-me2 strong,
+.lge-stanby-me2 select,
+.lge-stanby-me2 article,
+.lge-stanby-me2 aside,
+.lge-stanby-me2 details,
+.lge-stanby-me2 figcaption,
+.lge-stanby-me2 figure,
+.lge-stanby-me2 footer,
+.lge-stanby-me2 header,
+.lge-stanby-me2 hgroup,
+.lge-stanby-me2 menu,
+.lge-stanby-me2 nav,
+.lge-stanby-me2 section,
+.lge-stanby-me2 object {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  outline: none !important;
+}
+.lge-stanby-me2 h1,
+.lge-stanby-me2 h2,
+.lge-stanby-me2 h3,
+.lge-stanby-me2 h4,
+.lge-stanby-me2 h5,
+.lge-stanby-me2 h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+.lge-stanby-me2 table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.lge-stanby-me2 ol,
+.lge-stanby-me2 ul {
+  list-style: none;
+}
+.lge-stanby-me2 a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+.lge-stanby-me2 button,
+.lge-stanby-me2 input,
+.lge-stanby-me2 select,
+.lge-stanby-me2 textarea {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  background-color: transparent;
+  border: 0 none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+.lge-stanby-me2 label {
+  cursor: pointer;
+}
+.lge-stanby-me2 img,
+.lge-stanby-me2 video,
+.lge-stanby-me2 svg {
+  display: block;
+  border: none;
+  width: 100%;
+}
+.lge-stanby-me2 option {
+  color: inherit;
+}
+.lge-stanby-me2 section {
+  position: relative;
+}
+.lge-stanby-me2 picture {
+  display: block;
+  width: 100%;
+}

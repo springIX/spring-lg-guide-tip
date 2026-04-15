@@ -740,6 +740,15 @@ const LGE_SETUP = (function (window) {
         if (elSwipers.length === 0) return;
 
         elSwipers.forEach(function (elSwiper) {
+            const removeSwiperSlideGeneratedAttrs = function (swiper) {
+                const slides = swiper && swiper.slides ? Array.from(swiper.slides) : findAllElements(".swiper-slide", elSwiper);
+
+                slides.forEach(function (slide) {
+                    removeAttr(slide, "role");
+                    removeAttr(slide, "aria-label");
+                });
+            };
+
             let options = {
                 // loop: true,
                 // pagination: {
@@ -889,6 +898,30 @@ const LGE_SETUP = (function (window) {
 
             // --- nav 버튼 숨김 처리 로직 추가 ---
             // slidesPerView 값 추출 (없으면 1)
+            const originalEvents = options.on || {};
+            options.on = Object.assign({}, originalEvents, {
+                afterInit: function (swiper) {
+                    if (typeof originalEvents.afterInit === "function") {
+                        originalEvents.afterInit(swiper);
+                    }
+                    window.requestAnimationFrame(function () {
+                        removeSwiperSlideGeneratedAttrs(swiper);
+                    });
+                },
+                slideChangeTransitionEnd: function (swiper) {
+                    if (typeof originalEvents.slideChangeTransitionEnd === "function") {
+                        originalEvents.slideChangeTransitionEnd(swiper);
+                    }
+                    removeSwiperSlideGeneratedAttrs(swiper);
+                },
+                observerUpdate: function (swiper) {
+                    if (typeof originalEvents.observerUpdate === "function") {
+                        originalEvents.observerUpdate(swiper);
+                    }
+                    removeSwiperSlideGeneratedAttrs(swiper);
+                },
+            });
+
             const slidesPerView = options.slidesPerView || 1;
 
             // 슬라이드 개수

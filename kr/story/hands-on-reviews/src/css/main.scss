@@ -1,0 +1,217 @@
+@import "var";
+.lge-stanby-me2{
+  /* PUBLIC PUBLIC PUBLIC PUBLIC PUBLIC PUBLIC */
+  section{ position: relative; overflow: hidden;}
+  // LAYOUT INNER
+  .layout-inner {
+    position: relative;
+    max-width: 100%;
+    width: $layout_inner !important; 
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: $layout_pd !important;
+    padding-right: $layout_pd !important;
+  }
+  .inner{ width: 100%; position: relative;}
+  .f-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .p-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .cover{ position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: cover;}
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .flex-cnt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .flex-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .flex-btm {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  @include screen("pc") {
+    .mo{ display: none !important;}
+  }
+  @include screen("mo") {
+    .pc{ display: none !important;}
+  }
+  /* //PUBLIC PUBLIC PUBLIC PUBLIC PUBLIC PUBLIC */
+
+  section{
+    .info-box{ line-height: 1.5; font-weight: 500; font-size: 20px;
+      @include screen("mo") { font-size: 16px;}
+      p + p{ margin-top: 30px;
+        @include screen("mo") { margin-top: 20px;}
+      }
+    }
+    .dsc-box{ font-weight: 500; font-size: 14px; color: #646669; margin-top: 20px; letter-spacing: -.8px; line-height: 1.44;
+      @include screen("mo") { margin-top: 12px; font-size: 11px;}
+      a{ display: inline;}
+      
+      ul{
+        li{ padding-left: 10px; position: relative;
+          @include screen("mo") { padding-left: 8px;}
+          &::before{ content: '*'; position: absolute; left: 0; top: 0;}
+        }
+      }
+      .notice-box{
+        .dsc-toggle{ display: flex; gap: 2px; 
+          &::before{ content: '열기'; font-weight: 700;}
+          &::after{ content: ''; width: 20px; height: 20px; background:url(../images/ico-more.png)no-repeat center center / contain; transform: rotate(180deg); transition: .3s ease;
+            @include screen("mo") { width: 16px; height: 16px;}
+          }
+        }
+        .notice-cont{ display: none; margin-top: 10px;
+          @include screen("mo") { margin-top: 6px;}
+        }
+      }
+      input:checked + .notice-box{
+        .dsc-toggle{
+          &::before{ content: '닫기';}
+          &::after{ transform: rotate(0deg);}
+        }
+        .notice-cont{ display: block;}
+      }
+    }
+
+    &.key-visual{ text-align: center; padding-top: 120px;
+      @include screen("mo") { padding-top: 60px;}
+      .txt-box{ margin-bottom: 80px;
+        h2{ font-size: 44px; font-weight: 700; margin-bottom: 28px;
+          @include screen("mo") { font-size: 32px; margin-bottom: 20px;}
+        }
+        .info-box{ font-weight: 600;
+          @include screen("mo") { font-size: 18px;}
+        }
+      }
+      img{ height: 67vw; object-fit: cover;}
+    }
+
+    &.accessories-list-wrap{ 
+      .accessories-list{ display: flex; gap: 20px; margin: 103px 0; text-align: center; counter-reset: accessories-list;
+        @include screen("mo") { flex-direction: column; gap: 10px; margin: 60px 0; text-align: left;}
+        li{ width: 100%;
+          a{ width: 100%; background-color: #F4F4F4; border-radius: 20px; padding: 60px 0 48px; overflow: hidden; transition: .3s ease;
+            @include screen("mo") { display: flex; padding: 32px 39px; justify-content: space-between;}
+            @include screen("pc") { 
+              &:hover{ transform: translateY(-5px);}
+            }
+            .txt-box{ font-weight: 600; letter-spacing: -.8px;
+              &::before{ display: block; text-align: center;
+                counter-increment: accessories-list;
+                content: counter(accessories-list); width: 24px; height: 24px; line-height: 23px; border-radius: 999px; background-color: #000; color: #fff;
+                line-height: 1.68; margin: 0 auto;
+                @include screen("mo") { margin: 0;}
+              }
+              span{ display: block; margin: 16px 0 2px; font-size: 16px; color: #444;
+                @include screen("mo") { margin-top: 14px; font-size: 14px;}
+              }
+              h3{ font-size: 24px; border-bottom: 4px solid #FFF600; display: inline-block;
+                @include screen("mo") { font-size: 18px; border-bottom-width: 2px;}
+              }
+            }
+            img{ margin-top: 40px;
+              @include screen("mo") { margin-top: 0; height: 116px; width: 154px; object-fit: cover;}
+            }
+          }
+        }
+      }
+
+      .summation{ text-align: center;
+        .tit{ font-size: 28px; 
+          @include screen("mo") { font-size: 24px;}
+        }
+        ul{ padding: 48px; background-color: #F5F5F5; border-radius: 20px; font-size: 20px; font-weight: 500; margin-top: 20px; line-height: 1.5;
+          @include screen("mo") { margin-top: 32px; padding: 24px; border-radius: 7px; text-align: left; font-size: 14px;}
+          li{ position: relative; padding-left: 18px; display: inline-block;
+            @include screen("mo") { padding-left: 12px;}
+            &::before{ content: '·';  position: absolute; left: 0; top: 0;}
+            + li{ margin-top: 8px;}
+          }
+        }
+      }
+    }
+
+    &.accessories-info-wrap{ max-width: 940px; padding: 0 $layout_pd 120px; margin: 0 auto;
+      @include screen("mo") { padding-bottom: 80px;}
+      .accessories-info{ counter-reset: accessories-info;
+        > li{ padding-top: 130px;
+          @include screen("mo") { padding-top: 60px;}
+          .accessories-txt-box{ text-align: center;
+            &::before{ display: block; text-align: center;
+              counter-increment: accessories-info;
+              content: "0"counter(accessories-info);
+              font-size: 16px; width: 55px; padding: 3px 0 5px; border-radius: 999px; background-color: #000; color: #fff;
+              line-height: 1.68; font-weight: 700; margin: 0 auto;
+              @include screen("mo") { width: 52px; font-size: 14px;}
+            }
+            h2{ margin: 12px 0 30px; font-weight: 700; font-size: 40px; border-bottom: 4px solid #FFF600; display: inline-block;
+              @include screen("mo") { font-size: 28px; margin: 8px 0 16px;}
+            }
+          }
+
+          .accessories-img-box{ margin: 60px 0;
+            @include screen("mo") { margin: 32px 0;}
+            img{ border-radius: 20px; overflow: hidden;
+              @include screen("mo") { border-radius: 16px;}
+            }
+          }
+
+          .accessories-review-box{ letter-spacing: -.8px;
+            .review-cont{ display: grid; grid-template-columns: 1fr 1fr; gap: 20px;
+              @include screen("mo") { display: flex; flex-direction: column; gap: 12px;} 
+              > li{ padding: 40px; background-color: #F5F5F5; border-radius: 20px; 
+                @include screen("mo") { padding:28px 16px 24px; border-radius: 8px;}
+                &:first-child{ display: flex; grid-column: span 2; height: 320px;
+                  @include screen("mo") { display: block; height: auto;}
+                  .review-img{ width: 230px; border-radius: 20px; overflow: hidden; flex-shrink: 0;
+                    @include screen("mo") { width: 90%; margin-top: 20px;}
+                  }
+                }
+                .review-info{ width: 100%; display: flex; flex-direction: column; justify-content: space-between; height: 100%;
+                  .txt-box{
+                    .writer-info{ display: flex; align-items: center; font-size: 18px;
+                      @include screen("mo") { font-size: 12px;}
+                      .score{ width: 108px; padding-top: 1px;
+                        @include screen("mo") { width: 88px; padding-top: 0;}
+                      }
+                      .name{ margin: 0 16px; font-weight: 500;
+                        @include screen("mo") { margin: 0 auto 0 9px; font-size: 14px;}
+                      }
+                      .date{ color: #888;}
+                    }
+                    .review-box{ font-size: 16px; margin-top: 20px; line-height: 1.58;
+                      @include screen("mo") { font-size: 14px; margin-top: 12px;}
+                    }
+                  }
+                  .hashtag{ display: flex; gap: 10px; margin-top: 20px;
+                    li{ font-weight: 600; color: #666; line-height: 1.5; padding: 7px 16px 9px; border-radius: 999px; font-size: 16px; background-color: #fff;
+                      @include screen("mo") { padding: 4px 10px; font-size: 12px;}
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

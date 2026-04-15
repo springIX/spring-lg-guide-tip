@@ -3739,6 +3739,19 @@ install-case (설치사례)
   border-radius: 0;
 }
 @media (min-width: 0px) and (max-width: 1444px) {
+  .popup-guide-wrap .install-case-sp .swiper-button-box .swiper-button {
+    background-image: url('https://www.lge.co.kr/kr/story/setup-guide/images/washing-machines-and-dryers/result-swiper-nav-mo.svg');
+  }
+  .popup-guide-wrap .install-case-sp .swiper-button-box .swiper-button.swiper-button-next {
+    transform: rotate(0deg);
+    right: 20px;
+    top: 40%;
+  }
+  .popup-guide-wrap .install-case-sp .swiper-scrollbar {
+    width: 100%;
+  }
+}
+@media (min-width: 0px) and (max-width: 1444px) {
   .popup-guide-wrap .install-case-sp .swiper-scrollbar {
     width: 100%;
   }
