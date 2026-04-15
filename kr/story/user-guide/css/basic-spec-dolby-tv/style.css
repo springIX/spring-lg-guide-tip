@@ -565,8 +565,14 @@
   font-weight: 600;
   font-size: 15px;
   transition: background 0.3s;
+  display: flex;
+  align-items: center;
 }
-
+#gjw001 img.right-arrow {
+  width: 5.5px;
+  height: 11px;
+  margin-left: 12px;
+}
 #gjw001 .btn-black:hover {
   background-color: #333;
 }
