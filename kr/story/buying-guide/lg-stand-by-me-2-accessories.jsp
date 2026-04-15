@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="ko">
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+  <%@ include file="/WEB-INF/jsp/common/includes/doctype.jsp" %>
+
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+      <meta name="keywords"
+        content="LG전자, LG 청소기, 청소기, 무선 청소기, 유선 청소기, 청소기 구조, 흡입력, 유량, 진공도, 모터, 청소기 기능, 올인원타워, 오토스탑앤고, ThinQ, 로봇 청소기, 배터리, A9, 싸이킹, A9 air, 상업용 청소기, 코드제로, 기술 사양" />
+      <meta name="description" content="우리집에 필요한 센스있는 기능까지, 청소기에 대한 모든것을 알아보세요!" />
+      <meta content="NOODP, NOYDIR" name="robots" />
+      <link rel="canonical" href="canonical" />
+      <title>슈퍼 포터블 스크린, LG 스탠바이미 2 | LG전자</title>
+
+      <meta property="fb:app_id" content="562434687259858" />
+      <meta property="og:locale" content="ko_KR" />
+      <meta property="og:site_name" content="LG전자" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="슈퍼 포터블 스크린, LG 스탠바이미 2 | LG전자" />
+      <meta property="og:description" content="우리집에 필요한 센스있는 기능까지, 청소기에 대한 모든것을 알아보세요!" />
+      <meta property="og:url" content="https://www.lge.co.kr/story/user-guide/basic-spec-vacuum-cleaner" />
+      <meta property="og:image" content="https://www.lge.co.kr/lg5-common/images/common/share/share-default.jpg" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:site" content="" />
+      <meta name="google-site-verification" content="kOHWY1Aua-UxMNrWwT8TnUIdw8mSZAog6615Iwc1e4w" />
+      <meta content="#a50034" name="theme-color" />
+
+      <link rel="shortcut icon" href="https://www.lge.co.kr/lg5-common/images/favicon.ico" />
+      <link rel="stylesheet" href="https://www.lge.co.kr/lg5-common/css/reset.min.css" />
+      <link rel="stylesheet" href="https://www.lge.co.kr/lg5-common/css/app.min.css" />
+
+      <!-- UnivEBiz css, script -->
+      <script type="text/javascript" src="/kr/story/buying-guide/js/libs/jquery-2.2.4.min.js"></script>
+      <script type="text/javascript" src="/kr/story/user-guide/js/basic-spec-vacuum-cleaner.js"></script>
+      <link rel="stylesheet" href="/kr/story/buying-guide/css/swiper-bundle-v11.min.css" type="text/css" />
+      <script type="text/javascript" src="/kr/story/buying-guide/js/swiper-bundle-v11.min.js"></script>
+      <link rel="stylesheet" href="/kr/story/user-guide/css/basic-spec-vacuum-cleaner.css" type="text/css" />
+
+      <link href="/lg5-common/css/components/KRP0016.min.css?v=20210930" type="text/css" rel="stylesheet">
+
+      <script src="/kr/story/js/share.js"></script>
+      <script src="/lg5-common/js/components/KRP0016.min.js?v=20210930"></script>
+
+      <c:import url="/WEB-INF/jsp/common/includes/googleHeaderScript.jsp" charEncoding="utf-8" />
+      <c:import url="/WEB-INF/jsp/common/includes/jsDefault.jsp" charEncoding="utf-8" />
+    </head>
+
+    <body>
+      <c:import url="/WEB-INF/jsp/common/includes/googleBodyScript.jsp" charEncoding="utf-8" />
+      <div class="wrap subRenewWrap subRenewWrap--share subRenewWrap--story">
+        <!-- gnb -->
+        <jsp:include page="/kr/gnb">
+          <jsp:param name="bizType" value="B2C" />
+        </jsp:include>
+        <!-- // gnb -->
+        <!-- // breadcrumb -->
+        <c:import url="/kr/breadCrumb">
+          <c:param name="bizType" value="${bizType}" />
+        </c:import>
+        <!-- // breadcrumb -->
+
+        <c:import url="/kr/mkt/mobileGnb" charEncoding="utf-8" />
+
+        <!-- Share -->
+        <div itemtype=http://schema.org/WebPage itemscope class="sr-only">
+          <meta itemprop="name" content="슈퍼 포터블 스크린, LG 스탠바이미 2 | LG전자" />
+          <meta itemprop="description" content="우리집에 필요한 센스있는 기능까지, 청소기에 대한 모든것을 알아보세요!" />
+          <meta itemprop="url" content="https://www.lge.co.kr/story/user-guide/basic-spec-vacuum-cleaner" />
+          <meta itemprop="image" content="https://www.lge.co.kr/lg5-common/images/common/share/share-default.jpg" />
+          <meta itemprop="Keywords"
+            content="LG전자, LG 청소기, 청소기, 무선 청소기, 유선 청소기, 청소기 구조, 흡입력, 유량, 진공도, 모터, 청소기 기능, 올인원타워, 오토스탑앤고, ThinQ, 로봇 청소기, 배터리, A9, 싸이킹, A9 air, 상업용 청소기, 코드제로, 기술 사양" />
+        </div>
+        <!-- <div class="story-page">
+          <div class="sns-cont">
+            <div class="sns-share">
+              <div class="tooltip-wrap share">
+                <a href="#" class="tooltip-icon ui_tooltip-target" data-fixed="fixed-right" ui-modules="TooltipTarget">
+                  <span class="blind">제품 공유하기</span>
+                </a>
+                <div class="tooltip-box fixed-right" aria-hidden="false">
+                  <span class="title">공유하기</span>
+                  <div class="sns-wrap">
+                    <ul class="sns-list new-type">
+                      <li><a href="#none" class="ico-btn kk" title="카카오톡에 공유하기, 새창열림"
+                          data-link-name="kakaotalk">카카오톡<span class="blind">으로 페이지 공유하기</span></a></li>
+                      <li><a href="#none" class="ico-btn fb" title="페이스북에 공유하기, 새창열림"
+                          data-link-name="facebook">페이스북<span class="blind">으로 페이지 공유하기</span></a></li>
+                      <li><a href="#none" class="ico-btn url" data-link-name="copy_url">URL복사<span
+                            class="blind">하기</span></a></li>
+                    </ul>
+                  </div>
+                  <button type="button" class="btn-close"><span class="blind">닫기</span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <div class="component KRP0016">
+          <div class="inner">
+            <div class="sns-share">
+              <span class="btn-story-box">
+                <button type="button" class="btn-story" onclick="location.href='/story'"><span>스토리홈</span></button>
+              </span>
+              <jsp:include page="/kr/story/includes/share.jsp" /><!-- 공유하기-->
+            </div>
+          </div>
+        </div>
+
+        <!-- //Share -->
+
+        <!-- 컨텐츠 시작 -->
+        <link rel="stylesheet"
+          href="https://www.lge.co.kr/html/kr/story/tech-inside/lg-stand-by-me-2-accessories/css/common.css" />
+        <div class="lge-stanby-me2">
+          <section class="key-visual">
+            <div class="txt-box layout-inner">
+              <h2>슈퍼 포터블 스크린, <br class="mo">LG 스탠바이미 2</h2>
+              <div class="info-box">
+                <p>전용 액세서리를 더하면 <br class="mo">스크린은 하나의 기기를 넘어, <br>
+                  일상의 장면을 바꾸는 도구가 됩니다.</p>
+
+                <p>공간을 옮겨 다니며 필요한 순간마다, <br class="mo">다른 모습으로 <br class="pc">
+                  말하고, 움직이고, <br class="mo">집중하는 시간까지</p>
+
+                <p>일상에 맞춰 유연하게 변하는 스탠바이미 2 <br class="mo">멀티 플레이어를 경험해보세요.</p>
+              </div>
+            </div>
+            <img src="https://www.lge.co.kr/html/kr/story/tech-inside/lg-stand-by-me-2-accessories/images/kv.png"
+              alt="">
+          </section>
+
+          <section class="accessories-list-wrap layout-inner">
+            <ol class="accessories-list">
+              <li>
+                <a href="#one-click-stand">
+                  <div class="txt-box">
+                    <span>듀얼 스크린</span>
+                    <h3>원클릭 스탠드</h3>
+                  </div>
+                  <img
+                    src="https://www.lge.co.kr/html/kr/story/tech-inside/lg-stand-by-me-2-accessories/images/pd01.png"
+                    alt="">
+                </a>
+              </li>
+              <li>
+                <a href="#digital-photo-frame">
+                  <div class="txt-box">
+                    <span>디지털 액자</span>
+                    <h3>스트랩</h3>
+                  </div>
+                  <img
+                    src="https://www.lge.co.kr/html/kr/story/tech-inside/lg-stand-by-me-2-accessories/images/pd02.png"
+                    alt="">
+                </a>
+              </li>
+              <li>
+                <a href="#smart-cam">
+                  <div class="txt-box">
+                    <span>전용카메라</span>
+                    <h3>스마트 캠</h3>
+                  </div>
+                  <img
+                    src="https://www.lge.co.kr/html/kr/story/tech-inside/lg-stand-by-me-2-accessories/images/pd03.png"
+                    alt="">
+                </a>
+              </li>
+            </ol>
+            <div class="summation">
+              <strong class="tit">3줄로 요약해 드려요</strong>
+              <ul>
+                <li>원클릭 스탠드로 자유로운 각도 조절과 노트북 듀얼 스크린 연결을 지원해 업무·학습 효율과 게임 몰입도를 높입니다.</li>
+                <li>스트랩으로 벽에 걸어 디지털 액자로 활용하며 <span class="ib">공간 분위기를</span> 바꾸는 인테리어 오브제로 사용할 수 있습니다.</li>
+                <li>스마트캠을 부착해 고화질 영상통화와 별도 설정 없이 연결되어 피트니스 앱으로 효과적인 홈트레이닝이 가능합니다.</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="accessories-info-wrap">
+            <ol class="accessories-info">
+              <li id="one-click-stand">
+                <div class="accessories-txt-box">
+                  <h2>원클릭 스탠드</h2>
+                  <div class="info-box">
+                    <p>원클릭 스탠드에 올려두는 순간, <br>
+                      일은 더 가볍게, 몰입은 더 깊게 이어집니다.</p>
+
+                    <p>가로와 세로, 각도까지 자유롭게. <br>
+                      노트북과 연결하면 자연스럽게 확장되는 듀얼 스크린.</p>
+
+                    <p>업무·학습은 효율적으로, <br>
+                      게임은 더 몰입감 있게</p>
+
+                    <p>원하는 순간에 맞춰 유연하게 <br>
+                      나만의 화면을 즐겨보세요.</p>
+                  </div>
+                </div>
+
+                <div class="accessories-img-box">
+                  <img
+                    src="https://www.lge.co.kr/html/kr/story/tech-inside/lg-stand-by-me-2-accessories/images/accessories-info01.jpg"
+                    alt="">
+                  <div class="dsc-box">
+                    <ul>
+                      <li>소비자의 이해를 돕기 위해 연출된 이미지로, 실제 구현되는 화면과 다를 수 있습니다. </li>
+                      <li>상품 이미지 및 특장점 등에는 광고적 표현이 포함되어 실제 상품과 차이가 있을 수 있으며 상품 외관, 스펙 등은 제품 개량을 위해 사전 예고 없이 변경될 수 있습니다.
+                      </li>
+                      <li>모든 상품 이미지는 촬영 컷으로 실제 상품과 차이가 있을 수 있으며, 상품 색상은 모니터 해상도, 밝기 설정 및 PC 사양에 따라 차이가 있을 수 있습니다.</li>
+                    </ul>
+                    <input type="checkbox" id="dsc1">
+                    <div class="notice-box">
+                      <label for="dsc1" class="dsc-toggle"></label>
+                      <div class="notice-cont">
+                        <ul>
+                          <li>원클릭 스탠드, 스트랩, 스마트 캠 액세서리는 별매입니다. <br class="mo">세트 제품 구매 시
+                            구성품을 확인해 주세요.
+                          <li>해당 상품의 성능은 사용 환경에 따라 일부 상이할 수 있으며, <br class="mo">매장 별로 취급여부가
+                            다를 수 있습니다.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accessories-review-box">
+                  <ul class="review-cont">
+                    <li>
+                      <div class="review-info">
+                        <div class="txt-box">
+                          <div class="writer-info">
+                            <img
+                              src="https://www.lge.co.kr/html/kr/story/tech-inside/lg-stand-by-me-2-accessories/images/ico-review-stars.png"
+                              alt="" class="score">
+                            <span class="name">이*원</span>
+                            <span class="date">2025.12.11</span>
+                          </div>
+                          <div class="review-box">
+                            책장위에 올려놓고 쓰려는데 맘에 들어요. <br class="mo">안정적이고 각도 조절도 됩니다. <br>
+                            충전은 옆에 포트를 이용해서 할 수 있어요
+                          </div>
+                        </div>
+                        <ul class="hashtag">
+                          <li>#각도조절</li>
+                        </ul>
+                      </div>
+                      <img
+                        src="https://www.lge.co.kr/html/kr/story/tech-inside/lg-stand-by-me-2-accessories/images/accessories-info01-1.jpg"
+                        alt="" class="review-img">
+                    </li>
+                    <li>
+                      <div class="review-info">
+                        <div class="txt-box">
+                          <div class="writer-info">
+                            <img
+                              src="https://www.lge.co.kr/html/kr/story/tech-inside/lg-stand-by-me-2-accessories/images/ico-review-stars.png"
+                              alt="" class="score">
+                            <span class="name">이*원</span>
+                            <span class="date">2026.03.11</span>
+                          </div>
+                          <div class="review-box">
+                            스탠바이미2를 더 편하게 사용하기 위해 원클릭 스탠드를 함께 구입했는데, 정말 탁월한 선택이었습니다.
+                            조립이 매우 간단하고 안정감이 뛰어나서 설치하자마자 바로 사용할 수 있었어요.디자인도 깔끔하고 미니멀해서 스탠바이미 본체와 완벽하게 어울립니다.!
+                          </div>
+                        </div>
+                        <ul class="hashtag">
+                          <li>#디자인</li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="review-info">
+                        <div class="txt-box">
+                          <div class="writer-info">
+                            <img
+                              src="https://www.lge.co.kr/html/kr/story/tech-inside/lg-stand-by-me-2-accessories/images/ico-review-stars.png"
+                              alt="" class="score">
+                            <span class="name">김*재</span>
+                            <span class="date">2025.10.08</span>
+                          </div>
+                          <div class="review-box">
+                            생각보다 사이즈가 커서 놀랐어요 캠핑시 활용할 목적으로 구매했는데 튼튼하고 원터치로 결합도 잘되네요
+                          </div>
+                        </div>
+                        <ul class="hashtag">
+                          <li>#원터치</li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="dsc-box">
+                    <ul>
+                      <li>본 리뷰는 실제 구매 고객의 후기를 일부 발췌한 것이며, 원문은 LG전자 홈페이지 (LGE.CO.KR)내 제품 상세 페이지에서 확인하실 수 있습니다.</li>
+                      <li>제품 상세 페이지 링크: <a
+                          href="https://www.lge.co.kr/care-accessories/standbyme/aan00847302">https://www.lge.co.kr/care-accessories/standbyme/aan00847302</a>
+                      </li>
+                      <li>본 리뷰는 구매 고객 개인의 주관적 견해에 해당하며 사실과 다를 수 있으니 제품의 기능·성능 등에 관한 자세한 내용은 제품 상세 페이지를 참고해주세요.</li>
+                    </ul>
+                    <input type="checkbox" id="dsc2">
+                    <div class="notice-box">
+                      <label for="dsc2" class="dsc-toggle"></label>
+                      <div class="notice-cont">
+                        <ul>
+                          <li>콘텐츠에 사용된 이미지는 소비자의 이해를 돕기 위해 연출된 이미지로 실제 제품과 색상 및 스펙은 다를 수 있습니다.</li>
+                          <li>본 콘텐츠에 포함된 제품의 설명은 고객의 이해를 돕기 위한 안내입니다. 실제 사용 시의 성능, 가격, 만족도 등은 사용 환경이나 비교 기준에 따라 달라질 수
+                            있습니다.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li id="digital-photo-frame">
+                <div class="accessories-txt-box">
+                  <h2>스트랩</h2>
+                  <div class="info-box">
+                    <p>스트랩으로 걸어두는 순간, <br>
+                      스크린은 공간의 무드가 됩니다.</p>
+
+                    <p>벽에 가볍게 걸고 <br>
+                      그날의 분위기에 맞춰 화면을 바꾸세요. <br>
+                      디지털 시계, 아트 포스터, <br>
+                      혹은 나만의 이미지 액자까지.</p>
+
+                    <p>인테리어 오브제로 <br>
+                      스탠바이미 2는 공간에 자연스럽게 스며듭니다.</p>
+
+                    <p>단조로운 일상에, <br>
+                      조용한 변화를 더합니다.</p>
+                  </div>
+                </div>
+
+                <div class="accessories-img-box">
+                  <img
+                    src="https://www.lge.co.kr/html/kr/story/tech-inside/lg-stand-by-me-2-accessories/images/accessories-info02.jpg"
+                    alt="">
+                  <div class="dsc-box">
+                    <ul>
+                      <li>소비자의 이해를 돕기 위해 연출된 이미지로, 실제 구현되는 화면과 다를 수 있습니다. </li>
+                      <li>상품 이미지 및 특장점 등에는 광고적 표현이 포함되어 실제 상품과 차이가 있을 수 있으며 상품 외관, 스펙 등은 제품 개량을 위해 사전 예고 없이 변경될 수 있습니다.
+                      </li>
+                      <li>모든 상품 이미지는 촬영 컷으로 실제 상품과 차이가 있을 수 있으며, 상품 색상은 모니터 해상도, 밝기 설정 및 PC 사양에 따라 차이가 있을 수 있습니다.</li>
+                    </ul>
+                    <input type="checkbox" id="dsc3">
+                    <div class="notice-box">
+                      <label for="dsc3" class="dsc-toggle"></label>
+                      <div class="notice-cont">
+                        <ul>
+                          <li>원클릭 스탠드, 스트랩, 스마트 캠 액세서리는 별매입니다. <br class="mo">세트 제품 구매 시 구성품을 확인해 주세요.</li>
+                          <li>해당 상품의 성능은 사용 환경에 따라 일부 상이할 수 있으며, <br class="mo">매장 별로 취급여부가 다를 수 있습니다.</li>
+                        </ul><br>
+
+                        <p>[벽걸이 스트랩]</p>
+                        <ul>
+                          <li>스트랩 액세서리 구매시 스트랩과 벽걸이 홀더가 기본 제공됩니다.</li>
+                          <li>벽면 거치 시 기본 제공되는 벽걸이 홀더 사용을 권장합니다. 제품의 하중을 고려한 설치가 필요하며, 그렇지 않을 경우 제품에 이상(제품 기울어짐 및 낙하 등)이
+                            생길 수
+                            있습니다.</li>
+                          <li>폴리오 커버 없이 들고 다닐 경우 화면에 긁힘이 발생할 수 있습니다.</li>
+                          <li>낙하에 의한 충격 시 제품에 문제가 발생할 수 있습니다.</li>
+                          <li>방수, 방진 기능을 지원하지 않습니다.</li>
+                          <li>태양에 장시간 노출될 경우 변색되거나 화면이 이상 동작할 수 있습니다.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accessories-review-box">
+                  <ul class="review-cont">
+                    <li>
+                      <div class="review-info">
+                        <div class="txt-box">
+                          <div class="writer-info">
+                            <img
+                              src="https://www.lge.co.kr/html/kr/story/tech-inside/lg-stand-by-me-2-accessories/images/ico-review-stars.png"
+                              alt="" class="score">
+                            <span class="name">심*린</span>
+                            <span class="date">2025.06.26</span>
+                          </div>
+                          <div class="review-box">
+                            스트랩으로 이동성이 너무 좋아졌어요
+                          </div>
+                        </div>
+                        <ul class="hashtag">
+                          <li>#이동성</li>
+                        </ul>
+                      </div>
+                      <img
+                        src="https://www.lge.co.kr/html/kr/story/tech-inside/lg-stand-by-me-2-accessories/images/accessories-info02-1.jpg"
+                        alt="" class="review-img">
+                    </li>
+                    <li>
+                      <div class="review-info">
+                        <div class="txt-box">
+                          <div class="writer-info">
+                            <img
+                              src="https://www.lge.co.kr/html/kr/story/tech-inside/lg-stand-by-me-2-accessories/images/ico-review-stars.png"
+                              alt="" class="score">
+                            <span class="name">황*영</span>
+                            <span class="date">2025.09.08</span>
+                          </div>
+                          <div class="review-box">
+                            캠핑 때 유용할것 같아 구매했어요. <br>
+                            그냥 들고 다니는거보다 훨씬 안정감있고 좋아요. <br>
+                            끈의 길이 조절이 자유롭고 조립도 쉬웠습니다!
+                          </div>
+                        </div>
+                        <ul class="hashtag">
+                          <li>#편의성</li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="review-info">
+                        <div class="txt-box">
+                          <div class="writer-info">
+                            <img
+                              src="https://www.lge.co.kr/html/kr/story/tech-inside/lg-stand-by-me-2-accessories/images/ico-review-stars.png"
+                              alt="" class="score">
+                            <span class="name">강*희</span>
+                            <span class="date">2025.12.15</span>
+                          </div>
+                          <div class="review-box">
+                            스탠바이미2 벽걸이용으로 샀는데 생각보다 튼튼하고 디자인 , 색상 모두 맘에 듭니다. <br>
+                            벨트부분 면적이 넓어서 튼튼하고 그냥 끼우고 나사만 돌리고 조이면 끝이라 혼자 하기도 매우 쉽습니다.
+                          </div>
+                        </div>
+                        <ul class="hashtag">
+                          <li>#인테리어용</li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="dsc-box">
+                    <ul>
+                      <li>본 리뷰는 실제 구매 고객의 후기를 일부 발췌한 것이며, 원문은 LG전자 홈페이지 (LGE.CO.KR)내 제품 상세 페이지에서 확인하실 수 있습니다.</li>
+                      <li>제품 상세 페이지 링크: <a
+                          href="https://www.lge.co.kr/care-accessories/standbyme/mec30170602">https://www.lge.co.kr/care-accessories/standbyme/mec30170602</a>
+                      </li>
+                      <li>본 리뷰는 구매 고객 개인의 주관적 견해에 해당하며 사실과 다를 수 있으니 제품의 기능·성능 등에 관한 자세한 내용은 제품 상세 페이지를 참고해주세요.</li>
+                    </ul>
+                    <input type="checkbox" id="dsc4">
+                    <div class="notice-box">
+                      <label for="dsc4" class="dsc-toggle"></label>
+                      <div class="notice-cont">
+                        <ul>
+                          <li>콘텐츠에 사용된 이미지는 소비자의 이해를 돕기 위해 연출된 이미지로 실제 제품과 색상 및 스펙은 다를 수 있습니다.</li>
+                          <li>본 콘텐츠에 포함된 제품의 설명은 고객의 이해를 돕기 위한 안내입니다. 실제 사용 시의 성능, 가격, 만족도 등은 사용 환경이나 비교 기준에 따라 달라질 수
+                            있습니다.
+                          </li>
+                          <li>폴리오 커버 없이 들고 다닐 경우 화면에 긁힘이 발생할 수 있습니다.</li>
+                          <li>낙하에 의한 충격 시 제품에 문제가 발생할 수 있습니다.</li>
+                          <li>방수, 방진 기능을 지원하지 않습니다.</li>
+                          <li>태양에 장시간 노출될 경우 변색되거나 화면이 이상 동작할 수 있습니다.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li id="smart-cam">
+                <div class="accessories-txt-box">
+                  <h2>스마트캠</h2>
+                  <div class="info-box">
+                    <p>스마트캠을 더하는 순간, <br>
+                      화면은 나를 비추는 공간이 됩니다.</p>
+
+                    <p>스크린 상단에 가볍게 부착해 <br>
+                      선명한 화질과 듀얼 마이크로 영상 통화를 즐기고, <br>
+                      사용하지 않을 땐 렌즈 덮개를 닫아 <br>
+                      프라이버시까지 안전하게 지켜줍니다.</p>
+
+                    <p>별도의 설정 없이 바로 연결되는 편리함. <br>
+                      내장된 피트니스 앱과 함께라면 <br>
+                      내 움직임을 확인하며 더 정확하게 <br>
+                      집에서도 효과적인 나만의 트레이닝이 이어집니다.</p>
+                  </div>
+                </div>
+
+                <div class="accessories-img-box">
+                  <img
+                    src="https://www.lge.co.kr/html/kr/story/tech-inside/lg-stand-by-me-2-accessories/images/accessories-info03.jpg"
+                    alt="">
+                  <div class="dsc-box">
+                    <ul>
+                      <li>소비자의 이해를 돕기 위해 연출된 이미지로, 실제 구현되는 화면과 다를 수 있습니다. </li>
+                      <li>상품 이미지 및 특장점 등에는 광고적 표현이 포함되어 실제 상품과 차이가 있을 수 있으며 상품 외관, 스펙 등은 제품 개량을 위해 사전 예고 없이 변경될 수 있습니다.
+                      </li>
+                      <li>모든 상품 이미지는 촬영 컷으로 실제 상품과 차이가 있을 수 있으며, 상품 색상은 모니터 해상도, 밝기 설정 및 PC 사양에 따라 차이가 있을 수 있습니다.</li>
+                    </ul>
+                    <input type="checkbox" id="dsc5">
+                    <div class="notice-box">
+                      <label for="dsc5" class="dsc-toggle"></label>
+                      <div class="notice-cont">
+                        <ul>
+                          <li>원클릭 스탠드, 스트랩, 스마트 캠 액세서리는 별매입니다. <br class="mo">세트 제품 구매 시 구성품을 확인해 주세요.</li>
+                          <li>해당 상품의 성능은 사용 환경에 따라 일부 상이할 수 있으며, <br class="mo">매장 별로 취급여부가 다를 수 있습니다.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accessories-review-box">
+                  <ul class="review-cont">
+                    <li>
+                      <div class="review-info">
+                        <div class="txt-box">
+                          <div class="writer-info">
+                            <img
+                              src="https://www.lge.co.kr/html/kr/story/tech-inside/lg-stand-by-me-2-accessories/images/ico-review-stars.png"
+                              alt="" class="score">
+                            <span class="name">김*준</span>
+                            <span class="date">2025.06.26</span>
+                          </div>
+                          <div class="review-box">
+                            배송도 빠르고 카메라 성능도 좋네요. 잘쓸게요.
+                          </div>
+                        </div>
+                        <ul class="hashtag">
+                          <li>#성능</li>
+                        </ul>
+                      </div>
+                      <img
+                        src="https://www.lge.co.kr/html/kr/story/tech-inside/lg-stand-by-me-2-accessories/images/accessories-info03-1.jpg"
+                        alt="" class="review-img">
+                    </li>
+                    <li>
+                      <div class="review-info">
+                        <div class="txt-box">
+                          <div class="writer-info">
+                            <img src="lg-stand-by-me-2-accessories/images/ico-review-stars.png" alt="" class="score">
+                            <span class="name">한*</span>
+                            <span class="date">2025.10.11</span>
+                          </div>
+                          <div class="review-box">
+                            설치 간편하고 디자인 깔끔하고 쫀쫀한 슬라이딩 방식의 렌즈덮개도 있어서 완전 좋아요!! <br>
+                            화질도 아주 좋고 화각 설정이랑 초점 설정 등 기능들도 너무 좋아서 완전 만족합니다~^^
+                            추천해요~!
+                          </div>
+                        </div>
+                        <ul class="hashtag">
+                          <li>#보안</li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="review-info">
+                        <div class="txt-box">
+                          <div class="writer-info">
+                            <img
+                              src="https://www.lge.co.kr/html/kr/story/tech-inside/lg-stand-by-me-2-accessories/images/ico-review-stars.png"
+                              alt="" class="score">
+                            <span class="name">남*연</span>
+                            <span class="date">2025.09.26</span>
+                          </div>
+                          <div class="review-box">
+                            스탠바이미2 벽걸이용으로 샀는데 생각보다 튼튼하고 디자인 , 색상 모두 맘에 듭니다. <br>
+                            벨트부분 면적이 넓어서 튼튼하고 그냥 끼우고 나사만 돌리고 조이면 끝이라 혼자 하기도 매우 쉽습니다.
+                          </div>
+                        </div>
+                        <ul class="hashtag">
+                          <li>#화질</li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="dsc-box">
+                    <ul>
+                      <li>본 리뷰는 실제 구매 고객의 후기를 일부 발췌한 것이며, 원문은 LG전자 홈페이지 (LGE.CO.KR)내 제품 상세 페이지에서 확인하실 수 있습니다.</li>
+                      <li>제품 상세 페이지 링크: <a
+                          href="https://www.lge.co.kr/care-accessories/standbyme/ebx64338012">https://www.lge.co.kr/care-accessories/standbyme/ebx64338012</a>
+                      </li>
+                      <li>본 리뷰는 구매 고객 개인의 주관적 견해에 해당하며 사실과 다를 수 있으니 제품의 기능·성능 등에 관한 자세한 내용은 제품 상세 페이지를 참고해주세요.</li>
+                    </ul>
+                    <input type="checkbox" id="dsc6">
+                    <div class="notice-box">
+                      <label for="dsc6" class="dsc-toggle"></label>
+                      <div class="notice-cont">
+                        <ul>
+                          <li>콘텐츠에 사용된 이미지는 소비자의 이해를 돕기 위해 연출된 이미지로 실제 제품과 색상 및 스펙은 다를 수 있습니다.</li>
+                          <li>본 콘텐츠에 포함된 제품의 설명은 고객의 이해를 돕기 위한 안내입니다. 실제 사용 시의 성능, 가격, 만족도 등은 사용 환경이나 비교 기준에 따라 달라질 수
+                            있습니다.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ol>
+          </section>
+        </div>
+        <!-- //컨텐츠 끝 -->
+      </div>
+      <!-- Contents -->
+
+      <!-- footer -->
+      <jsp:include page="/kr/footer">
+        <jsp:param name="bizType" value="B2C" />
+      </jsp:include>
+      <!-- // footer -->
+
+      <!-- footerDefault -->
+      <c:import url="/WEB-INF/jsp/common/includes/footerDefault.jsp" charEncoding="utf-8" />
+      <!-- // footerDefault -->
+    </body>
+
+</html>
