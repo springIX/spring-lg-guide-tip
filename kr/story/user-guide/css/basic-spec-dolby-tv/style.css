@@ -129,7 +129,9 @@
   margin: 0 auto;
   padding: 0;
 }
-
+#gjw001 .container video {
+  max-width: 100%;
+}
 #gjw001 .text-center {
   text-align: center;
 }
@@ -579,7 +581,27 @@
 #gjw001 .container.pdb120 {
   padding-bottom: 120px;
 }
-
+#gjw001 span.red-underbar {
+  position: relative;
+}
+#gjw001 span.red-underbar::before {
+  position: absolute;
+  content: "";
+  background-color: #ea1917b2;
+  height: 2px;
+  width: 100%;
+  bottom: 1.5px;
+  left: 1px;
+}
+#gjw001 span.red-underbar.underbar-t1::before {
+  width: 20.6px;
+}
+#gjw001 span.red-underbar.underbar-t2::before {
+  width: 10.3px;
+}
+#gjw001 span.red-underbar.underbar-t3::before {
+  width: 13.7px;
+}
 @media screen and (max-width: 950px) {
   #gjw001 .hero-title br {
     display: none;
