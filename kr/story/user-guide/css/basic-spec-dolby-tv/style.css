@@ -528,7 +528,7 @@
 /* 하단 배너 */
 #gjw001 .bottom-banner {
   background-color: #f4f4f4;
-  background-image: url("../../images/basic-spec-dolby-tv/pc/img5.jpg");
+  background-image: url("/kr/story/user-guide/img/basic-spec-dolby-tv/pc/img5.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -802,7 +802,7 @@
     align-items: center;
     text-align: center;
     padding: 28px 30px 22px 28px;
-    background-image: url("../../images/basic-spec-dolby-tv/mo/img5.jpg");
+    background-image: url("/kr/story/user-guide/img/basic-spec-dolby-tv/mo/img5.jpg");
     background-position: right;
     aspect-ratio: 1 / 1;
   }

@@ -72,7 +72,7 @@
       }
       .notice-box{
         .dsc-toggle{ display: flex; gap: 2px; 
-          &::before{ content: '열기'; font-weight: 700;}
+          &::before{ content: '더보기'; font-weight: 700;}
           &::after{ content: ''; width: 20px; height: 20px; background:url(../images/ico-more.png)no-repeat center center / contain; transform: rotate(180deg); transition: .3s ease;
             @include screen("mo") { width: 16px; height: 16px;}
           }
@@ -83,7 +83,7 @@
       }
       input:checked + .notice-box{
         .dsc-toggle{
-          &::before{ content: '닫기';}
+          &::before{ content: '더보기';}
           &::after{ transform: rotate(0deg);}
         }
         .notice-cont{ display: block;}
