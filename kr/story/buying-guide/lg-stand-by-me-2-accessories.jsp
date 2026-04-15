@@ -533,7 +533,9 @@
                       <div class="review-info">
                         <div class="txt-box">
                           <div class="writer-info">
-                            <img src="lg-stand-by-me-2-accessories/images/ico-review-stars.png" alt="" class="score">
+                            <img
+                              src="https://www.lge.co.kr/html/kr/story/tech-inside/lg-stand-by-me-2-accessories/images/ico-review-stars.png"
+                              alt="" class="score">
                             <span class="name">한*</span>
                             <span class="date">2025.10.11</span>
                           </div>
