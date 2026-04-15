@@ -12,6 +12,7 @@ html {
   font-size: 14px;
   position: relative;
   line-height: 1.4;
+  word-break: keep-all;
 }
 @media (max-width: 780px) {
   .lge-stanby-me2 {
@@ -20,6 +21,9 @@ html {
 }
 .lge-stanby-me2 ::-webkit-scrollbar {
   display: none;
+}
+.lge-stanby-me2 ::-moz-placeholder {
+  color: #6c6c6c;
 }
 .lge-stanby-me2 ::placeholder {
   color: #6c6c6c;
@@ -123,4 +127,4 @@ html {
 .lge-stanby-me2 picture {
   display: block;
   width: 100%;
-}
+}/*# sourceMappingURL=common.css.map */

@@ -3,7 +3,7 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
 @import url("main.css");
 html{ scroll-behavior: smooth;}
-.lge-stanby-me2{ font-size: 14px; position: relative; line-height: 1.4;
+.lge-stanby-me2{ font-size: 14px; position: relative; line-height: 1.4; word-break: keep-all;
   @include screen("mo") { font-size: 12px;}
   ::-webkit-scrollbar{ display: none;}
   ::placeholder{ color: #6c6c6c;}
