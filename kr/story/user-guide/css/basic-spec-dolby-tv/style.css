@@ -173,6 +173,7 @@
 #gjw001 ul.notice-text {
   text-align: left;
   margin-top: 20px;
+  gap: 0;
 }
 
 #gjw001 ul.notice-text li {
@@ -243,7 +244,7 @@
 }
 
 #gjw001 .hero-title {
-  font-size: 48px;
+  font-size: 44px;
   font-weight: 700;
   line-height: 1.4;
   color: #191c1f;
@@ -264,7 +265,9 @@
   max-width: 2560px;
   margin: 0 auto;
 }
-
+#gjw001 .hero-img-wrap img {
+  width: 100%;
+}
 #gjw001 .hero-notice {
   text-align: left;
   max-width: 1920px;
@@ -406,7 +409,7 @@
 
 /* Tip 박스 */
 #gjw001 .tip-section {
-  margin-top: 40px;
+  margin-top: 120px;
 }
 
 #gjw001 .tip-badge {
@@ -508,11 +511,12 @@
 }
 
 #gjw001 .guide-item ul li {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.6;
   letter-spacing: -0.005em;
   display: flex;
   align-items: flex-start;
+  font-weight: 500;
 }
 
 #gjw001 .guide-item ul li img.chk {
@@ -561,8 +565,14 @@
   font-weight: 600;
   font-size: 15px;
   transition: background 0.3s;
+  display: flex;
+  align-items: center;
 }
-
+#gjw001 img.right-arrow {
+  width: 5.5px;
+  height: 11px;
+  margin-left: 12px;
+}
 #gjw001 .btn-black:hover {
   background-color: #333;
 }
@@ -723,6 +733,7 @@
   #gjw001 .check-list .tit {
     font-size: 16px;
     line-height: 1.44;
+    margin-bottom: 4px;
   }
 
   #gjw001 .check-list .num {
@@ -740,6 +751,9 @@
   }
   #gjw001 .g-box2 .check-list .txt {
     padding-bottom: 16px;
+  }
+  #gjw001 .tip-section {
+    margin-top: 40px;
   }
   #gjw001 .tip-badge {
     font-size: 14px;
