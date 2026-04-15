@@ -35,6 +35,7 @@
       tl.to("#kv .head", {
         opacity: 0,
         zIndex: 1,
+        duration: 0.22,
       });
       return;
     }
@@ -43,6 +44,7 @@
       backgroundColor: "rgba(17, 17, 17, 0)",
       backdropFilter: "blur(0px)",
       WebkitBackdropFilter: "blur(0px)",
+      duration: 0.22,
       ease: "none",
     });
   }
@@ -51,7 +53,7 @@
     setHeadInitialState();
 
     // Keep kv layers centered by percentage so GSAP doesn't freeze X into px.
-    gsap.set("#kv .bg-img-wrap .kv3 img, #kv .bg-img-wrap .kv4 img", {
+    gsap.set("#kv .bg-img-wrap .kv4 img", {
       xPercent: -50,
       yPercent: -50,
       x: 0,
@@ -64,50 +66,76 @@
       zIndex: 2,
     });
 
-    gsap.set("#kv .bg-img-wrap .kv3 img", {
-      opacity: 1,
-      scale: 1,
-      zIndex: 3,
-      transformOrigin: "50% 50%",
-    });
-
     gsap.set("#kv .bg-img-wrap .kv2 img, #kv .bg-img-wrap .kv5 img", {
       opacity: 0,
     });
+
+    if (hasIntroWrapLayer) {
+      gsap.set("#kv .intro-wrap", { opacity: 0, zIndex: 1 });
+    }
   }
 
-  function buildRoniKvTimeline(tl) {
-    setRoniKvInitialState();
+  function createRoniRevealTimeline() {
+    var revealTl = gsap.timeline({ paused: true });
 
-    appendHeadFadeMotion(tl);
-
-    tl.to("#kv .bg-img-wrap .kv3 img, #kv .bg-img-wrap .kv4 img", {
-      scale: 1.06,
-      yPercent: -38, // -50 baseline -> move down about 2%
-      ease: "none",
-    })
-      .to(
-        "#kv .bg-img-wrap .kv2 img",
-        {
-          opacity: 1,
-          duration: 0.45,
-          ease: "none",
-        },
-        "+=0.2"
-      )
+    revealTl
+      .to("#kv .bg-img-wrap .kv2 img", {
+        opacity: 1,
+        duration: 0.3,
+        ease: "none",
+      })
       .to(
         "#kv .bg-img-wrap .kv5 img",
         {
           opacity: 1,
-          duration: 0.45,
+          duration: 0.3,
           ease: "none",
         },
-        ">+=0.2"
+        "<+=0.08"
       );
 
     if (hasIntroWrapLayer) {
-      tl.to("#kv .intro-wrap", { opacity: 1, zIndex: 2 });
+      revealTl.to("#kv .intro-wrap", {
+        opacity: 1,
+        zIndex: 2,
+        duration: 0.25,
+        ease: "none",
+      });
     }
+
+    return revealTl;
+  }
+
+  function buildRoniKvTimeline(tl) {
+    setRoniKvInitialState();
+    var revealTl = createRoniRevealTimeline();
+    var didAutoReveal = false;
+
+    appendHeadFadeMotion(tl);
+
+    tl.to("#kv .bg-img-wrap .kv4 img", {
+      scale: 1.06,
+      yPercent: -45, // -50 baseline -> move down about 2%
+      duration: 0.25,
+      ease: "none",
+    }).to({}, {
+      duration: 0.4,
+      onStart: function () {
+        if (didAutoReveal) return;
+        didAutoReveal = true;
+        revealTl.play(0); // auto-play, not scrubbed by scroll
+      },
+      onReverseComplete: function () {
+        didAutoReveal = false;
+        revealTl.pause(0);
+        gsap.set("#kv .bg-img-wrap .kv2 img, #kv .bg-img-wrap .kv5 img", {
+          opacity: 0,
+        });
+        if (hasIntroWrapLayer) {
+          gsap.set("#kv .intro-wrap", { opacity: 0, zIndex: 1 });
+        }
+      },
+    });
   }
 
   function createKvTimeline() {
@@ -115,14 +143,18 @@
       scrollTrigger: {
         trigger: "#kv",
         start: "top top",
-        end: "bottom bottom",
+        end: "+=120%",
         scrub: 1,
-        pin: "#kv .inwrap",
+        pin: "#kv",
+        pinSpacing: true,
         anticipatePin: 1,
         invalidateOnRefresh: true,
+        onToggle: function (self) {
+          $("#designlg").toggleClass("kv-active", self.isActive);
+        },
         onRefresh: function () {
           if (!hasRoniKvLayer) return;
-          gsap.set("#kv .bg-img-wrap .kv3 img, #kv .bg-img-wrap .kv4 img", {
+          gsap.set("#kv .bg-img-wrap .kv4 img", {
             xPercent: -50,
             yPercent: -50,
             x: 0,
@@ -148,7 +180,6 @@
 
     tl.to("#kv .head", { opacity: 0 })
       .to("#kv .bg-img-wrap .kv2 img", { opacity: 1 })
-      .to("#kv .bg-img-wrap .kv3 img", { opacity: 1 })
       .to("#kv .bg-img-wrap .kv-shine1 img", { opacity: 1 })
       .to("#kv .bg-img-wrap .kv-shine2 img", { opacity: 1 }, "+=0.3");
 

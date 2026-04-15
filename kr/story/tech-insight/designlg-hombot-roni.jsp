@@ -69,13 +69,7 @@
           </div>
           <div class="bg-img-wrap">
             <div class="bg-type bg1">
-              <picture class="kv1 active">
-                <source srcset="
-                        /kr/story/tech-inside/img/designlg/ep03/kv-mo.webp 2x
-                      " media="(max-width: 767px)" />
-                <source srcset="/kr/story/tech-inside/img/designlg/ep03/kv.webp" media="(min-width: 768px)" />
-                <img src="/kr/story/tech-inside/img/designlg/ep03/kv.webp" alt="" />
-              </picture>
+              <div class="kv1 active" aria-hidden="true"></div>
               <picture class="kv2">
                 <source srcset="
                         /kr/story/tech-inside/img/designlg/ep03/steam2-mo.webp 2x
