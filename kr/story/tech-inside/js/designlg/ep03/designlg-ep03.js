@@ -9,6 +9,7 @@
     // **************** nav ****************
     var $nav = $('#designlg nav[aria-label="본문 섹션 탐색"]');
     var $links = $nav.find('a');
+    var $storySec2 = $('#designlg #STORY .content-sec.sec2');
     var sections = ['#STORY', '#DESIGN', '#INTERVIEW', '#INSPIRATION', '#BANNER'];
     var lastScrollTop = 0;
 
@@ -116,6 +117,19 @@
         } else {
           // 웹일 때는 항상 0
           topGap = 0;
+        }
+      }
+
+      if ($storySec2.length) {
+        var sec2Top = $storySec2.offset().top;
+        var sec2TriggerLine = wTop + $(window).innerHeight() * 3 / 4;
+
+        if (sec2TriggerLine >= sec2Top) {
+          if (!$storySec2.hasClass('sec2-steam-on')) {
+            $storySec2.addClass('sec2-steam-on');
+          }
+        } else if ($storySec2.hasClass('sec2-steam-on')) {
+          $storySec2.removeClass('sec2-steam-on');
         }
       }
 

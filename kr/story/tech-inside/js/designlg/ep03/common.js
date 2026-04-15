@@ -28,6 +28,7 @@
 
     // Target only content sections for scroll-triggered fade-in classes.
     var $articles = $('#designlg section .content-sec');
+    var $storySec2 = $('#designlg #STORY .content-sec.sec2');
 
     // Smooth-scroll to section when a nav link is clicked.
     $links.on('click', function(e) {
@@ -103,6 +104,23 @@
           $article.addClass('on');
         }
       });
+
+      // ===========================
+      // 2-1) STORY sec2 steam re-trigger
+      // - add when crossing 3/4 viewport line
+      // - remove when scrolling back above that line
+      // ===========================
+      if ($storySec2.length) {
+        var sec2Top = $storySec2.offset().top;
+
+        if (triggerLine >= sec2Top) {
+          if (!$storySec2.hasClass('sec2-steam-on')) {
+            $storySec2.addClass('sec2-steam-on');
+          }
+        } else if ($storySec2.hasClass('sec2-steam-on')) {
+          $storySec2.removeClass('sec2-steam-on');
+        }
+      }
 
       // ===========================
       // 3) Sticky nav top offset control

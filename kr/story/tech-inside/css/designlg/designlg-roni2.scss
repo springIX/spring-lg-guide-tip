@@ -90,6 +90,9 @@
   position: relative;
   border-radius: 4px;
   overflow: hidden;
+  @media screen and (max-width: 767px) {
+    border-radius: 2px;
+  }
 }
 
 #designlg section .sec-inner .controller-wrap,
@@ -277,7 +280,7 @@
 #designlg section .content-sec .sec-head .sec-title {
   font-size: 40px;
   font-weight: 700;
-  line-height: 1.68;
+  line-height: 1.2;
   grid-column: 1;
 
   @media screen and (max-width: 767px) {
@@ -1041,10 +1044,13 @@
   opacity: 0;
   transition: all 0.8s ease-in-out;
   display: flex;
-  flex-direction: row;
-  gap: 152px;
+  flex-direction: column;
+  gap: 40px;
+  width: fit-content;
+  margin-right: 0;
+  margin-left: auto;
+  padding-right: 120px;
   @media screen and (max-width: 767px) {
-    flex-direction: column;
     gap: 20px;
   }
 }
@@ -1106,7 +1112,7 @@
   will-change: transform;
 }
 
-#designlg #STORY .content-sec.sec2.on::before {
+#designlg #STORY .content-sec.sec2.sec2-steam-on::before {
   --sec2-steam-shift-x: 300px;
 }
 
@@ -1170,7 +1176,7 @@
     opacity: 1;
   }
 
-  #designlg #STORY .content-sec.sec2.on::before {
+  #designlg #STORY .content-sec.sec2.sec2-steam-on::before {
     --sec2-steam-shift-x: 120px;
   }
 }
@@ -1208,7 +1214,7 @@
 #designlg #STORY .content-sec .sec-head .sec-copy {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 40px;
   width: 100%;
 
   @media screen and (max-width: 767px) {
@@ -1313,7 +1319,7 @@
 #designlg #DESIGN .content-sec.sec1 .sec-cnt .cnt-img {
   display: flex;
   align-items: stretch;
-  gap: 16px;
+  gap: 0.8333vw;
 
   @media screen and (max-width: 767px) {
     flex-direction: column;
@@ -1322,26 +1328,45 @@
 }
 
 #designlg #DESIGN .content-sec.sec1 .sec-cnt .cnt-img .left-img {
-  width: 100%;
-  max-width: calc(1252 / (1252 + 620) * 100%);
-  aspect-ratio: 1252 / 1000;
+  width: 65.2083vw;
+  height: 52.0833vw;
   border-radius: 4px;
   overflow: hidden;
-
+  @media screen and (min-width: 1921px) {
+    width: 1252px;
+    height: 1000px;
+  }
   @media screen and (max-width: 767px) {
-    max-width: unset;
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+  }
+}
+#designlg #DESIGN .content-sec.sec1 .sec-cnt .cnt-img .left-img img {
+  width: 65.2083vw;
+  height: 52.0833vw;
+  @media screen and (min-width: 1921px) {
+    width: 1252px;
+    height: 1000px;
+  }
+  @media screen and (max-width: 767px) {
+    width: 100%;
+    height: auto;
   }
 }
 
 #designlg #DESIGN .content-sec.sec1 .sec-cnt .cnt-img > ul {
-  width: 100%;
-  max-width: 615px;
+  width: 32.0313vw;
   display: flex;
   flex-direction: column;
-  row-gap: 16px;
-
+  row-gap: 0.8333vw;
+  @media screen and (min-width: 1921px) {
+    width: 615px;
+    row-gap: 16px;
+  }
+  
   @media screen and (max-width: 767px) {
-    max-width: unset;
+    width: 100%;
     flex-direction: row;
     gap: 0 10px;
   }
@@ -1351,9 +1376,18 @@
   min-height: 0;
   border-radius: 4px;
   overflow: hidden;
+  width: 32.2917vw;
+  height: 25.6250vw;
+  @media screen and (min-width: 1921px) {
+    width: 620px;
+    height: 492px;
+  }
 
   @media screen and (max-width: 767px) {
+    border-radius: 2px;
     flex: 1;
+    width: 50%;
+    height: auto;
   }
 }
 
@@ -1408,6 +1442,16 @@
 #designlg #DESIGN .content-sec.sec2.on .sec-cnt .cnt-img ul li:nth-child(3) {
   opacity: 1;
   transform: translateY(0);
+}
+#designlg #DESIGN .content-sec.sec2.on .sec-cnt .cnt-img .left-img img,
+#designlg #DESIGN .content-sec.sec2.on .sec-cnt .cnt-img ul li:nth-child(1) img,
+#designlg #DESIGN .content-sec.sec2.on .sec-cnt .cnt-img ul li:nth-child(2) img,
+#designlg #DESIGN .content-sec.sec2.on .sec-cnt .cnt-img ul li:nth-child(3) img {
+  border-radius: 4px;
+  overflow: hidden;
+  @media screen and (max-width: 767px) {
+    border-radius: 2px;
+  }
 }
 
 /* PC order: sec-head -> left-img -> li(1) -> li(3) */
@@ -2498,7 +2542,7 @@
   }
 }
 
-#designlg #INSPIRATION .img-list li+li {
+#designlg #INSPIRATION .img-list li + li {
   @media screen and (max-width: 767px) {
     margin-top: 20px;
   }
@@ -2506,10 +2550,10 @@
 
 #designlg #INSPIRATION .img-list li img {
   overflow: hidden;
-  border-radius: 6px;
+  border-radius: 2px;
   
   @media screen and (min-width: 768px) {
-    border-radius: 8px;
+    border-radius: 4px;
     transform: scale(0.94);
     transform-origin: 50% 100%;
     filter: saturate(0.9) brightness(0.9);
