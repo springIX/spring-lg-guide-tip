@@ -359,8 +359,9 @@ img.pc-img {
   width: 10px;
   height: 10px;
   margin: 0 5px;
-  background-color: #595959 !important;
+  border: 2px solid #919191;
   opacity: 1 !important;
+  background-color: transparent;
 }
 .swiper .swiper-pagination .swiper-pagination-bullet:before {
   width: 10px;
@@ -369,12 +370,14 @@ img.pc-img {
 }
 .swiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   width: 10px;
-  background-color: #fd312e;
+  background-color: #A50034;
+  border: 2px solid #A50034;
   border-radius: 50%;
 }
 .swiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active:before {
   width: 10px;
-  background-color: #fd312e;
+  background-color: #A50034;
+  border: 2px solid #A50034;
 }
 
 /*////////////////////////////////

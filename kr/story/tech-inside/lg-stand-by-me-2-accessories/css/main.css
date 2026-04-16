@@ -40,7 +40,8 @@
   top: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .lge-stanby-me2 .flex {
   display: flex;
@@ -60,6 +61,9 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+.lge-stanby-me2 .ib {
+  display: inline-block;
 }
 @media (min-width: 781px) {
   .lge-stanby-me2 .mo {
@@ -97,7 +101,7 @@
   font-size: 14px;
   color: #646669;
   margin-top: 20px;
-  letter-spacing: -0.8px;
+  letter-spacing: -0.5px;
   line-height: 1.44;
 }
 @media (max-width: 780px) {
@@ -129,7 +133,7 @@
   gap: 2px;
 }
 .lge-stanby-me2 section .dsc-box .notice-box .dsc-toggle::before {
-  content: "열기";
+  content: "더보기";
   font-weight: 700;
 }
 .lge-stanby-me2 section .dsc-box .notice-box .dsc-toggle::after {
@@ -195,9 +199,12 @@
     font-size: 18px;
   }
 }
-.lge-stanby-me2 section.key-visual img {
-  height: 67vw;
-  object-fit: cover;
+@media (max-width: 780px) {
+  .lge-stanby-me2 section.key-visual img {
+    height: 67vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }
 .lge-stanby-me2 section.accessories-list-wrap .accessories-list {
   display: flex;
@@ -216,32 +223,23 @@
 }
 .lge-stanby-me2 section.accessories-list-wrap .accessories-list li {
   width: 100%;
-}
-.lge-stanby-me2 section.accessories-list-wrap .accessories-list li a {
-  width: 100%;
   background-color: #F4F4F4;
   border-radius: 20px;
   padding: 60px 0 48px;
   overflow: hidden;
-  transition: 0.3s ease;
 }
 @media (max-width: 780px) {
-  .lge-stanby-me2 section.accessories-list-wrap .accessories-list li a {
+  .lge-stanby-me2 section.accessories-list-wrap .accessories-list li {
     display: flex;
     padding: 32px 39px;
     justify-content: space-between;
   }
 }
-@media (min-width: 781px) {
-  .lge-stanby-me2 section.accessories-list-wrap .accessories-list li a:hover {
-    transform: translateY(-5px);
-  }
-}
-.lge-stanby-me2 section.accessories-list-wrap .accessories-list li a .txt-box {
+.lge-stanby-me2 section.accessories-list-wrap .accessories-list li .txt-box {
   font-weight: 600;
   letter-spacing: -0.8px;
 }
-.lge-stanby-me2 section.accessories-list-wrap .accessories-list li a .txt-box::before {
+.lge-stanby-me2 section.accessories-list-wrap .accessories-list li .txt-box::before {
   display: block;
   text-align: center;
   counter-increment: accessories-list;
@@ -256,42 +254,43 @@
   margin: 0 auto;
 }
 @media (max-width: 780px) {
-  .lge-stanby-me2 section.accessories-list-wrap .accessories-list li a .txt-box::before {
+  .lge-stanby-me2 section.accessories-list-wrap .accessories-list li .txt-box::before {
     margin: 0;
   }
 }
-.lge-stanby-me2 section.accessories-list-wrap .accessories-list li a .txt-box span {
+.lge-stanby-me2 section.accessories-list-wrap .accessories-list li .txt-box span {
   display: block;
   margin: 16px 0 2px;
   font-size: 16px;
   color: #444;
 }
 @media (max-width: 780px) {
-  .lge-stanby-me2 section.accessories-list-wrap .accessories-list li a .txt-box span {
+  .lge-stanby-me2 section.accessories-list-wrap .accessories-list li .txt-box span {
     margin-top: 14px;
     font-size: 14px;
   }
 }
-.lge-stanby-me2 section.accessories-list-wrap .accessories-list li a .txt-box h3 {
+.lge-stanby-me2 section.accessories-list-wrap .accessories-list li .txt-box h3 {
   font-size: 24px;
   border-bottom: 4px solid #FFF600;
   display: inline-block;
 }
 @media (max-width: 780px) {
-  .lge-stanby-me2 section.accessories-list-wrap .accessories-list li a .txt-box h3 {
+  .lge-stanby-me2 section.accessories-list-wrap .accessories-list li .txt-box h3 {
     font-size: 18px;
     border-bottom-width: 2px;
   }
 }
-.lge-stanby-me2 section.accessories-list-wrap .accessories-list li a img {
+.lge-stanby-me2 section.accessories-list-wrap .accessories-list li img {
   margin-top: 40px;
 }
 @media (max-width: 780px) {
-  .lge-stanby-me2 section.accessories-list-wrap .accessories-list li a img {
+  .lge-stanby-me2 section.accessories-list-wrap .accessories-list li img {
     margin-top: 0;
     height: 116px;
     width: 154px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 .lge-stanby-me2 section.accessories-list-wrap .summation {
@@ -418,7 +417,7 @@
   }
 }
 .lge-stanby-me2 section.accessories-info-wrap .accessories-info > li .accessories-review-box {
-  letter-spacing: -0.8px;
+  letter-spacing: -0.5px;
 }
 .lge-stanby-me2 section.accessories-info-wrap .accessories-info > li .accessories-review-box .review-cont {
   display: grid;
@@ -536,4 +535,4 @@
     padding: 4px 10px;
     font-size: 12px;
   }
-}
+}/*# sourceMappingURL=main.css.map */
