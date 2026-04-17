@@ -4,7 +4,7 @@
     {
       "format": "expanded",
       "extensionName": ".css"
-      // "savePath": "~/../css"  <-- 이 줄을 지우세요!
+      // "savePath": "~/../css"  <-- 이 줄을 지우세요!  
     }
   ]
 }
