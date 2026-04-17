@@ -54,15 +54,8 @@
   font-size: 12px;
   line-height: 1.54;
   letter-spacing: -0.24px;
-  color: #6A6D70;
+  color: #9a9ea3;
   font-weight: 400;
-}
-@media screen and (min-width: 768px) {
-  #designlg section .disclaimer p {
-    font-size: 11px;
-    line-height: 142%;
-    letter-spacing: -0.22px;
-  }
 }
 
 #designlg section .disclaimer p::before {
@@ -70,7 +63,7 @@
   font-size: 12px;
   line-height: 1.54;
   letter-spacing: -0.24px;
-  color: #6A6D70;
+  color: #6a6d70;
   font-weight: 400;
   position: absolute;
   top: 1px;
@@ -82,7 +75,7 @@
   font-size: 12px;
   line-height: 1.54;
   letter-spacing: -0.24px;
-  color: #6A6D70;
+  color: #6a6d70;
 }
 
 #designlg .video-inner-wrap {
@@ -209,7 +202,7 @@
   font-size: 18px;
   line-height: 1.58;
   letter-spacing: -0.36px;
-  color: #646669;
+  color: #66645f;
   display: inline-block;
   transform: translateY(100%);
   transition: transform 0.5s ease-in-out;
@@ -259,7 +252,7 @@
 #designlg section .content-sec .sec-head.sec-column {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 34px;
 }
 
 #designlg section .content-sec .sec-head.sec-row {
@@ -574,7 +567,8 @@
   font-size: 40px;
   line-height: 1.3;
   letter-spacing: -0.8px;
-  color: #F3F3F3;
+  color: #f3f3f3;
+  width: 445px;
 }
 
 #designlg #kv .intro-wrap .desc-wrap {
@@ -915,7 +909,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: -0.36px;
-    color: #A0A0A0;
+    color: #a0a0a0;
   }
   #designlg #kv .intro-wrap .disclaimer {
     position: relative;
@@ -969,6 +963,18 @@
     font-size: 12px;
     line-height: 1.3;
     height: 40px;
+  }
+  #designlg nav ul li:nth-child(1) a {
+    width: auto;
+  }
+  #designlg nav ul li:nth-child(2) a {
+    width: auto;
+  }
+  #designlg nav ul li:nth-child(3) a {
+    width: auto;
+  }
+  #designlg nav ul li:nth-child(4) a {
+    width: auto;
   }
 }
 @media screen and (max-width: 390px) {
@@ -1043,6 +1049,22 @@
   flex: 1;
 }
 
+#designlg nav ul li:nth-child(1) a {
+  width: 349px;
+}
+
+#designlg nav ul li:nth-child(2) a {
+  width: 362px;
+}
+
+#designlg nav ul li:nth-child(3) a {
+  width: 363px;
+}
+
+#designlg nav ul li:nth-child(4) a {
+  width: 345px;
+}
+
 #designlg nav ul li a {
   padding: 14px 0;
   display: block;
@@ -1076,7 +1098,7 @@
 
 #designlg nav ul li.active a,
 #designlg nav ul li.active a span {
-  background-color: #10113A;
+  background-color: #10113a;
   font-weight: 700;
   color: #fff;
 }
@@ -1287,7 +1309,7 @@
 }
 
 #designlg #STORY .content-sec .sec-head .sec-title {
-  color: #F3F3F3;
+  color: #f3f3f3;
 }
 
 #designlg #STORY .content-sec.sec3 .sec-cnt {
@@ -1306,7 +1328,7 @@
 #designlg #STORY .content-sec .sec-head .sec-copy {
   display: flex;
   flex-direction: row;
-  gap: 40px;
+  gap: 32px;
   width: 100%;
 }
 @media screen and (max-width: 767px) {
@@ -1321,7 +1343,7 @@
 
 #designlg #STORY .content-sec .sec-head .sec-copy .copy {
   flex: 1;
-  color: #DDDDDD;
+  color: #dddddd;
 }
 
 #designlg #STORY .content-sec.sec3 .caption {
@@ -1345,6 +1367,7 @@
   font-weight: 400;
   line-height: 1.58;
   letter-spacing: -0.36px;
+  color: #dddddd;
 }
 @media screen and (max-width: 767px) {
   #designlg #STORY .content-sec.sec3 .caption .caption-desc {
@@ -1369,7 +1392,7 @@
 
 /* ************** DESIGN ************** */
 #designlg #DESIGN {
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
   padding: 120px 0;
 }
 @media screen and (max-width: 767px) {
@@ -1395,11 +1418,12 @@
 }
 
 #designlg #DESIGN .content-sec .sec-head .sec-copy {
-  gap: 20px;
+  gap: 32px;
 }
 
 #designlg #DESIGN .content-sec .sec-head .sec-title {
-  color: #1A1816;
+  color: #1a1816;
+  letter-spacing: -0.002em;
 }
 
 #designlg #DESIGN .content-sec .sec-head .sec-copy .copy {
@@ -1408,7 +1432,7 @@
 }
 
 #designlg #DESIGN .content-sec .sec-cnt {
-  margin-top: 60px;
+  margin-top: 57px;
 }
 @media screen and (max-width: 767px) {
   #designlg #DESIGN .content-sec .sec-cnt {
@@ -1921,11 +1945,12 @@
 
 #designlg #DESIGN .content-sec.sec4 .sec-cnt .cnt-img .caption .disclaimer {
   max-width: 506px;
+  white-space: nowrap;
 }
 
 /* ************** INTERVIEW ************** */
 #designlg #INTERVIEW {
-  background-color: #EEECF0;
+  background-color: #eeecf0;
   padding-top: 120px;
   position: relative;
 }
@@ -1984,7 +2009,7 @@
 }
 
 #designlg #INTERVIEW .inwrap .content {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   min-height: calc(100vh - 52px);
   overflow: visible;
 }
@@ -2007,7 +2032,7 @@
   max-width: 650px;
   padding: 60px 30px;
   box-sizing: border-box;
-  border-left: 1px solid #DDD;
+  border-left: 1px solid #ddd;
   position: sticky;
   top: 8px;
   align-self: flex-start;
@@ -2071,7 +2096,7 @@
   line-height: 1.5;
   letter-spacing: -0.56px;
   font-weight: 700;
-  color: #1A1816;
+  color: #1a1816;
 }
 
 #designlg #INTERVIEW .inwrap .people-list .people-detail-wrap .interview-people .group {
@@ -2112,7 +2137,7 @@
   overflow: hidden;
 }
 #designlg #INTERVIEW .inwrap .qna-wrap .qna-people .text .name {
-  color: #1A1816;
+  color: #1a1816;
   font-size: 24px;
   font-weight: 700;
   line-height: 140%; /* 33.6px */
@@ -2201,7 +2226,7 @@
 #designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd {
   margin-bottom: 60px;
   padding: 30px 37px 30px 30px;
-  background-color: #EEECF0;
+  background-color: #eeecf0;
   border-radius: var(--border-radius);
   box-sizing: border-box;
 }
@@ -2253,7 +2278,7 @@
 #designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd .qna-img li .caption {
   display: inline-flex;
   justify-content: flex-end;
-  color: #2E2C27;
+  color: #2e2c27;
   font-size: 18px;
   line-height: 1.8;
   letter-spacing: -0.36px;
@@ -2278,7 +2303,7 @@
 
 #designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd .disclaimer p,
 #designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd .disclaimer li {
-  color: #2A2926;
+  color: #2a2926;
   font-size: 14px;
   line-height: 1.8;
   letter-spacing: -0.28px;
@@ -2293,7 +2318,7 @@
 }
 
 #designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd .disclaimer p::before {
-  color: #2A2926;
+  color: #2a2926;
   font-size: 14px;
   line-height: 1.8;
   letter-spacing: -0.28px;
@@ -2301,7 +2326,7 @@
 }
 
 #designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd .disclaimer .disclaimer-sub-tit {
-  color: #2A2926;
+  color: #2a2926;
   font-size: 14px;
   line-height: 1.8;
   letter-spacing: -0.28px;
@@ -2313,7 +2338,7 @@
   line-height: 1.8;
   letter-spacing: -0.28px;
   font-weight: 500;
-  color: #2A2926;
+  color: #2a2926;
   padding-top: 5px;
 }
 
@@ -2364,10 +2389,10 @@
   #designlg #INTERVIEW .inwrap .people-list {
     width: 100%;
     padding: 24px 26px 30px;
-    border-bottom: 1px solid #DDDDDD;
+    border-bottom: 1px solid #dddddd;
     top: 40px;
     left: 0;
-    background-color: #FAFAFA;
+    background-color: #fafafa;
     z-index: 20;
     height: 136px;
     padding-top: 25px;
@@ -2498,7 +2523,7 @@
     border: 0;
   }
   #designlg #INTERVIEW .inwrap .qna-wrap .qna-list .interview-people {
-    border-bottom: 1px solid #DDDDDD;
+    border-bottom: 1px solid #dddddd;
     padding: 60px 20px 20px;
     height: 420px;
     box-sizing: border-box;
@@ -2608,10 +2633,10 @@
     height: 16px;
   }
   #designlg #INTERVIEW .inwrap .qna-wrap .qna-list dl + .disclaimer {
-    color: #9A9EA3;
+    color: #9a9ea3;
   }
   #designlg #INTERVIEW .inwrap .qna-wrap .qna-list dl + .disclaimer p {
-    color: #9A9EA3;
+    color: #9a9ea3;
     font-size: 11px;
     line-height: 1.42;
     letter-spacing: -0.22px;
@@ -2669,7 +2694,7 @@
 }
 
 #designlg #INSPIRATION .inwrap .heading .eyebrow span {
-  color: #94989C;
+  color: #646669;
 }
 
 /* GALLERY 영역(검은 박스) */
@@ -2781,7 +2806,7 @@
   font-size: 14px;
   line-height: 1.45;
   letter-spacing: -0.22px;
-  color: #94989C;
+  color: #94989c;
   text-align: right;
 }
 @media screen and (min-width: 768px) {
@@ -2955,7 +2980,7 @@
 
 #designlg #BANNER .inwrap .heading .btn-wrap {
   display: flex;
-  gap: 16px;
+  gap: 12px;
 }
 @media screen and (max-width: 767px) {
   #designlg #BANNER .inwrap .heading .btn-wrap {
@@ -2986,8 +3011,8 @@
 }
 
 #designlg #BANNER .inwrap .heading .banner-btn a:hover {
-  background-color: #0A0A0A;
-  color: #F3F5F7;
+  background-color: #0a0a0a;
+  color: #f3f5f7;
 }
 
 /* ************** OTHERDESIGNLG ************** */
@@ -3053,7 +3078,7 @@
   font-size: 24px;
   line-height: 1.46;
   letter-spacing: -0.48px;
-  color: #C6C9CE;
+  color: #c6c9ce;
   font-weight: 500;
   margin-bottom: 0;
 }
@@ -3080,8 +3105,8 @@
 }
 
 #designlg #OTHERDESIGNLG .inwrap .heading .banner-btn a:hover {
-  background-color: #F3F5F7;
-  color: #0A0A0A;
+  background-color: #f3f5f7;
+  color: #0a0a0a;
 }
 
 #designlg #OTHERDESIGNLG .inwrap .bg-img {
