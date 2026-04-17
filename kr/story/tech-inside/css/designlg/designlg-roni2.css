@@ -2079,8 +2079,7 @@
 #designlg #INTERVIEW .inwrap .people-list .people-sticky {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 30px;
+  gap: 230px;
   height: 100vh;
   box-sizing: border-box;
   max-height: calc(100vh - 52px - 8px - 8px);
@@ -2092,6 +2091,7 @@
   display: flex;
   gap: 7px;
   flex-direction: column;
+  order: 2;
 }
 
 #designlg #INTERVIEW .inwrap .people-list .tag-wrap button span {
@@ -2114,7 +2114,8 @@
 }
 
 #designlg #INTERVIEW .inwrap .people-list .people-detail-wrap {
-  margin-top: auto;
+  margin-top: 0;
+  order: 1;
 }
 
 #designlg #INTERVIEW .inwrap .people-list .people-detail-wrap .interview-people {
@@ -2455,7 +2456,6 @@
     opacity: 1;
   }
   #designlg #INTERVIEW .inwrap .people-list .people-sticky {
-    flex-direction: column-reverse;
     overflow: visible;
     gap: 0;
     height: 100%;
