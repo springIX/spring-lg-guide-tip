@@ -2014,6 +2014,7 @@
   position: sticky;
   top: 8px;
   align-self: flex-start;
+  min-height: 100vh;
 }
 
 /* (전체 높이 - sticky top - people-list padding-top - padding-bottom) */
@@ -2027,6 +2028,8 @@
   max-height: calc(100vh - 52px - 8px - 8px);
   overflow-y: auto;
   box-sizing: border-box;
+  justify-content: space-between;
+  max-height: 832px;
 }
 
 #designlg #INTERVIEW .inwrap .people-list .tag-wrap {
