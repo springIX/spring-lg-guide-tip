@@ -199,10 +199,9 @@
 
     tlHead
       .fromTo("#kv .head .char", { opacity: 0 }, { opacity: 1, duration: 1 })
-      .fromTo(
-        "#designlg #kv .head .word .line-before, #designlg #kv .head .word .line-after",
-        { height: 0 },
-        { height: "100%", duration: 1.2, delay: 0.5 },
+      .fromTo("#designlg #kv .head .word .line-before", // line-before는 위에서 아래로 확장
+        { scaleY: 0, transformOrigin: "center top" },
+        { scaleY: 1, duration: 1.2, delay: 0.5 },
         "<"
       )
       .fromTo(
@@ -216,6 +215,11 @@
         { opacity: 0 },
         { opacity: 1, duration: 0.5 },
         "-=0.3"
+      );
+    tlHead.fromTo("#designlg #kv .head .word .line-after", // line-after는 아래에서 위로 확장
+        { scaleY: 0, transformOrigin: "center bottom" },
+        { scaleY: 1, duration: 1.2, delay: 0.5 },
+        "<"
       );
 
     return tlHead;
