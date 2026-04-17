@@ -2080,7 +2080,6 @@
 #designlg #INTERVIEW .inwrap .people-list .people-sticky {
   display: flex;
   flex-direction: column;
-  gap: 230px;
   height: 100vh;
   box-sizing: border-box;
   max-height: calc(100vh - 52px - 8px - 8px);
