@@ -2086,7 +2086,7 @@
   overflow-y: auto;
   box-sizing: border-box;
   justify-content: space-between;
-  max-height: 832px;
+  padding-bottom: 148px;
 }
 
 #designlg #INTERVIEW .inwrap .people-list .tag-wrap {
