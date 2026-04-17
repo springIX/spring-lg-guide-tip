@@ -586,7 +586,21 @@
     line-height: 1.5;
   }
 }
-
+#designlg #kv .inwrap .kv-stage .head .disclaimer {
+  position: absolute;
+  bottom: 24px;
+}
+#designlg #kv .inwrap .kv-stage .head .disclaimer p {
+  color: rgba(255, 255, 255, 0.80);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px; /* 157.143% */
+  letter-spacing: -0.28px;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
 #designlg #kv .intro-wrap .disclaimer {
   position: absolute;
   bottom: 24px;
