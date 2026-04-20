@@ -133,8 +133,8 @@
         }
       }
 
-      $nav.css('top', topGap + 'px');
-      $('#INTERVIEW .interview-list .interview-info').css('top', topGap + $nav.height()+'px');
+      $nav.css('transform', 'translateY(' + topGap + 'px)'); // 'top' 대신 'transform: translateY' 사용
+      $('#INTERVIEW .interview-list .interview-info').css('transform', 'translateY(' + (topGap + $nav.height()) + 'px)'); // 'top' 대신 'transform: translateY' 사용
       lastScrollTop = st;
     });
 
