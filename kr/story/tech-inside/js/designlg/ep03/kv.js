@@ -91,7 +91,7 @@
           duration: 0.3,
           ease: "none",
         },
-        "<+=0.08"
+        "<+=0.08",
       );
 
     if (hasIntroWrapLayer) {
@@ -118,24 +118,27 @@
       yPercent: -45, // -50 baseline -> move down about 2%
       duration: 0.25,
       ease: "none",
-    }).to({}, {
-      duration: 0.4,
-      onStart: function () {
-        if (didAutoReveal) return;
-        didAutoReveal = true;
-        revealTl.play(0); // auto-play, not scrubbed by scroll
+    }).to(
+      {},
+      {
+        duration: 0.4,
+        onStart: function () {
+          if (didAutoReveal) return;
+          didAutoReveal = true;
+          revealTl.play(0); // auto-play, not scrubbed by scroll
+        },
+        onReverseComplete: function () {
+          didAutoReveal = false;
+          revealTl.pause(0);
+          gsap.set("#kv .bg-img-wrap .kv2 img, #kv .bg-img-wrap .kv5 img", {
+            opacity: 0,
+          });
+          if (hasIntroWrapLayer) {
+            gsap.set("#kv .intro-wrap", { opacity: 0, zIndex: 1 });
+          }
+        },
       },
-      onReverseComplete: function () {
-        didAutoReveal = false;
-        revealTl.pause(0);
-        gsap.set("#kv .bg-img-wrap .kv2 img, #kv .bg-img-wrap .kv5 img", {
-          opacity: 0,
-        });
-        if (hasIntroWrapLayer) {
-          gsap.set("#kv .intro-wrap", { opacity: 0, zIndex: 1 });
-        }
-      },
-    });
+    );
   }
 
   function createKvTimeline() {
@@ -189,39 +192,63 @@
   }
 
   function loadHead() {
-    var hasHeadIntroTarget = document.querySelector(
-      "#kv .head .char, #designlg #kv .head .word .line-before, #designlg #kv .head .word .line-after, #designlg #kv .head .headline .headline-after, #designlg #kv .head .desc"
-    );
+    // var hasHeadIntroTarget = document.querySelector(
+    //   "#kv .head .char, #designlg #kv .head .word .line-before, #designlg #kv .head .word .line-after, #designlg #kv .head .headline .headline-after, #designlg #kv .head .desc",
+    // );
 
-    if (!hasHeadIntroTarget) return null;
+    // if (!hasHeadIntroTarget) return null;
 
+    // var tlHead = gsap.timeline({ defaults: { ease: "power1.inOut" } });
+
+    // tlHead
+    //   .fromTo("#kv .head .char", { opacity: 0 }, { opacity: 1, duration: 1 })
+    //   .fromTo(
+    //     "#designlg #kv .head .word .line-before", // line-before는 위에서 아래로 확장
+    //     { scaleY: 0, transformOrigin: "center top" },
+    //     { scaleY: 1, duration: 1.2, delay: 0.5 },
+    //     "<",
+    //   )
+    //   .fromTo(
+    //     "#designlg #kv .head .headline .headline-after",
+    //     { scaleX: 0 },
+    //     { scaleX: 1, duration: 1.1, delay: 0.3 },
+    //     "<",
+    //   )
+    //   .fromTo(
+    //     "#designlg #kv .head .desc",
+    //     { opacity: 0 },
+    //     { opacity: 1, duration: 0.5 },
+    //     "-=0.3",
+    //   );
+    // tlHead.fromTo(
+    //   "#designlg #kv .head .word .line-after", // line-after는 아래에서 위로 확장
+    //   { scaleY: 0, transformOrigin: "center bottom" },
+    //   { scaleY: 1, duration: 1.2, delay: 0.5 },
+    //   "<",
+    // );
+
+    // return tlHead;
     var tlHead = gsap.timeline({ defaults: { ease: "power1.inOut" } });
-
     tlHead
       .fromTo("#kv .head .char", { opacity: 0 }, { opacity: 1, duration: 1 })
-      .fromTo("#designlg #kv .head .word .line-before", // line-before는 위에서 아래로 확장
-        { scaleY: 0, transformOrigin: "center top" },
-        { scaleY: 1, duration: 1.2, delay: 0.5 },
-        "<"
+      .fromTo(
+        "#designlg #kv .head .word .line-before, #designlg #kv .head .word .line-after",
+        { height: 0 },
+        { height: "100%", duration: 1.2, delay: 0.5 },
+        "<",
       )
       .fromTo(
         "#designlg #kv .head .headline .headline-after",
         { scaleX: 0 },
         { scaleX: 1, duration: 1.1, delay: 0.3 },
-        "<"
+        "<",
       )
       .fromTo(
         "#designlg #kv .head .desc",
         { opacity: 0 },
         { opacity: 1, duration: 0.5 },
-        "-=0.3"
+        "-=0.3",
       );
-    tlHead.fromTo("#designlg #kv .head .word .line-after", // line-after는 아래에서 위로 확장
-        { scaleY: 0, transformOrigin: "center bottom" },
-        { scaleY: 1, duration: 1.2, delay: 0.5 },
-        "<"
-      );
-
     return tlHead;
   }
 

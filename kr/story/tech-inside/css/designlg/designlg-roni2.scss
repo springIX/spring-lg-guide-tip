@@ -2030,7 +2030,8 @@
   box-sizing: border-box;
   justify-content: space-between;
   // max-height: 832px;
-  padding-bottom: 148px;
+  // padding-bottom: 148px;
+  gap: 30px;
 }
 
 #designlg #INTERVIEW .inwrap .people-list .tag-wrap {
@@ -2046,7 +2047,7 @@
 
 #designlg #INTERVIEW .inwrap .people-list .tag-wrap button .tag {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: -0.32px;
   text-align: left;
@@ -2076,7 +2077,7 @@
 
 #designlg #INTERVIEW .inwrap .people-list .people-detail-wrap .interview-people .name {
   margin-bottom: 2px;
-  font-size: 40px;
+  font-size: 28px;
   line-height: 1.5;
   letter-spacing: -0.56px;
   font-weight: 700;
@@ -2085,7 +2086,7 @@
 
 #designlg #INTERVIEW .inwrap .people-list .people-detail-wrap .interview-people .group {
   margin-bottom: 8px;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.8;
   letter-spacing: -0.36px;
   color: #111111;
