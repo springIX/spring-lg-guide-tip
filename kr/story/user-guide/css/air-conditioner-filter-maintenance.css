@@ -41,6 +41,13 @@
 #gjw002 .mo-only {
   display: none;
 }
+#gjw002 br.pc-only {
+  display: block;
+}
+
+#gjw002 br.mo-only {
+  display: none;
+}
 
 /* ---------------------------------------------------
            Typography System (PC)
@@ -576,12 +583,38 @@
 /* ---------------------------------------------------
            Mobile Responsive (768px 이하 - 가이드 수치 적용)
         --------------------------------------------------- */
+@media screen and (max-width: 1400px) {
+  #gjw002 .sec-header .inner-kv.text-left {
+    padding-left: 20px;
+  }
+}
+/* ---------------------------------------------------
+           Mobile Responsive (768px 이하 - 가이드 수치 적용)
+        --------------------------------------------------- */
+@media screen and (max-width: 1136px) {
+  #gjw002 br,
+  #gjw002 br.mo-only,
+  #gjw002 br.pc-only {
+    display: none;
+  }
+}
+
+/* ---------------------------------------------------
+           Mobile Responsive (768px 이하 - 가이드 수치 적용)
+        --------------------------------------------------- */
 @media screen and (max-width: 768px) {
   #gjw002 .pc-only {
     display: none !important;
   }
 
   #gjw002 .mo-only {
+    display: block !important;
+  }
+  #gjw002 br.pc-only {
+    display: none !important;
+  }
+
+  #gjw002 br.mo-only {
     display: block !important;
   }
   #gjw002 .sec-header p.disclaimer,
@@ -866,5 +899,13 @@
   }
   #gjw002 .cp-desc {
     margin-top: 16px;
+  }
+  .tip-content.pb-16-mo {
+    width: 100%;
+    text-align: left;
+  }
+  #gjw002 .notice-list li {
+    padding-left: 0;
+    text-indent: -8px;
   }
 }
