@@ -1,0 +1,12 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#paint0_angular_1903_52581_clip_path)" data-figma-skip-parse="true"><g transform="matrix(-5.99151e-10 -0.0165 0.0158052 -4.91821e-10 23 22.5)"><foreignObject x="-1000" y="-1000" width="2000" height="2000"><div xmlns="http://www.w3.org/1999/xhtml" style="background:conic-gradient(from 90deg,rgba(237, 233, 222, 1) 0deg,rgba(214, 207, 191, 1) 360deg);height:100%;width:100%;opacity:1"></div></foreignObject></g></g><path d="M9 8C9 7.44772 9.44772 7 10 7H36C36.5523 7 37 7.44772 37 8V38C37 38.5523 36.5523 39 36 39H10C9.44771 39 9 38.5523 9 38V8Z" data-figma-gradient-fill="{&#34;type&#34;:&#34;GRADIENT_ANGULAR&#34;,&#34;stops&#34;:[{&#34;color&#34;:{&#34;r&#34;:0.92941176891326904,&#34;g&#34;:0.91372549533843994,&#34;b&#34;:0.87058824300765991,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:0.83921569585800171,&#34;g&#34;:0.81176471710205078,&#34;b&#34;:0.74901962280273438,&#34;a&#34;:1.0},&#34;position&#34;:1.0}],&#34;stopsVar&#34;:[{&#34;color&#34;:{&#34;r&#34;:0.92941176891326904,&#34;g&#34;:0.91372549533843994,&#34;b&#34;:0.87058824300765991,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:0.83921569585800171,&#34;g&#34;:0.81176471710205078,&#34;b&#34;:0.74901962280273438,&#34;a&#34;:1.0},&#34;position&#34;:1.0}],&#34;transform&#34;:{&#34;m00&#34;:-1.1983022432104917e-06,&#34;m01&#34;:31.610370635986328,&#34;m02&#34;:7.1948151588439941,&#34;m10&#34;:-33.0,&#34;m11&#34;:-9.8364137102180393e-07,&#34;m12&#34;:39.0},&#34;opacity&#34;:1.0,&#34;blendMode&#34;:&#34;NORMAL&#34;,&#34;visible&#34;:true}"/>
+<circle cx="23" cy="27" r="7" stroke="#9F9A8E" stroke-width="2"/>
+<circle cx="37" cy="36" r="6" fill="#9F9A8E"/>
+<path d="M37 36L39 34" stroke="white" stroke-linecap="round"/>
+<circle cx="37" cy="36" r="1" fill="white"/>
+<rect x="12" y="11" width="10" height="2" rx="1" fill="#9F9A8E"/>
+<circle cx="29" cy="12" r="1" fill="#9F9A8E"/>
+<circle cx="33" cy="12" r="1" fill="#9F9A8E"/>
+<defs>
+<clipPath id="paint0_angular_1903_52581_clip_path"><path d="M9 8C9 7.44772 9.44772 7 10 7H36C36.5523 7 37 7.44772 37 8V38C37 38.5523 36.5523 39 36 39H10C9.44771 39 9 38.5523 9 38V8Z"/></clipPath></defs>
+</svg>

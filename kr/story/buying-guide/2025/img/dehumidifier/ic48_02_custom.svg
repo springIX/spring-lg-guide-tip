@@ -1,0 +1,14 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1047_83374)">
+<g clip-path="url(#paint0_angular_1047_83374_clip_path)" data-figma-skip-parse="true"><g transform="matrix(6.18612e-10 -0.015 0.0199986 0 24 24)"><foreignObject x="-1066.67" y="-1066.67" width="2133.33" height="2133.33"><div xmlns="http://www.w3.org/1999/xhtml" style="background:conic-gradient(from 90deg,rgba(235, 231, 222, 1) 0deg,rgba(212, 205, 189, 1) 360deg);height:100%;width:100%;opacity:1"></div></foreignObject></g></g><circle cx="24" cy="24" r="15" data-figma-gradient-fill="{&#34;type&#34;:&#34;GRADIENT_ANGULAR&#34;,&#34;stops&#34;:[{&#34;color&#34;:{&#34;r&#34;:0.92156863212585449,&#34;g&#34;:0.90588235855102539,&#34;b&#34;:0.87058824300765991,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:0.83137255907058716,&#34;g&#34;:0.80392158031463623,&#34;b&#34;:0.74117648601531982,&#34;a&#34;:1.0},&#34;position&#34;:1.0}],&#34;stopsVar&#34;:[{&#34;color&#34;:{&#34;r&#34;:0.92156863212585449,&#34;g&#34;:0.90588235855102539,&#34;b&#34;:0.87058824300765991,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:0.83137255907058716,&#34;g&#34;:0.80392158031463623,&#34;b&#34;:0.74117648601531982,&#34;a&#34;:1.0},&#34;position&#34;:1.0}],&#34;transform&#34;:{&#34;m00&#34;:1.2372241826597019e-06,&#34;m01&#34;:39.997272491455078,&#34;m02&#34;:4.0013628005981445,&#34;m10&#34;:-30.000001907348633,&#34;m11&#34;:-1.8724107064826967e-07,&#34;m12&#34;:39.0},&#34;opacity&#34;:1.0,&#34;blendMode&#34;:&#34;NORMAL&#34;,&#34;visible&#34;:true}"/>
+<circle cx="24" cy="24.5" r="2.5" fill="#9F9A8E"/>
+<path d="M27.6797 17L23.9991 24.1031" stroke="#9F9A8E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7.20312 16.49C9.29156 12.1053 13.0204 8.71775 17.5848 7.0585C22.1492 5.39924 27.183 5.6014 31.5997 7.62133C36.0163 9.64126 39.4615 13.317 41.1916 17.855" stroke="#9F9A8E" stroke-width="2" stroke-linecap="round" stroke-dasharray="20 15"/>
+<path d="M33 38C31.9391 38 30.9217 37.5849 30.1716 36.8459C29.4214 36.107 29 35.1047 29 34.0597C29 31.4328 33 27 33 27C33 27 37 31.4328 37 34.0597C37 35.1047 36.5786 36.107 35.8284 36.8459C35.0783 37.5849 34.0609 38 33 38Z" fill="#9F9A8E"/>
+</g>
+<defs>
+<clipPath id="paint0_angular_1047_83374_clip_path"><circle cx="24" cy="24" r="15"/></clipPath><clipPath id="clip0_1047_83374">
+<rect width="48" height="48" fill="white"/>
+</clipPath>
+</defs>
+</svg>

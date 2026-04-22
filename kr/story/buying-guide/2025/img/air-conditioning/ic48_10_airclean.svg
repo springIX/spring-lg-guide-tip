@@ -1,0 +1,14 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M37 15H42M42 15L40 13M42 15L40 17" stroke="#7E796E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M37 24H42M42 24L40 22M42 24L40 26" stroke="#7E796E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M37 33H42M42 33L40 31M42 33L40 35" stroke="#7E796E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 6C15 5.44772 15.4477 5 16 5H32C32.5523 5 33 5.44772 33 6V42C33 42.5523 32.5523 43 32 43H16C15.4477 43 15 42.5523 15 42V6Z" fill="#E4DDCD"/>
+<circle cx="24" cy="15" r="5" stroke="#7E796E" stroke-width="2"/>
+<circle cx="7" cy="15" r="1" transform="rotate(90 7 15)" fill="#7E796E"/>
+<circle cx="10" cy="18" r="1" transform="rotate(90 10 18)" fill="#7E796E"/>
+<circle cx="10" cy="11" r="2" transform="rotate(90 10 11)" fill="#7E796E"/>
+<circle cx="10" cy="29" r="1" transform="rotate(90 10 29)" fill="#7E796E"/>
+<circle cx="7" cy="33" r="1" transform="rotate(90 7 33)" fill="#7E796E"/>
+<circle cx="8" cy="24" r="2" transform="rotate(90 8 24)" fill="#7E796E"/>
+<circle cx="10" cy="37" r="2" transform="rotate(90 10 37)" fill="#7E796E"/>
+</svg>
