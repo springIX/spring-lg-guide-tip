@@ -160,7 +160,7 @@
               </h3>
               <div id="vertical-scroll-tab" class="tab-wrap" style="--btn-width: 370px; --btn-m-width: 270px">
                 <button class="nav nav-left disabled">
-                  << /button>
+                  < </button>
                     <button class="nav nav-right">></button>
                     <div class="vertical-scroll-box">
                       <!-- <button
