@@ -157,6 +157,9 @@
   margin-top: 80px;
 }
 
+#gjw002 .mt-48 {
+  margin-top: 48px;
+}
 #gjw002 .mt-47 {
   margin-top: 47px;
 }
@@ -239,7 +242,7 @@
 #gjw002 .btn-wrap.center {
   text-align: center;
   margin-top: 28px;
-  margin-bottom: 32px;
+  padding-bottom: 32px;
 }
 
 /* ---------------------------------------------------
@@ -682,6 +685,9 @@
   #gjw002 .mt-80 {
     margin-top: 60px;
   }
+  #gjw002 .mt-48 {
+    margin-top: 60px;
+  }
   #gjw002 .mt-47 {
     margin-top: 14px;
   }
@@ -873,6 +879,7 @@
   #gjw002 .btn-wrap.center {
     margin-top: 18px;
     margin-bottom: 0;
+    padding-bottom: 0;
   }
   #gjw002 .btn-black {
     width: auto;
@@ -900,7 +907,7 @@
   #gjw002 .cp-desc {
     margin-top: 16px;
   }
-  .tip-content.pb-16-mo {
+  #gjw002 .tip-content.pb-16-mo {
     width: 100%;
     text-align: left;
   }
