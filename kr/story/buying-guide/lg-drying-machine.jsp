@@ -297,7 +297,7 @@
                           건조 용량 22kg
                           <span class="des">
                             <button class="info pc-only"></button>
-                            <span class="bubble">국내 최대 25kg 건조 용량으로 부피가 큰 빨래도 부담없이 건조</span>
+                            <span class="bubble">충분한 22kg 건조 용량으로 이불 등 부피가 큰 빨래도 여유있게 건조</span>
                           </span>
                         </p>
                       </td>
