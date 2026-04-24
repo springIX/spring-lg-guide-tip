@@ -1,0 +1,686 @@
+@charset "UTF-8";
+
+/* =======================================================
+   LG전자 결정지원 콘텐츠 공통 스타일 가이드 (Typography & Color)
+======================================================= */
+#gjw003 {
+  font-family: "Pretendard", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+  background-color: #ffffff;
+  word-break: keep-all;
+}
+
+#gjw003 * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  word-break: keep-all;
+}
+
+#gjw003 img {
+  max-width: 100%;
+  display: block;
+  width: 100%;
+}
+
+#gjw003 ul,
+#gjw003 ol,
+#gjw003 dl {
+  list-style: none;
+}
+
+#gjw003 a {
+  text-decoration: none;
+}
+
+/* PC/MO 숨김 처리 유틸리티 */
+#gjw003 .pc-only {
+  display: block;
+}
+#gjw003 .mo-only {
+  display: none;
+}
+#gjw003 br.pc-only {
+  display: block;
+}
+#gjw003 br.mo-only {
+  display: none;
+}
+
+/* ---------------------------------------------------
+   Typography System (PC) - Line Height 1.6
+--------------------------------------------------- */
+#gjw003 h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: -0.005em;
+  color: #111111;
+}
+#gjw003 h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: -0.005em;
+  color: #111111;
+}
+#gjw003 h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: -0.005em;
+  color: #111111;
+}
+#gjw003 h4 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.005em;
+  color: #555555;
+}
+#gjw003 h5 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: -0.005em;
+  color: #111111;
+}
+#gjw003 h6 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.005em;
+  color: #555555;
+}
+#gjw003 p.disclaimer {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.005em;
+  color: #777777;
+  padding-left: 10px;
+  text-indent: -10px;
+}
+
+/* 컬러 유틸리티 (가이드 기준) */
+#gjw003 .lg-red {
+  color: #fd312e !important;
+}
+#gjw003 .text-black {
+  color: #111111 !important;
+}
+#gjw003 .text-gray {
+  color: #555555 !important;
+}
+
+/* ---------------------------------------------------
+   Layout System
+--------------------------------------------------- */
+/* Text Area (Max Width 1096px + Padding 40px) */
+#gjw003 .inner-text {
+  max-width: 1136px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: left;
+}
+
+/* Hero Key Visual Area (Max Width 1380px + Padding 40px) */
+#gjw003 .inner-kv {
+  max-width: 1380px;
+  margin: 0 auto;
+}
+
+/* 여백 유틸리티 */
+#gjw003 .mt-140 {
+  margin-top: 140px;
+}
+#gjw003 .mt-120 {
+  margin-top: 120px;
+}
+#gjw003 .mt-48 {
+  margin-top: 48px;
+}
+#gjw003 .mt-40 {
+  margin-top: 40px;
+}
+#gjw003 .mt-20 {
+  margin-top: 20px;
+}
+#gjw003 .mb-60 {
+  margin-bottom: 60px;
+}
+
+#gjw003 .mb-46 {
+  margin-bottom: 46px;
+}
+#gjw003 .mb-30 {
+  margin-bottom: 30px;
+}
+#gjw003 .mb-20b {
+  margin-bottom: 20px;
+}
+#gjw003 .mb-20 {
+  margin-bottom: 20px;
+}
+#gjw003 .mb-10 {
+  margin-bottom: 10px;
+}
+
+#gjw003 .text-center {
+  text-align: center;
+}
+
+/* 공통 버튼 */
+#gjw003 .btn-black {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111111;
+  color: #ffffff;
+  padding: 14px 35px;
+  border-radius: 60px;
+  font-size: 18px;
+  font-weight: 700;
+  transition: background-color 0.3s;
+  line-height: 1.4;
+  letter-spacing: -0.005em;
+  white-space: nowrap;
+}
+#gjw003 a.btn-black img.right-arrow {
+  width: 7px;
+  height: 14px;
+  margin-left: 8px;
+}
+#gjw003 .btn-black:hover {
+  background-color: #555555;
+}
+#gjw003 .btn-wrap.center {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* ---------------------------------------------------
+   Section 0: Hero 영역
+--------------------------------------------------- */
+#gjw003 .sec-header {
+  padding-top: 80px;
+}
+#gjw003 .sec-header .eyebrow .line {
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  background-color: #111111;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+#gjw003 .sec-header .img-wrap {
+  border-radius: 0px;
+  overflow: hidden;
+}
+
+/* ---------------------------------------------------
+   Section 1: 요약
+--------------------------------------------------- */
+#gjw003 .summary-list {
+  border-top: 2px solid #000000;
+  border-bottom: 1px solid #000000;
+  padding: 2px 22px 2px 22px;
+}
+
+#gjw003 .summary-list li {
+  position: relative;
+  padding-left: 35px;
+  text-align: left;
+  padding: 20px 0 20px 35px;
+  border-bottom: 1px solid #a7a7a7;
+}
+
+#gjw003 .summary-list li::before {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 35px;
+  width: 5px;
+  height: 5px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+#gjw003 .summary-list li:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+/* ---------------------------------------------------
+   Step 공통
+--------------------------------------------------- */
+#gjw003 .step-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: flex-start;
+}
+#gjw003 .step-title .num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #111111;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+#gjw003 .sec-step .img-wrap {
+  overflow: hidden;
+
+  margin-left: 0;
+}
+
+/* ---------------------------------------------------
+   체크포인트 & 테이블
+--------------------------------------------------- */
+#gjw003 .check-point {
+  margin-top: 60px;
+  text-align: left;
+}
+#gjw003 .cp-title {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #111111;
+  margin-bottom: 30px;
+}
+
+#gjw003 .data-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-top: 1px solid #111111;
+}
+#gjw003 .data-table th,
+#gjw003 .data-table td {
+  padding: 20px 15px;
+  text-align: center;
+  border-bottom: 1px solid #eeeeee;
+  vertical-align: middle;
+}
+#gjw003 .data-table th {
+  border-bottom: 1px solid #dddddd;
+}
+#gjw003 .data-table td {
+  background-color: #ffffff;
+}
+
+/* 팁 박스 */
+#gjw003 .tip-box {
+  background-color: #f4f4f4;
+  border-radius: 16px;
+  padding: 40px;
+  margin-top: 40px;
+  display: flex;
+  align-items: flex-start;
+}
+#gjw003 .tip-box .tip-tit {
+  min-width: 130px;
+  text-align: center;
+  height: 100%;
+  display: block;
+}
+#gjw003 .tip-box .tip-content {
+  flex: 1;
+}
+#gjw003 .tip-bul {
+  padding-left: 15px;
+}
+#gjw003 .tip-bul > li {
+  position: relative;
+  margin-bottom: 15px;
+}
+#gjw003 .tip-bul > li::before {
+  content: "·";
+  position: absolute;
+  left: -15px;
+  top: 0;
+  font-size: 24px;
+  line-height: 1.6;
+  color: #111111;
+  font-weight: 700;
+}
+#gjw003 .tip-bul > li:last-child {
+  margin-bottom: 0;
+}
+
+/* 번호 리스트 (Step 3) */
+#gjw003 .num-list-red {
+  border-top: 1px solid #111111;
+  padding-top: 30px;
+}
+#gjw003 .num-list-red li {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+#gjw003 .num-list-red li:last-child {
+  margin-bottom: 0;
+}
+#gjw003 .num-list-red .n {
+  flex-shrink: 0;
+  min-width: 130px;
+  text-align: center;
+  align-content: center;
+}
+
+/* 유의사항(Disclaimer) 목록 */
+#gjw003 .notice-list {
+  padding-top: 20px;
+  text-align: left;
+}
+#gjw003 .notice-list li {
+  margin-bottom: 6px;
+}
+
+/* ---------------------------------------------------
+   중간 배너
+--------------------------------------------------- */
+#gjw003 .banner-box {
+  background-color: #f4f4f4;
+  border-radius: 16px;
+  padding: 60px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("/kr/story/user-guide/img/air-conditioner-type-guide/banner_pc.jpg");
+  background-size: cover;
+  background-position: right center;
+  min-height: 280px;
+  text-align: left;
+}
+#gjw003 .banner-box .txt-area {
+  max-width: 836px;
+  width: 100%;
+  margin: 0 auto;
+}
+#gjw003 .banner-box .btn-group {
+  display: flex;
+  gap: 16px;
+}
+
+/* ---------------------------------------------------
+   하단 제품 리스트 (4개) - 수정됨!
+--------------------------------------------------- */
+#gjw003 .product-grid {
+  display: flex;
+  gap: 16px;
+  padding-bottom: 120px;
+}
+#gjw003 .product-grid li {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#gjw003 .product-grid li .img-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+  border-radius: 16px;
+  padding: 30px 20px; /* 카드의 내부 여백을 줘서 크기를 줄임 */
+  overflow: hidden;
+  aspect-ratio: 1/1;
+}
+#gjw003 .product-grid li .img-box img {
+  width: auto;
+  height: 100%;
+  max-height: 180px; /* 이미지 세로 크기 제한 */
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+#gjw003 .product-grid li h5 {
+  margin-top: 25px;
+  text-align: center;
+}
+
+/* ---------------------------------------------------
+           Mobile Responsive (768px 이하 - 가이드 수치 적용)
+        --------------------------------------------------- */
+@media screen and (max-width: 1400px) {
+  #gjw002 .sec-header .inner-kv.text-left {
+    padding-left: 20px;
+  }
+}
+/* ---------------------------------------------------
+           Mobile Responsive (768px 이하 - 가이드 수치 적용)
+        --------------------------------------------------- */
+@media screen and (max-width: 1136px) {
+  #gjw002 br,
+  #gjw002 br.mo-only,
+  #gjw002 br.pc-only {
+    display: none;
+  }
+}
+/* ---------------------------------------------------
+   Mobile Responsive (768px 이하) - Line Height 1.4
+--------------------------------------------------- */
+@media screen and (max-width: 768px) {
+  #gjw003 .pc-only {
+    display: none !important;
+  }
+  #gjw003 .mo-only {
+    display: block !important;
+  }
+  #gjw003 br.pc-only {
+    display: none !important;
+  }
+  #gjw003 br.mo-only {
+    display: block !important;
+  }
+
+  #gjw003 .inner-text,
+  #gjw003 .inner-kv {
+    padding: 0 20px;
+  }
+
+  /* Mobile Typography - Line Height 1.4 적용 */
+  #gjw003 h1 {
+    font-size: 32px;
+    line-height: 1.4;
+    font-weight: 700;
+  }
+  #gjw003 h2 {
+    font-size: 22px;
+    line-height: 1.6;
+    font-weight: 700;
+  }
+  #gjw003 h3 {
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 700;
+  }
+  #gjw003 h4 {
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+  #gjw003 h5 {
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 700;
+  }
+  #gjw003 h6 {
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+  #gjw003 p.disclaimer {
+    font-size: 11px;
+    line-height: 1.6;
+    font-weight: 400;
+    padding-left: 8px;
+    text-indent: -8px;
+  }
+
+  /* Spacing adjustments */
+  #gjw003 .mt-140 {
+    margin-top: 80px;
+  }
+  #gjw003 .mt-120 {
+    margin-top: 60px;
+  }
+  #gjw003 .mt-48 {
+    margin-top: 30px;
+  }
+  #gjw003 .mt-40 {
+    margin-top: 30px;
+  }
+  #gjw003 .mb-60 {
+    margin-bottom: 30px;
+  }
+
+  #gjw003 .mb-46 {
+    margin-bottom: 25px;
+  }
+  #gjw003 .mb-20b {
+    margin-bottom: 10px;
+  }
+  #gjw003 .mb-20 {
+    margin-bottom: 13px;
+  }
+
+  /* 헤더 모바일 */
+  #gjw003 .sec-header {
+    padding-top: 40px;
+  }
+  #gjw003 .sec-header .eyebrow .line {
+    margin: 0 8px;
+    width: 14px;
+  }
+
+  /* 요약 리스트 모바일 */
+  #gjw003 .sec-summary,
+  #gjw003 .sec-intro {
+    text-align: left;
+  }
+  #gjw003 section.sec-step.mt-120 {
+    margin-top: 80px;
+  }
+  #gjw003 section.sec-intro.mt-120 {
+    margin-top: 80px;
+  }
+  #gjw003 .summary-list {
+    padding: 1px 0;
+  }
+  #gjw003 .summary-list li {
+    padding: 10px 0 10px 24px;
+  }
+  #gjw003 .summary-list li::before {
+    top: 23px;
+    left: 11px;
+    width: 3px;
+    height: 3px;
+  }
+
+  /* 스텝 모바일 */
+  #gjw003 .step-title {
+    gap: 10px;
+    align-items: flex-start;
+  }
+  #gjw003 .step-title .num {
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+    margin-top: 2px;
+  }
+
+  /* 모바일 테이블 스크롤 */
+  #gjw003 .table-wrap {
+    overflow-x: auto;
+    padding-bottom: 10px;
+    margin-top: 20px;
+  }
+  #gjw003 .data-table {
+    min-width: 480px;
+  }
+  #gjw003 .data-table th,
+  #gjw003 .data-table td {
+    padding: 15px 10px;
+  }
+
+  /* 팁 박스 모바일 */
+  #gjw003 .tip-box {
+    padding: 30px 20px;
+    margin-top: 30px;
+    flex-direction: column;
+  }
+  #gjw003 .tip-box .tip-tit {
+    text-align: left;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  #gjw003 .tip-bul > li::before {
+    top: -2px;
+    font-size: 20px;
+  }
+
+  /* 숫자 리스트 모바일 */
+  #gjw003 .num-list-red li {
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  #gjw003 .num-list-red .n {
+    min-width: 38px;
+  }
+
+  /* 배너 모바일 */
+  #gjw003 .banner-box {
+    flex-direction: column;
+    padding: 30px 72px 18px 72px;
+    text-align: center;
+    background-image: url("/kr/story/user-guide/img/air-conditioner-type-guide/banner_mo.jpg");
+    background-position: center bottom;
+    min-height: 350px;
+    justify-content: flex-start;
+    border-radius: 8px;
+  }
+  #gjw003 .banner-box .txt-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #gjw003 .banner-box .text-black {
+    font-size: 22px;
+  }
+  #gjw003 .banner-box .btn-group {
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+  }
+  #gjw003 .banner-box .btn-group a {
+    font-size: 16px;
+  }
+  #gjw003 .btn-black {
+    padding: 14px 20px;
+    font-size: 15px;
+    width: 100%;
+  }
+
+  /* 하단 제품 모바일 그리드 - 수정됨! */
+  #gjw003 .product-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    padding-bottom: 60px;
+  }
+  #gjw003 .product-grid li .img-box {
+    padding: 20px 10px;
+    border-radius: 12px;
+    aspect-ratio: 1/1;
+  }
+  #gjw003 .product-grid li .img-box img {
+    max-height: 110px; /* 모바일에서 이미지 세로 크기 제한 */
+  }
+  #gjw003 .product-grid li h5 {
+    margin-top: 15px;
+  }
+}
