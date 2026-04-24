@@ -417,7 +417,7 @@
 }
 .buying-guide .top-anchor {
   position: sticky;
-  top: max(env(safe-area-inset-top), 0px);
+  top: 0;
   background: #fff;
   backface-visibility: hidden;
   will-change: top;
