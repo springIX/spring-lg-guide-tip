@@ -294,7 +294,7 @@
                           <img src="/kr/story/buying-guide/2025/img/drying-machine/ic48_06_kg.svg" alt="건조 용량 25kg" />
                         </div>
                         <p>
-                          건조 용량 25kg
+                          건조 용량 22kg
                           <span class="des">
                             <button class="info pc-only"></button>
                             <span class="bubble">국내 최대 25kg 건조 용량으로 부피가 큰 빨래도 부담없이 건조</span>
