@@ -212,8 +212,8 @@
   white-space: nowrap;
 }
 #gjw002 a.btn-black img.right-arrow {
-  width: 7px;
-  height: 14px;
+  width: 10px;
+  height: 20px;
   margin-left: 8px;
 }
 #gjw002 .btn-black:hover {
@@ -231,19 +231,6 @@
         --------------------------------------------------- */
 #gjw002 .sec-header {
   padding-top: 80px;
-}
-
-#gjw002 .sec-header .eyebrow {
-  margin-bottom: 20px;
-}
-
-#gjw002 .sec-header .eyebrow .line {
-  display: inline-block;
-  width: 20px;
-  height: 2px;
-  background-color: #000000;
-  margin: 17px 8px;
-  vertical-align: middle;
 }
 
 #gjw002 .sec-header .main-title {
@@ -266,7 +253,7 @@
            Section 1: 요약
         --------------------------------------------------- */
 #gjw002 .summary-list {
-  border-top: 2px solid #000000;
+  border-top: 1px solid #000000;
   border-bottom: 1px solid #000000;
   padding: 2px 22px;
 }
@@ -686,11 +673,13 @@
   #gjw002 br.mo-only {
     display: block !important;
   }
-  #gjw002 .sec-header p.disclaimer,
+
   #gjw002 .inner-text {
     padding: 0 20px;
   }
-
+  #gjw002 .sec-header p.disclaimer {
+    padding-left: 8px;
+  }
   /* Mobile Typography */
   #gjw002 h1 {
     font-size: 32px;
@@ -775,17 +764,8 @@
   }
 
   #gjw002 .sec-header {
-    padding-top: 40px;
+    padding-top: 1.5px;
     text-align: left;
-  }
-
-  #gjw002 .sec-header .eyebrow {
-    margin-bottom: 13px;
-    line-height: 36px;
-  }
-
-  #gjw002 .sec-header .eyebrow .line {
-    margin: 0 8px;
   }
 
   #gjw002 .sec-header .main-title {
@@ -884,6 +864,7 @@
   }
   #gjw002 .tip-wrap2 {
     padding-left: 6px;
+    padding-bottom: 2px;
   }
   #gjw002 .tip-wrap2 .tip-tit {
     padding-left: 2px;
@@ -901,11 +882,15 @@
     height: 4px;
     top: 9px;
   }
-
+  #gjw002 .num-list {
+    padding-top: 2px;
+  }
   #gjw002 .num-list h3.n.lg-red {
     min-width: 38px;
   }
-
+  #gjw002 .num-list li {
+    padding: 14px 0;
+  }
   #gjw002 .banner-box {
     flex-direction: column;
     padding: 30px 0px 18px 0px;
