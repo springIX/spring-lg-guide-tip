@@ -85,13 +85,16 @@
 
 #designlg .video-inner-wrap {
   position: relative;
-  border-radius: 4px;
   overflow: hidden;
 }
 @media screen and (max-width: 767px) {
   #designlg .video-inner-wrap {
     border-radius: 2px;
   }
+}
+
+#designlg .video-inner-wrap.border-none {
+  border-radius: 0;
 }
 
 #designlg section .sec-inner .controller-wrap,
@@ -1087,7 +1090,7 @@
 @media screen and (max-width: 767px) {
   #designlg nav ul li a {
     font-size: 12px;
-    padding: 12px 16px;
+    padding: 12px 0px;
   }
 }
 
@@ -1103,6 +1106,13 @@
 #designlg nav ul li a:hover span {
   font-weight: 700;
   color: #fff;
+}
+@media screen and (max-width: 767px) {
+  #designlg nav ul li a:hover,
+  #designlg nav ul li a:hover span {
+    color: #959595;
+    font-weight: 400;
+  }
 }
 
 #designlg nav ul li.active a,
@@ -1312,10 +1322,11 @@
 
 @media screen and (max-width: 767px) {
   #designlg #STORY .content-sec.sec2::before {
-    width: 248.2051vw;
-    height: 165.3846vw;
-    top: 116px;
-    transform: translate(calc(-50% + var(--sec2-steam-shift-x)), -50%);
+    width: 968px;
+    height: 645px;
+    left: 157px;
+    top: 102px;
+    transform: translate(calc(-71% + var(--sec2-steam-shift-x)), -25%);
     opacity: 1;
   }
   #designlg #STORY .content-sec.sec2.sec2-steam-on::before {
@@ -2073,7 +2084,6 @@
   position: sticky;
   top: 8px;
   align-self: flex-start;
-  min-height: 100vh;
 }
 
 /* (전체 높이 - sticky top - people-list padding-top - padding-bottom) */
@@ -2081,12 +2091,14 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
+  height: calc(100svh - 104px);
   box-sizing: border-box;
-  max-height: calc(100vh - 52px - 8px - 8px);
+  max-height: calc(100svh - 104px);
   overflow-y: auto;
   box-sizing: border-box;
   justify-content: space-between;
-  gap: 30px;
+  padding-bottom: 60px;
+  gap: 60px;
 }
 
 #designlg #INTERVIEW .inwrap .people-list .tag-wrap {
