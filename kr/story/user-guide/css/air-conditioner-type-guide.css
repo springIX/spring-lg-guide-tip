@@ -45,7 +45,9 @@
 #gjw003 br.mo-only {
   display: none;
 }
-
+#gjw003 .pc-only-20 {
+  height: 20px;
+}
 /* ---------------------------------------------------
    Typography System (PC) - Line Height 1.4
 --------------------------------------------------- */
@@ -327,6 +329,9 @@
   vertical-align: middle;
   text-align: left;
 }
+#gjw003 .data-table th h5 {
+  line-height: 1.4;
+}
 #gjw003 .data-table th:not(:first-child),
 #gjw003 .data-table td:not(:first-child) {
   padding-left: 0;
@@ -538,6 +543,9 @@
   #gjw003 br.pc-only {
     display: none !important;
   }
+  #gjw003 br {
+    display: block !important;
+  }
   #gjw003 br.mo-only {
     display: block !important;
   }
@@ -702,16 +710,27 @@
   }
 
   /* 불릿 리스트 모바일 */
+  #gjw003 .bullet-list {
+    padding-left: 6px;
+  }
   #gjw003 .bullet-list li {
-    padding-left: 24px;
-    margin-bottom: 4.5px;
+    padding-left: 0;
+    margin-bottom: 8px;
   }
   #gjw003 .bullet-list li::before {
-    left: 10px;
-    top: 9px;
+    content: "·";
+    background-color: transparent;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.4;
+    width: auto;
+    height: auto;
+    left: -7px;
+    top: 2px;
   }
   #gjw003 .ex-txt {
-    padding-left: 24px;
+    padding-left: 6px;
     padding-bottom: 16px;
   }
 
@@ -736,9 +755,9 @@
     padding: 13px 0 0px 6px;
   }
   #gjw003 .tip-bul > li::before {
-    top: -2px;
-    font-size: 20px;
-    left: -8px;
+    top: 0px;
+    font-size: 16px;
+    left: -6px;
     width: 2px;
     height: 2px;
   }
@@ -841,5 +860,9 @@
   }
   #gjw003 .notice-list li {
     margin-bottom: 2px;
+  }
+  #gjw003 .pc-only-20 {
+    height: 0px;
+    display: none;
   }
 }

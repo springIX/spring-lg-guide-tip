@@ -553,11 +553,10 @@
 }
 
 /* 스텝 3 슬라이드 애니메이션 2초 */
-#gjw002 .slide-wrap .pc-only,
-#gjw002 .slide-wrap .mo-only {
+#gjw002 .slide-wrap {
   position: relative;
 }
-#gjw002 .slide-wrap img {
+#gjw002 .slide-wrap picture {
   position: absolute;
   top: 0;
   left: 0;
@@ -565,17 +564,17 @@
   height: 100%;
   opacity: 0;
 }
-#gjw002 .slide-wrap img:nth-child(1) {
+#gjw002 .slide-wrap picture:nth-child(1) {
   position: relative;
   animation: fadeSlide1 10s infinite;
 }
-#gjw002 .slide-wrap img:nth-child(2) {
+#gjw002 .slide-wrap picture:nth-child(2) {
   animation: fadeSlide2 10s infinite;
 }
-#gjw002 .slide-wrap img:nth-child(3) {
+#gjw002 .slide-wrap picture:nth-child(3) {
   animation: fadeSlide3 10s infinite;
 }
-#gjw002 .slide-wrap img:nth-child(4) {
+#gjw002 .slide-wrap picture:nth-child(4) {
   animation: fadeSlide4 10s infinite;
 }
 @keyframes fadeSlide1 {
