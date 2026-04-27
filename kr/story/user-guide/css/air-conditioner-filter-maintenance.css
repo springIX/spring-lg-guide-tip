@@ -118,7 +118,7 @@
 
 /* 폰트 컬러 유틸리티 (Guide Colors) */
 #gjw002 .lg-red {
-  color: #fd312e !important;
+  color: #ea1917 !important;
 }
 
 #gjw002 .text-black {
@@ -475,7 +475,7 @@
   content: "";
   position: absolute;
   left: 15px;
-  top: 10px;
+  top: 15px;
   width: 5px;
   height: 5px;
   background-color: #000000;
