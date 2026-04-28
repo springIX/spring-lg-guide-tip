@@ -122,6 +122,10 @@
     padding-left: 8px;
   }
 }
+.lge-stanby-me2 section .dsc-box ul li.red {
+  color: #DA0F47;
+  font-weight: 700;
+}
 .lge-stanby-me2 section .dsc-box ul li::before {
   content: "*";
   position: absolute;
@@ -228,7 +232,7 @@
   width: 100%;
   background-color: #F4F4F4;
   border-radius: 20px;
-  padding: 60px 0 48px;
+  padding: 60px 0 97px;
   overflow: hidden;
 }
 @media (max-width: 780px) {
