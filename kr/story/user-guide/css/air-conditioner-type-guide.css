@@ -708,7 +708,10 @@
     padding: 9px 11px;
     padding-right: 0;
   }
-
+  #gjw003 .data-table th:last-child,
+  #gjw003 .data-table td:last-child {
+    padding-left: 12px;
+  }
   /* 불릿 리스트 모바일 */
   #gjw003 .bullet-list {
     padding-left: 6px;
@@ -864,5 +867,10 @@
   #gjw003 .pc-only-20 {
     height: 0px;
     display: none;
+  }
+  #gjw003 .sec-step .img-wrap.img-manual {
+    width: 100vw;
+    margin-left: 50%;
+    transform: translateX(-50%);
   }
 }

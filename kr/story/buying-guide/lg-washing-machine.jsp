@@ -320,14 +320,15 @@
                   <div
                     class="procuct-summary vertical-scroll-box"
                     id="procuct-summary"
-                    style="--col-width: 33.33%; --table-width: 920px"
+                    style="--col-width: 25%; --table-width: 920px"
                   >
                     <div class="sticky-product-no include-tab">
                       <div class="inner">
                         <div class="inner2">
-                          <div>AI 워시타워</div>
-                          <div>워시타워</div>
-                          <div>워시타워 컴팩트</div>
+                          <div>WA2525EEZF</div>
+                          <div>WL21EGZU</div>
+                          <div>W20EGZ</div>
+                          <div>W1310BN</div>
                         </div>
                       </div>
                     </div>
@@ -346,20 +347,21 @@
                         </thead>
                         <tbody>
                           <tr class="procuct-no">
-                            <td>AI 워시타워</td>
-                            <td>워시타워</td>
+                            <td>AI 워시타워<span></span>트루스팀/자동세제함</td>
+                            <td>AI 워시타워<span></span>트루스팀/자동세제함</td>
+                            <td>AI 워시타워<span></span>트루스팀</td>
                             <td>워시타워 컴팩트</td>
                           </tr>
                           <tr>
                             <td>
                               <div class="procuct-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_16.png"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_60.png"
                                   alt="워시타워 LG 트롬 AI 오브제컬렉션 워시타워 (WA2525EGZF.AKOR) 메인이미지 3"
                                   class="front"
-                                />
+                                /> 
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_25.png"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_61.png"
                                   alt="워시타워 LG 트롬 AI 오브제컬렉션 워시타워 (WA2525EGZF.AKOR) 줌이미지 10"
                                   class="side"
                                 />
@@ -371,12 +373,29 @@
                             <td>
                               <div class="procuct-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_17.png"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_62.png"
+                                  alt="워시타워 LG 트롬 AI 오브제컬렉션 워시타워 (WA2525EGZF.AKOR) 메인이미지 3"
+                                  class="front"
+                                />
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_63.png"
+                                  alt="워시타워 LG 트롬 AI 오브제컬렉션 워시타워 (WA2525EGZF.AKOR) 줌이미지 10"
+                                  class="side"
+                                />
+                                <button class="btn-angle" name="btn-angle">
+                                  다른 각도 보기
+                                </button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_64.png"
                                   alt="워시타워 LG 트롬 오브제컬렉션 워시타워 (WL21WDU.AKOR) 메인이미지 2"
                                   class="front"
                                 />
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_26.png"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_65.png"
                                   alt="워시타워 LG 트롬 오브제컬렉션 워시타워 (WL21WDU.AKOR) 줌이미지 8"
                                   class="side"
                                 />
@@ -388,12 +407,12 @@
                             <td>
                               <div class="procuct-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_18.png"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_66.png"
                                   alt="워시타워 LG 트롬 오브제컬렉션 워시타워 컴팩트 (W10BN.AKOR) 메인이미지 2"
                                   class="front"
                                 />
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_27.png"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_67.png"
                                   alt="워시타워 LG 트롬 오브제컬렉션 워시타워 컴팩트 (W10BN.AKOR) 줌이미지 8"
                                   class="side"
                                 />
@@ -407,16 +426,18 @@
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_onebody.svg"
-                                  alt="원바디 세탁건조기"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_weight.svg"
+                                  alt="세탁 25kg / 건조 25kg"
                                 />
                               </div>
                               <p>
-                                원바디 세탁건조기
+                                세탁 25kg / 건조 25kg
                                 <span class="des">
                                   <button class="info pc-only"></button>
                                   <span class="bubble"
-                                    >세탁부터 건조까지 하나의 바디와 조작부로 간편하게 컨트롤
+                                    >최대 25kg 세탁 
+용량으로  부피가 
+큰 빨래도  부담없이 세탁
                                   </span>
                                 </span>
                               </p>
@@ -424,16 +445,18 @@
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_onebody.svg"
-                                  alt="원바디 세탁건조기"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_weight.svg"
+                                  alt="세탁 25kg / 건조 21kg"
                                 />
                               </div>
                               <p>
-                                원바디 세탁건조기
+                                세탁 25kg / 건조 21kg
                                 <span class="des">
                                   <button class="info pc-only"></button>
                                   <span class="bubble"
-                                    >세탁부터 건조까지 하나의 바디와 조작부로 간편하게 컨트롤
+                                    >최대 25kg 세탁 
+용량으로  부피가 
+큰 빨래도  부담없이 세탁
                                   </span>
                                 </span>
                               </p>
@@ -441,16 +464,36 @@
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_onebody.svg"
-                                  alt="원바디 세탁건조기"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_weight.svg"
+                                  alt="세탁 24kg / 건조 20kg"
                                 />
                               </div>
                               <p>
-                                컴팩트 원바디 세탁건조기
+                                세탁 24kg / 건조 20kg
                                 <span class="des">
                                   <button class="info pc-only"></button>
                                   <span class="bubble"
-                                    >컴팩트한 사이즈로 공간을 여유롭게 활용. 세탁기부터 건조까지 하나의 바디와 조작부로 간편하게 컨트롤
+                                    >최대 25kg 세탁 
+용량으로  부피가 
+큰 빨래도  부담없이 세탁
+                                  </span>
+                                </span>
+                              </p>
+                            </td><td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_weight.svg"
+                                  alt="세탁 13kg / 건조 10kg"
+                                />
+                              </div>
+                              <p>
+                                세탁 13kg / 건조 10kg
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >최대 25kg 세탁 
+용량으로  부피가 
+큰 빨래도  부담없이 세탁
                                   </span>
                                 </span>
                               </p>
@@ -460,12 +503,12 @@
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_tromAI.svg"
-                                  alt="트롬 AI 세탁·건조"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_AItime.svg"
+                                  alt="AI 타임센싱"
                                 />
                               </div>
                               <p>
-                                트롬 AI <br class="mobile-only" />세탁·건조
+                                AI 타임센싱
                                 <span class="des">
                                   <button class="info pc-only"></button>
                                   <span class="bubble"
@@ -474,37 +517,53 @@
                                 </span>
                               </p>
                             </td>
-                            <td>
+                            <td class="disabled">
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_deepAI.svg"
-                                  alt="딥러닝 AI X 세탁·건조"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_AItime.svg"
+                                  alt="AI 타임센싱"
                                 />
                               </div>
                               <p>
-                                딥러닝 AI X <br class="mobile-only" />6모션
-                                세탁·건조
+                                AI 타임센싱
                                 <span class="des">
                                   <button class="info pc-only"></button>
                                   <span class="bubble"
-                                    >세탁물의 무게와 재질, 오염도 등을 감지해 최적의 모션으로 세탁부터 건조까지
+                                    >세탁물 투입 후 3초 안에 빠르게 알려주는 코스별 세탁·건조 예상 시간
                                   </span>
                                 </span>
                               </p>
                             </td>
-                            <td>
+                            <td class="disabled">
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_AIddwash.svg"
-                                  alt="인공지능 DD 6모션 세탁"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_AItime.svg"
+                                  alt="AI 타임센싱"
                                 />
                               </div>
                               <p>
-                                인공지능 DD <br class="mobile-only" />6모션 세탁
+                                AI 타임센싱
                                 <span class="des">
                                   <button class="info pc-only"></button>
                                   <span class="bubble"
-                                    >세탁물의 무게와 재질, 오염도 등을 감지해 최적의 모션으로 세탁부터 건조까지
+                                    >AI로 의류의 무게·재질·오염도를 감지하고, AI 기반의 다양한 편의 기능으로 더욱 똑똑한 세탁·건조
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                            <td class="disabled">
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_AItime.svg"
+                                  alt="AI 타임센싱"
+                                />
+                              </div>
+                              <p>
+                                AI 타임센싱
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >AI로 의류의 무게·재질·오염도를 감지하고, AI 기반의 다양한 편의 기능으로 더욱 똑똑한 세탁·건조
                                   </span>
                                 </span>
                               </p>
@@ -514,16 +573,16 @@
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_AImy.svg"
-                                  alt="AI My 코스"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_AInotify.svg"
+                                  alt="AI 시간안내"
                                 />
                               </div>
                               <p>
-                                AI My 코스
+                                AI 시간안내
                                 <span class="des">
                                   <button class="info pc-only"></button>
                                   <span class="bubble"
-                                    >자주 사용하는 패턴을 학습 및 분석하여 나만의 맞춤 코스 생성
+                                    >건조기를 사용할수록 더욱 정확도가 높아지는 건조 예상 시간
                                   </span>
                                 </span>
                               </p>
@@ -531,17 +590,177 @@
                             <td class="disabled">
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_AIcourse.svg"
-                                  alt="인공지능 세탁 코스"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_AItime.svg"
+                                  alt="AI 타임센싱"
                                 />
                               </div>
                               <p>
-                                인공지능 세탁 코스
+                                AI 타임센싱
                                 <span class="des">
                                   <button class="info pc-only"></button>
                                   <span class="bubble"
-                                    >세탁물 상태에 따라 시간, 횟수, 온도를
-                                    알맞게
+                                    >AI로 의류의 무게·재질·오염도를 감지하고, AI 기반의 다양한 편의 기능으로 더욱 똑똑한 세탁·건조
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                            <td class="disabled">
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_AItime.svg"
+                                  alt="AI 타임센싱"
+                                />
+                              </div>
+                              <p>
+                                AI 타임센싱
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >AI로 의류의 무게·재질·오염도를 감지하고, AI 기반의 다양한 편의 기능으로 더욱 똑똑한 세탁·건조
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                            <td class="disabled">
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_AItime.svg"
+                                  alt="AI 타임센싱"
+                                />
+                              </div>
+                              <p>
+                                AI 타임센싱
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >AI로 의류의 무게·재질·오염도를 감지하고, AI 기반의 다양한 편의 기능으로 더욱 똑똑한 세탁·건조
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_AIreport.svg"
+                                  alt="AI 세탁리포트"
+                                />
+                              </div>
+                              <p>
+                                AI 세탁리포트
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >세탁·건조가 끝나면 물, 에너지 사용량 등을 한눈에 볼 수 있는 리포트
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                            <td class="disabled">
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_AItime.svg"
+                                  alt="AI 타임센싱"
+                                />
+                              </div>
+                              <p>
+                                AI 타임센싱
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >AI로 의류의 무게·재질·오염도를 감지하고, AI 기반의 다양한 편의 기능으로 더욱 똑똑한 세탁·건조
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                            <td class="disabled">
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_AItime.svg"
+                                  alt="AI 타임센싱"
+                                />
+                              </div>
+                              <p>
+                                AI 타임센싱
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >AI로 의류의 무게·재질·오염도를 감지하고, AI 기반의 다양한 편의 기능으로 더욱 똑똑한 세탁·건조
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                            <td class="disabled">
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_AItime.svg"
+                                  alt="AI 타임센싱"
+                                />
+                              </div>
+                              <p>
+                                AI 타임센싱
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >AI로 의류의 무게·재질·오염도를 감지하고, AI 기반의 다양한 편의 기능으로 더욱 똑똑한 세탁·건조
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_autocleanerplus.svg"
+                                  alt="자동세제함 플러스"
+                                />
+                              </div>
+                              <p>
+                                자동세제함 플러스
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >세제·유연제 자동 
+투입부터 보충 시기
+알림까지 간편하게
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_autocleanerplus.svg"
+                                  alt="자동세제함 플러스"
+                                />
+                              </div>
+                              <p>
+                                자동세제함 플러스
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >세제·유연제 자동 
+투입부터 보충 시기
+알림까지 간편하게
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                            <td class="disabled">
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_1h.svg"
+                                  alt="1시간 세탁-건조 코스"
+                                />
+                              </div>
+                              <p>
+                                1시간 세탁-건조 코스
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >1시간 만에 세탁부터 건조까지 신속하게
                                   </span>
                                 </span>
                               </p>
@@ -569,15 +788,15 @@
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_dualsteam.svg"
-                                  alt="듀얼 트루스팀"
+                                  alt="듀얼 트루스팀(세탁/건조스팀)"
                                 />
                               </div>
                               <p>
-                                듀얼 트루스팀
+                                듀얼 트루스팀(세탁/건조스팀)
                                 <span class="des">
                                   <button class="info pc-only"></button>
                                   <span class="bubble"
-                                    >세탁부터 건조까지 트루스팀으로 케어해 살균과 구김까지 간편하게 관리
+                                    >세탁의 시작부터 건조의 끝까지, 빈틈없는 더블 스팀의 압도적인 관리
                                   </span>
                                 </span>
                               </p>
@@ -585,16 +804,33 @@
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_steam2.0.svg"
-                                  alt="트루스팀 2.0"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_steam.svg"
+                                  alt="트루스팀(건조스팀)"
                                 />
                               </div>
                               <p>
-                                트루스팀 2.0
+                                트루스팀(건조스팀)
                                 <span class="des">
                                   <button class="info pc-only"></button>
                                   <span class="bubble"
-                                    >건조 시 트루스팀으로 케어해 살균, 탈취 그리고 구김 완화 까지 간편하게 관리
+                                    >건조 단계에 트루스팀으로 살균, 탈취와 구김 완화까지 간편하게 관리
+                                  </span>
+                                </span>
+                              </p>
+                            </td>
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_steam.svg"
+                                  alt="트루스팀(건조스팀)"
+                                />
+                              </div>
+                              <p>
+                                트루스팀(건조스팀)
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >건조 단계에 트루스팀으로 살균, 탈취와 구김 완화까지 간편하게 관리
                                   </span>
                                 </span>
                               </p>
@@ -602,7 +838,7 @@
                             <td class="disabled">
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_sterilization.svg"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_steam.svg"
                                   alt="살균코스"
                                 />
                               </div>
@@ -622,16 +858,16 @@
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_allcontrol.svg"
-                                  alt="올인원 컨트롤"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_lcd.svg"
+                                  alt="풀터치 LCD 디스플레이"
                                 />
                               </div>
                               <p>
-                                올인원 컨트롤
+                                풀터치 LCD 디스플레이
                                 <span class="des">
                                   <button class="info pc-only"></button>
                                   <span class="bubble"
-                                    >7인치 풀터치 와이드 LCD 디스플레이로 한눈에 쉽고 빠르게 조작
+                                    >조작부를 한 화면에 담은 풀터치 LCD 디스플레이로 한눈에 쉽고 빠르게 조작
                                   </span>
                                 </span>
                               </p>
@@ -639,16 +875,16 @@
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_quickcontrol.svg"
-                                  alt="퀵 컨트롤"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_lcd.svg"
+                                  alt="풀터치 LCD 디스플레이"
                                 />
                               </div>
                               <p>
-                                퀵 컨트롤
+                                풀터치 LCD 디스플레이
                                 <span class="des">
                                   <button class="info pc-only"></button>
                                   <span class="bubble"
-                                    >조작부를 한 화면에 담은 풀터치 LCD 디스플레이로 더욱 간결하고 간편해진 조작
+                                    >조작부를 한 화면에 담은 풀터치 LCD 디스플레이로 한눈에 쉽고 빠르게 조작
                                   </span>
                                 </span>
                               </p>
@@ -656,26 +892,42 @@
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_laundrycontrol.svg"
-                                  alt="원바디 런드리 컨트롤"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_lcd.svg"
+                                  alt="풀터치 LCD 디스플레이"
                                 />
                               </div>
                               <p>
-                                원바디 런드리 컨트롤
+                                풀터치 LCD 디스플레이
                                 <span class="des">
                                   <button class="info pc-only"></button>
                                   <span class="bubble"
                                     >별도 페어링이 필요 없는 풀터치 LED 디스플레이로 간편한 조작
                                   </span>
                                 </span>
-                                </네무>
+                              </p>
+                            </td>
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_lcd.svg"
+                                  alt="풀터치 LCD 디스플레이"
+                                />
+                              </div>
+                              <p>
+                                풀터치 LCD 디스플레이
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >별도 페어링이 필요 없는 풀터치 LED 디스플레이로 간편한 조작
+                                  </span>
+                                </span>
                               </p>
                             </td>
                           </tr>
                           <tr class="product-btn">
                             <td>
                               <a
-                                href="https://www.lge.co.kr/category/wash-tower?filterProduct=AT0000000109:KY0000002621:03,AT0000001251:KY0000003895:03&filterBrand=AT0000000111:KY0000003992:01"
+                                href="https://www.lge.co.kr/wash-tower/wa2525eezf?sKwd=WA2525EEZF&sTab=unit_product_list&sRank=1"
                                 target="_blank"
                                 class="btn-product"
                                 >제품 보러 가기</a
@@ -683,7 +935,7 @@
                             </td>
                             <td>
                               <a
-                                href="https://www.lge.co.kr/category/wash-tower?filterProduct=AT0000000109:KY0000002621:03,AT0000001251:KY0000001221:03&filterBrand=AT0000000111:KY0000000617:01"
+                                href="https://www.lge.co.kr/wash-tower/wl21egzu?sKwd=WL21EGZU&sTab=unit_product_list&sRank=1"
                                 target="_blank"
                                 class="btn-product"
                                 >제품 보러 가기</a
@@ -691,7 +943,15 @@
                             </td>
                             <td>
                               <a
-                                href="https://www.lge.co.kr/category/wash-tower?filterProduct=AT0000000109:KY0000002622:03"
+                                href="https://www.lge.co.kr/wash-tower/w20egz?sKwd=W20EGZ&sTab=unit_product_list&sRank=1"
+                                target="_blank"
+                                class="btn-product"
+                                >제품 보러 가기</a
+                              >
+                            </td>
+                            <td>
+                              <a
+                                href="https://www.lge.co.kr/wash-tower/w1310bn?sKwd=W1310BN&sTab=unit_product_list&sRank=1"
                                 target="_blank"
                                 class="btn-product"
                                 >제품 보러 가기</a
@@ -764,9 +1024,8 @@
                     <div class="sticky-product-no include-tab">
                       <div class="inner">
                         <div class="inner2">
-                          <div>SIGNATURE</div>
-                          <div>워시콤보<span></span>트루스팀</div>
-                          <div>워시콤보<span></span>자동세제함</div>
+                          <div>FH25ESE</div>
+                          <div>FH25GAG</div>
                         </div>
                       </div>
                     </div>
@@ -774,7 +1033,7 @@
                       <table>
                         <thead>
                           <tr class="procuct-name">
-                            <th colspan="3">
+                            <th colspan="2">
                               <h4>워시콤보</h4>
                               <p>세탁물을 꺼낼 필요 없이 하나의 통 안에서 해결해 <br />집안일을 간편하게</p>
                             </th>
@@ -782,20 +1041,19 @@
                         </thead>
                         <tbody>
                           <tr class="procuct-no">
-                            <td>SIGNATURE</td>
                             <td>워시콤보<span></span>트루스팀</td>
                             <td>워시콤보<span></span>자동세제함</td>
                           </tr>
-                          <tr class="procuct-img-wrap">
+                          <tr class="procuct-img-wrap"> 
                             <td>
                               <div class="procuct-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_19.png"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_55 1.png"
                                   alt="워시콤보 LG SIGNATURE 세탁건조기 (FH25LMTH.AKOR) 메인이미지 5"
                                   class="front"
                                 />
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_28.png"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_56 1.png"
                                   alt="워시콤보 LG SIGNATURE 세탁건조기 (FH25LMTH.AKOR) 줌이미지 7"
                                   class="side"
                                 />
@@ -807,30 +1065,13 @@
                             <td>
                               <div class="procuct-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_20.png"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_57 1.png"
                                   alt="워시콤보 LG 트롬 오브제컬렉션 워시콤보 (FH25ESE.AKOR) 메인이미지 2"
                                   class="front"
                                 />
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_29.png"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_58 1.png"
                                   alt="워시콤보 LG 트롬 오브제컬렉션 워시콤보 (FH25ESE.AKOR) 메인이미지 5"
-                                  class="side"
-                                />
-                                <button class="btn-angle" name="btn-angle">
-                                  다른 각도 보기
-                                </button>
-                              </div>
-                            </td>
-                            <td>
-                              <div class="procuct-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_21.png"
-                                  alt="워시콤보 LG 트롬 오브제컬렉션 워시콤보 (FH25GAG.AKOR) 메인이미지 2"
-                                  class="front"
-                                />
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_30.png"
-                                  alt="워시콤보 LG 트롬 오브제컬렉션 워시콤보 (FH25GAG.AKOR) 메인이미지 5"
                                   class="side"
                                 />
                                 <button class="btn-angle" name="btn-angle">
@@ -843,20 +1084,73 @@
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_100steam.svg"
-                                  alt="100℃ 트루스팀"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_weight.svg"
+                                  alt="세탁 25kg / 건조 15kg"
                                 />
                               </div>
                               <p>
-                                100℃ 트루스팀
+                                세탁 25kg / 건조 15kg
                                 <span class="des">
                                   <button class="info pc-only"></button>
                                   <span class="bubble"
-                                    >99.99%의 살균력으로 구김·세균 걱정 없이 청결하게</span
+                                    >대용량 세탁과 건조를 옮길 필요 없이 단 하나의 통안에서 해결</span
                                   >
                                 </span>
                               </p>
                             </td>
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_weight.svg"
+                                  alt="세탁 25kg / 건조 15kg"
+                                />
+                              </div>
+                              <p>
+                                세탁 25kg / 건조 15kg
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >대용량 세탁과 건조를 옮길 필요 없이 단 하나의 통안에서 해결</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_deepAI.svg"
+                                  alt="딥러닝 AI X 6모션"
+                                />
+                              </div>
+                              <p>
+                                딥러닝 AI X 6모션
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >세탁물의 무게와 재질, 오염도 등을 감지해 최적의 모션으로 세탁부터 건조까지</span>
+                                </span>
+                              </p>
+                            </td>
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_deepAI.svg"
+                                  alt="딥러닝 AI X 6모션"
+                                />
+                              </div>
+                              <p>
+                                딥러닝 AI X 6모션
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >세탁물의 무게와 재질, 오염도 등을 감지해 최적의 모션으로 세탁부터 건조까지</span>
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
                             <td>
                               <div class="spec-img">
                                 <img
@@ -869,7 +1163,7 @@
                                 <span class="des">
                                   <button class="info pc-only"></button>
                                   <span class="bubble"
-                                    >60℃ 이상의 고온으로 구김·세균 걱정 없이 청결하게</span
+                                    >60℃ 이상의 고온으로 구김·세균 걱정 없이청결하게</span
                                   >
                                 </span>
                               </p>
@@ -877,112 +1171,6 @@
                             <td class="disabled">
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_tubclean.svg"
-                                  alt="통 살균 코스"
-                                />
-                              </div>
-                              <p>
-                                통 살균 코스
-                                <span class="des">
-                                  <button class="info pc-only"></button>
-                                  <span class="bubble"
-                                    >60℃의 고온 살균으로 세탁조를 청결하게</span
-                                  >
-                                </span>
-                              </p>
-                            </td>
-                          </tr>
-                          <tr class="procuct-spec">
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_deepAIDD.svg"
-                                  alt="딥러닝 AI DD 세탁·건조"
-                                />
-                              </div>
-                              <p>
-                                딥러닝 AI DD 세탁·건조
-                                <span class="des">
-                                  <button class="info pc-only"></button>
-                                  <span class="bubble"
-                                    >세탁 및 건조 패턴의 빅데이터를 기반으로 똑똑하게</span
-                                  >
-                                </span>
-                              </p>
-                            </td>
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_deepAIDD.svg"
-                                  alt="딥러닝 AI DD 세탁·건조"
-                                />
-                              </div>
-                              <p>
-                                딥러닝 AI DD 세탁·건조
-                                <span class="des">
-                                  <button class="info pc-only"></button>
-                                  <span class="bubble"
-                                    >세탁 및 건조 패턴의 빅데이터를 기반으로 똑똑하게</span
-                                  >
-                                </span>
-                              </p>
-                            </td>
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_deepAIDD.svg"
-                                  alt="딥러닝 AI DD 세탁·건조"
-                                />
-                              </div>
-                              <p>
-                                딥러닝 AI DD 세탁·건조
-                                <span class="des">
-                                  <button class="info pc-only"></button>
-                                  <span class="bubble"
-                                    >세탁 및 건조 패턴의 빅데이터를 기반으로 똑똑하게</span
-                                  >
-                                </span>
-                              </p>
-                            </td>
-                          </tr>
-                          <tr class="procuct-spec">
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_5turbo.svg"
-                                  alt="5방향 터보샷+"
-                                />
-                              </div>
-                              <p>
-                                5방향 터보샷+
-                                <span class="des">
-                                  <button class="info pc-only"></button>
-                                  <span class="bubble"
-                                    >다섯 방향의 터보샷이 시간과 물을 절약하며 깨끗하게</span
-                                  >
-                                </span>
-                              </p>
-                            </td>
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_5turbo.svg"
-                                  alt="5방향 터보샷+"
-                                />
-                              </div>
-                              <p>
-                                5방향 터보샷+
-                                <span class="des">
-                                  <button class="info pc-only"></button>
-                                  <span class="bubble"
-                                    >다섯 방향의 터보샷이 시간과 물을 절약하며 깨끗하게</span
-                                  >
-                                </span>
-                              </p>
-                            </td>
-                            <td>
-                              <div class="spec-img">
-                                <img
                                   src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_5turbo.svg"
                                   alt="5방향 터보샷+"
                                 />
@@ -999,7 +1187,7 @@
                             </td>
                           </tr>
                           <tr class="procuct-spec">
-                            <td>
+                            <td class="disabled">
                               <div class="spec-img">
                                 <img
                                 src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_miniwash.svg"
@@ -1017,74 +1205,6 @@
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_miniwash.svg"
-                                  alt="미니워시"
-                                />
-                              </div>
-                              <p>
-                                미니워시
-                                <span class="des">
-                                  <button class="info pc-only"></button>
-                                  <span class="bubble">4kg 용량의 미니 세탁기로 함께 빨기 걱정되는 다양한 세탁물을 간편하게 분리 세탁</span>
-                                </span>
-                              </p>
-                            </td>
-                            <td class="disabled">
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_miniwash.svg"
-                                  alt="미니워시"
-                                />
-                              </div>
-                              <p>
-                                미니워시
-                                <span class="des">
-                                  <button class="info pc-only"></button>
-                                  <span class="bubble">소량 빨래만 따로 돌려 시간을 절약하고
-                                  섬세하게</span>
-                                </span>
-                              </p>
-                            </td>
-                          </tr>
-                          <tr class="procuct-spec">
-                            <td>
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_autocleanerplus.svg"
-                                  alt="자동세제함 플러스"
-                                />
-                              </div>
-                              <p>
-                                자동세제함 플러스
-                                <span class="des">
-                                  <button class="info pc-only"></button>
-                                  <span class="bubble"
-                                    >필요에 맞춘 세제·유연제 조합이 가능하고 자동 투입, 보충 시기 알림으로 관리까지 간편하게</span
-                                  >
-                                </span>
-                              </p>
-                            </td>
-                            <td class="disabled">
-                              <div class="spec-img">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_autocleanerplus.svg"
-                                  alt="자동세제함 플러스"
-                                />
-                              </div>
-                              <p>
-                                자동세제함 플러스
-                                <span class="des">
-                                  <button class="info pc-only"></button>
-                                  <span class="bubble"
-                                    >세제·유연제 자동 투입부터 보충 시기
-                                  알림까지 간편하게</span
-                                  >
-                                </span>
-                              </p>
-                            </td>
-                            <td>
-                              <div class="spec-img">
-                                <img
                                   src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_autocleaner.svg"
                                   alt="자동세제함"
                                 />
@@ -1093,8 +1213,43 @@
                                 자동세제함
                                 <span class="des">
                                   <button class="info pc-only"></button>
+                                  <span class="bubble">세탁량과 오염량에 맞춰 세제·유연제를 
+자동으로 알맞게</span>
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr class="procuct-spec">
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_miniwash.svg"
+                                  alt="미니워시(별매품)"
+                                />
+                              </div>
+                              <p>
+                                미니워시(별매품)
+                                <span class="des">
+                                  <button class="info pc-only"></button>
                                   <span class="bubble"
-                                    >세제·유연제 자동 투입부터 보충 시기 알림으로 관리까지 간편하게</span
+                                    >4kg 용량의 미니 세탁기로 함께 빨기 걱정되는 다양한 세탁물을 간편하게 분리 세탁</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_miniwash.svg"
+                                  alt="미니워시(별매품)"
+                                />
+                              </div>
+                              <p>
+                                미니워시(별매품)
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >4kg 용량의 미니 세탁기로 함께 빨기 걱정되는 다양한 세탁물을 간편하게 분리 세탁</span
                                   >
                                 </span>
                               </p>
@@ -1103,7 +1258,7 @@
                           <tr class="product-btn">
                             <td>
                               <a
-                                href="https://www.lge.co.kr/category/wash-combo?filterBrand=AT0000000126:KY0000000633:01"
+                                href="https://www.lge.co.kr/wash-combo/fh25ese?sKwd=FH25ESE&sTab=unit_product_list&sRank=1"
                                 target="_blank"
                                 class="btn-product"
                                 >제품 보러 가기</a
@@ -1111,15 +1266,7 @@
                             </td>
                             <td>
                               <a
-                                href="https://www.lge.co.kr/category/wash-combo?filterProduct=AT0000001251:KY0000001221:03&filterBrand=AT0000000111:KY0000000617:01"
-                                target="_blank"
-                                class="btn-product"
-                                >제품 보러 가기</a
-                              >
-                            </td>
-                            <td>
-                              <a
-                                href="https://www.lge.co.kr/category/wash-combo?filterProduct=AT0000001251:KY0000001078:03,AT0000001251:KY0000001077:03&filterBrand=AT0000000111:KY0000000617:01"
+                                href="https://www.lge.co.kr/wash-combo/fh25gag?sKwd=FH25GAG&sTab=unit_product_list&sRank=1"
                                 target="_blank"
                                 class="btn-product"
                                 >제품 보러 가기</a
@@ -1187,13 +1334,15 @@
                   <div
                     class="procuct-summary"
                     id="procuct-summary3"
-                    style="--col-width: 50%; --max-table-width: 920px"
+                    style="--col-width: 25%; --max-table-width: 920px"
                   >
                     <div class="sticky-product-no include-tab">
                       <div class="inner">
                         <div class="inner2">
-                          <div>트롬세탁기<span></span>25kg</div>
-                          <div>꼬망스 플러스<span></span>8kg</div>
+                          <div>FX25EFE</div>
+                          <div>FX25GSR</div>
+                          <div>FX25EAR</div>
+                          <div>FG21EN</div>
                         </div>
                       </div>
                     </div>
@@ -1201,7 +1350,7 @@
                       <table>
                         <thead>
                           <tr class="procuct-name">
-                            <th colspan="2">
+                            <th colspan="4">
                               <h4>세탁기</h4>
                               <p>컴팩트한 사이즈로 설치는 간편하게,<br />내 옷에 맞춘 섬세한 모션으로 세탁·탈수는 깨끗하게</p>
                             </th>
@@ -1209,19 +1358,21 @@
                         </thead>
                         <tbody>
                           <tr class="procuct-no">
-                            <td>트롬세탁기<span></span>25kg</td>
-                            <td>꼬망스 플러스<span></span>8kg</td>
+                            <td>트롬세탁기<span></span>트루스팀/자동세제함</td>
+                            <td>트롬세탁기<span></span>트루스팀</td>
+                            <td>트롬세탁기<span></span>자동세제함</td>
+                            <td>트롬세탁기</td>
                           </tr>
                           <tr class="procuct-img-wrap">
                             <td>
                               <div class="procuct-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_13.png"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_85.png"
                                   alt="세탁기 LG 트롬 오브제컬렉션 세탁기 (FX25WSQ.AKOR2) 메인이미지 2"
                                   class="front"
                                 />
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_22.png"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_86.png"
                                   alt="세탁기 LG 트롬 오브제컬렉션 세탁기 (FX25WSQ.AKOR2) 메인이미지 5"
                                   class="side"
                                 />
@@ -1233,12 +1384,46 @@
                             <td>
                               <div class="procuct-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_14.png"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_87.png"
+                                  alt="세탁기 LG 트롬 오브제컬렉션 세탁기 (FX25WSQ.AKOR2) 메인이미지 2"
+                                  class="front"
+                                />
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_88.png"
+                                  alt="세탁기 LG 트롬 오브제컬렉션 세탁기 (FX25WSQ.AKOR2) 메인이미지 5"
+                                  class="side"
+                                />
+                                <button class="btn-angle" name="btn-angle">
+                                  다른 각도 보기
+                                </button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_89.png"
+                                  alt="세탁기 LG 트롬 오브제컬렉션 세탁기 (FX25WSQ.AKOR2) 메인이미지 2"
+                                  class="front"
+                                />
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_90.png"
+                                  alt="세탁기 LG 트롬 오브제컬렉션 세탁기 (FX25WSQ.AKOR2) 메인이미지 5"
+                                  class="side"
+                                />
+                                <button class="btn-angle" name="btn-angle">
+                                  다른 각도 보기
+                                </button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="procuct-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_91.png"
                                   alt="세탁기 LG 꼬망스 플러스 (F8VV.AKOR) 메인이미지 2"
                                   class="front"
                                 />
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_23.png"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_92.png"
                                   alt="세탁기 LG 꼬망스 플러스 (F8VV.AKOR) 메인이미지 5"
                                   class="side"
                                 />
@@ -1252,34 +1437,74 @@
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_AIcustom.svg"
-                                  alt="AI 맞춤 세탁"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_weight.svg"
+                                  alt="세탁 25kg"
                                 />
                               </div>
                               <p>
-                                AI 맞춤 세탁
+                                세탁 25kg
                                 <span class="des">
                                   <button class="info pc-only"></button>
                                   <span class="bubble"
-                                    >AI로 의류의 무게·재질·오염도를 감지하고, AI 기반의 다양한 편의 기능으로 더욱 똑똑한 세탁</span
+                                    >최대 25kg 세탁 
+용량으로  부피가 
+큰 빨래도  부담없이 세탁</span
                                   >
                                 </span>
                               </p>
                             </td>
-                            <td class="disabled">
+                            <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_custom.svg"
-                                  alt="맞춤 세탁"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_weight.svg"
+                                  alt="세탁 25kg"
                                 />
                               </div>
                               <p>
-                                맞춤 세탁
+                                세탁 25kg
                                 <span class="des">
                                   <button class="info pc-only"></button>
                                   <span class="bubble"
-                                    >옷감에 따른 최적의 코스로 세탁을 내 옷에
-                                  딱맞게</span
+                                    >최대 25kg 세탁 
+용량으로  부피가 
+큰 빨래도  부담없이 세탁</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_weight.svg"
+                                  alt="세탁 25kg"
+                                />
+                              </div>
+                              <p>
+                                세탁 25kg
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >최대 25kg 세탁 
+용량으로  부피가 
+큰 빨래도  부담없이 세탁</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_weight.svg"
+                                  alt="세탁 21kg "
+                                />
+                              </div>
+                              <p>
+                                세탁 21kg
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >넉넉한 21kg 세탁 
+용량으로  이불 등 큰 빨래도 여유있게 세탁</span
                                   >
                                 </span>
                               </p>
@@ -1289,16 +1514,50 @@
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_steam.svg"
-                                  alt="트루스팀"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_AItime.svg"
+                                  alt="AI 타임센싱"
                                 />
                               </div>
                               <p>
-                                트루스팀
+                                AI 타임센싱
                                 <span class="des">
                                   <button class="info pc-only"></button>
                                   <span class="bubble"
-                                    >고온의 트루스팀으로 케어해 안심되는99.99% 살균 세탁</span
+                                    >세탁물 투입 후 3초 안에 빠르게 알려주는 코스별 세탁·건조 예상 시간</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                            <td class="disabled">
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_staincare.svg"
+                                  alt="찌든때 코스"
+                                />
+                              </div>
+                              <p>
+                                찌든때 코스
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >40℃-60℃의 고온으로 찌든때 걱정 없게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                            <td class="disabled">
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_staincare.svg"
+                                  alt="찌든때 코스"
+                                />
+                              </div>
+                              <p>
+                                찌든때 코스
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >40℃-60℃의 고온으로 찌든때 걱정 없게</span
                                   >
                                 </span>
                               </p>
@@ -1325,16 +1584,18 @@
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_AIddwash.svg"
-                                  alt="AI DD X 6모션"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_6motion.svg"
+                                  alt="6모션 X 세탁"
                                 />
                               </div>
                               <p>
-                                AI DD X 6모션
+                                6모션 X 세탁
                                 <span class="des">
                                   <button class="info pc-only"></button>
                                   <span class="bubble"
-                                    >세탁물의 무게와 재질, 오염도에 따라 AI 기술이 더해진 섬세한 6모션으로 세탁</span
+                                    >손빨래를 닮은 
+6모션으로 옷감에 맞춰 
+섬세하게</span
                                   >
                                 </span>
                               </p>
@@ -1342,16 +1603,56 @@
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_AIddwash.svg"
-                                  alt="인공지능 DD X 6모션"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_6motion.svg"
+                                  alt="6모션 X 세탁"
                                 />
                               </div>
                               <p>
-                                인공지능 DD X 6모션
+                                6모션 X 세탁
                                 <span class="des">
                                   <button class="info pc-only"></button>
                                   <span class="bubble"
-                                    >옷감의 무게를 감지하고, 인공지능 DD 기술로 의류를 인식해 6모션 중 최적의 모션 조합으로 세탁</span
+                                    >손빨래를 닮은 
+6모션으로 옷감에 맞춰 
+섬세하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_6motion.svg"
+                                  alt="6모션 X 세탁"
+                                />
+                              </div>
+                              <p>
+                                6모션 X 세탁
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >손빨래를 닮은 
+6모션으로 옷감에 맞춰 
+섬세하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_6motion.svg"
+                                  alt="6모션 X 세탁"
+                                />
+                              </div>
+                              <p>
+                                6모션 X 세탁
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >손빨래를 닮은 
+6모션으로 옷감에 맞춰 
+섬세하게</span
                                   >
                                 </span>
                               </p>
@@ -1359,6 +1660,40 @@
                           </tr>
                           <tr class="procuct-spec">
                             <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_steam.svg"
+                                  alt="트루스팀"
+                                />
+                              </div>
+                              <p>
+                                트루스팀
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >60℃ 이상의 고온으로 구김·세균 걱정 없이청결하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                            <td>
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_steam.svg"
+                                  alt="트루스팀"
+                                />
+                              </div>
+                              <p>
+                                트루스팀
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >60℃ 이상의 고온으로 구김·세균 걱정 없이청결하게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                            <td class="disabled">
                               <div class="spec-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_autocleaner.svg"
@@ -1370,7 +1705,8 @@
                                 <span class="des">
                                   <button class="info pc-only"></button>
                                   <span class="bubble"
-                                    >세제·유연제 자동 투입부터 보충 시기 알림으로 관리까지 간편하게</span
+                                    >세탁량과 오염량에 맞춰 세제·유연제를
+                                  자동으로 알맞게</span
                                   >
                                 </span>
                               </p>
@@ -1398,16 +1734,33 @@
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_5turbo.svg"
-                                  alt="5방향 터보샷+"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_autocleaner.svg"
+                                  alt="자동세제함"
                                 />
                               </div>
                               <p>
-                                5방향 터보샷+
+                                자동세제함
                                 <span class="des">
                                   <button class="info pc-only"></button>
                                   <span class="bubble"
-                                    >다섯방향의 강력한 물줄기가 시간과 물을 절약하며 깨끗하게 세탁</span
+                                    >세탁량과 오염량에 맞춰 세제·유연제를 자동으로 알맞게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                            <td class="disabled">
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_autocleaner.svg"
+                                  alt="자동세제함"
+                                />
+                              </div>
+                              <p>
+                                자동세제함
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >세탁량과 오염량에 맞춰 세제·유연제를 자동으로 알맞게</span
                                   >
                                 </span>
                               </p>
@@ -1415,16 +1768,33 @@
                             <td>
                               <div class="spec-img">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_4turbo.svg"
-                                  alt="4방향 터보샷"
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_autocleaner.svg"
+                                  alt="자동세제함"
                                 />
                               </div>
                               <p>
-                                4방향 터보샷
+                                자동세제함
                                 <span class="des">
                                   <button class="info pc-only"></button>
                                   <span class="bubble"
-                                    >네 방향의 강력한 물줄기로 시간을 줄여 깨끗하게 세탁</span
+                                    >세탁량과 오염량에 맞춰 세제·유연제를 자동으로 알맞게</span
+                                  >
+                                </span>
+                              </p>
+                            </td>
+                            <td class="disabled">
+                              <div class="spec-img">
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_autocleaner.svg"
+                                  alt="자동세제함"
+                                />
+                              </div>
+                              <p>
+                                자동세제함
+                                <span class="des">
+                                  <button class="info pc-only"></button>
+                                  <span class="bubble"
+                                    >세탁량과 오염량에 맞춰 세제·유연제를 자동으로 알맞게</span
                                   >
                                 </span>
                               </p>
@@ -1433,7 +1803,7 @@
                           <tr class="product-btn">
                             <td>
                               <a
-                                href="https://www.lge.co.kr/category/washing-machines?subCateId=CT50000102&filterProduct=AT0000000142:KY0000000283:02&filterBrand=AT0000000111:KY0000003992:01"
+                                href="https://www.lge.co.kr/washing-machines/fx25efe?sKwd=FX25EFE&sTab=unit_product_list&sRank=1"
                                 target="_blank"
                                 class="btn-product"
                                 >제품 보러 가기</a
@@ -1441,7 +1811,23 @@
                             </td>
                             <td>
                               <a
-                                href="https://www.lge.co.kr/category/washing-machines?filterProduct=AT0000000109:KY0000000686:03"
+                                href="https://www.lge.co.kr/washing-machines/fx25gsr-akor2?sKwd=FX25GSR&sTab=unit_product_list&sRank=1"
+                                target="_blank"
+                                class="btn-product"
+                                >제품 보러 가기</a
+                              >
+                            </td>
+                            <td>
+                              <a
+                                href="https://www.lge.co.kr/washing-machines/fx25ear-akor2?sKwd=FX25EAR&sTab=unit_product_list&sRank=1"
+                                target="_blank"
+                                class="btn-product"
+                                >제품 보러 가기</a
+                              >
+                            </td>
+                            <td>
+                              <a
+                                href="https://www.lge.co.kr/washing-machines/fg21en-akor2?sKwd=FG21EN&sTab=unit_product_list&sRank=1"
                                 target="_blank"
                                 class="btn-product"
                                 >제품 보러 가기</a
@@ -2091,7 +2477,7 @@
                     <div class="content">
                       <h5>AI 맞춤세탁(트롬 세탁기)</h5>
                       <p>
-                        AI 맞춤 세탁 기능은 세탁물의 무게, 재질, 오염도를 스스로 인식하여 세탁 과정을 자동으로 조정합니다. 바쁜 일상 속에서도 세탁 품질을 유지하고 싶은 분들께 유용하며, 코스 설정이나 세기 조절이 번거로운 분에게 편리하고 효율적인 세탁 경험을 제공합니다.
+                        AI 맞춤 세탁 기능은 세탁물의 무게, 재질, 오염도를 스스로 인식하여 세탁 과정을 자동으로 조정합니다. 바쁜 일상 속에서도 세탁 품질을 유지하고 싶은 분들께 유용하며, 코스 설정이나 세기 조절이 번거로운 분에게 편리하고 효율적인 세탁생활을 제공합니다.
                       </p>
                       <div class="btn-wrap" style="--btn-width: 350px; --btn-m-width: 226px">
                         <a
@@ -2617,7 +3003,7 @@
             </p>
             <div class="point-box">
               <h4 class="box-subtitle">
-                생활에 편리함을 더하는 <br /> 
+                생활에 편리함을 더하는 <br />
                 실용적인 기능도 함께 알아보세요.
               </h4>
               <div class="tab-wrap">
