@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ko">
 <!-- <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%> <%@ include file="/WEB-INF/jsp/common/includes/doctype.jsp"%> -->
 
@@ -31,11 +31,18 @@
 
   <!-- UnivEBiz css, script -->
   <script src="https://www.lge.co.kr/lg5-common/js/libs/jquery-2.2.4.min.js"></script>
+  <script src="https://www.lge.co.kr/lg5-common/js/libs/jquery.transit.min.js"></script>
+  <script src="https://www.lge.co.kr/lg5-common/js/libs/jquery.event.move.min.js"></script>
+  <script src="https://www.lge.co.kr/lg5-common/js/libs/jquery.twentytwenty.min.js"></script>
+  <script src="https://www.lge.co.kr/lg5-common/js/libs/slick.min.js"></script>
+  <script src="https://www.lge.co.kr/lg5-common/js/vcui.min.js"></script>
+  <script src="https://www.lge.co.kr/lg5-common/js/vcui.common-ui.min.js"></script>
+  <script src="https://www.lge.co.kr/lg5-common/js/lg.common.min.js"></script>
 
   <!-- 이모션 추가 -->
   <link rel="stylesheet" href="/kr/story/buying-guide/2025/css/common.css" type="text/css" />
   <link rel="stylesheet" href="/kr/story/buying-guide/2025/css/washing-machine.css" type="text/css" />
-  <script src="/kr/story/buying-guide/2025/js/common.js"></script>
+  <script src="https://www.lge.co.kr/kr/story/buying-guide/2025/js/common.js"></script>
   <script src="/kr/story/buying-guide/2025/js/washing-machine.js"></script>
   <!-- // 이모션 추가 -->
 </head>
@@ -58,7 +65,7 @@
     <c:import url="/kr/mkt/mobileGnb" charEncoding="utf-8" />
 
     <!-- Share -->
-    <div itemtype=http://schema.org/WebPage itemscope class="sr-only">
+    <div itemtype="http://schema.org/WebPage" itemscope class="sr-only">
       <meta itemprop="name" content="세탁기·워시타워·워시콤보 구매 가이드 | 구매 가이드 | 가이드 | 스토리 | LG전자" />
       <meta itemprop="description" content="세척과 의류 관리를 더 스마트하게" />
       <meta itemprop="url" content="https://www.lge.co.kr/story/buying-guide/lg-washing-machine" />
@@ -218,7 +225,7 @@
                 <br class="pc-only" />내게 꼭 맞는 제품을 쉽게 찾아보세요.
               </h3>
               <div class="procuct-summary vertical-scroll-box" id="procuct-summary"
-                style="--col-width: 25%; --table-width: 920px">
+                style="--col-width: 25%; --table-width: 608px">
                 <div class="sticky-product-no include-tab">
                   <div class="inner">
                     <div class="inner2">
@@ -305,9 +312,10 @@
                             세탁 25kg / 건조 25kg
                             <span class="des">
                               <button class="info pc-only"></button>
-                              <span class="bubble">최대 25kg 세탁
-                                용량으로 부피가
-                                큰 빨래도 부담없이 세탁
+                              <span class="bubble">
+                                세탁·건조 모두 25kg
+                                대용량으로 이불 등
+                                큰 빨래도 한 번에 세탁
                               </span>
                             </span>
                           </p>
@@ -321,9 +329,10 @@
                             세탁 25kg / 건조 21kg
                             <span class="des">
                               <button class="info pc-only"></button>
-                              <span class="bubble">최대 25kg 세탁
-                                용량으로 부피가
-                                큰 빨래도 부담없이 세탁
+                              <span class="bubble">이불도 여유있게
+                                처리하는 대용량으로
+                                부피 큰 빨래도 한 번에
+                                세탁·건조
                               </span>
                             </span>
                           </p>
@@ -337,9 +346,9 @@
                             세탁 24kg / 건조 20kg
                             <span class="des">
                               <button class="info pc-only"></button>
-                              <span class="bubble">최대 25kg 세탁
-                                용량으로 부피가
-                                큰 빨래도 부담없이 세탁
+                              <span class="bubble">
+                                가족 빨래를 한 번에 처리하는 넉넉한 용량으로
+                                효율적인 세탁·건조
                               </span>
                             </span>
                           </p>
@@ -353,9 +362,10 @@
                             세탁 13kg / 건조 10kg
                             <span class="des">
                               <button class="info pc-only"></button>
-                              <span class="bubble">최대 25kg 세탁
-                                용량으로 부피가
-                                큰 빨래도 부담없이 세탁
+                              <span class="bubble">
+                                생활 빨래에 알맞은
+                                실속형 용량으로 간편한
+                                세탁·건조
                               </span>
                             </span>
                           </p>
@@ -371,7 +381,8 @@
                             AI 타임센싱
                             <span class="des">
                               <button class="info pc-only"></button>
-                              <span class="bubble">AI로 의류의 무게·재질·오염도를 감지하고, AI 기반의 다양한 편의 기능으로 더욱 똑똑한 세탁·건조
+                              <span class="bubble">
+                                세탁물 투입 후 3초 안에 빠르게 알려주는 코스별 세탁·건조 예상 시간
                               </span>
                             </span>
                           </p>
@@ -776,7 +787,7 @@
                 <b>대표 모델</b>을 한눈에 비교하고,
                 <br class="pc-only" />내게 꼭 맞는 제품을 쉽게 찾아보세요.
               </h3>
-              <div class="procuct-summary" id="procuct-summary2" style="--col-width: 50%; --max-table-width: 920px">
+              <div class="procuct-summary" id="procuct-summary2" style="--col-width: 50%; --max-table-width: 320px">
                 <div class="sticky-product-no include-tab">
                   <div class="inner">
                     <div class="inner2">
@@ -1016,7 +1027,7 @@
                 <b>대표 모델</b>을 한눈에 비교하고,
                 <br class="pc-only" />내게 꼭 맞는 제품을 쉽게 찾아보세요.
               </h3>
-              <div class="procuct-summary" id="procuct-summary3" style="--col-width: 25%; --table-width: 920px">
+              <div class="procuct-summary" id="procuct-summary3" style="--col-width: 25%; --table-width: 608px">
                 <div class="sticky-product-no include-tab">
                   <div class="inner">
                     <div class="inner2">
@@ -1032,7 +1043,7 @@
                     <thead>
                       <tr class="procuct-name">
                         <th colspan="4">
-                          <h4>세탁기</h4>
+                          <h4>트롬 세탁기</h4>
                           <p>컴팩트한 사이즈로 설치는 간편하게,<br />내 옷에 맞춘 섬세한 모션으로 세탁·탈수는 깨끗하게</p>
                         </th>
                       </tr>
@@ -1215,9 +1226,9 @@
                             6모션 X 세탁
                             <span class="des">
                               <button class="info pc-only"></button>
-                              <span class="bubble">손빨래를 닮은
-                                6모션으로 옷감에 맞춰
-                                섬세하게</span>
+                              <span class="bubble"><br>
+                                손빨래를 닮은 6모션으로 옷감에 맞춰 섬세하게
+                            </span>
                             </span>
                           </p>
                         </td>
@@ -1435,11 +1446,11 @@
                 <b>대표 모델</b>을 한눈에 비교하고,
                 <br class="pc-only" />내게 꼭 맞는 제품을 쉽게 찾아보세요.
               </h3>
-              <div class="procuct-summary" id="procuct-summary3" style="--col-width: 50%; --max-table-width: 920px">
+              <div class="procuct-summary" id="procuct-summary3" style="--col-width: 50%; --max-table-width: 320px">
                 <div class="sticky-product-no include-tab">
                   <div class="inner">
                     <div class="inner2">
-                      <div>통돌이 컴포트<span></span>25 ~ 21kg</div>
+                      <div>통돌이 컴포트<span></span><br class="mo-only">25 ~ 21kg</div>
                       <div>통돌이<span></span>25 ~ 13kg</div>
                     </div>
                   </div>
@@ -1456,7 +1467,7 @@
                     </thead>
                     <tbody>
                       <tr class="procuct-no">
-                        <td>통돌이 컴포트<span></span>25 ~ 21kg</td>
+                        <td>통돌이 컴포트<span></span><br class="mo-only">25 ~ 21kg</td>
                         <td>통돌이<span></span>25 ~ 13kg</td>
                       </tr>
                       <tr class="procuct-img-wrap">
@@ -1653,10 +1664,10 @@
           <button class="active" name="buying-guide-tab" data-group="buying-point" data-target="#buying-point-1">
             용량
           </button>
-          <button name="buying-guide-tab" data-target="#buying-point-2" data-group="buying-point">
+          <button name="buying-guide-tab" data-target="#buying-point-3" data-group="buying-point">
             AI 기능
           </button>
-          <button name="buying-guide-tab" data-target="#buying-point-3" data-group="buying-point">
+          <button name="buying-guide-tab" data-target="#buying-point-2" data-group="buying-point">
             주요 기능
           </button>
         </div>
@@ -1809,10 +1820,11 @@
             </div>
           </div>
         </div>
-        <div id="buying-point-2" name="buying-point" style="display: none">
+        <div id="buying-point-3" name="buying-point" style="display: none">
           <div class="subtab-wrap">
             <div class="subtab-btn">
-              <button name="buying-guide-tab" data-target=" -1" data-group="buying-point-3" class="active">
+              <button name="buying-guide-tab" data-target="#buying-point-3-1" data-group="buying-point-3"
+                class="active">
                 AI 세탁·건조
               </button>
               <button name="buying-guide-tab" data-target="#buying-point-3-2" data-group="buying-point-3">
@@ -1944,7 +1956,7 @@
                   </div>
                 </div>
               </div>
-              <div class="point-wrap" id="buying-point-3-3" name="buying-point-3">
+              <div class="point-wrap" id="buying-point-3-3" name="buying-point-3" style="display: none">
                 <h4 class="hide">AI DD X6모션 (세탁기, 워시타워, 워시콤보)</h4>
                 <div class="content">
                   <h5>AI DD X6모션 (세탁기, 워시타워, 워시콤보)</h5>
@@ -2035,25 +2047,33 @@
               </div>
             </div>
           </div>
+          <div class="point-tip" id="point-tip6">
+            <h5>이런 포인트도 살펴보면 좋아요!</h5>
+            <div class="tip-content">
+              <div class="content">
+                <p class="tag">#손빨래세탁 #섬세관리 #스마트세탁</p>
+                <h6 class="tip-title">
+                  매일 입는 옷부터 소중한 옷까지 더욱 스마트하고 섬세하게 관리
+                </h6>
+                <p class="tip-text">
+                  매일 입는 일상복, 운동복부터 관리가 어려운 다양한 소재의 의류를 간편하게 관리해보세요. 세탁부터 건조까지 AI로 맞춤 관리가 가능한 워시타워는 옷의 무게와 오염도를 파악해 알맞은
+                  모션으로 의류 관리를 도와줍니다.
+                </p>
+              </div>
+              <div class="img">
+                <img src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_40.jpg"
+                  alt="집에서 문이 열린 LG 건조기 앞에 선 여성이 라벤더색 레깅스를 넣으려 하고 있습니다. 그녀는 검은색 가방을 메고 있으며 미소를 짓고 있습니다."
+                  class="pc-only" />
+                <img src="/kr/story/buying-guide/2025/img/washing-machine/img_M07_001_11.jpg"
+                  alt="집에서 문이 열린 LG 건조기 앞에 선 여성이 라벤더색 레깅스를 넣으려 하고 있습니다. 그녀는 검은색 가방을 메고 있으며 미소를 짓고 있습니다."
+                  class="mobile-only" />
+              </div>
+            </div>
+          </div>
         </div>
-        <div id="buying-point-3" name="buying-point" style="display: none">
+        <div id="buying-point-2" name="buying-point" style="display: none">
           <div class="subtab-wrap">
             <div class="subtab-btn">
-              <!-- <button
-                    class="active"
-                    name="buying-guide-tab"
-                    data-target="#buying-point-2-1"
-                    data-group="buying-point-2"
-                  >
-                    AI 맞춤 세탁
-                  </button>
-                  <button
-                    name="buying-guide-tab"
-                    data-target="#buying-point-2-2"
-                    data-group="buying-point-2"
-                  >
-                    AI 맞춤 건조
-                  </button> -->
               <button class="active" name="buying-guide-tab" data-target="#buying-point-2-3"
                 data-group="buying-point-2">
                 트루스팀
@@ -2063,119 +2083,6 @@
               </button>
             </div>
             <div class="subtab-content">
-              <!-- <div
-                    class="point-wrap"
-                    id="buying-point-2-1"
-                    name="buying-point-2"
-                  >
-                    <h4 class="hide">AI 맞춤 세탁 (워시타워, 세탁기)</h4>
-                    <div class="content">
-                      <h5>AI 맞춤 세탁 (워시타워, 세탁기)</h5>
-                      <p>
-                        약 3초만에 빠르게 알려주는 예상 시간 안내, 세탁물의 무게와 오염도에 맞춰 알맞은 양으로 자동 투입되는 세제, 의류에 맞춘 최적의 모션과 세탁 패턴으로 섬세한 세탁까지 세탁부터 탈수에 이르는 모든 과정을 AI로 간편하게 경험해보세요.
-                      </p>
-                      <div class="btn-wrap" style="--btn-width: 216px; --btn-m-width: 196px;">
-                        <a
-                          class="btn-product"
-                          href="https://www.lge.co.kr/category/washing-machines?filterProduct=AT0000000116:KY0000000882:03,AT0000000116:KY0000001051:03,AT0000000116:KY0000000583:03,AT0000000116:KY0000000906:03"
-                          target="_blank"
-                          >세탁기 제품 보러 가기</a
-                        >
-                        <a
-                          class="btn-product"
-                          href="https://www.lge.co.kr/category/wash-tower?filterProduct=AT0000000095:KY0000001053:01,AT0000000095:KY0000000583:01"
-                          target="_blank"
-                          >워시타워 제품 보러 가기</a
-                        >
-                      </div>
-                      <div class="img">
-                        <button class="btn-pause">일시멈춤</button>
-                        <video
-                          autoplay
-                          playsinline
-                          loop
-                          muted
-                          src="/kr/story/buying-guide/2025/video/washing-machine/vid_P07_001_25.mp4"
-                        ></video>
-                      </div>
-                      <p class="des">
-                        * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                      </p>
-                      <button class="btn-collapse-toggle">
-                        <span>* AI 타임 센싱 / AI 맞춤 세탁, AI 맞춤 탈수</span>
-                      </button>
-                      <div class="collapse-content">
-                        <p>
-                          <b>[AI 타임 센싱]</b><br />
-                            * AI 타임 센싱 3초 : 문을 닫은 후 전원 버튼을 누르고 웰컴 메시지가 나타난 이후 측정된 시간입니다. <br />
-                            * 세탁기의 경우 마른 세탁물 기준 세탁물이 가득 찬 경우 최대 약 15초까지 소요될 수 있습니다. <br />
-                            * 세탁물의 종류나 사용 환경에 따라 센싱 시간은 달라질 수 있습니다.  
-                        </p>
-                        <p>
-                          <b>[AI 맞춤 세탁, AI 맞춤 탈수]</b><br />
-                            * AI세탁 코스는 딥러닝 AI 기술을 이용해 의류의 재질을 인식한 후 6모션 중 최적의 모션으로 세탁하며, 빅데이터 기반 환경에 맞춰 큰 진동을 미리 예측해 안정적으로 탈수합니다. 최대 용량 6kg 이하에서 동작하며, 실사용 환경 및 세탁물 종류에 따라 다를 수 있습니다.
-                        </p>
-                        <button class="btn-collapse-close">접기</button>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="point-wrap"
-                    id="buying-point-2-2"
-                    name="buying-point-2"
-                    style="display: none"
-                  >
-                    <h4 class="hide">AI 맞춤 건조 (워시타워, 건조기)</h4>
-                    <div class="content">
-                      <h5>AI 맞춤 건조 (워시타워, 건조기)</h5>
-                      <p>
-                        세탁물을 투입하면 3초만에 코스 예상 종료시간을 안내하고 의류의 재질, 그리고 내부 습도의 변화를 감지해 내 옷에 맞춰 섬세하게 건조합니다. 건조의 모든 과정을 AI로 더욱 똑똑하게 경험해보세요.
-                      </p>
-                      <div class="btn-wrap" style="--btn-width: 216px; --btn-m-width: 196px;">
-                        <a
-                          class="btn-product"
-                          href="https://www.lge.co.kr/category/wash-tower?filterProduct=AT0000000095:KY0000001053:01,AT0000000095:KY0000000583:01"
-                          target="_blank"
-                          >워시타워 제품 보러 가기</a
-                        >
-                        >
-                      </div>
-                      <div class="img">
-                        <button class="btn-pause">일시멈춤</button>
-                        <video
-                          autoplay
-                          playsinline
-                          loop
-                          muted
-                          src="/kr/story/buying-guide/2025/video/washing-machine/vid_P07_001_28.mp4">
-                        </video>
-                      </div>
-                      <p class="des">
-                        * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                      </p>
-                      <button class="btn-collapse-toggle">
-                        <span>* AI 타임 센싱 / AI 시간 안내 / AI 건조</span>
-                      </button>
-                      <div class="collapse-content">
-                        <p>
-                          <b>[전력 효율]</b><br />
-                          * AI 타임 센싱 3초 : 시작 버튼을 누른 후 부터 측정된 시간입니다.<br />
-                          * 마른 세탁물 기준 5kg 이하에서 약 3초 소요되며, 세탁물이 가득 찬 경우 최대 1분까지 소요될 수 있습니다.<br />
-                          * 세탁물의 종류나 사용환경에 따라 센싱 시간은 달라질 수 있습니다.
-                        </p>
-                        <p>
-                          <b>[AI 시간 안내]</b><br />
-                        </p>
-                        <p>
-                          <b>[AI 건조]</b><br />
-                          * AI 건조 코스는 1kg 이상 ~ 5kg 이하에서 동작하며, 실사용 환경 및 세탁물 종류에 따라 다를 수 있습니다.<br />
-                          * AI 건조는 딥러닝 AI 기술을 이용해 의류의 재질을 감지하여 최적의 온도와 시간으로 건조합니다.<br />
-                          * 초기 표시된 시간과 실제 동작 시간은 다를 수 있습니다.
-                        </p>
-                        <button class="btn-collapse-close">접기</button>
-                      </div>
-                    </div>
-                  </div> -->
               <div class="point-wrap" id="buying-point-2-3" name="buying-point-2">
                 <h4 class="hide">트루스팀</h4>
                 <div class="content">
@@ -2200,7 +2107,7 @@
                   <div class="collapse-content">
                     <p>* 물을 끓여 만든 트루스팀과 드럼 내부 온도를 60℃ 이상의 고온으로 건조 하여 유해세균을 살균합니다.</p>
                     <p>
-                      <b>[바이러스 제거]</b><br />
+                      <b>[바이러스 제거-세탁]</b><br />
                       * 시험 기관 : KATRI (한국의류시험연구원) / 시험 일자 : ‘25년 03월<br />
                       * 시험 코스 : 알러지케어<br />
                       * 시험 부하 : KS C IEC60456 시험기준 국제 규격 부하 4kg <br />
@@ -2212,7 +2119,7 @@
                       * 시험결과는 사용환경 등에 따라 차이가 있을 수 있습니다.
                     </p>
                     <p>
-                      <b>[유해세균 살균]</b><br />
+                      <b>[유해세균 살균-세탁]</b><br />
                       * 시험 기관 : KATRI (한국의류시험연구원) / 시험 일자 : '25년 03월 <br />
                       * 시험 코스 : 알러지케어 <br />
                       * 시험 부하 : KS C IEC60456 시험기준 국제 규격 부하 4kg <br />
@@ -2223,7 +2130,7 @@
                       * 시험결과는 사용환경 등에 따라 차이가 있을 수 있습니다.
                     </p>
                     <p>
-                      <b>[알러지 유발물질 제거]</b><br />
+                      <b>[알러지 유발물질 제거- 세탁]</b><br />
                       * 시험 기관 : Environmental Allergens Info and Care Inc.(일본소재) / 시험 일자 : '25년 03월 <br />
                       * 시험 코스 : 알러지케어 <br />
                       * 시험 부하 : KS C IEC60456 시험기준 국제 규격 부하 4kg <br />
@@ -2231,6 +2138,45 @@
                       * 시험 방법 : 집먼지 진드기 및 알레르겐이 오염된 면직물 부착하여 알러지케어 코스 동작 후 집먼지 진드기 살충 및 알레르겐 제거율 확인  <br />
                       * 시험 결과 : 집먼지 진드기 성충 100% 살충, 고양이(Fel d 1), 개(Can f 1), 집먼지진드기(Der f 1) 알레르겐 99.99% 제거  <br />
                       * 시험결과는 사용환경 등에 따라 차이가 있을 수 있습니다.
+                    </p>
+                    <p>
+                      <b>[유해세균 살균-건조]</b><br />
+                      * 시험 기관 : UL Solutions, KATRI (한국의류시험연구원) / 시험 일자 : ‘25년 04월<br />
+                      * 시험 코스 : 스팀살균<br />
+                      * 시험 부하 : KS C IEC60456 시험기준 국제 규격 부하, UL Solutions 마른상태 4kg/ KATRI 마른상태 4kg, 젖은상태 6.5kg<br />
+                      * 시험 균 : 유해세균 3종 (황색포도상구균, 녹농균, 폐렴간균)<br />
+                      * 시험 조건 : 시험실 온도 21°±2C, 시험실 습도 50±15% R.H.<br />
+                      * 시험 방법 : 유해세균 오염된 면직물 부착하여 스팀살균 코스 동작 후 살균력 측정<br />
+                      * 시험 결과 : 유해세균 3종 99.99% 살균<br />
+                      * 시험결과는 사용환경 등에 따라 차이가 있을 수 있습니다.
+                    </p>
+                    <p>
+                      <b>[바이러스 제거-건조]</b><br />
+                      * 시험 기관 : KATRI (한국의류시험연구원) / 시험 일자 : ‘25년 03월<br />
+                      * 시험 코스 : 스팀살균<br />
+                      * 시험 부하 : KS C IEC60456 시험기준 국제 규격 부하 마른상태 4kg<br />
+                      * 시험 바이러스 : 바이러스 3종 (인플루엔자 A(H1N1), 아데노(HAdV-C5), 코로나(HCoV-229E)<br />
+                      * 시험 조건 : 시험실 온도 21°±2C, 시험실 습도 50±15% R.H.<br />
+                      * 시험 방법 : 바이러스 오염된 면직물 부착하여 스팀살균 코스 동작 후 바이러스 제거 능력 측정<br />
+                      * 시험 결과 : 바이러스 3종 99.99% 제거<br />
+                      * HCoV-229E 바이러스는 코로나 바이러스의 일종으로 신종 코로나바이러스 19(COVID-19)에 대한 시험 결과가 아님.<br />
+                      * 시험결과는 사용환경 등에 따라 차이가 있을 수 있습니다.
+                    </p>
+                    <p>
+                      <b>[알러지 유발물질 제거-건조]</b><br />
+                      <br />* 시험 기관 : Environmental Allergens Info and Care Inc.(일본소재) / 시험 일자 : ‘25년 04월<br />* 시험 코스 : 스팀살균<br />* 시험 부하 : KS C IEC60456 시험기준 국제 규격 부하 마른상태 1.5kg, 젖은상태 2.7kg<br />* 시험 알레르겐 : 집먼지진드기 성충, 고양이 (Fel d 1), 개(Can f 1), 집먼지진드기 (Der f1)<br />* 시험 방법 : 집먼지 진드기 및 알레르겐이 오염된 면직물 부착하여 스팀살균 코스 동작 후 집먼지 진드기 살충 및 알레르겐 제거율 확인<br />* 시험 결과 : 집먼지 진드기 성충 100% 살충, 고양이(Fel d 1), 개(Can f 1), 집먼지진드기(Der f 1) 알레르겐 99.9% 제거<br />* 시험결과는 사용환경 등에 따라 차이가 있을 수 있습니다.
+                    </p>
+                    <p>
+                      <b>[꽃가루 알레르겐 불활성화-건조]</b><br />
+                      <br />* 시험 기관 : Environmental Allergens Info and Care Inc.(일본소재) / 시험 일자 : ‘25년 04월<br />* 시험 코스 : 스팀살균코스<br />* 시험 부하 : KS C IEC60456 시험기준 국제 규격 부하 마른상태 4.5kg, 젖은상태 7kg<br />* 시험 알레르겐 : 삼나무(Cry j 1), 돼지풀(Amb a 1), 자작나무(Bet v 1), 벼과(Phl p 5)<br />* 시험 방법 : 꽃가루 알레르겐이 오염된 면직물 부착하여 스팀살균 코스 동작 후 꽃가루 알레르겐 불활성화율 확인<br />* 시험 결과 : 삼나무(Cry j 1), 돼지풀(Amb a 1), 자작나무(Bet v 1), 벼과(Phl p 5) 99% 이상 불활성화<br />* 시험결과는 사용환경 등에 따라 차이가 있을 수 있습니다.
+                    </p>
+                    <p>
+                      <b>[탈취-건조]</b><br />
+                      <br />* 시험 기관 : KATRI (한국의류시험연구원) / 시험 일자 : ‘25년 03월<br />* 시험 코스 : 스팀리프레쉬<br />* 시험 부하 : KS C IEC60456 표준셔츠 7벌<br />* 냄새 분자 : 땀냄새, 담배냄새<br />* 시험 조건 : 시험실 온도 21°±2C, 시험실 습도 50±15% R.H.<br />* 시험 방법 : 스팀리프레쉬 코스 동작 후 탈취력 측정<br />* 시험 결과 : 땀냄새, 담배냄새 99% 제거<br />* 시험결과는 사용환경 등에 따라 차이가 있을 수 있습니다.
+                    </p>
+                    <p>
+                      <b>[구김제거-건조]</b><br />
+                      <br />* 시험 기관 : KATRI (한국의류시험연구원) / 시험 일자 : ‘25년 03월<br />* 시험 코스 : 스팀리프레쉬<br />* 시험 부하 : KS C IEC60456 표준셔츠 2장, 5장<br />* 시험 조건 : 시험실 온도 21°±2C, 시험실 습도 50±15% R.H.<br />* 시험 방법 : 자사가 제시한 시험 기준으로, 셔츠 등판 300mm x 300mm 기준 셔츠에 임의 구김을 부여한 후, 셔츠를 무작위로 선택하여건조기 동작 전, 후 AATCC 시험평가판으로 비교<br />* 시험 결과 : 구김정도 시험 전 대비 2배 이상 완화 됨.<br />* 시험결과는 사용환경 등에 따라 차이가 있을 수 있습니다.
                     </p>
                     <button class="btn-collapse-close">접기</button>
                   </div>
