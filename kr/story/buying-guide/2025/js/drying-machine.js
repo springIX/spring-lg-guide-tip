@@ -23,7 +23,5 @@ $("document").ready(function () {
         $("#point-tip4").show().siblings(".point-tip").hide();
         break;
     }
-    
-    
   });
 });
