@@ -689,7 +689,6 @@
   right: 0;
   bottom: 0;
   width: 100%;
-  max-width: 1920px;
   margin: 0 auto;
   height: 100%;
   overflow: hidden;
@@ -699,10 +698,10 @@
   position: absolute;
   width: 75.8333vw;
   height: 42.6563vw;
-  left: 50%;
-  top: 47%;
+  left: 49%;
+  top: 51%;
   transform: translate(-50%, -50%);
-  opacity: 0.7;
+  opacity: 0.5;
   mix-blend-mode: screen;
   filter: brightness(1.12) contrast(1.18);
 }
@@ -712,7 +711,7 @@
   width: 100vw;
   height: 30.5208vw;
   left: 50%;
-  top: 56%;
+  top: 63%;
   transform: translate(-50%, -50%);
   mix-blend-mode: screen;
   filter: brightness(1.12) contrast(1.18);
@@ -771,7 +770,7 @@
     height: 819px;
   }
   #designlg #kv .bg-img-wrap .kv5 {
-    width: 1920px;
+    width: 100%;
     height: 586px;
   }
   #designlg #kv .bg-img-wrap .kv3 {
@@ -1749,7 +1748,7 @@
 
 #designlg #DESIGN .content-sec.sec2 .sec-cnt .cnt-img .caption .caption-desc {
   text-align: right;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.58;
   letter-spacing: -0.36px;
@@ -1979,7 +1978,7 @@
 #designlg #DESIGN .content-sec.sec4 .sec-cnt .cnt-img .caption .caption-desc {
   width: 100%;
   text-align: right;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.58;
   letter-spacing: -0.36px;
@@ -1998,7 +1997,7 @@
 
 /* ************** INTERVIEW ************** */
 #designlg #INTERVIEW {
-  background-color: #eeecf0;
+  background-color: #e8e8f1;
   padding-top: 120px;
   position: relative;
 }
@@ -2786,6 +2785,7 @@
   --side-size: 301px;
   margin: 0 auto;
   padding: 0;
+  min-width: 100%;
 }
 
 #designlg #INSPIRATION .img-list {

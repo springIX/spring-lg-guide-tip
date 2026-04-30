@@ -1,4 +1,4 @@
-﻿$(document).ready(function () {
+﻿﻿$(document).ready(function () {
   gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
   var kvScrollInited = false;
@@ -81,14 +81,14 @@
     revealTl
       .to("#kv .bg-img-wrap .kv2 img", {
         opacity: 1,
-        duration: 0.3,
+        duration: 1.0, // 이 값을 늘리면 애니메이션이 느려집니다.
         ease: "none",
       })
       .to(
         "#kv .bg-img-wrap .kv5 img",
         {
           opacity: 1,
-          duration: 0.3,
+          duration: 1.0, // 이 값을 늘리면 애니메이션이 느려집니다.
           ease: "none",
         },
         "<+=0.08",
