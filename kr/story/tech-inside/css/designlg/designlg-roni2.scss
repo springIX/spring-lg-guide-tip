@@ -670,7 +670,7 @@
   right: 0;
   bottom: 0;
   width: 100%;
-  max-width: 1920px;
+  // max-width: 1920px;
   margin: 0 auto;
   height: 100%;
   overflow: hidden;
@@ -680,10 +680,11 @@
   position: absolute;
   width: 75.8333vw;
   height: 42.6563vw;
-  left: 50%;
-  top: 47%;
+
+  left: 49%;
+  top: 51%;
   transform: translate(-50%, -50%);
-  opacity: 0.7;
+  opacity: 0.5;
   mix-blend-mode: screen;
   filter: brightness(1.12) contrast(1.18);
 }
@@ -692,7 +693,7 @@
   width: 100vw;
   height: 30.5208vw;
   left: 50%;
-  top: 56%;
+  top: 63%;
   transform: translate(-50%, -50%);
   mix-blend-mode: screen;
   filter: brightness(1.12) contrast(1.18);
@@ -751,7 +752,8 @@
   }
 
   #designlg #kv .bg-img-wrap .kv5 {
-    width: 1920px;
+    // width: 1920px;
+    width: 100%;
     height: 586px;
   }
 
@@ -1923,7 +1925,7 @@
 #designlg #DESIGN .content-sec.sec4 .sec-cnt .cnt-img .caption .caption-desc {
   width: 100%;
   text-align: right;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.58;
   letter-spacing: -0.36px;
