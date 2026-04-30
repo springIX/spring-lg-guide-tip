@@ -10,11 +10,8 @@ $("document").ready(function () {
       case "#buying-point-1-3":
         $("#point-tip2").show().siblings(".point-tip").hide();
         break;
-      case "#buying-point-2-1":
-      case "#buying-point-2-2":
       case "#buying-point-2-3":
       case "#buying-point-2-4":
-      case "#buying-point-2-5":
         $("#point-tip3").show().siblings(".point-tip").hide();
         break;
       case "#buying-point-3-1":
@@ -22,6 +19,9 @@ $("document").ready(function () {
         break;
       case "#buying-point-3-2":
         $("#point-tip5").show().siblings(".point-tip").hide();
+        break;
+      case "#buying-point-3-3":
+        $("#point-tip6").show().siblings(".point-tip").hide();
         break;
     }
   });
