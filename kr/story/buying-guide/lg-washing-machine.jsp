@@ -728,10 +728,10 @@
                         <td>
                           <div class="spec-img">
                             <img src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_lcd.svg"
-                              alt="풀터치 LCD 디스플레이" />
+                              alt="풀터치 LED 디스플레이" />
                           </div>
                           <p>
-                            풀터치 LCD 디스플레이
+                            풀터치 LED 디스플레이
                             <span class="des">
                               <button class="info pc-only"></button>
                               <span class="bubble">별도 페어링이 필요 없는 풀터치 LED 디스플레이로 간편한 조작
@@ -742,10 +742,10 @@
                         <td>
                           <div class="spec-img">
                             <img src="/kr/story/buying-guide/2025/img/washing-machine/ic48_07_lcd.svg"
-                              alt="풀터치 LCD 디스플레이" />
+                              alt="풀터치 LED 디스플레이" />
                           </div>
                           <p>
-                            풀터치 LCD 디스플레이
+                            풀터치 LED 디스플레이
                             <span class="des">
                               <button class="info pc-only"></button>
                               <span class="bubble">별도 페어링이 필요 없는 풀터치 LED 디스플레이로 간편한 조작
@@ -768,7 +768,7 @@
                             target="_blank" class="btn-product">제품 보러 가기</a>
                         </td>
                         <td>
-                          <a href="https://www.lge.co.kr/wash-tower/w1310bn?sKwd=W1310BN&sTab=unit_product_list&sRank=1"
+                          <a href="https://www.lge.co.kr/category/wash-tower?filterProduct=AT0000000109:KY0000002622:03"
                             target="_blank" class="btn-product">제품 보러 가기</a>
                         </td>
                       </tr>
@@ -930,7 +930,7 @@
                             트루스팀
                             <span class="des">
                               <button class="info pc-only"></button>
-                              <span class="bubble">60℃ 이상의 고온으로 구김·세균 걱정 없이청결하게</span>
+                              <span class="bubble">세탁부터 건조까지 세균, 살균, 생활주름 케어</span>
                             </span>
                           </p>
                         </td>
@@ -1562,7 +1562,7 @@
                             인체공학 설계
                             <span class="des">
                               <button class="info pc-only"></button>
-                              <span class="bubble">고온의 트루스팀으로 케어해 안심되는99.99% 살균 세탁</span>
+                              <span class="bubble">세탁기 전면부 높이를 6.7cm 가량 낮추어 덜 숙이고도 세탁물을 꺼내기 쉽게 설계</span>
                             </span>
                           </p>
                         </td>
@@ -1575,7 +1575,7 @@
                             인체공학 설계
                             <span class="des">
                               <button class="info pc-only"></button>
-                              <span class="bubble">고온의 트루스팀으로 케어해 안심되는99.99% 살균 세탁</span>
+                              <span class="bubble">세탁기 전면부 높이를 6.7cm 가량 낮추어 덜 숙이고도 세탁물을 꺼내기 쉽게 설계</span>
                             </span>
                           </p>
                         </td>
@@ -1726,7 +1726,7 @@
                     </p>
                     <div class="btn-wrap" style="--btn-width: 216px; --btn-m-width: 196px">
                       <a class="btn-product"
-                        href="https://www.lge.co.kr/category/wash-tower?subCateId=CT50210002&filterProduct=AT0000000143:KY0000004252:01,AT0000000143:KY0000000259:01,AT0000000143:KY0000000104:01,AT0000000143:KY0000003881:01"
+                        href="https://www.lge.co.kr/category/wash-tower?subCateId=CT50210002&filterProduct=AT0000000143:KY0000003571:01"
                         target="_blank">제품 보러 가기</a>
                       <a class="btn-guide" href="https://www.lge.co.kr/story/user-guide/wash-tower-install-guide"
                         target="_blank">설치 가이드 보러 가기</a>
@@ -1785,7 +1785,7 @@
                     </p>
                     <div class="btn-wrap" style="--btn-width: 216px; --btn-m-width: 196px;">
                       <a class="btn-product"
-                        href="https://www.lge.co.kr/category/washing-machines?filterProduct=AT0000000142:KY0000000283:02,AT0000000142:KY0000000245:02"
+                        href="https://www.lge.co.kr/category/washing-machines?filterProduct=AT0000000142:KY0000000283:02"
                         target="_blank">제품 보러 가기</a>
                     </div>
                     <div class="img">
@@ -1873,7 +1873,7 @@
                   </p>
                   <div class="btn-wrap" style="--btn-width:  216px; --btn-m-width: 196px;">
                     <a class="btn-product"
-                      href="https://www.lge.co.kr/category/wash-tower?filterProduct=AT0000001251:KY0000002682:03"
+                      href="https://www.lge.co.kr/category/wash-tower?filterProduct=AT0000001251:KY0000002682:03&filterBrand=AT0000000111:KY0000003992:01"
                       target="_blank">워시타워 제품 보러 가기</a>
                   </div>
                   <div class="img">
@@ -1909,7 +1909,7 @@
               <div class="point-wrap" id="buying-point-3-2" name="buying-point-3" style="display: none">
                 <h4 class="hide">AI 편의 기능</h4>
                 <div class="content">
-                  <h5>AI 타임 센싱 (워시타워, 세탁기)</h5>
+                  <h5>AI 타임 센싱 (워시타워)</h5>
                   <p>
                     세탁물 투입 후 시작 버튼을 누르면, AI 타임 센싱 기능이 세탁물의 무게를 자동으로 감지하여 약 3초 안에 코스별 예상 종료 시간을 안내합니다. 세탁 및 건조 소요 시간을 미리
                     알려주어 세탁이 얼마나 걸릴지 매번 확인하기 번거로운 분들에게 유용한 기능입니다.
