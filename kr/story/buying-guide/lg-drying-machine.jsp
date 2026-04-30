@@ -68,8 +68,6 @@
         <!-- // 이모션 추가 -->
       </head>
 
-
-
       <body>
         <c:import url="/WEB-INF/jsp/common/includes/googleBodyScript.jsp" charEncoding="utf-8" />
         <div class="wrap subRenewWrap subRenewWrap--share subRenewWrap--story">
@@ -725,8 +723,8 @@
                           </h5>
                           <p>
                             각 모델에 호환되는 키트를 활용해 세탁기 위에 건조기를 직렬로 올려 설치할 수 있습니다.<br>
-                            세탁기와 건조기의 외관크기가 같으면 전용 스태킹 키트, 일반 스태킹 키트, 브라켓 키트를 사용하 할 수 있어요.<br><br>
-                            세탁기와 건조기를 블루투스로 연결하여 사용이 편리한 전용 스태킹 키트, 건조기 9kg에 적합한 서랍식 키트, 모든 드럼세탁기에 가능한 범용 스캐팅 키트까지 다양한 키트를 사용해 내가 가진 세탁기와 공간에 맞게 설치해보세요.
+                            세탁기와 건조기의 외관크기가 같으면 전용 스태킹 키트, 일반 스태킹 키트, 전용 브라켓 키트를 사용하 할 수 있어요.<br><br>
+                            세탁기와 건조기를 블루투스로 연결하여 사용이 편리한 전용 스태킹 키트, 건조기 9kg에 적합한 서랍형 키트, 모든 드럼세탁기에 가능한 범용 스태킹 키트까지 다양한 키트를 사용해 내가 가진 세탁기와 공간에 맞게 설치해보세요.
                           </p>
                           <div class="btn-wrap" style="--btn-width: 223px; --btn-m-width: 200px">
                             <a class="btn-guide"
@@ -1242,7 +1240,8 @@
                 </div>
                 <p class="note">
                   * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
-                  스펙은 다를 수 있습니다.
+                  스펙은 다를 수 있습니다.<br>
+                  * 제품별 기능 및 스펙은 차이가 있을 수 있으므로, 자세한 내용은 제품 상세 페이지를 참고해주세요.
                 </p>
                 <div class="point-box">
                   <h4 class="box-subtitle">

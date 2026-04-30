@@ -1986,9 +1986,9 @@
                 </div>
               </div>
               <div class="point-wrap" id="buying-point-3-3" name="buying-point-3" style="display: none">
-                <h4 class="hide">AI DD X6모션 (워시타워, 워시콤보, 세탁기)</h4>
+                <h4 class="hide">AI DD X6모션 (워시타워, 워시콤보, 트롬 세탁기)</h4>
                 <div class="content">
-                  <h5>AI DD X6모션 (워시타워, 워시콤보, 세탁기)</h5>
+                  <h5>AI DD X6모션 (워시타워, 워시콤보, 트롬 세탁기)</h5>
                   <p>
                     AI DD 기술이 세탁물의 무게와 재질, 오염도를 스스로 감지하여 옷감에 꼭 맞는 세탁/건조 모션을 선택합니다. 6가지의 섬세한 모션으로 세탁양과 시간을 자동 조절해 옷감 손상은
                     줄이고 세탁/건조 효율은 높입니다.
@@ -2271,7 +2271,8 @@
         </div>
         <p class="note">
           * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
-          스펙은 다를 수 있습니다.
+          스펙은 다를 수 있습니다.<br>
+          * 제품별 기능 및 스펙은 차이가 있을 수 있으므로, 자세한 내용은 제품 상세 페이지를 참고해주세요.
         </p>
         <div class="point-box">
           <h4 class="box-subtitle">
