@@ -173,9 +173,9 @@
                     alt="밝은색의 LG 세탁기가 흰색 벽 앞에 위치하며, 근처에는 세면대와 수납장이 있는 욕실 환경이 부분적으로 보입니다." class="mobile-only" />
                 </div>
                 <div class="text-wrap">
-                  <h4>건조의 모든 과정에 AI로 편리함을 더해 똑똑하게</h4>
+                  <h4>건조 과정에 AI로 편리함을 더해 똑똑하게</h4>
                   <p>
-                    AI가 의류의 특성을 인식해 건조의 전 과정을 옷감에 맞춰 섬세하게 관리해줘요. 건조 중 발생할 수 있는 수축이나 울 풀림을 방지해, 아끼는 옷을 더 오래 입을 수 있어요.
+                    의류의 재질을 감지하여 6모션으로 꼼꼼하고 섬세하게 건조해줘요. <br>건조 중 수축이나 울 풀림을 줄여주어 아끼는 옷을 더 오래 입을 수 있어요.
                   </p>
                 </div>
                 <p class="note">
@@ -188,13 +188,12 @@
                     <br class="pc-only" />내게 꼭 맞는 제품을 쉽게 찾아보세요.
                   </h3>
                   <div class="procuct-summary vertical-scroll-box" id="procuct-summary"
-                    style="--col-width: 20%; --table-width: 715px">
+                    style="--col-width: 25%; --table-width: 715px">
                     <div class="sticky-product-no">
                       <div class="inner">
                         <div class="inner2">
                           <div>건조기<span></span>25kg<span></span>트루스팀</div>
                           <div>건조기<span></span>22kg</div>
-                          <div>건조기<span></span>21kg</div>
                           <div>건조기<span></span>20kg</div>
                           <div>건조기<span></span>19kg</div>
                         </div>
@@ -216,7 +215,6 @@
                           <tr class="procuct-no">
                             <td>건조기<span></span>25kg<span></span>트루스팀</td>
                             <td>건조기<span></span>22kg</td>
-                            <td>건조기<span></span>21kg</td>
                             <td>건조기<span></span>20kg</td>
                             <td>건조기<span></span>19kg</td>
                           </tr>
@@ -238,17 +236,6 @@
                                   alt="제습기 LG 휘센 오브제컬렉션 제습기 (DQ154MWGA.AKOR) 메인이미지 3" class="front" />
                                 <img src="/kr/story/buying-guide/2025/img/drying-machine/img_P07_001_74.png"
                                   alt="의류관리기 LG 스타일러 오브제컬렉션 (SC5MSR72.AKOR) 메인이미지" class="side" />
-                                <button class="btn-angle" name="btn-angle">
-                                  다른 각도 보기
-                                </button>
-                              </div>
-                            </td>
-                            <td>
-                              <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/drying-machine/img_P07_001_75.png"
-                                  alt="의류관리기 LG 스타일러 오브제컬렉션 (SC5MBR60B.AKOR) 메인이미지" class="front" />
-                                <img src="/kr/story/buying-guide/2025/img/drying-machine/img_P07_001_76.png"
-                                  alt="의류관리기 LG 스타일러 오브제컬렉션 (SC5MBR60B.AKOR) 내부 이미지" class="side" />
                                 <button class="btn-angle" name="btn-angle">
                                   다른 각도 보기
                                 </button>
@@ -312,21 +299,6 @@
                             <td>
                               <div class="spec-img">
                                 <img src="/kr/story/buying-guide/2025/img/drying-machine/ic48_06_kg.svg"
-                                  alt="건조 용량 21kg" />
-                              </div>
-                              <p>
-                                건조 용량 21kg
-                                <span class="des">
-                                  <button class="info pc-only"></button>
-                                  <span class="bubble">넉넉한 21kg
-                                    건조 용량으로
-                                    이불 등 대용량 빨래도 여유있게 건조</span>
-                                </span>
-                              </p>
-                            </td>
-                            <td>
-                              <div class="spec-img">
-                                <img src="/kr/story/buying-guide/2025/img/drying-machine/ic48_06_kg.svg"
                                   alt="건조 용량 20kg" />
                               </div>
                               <p>
@@ -369,19 +341,6 @@
                                   <button class="info pc-only"></button>
                                   <span class="bubble">세탁물 투입 후 3초안에 빠르게 알려주는
                                     코스별 건조 예상 시간</span>
-                                </span>
-                              </p>
-                            </td>
-                            <td class="disabled">
-                              <div class="spec-img">
-                                <img src="/kr/story/buying-guide/2025/img/drying-machine/ic48_06_AIdry_2.svg"
-                                  alt="인공지능 건조 코스" />
-                              </div>
-                              <p>
-                                인공지능 건조 코스
-                                <span class="des">
-                                  <button class="info pc-only"></button>
-                                  <span class="bubble">딥러닝 AI로 무게와 습도를 감지해 의류에 맞춘 건조 시간과 온도를 자동 설정</span>
                                 </span>
                               </p>
                             </td>
@@ -479,34 +438,8 @@
                                 </span>
                               </p>
                             </td>
-                            <td class="disabled">
-                              <div class="spec-img">
-                                <img src="/kr/story/buying-guide/2025/img/drying-machine/ic48_06_AIdry_2.svg"
-                                  alt="인공지능 건조 코스" />
-                              </div>
-                              <p>
-                                인공지능 건조 코스
-                                <span class="des">
-                                  <button class="info pc-only"></button>
-                                  <span class="bubble">딥러닝 AI로 무게와 습도를 감지해 의류에 맞춘 건조 시간과 온도를 자동 설정</span>
-                                </span>
-                              </p>
-                            </td>
                           </tr>
                           <tr class="procuct-spec">
-                            <td>
-                              <div class="spec-img">
-                                <img src="/kr/story/buying-guide/2025/img/drying-machine/ic48_06_motion_3.svg"
-                                  alt="자동 환기 시스템" />
-                              </div>
-                              <p>
-                                6모션 건조
-                                <span class="des">
-                                  <button class="info pc-only"></button>
-                                  <span class="bubble">정교한 6가지 모션으로 옷감 손상을 최소화 한 섬세한 건조</span>
-                                </span>
-                              </p>
-                            </td>
                             <td>
                               <div class="spec-img">
                                 <img src="/kr/story/buying-guide/2025/img/drying-machine/ic48_06_motion_3.svg"
@@ -584,20 +517,6 @@
                                 <span class="des">
                                   <button class="info pc-only"></button>
                                   <span class="bubble">건조 시 트루스팀으로 케어해 살균, 탈취 그리고 구김 완화 까지 간편하게 관리</span>
-                                </span>
-                              </p>
-                            </td>
-                            <td class="disabled">
-                              <div class="spec-img">
-                                <img src="/kr/story/buying-guide/2025/img/drying-machine/ic48_13_pantpress.svg"
-                                  alt="바지관리기" />
-                              </div>
-                              <p>
-                                빌트인 고압 스티머
-                                <span class="des">
-                                  <button class="info pc-only"></button>
-                                  <span class="bubble">3분 만에 예열되는 고압 스팀으로 빠르고
-                                    깔끔하게</span>
                                 </span>
                               </p>
                             </td>
@@ -683,34 +602,8 @@
                                 </span>
                               </p>
                             </td>
-                            <td>
-                              <div class="spec-img">
-                                <img src="/kr/story/buying-guide/2025/img/drying-machine/ic48_06_carecourse.svg"
-                                  alt="수축완화코스" />
-                              </div>
-                              <p>
-                                수축완화코스
-                                <span class="des">
-                                  <button class="info pc-only"></button>
-                                  <span class="bubble">낙차를 줄인 모션 조합으로 옷감 수축과 자극을 완화</span>
-                                </span>
-                              </p>
-                            </td>
                           </tr>
                           <tr class="procuct-spec">
-                            <td>
-                              <div class="spec-img">
-                                <img src="/kr/story/buying-guide/2025/img/drying-machine/ic48_06_LCD.svg"
-                                  alt="LCD 다이얼 + LED 디스플레이" />
-                              </div>
-                              <p>
-                                LCD 다이얼 + LED 디스플레이
-                                <span class="des">
-                                  <button class="info pc-only"></button>
-                                  <span class="bubble">다이얼 화면을 통해 정보를 직관적으로 확인하고 간편하게 조작</span>
-                                </span>
-                              </p>
-                            </td>
                             <td>
                               <div class="spec-img">
                                 <img src="/kr/story/buying-guide/2025/img/drying-machine/ic48_06_LCD.svg"
@@ -774,11 +667,7 @@
                                 target="_blank" class="btn-product">제품 보러 가기</a>
                             </td>
                             <td>
-                              <a href="https://www.lge.co.kr/dryers/rd21gn?sKwd=rd21gn&sTab=unit_product_list&sRank=1&share=Y"
-                                target="_blank" class="btn-product">제품 보러 가기</a>
-                            </td>
-                            <td>
-                              <a href="https://www.lge.co.kr/dryers/rg20wn?sKwd=rg20wn&sTab=unit_product_list&sRank=1&share=Y"
+                              <a href="https://www.lge.co.kr/dryers/rg20vn"
                                 target="_blank" class="btn-product">제품 보러 가기</a>
                             </td>
                             <td>
@@ -833,10 +722,9 @@
                             직렬설치
                           </h5>
                           <p>
-                            각 모델에 호환되는 키트를 활용해 세탁기 위에 건조기를 직렬로 올려 설치할 수 있습니다.
-                            세탁기와 건조기의 왼관크기가 같으면 일반 스태킹 키트 및 브라켓 키트를 비롯해 세탁기와 건조기를 블루투스로 결하여 사용이 편리한 전용 스태킹 키트로,건조기 9kg에
-                            적합한
-                            서랍식으로 선반이 내재된 서랍식 키트까지 다양한 키트를 용해 내가 가진 모델과 공간에 맞게 설치해보세요.
+                            각 모델에 호환되는 키트를 활용해 세탁기 위에 건조기를 직렬로 올려 설치할 수 있습니다.<br>
+                            세탁기와 건조기의 외관크기가 같으면 전용 스태킹 키트, 일반 스태킹 키트, 브라켓 키트를 사용할 수 있어요.<br><br>
+                            세탁기와 건조기를 블루투스로 연결하여 사용이 편리한 전용 스태킹 키트, 건조기 9kg에 적합한 서랍형 키트, 모든 드럼세탁기에 가능한 범용 스태킹 키트까지 다양한 키트를 사용해 내가 가진 세탁기와 공간에 맞게 설치해보세요.
                           </p>
                           <div class="btn-wrap" style="--btn-width: 223px; --btn-m-width: 200px">
                             <a class="btn-guide"
@@ -861,6 +749,10 @@
                             <img src="/kr/story/buying-guide/2025/img/drying-machine/img_P07_001_09.jpg"
                               alt="미니멀한 베이지톤 인테리어에 설치된 LG 오브제컬렉션 워시타워 (하단 베이지 세탁기, 상단 그린 건조기 일체형)" />
                           </div>
+                          <p class="des">
+                            * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br>
+                            * 제품별 기능 및 스펙은 차이가 있을 수 있으므로, 자세한 내용은 제품 상세 페이지를 참고해주세요.
+                          </p>
                         </div>
                       </div>
                       <div class="point-wrap" id="buying-point-1-2" name="buying-point-1" style="display: none">
@@ -881,6 +773,10 @@
                             <img src="/kr/story/buying-guide/2025/img/drying-machine/img_P07_001_10.jpg"
                               alt="나란히 배치된 LG 오브제컬렉션 세탁기와 건조기 (왼쪽 크림 베이지 세탁기, 오른쪽 딥 그린 건조기)" />
                           </div>
+                          <p class="des">
+                            * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br>
+                            * 제품별 기능 및 스펙은 차이가 있을 수 있으므로, 자세한 내용은 제품 상세 페이지를 참고해주세요.
+                          </p>
                         </div>
                       </div>
                       <div class="point-wrap" id="buying-point-1-3" name="buying-point-1" style="display: none">
@@ -903,6 +799,10 @@
                             <img src="/kr/story/buying-guide/2025/img/drying-machine/img_P07_001_05.jpg"
                               alt="밝고 깨끗한 세탁실 인테리어에 단독 설치된 크림 베이지 컬러 LG 오브제컬렉션 세탁기" />
                           </div>
+                          <p class="des">
+                            * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br>
+                            * 제품별 기능 및 스펙은 차이가 있을 수 있으므로, 자세한 내용은 제품 상세 페이지를 참고해주세요.
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -974,7 +874,8 @@
                               src="/kr/story/buying-guide/2025/video/drying-machine/vid_P07_001_01.mp4"></video>
                           </div>
                           <p class="des">
-                            * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                            * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br>
+                            * 제품별 기능 및 스펙은 차이가 있을 수 있으므로, 자세한 내용은 제품 상세 페이지를 참고해주세요.
                           </p>
                           <button class="btn-collapse-toggle">
                             <span>* AI 타임 센싱 / AI 시간 안내 / AI 건조</span>
@@ -1017,7 +918,8 @@
                             <img src="/kr/story/buying-guide/2025/img/drying-machine/img_P07_001_18.jpg" alt="" />
                           </div>
                           <p class="des">
-                            * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                            * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br>
+                            * 제품별 기능 및 스펙은 차이가 있을 수 있으므로, 자세한 내용은 제품 상세 페이지를 참고해주세요.
                           </p>
                           <button class="btn-collapse-toggle">
                             <span>* AI 타임 센싱</span>
@@ -1048,7 +950,8 @@
                               alt="LG 오브제컬렉션 AI 시간 안내 기능 설명 (디스플레이에 'AI 건조, 절약모드 자동, 건조정도 표준' 메시지가 표시되어 있고, 하단에 '시간 오차 범위 단축'을 의미하는 아이콘이 강조된 모습)" />
                           </div>
                           <p class="des">
-                            * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                            * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br>
+                            * 제품별 기능 및 스펙은 차이가 있을 수 있으므로, 자세한 내용은 제품 상세 페이지를 참고해주세요.
                           </p>
                           <button class="btn-collapse-toggle">
                             <span>* AI 시간 안내</span>
@@ -1082,7 +985,8 @@
                               src="/kr/story/buying-guide/2025/video/drying-machine/vid_P07_001_03.mp4"></video>
                           </div>
                           <p class="des">
-                            * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                            * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br>
+                            * 제품별 기능 및 스펙은 차이가 있을 수 있으므로, 자세한 내용은 제품 상세 페이지를 참고해주세요.
                           </p>
                         </div>
                       </div>
@@ -1173,7 +1077,8 @@
                             </div>
                           </div>
                           <p class="des">
-                            * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                            * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br>
+                            * 제품별 기능 및 스펙은 차이가 있을 수 있으므로, 자세한 내용은 제품 상세 페이지를 참고해주세요.
                           </p>
                           <button class="btn-collapse-toggle">
                             <span>* 유해세균 살균 / 바이러스 제거 / 알러지 유발물질 제거 / 꽃가루 알레르겐 불활성화 / 탈취 / 구김제거</span>
@@ -1270,7 +1175,8 @@
                               src="/kr/story/buying-guide/2025/video/drying-machine/vid_P07_001_04.mp4"></video>
                           </div>
                           <p class="des">
-                            * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                            * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br>
+                            * 제품별 기능 및 스펙은 차이가 있을 수 있으므로, 자세한 내용은 제품 상세 페이지를 참고해주세요.
                           </p>
                           <button class="btn-collapse-toggle">
                             <span>* 수축완화</span>
@@ -1306,7 +1212,8 @@
                               alt="LG 오브제컬렉션 타월 코스 기능 설명 (세탁 후 쌓여있는 깨끗한 타월 이미지와 함께 '올 풀림 35% 개선'이라는 수치 정보가 강조된 모습)" />
                           </div>
                           <p class="des">
-                            * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                            * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br>
+                            * 제품별 기능 및 스펙은 차이가 있을 수 있으므로, 자세한 내용은 제품 상세 페이지를 참고해주세요.
                           </p>
                           <button class="btn-collapse-toggle">
                             <span>* 타월코스+ </span>
@@ -1352,7 +1259,8 @@
                 </div>
                 <p class="note">
                   * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
-                  스펙은 다를 수 있습니다.
+                  스펙은 다를 수 있습니다.<br>
+                  * 제품별 기능 및 스펙은 차이가 있을 수 있으므로, 자세한 내용은 제품 상세 페이지를 참고해주세요.
                 </p>
                 <div class="point-box">
                   <h4 class="box-subtitle">
@@ -1556,7 +1464,8 @@
                   </div>
                   <p class="note">
                     * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
-                    스펙은 다를 수 있습니다.
+                    스펙은 다를 수 있습니다.<br>
+                    * 제품별 기능 및 스펙은 차이가 있을 수 있으므로, 자세한 내용은 제품 상세 페이지를 참고해주세요.
                   </p>
                 </div>
               </div>

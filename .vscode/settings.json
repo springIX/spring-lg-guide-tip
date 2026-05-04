@@ -1,10 +1,10 @@
 {
-  "liveServer.settings.port": 5505,
+  "liveServer.settings.port": 5506,
   "liveSassCompile.settings.formats": [
     {
       "format": "expanded",
       "extensionName": ".css"
-      // "savePath": "~/../css"  <-- 이 줄을 지우세요!  
+      // "savePath": "~/../css"  <-- 이 줄을 지우세요!
     }
   ]
 }
