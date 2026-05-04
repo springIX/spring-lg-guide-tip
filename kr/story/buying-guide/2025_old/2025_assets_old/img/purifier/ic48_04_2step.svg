@@ -1,0 +1,13 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="16" y="10" width="18" height="14" rx="1" fill="#E4DDCD"/>
+<rect x="16" y="25" width="18" height="14" rx="1" fill="#E4DDCD"/>
+<path d="M17 41H33" stroke="#7E796E" stroke-width="2" stroke-linecap="round"/>
+<path d="M17 8H33" stroke="#7E796E" stroke-width="2" stroke-linecap="round"/>
+<ellipse cx="8.5" cy="19.5" rx="1.5" ry="1.5" transform="rotate(90 8.5 19.5)" fill="#7E796E"/>
+<ellipse cx="12.5" cy="14.5" rx="1.5" ry="1.5" transform="rotate(90 12.5 14.5)" fill="#7E796E"/>
+<ellipse cx="12.5" cy="24.5" rx="1.5" ry="1.5" transform="rotate(90 12.5 24.5)" fill="#7E796E"/>
+<ellipse cx="12.5" cy="34.5" rx="1.5" ry="1.5" transform="rotate(90 12.5 34.5)" fill="#7E796E"/>
+<ellipse cx="8.5" cy="29.5" rx="1.5" ry="1.5" transform="rotate(90 8.5 29.5)" fill="#7E796E"/>
+<path d="M32 35.6667L32.7622 34.8536C33.669 33.8864 35.229 33.9721 36.0245 35.0327C36.8033 36.071 38.3211 36.1789 39.2389 35.2611L40 34.5" stroke="#7E796E" stroke-width="2" stroke-linecap="round"/>
+<path d="M32 30.6667L32.7622 29.8536C33.669 28.8864 35.229 28.9721 36.0245 30.0327C36.8033 31.071 38.3211 31.1789 39.2389 30.2611L40 29.5" stroke="#7E796E" stroke-width="2" stroke-linecap="round"/>
+</svg>
