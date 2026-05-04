@@ -162,7 +162,7 @@
                     ">
                     <div class="dot"><span></span></div>
                     <div class="bubble">
-                      <a href="https://wwwstg.lge.co.kr/dryers/rd25ese" target="_blank"><span>LG 트롬 AI 오브제컬렉션 건조기</span>
+                      <a href="https://www.lge.co.kr/dryers/rd25ese" target="_blank"><span>LG 트롬 AI 오브제컬렉션 건조기</span>
                       </a>
                       <p>25kg<span></span>1등급</p>
                     </div>
@@ -728,18 +728,18 @@
                           </p>
                           <div class="btn-wrap" style="--btn-width: 223px; --btn-m-width: 200px">
                             <a class="btn-guide"
-                              href="https://wwwstg.lge.co.kr/story/setup-guide/washer-installation-guide#result-08-02-01-01"
+                              href="https://www.lge.co.kr/story/setup-guide/washer-installation-guide#result-08-02-01-01"
                               target="_blank">일반 스태킹 (직렬형) 키트</a>
                             <a class="btn-guide"
-                              href="https://wwwstg.lge.co.kr/story/setup-guide/washer-installation-guide#result-08-02-02-01"
+                              href="https://www.lge.co.kr/story/setup-guide/washer-installation-guide#result-08-02-02-01"
                               target="_blank" style="white-space: nowrap;">전용 스태킹 키트 (블루투스)</a>
                             <a class="btn-guide"
-                              href="https://wwwstg.lge.co.kr/story/setup-guide/washer-installation-guide#result-08-02-03-01"
+                              href="https://www.lge.co.kr/story/setup-guide/washer-installation-guide#result-08-02-03-01"
                               target="_blank">전용 브라켓</a>
                           </div>
                           <div class="btn-wrap" style="--btn-width: 223px; --btn-m-width: 200px">
                             <a class="btn-guide"
-                              href="https://wwwstg.lge.co.kr/story/setup-guide/washer-installation-guide#result-08-02-04-01"
+                              href="https://www.lge.co.kr/story/setup-guide/washer-installation-guide#result-08-02-04-01"
                               target="_blank">서랍형 키트</a>
                             <a class="btn-guide"
                               href="https://www.lge.co.kr/story/setup-guide/washer-installation-guide#result-08-02-05-01"
@@ -766,7 +766,7 @@
                           </p>
                           <div class="btn-wrap" style="--btn-width: 184px; --btn-m-width: 156px">
                             <a class="btn-guide"
-                              href="https://wwwstg.lge.co.kr/story/setup-guide/washer-installation-guide#result-04-01-01-01"
+                              href="https://www.lge.co.kr/story/setup-guide/washer-installation-guide#result-04-01-01-01"
                               target="_blank">설치 가이드 보러 가기</a>
                           </div>
                           <div class="img">
@@ -792,7 +792,7 @@
                             <a class="btn-product" href="https://www.lge.co.kr/category/dryers?subCateId=CT50210005"
                               target="_blank">제품 보러가기</a>
                             <a class="btn-guide"
-                              href="https://wwwstg.lge.co.kr/story/setup-guide/washer-installation-guide#result-04-01-01-01"
+                              href="https://www.lge.co.kr/story/setup-guide/washer-installation-guide#result-04-01-01-01"
                               target="_blank">설치 가이드 보러 가기</a>
                           </div>
                           <div class="img">
