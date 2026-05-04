@@ -749,7 +749,7 @@
   width: 100vw;
   aspect-ratio: 1920/1080;
   position: absolute;
-  top: 47%;
+  top: 42%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 3;
@@ -771,6 +771,21 @@
   padding-left: 20px;
 }
 
+@media screen and (max-width: 1024px) {
+  #designlg #kv .intro-wrap .title-wrap {
+    padding-top: 170px;
+  }
+}
+@media screen and (max-width: 820px) {
+  #designlg #kv .intro-wrap .title-wrap {
+    padding-top: 140px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #designlg #kv .intro-wrap .title-wrap {
+    padding-top: 130px;
+  }
+}
 @media screen and (max-width: 767px) {
   /* ************** 공통 ************** */
   #designlg section .inwrap .heading .eyebrow {
@@ -850,7 +865,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    gap: 37.7184vw;
+    gap: 48.7184vw;
     width: 100%;
     justify-content: space-between;
     height: 100%;
@@ -863,7 +878,7 @@
     position: relative;
     top: 0;
     left: 0;
-    padding: 80px 30px 0;
+    padding: 0px 30px 0;
     box-sizing: border-box;
     transform: none;
   }
@@ -922,7 +937,7 @@
   #designlg #kv .bg-img-wrap .kv4 {
     width: 100%;
     height: auto;
-    top: 35%;
+    top: 34%;
     aspect-ratio: 390/282;
   }
   #designlg #kv .bg-img-wrap .kv4 img {
@@ -952,9 +967,19 @@
     height: 40px;
   }
 }
+@media screen and (max-width: 560px) {
+  #designlg #kv .intro-wrap .title-wrap {
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #designlg #kv .intro-wrap .title-wrap {
+    padding-top: 110px;
+  }
+}
 @media screen and (max-width: 390px) {
   #designlg #kv .intro-wrap .title-wrap {
-    padding: 60px 30px 0;
+    padding: 120px 30px 0;
     box-sizing: border-box;
     transform: none;
   }
