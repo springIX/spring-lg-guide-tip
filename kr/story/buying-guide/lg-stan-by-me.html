@@ -51,7 +51,7 @@
     />
     <script
       type="text/javascript"
-      src="/kr/story/buying-guide/2025/js/tv.js"
+      src="/kr/story/buying-guide/2025/js/tooltip-sheet.js"
     ></script>
     <!-- <link rel="stylesheet" href="/kr/story/buying-guide/2025/css/basic-spec-kimchi-refrigerator.css" type="text/css" /> -->
 
@@ -141,7 +141,6 @@
           <!-- top anchor tab pannels -->
           <!-- top anchor tab pannel line-up -->
           <section id="line-up" name="buying-guide-content">
-            <h2 class="hide">제품 라인업</h2>
             <div class="section-header">
               <h2 class="section-title">
                 이용 목적과 시청 환경에 맞는 <br class="mobile-only" />
@@ -152,7 +151,7 @@
             <div
               id="vertical-scroll-tab"
               class="tab-wrap sticky"
-              style="--btn-width: 330px; --btn-m-width: 270px"
+              style="--btn-width: inherit; --btn-m-width: 270px"
             >
               <!-- <button class="nav nav-left disabled"><</button>
                         <button class="nav nav-right">></button> -->
@@ -199,7 +198,7 @@
                   />
                   <span>
                     <b>스탠바이미 Go</b>
-                    #캐리백디자인 #튼튼한 내구성
+                    #캐리백디자인 #멀티엔터테인먼트스크린
                   </span>
                 </button>
               </div>
@@ -244,10 +243,10 @@
                     />
                   </div>
                   <div class="text-wrap">
-                    <h4>
+                    <div class="text-wrap-title">
                       약 80cm로 더 커진 화면, <br />
                       4K UHD로 더 또렷해진 화질
-                    </h4>
+                    </div>
                     <p>
                       <b>스탠바이미 2 Max</b>는 <b>약 80cm의 넓고 시원한 화면과 4K 해상도의 선명한 화질로
                         다양한 공간에서 몰입감 있게 콘텐츠를 즐기기에 적합</b>한 
@@ -299,10 +298,10 @@
                   />
                 </div>
                 <div class="text-wrap">
-                  <h4>
+                  <div class="text-wrap-title">
                     탈착이 가능한 포터블 스크린으로<br>
                     원하는 곳 어디든 자유롭게 휴대
-                  </h4>
+                  </div>
                   <p>
                       <b>스탠바이미 2</b>는 <b>다양한 공간에서 제약 없이 콘텐츠를 즐기기에 적합</b>한 이동형<br class="pc-only">
                       라이프스타일 TV입니다.
@@ -353,10 +352,10 @@
                   />
                 </div>
                 <div class="text-wrap">
-                  <h4>
+                  <div class="text-wrap-title">
                     이동 편의성을 강화한<br>
                     캐리백 디자인
-                  </h4>
+                  </div>
                   <div>
                     <p>
                       <b>스탠바이미 Go</b>는 <b>손잡이가 있는 케이스와 일체화된 디자인으로</b>, 캠핑이나 야외 활동 등 <br class="pc-only">
@@ -396,27 +395,27 @@
                     </colgroup>
                   <thead>
                     <tr>
-                      <th rowspan="2">구분</th>
+                      <th rowspan="2">모델 라인업</th>
                       <th>LG 스탠바이미 2 Max</th>
                       <th>LG 스탠바이미 2</th>
                       <th>LG 스탠바이미 Go</th>
                     </tr>
                     <tr>
-                      <th class="th3">
+                      <td>
                         <div class="procuct-img">
                             <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_08.png" alt="TV LG 올레드 evo AI (스탠드형) (OLED83G5KS.AKRG) 메인이미지 2" class="front">
                         </div>
-                      </th>
-                      <th class="th3">
+                      </td>
+                      <td>
                         <div class="procuct-img">
                             <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_09.png" alt="TV LG 올레드 evo AI (스탠드형) (OLED83G5KS.AKRG) 메인이미지 2" class="front">
                         </div>
-                      </th>
-                      <th class="th3">
+                      </td>
+                      <td>
                         <div class="procuct-img">
                             <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_10.png" alt="TV LG 올레드 evo AI (스탠드형) (OLED83G5KS.AKRG) 메인이미지 2" class="front">
                         </div>
-                      </th>
+                      </td>
                     </tr>
                   </thead>
                   <tbody>
@@ -447,121 +446,147 @@
                     <tr>
                       <th>해상도</th>
                       <td>
-                            <p>
-                                <b class="semibold">4K UHD</b>
-                                <span class="des">
-                                    <span class="info pc-only"></span>
-                                    <span class="bubble">4K UHD(3,840×2,160)는 QHD 대비 4배 더 많은 픽셀로, <br>더욱 선명한 화질을 제공해 영상이나 이미지를 또렷하게 볼 수 있는 해상도입니다.</span>
-                                </span>
-                            </p>
+                          <div class="des">
+                              <p><b class="semibold">4K UHD</b></p>
+                              <span class="info" aria-controls="mobile-dialog-buttomsheet"></span>
+                              <span class="bubble">4K UHD(3,840×2,160)는 QHD 대비 4배 더 많은 픽셀로, <br>더욱 선명한 화질을 제공해 영상이나 이미지를 또렷하게 볼 수 있는 해상도입니다.</span>
+                              <div class="mobile-dialog-buttomsheet" hidden>
+                                  <b>bottomsheet title</b>
+                                  <p>bottomsheet description</p>
+                              </div>
+                          </div>
                       </td>
                       <td>
-                            <p>
-                                <b class="semibold">QHD</b>
-                                <span class="des">
-                                    <span class="info pc-only"></span>
-                                    <span class="bubble">QHD(2,560×1,440)는 Full HD보다 한층 더 선명한 화질을 제공해, <br>다양한 콘텐츠를 또렷하고 균형 잡힌 화질로 감상할 수 있는 해상도입니다.</span>
-                                </span>
-                            </p>
+                          <div class="des">
+                              <p><b class="semibold">QHD</b></p>
+                              <span class="info" aria-controls="mobile-dialog-buttomsheet"></span>
+                              <span class="bubble">QHD(2,560×1,440)는 Full HD보다 한층 더 선명한 화질을 제공해, <br>다양한 콘텐츠를 또렷하고 균형 잡힌 화질로 감상할 수 있는 해상도입니다.</span>
+                              <div class="mobile-dialog-buttomsheet" hidden>
+                                  <b>bottomsheet title</b>
+                                  <p>bottomsheet description</p>
+                              </div>
+                          </div>
                       </td>
                       <td>
-                            <p>
-                                <b class="semibold">FHD</b>
-                                <span class="des">
-                                    <span class="info pc-only"></span>
-                                    <span class="bubble">FHD(1,920×1,080)는 일상적인 콘텐츠 감상에 적합한 해상도입니다.</span>
-                                </span>
-                            </p>
+                          <div class="des">
+                              <p><b class="semibold">FHD</b></p>
+                              <span class="info" aria-controls="mobile-dialog-buttomsheet"></span>
+                              <span class="bubble">FHD(1,920×1,080)는 일상적인 콘텐츠 감상에 적합한 해상도입니다.</span>
+                              <div class="mobile-dialog-buttomsheet" hidden>
+                                  <b>bottomsheet title</b>
+                                  <p>bottomsheet description</p>
+                              </div>
+                          </div>
                       </td>
                     </tr>
                     <tr>
                       <th>화질 엔진</th>
                       <td>
-                            <p>
-                                <b class="semibold">알파8 AI 프로세서 (3세대)</b>
-                                <span class="des">
-                                    <span class="info pc-only"></span>
-                                    <span class="bubble">알파8 AI 프로세서 (3세대)가 콘텐츠를 정교하게 분석해 화면과 사운드를 최적화합니다.</span>
-                                </span>
-                            </p>
+                          <div class="des">
+                              <p><b class="semibold">알파8 AI 프로세서 (3세대)</b></p>
+                              <span class="info" aria-controls="mobile-dialog-buttomsheet"></span>
+                              <span class="bubble">알파8 AI 프로세서 (3세대)가 콘텐츠를 정교하게 분석해 화면과 사운드를 최적화합니다.</span>
+                              <div class="mobile-dialog-buttomsheet" hidden>
+                                  <b>bottomsheet title</b>
+                                  <p>bottomsheet description</p>
+                              </div>
+                          </div>
                       </td>
                       <td>
-                            <p>
-                                <b class="semibold">알파8 AI 프로세서</b>
-                                <span class="des">
-                                    <span class="info pc-only"></span>
-                                    <span class="bubble">알파8 AI 프로세서가 콘텐츠를 정교하게 분석해 <br>화면과 사운드를 최적화합니다.</span>
-                                </span>
-                            </p>
+                          <div class="des">
+                              <p><b class="semibold">알파8 AI 프로세서</b></p>
+                              <span class="info" aria-controls="mobile-dialog-buttomsheet"></span>
+                              <span class="bubble">알파8 AI 프로세서가 콘텐츠를 정교하게 분석해 <br>화면과 사운드를 최적화합니다.</span>
+                              <div class="mobile-dialog-buttomsheet" hidden>
+                                  <b>bottomsheet title</b>
+                                  <p>bottomsheet description</p>
+                              </div>
+                          </div>
                       </td>
                       <td>
-                            <p>
-                                <b class="semibold">알파7 AI 프로세서 (5세대)</b>
-                                <span class="des">
-                                    <span class="info pc-only"></span>
-                                    <span class="bubble">알파7 AI 프로세서 (5세대)가 콘텐츠를 정교하게 분석해 화면과 사운드를 최적화합니다.</span>
-                                </span>
-                            </p>
+                          <div class="des">
+                              <p><b class="semibold">알파7 AI 프로세서 (5세대)</b></p>
+                              <span class="info" aria-controls="mobile-dialog-buttomsheet"></span>
+                              <span class="bubble">알파7 AI 프로세서 (5세대)가 콘텐츠를 정교하게 분석해 화면과 사운드를 최적화합니다.</span>
+                              <div class="mobile-dialog-buttomsheet" hidden>
+                                  <b>bottomsheet title</b>
+                                  <p>bottomsheet description</p>
+                              </div>
+                          </div>
                       </td>
                     </tr>
                     <tr>
                       <th>배터리</th>
                       <td>
-                            <p>
-                                <b class="semibold">144Wh (최대 4시간 20분 사용)</b>
-                                <span class="des">
-                                    <span class="info pc-only"></span>
-                                    <span class="bubble">스크린 내장 배터리로 최대 4시간 30분 무선 재생이 가능합니다.</span>
-                                </span>
-                            </p>
+                          <div class="des">
+                              <p>
+                                <b class="semibold">144Wh <br class="mobile-only">(최대 4시간 30분 사용)</b>
+                              </p>
+                              <span class="info" aria-controls="mobile-dialog-buttomsheet"></span>
+                              <span class="bubble">스크린 내장 배터리로 최대 4시간 30분 무선 재생이 가능합니다.</span>
+                              <div class="mobile-dialog-buttomsheet" hidden>
+                                  <b>bottomsheet title</b>
+                                  <p>bottomsheet description</p>
+                              </div>
+                          </div>
                       </td>
                       <td>
-                            <p>
-                                <b class="semibold">90Wh (최대 4시간 사용)</b>
-                                <span class="des">
-                                    <span class="info pc-only"></span>
-                                    <span class="bubble">스크린 내장 배터리로 최대 4시간 무선 재생이 가능합니다.</span>
-                                </span>
-                            </p>
+                          <div class="des">
+                              <p><b class="semibold">90Wh (최대 4시간 사용)</b></p>
+                              <span class="info" aria-controls="mobile-dialog-buttomsheet"></span>
+                              <span class="bubble">스크린 내장 배터리로 최대 4시간 무선 재생이 가능합니다.</span>
+                              <div class="mobile-dialog-buttomsheet" hidden>
+                                  <b>bottomsheet title</b>
+                                  <p>bottomsheet description</p>
+                              </div>
+                          </div>
                       </td>
                       <td>
-                            <p>
-                                <b class="semibold">74Wh (최대 3시간 사용)</b>
-                                <span class="des">
-                                    <span class="info pc-only"></span>
-                                    <span class="bubble">내장 배터리로 최대 3시간 무선 재생이 가능합니다.</span>
-                                </span>
-                            </p>
+                          <div class="des">
+                              <p><b class="semibold">74Wh (최대 3시간 사용)</b></p>
+                              <span class="info" aria-controls="mobile-dialog-buttomsheet"></span>
+                              <span class="bubble">내장 배터리로 최대 3시간 무선 재생이 가능합니다.</span>
+                              <div class="mobile-dialog-buttomsheet" hidden>
+                                  <b>bottomsheet title</b>
+                                  <p>bottomsheet description</p>
+                              </div>
+                          </div>
                       </td>
                     </tr>
                     <tr>
                       <th>화면크기</th>
                       <td>
-                            <p>
-                                <b class="semibold">webOS 26</b>
-                                <span class="des">
-                                    <span class="info pc-only"></span>
-                                    <span class="bubble">스탠바이미에 최적화된 webOS를 통해 다양한 OTT 플랫폼을 간편하게 이용할 수 있으며, <br>별도의 셋톱박스 없이도 다양한 콘텐츠를 간편하게 이용할 수 있습니다.</span>
-                                </span>
-                            </p>
+                          <div class="des">
+                              <p><b class="semibold">webOS 26</b></p>
+                              <span class="info" aria-controls="mobile-dialog-buttomsheet"></span>
+                              <span class="bubble">스탠바이미에 최적화된 webOS를 통해 다양한 OTT 플랫폼을 간편하게 이용할 수 있으며, <br>별도의 셋톱박스 없이도 다양한 콘텐츠를 간편하게 이용할 수 있습니다.</span>
+                              <div class="mobile-dialog-buttomsheet" hidden>
+                                  <b>bottomsheet title</b>
+                                  <p>bottomsheet description</p>
+                              </div>
+                          </div>
                       </td>
                       <td>
-                            <p>
-                                <b class="semibold">webOS 24</b>
-                                <span class="des">
-                                    <span class="info pc-only"></span>
-                                    <span class="bubble">스탠바이미에 최적화된 webOS를 통해 다양한 OTT 플랫폼을 간편하게 이용할 수 있으며, <br>별도의 셋톱박스 없이도 다양한 콘텐츠를 간편하게 이용할 수 있습니다.</span>
-                                </span>
-                            </p>
+                          <div class="des">
+                              <p><b class="semibold">webOS 24</b></p>
+                              <span class="info" aria-controls="mobile-dialog-buttomsheet"></span>
+                              <span class="bubble">스탠바이미에 최적화된 webOS를 통해 다양한 OTT 플랫폼을 간편하게 이용할 수 있으며, <br>별도의 셋톱박스 없이도 다양한 콘텐츠를 간편하게 이용할 수 있습니다.</span>
+                              <div class="mobile-dialog-buttomsheet" hidden>
+                                  <b>bottomsheet title</b>
+                                  <p>bottomsheet description</p>
+                              </div>
+                          </div>
                       </td>
                       <td>
-                            <p>
-                                <b class="semibold">webOS 22</b>
-                                <span class="des">
-                                    <span class="info pc-only"></span>
-                                    <span class="bubble">스탠바이미에 최적화된 webOS를 통해 다양한 OTT 플랫폼을 간편하게 이용할 수 있으며, <br>별도의 셋톱박스 없이도 다양한 콘텐츠를 간편하게 이용할 수 있습니다.</span>
-                                </span>
-                            </p>
+                          <div class="des">
+                              <p><b class="semibold">webOS 22</b></p>
+                              <span class="info" aria-controls="mobile-dialog-buttomsheet"></span>
+                              <span class="bubble">스탠바이미에 최적화된 webOS를 통해 다양한 OTT 플랫폼을 간편하게 이용할 수 있으며, <br>별도의 셋톱박스 없이도 다양한 콘텐츠를 간편하게 이용할 수 있습니다.</span>
+                              <div class="mobile-dialog-buttomsheet" hidden>
+                                  <b>bottomsheet title</b>
+                                  <p>bottomsheet description</p>
+                              </div>
+                          </div>
                       </td>
                     </tr>
                     <tr>
@@ -572,7 +597,18 @@
                     </tr>
                   </tbody>
                 </table>
-                
+                <div class="clone-header-table-wrap">
+                  <table class="clone-header-table">
+                    <thead>
+                      <tr>
+                        <th rowspan="2">모델 라인업</th>
+                        <th>LG 스탠바이미 2 Max</th>
+                        <th>LG 스탠바이미 2</th>
+                        <th>LG 스탠바이미 Go</th>
+                      </tr>
+                    </thead>
+                  </table>
+                </div>
               </div>
             </div>
             <div class="product-table">
@@ -601,21 +637,21 @@
                       <th>LG 스탠바이미 Go</th>
                     </tr>
                     <tr>
-                      <th class="th3">
+                      <td class="th3">
                         <div class="procuct-img">
                             <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_08.png" alt="TV LG 올레드 evo AI (스탠드형) (OLED83G5KS.AKRG) 메인이미지 2" class="front">
                         </div>
-                      </th>
-                      <th class="th3">
+                      </td>
+                      <td class="th3">
                         <div class="procuct-img">
                             <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_09.png" alt="TV LG 올레드 evo AI (스탠드형) (OLED83G5KS.AKRG) 메인이미지 2" class="front">
                         </div>
-                      </th>
-                      <th class="th3">
+                      </td>
+                      <td class="th3">
                         <div class="procuct-img">
                             <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_10.png" alt="TV LG 올레드 evo AI (스탠드형) (OLED83G5KS.AKRG) 메인이미지 2" class="front">
                         </div>
-                      </th>
+                      </td>
                     </tr>
                   </thead>
                   <tbody>
@@ -639,9 +675,9 @@
                     </tr>
                     <tr>
                         <th class="th2">스크린 조절</th>
-                        <td><b class="semibold">로테이팅 (90), 틸팅 (25), 스위블 (90)</b></td>
-                        <td><b class="semibold">로테이팅 (90), 틸팅 (25), 스위블 (90)</b></td>
-                        <td><b class="semibold">로테이팅 (90), 틸팅 (90)</b></td>
+                        <td><b class="semibold">로테이팅 (90), <br class="mo-only">틸팅 (25), 스위블 (90)</b></td>
+                        <td><b class="semibold">로테이팅 (90), <br class="mo-only">틸팅 (25), 스위블 (90)</b></td>
+                        <td><b class="semibold">로테이팅 (90), <br class="mo-only">틸팅 (90)</b></td>
                     </tr>
                     <tr>
                         <th class="highlight"><b class="semibold">해상도</b></th>
@@ -663,7 +699,7 @@
                     </tr>
                     <tr>
                         <th class="highlight"><b class="semibold">배터리</b></th>
-                        <td class="highlight"><b class="semibold">144Wh (최대 4시간 20분 사용)</b></td>
+                        <td class="highlight"><b class="semibold">144Wh (최대 4시간 30분 사용)</b></td>
                         <td class="highlight"><b class="semibold">90Wh (최대 4시간 사용)</b></td>
                         <td class="highlight"><b class="semibold">74Wh (최대 3시간 사용)</b></td>
                     </tr>
@@ -689,12 +725,12 @@
                         <th class="th2">입력단자 (HDMI / USB)</th>
                         <td>
                             <b class="semibold">
-                                HDMI 1조 <br>USB C타입 4조 <br class="pc-only">(USB 2.0 3조, 5V 전원 전용 1조)
+                                HDMI 1조 <br>USB C타입 4조 <br class="pc-only">(USB 2.0 3조, <br class="mo-only">5V 전원 전용 1조)
                             </b>
                         </td>
                         <td>
                             <b class="semibold">
-                                HDMI 1조 <br>USB C타입 3조 <br class="pc-only">(USB 2.0 2조, 5V 전원 전용 1조)
+                                HDMI 1조 <br>USB C타입 3조 <br class="pc-only">(USB 2.0 2조, <br class="mo-only">5V 전원 전용 1조)
                             </b>
                         </td>
                         <td>
@@ -729,7 +765,7 @@
                     </tr>
                   </tbody>
                 </table>
-                <!-- <div class="clone-header-table-wrap">
+                <div class="clone-header-table-wrap">
                   <table class="clone-header-table">
                     <thead>
                       <tr>
@@ -740,7 +776,7 @@
                       </tr>
                     </thead>
                   </table>
-                </div> -->
+                </div>
               </div>
             </div>     
             <div class="product-select-tip-wrap">
@@ -790,32 +826,22 @@
           <!-- top anchor tab pannel line-up // -->
 
           <!-- top anchor tab pannel buying-point -->
-          <section
-            id="buying-point"
-            name="buying-guide-content"
-            style="display: none"
-          >
+          <section id="buying-point" name="buying-guide-content" style="display: none">
             <h2 class="hide">구매포인트</h2>
-            <h3 class="section-title">
+            <p class="section-title">
               원하는 공간에서 즐기는 새로운 시청 경험<br>
               스탠바이미의 핵심 기능과 활용 방식을 확인해보세요
-            </h3>
+            </p>
             <div class="tab-wrap">
               <div class="vertical-scroll-box">
-                <button
-                  class="active"
-                  name="buying-guide-tab"
-                  data-group="buying-point"
-                  data-target="#buying-point-1"
-                >
-                  <h3>이동성</h3>
+                <button class="active" name="buying-guide-tab" data-group="buying-point" data-target="#buying-point-1">
+                  <h3>스탠바이미 2 Max</h3>
                 </button>
-                <button
-                  name="buying-guide-tab"
-                  data-target="#buying-point-2"
-                  data-group="buying-point"
-                >
-                  <h3>콘텐츠</h3>
+                <button name="buying-guide-tab" data-group="buying-point" data-target="#buying-point-2">
+                  <h3>스탠바이미 2</h3>
+                </button>
+                <button name="buying-guide-tab" data-group="buying-point" data-target="#buying-point-3">
+                  <h3>스탠바이미 Go</h3>
                 </button>
               </div>
             </div>
@@ -824,33 +850,28 @@
               <div id="buying-point-1" name="buying-point">
                 <div class="subtab-wrap">
                   <div class="subtab-btn">
-                    <button
-                      class="active"
-                      name="buying-guide-tab"
-                      data-target=".buying-point-1-1"
-                      data-group="buying-point-1"
-                    >
-                      포터블 스크린
+                    <button class="active" name="buying-guide-tab" data-target=".buying-point-1-1" data-group="buying-point-1">
+                      디자인 
                     </button>
-                    <button
-                      name="buying-guide-tab"
-                      data-target=".buying-point-1-2"
-                      data-group="buying-point-1"
-                    >
-                      캐리백 디자인
+                    <button name="buying-guide-tab" data-target=".buying-point-1-2" data-group="buying-point-1" >
+                      화질&사운드
+                    </button>
+                    <button name="buying-guide-tab" data-target=".buying-point-1-3" data-group="buying-point-1" >
+                      배터리
+                    </button>
+                    <button name="buying-guide-tab" data-target=".buying-point-1-4" data-group="buying-point-1" >
+                       음성인식
                     </button>
                   </div>
                   <div class="subtab-content">
                     <div class="point-wrap buying-point-1-1" name="buying-point-1">
-                      <h4 class="hide">슈퍼 포터블 스크린</h4>
                       <div class="content">
-                        <h4>슈퍼 포터블 스크린</h4>
+                        <h4>스크린 분리형 디자인</h4>
                         <p>
-                          탈착이 가능한 슈퍼 포터블 스크린으로 간편하게 휴대할 수 있습니다.<br class="pc-only">
-                          부드러운 무빙휠 스탠드로 집안 곳곳을 자유롭게 이동하며 사용할 수 있으며, <br class="pc-only">
-                          스크린 높낮이와 각도 조절이 가능해 시청 환경에 맞춰 편리하게 활용할 수 있습니다.<br>
-                          또한 원클릭 버튼으로 스크린만 간편하게 분리할 수 있고, 전용 액세서리를 결합해 <br class="pc-only">
-                          다양한 방식으로 사용할 수 있습니다.
+                          스탠바이미 2 Max는 스탠드와 분리 가능한 슈퍼 포터블 스크린으로 간편하게 휴대할 수 있습니다. <br>
+                          부드러운 무빙휠 스탠드로 집안 곳곳을 자유롭게 이동하며 사용할 수 있으며, <br>
+                          스크린 높낮이와 각도 조절이 가능해 시청 환경에 맞춰 편리하게 활용할 수 있습니다. <br>
+                          또한 원클릭 버튼으로 스크린만 간편하게 분리할 수 있고, 전용 액세서리를 결합해 다양한 방식으로 사용할 수 있습니다.					
                         </p>
                         <div class="img">
                           <img
@@ -885,15 +906,17 @@
                     </div>
                     <div class="point-wrap buying-point-1-2" name="buying-point-1" style="display: none">
                       <div class="content">
-                        <h4>캐리백 디자인</h4>
+                        <h4>4K UHD 해상도</h4>
                         <p>
-                          스탠바이미 Go는 여행 가방 형태의 캐리백 디자인으로 손잡이가 있어 휴대가 편리합니다.
-                          견고한 구조로 이동 중에도 스크린을 안전하게 보호할 수 있으며, 리모컨과 전원 케이블을 가방 내부에 함께 수납할 수 있어 이동과 보관이 간편합니다.
+                          스탠바이미 2 Max는 약 80cm 대화면과 4K 화질로 콘텐츠를 더욱 선명하고 몰입감 있게 즐길 수 있습니다. 
+                          3세대 알파8 AI 프로세서가 장면을 분석해 디테일까지 또렷하게 표현하며, 
+                          AI 4K 업스케일링 기능이 프레임 단위로 영상을 분석해 
+                          저해상도 콘텐츠도 4K에 가까운 화질로 보정해줍니다.
                         </p>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_02.jpg"
-                            alt=""
+                            src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_01.jpg"
+                            alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다."
                           />
                         </div>
                         <p class="des">
@@ -901,14 +924,154 @@
                           색상 및 스펙은 다를 수 있습니다.
                         </p>
                         <button class="btn-collapse-toggle">
-                          <span class="bold">* 내구성 테스트</span>
+                          <span>
+                            <b class="bold">* AI 4K 업스케일링</b>
+                          </span>
                         </button>
                         <div class="collapse-content">
                           <p>
-                            <b>[내구성 테스트]</b><br>
-                            * 한국인정기구 (KOLAS) 인정 업체인 ㈜디티앤씨와 한국 SGS를 통해 미 국방부의 11가지 내구성 테스트 항목을 측정하여 기준을 충족하였습니다. <br>
-                            * 시험방법: MIL-STD-810H:2019, Test Report No: DRCKREL2303-0125, SGS-R23-0569-EN00/ 시험 일시: 2023년 3월 <br>
-                            * 본 제품은 방수 기능을 지원하지 않습니다.
+                            <b class=""bold>[AI 4K 업스케일링]</b>
+                            * 이미지는 최대 4K 화질로 업스케일링됩니다. 결과는 원본 해상도에 따라 달라질 수 있습니다.
+                            * 입력되는 영상에 따라 업스케일링 화질에 차이가 있을 수 있습니다.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="content">
+                        <h4>버추얼 11.1.2 서라운드</h4>
+                        <p>
+                          버추얼 11.1.2 서라운드는 마치 14개의 스피커에 둘러싸인 듯, 
+                          입체적이고 풍부한 사운드를 제공해 더욱 깊은 몰입감을 만들어주는 음향 기술입니다. 
+                          클리어 사운드 기술로 대사와 효과음을 더욱 또렷하게 전달해 영화, 음악, 게임 등 
+                          다양한 콘텐츠를 생생하게 즐길 수 있습니다.
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_01.jpg"
+                            alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다."
+                          />
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별
+                          색상 및 스펙은 다를 수 있습니다.
+                        </p>
+                        <button class="btn-collapse-toggle">
+                          <span>
+                            <b class="bold">* 버추얼 11.1.2 서라운드</b>
+                          </span>
+                        </button>
+                        <div class="collapse-content">
+                          <p>
+                            <b class="bold">[무빙휠 스탠드][버추얼 11.1.2 서라운드]</b>
+                            * 버추얼 11.1.2 서라운드는 영상의 사운드를 분석해 가상의 스피커 채널을 추가하는(업믹싱) AI 기술입니다.
+                            * 버추얼 서라운드 11.1.2는 스탠바이미 스피커(XT7S)에서도 지원되며, 외부 스피커 스펙에 따라 지원이 불가할 수 있습니다.
+                            * 해당 기능을 사용하기 위해서는 설정에서 활성화가 필요합니다.
+                            * 주변 환경에 따라 차이가 있을 수 있습니다.
+                            * 시청 콘텐츠와 파일 형식에 따라 차이가 있을 수 있습니다.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="content">
+                        <h4>돌비 비전 & 돌비 애트모스</h4>
+                        <p>
+                          전 세계 영상 제작자들이 선택한 돌비 비전과 돌비 애트모스를 지원해, 
+                          마치 우리 집 안에 영화관을 옮겨 놓은 듯 원작 그대로의 화면과 풍부한 사운드를 경험할 수 있습니다.
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_01.jpg"
+                            alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다."
+                          />
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별
+                          색상 및 스펙은 다를 수 있습니다.
+                        </p>
+                        <button class="btn-collapse-toggle">
+                          <span>
+                            <b class="bold">* 돌비 비전 & 돌비 애트모스</b>
+                          </span>
+                        </button>
+                        <div class="collapse-content">
+                          <p>
+                            <b class="bold">[돌비 비전 & 돌비 애트모스]</b>
+                            * 돌비 비전과 돌비 애트모스는 돌비로 제작된 콘텐츠 시청 시 지원 가능합니다.
+                            * 외부 스피커 연결 시 스피커 스펙에 따라 돌비 애트모스가 지원되지 않을 수 있습니다.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="point-wrap buying-point-1-3" name="buying-point-1" style="display: none">
+                      <div class="content">
+                        <h4>최대 4시간 30분 무선 재생</h4>
+                        <p>
+                          스탠바이미 2 Max는 스크린에 144Wh 대용량 배터리를 탑재해 한 번 충전으로 
+                          최대 4시간 30분까지 무선으로 사용할 수 있어, 원하는 공간 어디서나 자유롭게 콘텐츠를 즐길 수 있습니다. 
+                          스크린을 분리한 상태에서도 USB-C 케이블로 간편하게 충전할 수 있어 이동성과 사용 편의성을 더욱 높여줍니다.
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_01.jpg"
+                            alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다."
+                          />
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별
+                          색상 및 스펙은 다를 수 있습니다.
+                        </p>
+                        <button class="btn-collapse-toggle">
+                          <span>
+                            <b class="bold">* 무빙휠 스탠드</b> / 
+                            <b class="bold">전용 액세서리</b>
+                          </span>
+                        </button>
+                        <div class="collapse-content">
+                          <p>
+                            <b class="bold">[무빙휠 스탠드]</b><br>
+                            * 전원선을 연결한 상태에서 스탠드에 스크린을 연결하면 배터리가 자동으로 충전됩니다.<br>
+                            * 바닥 재질에 따라 이동의 제약이 있을 수 있습니다.<br>
+                            * 야외에서는 바퀴를 이용해 제품을 끌지 마십시오. 제품 하단 부분의 긁힘 또는 파손의 원인이 될 수 있습니다.<br>
+                            * 스크린 각도 조정 범위: 로테이팅(±90), 틸팅(±25), 스위블(±90)
+                          </p>
+                          <p>
+                            <b class="bold">[전용 액세서리]</b><br>
+                            * 스탠바이미 전용 액세서리는 별매입니다. 세트 제품 구매 시 구성품을 확인해 주세요.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="point-wrap buying-point-1-4" name="buying-point-1" style="display: none">
+                      <div class="content">
+                        <h4>타이틀4</h4>
+                        <p>
+                          디스크립션4
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_01.jpg"
+                            alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다."
+                          />
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별
+                          색상 및 스펙은 다를 수 있습니다.
+                        </p>
+                        <button class="btn-collapse-toggle">
+                          <span>
+                            <b class="bold">* 무빙휠 스탠드</b> / 
+                            <b class="bold">전용 액세서리</b>
+                          </span>
+                        </button>
+                        <div class="collapse-content">
+                          <p>
+                            <b class="bold">[무빙휠 스탠드]</b><br>
+                            * 전원선을 연결한 상태에서 스탠드에 스크린을 연결하면 배터리가 자동으로 충전됩니다.<br>
+                            * 바닥 재질에 따라 이동의 제약이 있을 수 있습니다.<br>
+                            * 야외에서는 바퀴를 이용해 제품을 끌지 마십시오. 제품 하단 부분의 긁힘 또는 파손의 원인이 될 수 있습니다.<br>
+                            * 스크린 각도 조정 범위: 로테이팅(±90), 틸팅(±25), 스위블(±90)
+                          </p>
+                          <p>
+                            <b class="bold">[전용 액세서리]</b><br>
+                            * 스탠바이미 전용 액세서리는 별매입니다. 세트 제품 구매 시 구성품을 확인해 주세요.
                           </p>
                         </div>
                       </div>
@@ -916,41 +1079,94 @@
                   </div>
                 </div>
                 <div class="point-tip buying-point-1-1" name="buying-point-1">
-                  <h5>이런 포인트도 살펴보면 좋아요!</h5>
+                  <div class="point-tip-title"><b>이런 포인트도 살펴보면 좋아요!</b></div>
                   <div class="tip-content">
                     <div class="content">
                       <p class="tag">#자유로운이동 #유연한활용 #나만의시청환경</p>
-                      <h6 class="tip-title">
+                      <p class="tip-title">
                         공간에 맞춰 바뀌는 자유로운 시청 방식
-                      </h6>
+                      </p>
                       <p class="tip-text">
                         집 안 곳곳에서 콘텐츠를 즐기는 라이프스타일이라면 이동성과 활용 방식이 중요해요.<br>
                         아침에는 식탁에서 가볍게 콘텐츠를 보고, 저녁에는 침실이나 거실로 옮겨 이어보는 등 생활 흐름에 맞춰 자연스럽게 사용할 수 있습니다.<br>
-                        고정된 위치에 머물지 않고, 일상 속 다양한 순간에 맞춰 시청 경험을 확장해보세요.
+                        한 곳에 머무르지 않고, 일상 속 다양한 순간에 맞춰 시청 경험을 확장해보세요.
+                      </p>
+                    </div>
+                    <div class="img">
+                      <picture>
+                        <source srcset=" /kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_05.jpg" media="(max-width: 768px)">
+                        <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_03.jpg" alt="스탠드바이미 TV 구매 가이드 메인 이미지">
+                      </picture>
+                    </div>
+                  </div>
+                </div>
+                <div class="point-tip buying-point-1-2" name="buying-point-1" style="display: none;">
+                  <div class="point-tip-title"><b>이런 포인트도 살펴보면 좋아요!</b></div>
+                  <div class="tip-content">
+                    <div class="content">
+                      <p class="tag">#몰입감 #4K화질 #입체사운드</p>
+                      <p class="tip-title">
+                        영화관처럼 즐기는 깊이 있는 몰입감
+                      </p>
+                      <p class="tip-text">
+                        영화나 OTT, 게임처럼 화면의 디테일과 사운드의 몰입감이 중요한 콘텐츠를 자주 즐긴다면 
+                        화질과 음향 성능을 함께 살펴보는 것이 좋아요. 
+                        스탠바이미 2 Max는 4K UHD 해상도로 더욱 선명한 화면을 제공하고, 
+                        버추얼 서라운드와 돌비 비전·돌비 애트모스를 통해 
+                        공간을 채우는 풍부한 사운드와 생생한 화면으로 몰입감을 높여줍니다.
                       </p>
                     </div>
                     <div class="img">
                       <img
-                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_03.jpg"
+                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_04.jpg"
                         alt="도시 풍경을 감상할 수 있는 넓은 거실. LG OLED TV는 LG 사운드바가 있는 벽에 장착되어 있습니다. TV의 원월 디자인으로 벽에 플러시 핏을 맞추고 공간과 잘 어우러집니다. 제로 커넥트 박스는 보이지만 숨겨져 있습니다."
                         class="pc-only"
                       />
                       <img
-                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_05.jpg"
+                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_06.jpg"
                         alt="도시 풍경을 감상할 수 있는 넓은 거실. LG OLED TV는 LG 사운드바가 있는 벽에 장착되어 있습니다. TV의 원월 디자인으로 벽에 플러시 핏을 맞추고 공간과 잘 어우러집니다. 제로 커넥트 박스는 보이지만 숨겨져 있습니다."
                         class="mobile-only"
                       />
                     </div>
                   </div>
                 </div>
-                <div class="point-tip buying-point-1-2" name="buying-point-1" style="display: none;">
-                  <h5>이런 포인트도 살펴보면 좋아요!</h5>
+                <div class="point-tip buying-point-1-3" name="buying-point-1" style="display: none;">
+                  <div class="point-tip-title"><b>이런 포인트도 살펴보면 좋아요!</b></div>
                   <div class="tip-content">
                     <div class="content">
                       <p class="tag">#간편한휴대 #야외활용 #올인원디자인</p>
-                      <h6 class="tip-title">
+                      <p class="tip-title">
                         어디든 함께하는 간편한 이동형 스크린
-                      </h6>
+                      </p>
+                      <p class="tip-text">
+                        캠핑이나 여행 등 이동이 잦은 라이프스타일이라면 휴대성과 내구성이 중요해요.
+                        차에 싣고 이동하거나 야외에서 꺼내 사용하는 순간에도 <br>
+                        별도의 준비 없이 바로 콘텐츠를 즐길 수 있어, 장소에 구애받지 않고 간편하게 활용할 수 있습니다.<br>
+                        하나의 기기로 다양한 장소에서 콘텐츠를 즐기고 싶은 라이프스타일에 잘 어울립니다.
+                      </p>
+                    </div>
+                    <div class="img">
+                      <img
+                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_04.jpg"
+                        alt="도시 풍경을 감상할 수 있는 넓은 거실. LG OLED TV는 LG 사운드바가 있는 벽에 장착되어 있습니다. TV의 원월 디자인으로 벽에 플러시 핏을 맞추고 공간과 잘 어우러집니다. 제로 커넥트 박스는 보이지만 숨겨져 있습니다."
+                        class="pc-only"
+                      />
+                      <img
+                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_06.jpg"
+                        alt="도시 풍경을 감상할 수 있는 넓은 거실. LG OLED TV는 LG 사운드바가 있는 벽에 장착되어 있습니다. TV의 원월 디자인으로 벽에 플러시 핏을 맞추고 공간과 잘 어우러집니다. 제로 커넥트 박스는 보이지만 숨겨져 있습니다."
+                        class="mobile-only"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="point-tip buying-point-1-4" name="buying-point-1" style="display: none;">
+                  <div class="point-tip-title"><b>이런 포인트도 살펴보면 좋아요!</b></div>
+                  <div class="tip-content">
+                    <div class="content">
+                      <p class="tag">#간편한휴대 #야외활용 #올인원디자인</p>
+                      <p class="tip-title">
+                        어디든 함께하는 간편한 이동형 스크린
+                      </p>
                       <p class="tip-text">
                         캠핑이나 여행 등 이동이 잦은 라이프스타일이라면 휴대성과 내구성이 중요해요.
                         차에 싣고 이동하거나 야외에서 꺼내 사용하는 순간에도 <br>
@@ -978,28 +1194,30 @@
                 <div class="subtab-wrap">
                   <div class="subtab-btn">
                     <button class="active" name="buying-guide-tab" data-target=".buying-point-2-1" data-group="buying-point-2">
-                      콘텐츠 스트리밍
+                      디자인 
                     </button>
-                    <button name="buying-guide-tab" data-target=".buying-point-2-2" data-group="buying-point-2">
-                      엔터테인먼트
+                    <button name="buying-guide-tab" data-target=".buying-point-2-2" data-group="buying-point-2" >
+                      화질&사운드
                     </button>
-                    <button name="buying-guide-tab" data-target=".buying-point-2-3" data-group="buying-point-2">
-                      화면 미러링
+                    <button name="buying-guide-tab" data-target=".buying-point-2-3" data-group="buying-point-2" >
+                      배터리
+                    </button>
+                    <button name="buying-guide-tab" data-target=".buying-point-2-4" data-group="buying-point-2" >
+                       음성인식
                     </button>
                   </div>
                   <div class="subtab-content">
                     <div class="point-wrap buying-point-2-1" name="buying-point-2">
-                      <h4 class="hide">콘텐츠 스트리밍</h4>
+                      <h4 class="hide">타이틀</h4>
                       <div class="content">
-                        <h4>콘텐츠 스트리밍</h4>
+                        <h4>타이틀1</h4>
                         <p>
-                          넷플릭스, 유튜브, Apple TV, TVING, 쿠팡플레이, Wavve 등 주요 OTT 서비스를 스탠바이미에서 
-                          바로 실행할 수 있습니다. 또한 LG 채널을 통해 100여 개의 무료 채널과 드라마, 영화 등 다양한 콘텐츠를 매달 만나보세요.
+                          디스크립션1
                         </p>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_201_01.jpg"
-                            alt=""
+                            src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_01.jpg"
+                            alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다."
                           />
                         </div>
                         <p class="des">
@@ -1008,62 +1226,35 @@
                         </p>
                         <button class="btn-collapse-toggle">
                           <span>
-                            <b class="bold">* OTT 서비스 앱</b> / 
-                            <b class="bold">* LG 채널 </b> /
-                            <b class="bold">터치 조작 </b>
+                            <b class="bold">* 무빙휠 스탠드</b> / 
+                            <b class="bold">전용 액세서리</b>
                           </span>
                         </button>
                         <div class="collapse-content">
                           <p>
-                            <b class="bold">[OTT 서비스 앱]</b><br>
-                            * 기본 설치되어 있는 OTT 서비스 앱 외에 필요에 따라 LG Apps에서 다양한 앱 다운로드가 가능합니다.<br>
-                            * 각 OTT서비스는 별도 가입 후 구매해야 이용 가능합니다.
+                            <b class="bold">[무빙휠 스탠드]</b><br>
+                            * 전원선을 연결한 상태에서 스탠드에 스크린을 연결하면 배터리가 자동으로 충전됩니다.<br>
+                            * 바닥 재질에 따라 이동의 제약이 있을 수 있습니다.<br>
+                            * 야외에서는 바퀴를 이용해 제품을 끌지 마십시오. 제품 하단 부분의 긁힘 또는 파손의 원인이 될 수 있습니다.<br>
+                            * 스크린 각도 조정 범위: 로테이팅(±90), 틸팅(±25), 스위블(±90)
                           </p>
-
                           <p>
-                            <b class="bold">[LG 채널]</b><br>
-                            * LG 채널은 100여 개의 라이브 채널을 지원하며, 공중파 방송을 지원하지 않습니다.<br>
-                            * 서비스 제공사에 따라 제공하는 채널 수는 변경될 수 있습니다.
-                          </p>
-
-                          <p>
-                            <b class="bold">[터치 조작]</b><br>
-                            * 터치는 앱 별로 지원 방식에 따라 동작 방법이 상이할 수 있습니다. 자세한 사항은 홈 화면 하단의 ‘터치 조작 설정’에서 확인 및 설정이 가능합니다.<br>
-                            * 터치 조작이 불가한 앱의 경우 함께 제공되는 리모컨을 통해 조작 가능합니다.
+                            <b class="bold">[전용 액세서리]</b><br>
+                            * 스탠바이미 전용 액세서리는 별매입니다. 세트 제품 구매 시 구성품을 확인해 주세요.
                           </p>
                         </div>
                       </div>
                     </div>
-                    <div class="point-wrap buying-point-2-2" name="buying-point-2" style="display: none;">
-                      <h4 class="hide">엔터테인먼트</h4>
+                    <div class="point-wrap buying-point-2-2" name="buying-point-2" style="display: none">
                       <div class="content">
-                        <h4>렛츠드로우</h4>
+                        <h4>타이틀2</h4>
                         <p>
-                          캔버스처럼 화면에 그림을 그리고, AI를 통해 나만의 작품으로 완성할 수 있습니다.<br class="pc-only">
-                          손끝으로 상상한 다양한 아이디어를 자유롭게 표현해보세요.
+                          디스크립션2
                         </p>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_202_01.jpg"
-                            alt=""
-                          />
-                        </div>
-                        <p class="des">
-                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별
-                          색상 및 스펙은 다를 수 있습니다.
-                        </p>
-                      </div>
-                      <div class="content">
-                        <h4>보드게임</h4>
-                        <p>
-                          메모리 게임, 밀리언 마블, 틀린 그림 찾기, 체스 등 다양한 보드게임을 터치로 간편하게 즐길 수 있습니다. 
-                          가족이나 친구와 함께하는 것은 물론, 온라인을 통해 스탠바이미 사용자들과 게임을 즐기며 
-                          색다른 콘텐츠 경험을 할 수 있습니다.
-                        </p>
-                        <div class="img">
-                          <img
-                            src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_202_02.jpg"
-                            alt=""
+                            src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_01.jpg"
+                            alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다."
                           />
                         </div>
                         <p class="des">
@@ -1072,30 +1263,35 @@
                         </p>
                         <button class="btn-collapse-toggle">
                           <span>
-                            <b class="bold">* 보드게임</b>
+                            <b class="bold">* 무빙휠 스탠드</b> / 
+                            <b class="bold">전용 액세서리</b>
                           </span>
                         </button>
                         <div class="collapse-content">
                           <p>
-                            <b class="bold">[보드게임]</b><br>
-                            * webOS 사용 환경에서 사용자 간 온라인 게임 대전이 가능합니다.<br>
-                            * 보드게임 사용을 위해서는 LG Apps에서 해당 앱을 설치해야 합니다.
+                            <b class="bold">[무빙휠 스탠드]</b><br>
+                            * 전원선을 연결한 상태에서 스탠드에 스크린을 연결하면 배터리가 자동으로 충전됩니다.<br>
+                            * 바닥 재질에 따라 이동의 제약이 있을 수 있습니다.<br>
+                            * 야외에서는 바퀴를 이용해 제품을 끌지 마십시오. 제품 하단 부분의 긁힘 또는 파손의 원인이 될 수 있습니다.<br>
+                            * 스크린 각도 조정 범위: 로테이팅(±90), 틸팅(±25), 스위블(±90)
+                          </p>
+                          <p>
+                            <b class="bold">[전용 액세서리]</b><br>
+                            * 스탠바이미 전용 액세서리는 별매입니다. 세트 제품 구매 시 구성품을 확인해 주세요.
                           </p>
                         </div>
                       </div>
                     </div>
-                    <div class="point-wrap buying-point-2-3" name="buying-point-2" style="display: none;">
-                      <h4 class="hide">화면 미러링</h4>
+                    <div class="point-wrap buying-point-2-3" name="buying-point-2" style="display: none">
                       <div class="content">
-                        <h4>화면 미러링</h4>
+                        <h4>타이틀3</h4>
                         <p>
-                          Android와 iOS 스마트폰 화면 미러링을 지원해, 작은 화면으로 보던 콘텐츠를 더 큰 화면에서 
-                          편리하게 즐길 수 있습니다. 모바일에서 보던 영상이나 사진을 그대로 이어보며, 보다 넓은 화면에서 시청 경험을 확장해보세요.
+                          디스크립션3
                         </p>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_203_01.jpg"
-                            alt=""
+                            src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_01.jpg"
+                            alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다."
                           />
                         </div>
                         <p class="des">
@@ -1104,19 +1300,58 @@
                         </p>
                         <button class="btn-collapse-toggle">
                           <span>
-                            <b class="bold">* 화면 미러링</b>
+                            <b class="bold">* 무빙휠 스탠드</b> / 
+                            <b class="bold">전용 액세서리</b>
                           </span>
                         </button>
                         <div class="collapse-content">
                           <p>
-                            <b class="bold">[화면 미러링]</b><br>
-                            * 스마트폰과 스탠바이미가 같은 네트워크 (Wi-Fi)에 연결되어 있어야 합니다.<br>
-                            * 모바일 화면 공유의 경우, 모바일 내 화면공유/ Miracast 등의 기능을 이용하여 사용 가능합니다. (기능명은 기기별로 상이할 수 있음)<br>
-                            * 모바일 화면 공유(미러링)는 Android, iOS(AirPlay)에서 사용 가능합니다.<br>
-                            (Apple사 AirPlay 기능은 TV와 동일한 Wi-Fi(무선공유기)에 연결되어 있어야 사용이 가능하며, 단순화면 공유만 가능합니다. (터치 미지원))<br>
-                            * 모바일 기기의 사양 및 제조사에 따라 화면공유 (미러링) 방식에 차이가 있을 수 있으며, 화질 차이가 있을 수 있습니다.<br>
-                            * 세로 모드에서의 미러링 화질은 스마트폰에 따라 차이가 있을 수 있습니다.<br>
-                            * 사용자 네트워크 환경에 따라 연결상태가 상이할 수 있습니다.
+                            <b class="bold">[무빙휠 스탠드]</b><br>
+                            * 전원선을 연결한 상태에서 스탠드에 스크린을 연결하면 배터리가 자동으로 충전됩니다.<br>
+                            * 바닥 재질에 따라 이동의 제약이 있을 수 있습니다.<br>
+                            * 야외에서는 바퀴를 이용해 제품을 끌지 마십시오. 제품 하단 부분의 긁힘 또는 파손의 원인이 될 수 있습니다.<br>
+                            * 스크린 각도 조정 범위: 로테이팅(±90), 틸팅(±25), 스위블(±90)
+                          </p>
+                          <p>
+                            <b class="bold">[전용 액세서리]</b><br>
+                            * 스탠바이미 전용 액세서리는 별매입니다. 세트 제품 구매 시 구성품을 확인해 주세요.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="point-wrap buying-point-2-4" name="buying-point-2" style="display: none">
+                      <div class="content">
+                        <h4>타이틀4</h4>
+                        <p>
+                          디스크립션4
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_01.jpg"
+                            alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다."
+                          />
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별
+                          색상 및 스펙은 다를 수 있습니다.
+                        </p>
+                        <button class="btn-collapse-toggle">
+                          <span>
+                            <b class="bold">* 무빙휠 스탠드</b> / 
+                            <b class="bold">전용 액세서리</b>
+                          </span>
+                        </button>
+                        <div class="collapse-content">
+                          <p>
+                            <b class="bold">[무빙휠 스탠드]</b><br>
+                            * 전원선을 연결한 상태에서 스탠드에 스크린을 연결하면 배터리가 자동으로 충전됩니다.<br>
+                            * 바닥 재질에 따라 이동의 제약이 있을 수 있습니다.<br>
+                            * 야외에서는 바퀴를 이용해 제품을 끌지 마십시오. 제품 하단 부분의 긁힘 또는 파손의 원인이 될 수 있습니다.<br>
+                            * 스크린 각도 조정 범위: 로테이팅(±90), 틸팅(±25), 스위블(±90)
+                          </p>
+                          <p>
+                            <b class="bold">[전용 액세서리]</b><br>
+                            * 스탠바이미 전용 액세서리는 별매입니다. 세트 제품 구매 시 구성품을 확인해 주세요.
                           </p>
                         </div>
                       </div>
@@ -1124,81 +1359,408 @@
                   </div>
                 </div>
                 <div class="point-tip buying-point-2-1" name="buying-point-2">
-                  <h5>이런 포인트도 살펴보면 좋아요!</h5>
+                  <div class="point-tip-title"><b>이런 포인트도 살펴보면 좋아요!</b></div>
                   <div class="tip-content">
                     <div class="content">
-                      <p class="tag">#OTT스트리밍 #다양한콘텐츠</p>
-                      <h6 class="tip-title">원하는 콘텐츠를 바로 즐기는 스트리밍 환경</h6>
+                      <p class="tag">#자유로운이동 #유연한활용 #나만의시청환경</p>
+                      <p class="tip-title">
+                        공간에 맞춰 바뀌는 자유로운 시청 방식
+                      </p>
                       <p class="tip-text">
-                        다양한 콘텐츠를 즐기는 라이프스타일이라면 접근성과 콘텐츠 선택 폭이 중요해요. <br>
-                        OTT 서비스를 구독하고 있다면, 별도 기기 연결 없이도 스탠바이미에서 바로 콘텐츠를 즐길 수 있습니다.
+                        집 안 곳곳에서 콘텐츠를 즐기는 라이프스타일이라면 이동성과 활용 방식이 중요해요.<br>
+                        아침에는 식탁에서 가볍게 콘텐츠를 보고, 저녁에는 침실이나 거실로 옮겨 이어보는 등 생활 흐름에 맞춰 자연스럽게 사용할 수 있습니다.<br>
+                        고정된 위치에 머물지 않고, 일상 속 다양한 순간에 맞춰 시청 경험을 확장해보세요.
                       </p>
                     </div>
                     <div class="img">
                       <img
-                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_201_05.jpg"
-                        alt="밝은 거실 선반 위에 TV가 놓여 있으며, 화면에는 다채로운 색감의 기하학적 구조가 깊이감 있게 표현되어 공간에 생동감과 현대적인 분위기를 더하고 있습니다."
+                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_03.jpg"
+                        alt="도시 풍경을 감상할 수 있는 넓은 거실. LG OLED TV는 LG 사운드바가 있는 벽에 장착되어 있습니다. TV의 원월 디자인으로 벽에 플러시 핏을 맞추고 공간과 잘 어우러집니다. 제로 커넥트 박스는 보이지만 숨겨져 있습니다."
                         class="pc-only"
                       />
                       <img
-                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_201_05.jpg"
-                        alt="밝은 거실 선반 위에 TV가 놓여 있으며, 화면에는 다채로운 색감의 기하학적 구조가 깊이감 있게 표현되어 공간에 생동감과 현대적인 분위기를 더하고 있습니다."
+                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_05.jpg"
+                        alt="도시 풍경을 감상할 수 있는 넓은 거실. LG OLED TV는 LG 사운드바가 있는 벽에 장착되어 있습니다. TV의 원월 디자인으로 벽에 플러시 핏을 맞추고 공간과 잘 어우러집니다. 제로 커넥트 박스는 보이지만 숨겨져 있습니다."
                         class="mobile-only"
                       />
                     </div>
                   </div>
                 </div>
                 <div class="point-tip buying-point-2-2" name="buying-point-2" style="display: none;">
-                  <h5>이런 포인트도 살펴보면 좋아요!</h5>
+                  <div class="point-tip-title"><b>이런 포인트도 살펴보면 좋아요!</b></div>
                   <div class="tip-content">
                     <div class="content">
-                      <p class="tag">#함께하는즐거움 #일상속즐거움</p>
-                      <h6 class="tip-title">일상에 즐거움을 더하는 다양한 콘텐츠 경험</h6>
+                      <p class="tag">#간편한휴대 #야외활용 #올인원디자인</p>
+                      <p class="tip-title">
+                        어디든 함께하는 간편한 이동형 스크린
+                      </p>
                       <p class="tip-text">
-                        가족이나 친구와 함께할 때는 자연스럽게 즐길 거리를 더해보세요.<br>
-                        별도의 준비 없이 상황에 맞춰 다양한 콘텐츠를 즐길 수 있어, 일상 속 여가 시간을 더욱 풍성하게 만들어줍니다.
+                        캠핑이나 여행 등 이동이 잦은 라이프스타일이라면 휴대성과 내구성이 중요해요.
+                        차에 싣고 이동하거나 야외에서 꺼내 사용하는 순간에도 <br>
+                        별도의 준비 없이 바로 콘텐츠를 즐길 수 있어, 장소에 구애받지 않고 간편하게 활용할 수 있습니다.<br>
+                        하나의 기기로 다양한 장소에서 콘텐츠를 즐기고 싶은 라이프스타일에 잘 어울립니다.
                       </p>
                     </div>
                     <div class="img">
                       <img
-                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_202_03.jpg"
-                        alt="밝은 거실 선반 위에 TV가 놓여 있으며, 화면에는 다채로운 색감의 기하학적 구조가 깊이감 있게 표현되어 공간에 생동감과 현대적인 분위기를 더하고 있습니다."
+                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_04.jpg"
+                        alt="도시 풍경을 감상할 수 있는 넓은 거실. LG OLED TV는 LG 사운드바가 있는 벽에 장착되어 있습니다. TV의 원월 디자인으로 벽에 플러시 핏을 맞추고 공간과 잘 어우러집니다. 제로 커넥트 박스는 보이지만 숨겨져 있습니다."
                         class="pc-only"
                       />
                       <img
-                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_202_03.jpg"
-                        alt="밝은 거실 선반 위에 TV가 놓여 있으며, 화면에는 다채로운 색감의 기하학적 구조가 깊이감 있게 표현되어 공간에 생동감과 현대적인 분위기를 더하고 있습니다."
+                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_06.jpg"
+                        alt="도시 풍경을 감상할 수 있는 넓은 거실. LG OLED TV는 LG 사운드바가 있는 벽에 장착되어 있습니다. TV의 원월 디자인으로 벽에 플러시 핏을 맞추고 공간과 잘 어우러집니다. 제로 커넥트 박스는 보이지만 숨겨져 있습니다."
                         class="mobile-only"
                       />
                     </div>
                   </div>
                 </div>
                 <div class="point-tip buying-point-2-3" name="buying-point-2" style="display: none;">
-                  <h5>이런 포인트도 살펴보면 좋아요!</h5>
+                  <div class="point-tip-title"><b>이런 포인트도 살펴보면 좋아요!</b></div>
                   <div class="tip-content">
                     <div class="content">
-                      <p class="tag">#함께하는즐거움 #일상속즐거움</p>
-                      <h6 class="tip-title">보던 콘텐츠를 끊김 없이 이어보는 방법</h6>
+                      <p class="tag">#간편한휴대 #야외활용 #올인원디자인</p>
+                      <p class="tip-title">
+                        어디든 함께하는 간편한 이동형 스크린
+                      </p>
                       <p class="tip-text">
-                        스마트폰으로 보던 콘텐츠를 이어서 보고 싶을 때, 별도의 준비 없이 자연스럽게 시청 환경을 확장해보세요. 혼자 보던 영상을 더 편하게 
-                        감상하거나, 함께 보는 자리에서 화면을 공유하는 등 상황에 맞게 활용할 수 있어 일상 속 콘텐츠 경험을 더욱 편리하게 만들어줍니다.
+                        캠핑이나 여행 등 이동이 잦은 라이프스타일이라면 휴대성과 내구성이 중요해요.
+                        차에 싣고 이동하거나 야외에서 꺼내 사용하는 순간에도 <br>
+                        별도의 준비 없이 바로 콘텐츠를 즐길 수 있어, 장소에 구애받지 않고 간편하게 활용할 수 있습니다.<br>
+                        하나의 기기로 다양한 장소에서 콘텐츠를 즐기고 싶은 라이프스타일에 잘 어울립니다.
                       </p>
                     </div>
                     <div class="img">
                       <img
-                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_203_02.jpg"
-                        alt="밝은 거실 선반 위에 TV가 놓여 있으며, 화면에는 다채로운 색감의 기하학적 구조가 깊이감 있게 표현되어 공간에 생동감과 현대적인 분위기를 더하고 있습니다."
+                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_04.jpg"
+                        alt="도시 풍경을 감상할 수 있는 넓은 거실. LG OLED TV는 LG 사운드바가 있는 벽에 장착되어 있습니다. TV의 원월 디자인으로 벽에 플러시 핏을 맞추고 공간과 잘 어우러집니다. 제로 커넥트 박스는 보이지만 숨겨져 있습니다."
                         class="pc-only"
                       />
                       <img
-                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_203_02.jpg"
-                        alt="밝은 거실 선반 위에 TV가 놓여 있으며, 화면에는 다채로운 색감의 기하학적 구조가 깊이감 있게 표현되어 공간에 생동감과 현대적인 분위기를 더하고 있습니다."
+                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_06.jpg"
+                        alt="도시 풍경을 감상할 수 있는 넓은 거실. LG OLED TV는 LG 사운드바가 있는 벽에 장착되어 있습니다. TV의 원월 디자인으로 벽에 플러시 핏을 맞추고 공간과 잘 어우러집니다. 제로 커넥트 박스는 보이지만 숨겨져 있습니다."
+                        class="mobile-only"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="point-tip buying-point-2-4" name="buying-point-2" style="display: none;">
+                  <div class="point-tip-title"><b>이런 포인트도 살펴보면 좋아요!</b></div>
+                  <div class="tip-content">
+                    <div class="content">
+                      <p class="tag">#간편한휴대 #야외활용 #올인원디자인</p>
+                      <p class="tip-title">
+                        어디든 함께하는 간편한 이동형 스크린
+                      </p>
+                      <p class="tip-text">
+                        캠핑이나 여행 등 이동이 잦은 라이프스타일이라면 휴대성과 내구성이 중요해요.
+                        차에 싣고 이동하거나 야외에서 꺼내 사용하는 순간에도 <br>
+                        별도의 준비 없이 바로 콘텐츠를 즐길 수 있어, 장소에 구애받지 않고 간편하게 활용할 수 있습니다.<br>
+                        하나의 기기로 다양한 장소에서 콘텐츠를 즐기고 싶은 라이프스타일에 잘 어울립니다.
+                      </p>
+                    </div>
+                    <div class="img">
+                      <img
+                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_04.jpg"
+                        alt="도시 풍경을 감상할 수 있는 넓은 거실. LG OLED TV는 LG 사운드바가 있는 벽에 장착되어 있습니다. TV의 원월 디자인으로 벽에 플러시 핏을 맞추고 공간과 잘 어우러집니다. 제로 커넥트 박스는 보이지만 숨겨져 있습니다."
+                        class="pc-only"
+                      />
+                      <img
+                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_06.jpg"
+                        alt="도시 풍경을 감상할 수 있는 넓은 거실. LG OLED TV는 LG 사운드바가 있는 벽에 장착되어 있습니다. TV의 원월 디자인으로 벽에 플러시 핏을 맞추고 공간과 잘 어우러집니다. 제로 커넥트 박스는 보이지만 숨겨져 있습니다."
                         class="mobile-only"
                       />
                     </div>
                   </div>
                 </div>
               </div>
+
+              <div id="buying-point-3" name="buying-point" style="display: none">
+                <div class="subtab-wrap">
+                  <div class="subtab-btn">
+                    <button class="active" name="buying-guide-tab" data-target=".buying-point-3-1" data-group="buying-point-3">
+                      디자인 
+                    </button>
+                    <button name="buying-guide-tab" data-target=".buying-point-3-2" data-group="buying-point-3" >
+                      화질&사운드
+                    </button>
+                    <button name="buying-guide-tab" data-target=".buying-point-3-3" data-group="buying-point-3" >
+                      배터리
+                    </button>
+                    <button name="buying-guide-tab" data-target=".buying-point-3-4" data-group="buying-point-3" >
+                       음성인식
+                    </button>
+                  </div>
+                  <div class="subtab-content">
+                    <div class="point-wrap buying-point-3-1" name="buying-point-3">
+                      <h4 class="hide">타이틀</h4>
+                      <div class="content">
+                        <h4>타이틀1</h4>
+                        <p>
+                          디스크립션1
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_01.jpg"
+                            alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다."
+                          />
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별
+                          색상 및 스펙은 다를 수 있습니다.
+                        </p>
+                        <button class="btn-collapse-toggle">
+                          <span>
+                            <b class="bold">* 무빙휠 스탠드</b> / 
+                            <b class="bold">전용 액세서리</b>
+                          </span>
+                        </button>
+                        <div class="collapse-content">
+                          <p>
+                            <b class="bold">[무빙휠 스탠드]</b><br>
+                            * 전원선을 연결한 상태에서 스탠드에 스크린을 연결하면 배터리가 자동으로 충전됩니다.<br>
+                            * 바닥 재질에 따라 이동의 제약이 있을 수 있습니다.<br>
+                            * 야외에서는 바퀴를 이용해 제품을 끌지 마십시오. 제품 하단 부분의 긁힘 또는 파손의 원인이 될 수 있습니다.<br>
+                            * 스크린 각도 조정 범위: 로테이팅(±90), 틸팅(±25), 스위블(±90)
+                          </p>
+                          <p>
+                            <b class="bold">[전용 액세서리]</b><br>
+                            * 스탠바이미 전용 액세서리는 별매입니다. 세트 제품 구매 시 구성품을 확인해 주세요.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="point-wrap buying-point-3-2" name="buying-point-3" style="display: none">
+                      <div class="content">
+                        <h4>타이틀2</h4>
+                        <p>
+                          디스크립션2
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_01.jpg"
+                            alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다."
+                          />
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별
+                          색상 및 스펙은 다를 수 있습니다.
+                        </p>
+                        <button class="btn-collapse-toggle">
+                          <span>
+                            <b class="bold">* 무빙휠 스탠드</b> / 
+                            <b class="bold">전용 액세서리</b>
+                          </span>
+                        </button>
+                        <div class="collapse-content">
+                          <p>
+                            <b class="bold">[무빙휠 스탠드]</b><br>
+                            * 전원선을 연결한 상태에서 스탠드에 스크린을 연결하면 배터리가 자동으로 충전됩니다.<br>
+                            * 바닥 재질에 따라 이동의 제약이 있을 수 있습니다.<br>
+                            * 야외에서는 바퀴를 이용해 제품을 끌지 마십시오. 제품 하단 부분의 긁힘 또는 파손의 원인이 될 수 있습니다.<br>
+                            * 스크린 각도 조정 범위: 로테이팅(±90), 틸팅(±25), 스위블(±90)
+                          </p>
+                          <p>
+                            <b class="bold">[전용 액세서리]</b><br>
+                            * 스탠바이미 전용 액세서리는 별매입니다. 세트 제품 구매 시 구성품을 확인해 주세요.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="point-wrap buying-point-3-3" name="buying-point-3" style="display: none">
+                      <div class="content">
+                        <h4>타이틀3</h4>
+                        <p>
+                          디스크립션3
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_01.jpg"
+                            alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다."
+                          />
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별
+                          색상 및 스펙은 다를 수 있습니다.
+                        </p>
+                        <button class="btn-collapse-toggle">
+                          <span>
+                            <b class="bold">* 무빙휠 스탠드</b> / 
+                            <b class="bold">전용 액세서리</b>
+                          </span>
+                        </button>
+                        <div class="collapse-content">
+                          <p>
+                            <b class="bold">[무빙휠 스탠드]</b><br>
+                            * 전원선을 연결한 상태에서 스탠드에 스크린을 연결하면 배터리가 자동으로 충전됩니다.<br>
+                            * 바닥 재질에 따라 이동의 제약이 있을 수 있습니다.<br>
+                            * 야외에서는 바퀴를 이용해 제품을 끌지 마십시오. 제품 하단 부분의 긁힘 또는 파손의 원인이 될 수 있습니다.<br>
+                            * 스크린 각도 조정 범위: 로테이팅(±90), 틸팅(±25), 스위블(±90)
+                          </p>
+                          <p>
+                            <b class="bold">[전용 액세서리]</b><br>
+                            * 스탠바이미 전용 액세서리는 별매입니다. 세트 제품 구매 시 구성품을 확인해 주세요.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="point-wrap buying-point-3-4" name="buying-point-3" style="display: none">
+                      <div class="content">
+                        <h4>타이틀4</h4>
+                        <p>
+                          디스크립션4
+                        </p>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_01.jpg"
+                            alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다."
+                          />
+                        </div>
+                        <p class="des">
+                          * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별
+                          색상 및 스펙은 다를 수 있습니다.
+                        </p>
+                        <button class="btn-collapse-toggle">
+                          <span>
+                            <b class="bold">* 무빙휠 스탠드</b> / 
+                            <b class="bold">전용 액세서리</b>
+                          </span>
+                        </button>
+                        <div class="collapse-content">
+                          <p>
+                            <b class="bold">[무빙휠 스탠드]</b><br>
+                            * 전원선을 연결한 상태에서 스탠드에 스크린을 연결하면 배터리가 자동으로 충전됩니다.<br>
+                            * 바닥 재질에 따라 이동의 제약이 있을 수 있습니다.<br>
+                            * 야외에서는 바퀴를 이용해 제품을 끌지 마십시오. 제품 하단 부분의 긁힘 또는 파손의 원인이 될 수 있습니다.<br>
+                            * 스크린 각도 조정 범위: 로테이팅(±90), 틸팅(±25), 스위블(±90)
+                          </p>
+                          <p>
+                            <b class="bold">[전용 액세서리]</b><br>
+                            * 스탠바이미 전용 액세서리는 별매입니다. 세트 제품 구매 시 구성품을 확인해 주세요.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="point-tip buying-point-2-1" name="buying-point-2">
+                  <div class="point-tip-title"><b>이런 포인트도 살펴보면 좋아요!</b></div>
+                  <div class="tip-content">
+                    <div class="content">
+                      <p class="tag">#자유로운이동 #유연한활용 #나만의시청환경</p>
+                      <p class="tip-title">
+                        공간에 맞춰 바뀌는 자유로운 시청 방식
+                      </p>
+                      <p class="tip-text">
+                        집 안 곳곳에서 콘텐츠를 즐기는 라이프스타일이라면 이동성과 활용 방식이 중요해요.<br>
+                        아침에는 식탁에서 가볍게 콘텐츠를 보고, 저녁에는 침실이나 거실로 옮겨 이어보는 등 생활 흐름에 맞춰 자연스럽게 사용할 수 있습니다.<br>
+                        고정된 위치에 머물지 않고, 일상 속 다양한 순간에 맞춰 시청 경험을 확장해보세요.
+                      </p>
+                    </div>
+                    <div class="img">
+                      <img
+                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_03.jpg"
+                        alt="도시 풍경을 감상할 수 있는 넓은 거실. LG OLED TV는 LG 사운드바가 있는 벽에 장착되어 있습니다. TV의 원월 디자인으로 벽에 플러시 핏을 맞추고 공간과 잘 어우러집니다. 제로 커넥트 박스는 보이지만 숨겨져 있습니다."
+                        class="pc-only"
+                      />
+                      <img
+                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_05.jpg"
+                        alt="도시 풍경을 감상할 수 있는 넓은 거실. LG OLED TV는 LG 사운드바가 있는 벽에 장착되어 있습니다. TV의 원월 디자인으로 벽에 플러시 핏을 맞추고 공간과 잘 어우러집니다. 제로 커넥트 박스는 보이지만 숨겨져 있습니다."
+                        class="mobile-only"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="point-tip buying-point-2-2" name="buying-point-2" style="display: none;">
+                  <div class="point-tip-title"><b>이런 포인트도 살펴보면 좋아요!</b></div>
+                  <div class="tip-content">
+                    <div class="content">
+                      <p class="tag">#간편한휴대 #야외활용 #올인원디자인</p>
+                      <p class="tip-title">
+                        어디든 함께하는 간편한 이동형 스크린
+                      </p>
+                      <p class="tip-text">
+                        캠핑이나 여행 등 이동이 잦은 라이프스타일이라면 휴대성과 내구성이 중요해요.
+                        차에 싣고 이동하거나 야외에서 꺼내 사용하는 순간에도 <br>
+                        별도의 준비 없이 바로 콘텐츠를 즐길 수 있어, 장소에 구애받지 않고 간편하게 활용할 수 있습니다.<br>
+                        하나의 기기로 다양한 장소에서 콘텐츠를 즐기고 싶은 라이프스타일에 잘 어울립니다.
+                      </p>
+                    </div>
+                    <div class="img">
+                      <img
+                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_04.jpg"
+                        alt="도시 풍경을 감상할 수 있는 넓은 거실. LG OLED TV는 LG 사운드바가 있는 벽에 장착되어 있습니다. TV의 원월 디자인으로 벽에 플러시 핏을 맞추고 공간과 잘 어우러집니다. 제로 커넥트 박스는 보이지만 숨겨져 있습니다."
+                        class="pc-only"
+                      />
+                      <img
+                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_06.jpg"
+                        alt="도시 풍경을 감상할 수 있는 넓은 거실. LG OLED TV는 LG 사운드바가 있는 벽에 장착되어 있습니다. TV의 원월 디자인으로 벽에 플러시 핏을 맞추고 공간과 잘 어우러집니다. 제로 커넥트 박스는 보이지만 숨겨져 있습니다."
+                        class="mobile-only"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="point-tip buying-point-2-3" name="buying-point-2" style="display: none;">
+                  <div class="point-tip-title"><b>이런 포인트도 살펴보면 좋아요!</b></div>
+                  <div class="tip-content">
+                    <div class="content">
+                      <p class="tag">#간편한휴대 #야외활용 #올인원디자인</p>
+                      <p class="tip-title">
+                        어디든 함께하는 간편한 이동형 스크린
+                      </p>
+                      <p class="tip-text">
+                        캠핑이나 여행 등 이동이 잦은 라이프스타일이라면 휴대성과 내구성이 중요해요.
+                        차에 싣고 이동하거나 야외에서 꺼내 사용하는 순간에도 <br>
+                        별도의 준비 없이 바로 콘텐츠를 즐길 수 있어, 장소에 구애받지 않고 간편하게 활용할 수 있습니다.<br>
+                        하나의 기기로 다양한 장소에서 콘텐츠를 즐기고 싶은 라이프스타일에 잘 어울립니다.
+                      </p>
+                    </div>
+                    <div class="img">
+                      <img
+                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_04.jpg"
+                        alt="도시 풍경을 감상할 수 있는 넓은 거실. LG OLED TV는 LG 사운드바가 있는 벽에 장착되어 있습니다. TV의 원월 디자인으로 벽에 플러시 핏을 맞추고 공간과 잘 어우러집니다. 제로 커넥트 박스는 보이지만 숨겨져 있습니다."
+                        class="pc-only"
+                      />
+                      <img
+                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_06.jpg"
+                        alt="도시 풍경을 감상할 수 있는 넓은 거실. LG OLED TV는 LG 사운드바가 있는 벽에 장착되어 있습니다. TV의 원월 디자인으로 벽에 플러시 핏을 맞추고 공간과 잘 어우러집니다. 제로 커넥트 박스는 보이지만 숨겨져 있습니다."
+                        class="mobile-only"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="point-tip buying-point-2-4" name="buying-point-2" style="display: none;">
+                  <div class="point-tip-title"><b>이런 포인트도 살펴보면 좋아요!</b></div>
+                  <div class="tip-content">
+                    <div class="content">
+                      <p class="tag">#간편한휴대 #야외활용 #올인원디자인</p>
+                      <p class="tip-title">
+                        어디든 함께하는 간편한 이동형 스크린
+                      </p>
+                      <p class="tip-text">
+                        캠핑이나 여행 등 이동이 잦은 라이프스타일이라면 휴대성과 내구성이 중요해요.
+                        차에 싣고 이동하거나 야외에서 꺼내 사용하는 순간에도 <br>
+                        별도의 준비 없이 바로 콘텐츠를 즐길 수 있어, 장소에 구애받지 않고 간편하게 활용할 수 있습니다.<br>
+                        하나의 기기로 다양한 장소에서 콘텐츠를 즐기고 싶은 라이프스타일에 잘 어울립니다.
+                      </p>
+                    </div>
+                    <div class="img">
+                      <img
+                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_04.jpg"
+                        alt="도시 풍경을 감상할 수 있는 넓은 거실. LG OLED TV는 LG 사운드바가 있는 벽에 장착되어 있습니다. TV의 원월 디자인으로 벽에 플러시 핏을 맞추고 공간과 잘 어우러집니다. 제로 커넥트 박스는 보이지만 숨겨져 있습니다."
+                        class="pc-only"
+                      />
+                      <img
+                        src="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_06.jpg"
+                        alt="도시 풍경을 감상할 수 있는 넓은 거실. LG OLED TV는 LG 사운드바가 있는 벽에 장착되어 있습니다. TV의 원월 디자인으로 벽에 플러시 핏을 맞추고 공간과 잘 어우러집니다. 제로 커넥트 박스는 보이지만 숨겨져 있습니다."
+                        class="mobile-only"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
               <p class="note aling-left">
                 * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
                 스펙은 다를 수 있습니다.
@@ -1482,6 +2044,7 @@
               </div>
           </section>
           <!-- top anchor tab pannel buying-point //-->
+
           <!-- top anchor tab pannels // -->
           <section class="useful-tip">
             <h2 class="section-title">
@@ -1528,7 +2091,7 @@
                     alt="빨간색 원형 배경에 흰색 엄지손가락 치켜세운 모양의 3D 아이콘."
                   />인기 상품
                 </h3>
-                <p>지금 가장 인기 잇는 스탠바이미를 확인해 보세요!</p>
+                <p>지금 가장 인기 있는 스탠바이미를 확인해 보세요!</p>
                 <div class="btn-wrap">
                   <a
                     target="_blank"
