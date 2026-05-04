@@ -1736,6 +1736,10 @@
                       <video autoplay playsinline loop muted
                         src="/kr/story/buying-guide/2025/video/washing-machine/vid_P07_001_18.mp4"></video>
                     </div>
+                    <p class="des">
+                      * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br>
+                      * 제품별 기능 및 스펙은 차이가 있을 수 있으므로, 자세한 내용은 제품 상세 페이지를 참고해주세요.
+                    </p>
                   </div>
                   <div class="content">
                     <h5>워시타워 컴팩트</h5>
@@ -1755,6 +1759,10 @@
                       <video autoplay playsinline loop muted
                         src="/kr/story/buying-guide/2025/video/washing-machine/vid_P07_001_19.mp4"></video>
                     </div>
+                    <p class="des">
+                      * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br>
+                      * 제품별 기능 및 스펙은 차이가 있을 수 있으므로, 자세한 내용은 제품 상세 페이지를 참고해주세요.
+                    </p>
                   </div>
                 </div>
                 <div class="point-wrap" id="buying-point-1-2" name="buying-point-1" style="display: none">
@@ -1792,6 +1800,10 @@
                       <img src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_33.jpg"
                         alt="아이보리색 LG 세탁기의 전면 모습으로, 옆에는 같은 톤의 세면대와 세로 줄무늬 패턴의 벽면이 보입니다." />
                     </div>
+                    <p class="des">
+                      * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br>
+                      * 제품별 기능 및 스펙은 차이가 있을 수 있으므로, 자세한 내용은 제품 상세 페이지를 참고해주세요.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -1867,7 +1879,7 @@
               <div class="point-wrap" id="buying-point-3-1" name="buying-point-3">
                 <h4 class="hide">AI 세탁·건조</h4>
                 <div class="content">
-                  <h5>AI 세탁 건조(워시타워)</h5>
+                  <h5>AI 세탁 건조</h5>
                   <p>
                     워시타워는 하나의 바디에서 세탁과 건조가 모두 가능한 제품으로 세탁부터 건조까지 모든 과정을 AI로 더욱 똑똑하게 진행 할 수 있습니다.
                   </p>
@@ -1887,7 +1899,7 @@
                   </p>
                 </div>
                 <div class="content">
-                  <h5>AI 맞춤세탁(트롬 세탁기)</h5>
+                  <h5>AI 맞춤세탁</h5>
                   <p>
                     AI 맞춤 세탁 기능은 세탁물의 무게, 재질, 오염도를 스스로 인식하여 세탁 과정을 자동으로 조정합니다. 바쁜 일상 속에서도 세탁 품질을 유지하고 싶은 분들께 유용하며, 코스
                     설정이나 세기 조절이 번거로운 분에게 편리하고 효율적인 세탁 경험을 제공합니다.
@@ -1911,7 +1923,7 @@
               <div class="point-wrap" id="buying-point-3-2" name="buying-point-3" style="display: none">
                 <h4 class="hide">AI 편의 기능</h4>
                 <div class="content">
-                  <h5>AI 타임 센싱 (워시타워)</h5>
+                  <h5>AI 타임 센싱</h5>
                   <p>
                     세탁물 투입 후 시작 버튼을 누르면, AI 타임 센싱 기능이 세탁물의 무게를 자동으로 감지하여 약 3초 안에 코스별 예상 종료 시간을 안내합니다. 세탁 및 건조 소요 시간을 미리
                     알려주어 세탁이 얼마나 걸릴지 매번 확인하기 번거로운 분들에게 유용한 기능입니다.
@@ -1940,7 +1952,7 @@
                   </div>
                 </div>
                 <div class="content">
-                  <h5>AI 세탁 리포트 (워시타워)</h5>
+                  <h5>AI 세탁 리포트</h5>
                   <p>
                     AI 세탁·건조가 끝나면 꼼꼼 하게 리뷰한 리포트를 제공하는 기능입니다. 세탁 리포트를 통해서 나만의 개인 세탁 패턴을 확인할 수 있어 보다 스마트하고 효율적인 세탁 경험을
                     제공합니다.
@@ -1965,7 +1977,7 @@
                   </div>
                 </div>
                 <div class="content">
-                  <h5>AI My 코스 (워시타워)</h5>
+                  <h5>AI My 코스</h5>
                   <p>
                     매번 설정할 필요 없이 AI가 세탁과 건조 패턴을 분석하여 나만의 맞춤 코스를 자동으로 추천해줍니다. 자주 사용하는 코스를 등록해 상황에 따라 간편하게 선택할 수 있습니다.
                   </p>
@@ -1991,9 +2003,9 @@
                 </div>
               </div>
               <div class="point-wrap" id="buying-point-3-3" name="buying-point-3" style="display: none">
-                <h4 class="hide">AI DD X6모션 (워시타워, 워시콤보, 트롬 세탁기)</h4>
+                <h4 class="hide">AI DD X6 모션</h4>
                 <div class="content">
-                  <h5>AI DD X6모션 (워시타워, 워시콤보, 트롬 세탁기)</h5>
+                  <h5>AI DD X6 모션</h5>
                   <p>
                     AI DD 기술이 세탁물의 무게와 재질, 오염도를 스스로 감지하여 옷감에 꼭 맞는 세탁/건조 모션을 선택합니다. 6가지의 섬세한 모션으로 세탁양과 시간을 자동 조절해 옷감 손상은
                     줄이고 세탁/건조 효율은 높입니다.
@@ -2302,7 +2314,7 @@
                   <div>
                     <div class="content-wrap">
                       <div>
-                        <h4>7인치 와이드 디스플레이 (워시타워)</h4>
+                        <h4>7인치 와이드 디스플레이</h4>
                         <p>
                           복잡한 화면을 일일이 누를 필요 없이, 7인치로 커진 와이드 디스플레이로 코스 설정부터 세탁 리포트까지 한번에 편리하게 확인해보세요.
                         </p>
@@ -2324,8 +2336,8 @@
                 </div>
               </div>
               <p class="note">
-                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상
-                및 스펙은 다를 수 있습니다.
+                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br>
+                * 제품별 기능 및 스펙은 차이가 있을 수 있으므로, 자세한 내용은 제품 상세 페이지를 참고해주세요.
               </p>
             </div>
             <div id="buying-point-5" name="buying-point-45"
