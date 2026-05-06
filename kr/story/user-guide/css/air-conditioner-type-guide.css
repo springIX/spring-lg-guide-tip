@@ -495,7 +495,6 @@
   justify-content: center;
   background-color: #f4f4f4;
   border-radius: 16px;
-  padding: 30px 20px; /* 카드의 내부 여백을 줘서 크기를 줄임 */
   overflow: hidden;
   aspect-ratio: 1/1;
   margin-bottom: 8px;
@@ -503,7 +502,7 @@
 #gjw003 .product-grid li .img-box img {
   width: auto;
   height: 100%;
-  max-height: 180px; /* 이미지 세로 크기 제한 */
+
   object-fit: contain;
   mix-blend-mode: multiply;
 }
@@ -822,14 +821,11 @@
     padding-bottom: 60px;
   }
   #gjw003 .product-grid li .img-box {
-    padding: 20px 10px;
     border-radius: 8px;
     aspect-ratio: 1/1;
     margin-bottom: 4px;
   }
-  #gjw003 .product-grid li .img-box img {
-    max-height: 110px; /* 모바일에서 이미지 세로 크기 제한 */
-  }
+
   #gjw003 .product-grid li h5 {
     margin-top: 15px;
   }
