@@ -14,3 +14,5 @@
 .buying-guide-special .product-table .table-wrap .desc b { line-height: 24px; }
 .buying-guide-special .product-table .table-wrap .th2 p { color: #000; font-weight: 400; font-size: 16px; margin: 0; }
 .buying-guide-special .product-table .table-wrap .th2 { padding: 16px 2px; }
+
+.buying-guide-special .clone-header-table-wrap .table-wrap thead tr:first-child th:first-child { width: 100px; }
