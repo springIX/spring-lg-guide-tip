@@ -64,8 +64,12 @@ $(function () {
   /* 제품 보러가기 */
   if ($(".bot_product_swiper").length > 0) {
     var productSwiperPc = new Swiper(".bot_product_swiper", {
-      slidesPerView: "auto",
-      spaceBetween: 20,
+      slidesPerView: 4,
+      spaceBetween: 40,
+      roundLengths: true,
+      watchOverflow: true,
+      grabCursor: true,
+      threshold: 8,
       pagination: {
         el: ".bot_product_swiper .swiper-pagination",
         clickable: true,
@@ -92,6 +96,18 @@ $(function () {
         slideLabelMessage: "{{index}}번째 / 총 {{slidesLength}}개",
       },
       breakpoints: {
+        0: {
+          slidesPerView: 1.5,
+          spaceBetween: 8,
+        },
+        480: {
+          slidesPerView: 1.8,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 2.2,
+          spaceBetween: 10,
+        },
         1024: {
           slidesPerView: 4,
           slidesPerGroup: 4,
