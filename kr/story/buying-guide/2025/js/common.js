@@ -21,25 +21,26 @@ $(document).ready(function () {
   // $("body").append(
   //   `<p style="position:fixed;z-index:999;top:0;left:0;font-size:12px;">common.js v0.4</p>`
   // );
-  tabButtonHandler(); // tab 버튼 일괄
-  detailCollapseToggle(); // 세부 정보 열기/닫기
-  detailCollapseClose(); // 세부 정보 닫기
-  angleImageToggle(); // 다른각도 보기 버튼 일괄
+  tabButtonHandler(); // tab 버튼 클릭
+  detailCollapseToggle(); // 제품 정보 열기/닫기
+  detailCollapseClose(); // 제품 정보 닫기
+  angleImageToggle(); // 다른 각도 보기 버튼 클릭
   videoHandler(); // 영상 pause/play
   initTabAccessibility();
+  initBlankLinkAccessibility();
   enableHorizontalDragScroll();
-  verticalScrollTabHandler(); // 상품 탭 가로 스크롤 네비게이션
+  verticalScrollTabHandler(); // 상품 탭 가로 스크롤 내비게이션
   $(".bubble-wrap .dot").on("click", function (e) {
-    if (isDesktop()) return; // 데스크탑에서는 클릭 무시
+    if (isDesktop()) return; // 데스크톱에서는 클릭 무시
     e.stopPropagation();
     $(this).siblings(".bubble").show();
   });
   $(".bubble-wrap .bubble").on("click", function (e) {
-    if (isDesktop()) return; // 데스크탑에서는 클릭 무시
+    if (isDesktop()) return; // 데스크톱에서는 클릭 무시
     e.stopPropagation();
   });
   $(document).on("click", function () {
-    if (isDesktop()) return; // 데스크탑에서는 클릭 무시
+    if (isDesktop()) return; // 데스크톱에서는 클릭 무시
     $(".bubble-wrap .bubble").hide();
   });
 
@@ -51,7 +52,7 @@ $(document).ready(function () {
     function (event, slick, currentSlide) {
       const $currentSlide = $(slick.$slides.get(currentSlide));
       $currentSlide.find(".collapse-content:visible").hide();
-    }
+    },
   );
 });
 $(window).on("load", function () {
@@ -73,6 +74,25 @@ function isDesktop() {
     document.documentElement.clientWidth +
     (window.innerWidth - document.documentElement.clientWidth);
   return screenWidth >= 1024;
+}
+
+function initBlankLinkAccessibility() {
+  $(".buying-guide a[target='_blank']").each(function () {
+    const $link = $(this);
+    const relValues = ($link.attr("rel") || "").split(/\s+/).filter(Boolean);
+
+    if (!relValues.includes("noopener")) {
+      relValues.push("noopener");
+    }
+
+    $link.attr("rel", relValues.join(" "));
+
+    if (!$link.find(".sr-only[data-a11y-new-window]").length) {
+      $link.append(
+        '<span class="sr-only" data-a11y-new-window="true"> 새 창으로 열림</span>',
+      );
+    }
+  });
 }
 
 function initTabAccessibility() {
@@ -239,7 +259,7 @@ function syncTabSelectedText($button, isSelected) {
   if (isSelected) {
     if (!$selectedText.length) {
       $button.prepend(
-        `<span class="a11y-hidden ${selectedTextClass}">${TAB_SELECTED_TEXT}</span>`
+        `<span class="a11y-hidden ${selectedTextClass}">${TAB_SELECTED_TEXT}</span>`,
       );
     }
     return;
@@ -259,7 +279,7 @@ function tabButtonHandler() {
     });
 
     $(`button[name='buying-guide-tab'][data-group='${group}']`).removeClass(
-      "active"
+      "active",
     );
     $(this).addClass("active");
 
@@ -310,8 +330,13 @@ function detailCollapseToggle() {
   });
 }
 function detailCollapseClose() {
-  $(".btn-collapse-close").click(function () {
-    $(this).parent(".collapse-content").hide();
+  $(".btn-collapse-close").click(function (e) {
+    e.preventDefault();
+    const $content = $(this).parent(".collapse-content");
+    const $toggle = $content.prev(".btn-collapse-toggle");
+
+    $content.hide();
+    $toggle.focus();
   });
 }
 function angleImageToggle() {
@@ -348,7 +373,7 @@ function angleImageToggle() {
   });
 
   angleButton.on("click", function () {
-    if (isDesktop()) return; // 데스크탑에서는 클릭 무시
+    if (isDesktop()) return; // 데스크톱에서는 클릭 무시
 
     if ($(this).siblings(".front").css("opacity") == "0") {
       $(this).siblings(".front").css(show);
@@ -423,7 +448,7 @@ function createStickyController($sticky) {
     const y = clamp(
       scrollTop - start + delayOffset,
       0,
-      Math.max(0, end - start)
+      Math.max(0, end - start),
     );
     const ySnapped = snap(y);
 
@@ -469,12 +494,12 @@ function createStickyController($sticky) {
   window.addEventListener("resize", onResize);
   window.addEventListener("orientationchange", onResize);
 
-  // 콘텐츠 변동에도 대응
+  // 콘텐츠 변경에 대응
   if (window.ResizeObserver) {
     const ro = new ResizeObserver(() => refresh());
     ro.observe($wrap[0]);
     ro.observe($sticky[0]);
-    // destroy 시 detach 필요하면 외부에서 보관
+    // destroy 시 detach가 필요하면 여기에서 처리
   }
 
   return { refresh, reset, destroy };
@@ -493,7 +518,9 @@ function detailTableTopFix() {
     if ($wrap.find(".clone-header-table-wrap").length) return;
 
     // 클론 테이블(헤더만)
-    const $cloneWrap = $("<div class='clone-header-table-wrap'></div>");
+    const $cloneWrap = $(
+      "<div class='clone-header-table-wrap' style='opacity: 0; transform: translateY(0px);'></div>",
+    );
     const $cloneTbl = $("<table class='clone-header-table'></table>");
     const $cloneHead = $thead.clone();
     $cloneTbl.append($cloneHead);
@@ -509,7 +536,7 @@ function detailTableTopFix() {
     }
   };
 
-  // 위치/표시 제어 (absolute + top 계산, 좌측 오프셋 반영)
+  // 위치/표시 제어 (absolute + top 계산, 좌측 스크롤 반영)
   function updatePosition() {
     const st = $(window).scrollTop();
 
@@ -544,7 +571,7 @@ function detailTableTopFix() {
     updatePosition();
   }
   $(window).on("scroll resize", refresh);
-  // 폰트 로딩으로 폭 변동하는 경우 재동기화
+  // 폰트 로딩으로 폭이 변경되는 경우 재동기화
   document.fonts?.ready?.then(refresh);
 
   refresh();
@@ -556,7 +583,7 @@ function videoHandler() {
     const $btnPause = $(this).siblings(".btn-pause");
 
     video.addEventListener("playing", () => {
-      $btnPause.removeClass("play"); // 재생중 아이콘 표시
+      $btnPause.removeClass("play"); // 재생 중 아이콘 표시
     });
 
     video.addEventListener("pause", () => {
@@ -597,14 +624,14 @@ function topAnchorController() {
   const $wrap = $(".guide-wrap"); // 기준 구역
   if (!$anchor.length || !$wrap.length) return null;
 
-  // GPU 레이어 & 페인트 힌트
+  // GPU 레이어 & 페인팅 힌트
   $anchor.css({
     willChange: "transform",
     backfaceVisibility: "hidden",
     transform: "translate3d(0,0,0)",
   });
 
-  const earlyHide = 100; // 사라질 시점
+  const earlyHide = 100; // 사라지는 시점
   const dpr = window.devicePixelRatio || 1;
   const snap = (v) => Math.round(v * dpr) / dpr;
 
@@ -676,7 +703,7 @@ function topAnchorController() {
     window.removeEventListener("orientationchange", onResize);
     window.removeEventListener("load", onResize);
     if (ro) ro.disconnect();
-    // 스타일/클래스 원복
+    // 스타일/클래스 복원
     $anchor
       .css({ transform: "", willChange: "", backfaceVisibility: "" })
       .removeClass("is-sticky");
@@ -715,12 +742,12 @@ function mountTopAnchorIfNeeded() {
 // window.addEventListener("resize", mountTopAnchorIfNeeded);
 // window.addEventListener("orientationchange", mountTopAnchorIfNeeded);
 
-// 탭 전환 등 레이아웃 바뀌는 액션 뒤에는 한 번 더 리프레시
+// 탭 전환 등 레이아웃이 바뀌는 액션 뒤에 한 번 더 리프레시
 function refreshTopAnchorSoon() {
   requestAnimationFrame(() =>
     requestAnimationFrame(() => {
       if (_topAnchorAPI && _topAnchorAPI.refresh) _topAnchorAPI.refresh();
-    })
+    }),
   );
 }
 
@@ -818,6 +845,21 @@ function autoplaySliders(target) {
     const $current = $wrap.find(".counter .current");
     const $total = $wrap.find(".counter .total");
 
+    const syncPlayButtonState = ($button, state) => {
+      const isPlaying = state === "playing";
+      const label = isPlaying ? "일시정지" : "재생";
+
+      $button
+        .toggleClass("paused", !isPlaying)
+        .attr("data-state", isPlaying ? "playing" : "paused")
+        .attr("aria-label", label)
+        .text(label);
+    };
+
+    $btnPlay.each(function () {
+      syncPlayButtonState($(this), $(this).attr("data-state") || "playing");
+    });
+
     const updateNavDisabled = (slick) => {
       const slideCount = slick.slideCount;
 
@@ -850,7 +892,7 @@ function autoplaySliders(target) {
         if (keepVideo && v === keepVideo) return;
         v.pause();
         try {
-          v.currentTime = 0; // 프레임 0으로
+          v.currentTime = 0; // 프레임을 0으로
         } catch (e) {}
       });
     };
@@ -978,7 +1020,7 @@ function autoplaySliders(target) {
         if (!isVideoSlider) return;
         const nextVideo = playVideoAt(nextSlide, slick);
         pauseExcept(nextVideo);
-      }
+      },
     );
 
     $slider.on("afterChange", function (event, slick, currentSlide) {
@@ -986,14 +1028,14 @@ function autoplaySliders(target) {
       updateNavDisabled(slick);
     });
 
-    // 네비 버튼
+    // 내비 버튼
     $btnPrev.on("click", () => $slider.slick("slickPrev"));
     $btnNext.on("click", () => $slider.slick("slickNext"));
 
     // play/pause 버튼
     $btnPlay.on("click", function () {
-      const isPlaying = $(this).attr("data-state") === "playing";
-      $(this).toggleClass("paused");
+      const $button = $(this);
+      const isPlaying = $button.attr("data-state") === "playing";
 
       const slick = $slider.slick("getSlick");
       const idx = slick ? slick.currentSlide : 0;
@@ -1001,14 +1043,14 @@ function autoplaySliders(target) {
       if (isPlaying) {
         safeSlick($slider, "slickPause");
         if (isVideoSlider) pauseExcept(null);
-        $(this).attr("data-state", "paused");
+        syncPlayButtonState($button, "paused");
       } else {
         safeSlick($slider, "slickPlay");
         if (isVideoSlider && slick) {
           const v = playVideoAt(idx, slick);
           pauseExcept(v);
         }
-        $(this).attr("data-state", "playing");
+        syncPlayButtonState($button, "playing");
       }
     });
   });
