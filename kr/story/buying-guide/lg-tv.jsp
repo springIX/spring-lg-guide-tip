@@ -239,7 +239,8 @@
                     ">
                       <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                       <div class="bubble">
-                        <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000028" target="_blank"><span>LG 올레드</span></a>
+                        <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000028" target="_blank"><span>LG
+                            올레드</span></a>
                         <p>스탠드/벽걸이형<span></span>4K</p>
                       </div>
                     </div>
@@ -628,7 +629,8 @@
                     <div class="table-wrap include-tab vertical-scroll-box">
                       <table>
                         <caption class="blind">
-                          LG 올레드 TV 모델 라인업 스펙 비교표 - M 시리즈, G 시리즈, C 시리즈, B 시리즈의 올레드 evo, 해상도, 화질, 사운드, 게임 기능과 제품 링크 정보를 비교합니다.
+                          LG 올레드 TV 모델 라인업 스펙 비교표 - M 시리즈, G 시리즈, C 시리즈, B 시리즈의 올레드 evo, 해상도, 화질, 사운드, 게임 기능과 제품 링크 정보를
+                          비교합니다.
                         </caption>
                         <colgroup>
                           <col class="col1" />
@@ -744,7 +746,8 @@
                     ">
                       <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                       <div class="bubble">
-                        <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50041000" target="_blank"><span>LG QNED</span>
+                        <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50041000" target="_blank"><span>LG
+                            QNED</span>
                         </a>
                         <p>스탠드/벽걸이형<span></span>4K</p>
                       </div>
@@ -950,7 +953,8 @@
                     ">
                       <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                       <div class="bubble">
-                        <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000029" target="_blank"><span>LG 나노셀</span></a>
+                        <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000029" target="_blank"><span>LG
+                            나노셀</span></a>
                         <p>스탠드/벽걸이형<span></span>4K</p>
                       </div>
                     </div>
@@ -1094,7 +1098,8 @@
                     ">
                       <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                       <div class="bubble">
-                        <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000030" target="_blank"><span>LG 울트라 HD</span></a>
+                        <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000030" target="_blank"><span>LG 울트라
+                            HD</span></a>
                         <p>스탠드/벽걸이형<span></span>4K</p>
                       </div>
                     </div>
@@ -1320,7 +1325,8 @@
                             100% 컬러 볼륨과 100% 색 정확도로 실물 그대로의 색감을 담아냅니다. 퍼펙트 컬러 인증을 받아 밝은 공간에서도 변함없이 선명한 화질을 즐길 수 있습니다.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_03.jpg" alt="선명한 색상의 앵무새 이미지와 퍼펙트 컬러, 컬러 볼륨, 색 정확도 인증 마크가 표시된 화면" />
+                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_03.jpg"
+                              alt="선명한 색상의 앵무새 이미지와 퍼펙트 컬러, 컬러 볼륨, 색 정확도 인증 마크가 표시된 화면" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -1360,7 +1366,8 @@
                             어느 각도에서도 선명한 화질을 제공해 거실과 같은 넓은 공간에서 여러 명이 함께 시청해도 왜곡 없이 즐길 수 있습니다.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_04.jpg" alt="도시 전망 거실에 설치된 TV에서 넓은 시야각을 보여주는 화면" />
+                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_04.jpg"
+                              alt="도시 전망 거실에 설치된 TV에서 넓은 시야각을 보여주는 화면" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -1373,7 +1380,8 @@
                             몰입감을 경험할 수 있습니다.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_05.jpg" alt="거실 TV 화면과 돌비 애트모스 입체 사운드 효과를 표현한 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_05.jpg"
+                              alt="거실 TV 화면과 돌비 애트모스 입체 사운드 효과를 표현한 이미지" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -1386,7 +1394,8 @@
                             게임을 플레이 할 수 있습니다.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_06.jpg" alt="레이싱 게임 화면과 G-Sync, FreeSync, VRR 등 게이밍 기능 로고가 표시된 화면" />
+                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_06.jpg"
+                              alt="레이싱 게임 화면과 G-Sync, FreeSync, VRR 등 게이밍 기능 로고가 표시된 화면" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br />
@@ -1400,7 +1409,8 @@
                             (LED) LCD TV 대비 블루라이트를 절반 수준으로 줄이고 눈에 보이지 않는 화면 깜빡임이 적어 오랫동안 시청해도 눈이 편안합니다.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_07.jpg" alt="OLED 블루라이트 저감과 아이세이프 인증을 안내하는 그래픽 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_07.jpg"
+                              alt="OLED 블루라이트 저감과 아이세이프 인증을 안내하는 그래픽 이미지" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -1424,7 +1434,8 @@
                             세계 최대 245cm 부터 105cm의 화면사이즈까지 업계 최다 라인업으로 올레드만의 뛰어난 화질을 용도와 상황에 따라 선택해서 즐길 수 있습니다.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_08.jpg" alt="105cm부터 245cm까지 올레드 TV 화면 크기 라인업을 비교한 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_08.jpg"
+                              alt="105cm부터 245cm까지 올레드 TV 화면 크기 라인업을 비교한 이미지" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br />
@@ -1438,7 +1449,8 @@
                             어떤 TV를 살지 고민된다면, 세계에서 가장 많이 선택 받은 LG 올레드가 정답입니다.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_09.jpg" alt="세계 판매 1위 올레드 TV 12년 연속 기록을 안내하는 그래픽 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_09.jpg"
+                              alt="세계 판매 1위 올레드 TV 12년 연속 기록을 안내하는 그래픽 이미지" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br />
@@ -1463,7 +1475,8 @@
                             강화하였습니다.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_10.jpg" alt="LG 올레드 evo TV 최고 평가 내용을 강조한 기사 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_10.jpg"
+                              alt="LG 올레드 evo TV 최고 평가 내용을 강조한 기사 이미지" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -1502,7 +1515,8 @@
                               target="_blank">제품 보러 가기</a>
                           </div>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_12.jpg" alt="QNED TV 화면에 생생한 색상의 추상 이미지가 표시된 모습" />
+                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_12.jpg"
+                              alt="QNED TV 화면에 생생한 색상의 추상 이미지가 표시된 모습" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -1519,7 +1533,8 @@
                               target="_blank">제품 보러 가기</a>
                           </div>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_13.jpg" alt="나노셀 TV 화면에 다채로운 색상의 실타래 이미지가 표시된 모습" />
+                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_13.jpg"
+                              alt="나노셀 TV 화면에 다채로운 색상의 실타래 이미지가 표시된 모습" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -1535,7 +1550,8 @@
                               target="_blank">제품 보러 가기</a>
                           </div>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_14.jpg" alt="울트라 HD TV 화면에 여러 색상의 구슬 이미지가 표시된 모습" />
+                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_14.jpg"
+                              alt="울트라 HD TV 화면에 여러 색상의 구슬 이미지가 표시된 모습" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -1615,7 +1631,8 @@
                               target="_blank">제품 보러 가기</a>
                           </div>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_15.jpg" alt="거실 벽면에 설치된 대형 TV로 코끼리 영상을 감상하는 모습" />
+                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_15.jpg"
+                              alt="거실 벽면에 설치된 대형 TV로 코끼리 영상을 감상하는 모습" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -1635,7 +1652,8 @@
                               target="_blank">제품 보러 가기</a>
                           </div>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_17.jpg" alt="거실에서 가족이 대형 TV의 돌고래 영상을 감상하는 모습" />
+                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_17.jpg"
+                              alt="거실에서 가족이 대형 TV의 돌고래 영상을 감상하는 모습" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -1655,7 +1673,8 @@
                               target="_blank">제품 보러 가기</a>
                           </div>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_18.jpg" alt="거실에 설치된 대형 TV에서 수상 스포츠 영상을 감상하는 모습" />
+                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_18.jpg"
+                              alt="거실에 설치된 대형 TV에서 수상 스포츠 영상을 감상하는 모습" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -1675,7 +1694,8 @@
                               target="_blank">제품 보러 가기</a>
                           </div>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_19.jpg" alt="거실 TV 화면과 소파 주변으로 몰입감을 표현한 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_19.jpg"
+                              alt="거실 TV 화면과 소파 주변으로 몰입감을 표현한 이미지" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -1691,7 +1711,8 @@
                             TV 권장 사이즈(cm)를 확인하고, 우리 집에 맞는 TV를 선택해보세요.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_20.jpg" alt="밝은 거실에 설치된 TV 화면에 컬러풀한 추상 이미지가 표시된 모습" />
+                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_20.jpg"
+                              alt="밝은 거실에 설치된 TV 화면에 컬러풀한 추상 이미지가 표시된 모습" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -1771,7 +1792,8 @@
                               target="_blank">제품 보러 가기</a>
                           </div>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_21.jpg" alt="알파11 AI 프로세서의 AI 성능, 처리 속도, 그래픽 성능 향상을 안내하는 그래픽" />
+                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_21.jpg"
+                              alt="알파11 AI 프로세서의 AI 성능, 처리 속도, 그래픽 성능 향상을 안내하는 그래픽" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -1826,7 +1848,8 @@
                             마치 14개의 스피커에 둘러싸인 듯 공간을 가득 채우는 입체 서라운드와 배경음 속에서도 등장인물의 목소리를 추출해 더욱 또렷하고 선명하게 대사를 전달합니다.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_23.jpg" alt="TV 화면 속 공연 장면과 AI 사운드 프로의 입체 음향 효과를 표현한 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_23.jpg"
+                              alt="TV 화면 속 공연 장면과 AI 사운드 프로의 입체 음향 효과를 표현한 이미지" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -1861,10 +1884,12 @@
                             <div class="point-slider2 autoplay-slider-wrap">
                               <div class="slider">
                                 <div>
-                                  <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_24.jpg" alt="TV 화면에서 AI 에이전트가 콘텐츠를 추천하는 화면" />
+                                  <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_24.jpg"
+                                    alt="TV 화면에서 AI 에이전트가 콘텐츠를 추천하는 화면" />
                                 </div>
                                 <div>
-                                  <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_24a.jpg" alt="TV 화면에서 AI 에이전트가 스포츠 경기 일정을 안내하는 화면" />
+                                  <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_24a.jpg"
+                                    alt="TV 화면에서 AI 에이전트가 스포츠 경기 일정을 안내하는 화면" />
                                 </div>
                               </div>
                               <div class="slider-controls">
@@ -1956,8 +1981,10 @@
                         </p>
                       </div>
                       <div class="img">
-                        <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_22.jpg" alt="TV 화면에서 AI 에이전트가 콘텐츠를 추천하는 화면" class="pc-only" />
-                        <img src="/kr/story/buying-guide/2025/img/tv/img_M14_101_03.jpg" alt="TV 화면에서 AI 에이전트가 콘텐츠를 추천하는 화면" class="mobile-only" />
+                        <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_22.jpg"
+                          alt="TV 화면에서 AI 에이전트가 콘텐츠를 추천하는 화면" class="pc-only" />
+                        <img src="/kr/story/buying-guide/2025/img/tv/img_M14_101_03.jpg"
+                          alt="TV 화면에서 AI 에이전트가 콘텐츠를 추천하는 화면" class="mobile-only" />
                       </div>
                     </div>
                   </div>
@@ -2018,10 +2045,12 @@
                             <div class="point-slider2 autoplay-slider-wrap">
                               <div class="slider">
                                 <div>
-                                  <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_27.jpg" alt="실내 공간에 놓인 LG 올레드 오브제컬렉션 Pose TV 제품 이미지" />
+                                  <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_27.jpg"
+                                    alt="실내 공간에 놓인 LG 올레드 오브제컬렉션 Pose TV 제품 이미지" />
                                 </div>
                                 <div>
-                                  <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_27a.jpg" alt="침실 공간에 놓인 LG 올레드 오브제컬렉션 Pose TV 제품 이미지" />
+                                  <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_27a.jpg"
+                                    alt="침실 공간에 놓인 LG 올레드 오브제컬렉션 Pose TV 제품 이미지" />
                                 </div>
                               </div>
                               <div class="slider-controls">
@@ -2089,7 +2118,8 @@
                             TV를 보지 않을 땐 갤러리 스탠드를 활용해 공간을 갤러리처럼 바꿔보세요. 예술 작품을 화면에 띄워 분위기를 전환하거나 인테리어에 감각적인 변화를 줄 수 있습니다.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_29.jpg" alt="갤러리 스탠드에 설치된 TV가 작품 화면을 보여주는 모습" />
+                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_29.jpg"
+                              alt="갤러리 스탠드에 설치된 TV가 작품 화면을 보여주는 모습" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br />
@@ -2109,10 +2139,12 @@
                             <div class="point-slider2 autoplay-slider-wrap">
                               <div class="slider">
                                 <div>
-                                  <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_30.jpg" alt="거실에서 스탠바이미와 스탠바이미 Go를 사용하는 모습" />
+                                  <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_30.jpg"
+                                    alt="거실에서 스탠바이미와 스탠바이미 Go를 사용하는 모습" />
                                 </div>
                                 <div>
-                                  <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_30a.jpg" alt="테이블 위에 열린 스탠바이미 Go 제품 이미지" />
+                                  <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_30a.jpg"
+                                    alt="테이블 위에 열린 스탠바이미 Go 제품 이미지" />
                                 </div>
                               </div>
                               <div class="slider-controls">
@@ -2159,8 +2191,10 @@
                         </p>
                       </div>
                       <div class="img">
-                        <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_37.jpg" alt="거실에 설치된 TV가 작품 화면을 보여주며 인테리어와 어우러진 모습" class="pc-only" />
-                        <img src="/kr/story/buying-guide/2025/img/tv/img_M14_101_05.jpg" alt="거실에 설치된 TV가 작품 화면을 보여주며 인테리어와 어우러진 모습" class="mobile-only" />
+                        <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_37.jpg"
+                          alt="거실에 설치된 TV가 작품 화면을 보여주며 인테리어와 어우러진 모습" class="pc-only" />
+                        <img src="/kr/story/buying-guide/2025/img/tv/img_M14_101_05.jpg"
+                          alt="거실에 설치된 TV가 작품 화면을 보여주며 인테리어와 어우러진 모습" class="mobile-only" />
                       </div>
                     </div>
                   </div>
@@ -2191,7 +2225,8 @@
                             공간 곳곳에 스피커가 펼쳐진 듯한 입체적인 음향을 만들어줍니다. 소리가 상하좌우로 자연스럽게 퍼져, 영상 속에 들어간 듯 한층 깊은 몰입감을 느낄 수 있습니다.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_31.jpg" alt="TV 화면 주변으로 버추얼 서라운드 음향 효과를 표현한 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_31.jpg"
+                              alt="TV 화면 주변으로 버추얼 서라운드 음향 효과를 표현한 이미지" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -2206,7 +2241,8 @@
                             별도 사운드바 없이도 현실감 넘치는 입체 사운드가 온몸을 감싸며 마치 영화 속에 들어가 있는 듯한 몰입감을 느낄 수 있습니다.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_32.jpg" alt="거실 TV 화면과 돌비 애트모스 입체 사운드 효과를 표현한 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_32.jpg"
+                              alt="거실 TV 화면과 돌비 애트모스 입체 사운드 효과를 표현한 이미지" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -2221,7 +2257,8 @@
                             TV와 사운드바를 복잡한 선 없이 무선으로 연결할 수 있어, 더욱 깔끔한 공간에서 풍성한 고음질 사운드를 즐길 수 있습니다.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_33.jpg" alt="TV와 사운드바가 무선으로 연결되는 WOWCAST 빌트인 기능 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_33.jpg"
+                              alt="TV와 사운드바가 무선으로 연결되는 WOWCAST 빌트인 기능 이미지" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -2247,7 +2284,8 @@
                             TV와 블루투스 스피커를 동시에 연결해 생생한 현장감을 선사합니다. 특히 스포츠 경기를 시청할 때 더욱 몰입감을 더해줍니다.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_34.jpg" alt="거실에서 TV와 블루투스 스피커로 스포츠 경기를 감상하는 모습" />
+                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_34.jpg"
+                              alt="거실에서 TV와 블루투스 스피커로 스포츠 경기를 감상하는 모습" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -2280,8 +2318,10 @@
                         </p>
                       </div>
                       <div class="img">
-                        <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_36.jpg" alt="TV 화면 주변으로 공간을 채우는 입체 사운드 효과를 표현한 이미지" class="pc-only" />
-                        <img src="/kr/story/buying-guide/2025/img/tv/img_M14_101_04.jpg" alt="TV 화면 주변으로 공간을 채우는 입체 사운드 효과를 표현한 이미지" class="mobile-only" />
+                        <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_36.jpg"
+                          alt="TV 화면 주변으로 공간을 채우는 입체 사운드 효과를 표현한 이미지" class="pc-only" />
+                        <img src="/kr/story/buying-guide/2025/img/tv/img_M14_101_04.jpg"
+                          alt="TV 화면 주변으로 공간을 채우는 입체 사운드 효과를 표현한 이미지" class="mobile-only" />
                       </div>
                     </div>
                   </div>
@@ -2321,7 +2361,8 @@
                               </div>
                               <div>
                                 <div class="media-wrap">
-                                  <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_35.jpg" alt="TV 화면에서 webOS 25와 LG Gallery+ 메뉴를 선택하는 화면" />
+                                  <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_35.jpg"
+                                    alt="TV 화면에서 webOS 25와 LG Gallery+ 메뉴를 선택하는 화면" />
                                 </div>
                               </div>
                             </div>

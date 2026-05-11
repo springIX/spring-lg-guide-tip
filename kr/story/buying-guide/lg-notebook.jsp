@@ -324,7 +324,8 @@
                   <div class="text-wrap">
                     <h4>기본에 충실한 기능들로 합리적인 선택</h4>
                     <p>
-                      카페에서는 리서치를, 사무실에서는 문서 작업을 하는 등 상황에 맞춰 유연하게 사용하고 싶다면 LG gram을 추천해요. 강력한 AI 기능과 휴대성이 좋은 초경량 무게로 이동 중에도 편하게 작업할 수 있어요.
+                      카페에서는 리서치를, 사무실에서는 문서 작업을 하는 등 상황에 맞춰 유연하게 사용하고 싶다면 LG gram을 추천해요. 강력한 AI 기능과 휴대성이 좋은 초경량 무게로 이동
+                      중에도 편하게 작업할 수 있어요.
                     </p>
                   </div>
                 </div>
@@ -381,7 +382,8 @@
                   <div class="summary-table">
                     <table>
                       <caption class="blind">
-                        LG 노트북 대표 모델 비교표 - LG gram Pro AI, LG gram Pro AI Copilot+ PC, LG gram Pro 360 AI, LG gram AI Copilot+ PC, LG gram Book AI 라인업의 주요 특징과 제품 링크 정보를 비교합니다.
+                        LG 노트북 대표 모델 비교표 - LG gram Pro AI, LG gram Pro AI Copilot+ PC, LG gram Pro 360 AI, LG gram AI
+                        Copilot+ PC, LG gram Book AI 라인업의 주요 특징과 제품 링크 정보를 비교합니다.
                       </caption>
                       <thead>
                         <tr class="procuct-name">
@@ -876,7 +878,8 @@
                               보러 가기</a>
                           </td>
                           <td>
-                            <a href="https://www.lge.co.kr/notebook/15u50u-growk?utm_medium=banner&utm_source=naverbs&utm_campaign=20200301_pc_gram_bs_bc&utm_content=Dthumb2-5&utm_term=LG%EA%B7%B8%EB%9E%A8" target="_blank" class="btn-product">제품
+                            <a href="https://www.lge.co.kr/notebook/15u50u-growk?utm_medium=banner&utm_source=naverbs&utm_campaign=20200301_pc_gram_bs_bc&utm_content=Dthumb2-5&utm_term=LG%EA%B7%B8%EB%9E%A8"
+                              target="_blank" class="btn-product">제품
                               보러 가기</a>
                           </td>
                         </tr>
@@ -892,7 +895,8 @@
                   <div class="table-wrap vertical-scroll-box ">
                     <table>
                       <caption class="blind">
-                        LG 노트북 모델 라인업 스펙 비교표 - LG 그램 Pro AI, LG 그램 AI, LG 그램, LG 울트라PC 라인업의 화면, 성능, 무게, 배터리와 제품 링크 정보를 비교합니다.
+                        LG 노트북 모델 라인업 스펙 비교표 - LG 그램 Pro AI, LG 그램 AI, LG 그램, LG 울트라PC 라인업의 화면, 성능, 무게, 배터리와 제품 링크 정보를
+                        비교합니다.
                       </caption>
                       <colgroup>
                         <col class="col1" />
@@ -947,19 +951,24 @@
                         </tr>
                         <tr>
                           <td>
-                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_001_12.png" alt="외장 그래픽을 탑재한 LG 그램 Pro 2025 제품 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_001_12.png"
+                              alt="외장 그래픽을 탑재한 LG 그램 Pro 2025 제품 이미지" />
                           </td>
                           <td>
-                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_001_13.png" alt="내장 그래픽을 탑재한 LG 그램 Pro AI 제품 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_001_13.png"
+                              alt="내장 그래픽을 탑재한 LG 그램 Pro AI 제품 이미지" />
                           </td>
                           <td>
-                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_001_14.png" alt="360도 회전 화면을 갖춘 LG 그램 Pro 360 AI 제품 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_001_14.png"
+                              alt="360도 회전 화면을 갖춘 LG 그램 Pro 360 AI 제품 이미지" />
                           </td>
                           <td>
-                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_001_15.png" alt="화이트 색상의 LG 그램 AI 제품 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_001_15.png"
+                              alt="화이트 색상의 LG 그램 AI 제품 이미지" />
                           </td>
                           <td>
-                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_001_16.png" alt="블랙 색상의 LG 그램 Book AI 제품 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_001_16.png"
+                              alt="블랙 색상의 LG 그램 Book AI 제품 이미지" />
                           </td>
                         </tr>
                       </thead>
@@ -1289,7 +1298,8 @@
                               target="_blank">제품 보러 가기</a>
                           </div>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_01.jpg" alt="LG 노트북에서 영상 편집, 디자인, 코드 작업 등 고성능 그래픽 작업을 실행하는 화면" />
+                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_01.jpg"
+                              alt="LG 노트북에서 영상 편집, 디자인, 코드 작업 등 고성능 그래픽 작업을 실행하는 화면" />
                           </div>
                           <button class="btn-collapse-toggle">
                             <span>* 세부 정보​</span>
@@ -1444,7 +1454,8 @@
                               target="_blank">제품 보러 가기</a>
                           </div>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_04.jpg" alt="LG 노트북 화면에 게임 장면과 NVIDIA DLSS 4, Reflex 2, Studio 기능 정보가 표시된 화면" />
+                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_04.jpg"
+                              alt="LG 노트북 화면에 게임 장면과 NVIDIA DLSS 4, Reflex 2, Studio 기능 정보가 표시된 화면" />
                           </div>
                           <button class="btn-collapse-toggle">
                             <span>* NVIDIA® GeForce RTX™ 5050</span>
@@ -1508,7 +1519,8 @@
                             gram Link와 연동해 LG TV와 스마트 모니터를 연결하고, 다양한 가전 제품까지 제어할 수 있어 일상과 업무를 아우르는 스마트한 생산성과 편리함을 제공합니다.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_06.jpg" alt="gram AI 로고가 표시된 그래픽 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_06.jpg"
+                              alt="gram AI 로고가 표시된 그래픽 이미지" />
                           </div>
                         </div>
                         <div class="content">
@@ -1635,7 +1647,8 @@
                             ‘Studio Effects’ 기능으로 다양한 상황이나 용도에 맞게 편리한 활용성을 더해줍니다.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_10.jpg" alt="Copilot+ PC 로고가 표시된 그래픽 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_10.jpg"
+                              alt="Copilot+ PC 로고가 표시된 그래픽 이미지" />
                           </div>
                         </div>
                         <div class="content">
@@ -1644,7 +1657,8 @@
                             Copliot + 를 통해 입력한 이미지와 텍스트를 바탕으로 원하는 결과물을 쉽고 빠르게 도출할 수 있어요.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_19.jpg" alt="LG 노트북 화면에서 Cocreator로 이미지를 생성하는 화면" />
+                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_19.jpg"
+                              alt="LG 노트북 화면에서 Cocreator로 이미지를 생성하는 화면" />
                           </div>
                           <button class="btn-collapse-toggle">
                             <span>* 세부 정보</span>
@@ -1663,7 +1677,8 @@
 
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_11.jpg" alt="LG 노트북 화면에서 화상 영상에 라이브 캡션이 표시된 화면" />
+                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_11.jpg"
+                              alt="LG 노트북 화면에서 화상 영상에 라이브 캡션이 표시된 화면" />
                           </div>
                           <button class="btn-collapse-toggle">
                             <span>* 세부 정보</span>
@@ -1681,7 +1696,8 @@
                             화상 통화 시 인물을 중앙에 고정하거나 조명과 소음을 자동으로 조절해 더 집중할 수 있는 환경을 연출해 줘요.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_12.jpg" alt="LG 노트북 화면에서 화상 통화와 Studio Effects 설정 창이 표시된 화면" />
+                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_12.jpg"
+                              alt="LG 노트북 화면에서 화상 통화와 Studio Effects 설정 창이 표시된 화면" />
                           </div>
                           <button class="btn-collapse-toggle">
                             <span>* 세부 정보</span>
@@ -1792,16 +1808,20 @@
                                   <div class="autoplay-slider-wrap">
                                     <div class="slider">
                                       <div>
-                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_14.jpg" alt="LG 노트북, 스마트폰, 태블릿이 LG gram Link와 My ThinQ로 연동된 화면" />
+                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_14.jpg"
+                                          alt="LG 노트북, 스마트폰, 태블릿이 LG gram Link와 My ThinQ로 연동된 화면" />
                                       </div>
                                       <div>
-                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_16.jpg" alt="LG 노트북 화면에 파일 공유를 위한 사진 목록이 표시된 화면" />
+                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_16.jpg"
+                                          alt="LG 노트북 화면에 파일 공유를 위한 사진 목록이 표시된 화면" />
                                       </div>
                                       <div>
-                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_17.jpg" alt="LG 노트북과 스마트폰이 연동되어 통화 기능을 사용하는 화면" />
+                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_17.jpg"
+                                          alt="LG 노트북과 스마트폰이 연동되어 통화 기능을 사용하는 화면" />
                                       </div>
                                       <div>
-                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_18.jpg" alt="LG 노트북 화면에 My ThinQ 가전 제어 대시보드가 표시된 화면" />
+                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_18.jpg"
+                                          alt="LG 노트북 화면에 My ThinQ 가전 제어 대시보드가 표시된 화면" />
                                       </div>
                                     </div>
                                     <div class="slider-controls">
@@ -1857,7 +1877,8 @@
                               </div>
                               <div>
                                 <div class="media-wrap">
-                                  <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_15.jpg" alt="LG 노트북 화면에 Secure Lock 안내와 잠금 화면이 표시된 모습" />
+                                  <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_15.jpg"
+                                    alt="LG 노트북 화면에 Secure Lock 안내와 잠금 화면이 표시된 모습" />
                                 </div>
                               </div>
                             </div>

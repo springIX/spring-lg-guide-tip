@@ -207,12 +207,14 @@
                   </button>
                   <button class="tab-img" name="buying-guide-tab" data-target="#product-type-3"
                     data-group="product-type">
-                    <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_07.png" alt="LG 창호형 에어컨 제품 이미지" />
+                    <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_07.png"
+                      alt="LG 창호형 에어컨 제품 이미지" />
                     <span><b>창호형 에어컨</b>#창문설치 #간편설치</span>
                   </button>
                   <button class="tab-img" name="buying-guide-tab" data-target="#product-type-4"
                     data-group="product-type">
-                    <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_08.png" alt="LG 이동식 에어컨 제품 이미지" />
+                    <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_08.png"
+                      alt="LG 이동식 에어컨 제품 이미지" />
                     <span><b>이동식 에어컨</b>#편리한이동 #간편설치</span>
                   </button>
                 </div>
@@ -842,7 +844,8 @@
                     <div class="table-wrap include-tab vertical-scroll-box">
                       <table>
                         <caption class="blind">
-                          LG 스탠드 에어컨 모델 라인업 스펙 비교표 - 타워I, 뷰I 프로, 뷰I, 뷰II, 쿨, 사계절 라인업의 냉방, 청정, 절전, 편의 기능과 제품 링크 정보를 비교합니다.
+                          LG 스탠드 에어컨 모델 라인업 스펙 비교표 - 타워I, 뷰I 프로, 뷰I, 뷰II, 쿨, 사계절 라인업의 냉방, 청정, 절전, 편의 기능과 제품 링크 정보를
+                          비교합니다.
                         </caption>
                         <colgroup>
                           <col class="col1" />
@@ -875,52 +878,62 @@
                           <tr>
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_25.png" alt="LG 타워I 9시리즈 스탠드 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_25.png"
+                                  alt="LG 타워I 9시리즈 스탠드 에어컨 제품 이미지" />
                               </div>
                             </td>
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_26.png" alt="LG 타워I 7시리즈 스탠드 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_26.png"
+                                  alt="LG 타워I 7시리즈 스탠드 에어컨 제품 이미지" />
                               </div>
                             </td>
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_27.png" alt="LG 타워I 5시리즈 스탠드 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_27.png"
+                                  alt="LG 타워I 5시리즈 스탠드 에어컨 제품 이미지" />
                               </div>
                             </td>
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_28.png" alt="LG 뷰I 프로 6시리즈 스탠드 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_28.png"
+                                  alt="LG 뷰I 프로 6시리즈 스탠드 에어컨 제품 이미지" />
                               </div>
                             </td>
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_29.png" alt="LG 뷰I 프로 5시리즈 스탠드 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_29.png"
+                                  alt="LG 뷰I 프로 5시리즈 스탠드 에어컨 제품 이미지" />
                               </div>
                             </td>
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_30.png" alt="LG 뷰I 3시리즈 스탠드 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_30.png"
+                                  alt="LG 뷰I 3시리즈 스탠드 에어컨 제품 이미지" />
                               </div>
                             </td>
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_31.png" alt="LG 뷰II 2시리즈 스탠드 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_31.png"
+                                  alt="LG 뷰II 2시리즈 스탠드 에어컨 제품 이미지" />
                               </div>
                             </td>
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_32.png" alt="LG 뷰II 1시리즈 스탠드 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_32.png"
+                                  alt="LG 뷰II 1시리즈 스탠드 에어컨 제품 이미지" />
                               </div>
                             </td>
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_33.png" alt="LG 쿨 2시리즈 스탠드 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_33.png"
+                                  alt="LG 쿨 2시리즈 스탠드 에어컨 제품 이미지" />
                               </div>
                             </td>
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_34.png" alt="LG 쿨 1시리즈 스탠드 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_34.png"
+                                  alt="LG 쿨 1시리즈 스탠드 에어컨 제품 이미지" />
                               </div>
                             </td>
                           </tr>
@@ -1651,22 +1664,26 @@
                           <tr class="width-100">
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_35.png" alt="LG 듀얼쿨 벽걸이 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_35.png"
+                                  alt="LG 듀얼쿨 벽걸이 에어컨 제품 이미지" />
                               </div>
                             </td>
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_36.png" alt="LG 듀얼쿨 사계절 벽걸이 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_36.png"
+                                  alt="LG 듀얼쿨 사계절 벽걸이 에어컨 제품 이미지" />
                               </div>
                             </td>
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_37.png" alt="LG 일반 벽걸이 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_37.png"
+                                  alt="LG 일반 벽걸이 에어컨 제품 이미지" />
                               </div>
                             </td>
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_38.png" alt="LG 일반 사계절 벽걸이 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_38.png"
+                                  alt="LG 일반 사계절 벽걸이 에어컨 제품 이미지" />
                               </div>
                             </td>
                           </tr>
@@ -1985,7 +2002,8 @@
                           <tr class="width-100">
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_39.png" alt="LG 창호형 에어컨 대표 모델 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_39.png"
+                                  alt="LG 창호형 에어컨 대표 모델 제품 이미지" />
                               </div>
                             </td>
                           </tr>
@@ -2224,7 +2242,8 @@
                           <tr class="width-100">
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_40.png" alt="LG 이동식 에어컨 대표 모델 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_40.png"
+                                  alt="LG 이동식 에어컨 대표 모델 제품 이미지" />
                               </div>
                             </td>
                           </tr>
@@ -2353,7 +2372,8 @@
                             </tr>
                           </table>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_01.jpg" alt="거실에 설치된 LG 스탠드 에어컨 옆에서 태블릿을 보는 모습" />
+                            <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_01.jpg"
+                              alt="거실에 설치된 LG 스탠드 에어컨 옆에서 태블릿을 보는 모습" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -2399,7 +2419,8 @@
                             </tr>
                           </table>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_02.jpg" alt="거실 벽면에 설치된 LG 벽걸이 에어컨 제품 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_02.jpg"
+                              alt="거실 벽면에 설치된 LG 벽걸이 에어컨 제품 이미지" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -2434,10 +2455,10 @@
                         </p>
                       </div>
                       <div class="img">
-                        <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_03.jpg" alt="스탠드 에어컨 바람이 퍼지는 공간에서 책을 읽는 모습"
-                          class="pc-only" />
-                        <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_M10_101_01.jpg" alt="스탠드 에어컨 바람이 퍼지는 공간에서 책을 읽는 모습"
-                          class="mobile-only" />
+                        <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_03.jpg"
+                          alt="스탠드 에어컨 바람이 퍼지는 공간에서 책을 읽는 모습" class="pc-only" />
+                        <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_M10_101_01.jpg"
+                          alt="스탠드 에어컨 바람이 퍼지는 공간에서 책을 읽는 모습" class="mobile-only" />
                       </div>
                     </div>
                   </div>
@@ -2558,7 +2579,8 @@
                             편안한 밤을 위해 잠결에 더워서 혹은 추워서 깨지 않도록 사용하면 할 수록 사용패턴을 분석하여 최적의 온도, 습도, 기류를 맞춰줍니다.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_04.jpg" alt="스마트폰 앱에서 AI 수면 기능의 활동량 감지, 시간 설정, 수면 온도 구간을 확인하는 화면" />
+                            <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_04.jpg"
+                              alt="스마트폰 앱에서 AI 수면 기능의 활동량 감지, 시간 설정, 수면 온도 구간을 확인하는 화면" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -2663,16 +2685,16 @@
                         <div class="point-slider autoplay-slider-wrap">
                           <div class="slider">
                             <div>
-                              <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_05.jpg" alt='스탠드 에어컨이 설치된 식탁 옆에서 여성이 음식을 준비하는 모습'
-                                class="pc-only" />
-                              <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_M10_101_02.jpg" alt='스탠드 에어컨이 설치된 식탁 옆에서 여성이 음식을 준비하는 모습'
-                                class="mobile-only" />
+                              <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_05.jpg"
+                                alt='스탠드 에어컨이 설치된 식탁 옆에서 여성이 음식을 준비하는 모습' class="pc-only" />
+                              <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_M10_101_02.jpg"
+                                alt='스탠드 에어컨이 설치된 식탁 옆에서 여성이 음식을 준비하는 모습' class="mobile-only" />
                             </div>
                             <div>
-                              <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_05a.jpg" alt='스탠드 에어컨이 설치된 거실에서 여성이 운동하는 모습'
-                                class="pc-only" />
-                              <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_M10_101_02a.jpg" alt='스탠드 에어컨이 설치된 거실에서 여성이 운동하는 모습'
-                                class="mobile-only" />
+                              <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_05a.jpg"
+                                alt='스탠드 에어컨이 설치된 거실에서 여성이 운동하는 모습' class="pc-only" />
+                              <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_M10_101_02a.jpg"
+                                alt='스탠드 에어컨이 설치된 거실에서 여성이 운동하는 모습' class="mobile-only" />
                             </div>
                           </div>
                           <div class="slider-controls">

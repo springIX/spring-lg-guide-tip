@@ -667,8 +667,8 @@
                                 target="_blank" class="btn-product">제품 보러 가기</a>
                             </td>
                             <td>
-                              <a href="https://www.lge.co.kr/dryers/rg20vn"
-                                target="_blank" class="btn-product">제품 보러 가기</a>
+                              <a href="https://www.lge.co.kr/dryers/rg20vn" target="_blank" class="btn-product">제품 보러
+                                가기</a>
                             </td>
                             <td>
                               <a href="https://www.lge.co.kr/dryers/rh19wtwn?sKwd=RH19WTWN&sTab=unit_product_list&sRank=1&share=Y"
@@ -724,7 +724,8 @@
                           <p>
                             각 모델에 호환되는 키트를 활용해 세탁기 위에 건조기를 직렬로 올려 설치할 수 있습니다.<br>
                             세탁기와 건조기의 외관크기가 같으면 전용 스태킹 키트, 일반 스태킹 키트, 브라켓 키트를 사용할 수 있어요.<br><br>
-                            세탁기와 건조기를 블루투스로 연결하여 사용이 편리한 전용 스태킹 키트, 건조기 9kg에 적합한 서랍형 키트, 모든 드럼세탁기에 가능한 범용 스태킹 키트까지 다양한 키트를 사용해 내가 가진 세탁기와 공간에 맞게 설치해보세요.
+                            세탁기와 건조기를 블루투스로 연결하여 사용이 편리한 전용 스태킹 키트, 건조기 9kg에 적합한 서랍형 키트, 모든 드럼세탁기에 가능한 범용 스태킹 키트까지 다양한
+                            키트를 사용해 내가 가진 세탁기와 공간에 맞게 설치해보세요.
                           </p>
                           <div class="btn-wrap" style="--btn-width: 223px; --btn-m-width: 200px">
                             <a class="btn-guide"
