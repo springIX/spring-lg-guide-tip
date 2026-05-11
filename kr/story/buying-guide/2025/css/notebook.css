@@ -1,35 +1,20 @@
-.buying-guide .product-table .table-wrap table {
-  min-width: 640px;
+.buying-guide-special .product-table .table-wrap th:first-child,
+.buying-guide-special .product-table .table-wrap td:first-child { width: 100px; }
+.buying-guide-special .product-table .buying-guide-spec-table thead th:not([rowspan]) { 
+  font-size: 16px;
 }
-.buying-guide .product-table .table-wrap table .col1 {
-  width: 180px;
+.buying-guide-special .product-table .buying-guide-spec-table thead th:first-child,
+.buying-guide-special .product-table .buying-guide-spec-table tbody th:first-child { width: 200px; }
+.buying-guide-special .product-table .buying-guide-spec-table thead th:first-child[colspan="2"],
+.buying-guide-special .product-table .buying-guide-spec-table tbody th:first-child[colspan="2"] {
+  width: 200px;
 }
-.buying-guide .product-table .table-wrap thead tr:first-child th:first-child {
-  width: 180px;
-}
-.buying-guide .product-table .table-wrap thead th img {
-  height: 40px;
-  margin: 0 auto;
-}
-.buying-guide .product-table .table-wrap thead .th2 {
-  vertical-align: middle;
-}
-.buying-guide .product-table .table-wrap td img {
-  width: 120px;
-  margin: 0 auto;
-}
-@media only screen and (max-width: 1023px) {
-  .buying-guide .product-table .table-wrap table {
-    max-width: calc(100vw - 40px);
-  }
-  .buying-guide .product-table .table-wrap table .col1,
-  .buying-guide .product-table .table-wrap table thead tr:first-child th:first-child {
-    width: 70px;
-  }
-  .buying-guide .product-table .table-wrap table thead th img {
-    height: 29px;
-  }
-  .buying-guide .product-table .table-wrap td img {
-    width: 100px;
-  }
-}
+.buying-guide-special .product-table .buying-guide-spec-table td { font-size: 16px; padding: 16px; letter-spacing: -0.05em;  }
+.buying-guide-special .product-table .buying-guide-spec-table .btn-product { height: 72px; align-items: center; font-size: 14px; }
+.buying-guide-special .product-table .buying-guide-spec-table .gray { color: #666; }
+.buying-guide-special .product-table .table-wrap .desc b { line-height: 24px; }
+.buying-guide-special .product-table .table-wrap .th2 p { color: #000; font-weight: 400; font-size: 16px; margin: 0; }
+.buying-guide-special .product-table .table-wrap .th2 { padding: 16px 2px; }
+
+/* .buying-guide-special .product-table .clone-header-table-wrap { left: 50%; } */
+.buying-guide-special .clone-header-table-wrap .table-wrap thead tr:first-child th:first-child { width: 100px; }
