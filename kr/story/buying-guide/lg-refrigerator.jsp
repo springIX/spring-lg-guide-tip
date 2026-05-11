@@ -194,7 +194,7 @@
           </div>
           <div class="inner-wrap">
             <div class="slider-controls">
-              <button class="btn-play" data-state="playing">Pause</button>
+              <button class="btn-play" data-state="playing">일시정지</button>
               <div class="counter">
                 <span class="current">1</span>
                 <span class="bar"></span>
@@ -368,7 +368,7 @@
                       --mobile-left: 58%;
                     "
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/refrigerators/j842nd79"
@@ -416,7 +416,7 @@
                       --mobile-m-left: -40px;
                     "
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/refrigerators/w826gbb482"
@@ -467,7 +467,7 @@
                       --mobile-m-left: -40px;
                     "
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/refrigerators/m876gbb161"
@@ -520,7 +520,7 @@
                       --mobile-m-left: 40px;
                     "
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/refrigerators/m876gbb231"
@@ -574,7 +574,7 @@
                       --mobile-m-left: -50px;
                     "
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a href="https://www.lge.co.kr/refrigerators/s834mee141" target="_blank"
                         ><span
@@ -623,7 +623,7 @@
                       --mobile-m-left: -20px;
                     "
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a href="https://www.lge.co.kr/refrigerators/m874gnn3a1" target="_blank"
                         ><span
@@ -673,7 +673,7 @@
                       --mobile-left: 37%;
                     "
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a href="https://www.lge.co.kr/refrigerators/q342gbb133" target="_blank"
                         ><span>LG 모던엣지 냉장고 오브제컬렉션</span></a
@@ -721,7 +721,7 @@
                       --mobile-left: 55%;
                     "
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a href="https://www.lge.co.kr/refrigerators/d604mps52" target="_blank"
                         ><span>LG 일반냉장고 오브제컬렉션</span></a
@@ -767,7 +767,7 @@
                       --mobile-m-left: -10px;
                     "
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a href="https://www.lge.co.kr/convertible-refrigerators/x324gb3s" target="_blank"
                         ><span
@@ -824,6 +824,9 @@
                 </div>
                 <div class="summary-table">
                   <table>
+                    <caption class="blind">
+                      LG 냉장고 대표 모델 비교표 - STEM 얼음정수, STEM 베이직, 상냉장/하냉동 라인업의 주요 특징과 제품 링크 정보를 비교합니다.
+                    </caption>
                     <thead>
                       <tr class="procuct-name">
                         <th>
@@ -841,13 +844,13 @@
                           </p>
                         </th>
                       </tr>
+                      <tr class="procuct-no">
+                        <th scope="col">W826GBB482</th>
+                        <th scope="col">M876GBB161</th>
+                        <th scope="col">M876GBB231</th>
+                      </tr>
                     </thead>
                     <tbody>
-                      <tr class="procuct-no">
-                        <td>W826GBB482</td>
-                        <td>M876GBB161</td>
-                        <td>M876GBB231</td>
-                      </tr>
                       <tr>
                         <td>
                           <div class="procuct-img">
@@ -2249,7 +2252,7 @@
                         <div class="img">
                           <img
                             src="/kr/story/buying-guide/2025/img/refrigerator/img_P11_101_22.jpg"
-                            alt=""
+                            alt="냉장실 상단에서 도어 방향으로 냉기를 전달하는 도어쿨링+ 기능 이미지"
                           />
                         </div>
                         <button class="btn-collapse-toggle">

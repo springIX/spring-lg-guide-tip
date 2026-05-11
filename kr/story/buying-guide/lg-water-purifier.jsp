@@ -167,7 +167,7 @@
           </div>
           <div class="inner-wrap">
             <div class="slider-controls">
-              <button class="btn-play" data-state="playing">Pause</button>
+              <button class="btn-play" data-state="playing">일시정지</button>
               <div class="counter">
                 <span class="current">1</span>
                 <span class="bar"></span>
@@ -270,7 +270,7 @@
                           --mobile-m-left: -30px;
                         "
                       >
-                        <div class="dot"><span></span></div>
+                        <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                         <div class="bubble">
                           <a
                             href="https://www.lge.co.kr/category/water-purifiers?subCateId=CT50250004&filterProduct=AT0000000144:KY0000000730:01,AT0000000109:KY0000002951:03&filterBrand=AT0000000111:KY0000000617:01"
@@ -320,7 +320,7 @@
                           --mobile-m-left: -35px;
                         "
                       >
-                        <div class="dot"><span></span></div>
+                        <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                         <div class="bubble">
                           <a
                             href="https://www.lge.co.kr/category/water-purifiers?subCateId=CT50000095&filterProduct=AT0000000144:KY0000000730:01,AT0000000121:KY0000000691:01,AT0000000109:KY0000001031:03,AT0000000109:KY0000000774:03,AT0000001251:KY0000001031:03&filterBrand=AT0000000111:KY0000000617:01"
@@ -373,7 +373,7 @@
                           --mobile-m-left: -30px;
                         "
                       >
-                        <div class="dot"><span></span></div>
+                        <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                         <div class="bubble">
                           <a
                             href="https://www.lge.co.kr/category/water-purifiers?filterBrand=AT0000000111:KY0000000617:01&filterProduct=AT0000000109:KY0000002011:03,AT0000000121:KY0000001091:01,AT0000000144:KY0000000730:01"
@@ -426,7 +426,7 @@
                           --mobile-m-left: 40px;
                         "
                       >
-                        <div class="dot"><span></span></div>
+                        <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                         <div class="bubble">
                           <a
                             href="https://www.lge.co.kr/category/water-purifiers?filterBrand=AT0000000111:KY0000000617:01&filterProduct=AT0000000144:KY0000000730:01,AT0000000109:KY0000000855:03,AT0000000121:KY0000000691:01"
@@ -488,7 +488,7 @@
                           --mobile-m-left: 0;
                         "
                       >
-                        <div class="dot"><span></span></div>
+                        <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                         <div class="bubble">
                           <a
                             href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000109:KY0000000737:03"
@@ -536,7 +536,7 @@
                           --mobile-m-left: 0;
                         "
                       >
-                        <div class="dot"><span></span></div>
+                        <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                         <div class="bubble">
                           <a
                             href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000109:KY0000000849:03"
@@ -590,7 +590,7 @@
                       --mobile-m-left: 0;
                     "
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/water-purifiers?filterBrand=AT0000000111:KY0000000617:01&filterProduct=AT0000000144:KY0000000891:01"
@@ -652,6 +652,9 @@
                 </div>
                 <div class="summary-table">
                   <table>
+                    <caption class="blind">
+                      LG 정수기 대표 모델 비교표 - 데스크 정수기, 빌트인 정수기, 스탠드 정수기 라인업의 주요 특징과 제품 링크 정보를 비교합니다.
+                    </caption>
                     <thead>
                       <tr class="procuct-name">
                         <th colspan="4">
@@ -673,17 +676,17 @@
                           <p>공용 공간에서도 <br />누구나 편리하게</p>
                         </th>
                       </tr>
+                      <tr class="procuct-no">
+                        <th scope="col">WD722RE</th>
+                        <th scope="col">WD523VH</th>
+                        <th scope="col">WD120MCB</th>
+                        <th scope="col">WD525AHB</th>
+                        <th scope="col">WU923ACB</th>
+                        <th scope="col">WU523ACB</th>
+                        <th scope="col">WS513SH</th>
+                      </tr>
                     </thead>
                     <tbody>
-                      <tr class="procuct-no">
-                        <td>WD722RE</td>
-                        <td>WD523VH</td>
-                        <td>WD120MCB</td>
-                        <td>WD525AHB</td>
-                        <td>WU923ACB</td>
-                        <td>WU523ACB</td>
-                        <td>WS513SH</td>
-                      </tr>
                       <tr>
                         <td>
                           <div class="procuct-img">

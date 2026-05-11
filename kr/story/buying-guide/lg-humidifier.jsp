@@ -167,7 +167,7 @@
           </div>
           <div class="inner-wrap">
             <div class="slider-controls">
-              <button class="btn-play" data-state="playing">Pause</button>
+              <button class="btn-play" data-state="playing">일시정지</button>
               <div class="counter">
                 <span class="current">1</span>
                 <span class="bar"></span>
@@ -260,7 +260,7 @@
                           --mobile-left: 40%;
                         "
                       >
-                        <div class="dot"><span></span></div>
+                        <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                         <div class="bubble">
                           <a
                             href="https://www.lge.co.kr/category/humidifiers?subCateId=CT50222000&filterProduct=AT0000000118:KY0000003191:01"
@@ -314,7 +314,7 @@
                           --mobile-left: 39%;
                         "
                       >
-                        <div class="dot"><span></span></div>
+                        <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                         <div class="bubble">
                           <a
                             href="https://www.lge.co.kr/category/humidifiers?subCateId=CT50222000&filterProduct=AT0000000118:KY0000004574:01"
@@ -388,6 +388,9 @@
                       </div>
                       <div class="summary-table">
                         <table>
+                          <caption class="blind">
+                            LG 정수 가습기 대표 모델 비교표 - 정수 필터링을 거친 물로 가습하는 정수 가습기 라인업의 주요 특징과 제품 링크 정보를 확인할 수 있습니다.
+                          </caption>
                           <thead>
                             <tr class="procuct-name">
                               <th colspan="2">
@@ -398,22 +401,22 @@
                                 </p>
                               </th>
                             </tr>
-                          </thead>
-                          <tbody>
                             <tr class="procuct-no">
-                              <td>
+                              <th scope="col">
                                 하이드로타워<span></span
                                 ><br class="mobile-only" />가습량 700<small
                                   >cc/h</small
                                 ><span></span>물통 4.5L
-                              </td>
-                              <td>
+                              </th>
+                              <th scope="col">
                                 하이드로에센셜<span></span
                                 ><br class="mobile-only" />가습량 500<small
                                   >cc/h</small
                                 ><span></span>물통 3.4L
-                              </td>
+                              </th>
                             </tr>
+                          </thead>
+                          <tbody>
                             <tr>
                               <td>
                                 <div class="procuct-img">
@@ -662,7 +665,7 @@
                       --mobile-left: 49%;
                     "
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/humidifiers?subCateId=CT50222001&filterProduct=AT0000000118:KY0000000439:01"
@@ -728,6 +731,9 @@
                     </div>
                     <div class="summary-table">
                       <table>
+                        <caption class="blind">
+                          LG 자연기화 가습기 대표 모델 비교표 - 미세수분으로 가습하는 자연기화 가습기 라인업의 주요 특징과 제품 링크 정보를 확인할 수 있습니다.
+                        </caption>
                         <thead>
                           <tr class="procuct-name">
                             <th colspan="3">
@@ -737,22 +743,22 @@
                               </p>
                             </th>
                           </tr>
-                        </thead>
-                        <tbody>
                           <tr class="procuct-no">
-                            <td>
+                            <th scope="col">
                               HW500DAS<span></span>가습량 505<small>cc/h</small
                               ><span></span>물통 5L
-                            </td>
-                            <td>
+                            </th>
+                            <th scope="col">
                               HW300DBL<span></span>가습량 305<small>cc/h</small
                               ><span></span>물통 3.6L
-                            </td>
-                            <td>
+                            </th>
+                            <th scope="col">
                               HW300BBB<span></span>가습량 305<small>cc/h</small
                               ><span></span>물통 3.6L
-                            </td>
+                            </th>
                           </tr>
+                        </thead>
+                        <tbody>
                           <tr class="procuct-img-wrap">
                             <td>
                               <div class="procuct-img">
@@ -1203,7 +1209,7 @@
                             </div>
                             <div class="slider-controls">
                               <button class="btn-play" data-state="playing">
-                                Pause
+                                일시정지
                               </button>
                               <div class="counter">
                                 <span class="current">1</span>
@@ -1485,7 +1491,7 @@
                         </div>
                         <div class="slider-controls">
                           <button class="btn-play" data-state="playing">
-                            Pause
+                            일시정지
                           </button>
                           <div class="counter">
                             <span class="current">1</span>
