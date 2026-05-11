@@ -182,7 +182,7 @@
           </div>
           <div class="inner-wrap">
             <div class="slider-controls">
-              <button class="btn-play" data-state="playing">Pause</button>
+              <button class="btn-play" data-state="playing">일시정지</button>
               <div class="counter">
                 <span class="current">1</span>
                 <span class="bar"></span>
@@ -307,7 +307,7 @@
                       --mobile-left: 33%;
                     "
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/kimchi-refrigerators?subCateId=CT50000073"
@@ -359,7 +359,7 @@
                       --mobile-m-left: 20px;
                     "
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/kimchi-refrigerators?subCateId=CT50000073"
@@ -408,7 +408,7 @@
                       --mobile-left: 34%;
                     "
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/kimchi-refrigerators?subCateId=CT50000073"
@@ -460,7 +460,7 @@
                       --mobile-m-left: -60px;
                     "
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/kimchi-refrigerators?subCateId=CT50000073"
@@ -513,7 +513,7 @@
                       --mobile-m-left: -10px;
                     "
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/kimchi-refrigerators?subCateId=CT50000074"
@@ -571,6 +571,9 @@
                 </div>
                 <div class="summary-table">
                   <table>
+                    <caption class="blind">
+                      LG 김치냉장고 대표 모델 비교표 - 4도어, 4도어 오픈형, 3도어, 컨버터블, 뚜껑형 라인업의 주요 특징과 제품 링크 정보를 비교합니다.
+                    </caption>
                     <thead>
                       <tr class="procuct-name">
                         <th>
@@ -594,15 +597,15 @@
                           <p>김치 위주의 깔끔한 보관</p>
                         </th>
                       </tr>
+                      <tr class="procuct-no">
+                        <th scope="col">Z495GBB271</th>
+                        <th scope="col">Z484GBB172</th>
+                        <th scope="col">Z334GBB171</th>
+                        <th scope="col">Z324GB7</th>
+                        <th scope="col">Z225MEE151</th>
+                      </tr>
                     </thead>
                     <tbody>
-                      <tr class="procuct-no">
-                        <td>Z495GBB271</td>
-                        <td>Z484GBB172</td>
-                        <td>Z334GBB171</td>
-                        <td>Z324GB7</td>
-                        <td>Z225MEE151</td>
-                      </tr>
                       <tr>
                         <td>
                           <div class="procuct-img">

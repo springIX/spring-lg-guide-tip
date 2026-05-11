@@ -151,7 +151,7 @@
       </div>
       <div class="inner-wrap">
         <div class="slider-controls">
-          <button class="btn-play" data-state="playing">Pause</button>
+          <button class="btn-play" data-state="playing">일시정지</button>
           <div class="counter">
             <span class="current">1</span>
             <span class="bar"></span>
@@ -224,7 +224,7 @@
                       --mobile-left: 34%;
                       --mobile-m-left: 10px;
                     ">
-                <div class="dot"><span></span></div>
+                <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                 <div class="bubble">
                   <a href="https://www.lge.co.kr/wash-tower/wa2525egzf" target="_blank"><span>LG 트롬 AI 오브제컬렉션
                       워시타워</span></a>
@@ -268,6 +268,9 @@
                 </div>
                 <div class="summary-table">
                   <table>
+                    <caption class="blind">
+                      LG 워시타워 대표 모델 비교표 - 세탁부터 건조까지 간편하게 관리하는 워시타워 라인업의 주요 특징과 제품 링크 정보를 확인할 수 있습니다.
+                    </caption>
                     <thead>
                       <tr class="procuct-name">
                         <th colspan="4">
@@ -278,14 +281,14 @@
                           </p>
                         </th>
                       </tr>
+                      <tr class="procuct-no">
+                        <th scope="col">AI 워시타워<span></span><br class="mo-only">트루스팀/자동세제함</th>
+                        <th scope="col">AI 워시타워<span></span><br class="mo-only">트루스팀/자동세제함</th>
+                        <th scope="col">AI 워시타워<span></span><br class="mo-only">트루스팀</th>
+                        <th scope="col">워시타워 컴팩트</th>
+                      </tr>
                     </thead>
                     <tbody>
-                      <tr class="procuct-no">
-                        <td>AI 워시타워<span></span><br class="mo-only">트루스팀/자동세제함</td>
-                        <td>AI 워시타워<span></span><br class="mo-only">트루스팀/자동세제함</td>
-                        <td>AI 워시타워<span></span><br class="mo-only">트루스팀</td>
-                        <td>워시타워 컴팩트</td>
-                      </tr>
                       <tr>
                         <td>
                           <div class="procuct-img">
@@ -787,7 +790,7 @@
                       --mobile-left: 61%;
                       --mobile-m-left: -10px;
                     ">
-                <div class="dot"><span></span></div>
+                <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                 <div class="bubble">
                   <a href="https://www.lge.co.kr/wash-combo/fh25ese" target="_blank"><span>LG 트롬 AI 오브제컬렉션
                       워시콤보</span></a>
@@ -828,6 +831,9 @@
                 </div>
                 <div class="summary-table">
                   <table>
+                    <caption class="blind">
+                      LG 워시콤보 대표 모델 비교표 - 하나의 통에서 세탁과 건조를 해결하는 워시콤보 라인업의 주요 특징과 제품 링크 정보를 확인할 수 있습니다.
+                    </caption>
                     <thead>
                       <tr class="procuct-name">
                         <th colspan="2">
@@ -835,12 +841,12 @@
                           <p>세탁물을 꺼낼 필요 없이 하나의 통 안에서 해결해 <br />집안일을 간편하게</p>
                         </th>
                       </tr>
+                      <tr class="procuct-no">
+                        <th scope="col">워시콤보<span></span>트루스팀</th>
+                        <th scope="col">워시콤보<span></span>자동세제함</th>
+                      </tr>
                     </thead>
                     <tbody>
-                      <tr class="procuct-no">
-                        <td>워시콤보<span></span>트루스팀</td>
-                        <td>워시콤보<span></span>자동세제함</td>
-                      </tr>
                       <tr class="procuct-img-wrap">
                         <td>
                           <div class="procuct-img">
@@ -1030,7 +1036,7 @@
                       --mobile-left: 29%;
                       --mobile-m-left: 20px;
                     ">
-                <div class="dot"><span></span></div>
+                <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                 <div class="bubble">
                   <a href="https://wwwstg.lge.co.kr/washing-machines/fx25efe" target="_blank"><span>LG 트롬 AI 오브제컬렉션
                       세탁기</span></a>
@@ -1070,6 +1076,9 @@
                 </div>
                 <div class="summary-table">
                   <table>
+                    <caption class="blind">
+                      LG 트롬 세탁기 대표 모델 비교표 - 컴팩트한 사이즈와 섬세한 세탁 모션을 갖춘 트롬 세탁기 라인업의 주요 특징과 제품 링크 정보를 확인할 수 있습니다.
+                    </caption>
                     <thead>
                       <tr class="procuct-name">
                         <th colspan="4">
@@ -1077,14 +1086,14 @@
                           <p>컴팩트한 사이즈로 설치는 간편하게,<br />내 옷에 맞춘 섬세한 모션으로 세탁·탈수는 깨끗하게</p>
                         </th>
                       </tr>
+                      <tr class="procuct-no">
+                        <th scope="col">트롬세탁기<span></span><br class="mo-only">트루스팀/자동세제함</th>
+                        <th scope="col">트롬세탁기<span></span><br class="mo-only">트루스팀</th>
+                        <th scope="col">트롬세탁기<span></span><br class="mo-only">자동세제함</th>
+                        <th scope="col">트롬세탁기</th>
+                      </tr>
                     </thead>
                     <tbody>
-                      <tr class="procuct-no">
-                        <td>트롬세탁기<span></span><br class="mo-only">트루스팀/자동세제함</td>
-                        <td>트롬세탁기<span></span><br class="mo-only">트루스팀</td>
-                        <td>트롬세탁기<span></span><br class="mo-only">자동세제함</td>
-                        <td>트롬세탁기</td>
-                      </tr>
                       <tr class="procuct-img-wrap">
                         <td>
                           <div class="procuct-img">
@@ -1449,7 +1458,7 @@
                           --mobile-left: 61%;
                           --mobile-m-left: -15px;
                     ">
-                <div class="dot"><span></span></div>
+                <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                 <div class="bubble">
                   <a href="https://www.lge.co.kr/care-solutions/washing_machines/ta25gz9?subscCategoryKeyId=242637&dpType=careTab"
                     target="_blank"><span>LG 통돌이 컴포트 세탁기 </span></a>
@@ -1487,6 +1496,9 @@
                 </div>
                 <div class="summary-table">
                   <table>
+                    <caption class="blind">
+                      LG 통돌이 세탁기 대표 모델 비교표 - 강력한 물살로 세탁하는 통돌이 라인업의 주요 특징과 제품 링크 정보를 확인할 수 있습니다.
+                    </caption>
                     <thead>
                       <tr class="procuct-name">
                         <th colspan="2">
@@ -1494,12 +1506,12 @@
                           <p>통을 회전해 만들어낸 강력한 물살로 <br />손으로 빤 듯 깨끗하게</p>
                         </th>
                       </tr>
+                      <tr class="procuct-no">
+                        <th scope="col">통돌이 컴포트<span></span><br class="mo-only">25 ~ 21kg</th>
+                        <th scope="col">통돌이<span></span><br class="mo-only">25 ~ 13kg</th>
+                      </tr>
                     </thead>
                     <tbody>
-                      <tr class="procuct-no">
-                        <td>통돌이 컴포트<span></span><br class="mo-only">25 ~ 21kg</td>
-                        <td>통돌이<span></span><br class="mo-only">25 ~ 13kg</td>
-                      </tr>
                       <tr class="procuct-img-wrap">
                         <td>
                           <div class="procuct-img">
@@ -2067,8 +2079,8 @@
                 </p>
               </div>
               <div class="img">
-                <img src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_35.jpg" alt="" class="pc-only" />
-                <img src="/kr/story/buying-guide/2025/img/washing-machine/img_M07_001_09.jpg" alt=""
+                <img src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_35.jpg" alt="세탁기와 건조기가 세로로 설치된 공간에서 두 사람이 세탁물을 정리하는 모습" class="pc-only" />
+                <img src="/kr/story/buying-guide/2025/img/washing-machine/img_M07_001_09.jpg" alt="세탁기와 건조기가 세로로 설치된 공간에서 두 사람이 세탁물을 정리하는 모습"
                   class="mobile-only" />
               </div>
             </div>
@@ -2088,8 +2100,8 @@
                 </p>
               </div>
               <div class="img">
-                <img src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_36.jpg" alt="" class="pc-only" />
-                <img src="/kr/story/buying-guide/2025/img/washing-machine/img_M07_001_10.jpg" alt=""
+                <img src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_36.jpg" alt="세탁기와 건조기가 세로로 설치된 공간에서 남성이 세탁물을 넣는 모습" class="pc-only" />
+                <img src="/kr/story/buying-guide/2025/img/washing-machine/img_M07_001_10.jpg" alt="세탁기와 건조기가 세로로 설치된 공간에서 남성이 세탁물을 넣는 모습"
                   class="mobile-only" />
               </div>
             </div>

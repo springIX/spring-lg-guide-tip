@@ -179,7 +179,7 @@
           </div>
           <div class="inner-wrap">
             <div class="slider-controls">
-              <button class="btn-play" data-state="playing">Pause</button>
+              <button class="btn-play" data-state="playing">일시정지</button>
               <div class="counter">
                 <span class="current">1</span>
                 <span class="bar"></span>
@@ -268,7 +268,7 @@
                       --mobile-left: 52.5%;
                     "
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/lg-styler?filterProduct=AT0000000141:KY0000000441:01,AT0000000141:KY0000002022:01"
@@ -280,12 +280,12 @@
                   </div>
                   <img
                     src="/kr/story/buying-guide/2025/img/styler/img_P13_001_07.jpg"
-                    alt=""
+                    alt="드레스룸 공간에 설치된 LG 스타일러 오브제컬렉션 제품 이미지"
                     class="pc-only"
                   />
                   <img
                     src="/kr/story/buying-guide/2025/img/styler/img_M13_001_05.jpg"
-                    alt=""
+                    alt="드레스룸 공간에 설치된 LG 스타일러 오브제컬렉션 제품 이미지"
                     class="mobile-only"
                   />
                 </div>
@@ -317,7 +317,7 @@
                       --mobile-left: 50.5%;
                     "
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/lg-styler?filterProduct=AT0000000141:KY0000000357:01,AT0000000141:KY0000000356:01"
@@ -329,12 +329,12 @@
                   </div>
                   <img
                     src="/kr/story/buying-guide/2025/img/styler/img_P13_001_08.jpg"
-                    alt=""
+                    alt="거실 공간에 설치된 LG 스타일러 제품 이미지"
                     class="pc-only"
                   />
                   <img
                     src="/kr/story/buying-guide/2025/img/styler/img_M13_001_06.jpg"
-                    alt=""
+                    alt="거실 공간에 설치된 LG 스타일러 제품 이미지"
                     class="mobile-only"
                   />
                 </div>
@@ -367,6 +367,9 @@
                     </div>
                     <div class="summary-table">
                       <table class="single">
+                        <caption class="blind">
+                          LG 스타일러 3벌 대표 모델 비교표 - 3벌 라인업의 주요 특징과 제품 링크 정보를 확인할 수 있습니다.
+                        </caption>
                         <thead>
                           <tr class="procuct-name">
                             <th>
@@ -378,11 +381,11 @@
                               </p>
                             </th>
                           </tr>
+                          <tr class="procuct-no">
+                            <th scope="col">S3GHM</th>
+                          </tr>
                         </thead>
                         <tbody>
-                          <tr class="procuct-no">
-                            <td>S3GHM</td>
-                          </tr>
                           <tr>
                             <td>
                               <div class="procuct-img">
@@ -543,6 +546,9 @@
                 </div>
                 <div class="summary-table">
                   <table>
+                    <caption class="blind">
+                      LG 스타일러 대표 모델 비교표 - 5벌과 3벌 라인업의 주요 특징과 제품 링크 정보를 비교합니다.
+                    </caption>
                     <thead>
                       <tr class="procuct-name">
                         <th colspan="4">
@@ -561,15 +567,15 @@
                           </p>
                         </th>
                       </tr>
+                      <tr class="procuct-no">
+                        <th scope="col">SC5GMR80A</th>
+                        <th scope="col">SC5MSR72</th>
+                        <th scope="col">SC5MBR60B</th>
+                        <th scope="col">SC5GMR42</th>
+                        <th scope="col">S3GHM</th>
+                      </tr>
                     </thead>
                     <tbody>
-                      <tr class="procuct-no">
-                        <td>SC5GMR80A</td>
-                        <td>SC5MSR72</td>
-                        <td>SC5MBR60B</td>
-                        <td>SC5GMR42</td>
-                        <td>S3GHM</td>
-                      </tr>
                       <tr>
                         <td>
                           <div class="procuct-img">
@@ -1132,6 +1138,9 @@
               </h4>
               <div class="table-wrap vertical-scroll-box">
                 <table>
+                  <caption class="blind">
+                    LG 스타일러 모델 라인업 스펙 비교표 - 5벌, 3벌 라인업의 의류 관리, 위생, 건조, 편의 기능과 제품 링크 정보를 비교합니다.
+                  </caption>
                   <colgroup>
                     <col class="col1" />
                     <col class="col2" />

@@ -228,7 +228,7 @@
                       --mobile-top: 38%;
                     "
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000119&filterProduct=AT0000000140:KY0000001581:01"
@@ -292,6 +292,9 @@
                     </div>
                     <div class="summary-table">
                       <table>
+                        <caption class="blind">
+                          LG 로봇청소기 대표 모델 비교표 - AI로 공간에 맞춰 자동 청소하는 청소 로봇 라인업의 주요 특징과 제품 링크 정보를 확인할 수 있습니다.
+                        </caption>
                         <thead>
                           <tr class="procuct-name">
                             <th colspan="4">
@@ -303,29 +306,29 @@
                               </p>
                             </th>
                           </tr>
-                        </thead>
-                        <tbody>
                           <tr class="procuct-no">
-                            <!-- <td>로닉 AI</td> -->
-                            <td>
+                            <!-- <th scope="col">로닉 AI</th> -->
+                            <th scope="col">
                               B95AWBTH<span></span
                               ><br class="mobile-only" />로보킹
-                            </td>
-                            <td>RO585HGH<span></span>R5</td>
-                            <td>R9300WB<span></span>R9</td>
-                            <td>MO972WA<span></span>M9</td>
+                            </th>
+                            <th scope="col">RO585HGH<span></span>R5</th>
+                            <th scope="col">R9300WB<span></span>R9</th>
+                            <th scope="col">MO972WA<span></span>M9</th>
                           </tr>
+                        </thead>
+                        <tbody>
                           <tr>
                             <!-- <td>
                               <div class="procuct-img">
                                 <img
                                   src="/kr/story/buying-guide/2025/img/vacuum-cleane/img_P05_001_08.png"
-                                  alt=""
+                                  alt="로보킹 로봇청소기와 올인원 타워 제품 이미지"
                                   class="front"
                                 />
                                 <img
                                   src="/kr/story/buying-guide/2025/img/vacuum-cleane/img_P05_001_13.png"
-                                  alt=""
+                                  alt="로보킹 올인원 타워 내부와 로봇청소기 측면 제품 이미지"
                                   class="side"
                                 />
                                 <button class="btn-angle" name="btn-angle">
@@ -834,7 +837,7 @@
                       --mobile-top: 33%;
                     "
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000115&filterProduct=AT0000000140:KY0000002661:01"
@@ -895,6 +898,9 @@
                     </div>
                     <div class="summary-table">
                       <table>
+                        <caption class="blind">
+                          LG 무선청소기 대표 모델 비교표 - 먼지 흡입과 물걸레질을 함께 관리하는 무선청소기 라인업의 주요 특징과 제품 링크 정보를 확인할 수 있습니다.
+                        </caption>
                         <thead>
                           <tr class="procuct-name">
                             <th colspan="3">
@@ -902,15 +908,15 @@
                               <p>먼지 흡입과 물걸레질을 한손으로 가볍게</p>
                             </th>
                           </tr>
+                          <tr class="procuct-no">
+                            <th scope="col">AI958WA<span></span>A9 AI</th>
+                            <th scope="col">
+                              A737WA<span></span>A7 C<small>ore</small>
+                            </th>
+                            <th scope="col">AS527WA<span></span>A5</th>
+                          </tr>
                         </thead>
                         <tbody>
-                          <tr class="procuct-no">
-                            <td>AI958WA<span></span>A9 AI</td>
-                            <td>
-                              A737WA<span></span>A7 C<small>ore</small>
-                            </td>
-                            <td>AS527WA<span></span>A5</td>
-                          </tr>
                           <tr class="procuct-img-wrap">
                             <td>
                               <div class="procuct-img">
@@ -1279,6 +1285,9 @@
                     </h4>
                     <div class="table-wrap include-tab vertical-scroll-box">
                       <table>
+                        <caption class="blind">
+                          LG 무선청소기 모델 라인업 스펙 비교표 - A9 AI, A7 Core, A5 라인업의 올인원타워, 흡입, 배터리, 청소 편의 기능과 제품 링크 정보를 비교합니다.
+                        </caption>
                         <colgroup>
                           <col class="col1" />
                           <col class="col2" />
@@ -1419,7 +1428,7 @@
                       --mobile-top: 34%;
                     "
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000120&filterProduct=AT0000000140:KY0000001275:01"
@@ -1472,8 +1481,11 @@
                         </div>
                       </div>
                     </div>
-                    <div class="summary-table">
+                   <div class="summary-table">
                       <table>
+                        <caption class="blind">
+                          LG 유선청소기 대표 모델 비교표 - 먼지를 많이 담고 편리하게 비울 수 있는 유선청소기 라인업의 주요 특징과 제품 링크 정보를 확인할 수 있습니다.
+                        </caption>
                         <thead>
                           <tr class="procuct-name">
                             <th colspan="3">
@@ -1481,13 +1493,13 @@
                               <p>먼지를 더 많이 담고 비움은 더 편리하게</p>
                             </th>
                           </tr>
+                          <tr class="procuct-no">
+                            <th scope="col">K83WGY<span></span>싸이킹 K8</th>
+                            <th scope="col">C40WGY<span></span>싸이킹 파워</th>
+                            <th scope="col">C33FNT<span></span>싸이킹</th>
+                          </tr>
                         </thead>
                         <tbody>
-                          <tr class="procuct-no">
-                            <td>K83WGY<span></span>싸이킹 K8</td>
-                            <td>C40WGY<span></span>싸이킹 파워</td>
-                            <td>C33FNT<span></span>싸이킹</td>
-                          </tr>
                           <tr class="procuct-img-wrap">
                             <td>
                               <div class="procuct-img">
@@ -2259,7 +2271,7 @@
                         <div class="img">
                           <img
                             src="/kr/story/buying-guide/2025/img/vacuum-cleane/img_P05_101_03.jpg"
-                            alt=""
+                            alt="로봇청소기가 약 2cm 높이의 문턱을 넘어가는 모습"
                           />
                         </div>
                         <button class="btn-collapse-toggle">
@@ -2303,12 +2315,12 @@
                     <div class="img">
                       <img
                         src="/kr/story/buying-guide/2025/img/vacuum-cleane/img_P05_101_01.jpg"
-                        alt=""
+                        alt="주방 수납장 아래에 설치된 로봇청소기와 올인원 타워 이미지"
                         class="pc-only"
                       />
                       <img
                         src="/kr/story/buying-guide/2025/img/vacuum-cleane/img_M05_101_01.jpg"
-                        alt=""
+                        alt="주방 수납장 아래에 설치된 로봇청소기와 올인원 타워 이미지"
                         class="mobile-only"
                       />
                     </div>
@@ -2334,12 +2346,12 @@
                     <div class="img">
                       <img
                         src="/kr/story/buying-guide/2025/img/vacuum-cleane/img_P05_101_02.jpg"
-                        alt=""
+                        alt="거실 수납장 아래에 설치된 로봇청소기와 올인원 타워 이미지"
                         class="pc-only"
                       />
                       <img
                         src="/kr/story/buying-guide/2025/img/vacuum-cleane/img_M05_101_02.jpg"
-                        alt=""
+                        alt="카펫 위에서 물걸레를 장착한 로봇청소기가 청소하는 모습"
                         class="mobile-only"
                       />
                     </div>
@@ -2437,7 +2449,7 @@
                       <div class="img">
                         <img
                           src="/kr/story/buying-guide/2025/img/vacuum-cleane/img_P05_101_19.jpg"
-                          alt=""
+                          alt="A9 AI 청소기의 강력한 흡입 공기 흐름을 표현한 이미지"
                         />
                       </div>
                       <button class="btn-collapse-toggle">
@@ -2472,7 +2484,7 @@
                       <div class="img">
                         <img
                           src="/kr/story/buying-guide/2025/img/vacuum-cleane/img_P05_101_21.jpg"
-                          alt=""
+                          alt="A9S 청소기의 2중 터보 싸이클론 구조와 공기 흐름을 표현한 이미지"
                         />
                       </div>
                       <button class="btn-collapse-toggle">
@@ -2516,7 +2528,7 @@
                       <div class="img">
                         <img
                           src="/kr/story/buying-guide/2025/img/vacuum-cleane/img_P05_101_22.jpg"
-                          alt=""
+                          alt="A7 Core 청소기의 싸이클론 구조와 공기 흐름을 표현한 이미지"
                         />
                       </div>
                       <button class="btn-collapse-toggle">
@@ -2548,7 +2560,7 @@
                       <div class="img">
                         <img
                           src="/kr/story/buying-guide/2025/img/vacuum-cleane/img_P05_101_20.jpg"
-                          alt=""
+                          alt="손으로 든 A5 청소기에서 흡입 공기 흐름이 표현된 모습"
                         />
                       </div>
                       <button class="btn-collapse-toggle">
@@ -2996,12 +3008,12 @@
                   <div class="img">
                     <img
                       src="/kr/story/buying-guide/2025/img/vacuum-cleane/img_P05_101_18.jpg"
-                      alt=""
+                      alt="거실에 세워진 LG 무선청소기 제품 이미지"
                       class="pc-only"
                     />
                     <img
                       src="/kr/story/buying-guide/2025/img/vacuum-cleane/img_M05_101_18.jpg"
-                      alt=""
+                      alt="거실에 세워진 LG 무선청소기 제품 이미지"
                       class="mobile-only"
                     />
                   </div>
@@ -3249,7 +3261,7 @@
                                 </div>
                                 <div class="slider-controls">
                                   <button class="btn-play" data-state="playing">
-                                    Pause
+                                    일시정지
                                   </button>
                                   <div class="counter">
                                     <span class="current">1</span>
@@ -3390,7 +3402,7 @@
                             </div>
                             <div class="slider-controls">
                               <button class="btn-play" data-state="playing">
-                                Pause
+                                일시정지
                               </button>
                               <div class="counter">
                                 <span class="current">1</span>

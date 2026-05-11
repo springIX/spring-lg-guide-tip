@@ -224,7 +224,7 @@
                       --mobile-m-left: -30px;
                     "
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/dishwashers?filterProduct=AT0000001122:KY0000004032:01,AT0000000136:KY0000000219:01"
@@ -268,7 +268,7 @@
                       --mobile-m-left: -30px;
                     "
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/dishwashers?filterProduct=AT0000000136:KY0000000219:01,AT0000001122:KY0000000899:01"
@@ -312,7 +312,7 @@
                       --mobile-m-left: -30px;
                     "
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/dishwashers?filterProduct=AT0000000141:KY0000000103:01,AT0000000621:KY0000003361:01,AT0000001251:KY0000001212:03,AT0000001251:KY0000003642:03,AT0000001251:KY0000003643:03"
@@ -370,6 +370,9 @@
                 </div>
                 <div class="summary-table">
                   <table>
+                    <caption class="blind">
+                      LG 식기세척기 대표 모델 비교표 - 열풍+스팀 타입, 스팀 타입, 논스팀 타입의 주요 특징과 제품 링크 정보를 비교합니다.
+                    </caption>
                     <thead>
                       <tr class="procuct-name">
                         <th colspan="2">
@@ -388,15 +391,15 @@
                           <p>필요한 기능들로 실속있게</p>
                         </th>
                       </tr>
+                      <tr class="procuct-no">
+                        <th scope="col">DUE6BGE</th>
+                        <th scope="col">DUE6EWL2E</th>
+                        <th scope="col">DUE5MBL2E</th>
+                        <th scope="col">DUE4BGE</th>
+                        <th scope="col">DUE1BGLE</th>
+                      </tr>
                     </thead>
                     <tbody>
-                      <tr class="procuct-no">
-                        <td>DUE6BGE</td>
-                        <td>DUE6EWL2E</td>
-                        <td>DUE5MBL2E</td>
-                        <td>DUE4BGE</td>
-                        <td>DUE1BGLE</td>
-                      </tr>
                       <tr>
                         <td>
                           <div class="procuct-img">
@@ -1100,6 +1103,9 @@
                 </h4>
                 <div class="table-wrap vertical-scroll-box">
                   <table>
+                    <caption class="blind">
+                      LG 식기세척기 모델 라인업 스펙 비교표 - 열풍+스팀 타입, 스팀 타입, 논스팀 타입의 용량, 세척, 건조, 편의 기능과 제품 링크 정보를 비교합니다.
+                    </caption>
                     <colgroup>
                       <col class="col1" />
                       <col class="col2" />

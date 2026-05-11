@@ -223,7 +223,7 @@
                     class="bubble-wrap"
                     style="--pc-vertical: 53.4%; --mobile-left: 55.5%"
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/dehumidifiers?filterProduct=AT0000000149:KY0000000262:01"
@@ -277,6 +277,9 @@
                     </div>
                     <div class="summary-table">
                       <table class="no-btn">
+                        <caption class="blind">
+                          LG 제습기 20L~23L 대표 모델 비교표 - 넓은 공간을 빠르게 제습하는 대용량 라인업의 주요 특징을 확인할 수 있습니다.
+                        </caption>
                         <thead>
                           <tr class="procuct-name">
                             <th colspan="3">
@@ -284,13 +287,13 @@
                               <p>넓은 공간 제습도 빠르고 강력하게</p>
                             </th>
                           </tr>
+                          <tr class="procuct-no">
+                            <th scope="col">23L<span></span>DQ235MEGA</th>
+                            <th scope="col">21L<span></span>DQ214MWGA</th>
+                            <th scope="col">20L<span></span>DQ205PEGA</th>
+                          </tr>
                         </thead>
                         <tbody>
-                          <tr class="procuct-no">
-                            <td>23L<span></span>DQ235MEGA</td>
-                            <td>21L<span></span>DQ214MWGA</td>
-                            <td>20L<span></span>DQ205PEGA</td>
-                          </tr>
                           <tr>
                             <td>
                               <div class="procuct-img">
@@ -713,7 +716,7 @@
                     class="bubble-wrap"
                     style="--pc-vertical: 53%; --mobile-left: 44%"
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/dehumidifiers?filterProduct=AT0000000149:KY0000003682:01"
@@ -766,6 +769,9 @@
                     </div>
                     <div class="summary-table">
                       <table>
+                        <caption class="blind">
+                          LG 제습기 15L~18L 대표 모델 비교표 - 저소음 제습 모드를 갖춘 중용량 라인업의 주요 특징과 제품 링크 정보를 확인할 수 있습니다.
+                        </caption>
                         <thead>
                           <tr class="procuct-name">
                             <th colspan="2">
@@ -776,12 +782,12 @@
                               </p>
                             </th>
                           </tr>
+                          <tr class="procuct-no">
+                            <th scope="col">18L<span></span>DQ185MEGA</th>
+                            <th scope="col">15L<span></span>DQ154MWGA</th>
+                          </tr>
                         </thead>
                         <tbody>
-                          <tr class="procuct-no">
-                            <td>18L<span></span>DQ185MEGA</td>
-                            <td>15L<span></span>DQ154MWGA</td>
-                          </tr>
                           <tr>
                             <td>
                               <div class="procuct-img">
@@ -1074,7 +1080,7 @@
                     class="bubble-wrap"
                     style="--pc-vertical: 53.6%; --mobile-left: 48%"
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/dehumidifiers?filterProduct=AT0000000149:KY0000000111:01"
@@ -1127,6 +1133,9 @@
                     </div>
                     <div class="summary-table">
                       <table class="single">
+                        <caption class="blind">
+                          LG 제습기 13L 대표 모델 비교표 - 집 안 곳곳을 쾌적하게 관리하는 13L 라인업의 주요 특징과 제품 링크 정보를 확인할 수 있습니다.
+                        </caption>
                         <thead>
                           <tr class="procuct-name">
                             <th>
@@ -1134,11 +1143,11 @@
                               <p>효율적인 제습으로 집 안 곳곳을 쾌적하게</p>
                             </th>
                           </tr>
+                          <tr class="procuct-no">
+                            <th scope="col">13L<span></span>DQ134MWEC</th>
+                          </tr>
                         </thead>
                         <tbody>
-                          <tr class="procuct-no">
-                            <td>13L<span></span>DQ134MWEC</td>
-                          </tr>
                           <tr>
                             <td>
                               <div class="procuct-img">
@@ -1632,7 +1641,7 @@
                         </div>
                         <div class="slider-controls">
                           <button class="btn-play" data-state="playing">
-                            Pause
+                            일시정지
                           </button>
                           <div class="counter">
                             <span class="current">1</span>
@@ -1983,13 +1992,13 @@
                                   <div>
                                     <img
                                       src="/kr/story/buying-guide/2025/img/dehumidifier/img_P02_001_34a.jpg"
-                                      alt=""
+                                      alt="손잡이를 잡고 LG 제습기를 이동하는 모습"
                                     />
                                   </div>
                                 </div>
                                 <div class="slider-controls">
                                   <button class="btn-play" data-state="playing">
-                                    Pause
+                                    일시정지
                                   </button>
                                   <div class="counter">
                                     <span class="current">1</span>
@@ -2064,7 +2073,7 @@
                                 </div>
                                 <div class="slider-controls">
                                   <button class="btn-play" data-state="playing">
-                                    Pause
+                                    일시정지
                                   </button>
                                   <div class="counter">
                                     <span class="current">1</span>
@@ -2207,7 +2216,7 @@
                                 </div>
                                 <div class="slider-controls">
                                   <button class="btn-play" data-state="playing">
-                                    Pause
+                                    일시정지
                                   </button>
                                   <div class="counter">
                                     <span class="current">1</span>
@@ -2287,7 +2296,7 @@
                                 </div>
                                 <div class="slider-controls">
                                   <button class="btn-play" data-state="playing">
-                                    Pause
+                                    일시정지
                                   </button>
                                   <div class="counter">
                                     <span class="current">1</span>

@@ -215,7 +215,7 @@
                       --mobile-left: 44%;
                     "
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/electric-ranges?subCateId=CT50000077"
@@ -269,6 +269,9 @@
                     </div>
                     <div class="summary-table">
                       <table>
+                        <caption class="blind">
+                          LG 인덕션 대표 모델 비교표 - 초고화력으로 요리하는 인덕션 라인업의 주요 특징과 제품 링크 정보를 확인할 수 있습니다.
+                        </caption>
                         <thead>
                           <tr class="procuct-name">
                             <th colspan="3">
@@ -276,13 +279,13 @@
                               <p>초고화력으로 모든 요리를 빠르게</p>
                             </th>
                           </tr>
+                          <tr class="procuct-no">
+                            <th scope="col">BEF3AMB4E</th>
+                            <th scope="col">BEI3ANHLE</th>
+                            <th scope="col">HEI1V9E</th>
+                          </tr>
                         </thead>
                         <tbody>
-                          <tr class="procuct-no">
-                            <td>BEF3AMB4E</td>
-                            <td>BEI3ANHLE</td>
-                            <td>HEI1V9E</td>
-                          </tr>
                           <tr>
                             <td>
                               <div class="procuct-img">
@@ -694,6 +697,9 @@
                     </h4>
                     <div class="table-wrap include-tab vertical-scroll-box">
                       <table>
+                        <caption class="blind">
+                          LG 전기레인지 모델 라인업 스펙 비교표 - 미라듀어, 매트라인, 모노라인 글라스, 오브제 화이트, 블랙 세라믹 라인업의 화구, 조작, 편의 기능과 제품 링크 정보를 비교합니다.
+                        </caption>
                         <colgroup>
                           <col class="col1" />
                           <col class="col1" />
@@ -862,7 +868,7 @@
                       --mobile-left: 45%;
                     "
                   >
-                    <div class="dot"><span></span></div>
+                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/electric-ranges?subCateId=CT50000078"
@@ -914,6 +920,9 @@
                     </div>
                     <div class="summary-table">
                       <table class="single">
+                        <caption class="blind">
+                          LG 하이브리드 전기레인지 대표 모델 비교표 - 인덕션과 하이라이트를 함께 사용하는 하이브리드 라인업의 주요 특징과 제품 링크 정보를 확인할 수 있습니다.
+                        </caption>
                         <thead>
                           <tr class="procuct-name">
                             <th>
@@ -921,11 +930,11 @@
                               <p>인덕션과 하이라이트를 합쳐 효율적으로</p>
                             </th>
                           </tr>
+                          <tr class="procuct-no">
+                            <th scope="col">BEY3MSE</th>
+                          </tr>
                         </thead>
                         <tbody>
-                          <tr class="procuct-no">
-                            <td>BEY3MSE</td>
-                          </tr>
                           <tr>
                             <td>
                               <div class="procuct-img">
@@ -1219,7 +1228,7 @@
                               </div>
                               <div class="slider-controls">
                                 <button class="btn-play" data-state="playing">
-                                  Pause
+                                  일시정지
                                 </button>
                                 <div class="counter">
                                   <span class="current">1</span>
@@ -1295,7 +1304,7 @@
                               </div>
                               <div class="slider-controls">
                                 <button class="btn-play" data-state="playing">
-                                  Pause
+                                  일시정지
                                 </button>
                                 <div class="counter">
                                   <span class="current">1</span>
@@ -1419,7 +1428,7 @@
                         </div>
                         <div class="slider-controls">
                           <button class="btn-play" data-state="playing">
-                            Pause
+                            일시정지
                           </button>
                           <div class="counter">
                             <span class="current">1</span>
