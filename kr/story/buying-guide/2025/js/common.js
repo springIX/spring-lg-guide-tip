@@ -518,9 +518,7 @@ function detailTableTopFix() {
     if ($wrap.find(".clone-header-table-wrap").length) return;
 
     // 클론 테이블(헤더만)
-    const $cloneWrap = $(
-      "<div class='clone-header-table-wrap' style='opacity: 0; transform: translateY(0px);'></div>",
-    );
+    const $cloneWrap = $("<div class='clone-header-table-wrap' ></div>");
     const $cloneTbl = $("<table class='clone-header-table'></table>");
     const $cloneHead = $thead.clone();
     $cloneTbl.append($cloneHead);
@@ -1055,6 +1053,3 @@ function autoplaySliders(target) {
     });
   });
 }
-
-
-
