@@ -84,7 +84,7 @@
   min-height: 1px;
 }
 
-[dir="rtl"] .slick-slide {
+[dir=rtl] .slick-slide {
   float: right;
 }
 
@@ -228,8 +228,7 @@
   height: 32px;
   border-radius: 20px 0 0 20px;
   font-size: 0;
-  background: rgba(0, 0, 0, 0.8)
-    url(/kr/story/buying-guide/2025/img/icon_pause.svg) no-repeat center/16px;
+  background: rgba(0, 0, 0, 0.8) url(/kr/story/buying-guide/2025/img/icon_pause.svg) no-repeat center/16px;
 }
 .buying-guide .autoplay-slider-wrap .slider-controls .btn-play.paused {
   background-image: url(/kr/story/buying-guide/2025/img/ic32_animation_play.svg);
@@ -274,8 +273,7 @@
   content: "";
   width: 16px;
   height: 16px;
-  background: url(/kr/story/buying-guide/2025/img/ic20_arrow_right_white.svg)
-    no-repeat center;
+  background: url(/kr/story/buying-guide/2025/img/ic20_arrow_right_white.svg) no-repeat center;
 }
 .buying-guide .autoplay-slider-wrap .slider-controls .btn-nav.disabled:after {
   opacity: 0.5;
@@ -380,8 +378,7 @@
   width: 24px;
   height: 24px;
   z-index: 1;
-  background: url(/kr/story/buying-guide/2025/img/ic32_animation_pause.svg)
-    no-repeat center/100%;
+  background: url(/kr/story/buying-guide/2025/img/ic32_animation_pause.svg) no-repeat center/100%;
   font-size: 0;
 }
 .buying-guide .btn-pause.play {
@@ -514,18 +511,14 @@
 }
 .buying-guide .tab-wrap .nav.nav-left {
   left: -40px;
-  background: #fff
-    url(/kr/story/buying-guide/2025/img/ic24_arrow_left_black_bold.svg)
-    no-repeat center/24px;
+  background: #fff url(/kr/story/buying-guide/2025/img/ic24_arrow_left_black_bold.svg) no-repeat center/24px;
 }
 .buying-guide .tab-wrap .nav.nav-left.disabled {
   background-image: url(/kr/story/buying-guide/2025/img/ic24_arrow_left_gray_bold.svg);
 }
 .buying-guide .tab-wrap .nav.nav-right {
   right: -40px;
-  background: #fff
-    url(/kr/story/buying-guide/2025/img/ic24_arrow_right_black_bold.svg)
-    no-repeat center/24px;
+  background: #fff url(/kr/story/buying-guide/2025/img/ic24_arrow_right_black_bold.svg) no-repeat center/24px;
 }
 .buying-guide .tab-wrap .nav.nav-right.disabled {
   background-image: url(/kr/story/buying-guide/2025/img/ic24_arrow_right_gray_bold.svg);
@@ -644,8 +637,7 @@
   width: 24px;
   height: 24px;
   margin: 8px;
-  background: url(/kr/story/buying-guide/2025/img/ic24_arrow_right_black_bold.svg)
-    no-repeat center/100%;
+  background: url(/kr/story/buying-guide/2025/img/ic24_arrow_right_black_bold.svg) no-repeat center/100%;
 }
 .buying-guide .tab-content .nav-slider-wrap .slick-arrow.slick-disabled {
   filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.2));
@@ -711,8 +703,7 @@
   width: 33px;
   height: 33px;
   border-radius: 50%;
-  background: #ea1917 url(/kr/story/buying-guide/2025/img/ic14_plus_white.svg)
-    no-repeat center/14px;
+  background: #ea1917 url(/kr/story/buying-guide/2025/img/ic14_plus_white.svg) no-repeat center/14px;
 }
 .buying-guide .tab-content .img-wrap .bubble-wrap:hover {
   width: auto;
@@ -760,10 +751,8 @@
   display: inline-block;
   width: 20px;
   height: 20px;
-  background: url(/kr/story/buying-guide/2025/img/ic20_arrow_right_black.svg)
-    no-repeat center;
-  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%)
-    hue-rotate(67deg) brightness(105%) contrast(105%);
+  background: url(/kr/story/buying-guide/2025/img/ic20_arrow_right_black.svg) no-repeat center;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(67deg) brightness(105%) contrast(105%);
 }
 .buying-guide .tab-content .img-wrap .bubble-wrap .bubble p {
   display: flex;
@@ -970,10 +959,8 @@
   width: 16px;
   height: 16px;
   margin: 2px 0 0 2px;
-  background: url(/kr/story/buying-guide/2025/img/ic16_arrow_right_gray01.svg)
-    no-repeat center;
-  filter: brightness(0) saturate(100%) invert(20%) sepia(1%) saturate(1555%)
-    hue-rotate(332deg) brightness(102%) contrast(79%);
+  background: url(/kr/story/buying-guide/2025/img/ic16_arrow_right_gray01.svg) no-repeat center;
+  filter: brightness(0) saturate(100%) invert(20%) sepia(1%) saturate(1555%) hue-rotate(332deg) brightness(102%) contrast(79%);
   vertical-align: top;
 }
 @media only screen and (max-width: 1023px) {
@@ -1004,8 +991,7 @@
   content: "";
   width: 20px;
   height: 20px;
-  background: url(/kr/story/buying-guide/2025/img/ic16_arrow_up_gray01_bold.svg)
-    no-repeat center;
+  background: url(/kr/story/buying-guide/2025/img/ic16_arrow_up_gray01_bold.svg) no-repeat center;
 }
 @media only screen and (max-width: 1023px) {
   .buying-guide .btn-collapse-close {
@@ -1079,13 +1065,7 @@
   border-radius: 12px 12px 0 0;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
 }
-.buying-guide
-  .compare-wrap
-  .procuct-summary
-  .sticky-product-no
-  .inner
-  .inner2
-  div {
+.buying-guide .compare-wrap .procuct-summary .sticky-product-no .inner .inner2 div {
   width: var(--col-width);
   flex: 1;
   padding: 10px 0;
@@ -1097,14 +1077,7 @@
   letter-spacing: -0.18px;
   text-transform: uppercase;
 }
-.buying-guide
-  .compare-wrap
-  .procuct-summary
-  .sticky-product-no
-  .inner
-  .inner2
-  div
-  small {
+.buying-guide .compare-wrap .procuct-summary .sticky-product-no .inner .inner2 div small {
   text-transform: initial;
   font-size: inherit;
 }
@@ -1118,22 +1091,11 @@
   .buying-guide .compare-wrap .procuct-summary .sticky-product-no .inner {
     padding-top: 30px;
   }
-  .buying-guide
-    .compare-wrap
-    .procuct-summary
-    .sticky-product-no
-    .inner
-    .inner2 {
+  .buying-guide .compare-wrap .procuct-summary .sticky-product-no .inner .inner2 {
     border-radius: 8px 8px 0 0;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
   }
-  .buying-guide
-    .compare-wrap
-    .procuct-summary
-    .sticky-product-no
-    .inner
-    .inner2
-    div {
+  .buying-guide .compare-wrap .procuct-summary .sticky-product-no .inner .inner2 div {
     padding: 10px 5px;
     font-size: 14px;
   }
@@ -1248,16 +1210,12 @@
   content: "";
   width: 16px;
   height: 16px;
-  background: url(/kr/story/buying-guide/2025/img/ic16_refresh_black.svg)
-    no-repeat center;
+  background: url(/kr/story/buying-guide/2025/img/ic16_refresh_black.svg) no-repeat center;
 }
-.buying-guide
-  .compare-wrap
-  .procuct-summary
-  .procuct-spec:nth-of-type(even):not(:last-of-type) {
+.buying-guide .compare-wrap .procuct-summary .procuct-spec:nth-of-type(even):not(:last-of-type){
   background-color: #f6f6f6;
 }
-.buying-guide .compare-wrap .procuct-summary .procuct-spec.last.gray {
+.buying-guide .compare-wrap .procuct-summary .procuct-spec.last.gray{
   background-color: #f6f6f6;
 }
 .buying-guide .compare-wrap .procuct-summary .procuct-spec td {
@@ -1289,8 +1247,7 @@
   display: block;
   width: 24px;
   height: 24px;
-  background: url(/kr/story/buying-guide/2025/img/ic24_info.svg) no-repeat
-    center/100%;
+  background: url(/kr/story/buying-guide/2025/img/ic24_info.svg) no-repeat center/100%;
 }
 .buying-guide .compare-wrap .procuct-summary .procuct-spec p .des .info:before {
   content: "";
@@ -1299,27 +1256,13 @@
   left: 7px;
   width: 10px;
   height: 6px;
-  background: url(/kr/story/buying-guide/2025/img/icon_bubble.svg) no-repeat
-    center/100%;
+  background: url(/kr/story/buying-guide/2025/img/icon_bubble.svg) no-repeat center/100%;
   opacity: 0;
 }
-.buying-guide
-  .compare-wrap
-  .procuct-summary
-  .procuct-spec
-  p
-  .des
-  .info:hover:before {
+.buying-guide .compare-wrap .procuct-summary .procuct-spec p .des .info:hover:before {
   opacity: 1;
 }
-.buying-guide
-  .compare-wrap
-  .procuct-summary
-  .procuct-spec
-  p
-  .des
-  .info:hover
-  + .bubble {
+.buying-guide .compare-wrap .procuct-summary .procuct-spec p .des .info:hover + .bubble {
   display: block;
 }
 .buying-guide .compare-wrap .procuct-summary .procuct-spec p .des .bubble {
@@ -1378,81 +1321,30 @@
   border-radius: 0 0 12px 12px;
 }
 .buying-guide .compare-wrap .procuct-summary .procuct-spec p .des .bubble.left,
-.buying-guide
-  .compare-wrap
-  .procuct-summary
-  .procuct-spec
-  td:last-child
-  p
-  .des
-  .bubble {
+.buying-guide .compare-wrap .procuct-summary .procuct-spec td:last-child p .des .bubble {
   left: auto;
   right: -12px;
 }
-.buying-guide
-  .compare-wrap
-  .procuct-summary
-  .procuct-spec
-  p
-  .des
-  .bubble.left:before,
-.buying-guide
-  .compare-wrap
-  .procuct-summary
-  .procuct-spec
-  td:last-child
-  p
-  .des
-  .bubble:before {
+.buying-guide .compare-wrap .procuct-summary .procuct-spec p .des .bubble.left:before,
+.buying-guide .compare-wrap .procuct-summary .procuct-spec td:last-child p .des .bubble:before {
   left: auto;
   right: 20px;
 }
 .buying-guide .compare-wrap .procuct-summary table.single .procuct-spec td p {
   position: relative;
 }
-.buying-guide
-  .compare-wrap
-  .procuct-summary
-  table.single
-  .procuct-spec
-  td
-  p
-  .des {
+.buying-guide .compare-wrap .procuct-summary table.single .procuct-spec td p .des {
   position: static;
 }
-.buying-guide
-  .compare-wrap
-  .procuct-summary
-  table.single
-  .procuct-spec
-  td
-  p
-  .des
-  .info::before {
+.buying-guide .compare-wrap .procuct-summary table.single .procuct-spec td p .des .info::before {
   bottom: -6px;
 }
-.buying-guide
-  .compare-wrap
-  .procuct-summary
-  table.single
-  .procuct-spec
-  td
-  p
-  .des
-  .bubble {
+.buying-guide .compare-wrap .procuct-summary table.single .procuct-spec td p .des .bubble {
   left: 50%;
   right: auto;
   transform: translateX(-50%);
 }
-.buying-guide
-  .compare-wrap
-  .procuct-summary
-  table.single
-  .procuct-spec
-  td
-  p
-  .des
-  .bubble:before {
+.buying-guide .compare-wrap .procuct-summary table.single .procuct-spec td p .des .bubble:before {
   display: none;
 }
 .buying-guide .compare-wrap .procuct-summary .product-btn td {
@@ -1546,17 +1438,9 @@
     display: block;
     width: 24px;
     height: 24px;
-    background: url(/kr/story/buying-guide/2025/img/ic24_info.svg) no-repeat
-      center/100%;
+    background: url(/kr/story/buying-guide/2025/img/ic24_info.svg) no-repeat center/100%;
   }
-  .buying-guide
-    .compare-wrap
-    .procuct-summary
-    .procuct-spec
-    p
-    .des
-    .info:hover
-    + .bubble {
+  .buying-guide .compare-wrap .procuct-summary .procuct-spec p .des .info:hover + .bubble {
     display: block;
   }
   .buying-guide .compare-wrap .procuct-summary .procuct-spec p .des .bubble {
@@ -1570,13 +1454,7 @@
     font-size: 14px;
     white-space: initial;
   }
-  .buying-guide
-    .compare-wrap
-    .procuct-summary
-    .procuct-spec
-    p
-    .des
-    .bubble:before {
+  .buying-guide .compare-wrap .procuct-summary .procuct-spec p .des .bubble:before {
     display: none;
   }
   .buying-guide .compare-wrap .procuct-summary .procuct-spec .spec-img img {
@@ -1609,15 +1487,7 @@
     font-size: 14px;
     line-height: 20px;
   }
-  .buying-guide
-    .compare-wrap
-    .procuct-summary
-    table.single
-    .procuct-spec
-    td
-    p
-    .des
-    .bubble {
+  .buying-guide .compare-wrap .procuct-summary table.single .procuct-spec td p .des .bubble {
     transform: translateX(0);
   }
 }
@@ -1689,7 +1559,7 @@
   letter-spacing: 0;
 }
 .buying-guide .product-table .table-wrap td .red {
-  color: #ea1917;
+  color: #EA1917;
 }
 .buying-guide .product-table .table-wrap .y {
   font-size: 0;
@@ -1724,8 +1594,7 @@
   width: 14px;
   height: 14px;
   margin: 0 auto;
-  background: url(/kr/story/buying-guide/2025/img/icon_x.svg) no-repeat
-    center/100%;
+  background: url(/kr/story/buying-guide/2025/img/icon_x.svg) no-repeat center/100%;
 }
 .buying-guide .product-table .table-wrap .text * + p {
   margin-top: 5px;
@@ -1768,12 +1637,7 @@
   pointer-events: none;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
 }
-.buying-guide
-  .product-table
-  .clone-header-table-wrap
-  .clone-header-table
-  .th2
-  p {
+.buying-guide .product-table .clone-header-table-wrap .clone-header-table .th2 p {
   display: none;
 }
 .buying-guide .product-table .des {
@@ -2060,8 +1924,7 @@
   content: "";
   width: 24px;
   height: 24px;
-  background: url(/kr/story/buying-guide/2025/img/ic24_lifestyle_white.svg)
-    no-repeat center/100%;
+  background: url(/kr/story/buying-guide/2025/img/ic24_lifestyle_white.svg) no-repeat center/100%;
 }
 .buying-guide .point-tip .tip-content {
   overflow: hidden;
@@ -2390,8 +2253,7 @@
   width: 24px;
   height: 24px;
   margin: 8px;
-  background: url(/kr/story/buying-guide/2025/img/ic24_arrow_right_black_bold.svg)
-    no-repeat center/100%;
+  background: url(/kr/story/buying-guide/2025/img/ic24_arrow_right_black_bold.svg) no-repeat center/100%;
 }
 .buying-guide .point-box .colWrap .slick-arrow.slick-disabled {
   filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.2));
@@ -2553,8 +2415,7 @@
   content: "";
   width: 20px;
   height: 20px;
-  background: url(/kr/story/buying-guide/2025/img/ic20_arrow_right_black_bold.svg)
-    no-repeat center/100%;
+  background: url(/kr/story/buying-guide/2025/img/ic20_arrow_right_black_bold.svg) no-repeat center/100%;
 }
 .buying-guide .tip-wrap > div.tip-faq {
   background: linear-gradient(180deg, #f8f8f8 0%, #f1f1f1 100%);
