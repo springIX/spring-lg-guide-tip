@@ -207,14 +207,12 @@
                   </button>
                   <button class="tab-img" name="buying-guide-tab" data-target="#product-type-3"
                     data-group="product-type">
-                    <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_07.png"
-                      alt="LG 창호형 에어컨 제품 이미지" />
+                    <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_07.png" alt="LG 창호형 에어컨 제품 이미지" />
                     <span><b>창호형 에어컨</b>#창문설치 #간편설치</span>
                   </button>
                   <button class="tab-img" name="buying-guide-tab" data-target="#product-type-4"
                     data-group="product-type">
-                    <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_08.png"
-                      alt="LG 이동식 에어컨 제품 이미지" />
+                    <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_08.png" alt="LG 이동식 에어컨 제품 이미지" />
                     <span><b>이동식 에어컨</b>#편리한이동 #간편설치</span>
                   </button>
                 </div>
@@ -231,7 +229,7 @@
                     ">
                       <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                       <div class="bubble">
-                        <a href="https://www.lge.co.kr/air-conditioners/fq25gn9be1" target="_blank"><span>LG 휘센 AI
+                        <a href="https://www.lge.co.kr/air-conditioners/fq25gn9be1" target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 휘센 AI
                             오브제컬렉션 타워I 에어컨 (9시리즈)</span></a>
                         <p>스탠드 에어컨<span></span>냉방면적 81.8m² 이상</p>
                       </div>
@@ -378,7 +376,7 @@
                                 <p>
                                   AI바람
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">레이더센서와 ThinQ앱으로 공간을 파악하고 사용자 패턴을 학습하여 내게 맞춘 온도·기류<br />
                                       *레이더센서 탑재 모델에 한함
                                     </span>
@@ -393,7 +391,7 @@
                                 <p>
                                   AI바람
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">레이더센서와 ThinQ앱으로 공간을 파악하고 사용자 패턴을 학습하여 내게 맞춘 온도·기류<br />
                                       *레이더센서 탑재 모델에 한함
                                     </span>
@@ -408,7 +406,7 @@
                                 <p>
                                   AI바람
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">레이더센서와 ThinQ앱으로 공간을 파악하고 사용자 패턴을 학습하여 내게 맞춘 온도·기류<br />
                                       *레이더센서 탑재 모델에 한함</span>
                                   </span>
@@ -422,7 +420,7 @@
                                 <p>
                                   AI바람
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">ThinQ앱으로 공간을 파악하고 사용자 패턴을 학습하여 내게 맞춘 온도·기류</span>
                                   </span>
                                 </p>
@@ -435,7 +433,7 @@
                                 <p>
                                   AI바람
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">ThinQ앱으로 공간을 파악하고 사용자 패턴을 학습하여 내게 맞춘 온도·기류</span>
                                   </span>
                                 </p>
@@ -448,7 +446,7 @@
                                 <p>
                                   냉방&온풍
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">영하 10도 추위에도 포근하고 무더위엔 공간을 시원하게
                                     </span>
                                   </span>
@@ -465,7 +463,7 @@
                                 <p>
                                   AI콜드프리
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">정교한 온도와 습도 조절로 춥지 않은 쾌적한 바람 <br />
                                       *AI콜드프리 탑재 모델에 한함
                                     </span>
@@ -481,7 +479,7 @@
                                 <p>
                                   AI콜드프리
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">정교한 온도와 습도 조절로 춥지 않은 쾌적한 바람 <br />
                                       *AI콜드프리 탑재 모델에 한함
                                     </span>
@@ -496,7 +494,7 @@
                                 <p>
                                   대용량 제습
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">습도 높은 날에도 공간을 보송하게
                                     </span>
                                   </span>
@@ -510,7 +508,7 @@
                                 <p>
                                   대용량 제습
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">습도 높은 날에도 공간을 보송하게
                                     </span>
                                   </span>
@@ -524,7 +522,7 @@
                                 <p>
                                   대용량 제습
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">습도 높은 날에도 공간을 보송하게
                                     </span>
                                   </span>
@@ -538,7 +536,7 @@
                                 <p>
                                   대용량 제습
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">습도 높은 날에도 공간을 보송하게
                                     </span>
                                   </span>
@@ -554,7 +552,7 @@
                                 <p>
                                   AI음성인식
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">모드 추천부터 실내 환경 안내까지, “Hi LG” 대화로 쉽고 빠른 제어
                                     </span>
                                   </span>
@@ -568,7 +566,7 @@
                                 <p>
                                   AI음성인식
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">모드 추천부터 실내 환경 안내까지, “Hi LG” 대화로 쉽고 빠른 제어
                                     </span>
                                   </span>
@@ -580,9 +578,9 @@
                                     alt="한쪽바람" />
                                 </div>
                                 <p>
-                                  한쪽바람
+                                  한쪽바람 없음
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">원하는 방향으로 바람을 보내 부드럽고
                                       시원하게
                                     </span>
@@ -595,9 +593,9 @@
                                     alt="아이스쿨파워" />
                                 </div>
                                 <p>
-                                  아이스쿨파워
+                                  아이스쿨파워 없음
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">최대 4°C 더 낮은 강력한 바람으로 더 빠르고
                                       시원하게</span>
                                   </span>
@@ -609,9 +607,9 @@
                                     alt="아이스쿨파워" />
                                 </div>
                                 <p>
-                                  아이스쿨파워
+                                  아이스쿨파워 없음
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">최대 4°C 더 낮은 강력한 바람으로 더 빠르고
                                       시원하게</span>
                                   </span>
@@ -623,9 +621,9 @@
                                     alt="한쪽바람" />
                                 </div>
                                 <p>
-                                  한쪽바람
+                                  한쪽바람 없음
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">원하는 방향으로 바람을 보내 부드럽고
                                       시원하게
                                     </span>
@@ -642,7 +640,7 @@
                                 <p>
                                   AI수면
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">숙면 중 깨지 않도록 사용 패턴을 분석해 최적의 온도·습도·기류로 맞춤
                                     </span>
                                   </span>
@@ -656,7 +654,7 @@
                                 <p>
                                   AI수면
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">숙면 중 깨지 않도록 사용 패턴을 분석해 최적의 온도·습도·기류로 맞춤
                                     </span>
                                   </span>
@@ -668,9 +666,9 @@
                                     alt="뷰케이스 커스텀" />
                                 </div>
                                 <p>
-                                  뷰케이스 커스텀
+                                  뷰케이스 커스텀 없음
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">하단 패널을 교체해 인테리어에 맞게 뷰케이스 연출
                                     </span>
                                   </span>
@@ -682,9 +680,9 @@
                                     alt="뷰케이스 커스텀" />
                                 </div>
                                 <p>
-                                  뷰케이스 커스텀
+                                  뷰케이스 커스텀 없음
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">하단 패널을 교체해 인테리어에 맞게 뷰케이스 연출
                                     </span>
                                   </span>
@@ -696,9 +694,9 @@
                                     alt="뷰케이스 커스텀" />
                                 </div>
                                 <p>
-                                  뷰케이스 커스텀
+                                  뷰케이스 커스텀 없음
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">하단 패널을 교체해 인테리어에 맞게 뷰케이스 연출
                                     </span>
                                   </span>
@@ -710,9 +708,9 @@
                                     alt="뷰케이스 커스텀" />
                                 </div>
                                 <p>
-                                  뷰케이스 커스텀
+                                  뷰케이스 커스텀 없음
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">하단 패널을 교체해 인테리어에 맞게 뷰케이스 연출
                                     </span>
                                   </span>
@@ -726,9 +724,9 @@
                                     alt="뷰케이스 커스텀" />
                                 </div>
                                 <p>
-                                  뷰케이스 커스텀
+                                  뷰케이스 커스텀 없음
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">하단 패널을 교체해 인테리어에 맞게 뷰케이스 연출
                                     </span>
                                   </span>
@@ -742,7 +740,7 @@
                                 <p>
                                   뷰케이스 커스텀
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">하단 패널을 교체해 인테리어에 맞게 뷰케이스 연출
                                     </span>
                                   </span>
@@ -756,7 +754,7 @@
                                 <p>
                                   뷰케이스 커스텀
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">하단 패널을 교체해 인테리어에 맞게 뷰케이스 연출
                                     </span>
                                   </span>
@@ -770,7 +768,7 @@
                                 <p>
                                   뷰케이스 커스텀
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">하단 패널을 교체해 인테리어에 맞게 뷰케이스 연출
                                     </span>
                                   </span>
@@ -782,9 +780,9 @@
                                     alt="뷰케이스 커스텀" />
                                 </div>
                                 <p>
-                                  뷰케이스 커스텀
+                                  뷰케이스 커스텀 없음
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">하단 패널을 교체해 인테리어에 맞게 뷰케이스 연출
                                     </span>
                                   </span>
@@ -796,9 +794,9 @@
                                     alt="뷰케이스 커스텀" />
                                 </div>
                                 <p>
-                                  뷰케이스 커스텀
+                                  뷰케이스 커스텀 없음
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">하단 패널을 교체해 인테리어에 맞게 뷰케이스 연출
                                     </span>
                                   </span>
@@ -808,27 +806,27 @@
                             <tr class="product-btn">
                               <td>
                                 <a href="https://www.lge.co.kr/category/air-conditioners?lineupId=CD00000042"
-                                  target="_blank" class="btn-product">제품 보러 가기</a>
+                                  target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품 보러 가기</a>
                               </td>
                               <td>
                                 <a href="https://www.lge.co.kr/category/air-conditioners?lineupId=CD00000641"
-                                  target="_blank" class="btn-product">제품 보러 가기</a>
+                                  target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품 보러 가기</a>
                               </td>
                               <td>
                                 <a href="https://www.lge.co.kr/category/air-conditioners?lineupId=CD00000761"
-                                  target="_blank" class="btn-product">제품 보러 가기</a>
+                                  target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품 보러 가기</a>
                               </td>
                               <td>
                                 <a href="https://www.lge.co.kr/category/air-conditioners?lineupId=CD00000421"
-                                  target="_blank" class="btn-product">제품 보러 가기</a>
+                                  target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품 보러 가기</a>
                               </td>
                               <td>
                                 <a href="https://www.lge.co.kr/category/air-conditioners?lineupId=CD00000741"
-                                  target="_blank" class="btn-product">제품 보러 가기</a>
+                                  target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품 보러 가기</a>
                               </td>
                               <td>
                                 <a href="https://www.lge.co.kr/category/air-conditioners?lineupId=CD00000047"
-                                  target="_blank" class="btn-product">제품 보러 가기</a>
+                                  target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품 보러 가기</a>
                               </td>
                             </tr>
                           </tbody>
@@ -844,8 +842,7 @@
                     <div class="table-wrap include-tab vertical-scroll-box">
                       <table>
                         <caption class="blind">
-                          LG 스탠드 에어컨 모델 라인업 스펙 비교표 - 타워I, 뷰I 프로, 뷰I, 뷰II, 쿨, 사계절 라인업의 냉방, 청정, 절전, 편의 기능과 제품 링크 정보를
-                          비교합니다.
+                          LG 스탠드 에어컨 모델 라인업 스펙 비교표 - 타워I, 뷰I 프로, 뷰I, 뷰II, 쿨, 사계절 라인업의 냉방, 청정, 절전, 편의 기능과 제품 링크 정보를 비교합니다.
                         </caption>
                         <colgroup>
                           <col class="col1" />
@@ -878,62 +875,52 @@
                           <tr>
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_25.png"
-                                  alt="LG 타워I 9시리즈 스탠드 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_25.png" alt="LG 타워I 9시리즈 스탠드 에어컨 제품 이미지" />
                               </div>
                             </td>
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_26.png"
-                                  alt="LG 타워I 7시리즈 스탠드 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_26.png" alt="LG 타워I 7시리즈 스탠드 에어컨 제품 이미지" />
                               </div>
                             </td>
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_27.png"
-                                  alt="LG 타워I 5시리즈 스탠드 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_27.png" alt="LG 타워I 5시리즈 스탠드 에어컨 제품 이미지" />
                               </div>
                             </td>
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_28.png"
-                                  alt="LG 뷰I 프로 6시리즈 스탠드 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_28.png" alt="LG 뷰I 프로 6시리즈 스탠드 에어컨 제품 이미지" />
                               </div>
                             </td>
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_29.png"
-                                  alt="LG 뷰I 프로 5시리즈 스탠드 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_29.png" alt="LG 뷰I 프로 5시리즈 스탠드 에어컨 제품 이미지" />
                               </div>
                             </td>
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_30.png"
-                                  alt="LG 뷰I 3시리즈 스탠드 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_30.png" alt="LG 뷰I 3시리즈 스탠드 에어컨 제품 이미지" />
                               </div>
                             </td>
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_31.png"
-                                  alt="LG 뷰II 2시리즈 스탠드 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_31.png" alt="LG 뷰II 2시리즈 스탠드 에어컨 제품 이미지" />
                               </div>
                             </td>
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_32.png"
-                                  alt="LG 뷰II 1시리즈 스탠드 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_32.png" alt="LG 뷰II 1시리즈 스탠드 에어컨 제품 이미지" />
                               </div>
                             </td>
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_33.png"
-                                  alt="LG 쿨 2시리즈 스탠드 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_33.png" alt="LG 쿨 2시리즈 스탠드 에어컨 제품 이미지" />
                               </div>
                             </td>
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_34.png"
-                                  alt="LG 쿨 1시리즈 스탠드 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_34.png" alt="LG 쿨 1시리즈 스탠드 에어컨 제품 이미지" />
                               </div>
                             </td>
                           </tr>
@@ -1226,7 +1213,7 @@
                     ">
                       <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                       <div class="bubble">
-                        <a href="https://www.lge.co.kr/air-conditioners/sq07gs9ees-akor" target="_blank"><span>LG 휘센 AI
+                        <a href="https://www.lge.co.kr/air-conditioners/sq07gs9ees-akor" target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 휘센 AI
                             오브제컬렉션 듀얼쿨 벽걸이 에어컨</span>
                         </a>
                         <p>벽걸이 에어컨<span></span>냉방면적 22.8m² 이상</p>
@@ -1340,7 +1327,7 @@
                                 <p>
                                   AI바람
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">레이더센서와 ThinQ앱으로 공간을 파악하고 사용자 패턴을 학습하여 내게 맞춘 온도·기류 <br />
                                       *레이더센서 탑재 모델에 한함
                                     </span>
@@ -1355,7 +1342,7 @@
                                 <p>
                                   AI바람
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">레이더센서와 ThinQ앱으로 공간을 파악하고 사용자 패턴을 학습하여 내게 맞춘 온도·기류 <br />
                                       *레이더센서 탑재 모델에 한함
                                     </span>
@@ -1370,7 +1357,7 @@
                                 <p>
                                   직접·간접 냉방
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">강력한 직접 냉방으로 더위를 빠르게 식히고 몸에 닿지 않은 은은한 간접 냉방으로 쾌적하게
                                     </span>
                                   </span>
@@ -1384,7 +1371,7 @@
                                 <p>
                                   간접 냉방
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">몸에 닿지 않은 은은한 간접 냉방으로 쾌적하게
                                     </span>
                                   </span>
@@ -1401,7 +1388,7 @@
                                 <p>
                                   AI콜드프리
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">정교한 온도와 습도 조절로 춥지 않은 쾌적한 바람 <br />
                                       *AI콜드프리 탑재 모델에 한함
                                     </span>
@@ -1416,7 +1403,7 @@
                                 <p>
                                   제습
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">습도 높은 날에도 공간을 보송하게</span>
                                   </span>
                                 </p>
@@ -1429,7 +1416,7 @@
                                 <p>
                                   제습
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">습도 높은 날에도 공간을 보송하게
                                     </span>
                                   </span>
@@ -1443,7 +1430,7 @@
                                 <p>
                                   제습
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">습도 높은 날에도 공간을 보송하게
                                     </span>
                                   </span>
@@ -1459,7 +1446,7 @@
                                 <p>
                                   AI음성인식
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">모드 추천부터 실내 환경 안내까지, “Hi LG” 대화로 쉽고 빠른 제어</span>
                                   </span>
                                 </p>
@@ -1470,9 +1457,9 @@
                                     alt="간접바람" />
                                 </div>
                                 <p>
-                                  간접바람
+                                  간접바람 없음
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">직접 닿지 않는 냉기로 공간 전체를 쾌적하게
                                     </span>
                                   </span>
@@ -1484,9 +1471,9 @@
                                     alt="간접바람" />
                                 </div>
                                 <p>
-                                  간접바람
+                                  간접바람 없음
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">직접 닿지 않는 냉기로 공간 전체를 쾌적하게
                                     </span>
                                   </span>
@@ -1498,9 +1485,9 @@
                                     alt="간접바람" />
                                 </div>
                                 <p>
-                                  간접바람
+                                  간접바람 없음
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">직접 닿지 않는 냉기로 공간 전체를 쾌적하게
                                     </span>
                                   </span>
@@ -1516,7 +1503,7 @@
                                 <p>
                                   AI수면
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">숙면 중 깨지 않도록 사용 패턴을 분석해 최적의 온도·습도·기류로 맞춤
                                     </span>
                                   </span>
@@ -1528,9 +1515,9 @@
                                     alt="아이스쿨파워" />
                                 </div>
                                 <p>
-                                  아이스쿨파워
+                                  아이스쿨파워 없음
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">최대 4°C 더 낮은 강력한 바람으로 더 빠르고
                                       시원하게
                                     </span>
@@ -1543,9 +1530,9 @@
                                     alt="아이스쿨파워" />
                                 </div>
                                 <p>
-                                  아이스쿨파워
+                                  아이스쿨파워 없음
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">최대 4°C 더 낮은 강력한 바람으로 더 빠르고
                                       시원하게
                                     </span>
@@ -1558,9 +1545,9 @@
                                     alt="아이스쿨파워" />
                                 </div>
                                 <p>
-                                  아이스쿨파워
+                                  아이스쿨파워 없음
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">최대 4°C 더 낮은 강력한 바람으로 더 빠르고
                                       시원하게
                                     </span>
@@ -1577,7 +1564,7 @@
                                 <p>
                                   절전
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">나에게 맞는 절전 모드로 전력 소비를 똑똑하게
                                     </span>
                                   </span>
@@ -1591,7 +1578,7 @@
                                 <p>
                                   절전
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">나에게 맞는 절전 모드로 전력 소비를 똑똑하게
                                     </span>
                                   </span>
@@ -1605,7 +1592,7 @@
                                 <p>
                                   절전
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">나에게 맞는 절전 모드로 전력 소비를 똑똑하게
                                     </span>
                                   </span>
@@ -1619,7 +1606,7 @@
                                 <p>
                                   절전
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">나에게 맞는 절전 모드로 전력 소비를 똑똑하게
                                     </span>
                                   </span>
@@ -1631,7 +1618,7 @@
                       </div>
                     </div>
                     <div class="btn-wrap">
-                      <a href="https://www.lge.co.kr/category/air-conditioners?subCateId=CT50000135" target="_blank"
+                      <a href="https://www.lge.co.kr/category/air-conditioners?subCateId=CT50000135" target="_blank" rel="noopener" aria-label="새 창에서 열림"
                         class="btn-product">제품 보러 가기</a>
                     </div>
                   </div>
@@ -1664,26 +1651,22 @@
                           <tr class="width-100">
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_35.png"
-                                  alt="LG 듀얼쿨 벽걸이 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_35.png" alt="LG 듀얼쿨 벽걸이 에어컨 제품 이미지" />
                               </div>
                             </td>
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_36.png"
-                                  alt="LG 듀얼쿨 사계절 벽걸이 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_36.png" alt="LG 듀얼쿨 사계절 벽걸이 에어컨 제품 이미지" />
                               </div>
                             </td>
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_37.png"
-                                  alt="LG 일반 벽걸이 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_37.png" alt="LG 일반 벽걸이 에어컨 제품 이미지" />
                               </div>
                             </td>
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_38.png"
-                                  alt="LG 일반 사계절 벽걸이 에어컨 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_38.png" alt="LG 일반 사계절 벽걸이 에어컨 제품 이미지" />
                               </div>
                             </td>
                           </tr>
@@ -1833,7 +1816,7 @@
                     ">
                       <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                       <div class="bubble">
-                        <a href="https://www.lge.co.kr/air-conditioners/wq05fewcs1" target="_blank"><span>LG 휘센 오브제컬렉션
+                        <a href="https://www.lge.co.kr/air-conditioners/wq05fewcs1" target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 휘센 오브제컬렉션
                             엣지 창호형 에어컨</span></a>
                         <p>창호형 에어컨<span></span>냉방면적 16.5m² 이상</p>
                       </div>
@@ -1912,7 +1895,7 @@
                                 <p>
                                   절전&스마트케어
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">절전모드와 목표사용량 설정으로 소비전력 효율적 관리<br />
                                       나에게 쾌적한 온도를 맞춰주는 에어컨
                                     </span>
@@ -1929,7 +1912,7 @@
                                 <p>
                                   장마철 맞춤 에어컨
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">빗물이 스며들지 않도록 설계되고 강력제습으로 장마철에도 쾌적하게
                                     </span>
                                   </span>
@@ -1945,7 +1928,7 @@
                                 <p>
                                   깨끗한 에어컨
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">사용 후 맞춤건조로 내부 습기를 제거하고 클린바스켓을 항균 처리해 위생적으로 사용
                                     </span>
                                   </span>
@@ -1961,7 +1944,7 @@
                                 <p>
                                   인테리어 에어컨
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">오브제컬렉션 디자인과 깔끔한 마감키트로 공간에 조화로운 감각적인 에어컨
                                     </span>
                                   </span>
@@ -1971,7 +1954,7 @@
                             <tr class="product-btn">
                               <td>
                                 <a href="https://www.lge.co.kr/category/air-conditioners?subCateId=CT50114000&filterProduct=AT0000000114:KY0000000991:03"
-                                  target="_blank" class="btn-product">제품 보러 가기</a>
+                                  target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품 보러 가기</a>
                               </td>
                             </tr>
                           </tbody>
@@ -2002,8 +1985,7 @@
                           <tr class="width-100">
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_39.png"
-                                  alt="LG 창호형 에어컨 대표 모델 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_39.png" alt="LG 창호형 에어컨 대표 모델 제품 이미지" />
                               </div>
                             </td>
                           </tr>
@@ -2079,7 +2061,7 @@
                     ">
                       <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                       <div class="bubble">
-                        <a href="https://www.lge.co.kr/air-conditioners/pq07fdwds-akor" target="_blank"><span>LG 휘센
+                        <a href="https://www.lge.co.kr/air-conditioners/pq07fdwds-akor" target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 휘센
                             오브제컬렉션 이동식 에어컨 (듀얼호스)</span></a>
                         <p>이동식 에어컨<span></span>냉방면적 23m² 이상</p>
                       </div>
@@ -2153,7 +2135,7 @@
                                 <p>
                                   듀얼 인버터 & 에너지 1등급
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">듀얼 인버터 기술이 적용된 1등급 에너지소비효율로 전기료 걱정을 덜어주는 냉방</span>
                                   </span>
                                 </p>
@@ -2168,7 +2150,7 @@
                                 <p>
                                   듀얼호스
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">싱글 호스 대비 실내 온도를 빠르게 낮추고 소비전력량을 줄여 효율적으로 사용</span>
                                   </span>
                                 </p>
@@ -2183,7 +2165,7 @@
                                 <p>
                                   절전
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">절전모드와 목표사용량 설정으로 소비젼력 효율적 관리</span>
                                   </span>
                                 </p>
@@ -2198,7 +2180,7 @@
                                 <p>
                                   편리한 사용성
                                   <span class="des">
-                                    <button class="info pc-only"></button>
+                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                     <span class="bubble">설치는 간편하게 손쉬운 이동으로 편리한 사용</span>
                                   </span>
                                 </p>
@@ -2208,7 +2190,7 @@
                             <td>
                               <a
                                 href="https://www.lge.co.kr/category/air-conditioners?subCateId=CT50114000"
-                                target="_blank"
+                                target="_blank" rel="noopener" aria-label="새 창에서 열림"
                                 class="btn-product"
                                 >제품 보러 가기</a
                               >
@@ -2242,8 +2224,7 @@
                           <tr class="width-100">
                             <td>
                               <div class="procuct-img">
-                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_40.png"
-                                  alt="LG 이동식 에어컨 대표 모델 제품 이미지" />
+                                <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_001_40.png" alt="LG 이동식 에어컨 대표 모델 제품 이미지" />
                               </div>
                             </td>
                           </tr>
@@ -2372,8 +2353,7 @@
                             </tr>
                           </table>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_01.jpg"
-                              alt="거실에 설치된 LG 스탠드 에어컨 옆에서 태블릿을 보는 모습" />
+                            <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_01.jpg" alt="거실에 설치된 LG 스탠드 에어컨 옆에서 태블릿을 보는 모습" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -2419,8 +2399,7 @@
                             </tr>
                           </table>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_02.jpg"
-                              alt="거실 벽면에 설치된 LG 벽걸이 에어컨 제품 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_02.jpg" alt="거실 벽면에 설치된 LG 벽걸이 에어컨 제품 이미지" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -2455,10 +2434,10 @@
                         </p>
                       </div>
                       <div class="img">
-                        <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_03.jpg"
-                          alt="스탠드 에어컨 바람이 퍼지는 공간에서 책을 읽는 모습" class="pc-only" />
-                        <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_M10_101_01.jpg"
-                          alt="스탠드 에어컨 바람이 퍼지는 공간에서 책을 읽는 모습" class="mobile-only" />
+                        <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_03.jpg" alt="스탠드 에어컨 바람이 퍼지는 공간에서 책을 읽는 모습"
+                          class="pc-only" />
+                        <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_M10_101_01.jpg" alt="스탠드 에어컨 바람이 퍼지는 공간에서 책을 읽는 모습"
+                          class="mobile-only" />
                       </div>
                     </div>
                   </div>
@@ -2579,8 +2558,7 @@
                             편안한 밤을 위해 잠결에 더워서 혹은 추워서 깨지 않도록 사용하면 할 수록 사용패턴을 분석하여 최적의 온도, 습도, 기류를 맞춰줍니다.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_04.jpg"
-                              alt="스마트폰 앱에서 AI 수면 기능의 활동량 감지, 시간 설정, 수면 온도 구간을 확인하는 화면" />
+                            <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_04.jpg" alt="스마트폰 앱에서 AI 수면 기능의 활동량 감지, 시간 설정, 수면 온도 구간을 확인하는 화면" />
                           </div>
                           <p class="des">
                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -2685,16 +2663,16 @@
                         <div class="point-slider autoplay-slider-wrap">
                           <div class="slider">
                             <div>
-                              <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_05.jpg"
-                                alt='스탠드 에어컨이 설치된 식탁 옆에서 여성이 음식을 준비하는 모습' class="pc-only" />
-                              <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_M10_101_02.jpg"
-                                alt='스탠드 에어컨이 설치된 식탁 옆에서 여성이 음식을 준비하는 모습' class="mobile-only" />
+                              <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_05.jpg" alt='스탠드 에어컨이 설치된 식탁 옆에서 여성이 음식을 준비하는 모습'
+                                class="pc-only" />
+                              <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_M10_101_02.jpg" alt='스탠드 에어컨이 설치된 식탁 옆에서 여성이 음식을 준비하는 모습'
+                                class="mobile-only" />
                             </div>
                             <div>
-                              <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_05a.jpg"
-                                alt='스탠드 에어컨이 설치된 거실에서 여성이 운동하는 모습' class="pc-only" />
-                              <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_M10_101_02a.jpg"
-                                alt='스탠드 에어컨이 설치된 거실에서 여성이 운동하는 모습' class="mobile-only" />
+                              <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_P10_101_05a.jpg" alt='스탠드 에어컨이 설치된 거실에서 여성이 운동하는 모습'
+                                class="pc-only" />
+                              <img src="/kr/story/buying-guide/2025/img/air-conditioning/img_M10_101_02a.jpg" alt='스탠드 에어컨이 설치된 거실에서 여성이 운동하는 모습'
+                                class="mobile-only" />
                             </div>
                           </div>
                           <div class="slider-controls">
@@ -3457,7 +3435,7 @@
                   </h3>
                   <p>에어컨, 궁금했던 모든 것에 답해 드려요.</p>
                   <div class="btn-wrap">
-                    <a target="_blank" href="https://www.lge.co.kr/story/useful-tip/air-conditioners-faq">FAQ</a>
+                    <a target="_blank" rel="noopener" aria-label="새 창에서 열림" href="https://www.lge.co.kr/story/useful-tip/air-conditioners-faq">FAQ</a>
                   </div>
                 </div>
                 <div class="tip-subscribe">
@@ -3466,7 +3444,7 @@
                   </h3>
                   <p>에어컨을 정기적으로 구독하고 싶다면?</p>
                   <div class="btn-wrap">
-                    <a target="_blank"
+                    <a target="_blank" rel="noopener" aria-label="새 창에서 열림"
                       href="https://www.lge.co.kr/care-solutions/cstmSubItemIntro?categoryId=CT50080000">구독 상품</a>
                   </div>
                 </div>
@@ -3477,7 +3455,7 @@
                   </h3>
                   <p>지금 가장 인기 있는 에어컨 확인해 보세요!</p>
                   <div class="btn-wrap">
-                    <a target="_blank"
+                    <a target="_blank" rel="noopener" aria-label="새 창에서 열림"
                       href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000130&categoryId=CT50000131&categoryName=%EC%97%90%EC%96%B4%EC%BB%A8">베스트
                       랭킹</a>
                   </div>
