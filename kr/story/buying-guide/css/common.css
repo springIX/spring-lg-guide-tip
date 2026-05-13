@@ -2476,3 +2476,88 @@
     background-image: url(/kr/story/buying-guide/2025/img/ic16_arrow_right_black_bold.svg);
   }
 }
+
+/*  구매포인트 */
+/* .buying-guide-special .subtab-wrap .point-wrap .content .des + .btn-collapse-toggle { } */
+.buying-guide-special
+  .subtab-wrap
+  .point-wrap
+  .content
+  .btn-collapse-toggle:after {
+  background-image: url(/kr/story/buying-guide/2025/img/ic32_arrow_up_bold.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+}
+.buying-guide-special
+  .subtab-wrap
+  .point-wrap
+  .content
+  .btn-collapse-toggle.open:after {
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+}
+.buying-guide-special
+  .subtab-wrap
+  .point-wrap
+  .content
+  .des
+  + .btn-collapse-toggle {
+  margin-top: 8px;
+}
+.buying-guide-special .subtab-wrap .point-wrap .content .collapse-content {
+  padding-left: 8px;
+}
+.buying-guide-special
+  .subtab-wrap
+  .point-wrap
+  .content
+  .collapse-content
+  p
+  + p {
+  margin-top: 12px;
+}
+
+.buying-guide-special .point-box .colWrap {
+}
+.buying-guide-special .point-box .colWrap .col > article,
+.buying-guide-special .point-box .colWrap .col > div {
+  border-color: #ddd;
+}
+.buying-guide-special .point-box .colWrap .col .content-wrap {
+}
+.buying-guide-special .point-box .colWrap .col p {
+  letter-spacing: -0.015em;
+}
+.buying-guide-special .collapse-content-disc > li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.2em;
+}
+.buying-guide-special .collapse-content-disc > li:before {
+  content: "*";
+  flex-shrink: 0;
+}
+.buying-guide-special .collapse-content-disc > li {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #444;
+}
+.buying-guide-special .collapse-content-disc > li > p {
+  margin: 0;
+}
+.buying-guide-special .point-box .colWrap .col .collapse-content {
+  margin-top: 20px;
+}
+.buying-guide-special .point-box .colWrap .col .collapse-content-disc > li > p {
+  margin-top: 0;
+  font-size: inherit;
+}
+
+@media (max-width: 768px) {
+  .buying-guide-special .subtab-wrap .point-wrap .content .collapse-content {
+    padding: 0;
+  }
+}
