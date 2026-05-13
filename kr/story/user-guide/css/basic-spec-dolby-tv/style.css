@@ -413,7 +413,8 @@
 #gjw001 .guide-item {
   background-color: #f6f6f6;
   border-radius: 15px;
-  padding: 30px;
+  /* padding: 30px; */
+      padding: 60px 128px 48px 128px;
   text-align: left;
   flex: 1;
 }
@@ -669,6 +670,7 @@
   #gjw001 .g-box2 .check-list div {
     padding-top: 14px;
     padding-bottom: 12px;
+    padding-left: 0;
   }
   #gjw001 .g-box2 .check-list li:last-child div {
     padding-bottom: 0;
