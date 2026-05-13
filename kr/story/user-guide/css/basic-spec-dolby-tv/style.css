@@ -58,6 +58,9 @@
   text-align: center;
 }
 
+#gjw001 .mt-0 {
+  margin-top: 0px;
+}
 #gjw001 .mt-20 {
   margin-top: 20px;
 }
@@ -472,6 +475,7 @@
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 20px;
+  line-height: 1.5;
 }
 
 #gjw001 .btn-wrap {
@@ -561,7 +565,9 @@
   #gjw001 .pc-br {
     display: none;
   }
-
+#gjw001 .mt-0 {
+  margin-top: 0px;
+}
   #gjw001 .mt-108 {
     margin-top: 82px;
   }
@@ -665,7 +671,7 @@
   }
 
   #gjw001 .check-list div {
-    padding: 10px 0 16px 10px;
+    padding: 10px 0 16px 0px;
   }
   #gjw001 .g-box2 .check-list div {
     padding-top: 14px;
