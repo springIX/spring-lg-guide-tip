@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", () => {
         };
 
         const openDialog = (trigger) => {
-        const wrapper = trigger.closest(".des");
+        const wrapper = trigger.closest(".tooltip-desc");
         if (!wrapper) return;
 
         const sourceClass = trigger.dataset.mobileTrigger || trigger.getAttribute("aria-controls");

@@ -159,9 +159,9 @@
                 사용 목적에 따라 꼭 맞는 제품을 골라보세요.
               </h3>
               <div id="vertical-scroll-tab" class="tab-wrap" style="--btn-width: 370px; --btn-m-width: 270px">
-                <button class="nav nav-left disabled" aria-label="왼쪽으로 이동">
-                  &lt;</button>
-                    <button class="nav nav-right" aria-label="오른쪽으로 이동">&gt;</button>
+                <button class="nav nav-left disabled">
+                  < </button>
+                    <button class="nav nav-right">></button>
                     <div class="vertical-scroll-box">
                       <!-- <button
                   class="tab-img active"
@@ -213,12 +213,11 @@
                       --mobile-left: 67%;
                     "
                   >
-                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
+                    <div class="dot"><span></span></div>
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/notebook/16zd95u-gx79k"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span>LG 그램 Pro AI</span></a
+                        target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 그램 Pro AI</span></a
                       >
                       <p>내장그래픽<span></span>애로우레이크</p>
                     </div>
@@ -249,7 +248,7 @@
                       --mobile-top: 45%;
                       --mobile-left: 65.5%;
                     ">
-                      <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
+                      <div class="dot"><span></span></div>
                       <div class="bubble">
                         <a href="https://www.lge.co.kr/notebook/16z95u-gu7bk" target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 그램 Pro AI
                             Copilot+PC</span></a>
@@ -280,7 +279,7 @@
                       --mobile-top: 44%;
                       --mobile-left: 64.5%;
                     ">
-                      <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
+                      <div class="dot"><span></span></div>
                       <div class="bubble">
                         <a href="https://www.lge.co.kr/notebook/16t95tp-ka5hk" target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 그램 Pro 360
                             AI</span></a>
@@ -309,7 +308,7 @@
                       --mobile-left: 65.5%;
                       --mobile-m-left: -20px;
                     ">
-                      <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
+                      <div class="dot"><span></span></div>
                       <div class="bubble">
                         <a href="https://www.lge.co.kr/notebook/15z95u-gs5hk" target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 그램 AI
                             Copilot+PC</span></a>
@@ -336,7 +335,7 @@
                       --mobile-top: 44%;
                       --mobile-left: 67.5%;
                     ">
-                      <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
+                      <div class="dot"><span></span></div>
                       <div class="bubble">
                         <a href="https://www.lge.co.kr/notebook/15u50u-ga5vk" target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 그램북 AI</span></a>
                         <p>내장그래픽<span></span>메테오레이크</p>
@@ -380,9 +379,6 @@
                   </div>
                   <div class="summary-table">
                     <table>
-                      <caption class="blind">
-                        LG 노트북 대표 모델 비교표 - LG gram Pro AI, LG gram Pro AI Copilot+ PC, LG gram Pro 360 AI, LG gram AI Copilot+ PC, LG gram Book AI 라인업의 주요 특징과 제품 링크 정보를 비교합니다.
-                      </caption>
                       <thead>
                         <tr class="procuct-name">
                           <th>
@@ -406,15 +402,15 @@
                             <p>유용한 기능만 모아 쉽고 빠르게</p>
                           </th>
                         </tr>
-                        <tr class="procuct-no">
-                          <th scope="col">17Z90TR-ED7HK</th>
-                          <th scope="col">16Z95U-GU7BK</th>
-                          <th scope="col">16T95TP-KA5HK</th>
-                          <th scope="col">15Z95U-GS5HK</th>
-                          <th scope="col">15U50U-GROWK</th>
-                        </tr>
                       </thead>
                       <tbody>
+                        <tr class="procuct-no">
+                          <td>17Z90TR-ED7HK</td>
+                          <td>16Z95U-GU7BK</td>
+                          <td>16T95TP-KA5HK</td>
+                          <td>15Z95U-GS5HK</td>
+                          <td>15U50U-GROWK</td>
+                        </tr>
                         <tr>
                           <td>
                             <div class="procuct-img">
@@ -478,9 +474,9 @@
                               <img src="/kr/story/buying-guide/2025/img/notebook/ic48_15_Aerominum.svg" alt="에어로미늄" />
                             </div>
                             <p>
-                              에어로미늄 없음
+                              에어로미늄
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">무게는 가볍지만 메탈의 고급스러움과 강도를 갖춘 신소재</span>
                               </span>
                             </p>
@@ -492,7 +488,7 @@
                             <p>
                               에어로미늄
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">무게는 가볍지만 메탈의 고급스러움과 강도를 갖춘 신소재</span>
                               </span>
                             </p>
@@ -502,9 +498,9 @@
                               <img src="/kr/story/buying-guide/2025/img/notebook/ic48_15_Aerominum.svg" alt="에어로미늄" />
                             </div>
                             <p>
-                              에어로미늄 없음
+                              에어로미늄
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">무게는 가볍지만 메탈의 고급스러움과 강도를 갖춘 신소재</span>
                               </span>
                             </p>
@@ -514,9 +510,9 @@
                               <img src="/kr/story/buying-guide/2025/img/notebook/ic48_15_Aerominum.svg" alt="에어로미늄" />
                             </div>
                             <p>
-                              에어로미늄 없음
+                              에어로미늄
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">무게는 가볍지만 메탈의 고급스러움과 강도를 갖춘 신소재</span>
                               </span>
                             </p>
@@ -526,9 +522,9 @@
                               <img src="/kr/story/buying-guide/2025/img/notebook/ic48_15_Aerominum.svg" alt="에어로미늄" />
                             </div>
                             <p>
-                              에어로미늄 없음
+                              에어로미늄
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">무게는 가볍지만 메탈의 고급스러움과 강도를 갖춘 신소재</span>
                               </span>
                             </p>
@@ -543,7 +539,7 @@
                             <p>
                               NVIDIA® GeForce <br />RTX™ 5050
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">게임, 그래픽 편집과 같은 고부하 작업에서도 부드러운 성능을 제공</span>
                               </span>
                             </p>
@@ -556,7 +552,7 @@
                             <p>
                               AMD Radeon™ Graphics
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">CPU 통합 내장형 GPU로 문서와 영상, 일상 작업들을 부드럽게 처리</span>
                               </span>
                             </p>
@@ -569,7 +565,7 @@
                             <p>
                               Intel Arc 130T GPU
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">영상 재생·사진 편집 같은 일상 그래픽 작업에서 부드러운 성능을 제공</span>
                               </span>
                             </p>
@@ -582,7 +578,7 @@
                             <p>
                               AMD Radeon™ Graphics
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">영상 재생·문서 작업 등에 적합하며 가벼운 게임과 그래픽 작업까지 효율적으로 처리</span>
                               </span>
                             </p>
@@ -595,7 +591,7 @@
                             <p>
                               Intel® Graphics
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">문서·영상·웹 작업과 같은 일상적인 그래픽 처리부터 가벼운 2D, 3D 작업도 부드럽게 처리</span>
                               </span>
                             </p>
@@ -609,7 +605,7 @@
                             <p>
                               인텔® 코어™ Ultra 7 <br />프로세서 255H
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">고속 멀티태스킹과 콘텐츠 작업, AI 기능을 균형 있게 처리할 수 있도록 설계</span>
                               </span>
                             </p>
@@ -621,7 +617,7 @@
                             <p>
                               AMD Ryzen™ AI 7 450
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">빠른 문서, 웹, 멀티태스킹 성능과 로컬 AI 기능도 부드럽고 효율적으로 처리</span>
                               </span>
                             </p>
@@ -633,7 +629,7 @@
                             <p>
                               인텔® 코어™ Ultra 5 <br />프로세서 225H
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">일상 작업부터 멀티태스킹·콘텐츠 편집까지 빠르고 효율적으로 처리</span>
                               </span>
                             </p>
@@ -645,7 +641,7 @@
                             <p>
                               AMD Ryzen™ AI 5 435
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">문서·웹·멀티태스킹과 AI 가속 기능을 효율적으로 처리</span>
                               </span>
                             </p>
@@ -657,7 +653,7 @@
                             <p>
                               인텔® 코어™ Ultra 5 <br />프로세서 115U
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">일상 작업과 멀티태스킹, AI 기반 기능까지 효율적으로 처리</span>
                               </span>
                             </p>
@@ -671,7 +667,7 @@
                             <p>
                               gram AI
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">EXAONE 3.5 기반의 온디바이스 AI 사용 가능</span>
                               </span>
                             </p>
@@ -685,7 +681,7 @@
                             <p>
                               gram AI X Copilot+ PC
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">멀티 AI 탑재로 자유로운 솔루션 선택 가능</span>
                               </span>
                             </p>
@@ -697,7 +693,7 @@
                             <p>
                               gram AI
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">EXAONE 3.5 기반의 온디바이스 AI 사용 가능</span>
                               </span>
                             </p>
@@ -711,7 +707,7 @@
                             <p>
                               gram AI X Copilot+ PC
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">멀티 AI 탑재로 자유로운 솔루션 선택 가능</span>
                               </span>
                             </p>
@@ -723,7 +719,7 @@
                             <p>
                               gram AI
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">EXAONE 3.5 기반의 온디바이스 AI 사용 가능</span>
                               </span>
                             </p>
@@ -737,7 +733,7 @@
                             <p>
                               돌비 애트모스 사운드
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">공간을 가득 채우는 사운드로 생생하게</span>
                               </span>
                             </p>
@@ -749,7 +745,7 @@
                             <p>
                               돌비 애트모스 사운드
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">공간을 가득 채우는 사운드로 생생하게</span>
                               </span>
                             </p>
@@ -761,7 +757,7 @@
                             <p>
                               돌비 애트모스 사운드
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">공간을 가득 채우는 사운드로 생생하게</span>
                               </span>
                             </p>
@@ -773,7 +769,7 @@
                             <p>
                               돌비 애트모스 사운드
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">공간을 가득 채우는 사운드로 생생하게</span>
                               </span>
                             </p>
@@ -785,7 +781,7 @@
                             <p>
                               돌비 애트모스 사운드
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">공간을 가득 채우는 사운드로 생생하게</span>
                               </span>
                             </p>
@@ -800,7 +796,7 @@
                             <p>
                               초경량 gram
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">고성능과 AI를 담고도 여전히 gram답게, 가볍게</span>
                               </span>
                             </p>
@@ -813,7 +809,7 @@
                             <p>
                               초경량 gram
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">고성능과 AI를 담고도 여전히 gram답게, 가볍게</span>
                               </span>
                             </p>
@@ -826,7 +822,7 @@
                             <p>
                               초경량 gram
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">고성능과 AI를 담고도 여전히 gram답게, 가볍게</span>
                               </span>
                             </p>
@@ -839,7 +835,7 @@
                             <p>
                               초경량 gram
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">고성능과 AI를 담고도 여전히 gram답게, 가볍게</span>
                               </span>
                             </p>
@@ -852,7 +848,7 @@
                             <p>
                               데일리 gram
                               <span class="des">
-                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                <button class="info pc-only"></button>
                                 <span class="bubble">언제든 편하게 쓰는 데일리 gram</span>
                               </span>
                             </p>
@@ -860,23 +856,23 @@
                         </tr>
                         <tr class="product-btn">
                           <td>
-                            <a href="https://www.lge.co.kr/notebook/16zd95u-gx79k" target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                              class="btn-product">제품 보러 가기</a>
+                            <a href="https://www.lge.co.kr/notebook/16zd95u-gx79k" target="_blank"
+                              class="btn-product" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
                           </td>
                           <td>
-                            <a href="https://www.lge.co.kr/notebook/16z95u-gu7bk" target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품
+                            <a href="https://www.lge.co.kr/notebook/16z95u-gu7bk" target="_blank" class="btn-product" rel="noopener" aria-label="새 창에서 열림">제품
                               보러 가기</a>
                           </td>
                           <td>
-                            <a href="https://www.lge.co.kr/notebook/16t95tp-ka5hk" target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                              class="btn-product">제품 보러 가기</a>
+                            <a href="https://www.lge.co.kr/notebook/16t95tp-ka5hk" target="_blank"
+                              class="btn-product" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
                           </td>
                           <td>
-                            <a href="https://www.lge.co.kr/notebook/15z95u-gs5hk" target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품
+                            <a href="https://www.lge.co.kr/notebook/15z95u-gs5hk" target="_blank" class="btn-product" rel="noopener" aria-label="새 창에서 열림">제품
                               보러 가기</a>
                           </td>
                           <td>
-                            <a href="https://www.lge.co.kr/notebook/15u50u-growk?utm_medium=banner&utm_source=naverbs&utm_campaign=20200301_pc_gram_bs_bc&utm_content=Dthumb2-5&utm_term=LG%EA%B7%B8%EB%9E%A8" target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품
+                            <a href="https://www.lge.co.kr/notebook/15u50u-growk?utm_medium=banner&utm_source=naverbs&utm_campaign=20200301_pc_gram_bs_bc&utm_content=Dthumb2-5&utm_term=LG%EA%B7%B8%EB%9E%A8" target="_blank" class="btn-product" rel="noopener" aria-label="새 창에서 열림">제품
                               보러 가기</a>
                           </td>
                         </tr>
@@ -891,9 +887,6 @@
                   </h4>
                   <div class="table-wrap vertical-scroll-box ">
                     <table>
-                      <caption class="blind">
-                        LG 노트북 모델 라인업 스펙 비교표 - LG 그램 Pro AI, LG 그램 AI, LG 그램, LG 울트라PC 라인업의 화면, 성능, 무게, 배터리와 제품 링크 정보를 비교합니다.
-                      </caption>
                       <colgroup>
                         <col class="col1" />
                         <col />
@@ -947,19 +940,19 @@
                         </tr>
                         <tr>
                           <td>
-                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_001_12.png" alt="외장 그래픽을 탑재한 LG 그램 Pro 2025 제품 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_001_12.png" alt="" />
                           </td>
                           <td>
-                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_001_13.png" alt="내장 그래픽을 탑재한 LG 그램 Pro AI 제품 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_001_13.png" alt="" />
                           </td>
                           <td>
-                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_001_14.png" alt="360도 회전 화면을 갖춘 LG 그램 Pro 360 AI 제품 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_001_14.png" alt="" />
                           </td>
                           <td>
-                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_001_15.png" alt="화이트 색상의 LG 그램 AI 제품 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_001_15.png" alt="" />
                           </td>
                           <td>
-                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_001_16.png" alt="블랙 색상의 LG 그램 Book AI 제품 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_001_16.png" alt="" />
                           </td>
                         </tr>
                       </thead>
@@ -1289,7 +1282,7 @@
                               target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
                           </div>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_01.jpg" alt="LG 노트북에서 영상 편집, 디자인, 코드 작업 등 고성능 그래픽 작업을 실행하는 화면" />
+                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_01.jpg" alt="" />
                           </div>
                           <button class="btn-collapse-toggle">
                             <span>* 세부 정보​</span>
@@ -1314,8 +1307,8 @@
                             있어요.
                           </p>
                           <div class="btn-wrap">
-                            <a class="btn-product" target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                              href="https://www.lge.co.kr/category/notebook?filterProduct=AT0000000087:KY0000003767:01,AT0000000087:KY0000003766:01">제품
+                            <a class="btn-product" target="_blank"
+                              href="https://www.lge.co.kr/category/notebook?filterProduct=AT0000000087:KY0000003767:01,AT0000000087:KY0000003766:01" rel="noopener" aria-label="새 창에서 열림">제품
                               보러 가기</a>
                           </div>
                           <div class="img">
@@ -1404,7 +1397,7 @@
                             즐길 수 있어요. 최신 인텔 아키텍처가 CPU와 GPU 연산을 효율적으로 처리해 콘텐츠 제작과 멀티 태스킹에서도 빠르게 응답하고 속도를 안정적으로 유지할 수 있어요.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_20.jpg" alt="Intel Core Ultra 시리즈 3 그래픽 성능 향상을 안내하는 칩셋 그래픽" />
+                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_20.jpg" alt="" />
                           </div>
                         </div>
                         <div class="content">
@@ -1413,7 +1406,7 @@
 
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_20.jpg" alt="Intel Core Ultra 시리즈 3 그래픽 성능 향상을 안내하는 칩셋 그래픽" />
+                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_20.jpg" alt="" />
                           </div>
                         </div> -->
                       </div>
@@ -1444,7 +1437,7 @@
                               target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
                           </div>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_04.jpg" alt="LG 노트북 화면에 게임 장면과 NVIDIA DLSS 4, Reflex 2, Studio 기능 정보가 표시된 화면" />
+                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_04.jpg" alt="" />
                           </div>
                           <button class="btn-collapse-toggle">
                             <span>* NVIDIA® GeForce RTX™ 5050</span>
@@ -1508,7 +1501,7 @@
                             gram Link와 연동해 LG TV와 스마트 모니터를 연결하고, 다양한 가전 제품까지 제어할 수 있어 일상과 업무를 아우르는 스마트한 생산성과 편리함을 제공합니다.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_06.jpg" alt="gram AI 로고가 표시된 그래픽 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_06.jpg" alt="" />
                           </div>
                         </div>
                         <div class="content">
@@ -1635,7 +1628,7 @@
                             ‘Studio Effects’ 기능으로 다양한 상황이나 용도에 맞게 편리한 활용성을 더해줍니다.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_10.jpg" alt="Copilot+ PC 로고가 표시된 그래픽 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_10.jpg" alt="" />
                           </div>
                         </div>
                         <div class="content">
@@ -1644,7 +1637,7 @@
                             Copliot + 를 통해 입력한 이미지와 텍스트를 바탕으로 원하는 결과물을 쉽고 빠르게 도출할 수 있어요.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_19.jpg" alt="LG 노트북 화면에서 Cocreator로 이미지를 생성하는 화면" />
+                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_19.jpg" alt="" />
                           </div>
                           <button class="btn-collapse-toggle">
                             <span>* 세부 정보</span>
@@ -1663,7 +1656,7 @@
 
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_11.jpg" alt="LG 노트북 화면에서 화상 영상에 라이브 캡션이 표시된 화면" />
+                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_11.jpg" alt="" />
                           </div>
                           <button class="btn-collapse-toggle">
                             <span>* 세부 정보</span>
@@ -1681,7 +1674,7 @@
                             화상 통화 시 인물을 중앙에 고정하거나 조명과 소음을 자동으로 조절해 더 집중할 수 있는 환경을 연출해 줘요.
                           </p>
                           <div class="img">
-                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_12.jpg" alt="LG 노트북 화면에서 화상 통화와 Studio Effects 설정 창이 표시된 화면" />
+                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_12.jpg" alt="" />
                           </div>
                           <button class="btn-collapse-toggle">
                             <span>* 세부 정보</span>
@@ -1792,21 +1785,21 @@
                                   <div class="autoplay-slider-wrap">
                                     <div class="slider">
                                       <div>
-                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_14.jpg" alt="LG 노트북, 스마트폰, 태블릿이 LG gram Link와 My ThinQ로 연동된 화면" />
+                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_14.jpg" alt="" />
                                       </div>
                                       <div>
-                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_16.jpg" alt="LG 노트북 화면에 파일 공유를 위한 사진 목록이 표시된 화면" />
+                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_16.jpg" alt="" />
                                       </div>
                                       <div>
-                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_17.jpg" alt="LG 노트북과 스마트폰이 연동되어 통화 기능을 사용하는 화면" />
+                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_17.jpg" alt="" />
                                       </div>
                                       <div>
-                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_18.jpg" alt="LG 노트북 화면에 My ThinQ 가전 제어 대시보드가 표시된 화면" />
+                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_18.jpg" alt="" />
                                       </div>
                                     </div>
                                     <div class="slider-controls">
                                       <button class="btn-play" data-state="playing">
-                                        일시정지
+                                        Pause
                                       </button>
                                       <div class="counter">
                                         <span class="current">1</span>
@@ -1857,7 +1850,7 @@
                               </div>
                               <div>
                                 <div class="media-wrap">
-                                  <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_15.jpg" alt="LG 노트북 화면에 Secure Lock 안내와 잠금 화면이 표시된 모습" />
+                                  <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_15.jpg" alt="" />
                                 </div>
                               </div>
                             </div>
@@ -1932,7 +1925,7 @@
                   </h3>
                   <p>노트북, 궁금했던 모든 것에 답해 드려요.</p>
                   <div class="btn-wrap">
-                    <a target="_blank" rel="noopener" aria-label="새 창에서 열림" href="https://www.lge.co.kr/story/useful-tip/notebook-faq">FAQ</a>
+                    <a target="_blank" href="https://www.lge.co.kr/story/useful-tip/notebook-faq" rel="noopener" aria-label="새 창에서 열림">FAQ</a>
                   </div>
                 </div>
                 <div class="tip-subscribe">
@@ -1941,7 +1934,7 @@
                   </h3>
                   <p>노트북을 정기적으로 구독하고 싶다면?</p>
                   <div class="btn-wrap">
-                    <a target="_blank" rel="noopener" aria-label="새 창에서 열림" href="https://www.lge.co.kr/category/care-solutions/notebook">구독 상품</a>
+                    <a target="_blank" href="https://www.lge.co.kr/category/care-solutions/notebook" rel="noopener" aria-label="새 창에서 열림">구독 상품</a>
                   </div>
                 </div>
                 <div class="tip-best">
@@ -1951,8 +1944,8 @@
                   </h3>
                   <p>지금 가장 인기 있는 노트북 확인해 보세요!</p>
                   <div class="btn-wrap">
-                    <a target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                      href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000045&categoryId=CT50000046&categoryName=%EB%85%B8%ED%8A%B8%EB%B6%81">베스트
+                    <a target="_blank"
+                      href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000045&categoryId=CT50000046&categoryName=%EB%85%B8%ED%8A%B8%EB%B6%81" rel="noopener" aria-label="새 창에서 열림">베스트
                       랭킹</a>
                   </div>
                 </div>
