@@ -128,26 +128,19 @@
                                         --mobile-m-left: 28px;
                                     "
                                 >
-                                    <div class="dot"><span></span></div>
+                                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                                     <div class="bubble">
-                                        <a href="https://www.lge.co.kr/stan-by-me/32lx6bpga" target="_blank">
+                                        <a href="https://www.lge.co.kr/stan-by-me/32lx6bpga" target="_blank" rel="noopener" aria-label="새 창에서 열림">
                                             <span>bubble product name</span>
                                         </a>
                                         <p>product spec<span></span>product spec</p>
                                     </div>
                                 </div>
-                                <!-- pc -->
-                                <img
-                                    src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_05.jpg"
-                                    alt="설명"
-                                    class="pc-only"
-                                />
-                                <!-- mobile -->
-                                <img
-                                    src="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_02.jpg"
-                                    alt="설명"
-                                    class="mobile-only"
-                                />
+                                <picture>
+                                    <source srcset="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_02.jpg"media="(max-width: 768px)"/>
+                                    <!-- pc -->
+                                    <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_05.jpg" alt="설명">
+                                </picture>
                             </div>
                             <div class="text-wrap">
                                 <h4>title h4</h4>
@@ -173,6 +166,7 @@
                                 </div>
                                 <div class="table-wrap include-tab vertical-scroll-box buying-guide-spec-table">
                                     <table>
+                                    <caption class="blind">스탠바이미 제품 라인업 비교표입니다. 모델별 주요 특징과 사용 환경을 비교할 수 있습니다.</caption>
                                         <colgroup>
                                             <col class="col1" />
                                             <col />
@@ -206,16 +200,16 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <th class="highlight"><b class="semibold">point text bold</b></th>
-                                                <td class="highlight"><b class="semibold">point text bold</b></td>
-                                                <td class="highlight"><b class="semibold">point text bold</b></td>
-                                                <td class="highlight"><b class="semibold">point text bold</b></td>
+                                                <th class="highlight"><b class="semibold">point_text_bold</b></th>
+                                                <td class="highlight"><b class="semibold">point_text_bold</b></td>
+                                                <td class="highlight"><b class="semibold">point_text_bold</b></td>
+                                                <td class="highlight"><b class="semibold">point_text_bold</b></td>
                                             </tr>
                                             <tr>
                                                 <th>default</th>
-                                                <td><b class="semibold">semibold text</b></td>
-                                                <td><b class="semibold">semibold text</b></td>
-                                                <td><b class="semibold">semibold text</b></td>
+                                                <td><b class="semibold">semibold_text</b></td>
+                                                <td><b class="semibold">semibold_text</b></td>
+                                                <td><b class="semibold">semibold_text</b></td>
                                             </tr>
                                             <tr>
                                                 <th class="th2">light bg</th>
@@ -226,56 +220,44 @@
                                             <tr>
                                                 <th>tooltip</th>
                                                 <td>
-                                                    <div class="des">
-                                                        <p><b class="semibold">AI바람</b></p>
-                                                        <span class="info" aria-controls="mobile-dialog-buttomsheet" data-original-aria-controls="mobile-dialog-buttomsheet" data-mobile-trigger="mobile-dialog-buttomsheet" role="button" tabindex="0" aria-expanded="false" aria-haspopup="dialog" aria-label="상세 설명 보기 1"></span>
-                                                        <span class="bubble">
-                                                            AI바람은 레이더 센서와 ThinQ 앱을 통해 공간과 사용자 패턴을 분석해, <br>
-                                                            나에게 맞춘 온도와 기류로 쾌적한 바람을 제공해 줍니다.<br>
-                                                            * 레이더 센서 탑재 모델에 한함
-                                                        </span>
+                                                    <div class="tooltip-desc">
+                                                        <b class="semibold">tooltip_Name</b>
+                                                        <button type="button" class="tooltip-btn" aria-controls="mobile-dialog-buttomsheet" aria-label="상세 정보 보기"></button>
+                                                        <span class="tooltip-message">생산성 작업과 AI 기능 활용에 균형감 있게 대응하는 CPU입니다.</span>
                                                         <div class="mobile-dialog-buttomsheet" hidden="">
-                                                            <b>bottomsheet title</b>
-                                                            <p>bottomsheet description</p>
+                                                            <b>CPU</b>
+                                                            <p>생산성 작업과 AI 기능 활용에 균형감 있게 대응하는 CPU입니다.</p>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <div class="des">
-                                                        <p><b class="semibold">AI바람</b></p>
-                                                        <span class="info" aria-controls="mobile-dialog-buttomsheet" data-original-aria-controls="mobile-dialog-buttomsheet" data-mobile-trigger="mobile-dialog-buttomsheet" role="button" tabindex="0" aria-expanded="false" aria-haspopup="dialog" aria-label="상세 설명 보기 1"></span>
-                                                        <span class="bubble">
-                                                            AI바람은 레이더 센서와 ThinQ 앱을 통해 공간과 사용자 패턴을 분석해, <br>
-                                                            나에게 맞춘 온도와 기류로 쾌적한 바람을 제공해 줍니다.<br>
-                                                            * 레이더 센서 탑재 모델에 한함
-                                                        </span>
+                                                    <div class="tooltip-desc">
+                                                        <b class="semibold">tooltip_Name</b>
+                                                        <button type="button" class="tooltip-btn" aria-controls="mobile-dialog-buttomsheet" aria-label="상세 정보 보기"></button>
+                                                        <span class="tooltip-message">생산성 작업과 AI 기능 활용에 균형감 있게 대응하는 CPU입니다.</span>
                                                         <div class="mobile-dialog-buttomsheet" hidden="">
-                                                            <b>bottomsheet title</b>
-                                                            <p>bottomsheet description</p>
+                                                            <b>CPU</b>
+                                                            <p>생산성 작업과 AI 기능 활용에 균형감 있게 대응하는 CPU입니다.</p>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <div class="des">
-                                                        <p><b class="semibold">AI바람</b></p>
-                                                        <span class="info" aria-controls="mobile-dialog-buttomsheet" data-original-aria-controls="mobile-dialog-buttomsheet" data-mobile-trigger="mobile-dialog-buttomsheet" role="button" tabindex="0" aria-expanded="false" aria-haspopup="dialog" aria-label="상세 설명 보기 1"></span>
-                                                        <span class="bubble">
-                                                            AI바람은 레이더 센서와 ThinQ 앱을 통해 공간과 사용자 패턴을 분석해, <br>
-                                                            나에게 맞춘 온도와 기류로 쾌적한 바람을 제공해 줍니다.<br>
-                                                            * 레이더 센서 탑재 모델에 한함
-                                                        </span>
+                                                    <div class="tooltip-desc">
+                                                        <b class="semibold">tooltip_Name</b>
+                                                        <button type="button" class="tooltip-btn" aria-controls="mobile-dialog-buttomsheet" aria-label="상세 정보 보기"></button>
+                                                        <span class="tooltip-message">생산성 작업과 AI 기능 활용에 균형감 있게 대응하는 CPU입니다.</span>
                                                         <div class="mobile-dialog-buttomsheet" hidden="">
-                                                            <b>bottomsheet title</b>
-                                                            <p>bottomsheet description</p>
+                                                            <b>CPU</b>
+                                                            <p>생산성 작업과 AI 기능 활용에 균형감 있게 대응하는 CPU입니다.</p>
                                                         </div>
                                                     </div>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <th>links</th>
-                                                <td><a href="https://www.lge.co.kr/category/stan-by-me?filterProduct=AT0000000109:KY0000004914:03" target="_blank" class="btn-product">link btn</a></td>
-                                                <td><a href="https://www.lge.co.kr/category/stan-by-me?filterProduct=AT0000000109:KY0000003441:03" target="_blank" class="btn-product">link btn</a></td>
-                                                <td><a href="https://www.lge.co.kr/category/stan-by-me?filterProduct=AT0000000109:KY0000003442:03" target="_blank" class="btn-product">link btn</a></td>
+                                                <td><a href="https://www.lge.co.kr/category/stan-by-me?filterProduct=AT0000000109:KY0000004914:03" target="_blank" class="btn-product" rel="noopener" aria-label="새 창에서 열림">link_btn</a></td>
+                                                <td><a href="https://www.lge.co.kr/category/stan-by-me?filterProduct=AT0000000109:KY0000003441:03" target="_blank" class="btn-product" rel="noopener" aria-label="새 창에서 열림">link_btn</a></td>
+                                                <td><a href="https://www.lge.co.kr/category/stan-by-me?filterProduct=AT0000000109:KY0000003442:03" target="_blank" class="btn-product" rel="noopener" aria-label="새 창에서 열림">link_btn</a></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -345,18 +327,19 @@
                                         --mobile-m-left: 28px;
                                     "
                                 >
-                                    <div class="dot"><span></span></div>
+                                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                                     <div class="bubble">
-                                        <a href="https://www.lge.co.kr/stan-by-me/32lx6bpga" target="_blank">
+                                        <a href="https://www.lge.co.kr/stan-by-me/32lx6bpga" target="_blank" rel="noopener" aria-label="새 창에서 열림">
                                             <span>bubble product name</span>
                                         </a>
                                         <p>product spec<span></span>product spec</p>
                                     </div>
                                 </div>
-                                <!-- pc -->
-                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_05.jpg" alt="설명" class="pc-only"/>
-                                <!-- mobile -->
-                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_02.jpg" alt="설명" class="mobile-only"/>
+                                <picture>
+                                    <source srcset="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_02.jpg"media="(max-width: 768px)"/>
+                                    <!-- pc -->
+                                    <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_05.jpg" alt="설명">
+                                </picture>
                             </div>
                             <div class="text-wrap">
                                 <h4>title h4</h4>
@@ -382,6 +365,7 @@
                                 </div>
                                 <div class="table-wrap include-tab vertical-scroll-box buying-guide-spec-table">
                                     <table>
+                                    <caption class="blind">스탠바이미 주요 사양 비교표입니다. 화면 크기, 해상도, 조절 기능, 배터리 등을 비교할 수 있습니다.</caption>
                                         <colgroup>
                                             <col class="col1" />
                                             <col />
@@ -415,16 +399,16 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <th class="highlight"><b class="semibold">point text bold</b></th>
-                                                <td class="highlight"><b class="semibold">point text bold</b></td>
-                                                <td class="highlight"><b class="semibold">point text bold</b></td>
-                                                <td class="highlight"><b class="semibold">point text bold</b></td>
+                                                <th class="highlight"><b class="semibold">point_text_bold</b></th>
+                                                <td class="highlight"><b class="semibold">point_text_bold</b></td>
+                                                <td class="highlight"><b class="semibold">point_text_bold</b></td>
+                                                <td class="highlight"><b class="semibold">point_text_bold</b></td>
                                             </tr>
                                             <tr>
                                                 <th>default</th>
-                                                <td><b class="semibold">semibold text</b></td>
-                                                <td><b class="semibold">semibold text</b></td>
-                                                <td><b class="semibold">semibold text</b></td>
+                                                <td><b class="semibold">semibold_text</b></td>
+                                                <td><b class="semibold">semibold_text</b></td>
+                                                <td><b class="semibold">semibold_text</b></td>
                                             </tr>
                                             <tr>
                                                 <th class="th2">light bg</th>
@@ -435,56 +419,44 @@
                                             <tr>
                                                 <th>tooltip</th>
                                                 <td>
-                                                    <div class="des">
-                                                        <p><b class="semibold">AI바람</b></p>
-                                                        <span class="info" aria-controls="mobile-dialog-buttomsheet" data-original-aria-controls="mobile-dialog-buttomsheet" data-mobile-trigger="mobile-dialog-buttomsheet" role="button" tabindex="0" aria-expanded="false" aria-haspopup="dialog" aria-label="상세 설명 보기 1"></span>
-                                                        <span class="bubble">
-                                                            AI바람은 레이더 센서와 ThinQ 앱을 통해 공간과 사용자 패턴을 분석해, <br>
-                                                            나에게 맞춘 온도와 기류로 쾌적한 바람을 제공해 줍니다.<br>
-                                                            * 레이더 센서 탑재 모델에 한함
-                                                        </span>
+                                                    <div class="tooltip-desc">
+                                                        <b class="semibold">tooltip_Name</b>
+                                                        <button type="button" class="tooltip-btn" aria-controls="mobile-dialog-buttomsheet" aria-label="상세 정보 보기"></button>
+                                                        <span class="tooltip-message">생산성 작업과 AI 기능 활용에 균형감 있게 대응하는 CPU입니다.</span>
                                                         <div class="mobile-dialog-buttomsheet" hidden="">
-                                                            <b>bottomsheet title</b>
-                                                            <p>bottomsheet description</p>
+                                                            <b>CPU</b>
+                                                            <p>생산성 작업과 AI 기능 활용에 균형감 있게 대응하는 CPU입니다.</p>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <div class="des">
-                                                        <p><b class="semibold">AI바람</b></p>
-                                                        <span class="info" aria-controls="mobile-dialog-buttomsheet" data-original-aria-controls="mobile-dialog-buttomsheet" data-mobile-trigger="mobile-dialog-buttomsheet" role="button" tabindex="0" aria-expanded="false" aria-haspopup="dialog" aria-label="상세 설명 보기 1"></span>
-                                                        <span class="bubble">
-                                                            AI바람은 레이더 센서와 ThinQ 앱을 통해 공간과 사용자 패턴을 분석해, <br>
-                                                            나에게 맞춘 온도와 기류로 쾌적한 바람을 제공해 줍니다.<br>
-                                                            * 레이더 센서 탑재 모델에 한함
-                                                        </span>
+                                                    <div class="tooltip-desc">
+                                                        <b class="semibold">tooltip_Name</b>
+                                                        <button type="button" class="tooltip-btn" aria-controls="mobile-dialog-buttomsheet" aria-label="상세 정보 보기"></button>
+                                                        <span class="tooltip-message">생산성 작업과 AI 기능 활용에 균형감 있게 대응하는 CPU입니다.</span>
                                                         <div class="mobile-dialog-buttomsheet" hidden="">
-                                                            <b>bottomsheet title</b>
-                                                            <p>bottomsheet description</p>
+                                                            <b>CPU</b>
+                                                            <p>생산성 작업과 AI 기능 활용에 균형감 있게 대응하는 CPU입니다.</p>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <div class="des">
-                                                        <p><b class="semibold">AI바람</b></p>
-                                                        <span class="info" aria-controls="mobile-dialog-buttomsheet" data-original-aria-controls="mobile-dialog-buttomsheet" data-mobile-trigger="mobile-dialog-buttomsheet" role="button" tabindex="0" aria-expanded="false" aria-haspopup="dialog" aria-label="상세 설명 보기 1"></span>
-                                                        <span class="bubble">
-                                                            AI바람은 레이더 센서와 ThinQ 앱을 통해 공간과 사용자 패턴을 분석해, <br>
-                                                            나에게 맞춘 온도와 기류로 쾌적한 바람을 제공해 줍니다.<br>
-                                                            * 레이더 센서 탑재 모델에 한함
-                                                        </span>
+                                                    <div class="tooltip-desc">
+                                                        <b class="semibold">tooltip_Name</b>
+                                                        <button type="button" class="tooltip-btn" aria-controls="mobile-dialog-buttomsheet" aria-label="상세 정보 보기"></button>
+                                                        <span class="tooltip-message">생산성 작업과 AI 기능 활용에 균형감 있게 대응하는 CPU입니다.</span>
                                                         <div class="mobile-dialog-buttomsheet" hidden="">
-                                                            <b>bottomsheet title</b>
-                                                            <p>bottomsheet description</p>
+                                                            <b>CPU</b>
+                                                            <p>생산성 작업과 AI 기능 활용에 균형감 있게 대응하는 CPU입니다.</p>
                                                         </div>
                                                     </div>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <th>links</th>
-                                                <td><a href="https://www.lge.co.kr/category/stan-by-me?filterProduct=AT0000000109:KY0000004914:03" target="_blank" class="btn-product">link btn</a></td>
-                                                <td><a href="https://www.lge.co.kr/category/stan-by-me?filterProduct=AT0000000109:KY0000003441:03" target="_blank" class="btn-product">link btn</a></td>
-                                                <td><a href="https://www.lge.co.kr/category/stan-by-me?filterProduct=AT0000000109:KY0000003442:03" target="_blank" class="btn-product">link btn</a></td>
+                                                <td><a href="https://www.lge.co.kr/category/stan-by-me?filterProduct=AT0000000109:KY0000004914:03" target="_blank" class="btn-product" rel="noopener" aria-label="새 창에서 열림">link_btn</a></td>
+                                                <td><a href="https://www.lge.co.kr/category/stan-by-me?filterProduct=AT0000000109:KY0000003441:03" target="_blank" class="btn-product" rel="noopener" aria-label="새 창에서 열림">link_btn</a></td>
+                                                <td><a href="https://www.lge.co.kr/category/stan-by-me?filterProduct=AT0000000109:KY0000003442:03" target="_blank" class="btn-product" rel="noopener" aria-label="새 창에서 열림">link_btn</a></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -1126,49 +1098,49 @@
                     </div>
                 </section>
                 <!-- major tab pannel buying-point //-->
+
+
+                <section class="useful-tip">
+                    <h2 class="section-title">
+                        그 외 알아두면 더 유용한 <br class="mo-only">모든 것을 알려드려요.
+                    </h2>
+                    <div class="tip-wrap">
+                        <article class="tip-faq">
+                            <h3>
+                                <img src="/kr/story/buying-guide/2025/img/ic32_inquiry.png" alt="검은색 말풍선 모양의 3D 아이콘."/>
+                                문의 답변
+                            </h3>
+                            <p>청소기, 궁금했던 모든 것에 답해 드려요.</p>
+                            <div class="btn-wrap">
+                                <a target="_blank" href="https://www.lge.co.kr/story/faq/stan-by-me-faq" rel="noopener" aria-label="새 창에서 열림">에어컨 FAQ</a>
+                            </div>
+                        </article>
+                        <article class="tip-subscribe">
+                            <h3>
+                                <img src="/kr/story/buying-guide/2025/img/ic32_subscribe.png" alt="흰색 캘린더 3D 아이콘."/>
+                                구독 상품
+                            </h3>
+                            <p>청소기를 정기적으로 구독하고 싶다면?</p>
+                            <div class="btn-wrap">
+                                <a target="_blank" href="https://www.lge.co.kr/category/care-solutions/stan-by-me" rel="noopener" aria-label="새 창에서 열림">구독 상품</a>
+                            </div>
+                        </article>
+                        <article class="tip-best">
+                            <h3>
+                                <img src="/kr/story/buying-guide/2025/img/ic32_products.png" alt="빨간색 원형 배경에 흰색 엄지손가락 치켜세운 모양의 3D 아이콘."/>
+                                인기 상품
+                            </h3>
+                            <p>지금 가장 인기 잇는 청소기를 확인해 보세요!</p>
+                            <div class="btn-wrap">
+                                <a target="_blank" href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000024&categoryId=CT50295000&categoryName=%EC%8A%A4%ED%83%A0%EB%B0%94%EC%9D%B4%EB%AF%B8" rel="noopener" aria-label="새 창에서 열림">
+                                    베스트 랭킹
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                </section>
             </section>
             <!-- major tab pannels //-->
-
-
-            <section class="useful-tip">
-                <h2 class="section-title">
-                    그 외 알아두면 더 유용한 <br class="mo-only">모든 것을 알려드려요.
-                </h2>
-                <div class="tip-wrap">
-                    <article class="tip-faq">
-                        <h3>
-                            <img src="/kr/story/buying-guide/2025/img/ic32_inquiry.png" alt="검은색 말풍선 모양의 3D 아이콘."/>
-                            문의 답변
-                        </h3>
-                        <p>청소기, 궁금했던 모든 것에 답해 드려요.</p>
-                        <div class="btn-wrap">
-                            <a target="_blank" href="https://www.lge.co.kr/story/faq/stan-by-me-faq">에어컨 FAQ</a>
-                        </div>
-                    </article>
-                    <article class="tip-subscribe">
-                        <h3>
-                            <img src="/kr/story/buying-guide/2025/img/ic32_subscribe.png" alt="흰색 캘린더 3D 아이콘."/>
-                            구독 상품
-                        </h3>
-                        <p>청소기를 정기적으로 구독하고 싶다면?</p>
-                        <div class="btn-wrap">
-                            <a target="_blank" href="https://www.lge.co.kr/category/care-solutions/stan-by-me">구독 상품</a>
-                        </div>
-                    </article>
-                    <article class="tip-best">
-                        <h3>
-                            <img src="/kr/story/buying-guide/2025/img/ic32_products.png" alt="빨간색 원형 배경에 흰색 엄지손가락 치켜세운 모양의 3D 아이콘."/>
-                            인기 상품
-                        </h3>
-                        <p>지금 가장 인기 잇는 청소기를 확인해 보세요!</p>
-                        <div class="btn-wrap">
-                            <a target="_blank" href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000024&categoryId=CT50295000&categoryName=%EC%8A%A4%ED%83%A0%EB%B0%94%EC%9D%B4%EB%AF%B8">
-                                베스트 랭킹
-                            </a>
-                        </div>
-                    </article>
-                </div>
-            </section>
         </div>
         <!-- Contents //-->
     </div>
