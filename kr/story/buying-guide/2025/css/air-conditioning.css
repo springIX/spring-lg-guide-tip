@@ -68,6 +68,7 @@
 } */
 
 
+.buying-guide-special .product-table .buying-guide-spec-table thead th,
 .buying-guide-special .product-table .buying-guide-spec-table thead th:not([rowspan]) { 
   font-size: 16px;
 }
@@ -77,11 +78,14 @@
 .buying-guide-special .product-table .buying-guide-spec-table tbody th:first-child[colspan="2"] {
   width: 200px;
 }
-.buying-guide-special .product-table .buying-guide-spec-table td { font-size: 16px; padding: 16px 4px; letter-spacing: -0.05em;  }
+.buying-guide-special .product-table .buying-guide-spec-table td { font-size: 14px; }
+.buying-guide-special .product-table .buying-guide-spec-table #table2 td { padding: 18px 5px; }
+.buying-guide-special .product-table .buying-guide-spec-table #table2 .th2 { padding: 5px; }
 .buying-guide-special .product-table .buying-guide-spec-table .btn-product { padding: 5px 20px; height: 52px; align-items: center; font-size: 14px; max-width: calc(100% - 12px); }
 .buying-guide-special .product-table .buying-guide-spec-table .gray { color: #666; }
+.buying-guide-special .product-table .buying-guide-spec-table b + .gray { margin-top: 6px; }
 .buying-guide-special .product-table .table-wrap .desc b { line-height: 24px; }
-.buying-guide-special .product-table .table-wrap .th2 p { color: #000; font-weight: 400; font-size: 16px; margin: 0; }
+.buying-guide-special .product-table .table-wrap .th2 p { color: #000; font-weight: 400; font-size: inherit; margin: 0; }
 .buying-guide-special .product-table .table-wrap .th2 { padding: 16px 2px; }
 
 .buying-guide-special .product-table .clone-header-table-wrap { left: 50%; }
