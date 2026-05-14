@@ -949,7 +949,7 @@
                             />
                           </div>
                           <p>
-                            바지관리기 없음
+                            빌트인 고압 스티머 없음
                             <span class="des">
                               <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                               <span class="bubble"
@@ -967,7 +967,7 @@
                             />
                           </div>
                           <p>
-                            바지관리기 없음
+                            빌트인 고압 스티머 없음
                             <span class="des">
                               <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                               <span class="bubble"
@@ -985,7 +985,7 @@
                             />
                           </div>
                           <p>
-                            바지관리기 없음
+                            빌트인 고압 스티머 없음
                             <span class="des">
                               <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                               <span class="bubble"
@@ -1021,7 +1021,7 @@
                             />
                           </div>
                           <p>
-                            심플 플랫 디자인 없음
+                            이지핏 바지관리기 없음
                             <span class="des">
                               <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                               <span class="bubble"
@@ -1055,7 +1055,7 @@
                             />
                           </div>
                           <p>
-                            심플 플랫 디자인 없음
+                            이지핏 바지관리기 없음
                             <span class="des">
                               <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                               <span class="bubble"
@@ -1073,7 +1073,7 @@
                             />
                           </div>
                           <p>
-                            심플 플랫 디자인 없음
+                            이지핏 바지관리기 없음
                             <span class="des">
                               <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                               <span class="bubble"

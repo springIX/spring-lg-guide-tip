@@ -260,8 +260,8 @@
                   <div class="inner">
                     <div class="inner2">
                       <div>AI 워시타워<span></span><br class="mo-only">트루스팀/자동세제함</div>
-                      <div>AI 워시타워<span></span><br class="mo-only">트루스팀/자동세제함</div>
-                      <div>AI 워시타워<span></span><br class="mo-only">트루스팀</div>
+                      <div>워시타워<span></span><br class="mo-only">트루스팀/자동세제함</div>
+                      <div>워시타워<span></span><br class="mo-only">트루스팀</div>
                       <div>워시타워 컴팩트</div>
                     </div>
                   </div>
@@ -283,8 +283,8 @@
                       </tr>
                       <tr class="procuct-no">
                         <th scope="col">AI 워시타워<span></span><br class="mo-only">트루스팀/자동세제함</th>
-                        <th scope="col">AI 워시타워<span></span><br class="mo-only">트루스팀/자동세제함</th>
-                        <th scope="col">AI 워시타워<span></span><br class="mo-only">트루스팀</th>
+                        <th scope="col">워시타워<span></span><br class="mo-only">트루스팀/자동세제함</th>
+                        <th scope="col">워시타워<span></span><br class="mo-only">트루스팀</th>
                         <th scope="col">워시타워 컴팩트</th>
                       </tr>
                     </thead>
@@ -484,7 +484,7 @@
                               alt="AI 타임센싱" />
                           </div>
                           <p>
-                            AI 타임센싱 없음
+                          AI 시간안내 없음
                             <span class="des">
                               <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                               <span class="bubble">AI로 의류의 무게·재질·오염도를 감지하고, AI 기반의 다양한 편의 기능으로 더욱 똑똑한 세탁·건조
@@ -498,7 +498,7 @@
                               alt="AI 타임센싱" />
                           </div>
                           <p>
-                            AI 타임센싱 없음
+                          AI 시간안내 없음
                             <span class="des">
                               <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                               <span class="bubble">AI로 의류의 무게·재질·오염도를 감지하고, AI 기반의 다양한 편의 기능으로 더욱 똑똑한 세탁·건조
@@ -512,7 +512,7 @@
                               alt="AI 타임센싱" />
                           </div>
                           <p>
-                            AI 타임센싱 없음
+                          AI 시간안내 없음
                             <span class="des">
                               <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                               <span class="bubble">AI로 의류의 무게·재질·오염도를 감지하고, AI 기반의 다양한 편의 기능으로 더욱 똑똑한 세탁·건조
@@ -542,7 +542,7 @@
                               alt="AI 타임센싱" />
                           </div>
                           <p>
-                            AI 타임센싱 없음
+                          AI 세탁리포트 없음
                             <span class="des">
                               <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                               <span class="bubble">AI로 의류의 무게·재질·오염도를 감지하고, AI 기반의 다양한 편의 기능으로 더욱 똑똑한 세탁·건조
@@ -556,7 +556,7 @@
                               alt="AI 타임센싱" />
                           </div>
                           <p>
-                            AI 타임센싱 없음
+                          AI 세탁리포트 없음
                             <span class="des">
                               <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                               <span class="bubble">AI로 의류의 무게·재질·오염도를 감지하고, AI 기반의 다양한 편의 기능으로 더욱 똑똑한 세탁·건조
@@ -570,7 +570,7 @@
                               alt="AI 타임센싱" />
                           </div>
                           <p>
-                            AI 타임센싱 없음
+                          AI 세탁리포트 없음
                             <span class="des">
                               <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                               <span class="bubble">AI로 의류의 무게·재질·오염도를 감지하고, AI 기반의 다양한 편의 기능으로 더욱 똑똑한 세탁·건조
@@ -618,7 +618,7 @@
                               alt="1시간 세탁-건조 코스" />
                           </div>
                           <p>
-                            1시간 세탁-건조 코스 없음
+                            자동 세제함 플러스 없음
                             <span class="des">
                               <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                               <span class="bubble">1시간 만에 세탁부터 건조까지 신속하게
@@ -632,7 +632,7 @@
                               alt="1시간 세탁-건조 코스" />
                           </div>
                           <p>
-                            1시간 세탁-건조 코스 없음
+                          자동 세제함 플러스 없음
                             <span class="des">
                               <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                               <span class="bubble">1시간 만에 세탁부터 건조까지 신속하게
@@ -689,7 +689,7 @@
                             <img src="/kr/story/buying-guide/2025/img/washing-machine/ic48_06_steam.svg" alt="살균코스" />
                           </div>
                           <p>
-                            살균코스 없음
+                            스팀코스 없음
                             <span class="des">
                               <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                               <span class="bubble">생활 속 유해균을 99.99% 제거해 걱정 없이
