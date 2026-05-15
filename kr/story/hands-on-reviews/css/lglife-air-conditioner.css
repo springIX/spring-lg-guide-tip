@@ -429,58 +429,40 @@
 
 #gjw009 .sec-article {
     position: relative;
-    overflow: hidden;
     margin-top: 100px;
-    background: #f7f7f7;
+    overflow: hidden;
+    background: #fff;
 }
 
 #gjw009 .sec-article .inner-text {
-    max-width: 1920px;
+    max-width: 827px;
     padding: 0;
 }
 
 #gjw009 .article-paper {
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 24px;
-    min-height: 1928px;
-    padding: 100px 0;
-    overflow: hidden;
+    width: 100%;
+    padding: 44px 32px;
+    border-radius: 30px;
+    background: #f9f9f9;
 }
 
-#gjw009 .article-paper::before {
-    content: "";
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 2008px;
-    height: 2008px;
-    background: url("/kr/story/hands-on-reviews/img/lglife-air-conditioner/article_bg_paper.png") center / cover no-repeat;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-}
-
-#gjw009 .article-head,
-#gjw009 .article-body,
-#gjw009 .article-notice {
-    position: relative;
-    z-index: 1;
-}
-
-#gjw009 .article-head {
+#gjw009 .article-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
-    width: 1380px;
-    max-width: calc(100% - 80px);
+    gap: 10px;
+    width: 736px;
+    max-width: 100%;
 }
 
 #gjw009 .article-logo {
-    width: 400px;
-    height: 92px;
+    width: 196px;
+    height: 44px;
+    margin-bottom: 10px;
     overflow: hidden;
 }
 
@@ -490,98 +472,79 @@
     object-fit: contain;
 }
 
-#gjw009 .article-meta {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+#gjw009 .article-card {
     width: 100%;
-    padding: 10px 16px;
-    border-top: 2.5px solid #444;
-    border-bottom: 1px solid #444;
-    color: #444;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.4;
-    letter-spacing: -0.02em;
-}
-
-#gjw009 .article-meta span:first-child strong {
-    font-weight: 700;
-}
-
-#gjw009 .article-meta span:first-child {
-    font-weight: 400;
-}
-
-#gjw009 .article-meta span,
-#gjw009 .article-meta strong {
-    letter-spacing: -0.02em;
-}
-
-#gjw009 .article-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-    width: 1000px;
-    max-width: calc(100% - 80px);
-}
-
-#gjw009 .article-title {
-    width: 628px;
-    max-width: 100%;
-    margin-bottom: 0;
+    padding: 24px 32px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0;
+    background: #fff;
+    box-shadow: 0 8px 4px rgba(0, 0, 0, 0.1);
     text-align: left;
 }
 
-#gjw009 .article-title h2 {
-    color: #111;
-    font-size: 40px;
-    line-height: 1.68;
-    letter-spacing: 0;
-}
-
-#gjw009 .article-title p {
-    color: #444;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.4;
-    letter-spacing: -0.02em;
-}
-
-#gjw009 .article-card {
-    width: 100%;
-    padding: 32px 40px;
-    border-radius: 20px;
-    background: #fff;
-    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
 #gjw009 .article-card p {
-    color: var(--ink);
-    font-size: 18px;
+    color: #444;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 1.6;
+    line-height: 1.4;
     letter-spacing: -0.02em;
 }
 
 #gjw009 .article-card mark {
     padding: 0 2px;
-    background: linear-gradient(to top, rgba(255, 207, 140, 0.8) 0 32%, transparent 32%);
+    background: rgba(251, 255, 0, 0.3);
     color: inherit;
-    font-weight: 700;
+    font-weight: inherit;
     letter-spacing: -0.02em;
+}
+
+#gjw009 .article-source {
+    margin-top: 2px;
+    color: #646669;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.44;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+#gjw009 .article-recommend {
+    width: 736px;
+    max-width: 100%;
+    border-radius: 16px;
+}
+
+#gjw009 .article-recommend li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-height: 88px;
+    padding: 28px 32px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    color: var(--ink);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+}
+
+#gjw009 .article-recommend li:last-child {
+    border-bottom: 0;
+}
+
+#gjw009 .article-recommend li::before {
+    content: "";
+    flex: 0 0 24px;
+    width: 24px;
+    height: 24px;
+    background: url("/kr/story/hands-on-reviews/img/lglife-air-conditioner/check-btn.svg") center / contain no-repeat;
 }
 
 #gjw009 .article-notice {
     display: flex;
     flex-direction: column;
     gap: 0;
-    width: 1380px;
-    max-width: calc(100% - 80px);
-    padding-top: 22px;
-    border-top: 2px solid #444;
+    width: 100%;
 }
 
 #gjw009 .article-notice li {
@@ -1391,85 +1354,72 @@
         margin-top: 60px;
     }
 
-    #gjw009 .article-paper {
-        gap: 16px;
-        min-height: 0;
-        padding: 60px 20px 60px;
-    }
-
-    #gjw009 .article-paper::before {
-        left: 0;
-        top: 0;
-        width: 2184px;
-        height: 1946px;
-        background-position: left top;
-        transform: none;
-    }
-
-    #gjw009 .article-head {
-        gap: 12px;
-       
-        max-width: 100%;
+    #gjw009 .sec-article .inner-text {
         padding: 0 20px;
     }
 
+    #gjw009 .article-paper {
+        gap: 16px;
+        padding: 32px 16px 20px;
+        border-radius: 16px;
+    }
+
     #gjw009 .article-logo {
-        width: 200px;
-        height: 50px;
+        width: 160px;
+        height: 36px;
+        margin-bottom: 10px;
     }
 
-    #gjw009 .article-meta {
-        padding: 4px 8px;
-        border-top-width: 1.5px;
-        font-size: 12px;
-    }
-
-    #gjw009 .article-body {
-        gap: 12px;
-        width: calc(100% - 32px);
+    #gjw009 .article-content {
+        gap: 8px;
+        width: 307px;
         max-width: 100%;
-    }
-
-    #gjw009 .article-title {
-        width: 318px;
-        max-width: 100%;
-        padding: 0;
-    }
-
-    #gjw009 .article-title h2 {
-        font-size: 20px;
-        line-height: 1.5;
-        letter-spacing: -0.02em;
-    }
-
-    #gjw009 .article-title p {
-        font-size: 11px;
-        line-height: 1.42;
-        color: #646669;
     }
 
     #gjw009 .article-card {
-        width: min(298px, 100%);
-        padding: 24px;
-        border-radius: 20px;
-        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.06);
+        width: 100%;
+        padding: 16px 32px;
+        box-shadow: 0 4px 2px rgba(0, 0, 0, 0.1);
     }
 
     #gjw009 .article-card p {
+        color: var(--ink);
         font-size: 14px;
-        line-height: 1.45;
+        line-height: 1.44;
         letter-spacing: -0.02em;
     }
 
     #gjw009 .article-card mark {
-        background: linear-gradient(to top, rgba(255, 207, 140, 0.8) 0 28%, transparent 28%);
+        background: rgba(251, 255, 0, 0.3);
+    }
+
+    #gjw009 .article-source {
+        margin-top: 2px;
+        font-size: 11px;
+        line-height: 1.42;
+    }
+
+    #gjw009 .article-recommend {
+        width: 100%;
+        border-radius: 16px;
+        overflow: hidden;
+    }
+
+    #gjw009 .article-recommend li {
+        min-height: 60px;
+        padding: 9px 16px;
+        background: #f7f7f7;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.44;
+    }
+
+    #gjw009 .article-recommend li::before {
+        flex-basis: 24px;
     }
 
     #gjw009 .article-notice {
-        width: calc(100% - 32px);
-        max-width: 100%;
-        padding-top: 12px;
-        border-top-width: 1.5px;
+        width: 100%;
     }
 
     #gjw009 .article-notice li {
