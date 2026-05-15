@@ -160,7 +160,10 @@
 #gjw009 .sec-header .disclaimer {
     padding: 12px 40px 0;
 }
-
+    #gjw009 .sec-manager .disclaimer  {
+    width: 100%;
+    padding: 12px 0px 0;
+}
 #gjw009 .sec-header .inner-kv .disclaimer {
     width: 100%;
     padding: 12px 20px 0;
@@ -1164,6 +1167,13 @@
 
     #gjw009 .hero-visual img {
         object-position: center center;
+    }
+
+    #gjw009 .sec-manager .disclaimer {
+        width: 100%;
+        padding: 12px 0px 0;
+        margin: 0;
+        font-size: 11px;
     }
 
     #gjw009 .sec-header .inner-kv .disclaimer {

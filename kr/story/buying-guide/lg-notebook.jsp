@@ -1953,6 +1953,7 @@
             </section>
           </div>
         </div>
+        
         <div class="component-wrap bg-lightgray">
           <section class="component KRC1200 stage-medium full-size">
             <div class="unit-list block1 align-left type-wide box-align-center">

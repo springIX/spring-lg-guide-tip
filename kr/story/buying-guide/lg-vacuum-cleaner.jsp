@@ -731,7 +731,7 @@
                                 />
                               </div>
                               <p>
-                                보안(ThinQ 앱) 없음
+                                보안(LG SDL) 없음
                                 <span class="des">
                                   <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                   <span class="bubble"
@@ -748,7 +748,7 @@
                                 />
                               </div>
                               <p>
-                                보안(ThinQ 앱) 없음
+                                보안(LG SDL) 없음
                                 <span class="des">
                                   <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                   <span class="bubble"
@@ -765,7 +765,7 @@
                                 />
                               </div>
                               <p>
-                                보안(ThinQ 앱) 없음
+                                보안(LG SDL) 없음
                                 <span class="des">
                                   <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                   <span class="bubble"
