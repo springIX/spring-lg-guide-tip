@@ -354,9 +354,9 @@
 #gjw009 .process-steps::before {
     content: "";
     position: absolute;
-    left: 7.6%;
+    left: 6.6%;
     /* right: 4.2%; */
-    right: 7.6%;
+    right: 6.6%;
     bottom: 100px;
     height: 1px;
     background: var(--red);
@@ -491,8 +491,10 @@
 }
 
 #gjw009 .article-card mark {
-    padding: 0 2px;
+    padding: 2px 2px 3px;
     background: rgba(251, 255, 0, 0.3);
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
     color: inherit;
     font-weight: inherit;
     letter-spacing: -0.02em;
@@ -1390,6 +1392,8 @@
     }
 
     #gjw009 .article-card mark {
+        padding-top: 1px;
+        padding-bottom: 2px;
         background: rgba(251, 255, 0, 0.3);
     }
 
