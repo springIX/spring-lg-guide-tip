@@ -87,11 +87,7 @@ function initBlankLinkAccessibility() {
 
     $link.attr("rel", relValues.join(" "));
 
-    if (!$link.find(".sr-only[data-a11y-new-window]").length) {
-      $link.append(
-        '<span class="sr-only" data-a11y-new-window="true"> 새 창으로 열림</span>',
-      );
-    }
+
   });
 }
 
