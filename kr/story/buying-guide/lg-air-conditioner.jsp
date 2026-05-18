@@ -8,7 +8,7 @@
         <meta charset="UTF-8">
         <meta name="viewport"
           content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-        <meta name="keywords" content="LG전자, 에어컨, 디오스, 오브제컬렉션, LG 디오스 에어컨 오브제컬렉션, 구매가이드">
+        <meta name="keywords" content="LG전자, 에어컨, 디오스, 오브제컬렉션, LG 디오스 에어컨 오브제컬렉션, 구매 가이드">
         <meta name="description" content="언제나 시원한 바람으로 공간을 쾌적하게">
         <meta content="NOODP, NOYDIR" name="robots">
         <link rel="canonical" href="canonical">
@@ -92,7 +92,7 @@
             <meta itemprop="description" content="사계절 휘센으로 완성하는 쾌적함" />
             <meta itemprop="url" content="https://www.lge.co.kr/story/buying-guide/lg-air-conditioner" />
             <meta itemprop="image" content="/kr/story/buying-guide/2025/img/air-conditioning/og_P10.jpg" />
-            <meta itemprop="Keywords" content="LG전자, 에어컨, 디오스, 오브제컬렉션, LG 디오스 에어컨 오브제컬렉션, 구매가이드" />
+            <meta itemprop="Keywords" content="LG전자, 에어컨, 디오스, 오브제컬렉션, LG 디오스 에어컨 오브제컬렉션, 구매 가이드" />
           </div>
           <div class="story-page">
             <div class="sns-cont">
@@ -141,24 +141,16 @@
                     </p>
                     <p>
                         제품을 고를 때는
-                        <b>
-                            설치 방식과 냉방 면적, 에너지 효율을 중심
-                        </b>
-                        으로 공간 크기와 주거 형태에 맞는 유형을 먼저 살펴보는 것이 좋습니다.
+                        <b>설치 방식과 냉방 면적, 에너지 효율을 중심</b>으로 공간 크기와 주거 형태에 맞는 유형을 먼저 살펴보는 것이 좋습니다.
                     </p>
                     <p>
                         제품은
-                        <b>
-                            스탠드형, 벽걸이형, 창호형, 이동식
-                        </b>
-                        등으로 구성되어 있어 단일 공간부터 여러 공간까지 다양한 환경에 맞춰 선택할 수 있습니다.
+                        <b>스탠드형, 벽걸이형, 창호형, 이동식</b>등으로 구성되어 있어 
+                        단일 공간부터 여러 공간까지 다양한 환경에 맞춰 선택할 수 있습니다.
                     </p>
                     <p>
                         설치가 제한적인 공간이나 간편한 설치가 필요한 경우, 또는
-                        <b>
-                            거실 중심 냉방이나 방별로 나누어 사용하는 경우 등 사용 환경에 따라 적합한 제품을 선택
-                        </b>
-                        해보세요.
+                        <b>거실 중심 냉방이나 방별로 나누어 사용하는 경우 등 사용 환경에 따라 적합한 제품을 선택</b>해보세요.
                     </p>
                     <p class="note">
                         * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
@@ -196,10 +188,7 @@
                         <h2 class="section-title">
                             이용 목적과 사용환경에 맞는
                             <br class="mo-only">
-                            <b>
-                                에어컨
-                            </b>
-                            을 찾아보세요
+                            <b>에어컨</b>을 찾아보세요
                         </h2>
                     </div>
                     <!-- 
@@ -293,17 +282,11 @@
                                     넓은 공간을 쾌적하게
                                 </h4>
                                 <p>
-                                    <b>
-                                        스탠드 에어컨은 넓은 거실이나 여러 사람이 함께 사용하는 공간에서 빠르게 냉방이 필요한 환경
-                                    </b>
-                                    에 적합한 유형입니다.
+                                    <b>스탠드 에어컨은 넓은 거실이나 여러 사람이 함께 사용하는 공간에서 빠르게 냉방이 필요한 환경</b>에 적합한 유형입니다.
                                     <br>
                                     넓은 공간을 빠르게 냉방해 무더운 여름에도 쾌적한 실내 환경을 유지할 수 있습니다.
                                     <br>
-                                    <b>
-                                        거실 중심의 넓은 공간에서 사용하기에 적합
-                                    </b>
-                                    합니다.
+                                    <b>거실 중심의 넓은 공간에서 사용하기에 적합</b>합니다.
                                 </p>
                             </div>
                             <p class="note aling-left">
@@ -314,23 +297,17 @@
                             <section class="product-table">
                                 <div class="section-header">
                                     <h2 class="section-title">
-                                        어떤
-                                        <b>
-                                            스탠드 에어컨
-                                        </b>
-                                        이
-                                        <br class="mo-only">
-                                        나에게 맞을까?
+                                        어떤 <b>스탠드 에어컨</b>이 나에게 맞을까?
                                     </h2>
                                     <p class="section-header-desc">
                                         이용 목적에 맞는 스탠드 에어컨을 선택할 수 있도록,
                                         <br>
-                                        모델별 적합한 사용 환경과 핵심 특징, 추천 상황을 한눈에 확인해 보세요.
+                                        라인업별 대표 모델을 기준으로 적합한 사용 환경과 핵심 특징, 추천 상황을 한눈에 확인해 보세요.
                                     </p>
                                 </div>
                                 <div class="table-wrap include-tab vertical-scroll-box buying-guide-spec-table">
-                                    <table>
-                                    <caption class="blind">LG 스탠드 에어컨 라인업 비교표입니다. 타워I, 뷰I, 뷰II, 쿨 프로, 쿨, 쿨 사계절에어컨의 모델명, 적합한 사용 환경, 핵심 특징, 추천 상황을 비교할 수 있습니다.</caption>
+                                    <table id="table_1">
+                                        <caption class="blind">LG 스탠드 에어컨 라인업 비교표입니다. 타워I, 뷰I, 뷰II, 쿨 프로, 쿨, 쿨 사계절에어컨의 모델명, 적합한 사용 환경, 핵심 특징, 추천 상황을 비교할 수 있습니다.</caption>
                                         <colgroup>
                                             <col class="col1">
                                             <col>
@@ -449,14 +426,14 @@
                                                     <br>
                                                     사용 환경
                                                 </th>
-                                                <td class="highlight">
+                                                <td class="highlight aling-top-left">
                                                     <b class="semibold">
                                                         넓은 거실, 오픈형 거실처럼<br>
                                                         공간이 크고 장시간 사용하는<br>
                                                         환경
                                                     </b>
                                                 </td>
-                                                <td class="highlight">
+                                                <td class="highlight aling-top-left">
                                                     <b class="semibold">
                                                         냉방 성능과 함께 손쉬운 위생
                                                         관리, 거실 분위기와 인테리어
@@ -464,14 +441,14 @@
                                                         보는 환경
                                                     </b>
                                                 </td>
-                                                <td class="highlight">
+                                                <td class="highlight aling-top-left">
                                                     <b class="semibold">
                                                         냉방은 물론, 손쉬운 위생 관리와 
                                                         함께 공간 분위기·소품 연출까지 
                                                         두루 고려하는 거실 환경
                                                     </b>
                                                 </td>
-                                                <td class="highlight">
+                                                <td class="highlight aling-top-left">
                                                     <b class="semibold">
                                                         거실 등 생활 공간에서 냉방과
                                                         손쉬운 위생 관리, 깔끔한
@@ -479,19 +456,19 @@
                                                         환경
                                                     </b>
                                                 </td>
-                                                <td class="highlight">
+                                                <td class="highlight aling-top-left">
                                                     <b class="semibold">
                                                         거실 중심의 생활 공간에서
                                                         편안한 냉방과 관리 편의성을
                                                         중요하게 보는 환경
                                                     </b>
                                                 </td>
-                                                <td class="highlight">
+                                                <td class="highlight aling-top-left">
                                                     <b class="semibold">
                                                         거실 중심의 일반 가정 환경
                                                     </b>
                                                 </td>
-                                                <td class="highlight">
+                                                <td class="highlight aling-top-left">
                                                     <b class="semibold">
                                                         거실 중심의 생활 공간에서
                                                         냉방과 온풍이 모두 필요한 환경
@@ -504,7 +481,7 @@
                                                         핵심 특징
                                                     </b>
                                                 </th>
-                                                <td class="highlight">
+                                                <td class="highlight aling-top-left">
                                                     <b class="semibold">
                                                         넓은 공간에서도 안정적인
                                                         온·습도 관리로, 오래 켜도 덥고
@@ -512,7 +489,7 @@
                                                         프리미엄 에어컨
                                                     </b>
                                                 </td>
-                                                <td class="highlight">
+                                                <td class="highlight aling-top-left">
                                                     <b class="semibold">
                                                         AI 콜드프리의 쾌적한 냉방에
                                                         손쉽게 열어 직접 관리할 수 있는 클린뷰와 뷰케이스를 더해,
@@ -521,14 +498,14 @@
                                                         프리미엄 에어컨
                                                     </b>
                                                 </td>
-                                                <td class="highlight">
+                                                <td class="highlight aling-top-left">
                                                     <b class="semibold">
                                                         맞춤 냉방을 제공하면서,
                                                         손쉽게 열어 직접 관리할 수 있는 클린뷰와 뷰케이스로 위생 관리와 인테리어 만족도를 함께 높인
                                                         에어컨
                                                     </b>
                                                 </td>
-                                                <td class="highlight">
+                                                <td class="highlight aling-top-left">
                                                     <b class="semibold">
                                                         기본 냉방 성능에 손쉽게 열
                                                         직접 관리할 수 있는 클린뷰의 위생 관리, 뷰케이스의 소품
@@ -536,14 +513,14 @@
                                                         인테리어를 함께 갖춘 부담 없는 선택의 에어컨
                                                     </b>
                                                 </td>
-                                                <td class="highlight">
+                                                <td class="highlight aling-top-left">
                                                     <b class="semibold">
                                                         에어커버가 만드는 다양한
                                                         기류로 쾌적한 냉방을 제공하고, 손쉽게 열어 직접 관리할 수 있는 쿨오픈으로 관리 편의성까지
                                                         높인 실용적인 에어컨
                                                     </b>
                                                 </td>
-                                                <td class="highlight">
+                                                <td class="highlight aling-top-left">
                                                     <b class="semibold">
                                                         냉방과 제습 등 자주 쓰는 기능에 집중하고, 손쉽게 열어 직접
                                                         관리할 수 있는 쿨오픈으로
@@ -551,7 +528,7 @@
                                                         실속형 에어컨
                                                     </b>
                                                 </td>
-                                                <td class="highlight">
+                                                <td class="highlight aling-top-left">
                                                     <b class="semibold">
                                                         냉방·제습·온풍을 모두 지원해
                                                         계절에 따라 활용 범위가 넓은
@@ -563,62 +540,62 @@
                                                 <th class="highlight">
                                                     추천 상황
                                                 </th>
-                                                <td class="highlight">
+                                                <td class="highlight aling-top-left">
                                                     <b class="semibold">
-                                                        <ul>
+                                                        <ul class="list-style-disc">
                                                             <li>가족이 오래 머무는 거실에서 장시간 냉방이 필요한 경우</li>
                                                             <li>시원함뿐 아니라 쾌적함까지 중요하게 생각하는 경우</li>
                                                             <li>넓은 공간에서도 안정적인 온·습도 관리를 원하는 경우</li>
                                                         </ul>
                                                     </b>
                                                 </td>
-                                                <td class="highlight">
+                                                <td class="highlight aling-top-left">
                                                     <b class="semibold">
-                                                        <ul>
+                                                        <ul class="list-style-disc">
                                                             <li>쾌적한 온·습도 설정을 중요하게 생각하는 경우</li>
                                                             <li>손쉽게 에어컨 내부를 직접 관리할 수 있는 에어컨을 찾는 경우</li>
                                                             <li>뷰케이스 활용으로 인테리어 연출까지 고려하는 경우</li>
                                                         </ul>
                                                     </b>
                                                 </td>
-                                                <td class="highlight">
+                                                <td class="highlight aling-top-left">
                                                     <b class="semibold">
-                                                        <ul>
+                                                        <ul class="list-style-disc">
                                                             <li>인테리어형 에어컨을 원하지만 상위 라인까지는 부담스러운 경우</li>
                                                             <li>손쉽게 에어컨 내부를 직접 관리할 수 있는 에어컨을 찾는 경우</li>
                                                             <li>뷰케이스 활용으로 인테리어 연출까지 고려하는 경우</li>
                                                         </ul>
                                                     </b>
                                                 </td>
-                                                <td class="highlight">
+                                                <td class="highlight aling-top-left">
                                                     <b class="semibold">
-                                                        <ul>
+                                                        <ul class="list-style-disc">
                                                             <li>예산은 중요하지만 거실 인테리어 포인트도 놓치고 싶지 않은 경우</li>
                                                             <li>손쉽게 에어컨 내부를 직접 관리할 수 있는 에어컨을 찾는 경우</li>
                                                             <li>뷰케이스 활용으로 인테리어 연출까지 고려하는 경우</li>
                                                         </ul>
                                                     </b>
                                                 </td>
-                                                <td class="highlight">
+                                                <td class="highlight aling-top-left">
                                                     <b class="semibold">
-                                                        <ul>
+                                                        <ul class="list-style-disc">
                                                             <li>직·간접 바람을 상황에 따라 다양하게 사용하고 싶은 경우</li>
                                                             <li>손쉽게 에어컨 내부를 직접 관리할 수 있는 에어컨을 찾는 경우 </li>
                                                             <li>실용성과 관리 편의성을 함께 중요하게 보는 경우</li>
                                                         </ul>
                                                     </b>
                                                 </td>
-                                                <td class="highlight">
+                                                <td class="highlight aling-top-left">
                                                     <b class="semibold">
-                                                        <ul>
+                                                        <ul class="list-style-disc">
                                                             <li>기본 기능에 충실한 실속형 에어컨을 찾는 경우</li>
                                                             <li>손쉽게 에어컨 내부를 직접 관리할 수 있는 에어컨을 찾는 경우</li>
                                                         </ul>
                                                     </b>
                                                 </td>
-                                                <td class="highlight">
+                                                <td class="highlight aling-top-left">
                                                     <b class="semibold">
-                                                        <ul>
+                                                        <ul class="list-style-disc">
                                                             <li>냉방과 온풍을 함께 사용해</li>
                                                             <li>계절에 따라 활용 범위가 넓은</li>
                                                             <li>에어컨을 찾는 경우</li>
@@ -1650,11 +1627,7 @@
                             <section class="product-table">
                                 <div class="section-header">
                                     <h2 class="section-title">
-                                        <b>
-                                            스탠드 에어컨
-                                        </b>
-                                        ,
-                                        <br class="mo-only">
+                                        <b>스탠드 에어컨</b>,
                                         어떤 성능을 보면 될까?
                                     </h2>
                                     <p class="section-header-desc">
@@ -1955,37 +1928,32 @@
                                                 <td class="support">
                                                     <b class="semibold">
                                                         지원
-                                                        <br>
-                                                        (본체/리모컨)
                                                     </b>
+                                                    <p>(본체/리모컨)</p>
                                                 </td>
                                                 <td class="support">
                                                     <b class="semibold">
                                                         지원
-                                                        <br>
-                                                        (본체/리모컨)
                                                     </b>
+                                                    <p>(본체/리모컨)</p>
                                                 </td>
                                                 <td class="support">
                                                     <b class="semibold">
                                                         지원
-                                                        <br>
-                                                        (본체/리모컨)
                                                     </b>
+                                                    <p>(본체/리모컨)</p>
                                                 </td>
                                                 <td class="support">
                                                     <b class="semibold">
                                                         지원
-                                                        <br>
-                                                        (리모컨)
                                                     </b>
+                                                    <p>(리모컨)</p>
                                                 </td>
                                                 <td class="support">
                                                     <b class="semibold">
                                                         지원
-                                                        <br>
-                                                        (리모컨)
                                                     </b>
+                                                    <p>(리모컨)</p>
                                                 </td>
                                                 <td>
                                                     <b class="semibold">
@@ -2085,37 +2053,37 @@
                                                     <b class="semibold">
                                                         지원
                                                     </b>
-                                                    <p>(레이더/ 공간인식/ 직접설정)</p>
+                                                    <p>(공간인식/ 직접설정)</p>
                                                 </td>
                                                 <td class="support">
                                                     <b class="semibold">
                                                         지원
                                                     </b>
-                                                    <p>(레이더/ 공간인식/ 직접설정)</p>
+                                                    <p>(공간인식/ 직접설정)</p>
                                                 </td>
                                                 <td class="support">
                                                     <b class="semibold">
                                                         지원
                                                     </b>
-                                                    <p>(레이더/ 공간인식/ 직접설정)</p>
+                                                    <p>(공간인식/ 직접설정)</p>
                                                 </td>
                                                 <td class="support">
                                                     <b class="semibold">
                                                         지원
                                                     </b>
-                                                    <p>(레이더/ 공간인식/ 직접설정)</p>
+                                                    <p>(공간인식/ 직접설정)</p>
                                                 </td>
                                                 <td class="support">
                                                     <b class="semibold">
                                                         지원
                                                     </b>
-                                                    <p>(레이더/ 공간인식/ 직접설정)</p>
+                                                    <p>(공간인식/ 직접설정)</p>
                                                 </td>
                                                 <td class="support">
                                                     <b class="semibold">
                                                         지원
                                                     </b>
-                                                    <p>(레이더/ 공간인식/ 직접설정)</p>
+                                                    <p>(공간인식/ 직접설정)</p>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -2566,16 +2534,14 @@
                                                 <td class="support">
                                                     <b class="semibold">
                                                         지원
-                                                        <br>
-                                                        (PM1.0센서)
                                                     </b>
+                                                    <p>(PM1.0센서)</p>
                                                 </td>
                                                 <td class="support">
                                                     <b class="semibold">
                                                         지원
-                                                        <br>
-                                                        (PM1.0센서)
                                                     </b>
+                                                    <p>(PM1.0센서)</p>
                                                 </td>
                                                 <td>
                                                     <b class="semibold">
@@ -2745,7 +2711,7 @@
                                                     </b>
                                                 </th>
                                                 <td>
-                                                    <b class="semibold">1등급 / 2등급</b>
+                                                    <b class="semibold">1등급 / <br>2등급</b>
                                                     <p class="gray">*모델별 상이</p>
                                                 </td>
                                                 <td>
@@ -2755,7 +2721,7 @@
                                                     <b class="semibold">2등급</b>
                                                 </td>
                                                 <td>
-                                                    <b class="semibold">1등급 / 2등급</b>
+                                                    <b class="semibold">1등급 / <br>2등급</b>
                                                     <p class="gray">*모델별 상이</p>
                                                 </td>
                                                 <td>
@@ -2765,7 +2731,7 @@
                                                     <b class="semibold">2등급</b>
                                                 </td>
                                                 <td>
-                                                    <b class="semibold">1등급 / 2등급</b>
+                                                    <b class="semibold">1등급 / <br>2등급</b>
                                                     <p class="gray">*모델별 상이</p>
                                                 </td>
                                                 <td>
@@ -2845,9 +2811,7 @@
                                                 </td>
                                                 <td>
                                                     <b class="semibold">
-                                                        에센스
-                                                        <br>
-                                                        화이트
+                                                        에센스 화이트
                                                     </b>
                                                 </td>
                                                 <td>
@@ -2879,30 +2843,22 @@
                                                 </td>
                                                 <td>
                                                     <b class="semibold">
-                                                        에센스
-                                                        <br>
-                                                        화이트
+                                                        에센스 화이트
                                                     </b>
                                                 </td>
                                                 <td>
                                                     <b class="semibold">
-                                                        에센스
-                                                        <br>
-                                                        화이트
+                                                        에센스 화이트
                                                     </b>
                                                 </td>
                                                 <td>
                                                     <b class="semibold">
-                                                        에센스
-                                                        <br>
-                                                        화이트
+                                                        에센스 화이트
                                                     </b>
                                                 </td>
                                                 <td>
                                                     <b class="semibold">
-                                                        에센스
-                                                        <br>
-                                                        화이트
+                                                        에센스 화이트
                                                     </b>
                                                 </td>
                                             </tr>
@@ -3224,20 +3180,10 @@
                                     효율적으로
                                 </h4>
                                 <p>
-                                    <b>
-                                        벽걸이 에어컨
-                                    </b>
-                                    은 벽에 설치해 공간을 효율적으로 활용할 수 있어 원룸이나 방과 같은 소형 공간
-                                            에 적합한 유형입니다.
-                                    <b>
-                                        공간을 차지하지 않으면서 효율적으로 냉방
-                                    </b>
-                                    해 쾌적한 실내 환경을 유지
-                                            할 수 있습니다.
+                                    <b>벽걸이 에어컨</b>은 벽에 설치해 공간을 효율적으로 활용할 수 있어 원룸이나 방과 같은 <br class="pc-only">소형 공간 에 적합한 유형입니다.
+                                    <b>공간을 차지하지 않으면서 효율적으로 냉방</b>해 쾌적한 실내 환경을 유지할 수 있습니다.
                                     <br>
-                                    <b>
-                                        소형 공간 및 분리된 방에서 사용하기에 적합합니다.
-                                    </b>
+                                    <b>소형 공간 및 분리된 방에서 사용하기에 적합</b>합니다.
                                 </p>
                             </div>
                             <p class="note aling-left">
@@ -3248,18 +3194,12 @@
                             <section class="product-table">
                                 <div class="section-header">
                                     <h2 class="section-title">
-                                        어떤
-                                        <b>
-                                            벽걸이 에어컨
-                                        </b>
-                                        이
-                                        <br class="mo-only">
-                                        나에게 맞을까?
+                                        어떤 <b>벽걸이 에어컨</b>이 나에게 맞을까?
                                     </h2>
                                     <p class="section-header-desc">
                                         이용 목적에 맞는 벽걸이 에어컨을 선택할 수 있도록,
                                         <br>
-                                        모델별 적합한 사용 환경과 핵심 특징, 추천 상황을 한눈에 확인해 보세요.
+                                        라인업별 대표 모델을 기준으로 적합한 사용 환경과 핵심 특징, 추천 상황을 한눈에 확인해 보세요.
                                     </p>
                                 </div>
                                 <div class="table-wrap include-tab vertical-scroll-box buying-guide-spec-table">
@@ -3706,8 +3646,8 @@
                                                         <button type="button" class="tooltip-btn" aria-controls="mobile-dialog-bottomSheet" aria-label="상세 정보 보기">
                                                         </button>
                                                         <span class="tooltip-message">
-                                                            외출절전은 냉방 운전 중 레이더센서를 통해 부재 감지 시 절전 모드로 전환되거나 운전을 멈추고, <br>
-                                                            사람이 감지되면 이전 상태로 돌아가 편리하게 사용할 수 있는 절전 기능입니다.
+                                                            AI음성인식은 “Hi LG”라고 말하면 모드 추천부터 실내 환경 안내까지, <br>
+                                                            대화하듯 쉽고 빠르게 제어할 수 있는 음성 인식 기능입니다.
                                                         </span>
                                                         <div class="mobile-dialog-bottomSheet" hidden>
                                                             <b>
@@ -3896,11 +3836,7 @@
                             <section class="product-table">
                                 <div class="section-header">
                                     <h2 class="section-title">
-                                        <b>
-                                            벽걸이 에어컨,
-                                        </b>
-                                        <br class="mo-only">
-                                        어떤 성능을 보면 될까?
+                                        <b>벽걸이 에어컨</b>, 어떤 성능을 보면 될까?
                                     </h2>
                                     <p class="section-header-desc">
                                         벽걸이 에어컨의 주요 스펙을 한눈에 살펴보고
@@ -4100,7 +4036,7 @@
                                                     <b class="semibold">
                                                         지원
                                                     </b>
-                                                    <p>(직접 설정)</p>
+                                                    <p>(정면 토출구)</p>
                                                 </td>
                                                 <td class="support">
                                                     <b class="semibold">
@@ -4128,7 +4064,6 @@
                                                     <b class="semibold">
                                                         지원
                                                     </b>
-                                                    <p>(직접 설정)</p>
                                                 </td>
                                                 <td class="support">
                                                     <b class="semibold">
@@ -4504,40 +4439,23 @@
                                     어려운 공간에도 간편하게
                                 </h4>
                                 <p>
-                                    <b>
-                                        창호형 에어컨
-                                    </b>
-                                    은 복잡한 시공 없이 창문에 간편하게 설치할 수 있어 설치 조건에 제약이 있는 공
-                                            간에서도 사용 가능한 유형입니다.
-                                    <b>
-                                        무배관 설치로 벽 타공 없이 간편하게 다양한 창문 사이즈에 
-                                            맞춰 편리하게 설치
-                                    </b>
-                                    할 수 있습니다.
+                                    <b>창호형 에어컨</b>은 복잡한 시공 없이 창문에 간편하게 설치할 수 있어 설치 조건에 제약이 있는 공간에서도 사용 가능한 유형입니다.
+                                    <b>무배관 설치로 벽 타공 없이 간편하게 다양한 창문 사이즈에 맞춰 편리하게 설치</b>할 수 있습니다.
                                     <br>
-                                    <b>
-                                        설치 제약이 있는 주거 환경
-                                    </b>
-                                    에서 사용하기에 적합합니다.
+                                    <b>설치 제약이 있는 주거 환경</b>에서 사용하기에 적합합니다.
                                 </p>
                             </div>
                             <p class="note aling-left">
-                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
-                                        스펙은 다를 수 있습니다.
+                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
                             </p>
                             <!-- sub product table -->
                             <section class="product-table">
                                 <div class="section-header">
                                     <h2 class="section-title">
-                                        <b>
-                                            창호형 에어컨
-                                        </b>
-                                        이
-                                        <br class="mo-only">
-                                        나에게 맞을까?
+                                        <b>창호형 에어컨</b>이 나에게 맞을까?
                                     </h2>
                                     <p class="section-header-desc">
-                                        창호형 에어컨의 적합한 사용 환경과 핵심 특징, 추천 상황을 한눈에 확인해 보세요.
+                                        창호형 에어컨의 적합한 사용 환경과 핵심 특징, <br class="mo-br">추천 상황을 한눈에 확인해 보세요.
                                     </p>
                                 </div>
                                 <div class="table-wrap include-tab vertical-scroll-box buying-guide-spec-table buying-guide-spec-table-single">
@@ -4587,8 +4505,7 @@
                                                 </th>
                                                 <td class="highlight">
                                                     <b class="semibold">
-                                                        온도와 습도 관리가 필요한 거실, 넓은 방,<br class="pc-only">
-                                                        오피스텔 등 단일 공간
+                                                        냉방이 필요한 원룸, 침실, 서재 등 <br class="mo-only">단일 공간
                                                     </b>
                                                 </td>
                                             </tr>
@@ -4600,9 +4517,8 @@
                                                 </th>
                                                 <td class="highlight">
                                                     <b class="semibold">
-                                                        정면과 하단 2개의 토출구로 바람을 고르게 전달하고,<br class="pc-only">
-                                                        원하는 온도와 습도를 쾌적하게 유지해주는 벽걸이 에어컨
-                                                    </b>
+                                                        시공 없이 창문에 깔끔하게 설치 <br class="mo-only">가능한 소형 공간 최적화 에어컨
+                                                    </br>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -4613,7 +4529,7 @@
                                                 </th>
                                                 <td class="highlight">
                                                     <b class="semibold">
-                                                        장시간 사용에도 쾌적한 온도 유지와 제습이 필요한 경우
+                                                        설치 제약이 있는 공간에서 에어컨 <br class="mo-only">사용을 고려하는 경우
                                                     </b>
                                                 </td>
                                             </tr>
@@ -4807,12 +4723,7 @@
                             <section class="product-table">
                                 <div class="section-header">
                                     <h2 class="section-title">
-                                        <b>
-                                            창호형 에어컨
-                                        </b>
-                                        ,
-                                        <br class="mo-only">
-                                        어떤 성능을 보면 될까?
+                                        <b>창호형 에어컨</b>, 어떤 성능을 보면 될까?
                                     </h2>
                                     <p class="section-header-desc">
                                         창호형 에어컨의 주요 스펙을 한눈에 살펴보고
@@ -4921,7 +4832,7 @@
                                             <tr>
                                                 <th class="th2">
                                                     <p>
-                                                        올클리닝
+                                                        클린바스켓
                                                     </p>
                                                 </th>
                                                 <td class="support">
@@ -4995,7 +4906,7 @@
                                                 </th>
                                                 <td>
                                                     <b class="semibold">
-                                                        절전 2단계 절전 플래너
+                                                        절전 2단계 <br>절전 플래너
                                                     </b>
                                                 </td>
                                             </tr>
@@ -5120,15 +5031,10 @@
                             <section class="product-table">
                                 <div class="section-header">
                                     <h2 class="section-title">
-                                        <b>
-                                            이동식 에어컨
-                                        </b>
-                                        이
-                                        <br class="mo-only">
-                                        나에게 맞을까?
+                                        <b>이동식 에어컨</b>이 나에게 맞을까?
                                     </h2>
                                     <p class="section-header-desc">
-                                        이동식 에어컨의 적합한 사용 환경과 핵심 특징, 추천 상황을 한눈에 확인해 보세요.
+                                        이동식 에어컨의 적합한 사용 환경과 핵심 특징, <br class="mo-br">추천 상황을 한눈에 확인 해보세요. 
                                     </p>
                                 </div>
                                 <div class="table-wrap include-tab vertical-scroll-box buying-guide-spec-table buying-guide-spec-table-single">
@@ -5252,6 +5158,29 @@
                                             <tr>
                                                 <th class="th2">
                                                     <b class="semibold">
+                                                        제습
+                                                    </b>
+                                                </th>
+                                                <td>
+                                                    <div class="tooltip-desc">
+                                                        <b class="semibold">
+                                                            강력제습
+                                                        </b>
+                                                        <button type="button" class="tooltip-btn" aria-controls="mobile-dialog-bottomSheet" aria-label="상세 정보 보기">
+                                                        </button>
+                                                        <span class="tooltip-message">
+                                                            제습으로 장마철이나 습도가 높은 환경에서도 공간을 쾌적하게 관리해 줍니다.
+                                                        </span>
+                                                        <div class="mobile-dialog-bottomSheet" hidden="">
+                                                            <b>bottomsheet title</b>
+                                                            <p>bottomsheet description</p>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th class="th2">
+                                                    <b class="semibold">
                                                         위생
                                                     </b>
                                                 </th>
@@ -5361,12 +5290,7 @@
                             <section class="product-table">
                                 <div class="section-header">
                                     <h2 class="section-title">
-                                        <b>
-                                            이동식 에어컨
-                                        </b>
-                                        ,
-                                        <br class="mo-only">
-                                        어떤 성능을 보면 될까?
+                                        <b>이동식 에어컨</b>, 어떤 성능을 보면 될까?
                                     </h2>
                                     <p class="section-header-desc">
                                         이동식 에어컨의 주요 스펙을 한눈에 살펴보고

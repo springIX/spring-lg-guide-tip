@@ -2556,6 +2556,12 @@
 .buying-guide .point-box .colWrap .col .collapse-content {
   margin-top: 10px;
 }
+.buying-guide .point-box .colWrap .col .collapse-content b {
+  font-size: 14px;
+  color: #444;
+  line-height: 140%;
+  letter-spacing: 0;
+}
 .buying-guide .point-box .colWrap .col .collapse-content p {
   font-size: 14px;
   color: #444;
@@ -2563,6 +2569,7 @@
   line-height: 140%;
   letter-spacing: 0;
 }
+
 .buying-guide .point-box .colWrap .slick-arrow {
   position: absolute;
   top: 285px;
@@ -2852,6 +2859,10 @@
   max-width: 620px;
   margin: 20px auto 0;
 }
+.buying-guide-special .aling-top-left {
+  vertical-align: top !important;
+  text-align: left !important;
+}
 .buying-guide-special .aling-left {
   text-align: left !important;
 }
@@ -2876,11 +2887,30 @@
 .buying-guide-special .semibold {
   font-weight: 600 !important;
 }
+.buying-guide-special .list-style-disc li {
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   gap: 6px;
+}
+.buying-guide-special .list-style-disc li:before {
+  flex-shrink: 0;
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: currentColor;
+  margin-top: 0.6em;
+}
+.buying-guide-special .list-style-disc li + li {
+  margin-top: 12px;
+}
+
 .buying-guide-special .tab-wrap button.tab-img {
   width: auto;
 }
 .buying-guide-special .tab-content .text-wrap {
-  gap: 0;
+  gap: 10px;
 }
 .buying-guide-special .tab-content .text-wrap h4 {
   padding-right: 20px;
@@ -2897,12 +2927,17 @@
 .buying-guide-special .note > li + li {
   margin-top: 2px;
 }
+
 .buying-guide-special .product-select-tip-list {
   margin-top: 100px;
+}
+.buying-guide-special .point-box .colWrap {
+  min-height: inherit;
 }
 .buying-guide-special .product-select-tip-list .colWrap { display: flex; justify-content: flex-start; align-items: stretch; }
 .buying-guide-special .tip-content picture { overflow: hidden; }
 .buying-guide-special .tip-content picture img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
+
 /* .buying-guide-special .note > li:before { content: "*"; flex-shrink: 0; } */
 /* assets // */
 
@@ -2918,6 +2953,9 @@
   }
   .buying-guide-special .tab-content .text-wrap h4 {
     padding-right: 0;
+  }
+  .buying-guide-special .tab-content .text-wrap p {
+
   }
   .buying-guide-special .product-select-tip-list {
     margin-top: 30px;
@@ -2936,6 +2974,18 @@
   .buying-guide-special .product-select-tip-list .colWrap .col > div + div,
   .buying-guide-special .product-select-tip-list .colWrap .col > article + article {
      margin-top: 32px;
+  }
+
+  .buying-guide-special .point-tip .tip-content picture {
+    display: block;
+    aspect-ratio: 1.6/1;
+    overflow: hidden;
+  }
+  .buying-guide-special .point-tip .tip-content .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
   }
 }
 
@@ -2993,6 +3043,14 @@
   margin-top: 60px;
 }
 
+/* 반응형 지원 확장 */
+@media (max-width: 1300px) {
+  .buying-guide-special .buying-guide-hero-img {
+    aspect-ratio: 1.8/1;
+    height: auto;
+  }
+}
+
 @media (max-width: 768px) {
   .buying-guide-special .buying-guide-hero-title {
     padding: 10px 20px 40px;
@@ -3008,7 +3066,7 @@
   }
 
   .buying-guide-special .buying-guide-hero-img {
-    height: 420px;
+    aspect-ratio: 1/1.167;
   }
   .buying-guide-special .buying-guide-hero-desc {
     padding: 40px 20px 60px;
@@ -3038,9 +3096,8 @@
   overflow: visible;
 }
 
-.buying-guide-special
-  .product-table
-  .buying-guide-spec-table::-webkit-scrollbar {
+.buying-guide-special .product-table .buying-guide-spec-table::-webkit-scrollbar {
+
 }
 .buying-guide-special .product-table .buying-guide-spec-table-single {
   width: 100%;
@@ -3211,6 +3268,29 @@
   margin-top: 30px;
 }
 
+.buying-guide-special .slick-slider .slick-track {
+  /* display: flex;
+  justify-content: flex-start; */
+  /* align-items: stretch; */
+}
+.buying-guide-special .point-box .colWrap .col {
+  height: inherit;
+}
+.buying-guide-special .point-box .colWrap .col > article, 
+.buying-guide-special .point-box .colWrap .col > div {
+  height: 100%;
+  
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-direction: column;
+}
+.buying-guide-special .point-box .colWrap .col > article .content-wrap, 
+.buying-guide-special .point-box .colWrap .col > div .content-wrap {
+  flex-grow: 1;
+}
+
+
 /* bottom sheet */
 .is-bottomsheet-open {
 }
@@ -3264,7 +3344,13 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 1.4;
+  word-break: keep-all;
 }
+.mobile-dialog-sheet b br,
+.mobile-dialog-sheet p br {
+  display: none;
+}
+
 .mobile-dialog-sheet p:last-child:not(:first-child) {
   margin-top: 10px;
 }
@@ -3273,7 +3359,7 @@
   position: absolute;
   right: 0;
   top: 0;
-  margin: 30px 20px;
+  margin: 29px 20px;
 }
 .mobile-dialog-close:after {
   content: "";
@@ -3300,6 +3386,29 @@
   .buying-guide-special .product-table .table-wrap table tbody td:first-child {
     width: 100px;
   }
+
+  .buying-guide-special .product-table .buying-guide-spec-table::-webkit-scrollbar {
+      overflow: auto;
+      width: 47px;
+      height: 47px;
+  }
+    
+  .buying-guide-special .product-table .buying-guide-spec-table::-webkit-scrollbar-track {
+      background-color: #eee;
+      border-radius: 999px;
+      border: 20px solid #fff;
+      background-clip: content-box;
+  }
+
+  .buying-guide-special .product-table .buying-guide-spec-table::-webkit-scrollbar-thumb {
+      background-color: #9D9D9D;
+      border-radius: 999px;
+
+      border: 20px solid transparent;
+      background-clip: content-box;
+  }
+
+
   .buying-guide-special .product-table .buying-guide-spec-table-single table {
     width: 100%;
     min-width: auto;
@@ -3430,6 +3539,9 @@
     padding: 32px 30px;
     background-color: #fafafa;
   }
+  .product-select-tip-list > ul > li {
+    max-width: 100%;
+  }
   .product-select-tip-list > ul > li + li {
     border-top: 1px solid #999;
     margin-top: 32px;
@@ -3454,6 +3566,9 @@
 
 /*  구매포인트 */
 /* .buying-guide-special .subtab-wrap .point-wrap .content .des + .btn-collapse-toggle { } */
+.buying-guide-special .subtab-wrap .point-wrap .content .des + .des {
+  margin-top: 8px;
+}
 .buying-guide-special .subtab-wrap .point-wrap .content .btn-collapse-toggle:after {
   background-image: url(/kr/story/buying-guide/2025/img/ic32_arrow_up_bold.svg);
   background-repeat: no-repeat;
@@ -3495,7 +3610,7 @@
   border-color: #ddd;
 }
 .buying-guide-special .point-box .colWrap .col .content-wrap {
-  min-height: calc(var(--box-height) - 100px);
+  min-height: inherit !important;
 }
 .buying-guide-special .point-box .colWrap .col p {
   letter-spacing: 0em;
@@ -3532,10 +3647,13 @@
     padding: 0;
   }
   .buying-guide-special .point-box .colWrap .col .content-wrap {
-    min-height: calc(var(--box-m-height) - 97px);
+    min-height: inherit !important;
   }
   .buying-guide-special .point-box .colWrap .col .collapse-content-disc > li > p {
     font-size: 12px;
+  }
+  .buying-guide-special .subtab-wrap .point-wrap .content .des + .des { 
+    margin-top: 5px;
   }
 }
 
@@ -3566,4 +3684,23 @@
   .tooltip-desc button:hover ~ .tooltip-message,
   .tooltip-desc button:focus ~ .tooltip-message { visibility: hidden; opacity: 0; }
   .tooltip-desc button:before { font-size: 22px; }
+}
+
+
+/* 
+  only scripting attrubute
+   - 2025/buying-guide-geo.js
+    기존 컴포넌트 활용 조건이라는 제한.
+*/
+.buying-guide-special .point-box {
+  --cover-height: auto;
+}
+.buying-guide-special .point-box .colWrap .col > article .content-wrap,
+.buying-guide-special .point-box .colWrap .col > div .content-wrap {
+  height: var(--cover-height, auto);
+}
+.buying-guide-special .point-box .colWrap .slick-dots {
+  bottom: inherit !important;
+  top: 100% !important;
+  margin-top: calc(var(--pgn-offset) + 50px);
 }
