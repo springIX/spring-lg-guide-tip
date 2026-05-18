@@ -36,6 +36,10 @@ span.space-16{
   .mo-only {
     display: block;
   }
+  span.space-16{
+  display: block;
+  height: 8px;
+}
 }
 .section__container {
   width: 100%;
