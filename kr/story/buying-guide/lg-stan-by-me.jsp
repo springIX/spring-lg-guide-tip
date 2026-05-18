@@ -64,6 +64,7 @@
         <link rel="stylesheet" href="/kr/story/buying-guide/2025/css/refrigerator.css" type="text/css" />
         <script src="/kr/story/buying-guide/2025/js/common.js"></script>
         <script src="/kr/story/buying-guide/2025/js/refrigerator.js"></script>
+        <script type="text/javascript" src="/kr/story/buying-guide/2025/js/buying-guide-geo.js"></script>
         <script type="text/javascript" src="/kr/story/buying-guide/2025/js/tooltip-sheet.js"></script>
         <!-- // 이모션 추가 -->
     </head>
@@ -127,47 +128,22 @@
                 <div class="buying-guide-hero-img">
                     <picture>
                         <source srcset="
-                            /kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_01.jpg
-                        " media="(max-width: 768px)">
+                                    /kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_01.jpg
+                                " media="(max-width: 768px)">
                         <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_01.jpg" alt="스탠드바이미 TV 구매 가이드 메인 이미지">
                     </picture>
                 </div>
                 <div class="buying-guide-hero-desc">
                     <p>
-                        <b>
-                            스탠바이미 구매 가이드는 다양한 공간에서 콘텐츠를 즐기고자 하는
-                        사용자에게 적합한 이동형 라이프스타일 TV를 보다 쉽게 선택할 수
-                        있도록 도와드립니다.
-                        </b>
+                        <b>스탠바이미 구매 가이드는 다양한 공간에서 콘텐츠를 즐기고자 하는 사용자에게 적합한 이동형 라이프스타일 TV를 보다 쉽게 선택할 수 있도록 도와드립니다.</b>
                     </p>
                     <p>
-                        제품을 고를 때는
-                        <b>
-                            화면 크기와 해상도, 사용 형태
-                        </b>
-                        를 고려해
-                        이용 목적과 시청 환경에 맞는 모델을 살펴보는 것이 좋습니다.
+                        제품을 고를 때는 <b>화면 크기와 해상도, 사용 형태</b>를 고려해 이용 목적과 시청 환경에 맞는 모델을 살펴보는 것이 좋습니다.
                     </p>
                     <p>
-                        제품은
-                        <b>
-                            스크린 탈착이 가능한 스탠바이미 2와 스탠바이미 2 Max,
-                        </b>
-                        그리고
-                        <b>
-                            가방 형태로 간편하게 휴대할 수 있는 스탠바이미 Go
-                        </b>
-                        로
-                        구성되어 있어
-                        <b>
-                            사용 환경에 맞춰 적합한 모델을 선택
-                        </b>
-                        해보세요.
+                        제품은 <b>스크린 탈착이 가능한 스탠바이미 2와 스탠바이미 2 Max,</b> 그리고 <b>가방 형태로 간편하게 휴대할 수 있는 스탠바이미 Go</b>로 구성되어 있어 <b>사용 환경에 맞춰 적합한 모델을 선택</b>해보세요.
                     </p>
-                    <p class="note">
-                        * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
-                        스펙은 다를 수 있습니다.
-                    </p>
+                    <p class="note">* 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.</p>
                 </div>
             </div>
             <!-- buying guide hero // -->
@@ -196,10 +172,7 @@
                         <h2 class="section-title">
                             이용 목적과 시청 환경에 맞는
                             <br class="mobile-only">
-                            <b>
-                                스탠바이미
-                            </b>
-                            를 찾아보세요
+                            <b>스탠바이미</b>를 찾아보세요
                         </h2>
                     </div>
                     <!-- sub tablist -->
@@ -277,29 +250,10 @@
                                     4K UHD로 더 또렷해진 화질
                                 </h4>
                                 <p>
-                                    <b>
-                                        스탠바이미 2 Max
-                                    </b>
-                                    는
-                                    <b>
-                                        약 80cm의 넓고 시원한 화면과 4K 해상도의 선명한 화질로
-                                다양한 공간에서 몰입감 있게 콘텐츠를 즐기기에 적합
-                                    </b>
-                                    한 
-                                이동형 라이프스타일 TV입니다. 실내에서는
-                                    <b>
-                                        무빙휠 스탠드로 손쉽게 이동
-                                    </b>
-                                    할 수 있으며, 필요에 따라
-                                대화면과 고해상도의
-                                    <b>
-                                        스크린을 분리해 활용
-                                    </b>
-                                    할 수 있어
-                                    <b>
-                                        상황과 환경에 따라 유연하게 사용
-                                    </b>
-                                    할 수 있습니다.
+                                    <b>스탠바이미 2 Max</b>는
+                                    <b>약 80cm의 넓고 시원한 화면과 4K 해상도의 선명한 화질로 다양한 공간에서 몰입감 있게 콘텐츠를 즐기기에 적합</b>한 이동형 라이프스타일 TV입니다. <br>
+                                        실내에서는 <b>무빙휠 스탠드로 손쉽게 이동</b>할 수 있으며, 필요에 따라 대화면과 고해상도의 <b>스크린을 분리해 활용</b>할 수 있어
+                                        <b>상황과 환경에 따라 유연하게 사용</b>할 수 있습니다.
                                 </p>
                             </div>
                             <p class="note aling-left">
@@ -346,33 +300,14 @@
                                     원하는 곳 어디든 자유롭게 휴대
                                 </h4>
                                 <p>
-                                    <b>
-                                        스탠바이미 2
-                                    </b>
-                                    는
-                                    <b>
-                                        다양한 공간에서 제약 없이 콘텐츠를 즐기기에 적합
-                                    </b>
-                                    한 이동형
+                                    <b>스탠바이미 2</b>는
+                                    <b>다양한 공간에서 제약 없이 콘텐츠를 즐기기에 적합</b>한 이동형
                                     <br class="pc-only">
-                                    라이프스타일 TV입니다.
-                                실내에서는
-                                    <b>
-                                        무빙휠 스탠드로 손쉽게 이동
-                                    </b>
-                                    할 수 있으며,
+                                    라이프스타일 TV입니다. 실내에서는
+                                    <b>무빙휠 스탠드로 손쉽게 이동</b>할 수 있으며,
                                     <br class="pc-only">
-                                    필요에 따라
-                                    <b>
-                                        스크린을 분리해 활용
-                                    </b>
-                                    할 수 있어 상황과
-                                    <b>
-                                        환경에 따라 유연하게
-                                        <br class="pc-only">
-                                        사용
-                                    </b>
-                                    할 수 있습니다.
+                                    필요에 따라<b> 스크린을 분리해 활용</b>할 수 있어 상황과
+                                    <b>환경에 따라 유연하게<br class="pc-only"> 사용</b>할 수 있습니다.
                                 </p>
                             </div>
                             <p class="note aling-left">
@@ -420,24 +355,12 @@
                                 </h4>
                                 <div>
                                     <p>
-                                        <b>
-                                            스탠바이미 Go
-                                        </b>
-                                        는
-                                        <b>
-                                            손잡이가 있는 케이스와 일체화된 디자인으로
-                                        </b>
-                                        , 캠핑이나 야외 활동 등
+                                        <b>스탠바이미 Go</b>는 
+                                        <b>손잡이가 있는 케이스와 일체화된 디자인으로</b>, 캠핑이나 야외 활동 등
                                         <br class="pc-only">
-                                        <b>
-                                            이동이 필요한 다양한 상황에서 휴대하기에 적합
-                                        </b>
-                                        한 이동형 라이프스타일 TV입니다.
+                                        <b>이동이 필요한 다양한 상황에서 휴대하기에 적합</b>한 이동형 라이프스타일 TV입니다.
                                         <br class="pc-only">
-                                        <b>
-                                            견고한 케이스 구조로 이동 중에도 스크린을 안전하게 보호
-                                        </b>
-                                        해주며,
+                                        <b>견고한 케이스 구조로 이동 중에도 스크린을 안전하게 보호</b>해주며, 
                                         <br class="pc-only">
                                         사용하지 않을 때는 간편하게 보관할 수 있습니다.
                                     </p>
@@ -454,18 +377,12 @@
                     <div class="product-table">
                         <div class="section-header">
                             <h2 class="section-title">
-                                어떤
-                                <b>
-                                    스탠바이미
-                                </b>
-                                가 나에게 맞을까?
+                                어떤 <b>스탠바이미</b>가 나에게 맞을까?
                             </h2>
                             <p class="section-header-desc">
-                                나의 사용 환경과 라이프스타일에 맞는 스탠바이미를 선택할
-                            수 있도록,
+                                    나의 사용 환경과 라이프스타일에 맞는 스탠바이미를 <br class="mo-only">선택할 수 있도록,
                                 <br class="pc-only">
-                                모델별 적합한 사용 환경과 핵심 특징, 추천 상황을 한눈에
-                            확인해보세요.
+                                모델별 적합한 사용 환경과 핵심 특징, 추천 상황을 한눈에 확인해보세요.
                             </p>
                         </div>
                         <div class="table-wrap include-tab vertical-scroll-box buying-guide-spec-table">
@@ -1138,8 +1055,6 @@
                                             <b class="semibold">
                                                 지원
                                             </b>
-                                            <br>
-                                            <small>*제품별 지원 여부 상이</small>
                                         </td>
                                     </tr>
                                     <tr>
@@ -1342,10 +1257,7 @@
                     <div class="product-select-tip-wrap">
                         <div class="section-header">
                             <h2 class="section-title">
-                                <b>
-                                    스탠바이미
-                                </b>
-                                선택 가이드
+                                <b>스탠바이미</b> 선택 가이드
                             </h2>
                             <p class="section-header-desc">
                                 스탠바이미는 이용 목적에 따라
@@ -1362,7 +1274,7 @@
                                 <li>
                                     <div class="product-select-tip">
                                         <div class="product-select-tip-icon">
-                                            <img src="/kr/story/buying-guide/2025/img/ic32_check.png" alt="">
+                                            <img src="/kr/story/buying-guide/2025/img/ic32_check.svg" alt="">
                                         </div>
                                         <h3>
                                             제품 유형과 사용 방식 이해하기
@@ -1379,7 +1291,7 @@
                                 <li>
                                     <div class="product-select-tip">
                                         <div class="product-select-tip-icon">
-                                            <img src="/kr/story/buying-guide/2025/img/ic32_check.png" alt="">
+                                            <img src="/kr/story/buying-guide/2025/img/ic32_check.svg" alt="">
                                         </div>
                                         <h3>
                                             주요 기능과 선택 기준 비교하기
@@ -1400,7 +1312,7 @@
                 <!-- top anchor tab pannel buying-point -->
                 <section id="buying-point" name="buying-guide-content" style="display: none">
                     <h2 class="hide">
-                        구매 포인트
+                        구매포인트
                     </h2>
                     <h3 class="section-title">
                         원하는 공간에서 즐기는 새로운 시청 경험
@@ -1451,7 +1363,7 @@
                                             </p>
                                             <div class="img">
                                                 <button class="btn-pause">
-                                                    일시멈충
+                                                    일시멈춤
                                                 </button>
                                                 <video autoplay="" playsinline="" loop="" muted="" src="/kr/story/buying-guide/2025/video/stan-by-me/vid_P10_101_01.mp4">
                                                 </video>
@@ -1460,15 +1372,7 @@
                                                 * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
                                             </p>
                                             <button class="btn-collapse-toggle">
-                                                <span>
-                                                    <b class="bold">
-                                                        * 무빙휠 스탠드
-                                                    </b>
-                                                    /
-                                                    <b class="bold">
-                                                        전용 액세서리
-                                                    </b>
-                                                </span>
+                                                <span><b class="bold">* 무빙휠 스탠드</b> / <b class="bold">전용 액세서리</b></span>
                                             </button>
                                             <div class="collapse-content">
                                                 <p>
@@ -1507,7 +1411,7 @@
                                                 <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_03.jpg" alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다.">
                                             </div>
                                             <p class="des">
-                                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별색상 및 스펙은 다를 수 있습니다.
+                                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
                                             </p>
                                             <button class="btn-collapse-toggle">
                                                 <span>
@@ -1750,7 +1654,7 @@
                                                         [버추얼 서라운드]
                                                     </b>
                                                     <br>
-                                                    * 버추얼 5.1.2 서라운드는 영상의 사운드를 분석해 가상의 스피커 채널을 추가하는(업믹싱) AI 기술입니다.
+                                                    * 버추얼 서라운드는 영상의 사운드를 분석해 가상의 스피커 채널을 추가하는(업믹싱) AI 기술입니다.
                                                     <br>
                                                     * 버추얼 서라운드는 스탠바이미 스피커(XT7S)에서도 지원되며, 외부 스피커 스펙에 따라 지원이 불가할 수 있습니다. 
                                                     <br>
@@ -1791,7 +1695,7 @@
                                                         [돌비 애트모스]
                                                     </b>
                                                     <br>
-                                                    * 돌비 비전과 돌비 애트모스는 돌비로 제작된 콘텐츠 시청 시 지원 가능합니다.
+                                                    * 돌비 애트모스는 돌비로 제작된 콘텐츠 시청 시 지원 가능합니다.
                                                 </p>
                                             </div>
                                         </div>
@@ -1979,7 +1883,7 @@
                                                 <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_14.jpg" alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다.">
                                             </div>
                                             <p class="des">
-                                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별색상 및 스펙은 다를 수 있습니다.
+                                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
                                             </p>
                                             <button class="btn-collapse-toggle">
                                                 <span>
@@ -2015,7 +1919,7 @@
                                                 <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_18.jpg" alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다.">
                                             </div>
                                             <p class="des">
-                                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별색상 및 스펙은 다를 수 있습니다.
+                                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
                                             </p>
                                             <p class="des">
                                                 *  LG 스탠바이미 액세서리는 별매이며, 제품별로 호환되는 액세서리가 상이합니다. 세트 제품 구매 시 구성품을 확인해 주세요.
@@ -2112,7 +2016,7 @@
                             </div>
                             <div class="tab-content">
                                 <div id="buying-point-4" name="buying-point-345">
-                                    <div class="slideWrap colWrap" style="--box-height: 585px; --box-m-height: 431px">
+                                    <div class="slideWrap colWrap">
                                         <div class="col">
                                             <div>
                                                 <div class="content-wrap">
@@ -2165,6 +2069,7 @@
                                                         </span>
                                                     </button>
                                                     <div class="collapse-content">
+                                                        <b>[벽걸이 스트랩]</b>
                                                         <ul class="collapse-content-disc">
                                                             <li>
                                                                 <p>
@@ -2175,8 +2080,7 @@
                                                                 <p>
                                                                     벽면 거치 시 기본 제공되는 벽걸이 홀더 사용을 권장합니다.
                                                                     <br>
-                                                                    제품의 하중을 고려한 설치가 필요하며, 그렇지 않을 경우 제품에
-                                                        이상(제품 기울어짐 및 낙하 등)이 생길 수 있습니다.
+                                                                    제품의 하중을 고려한 설치가 필요하며, 그렇지 않을 경우 제품에 이상(제품 기울어짐 및 낙하 등)이 생길 수 있습니다.
                                                                 </p>
                                                             </li>
                                                         </ul>
@@ -2215,10 +2119,9 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <p class="note aling-left">* 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및스펙은 다를 수 있습니다.</p>
                                 </div>
                                 <div id="buying-point-5" name="buying-point-345">
-                                    <div class="slideWrap colWrap" style="--box-height: 585px; --box-m-height: 431px">
+                                    <div class="slideWrap colWrap">
                                         <div class="col">
                                             <div>
                                                 <div class="content-wrap">
@@ -2298,6 +2201,7 @@
                                                         </span>
                                                     </button>
                                                     <div class="collapse-content">
+                                                        <b>[벽걸이 스트랩]</b>
                                                         <ul class="collapse-content-disc">
                                                             <li>
                                                                 <p>
@@ -2345,10 +2249,9 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <p class="note aling-left">* 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및스펙은 다를 수 있습니다.</p>
                                 </div>
                                 <div id="buying-point-6" name="buying-point-345">
-                                    <div class="slideWrap colWrap" style="--box-height: 585px; --box-m-height: 431px">
+                                    <div class="slideWrap colWrap">
                                         <div class="col">
                                             <div>
                                                 <div class="content-wrap">
@@ -2376,11 +2279,12 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <ul class="note aling-left">
-                                        <li>* 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및스펙은 다를 수 있습니다.</li>
-                                        <li>* 폴리오 커버, 원클릭 스탠드, 벽걸이 스트랩, 스마트 캠 액세서리는 별매입니다. 세트 제품 구매 시 구성품을 확인해 주세요.</li>
-                                    </ul>
                                 </div>
+                                <ul class="note aling-left" id="pagenation-offset">
+                                        <li>* LG 스탠바이미 액세서리는 별매이며, 제품별로 호환되는 액세서리가 상이합니다. 세트 제품 구매 시 구성품을 확인해 주세요.</li>
+                                        <li>* LG 스탠바이미 2 전용 액세서리는 폴리오 커버, 원클릭 스탠드, 벽걸이 스트랩, 스마트 캠입니다.</li>
+                                        <li>* LG 스탠바이미 2 Max 전용 액세서리는 원클릭 스탠드, 벽걸이 스트랩, 스마트 캠이며, 원클릭 스탠드와 벽걸이 스트랩은 5월 중 출시 예정으로 디자인이 변경될 수 있습니다.</li>
+                                    </ul>
                             </div>
                         </div>
                     </div>
@@ -2427,9 +2331,7 @@
                                 <img src="/kr/story/buying-guide/2025/img/ic32_products.png" alt="빨간색 원형 배경에 흰색 엄지손가락 치켜세운 모양의 3D 아이콘.">
                                 인기 상품
                             </h3>
-                            <p>
-                                지금 가장 인기 있는 스탠바이미를 확인해 보세요!
-                            </p>
+                            <p>지금 가장 인기 있는 스탠바이미를 확인해 보세요!</p>
                             <div class="btn-wrap">
                                 <a target="_blank" href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000024&categoryId=CT50295000&categoryName=%EC%8A%A4%ED%83%A0%EB%B0%94%EC%9D%B4%EB%AF%B8" rel="noopener" aria-label="새 창에서 열림">
                                     베스트 랭킹
@@ -2438,8 +2340,8 @@
                         </div>
                     </div>
                 </section>
-            </div>
-            <!-- top anchor tab contents //-->
+        </div>
+        <!-- top anchor tab contents //-->
         </div>
         <script type="application/ld+json">
             {

@@ -90,3 +90,9 @@
 
 .buying-guide-special .product-table .clone-header-table-wrap { left: 50%; }
 .buying-guide-special .clone-header-table-wrap .table-wrap thead tr:first-child th:first-child { width: 100px; }
+
+.buying-guide-special .aling-top-left {
+  padding: 20px 16px !important;
+}
+
+.buying-guide-special #table_1 { min-width: 1300px; }
