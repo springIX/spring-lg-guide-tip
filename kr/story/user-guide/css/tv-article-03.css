@@ -327,7 +327,7 @@ img {
   margin-top: 60px;
 }
 .contents__detail {
-  margin-top: 48px;
+  /* margin-top: 48px; */
 }
 .contents__detail h5 {
   font-size: 32px;
@@ -453,7 +453,7 @@ img {
     margin-top: 32px;
   }
   .contents__detail {
-    margin-top: 24px;
+    /* margin-top: 24px; */
   }
   .contents__detail h5 {
     font-size: 20px;
