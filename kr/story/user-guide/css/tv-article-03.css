@@ -25,10 +25,7 @@ img {
     letter-spacing: -0.11px;
     margin-bottom: 13px;
 }
-span.space-16{
-  display: block;
-  height: 16px;
-}
+
 @media screen and (max-width: 1024px) {
   .pc-only {
     display: none;
@@ -36,10 +33,7 @@ span.space-16{
   .mo-only {
     display: block;
   }
-  span.space-16{
-  display: block;
-  height: 8px;
-}
+ 
 }
 .section__container {
   width: 100%;
@@ -354,6 +348,7 @@ span.space-16{
   font-size: 32px;
   font-weight: 700;
   line-height: 1.35;
+  margin-bottom: 16px;
 }
 .contents__detail strong {
   display: block;
@@ -363,7 +358,7 @@ span.space-16{
   line-height: 1.35;
 }
 .contents__detail p {
-  margin-top: 16px;
+  /* margin-top: 16px; */
   font-size: 20px;
   line-height: 1.5;
 }
@@ -479,6 +474,7 @@ span.space-16{
   .contents__detail h5 {
     font-size: 20px;
     line-height: 1.35;
+    margin-bottom: 8px;
   }
   .contents__detail strong {
     margin-top: 12px;
@@ -486,7 +482,7 @@ span.space-16{
     line-height: 1.35;
   }
   .contents__detail p {
-    margin-top: 8px;
+    /* margin-top: 8px; */
     font-size: 16px;
     line-height: 1.35;
     letter-spacing: -0.06px;
