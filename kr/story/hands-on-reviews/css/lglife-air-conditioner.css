@@ -171,7 +171,7 @@
 }
 #gjw009 .sec-header .inner-kv .disclaimer {
     width: 100%;
-    padding: 12px 20px 0;
+    padding: 12px 40px 0;
 }
 
 #gjw009 .sec-summary,
@@ -540,7 +540,7 @@
     margin-top: 20px;
     border-radius: 16px;
     aspect-ratio: 572/280;
-    background: var(--ink);
+    
 }
 
 #gjw009 .article-card-image picture,
@@ -630,7 +630,9 @@
     left: 0;
     top: 0;
 }
-
+#gjw009 .article-notice a:hover{
+    text-decoration: underline;
+}
 #gjw009 .care-card {
     position: relative;
     overflow: hidden;
@@ -764,7 +766,9 @@
     height: 100%;
     object-fit: cover;
 }
-
+#gjw009 .sec-service{
+    padding-top: 0;
+}
 #gjw009 .sec-service .inner-text {
     display: flex;
     flex-direction: column;

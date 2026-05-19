@@ -1,0 +1,799 @@
+img {
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.pc-only {
+  display: block;
+}
+
+.mo-only {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .pc-only {
+    display: none;
+  }
+  .mo-only {
+    display: block;
+  }
+}
+.section__container {
+  width: 100%;
+  max-width: 1380px;
+  margin: 0 auto;
+}
+.section__title {
+  text-align: center;
+}
+.section__title span {
+  display: inline-block;
+  padding: 8px 24px;
+  border-radius: 16px;
+  background: #fd312e;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+.section__title h3 {
+  margin-top: 16px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.section__title p {
+  margin-top: 16px;
+  font-size: 24px;
+  line-height: 1.5;
+}
+.section__title p em {
+  font-weight: 700;
+}
+.section__title p + p {
+  margin-top: 24px;
+}
+.section__title strong {
+  display: block;
+  margin-top: 24px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+@media screen and (max-width: 1024px) {
+  .section__container {
+    padding: 0 16px;
+  }
+  .section__title span {
+    padding: 9px 12px;
+    border-radius: 9.57px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .section__title h3 {
+    margin-top: 12px;
+    font-size: 28px;
+    line-height: 1.35;
+  }
+  .section__title p {
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 1.35;
+  }
+  .section__title p + p {
+    margin-top: 8px;
+  }
+  .section__title strong {
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 1.35;
+  }
+}
+
+.visual {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  border-radius: 32px;
+}
+.visual img {
+  width: 100%;
+}
+.visual__text {
+  position: absolute;
+  top: 50%;
+  left: 80px;
+  transform: translateY(-50%);
+}
+.visual__text h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -0.1px;
+}
+.visual__text p {
+  font-size: 20px;
+  line-height: 1.35;
+}
+.visual__text p::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  margin: 16px 0;
+  background: #ed1c23;
+}
+@media screen and (max-width: 1024px) {
+  .visual {
+    border-radius: 0;
+  }
+  .visual__text {
+    top: 40px;
+    left: 24px;
+    padding-right: 24px;
+    transform: unset;
+  }
+  .visual__text h2 {
+    color: #000;
+    font-size: 28px;
+    line-height: 1.4;
+  }
+  .visual__text p {
+    color: #000;
+    font-size: 16px;
+    line-height: 1.35;
+  }
+}
+
+.intro {
+  padding-top: 120px;
+}
+.intro h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+}
+.intro p {
+  margin-top: 24px;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+}
+.intro p + p {
+  margin-top: 16px;
+}
+.intro strong {
+  display: block;
+  margin-top: 24px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+}
+.intro ul {
+  max-width: 960px;
+  margin: 32px auto 0;
+  padding: 32px;
+  border-radius: 32px;
+  background: #f5f5f5;
+}
+.intro ul li p {
+  margin: 0;
+  padding-left: 12px;
+  font-size: 22px;
+  line-height: 1.35;
+  text-align: left;
+  word-break: keep-all;
+  text-indent: -12px;
+}
+.intro ul li + li {
+  margin-top: 12px;
+}
+.intro ul + h3 {
+  margin-top: 36px;
+}
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding-top: 60px;
+  }
+  .intro h3 {
+    font-size: 24px;
+    line-height: 1.35;
+  }
+  .intro p {
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 1.35;
+  }
+  .intro p + p {
+    margin-top: 8px;
+  }
+  .intro ul {
+    margin-top: 24px;
+    padding: 20px;
+    border-radius: 16px;
+  }
+  .intro ul li {
+    position: relative;
+    width: 100%;
+  }
+  .intro ul li p {
+    padding-left: 8px;
+    font-size: 15px;
+    line-height: 1.35;
+    text-indent: -8px;
+  }
+  .intro ul li + li {
+    margin-top: 16px;
+  }
+  .intro ul + h3 {
+    margin-top: 24px;
+  }
+  .intro strong {
+    margin-top: 12px;
+    font-size: 18px;
+    line-height: 1.35;
+  }
+}
+
+.contents {
+  padding-top: 180px;
+}
+.contents__visual {
+  margin-top: 60px;
+}
+.contents__visual img {
+  width: 100%;
+}
+.contents__visual video {
+  width: 100%;
+  height: 100%;
+  border-radius: 32px;
+}
+.contents__checkpoint {
+  margin-top: 16px;
+  padding: 32px;
+  border-radius: 32px;
+  background: #f0f2f4;
+}
+.contents__checkpoint h4 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+.contents__checkpoint h4::before {
+  content: "";
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background-image: url("/kr/story/user-guide/images/wireless-tv-setup/ico_checkpoint.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contents__checkpoint ul {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 48px;
+}
+.contents__checkpoint ul li {
+  width: 100%;
+  height: auto;
+}
+.contents__checkpoint ul li h5 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+.contents__checkpoint ul li h5 span {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+}
+.contents__checkpoint ul li p {
+  margin-top: 8px;
+  font-size: 20px;
+  line-height: 1.35;
+}
+.contents__checkpoint ul li + li {
+  padding-left: 32px;
+  border-left: 1px solid rgba(0, 0, 0, 0.1019607843);
+}
+.contents__checkpoint--vertical ul {
+  flex-direction: column;
+}
+.contents__checkpoint--vertical ul li + li {
+  margin-top: 24px;
+  padding-top: 24px;
+  padding-left: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1019607843);
+  border-left: none;
+}
+.contents__checkpoint--vertical + .contents__tip {
+  margin-top: 16px;
+}
+.contents__disclaimer {
+  margin-top: 16px;
+}
+.contents__disclaimer p {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.35;
+}
+ .visual__disclaimer {
+        max-width: 1600px;
+        margin: 0 auto;
+        margin-top: 16px;
+    }
+.contents__tip {
+  position: relative;
+  margin-top: 60px;
+  padding: 32px;
+  border-radius: 32px;
+  background: #f5f5f5;
+}
+.contents__tip h4 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+.contents__tip h4 span {
+  display: inline-block;
+  width: 57px;
+  height: 32px;
+  border-radius: 8px;
+  background: #ea1917;
+  color: #fff;
+  font-size: 20px;
+  line-height: 32px;
+  line-height: 1.6;
+  text-align: center;
+}
+.contents__tip p {
+  margin-top: 8px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.contents__tip h5 {
+  margin-top: 32px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.contents__tip ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+  width: calc(100% - 200px);
+  margin-top: 8px;
+}
+.contents__tip ul li {
+  color: #666;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  word-break: keep-all;
+}
+.contents__tip ul li strong {
+  display: inline-block;
+  margin-right: 8px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.contents__tip a {
+  position: absolute;
+  right: 32px;
+  bottom: 32px;
+  color: #444;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-decoration: underline;
+}
+.contents__tip a::after {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-left: 2px;
+  background-image: url("/kr/story/user-guide/images/wireless-tv-setup/ico_arrow_bk.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contents__tip--secondary h4 + p {
+  margin-top: 32px;
+}
+.contents-detail {
+  margin-top: 60px;
+}
+.contents-detail h4 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+}
+.contents-detail__inner {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 16px;
+  margin-top: 32px;
+}
+.contents-detail__wrap {
+  width: 100%;
+  padding: 32px 16px 16px;
+  border-radius: 32px;
+  background: #f0f2f4;
+}
+.contents-detail__wrap h5 {
+  padding-left: 16px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+.contents-detail__wrap ul {
+  margin-top: 24px;
+  padding: 24px;
+  border-radius: 16px;
+  background: #fff;
+}
+.contents-detail__wrap ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.contents-detail__wrap ul li strong {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+.contents-detail__wrap ul li p {
+  font-size: 20px;
+  line-height: 1.35;
+  text-align: right;
+}
+.contents-detail__wrap ul li + li {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1019607843);
+}
+@media screen and (max-width: 1024px) {
+  .contents {
+    padding-top: 60px;
+  }
+  .contents__visual {
+    margin-top: 32px;
+  }
+  .contents__visual video {
+    border-radius: 16px;
+  }
+  .contents__checkpoint {
+    margin-top: 8px;
+    padding: 20px;
+    border-radius: 16px;
+  }
+  .contents__checkpoint h4 {
+    font-size: 24px;
+    line-height: 1.35;
+  }
+  .contents__checkpoint h4::before {
+    width: 24px;
+    height: 24px;
+  }
+  .contents__checkpoint ul {
+    flex-direction: column;
+    margin-top: 24px;
+  }
+  .contents__checkpoint ul li h5 {
+    gap: 8px;
+    font-size: 20px;
+    line-height: 1.35;
+  }
+  .contents__checkpoint ul li h5 span {
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+    font-size: 12px;
+    line-height: 24px;
+  }
+  .contents__checkpoint ul li p {
+    font-size: 16px;
+    line-height: 1.35;
+  }
+  .contents__checkpoint ul li + li {
+    margin-top: 24px;
+    padding: 24px 0 0;
+    padding-top: 24px;
+    padding-left: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1019607843);
+    border-left: none;
+  }
+  .contents__disclaimer {
+    margin-top: 12px;
+  }
+  .contents__disclaimer p {
+    font-size: 12px;
+    line-height: 1.35;
+    letter-spacing: -0.16px;
+  }
+  .contents__tip {
+    margin-top: 32px;
+    padding: 20px;
+    border-radius: 16px;
+  }
+  .contents__tip h4 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 20px;
+    line-height: 1.35;
+  }
+  .contents__tip h4 span {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  .contents__tip h4 + p {
+    margin-top: 24px;
+    color: #666;
+    line-height: 1.5;
+  }
+  .contents__tip h4 + p + p {
+    color: #666;
+    line-height: 1.5;
+  }
+  .contents__tip p {
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 1.35;
+  }
+  .contents__tip p strong {
+    display: block;
+    color: #000;
+  }
+  .contents__tip h5 {
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 1.35;
+  }
+  .contents__tip ul {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4px;
+    width: 100%;
+  }
+  .contents__tip ul li {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .contents__tip ul li strong {
+    margin-right: 4px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .contents__tip a {
+    position: unset;
+    display: block;
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: right;
+  }
+  .contents-detail {
+    margin-top: 32px;
+  }
+  .contents-detail h4 {
+    font-size: 20px;
+    line-height: 1.35;
+  }
+  .contents-detail__inner {
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 16px;
+  }
+  .contents-detail__wrap {
+    padding: 16px;
+    border-radius: 16px;
+  }
+  .contents-detail__wrap h5 {
+    padding-left: 0;
+    font-size: 18px;
+    line-height: 1.35;
+  }
+  .contents-detail__wrap ul {
+    margin-top: 16px;
+    padding: 12px;
+    border-radius: 8px;
+  }
+  .contents-detail__wrap ul li {
+    flex-direction: column;
+    gap: 4px;
+  }
+  .contents-detail__wrap ul li strong {
+    font-size: 14px;
+    line-height: 1.35;
+  }
+  .contents-detail__wrap ul li p {
+    font-size: 14px;
+    line-height: 1.35;
+    text-align: left;
+  }
+}
+
+.product {
+  padding: 180px 0 160px;
+}
+.product__link ul {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 16px;
+}
+.product__link ul a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 32px 48px 32px 32px;
+}
+.product__link ul li {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-radius: 32px;
+  background: #f5f5f5;
+}
+.product__link ul li span {
+  color: #fd312e;
+  font-size: 16px;
+  font-weight: 700;
+}
+.product__link ul li p {
+  margin-top: 8px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.35;
+  word-break: keep-all;
+}
+.product__link ul li::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  transform: translateY(-50%);
+  background-image: url("/kr/story/user-guide/images/wireless-tv-setup/ico_arrow_bk.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.product__banner {
+  width: 100%;
+  margin-top: 24px;
+  padding: 65px 140px;
+  border-radius: 28px;
+  background-image: url("/kr/story/user-guide/images/wireless-tv-setup/img_banner.png");
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.product__banner p {
+  font-size: 28px;
+  line-height: 1.35;
+}
+.product__banner p strong {
+  display: block;
+  font-weight: 700;
+}
+.product__banner a {
+  display: block;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 24px;
+  padding: 14px 24px;
+  border-radius: 60px;
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.product__banner a::after {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("/kr/story/user-guide/images/wireless-tv-setup/ico_arrow_right_wt.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 1024px) {
+  .product {
+    padding: 60px 0 0;
+  }
+  .product .section__container {
+    padding: 0;
+  }
+  .product__link {
+    padding: 0 16px;
+  }
+  .product__link ul {
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 16px;
+    background: #f5f5f5;
+  }
+  .product__link ul li a {
+    padding: 0;
+  }
+  .product__link ul li a span {
+    font-size: 14px;
+    line-height: 1.35;
+  }
+  .product__link ul li a p {
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 1.35;
+  }
+  .product__link ul li::after {
+    width: 16px;
+    height: 16px;
+  }
+  .product__banner {
+    padding: 40px 36px 58.8888888889vw;
+    border-radius: 0;
+    background-image: url("/kr/story/user-guide/images/wireless-tv-setup/img_banner_mo.png");
+    background-position: center center;
+  }
+  .product__banner p {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  .product__banner a {
+    margin-top: 16px;
+    padding: 8px 20px 8px 24px;
+    font-size: 13px;
+    line-height: 1.6;
+    letter-spacing: -0.15px;
+  }
+  .product__banner a::after {
+    width: 16px;
+    height: 16px;
+  }
+}
