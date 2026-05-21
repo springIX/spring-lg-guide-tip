@@ -127,10 +127,8 @@
                 </div>
                 <div class="buying-guide-hero-img">
                     <picture>
-                        <source srcset="
-                                    /kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_01.jpg
-                                " media="(max-width: 768px)">
-                        <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_01.jpg" alt="스탠드바이미 TV 구매 가이드 메인 이미지">
+                        <source srcset="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_01.jpg" media="(max-width: 768px)">
+                        <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_01.jpg" alt="무빙휠 스탠드 및 스크린 분리 후 원클릭 스탠드 또는 벽걸이 스트랩으로 다양하게 설치해 사용할 수 있는 스탠바이미">
                     </picture>
                 </div>
                 <div class="buying-guide-hero-desc">
@@ -151,14 +149,10 @@
             <div class="top-anchor">
                 <div class="inner-wrap" id="top-anchor">
                     <button class="active" name="buying-guide-tab" data-target="#line-up" data-group="buying-guide-content" data-pos="#line-up">
-                        <h2>
-                            제품 라인업
-                        </h2>
+                        제품 라인업
                     </button>
                     <button name="buying-guide-tab" data-target="#buying-point" data-group="buying-guide-content" data-pos="#buying-point">
-                        <h2>
-                            구매 포인트
-                        </h2>
+                        구매 포인트
                     </button>
                 </div>
             </div>
@@ -168,20 +162,23 @@
                 <!-- top anchor tab pannels -->
                 <!-- top anchor tab pannel line-up -->
                 <section id="line-up" name="buying-guide-content">
+                    <h2 class="hide">
+                        제품 라인업
+                    </h2>
                     <div class="section-header">
-                        <h2 class="section-title">
+                        <div class="section-title">
                             이용 목적과 시청 환경에 맞는
                             <br class="mobile-only">
                             <b>스탠바이미</b>를 찾아보세요
-                        </h2>
+                        </div>
                     </div>
                     <!-- sub tablist -->
-                    <div id="vertical-scroll-tab" class="tab-wrap sticky" style="--btn-width: inherit; --btn-m-width: 270px">
+                    <div id="vertical-scroll-tab" class="tab-wrap" style="--btn-width: inherit; --btn-m-width: 270px">
                         <!-- <button class="nav nav-left disabled"><</button>
                                 <button class="nav nav-right">></button> -->
                         <div class="vertical-scroll-box">
                             <button class="tab-img active" name="buying-guide-tab" data-target="#product-type-1" data-group="product-type">
-                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_02.png" alt="TV LG 올레드 evo AI (OLED M) (OLED77M5KW.AKRG) 메인이미지 2">
+                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_02.png" alt="">
                                 <span>
                                     <b>
                                         스탠바이미 2 Max
@@ -190,7 +187,7 @@
                                 </span>
                             </button>
                             <button class="tab-img" name="buying-guide-tab" data-target="#product-type-2" data-group="product-type">
-                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_03.png" alt="TV LG 올레드 evo AI (OLED M) (OLED77M5KW.AKRG) 메인이미지 2">
+                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_03.png" alt="">
                                 <span>
                                     <b>
                                         스탠바이미 2
@@ -199,7 +196,7 @@
                                 </span>
                             </button>
                             <button class="tab-img" name="buying-guide-tab" data-target="#product-type-3" data-group="product-type">
-                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_04.png" alt="TV LG 나노셀 AI (스탠드형) (65NANO80AES.AKRG) 메인이미지 2">
+                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_04.png" alt="">
                                 <span>
                                     <b>
                                         스탠바이미 Go
@@ -219,11 +216,11 @@
                             </h3>
                             <div class="img-wrap">
                                 <div class="bubble-wrap right" style="
-                                    --pc-top: 33%;
-                                    --pc-vertical: 65.6%;
-                                    --mobile-top: 83%;
-                                    --mobile-left: 40.1%;
-                                    --mobile-m-left: 28px;
+                                --pc-top: 33%;
+                                --pc-vertical: 65.6%;
+                                --mobile-top: 83%;
+                                --mobile-left: 40.1%;
+                                --mobile-m-left: 28px;
                                 ">
                                     <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                                     <div class="bubble">
@@ -240,20 +237,22 @@
                                         </p>
                                     </div>
                                 </div>
-                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_05.jpg" alt="따뜻한 톤의 거실 벽면에 TV가 설치되어 있고, 화면의 보라·그린 색감의 추상 패턴이 공간 전체에 세련되고 차분한 분위기를 더하는 모습입니다." class="pc-only">
-                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_02.jpg" alt="따뜻한 톤의 거실 벽면에 TV가 설치되어 있고, 화면의 보라·그린 색감의 추상 패턴이 공간 전체에 세련되고 차분한 분위기를 더하는 모습입니다." class="mobile-only">
+                                <picture>
+                                    <source srcset="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_02.jpg" media="(max-width: 1023px)">
+                                    <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_05.jpg" alt="이동형 무빙휠 스탠드에 거치된 스탠바이미 2 Max">
+                                </picture>
                             </div>
                             <div class="text-wrap">
-                                <h4 class="text-wrap-title">
+                                <div class="text-wrap-title">
                                     약 80cm로 더 커진 화면,
                                     <br>
                                     4K UHD로 더 또렷해진 화질
-                                </h4>
+                                </div>
                                 <p>
                                     <b>스탠바이미 2 Max</b>는
                                     <b>약 80cm의 넓고 시원한 화면과 4K 해상도의 선명한 화질로 다양한 공간에서 몰입감 있게 콘텐츠를 즐기기에 적합</b>한 이동형 라이프스타일 TV입니다. <br>
-                                        실내에서는 <b>무빙휠 스탠드로 손쉽게 이동</b>할 수 있으며, 필요에 따라 대화면과 고해상도의 <b>스크린을 분리해 활용</b>할 수 있어
-                                        <b>상황과 환경에 따라 유연하게 사용</b>할 수 있습니다.
+                                    실내에서는 <b>무빙휠 스탠드로 손쉽게 이동</b>할 수 있으며, 필요에 따라 대화면과 고해상도의 <b>스크린을 분리해 활용</b>할 수 있어
+                                    <b>상황과 환경에 따라 유연하게 사용</b>할 수 있습니다.
                                 </p>
                             </div>
                             <p class="note aling-left">
@@ -269,11 +268,11 @@
                             </h3>
                             <div class="img-wrap">
                                 <div class="bubble-wrap right" style="
-                                --pc-top: 46.5%;
-                                --pc-vertical: 58.26%;
-                                --mobile-top: 37.5%;
-                                --mobile-left: 66.6%;
-                                --mobile-m-left: 28px;
+                            --pc-top: 46.5%;
+                            --pc-vertical: 58.26%;
+                            --mobile-top: 37.5%;
+                            --mobile-left: 66.6%;
+                            --mobile-m-left: 28px;
                             ">
                                     <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                                     <div class="bubble">
@@ -290,15 +289,17 @@
                                         </p>
                                     </div>
                                 </div>
-                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_06.jpg" alt="밝은 거실 공간에 대형 TV가 놓여 있으며, 화면의 생동감 넘치는 원색 추상 패턴이 공간에 활기와 선명한 분위기를 더하는 이미지입니다." class="pc-only">
-                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_03.jpg" alt="밝은 거실 공간에 대형 TV가 놓여 있으며, 화면의 생동감 넘치는 원색 추상 패턴이 공간에 활기와 선명한 분위기를 더하는 이미지입니다." class="mobile-only">
+                                <picture>
+                                    <source srcset="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_03.jpg" media="(max-width: 1023px)">
+                                    <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_06.jpg" alt="전용 폴리오 커버를 결합해 스크린 단독 형태로 테이블 위에 놓인 스탠바이미 2">
+                                </picture>
                             </div>
                             <div class="text-wrap">
-                                <h4 class="text-wrap-title">
+                                <div class="text-wrap-title">
                                     탈착이 가능한 포터블 스크린으로
                                     <br>
                                     원하는 곳 어디든 자유롭게 휴대
-                                </h4>
+                                </div>
                                 <p>
                                     <b>스탠바이미 2</b>는
                                     <b>다양한 공간에서 제약 없이 콘텐츠를 즐기기에 적합</b>한 이동형
@@ -312,7 +313,7 @@
                             </div>
                             <p class="note aling-left">
                                 * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
-                            스펙은 다를 수 있습니다.
+                        스펙은 다를 수 있습니다.
                             </p>
                         </div>
                         <!-- stand by me 2 //-->
@@ -323,11 +324,11 @@
                             </h3>
                             <div class="img-wrap">
                                 <div class="bubble-wrap right" style="
-                                --pc-top: 36%;
-                                --pc-vertical: 36.7%;
-                                --mobile-top: 36%;
-                                --mobile-left: 33.3%;
-                                --mobile-m-left: 48px;
+                            --pc-top: 36%;
+                            --pc-vertical: 36.7%;
+                            --mobile-top: 36%;
+                            --mobile-left: 33.3%;
+                            --mobile-m-left: 48px;
                             ">
                                     <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                                     <div class="bubble">
@@ -344,15 +345,17 @@
                                         </p>
                                     </div>
                                 </div>
-                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_07.jpg" alt="강렬한 색감의 클로즈업 이미지가 나온 TV와 미니멀한 거실의 모습입니다." class="pc-only">
-                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_04.jpg" alt="강렬한 색감의 클로즈업 이미지가 나온 TV와 미니멀한 거실의 모습입니다." class="mobile-only">
+                                <picture>
+                                    <source srcset="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_04.jpg" media="(max-width: 1023px)">
+                                    <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_07.jpg" alt="야외 캠핑 환경에서 테이블 위에 설치된 스탠바이미 Go">
+                                </picture>
                             </div>
                             <div class="text-wrap">
-                                <h4 class="text-wrap-title">
+                                <div class="text-wrap-title">
                                     이동 편의성을 강화한
                                     <br>
                                     캐리백 디자인
-                                </h4>
+                                </div>
                                 <div>
                                     <p>
                                         <b>스탠바이미 Go</b>는 
@@ -368,7 +371,7 @@
                             </div>
                             <p class="note aling-left">
                                 * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
-                            스펙은 다를 수 있습니다.
+                        스펙은 다를 수 있습니다.
                             </p>
                         </div>
                         <!-- stand by me Go //-->
@@ -380,7 +383,7 @@
                                 어떤 <b>스탠바이미</b>가 나에게 맞을까?
                             </h2>
                             <p class="section-header-desc">
-                                    나의 사용 환경과 라이프스타일에 맞는 스탠바이미를 <br class="mo-only">선택할 수 있도록,
+                                나의 사용 환경과 라이프스타일에 맞는 스탠바이미를 <br class="mo-only">선택할 수 있도록,
                                 <br class="pc-only">
                                 모델별 적합한 사용 환경과 핵심 특징, 추천 상황을 한눈에 확인해보세요.
                             </p>
@@ -414,17 +417,17 @@
                                     <tr>
                                         <td>
                                             <div class="procuct-img">
-                                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_08.png" alt="TV LG 올레드 evo AI (스탠드형) (OLED83G5KS.AKRG) 메인이미지 2" class="front">
+                                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_08.png" alt="" class="front">
                                             </div>
                                         </td>
                                         <td>
                                             <div class="procuct-img">
-                                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_09.png" alt="TV LG 올레드 evo AI (스탠드형) (OLED83G5KS.AKRG) 메인이미지 2" class="front">
+                                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_09.png" alt="" class="front">
                                             </div>
                                         </td>
                                         <td>
                                             <div class="procuct-img">
-                                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_10.png" alt="TV LG 올레드 evo AI (스탠드형) (OLED83G5KS.AKRG) 메인이미지 2" class="front">
+                                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_10.png" alt="" class="front">
                                             </div>
                                         </td>
                                     </tr>
@@ -897,17 +900,17 @@
                                     <tr>
                                         <td class="th3">
                                             <div class="procuct-img">
-                                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_08.png" alt="TV LG 올레드 evo AI (스탠드형) (OLED83G5KS.AKRG) 메인이미지 2" class="front">
+                                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_08.png" alt="" class="front">
                                             </div>
                                         </td>
                                         <td class="th3">
                                             <div class="procuct-img">
-                                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_09.png" alt="TV LG 올레드 evo AI (스탠드형) (OLED83G5KS.AKRG) 메인이미지 2" class="front">
+                                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_09.png" alt="" class="front">
                                             </div>
                                         </td>
                                         <td class="th3">
                                             <div class="procuct-img">
-                                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_10.png" alt="TV LG 올레드 evo AI (스탠드형) (OLED83G5KS.AKRG) 메인이미지 2" class="front">
+                                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_10.png" alt="" class="front">
                                             </div>
                                         </td>
                                     </tr>
@@ -1249,9 +1252,9 @@
                             </div>
                         </div>
                         <ul class="note aling-left"> 
-                            <li>* 스탠바이미 2 Max(32LX6BPGA), 스탠바이미 2(27LX6TPGA) 모델 기준으로 비교한 내용입니다.</li>
-                            <li>* 돌비 비전 / 돌비 애트모스 포함 모델은 스탠바이미 2 Max(32LX6BPGA), 스탠바이미 2(27LX6TPGA)입니다.</li>
-                            <li>* 제품별 사양은 다를 수 있으니 정확한 내용은 각 제품별 상세 사양을 확인해 주세요.</li>
+                        <li>* 스탠바이미 2 Max(32LX6BPGA), 스탠바이미 2(27LX6TPGA) 모델 기준으로 비교한 내용입니다.</li>
+                        <li>* 돌비 비전 / 돌비 애트모스 포함 모델은 스탠바이미 2 Max(32LX6BPGA), 스탠바이미 2(27LX6TPGA)입니다.</li>
+                        <li>* 제품별 사양은 다를 수 있으니 정확한 내용은 각 제품별 상세 사양을 확인해 주세요.</li>
                         </ul>
                     </div>
                     <div class="product-select-tip-wrap">
@@ -1297,10 +1300,10 @@
                                             주요 기능과 선택 기준 비교하기
                                         </h3>
                                         <p>
-                                            화면 크기와 해상도를 중심으로 시청 환경에 맞는 모델을 선택하는 것이 중요합니다.
-                                            <br>
-                                            스탠바이미 2 (68cm, QHD), 스탠바이미 2 Max (80cm, 4K), 스탠바이미 Go (68cm, FHD) 모델 간 
-                                            화면 크기와 화질 차이를 비교해 콘텐츠 이용 목적에 맞는 제품을 선택해 보세요.
+                                            화면 크기와 해상도를 중심으로 시청 환경에 맞는 모델을 선택하는 것이 중요합니다.<br>
+                                            스탠바이미 2 (68cm, QHD), 스탠바이미 2 Max (약 80cm, 4K UHD), 스탠바이미 Go (68cm, FHD)
+                                            모델 간 화면 크기와 화질 차이를 비교해 콘텐츠 이용
+                                            목적에 맞는 제품을 선택해 보세요.
                                         </p>
                                     </div>
                                 </li>
@@ -1312,685 +1315,876 @@
                 <!-- top anchor tab pannel buying-point -->
                 <section id="buying-point" name="buying-guide-content" style="display: none">
                     <h2 class="hide">
-                        구매포인트
+                        구매 포인트
                     </h2>
-                    <h3 class="section-title">
+                    <div class="section-title">
                         원하는 공간에서 즐기는 새로운 시청 경험
                         <br>
                         스탠바이미의 핵심 기능과 활용 방식을 확인해보세요
-                    </h3>
+                    </div>
                     <div class="tab-wrap">
                         <div class="vertical-scroll-box">
                             <button class="active" name="buying-guide-tab" data-group="buying-point" data-target="#buying-point-1__1">
-                                <h3>디자인</h3>
+                                디자인
                             </button>
                             <button name="buying-guide-tab" data-group="buying-point" data-target="#buying-point-1__2">
-                                <h3>화질</h3>
+                                화질
                             </button>
                             <button name="buying-guide-tab" data-group="buying-point" data-target="#buying-point-1__3">
-                                <h3>사운드</h3>
+                                사운드
                             </button>
                             <button name="buying-guide-tab" data-group="buying-point" data-target="#buying-point-1__4">
-                                <h3>배터리</h3>
+                                배터리
                             </button>
                             <button name="buying-guide-tab" data-group="buying-point" data-target="#buying-point-1__5">
-                                <h3>사용성</h3>
+                                사용성
                             </button>
                         </div>
                     </div>
                     <div class="tab-content">
                         <!-- 디자인 -->
                         <div id="buying-point-1__1" name="buying-point">
-                            <div class="subtab-wrap">
-                                <div class="subtab-btn">
-                                    <button class="active" name="buying-guide-tab" data-target=".buying-point-1__1__1" data-group="buying-point-1__1">
-                                        스크린 분리형 디자인
-                                    </button>
-                                    <button name="buying-guide-tab" data-target=".buying-point-1__1__2" data-group="buying-point-1__1">
-                                        캐리백 디자인
-                                    </button>
+                            <h3 class="hide">
+                                디자인
+                            </h3>
+                            <div class="sub_tab_wrap">
+                                <div class="sub_tab_list">
+                                    <ul>
+                                    <li>
+                                        <button class="active" name="buying-guide-tab" data-target=".buying-point-1__1__1" data-group="buying-point-1__1">
+                                            스크린 분리형 디자인
+                                        </button>
+                                    </li> 
+                                    <li>
+                                            <button name="buying-guide-tab" data-target=".buying-point-1__1__2" data-group="buying-point-1__1">
+                                            캐리백 디자인
+                                        </button>
+                                    </li>
+                                    </ul>
                                 </div>
-                                <div class="subtab-content">
-                                    <div class="point-wrap buying-point-1__1__1" name="buying-point-1__1">
-                                        <div class="content">
-                                            <h4>
-                                                스크린 분리형 디자인
-                                            </h4>
-                                            <p>
-                                                스탠바이미 2와 스탠바이미 2 Max는 스탠드와 분리 가능한 포터블 스크린으로 간편하게 휴대할 수 있습니다. 
-                                                부드러운 무빙휠 스탠드로 집안 곳곳을 자유롭게 이동하며 사용할 수 있고, 스크린의 높낮이와 각도를 조절해 시청 환경에 맞춰 편리하게 활용할 수 있습니다. 
-                                                또한 원클릭 버튼으로 스크린만 간편하게 분리할 수 있으며, 전용 액세서리를 결합해 다양한 방식으로 사용할 수 있습니다.
-                                            </p>
-                                            <div class="img">
-                                                <button class="btn-pause">
-                                                    일시멈춤
-                                                </button>
-                                                <video autoplay="" playsinline="" loop="" muted="" src="/kr/story/buying-guide/2025/video/stan-by-me/vid_P10_101_01.mp4">
-                                                </video>
+                                <div class="sub_tab_content">
+                                    <div class="subtab-cotent-panel buying-point-1__1__1" name="buying-point-1__1">
+                                        <div class="point_product">
+                                            <div class="point_product_content">
+                                                <div class="point_product_img">
+                                                    <button class="btn-pause">
+                                                        일시멈춤
+                                                    </button>
+                                                    <video autoplay="" playsinline="" loop="" muted="" src="/kr/story/buying-guide/2025/video/stan-by-me/vid_P10_101_02.mp4" aria-label="스탠드 분리형 포터블 스크린으로 다양한 액세서리와 결합해 다양한 방식으로 활용 가능한 스탠바이미 2와 스탠바이미 2 Max">
+                                                    </video>
+                                                </div>
+                                                <div class="point_product_text">
+                                                    <h4>
+                                                        스크린 분리형 디자인
+                                                    </h4>
+                                                    <p>
+                                                        스탠바이미 2와 스탠바이미 2 Max는 스탠드와 분리 가능한 포터블 스크린으로 간편하게 휴대할 수 있습니다. 
+                                                        부드러운 무빙휠 스탠드로 집안 곳곳을 자유롭게 이동하며 사용할 수 있고, 스크린의 높낮이와 각도를 조절해 시청 환경에 맞춰 편리하게 활용할 수 있습니다. 
+                                                        또한 원클릭 버튼으로 스크린만 간편하게 분리할 수 있으며, 전용 액세서리를 결합해 다양한 방식으로 사용할 수 있습니다.
+                                                    </p>
+                                                    
+                                                    <p class="des">
+                                                        * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                                                    </p>
+                                                    <button class="btn-collapse-toggle">
+                                                        <span><b class="bold">* 무빙휠 스탠드</b> / <b class="bold">전용 액세서리</b></span>
+                                                    </button>
+                                                    <div class="collapse-content">
+                                                        <p>
+                                                            <b class="bold">
+                                                                [무빙휠 스탠드]
+                                                            </b>
+                                                            <br>
+                                                            * 전원선을 연결한 상태에서 스탠드에 스크린을 연결하면 배터리가 자동으로 충전됩니다.
+                                                            <br>
+                                                            * 바닥 재질에 따라 이동의 제약이 있을 수 있습니다.
+                                                            <br>
+                                                            * 야외에서는 바퀴를 이용해 제품을 끌지 마십시오. 제품 하단 부분의 긁힘 또는 파손의 원인이 될 수 있습니다.
+                                                            <br>
+                                                            * 스크린 각도 조정 범위: 로테이팅(±90), 틸팅(±25), 스위블(±90)
+                                                        </p>
+                                                        <p>
+                                                            <b class="bold">
+                                                                [전용 액세서리]
+                                                            </b>
+                                                            <br>
+                                                            * 스탠바이미 전용 액세서리는 별매입니다. 세트 제품 구매 시 구성품을 확인해 주세요.
+                                                        </p>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <p class="des">
-                                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                                            </p>
-                                            <button class="btn-collapse-toggle">
-                                                <span><b class="bold">* 무빙휠 스탠드</b> / <b class="bold">전용 액세서리</b></span>
-                                            </button>
-                                            <div class="collapse-content">
-                                                <p>
-                                                    <b class="bold">
-                                                        [무빙휠 스탠드]
+                                        </div>
+                                        <div class="point_product_tip">
+                                            <div class="point_product_tip_title">이런 포인트도 살펴보면 좋아요!</div>
+                                            <div class="point_product_tip_content">
+                                                <div class="point_product_tip_text">
+                                                    <p class="tag">
+                                                        #자유로운이동 #유연한활용 #나만의시청환경
+                                                    </p>
+                                                    <b class="point_product_tip_tit">
+                                                        공간에 맞춰 바뀌는 자유로운 시청 방식
                                                     </b>
-                                                    <br>
-                                                    * 전원선을 연결한 상태에서 스탠드에 스크린을 연결하면 배터리가 자동으로 충전됩니다.
-                                                    <br>
-                                                    * 바닥 재질에 따라 이동의 제약이 있을 수 있습니다.
-                                                    <br>
-                                                    * 야외에서는 바퀴를 이용해 제품을 끌지 마십시오. 제품 하단 부분의 긁힘 또는 파손의 원인이 될 수 있습니다.
-                                                    <br>
-                                                    * 스크린 각도 조정 범위: 로테이팅(±90), 틸팅(±25), 스위블(±90)
-                                                </p>
-                                                <p>
-                                                    <b class="bold">
-                                                        [전용 액세서리]
-                                                    </b>
-                                                    <br>
-                                                    * 스탠바이미 전용 액세서리는 별매입니다. 세트 제품 구매 시 구성품을 확인해 주세요.
-                                                </p>
+                                                    <p class="point_product_tip_desc">
+                                                        집 안 곳곳에서 콘텐츠를 즐기는 라이프스타일이라면 이동성과 활용 방식이 중요해요. 아침에는 식탁에서 가볍게 영상을 보고,
+                                                        저녁에는 침실이나 거실로 옮겨 이어보는 등 생활 흐름에 맞춰 자연스럽게 사용할 수 있습니다. 한 곳에 머무르지 않고, 일상 속 다양한 순간에
+                                                        맞춰 시청 경험을 확장해보세요.
+                                                    </p>
+                                                </div>
+                                                <div class="point_product_tip_img">
+                                                    <div class="point-slider autoplay-slider-wrap">
+                                                        <div class="slider">
+                                                            <div>
+                                                                <picture>
+                                                                    <source srcset=" /kr/story/buying-guide/2025/img/stand-by-me/img_M16_401_01.jpg" media="(max-width: 768px)">
+                                                                    <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_401_01.jpg" alt="이동형 무빙휠 스탠드에 거치되어 거실에 배치된 스탠바이미 2 Max">
+                                                                </picture>
+                                                            </div>
+                                                            <div>
+                                                                <picture>
+                                                                    <source srcset=" /kr/story/buying-guide/2025/img/stand-by-me/img_M16_401_02.jpg" media="(max-width: 768px)">
+                                                                    <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_401_02.jpg" alt="침실 벽면에 벽걸이 스트랩으로 설치된 스탠바이미 2 Max">
+                                                                </picture>
+                                                            </div>
+                                                            <div>
+                                                                <picture>
+                                                                    <source srcset=" /kr/story/buying-guide/2025/img/stand-by-me/img_M16_401_03.jpg" media="(max-width: 768px)">
+                                                                    <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_401_03.jpg" alt="스크린 단독 형태의 스탠바이미 2 Max를 바닥에 두고 아이가 애니메이션을 시청하는 모습">
+                                                                </picture>
+                                                            </div>
+                                                        </div>
+                                                        <div class="slider-controls">
+                                                            <button class="btn-play" data-state="playing">
+                                                                Pause
+                                                            </button>
+                                                            <div class="counter">
+                                                                <span class="current">
+                                                                    1
+                                                                </span>
+                                                                <span class="bar">
+                                                                </span>
+                                                                <span class="total">
+                                                                    3
+                                                                </span>
+                                                            </div>
+                                                            <button class="btn-nav btn-prev">
+                                                                Prev
+                                                            </button>
+                                                            <button class="btn-nav btn-next">
+                                                                Next
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="point-wrap buying-point-1__1__2" name="buying-point-1__1" style="display: none">
-                                        <div class="content">
-                                            <h4>
-                                                캐리백 디자인
-                                            </h4>
-                                            <p>
-                                                스탠바이미 Go는 여행 가방 형태의 캐리백 디자인으로, 손잡이가 있어 휴대가 편리합니다.
-                                                견고한 구조로 이동 중에도 스크린을 안전하게 보호할 수 있으며, 리모컨과 전원 케이블을 가방 내부에 함께 수납할 수 있어 이동과 보관이 간편합니다.
-                                            </p>
-                                            <div class="img">
-                                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_03.jpg" alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다.">
+                                    <div class="subtab-cotent-panel buying-point-1__1__2" name="buying-point-1__1">
+                                        <div class="point_product">
+                                            <div class="point_product_content">
+                                                <div class="point_product_img">
+                                                    <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_03.jpg" alt="테이블 모드로에서 턴테이블 화면을 재생하며 선반 위에 놓인 스탠바이미 Go">
+                                                </div>
+                                                <div class="point_product_text">
+                                                    <h4>
+                                                        캐리백 디자인
+                                                    </h4>
+                                                    <p>
+                                                        스탠바이미 Go는 여행 가방 형태의 캐리백 디자인으로, 손잡이가 있어 휴대가 편리합니다.<br>
+                                                        견고한 구조로 이동 중에도 스크린을 안전하게 보호할 수 있으며, 리모컨과 전원 케이블을 가방 내부에 함께 수납할 수 있어 이동과 보관이 간편합니다.
+                                                    </p>
+                                                    <p class="des">
+                                                        * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                                                    </p>
+                                                    <button class="btn-collapse-toggle">
+                                                        <span>
+                                                            <b class="bold">
+                                                                * 내구성 테스트
+                                                            </b>
+                                                        </span>
+                                                    </button>
+                                                    <div class="collapse-content">
+                                                        <p>
+                                                            <b class="bold">
+                                                                [내구성 테스트]
+                                                            </b>
+                                                            <br>
+                                                            * 한국인정기구 (KOLAS) 인정 업체인 ㈜디티앤씨와 한국 SGS를 통해 미 국방부의 11가지 내구성 테스트 항목을 측정하여 기준을 충족하였습니다.
+                                                            <br>
+                                                            * 시험방법: MIL-STD-810H:2019, Test Report No: DRCKREL2303-0125, SGS-R23-0569-EN00/ 시험 일시: 2023년 3월
+                                                            <br>
+                                                            * 본 제품은 방수 기능을 지원하지 않습니다.
+                                                        </p>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <p class="des">
-                                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                                            </p>
-                                            <button class="btn-collapse-toggle">
-                                                <span>
-                                                    <b class="bold">
-                                                        * 내구성 테스트
+                                        </div>
+                                        <div class="point_product_tip">
+                                            <div class="point_product_tip_title">이런 포인트도 살펴보면 좋아요!</div>
+                                            <div class="point_product_tip_content">
+                                                <div class="point_product_tip_text">
+                                                    <p class="tag">
+                                                        #간편한휴대 #야외활용 #올인원디자인
+                                                    </p>
+                                                    <b class="point_product_tip_tit">
+                                                        어디든 함께하는 간편한 이동형 스크린
                                                     </b>
-                                                </span>
-                                            </button>
-                                            <div class="collapse-content">
-                                                <p>
-                                                    <b class="bold">
-                                                        [내구성 테스트]
-                                                    </b>
-                                                    <br>
-                                                    * 한국인정기구 (KOLAS) 인정 업체인 ㈜디티앤씨와 한국 SGS를 통해 미 국방부의 11가지 내구성 테스트 항목을 측정하여 기준을 충족하였습니다.
-                                                    <br>
-                                                    * 시험방법: MIL-STD-810H:2019, Test Report No: DRCKREL2303-0125, SGS-R23-0569-EN00/ 시험 일시: 2023년 3월
-                                                    <br>
-                                                    * 본 제품은 방수 기능을 지원하지 않습니다.
-                                                </p>
+                                                    <p class="point_product_tip_desc">
+                                                        캠핑이나 여행 등 이동이 잦은 라이프스타일이라면 휴대성이 중요해요.
+                                                        스탠바이미 Go는 가방처럼 들고 이동해 야외에서도 별도의 준비 없이 바로 콘텐츠를 즐길 수 있어,
+                                                        장소에 구애받지 않고 간편하게 활용할 수 있습니다.
+                                                        하나의 기기로 다양한 장소에서 콘텐츠를 즐기고 싶은 라이프스타일에 잘 어울립니다.
+                                                    </p>
+                                                </div>
+                                                <div class="point_product_tip_img">
+                                                    <div class="point-slider autoplay-slider-wrap">
+                                                        <div class="slider">
+                                                            <div>
+                                                                <picture>
+                                                                    <source srcset=" /kr/story/buying-guide/2025/img/stand-by-me/img_M16_402_01.jpg" media="(max-width: 768px)">
+                                                                    <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_402_01.jpg" alt="야외 캠핑 환경에서 세로 모드의 스탠바이미 Go로 요리 레시피를 확인하는 모습">
+                                                                </picture>
+                                                            </div>
+                                                            <div>
+                                                                <picture>
+                                                                    <source srcset=" /kr/story/buying-guide/2025/img/stand-by-me/img_M16_402_02.jpg" media="(max-width: 768px)">
+                                                                    <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_402_02.jpg" alt="여행 가방 형태의 스탠바이미 Go 손잡이를 잡고 이동하는 모습">
+                                                                </picture>
+                                                            </div>
+                                                        </div>
+                                                        <div class="slider-controls">
+                                                            <button class="btn-play" data-state="playing">
+                                                                Pause
+                                                            </button>
+                                                            <div class="counter">
+                                                                <span class="current">
+                                                                    1
+                                                                </span>
+                                                                <span class="bar">
+                                                                </span>
+                                                                <span class="total">
+                                                                    2
+                                                                </span>
+                                                            </div>
+                                                            <button class="btn-nav btn-prev">
+                                                                Prev
+                                                            </button>
+                                                            <button class="btn-nav btn-next">
+                                                                Next
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="point-tip buying-point-1__1__1" name="buying-point-1__1">
-                                <h5 class="point-tip-title">
-                                    <b>
-                                        이런 포인트도 살펴보면 좋아요!
-                                    </b>
-                                </h5>
-                                <div class="tip-content">
-                                    <div class="content">
-                                        <p class="tag">
-                                            #자유로운이동 #유연한활용 #나만의시청환경
-                                        </p>
-                                        <h6 class="tip-title">
-                                            공간에 맞춰 바뀌는 자유로운 시청 방식
-                                        </h6>
-                                        <p class="tip-text">
-                                            집 안 곳곳에서 콘텐츠를 즐기는 라이프스타일이라면 이동성과 활용 방식이 중요해요. 아침에는 식탁에서 가볍게 영상을 보고,
-                                            저녁에는 침실이나 거실로 옮겨 이어보는 등 생활 흐름에 맞춰 자연스럽게 사용할 수 있습니다. 한 곳에 머무르지 않고, 일상 속 다양한 순간에
-                                            맞춰 시청 경험을 확장해보세요.
-                                        </p>
-                                    </div>
-                                    <div class="img">
-                                        <picture>
-                                            <source srcset=" /kr/story/buying-guide/2025/img/stand-by-me/img_M16_101_02.jpg" media="(max-width: 768px)">
-                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_02.jpg" alt="스탠드바이미 TV 구매 가이드 메인 이미지">
-                                        </picture>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="point-tip buying-point-1__1__2" name="buying-point-1__1" style="display: none;">
-                                <h5 class="point-tip-title">
-                                    <b>
-                                        이런 포인트도 살펴보면 좋아요!
-                                    </b>
-                                </h5>
-                                <div class="tip-content">
-                                    <div class="content">
-                                        <p class="tag">
-                                            #간편한휴대 #야외활용 #올인원디자인
-                                        </p>
-                                        <h6 class="tip-title">
-                                            어디든 함께하는 간편한 이동형 스크린
-                                        </h6>
-                                        <p class="tip-text">
-                                            캠핑이나 여행 등 이동이 잦은 라이프스타일이라면 휴대성이 중요해요. 
-                                            스탠바이미 Go는 가방처럼 들고 이동해 야외에서도 별도의 준비 없이 바로 콘텐츠를 즐길 수 있어, 
-                                            장소에 구애받지 않고 간편하게 활용할 수 있습니다. 
-                                            하나의 기기로 다양한 장소에서 콘텐츠를 즐기고 싶은 라이프스타일에 잘 어울립니다.
-                                        </p>
-                                    </div>
-                                    <div class="img">
-                                        <picture>
-                                            <source srcset=" /kr/story/buying-guide/2025/img/stand-by-me/img_M16_101_04.jpg" media="(max-width: 768px)">
-                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_04.jpg" alt="스탠드바이미 TV 구매 가이드 메인 이미지">
-                                        </picture>
-                                    </div>
-                                </div>
-                            </div>
+                            <p class="note aling-left">
+                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                            </p>
                         </div>
                         <!-- 디자인 //-->
 
                         <!-- 화질 -->
                         <div id="buying-point-1__2" name="buying-point" style="display: none">
-                            <div class="subtab-wrap">
-                                <div class="subtab-btn">
-                                    <button class="active" name="buying-guide-tab" data-target=".buying-point-1__2__1" data-group="buying-point-1__2">
-                                        스탠바이미 2 Max 
-                                    </button>
-                                    <button name="buying-guide-tab" data-target=".buying-point-1__2__2" data-group="buying-point-1__2">
-                                        스탠바이미 2
-                                    </button>
-                                    <button name="buying-guide-tab" data-target=".buying-point-1__2__3" data-group="buying-point-1__2">
-                                        스탠바이미 Go
-                                    </button>
-                                </div>
-                                <div class="subtab-content">
-                                    <div class="point-wrap buying-point-1__2__1" name="buying-point-1__2">
-                                        <div class="content">
-                                            <h4>
-                                                4K UHD 해상도
-                                            </h4>
-                                            <p>
-                                                스탠바이미 2 Max는 약 80cm 대화면과 4K 화질로 콘텐츠를 더욱 선명하고 몰입감 있게 즐길 수 있습니다. 
-                                                3세대 알파8 AI 프로세서가 장면을 분석해 디테일까지 또렷하게 표현하며, 
-                                                AI 4K 업스케일링 기능이 프레임 단위로 영상을 분석해 저해상도 콘텐츠도 4K에 가까운 화질로 보정해줍니다.
-                                            </p>
-                                            <div class="img">
-                                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_05.jpg" alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다.">
-                                            </div>
-                                            <p class="des">
-                                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                                            </p>
-                                            <button class="btn-collapse-toggle">
-                                                <span>
-                                                    <b class="bold">
-                                                        * AI 4K 업스케일링
-                                                    </b>
-                                                </span>
+                            <h3 class="hide">
+                                화질
+                            </h3>
+                            <div class="sub_tab_wrap">
+                                <div class="sub_tab_list">
+                                    <ul>
+                                        <li>
+                                            <button class="active" name="buying-guide-tab" data-target=".buying-point-1__2__1" data-group="buying-point-1__2">
+                                                스탠바이미 2 Max
                                             </button>
-                                            <div class="collapse-content">
-                                                <p>
-                                                    <b class="bold">
-                                                        [AI 4K 업스케일링]
-                                                    </b>
-                                                    <br>
-                                                    * 이미지는 최대 4K 화질로 업스케일링됩니다. 결과는 원본 해상도에 따라 달라질 수 있습니다.
-                                                    <br>
-                                                    * 입력되는 영상에 따라 업스케일링 화질에 차이가 있을 수 있습니다.
+                                        </li>
+                                        <li>
+                                            <button name="buying-guide-tab" data-target=".buying-point-1__2__2" data-group="buying-point-1__2">
+                                                스탠바이미 2
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button name="buying-guide-tab" data-target=".buying-point-1__2__3" data-group="buying-point-1__2">
+                                                스탠바이미 Go
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="sub_tab_content">
+                                    <div class="subtab-cotent-panel buying-point-1__2__1" name="buying-point-1__2">
+                                        <div class="point_product">
+                                            <div class="point_product_content">
+                                                <div class="point_product_img">
+                                                    <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_05.jpg" alt="동일한 풍경을 비교한 화질 예시로, QHD 영역은 흐릿하게 보이고 4K UHD 영역은 더 선명하게 표현된 모습">
+                                                </div>
+                                                <div class="point_product_text">
+                                                    <h4>
+                                                        4K UHD 해상도
+                                                    </h4>
+                                                    <p>
+                                                        스탠바이미 2 Max는 약 80cm 대화면과 4K 화질로 콘텐츠를 더욱 선명하고 몰입감 있게 즐길 수 있습니다. 
+                                                        3세대 알파8 AI 프로세서가 장면을 분석해 디테일까지 또렷하게 표현하며, 
+                                                        AI 4K 업스케일링 기능이 프레임 단위로 영상을 분석해 저해상도 콘텐츠도 4K에 가까운 화질로 보정해줍니다.
+                                                    </p>
+                                                    <p class="des">
+                                                        * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                                                    </p>
+                                                    <button class="btn-collapse-toggle">
+                                                        <span>
+                                                            <b class="bold">
+                                                                * AI 4K 업스케일링
+                                                            </b>
+                                                        </span>
+                                                    </button>
+                                                    <div class="collapse-content">
+                                                        <p>
+                                                            <b class="bold">
+                                                                [AI 4K 업스케일링]
+                                                            </b>
+                                                            <br>
+                                                            * 이미지는 최대 4K 화질로 업스케일링됩니다. 결과는 원본 해상도에 따라 달라질 수 있습니다.
+                                                            <br>
+                                                            * 입력되는 영상에 따라 업스케일링 화질에 차이가 있을 수 있습니다.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="subtab-cotent-panel buying-point-1__2__2" name="buying-point-1__2">
+                                        <div class="point_product">
+                                            <div class="point_product_content">
+                                                <div class="point_product_img">
+                                                    <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_07.jpg" alt="스탠바이미 2 화면에 고양이가 손을 핥는 장면이 QHD 화질로 표현된 모습">
+                                                </div>
+                                                <div class="point_product_text">
+                                                    <h4>
+                                                        QHD 해상도
+                                                    </h4>
+                                                    <p>
+                                                        스탠바이미 2 Max는 QHD 해상도와 알파8 AI 프로세서로 콘텐츠를 생생하고 선명하게 감상할 수 있습니다.
+                                                    </p>
+                                                    <p class="des">
+                                                        * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="subtab-cotent-panel buying-point-1__2__3" name="buying-point-1__2">
+                                        <div class="point_product">
+                                            <div class="point_product_content">
+                                                <div class="point_product_img">
+                                                    <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_08.jpg" alt="자동차 레이싱 게임이 실행 중인 스탠바이미 Go 화면">
+                                                </div>
+                                                <div class="point_product_text">
+                                                    <h4>
+                                                        선명한 화질
+                                                    </h4>
+                                                    <p>
+                                                        스탠바이미 Go는 FHD 화질을 기반으로 선명하고 안정적인 시청 경험을 제공하며, 
+                                                        뛰어난 휴대성과 사용 편의성으로 언제 어디서나 부담 없이 콘텐츠를 즐기기에 적합합니다.
+                                                    </p>
+                                                    <p class="des">
+                                                        * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="point_product_tip">
+                                        <div class="point_product_tip_title">이런 포인트도 살펴보면 좋아요!</div>
+                                        <div class="point_product_tip_content">
+                                            <div class="point_product_tip_text">
+                                                <p class="tag">
+                                                    #몰입감 #선명한화질
+                                                </p>
+                                                <b class="point_product_tip_tit">
+                                                    영화관처럼 즐기는 깊이 있는 몰입감
+                                                </b>
+                                                <p class="point_product_tip_desc">
+                                                    영화나 OTT, 스포츠 중계처럼 화면의 디테일과 색감이 중요한 콘텐츠를 자주 즐긴다면 화질 성능을 함께 살펴보는 것이 좋아요. 
+                                                    어두운 장면의 명암이나 배우의 표정 디테일까지 또렷하게 감상하고 싶다면 4K UHD 해상도와 AI 업스케일링을 갖춘 스탠바이미 2 Max가 가장 잘 어울려요. 
+                                                    거실에서 영화 한 편을 진득하게 즐기거나 좋아하는 시리즈를 정주행하는 시간은 물론, 실내든 야외든 어디서나 영화관처럼 콘텐츠를 더욱 풍부하게 감상할 수 있습니다.
                                                 </p>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="point-wrap buying-point-1__2__2" name="buying-point-1__2" style="display: none">
-                                        <div class="content">
-                                            <h4>
-                                                QHD 해상도
-                                            </h4>
-                                            <p>
-                                                스탠바이미 2 Max는 QHD 해상도와 알파8 AI 프로세서로 콘텐츠를 생생하고 선명하게 감상할 수 있습니다.
-                                            </p>
-                                            <div class="img">
-                                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_07.jpg" alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다.">
+                                            <div class="point_product_tip_img">
+                                                <picture>
+                                                    <source srcset=" /kr/story/buying-guide/2025/img/stand-by-me/img_M16_101_06.jpg" media="(max-width: 768px)">
+                                                    <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_06.jpg" alt="침실에서 스탠바이미 2 Max로 OTT 콘텐츠를 감상하는 모습">
+                                                </picture>
                                             </div>
-                                            <p class="des">
-                                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="point-wrap buying-point-1__2__3" name="buying-point-1__2" style="display: none">
-                                        <div class="content">
-                                            <h4>
-                                                선명한 화질
-                                            </h4>
-                                            <p>
-                                                스탠바이미 Go는 FHD 화질을 기반으로 선명하고 안정적인 시청 경험을 제공하며, 
-                                                뛰어난 휴대성과 사용 편의성으로 언제 어디서나 부담 없이 콘텐츠를 즐기기에 적합합니다.
-                                            </p>
-                                            <div class="img">
-                                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_08.jpg" alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다.">
-                                            </div>
-                                            <p class="des">
-                                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                                            </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="point-tip" >
-                                <h5 class="point-tip-title">
-                                    <b>
-                                        이런 포인트도 살펴보면 좋아요!
-                                    </b>
-                                </h5>
-                                <div class="tip-content">
-                                    <div class="content">
-                                        <p class="tag">
-                                            #몰입감 #선명한화질
-                                        </p>
-                                        <h6 class="tip-title">
-                                            영화관처럼 즐기는 깊이 있는 몰입감
-                                        </h6>
-                                        <p class="tip-text">
-                                            영화나 OTT, 스포츠 중계처럼 화면의 디테일과 색감이 중요한 콘텐츠를 자주 즐긴다면 화질 성능을 함께 살펴보는 것이 좋아요. 
-                                            어두운 장면의 명암이나 배우의 표정 디테일까지 또렷하게 감상하고 싶다면 4K UHD 해상도와 AI 업스케일링을 갖춘 스탠바이미 2 Max가 가장 잘 어울려요. 
-                                            거실에서 영화 한 편을 진득하게 즐기거나 좋아하는 시리즈를 정주행하는 시간은 물론, 실내든 야외든 어디서나 영화관처럼 콘텐츠를 더욱 풍부하게 감상할 수 있습니다.
-                                        </p>
-                                    </div>
-                                    <div class="img">
-                                        <picture>
-                                            <source srcset=" /kr/story/buying-guide/2025/img/stand-by-me/img_M16_101_06.jpg" media="(max-width: 768px)">
-                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_06.jpg" alt="스탠드바이미 TV 구매 가이드 메인 이미지">
-                                        </picture>
-                                    </div>
-                                </div>
-                            </div>
+                            <p class="note aling-left">
+                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                            </p>
                         </div>
                         <!-- 화질 // -->
 
                         <!-- 사운드 -->
                         <div id="buying-point-1__3" name="buying-point" style="display: none">
-                            <div class="subtab-wrap">
-                                <div class="subtab-btn">
-                                    <button class="active" name="buying-guide-tab" data-target=".buying-point-1__3__1" data-group="buying-point-1__3">
-                                        버추얼 서라운드
-                                    </button>
-                                    <button name="buying-guide-tab" data-target=".buying-point-1__3__2" data-group="buying-point-1__3">
-                                        돌비 애트모스
-                                    </button>
-                                </div>
-                                <div class="subtab-content">
-                                    <div class="point-wrap buying-point-1__3__1" name="buying-point-1__3">
-                                        <div class="content">
-                                            <h4>
-                                                버추얼 서라운드 
-                                            </h4>
-                                            <p>
-                                                버추얼 서라운드는 마치 여러 개의 스피커에 둘러싸인 듯 입체적이고 풍부한 사운드를 제공하는 음향 기술입니다. 
-                                                클리어 사운드 기술로 대사와 효과음을 더욱 또렷하게 전달해 영화, 음악, 게임 등 다양한 콘텐츠를 생생하게 즐길 수 있습니다.
-                                            </p>
-                                            <div class="img">
-                                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_09.jpg" alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다.">
-                                            </div>
-                                            <p class="des">
-                                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                                            </p>
-                                            <button class="btn-collapse-toggle">
-                                                <span>
-                                                    <b class="bold">
-                                                        * 버추얼 서라운드
-                                                    </b>
-                                                </span>
+                            <h3 class="hide">
+                                사운드
+                            </h3>
+                            <div class="sub_tab_wrap">
+                                <div class="sub_tab_list">
+                                    <ul>
+                                        <li>
+                                            <button class="active" name="buying-guide-tab" data-target=".buying-point-1__3__1" data-group="buying-point-1__3">
+                                                버추얼 서라운드
                                             </button>
-                                            <div class="collapse-content">
-                                                <p>
-                                                    <b class="bold">
-                                                        [버추얼 서라운드]
-                                                    </b>
-                                                    <br>
-                                                    * 버추얼 서라운드는 영상의 사운드를 분석해 가상의 스피커 채널을 추가하는(업믹싱) AI 기술입니다.
-                                                    <br>
-                                                    * 버추얼 서라운드는 스탠바이미 스피커(XT7S)에서도 지원되며, 외부 스피커 스펙에 따라 지원이 불가할 수 있습니다. 
-                                                    <br>
-                                                    * 해당 기능을 사용하기 위해서는 설정에서 활성화가 필요합니다.
-                                                    <br>
-                                                    * 주변 환경에 따라 차이가 있을 수 있습니다.
-                                                    <br>
-                                                    * 시청 콘텐츠와 파일 형식에 따라 차이가 있을 수 있습니다.
-                                                </p>
+                                        </li>
+                                        <li>
+                                            <button name="buying-guide-tab" data-target=".buying-point-1__3__2" data-group="buying-point-1__3">
+                                                돌비 애트모스
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="sub_tab_content">
+                                    <div class="subtab-cotent-panel buying-point-1__3__1" name="buying-point-1__3">
+                                        <div class="point_product">
+                                            <div class="point_product_content">
+                                                <div class="point_product_img">
+                                                    <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_09.jpg" alt="스탠바이미 2 Max의 버추얼 서라운드 기술이 풍부한 입체 사운드를 구현하는 모습">
+                                                </div>
+                                                <div class="point_product_text">
+                                                    <h4>
+                                                        버추얼 서라운드
+                                                    </h4>
+                                                    <p>
+                                                        버추얼 서라운드는 마치 여러 개의 스피커에 둘러싸인 듯 입체적이고 풍부한 사운드를 제공하는 음향 기술입니다. 
+                                                        클리어 사운드 기술로 대사와 효과음을 더욱 또렷하게 전달해 영화, 음악, 게임 등 다양한 콘텐츠를 생생하게 즐길 수 있습니다.
+                                                    </p>
+                                                    <p class="des">
+                                                        * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                                                    </p>
+                                                    <button class="btn-collapse-toggle">
+                                                        <span>
+                                                            <b class="bold">
+                                                                * 버추얼 서라운드
+                                                            </b>
+                                                        </span>
+                                                    </button>
+                                                    <div class="collapse-content">
+                                                        <p>
+                                                            <b class="bold">
+                                                                [버추얼 서라운드]
+                                                            </b>
+                                                            <br>
+                                                            * 버추얼 서라운드는 영상의 사운드를 분석해 가상의 스피커 채널을 추가하는(업믹싱) AI 기술입니다.
+                                                            <br>
+                                                            * 버추얼 서라운드는 스탠바이미 스피커(XT7S)에서도 지원되며, 외부 스피커 스펙에 따라 지원이 불가할 수 있습니다.
+                                                            <br>
+                                                            * 해당 기능을 사용하기 위해서는 설정에서 활성화가 필요합니다.
+                                                            <br>
+                                                            * 주변 환경에 따라 차이가 있을 수 있습니다.
+                                                            <br>
+                                                            * 시청 콘텐츠와 파일 형식에 따라 차이가 있을 수 있습니다.
+                                                        </p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="point-wrap buying-point-1__3__2" name="buying-point-1__3" style="display: none">
-                                        <div class="content">
-                                            <h4>
-                                                돌비 애트모스
-                                            </h4>
-                                            <p>
-                                                전 세계 영상 제작자들이 선택한 돌비 애트모스를 지원해, 
-                                                마치 우리 집 안에 영화관을 옮겨 놓은 듯 풍부하고 입체적인 사운드를 경험할 수 있습니다.
-                                            </p>
-                                            <div class="img">
-                                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_10.jpg" alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다.">
+                                    <div class="subtab-cotent-panel buying-point-1__3__2" name="buying-point-1__3">
+                                        <div class="point_product">
+                                            <div class="point_product_content">
+                                                <div class="point_product_img">
+                                                    <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_10.jpg" alt="거실 소파에 앉아 스탠바이미 2 Max의 돌비 애트모스를 지원하는 콘텐츠를 몰입감 있게 시청하는 모습">
+                                                </div>
+                                                <div class="point_product_text">
+                                                    <h4>
+                                                        돌비 애트모스
+                                                    </h4>
+                                                    <p>
+                                                        전 세계 영상 제작자들이 선택한 돌비 애트모스를 지원해, 
+                                                        마치 우리 집 안에 영화관을 옮겨 놓은 듯 풍부하고 입체적인 사운드를 경험할 수 있습니다.
+                                                    </p>
+                                                    <p class="des">
+                                                        * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                                                    </p>
+                                                    <button class="btn-collapse-toggle">
+                                                        <span>
+                                                            <b class="bold">
+                                                                * 돌비 애트모스
+                                                            </b>
+                                                        </span>
+                                                    </button>
+                                                    <div class="collapse-content">
+                                                        <p>
+                                                            <b class="bold">
+                                                                [돌비 애트모스]
+                                                            </b>
+                                                            <br>
+                                                            * 돌비 비전과 돌비 애트모스는 돌비로 제작된 콘텐츠 시청 시 지원 가능합니다.<br>
+                                                            * 돌비 비전 / 돌비 애트모스 포함 모델은 스탠바이미 2 Max(32LX6BPGA), 스탠바이미 2(27LX6TPGA), 스탠바이미 Go(27LX5QKNA)입니다.<br>
+                                                            * 제품별 사양은 다를 수 있으니 정확한 내용은 각 제품별 상세 사양을 확인해 주세요.
+                                                        </p>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <p class="des">
-                                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                                            </p>
-                                            <button class="btn-collapse-toggle">
-                                                <span>
-                                                    <b class="bold">
-                                                        * 돌비 애트모스
-                                                    </b>
-                                                </span>
-                                            </button>
-                                            <div class="collapse-content">
-                                                <p>
-                                                    <b class="bold">
-                                                        [돌비 애트모스]
-                                                    </b>
-                                                    <br>
-                                                    * 돌비 애트모스는 돌비로 제작된 콘텐츠 시청 시 지원 가능합니다.
+                                        </div>
+                                    </div>
+                                    <div class="point_product_tip">
+                                        <div class="point_product_tip_title">이런 포인트도 살펴보면 좋아요!</div>
+                                        <div class="point_product_tip_content">
+                                            <div class="point_product_tip_text">
+                                                <p class="tag">
+                                                    #입체사운드 #서라운드 #돌비애트모스
                                                 </p>
+                                                <b class="point_product_tip_tit">
+                                                    공간을 채우는 입체적인 사운드 경험
+                                                </b>
+                                                <p class="point_product_tip_desc">
+                                                    영화나 음악처럼 사운드의 몰입감이 중요한 콘텐츠를 자주 즐긴다면 음향 성능을 함께 살펴보는 것이 좋아요. 
+                                                    가장 풍부하고 깊이 있는 사운드를 원한다면 14개의 스피커에 둘러싸인 듯한 버추얼 11.1.2 서라운드의 스탠바이미 2 Max를 추천드려요. 
+                                                    모든 스탠바이미 모델은 버추얼 서라운드 기반의 입체적인 사운드를 제공하며, 일부 모델은 돌비 애트모스까지 지원해 더욱 몰입감 있는 시청 경험을 즐길 수 있습니다.
+                                                </p>
+                                            </div>
+                                            <div class="point_product_tip_img">
+                                                <picture>
+                                                    <source srcset=" /kr/story/buying-guide/2025/img/stand-by-me/img_M16_101_11.jpg" media="(max-width: 768px)">
+                                                    <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_11.jpg" alt="입체적 사운드 배경의 스탠바이미 2 Max">
+                                                </picture>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="point-tip">
-                                <h5 class="point-tip-title">
-                                    <b>
-                                        이런 포인트도 살펴보면 좋아요!
-                                    </b>
-                                </h5>
-                                <div class="tip-content">
-                                    <div class="content">
-                                        <p class="tag">
-                                            #입체사운드 #서라운드 #돌비애트모스
-                                        </p>
-                                        <h6 class="tip-title">
-                                            공간을 채우는 입체적인 사운드 경험
-                                        </h6>
-                                        <p class="tip-text">
-                                            영화나 음악처럼 사운드의 몰입감이 중요한 콘텐츠를 자주 즐긴다면 음향 성능을 함께 살펴보는 것이 좋아요. 
-                                            가장 풍부하고 깊이 있는 사운드를 원한다면 14개의 스피커에 둘러싸인 듯한 버추얼 11.1.2 서라운드의 스탠바이미 2 Max를 추천드려요. 
-                                            모든 스탠바이미 모델은 버추얼 서라운드와 돌비 애트모스를 지원해 입체적인 사운드를 경험할 수 있습니다.
-                                        </p>
-                                    </div>
-                                    <div class="img">
-                                        <picture>
-                                            <source srcset=" /kr/story/buying-guide/2025/img/stand-by-me/img_M16_101_11.jpg" media="(max-width: 768px)">
-                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_11.jpg" alt="스탠드바이미 TV 구매 가이드 메인 이미지">
-                                        </picture>
-                                    </div>
-                                </div>
+                            <div class="note aling-left">
+                                <ul>
+                                    <li>* 소비자의 이해를 돕기 위해 연출된 이미지와 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.</li>
+                                    <li>* 돌비 비전 / 돌비 애트모스 포함 모델은 스탠바이미 2 Max(32LX6BPGA), 스탠바이미 2(27LX6TPGA), 스탠바이미 Go(27LX5QKNA)입니다.</li>
+                                    <li>* 제품별 사양은 다를 수 있으니 정확한 내용은 각 제품별 상세 사양을 확인해 주세요.</li>
+                                </ul>
                             </div>
                         </div>
                         <!-- 사운드 // -->
 
                         <!-- 배터리 -->
                         <div id="buying-point-1__4" name="buying-point">
-                            <div class="subtab-wrap">
-                                <div class="subtab-btn">
-                                    <button class="active" name="buying-guide-tab" data-target=".buying-point-1__4__1" data-group="buying-point-1__4">
-                                        무선 재생
-                                    </button>
-                                </div>
-                                <div class="subtab-content">
-                                    <div class="point-wrap buying-point-1__4__1" name="buying-point-1__4">
-                                        <div class="content">
-                                            <h4>
-                                                전원 연결 없이 즐기는 무선 재생
-                                            </h4>
-                                            <p>
-                                                스탠바이미는 내장 배터리를 탑재해 전원 연결 없이도 원하는 공간 어디서나 자유롭게 콘텐츠를 즐길 수 있습니다. 
-                                                스탠바이미 2 Max는 한 번 충전에 최대 4시간 30분, 스탠바이미 2는 최대 4시간까지 무선 사용이 가능하며, 
-                                                두 모델 모두 스크린을 분리한 상태에서도 USB-C 케이블로 간편하게 충전할 수 있습니다. 스탠바이미 Go는 최대 3시간까지 사용할 수 있고, 
-                                                가방 안에 수납된 220V 전원 케이블로 손쉽게 충전할 수 있습니다.
-                                            </p>
-                                            <div class="img">
-                                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_12.jpg" alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다.">
-                                            </div>
-                                            <p class="des">
-                                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                                            </p>
-                                            <button class="btn-collapse-toggle">
-                                                <span>
-                                                    <b class="bold">
-                                                        * 무선 재생 시간
-                                                    </b>
-                                                </span>
+                            <h3 class="hide">
+                                배터리
+                            </h3>
+                            <div class="sub_tab_wrap">
+                                <div class="sub_tab_list">
+                                    <ul>
+                                        <li>
+                                            <button class="active" name="buying-guide-tab" data-target=".buying-point-1__4__1" data-group="buying-point-1__4">
+                                                무선 재생
                                             </button>
-                                            <div class="collapse-content">
-                                                <p>
-                                                    <b class="bold">
-                                                        [스탠바이미 2 Max]
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="sub_tab_content">
+                                    <div class="subtab-cotent-panel buying-point-1__4__1" name="buying-point-1__4">
+                                        <div class="point_product">
+                                            <div class="point_product_content">
+                                                <div class="point_product_img">
+                                                    <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_12.jpg" alt="전원 연결 없이 벽걸이 스트랩으로 들고 이동하거나 무빙휠 스탠드로 자유롭게 이동하는 스탠바이미 2">
+                                                </div>
+                                                <div class="point_product_text">
+                                                    <h4>
+                                                        전원 연결 없이 즐기는 무선 재생
+                                                    </h4>
+                                                    <p>
+                                                        스탠바이미는 내장 배터리를 탑재해 전원 연결 없이도 원하는 공간 어디서나 자유롭게 콘텐츠를 즐길 수 있습니다. 
+                                                        스탠바이미 2 Max는 한 번 충전에 최대 4시간 30분, 스탠바이미 2는 최대 4시간까지 무선 사용이 가능하며, 
+                                                        두 모델 모두 스크린을 분리한 상태에서도 USB-C 케이블로 간편하게 충전할 수 있습니다. 스탠바이미 Go는 최대 3시간까지 사용할 수 있고, 
+                                                        가방 안에 수납된 220V 전원 케이블로 손쉽게 충전할 수 있습니다.
+                                                    </p>
+                                                    <p class="des">
+                                                        * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                                                    </p>
+                                                    <button class="btn-collapse-toggle">
+                                                        <span>
+                                                            <b class="bold">
+                                                                * 무선 재생 시간
+                                                            </b>
+                                                        </span>
+                                                    </button>
+                                                    <div class="collapse-content">
+                                                        <p>
+                                                            <b class="bold">
+                                                                [스탠바이미 2 Max]
+                                                            </b>
+                                                            <br>* 최대 4시간 30분 무선 재생: 사용시간 시험 조건 IEC62087 표준동영상, vol 30, HDMI Input, 출하모드(ECO, B/L 90, MEC 1).
+                                                            <br>* USB C타입 케이블로 스크린 충전 시, 100W 이상의 어댑터 및 보조배터리 사용이 필요하며, 빠른 충전을 위해서는 140W 어댑터 사용을 권장합니다.
+                                                            <br>* 제품사용조건에 따라 배터리 사용시간은 달라질 수 있습니다.
+                                                        </p>
+                                                        <p>
+                                                            <b class="bold">
+                                                                [스탠바이미 2]
+                                                            </b>
+                                                            <br>* 최대 4시간 무선 재생 : 에코화면모드, 볼륨 30, HDMI 입력, 절전 모드 켜짐으로 IEC62087 표준동영상 재생 기준
+                                                            <br>* USB C타입 케이블로 스크린 충전 시, 100W 이상의 어댑터 및 보조배터리 사용이 필요하며, 빠른 충전을 위해서는 140W 어댑터 사용을 권장합니다.
+                                                            <br>* 제품사용조건에 따라 배터리 사용시간은 달라질 수 있습니다.
+                                                        </p>
+                                                        <p>
+                                                            <b class="bold">
+                                                                [스탠바이미 Go]
+                                                            </b>
+                                                            <br>* 제품사용조건에 따라 배터리 사용시간은 달라질 수 있습니다.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="point_product_tip">
+                                            <div class="point_product_tip_title">이런 포인트도 살펴보면 좋아요!</div>
+                                            <div class="point_product_tip_content">
+                                                <div class="point_product_tip_text">
+                                                    <p class="tag">
+                                                        #무선사용 #자유로운이동 #일상속몰입
+                                                    </p>
+                                                    <b class="point_product_tip_tit">
+                                                        전원 연결 없이 어디서나 즐기는 자유로운 시청 경험
                                                     </b>
-                                                    <br>* 최대 4시간 30분 무선 재생: 사용시간 시험 조건 IEC62087 표준동영상, vol 30, HDMI Input, 출하모드(ECO, B/L 90, MEC 1).
-                                                    <br>* USB C타입 케이블로 스크린 충전 시, 100W 이상의 어댑터 및 보조배터리 사용이 필요하며, 빠른 충전을 위해서는 140W 어댑터 사용을 권장합니다.
-                                                    <br>* 제품사용조건에 따라 배터리 사용시간은 달라질 수 있습니다.
-                                                </p>
-                                                <p>
-                                                    <b class="bold">
-                                                        [스탠바이미 2]
-                                                    </b>
-                                                    <br>* 최대 4시간 무선 재생 : 에코화면모드, 볼륨 30, HDMI 입력, 절전 모드 켜짐으로 IEC62087 표준동영상 재생 기준
-                                                    <br>* USB C타입 케이블로 스크린 충전 시, 100W 이상의 어댑터 및 보조배터리 사용이 필요하며, 빠른 충전을 위해서는 140W 어댑터 사용을 권장합니다.
-                                                    <br>* 제품사용조건에 따라 배터리 사용시간은 달라질 수 있습니다.
-                                                </p>
-                                                <p>
-                                                    <b class="bold">
-                                                        [스탠바이미 Go]
-                                                    </b>
-                                                    <br>* 제품사용조건에 따라 배터리 사용시간은 달라질 수 있습니다.
-                                                </p>
+                                                    <p class="point_product_tip_desc">
+                                                        전원 연결 없이도 원하는 공간에서 자유롭게 콘텐츠를 즐길 수 있다면 일상의 활용 방식이 훨씬 달라질 수 있어요. 
+                                                        낮에는 거실에서 콘텐츠를 즐기다가, 저녁에는 침실로 옮겨 잠들기 전 좋아하는 영화를 감상하는 등 생활 흐름에 맞춰 자연스럽게 시청 경험을 이어갈 수 있습니다. 
+                                                        고정된 위치에 머물지 않고, 일상 속 다양한 순간과 공간으로 시청 경험을 확장해보세요.
+                                                    </p>
+                                                </div>
+                                                <div class="point_product_tip_img">
+                                                    <div class="point-slider autoplay-slider-wrap">
+                                                        <div class="slider">
+                                                            <div>
+                                                                <picture>
+                                                                    <source srcset=" /kr/story/buying-guide/2025/img/stand-by-me/img_M16_403_01.jpg" media="(max-width: 768px)">
+                                                                    <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_403_01.jpg" alt="스크린 단독 형태의 스탠바이미 2 Max를 식탁에 배치하고 아이가 그림을 그리는 모습">
+                                                                </picture>
+                                                            </div>
+                                                            <div>
+                                                                <picture>
+                                                                    <source srcset=" /kr/story/buying-guide/2025/img/stand-by-me/img_M16_403_02.jpg" media="(max-width: 768px)">
+                                                                    <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_403_02.jpg" alt="전원 연결 없이 이동형 무빙휠 스탠드에 거치된 스탠바이미 2 Max를 거실에서 가족이 함께 보는 모습">
+                                                                </picture>
+                                                            </div>
+                                                            <div>
+                                                                <picture>
+                                                                    <source srcset=" /kr/story/buying-guide/2025/img/stand-by-me/img_M16_403_03.jpg" media="(max-width: 768px)">
+                                                                    <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_403_03.jpg" alt="침실에서 엄마와 아이가 스탠바이미 2 Max로 애니메이션을 시청하는 모습">
+                                                                </picture>
+                                                            </div>
+                                                        </div>
+                                                        <div class="slider-controls">
+                                                            <button class="btn-play" data-state="playing">
+                                                                Pause
+                                                            </button>
+                                                            <div class="counter">
+                                                                <span class="current">
+                                                                    1
+                                                                </span>
+                                                                <span class="bar">
+                                                                </span>
+                                                                <span class="total">
+                                                                    2
+                                                                </span>
+                                                            </div>
+                                                            <button class="btn-nav btn-prev">
+                                                                Prev
+                                                            </button>
+                                                            <button class="btn-nav btn-next">
+                                                                Next
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="point-tip">
-                                <h5 class="point-tip-title">
-                                    <b>
-                                        이런 포인트도 살펴보면 좋아요!
-                                    </b>
-                                </h5>
-                                <div class="tip-content">
-                                    <div class="content">
-                                        <p class="tag">
-                                            #무선사용 #자유로운이동 #일상속몰입
-                                        </p>
-                                        <h6 class="tip-title">
-                                            전원 연결 없이 어디서나 즐기는 자유로운 시청 경험
-                                        </h6>
-                                        <p class="tip-text">
-                                            전원 연결 없이도 원하는 공간에서 자유롭게 콘텐츠를 즐길 수 있다면 일상의 활용 방식이 훨씬 달라질 수 있어요. 
-                                            낮에는 거실에서 콘텐츠를 즐기다가, 저녁에는 침실로 옮겨 잠들기 전 좋아하는 영화를 감상하는 등 생활 흐름에 맞춰 자연스럽게 시청 경험을 이어갈 수 있습니다. 
-                                            고정된 위치에 머물지 않고, 일상 속 다양한 순간과 공간으로 시청 경험을 확장해보세요.
-                                        </p>
-                                    </div>
-                                    <div class="img">
-                                        <picture>
-                                            <source srcset=" /kr/story/buying-guide/2025/img/stand-by-me/img_M16_101_15.jpg" media="(max-width: 768px)">
-                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_15.jpg" alt="스탠드바이미 TV 구매 가이드 메인 이미지">
-                                        </picture>
-                                    </div>
-                                </div>
-                            </div>
+                            <p class="note aling-left">
+                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                            </p>
                         </div>
                         <!-- 배터리 //-->
 
                         <!-- 사용성 -->
                         <div id="buying-point-1__5" name="buying-point">
-                            <div class="subtab-wrap">
-                                <div class="subtab-btn">
-                                    <button class="active" name="buying-guide-tab" data-target=".buying-point-1__5__1" data-group="buying-point-1__5">
-                                        원거리 음성 인식
-                                    </button>
-                                    <button name="buying-guide-tab" data-target=".buying-point-1__5__2" data-group="buying-point-1__5">
-                                        다양한 기기 연결
-                                    </button>
-                                </div>
-                                <div class="subtab-content">
-                                    <div class="point-wrap buying-point-1__5__1" name="buying-point-1__5">
-                                        <div class="content">
-                                            <h4>
+                            <h3 class="hide">
+                                사용성
+                            </h3>
+                            <div class="sub_tab_wrap">
+                                <div class="sub_tab_list">
+                                    <ul>
+                                        <li>
+                                            <button class="active" name="buying-guide-tab" data-target=".buying-point-1__5__1" data-group="buying-point-1__5">
                                                 원거리 음성 인식
-                                            </h4>
-                                            <p>
-                                                음성 인식 기능을 활용하면 화면을 터치하거나 리모컨을 조작하기 어려운 상황에서도 <br class="pc-only">
-                                                “하이 엘지”라고 부르면 목소리를 인식해 멀리서도 간편하게 제품을 제어할 수 있습니다.
-                                            </p>
-                                            <div class="img">
-                                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_13.jpg" alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다.">
-                                            </div>
-                                            <p class="des">
-                                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                                            </p>
-                                            <button class="btn-collapse-toggle">
-                                                <span>
-                                                    <b class="bold">
-                                                        * 원거리 음성 인식
-                                                    </b>
-                                                </span>
                                             </button>
-                                            <div class="collapse-content">
-                                                <p>
-                                                    <b class="bold">
-                                                        [원거리 음성 인식]
-                                                    </b>
-                                                    <br>* 해당 기능은 제품의 다이렉트 음성인식 기능 활성화 및 개인정보제공 동의 후 사용 가능합니다.
-                                                    <br>* 음성인식의 경우, 주변 소음 수준에 따라 인식률의 차이가 있을 수 있습니다.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="point-wrap buying-point-1__5__2" name="buying-point-1__5" style="display: none">
-                                        <div class="content">
-                                            <h4>
-                                                화면 미러링
-                                            </h4>
-                                            <p>
-                                                Android와 iOS 스마트폰 화면 미러링을 지원해, 작은 화면으로 보던 콘텐츠를 더 큰 화면에서 편리하게 즐길 수 있습니다. 
-                                                모바일에서 보던 영상이나 사진을 그대로 이어보며, 보다 넓은 화면에서 시청 경험을 확장해보세요.
-                                            </p>
-                                            <div class="img">
-                                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_14.jpg" alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다.">
-                                            </div>
-                                            <p class="des">
-                                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                                            </p>
-                                            <button class="btn-collapse-toggle">
-                                                <span>
-                                                    <b class="bold">
-                                                        * 화면 미러링
-                                                    </b>
-                                                </span>
+                                        </li>
+                                        <li>
+                                            <button name="buying-guide-tab" data-target=".buying-point-1__5__2" data-group="buying-point-1__5">
+                                                다양한 기기 연결
                                             </button>
-                                            <div class="collapse-content">
-                                                <p>
-                                                    <b class="bold">
-                                                        [화면 미러링]
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="sub_tab_content">
+                                    <div class="subtab-cotent-panel buying-point-1__5__1" name="buying-point-1__5">
+                                        <div class="point_product">
+                                            <div class="point_product_content">
+                                                <div class="point_product_img">
+                                                    <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_13.jpg" alt="세면대 앞에서 머리를 손질하는 중 음성으로 스탠바이미 2 Max를 제어하는 모습">
+                                                </div>
+                                                <div class="point_product_text">
+                                                    <h4>
+                                                        원거리 음성 인식
+                                                    </h4>
+                                                    <p>
+                                                        음성 인식 기능을 활용하면 화면을 터치하거나 리모컨을 조작하기 어려운 상황에서도 <br class="pc-only">
+                                                        “하이 엘지”라고 부르면 목소리를 인식해 멀리서도 간편하게 제품을 제어할 수 있습니다.
+                                                    </p>
+                                                    <p class="des">
+                                                        * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                                                    </p>
+                                                    <button class="btn-collapse-toggle">
+                                                        <span>
+                                                            <b class="bold">
+                                                                * 원거리 음성 인식
+                                                            </b>
+                                                        </span>
+                                                    </button>
+                                                    <div class="collapse-content">
+                                                        <p>
+                                                            <b class="bold">
+                                                                [원거리 음성 인식]
+                                                            </b>
+                                                            <br>* 해당 기능은 제품의 다이렉트 음성인식 기능 활성화 및 개인정보제공 동의 후 사용 가능합니다.
+                                                            <br>* 음성인식의 경우, 주변 소음 수준에 따라 인식률의 차이가 있을 수 있습니다.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="point_product_tip">
+                                            <div class="point_product_tip_title">이런 포인트도 살펴보면 좋아요!</div>
+                                            <div class="point_product_tip_content">
+                                                <div class="point_product_tip_text">
+                                                    <p class="tag">
+                                                        #음성인식 #핸즈프리 #편리한제어
+                                                    </p>
+                                                    <b class="point_product_tip_tit">
+                                                        말 한마디로 완성되는 편리한 사용감
                                                     </b>
-                                                    <br>* 스마트폰과 스탠바이미가 같은 네트워크 (Wi-Fi)에 연결되어 있어야 합니다.
-                                                    <br>* 모바일 화면 공유의 경우, 모바일 내 화면공유/ Miracast 등의 기능을 이용하여 사용 가능합니다. (기능명은 기기별로 상이할 수 있음)
-                                                    <br>* 모바일 화면 공유(미러링)는 Android, iOS(AirPlay)에서 사용 가능합니다.
-                                                    <br>(Apple사 AirPlay 기능은 TV와 동일한 Wi-Fi(무선공유기)에 연결되어 있어야 사용이 가능하며, 단순화면 공유만 가능합니다. (터치 미지원))
-                                                    <br>* 모바일 기기의 사양 및 제조사에 따라 화면공유 (미러링) 방식에 차이가 있을 수 있으며, 화질 차이가 있을 수 있습니다.
-                                                    <br>* 세로 모드에서의 미러링 화질은 스마트폰에 따라 차이가 있을 수 있습니다.
-                                                    <br>* 사용자 네트워크 환경에 따라 연결상태가 상이할 수 있습니다.
-                                                </p>
+                                                    <p class="point_product_tip_desc">
+                                                        요리를 하면서 레시피 영상을 보거나, 침대에 누워 영화를 감상할 때처럼 리모컨을 찾기 번거로운 순간이 있어요. 
+                                                        캠핑이나 여행 중 음식을 준비하거나 휴식을 취할 때도 마찬가지죠. 
+                                                        이럴 때 "하이 엘지"라고 말하면 멀리서도 볼륨 조절이나 콘텐츠 실행 등 원하는 기능을 간편하게 제어할 수 있어, 
+                                                        실내외 어디서든 더욱 편리한 사용감을 경험할 수 있습니다.
+                                                    </p>
+                                                </div>
+                                                <div class="point_product_tip_img">
+                                                    <picture>
+                                                        <source srcset=" /kr/story/buying-guide/2025/img/stand-by-me/img_M16_101_20.jpg" media="(max-width: 768px)">
+                                                        <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_20.jpg" alt="거실 소파에 기대어 스탠바이미 2 Max 콘텐츠를 감상하는 모습">
+                                                    </picture>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="content">
-                                            <h4>
-                                                HDMI·USB 연결 지원
-                                            </h4>
-                                            <p>
-                                                스탠바이미는 HDMI와 USB 포트를 갖춰 IPTV 셋톱박스, 게임콘솔, 노트북 등 다양한 기기를 연결해 사용할 수 있습니다. 
-                                                콘텐츠 시청은 물론 게임, 업무 등 사용 환경에 맞춰 자유롭게 활용할 수 있습니다.
-                                            </p>
-                                            <div class="img">
-                                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_18.jpg" alt="LG OLED M5 TV화면에서 밝고 화려한 색상의 추상적인 동굴 입구 이미지를 보여줍니다. 동굴 입구 너머로는 밝은 구름 낀 하늘이 보입니다. 화면 주변은 흐릿하고 어두운 배경으로 처리되어 화면에 표시된 이미지의 생생한 색상과 세부 묘사를 강조합니다.">
+                                    </div>
+                                    <div class="subtab-cotent-panel buying-point-1__5__2" name="buying-point-1__5">
+                                        <div class="point_product">
+                                            <div class="point_product_content">
+                                                <div class="point_product_img">
+                                                    <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_14.jpg" alt="스마트폰 화면을 미러링해 스탠바이미 2 Max에서 보여주는 모습">
+                                                </div>
+                                                <div class="point_product_text">
+                                                    <h4>
+                                                        화면 미러링
+                                                    </h4>
+                                                    <p>
+                                                        Android와 iOS 스마트폰 화면 미러링을 지원해, 작은 화면으로 보던 콘텐츠를 더 큰 화면에서 편리하게 즐길 수 있습니다. 
+                                                        모바일에서 보던 영상이나 사진을 그대로 이어보며, 보다 넓은 화면에서 시청 경험을 확장해보세요.
+                                                    </p>
+                                                    <p class="des">
+                                                        * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                                                    </p>
+                                                    <button class="btn-collapse-toggle">
+                                                        <span>
+                                                            <b class="bold">
+                                                                * 화면 미러링
+                                                            </b>
+                                                        </span>
+                                                    </button>
+                                                    <div class="collapse-content">
+                                                        <p>
+                                                            <b class="bold">
+                                                                [화면 미러링]
+                                                            </b>
+                                                            <br>* 스마트폰과 스탠바이미가 같은 네트워크 (Wi-Fi)에 연결되어 있어야 합니다.
+                                                            <br>* 모바일 화면 공유의 경우, 모바일 내 화면공유/ Miracast 등의 기능을 이용하여 사용 가능합니다. (기능명은 기기별로 상이할 수 있음)
+                                                            <br>* 모바일 화면 공유(미러링)는 Android, iOS(AirPlay)에서 사용 가능합니다.
+                                                            <br>(Apple사 AirPlay 기능은 TV와 동일한 Wi-Fi(무선공유기)에 연결되어 있어야 사용이 가능하며, 단순화면 공유만 가능합니다. (터치 미지원))
+                                                            <br>* 모바일 기기의 사양 및 제조사에 따라 화면공유 (미러링) 방식에 차이가 있을 수 있으며, 화질 차이가 있을 수 있습니다.
+                                                            <br>* 세로 모드에서의 미러링 화질은 스마트폰에 따라 차이가 있을 수 있습니다.
+                                                            <br>* 사용자 네트워크 환경에 따라 연결상태가 상이할 수 있습니다.
+                                                        </p>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <p class="des">
-                                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                                            </p>
-                                            <p class="des">
-                                                *  LG 스탠바이미 액세서리는 별매이며, 제품별로 호환되는 액세서리가 상이합니다. 세트 제품 구매 시 구성품을 확인해 주세요.
-                                            </p>
+                                        </div>
+                                        <div class="point_product">
+                                            <div class="point_product_content">
+                                                <div class="point_product_img">
+                                                    <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_18.jpg" alt="노트북을 연결해 듀얼 디스플레이 환경으로 활용하는 스탠바이미 2 Max">
+                                                </div>
+                                                <div class="point_product_text">
+                                                    <h4>
+                                                        HDMI·USB 연결 지원
+                                                    </h4>
+                                                    <p>
+                                                        스탠바이미는 HDMI와 USB 포트를 갖춰 IPTV 셋톱박스, 게임콘솔, 노트북 등 다양한 기기를 연결해 사용할 수 있습니다. 
+                                                        콘텐츠 시청은 물론 게임, 업무 등 사용 환경에 맞춰 자유롭게 활용할 수 있습니다.
+                                                    </p>
+                                                    <p class="des">
+                                                        * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                                                    </p>
+                                                    <p class="des">
+                                                        *  LG 스탠바이미 액세서리는 별매이며, 제품별로 호환되는 액세서리가 상이합니다. 세트 제품 구매 시 구성품을 확인해 주세요.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="point_product_tip">
+                                            <div class="point_product_tip_title">이런 포인트도 살펴보면 좋아요!</div>
+                                            <div class="point_product_tip_content">
+                                                <div class="point_product_tip_text">
+                                                    <p class="tag">
+                                                        #화면미러링 #다양한연결
+                                                    </p>
+                                                    <b class="point_product_tip_tit">
+                                                        다양한 기기를 자유롭게 연결하는 폭넓은 활용성
+                                                    </b>
+                                                    <p class="point_product_tip_desc">
+                                                        스마트폰으로 영상을 보거나, 노트북으로 작업하고, 게임콘솔로 게임을 즐기는 등 다양한 기기를 함께 사용한다면 연결성과 활용 방식이 중요해요. 
+                                                        스탠바이미에 스마트폰을 연결하면 작은 화면으로 보던 영상과 사진을 큰 화면으로 미러링해 감상할 수 있고, 게임콘솔을 연결해 박진감 넘치는 게임을 즐기거나, 
+                                                        노트북을 연결해 업무 화면을 넓게 확장하는 등 사용 목적에 맞춰 자유롭게 활용할 수 있습니다.
+                                                    </p>
+                                                </div>
+                                                <div class="point_product_tip_img">
+                                                    <picture>
+                                                        <source srcset=" /kr/story/buying-guide/2025/img/stand-by-me/img_M16_101_19.jpg" media="(max-width: 768px)">
+                                                        <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_19.jpg" alt="노트북과 스탠바이미 2 Max를 연결해 듀얼 디스플레이로 그래픽 작업을 하는 모습">
+                                                    </picture>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="point-tip buying-point-1__5__1" name="buying-point-1__5">
-                                <h5 class="point-tip-title">
-                                    <b>
-                                        이런 포인트도 살펴보면 좋아요!
-                                    </b>
-                                </h5>
-                                <div class="tip-content">
-                                    <div class="content">
-                                        <p class="tag">
-                                            #음성인식 #핸즈프리 #편리한제어
-                                        </p>
-                                        <h6 class="tip-title">
-                                            말 한마디로 완성되는 편리한 사용감
-                                        </h6>
-                                        <p class="tip-text">
-                                            요리를 하면서 레시피 영상을 보거나, 침대에 누워 영화를 감상할 때처럼 리모컨을 찾기 번거로운 순간이 있어요. 
-                                            캠핑이나 여행 중 음식을 준비하거나 휴식을 취할 때도 마찬가지죠. 
-                                            이럴 때 "하이 엘지"라고 말하면 멀리서도 볼륨 조절이나 콘텐츠 실행 등 원하는 기능을 간편하게 제어할 수 있어, 
-                                            실내외 어디서든 더욱 편리한 사용감을 경험할 수 있습니다.
-                                        </p>
-                                    </div>
-                                    <div class="img">
-                                        <picture>
-                                            <source srcset=" /kr/story/buying-guide/2025/img/stand-by-me/img_M16_101_20.jpg" media="(max-width: 768px)">
-                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_20.jpg" alt="스탠드바이미 TV 구매 가이드 메인 이미지">
-                                        </picture>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="point-tip buying-point-1__5__2" name="buying-point-1__5" style="display: none;">
-                                <h5 class="point-tip-title">
-                                    <b>
-                                        이런 포인트도 살펴보면 좋아요!
-                                    </b>
-                                </h5>
-                                <div class="tip-content">
-                                    <div class="content">
-                                        <p class="tag">
-                                            #화면미러링 #다양한연결
-                                        </p>
-                                        <h6 class="tip-title">
-                                            다양한 기기를 자유롭게 연결하는 폭넓은 활용성
-                                        </h6>
-                                        <p class="tip-text">
-                                            스마트폰으로 영상을 보거나, 노트북으로 작업하고, 게임콘솔로 게임을 즐기는 등 다양한 기기를 함께 사용한다면 연결성과 활용 방식이 중요해요. 
-                                            스탠바이미에 스마트폰을 연결하면 작은 화면으로 보던 영상과 사진을 큰 화면으로 미러링해 감상할 수 있고, 게임콘솔을 연결해 박진감 넘치는 게임을 즐기거나, 
-                                            노트북을 연결해 업무 화면을 넓게 확장하는 등 사용 목적에 맞춰 자유롭게 활용할 수 있습니다.
-                                        </p>
-                                    </div>
-                                    <div class="img">
-                                        <picture>
-                                            <source srcset=" /kr/story/buying-guide/2025/img/stand-by-me/img_M16_101_19.jpg" media="(max-width: 768px)">
-                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_19.jpg" alt="스탠드바이미 TV 구매 가이드 메인 이미지">
-                                        </picture>
-                                    </div>
-                                </div>
-                            </div>
+                            <p class="note aling-left">
+                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                            </p>
                         </div>
                         <!-- 사용성 //-->
 
-                        <p class="note aling-left">
-                            * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                        </p>
                         <div class="point-box">
                             <h2 class="box-subtitle">
                                 활용도를 높여주는 스탠바이미 <br class="mo-only">액세서리를 함께 알아보세요
@@ -1998,24 +2192,19 @@
                             <div class="tab-wrap">
                                 <div class="vertical-scroll-box" role="tablist">
                                     <button class="active" name="buying-guide-tab" data-target="#buying-point-4" data-group="buying-point-345">
-                                        <h3>
-                                            스탠바이미 2 Max
-                                        </h3>
+                                        스탠바이미 2 Max
                                     </button>
                                     <button name="buying-guide-tab" data-target="#buying-point-5" data-group="buying-point-345">
-                                        <h3>
-                                            스탠바이미 2
-                                        </h3>
+                                        스탠바이미 2
                                     </button>
                                     <button name="buying-guide-tab" data-target="#buying-point-6" data-group="buying-point-345">
-                                        <h3>
-                                            스탠바이미 Go
-                                        </h3>
+                                        스탠바이미 Go
                                     </button>
                                 </div>
                             </div>
                             <div class="tab-content">
                                 <div id="buying-point-4" name="buying-point-345">
+                                    <h3 class="hide">스탠바이미 2 Max</h3>
                                     <div class="slideWrap colWrap">
                                         <div class="col">
                                             <div>
@@ -2031,7 +2220,7 @@
                                                     </div>
                                                     <div>
                                                         <div class="media-wrap">
-                                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_302_01.jpg" alt="어두운 거실에서 작동 중인 LG 공기청정기. 원형 디스플레이에 불이 켜져 있으며, 주변에는 창문과 소파, 의자가 보임. 조명이 없는 밤 시간의 분위기를 연출.">
+                                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_302_01.jpg" alt="">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2058,7 +2247,7 @@
                                                     </div>
                                                     <div>
                                                         <div class="media-wrap">
-                                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_302_02.jpg" alt="어두운 거실에서 작동 중인 LG 공기청정기. 원형 디스플레이에 불이 켜져 있으며, 주변에는 창문과 소파, 의자가 보임. 조명이 없는 밤 시간의 분위기를 연출.">
+                                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_302_02.jpg" alt="">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2069,8 +2258,8 @@
                                                         </span>
                                                     </button>
                                                     <div class="collapse-content">
-                                                        <b>[벽걸이 스트랩]</b>
-                                                        <ul class="collapse-content-disc">
+                                                    <b>[벽걸이 스트랩]</b>
+                                                    <ul class="collapse-content-disc">
                                                             <li>
                                                                 <p>
                                                                     스트랩 액세서리 구매시 스트랩과 벽걸이 홀더가 기본 제공됩니다.
@@ -2105,7 +2294,7 @@
                                                     </div>
                                                     <div>
                                                         <div class="media-wrap">
-                                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_302_03.jpg" alt="어두운 거실에서 작동 중인 LG 공기청정기. 원형 디스플레이에 불이 켜져 있으며, 주변에는 창문과 소파, 의자가 보임. 조명이 없는 밤 시간의 분위기를 연출.">
+                                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_302_03.jpg" alt="">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2121,6 +2310,7 @@
                                     </div>
                                 </div>
                                 <div id="buying-point-5" name="buying-point-345">
+                                    <h3 class="hide">스탠바이미 2</h3>
                                     <div class="slideWrap colWrap">
                                         <div class="col">
                                             <div>
@@ -2136,7 +2326,7 @@
                                                     </div>
                                                     <div>
                                                         <div class="media-wrap">
-                                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_301_01.jpg" alt="어두운 거실에서 작동 중인 LG 공기청정기. 원형 디스플레이에 불이 켜져 있으며, 주변에는 창문과 소파, 의자가 보임. 조명이 없는 밤 시간의 분위기를 연출.">
+                                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_301_01.jpg" alt="">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2163,7 +2353,7 @@
                                                     </div>
                                                     <div>
                                                         <div class="media-wrap">
-                                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_301_02.jpg" alt="어두운 거실에서 작동 중인 LG 공기청정기. 원형 디스플레이에 불이 켜져 있으며, 주변에는 창문과 소파, 의자가 보임. 조명이 없는 밤 시간의 분위기를 연출.">
+                                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_301_02.jpg" alt="">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2190,7 +2380,7 @@
                                                     </div>
                                                     <div>
                                                         <div class="media-wrap">
-                                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_301_03.jpg" alt="어두운 거실에서 작동 중인 LG 공기청정기. 원형 디스플레이에 불이 켜져 있으며, 주변에는 창문과 소파, 의자가 보임. 조명이 없는 밤 시간의 분위기를 연출.">
+                                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_301_03.jpg" alt="">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2201,7 +2391,7 @@
                                                         </span>
                                                     </button>
                                                     <div class="collapse-content">
-                                                        <b>[벽걸이 스트랩]</b>
+                                                    <b>[벽걸이 스트랩]</b>
                                                         <ul class="collapse-content-disc">
                                                             <li>
                                                                 <p>
@@ -2235,7 +2425,7 @@
                                                     </div>
                                                     <div>
                                                         <div class="media-wrap">
-                                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_301_04.jpg" alt="어두운 거실에서 작동 중인 LG 공기청정기. 원형 디스플레이에 불이 켜져 있으며, 주변에는 창문과 소파, 의자가 보임. 조명이 없는 밤 시간의 분위기를 연출.">
+                                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_301_04.jpg" alt="">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2251,6 +2441,7 @@
                                     </div>
                                 </div>
                                 <div id="buying-point-6" name="buying-point-345">
+                                    <h3 class="hide">스탠바이미 Go</h3>
                                     <div class="slideWrap colWrap">
                                         <div class="col">
                                             <div>
@@ -2265,7 +2456,7 @@
                                                     </div>
                                                     <div>
                                                         <div class="media-wrap">
-                                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_303_01.jpg" alt="어두운 거실에서 작동 중인 LG 공기청정기. 원형 디스플레이에 불이 켜져 있으며, 주변에는 창문과 소파, 의자가 보임. 조명이 없는 밤 시간의 분위기를 연출.">
+                                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_303_01.jpg" alt="">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2281,10 +2472,13 @@
                                     </div>
                                 </div>
                                 <ul class="note aling-left" id="pagenation-offset">
-                                        <li>* LG 스탠바이미 액세서리는 별매이며, 제품별로 호환되는 액세서리가 상이합니다. 세트 제품 구매 시 구성품을 확인해 주세요.</li>
-                                        <li>* LG 스탠바이미 2 전용 액세서리는 폴리오 커버, 원클릭 스탠드, 벽걸이 스트랩, 스마트 캠입니다.</li>
-                                        <li>* LG 스탠바이미 2 Max 전용 액세서리는 원클릭 스탠드, 벽걸이 스트랩, 스마트 캠이며, 원클릭 스탠드와 벽걸이 스트랩은 5월 중 출시 예정으로 디자인이 변경될 수 있습니다.</li>
-                                    </ul>
+                                    <li>* 소비자의 이해를 돕기 위해 연출된 이미지와 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.</li>
+                                    <li>* 스탠바이미 액세서리는 별매이며, 세트 제품 구매 시 구성품을 확인해 주세요.</li>
+                                    <li>* 폴리오 커버는 스탠바이미 2 (27LX6) 전용으로 스탠바이미 2 Max (32LX6)에 호환되지 않습니다.</li>
+                                    <li>* 원클릭 스탠드와 벽걸이 스트랩은 스탠바이미 2 (27LX6)와 스탠바이미 2 Max (32LX6)와 호환되지 않습니다.</li>
+                                    <li>* 스탠바이미 2 전용 액세서리는 폴리오 커버, 원클릭 스탠드, 벽걸이 스트랩, 스마트 캠입니다.</li>
+                                    <li>* 스탠바이미 2 Max 전용 액세서는 원클릭 스탠드, 벽걸이 스트랩, 스마트 캠이며, 원클릭 스탠드와 벽걸이 스트랩은 5월 중 출시 예정으로 디자인이 변경될 수 있습니다.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -2295,12 +2489,12 @@
                     <h2 class="section-title">
                         그 외 알아두면 더 유용한
                         <br class="mo-only">
-                        모든 것을 알려드려요.
+                        모든 것을 알려드려요
                     </h2>
                     <div class="tip-wrap">
                         <div class="tip-faq">
                             <h3>
-                                <img src="/kr/story/buying-guide/2025/img/ic32_inquiry.png" alt="검은색 말풍선 모양의 3D 아이콘.">
+                                <img src="/kr/story/buying-guide/2025/img/ic32_inquiry.png" alt="">
                                 문의 답변
                             </h3>
                             <p>
@@ -2314,7 +2508,7 @@
                         </div>
                         <div class="tip-subscribe">
                             <h3>
-                                <img src="/kr/story/buying-guide/2025/img/ic32_subscribe.png" alt="흰색 캘린더 3D 아이콘.">
+                                <img src="/kr/story/buying-guide/2025/img/ic32_subscribe.png" alt="">
                                 구독 상품
                             </h3>
                             <p>
@@ -2328,7 +2522,7 @@
                         </div>
                         <div class="tip-best">
                             <h3>
-                                <img src="/kr/story/buying-guide/2025/img/ic32_products.png" alt="빨간색 원형 배경에 흰색 엄지손가락 치켜세운 모양의 3D 아이콘.">
+                                <img src="/kr/story/buying-guide/2025/img/ic32_products.png" alt="">
                                 인기 상품
                             </h3>
                             <p>지금 가장 인기 있는 스탠바이미를 확인해 보세요!</p>
@@ -2340,8 +2534,8 @@
                         </div>
                     </div>
                 </section>
-        </div>
-        <!-- top anchor tab contents //-->
+            </div>
+            <!-- top anchor tab contents //-->
         </div>
         <script type="application/ld+json">
             {

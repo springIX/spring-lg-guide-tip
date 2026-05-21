@@ -15,6 +15,38 @@ const sliderOption = {
     },
   ],
 };
+
+function shouldDisableSlickOnMobile($el) {
+  return !isDesktop() && $el.hasClass("no-mobile-slick");
+}
+
+function syncSlideWrapSlick($slide) {
+  if (!$slide.length) return false;
+
+  const shouldDisable = shouldDisableSlickOnMobile($slide);
+
+  if ($slide.hasClass("slick-initialized")) {
+    if (shouldDisable) {
+      $slide.slick("unslick");
+      return false;
+    }
+
+    $slide.slick("setPosition");
+    return true;
+  }
+
+  if (shouldDisable) return false;
+
+  if ($slide.find(".col").length > 1) {
+    $slide.slick(sliderOption);
+    return true;
+  }
+
+  return false;
+}
+
+let slickSyncResizeTimer = null;
+
 const TAB_SELECTED_TEXT = "\uC120\uD0DD\uB428 ";
 $(document).ready(function () {
   // mountTopAnchorIfNeeded(); // top anchor
@@ -44,9 +76,9 @@ $(document).ready(function () {
     $(".bubble-wrap .bubble").hide();
   });
 
-  if ($(".slideWrap .col").length > 1) {
-    $(".slideWrap").slick(sliderOption);
-  }
+  $(".slideWrap").each(function () {
+    syncSlideWrapSlick($(this));
+  });
   $(".slideWrap.colWrap").on(
     "beforeChange",
     function (event, slick, currentSlide) {
@@ -54,9 +86,21 @@ $(document).ready(function () {
       $currentSlide.find(".collapse-content:visible").hide();
     },
   );
+
+  $(window).on("resize", function () {
+    clearTimeout(slickSyncResizeTimer);
+    slickSyncResizeTimer = setTimeout(function () {
+      $(".slideWrap").each(function () {
+        syncSlideWrapSlick($(this));
+      });
+      autoplaySliders(".autoplay-slider-wrap:visible");
+    }, 100);
+  });
 });
 $(window).on("load", function () {
-  $(".slideWrap").slick("setPosition");
+  $(".slideWrap").each(function () {
+    syncSlideWrapSlick($(this));
+  });
   initVisibleStickies(); // 제품 비교 테이블 상단 모델명 고정
   detailTableTopFix(); // 모델 스펙 테이블 상단 thead 고정
   $(".sticky-product-no:visible").each(function () {
@@ -86,8 +130,6 @@ function initBlankLinkAccessibility() {
     }
 
     $link.attr("rel", relValues.join(" "));
-
-
   });
 }
 
@@ -286,12 +328,7 @@ function tabButtonHandler() {
 
     $slides.each(function () {
       const $slide = $(this);
-      if ($slide.hasClass("slick-initialized")) {
-        $slide.slick("unslick");
-      }
-      if ($slide.find(".col").length > 1) {
-        $slide.slick(sliderOption);
-      }
+      syncSlideWrapSlick($slide);
     });
 
     setTimeout(function () {
@@ -533,6 +570,11 @@ function detailTableTopFix() {
   // 위치/표시 제어 (absolute + top 계산, 좌측 스크롤 반영)
   function updatePosition() {
     const st = $(window).scrollTop();
+    const $verticalScrollTab = $("#vertical-scroll-tab");
+    const verticalScrollTabH =
+      $verticalScrollTab.length && !$verticalScrollTab.hasClass("sticky")
+        ? $verticalScrollTab.outerHeight()
+        : 0;
 
     $(".table-wrap").each(function () {
       const $wrap = $(this);
@@ -540,8 +582,8 @@ function detailTableTopFix() {
       if (!$cloneWrap.length) return;
 
       const $thead = $wrap.find("table thead");
-      const wrapTop = $wrap.offset().top;
-      const wrapH = $wrap.outerHeight();
+      const wrapTop = $wrap.offset().top + verticalScrollTabH;
+      const wrapH = $wrap.outerHeight() + verticalScrollTabH;
       const headH = $thead.outerHeight();
       const topFix = headerTop($wrap);
 
@@ -782,7 +824,7 @@ function enableHorizontalDragScroll() {
 function verticalScrollTabHandler() {
   const wrap = $("#vertical-scroll-tab");
   if (!wrap.length) return false;
-  const scrollWrap = wrap.find(".vertical-scroll-box");
+  const scrollWrap = wrap.find(".vertical-scroll-box"); 
   const btnLeft = wrap.find(".nav-left");
   const btnRight = wrap.find(".nav-right");
   const btnTabWidth = wrap.find(".tab-img")[0].offsetWidth;
@@ -829,6 +871,17 @@ function autoplaySliders(target) {
     const $wrap = $(this);
     const $slider = $wrap.find(".slider");
     if (!$slider.length) return;
+
+    const disableOnMobile =
+      shouldDisableSlickOnMobile($wrap) || shouldDisableSlickOnMobile($slider);
+    if (disableOnMobile) {
+      if ($slider.hasClass("slick-initialized")) {
+        try {
+          $slider.slick("unslick");
+        } catch (e) {}
+      }
+      return;
+    }
 
     const isVideoSlider = $wrap.hasClass("video-content-slider");
     const autoplaySpeed = $wrap.data("speed") ? $wrap.data("speed") : 4000;

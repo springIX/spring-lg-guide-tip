@@ -58,10 +58,10 @@
             <section class="top-anchor">
                 <div class="inner-wrap" id="top-anchor" role="tablist" aria-orientation="horizontal">
                     <button class="active" data-target="#line-up" name="buying-guide-tab" data-group="buying-guide-content" data-pos="#line-up" type="button" id="buying-guide-tab-line-up" role="tab" aria-selected="true" tabindex="0" aria-controls="line-up">
-                        <h2>tab button1</h2>
+                        tab button1
                     </button>
                     <button data-target="#buying-point" name="buying-guide-tab" data-group="buying-guide-content" data-pos="#buying-point" type="button" id="buying-guide-tab-buying-point" role="tab" aria-selected="false" tabindex="-1" aria-controls="buying-point">
-                        <h2>tab button2</h2>
+                        tab button2
                     </button>
                 </div>
             </section>
@@ -72,11 +72,14 @@
             <section class="guide-wrap inner-wrap">
                 <!-- major tab pannel line-up -->
                 <section id="line-up" name="buying-guide-content" role="tabpanel" aria-labelledby="buying-guide-tab-line-up" aria-hidden="false">
+                    <h2 class="hide">
+                        tab button1
+                    </h2>
                     <div class="section-header">
-                        <h2 class="section-title">
-                            section title h2 <br class="mo-only">
+                        <div class="section-title">
+                            section title div <br class="mo-only">
                             <b>point text</b>
-                        </h2>
+                        </div>
                     </div>
                     <!-- 
                         sub tablist
@@ -97,14 +100,14 @@
                                     alt="제품 이미지"
                                 />
                                 <span>
-                                    <b>제품명</b>
+                                    <b>제품명1</b>
                                     #해쉬테그
                                 </span>
                             </button>
                             <button class="tab-img" name="buying-guide-tab" data-target="#product-type-2" data-group="product-type" type="button" id="product-type-tab-2" role="tab" aria-selected="false" tabindex="-1" aria-controls="product-type-2">
                                 <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_03.png" alt="제품 이미지"/>
                                 <span>
-                                    <b>제품명</b>
+                                    <b>제품명2</b>
                                     #해쉬테그
                                 </span>
                             </button>
@@ -115,7 +118,7 @@
                     <div class="tab-content">
                         <!-- sub depth tab pannel -->
                         <article id="product-type-1" name="product-type" role="tabpanel" aria-labelledby="product-type-tab-1" aria-hidden="false">
-                            <h3 class="hide">title h3</h3>
+                            <h3 class="hide">제품명1</h3>
                             <div class="img-wrap">
                                 <!-- left, right is bubble postion -->
                                 <div
@@ -143,7 +146,7 @@
                                 </picture>
                             </div>
                             <div class="text-wrap">
-                                <h4>title h4</h4>
+                                <div>title div</div>
                                 <p>
                                     <b>desctiption text bold</b> text
                                 </p>
@@ -342,7 +345,7 @@
                                 </picture>
                             </div>
                             <div class="text-wrap">
-                                <h4>title h4</h4>
+                                <div class="text-wrap-title">title h4</div>
                                 <p>
                                     <b>desctiption text bold</b> text
                                 </p>
@@ -354,6 +357,9 @@
 
                             <!-- sub product table -->
                             <section class="product-table">
+                                <h2 class="hide">
+                                    구매 포인트
+                                </h2>
                                 <div class="section-header">
                                     <h2 class="section-title">
                                         section title h2 <br class="mo-only">
@@ -519,7 +525,10 @@
 
                 <!-- major tab pannel buying-point -->
                 <section id="buying-point" name="buying-guide-content" style="display: none" role="tabpanel" aria-labelledby="buying-guide-tab-buying-point" aria-hidden="true">
-                    <h3 class="section-title">section title h3</h3>
+                    <h2 class="hide">
+                        tab button2
+                    </h2>
+                    <div class="section-title">section title div</div>
                     <div class="tab-wrap">
                         <div class="vertical-scroll-box" role="tablist" aria-orientation="horizontal">
                             <button class="active" name="buying-guide-tab" data-group="buying-point" data-target="#buying-point-1" type="button" id="buying-point-main-tab-1" role="tab" aria-selected="true" tabindex="0" aria-controls="buying-point-1">button Text</button>
@@ -529,211 +538,240 @@
                     <div class="tab-content">
 
                         <section id="buying-point-1" name="buying-point" role="tabpanel" aria-labelledby="buying-point-main-tab-1" aria-hidden="false">
-                            <div class="subtab-wrap">
-                            <div class="subtab-btn" role="tablist" aria-orientation="horizontal">
-                                <button class="active" name="buying-guide-tab" data-target=".buying-point-1-1" data-group="buying-point-1" type="button" id="buying-point-tab-1-1" role="tab" aria-selected="true" tabindex="0" aria-controls="buying-point-panel-1-1">buttonDepthText</button>
-                                <button name="buying-guide-tab" data-target=".buying-point-1-2" data-group="buying-point-1" type="button" id="buying-point-tab-1-2" role="tab" aria-selected="false" tabindex="-1" aria-controls="buying-point-panel-1-2">buttonDepthText</button>
-                            </div>
+                            <div class="sub_tab_wrap">
+                            <div class="sub_tab_list" role="tablist" aria-orientation="horizontal">
+                                <ul>
+                                    <li>
+                                        <button class="active" name="buying-guide-tab" data-target=".buying-point-1-1" data-group="buying-point-1" type="button" id="buying-point-tab-1-1" role="tab" aria-selected="true" tabindex="0" aria-controls="buying-point-panel-1-1">buttonDepthText</button>
+                                    </li>
+                                    <li>
+                                        <button name="buying-guide-tab" data-target=".buying-point-1-2" data-group="buying-point-1" type="button" id="buying-point-tab-1-2" role="tab" aria-selected="false" tabindex="-1" aria-controls="buying-point-panel-1-2">buttonDepthText</button>
+                                    </li>
+                                </ul>
+</div>
 
-                            <div class="subtab-content">
-                                <article id="buying-point-panel-1-1" class="point-wrap buying-point-1-1" name="buying-point-1" role="tabpanel" aria-labelledby="buying-point-tab-1-1" aria-hidden="false">
-                                    <div class="content">
-                                        <h4>title h4</h4>
-                                        <p>title decription</p>
-                                        <div class="img">
+                            <div class="sub_tab_content">
+                                <div id="buying-point-panel-1-1" class="subtab-cotent-panel buying-point-1-1" name="buying-point-1" role="tabpanel" aria-labelledby="buying-point-tab-1-1" aria-hidden="false">
+    <div class="point_product">
+                                    <h3 class="hide">button Text</h3>
+                                    <div class="point_product_content">
+                                        <div class="point_product_img">
                                             <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_01.jpg" alt="imgAlt"/>
                                         </div>
-                                        <p class="des">
-                                            * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별
-                                            색상 및 스펙은 다를 수 있습니다.
-                                        </p>
-                                        <button class="btn-collapse-toggle" type="button" aria-expanded="false" aria-controls="buying-point-panel-1-1-collapse">
-                                            <span>
-                                                <b class="bold">* accordionText</b> / 
-                                                <b class="bold">accordionText2</b>
-                                            </span>
-                                        </button>
-                                        <div class="collapse-content" id="buying-point-panel-1-1-collapse" hidden>
-                                            <p>
-                                                <b class="bold">accordionText title</b><br>
-                                                * accordionText decription
+                                        <div class="point_product_text">
+                                            <h4>title h4</h4>
+                                            <p>title decription</p>
+                                            <p class="des">
+                                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별
+                                                색상 및 스펙은 다를 수 있습니다.
                                             </p>
-                                            <p>
-                                                <b class="bold">accordionText title</b><br>
-                                                * accordionText decription
-                                            </p>
+                                            <button class="btn-collapse-toggle" type="button" aria-expanded="false" aria-controls="buying-point-panel-1-1-collapse">
+                                                <span>
+                                                    <b class="bold">* accordionText</b> / 
+                                                    <b class="bold">accordionText2</b>
+                                                </span>
+                                            </button>
+                                            <div class="collapse-content" id="buying-point-panel-1-1-collapse" hidden>
+                                                <p>
+                                                    <b class="bold">accordionText title</b><br>
+                                                    * accordionText decription
+                                                </p>
+                                                <p>
+                                                    <b class="bold">accordionText title</b><br>
+                                                    * accordionText decription
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                </article>
-                                <article id="buying-point-panel-1-2" class="point-wrap buying-point-1-2" name="buying-point-1" role="tabpanel" aria-labelledby="buying-point-tab-1-2" aria-hidden="true" style="display: none;">
-                                    <div class="content">
-                                        <h4>title h4</h4>
-                                        <p>title decription</p>
-                                        <div class="img">
+    </div>
+                                </div>
+                                <div id="buying-point-panel-1-2" class="subtab-cotent-panel buying-point-1-2" name="buying-point-1" role="tabpanel" aria-labelledby="buying-point-tab-1-2" aria-hidden="true" style="display: none;">
+    <div class="point_product">
+                                    <div class="point_product_content">
+                                        <div class="point_product_img">
                                             <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_02.jpg" alt="imgAlt"/>
                                         </div>
-                                        <p class="des">
-                                        * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별
-                                        색상 및 스펙은 다를 수 있습니다.
-                                        </p>
-                                        <button class="btn-collapse-toggle" type="button" aria-expanded="false" aria-controls="buying-point-panel-1-2-collapse">
-                                            <span>
-                                                <b class="bold">* accordionText</b> / 
-                                                <b class="bold">accordionText2</b>
-                                            </span>
-                                        </button>
-                                        <div class="collapse-content" id="buying-point-panel-1-2-collapse" hidden>
-                                            <p>
-                                                <b class="bold">accordionText title</b><br>
-                                                * accordionText decription
+                                        <div class="point_product_text">
+                                            <h4>title h4</h4>
+                                            <p>title decription</p>
+                                            <p class="des">
+                                            * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별
+                                            색상 및 스펙은 다를 수 있습니다.
                                             </p>
-                                            <p>
-                                                <b class="bold">accordionText title</b><br>
-                                                * accordionText decription
-                                            </p>
+                                            <button class="btn-collapse-toggle" type="button" aria-expanded="false" aria-controls="buying-point-panel-1-2-collapse">
+                                                <span>
+                                                    <b class="bold">* accordionText</b> / 
+                                                    <b class="bold">accordionText2</b>
+                                                </span>
+                                            </button>
+                                            <div class="collapse-content" id="buying-point-panel-1-2-collapse" hidden>
+                                                <p>
+                                                    <b class="bold">accordionText title</b><br>
+                                                    * accordionText decription
+                                                </p>
+                                                <p>
+                                                    <b class="bold">accordionText title</b><br>
+                                                    * accordionText decription
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                </article>
+    </div>
+                                </div>
                             </div>
                             </div>
 
-                            <article class="point-tip buying-point-1-1" name="buying-point-1" aria-labelledby="buying-point-tip-title-1-1">
-                                <h5 class="point-tip-title" id="buying-point-tip-title-1-1">title</h5>
-                                <div class="tip-content">
-                                    <div class="content">
+                            <div class="point_product_tip buying-point-1-1" name="buying-point-1" aria-labelledby="buying-point_product_tip_title-1-1">
+                                <div class="point_product_tip_title">이런 포인트도 살펴보면 좋아요!</div>
+                                <div class="point_product_tip_content">
+                                    <div class="point_product_tip_text">
                                         <p class="tag">pointTags</p>
-                                        <h6 class="tip-title"><strong>pointTitle strong</strong></h6>
-                                        <p class="tip-text">descriptionText</p>
+                                        <b class="point_product_tip_tit">pointTitle</b>
+                                        <p class="point_product_tip_desc">descriptionText</p>
                                     </div>
-                                    <div class="img">
-                                    <picture>
-                                        <source media="(max-width: 767px)" srcset="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_05.jpg" />
-                                        <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_03.jpg" alt="" loading="lazy" decoding="async" />
-                                    </picture>
+                                    <div class="point_product_tip_img">
+                                        <picture>
+                                            <source media="(max-width: 767px)" srcset="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_05.jpg" />
+                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_03.jpg" alt="" loading="lazy" decoding="async" />
+                                        </picture>
                                     </div>
                                 </div>
-                            </article>
+                            </div>
 
-                            <article class="point-tip buying-point-1-2" name="buying-point-1" aria-labelledby="buying-point-tip-title-1-2" style="display: none;">
-                                <h5 class="point-tip-title" id="buying-point-tip-title-1-2">title h5</h5>
-                                <div class="tip-content">
-                                    <div class="content">
+                            <div class="point_product_tip buying-point-1-2" name="buying-point-1" aria-labelledby="buying-point_product_tip_title-1-2" style="display: none;">
+                                <div class="point_product_tip_title">이런 포인트도 살펴보면 좋아요!</div>
+                                <div class="point_product_tip_content">
+                                    <div class="point_product_tip_text">
                                         <p class="tag">pointTags</p>
-                                        <h6 class="tip-title"><strong>pointTitle h6</strong></h6>
-                                        <p class="tip-text">descriptionText</p>
+                                        <b class="point_product_tip_tit">pointTitle</b>
+                                        <p class="point_product_tip_desc">descriptionText</p>
                                     </div>
-                                    <div class="img">
+                                    <div class="point_product_tip_img">
                                         <picture>
                                             <source media="(max-width: 767px)" srcset="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_04.jpg" />
                                             <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_04.jpg" alt="" loading="lazy" decoding="async" />
                                         </picture>
                                     </div>
                                 </div>
-                            </article>
+                            </div>
                         </section>
 
                         <section id="buying-point-2" name="buying-point" role="tabpanel" aria-labelledby="buying-point-main-tab-2" aria-hidden="true" style="display: none;">
-                            <div class="subtab-wrap">
-                                <div class="subtab-btn" role="tablist" aria-orientation="horizontal">
-                                    <button class="active" name="buying-guide-tab" data-target=".buying-point-2-1" data-group="buying-point-2" type="button" id="buying-point-tab-2-1" role="tab" aria-selected="true" tabindex="0" aria-controls="buying-point-panel-2-1">buttonDepthText</button>
-                                    <button name="buying-guide-tab" data-target=".buying-point-2-2" data-group="buying-point-2" type="button" id="buying-point-tab-2-2" role="tab" aria-selected="false" tabindex="-1" aria-controls="buying-point-panel-2-2">buttonDepthText</button>
-                                </div>
+                            <div class="sub_tab_wrap">
+                                <div class="sub_tab_list" role="tablist" aria-orientation="horizontal">
+                                    <ul>
+                                        <li>
+                                            <button class="active" name="buying-guide-tab" data-target=".buying-point-2-1" data-group="buying-point-2" type="button" id="buying-point-tab-2-1" role="tab" aria-selected="true" tabindex="0" aria-controls="buying-point-panel-2-1">buttonDepthText</button>
+                                        </li>
+                                        <li>
+                                            <button name="buying-guide-tab" data-target=".buying-point-2-2" data-group="buying-point-2" type="button" id="buying-point-tab-2-2" role="tab" aria-selected="false" tabindex="-1" aria-controls="buying-point-panel-2-2">buttonDepthText</button>
+                                        </li>
+                                    </ul>
+</div>
 
-                                <div class="subtab-content">
-                                    <article id="buying-point-panel-2-1" class="point-wrap buying-point-2-1" name="buying-point-2" role="tabpanel" aria-labelledby="buying-point-tab-2-1" aria-hidden="false">
-                                        <div class="content">
-                                            <h4>title h4</h4>
-                                            <p>title decription</p>
-                                            <div class="img">
-                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_01.jpg" alt="imgAlt"/>
+                                <div class="sub_tab_content">
+                                    <div id="buying-point-panel-2-1" class="subtab-cotent-panel buying-point-2-1" name="buying-point-2" role="tabpanel" aria-labelledby="buying-point-tab-2-1" aria-hidden="false">
+    <div class="point_product">
+                                        <div class="point_product_content">
+                                            <div class="point_product_img">
+                                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_01.jpg" alt="imgAlt"/>
                                             </div>
-                                            <p class="des">
-                                            * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별
-                                            색상 및 스펙은 다를 수 있습니다.
-                                            </p>
-                                            <button class="btn-collapse-toggle" type="button" aria-expanded="false" aria-controls="buying-point-panel-2-1-collapse">
-                                            <span>
-                                                <b class="bold">* accordionText</b> / 
-                                                <b class="bold">accordionText2</b>
-                                            </span>
-                                            </button>
-                                            <div class="collapse-content" id="buying-point-panel-2-1-collapse" hidden>
-                                            <p>
-                                                <b class="bold">accordionText title</b><br>
-                                                * accordionText decription
-                                            </p>
-                                            <p>
-                                                <b class="bold">accordionText title</b><br>
-                                                * accordionText decription
-                                            </p>
-                                            </div>
-                                        </div>
-                                    </article>
-                                    <article id="buying-point-panel-2-2" class="point-wrap buying-point-2-2" name="buying-point-2" role="tabpanel" aria-labelledby="buying-point-tab-2-2" aria-hidden="true" style="display: none;">
-                                        <div class="content">
-                                            <h4>title h4</h4>
-                                            <p>title decription</p>
-                                            <div class="img">
-                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_02.jpg" alt="imgAlt"/>
-                                            </div>
-                                            <p class="des">
-                                            * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별
-                                            색상 및 스펙은 다를 수 있습니다.
-                                            </p>
-                                            <button class="btn-collapse-toggle" type="button" aria-expanded="false" aria-controls="buying-point-panel-2-2-collapse">
-                                            <span>
-                                                <b class="bold">* accordionText</b> / 
-                                                <b class="bold">accordionText2</b>
-                                            </span>
-                                            </button>
-                                            <div class="collapse-content" id="buying-point-panel-2-2-collapse" hidden>
-                                            <p>
-                                                <b class="bold">accordionText title</b><br>
-                                                * accordionText decription
-                                            </p>
-                                            <p>
-                                                <b class="bold">accordionText title</b><br>
-                                                * accordionText decription
-                                            </p>
+                                            <div class="point_product_text">
+                                                <h4>title h4</h4>
+                                                <p>title decription</p>
+                                                <p class="des">
+                                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별
+                                                색상 및 스펙은 다를 수 있습니다.
+                                                </p>
+                                                <button class="btn-collapse-toggle" type="button" aria-expanded="false" aria-controls="buying-point-panel-2-1-collapse">
+                                                <span>
+                                                    <b class="bold">* accordionText</b> / 
+                                                    <b class="bold">accordionText2</b>
+                                                </span>
+                                                </button>
+                                                <div class="collapse-content" id="buying-point-panel-2-1-collapse" hidden>
+                                                <p>
+                                                    <b class="bold">accordionText title</b><br>
+                                                    * accordionText decription
+                                                </p>
+                                                <p>
+                                                    <b class="bold">accordionText title</b><br>
+                                                    * accordionText decription
+                                                </p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </article>
+    </div>
+                                    </div>
+                                    <div id="buying-point-panel-2-2" class="subtab-cotent-panel buying-point-2-2" name="buying-point-2" role="tabpanel" aria-labelledby="buying-point-tab-2-2" aria-hidden="true" style="display: none;">
+    <div class="point_product">
+                                        <div class="point_product_content">
+                                            <div class="point_product_img">
+                                                <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_02.jpg" alt="imgAlt"/>
+                                            </div>
+                                            <div class="point_product_text">
+                                                <h4>title h4</h4>
+                                                <p>title decription</p>
+                                                <p class="des">
+                                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별
+                                                색상 및 스펙은 다를 수 있습니다.
+                                                </p>
+                                                <button class="btn-collapse-toggle" type="button" aria-expanded="false" aria-controls="buying-point-panel-2-2-collapse">
+                                                <span>
+                                                    <b class="bold">* accordionText</b> / 
+                                                    <b class="bold">accordionText2</b>
+                                                </span>
+                                                </button>
+                                                <div class="collapse-content" id="buying-point-panel-2-2-collapse" hidden>
+                                                <p>
+                                                    <b class="bold">accordionText title</b><br>
+                                                    * accordionText decription
+                                                </p>
+                                                <p>
+                                                    <b class="bold">accordionText title</b><br>
+                                                    * accordionText decription
+                                                </p>
+                                                </div>
+                                            </div>
+                                        </div>
+    </div>
+                                    </div>
                                 </div>
                             </div>
 
-                            <article class="point-tip buying-point-2-1" name="buying-point-2" aria-labelledby="buying-point-tip-title-2-1">
-                                <h4 class="point-tip-title" id="buying-point-tip-title-2-1">title</h4>
-                                <div class="tip-content">
-                                    <div class="content">
+                            <div class="point_product_tip buying-point-2-1" name="buying-point-2" aria-labelledby="buying-point_product_tip_title-2-1">
+                                <div class="point_product_tip_title" id="buying-point_product_tip_title-2-1">title</div>
+                                <div class="point_product_tip_content">
+                                    <div class="point_product_tip_text">
                                         <p class="tag">pointTags</p>
-                                        <p class="tip-title"><strong>pointTitle strong</strong></p>
-                                        <p class="tip-text">descriptionText</p>
+                                        <p class="point_product_tip_tit"><strong>pointTitle strong</strong></p>
+                                        <p class="point_product_tip_desc">descriptionText</p>
                                     </div>
-                                    <div class="img">
-                                    <picture>
-                                        <source media="(max-width: 767px)" srcset="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_05.jpg" />
-                                        <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_03.jpg" alt="" loading="lazy" decoding="async" />
-                                    </picture>
+                                    <div class="point_product_tip_img">
+                                        <picture>
+                                            <source media="(max-width: 767px)" srcset="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_05.jpg" />
+                                            <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_03.jpg" alt="" loading="lazy" decoding="async" />
+                                        </picture>
                                     </div>
                                 </div>
-                            </article>
+                            </div>
 
-                            <article class="point-tip buying-point-2-2" name="buying-point-2" aria-labelledby="buying-point-tip-title-2-2" style="display: none;">
-                                <h4 class="point-tip-title" id="buying-point-tip-title-2-2">title h5</h4>
-                                <div class="tip-content">
-                                    <div class="content">
+                            <div class="point_product_tip buying-point-2-2" name="buying-point-2" aria-labelledby="buying-point_product_tip_title-2-2" style="display: none;">
+                                <div class="point_product_tip_title" id="buying-point_product_tip_title-2-2">title h5</div>
+                                <div class="point_product_tip_content">
+                                    <div class="point_product_tip_text">
                                         <p class="tag">pointTags</p>
-                                        <p class="tip-title"><strong>pointTitle h6</strong></p>
-                                        <p class="tip-text">descriptionText</p>
+                                        <p class="point_product_tip_tit"><strong>pointTitle h6</strong></p>
+                                        <p class="point_product_tip_desc">descriptionText</p>
                                     </div>
-                                    <div class="img">
+                                    <div class="point_product_tip_img">
                                         <picture>
                                             <source media="(max-width: 767px)" srcset="/kr/story/buying-guide/2025/img/stand-by-me/img_M16_001_04.jpg" />
                                             <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_101_04.jpg" alt="" loading="lazy" decoding="async" />
                                         </picture>
                                     </div>
                                 </div>
-                            </article>
+                            </div>
                         </section>
                         
                         <p class="note aling-left">
@@ -750,13 +788,13 @@
                             <div class="tab-wrap">
                                 <div class="vertical-scroll-box" role="tablist" aria-orientation="horizontal">
                                     <button class="active" name="buying-guide-tab" data-target="#buying-point-3" data-group="buying-point-345" type="button" id="buying-point-345-tab-1" role="tab" aria-selected="true" tabindex="0" aria-controls="buying-point-3">
-                                        <h3>tab button</h3>
+                                        tab button1
                                     </button>
                                     <button name="buying-guide-tab" data-target="#buying-point-4" data-group="buying-point-345" type="button" id="buying-point-345-tab-2" role="tab" aria-selected="false" tabindex="-1" aria-controls="buying-point-4">
-                                        <h3>tab button</h3>
+                                        tab button2
                                     </button>
                                     <button name="buying-guide-tab" data-target="#buying-point-5" data-group="buying-point-345" type="button" id="buying-point-345-tab-3" role="tab" aria-selected="false" tabindex="-1" aria-controls="buying-point-5">
-                                        <h3>tab button</h3>
+                                        tab button3
                                     </button>                  
                                 </div>
                             </div>
@@ -768,7 +806,7 @@
                                             <article>
                                                 <div class="content-wrap">
                                                 <div>
-                                                    <h4>title h4</h4>
+                                                    <h4>title h4 or single title h3</h4>
                                                     <p>description</p>
                                                 </div>
                                                 <div>
@@ -791,7 +829,7 @@
                                             <article>
                                                 <div class="content-wrap">
                                                 <div>
-                                                    <h4>title h4</h4>
+                                                    <h4>title h4 or single title h3</h4>
                                                     <p>description</p>
                                                 </div>
                                                 <div>
@@ -814,7 +852,7 @@
                                             <article>
                                                 <div class="content-wrap">
                                                 <div>
-                                                    <h4>title h4</h4>
+                                                    <h4>title h4 or single title h3</h4>
                                                     <p>description</p>
                                                 </div>
                                                 <div>
@@ -850,7 +888,7 @@
                                             <article>
                                                 <div class="content-wrap">
                                                 <div>
-                                                    <h4>title h4</h4>
+                                                    <h4>title h4 or single title h3</h4>
                                                     <p>description</p>
                                                 </div>
                                                 <div>
@@ -877,7 +915,7 @@
                                             <article>
                                                 <div class="content-wrap">
                                                 <div>
-                                                    <h4>title h4</h4>
+                                                    <h4>title h4 or single title h3</h4>
                                                     <p>description</p>
                                                 </div>
                                                 <div>
@@ -900,7 +938,7 @@
                                             <article>
                                                 <div class="content-wrap">
                                                 <div>
-                                                    <h4>title h4</h4>
+                                                    <h4>title h4 or single title h3</h4>
                                                     <p>description</p>
                                                 </div>
                                                 <div>
@@ -923,7 +961,7 @@
                                             <article>
                                                 <div class="content-wrap">
                                                 <div>
-                                                    <h4>title h4</h4>
+                                                    <h4>title h4 or single title h3</h4>
                                                     <p>description</p>
                                                 </div>
                                                 <div>
@@ -959,7 +997,7 @@
                                             <article>
                                                 <div class="content-wrap">
                                                 <div>
-                                                    <h4>title h4</h4>
+                                                    <h4>title h4 or single title h3</h4>
                                                     <p>description</p>
                                                 </div>
                                                 <div>
@@ -986,7 +1024,7 @@
                                             <article>
                                                 <div class="content-wrap">
                                                 <div>
-                                                    <h4>title h4</h4>
+                                                    <h4>title h4 or single title h3</h4>
                                                     <p>description</p>
                                                 </div>
                                                 <div>
@@ -1009,7 +1047,7 @@
                                             <article>
                                                 <div class="content-wrap">
                                                 <div>
-                                                    <h4>title h4</h4>
+                                                    <h4>title h4 or single title h3</h4>
                                                     <p>description</p>
                                                 </div>
                                                 <div>
@@ -1032,7 +1070,7 @@
                                             <article>
                                                 <div class="content-wrap">
                                                 <div>
-                                                    <h4>title h4</h4>
+                                                    <h4>title h4 or single title h3</h4>
                                                     <p>description</p>
                                                 </div>
                                                 <div>
@@ -1068,7 +1106,7 @@
                                             <article>
                                                 <div class="content-wrap">
                                                 <div>
-                                                    <h4>title h4</h4>
+                                                    <h4>title h4 or single title h3</h4>
                                                     <p>description</p>
                                                 </div>
                                                 <div>
@@ -1102,12 +1140,12 @@
 
                 <section class="useful-tip">
                     <h2 class="section-title">
-                        그 외 알아두면 더 유용한 <br class="mo-only">모든 것을 알려드려요.
+                        그 외 알아두면 더 유용한 <br class="mo-only">모든 것을 알려드려요
                     </h2>
                     <div class="tip-wrap">
                         <article class="tip-faq">
                             <h3>
-                                <img src="/kr/story/buying-guide/2025/img/ic32_inquiry.png" alt="검은색 말풍선 모양의 3D 아이콘."/>
+                                <img src="/kr/story/buying-guide/2025/img/ic32_inquiry.png" alt=""/>
                                 문의 답변
                             </h3>
                             <p>청소기, 궁금했던 모든 것에 답해 드려요.</p>
@@ -1117,7 +1155,7 @@
                         </article>
                         <article class="tip-subscribe">
                             <h3>
-                                <img src="/kr/story/buying-guide/2025/img/ic32_subscribe.png" alt="흰색 캘린더 3D 아이콘."/>
+                                <img src="/kr/story/buying-guide/2025/img/ic32_subscribe.png" alt=""/>
                                 구독 상품
                             </h3>
                             <p>청소기를 정기적으로 구독하고 싶다면?</p>
@@ -1127,10 +1165,10 @@
                         </article>
                         <article class="tip-best">
                             <h3>
-                                <img src="/kr/story/buying-guide/2025/img/ic32_products.png" alt="빨간색 원형 배경에 흰색 엄지손가락 치켜세운 모양의 3D 아이콘."/>
+                                <img src="/kr/story/buying-guide/2025/img/ic32_products.png" alt=""/>
                                 인기 상품
                             </h3>
-                            <p>지금 가장 인기 잇는 청소기를 확인해 보세요!</p>
+                            <p>지금 가장 인기 있는 청소기를 확인해 보세요!</p>
                             <div class="btn-wrap">
                                 <a target="_blank" href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000024&categoryId=CT50295000&categoryName=%EC%8A%A4%ED%83%A0%EB%B0%94%EC%9D%B4%EB%AF%B8" rel="noopener" aria-label="새 창에서 열림">
                                     베스트 랭킹
