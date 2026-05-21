@@ -792,7 +792,8 @@
                     ">
                 <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                 <div class="bubble">
-                  <a href="https://www.lge.co.kr/wash-combo/fh25ese" target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 트롬 AI 오브제컬렉션
+                  <a href="https://www.lge.co.kr/wash-combo/fh25ese" target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 트롬
+                      오브제컬렉션
                       워시콤보</span></a>
                   <p>25kg/15kg<span></span>1등급</p>
                 </div>
@@ -1406,7 +1407,7 @@
                           <p>
                             자동세제함
                             <span class="des">
-                              <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                              <button class="info pc-only" aria-label="제품 내용 상세보기"></button>z
                               <span class="bubble">세탁량과 오염량에 맞춰 세제·유연제를 자동으로 알맞게</span>
                             </span>
                           </p>
