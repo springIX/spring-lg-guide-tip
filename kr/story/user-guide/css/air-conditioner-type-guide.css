@@ -200,9 +200,9 @@
   justify-content: center;
   background-color: #000000;
   color: #ffffff;
-  padding: 14px 35px;
+  padding: 10px 30px;
   border-radius: 60px;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 700;
   transition: background-color 0.3s;
   line-height: 1.4;
@@ -210,8 +210,7 @@
   white-space: nowrap;
 }
 #gjw003 a.btn-black img.right-arrow {
-  width: 7px;
-  height: 14px;
+  width: 10px;
   margin-left: 8px;
 }
 #gjw003 .btn-black:hover {
@@ -220,6 +219,7 @@
 #gjw003 .btn-wrap.center {
   text-align: center;
   margin-top: 28px;
+  padding-bottom: 0;
 }
 
 /* ---------------------------------------------------
@@ -297,11 +297,11 @@
   border-radius: 0px;
 }
 #gjw003 .sec-step .img-wrap {
-  overflow: hidden;
-
-  margin-left: 0;
+  overflow: hidden;  
 }
-
+#gjw003 .sec-step .img-manual { 
+  margin: 20px -22px -28px; 
+}
 /* ---------------------------------------------------
    체크포인트 & 테이블
 --------------------------------------------------- */
@@ -368,13 +368,12 @@
 
 /* 팁 박스 */
 #gjw003 .tip-box {
-  padding: 22px;
-  padding-bottom: 28px;
+  padding: 46px 22px 28px;
   padding-right: 0;
+  border-bottom: 1px solid #A7A7A7;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  border-bottom: 1px solid #a7a7a7;
 }
 #gjw003 .tip-box .tip-tit {
   min-width: 130px;
@@ -429,8 +428,7 @@
   padding-top: 0;
 }
 #gjw003 .num-list-red li:last-child {
-  padding-bottom: 0;
-  border-bottom: none;
+  border-bottom-color: #000;
 }
 #gjw003 .num-list-red .n {
   flex-shrink: 0;
@@ -440,13 +438,33 @@
 }
 
 /* 유의사항(Disclaimer) 목록 */
+#gjw003 .notice-list-wrap { 
+  padding-top: 20px;
+}
+#gjw003 .notice-list-wrap .notice-list {
+  padding-top: 0;
+}
+#gjw003 .notice-list-wrap > b {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.05em;
+  color: #444;
+}
+
 #gjw003 .notice-list {
   padding-top: 20px;
   text-align: left;
 }
-#gjw003 .notice-list li {
-  margin-bottom: 6px;
+#gjw003 .notice-list .disclaimer {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #444;
 }
+/* #gjw003 .notice-list li + li {
+  margin-bottom: 2px;
+} */
 
 /* ---------------------------------------------------
    중간 배너
@@ -511,6 +529,14 @@
   text-align: center;
 }
 
+/*   */
+#gjw003 .tip-num { font-size: 22px; line-height: 1.4; margin-top: 20px; }
+#gjw003 .tip-num ul:not(:first-child) { margin-top: 20px; }
+#gjw003 .tip-num li { list-style-type: decimal; margin-left: 1em; }
+#gjw003 .tip-num li + li { margin-top: 8px; }
+#gjw003 .tip-num-tit { font-weight: 700; letter-spacing: -0.05em; line-height: 1.4; }
+#gjw003 .tip-num-desc { margin-top: 8px; letter-spacing: -0.05em; line-height: 1.4; }
+
 /* ---------------------------------------------------
            Mobile Responsive (768px 이하 - 가이드 수치 적용)
         --------------------------------------------------- */
@@ -561,12 +587,12 @@
   }
   #gjw003 h2 {
     font-size: 22px;
-    line-height: 1.6;
+    line-height: 1.4;
     font-weight: 700;
   }
   #gjw003 h3 {
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.4;
     font-weight: 700;
   }
   #gjw003 h4 {
@@ -764,8 +790,10 @@
     height: 2px;
   }
 
-  #gjw003 .tip-line-wrap {
+  #gjw003 .tip-line-wrap { 
+    gap: 8px;
     padding-left: 8px;
+    margin-bottom: 18px;
   }
   /* 숫자 리스트 모바일 */
   #gjw003 .num-list-red li {
@@ -775,6 +803,10 @@
   }
   #gjw003 .num-list-red .n {
     min-width: 38px;
+  }
+  #gjw003 .num-list-red li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
   }
 
   /* 배너 모바일 */
@@ -808,7 +840,7 @@
     max-width: 218px;
   }
   #gjw003 .btn-black {
-    padding: 7px 20px;
+    padding: 7px 18px;
     font-size: 16px;
     width: auto;
   }
@@ -854,19 +886,48 @@
   #gjw003 .btn-wrap.center {
     margin-top: 13px;
   }
+
+  #gjw003 .notice-list-wrap {
+    padding-top: 13px;
+  }
+  #gjw003 .notice-list-wrap > b {
+    display: block;
+    font-size: 11px;
+  }
+  #gjw003 .notice-list-wrap .notice-list {
+    margin-top: 2px;
+  }
+
   #gjw003 .notice-list {
     padding-top: 13px;
   }
   #gjw003 .notice-list li {
     margin-bottom: 2px;
   }
+
+  #gjw003 .notice-list li + li {
+    margin-top: 2px;
+  }
+  #gjw003 .notice-list .disclaimer {
+    font-size: 11px;
+    line-height: 1.6;
+  }
+
   #gjw003 .pc-only-20 {
     height: 0px;
     display: none;
   }
   #gjw003 .sec-step .img-wrap.img-manual {
-    width: 100vw;
-    margin-left: 50%;
-    transform: translateX(-50%);
+    margin: 4px 0 -18px;
   }
+
+
+  #gjw003 .tip-num { margin-top: 13px; font-size: 14px; }
+  #gjw003 .tip-num-tit { font-size: 14px; line-height: 1.6; }
+  #gjw003 .tip-num-desc { font-size: 14px; margin-top: 4px; line-height: 1.6; }
+  #gjw003 .tip-num ul:not(:first-child) { margin-top: 13px; }
+  #gjw003 .tip-num li { line-height: 1.6; }
+  #gjw003 .tip-num li + li { margin-top: 4px; }
+
+  
 }
