@@ -345,7 +345,9 @@
   background-color: #ffffff;
   letter-spacing: 0;
 }
-
+#gjw003 .data-table tr:last-child td {
+    border-color: #000;
+}
 /* 불릿 리스트 */
 #gjw003 .bullet-list li {
   position: relative;
