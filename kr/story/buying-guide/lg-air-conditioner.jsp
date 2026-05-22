@@ -317,7 +317,7 @@
                                         <thead>
                                             <tr>
                                                 <th rowspan="2">
-                                                    모델 라인업
+                                                    모델 <br>라인업
                                                 </th>
                                                 <th>
                                                     타워I
@@ -655,7 +655,7 @@
                                                         <button type="button" class="tooltip-btn" aria-controls="mobile-dialog-bottomSheet" aria-label="상세 정보 보기">
                                                         </button>
                                                         <span class="tooltip-message">
-                                                            소프트바람은 부드러운 공간 냉방을 도와줍니다. 
+                                                            소프트바람은 미세하고 고르게 퍼져 조용하고 은은한 냉방을 지원합니다.
                                                         </span>
                                                         <div class="mobile-dialog-bottomSheet" hidden>
                                                             <b>
@@ -713,7 +713,7 @@
                                                         <button type="button" class="tooltip-btn" aria-controls="mobile-dialog-bottomSheet" aria-label="상세 정보 보기">
                                                         </button>
                                                         <span class="tooltip-message">
-                                                            소프트바람은 부드러운 공간 냉방을 도와줍니다. 
+                                                            소프트바람은 미세하고 고르게 퍼져 조용하고 은은한 냉방을 지원합니다.
                                                         </span>
                                                         <div class="mobile-dialog-bottomSheet" hidden>
                                                             <b>
@@ -752,7 +752,7 @@
                                                         <button type="button" class="tooltip-btn" aria-controls="mobile-dialog-bottomSheet" aria-label="상세 정보 보기">
                                                         </button>
                                                         <span class="tooltip-message">
-                                                            소프트바람은 부드러운 공간 냉방을 도와줍니다. 
+                                                            소프트바람은 미세하고 고르게 퍼져 조용하고 은은한 냉방을 지원합니다.
                                                         </span>
                                                         <div class="mobile-dialog-bottomSheet" hidden>
                                                             <b>
@@ -791,7 +791,7 @@
                                                         <button type="button" class="tooltip-btn" aria-controls="mobile-dialog-bottomSheet" aria-label="상세 정보 보기">
                                                         </button>
                                                         <span class="tooltip-message">
-                                                            소프트바람은 부드러운 공간 냉방을 도와줍니다. 
+                                                            소프트바람은 미세하고 고르게 퍼져 조용하고 은은한 냉방을 지원합니다.
                                                         </span>
                                                         <div class="mobile-dialog-bottomSheet" hidden>
                                                             <b>
@@ -1599,7 +1599,7 @@
                                         <table class="clone-header-table">
                                             <thead>
                                                 <th>
-                                                    모델 라인업
+                                                    모델 <br>라인업
                                                 </th>
                                                 <th>
                                                     타워I
@@ -1626,6 +1626,13 @@
                                         </table>
                                     </div>
                                 </div>
+                                <ul class="note aling-left">
+                                    <li>
+                                        <p>
+                                            * 본 내용은 제품 라인업의 주요 특징을 안내한 것으로, 일부 기능은 특정 모델에만 적용됩니다. 모델별 기능과 사양은 각 제품 정보 페이지에서 확인해 주세요.
+                                        </p>
+                                    </li>
+                                </ul>
                             </section>
                             <!-- sub product table //-->
                             <!-- sub product table -->
@@ -2538,15 +2545,15 @@
                                                 </th>
                                                 <td class="support">
                                                     <b class="semibold">
-                                                        지원
+                                                        지원<br>
+                                                        (PM1.0센서)
                                                     </b>
-                                                    <p>(PM1.0센서)</p>
                                                 </td>
                                                 <td class="support">
                                                     <b class="semibold">
-                                                        지원
+                                                        지원<br>
+                                                        (PM1.0센서)
                                                     </b>
-                                                    <p>(PM1.0센서)</p>
                                                 </td>
                                                 <td>
                                                     <b class="semibold">
@@ -2657,56 +2664,82 @@
                                                     </b>
                                                 </th>
                                                 <td>
-                                                    <b class="semibold">81.8㎡ /<br> 74.5㎡ / <br class="mo-only">58.5㎡</b>
-                                                    <p class="gray">*모델별 상이</p>
+                                                    <div class="vertical_cell">
+                                                        <b class="semibold">81.8㎡ /<br> 74.5㎡ / <br>58.5㎡</b>
+                                                        <p class="gray">*모델별 상이</p>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <b class="semibold">58.5㎡</b>
-                                                    <p class="gray">*모델별 상이</p>
+                                                    <div class="vertical_cell">
+                                                        <b class="semibold">58.5㎡</b>
+                                                        <p class="gray">*모델별 상이</p>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <b class="semibold">81.8㎡ / <br class="mo-only">58.5㎡</b>
-                                                    <p class="gray">*모델별 상이</p>
+                                                    <div class="vertical_cell">
+                                                        <b class="semibold">81.8㎡ / <br>58.5㎡</b>
+                                                        <p class="gray">*모델별 상이</p>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <b class="semibold">74.5㎡ / <br class="mo-only">58.5㎡ / <br class="mo-only">56.9㎡</b>
-                                                    <p class="gray">*모델별 상이</p>
+                                                    <div class="vertical_cell">
+                                                        <b class="semibold">74.5㎡ / <br>58.5㎡ / <br>56.9㎡</b>
+                                                        <p class="gray">*모델별 상이</p>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <b class="semibold">74.5㎡ / <br class="mo-only">58.5㎡ / <br class="mo-only">56.9㎡</b>
-                                                    <p class="gray">*모델별 상이</p>
+                                                    <div class="vertical_cell">
+                                                        <b class="semibold">74.5㎡ / <br>58.5㎡ / <br>56.9㎡</b>
+                                                        <p class="gray">*모델별 상이</p>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <b class="semibold">58.5㎡ / <br class="mo-only">56.9㎡  </b>
-                                                    <p class="gray">*모델별 상이</p>
+                                                    <div class="vertical_cell">
+                                                        <b class="semibold">58.5㎡ / <br>56.9㎡  </b>
+                                                        <p class="gray">*모델별 상이</p>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <b class="semibold">74.5㎡ / <br class="mo-only">58.5㎡ / <br class="mo-only">56.9㎡</b>
-                                                    <p class="gray">*모델별 상이</p>
+                                                    <div class="vertical_cell">
+                                                        <b class="semibold">74.5㎡ / <br>58.5㎡ / <br>56.9㎡</b>
+                                                        <p class="gray">*모델별 상이</p>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <b class="semibold">58.5㎡ / <br class="mo-only">56.9㎡</b>
-                                                    <p class="gray">*모델별 상이</p>
+                                                    <div class="vertical_cell">
+                                                        <b class="semibold">58.5㎡ / <br>56.9㎡</b>
+                                                        <p class="gray">*모델별 상이</p>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <b class="semibold">62.6㎡ / <br class="mo-only">58.5㎡ / <br class="mo-only">56.9㎡</b>
-                                                    <p class="gray">*모델별 상이</p>
+                                                    <div class="vertical_cell">
+                                                        <b class="semibold">62.6㎡ / <br>58.5㎡ / <br>56.9㎡</b>
+                                                        <p class="gray">*모델별 상이</p>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <b class="semibold">58.5㎡ / <br class="mo-only">56.9㎡</b>
-                                                    <p class="gray">*모델별 상이</p>
+                                                    <div class="vertical_cell">
+                                                        <b class="semibold">58.5㎡ / <br>56.9㎡</b>
+                                                        <p class="gray">*모델별 상이</p>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <b class="semibold">58.5㎡ / <br class="mo-only">56.9㎡</b>
-                                                    <p class="gray">*모델별 상이</p>
+                                                    <div class="vertical_cell">
+                                                        <b class="semibold">58.5㎡ / <br>56.9㎡</b>
+                                                        <p class="gray">*모델별 상이</p>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <b class="semibold">58.5㎡ / <br class="mo-only">56.9㎡</b>
-                                                    <p class="gray">*모델별 상이</p>
+                                                    <div class="vertical_cell">
+                                                        <b class="semibold">58.5㎡ / <br>56.9㎡</b>
+                                                        <p class="gray">*모델별 상이</p>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <b class="semibold">58.5㎡ / <br class="mo-only">56.9㎡</b>
-                                                    <p class="gray">*모델별 상이</p>
+                                                    <div class="vertical_cell">
+                                                        <b class="semibold">58.5㎡ / <br>56.9㎡</b>
+                                                        <p class="gray">*모델별 상이</p>
+                                                    </div>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -3232,7 +3265,7 @@
                                         <thead>
                                             <tr>
                                                 <th rowspan="2">
-                                                    모델 라인업
+                                                    모델 <br>라인업
                                                 </th>
                                                 <th>
                                                     듀얼쿨
@@ -3241,7 +3274,7 @@
                                                     듀얼쿨 사계절
                                                 </th>
                                                 <th>
-                                                    뷰
+                                                    일반
                                                 </th>
                                                 <th>
                                                     일반 사계절
@@ -3308,27 +3341,26 @@
                                                 </th>
                                                 <td class="highlight">
                                                     <b class="semibold">
-                                                        온도와 습도 관리가 필요한<br class="pc-only">
-                                                        거실, 넓은 방, 오피스텔 등<br class="pc-only">
-                                                        단일 공간
+                                                        온도와 습도 관리가 필요한 <br class="pc-only">
+                                                        작은방, 원룸, 오피스텔 등 단일 공간
                                                     </b>
                                                 </td>
                                                 <td class="highlight">
                                                     <b class="semibold">
                                                         냉방과 온풍이 모두 필요한<br class="pc-only">
-                                                        침실 및 거실 등 단일 공간
+                                                        작은방, 원룸, 오피스텔 등 단일 공간
                                                     </b>
                                                 </td>
                                                 <td class="highlight">
                                                     <b class="semibold">
-                                                        냉방이 필요한<br>
-                                                        거실, 넓은 방, 오피스텔 등 단일 공간
+                                                        냉방이 필요한<br class="pc-only">
+                                                        작은방, 원룸 오피스텔 등 단일 공간
                                                     </b>
                                                 </td>
                                                 <td class="highlight">
                                                     <b class="semibold">
                                                         냉방과 온풍이 모두 필요한<br class="pc-only">
-                                                        거실, 넓은 방, 오피스텔 등 단일 공간
+                                                        작은방, 원룸, 오피스텔 등 단일 공간
                                                     </b>
                                                 </td>
                                             </tr>
@@ -3449,7 +3481,7 @@
                                                         <button type="button" class="tooltip-btn" aria-controls="mobile-dialog-bottomSheet" aria-label="상세 정보 보기">
                                                         </button>
                                                         <span class="tooltip-message">
-                                                            소프트바람은 부드러운 공간 냉방을 도와줍니다. 
+                                                            소프트바람은 미세하고 고르게 퍼져 조용하고 은은한 냉방을 지원합니다.
                                                         </span>
                                                         <div class="mobile-dialog-bottomSheet" hidden>
                                                             <b>
@@ -3488,7 +3520,7 @@
                                                         <button type="button" class="tooltip-btn" aria-controls="mobile-dialog-bottomSheet" aria-label="상세 정보 보기">
                                                         </button>
                                                         <span class="tooltip-message">
-                                                            소프트바람은 부드러운 공간 냉방을 도와줍니다. 
+                                                            소프트바람은 미세하고 고르게 퍼져 조용하고 은은한 냉방을 지원합니다.
                                                         </span>
                                                         <div class="mobile-dialog-bottomSheet" hidden>
                                                             <b>
@@ -3825,7 +3857,7 @@
                                             <thead>
                                                 <tr>
                                                     <th>
-                                                        모델 라인업
+                                                        모델 <br>라인업
                                                     </th>
                                                     <th>
                                                         듀얼쿨
@@ -3834,7 +3866,7 @@
                                                         듀얼쿨 사계절
                                                     </th>
                                                     <th>
-                                                        뷰
+                                                        일반
                                                     </th>
                                                     <th>
                                                         일반 사계절
@@ -3844,6 +3876,13 @@
                                         </table>
                                     </div>
                                 </div>
+                                <ul class="note aling-left">
+                                    <li>
+                                        <p>
+                                            * 본 내용은 제품 라인업의 주요 특징을 안내한 것으로, 일부 기능은 특정 모델에만 적용됩니다. 모델별 기능과 사양은 각 제품 정보 페이지에서 확인해 주세요.
+                                        </p>
+                                    </li>
+                                </ul>
                             </section>
                             <!-- sub product table //-->
                             <!-- sub product table -->
@@ -4281,33 +4320,41 @@
                                                     </b>
                                                 </th>
                                                 <td>
-                                                    <b class="semibold">
-                                                        22.8㎡ / 18.7㎡
-                                                    </b>
-                                                    <p class="gray">
-                                                        *모델별 상이
-                                                    </p>
+                                                    <div class="vertical_cell">
+                                                        <b class="semibold">
+                                                            22.8㎡ / 18.7㎡
+                                                        </b>
+                                                        <p class="gray">
+                                                            *모델별 상이
+                                                        </p>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <b class="semibold">
-                                                        29.3㎡
-                                                    </b>
+                                                    <div class="vertical_cell">
+                                                        <b class="semibold">
+                                                            29.3㎡
+                                                        </b>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <b class="semibold">
-                                                        42.3㎡ / 31.7㎡ / 29.3㎡ / 22.8㎡ / 18.7㎡
-                                                    </b>
-                                                    <p class="gray">
-                                                        *모델별 상이
-                                                    </p>
+                                                    <div class="vertical_cell">
+                                                        <b class="semibold">
+                                                            42.3㎡ / 31.7㎡ / 29.3㎡ / 22.8㎡ / 18.7㎡
+                                                        </b>
+                                                        <p class="gray">
+                                                            *모델별 상이
+                                                        </p>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <b class="semibold">
-                                                        52.8㎡ / 42.3㎡ / 38.2㎡ / 29.3㎡ / 24.4㎡ / 22.8㎡
-                                                    </b>
-                                                    <p class="gray">
-                                                        *모델별 상이
-                                                    </p>
+                                                    <div class="vertical_cell">
+                                                        <b class="semibold">
+                                                            52.8㎡ / 42.3㎡ / 38.2㎡ / 29.3㎡ / 24.4㎡ / 22.8㎡
+                                                        </b>
+                                                        <p class="gray">
+                                                            *모델별 상이
+                                                        </p>
+                                                    </div>
                                                 </td>
                                             </tr>
                                             <!-- 에너지 -->
@@ -4318,12 +4365,14 @@
                                                     </b>
                                                 </th>
                                                 <td>
-                                                    <b class="semibold">
-                                                        1등급 / 3등급
-                                                    </b>
-                                                    <p class="gray">
-                                                        *모델별 상이
-                                                    </p>
+                                                    <div class="vertical_cell">
+                                                        <b class="semibold">
+                                                            1등급 / 3등급
+                                                        </b>
+                                                        <p class="gray">
+                                                            *모델별 상이
+                                                        </p>
+                                                    </div>
                                                 </td>
                                                 <td>
                                                     <b class="semibold">
@@ -4331,20 +4380,24 @@
                                                     </b>
                                                 </td>
                                                 <td>
-                                                    <b class="semibold">
-                                                        1등급 / 2등급 / 3등급
-                                                    </b>
-                                                    <p class="gray">
-                                                        *모델별 상이
-                                                    </p>
+                                                    <div class="vertical_cell">
+                                                        <b class="semibold">
+                                                            1등급 / 2등급 / 3등급
+                                                        </b>
+                                                        <p class="gray">
+                                                            *모델별 상이
+                                                        </p>
+                                                    </div>
                                                 </td>
                                                 <td>
-                                                    <b class="semibold">
-                                                        1등급 / 2등급
-                                                    </b>
-                                                    <p class="gray">
-                                                        *모델별 상이
-                                                    </p>
+                                                    <div class="vertical_cell">
+                                                        <b class="semibold">
+                                                            1등급 / 2등급
+                                                        </b>
+                                                        <p class="gray">
+                                                            *모델별 상이
+                                                        </p>
+                                                    </div>
                                                 </td>
                                             </tr>
                                             <!-- 출시 -->
@@ -4482,7 +4535,7 @@
                                         <thead>
                                             <tr>
                                                 <th rowspan="2">
-                                                    모델 라인업
+                                                    모델 <br>라인업
                                                 </th>
                                                 <th>
                                                     엣지 창호형 에어컨
@@ -4719,7 +4772,7 @@
                                             <thead>
                                                 <tr>
                                                     <th rowspan="2">
-                                                        모델 라인업
+                                                        모델 <br>라인업
                                                     </th>
                                                     <th>
                                                         엣지 창호형 에어컨
@@ -4729,6 +4782,13 @@
                                         </table>
                                     </div>
                                 </div>
+                                <ul class="note aling-left">
+                                    <li>
+                                        <p>
+                                            * 본 내용은 제품 라인업의 주요 특징을 안내한 것으로, 일부 기능은 특정 모델에만 적용됩니다. 모델별 기능과 사양은 각 제품 정보 페이지에서 확인해 주세요.
+                                        </p>
+                                    </li>
+                                </ul>
                             </section>
                             <!-- sub product table //-->
                             <!-- sub product table -->
@@ -4744,7 +4804,7 @@
                                     </p>
                                 </div>
                                 <div class="table-wrap include-tab vertical-scroll-box buying-guide-spec-table buying-guide-spec-table-single">
-                                    <table>
+                                    <table id="__table_6">
                                     <caption class="blind">LG 창호형 에어컨 주요 사양 비교표입니다. 엣지 창호형 에어컨의 냉방, 청정관리, 제습, 절전 기능 지원 여부를 확인할 수 있습니다.</caption>
                                         <colgroup>
                                             <col class="col1">
@@ -5048,7 +5108,7 @@
                                         <thead>
                                             <tr>
                                                 <th rowspan="2">
-                                                    모델 라인업
+                                                    모델 <br>라인업
                                                 </th>
                                                 <th>
                                                     이동식 에어컨 (듀얼호스)
@@ -5273,7 +5333,7 @@
                                             <thead>
                                                 <tr>
                                                     <th rowspan="2">
-                                                        모델 라인업
+                                                        모델 <br>라인업
                                                     </th>
                                                     <th>
                                                         이동식 에어컨 (듀얼호스)
@@ -5283,6 +5343,13 @@
                                         </table>
                                     </div>
                                 </div>
+                                <ul class="note aling-left">
+                                    <li>
+                                        <p>
+                                            * 본 내용은 제품 라인업의 주요 특징을 안내한 것으로, 일부 기능은 특정 모델에만 적용됩니다. 모델별 기능과 사양은 각 제품 정보 페이지에서 확인해 주세요.
+                                        </p>
+                                    </li>
+                                </ul>
                             </section>
                             <!-- sub product table //-->
                             <!-- sub product table -->
@@ -5298,7 +5365,7 @@
                                     </p>
                                 </div>
                                 <div class="table-wrap include-tab vertical-scroll-box buying-guide-spec-table buying-guide-spec-table-single">
-                                    <table>
+                                    <table id="__table_8">
                                     <caption class="blind">LG 이동식 에어컨 주요 사양 비교표입니다. 이동식 에어컨의 냉방, 청정관리, 제습, 절전 기능 지원 여부를 확인할 수 있습니다.</caption>
                                         <colgroup>
                                             <col class="col1">
@@ -5479,7 +5546,7 @@
                                         <table class="clone-header-table">
                                             <thead>
                                                 <tr>
-                                                    <th colspan="2" rowspan="2">
+                                                    <th rowspan="2" colspan="2">
                                                         모델 라인업
                                                     </th>
                                                     <th>
@@ -7221,18 +7288,19 @@
                                 스펙은 다를 수 있습니다.
                             </p>
                         </div>
-                        </div>
-                        </section>
-                        <!-- major tab pannel buying-point //-->
-                        <section class="useful-tip">
-                            <h2 class="section-title">
-                                그 외 알아두면 더 유용한
-                                <br class="mo-only">
-                                모든 것을 알려드려요
-                            </h2>
-                            <div class="tip-wrap">                        <article class="tip-faq">
+                    </div>
+                </section>
+                <!-- major tab pannel buying-point //-->
+                <section class="useful-tip">
+                    <h2 class="section-title">
+                        그 외 알아두면 더 유용한
+                        <br class="mo-only">
+                        모든 것을 알려드려요
+                    </h2>
+                    <div class="tip-wrap">                        
+                        <article class="tip-faq">
                             <h3>
-                                <img src="/kr/story/buying-guide/2025/img/ic32_inquiry.png" alt="검은색 말풍선 모양의 3D 아이콘.">
+                                <img src="/kr/story/buying-guide/2025/img/ic32_inquiry.png" alt="">
                                 문의 답변
                             </h3>
                             <p>
@@ -7246,7 +7314,7 @@
                         </article>
                         <article class="tip-subscribe">
                             <h3>
-                                <img src="/kr/story/buying-guide/2025/img/ic32_subscribe.png" alt="흰색 캘린더 3D 아이콘.">
+                                <img src="/kr/story/buying-guide/2025/img/ic32_subscribe.png" alt="">
                                 구독 상품
                             </h3>
                             <p>
@@ -7260,7 +7328,7 @@
                         </article>
                         <article class="tip-best">
                             <h3>
-                                <img src="/kr/story/buying-guide/2025/img/ic32_products.png" alt="빨간색 원형 배경에 흰색 엄지손가락 치켜세운 모양의 3D 아이콘.">
+                                <img src="/kr/story/buying-guide/2025/img/ic32_products.png" alt="">
                                 인기 상품
                             </h3>
                             <p>

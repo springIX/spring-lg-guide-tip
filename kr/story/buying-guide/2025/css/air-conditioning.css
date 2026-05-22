@@ -1,7 +1,16 @@
+
+.buying-guide-special .product-table .buying-guide-spec-table th,
+.buying-guide-special .product-table .buying-guide-spec-table td { font-size: 16px; }
+
 .buying-guide-special .product-table .buying-guide-spec-table thead th,
 .buying-guide-special .product-table .buying-guide-spec-table thead th:not([rowspan]) { 
-  font-size: 16px;
+  font-size: 18px;
 }
+
+.buying-guide-special .product-table .buying-guide-spec-table #__table_2 td,
+.buying-guide-special .product-table .buying-guide-spec-table #__table_4 td,
+.buying-guide-special .product-table .buying-guide-spec-table #__table_6 td,
+.buying-guide-special .product-table .buying-guide-spec-table #__table_8 td { font-size: 14px; }
 
 .buying-guide-special .product-table .buying-guide-spec-table thead th:first-child,
 .buying-guide-special .product-table .buying-guide-spec-table tbody th:first-child { width: 100px; }
@@ -10,16 +19,10 @@
   width: 200px;
 }
 
-.buying-guide-special .product-table .buying-guide-spec-table td { font-size: 14px; }
-.buying-guide-special .product-table .buying-guide-spec-table #__table_1 td { font-size: 16px; }
 .buying-guide-special .product-table .buying-guide-spec-table .btn-product { height: 52px; font-size: 14px; }
-
-.buying-guide-special .product-table .buying-guide-spec-table #__table_2 th,
-.buying-guide-special .product-table .buying-guide-spec-table #__table_2 td { font-size: 14px; }
-.buying-guide-special .product-table .buying-guide-spec-table #__table_2 td { padding: 18px 5px; }
+.buying-guide-special .product-table .buying-guide-spec-table #__table_2 td { padding: 18px 3px; }
 .buying-guide-special .product-table .buying-guide-spec-table #__table_2 .th2 { padding: 5px; }
 .buying-guide-special .product-table .buying-guide-spec-table #__table_2 .procuct-img { margin: -10px; padding: 29px 0; }
-.buying-guide-special .product-table .buying-guide-spec-table #__table_2
 
 .buying-guide-special .product-table .buying-guide-spec-table .btn-product { padding: 5px 20px; height: 52px; align-items: center; font-size: 14px; max-width: calc(100% - 12px); }
 .buying-guide-special .product-table .buying-guide-spec-table .gray { color: #666; }
@@ -29,7 +32,6 @@
 .buying-guide-special .product-table .table-wrap .th2 { padding: 16px 2px; }
 
 /* .buying-guide-special .product-table .clone-header-table-wrap { left: 50%; } */
-.buying-guide .product-table .table-wrap thead tr:first-child th:first-child { font-size: 14px; } 
 .buying-guide-special .clone-header-table-wrap .table-wrap thead tr:first-child th:first-child { width: 100px; }
 
 .buying-guide-special .aling-top-left {
@@ -47,26 +49,25 @@
 
   .buying-guide-special .product-table .buying-guide-spec-table #__table_4,
   .buying-guide-special .product-table .buying-guide-spec-table #__table_4 + .clone-header-table-wrap,
-  .buying-guide-special .product-table .buying-guide-spec-table #__table_4 + .clone-header-table-wrap .clone-header-table { min-width: 730px; max-width: 730px; }
+  .buying-guide-special .product-table .buying-guide-spec-table #__table_4 + .clone-header-table-wrap .clone-header-table { min-width: 730px; }
 }
 
 @media (max-width: 768px) {
-  .buying-guide-special .product-table .buying-guide-spec-table thead th, 
-  .buying-guide-special .product-table .buying-guide-spec-table thead th:not([rowspan]),
-  .buying-guide .product-table .table-wrap thead tr:first-child th:first-child,
   .buying-guide-special .product-table .table-wrap table th, 
   .buying-guide-special .product-table .table-wrap table td { font-size: 14px; }
+  .buying-guide-special .product-table .buying-guide-spec-table thead th,
+  .buying-guide-special .product-table .buying-guide-spec-table thead th:not([rowspan]) { 
+    font-size: 16px;
+  }
 
-  .buying-guide-special .product-table .buying-guide-spec-table #__table_2 thead th,
-  .buying-guide-special .product-table .buying-guide-spec-table #__table_2 thead th:not([rowspan]),
-  .buying-guide-special .product-table .buying-guide-spec-table #__table_2 th,
+  .buying-guide-special .product-table .buying-guide-spec-table #__table_2 tbody th,
   .buying-guide-special .product-table .buying-guide-spec-table #__table_2 td,
-  .buying-guide-special .product-table .buying-guide-spec-table #__table_2 + .clone-header-table-wrap th,
-  .buying-guide-special .product-table .buying-guide-spec-table #__table_4 thead th,
-  .buying-guide-special .product-table .buying-guide-spec-table #__table_4 thead th:not([rowspan]),
-  .buying-guide-special .product-table .buying-guide-spec-table #__table_4 th,
+  .buying-guide-special .product-table .buying-guide-spec-table #__table_4 tbody th,
   .buying-guide-special .product-table .buying-guide-spec-table #__table_4 td,
-  .buying-guide-special .product-table .buying-guide-spec-table #__table_4 + .clone-header-table-wrap th { 
+  .buying-guide-special .product-table .buying-guide-spec-table #__table_6 tbody th,
+  .buying-guide-special .product-table .buying-guide-spec-table #__table_6 td,
+  .buying-guide-special .product-table .buying-guide-spec-table #__table_8 tbody th,
+  .buying-guide-special .product-table .buying-guide-spec-table #__table_8 td { 
     font-size: 12px;
   }
   .buying-guide-special .product-table .buying-guide-spec-table #__table_1 td { font-size: 14px; } 

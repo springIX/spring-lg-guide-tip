@@ -2934,6 +2934,10 @@
 .buying-guide-special .tab-content .text-wrap h4 {
   padding-right: 20px;
 }
+.buying-guide .tab-content .img-wrap .bubble-wrap:hover .bubble, 
+.buying-guide .tab-content .img-wrap .bubble-wrap:focus-within .bubble {
+  display: block !important;
+}
 .buying-guide-special .note + .note {
   margin-top: 2px;
 }
@@ -3762,8 +3766,18 @@
   top: 100% !important;
   margin-top: calc(var(--pgn-offset) + 50px);
 }
-.buying-guide .point-box .colWrap .slick-arrow {
+.buying-guide-special .point-box .colWrap .slick-arrow {
   top: 50%;
+}
+.buying-guide-special .vertical_cell {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-direction: column;
+  height: 100%;
+}
+.buying-guide-special .vertical_cell b {
+  margin: auto;
 }
 
 /*  
@@ -4156,6 +4170,7 @@
 .point_product_tip_content .autoplay-slider-wrap .slider-controls .btn-nav.btn-next {
   transform: rotate(180deg);
 }
+
 @media only screen and (max-width: 1023px) {
   .point_product_tip_img picture,
   .point_product_tip_content .autoplay-slider-wrap {
@@ -4166,7 +4181,7 @@
   .point_product_tip_content .slick-list,
   .point_product_tip_content .slick-track,
   .point_product_tip_content .slick-slide {
-      height: auto;
+    height: auto;
   }
   .point_product_tip_content .autoplay-slider-wrap .slider-controls {
     right: 20px;
