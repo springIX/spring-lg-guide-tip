@@ -113,12 +113,6 @@
 	font-size: 18px;
 }
 
-#gjw007 p.notice-label {
-	padding-left: 0;
-	text-indent: 0;
-	font-weight: 500;
-}
-
 /* 컬러 유틸리티 */
 #gjw007 .lg-red {
 	color: #ea1917 !important;
@@ -389,14 +383,40 @@
 	font-size: 22px;
 }
 
-/* 유의사항 */
-#gjw007 .notice-list {
-	text-align: left;
+#gjw007 .note-list {
 	margin-top: 20px;
 }
 
-#gjw007 .notice-list li {
-	margin-bottom: 2px;
+#gjw007 .note-list li {
+	position: relative;
+	padding-left: 14px;
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+#gjw007 .note-list li::before {
+	content: "*";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#gjw007 .note-list p,
+#gjw007 p.note-heading {
+	color: #444;
+	line-height: 1.6;
+}
+
+#gjw007 .note-groups {
+	margin-top: 20px;
+}
+
+#gjw007 .note-groups .note-list {
+	margin-top: 2px;
+}
+
+#gjw007 p.note-heading {
+	margin-top: 8px;
 }
 
 /* 하단 제품 리스트 */
@@ -731,14 +751,21 @@
 		line-height: 1.4;
 	}
 
-	#gjw007 .notice-list {
+	#gjw007 .note-list {
 		margin-top: 13px;
-		padding-top: 0;
-		border-top: 0;
 	}
 
-	#gjw007 .notice-list li {
-		margin-bottom: 2px;
+	#gjw007 .note-list li {
+		padding-left: 11px;
+		font-size: 11px;
+	}
+
+	#gjw007 .note-list li + li {
+		margin-top: 2px;
+	}
+
+	#gjw007 p.note-heading {
+		margin-top: 8px;
 	}
 
 	#gjw007 .usage-point .cp-title {

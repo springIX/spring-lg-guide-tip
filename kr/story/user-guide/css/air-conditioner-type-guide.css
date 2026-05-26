@@ -300,7 +300,7 @@
   overflow: hidden;  
 }
 #gjw003 .sec-step .img-manual { 
-  margin: 20px -22px -28px; 
+  margin: 20px 0 0px 0; 
 }
 /* ---------------------------------------------------
    체크포인트 & 테이블
@@ -377,6 +377,10 @@
   align-items: flex-start;
   flex-direction: column;
 }
+#gjw003 .tip-box.border-bottom-none{
+  border-bottom: none;
+  padding-bottom: 0;
+}
 #gjw003 .tip-box .tip-tit {
   min-width: 130px;
   text-align: center;
@@ -414,7 +418,7 @@
   margin-bottom: 15px;
 }
 #gjw003 .tip-line {
-  height: 1px;
+  height: 0.5px;
   flex: 1;
   margin: auto;
   background: #a7a7a7;
@@ -602,11 +606,17 @@
     line-height: 1.6;
     font-weight: 400;
   }
+  #gjw003 .tip-bul h4 {
+    font-size: 14px;
+}
   #gjw003 h5 {
     font-size: 14px;
     line-height: 1.6;
     font-weight: 700;
   }
+   #gjw003 h5.mini-title{
+    font-size: 16px;
+   }
   #gjw003 h6 {
     font-size: 14px;
     line-height: 1.6;
@@ -739,13 +749,22 @@
   #gjw003 .data-table td:last-child {
     padding-left: 12px;
   }
+  #gjw003 .data-table2 th:first-child,
+#gjw003 .data-table2 td:first-child {
+  width: 36.22%;
+}
+
+#gjw003 .data-table2 th:nth-child(2),
+#gjw003 .data-table2 td:nth-child(2) {
+  width: 33.51%;
+}
   /* 불릿 리스트 모바일 */
   #gjw003 .bullet-list {
     padding-left: 6px;
   }
   #gjw003 .bullet-list li {
     padding-left: 0;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
   }
   #gjw003 .bullet-list li::before {
     content: "·";
@@ -810,7 +829,10 @@
     border-bottom: none;
     padding-bottom: 0;
   }
-
+#gjw003 .num-list-red li:last-child.border-bottom-gray{
+  padding-bottom: 14px;
+      border-bottom: 1px solid #a7a7a7;
+}
   /* 배너 모바일 */
   #gjw003 .banner-box {
     flex-direction: column;
@@ -920,7 +942,7 @@
     display: none;
   }
   #gjw003 .sec-step .img-wrap.img-manual {
-    margin: 4px 0 -18px;
+    margin: 4px 0 13.5px;
   }
 
 
