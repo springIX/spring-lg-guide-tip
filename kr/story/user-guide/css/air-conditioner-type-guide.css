@@ -93,6 +93,10 @@
   letter-spacing: -0.005em;
   color: #000000;
 }
+#gjw003 h6 span.semibold{
+  font-size:20px;
+  font-weight: 600;
+}
 #gjw003 p.disclaimer {
   font-size: 14px;
   font-weight: 400;
@@ -622,6 +626,10 @@
     line-height: 1.6;
     font-weight: 400;
   }
+  #gjw003 h6 span.semibold{
+  font-size:14px;
+  font-weight: 400;
+}
   #gjw003 p.disclaimer {
     font-size: 11px;
     line-height: 1.6;

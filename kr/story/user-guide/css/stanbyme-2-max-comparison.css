@@ -749,6 +749,7 @@
 
 	#gjw007 .num-list-red .bullet-list h6 {
 		line-height: 1.4;
+		        letter-spacing: -0.005em;
 	}
 
 	#gjw007 .note-list {
@@ -758,6 +759,7 @@
 	#gjw007 .note-list li {
 		padding-left: 11px;
 		font-size: 11px;
+		letter-spacing: -0.005em;
 	}
 
 	#gjw007 .note-list li + li {
@@ -766,6 +768,7 @@
 
 	#gjw007 p.note-heading {
 		margin-top: 8px;
+		font-size: 11px;
 	}
 
 	#gjw007 .usage-point .cp-title {

@@ -693,7 +693,7 @@
   }
 
   #gjw004 .note-list {
-    margin-top: 10px;
+    margin-top: 13px;
   }
 
   #gjw004 .note-list li {
@@ -755,7 +755,11 @@
   line-height: 1.6;
 }
 #gjw004 .note-groups{
-  margin-top: 10px;
+  margin-top: 13px;
+}
+
+#gjw004 p.note-heading {
+  font-size: 11px;
 }
 
 
