@@ -3,6 +3,7 @@
 	background: #fff;
 	color: #000;
 	word-break: keep-all;
+	
 }
 
 #gjw008 * {
@@ -498,6 +499,9 @@
 }
 
 @media screen and (max-width: 768px) {
+	#gjw008{
+		padding-top: 40px;
+	}
 	#gjw008,
 	#gjw008 * {
 		overflow-wrap: break-word;
