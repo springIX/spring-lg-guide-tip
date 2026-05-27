@@ -1,4 +1,4 @@
-;(function () {
+(function () {
 	var POINT_BOX_SELECTOR = ".buying-guide-special .point-box";
 	var CONTENT_SELECTOR =
 		".colWrap .col > article .content-wrap, .colWrap .col > div .content-wrap";

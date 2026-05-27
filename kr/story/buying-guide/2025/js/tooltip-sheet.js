@@ -1,10 +1,55 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const bottomSheetBtn = document.querySelectorAll('[aria-controls="mobile-dialog-buttomsheet"]');
+    const bottomSheetBtn = document.querySelectorAll('[aria-controls="mobile-dialog-bottomSheet"]');
+
+    const getMeaningfulTitleNode = (wrapper) => {
+        const candidates = wrapper.querySelectorAll("*");
+
+        for (const candidate of candidates) {
+            if (
+                candidate.closest(".tooltip-message") ||
+                candidate.closest(".mobile-dialog-bottomSheet") ||
+                candidate.matches(".tooltip-btn, .tooltip-message, .mobile-dialog-bottomSheet")
+            ) {
+                continue;
+            }
+
+            return candidate;
+        }
+
+        return null;
+    };
+
+    const syncBottomSheetContent = (wrapper) => {
+        const dialog = wrapper.querySelector(".mobile-dialog-bottomSheet");
+        if (!dialog) return;
+
+        const titleNode = getMeaningfulTitleNode(wrapper);
+        const messageNode = wrapper.querySelector(".tooltip-message");
+
+        if (!titleNode && !messageNode) return;
+
+        dialog.innerHTML = "";
+
+        if (titleNode) {
+            const title = document.createElement("b");
+            title.dataset.bottomsheetTitle = "";
+            title.innerHTML = titleNode.innerHTML.trim();
+            dialog.appendChild(title);
+        }
+
+        if (messageNode) {
+            const description = document.createElement("p");
+            description.dataset.bottomsheetDescription = "";
+            description.innerHTML = messageNode.innerHTML.trim();
+            dialog.appendChild(description);
+        }
+    };
+
     const mobileDialog = () => {
-        const triggers = document.querySelectorAll('[aria-controls="mobile-dialog-buttomsheet"]');
+        const triggers = document.querySelectorAll('[aria-controls="mobile-dialog-bottomSheet"]');
         if (!triggers.length) return;
 
-        const MOBILE_MEDIA = "(max-width: 1024px)";
+        const MOBILE_MEDIA = "(max-width: 768px)";
         const OPEN_CLASS = "is-open";
         const BODY_OPEN_CLASS = "is-bottomsheet-open";
         const TRANSITION_FALLBACK_MS = 300;
@@ -116,13 +161,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
         closeDialog();
 
+        syncBottomSheetContent(wrapper);
+
         dialogIndex += 1;
 
         const clone = sourceDialog.cloneNode(true);
         clone.hidden = false;
 
-        const dialogId = `mobile-dialog-buttomsheet-${dialogIndex}`;
-        const title = clone.querySelector("h1, h2, h3, h4, h5, h6");
+        const dialogId = `mobile-dialog-bottomSheet-${dialogIndex}`;
+        const title = clone.querySelector("[data-bottomsheet-title]");
         const titleId = title ? `${dialogId}-title` : null;
 
         const backdrop = document.createElement("div");
@@ -265,4 +312,75 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     };
     mobileDialog();
+   
+    // 툴팁 change for aria-controls nameing
+    const triggers = document.querySelectorAll('[aria-controls="mobile-dialog-bottomSheet"]');
+
+    triggers.forEach((trigger, index) => {
+        const wrapper = trigger.closest(".tooltip-desc");
+        if (!wrapper) return;
+
+        const dialog = wrapper.querySelector(".mobile-dialog-bottomSheet");
+        if (!dialog) return;
+
+        syncBottomSheetContent(wrapper);
+
+        const id = `mobile-dialog-bottomSheet-${index + 1}`;
+
+        dialog.id = id;
+        trigger.dataset.originalAriaControls = "mobile-dialog-bottomSheet";
+        trigger.dataset.mobileTrigger = "mobile-dialog-bottomSheet";
+        trigger.setAttribute("aria-controls", id);
+    });
+
+    // 툴팁 요소 표시 위치 계산
+    const tooltipBtns = document.querySelectorAll(".tooltip-btn");
+    const POSITION_CLASSES = ["left", "center", "right"];
+    const TAB_BUTTON_SELECTOR = "button[name=buying-guide-tab]";
+
+    const setTooltipPosition = (btn) => {
+        const wrapper = btn.closest(".tooltip-desc");
+        if (!wrapper) return;
+
+        const message = wrapper.querySelector(".tooltip-message");
+        if (!message) return;
+
+        // 숨김 상태에서는 레이아웃 값이 0에 가깝게 잡히므로 제외한다.
+        if (btn.getClientRects().length === 0) return;
+
+        const btnRect = btn.getBoundingClientRect();
+        const btnCenter = btnRect.left + btnRect.width / 2;
+        const viewportWidth = window.innerWidth;
+
+        message.classList.remove(...POSITION_CLASSES);
+
+        if (btnCenter < viewportWidth / 3) {
+            message.classList.add("left");
+        } else if (btnCenter > viewportWidth * 2 / 3) {
+            message.classList.add("right");
+        } else {
+            message.classList.add("center");
+        }
+    };
+
+    const updateTooltipPositions = () => {
+        tooltipBtns.forEach(setTooltipPosition);
+    };
+
+    const scheduleTooltipPositionsUpdate = () => {
+        requestAnimationFrame(() => {
+            requestAnimationFrame(updateTooltipPositions);
+        });
+    };
+
+    scheduleTooltipPositionsUpdate();
+
+    window.addEventListener("resize", () => {
+        scheduleTooltipPositionsUpdate();
+    });
+
+    document.addEventListener("click", (event) => {
+        if (!event.target.closest(TAB_BUTTON_SELECTOR)) return;
+        scheduleTooltipPositionsUpdate();
+    });
 });
