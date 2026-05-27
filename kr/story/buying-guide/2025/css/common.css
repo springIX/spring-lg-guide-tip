@@ -3399,40 +3399,41 @@
 
 /* device */
 @media(max-width: 1280px){
+  .buying-guide-special .product-table .buying-guide-spec-table + .note {
+      margin-top: 24px;
+  }
   .buying-guide-special .product-table .buying-guide-spec-table {
     overflow: hidden;
+    width: 100%;
+    margin: 0;
+  }
+  .buying-guide-special .product-table .buying-guide-spec-table table {
+    margin: 0 !important;
   }
   .buying-guide-special .product-table .buying-guide-spec-table:not(.buying-guide-spec-table-single) {
-    margin: 0 -20px;
-    padding: 0 20px;
     overflow: auto;
+    padding-bottom: 24px;
   }
-  .buying-guide-special .product-table .buying-guide-spec-table:not(.buying-guide-spec-table-single) .clone-header-table-wrap { width: auto !important; } 
+  .buying-guide-special .product-table .buying-guide-spec-table:not(.buying-guide-spec-table-single) .clone-header-table-wrap { 
+    width: auto !important;
+    margin: 0 !important;
+  } 
+  .buying-guide-special .product-table .buying-guide-spec-table-single {
+    /* padding-bottom: 0px; */
+  }
   .buying-guide-special .product-table .buying-guide-spec-table::-webkit-scrollbar {
       overflow: auto;
-      width: 47px;
-      height: 47px;
+      width: 7px;
+      height: 7px;
   }
   .buying-guide-special .product-table .buying-guide-spec-table::-webkit-scrollbar-track {
       background-color: #eee;
-      border-radius: 999px;
-      border: 20px solid #fff;
+      border-radius: 5px;
       background-clip: content-box;
   }
   .buying-guide-special .product-table .buying-guide-spec-table::-webkit-scrollbar-thumb {
       background-color: #9D9D9D;
-      border-radius: 999px;
-
-      border: 20px solid transparent;
-      background-clip: content-box;
-  }
-
-  .buying-guide-special .product-table .buying-guide-spec-table:not(.buying-guide-spec-table-single) .clone-header-table-wrap {
-    width: auto !important;
-    margin: 0 20px !important;
-  }
-  .buying-guide-special .product-table .buying-guide-spec-table table {
-    margin: 0 !important;
+      border-radius: 5px;
   }
 }
 
@@ -3451,15 +3452,12 @@
   .buying-guide-special .product-table .table-wrap table tbody td:first-child {
     width: 100px;
   }
-
   .buying-guide-special .product-table .buying-guide-spec-table {
     overflow: auto;
   }
   .buying-guide-special .product-table .buying-guide-spec-table-single {
     max-width: inherit;
     width: auto;
-    margin:0 -20px;
-    padding: 0 20px;
     overflow: hidden;
   }
   .buying-guide-special .product-table .buying-guide-spec-table-single table {
@@ -4060,16 +4058,20 @@
 }
 
 .point_product_tip_img {
+    position: relative;
     flex-shrink: 0;
     overflow: hidden;
     width: 300px;
 }
-.point_product_tip_img picture {
+.point_product_tip_img picture,
+.point_product_tip_img video {
     display: block;
     width: 100%;
     height: 100%;
     aspect-ratio: 1.13/1;
     overflow: hidden;
+    object-fit: cover;
+    object-position: center;
 }
 .point_product_tip_img picture img {
     width: 100%;
