@@ -384,14 +384,19 @@ img {
   font-size: 20px;
   font-weight: 600;
   line-height: 1.5;
+  text-align: center;
 }
 .contents__tip ul {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 32px;
-  width: calc(100% - 200px);
+  /* gap: 32px;
+  width: calc(100% - 200px); */
   margin-top: 8px;
+      flex-direction: column;
+    text-align: center;
+    width: 100%;
+    gap: 10px;
 }
 .contents__tip ul li {
   color: #666;
@@ -417,6 +422,13 @@ img {
   font-weight: 500;
   line-height: 1.4;
   text-decoration: underline;
+  /*  */
+      position: relative;
+    right: unset;
+    bottom: unset;
+    text-align: center;
+    margin: 40px auto 0px auto;
+    display: block;
 }
 .contents__tip a::after {
   content: "";

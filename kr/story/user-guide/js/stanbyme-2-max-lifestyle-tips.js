@@ -1,7 +1,7 @@
 document.querySelectorAll("#gjw004 .notice-toggle").forEach(function (button) {
   var noticeList = button.nextElementSibling;
 
-  if (!noticeList || !noticeList.classList.contains("notice-list")) {
+  if (!noticeList || !noticeList.classList.contains("note-list")) {
     return;
   }
 
