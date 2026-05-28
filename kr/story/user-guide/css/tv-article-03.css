@@ -357,6 +357,12 @@ img {
   font-weight: 700;
   line-height: 1.35;
 }
+
+.contents__table-wrap table.contents__table thead th strong {
+    display: inline-block;
+    font-size: inherit;
+    margin-top: 0;
+}
 .contents__detail p {
   /* margin-top: 16px; */
   font-size: 20px;
