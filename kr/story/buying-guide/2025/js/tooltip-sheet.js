@@ -348,15 +348,20 @@ document.addEventListener("DOMContentLoaded", () => {
         // 숨김 상태에서는 레이아웃 값이 0에 가깝게 잡히므로 제외한다.
         if (btn.getClientRects().length === 0) return;
 
+        const tableWrap = btn.closest(".table-wrap");
         const btnRect = btn.getBoundingClientRect();
-        const btnCenter = btnRect.left + btnRect.width / 2;
-        const viewportWidth = window.innerWidth;
+
+        // table-wrap이 없으면 기존처럼 viewport 기준으로 fallback
+        const baseLeft = tableWrap ? tableWrap.getBoundingClientRect().left : 0;
+        const baseWidth = tableWrap ? tableWrap.getBoundingClientRect().width : window.innerWidth;
+
+        const btnCenter = btnRect.left + btnRect.width / 2 - baseLeft;
 
         message.classList.remove(...POSITION_CLASSES);
 
-        if (btnCenter < viewportWidth / 3) {
+        if (btnCenter < baseWidth / 3) {
             message.classList.add("left");
-        } else if (btnCenter > viewportWidth * 2 / 3) {
+        } else if (btnCenter > baseWidth * 2 / 3) {
             message.classList.add("right");
         } else {
             message.classList.add("center");

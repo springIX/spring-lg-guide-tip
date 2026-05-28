@@ -5,7 +5,7 @@
       break; } } } %>
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport"content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
         <meta name="keywords" content="스탠바이미 구매 가이드, 스탠바이미 2, 스탠바이미 2 Max, 스탠바이미 Go, 포터블모니터, 스탠드티비, 스바미">
         <meta name="description" content="LG 스탠바이미를 구매할 때 알아두면 좋은 핵심 포인트를 모았어요. 화면 크기와 해상도, 사용 형태를 고려해 이용 목적과 시청 환경에 적합한 모델을 선택해보세요.">
         <meta content="NOODP, NOYDIR" name="robots">
@@ -18,8 +18,8 @@
         <meta property="og:type" content="website">
         <meta property="og:title" content="다양한 공간에서 즐기는 스탠바이미 구매 가이드">
         <meta property="og:description" content="LG 스탠바이미를 구매할 때 알아두면 좋은 핵심 포인트를 모았어요. 화면 크기와 해상도, 사용 형태를 고려해 이용 목적과 시청 환경에 적합한 모델을 선택해보세요.">
-        <meta property="og:url" content="https://www.lge.co.kr/story/buying-guide/stand-by-me">
-        <meta property="og:image" content="/kr/story/buying-guide/2025/img/refrigerator/og_P11.jpg">
+        <meta property="og:url" content="https://www.lge.co.kr/story/buying-guide/lg-stan-by-me">
+        <meta property="og:image" content="https://www.lge.co.kr/kr/story/buying-guide/2025/img/stand-by-me/og_P16.jpg">
         <meta name="twitter:card" content="summary">
         <meta name="twitter:site" content="">
         <meta name="google-site-verification" content="kOHWY1Aua-UxMNrWwT8TnUIdw8mSZAog6615Iwc1e4w">
@@ -33,11 +33,8 @@
         <link rel="stylesheet" href="/kr/story/css/swiper.min.css" />
         <link rel="stylesheet" href="/kr/story/css/animate.min.css" />
 
-        <meta name="viewport"
-        content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
         <c:import url="/WEB-INF/jsp/common/includes/googleHeaderScript.jsp" charEncoding="utf-8" />
         <c:import url="/WEB-INF/jsp/common/includes/jsDefault.jsp" charEncoding="utf-8" />
-
 
         <link rel="stylesheet" href="/kr/story/useful-tip/css/swiper-bundle.min.css">
         <link rel="stylesheet" href="/kr/story/useful-tip/css/lg-dishwashers-guide/common.css">
@@ -61,12 +58,11 @@
 
         <!-- 이모션 추가 -->
         <link rel="stylesheet" href="/kr/story/buying-guide/2025/css/common.css" type="text/css" />
-        <link rel="stylesheet" href="/kr/story/buying-guide/2025/css/refrigerator.css" type="text/css" />
-        <script src="/kr/story/buying-guide/2025/js/common.js"></script>
-        <script src="/kr/story/buying-guide/2025/js/refrigerator.js"></script>
+        <script src="/kr/story/buying-guide/2025/js/common.js"></script>        
+        <!-- // 이모션 추가 -->
+         
         <script type="text/javascript" src="/kr/story/buying-guide/2025/js/buying-guide-geo.js"></script>
         <script type="text/javascript" src="/kr/story/buying-guide/2025/js/tooltip-sheet.js"></script>
-        <!-- // 이모션 추가 -->
     </head>
 
     <body>
@@ -745,7 +741,7 @@
                                     </tr>
                                     <tr>
                                         <th class="th2">
-                                            화면크기
+                                            운영체제
                                         </th>
                                         <td>
                                             <div class="tooltip-desc">
@@ -1058,6 +1054,8 @@
                                             <b class="semibold">
                                                 지원
                                             </b>
+                                            <br>
+                                            <small>*제품별 지원 여부 상이</small>
                                         </td>
                                     </tr>
                                     <tr>
@@ -1921,7 +1919,7 @@
                                                                 [스탠바이미 2]
                                                             </b>
                                                             <br>* 최대 4시간 무선 재생 : 에코화면모드, 볼륨 30, HDMI 입력, 절전 모드 켜짐으로 IEC62087 표준동영상 재생 기준
-                                                            <br>* USB C타입 케이블로 스크린 충전 시, 100W 이상의 어댑터 및 보조배터리 사용이 필요하며, 빠른 충전을 위해서는 140W 어댑터 사용을 권장합니다.
+                                                            <br>* USB C타입 케이블로 스크린 충전 시, 65W 이상의 어댑터 및 보조배터리 사용이 필요하며, 빠른 충전을 위해서는 86W 어댑터 사용을 권장합니다.
                                                             <br>* 제품사용조건에 따라 배터리 사용시간은 달라질 수 있습니다.
                                                         </p>
                                                         <p>
@@ -2097,10 +2095,10 @@
                                                 </div>
                                                 <div class="point_product_text">
                                                     <h4>
-                                                        화면 미러링
+                                                        모바일 콘텐츠 공유
                                                     </h4>
                                                     <p>
-                                                        Android와 iOS 스마트폰 화면 미러링을 지원해, 작은 화면으로 보던 콘텐츠를 더 큰 화면에서 편리하게 즐길 수 있습니다. 
+                                                        작은 화면으로 보던 콘텐츠를 더 큰 화면에서 편리하게 즐길 수 있습니다. <br class="pc-only">
                                                         모바일에서 보던 영상이나 사진을 그대로 이어보며, 보다 넓은 화면에서 시청 경험을 확장해보세요.
                                                     </p>
                                                     <p class="des">
@@ -2109,22 +2107,20 @@
                                                     <button class="btn-collapse-toggle">
                                                         <span>
                                                             <b class="bold">
-                                                                * 화면 미러링
+                                                                * 모바일 콘텐츠 공유
                                                             </b>
                                                         </span>
                                                     </button>
                                                     <div class="collapse-content">
                                                         <p>
                                                             <b class="bold">
-                                                                [화면 미러링]
+                                                                [모바일 콘텐츠 공유]
                                                             </b>
+                                                            <br>* 모바일 콘텐츠 공유는 Google Cast, AirPlay 기능을 이용해 사용 가능합니다. (기능명은 기기별로 상이할 수 있음)
                                                             <br>* 스마트폰과 스탠바이미가 같은 네트워크 (Wi-Fi)에 연결되어 있어야 합니다.
-                                                            <br>* 모바일 화면 공유의 경우, 모바일 내 화면공유/ Miracast 등의 기능을 이용하여 사용 가능합니다. (기능명은 기기별로 상이할 수 있음)
-                                                            <br>* 모바일 화면 공유(미러링)는 Android, iOS(AirPlay)에서 사용 가능합니다.
-                                                            <br>(Apple사 AirPlay 기능은 TV와 동일한 Wi-Fi(무선공유기)에 연결되어 있어야 사용이 가능하며, 단순화면 공유만 가능합니다. (터치 미지원))
-                                                            <br>* 모바일 기기의 사양 및 제조사에 따라 화면공유 (미러링) 방식에 차이가 있을 수 있으며, 화질 차이가 있을 수 있습니다.
-                                                            <br>* 세로 모드에서의 미러링 화질은 스마트폰에 따라 차이가 있을 수 있습니다.
-                                                            <br>* 사용자 네트워크 환경에 따라 연결상태가 상이할 수 있습니다.
+                                                            <br>* Apple사 AirPlay 기능은 스탠바이미와 동일한 Wi-Fi(무선공유기)에 연결되어 있어야 사용이 가능하며, 단순화면 공유만 가능합니다. (터치 미지원)
+                                                            <br>* 모바일 기기의 사양 및 제조사에 따라 콘텐츠 공유 방식에 차이가 있을 수 있으며, 화질 차이가 있을 수 있습니다.
+                                                            <br>* 사용자 네트워크 환경에 따라 연결상태가 상이할 수 있습니다
                                                         </p>
                                                     </div>
                                                 </div>

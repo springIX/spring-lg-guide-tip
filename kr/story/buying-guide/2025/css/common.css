@@ -2964,22 +2964,7 @@
 /* .buying-guide-special .note > li:before { content: "*"; flex-shrink: 0; } */
 /* assets // */
 
-@media (max-width: 768px) {
-  .buying-guide-special .tab-wrap button.tab-img {
-    padding: 10px 30px 10px 15px;
-  }
-  .buying-guide-special .tab-wrap button.tab-img b {
-    font-size: inherit;
-  }
-  .buying-guide-special .tab-content .text-wrap {
-    gap: 10px;
-  }
-  .buying-guide-special .tab-content .text-wrap h4 {
-    padding-right: 0;
-  }
-  .buying-guide-special .tab-content .text-wrap p {
-
-  }
+@media(max-width: 1023px){
   .buying-guide-special .product-select-tip-list {
     margin-top: 30px;
   }
@@ -2997,6 +2982,24 @@
   .buying-guide-special .product-select-tip-list .colWrap .col > div + div,
   .buying-guide-special .product-select-tip-list .colWrap .col > article + article {
      margin-top: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .buying-guide-special .tab-wrap button.tab-img {
+    padding: 10px 30px 10px 15px;
+  }
+  .buying-guide-special .tab-wrap button.tab-img b {
+    font-size: inherit;
+  }
+  .buying-guide-special .tab-content .text-wrap {
+    gap: 10px;
+  }
+  .buying-guide-special .tab-content .text-wrap h4 {
+    padding-right: 0;
+  }
+  .buying-guide-special .tab-content .text-wrap p {
+
   }
 
   .buying-guide-special .point-tip .tip-content picture {
@@ -3037,6 +3040,8 @@
 .buying-guide-special .buying-guide-hero-img {
   height: 720px;
   overflow: hidden;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 .buying-guide-special .buying-guide-hero-img img {
   width: 100%;
@@ -3420,6 +3425,7 @@
   } 
   .buying-guide-special .product-table .buying-guide-spec-table-single {
     /* padding-bottom: 0px; */
+    margin: 0 auto;
   }
   .buying-guide-special .product-table .buying-guide-spec-table::-webkit-scrollbar {
       overflow: auto;
@@ -3465,9 +3471,7 @@
     margin: 0;
   }
   .buying-guide-special .product-table .buying-guide-spec-table-single .clone-header-table-wrap {
-    width: calc(100% - 40px);
     min-width: inherit;
-    left: 20px;
   }
   .buying-guide-special .product-table .buying-guide-spec-table .btn-product {
     font-size: 14px;
@@ -3731,18 +3735,20 @@
 .tooltip-desc .tooltip-message.right { left: auto; right: -12px; }
 .tooltip-desc button:focus-visible { outline: 2px solid #000 !important; outline-offset: 2px; border-radius: 2px; }
 
+@media(max-width: 1023px){
+  .no-mobile-slick .product-select-tip-icon { margin-bottom: 0; }
+  .no-mobile-slick .col { padding: 0 !important; }
+  .no-mobile-slick .col + .col { border-top: 1px solid #999; margin-top: 32px; padding: 32px 0 0 !important; }
+  .no-mobile-slick .col > div,
+  .no-mobile-slick .col > article { border: none !important; }
+}
+
 @media(max-width: 768px){
   .tooltip-desc button:hover:after,
   .tooltip-desc button:focus:after,
   .tooltip-desc button:hover ~ .tooltip-message,
   .tooltip-desc button:focus ~ .tooltip-message { visibility: hidden; opacity: 0; }
   .tooltip-desc button:before { font-size: 22px; }
-
-  .no-mobile-slick .product-select-tip-icon { margin-bottom: 0; }
-  .no-mobile-slick .col { padding: 0 !important; }
-  .no-mobile-slick .col + .col { border-top: 1px solid #999; margin-top: 32px; padding: 32px 0 0 !important; }
-  .no-mobile-slick .col > div,
-  .no-mobile-slick .col > article { border: none !important; }
 }
 
 
@@ -3989,7 +3995,7 @@
     .sub_tab_list button { font-size: 14px; }
     .point_product { display: flex; justify-content: flex-start; align-items: stretch; flex-direction: column; padding: 20px; border-radius: 0 0 8px 8px; }
     .point_product + .point_product .point_product_content:before { margin-top: 0px; left: 20px; right: 20px; width: auto; }
-    .point_product_content { align-items: stretch; flex-direction: column; gap: 0; }
+    .point_product_content { position: static; align-items: stretch; flex-direction: column; gap: 0; }
     .point_product_content + .point_product_content { margin-top: 20px; padding-top: 20px; }
     .point_product_text { display: contents; }
     .point_product_img { order: 3; width: 100%; margin-top: 20px; aspect-ratio: 3/2; border-radius: 8px; }

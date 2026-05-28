@@ -1,3 +1,7 @@
+/* 
+	point-box item css로 매번 크기를 제어하던 부분들 겉어냄
+	요소중 가장큰 높이값을 기준
+*/
 (function () {
 	var POINT_BOX_SELECTOR = ".buying-guide-special .point-box";
 	var CONTENT_SELECTOR =

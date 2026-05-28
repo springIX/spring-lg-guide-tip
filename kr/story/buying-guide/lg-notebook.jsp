@@ -3,12 +3,10 @@
     <% Cookie[] cookies=request.getCookies(); if (cookies !=null) { for (Cookie cookie : cookies) { if
       ("LGEKR_FEATURE_ACCESS".equals(cookie.getName())) { request.setAttribute("featureAccess", cookie.getValue());
       break; } } } %>
-
-      <head>
+    <head>
         <meta charset="UTF-8">
-        <meta name="viewport"
-          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-        <meta name="keywords" content="LG전자, 노트북, 그램, 구매가이드">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+        <meta name="keywords" content="LG전자, 노트북, 그램, 구매 가이드">
         <meta name="description" content="더 빠르고 가볍게, 일상을 스마트하게">
         <meta content="NOODP, NOYDIR" name="robots">
         <link rel="canonical" href="canonical">
@@ -35,11 +33,8 @@
         <link rel="stylesheet" href="/kr/story/css/swiper.min.css" />
         <link rel="stylesheet" href="/kr/story/css/animate.min.css" />
 
-        <meta name="viewport"
-          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
         <c:import url="/WEB-INF/jsp/common/includes/googleHeaderScript.jsp" charEncoding="utf-8" />
         <c:import url="/WEB-INF/jsp/common/includes/jsDefault.jsp" charEncoding="utf-8" />
-
 
         <link rel="stylesheet" href="/kr/story/useful-tip/css/swiper-bundle.min.css">
         <link rel="stylesheet" href="/kr/story/useful-tip/css/lg-dishwashers-guide/common.css">
@@ -66,19 +61,11 @@
         <link rel="stylesheet" href="/kr/story/buying-guide/2025/css/notebook.css" type="text/css" />
         <script src="/kr/story/buying-guide/2025/js/common.js"></script>
         <!-- <script src="/kr/story/buying-guide/2025/js/notebook.js"></script> -->
-        <script src="/kr/story/buying-guide/2025/js/tooltip-sheet.js"></script>
         <!-- // 이모션 추가 -->
-        <style>
-          .clone-header-table-wrap {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            z-index: 10;
-          }
-        </style>
-      </head>
 
+        <script type="text/javascript" src="/kr/story/buying-guide/2025/js/buying-guide-geo.js"></script>
+        <script type="text/javascript" src="/kr/story/buying-guide/2025/js/tooltip-sheet.js"></script>
+      </head>
       <body>
         <c:import url="/WEB-INF/jsp/common/includes/googleBodyScript.jsp" charEncoding="utf-8" />
         <div class="wrap subRenewWrap subRenewWrap--share subRenewWrap--story">
@@ -102,7 +89,7 @@
             <meta itemprop="description" content="더 빠르고 가볍게, 일상을 스마트하게" />
             <meta itemprop="url" content="https://www.lge.co.kr/story/buying-guide/lg-notebook" />
             <meta itemprop="image" content="/kr/story/buying-guide/2025/img/notebook/og_P15.jpg" />
-            <meta itemprop="Keywords" content="LG전자, 노트북, 그램, 구매가이드" />
+            <meta itemprop="Keywords" content="LG전자, 노트북, 그램, 구매 가이드" />
           </div>
           <div class="story-page">
             <div class="sns-cont">
@@ -147,7 +134,7 @@
                         제품은 <b>그램 Pro, 그램 Pro 360, 그램, 그램북</b> 등으로 구성되어 있어 가벼운 문서 작업부터 <br class="pc-only">
                         영상 편집, 드로잉, 고사양 멀티태스킹까지 성능과 활용 방식에 따라 다양한 구성이 있으며, <b>일상용부터 전문 작업용까지 사용 환경에 맞춰 적합한 모델을 선택</b>해보세요.
                     </p>
-                    <p class="note">
+                    <p class="note aling-left">
                         * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
                         스펙은 다를 수 있습니다.
                     </p>
@@ -195,6 +182,8 @@
                         data-group = siblings
                     -->
                     <div id="vertical-scroll-tab" class="tab-wrap" style="--btn-width: 360px; --btn-m-width: inherit">
+                        <button class="nav nav-left disabled" aria-label="왼쪽으로 이동"></button>
+                        <button class="nav nav-right" aria-label="오른쪽으로 이동"></button>
                         <div class="vertical-scroll-box" role="tablist" aria-orientation="horizontal">
                             <button class="tab-img active" name="buying-guide-tab" data-target="#product-type-1" data-group="product-type" type="button" id="product-type-tab-1" role="tab" aria-selected="true" tabindex="0" aria-controls="product-type-1">
                                 <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_001_02.png" alt="제품 이미지"/>
@@ -1085,696 +1074,782 @@
                     <div class="tab-content">
                         <div id="buying-point-2" name="buying-point">
                             <h3 class="hide">휴대성</h3>
-                            <div class="subtab-wrap">
-                                <div class="subtab-btn">
-                                    <button class="active" name="buying-guide-tab" data-target="#buying-point-2-1"
-                                        data-group="buying-point-2">
-                                        초경량 노트북
-                                    </button>
+                            <div class="sub_tab_wrap">
+                                <div class="sub_tab_list">
+                                    <ul>
+                                        <li>
+                                            <button class="active" name="buying-guide-tab" data-target=".buying-point-2__1" data-group="buying-point-2">
+                                                초경량 노트북
+                                            </button>
+                                        </li>
+                                    </ul>
                                 </div>
-                                <div class="subtab-content">
-                                    <h4 class="hide">초경량 노트북</h4>
-                                    <div class="point-wrap" id="buying-point-2-1" name="buying-point-2">
-                                        <div class="content">
-                                        <h4>에어로미늄으로 탄생한 초경량 노트북</h4>
-                                        <p>
-                                            LG gram Pro의 새로운 메탈 소재 ‘에어로미늄(Aerominum)’은 알루미늄의 견고함과 마그네슘의 가벼움을 결합해 탄생한 소재로, 섬세한 아틀리에 브러싱
-                                            패턴을 통해 장인의 손길이 느껴지는 자연스럽고 깊이 있는 메탈 질감을 완성했습니다. 여기에 gram만의 독보적인 경량화 설계 기술을 더해, 가벼움은 그대로
-                                            유지하면서도 메탈 특유의 고급스러움과 강도를 모두 갖췄죠. 스크래치에 강한 견고한 메탈을 약 1.19kg의 가벼운 무게로 경험해보세요.
-                                        </p>
-                                        <div class="btn-wrap">
-                                            <a class="btn-product"
-                                            href="https://www.lge.co.kr/category/notebook?filterProduct=AT0000000109:KY0000001982:03,AT0000000169:KY0000000365:01,AT0000000169:KY0000000377:01,AT0000000087:KY0000003767:01,AT0000000087:KY0000003766:01,AT0000000087:KY0000004674:01"
-                                            target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                                <div class="sub_tab_content">
+                                    <div class="subtab-cotent-panel buying-point-2__1" name="buying-point-2">
+                                        <div class="point_product">
+                                            <div class="point_product_content">
+                                                <div class="point_product_img">
+                                                    <button class="btn-pause">일시멈춤</button>
+                                                    <video autoplay playsinline loop muted
+                                                    src="/kr/story/buying-guide/2025/video/notebook/vid_P15_101_02.mp4"></video>
+                                                </div>
+                                                <div class="point_product_text">
+                                                    <h4>
+                                                        에어로미늄으로 탄생한 초경량 노트북
+                                                    </h4>
+                                                    <p>
+                                                        LG gram Pro의 새로운 메탈 소재 ‘에어로미늄(Aerominum)’은 알루미늄의 견고함과 마그네슘의 가벼움을 결합해 탄생한 소재로, 섬세한 아틀리에 브러싱
+                                                        패턴을 통해 장인의 손길이 느껴지는 자연스럽고 깊이 있는 메탈 질감을 완성했습니다. 여기에 gram만의 독보적인 경량화 설계 기술을 더해, 가벼움은 그대로
+                                                        유지하면서도 메탈 특유의 고급스러움과 강도를 모두 갖췄죠. 스크래치에 강한 견고한 메탈을 약 1.19kg의 가벼운 무게로 경험해보세요.
+                                                    </p>
+                                                    <div class="btn-wrap">
+                                                        <a class="btn-product"
+                                                        href="https://www.lge.co.kr/category/notebook?filterProduct=AT0000000109:KY0000001982:03,AT0000000169:KY0000000365:01,AT0000000169:KY0000000377:01,AT0000000087:KY0000003767:01,AT0000000087:KY0000003766:01,AT0000000087:KY0000004674:01"
+                                                        target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                                                    </div>
+                                                    <p class="des">
+                                                        * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                                                    </p>
+                                                    <button class="btn-collapse-toggle">
+                                                        <span>* 에어로미늄</span>
+                                                    </button>
+                                                    <div class="collapse-content">
+                                                        <p>
+                                                        * 에어로미늄은 노트북 A-Part에만 적용되었습니다. 소재의 밀도는 무게에 비례합니다. <br />
+                                                        * 스크래치 시험: 연필 경도 시험은 국제표준화기구(ISO)가 제정한 ISO 15184 규격을 준수하여 당사에서 자체적으로 수행하였습니다.<br />
+                                                        * 비교 대상: 16Z90SP A-Part로 도장이 적용된 부품(’24년 1월 출시)과 16Z90U A-Part(‘26년 1월 출시) ​<br />
+                                                        * 비교 방법: A-Part 표면의 넓은 면적에 연필 경도 시험기로 테스트하였습니다.​
+                                                        </p>
+                                                        <button class="btn-collapse-close">접기</button>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="img">
-                                            <button class="btn-pause">일시멈춤</button>
-                                            <video autoplay playsinline loop muted
-                                            src="/kr/story/buying-guide/2025/video/notebook/vid_P15_101_02.mp4"></video>
-                                        </div>
-                                        <button class="btn-collapse-toggle">
-                                            <span>* 에어로미늄</span>
-                                        </button>
-                                        <div class="collapse-content">
-                                            <p>
-                                            * 에어로미늄은 노트북 A-Part에만 적용되었습니다. 소재의 밀도는 무게에 비례합니다. <br />
-                                            * 스크래치 시험: 연필 경도 시험은 국제표준화기구(ISO)가 제정한 ISO 15184 규격을 준수하여 당사에서 자체적으로 수행하였습니다.<br />
-                                            * 비교 대상: 16Z90SP A-Part로 도장이 적용된 부품(’24년 1월 출시)과 16Z90U A-Part(‘26년 1월 출시) ​<br />
-                                            * 비교 방법: A-Part 표면의 넓은 면적에 연필 경도 시험기로 테스트하였습니다.​
-                                            </p>
-                                            <button class="btn-collapse-close">접기</button>
-                                        </div>
+                                        <div class="point_product_tip">
+                                            <div class="point_product_tip_title">이런 포인트도 살펴보면 좋아요!</div>
+                                            <div class="point_product_tip_content">
+                                                <div class="point_product_tip_text">
+                                                    <p class="tag">
+                                                        #창작과 몰입 #고사양 작업 #나만의 작업 환경
+                                                    </p>
+                                                    <b class="point_product_tip_tit">
+                                                        부담 없이 들고 다니는 가벼운 워크스타일
+                                                    </b>
+                                                    <p class="point_product_tip_desc">
+                                                        매일 노트북을 들고 이동하는 라이프스타일이라면 무게와 내구성 모두 중요해요. 가방에 넣고 꺼내는 일상이 반복돼도 스크래치 걱정은 줄이고, 메탈 특유의 고급스러운 감성은
+                                                        그대로 유지할 수 있어요. 이동이 잦은 하루에도 부담 없이 들고 다니기 좋은 워크스타일을 만들어줍니다.
+                                                    </p>
+                                                </div>
+                                                <div class="point_product_tip_img">
+                                                    <picture>
+                                                        <source media="(max-width: 767px)" srcset="/kr/story/buying-guide/2025/img/notebook/img_M15_101_02.jpg" />
+                                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_03.jpg" alt="한 남성이 카페에서 노트북을 사용하고 있는 모습으로, 노트북 화면에는 그래픽 디자인 작업 화면이 보입니다." />
+                                                    </picture>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="point-tip">
-                                <div class="point-tip-title">이런 포인트도 살펴보면 좋아요!</div>
-                                <div class="tip-content">
-                                <div class="content">
-                                    <p class="tag">
-                                    #창작과 몰입 #고사양 작업 #나만의 작업 환경
-                                    </p>
-                                    <div class="tip-title">
-                                    부담 없이 들고 다니는 가벼운 워크스타일
-                                    </div>
-                                    <p class="tip-text">
-                                    매일 노트북을 들고 이동하는 라이프스타일이라면 무게와 내구성 모두 중요해요. 가방에 넣고 꺼내는 일상이 반복돼도 스크래치 걱정은 줄이고, 메탈 특유의 고급스러운 감성은
-                                    그대로 유지할 수 있어요. 이동이 잦은 하루에도 부담 없이 들고 다니기 좋은 워크스타일을 만들어줍니다.
-                                    </p>
-                                </div>
-                                <div class="img">
-                                    <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_03.jpg"
-                                    alt="한 남성이 카페에서 노트북을 사용하고 있는 모습으로, 노트북 화면에는 그래픽 디자인 작업 화면이 보입니다." class="pc-only" />
-                                    <img src="/kr/story/buying-guide/2025/img/notebook/img_M15_101_02.jpg"
-                                    alt="한 남성이 카페에서 노트북을 사용하고 있는 모습으로, 노트북 화면에는 그래픽 디자인 작업 화면이 보입니다." class="mobile-only" />
-                                </div>
-                                </div>
-                            </div>
+                            <p class="note aling-left">
+                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                            </p>
                         </div>
                         <div id="buying-point-1" name="buying-point" style="display: none">
                             <h3 class="hide">CPU</h3>
-                            <div class="subtab-wrap">
-                                <div class="subtab-btn">
-                                <button class="active" name="buying-guide-tab" data-target="#buying-point-1-1"
-                                    data-group="buying-point-1">
-                                    Intel® Core™ Ultra 시리즈
-                                </button>
-                                <button name="buying-guide-tab" data-target="#buying-point-1-2" data-group="buying-point-1">
-                                    AMD Ryzen™ AI 400
-                                </button>
+                            <div class="sub_tab_wrap">
+                                <div class="sub_tab_list">
+                                    <ul>
+                                        <li>
+                                            <button class="active" name="buying-guide-tab" data-target=".buying-point-1__1" data-group="buying-point-1">
+                                                Intel® Core™ Ultra 시리즈
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button name="buying-guide-tab" data-target=".buying-point-1__2" data-group="buying-point-1">
+                                                AMD Ryzen™ AI 400
+                                            </button>
+                                        </li>
+                                    </ul>
                                 </div>
-                                <div class="subtab-content">
-                                    <div class="point-wrap" id="buying-point-1-1" name="buying-point-1">
-                                        <h4 class="hide">Intel® Core™ Ultra 시리즈3</h4>
-                                        <div class="content">
-                                        <h5>그래픽 성능에 타협하지 않는 인텔 코어 울트라</h5>
-                                        <p>
-                                            인텔 코어 Ultra 시리즈 3은 강화된 인텔 Xe 그래픽으로 그래픽 성능을 대폭 높인 프리미엄 CPU에요. 전작 대비 약 50% 향상된 GPU 성능으로 영상 편집,
-                                            고해상도 스트리밍, 게임 플레이까지 더 부드럽고 선명하게 즐길 수 있어요. 최신 인텔 아키텍처가 CPU와 GPU 연산을 효율적으로 처리해 콘텐츠 제작과 멀티
-                                            태스킹에서도 빠르게 응답하고 속도를 안정적으로 유지할 수 있어요.
-                                        </p>
-                                        <div class="btn-wrap">
-                                            <a class="btn-product"
-                                            href="https://www.lge.co.kr/category/notebook?filterProduct=AT0000000087:KY0000001962:01,AT0000000087:KY0000001963:01,AT0000000087:KY0000004674:01"
-                                            target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
-                                        </div>
-                                        <div class="img">
-                                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_01.jpg" alt="" />
-                                        </div>
-                                        <button class="btn-collapse-toggle">
-                                            <span>* 세부 정보​</span>
-                                        </button>
-                                        <div class="collapse-content">
-                                            <p>
-                                            * CPU 성능은 제조사(인텔/AMD)에서 제공한 공식 자료이며, 자세한 내용은 제조사 홈페이지를 참조 바랍니다. 실 사용환경에서는 차이가 있을 수 있습니다.​
-                                            </p>
-                                            <button class="btn-collapse-close">접기</button>
+                                <div class="sub_tab_content">
+                                    <div class="subtab-cotent-panel buying-point-1__1" name="buying-point-1">
+                                        <div class="point_product">
+                                            <div class="point_product_content">
+                                                <div class="point_product_img">
+                                                    <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_01.jpg" alt="" />
+                                                </div>
+                                                <div class="point_product_text">
+                                                    <h4>그래픽 성능에 타협하지 않는 인텔 코어 울트라</h4>
+                                                    <p>
+                                                        인텔 코어 Ultra 시리즈 3은 강화된 인텔 Xe 그래픽으로 그래픽 성능을 대폭 높인 프리미엄 CPU에요. 전작 대비 약 50% 향상된 GPU 성능으로 영상 편집,
+                                                        고해상도 스트리밍, 게임 플레이까지 더 부드럽고 선명하게 즐길 수 있어요. 최신 인텔 아키텍처가 CPU와 GPU 연산을 효율적으로 처리해 콘텐츠 제작과 멀티
+                                                        태스킹에서도 빠르게 응답하고 속도를 안정적으로 유지할 수 있어요.
+                                                    </p>
+                                                    <div class="btn-wrap">
+                                                        <a class="btn-product" href="https://www.lge.co.kr/category/notebook?filterProduct=AT0000000087:KY0000001962:01,AT0000000087:KY0000001963:01,AT0000000087:KY0000004674:01" target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                                                    </div>
+                                                    <p class="des">
+                                                        * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                                                    </p>
+                                                    <button class="btn-collapse-toggle">
+                                                        <span>* 세부 정보​</span>
+                                                    </button>
+                                                    <div class="collapse-content">
+                                                        <p>
+                                                            * CPU 성능은 제조사(인텔/AMD)에서 제공한 공식 자료이며, 자세한 내용은 제조사 홈페이지를 참조 바랍니다. 실 사용환경에서는 차이가 있을 수 있습니다.​
+                                                        </p>
+                                                        <button class="btn-collapse-close">접기</button>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
+                                    <div class="subtab-cotent-panel buying-point-1__2" name="buying-point-1">
+                                        <div class="point_product">
+                                            <div class="point_product_content">
+                                                <div class="point_product_img">
+                                                    <button class="btn-pause">일시멈춤</button>
+                                                    <video autoplay playsinline loop muted src="/kr/story/buying-guide/2025/video/notebook/vid_P15_101_01.mp4"></video>
+                                                </div>
+                                                <div class="point_product_text">
+                                                    <h4>성능 그 이상의 선택 Ryzen AI</h4>
+                                                    <p>
+                                                        최신 AMD 라이젠 AI 400 시리즈는 작업 패턴을 학습하고 CPU·GPU·NPU 리소스를 자동으로 분배해 전력 효율을 극대화해요. 불필요한 발열은 줄어들고 처리
+                                                        속도와 반응성은 높아지면서 AI 연산과 일반 연산 모두에서 안정적인 성능을 제공하죠.<br /><br />
+                                                        향상된 NPU가 AI 추론을 전담하고 CPU와 GPU가 함께 가속 처리하는 하이브리드 컴퓨팅 구조는 영상회의, 웹 작업, 크리에이티브 소프트웨어, AI 기반
+                                                        애플리케이션처럼 부하가 높은 멀티 워크로드 상황에서도 성능이 꾸준해요. 또한 전작 대비 전력 효율이 좋아져 가볍고 얇은 바디로도 장시간 안정적인 퍼포먼스를 유지할 수
+                                                        있어요.
+                                                    </p>
+                                                    <div class="btn-wrap">
+                                                        <a class="btn-product" target="_blank" href="https://www.lge.co.kr/category/notebook?filterProduct=AT0000000087:KY0000003767:01,AT0000000087:KY0000003766:01" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                                                    </div>
+                                                    <p class="des">
+                                                        * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                                                    </p>
+                                                    <button class="btn-collapse-toggle">
+                                                        <span>* 전력효율 / 측정 기준</span>
+                                                    </button>
+                                                    <div class="collapse-content">
+                                                        <p>
+                                                            * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br />
+                                                            * 사용 환경에 따라 성능은 다를 수 있습니다.<br />
+                                                            * CPU 성능은 제조사(인텔/AMD)에서 제공한 공식 자료이며, 자세한 내용은 제조사 홈페이지를 참조 바랍니다. 실 사용환경에서는 차이가 있을 수 있습니다.
+                                                        </p>
+                                                        <p>
+                                                            <b>[전력 효율]</b><br />
+                                                            * 자사 내부 실험실 테스트 결과, ‘25년 16Z90TP (Ultra 5, 16GB, 512GB NVMe SSD, 77Wh 배터리) 대비 16Z95U(Ryzen AI 7, 77Wh 배터리) 3.5시간 증가<br />
+                                                        </p>
+                                                        <p>
+                                                            <b>[측정 기준]</b><br />
+                                                            * 동영상 재생시간(밝기 150 nit / Wireless Off / 이어폰 재생 (볼륨 : 기본값)) 기준 최대 사용 시간 27.0시간까지 사용
+                                                        </p>
+                                                        <button class="btn-collapse-close">접기</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="point-wrap" id="buying-point-1-2" name="buying-point-1" style="display: none">
-                                        <h4 class="hide">AMD Ryzen™ AI 400</h4>
-                                        <div class="content">
-                                        <h5>성능 그 이상의 선택 Ryzen AI</h5>
-                                        <p>
-                                            최신 AMD 라이젠 AI 400 시리즈는 작업 패턴을 학습하고 CPU·GPU·NPU 리소스를 자동으로 분배해 전력 효율을 극대화해요. 불필요한 발열은 줄어들고 처리
-                                            속도와 반응성은 높아지면서 AI 연산과 일반 연산 모두에서 안정적인 성능을 제공하죠.<br /><br />
-                                            향상된 NPU가 AI 추론을 전담하고 CPU와 GPU가 함께 가속 처리하는 하이브리드 컴퓨팅 구조는 영상회의, 웹 작업, 크리에이티브 소프트웨어, AI 기반
-                                            애플리케이션처럼 부하가 높은 멀티 워크로드 상황에서도 성능이 꾸준해요. 또한 전작 대비 전력 효율이 좋아져 가볍고 얇은 바디로도 장시간 안정적인 퍼포먼스를 유지할 수
-                                            있어요.
-                                        </p>
-                                        <div class="btn-wrap">
-                                            <a class="btn-product" target="_blank"
-                                            href="https://www.lge.co.kr/category/notebook?filterProduct=AT0000000087:KY0000003767:01,AT0000000087:KY0000003766:01" rel="noopener" aria-label="새 창에서 열림">제품
-                                            보러 가기</a>
-                                        </div>
-                                        <div class="img">
-                                            <button class="btn-pause">일시멈춤</button>
-                                            <video autoplay playsinline loop muted
-                                            src="/kr/story/buying-guide/2025/video/notebook/vid_P15_101_01.mp4"></video>
-                                        </div>
-                                        <button class="btn-collapse-toggle">
-                                            <span>* 전력효율 / 측정 기준</span>
-                                        </button>
-                                        <div class="collapse-content">
-                                            <p>
-                                            * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.​<br />
-                                            * 사용 환경에 따라 성능은 다를 수 있습니다.​<br />
-                                            * CPU 성능은 제조사(인텔/AMD)에서 제공한 공식 자료이며, 자세한 내용은 제조사 홈페이지를 참조 바랍니다. 실 사용환경에서는 차이가 있을 수 있습니다.
-                                            </p>
-                                            <p>
-                                            <b>[전력 효율]</b><br />
-                                            * 자사 내부 실험실 테스트 결과, ‘25년 16Z90TP (Ultra 5, 16GB, 512GB NVMe SSD, 77Wh 배터리) 대비 16Z95U(Ryzen
-                                            AI 7, 77Wh 배터리) 3.5시간 증가​<br />
-                                            </p>
-                                            <p>
-                                            <b>[측정 기준]</b><br />
-                                            * 동영상 재생시간(밝기 150 nit / Wireless Off / 이어폰 재생 (볼륨 : 기본값)) 기준 최대 사용 시간 27.0시간까지 사용​​<br />
-                                            </p>
-                                            <button class="btn-collapse-close">접기</button>
-                                        </div>
+                                    <div class="point_product_tip">
+                                        <div class="point_product_tip_title">이런 포인트도 살펴보면 좋아요!</div>
+                                        <div class="point_product_tip_content">
+                                            <div class="point_product_tip_text">
+                                                <p class="tag">
+                                                    #작업효율 UP #스마트워커 #디지털노마드 #크리에이터
+                                                </p>
+                                                <b class="point_product_tip_tit">
+                                                    노트북 하나로 완성시키는 나만의 워크스타일
+                                                </b>
+                                                <p class="point_product_tip_desc">
+                                                    최신 게임이나 영상 편집, 3D 모델링, 그래픽 디자인처럼 고성능이 중요한 작업에는 인텔 CPU가 잘 어울려요. 빠른 처리 속도로 렌더링 시간을 줄여 몰입도 높은 작업
+                                                    환경을 만들어줍니다. 학업이나 업무에서 AI 기능을 자주 활용하고 하루 종일 노트북을 사용한다면 AMD CPU로 배터리 걱정 없이 작업을 이어갈 수 있어요. 퍼포먼스와
+                                                    효율, 이동성까지 고려해 나에게 맞는 워크스타일을 선택해보세요.
+                                                </p>
+                                            </div>
+                                            <div class="point_product_tip_img">
+                                                <picture>
+                                                    <source media="(max-width: 767px)" srcset="/kr/story/buying-guide/2025/img/notebook/img_M15_101_01.jpg" />
+                                                    <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_02.jpg" alt="야외에서 두 명의 젊은 외국인이 흰색 gram 노트북을 들고 화면을 보며 밝게 웃고 있습니다." />
+                                                </picture>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="point-tip">
-                                <div class="point-tip-title">이런 포인트도 살펴보면 좋아요!</div>
-                                <div class="tip-content">
-                                <div class="content">
-                                    <p class="tag">
-                                    #작업효율 UP #스마트워커 #디지털노마드 #크리에이터
-                                    </p>
-                                    <div class="tip-title">
-                                    노트북 하나로 완성시키는 나만의 워크스타일
-                                    </div>
-                                    <p class="tip-text">
-                                    최신 게임이나 영상 편집, 3D 모델링, 그래픽 디자인처럼 고성능이 중요한 작업에는 인텔 CPU가 잘 어울려요. 빠른 처리 속도로 렌더링 시간을 줄여 몰입도 높은 작업
-                                    환경을 만들어줍니다. 학업이나 업무에서 AI 기능을 자주 활용하고 하루 종일 노트북을 사용한다면 AMD CPU로 배터리 걱정 없이 작업을 이어갈 수 있어요. 퍼포먼스와
-                                    효율, 이동성까지 고려해 나에게 맞는 워크스타일을 선택해보세요.
-                                    </p>
-                                </div>
-                                <div class="img">
-                                    <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_02.jpg"
-                                    alt="야외에서 두 명의 젊은 외국인이 흰색 gram 노트북을 들고 화면을 보며 밝게 웃고 있습니다." class="pc-only" />
-                                    <img src="/kr/story/buying-guide/2025/img/notebook/img_M15_101_01.jpg"
-                                    alt="야외에서 두 명의 젊은 외국인이 흰색 gram 노트북을 들고 화면을 보며 밝게 웃고 있습니다." class="mobile-only" />
-                                </div>
-                                </div>
-                            </div>
+                            <p class="note aling-left">
+                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                            </p>
                         </div>
                         <div id="buying-point-3" name="buying-point" style="display: none">
                             <h3 class="hide">GPU</h3>
-                            <div class="subtab-wrap">
-                                <div class="subtab-btn">
-                                <button class="active" name="buying-guide-tab" data-target="#buying-point-3-1"
-                                    data-group="buying-point-3">
-                                    내장그래픽
-                                </button>
-                                <button name="buying-guide-tab" data-target="#buying-point-3-2" data-group="buying-point-3">
-                                    외장그래픽
-                                </button>
+                            <div class="sub_tab_wrap">
+                                <div class="sub_tab_list">
+                                    <ul>
+                                        <li>
+                                            <button class="active" name="buying-guide-tab" data-target=".buying-point-3__1" data-group="buying-point-3">
+                                                내장그래픽
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button name="buying-guide-tab" data-target=".buying-point-3__2" data-group="buying-point-3">
+                                                외장그래픽
+                                            </button>
+                                        </li>
+                                    </ul>
                                 </div>
-                                <div class="subtab-content">
-                                <div class="point-wrap" id="buying-point-3-1" name="buying-point-3">
-                                    <!-- <h4 class="hide">내장그래픽</h4> -->
-                                    <div class="content">
-                                    <h5>내장그래픽</h5>
-                                    <p>
-                                        내장 그래픽은 별도 그래픽 카드 없이 PC 메인보드 또는 CPU에 GPU가 포함된 내장형 방식을 의미합니다.그램은 GPU가 두 가지 종류로, AMD Ryzen AI
-                                        400 시리즈의 AMD Radeon Graphics와 인텔 코어 울트라 시리즈의 Intel Arc Graphics가 있습니다.
-                                    </p>
-                                    <div class="img">
-                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_05.jpg"
-                                        alt="LG 노트북 화면에 게임 Dragon Age: The Veilguard 플레이 장면 이미지가 보이며, 오른쪽 상단에는 NVIDIA GeForce RTX 로고, 하단에는 주요 기술이 강조되어 있습니다. NVIDIA DLSS 4: 더 빠르고 더 선명하게 NVIDIA Reflex 2: 날카로운 반응속도와 낮은 지연 속도 NVIDIA Studio: 프로 크리에이터용 창작 퍼포먼스." />
-                                    </div>
-                                    </div>
-                                    <!-- <div class="content">
-                                    <h5>Intel ARC Graphics</h5>
-                                    <p>
-                                        인텔 코어 울트라 시리즈3은 인텔 Xe 그래픽으로 그래픽 성능을 전작 대비 최대 77% 향상시켜 영상 편집, 고해상도 스트리밍, 게임 플레이까지 더 부드럽고 선명하게
-                                        즐길 수 있어요. 최신 인텔 아키텍처가 CPU와 GPU 연산을 효율적으로 처리해 콘텐츠 제작과 멀티 태스킹에서도 빠르게 응답하고 속도를 안정적으로 유지할 수 있어요.
-                                    </p>
-                                    <div class="img">
-                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_20.jpg" alt="" />
-                                    </div>
-                                    </div>
-                                    <div class="content">
-                                    <h5>AMD Radeon™ Graphics</h5>
-                                    <p>
+                                <div class="sub_tab_content">
+                                    <div class="subtab-cotent-panel buying-point-3__1" name="buying-point-3">
+                                        <div class="point_product">
+                                            <div class="point_product_content">
+                                                <div class="point_product_img">
+                                                    <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_05.jpg" alt="LG 노트북 화면에 게임 Dragon Age: The Veilguard 플레이 장면 이미지가 보이며, 오른쪽 상단에는 NVIDIA GeForce RTX 로고, 하단에는 주요 기술이 강조되어 있습니다. NVIDIA DLSS 4: 더 빠르고 더 선명하게 NVIDIA Reflex 2: 날카로운 반응속도와 낮은 지연 속도 NVIDIA Studio: 프로 크리에이터용 창작 퍼포먼스." />
+                                                </div>
+                                                <div class="point_product_text">
+                                                    <h4>내장그래픽</h4>
+                                                    <p>
+                                                        내장 그래픽은 별도 그래픽 카드 없이 PC 메인보드 또는 CPU에 GPU가 포함된 내장형 방식을 의미합니다.그램은 GPU가 두 가지 종류로, AMD Ryzen AI
+                                                        400 시리즈의 AMD Radeon Graphics와 인텔 코어 울트라 시리즈의 Intel Arc Graphics가 있습니다.
+                                                    </p>
+                                                    <p class="des">
+                                                        * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <!-- <div class="content">
+                                            <h5>Intel ARC Graphics</h5>
+                                            <p>
+                                                인텔 코어 울트라 시리즈3은 인텔 Xe 그래픽으로 그래픽 성능을 전작 대비 최대 77% 향상시켜 영상 편집, 고해상도 스트리밍, 게임 플레이까지 더 부드럽고 선명하게
+                                                즐길 수 있어요. 최신 인텔 아키텍처가 CPU와 GPU 연산을 효율적으로 처리해 콘텐츠 제작과 멀티 태스킹에서도 빠르게 응답하고 속도를 안정적으로 유지할 수 있어요.
+                                            </p>
+                                            <div class="img">
+                                                <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_20.jpg" alt="" />
+                                            </div>
+                                            </div>
+                                            <div class="content">
+                                            <h5>AMD Radeon™ Graphics</h5>
+                                            <p>
 
-                                    </p>
-                                    <div class="img">
-                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_20.jpg" alt="" />
+                                            </p>
+                                            <div class="img">
+                                                <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_20.jpg" alt="" />
+                                            </div>
+                                            </div> -->
+                                        </div>
                                     </div>
-                                    </div> -->
-                                </div>
-                                <div class="point-wrap" id="buying-point-3-2" name="buying-point-3" style="display: none">
-                                    <!-- <h4 class="hide">외장그래픽</h4> -->
-                                    <div class="content">
-                                    <h5>외장그래픽</h5>
-                                    <p>
-                                        외장 그래픽은 PC 내 별도의 그래픽 카드가 장착되어 있어 게임, 3D 모델링, 고해상도 영상 편집 등 고성능 그래픽 작업에 훨씬 유리합니다. 그래픽 카드의 유무에
-                                        따라 성능 차이가 큰 만큼, 작업 용도에 따라 현명한 선택이 필요합니다.
-                                    </p>
-                                    <div class="img">
-                                        <button class="btn-pause">일시멈춤</button>
-                                        <video autoplay playsinline loop muted
-                                        src="/kr/story/buying-guide/2025/video/notebook/vid_P15_101_03.mp4"></video>
+                                    <div class="subtab-cotent-panel buying-point-3__2" name="buying-point-3">
+                                        <div class="point_product">
+                                            <div class="point_product_content">
+                                                <div class="point_product_img">
+                                                    <button class="btn-pause">일시멈춤</button>
+                                                    <video autoplay playsinline loop muted src="/kr/story/buying-guide/2025/video/notebook/vid_P15_101_03.mp4"></video>
+                                                </div>
+                                                <div class="point_product_text">
+                                                    <h4>외장그래픽</h4>
+                                                    <p>
+                                                        외장 그래픽은 PC 내 별도의 그래픽 카드가 장착되어 있어 게임, 3D 모델링, 고해상도 영상 편집 등 고성능 그래픽 작업에 훨씬 유리합니다. 그래픽 카드의 유무에
+                                                        따라 성능 차이가 큰 만큼, 작업 용도에 따라 현명한 선택이 필요합니다.
+                                                    </p>
+                                                    <p class="des">
+                                                        * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="point_product_content">
+                                                <div class="point_product_img">
+                                                    <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_04.jpg" alt="" />
+                                                </div>
+                                                <div class="point_product_text">
+                                                    <h4>NVIDIA® GeForce RTX™ 5050</h4>
+                                                    <p>
+                                                        GeForce RTX™ 50 시리즈는 DLSS 4의 AI 렌더링 기술로 높은 FPS와 선명한 그래픽을 구현합니다. 또한 Reflex 2 기술로 반응 속도까지
+                                                        최적화되어, 게이밍은 물론 영상 편집과 3D 작업에서도 뛰어난 성능을 발휘합니다.
+                                                    </p>
+                                                    <div class="btn-wrap">
+                                                        <a class="btn-product" href="https://www.lge.co.kr/category/notebook?filterProduct=AT0000000100:KY0000004358:01" target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                                                    </div>
+                                                    <p class="des">
+                                                        * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                                                    </p>
+                                                    <button class="btn-collapse-toggle">
+                                                        <span>* NVIDIA® GeForce RTX™ 5050</span>
+                                                    </button>
+                                                    <div class="collapse-content">
+                                                        <p>
+                                                            * 해당 기술은 Nvidia RTX 5050 그래픽에 대한 설명으로, Nvidia 공식 홈페이지의 자료를 그대로 차용하여 제작되었습니다. 자세한 내용은
+                                                            https://www.nvidia.com/ko-kr/geforce/graphics-cards/50-series 페이지를 참조 바랍니다.
+                                                        </p>
+                                                        <button class="btn-collapse-close">접기</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    </div>
-                                    <!-- <h4 class="hide">NVIDIA® GeForce RTX™ 5050</h4> -->
-                                    <div class="content">
-                                    <h5>NVIDIA® GeForce RTX™ 5050</h5>
-                                    <p>
-                                        GeForce RTX™ 50 시리즈는 DLSS 4의 AI 렌더링 기술로 높은 FPS와 선명한 그래픽을 구현합니다. 또한 Reflex 2 기술로 반응 속도까지
-                                        최적화되어, 게이밍은 물론 영상 편집과 3D 작업에서도 뛰어난 성능을 발휘합니다.
-                                    </p>
-                                    <div class="btn-wrap">
-                                        <a class="btn-product"
-                                        href="https://www.lge.co.kr/category/notebook?filterProduct=AT0000000100:KY0000004358:01"
-                                        target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
-                                    </div>
-                                    <div class="img">
-                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_04.jpg" alt="" />
-                                    </div>
-                                    <button class="btn-collapse-toggle">
-                                        <span>* NVIDIA® GeForce RTX™ 5050</span>
-                                    </button>
-                                    <div class="collapse-content">
-                                        <p>
-                                        * 해당 기술은 Nvidia RTX 5050 그래픽에 대한 설명으로, Nvidia 공식 홈페이지의 자료를 그대로 차용하여 제작되었습니다. 자세한 내용은
-                                        https://www.nvidia.com/ko-kr/geforce/graphics-cards/50-series 페이지를 참조 바랍니다.
-                                        </p>
-                                        <button class="btn-collapse-close">접기</button>
-                                    </div>
+                                    <div class="point_product_tip">
+                                        <div class="point_product_tip_title">이런 포인트도 살펴보면 좋아요!</div>
+                                        <div class="point_product_tip_content">
+                                            <div class="point_product_tip_text">
+                                                <p class="tag">
+                                                    #창작과 몰입 #고사양 작업 #나만의 작업 환경
+                                                </p>
+                                                <b class="point_product_tip_tit">
+                                                    그래픽 카드로 고르는 노트북
+                                                </b>
+                                                <p class="point_product_tip_desc">
+                                                    영상 편집, 3D 디자인, 몰입형 게임처럼 집중과 창작이 필요한 순간에는 외장 그래픽 노트북이 든든한 파트너가 되어줘요. 대용량 영상도 끊김 없이 렌더링되고, 색감과
+                                                    디테일까지 생생하게 표현할 수 있어요. 반대로 도서관에서 리포트를 작성하거나, 카페에서 OTT를 보며 잠시 휴식을 즐길 땐 내장 그래픽 노트북이 딱이에요. 가볍고 실속
+                                                    있게 나만의 라이프스타일을 완성해줘요.
+                                                </p>
+                                            </div>
+                                            <div class="point_product_tip_img">
+                                                <button class="btn-pause">일시멈춤</button>
+                                                <video autoplay playsinline loop muted src="/kr/story/buying-guide/2025/video/notebook/vid_P15_101_04.mp4"></video>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            </div>
-                            <div class="point-tip">
-                                <div class="point-tip-title">이런 포인트도 살펴보면 좋아요!</div>
-                                <div class="tip-content">
-                                <div class="content">
-                                    <p class="tag">
-                                    #창작과 몰입 #고사양 작업 #나만의 작업 환경
-                                    </p>
-                                    <div class="tip-title">
-                                    그래픽 카드로 고르는 노트북
-                                    </div>
-                                    <p class="tip-text">
-                                    영상 편집, 3D 디자인, 몰입형 게임처럼 집중과 창작이 필요한 순간에는 외장 그래픽 노트북이 든든한 파트너가 되어줘요. 대용량 영상도 끊김 없이 렌더링되고, 색감과
-                                    디테일까지 생생하게 표현할 수 있어요. 반대로 도서관에서 리포트를 작성하거나, 카페에서 OTT를 보며 잠시 휴식을 즐길 땐 내장 그래픽 노트북이 딱이에요. 가볍고 실속
-                                    있게 나만의 라이프스타일을 완성해줘요.
-                                    </p>
-                                </div>
-                                <div class="img">
-                                    <div class="media-wrap">
-                                    <button class="btn-pause">일시멈춤</button>
-                                    <video autoplay playsinline loop muted
-                                        src="/kr/story/buying-guide/2025/video/notebook/vid_P15_101_04.mp4"></video>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
+                            <p class="note aling-left">
+                                * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                            </p>
                         </div>
                         <div id="buying-point-4" name="buying-point" style="display: none">
                             <h3 class="hide">멀티 AI</h3>
-                            <div class="subtab-wrap">
-                                <div class="subtab-btn">
-                                <button class="active" name="buying-guide-tab" data-target="#buying-point-4-1"
-                                    data-group="buying-point-4">
-                                    그램 AI
-                                </button>
-                                <button name="buying-guide-tab" data-target="#buying-point-4-2" data-group="buying-point-4">
-                                    Copilot+ PC
-                                </button>
-                                </div>
-                                <div class="subtab-content">
-                                <div class="point-wrap" id="buying-point-4-1" name="buying-point-4">
-                                    <h4 class="hide">그램 AI</h4>
-                                    <div class="content">
-                                    <h5>그램 AI</h5>
-                                    <p>
-                                        LG의 AI 솔루션인 EXAONE 3.5를 기반으로 한 온디바이스 AI 기능을 경험해보세요.PC 안에 저장된 자료를 빠르고 간편하게 검색할 수 있는 ‘마이
-                                        아카이브’, 화면이나 영상 속 음성까지 기억해두었다가 다시 찾아주는 ‘타임 트래블’ 기능으로 작업의 흐름이 한층 더 매끄러워집니다. 여기에 gram Chat에서 LG
-                                        gram Link와 연동해 LG TV와 스마트 모니터를 연결하고, 다양한 가전 제품까지 제어할 수 있어 일상과 업무를 아우르는 스마트한 생산성과 편리함을 제공합니다.
-                                    </p>
-                                    <div class="img">
-                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_06.jpg" alt="" />
-                                    </div>
-                                    </div>
-                                    <div class="content">
-                                    <h5>마이 아카이브</h5>
-                                    <p>
-                                        내가 저장해둔 파일을 기반으로 정확한 키워드 없이도 나의 질문 의도를 이해하고 자료를 확인해서 빠르게 답을 찾아줘요. 민감한 정보를 클라우드에 올릴 필요가 없어 더욱
-                                        안심이죠.
-                                    </p>
-                                    <div class="img">
-                                        <div class="media-wrap">
-                                        <button class="btn-pause">일시멈춤</button>
-                                        <video autoplay playsinline loop muted
-                                            src="/kr/story/buying-guide/2025/video/notebook/vid_P15_101_07.mp4"></video>
-                                        </div>
-                                    </div>
-                                    <button class="btn-collapse-toggle">
-                                        <span>* 그램 AI / 그램챗온디바이스 / AI검색 / 마이아카이브</span>
-                                    </button>
-                                    <div class="collapse-content">
-                                        <p>
-                                        <b>[포근가습모드, 운전 후 실내 온도 변화]</b><br />
-                                        * 그램챗온디바이스를 통해 구현됩니다.
-                                        </p>
-                                        <p>
-                                        <b>[그램챗온디바이스 - gram chat On-Device]</b><br />
-                                        * PC에 저장한 문서를 학습해 답하는 온 디바이스 기능으로 인터넷 검색을 필요로 하는 단순 생활 정보, 질문, 연속 대화 등은 다루지 않습니다.<br />
-                                        * 제품 사용 초기에는 일부 기능이 원활히 작동하지 않을 수 있으며, 이는 온디바이스 AI의 특징으로 사용자에 맞춰 사전 학습을 하는 시간이 필요하기 때문입니다.
-                                        </p>
-                                        <p>
-                                        <b>[AI 검색]</b><br />
-                                        * 검색 시점의 데이터에 따라 답변이 달라질 수 있으며 내용의 정확도를 보증하지 않으니 사용자의 확인이 필요합니다. 키워드가 포함된 문서(*.doc(x),
-                                        *.ppt(x), *.hwp(x), *.pdf, 이미지파일 (*.jpg, *.gif, *.png) 을 지원합니다.
-                                        </p>
-                                        <p>
-                                        <b>[마이아카이브]</b><br />
-                                        * 파일 내 글자수가 20만 개가 넘는 문서는 저장되지 않습니다. 글자수가 20만개 미만인 문서 기준 1000개까지 저장됩니다.<br />
-                                        * gram AI는 내 노트북 속 자료를 활용해 검색과 답변을 제공하는 생성형 AI 서비스입니다. 생성형 AI 기술의 특성상 본 서비스에서 사용자의 기대와 다른
-                                        응답을 하거나 대화 맥락에 따라 다른 결과 값이 생성될 수 있고 결과값에 부적절하거나 부정확한 내용이 포함될 가능성이 있습니다. 따라서 이용자는 본 서비스에서
-                                        제공되는 정보의 진실성, 정확성 및 적절성 등을 스스로 검토, 판단하여 이용하시기 바랍니다.
-
-                                        </p>
-                                        <button class="btn-collapse-close">접기</button>
-                                    </div>
-                                    </div>
-                                    <div class="content">
-                                    <h5>타임 트래블</h5>
-                                    <p>
-                                        2초마다 PC 화면은 이미지로, 내가 본 영상 속 음성은 텍스트로 기억해 두었다가 gram chat에서 키워드만 입력하면 AI가 원하는 정보를 찾아줍니다.
-                                    </p>
-                                    <div class="img">
-                                        <div class="media-wrap">
-                                        <button class="btn-pause">일시멈춤</button>
-                                        <video autoplay playsinline loop muted
-                                            src="/kr/story/buying-guide/2025/video/notebook/vid_P15_101_08.mp4"></video>
-                                        </div>
-                                    </div>
-                                    <button class="btn-collapse-toggle">
-                                        <span>* 그램 AI / 그램챗온디바이스 / 타임 트래블</span>
-                                    </button>
-                                    <div class="collapse-content">
-                                        <p>
-                                        <b>[그램 AI]</b><br />
-                                        * 그램챗온디바이스를 통해 구현됩니다.
-                                        </p>
-                                        <p>
-                                        <b>[그램챗온디바이스 - gram chat On-Device]</b><br />
-                                        * PC에 저장한 문서를 학습해 답하는 온 디바이스 기능으로 인터넷 검색을 필요로 하는 단순 생활 정보, 질문, 연속 대화 등은 다루지 않습니다.<br />
-                                        * 제품 사용 초기에는 일부 기능이 원활히 작동하지 않을 수 있으며, 이는 온디바이스 AI의 특징으로 사용자에 맞춰 사전 학습을 하는 시간이 필요하기 때문입니다.
-                                        </p>
-                                        <p>
-                                        <b>[타임 트래블 - Time Travel]</b><br />
-                                        * 기능 On 5분 이후부터 사용 가능합니다. PC 화면을 약 2초당 1회씩 캡처하며 기간은 최대 30일까지 저장 가능하며 이후 보관된 캡처 이미지는 자동 삭제
-                                        됩니다. 해당 기능 사용 여부와 화면 저장 기간 및 용량 등 상세한 설정은 그램 챗 상단 톱니바퀴 아이콘을 눌러 사용자가 변경할 수 있습니다.<br />
-                                        * 최대 저장 용량: 설정을 통하여 1/7/14/30일의 저장기간을 정할 수 있습니다. 하루 6시간 사용 시 30일 기준 약 14GB의 저장공간이 필요합니다.
-                                        </p>
-                                        <button class="btn-collapse-close">접기</button>
-                                    </div>
-                                    </div>
-                                    <div class="content">
-                                    <h5>LG gram Link 연동</h5>
-                                    <p>
-                                        gram chat에서 gram Link와 연동하여 PC에 있는 자료를 연결된 모바일로 바로 전송하거나 통화하기 기능을 통해 모바일에서 바로 전화를 걸도록 할 수도
-                                        있어요.
-                                    </p>
-                                    <div class="img">
-                                        <div class="media-wrap">
-                                        <button class="btn-pause">일시멈춤</button>
-                                        <video autoplay playsinline loop muted
-                                            src="/kr/story/buying-guide/2025/video/notebook/vid_P15_101_09.mp4"></video>
-                                        </div>
-                                    </div>
-                                    <button class="btn-collapse-toggle">
-                                        <span>* 그램 AI / 그램챗온디바이스 / LG gram Link</span>
-                                    </button>
-                                    <div class="collapse-content">
-                                        <p>
-                                        <b>[그램 AI]</b><br />
-                                        * 그램챗온디바이스를 통해 구현됩니다.
-                                        </p>
-                                        <p>
-                                        <b>[그램챗온디바이스 - gram chat On-Device]</b><br />
-                                        * PC에 저장한 문서를 학습해 답하는 온 디바이스 기능으로 인터넷 검색을 필요로 하는 단순 생활 정보, 질문, 연속 대화 등은 다루지 않습니다.<br />
-                                        * 제품 사용 초기에는 일부 기능이 원활히 작동하지 않을 수 있으며, 이는 온디바이스 AI의 특징으로 사용자에 맞춰 사전 학습을 하는 시간이 필요하기 때문입니다.
-                                        </p>
-                                        <p>
-                                        <b>[LG gram Link]</b><br />
-                                        * 최초 1회 연결 시에는 gram 노트북과 연결하고자 하는 대상인 모바일 기기, LG 스마트 모니터, 스마트 TV가 같은 네트워크망에 있어야 합니다.<br />
-                                        * 모바일 기기, LG스마트 모니터, 스마트 TV에 LG gram Link 앱 설치가 필요하며 최소사양은 iOS 16.4이상, 안드로이드 9 OS 이상이어야
-                                        합니다.<br />
-                                        * 파일 공유 기능은 블루투스 기능을 활용하여 네트워크 연결 없이도 사용이 가능합니다. 파일 공유를 제외한 모든 기능은 노트북과 모바일 기기가 동일한 네트워크에
-                                        연결된 상태에서 사용이 가능합니다
-                                        </p>
-                                        <button class="btn-collapse-close">접기</button>
-                                    </div>
-                                    </div>
-                                </div>
-                                <div class="point-wrap" id="buying-point-4-2" name="buying-point-4" style="display: none">
-                                    <h4 class="hide">Copilot+ PC</h4>
-                                    <div class="content">
-                                    <h5>Copilot+ PC</h5>
-                                    <p>
-                                        마이크로소프트의 AI 솔루션인 Copilot+ PC를 기반으로 한 AI 기능을 경험해보세요. 입력한 이미지와 텍스트를 바탕으로 원하는 결과물을 도출해내는
-                                        ‘Cocreator’, 영상 속 언어를 번역해 자막을 생성해주는 ‘라이브 캡션’, 화상 회의나 통화에 집중할 수 있도록 조명이나 소음을 자동으로 조절해주는
-                                        ‘Studio Effects’ 기능으로 다양한 상황이나 용도에 맞게 편리한 활용성을 더해줍니다.
-                                    </p>
-                                    <div class="img">
-                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_10.jpg" alt="" />
-                                    </div>
-                                    </div>
-                                    <div class="content">
-                                    <h5>Cocreator</h5>
-                                    <p>
-                                        Copliot + 를 통해 입력한 이미지와 텍스트를 바탕으로 원하는 결과물을 쉽고 빠르게 도출할 수 있어요.
-                                    </p>
-                                    <div class="img">
-                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_19.jpg" alt="" />
-                                    </div>
-                                    <button class="btn-collapse-toggle">
-                                        <span>* 세부 정보</span>
-                                    </button>
-                                    <div class="collapse-content">
-                                        <p>
-                                        * 자세한 내용은 https://aka.ms/copilotpluspc 를 참조하시기 바랍니다.
-                                        </p>
-                                        <button class="btn-collapse-close">접기</button>
-                                    </div>
-                                    </div>
-                                    <div class="content">
-                                    <h5>라이브 캡션</h5>
-                                    <p>
-                                        녹화된 비디오는 물론 라이브 영상까지 실시간으로 언어를 번역해 자막을 생성해줘요.
-
-                                    </p>
-                                    <div class="img">
-                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_11.jpg" alt="" />
-                                    </div>
-                                    <button class="btn-collapse-toggle">
-                                        <span>* 세부 정보</span>
-                                    </button>
-                                    <div class="collapse-content">
-                                        <p>
-                                        * 자세한 내용은 https://aka.ms/copilotpluspc 를 참조하시기 바랍니다.
-                                        </p>
-                                        <button class="btn-collapse-close">접기</button>
-                                    </div>
-                                    </div>
-                                    <div class="content">
-                                    <h5>Studio Effects</h5>
-                                    <p>
-                                        화상 통화 시 인물을 중앙에 고정하거나 조명과 소음을 자동으로 조절해 더 집중할 수 있는 환경을 연출해 줘요.
-                                    </p>
-                                    <div class="img">
-                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_12.jpg" alt="" />
-                                    </div>
-                                    <button class="btn-collapse-toggle">
-                                        <span>* 세부 정보</span>
-                                    </button>
-                                    <div class="collapse-content">
-                                        <p>
-                                        * 자세한 내용은 https://aka.ms/copilotpluspc 를 참조하시기 바랍니다.
-                                        </p>
-                                        <button class="btn-collapse-close">접기</button>
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                            <div class="point-tip">
-                                <div class="point-tip-title">이런 포인트도 살펴보면 좋아요!</div>
-                                <div class="tip-content">
-                                <div class="content">
-                                    <p class="tag">
-                                    #멀티AI #멀티AI의 정점
-                                    </p>
-                                    <div class="tip-title">
-                                    더 확장되고 강력해진 AI PC, 프로의 멀티 AI
-                                    </div>
-                                    <p class="tip-text">
-                                    EXAONE 3.5기반의 온디바이스 AI로 LG AI만의 편리한 기능과 Copilot+ PC 의 기능을 자유롭게 선택하여 활용해보세요. 특히 그램 AI는 문맥까지
-                                    이해하고 답하는 ‘마이 아카이브’, 지나간 화면을 다시 보여주는 ‘타임 트래블’ 등의 기능을 네트워크 연결 없이도 내 PC 데이터만을 바탕으로 답해주어 사용도
-                                    효율적입니다.
-                                    </p>
-                                </div>
-                                <div class="img">
-                                    <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_13.jpg"
-                                    alt="한 남성이 카페에서 노트북을 사용하고 있는 모습" class="pc-only" />
-                                    <img src="/kr/story/buying-guide/2025/img/notebook/img_M15_101_03.jpg"
-                                    alt="한 남성이 카페에서 노트북을 사용하고 있는 모습" class="mobile-only" />
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="note">
-                            * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
-                        </p>
-                        <div class="point-box">
-                        <h2 class="box-subtitle">
-                            생활에 편리함을 더하는 <br />
-                            실용적인 기능도 함께 알아보세요.
-                        </h2>
-                        <!-- <div class="tab-wrap">
-                        <button
-                            class="active"
-                            name="buying-guide-tab"
-                            data-target="#buying-point-7"
-                            data-group="buying-point-50"
-                        >
-                            편의기능
-                        </button>
-                        <button
-                            name="buying-guide-tab"
-                            data-target="#buying-point-8"
-                            data-group="buying-point-50"
-                        >
-                            디스플레이
-                        </button>
-                        </div> -->
-                        <div class="tab-content">
-                            <div id="buying-point-7" name="buying-point-50">
-                            <div class="slideWrap colWrap" style="--box-height: 560px; --box-m-height: 400px">
-                                <div class="col">
-                                <div>
-                                    <div class="content-wrap">
-                                    <div>
-                                        <h3>My gram</h3>
-                                        <p>
-                                        My gram에서 다양한 소프트웨어를 간편하게 사용하세요. 그램 AI를 지원하는 gram chat On-Device, 모바일은 물론 TV, 모니터까지
-                                        연결해주는 LG gram Link, 우리집 가전을 제어하는 My ThinQ까지 필요한 앱에 바로 접속할 수 있어요. PC 상태도 나에게 맞게 손쉽게 설정해
-                                        보세요.
-                                        </p>
-                                    </div>
-                                    <div>
-                                        <div class="media-wrap">
-                                        <button class="btn-pause">일시멈춤</button>
-                                        <video autoplay playsinline loop muted
-                                            src="/kr/story/buying-guide/2025/video/notebook/vid_P15_101_05.mp4"></video>
-                                        </div>
-                                    </div>
-                                    </div>
-                                    <div class="detail-wrap">
-                                    <button class="btn-collapse-toggle hidden">
-                                        <span>* LG gram Link / My ThinQ</span>
-                                    </button>
-                                    </div>
-                                </div>
-                                </div>
-                                <div class="col">
-                                <div>
-                                    <div class="content-wrap">
-                                    <div>
-                                        <h3>LG gram Link & My ThinQ</h3>
-                                        <p>
-                                        더 확장된 LG gram Link는 더욱 편리한 기능들을 제공합니다. LG TV나 스마트 모니터에 간편하게 연결할 수 있는 기능은 물론, 자유로운 파일
-                                        전송이 가능하고 LG gram Link로 연동된 휴대폰에서 전화를 걸어주거나 My ThinQ 앱을 통해 집 안의 다양한 LG 가전기기를 간편하게 제어할 수
-                                        있습니다.
-                                        </p>
-                                    </div>
-                                    <div>
-                                        <div class="media-wrap">
-                                        <div class="autoplay-slider-wrap">
-                                            <div class="slider">
-                                            <div>
-                                                <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_14.jpg" alt="" />
-                                            </div>
-                                            <div>
-                                                <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_16.jpg" alt="" />
-                                            </div>
-                                            <div>
-                                                <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_17.jpg" alt="" />
-                                            </div>
-                                            <div>
-                                                <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_18.jpg" alt="" />
-                                            </div>
-                                            </div>
-                                            <div class="slider-controls">
-                                            <button class="btn-play" data-state="playing">
-                                                Pause
+                            <div class="sub_tab_wrap">
+                                <div class="sub_tab_list">
+                                    <ul>
+                                        <li>
+                                            <button class="active" name="buying-guide-tab" data-target=".buying-point-4__1" data-group="buying-point-4">
+                                                그램 AI
                                             </button>
-                                            <div class="counter">
-                                                <span class="current">1</span>
-                                                <span class="bar"></span>
-                                                <span class="total">4</span>
+                                        </li>
+                                        <li>
+                                            <button name="buying-guide-tab" data-target=".buying-point-4__2" data-group="buying-point-4">
+                                                Copilot+ PC
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="sub_tab_content">
+                                    <div class="subtab-cotent-panel buying-point-4__1" name="buying-point-4">
+                                        <div class="point_product">
+                                            <div class="point_product_content">
+                                                <div class="point_product_img">
+                                                    <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_06.jpg" alt="" />
+                                                </div>
+                                                <div class="point_product_text">
+                                                    <h4>그램 AI</h4>
+                                                    <p>
+                                                        LG의 AI 솔루션인 EXAONE 3.5를 기반으로 한 온디바이스 AI 기능을 경험해보세요.PC 안에 저장된 자료를 빠르고 간편하게 검색할 수 있는 ‘마이
+                                                        아카이브’, 화면이나 영상 속 음성까지 기억해두었다가 다시 찾아주는 ‘타임 트래블’ 기능으로 작업의 흐름이 한층 더 매끄러워집니다. 여기에 gram Chat에서 LG
+                                                        gram Link와 연동해 LG TV와 스마트 모니터를 연결하고, 다양한 가전 제품까지 제어할 수 있어 일상과 업무를 아우르는 스마트한 생산성과 편리함을 제공합니다.
+                                                    </p>
+                                                    <p class="des">
+                                                        * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                                                    </p>
+                                                </div>
                                             </div>
-                                            <button class="btn-nav btn-prev">Prev</button>
-                                            <button class="btn-nav btn-next">Next</button>
+                                            <div class="point_product_content">
+                                                <div class="point_product_img">
+                                                    <div class="media-wrap">
+                                                        <button class="btn-pause">일시멈춤</button>
+                                                        <video autoplay playsinline loop muted src="/kr/story/buying-guide/2025/video/notebook/vid_P15_101_07.mp4"></video>
+                                                    </div>
+                                                </div>
+                                                <div class="point_product_text">
+                                                    <h4>마이 아카이브</h4>
+                                                    <p>
+                                                        내가 저장해둔 파일을 기반으로 정확한 키워드 없이도 나의 질문 의도를 이해하고 자료를 확인해서 빠르게 답을 찾아줘요. 민감한 정보를 클라우드에 올릴 필요가 없어 더욱
+                                                        안심이죠.
+                                                    </p>
+                                                    <p class="des">
+                                                        * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                                                    </p>
+                                                    <button class="btn-collapse-toggle">
+                                                        <span>* 그램 AI / 그램챗온디바이스 / AI검색 / 마이아카이브</span>
+                                                    </button>
+                                                    <div class="collapse-content">
+                                                        <p>
+                                                            <b>[포근가습모드, 운전 후 실내 온도 변화]</b><br />
+                                                            * 그램챗온디바이스를 통해 구현됩니다.
+                                                        </p>
+                                                        <p>
+                                                            <b>[그램챗온디바이스 - gram chat On-Device]</b><br />
+                                                            * PC에 저장한 문서를 학습해 답하는 온 디바이스 기능으로 인터넷 검색을 필요로 하는 단순 생활 정보, 질문, 연속 대화 등은 다루지 않습니다.<br />
+                                                            * 제품 사용 초기에는 일부 기능이 원활히 작동하지 않을 수 있으며, 이는 온디바이스 AI의 특징으로 사용자에 맞춰 사전 학습을 하는 시간이 필요하기 때문입니다.
+                                                        </p>
+                                                        <p>
+                                                            <b>[AI 검색]</b><br />
+                                                            * 검색 시점의 데이터에 따라 답변이 달라질 수 있으며 내용의 정확도를 보증하지 않으니 사용자의 확인이 필요합니다. 키워드가 포함된 문서(*.doc(x),
+                                                            *.ppt(x), *.hwp(x), *.pdf, 이미지파일 (*.jpg, *.gif, *.png) 을 지원합니다.
+                                                        </p>
+                                                        <p>
+                                                            <b>[마이아카이브]</b><br />
+                                                            * 파일 내 글자수가 20만 개가 넘는 문서는 저장되지 않습니다. 글자수가 20만개 미만인 문서 기준 1000개까지 저장됩니다.<br />
+                                                            * gram AI는 내 노트북 속 자료를 활용해 검색과 답변을 제공하는 생성형 AI 서비스입니다. 생성형 AI 기술의 특성상 본 서비스에서 사용자의 기대와 다른
+                                                            응답을 하거나 대화 맥락에 따라 다른 결과 값이 생성될 수 있고 결과값에 부적절하거나 부정확한 내용이 포함될 가능성이 있습니다. 따라서 이용자는 본 서비스에서
+                                                            제공되는 정보의 진실성, 정확성 및 적절성 등을 스스로 검토, 판단하여 이용하시기 바랍니다.
+                                                        </p>
+                                                        <button class="btn-collapse-close">접기</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="point_product_content">
+                                                <div class="point_product_img">
+                                                    <div class="media-wrap">
+                                                        <button class="btn-pause">일시멈춤</button>
+                                                        <video autoplay playsinline loop muted src="/kr/story/buying-guide/2025/video/notebook/vid_P15_101_08.mp4"></video>
+                                                    </div>
+                                                </div>
+                                                <div class="point_product_text">
+                                                    <h4>타임 트래블</h4>
+                                                    <p>
+                                                        2초마다 PC 화면은 이미지로, 내가 본 영상 속 음성은 텍스트로 기억해 두었다가 gram chat에서 키워드만 입력하면 AI가 원하는 정보를 찾아줍니다.
+                                                    </p>
+                                                    <p class="des">
+                                                        * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                                                    </p>
+                                                    <button class="btn-collapse-toggle">
+                                                        <span>* 그램 AI / 그램챗온디바이스 / 타임 트래블</span>
+                                                    </button>
+                                                    <div class="collapse-content">
+                                                        <p>
+                                                            <b>[그램 AI]</b><br />
+                                                            * 그램챗온디바이스를 통해 구현됩니다.
+                                                        </p>
+                                                        <p>
+                                                            <b>[그램챗온디바이스 - gram chat On-Device]</b><br />
+                                                            * PC에 저장한 문서를 학습해 답하는 온 디바이스 기능으로 인터넷 검색을 필요로 하는 단순 생활 정보, 질문, 연속 대화 등은 다루지 않습니다.<br />
+                                                            * 제품 사용 초기에는 일부 기능이 원활히 작동하지 않을 수 있으며, 이는 온디바이스 AI의 특징으로 사용자에 맞춰 사전 학습을 하는 시간이 필요하기 때문입니다.
+                                                        </p>
+                                                        <p>
+                                                            <b>[타임 트래블 - Time Travel]</b><br />
+                                                            * 기능 On 5분 이후부터 사용 가능합니다. PC 화면을 약 2초당 1회씩 캡처하며 기간은 최대 30일까지 저장 가능하며 이후 보관된 캡처 이미지는 자동 삭제
+                                                            됩니다. 해당 기능 사용 여부와 화면 저장 기간 및 용량 등 상세한 설정은 그램 챗 상단 톱니바퀴 아이콘을 눌러 사용자가 변경할 수 있습니다.<br />
+                                                            * 최대 저장 용량: 설정을 통하여 1/7/14/30일의 저장기간을 정할 수 있습니다. 하루 6시간 사용 시 30일 기준 약 14GB의 저장공간이 필요합니다.
+                                                        </p>
+                                                        <button class="btn-collapse-close">접기</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="point_product_content">
+                                                <div class="point_product_img">
+                                                    <div class="media-wrap">
+                                                        <button class="btn-pause">일시멈춤</button>
+                                                        <video autoplay playsinline loop muted src="/kr/story/buying-guide/2025/video/notebook/vid_P15_101_09.mp4"></video>
+                                                    </div>
+                                                </div>
+                                                <div class="point_product_text">
+                                                    <h4>LG gram Link 연동</h4>
+                                                    <p>
+                                                        gram chat에서 gram Link와 연동하여 PC에 있는 자료를 연결된 모바일로 바로 전송하거나 통화하기 기능을 통해 모바일에서 바로 전화를 걸도록 할 수도
+                                                        있어요.
+                                                    </p>
+                                                    <p class="des">
+                                                        * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                                                    </p>
+                                                    <button class="btn-collapse-toggle">
+                                                        <span>* 그램 AI / 그램챗온디바이스 / LG gram Link</span>
+                                                    </button>
+                                                    <div class="collapse-content">
+                                                        <p>
+                                                            <b>[그램 AI]</b><br />
+                                                            * 그램챗온디바이스를 통해 구현됩니다.
+                                                        </p>
+                                                        <p>
+                                                            <b>[그램챗온디바이스 - gram chat On-Device]</b><br />
+                                                            * PC에 저장한 문서를 학습해 답하는 온 디바이스 기능으로 인터넷 검색을 필요로 하는 단순 생활 정보, 질문, 연속 대화 등은 다루지 않습니다.<br />
+                                                            * 제품 사용 초기에는 일부 기능이 원활히 작동하지 않을 수 있으며, 이는 온디바이스 AI의 특징으로 사용자에 맞춰 사전 학습을 하는 시간이 필요하기 때문입니다.
+                                                        </p>
+                                                        <p>
+                                                            <b>[LG gram Link]</b><br />
+                                                            * 최초 1회 연결 시에는 gram 노트북과 연결하고자 하는 대상인 모바일 기기, LG 스마트 모니터, 스마트 TV가 같은 네트워크망에 있어야 합니다.<br />
+                                                            * 모바일 기기, LG스마트 모니터, 스마트 TV에 LG gram Link 앱 설치가 필요하며 최소사양은 iOS 16.4이상, 안드로이드 9 OS 이상이어야
+                                                            합니다.<br />
+                                                            * 파일 공유 기능은 블루투스 기능을 활용하여 네트워크 연결 없이도 사용이 가능합니다. 파일 공유를 제외한 모든 기능은 노트북과 모바일 기기가 동일한 네트워크에
+                                                            연결된 상태에서 사용이 가능합니다
+                                                        </p>
+                                                        <button class="btn-collapse-close">접기</button>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="subtab-cotent-panel buying-point-4__2" name="buying-point-4" >
+                                        <div class="point_product">
+                                            <div class="point_product_content">
+                                                <div class="point_product_img">
+                                                    <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_10.jpg" alt="" />
+                                                </div>
+                                                <div class="point_product_text">
+                                                    <h4>Copilot+ PC</h4>
+                                                    <p>
+                                                        마이크로소프트의 AI 솔루션인 Copilot+ PC를 기반으로 한 AI 기능을 경험해보세요. 입력한 이미지와 텍스트를 바탕으로 원하는 결과물을 도출해내는
+                                                        ‘Cocreator’, 영상 속 언어를 번역해 자막을 생성해주는 ‘라이브 캡션’, 화상 회의나 통화에 집중할 수 있도록 조명이나 소음을 자동으로 조절해주는
+                                                        ‘Studio Effects’ 기능으로 다양한 상황이나 용도에 맞게 편리한 활용성을 더해줍니다.
+                                                    </p>
+                                                    <p class="des">
+                                                        * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="point_product_content">
+                                                <div class="point_product_img">
+                                                    <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_19.jpg" alt="" />
+                                                </div>
+                                                <div class="point_product_text">
+                                                    <h4>Cocreator</h4>
+                                                    <p>
+                                                        Copliot + 를 통해 입력한 이미지와 텍스트를 바탕으로 원하는 결과물을 쉽고 빠르게 도출할 수 있어요.
+                                                    </p>
+                                                    <p class="des">
+                                                        * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                                                    </p>
+                                                    <button class="btn-collapse-toggle">
+                                                        <span>* 세부 정보</span>
+                                                    </button>
+                                                    <div class="collapse-content">
+                                                        <p>
+                                                            * 자세한 내용은 https://aka.ms/copilotpluspc 를 참조하시기 바랍니다.
+                                                        </p>
+                                                        <button class="btn-collapse-close">접기</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="point_product_content">
+                                                <div class="point_product_img">
+                                                    <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_11.jpg" alt="" />
+                                                </div>
+                                                <div class="point_product_text">
+                                                    <h4>라이브 캡션</h4>
+                                                    <p>
+                                                        녹화된 비디오는 물론 라이브 영상까지 실시간으로 언어를 번역해 자막을 생성해줘요.
+                                                    </p>
+                                                    <p class="des">
+                                                        * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                                                    </p>
+                                                    <button class="btn-collapse-toggle">
+                                                        <span>* 세부 정보</span>
+                                                    </button>
+                                                    <div class="collapse-content">
+                                                        <p>
+                                                            * 자세한 내용은 https://aka.ms/copilotpluspc 를 참조하시기 바랍니다.
+                                                        </p>
+                                                        <button class="btn-collapse-close">접기</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="point_product_content">
+                                                <div class="point_product_img">
+                                                    <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_12.jpg" alt="" />
+                                                </div>
+                                                <div class="point_product_text">
+                                                    <h4>Studio Effects</h4>
+                                                    <p>
+                                                        화상 통화 시 인물을 중앙에 고정하거나 조명과 소음을 자동으로 조절해 더 집중할 수 있는 환경을 연출해 줘요.
+                                                    </p>
+                                                    <p class="des">
+                                                        * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                                                    </p>
+                                                    <button class="btn-collapse-toggle">
+                                                        <span>* 세부 정보</span>
+                                                    </button>
+                                                    <div class="collapse-content">
+                                                        <p>
+                                                            * 자세한 내용은 https://aka.ms/copilotpluspc 를 참조하시기 바랍니다.
+                                                        </p>
+                                                        <button class="btn-collapse-close">접기</button>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    </div>
-                                    <div class="detail-wrap">
-                                    <button class="btn-collapse-toggle">
-                                        <span>* LG gram Link / My ThinQ</span>
-                                    </button>
-                                    <div class="collapse-content">
-                                        <p>
-                                        <b>[LG gram Link]</b><br />
-                                        * 최초 1회 연결 시에는 gram 노트북과 연결하고자 하는 대상인 모바일 기기, LG 스마트 모니터, 스마트 TV가 같은 네트워크망에 있어야
-                                        합니다.<br />
-                                        * 모바일 기기, LG스마트 모니터, 스마트TV에 LG gram Link 앱 설치가 필요하며 최소사양은 web OS 26이상, iOS 16.4 이상,
-                                        안드로이드9 OS 이상이어야 합니다.<br />
-                                        * 파일 공유 기능은 블루투스 기능을 활용하여 네트워크 연결 없이도 사용이 가능합니다. 파일 공유를 제외한 모든 기능은 노트북과 모바일 기기가 동일한
-                                        네트워크에 연결된 상태에서 사용이 가능합니다.<br />
-                                        * 스마트 모니터는 추후 지원 예정이며 일부 스마트 TV 및 모니터는 지원되지 않을 수 있습니다.
-                                        </p>
-                                        <p>
-                                        <b>[My ThinQ]</b><br />
-                                        * 26년 1Q부터 지원될 예정이며 26년향 그램 신모델에 전체 지원 가능합니다.<br />
-                                        * 사용환경 또는 제품 스펙에 따라 일부 가전기기 지원이 제한될 수 있습니다.
-                                        </p>
-                                        <button class="btn-collapse-close">접기</button>
-                                    </div>
-                                    </div>
-                                </div>
-                                </div>
-                                <div class="col">
-                                <div>
-                                    <div class="content-wrap">
-                                    <div>
-                                        <h3>Secure Lock</h3>
-                                        <p>
-                                        노트북 도난이나 분실 상황에서도 모바일 ThinQ 앱을 통해 노트북을 잠그거나 개인 데이터를 완전히 삭제할 수 있어 내 개인정보를 안전하게 보호할 수
-                                        있어요.
-                                        </p>
-                                    </div>
-                                    <div>
-                                        <div class="media-wrap">
-                                        <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_15.jpg" alt="" />
+                                    <div class="point_product_tip">
+                                        <div class="point_product_tip_title">이런 포인트도 살펴보면 좋아요!</div>
+                                        <div class="point_product_tip_content">
+                                            <div class="point_product_tip_text">
+                                                <p class="tag">
+                                                #멀티AI #멀티AI의 정점
+                                                </p>
+                                                <div class="point_product_tip_tit">
+                                                더 확장되고 강력해진 AI PC, 프로의 멀티 AI
+                                                </div>
+                                                <p class="point_product_tip_desc">
+                                                EXAONE 3.5기반의 온디바이스 AI로 LG AI만의 편리한 기능과 Copilot+ PC 의 기능을 자유롭게 선택하여 활용해보세요. 특히 그램 AI는 문맥까지
+                                                이해하고 답하는 ‘마이 아카이브’, 지나간 화면을 다시 보여주는 ‘타임 트래블’ 등의 기능을 네트워크 연결 없이도 내 PC 데이터만을 바탕으로 답해주어 사용도
+                                                효율적입니다.
+                                                </p>
+                                            </div>
+                                            <div class="point_product_tip_img">
+                                                <picture>
+                                                    <source media="(max-width: 767px)" srcset="/kr/story/buying-guide/2025/img/notebook/img_M15_101_03.jpg" />
+                                                    <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_13.jpg" alt="한 남성이 카페에서 노트북을 사용하고 있는 모습" />
+                                                </picture>
+                                            </div>
                                         </div>
                                     </div>
-                                    </div>
-                                    <div class="detail-wrap">
-                                    <button class="btn-collapse-toggle">
-                                        <span>* Secure Lock</span>
-                                    </button>
-                                    <div class="collapse-content">
-                                        <p>
-                                        * LG gram이 네트워크에 연결되어 있어야 데이터 삭제가 가능합니다.<br />
-                                        * 본 기능은 노트북과 ThinQ앱을 최초 1회 연동 완료한 후 사용 가능합니다.<br />
-                                        * 본 기능의 사용을 위해서는 네트워크 연결이 반드시 필요합니다.​
-                                        </p>
-                                        <button class="btn-collapse-close">접기</button>
-                                    </div>
-                                    </div>
-                                </div>
                                 </div>
                             </div>
-                            </div>
+                            <p class="note aling-left">
+                                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                            </p>
                         </div>
-                        <p class="note">
-                            * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
-                            스펙은 다를 수 있습니다.
-                        </p>
+                        <div class="point-box">
+                            <h2 class="box-subtitle">
+                                생활에 편리함을 더하는 <br />
+                                실용적인 기능도 함께 알아보세요.
+                            </h2>
+                            <!-- <div class="tab-wrap">
+                            <button
+                                class="active"
+                                name="buying-guide-tab"
+                                data-target="#buying-point-7"
+                                data-group="buying-point-50"
+                            >
+                                편의기능
+                            </button>
+                            <button
+                                name="buying-guide-tab"
+                                data-target="#buying-point-8"
+                                data-group="buying-point-50"
+                            >
+                                디스플레이
+                            </button>
+                            </div> -->
+                            <div class="tab-content">
+                                <div id="buying-point-7" name="buying-point-50">
+                                <div class="slideWrap colWrap" style="--box-height: 560px; --box-m-height: 400px">
+                                    <div class="col">
+                                    <div>
+                                        <div class="content-wrap">
+                                        <div>
+                                            <h3>My gram</h3>
+                                            <p>
+                                            My gram에서 다양한 소프트웨어를 간편하게 사용하세요. 그램 AI를 지원하는 gram chat On-Device, 모바일은 물론 TV, 모니터까지
+                                            연결해주는 LG gram Link, 우리집 가전을 제어하는 My ThinQ까지 필요한 앱에 바로 접속할 수 있어요. PC 상태도 나에게 맞게 손쉽게 설정해
+                                            보세요.
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <div class="media-wrap">
+                                            <button class="btn-pause">일시멈춤</button>
+                                            <video autoplay playsinline loop muted
+                                                src="/kr/story/buying-guide/2025/video/notebook/vid_P15_101_05.mp4"></video>
+                                            </div>
+                                        </div>
+                                        </div>
+                                        <div class="detail-wrap">
+                                        <button class="btn-collapse-toggle hidden">
+                                            <span>* LG gram Link / My ThinQ</span>
+                                        </button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col">
+                                    <div>
+                                        <div class="content-wrap">
+                                        <div>
+                                            <h3>LG gram Link & My ThinQ</h3>
+                                            <p>
+                                            더 확장된 LG gram Link는 더욱 편리한 기능들을 제공합니다. LG TV나 스마트 모니터에 간편하게 연결할 수 있는 기능은 물론, 자유로운 파일
+                                            전송이 가능하고 LG gram Link로 연동된 휴대폰에서 전화를 걸어주거나 My ThinQ 앱을 통해 집 안의 다양한 LG 가전기기를 간편하게 제어할 수
+                                            있습니다.
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <div class="media-wrap">
+                                            <div class="autoplay-slider-wrap">
+                                                <div class="slider">
+                                                <div>
+                                                    <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_14.jpg" alt="" />
+                                                </div>
+                                                <div>
+                                                    <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_16.jpg" alt="" />
+                                                </div>
+                                                <div>
+                                                    <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_17.jpg" alt="" />
+                                                </div>
+                                                <div>
+                                                    <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_18.jpg" alt="" />
+                                                </div>
+                                                </div>
+                                                <div class="slider-controls">
+                                                <button class="btn-play" data-state="playing">
+                                                    Pause
+                                                </button>
+                                                <div class="counter">
+                                                    <span class="current">1</span>
+                                                    <span class="bar"></span>
+                                                    <span class="total">4</span>
+                                                </div>
+                                                <button class="btn-nav btn-prev">Prev</button>
+                                                <button class="btn-nav btn-next">Next</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                        <div class="detail-wrap">
+                                        <button class="btn-collapse-toggle">
+                                            <span>* LG gram Link / My ThinQ</span>
+                                        </button>
+                                        <div class="collapse-content">
+                                            <p>
+                                            <b>[LG gram Link]</b><br />
+                                            * 최초 1회 연결 시에는 gram 노트북과 연결하고자 하는 대상인 모바일 기기, LG 스마트 모니터, 스마트 TV가 같은 네트워크망에 있어야
+                                            합니다.<br />
+                                            * 모바일 기기, LG스마트 모니터, 스마트TV에 LG gram Link 앱 설치가 필요하며 최소사양은 web OS 26이상, iOS 16.4 이상,
+                                            안드로이드9 OS 이상이어야 합니다.<br />
+                                            * 파일 공유 기능은 블루투스 기능을 활용하여 네트워크 연결 없이도 사용이 가능합니다. 파일 공유를 제외한 모든 기능은 노트북과 모바일 기기가 동일한
+                                            네트워크에 연결된 상태에서 사용이 가능합니다.<br />
+                                            * 스마트 모니터는 추후 지원 예정이며 일부 스마트 TV 및 모니터는 지원되지 않을 수 있습니다.
+                                            </p>
+                                            <p>
+                                            <b>[My ThinQ]</b><br />
+                                            * 26년 1Q부터 지원될 예정이며 26년향 그램 신모델에 전체 지원 가능합니다.<br />
+                                            * 사용환경 또는 제품 스펙에 따라 일부 가전기기 지원이 제한될 수 있습니다.
+                                            </p>
+                                            <button class="btn-collapse-close">접기</button>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col">
+                                    <div>
+                                        <div class="content-wrap">
+                                        <div>
+                                            <h3>Secure Lock</h3>
+                                            <p>
+                                            노트북 도난이나 분실 상황에서도 모바일 ThinQ 앱을 통해 노트북을 잠그거나 개인 데이터를 완전히 삭제할 수 있어 내 개인정보를 안전하게 보호할 수
+                                            있어요.
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <div class="media-wrap">
+                                            <img src="/kr/story/buying-guide/2025/img/notebook/img_P15_101_15.jpg" alt="" />
+                                            </div>
+                                        </div>
+                                        </div>
+                                        <div class="detail-wrap">
+                                        <button class="btn-collapse-toggle">
+                                            <span>* Secure Lock</span>
+                                        </button>
+                                        <div class="collapse-content">
+                                            <p>
+                                            * LG gram이 네트워크에 연결되어 있어야 데이터 삭제가 가능합니다.<br />
+                                            * 본 기능은 노트북과 ThinQ앱을 최초 1회 연동 완료한 후 사용 가능합니다.<br />
+                                            * 본 기능의 사용을 위해서는 네트워크 연결이 반드시 필요합니다.​
+                                            </p>
+                                            <button class="btn-collapse-close">접기</button>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <p class="note aling-left">
+                                * 소비자의 이해를 돕기 위해 연출된 이미지와 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                            </p>
                         </div>
                     </div>
                 </section>
@@ -1788,7 +1863,7 @@
                     <div class="tip-wrap">
                         <article class="tip-faq">
                             <h3>
-                                <img src="/kr/story/buying-guide/2025/img/ic32_inquiry.png" alt="검은색 말풍선 모양의 3D 아이콘."/>
+                                <img src="/kr/story/buying-guide/2025/img/ic32_inquiry.png" alt=""/>
                                 문의 답변
                             </h3>
                             <p>노트북, 궁금했던 모든 것에 답해 드려요.</p>
@@ -1798,7 +1873,7 @@
                         </article>
                         <article class="tip-subscribe">
                             <h3>
-                                <img src="/kr/story/buying-guide/2025/img/ic32_subscribe.png" alt="흰색 캘린더 3D 아이콘."/>
+                                <img src="/kr/story/buying-guide/2025/img/ic32_subscribe.png" alt=""/>
                                 구독 상품
                             </h3>
                             <p>노트북을 정기적으로 구독하고 싶다면?</p>
@@ -1808,7 +1883,7 @@
                         </article>
                         <article class="tip-best">
                             <h3>
-                                <img src="/kr/story/buying-guide/2025/img/ic32_products.png" alt="빨간색 원형 배경에 흰색 엄지손가락 치켜세운 모양의 3D 아이콘."/>
+                                <img src="/kr/story/buying-guide/2025/img/ic32_products.png" alt=""/>
                                 인기 상품
                             </h3>
                             <p>지금 가장 인기 있는 노트북을 확인해 보세요!</p>
@@ -1858,4 +1933,4 @@
         <script src="/kr/story/js/jquery.viewportchecker.min.js"></script>
       </body>
 
-      </html>
+</html>
