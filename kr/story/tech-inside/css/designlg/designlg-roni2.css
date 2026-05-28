@@ -706,9 +706,9 @@
   width: clamp(100vw, 86.8056vw + 256px, 120vw);
   aspect-ratio: 1920/1080;
   left: 50%;
-  top: 47%;
+  top: 52%;
   transform: translate(-50%, -50%);
-  opacity: 0.5;
+  opacity: 1;
   mix-blend-mode: screen;
   filter: brightness(1.12) contrast(1.18);
   z-index: 3;
@@ -721,7 +721,7 @@
   width: clamp(100vw, 86.8056vw + 256px, 120vw);
   aspect-ratio: 1920/1080;
   left: 50%;
-  top: 47%;
+  top: 52%;
   transform: translate(-50%, -50%);
   mix-blend-mode: screen;
   filter: brightness(1.12) contrast(1.18);
@@ -751,7 +751,7 @@
   width: clamp(100vw, 86.8056vw + 256px, 120vw);
   aspect-ratio: 1920/1080;
   position: absolute;
-  top: 42%;
+  top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 3;
@@ -1398,6 +1398,7 @@
   -o-object-fit: cover;
      object-fit: cover;
   display: block;
+  border-radius: var(--border-radius);
 }
 
 /* ************** DESIGN ************** */
@@ -2293,6 +2294,10 @@
   list-style: none;
   padding: 0;
   box-sizing: border-box;
+}
+
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd .qna-img picture img {
+  border-radius: 4px;
 }
 
 #designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd .qna-img li {

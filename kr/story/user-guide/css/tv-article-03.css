@@ -411,10 +411,13 @@ img {
 .contents__table td {
   padding: 24.4px 0;
   background: #fff;
+  min-width: 210px;
 }
 .contents__table td:not(:last-of-type) {
   border-right: 1px solid #dde2e8;
 }
+
+
 @media screen and (max-width: 1024px) {
   .contents {
     padding-top: 60px;
@@ -519,11 +522,13 @@ img {
     padding: 20px 8px;
     font-size: 14px;
     line-height: 1.35;
+     min-width:175px;
   }
   .contents__table th,
   .contents__table td {
     white-space: nowrap;
   }
+
 }
 
 .product {
