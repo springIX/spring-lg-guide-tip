@@ -195,19 +195,20 @@
 #gjw011 .summary-list {
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
-	padding: 2px 22px;
+	padding: 0 22px;
 }
 
 #gjw011 .summary-list li {
 	position: relative;
-	padding: 20px 0 20px 35px;
+	padding: 22px 0px;
+	padding-left: 2em;
 	border-bottom: 1px solid #a7a7a7;
 }
 
 #gjw011 .summary-list li::before {
 	content: "";
 	position: absolute;
-	left: 15px;
+	left: 0.8em;
 	top: 35px;
 	width: 5px;
 	height: 5px;
@@ -250,7 +251,7 @@
 #gjw011 .num-list-red {
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
-	padding: 32px 0;
+	padding: 28px 0;
 }
 
 #gjw011 .num-list-red > li {
@@ -287,6 +288,9 @@
 	flex: 1;
 	min-width: 0;
 }
+#gjw011 .num-list-red .txt-box h5 {
+	margin-bottom: 8px;
+}
 
 #gjw011 .bullet-list li {
 	position: relative;
@@ -310,8 +314,12 @@
 	background: #f3f5f7;
 }
 
-#gjw011 .table-wrap {
+#gjw011 .table-title {
+	letter-spacing: 0;
 	margin-top: 46px;
+}
+#gjw011 .table-wrap {
+	margin-top: 32px;
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
 	overflow: hidden;
@@ -346,6 +354,9 @@
 	font-size: 24px;
 	font-weight: 700;
 	letter-spacing: -0.002em;
+}
+#gjw011 th:first-child { 
+	width: 313px;
 }
 
 #gjw011 td {
@@ -396,7 +407,7 @@
 }
 
 #gjw011 .sec-banner {
-	margin-top: 180px;
+	margin-top: 80px;
 	padding-bottom: 120px;
 }
 
@@ -469,6 +480,13 @@
 #gjw011 .space-y-pc-20 > div:not(:last-child) {
 	margin-bottom: 20px;
 }
+
+#gjw011 .example-list { margin-top: 20px; }
+#gjw011 .example-list li { font-size: 22px; line-height: 1.4; letter-spacing: 0; }
+#gjw011 .example-list li { display: flex; justify-content: flex-start; align-items: flex-start; gap: 4px; }
+#gjw011 .example-list li + li { margin-top: 8px; }
+#gjw011 .example-list li:before { content: "예)"; flex-shrink: 0; }
+
 @media screen and (max-width: 1136px) {
 	#gjw011 br.pc-only {
 		display: none;
@@ -565,13 +583,12 @@
 	}
 
 	#gjw011 .mt-46,
-	#gjw011 .feature-img.mt-46,
-	#gjw011 .table-wrap {
+	#gjw011 .feature-img.mt-46 {
 		margin-top: 13px;
 	}
 
 	#gjw011 .mb-20 {
-		margin-bottom: 13px;
+		margin-bottom: 10px;
 	}
 
 	#gjw011 .mb-8 {
@@ -579,7 +596,7 @@
 	}
 
 	#gjw011 .summary-list {
-		padding: 11px 0;
+		padding: 1px 0;
 		border-top-width: 0.5px;
 		border-bottom-width: 0.5px;
 	}
@@ -598,6 +615,7 @@
 
 	#gjw011 .step-title {
 		gap: 10px;
+		margin-bottom: 13px;
 	}
 
 	#gjw011 .step-title .num {
@@ -618,13 +636,12 @@
 		border-top-width: 0.5px;
 		border-bottom-width: 0.5px;
 	}
-
 	#gjw011 .num-list-red > li {
 		padding-bottom: 14px;
 		margin-bottom: 14px;
 		border-bottom-width: 0.5px;
 	}
-
+	
 	#gjw011 .num-list-red .n {
 		align-items: flex-start;
 		justify-content: center;
@@ -635,13 +652,15 @@
 		line-height: 1.4;
 		align-items: center;
 	}
-
+	#gjw011 .num-list-red .txt-box h5 {
+		margin-bottom: 4px;
+	}
 	#gjw011 .num-list-red .tip-item .n {
 		font-size: 14px;
 	}
 
 	#gjw011 .bullet-list li {
-		margin-bottom: 8px;
+		margin-bottom: 4px;
 		padding-left: 8px;
 	}
 
@@ -657,20 +676,27 @@
 	#gjw011 th,
 	#gjw011 td {
 		padding: 9px 0px;
+		padding-left: 11px;
 		padding-right: 0;
 		font-size: 14px;
-		line-height: 1.6;
+		line-height: 1.4;
+		letter-spacing: -0.005em;
 	}
 
 	#gjw011 th {
 		font-size: 14px;
 	}
-
+	#gjw011 th:first-child {
+		width: 18%;
+	}
 	#gjw011 td:first-child {
 		width: 28%;
 		font-size: 14px;
 		line-height: 1.6;
 		padding-left: 11px;
+	}
+	#gjw011 td:not(:first-child) {
+		align-content: flex-start;
 	}
 
 	#gjw011 .tip-panel {
@@ -697,7 +723,7 @@
 	}
 
 	#gjw011 .sec-banner {
-		margin-top: 80px;
+		margin-top: 60px;
 		padding-bottom: 60px;
 	}
 
@@ -755,4 +781,12 @@
 		flex-basis: auto;
 		margin-bottom: 14px;
 	}
+
+	#gjw011 .m-mt-13,
+	#gjw011 .table-title,
+	#gjw011 .table-wrap  { margin-top: 13px; }
+	
+	#gjw011 .example-list { margin-top: 14px; }
+	#gjw011 .example-list li { font-size: 14px; line-height: 1.6; letter-spacing: -0.005em; }
+	#gjw011 .example-list li + li { margin-top: 4px; }
 }
