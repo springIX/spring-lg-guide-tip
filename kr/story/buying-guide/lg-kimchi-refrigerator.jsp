@@ -311,8 +311,8 @@
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/kimchi-refrigerators?subCateId=CT50000073"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span>LG 디오스 오브제컬렉션 김치톡톡 </span></a
+                        target="_blank" rel="noopener"
+                         title="새창열림"><span>LG 디오스 오브제컬렉션 김치톡톡 </span></a
                       >
                       <p>4도어<span></span>1등급</p>
                     </div>
@@ -363,8 +363,8 @@
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/kimchi-refrigerators?subCateId=CT50000073"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span>LG 디오스 오브제컬렉션 김치톡톡 Fit & Max</span>
+                        target="_blank" rel="noopener"
+                         title="새창열림"><span>LG 디오스 오브제컬렉션 김치톡톡 Fit & Max</span>
                       </a>
                       <p>4도어<span></span>1등급</p>
                     </div>
@@ -412,8 +412,8 @@
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/kimchi-refrigerators?subCateId=CT50000073"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span>LG 디오스 오브제컬렉션 김치톡톡</span></a
+                        target="_blank" rel="noopener"
+                         title="새창열림"><span>LG 디오스 오브제컬렉션 김치톡톡</span></a
                       >
                       <p>3도어<span></span>1등급</p>
                     </div>
@@ -464,8 +464,8 @@
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/kimchi-refrigerators?subCateId=CT50000073"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span
+                        target="_blank" rel="noopener"
+                         title="새창열림"><span
                           >LG 컨버터블 패키지 오브제컬렉션 Fit & Max
                           (김치전용고)</span
                         ></a
@@ -517,8 +517,8 @@
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/kimchi-refrigerators?subCateId=CT50000074"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span>LG 디오스 오브제컬렉션 김치톡톡</span></a
+                        target="_blank" rel="noopener"
+                         title="새창열림"><span>LG 디오스 오브제컬렉션 김치톡톡</span></a
                       >
                       <p>뚜껑형<span></span>2등급</p>
                     </div>
@@ -576,23 +576,23 @@
                     </caption>
                     <thead>
                       <tr class="procuct-name">
-                        <th>
+                        <th scope="col">
                           <h4>4도어</h4>
                           <p>다용도 분리벽으로 <br />칸마다 원하는 모드로 맞춤 보관</p>
                         </th>
-                        <th>
+                        <th scope="col">
                           <h4>4도어</h4>
                           <p>오픈형 상칸으로 <br />부피가 큰 식재료를 자유롭게</p>
                         </th>
-                        <th>
+                        <th scope="col">
                           <h4>3도어</h4>
                           <p>식재료는 다양하게 <br />주방 공간은 여유롭게</p>
                         </th>
-                        <th>
+                        <th scope="col">
                           <h4>컨버터블</h4>
                           <p>라이프스타일에 맞춰 <br />일체감 있고 깔끔한 인테리어</p>
                         </th>
-                        <th>
+                        <th scope="col">
                           <h4>뚜껑형</h4>
                           <p>김치 위주의 깔끔한 보관</p>
                         </th>
@@ -1170,41 +1170,41 @@
                         <td>
                           <a
                             href="https://www.lge.co.kr/category/kimchi-refrigerators?subCateId=CT50000073"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             class="btn-product"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                         </td>
                         <td>
                           <a
                             href="https://www.lge.co.kr/category/kimchi-refrigerators?subCateId=CT50000073"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             class="btn-product"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                         </td>
                         <td>
                           <a
                             href="https://www.lge.co.kr/category/kimchi-refrigerators?subCateId=CT50000073"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             class="btn-product"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                         </td>
                         <td>
                           <a
                             href="https://www.lge.co.kr/category/kimchi-refrigerators?subCateId=CT50000073"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             class="btn-product"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                         </td>
                         <td>
                           <a
                             href="https://www.lge.co.kr/category/kimchi-refrigerators?subCateId=CT50000074"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             class="btn-product"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                         </td>
                       </tr>
@@ -1290,8 +1290,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/kimchi-refrigerators?subCateId=CT50000073"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1315,8 +1315,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/kimchi-refrigerators?subCateId=CT50000074"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1335,14 +1335,14 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/convertible-refrigerators?subCateId=CT50220007"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                           <a
                             class="btn-guide"
                             href="https://www.lge.co.kr/story/user-guide/objetcollection-refrigerator-install-guide"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >설치 가이드 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">설치 가이드 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1373,14 +1373,14 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/kimchi-refrigerators?filterProduct=AT0000000242:KY0000003474:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                           <a
                             class="btn-guide"
                             href="https://www.lge.co.kr/story/user-guide/objetcollection-refrigerator-install-guide"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >설치 가이드 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">설치 가이드 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1435,14 +1435,14 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/kimchi-refrigerators?filterProduct=AT0000000242:KY0000001248:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                           <a
                             class="btn-guide"
                             href="https://www.lge.co.kr/story/user-guide/objetcollection-refrigerator-install-guide"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >설치 가이드 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">설치 가이드 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1624,8 +1624,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/kimchi-refrigerators?filterProduct=AT0000001251:KY0000001041:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1703,8 +1703,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/kimchi-refrigerators?filterProduct=AT0000001251:KY0000000690:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -2470,9 +2470,9 @@
                 <p>김치냉장고, 궁금했던 모든 것에 답해 드려요.</p>
                 <div class="btn-wrap">
                   <a
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                    target="_blank" rel="noopener"
                     href="https://www.lge.co.kr/story/useful-tip/kimchi-refrigerators-faq"
-                    >FAQ</a
+                     title="새창열림">FAQ</a
                   >
                 </div>
               </div>
@@ -2486,9 +2486,9 @@
                 <p>김치냉장고를 정기적으로 구독하고 싶다면?</p>
                 <div class="btn-wrap">
                   <a
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                    target="_blank" rel="noopener"
                     href="https://www.lge.co.kr/category/care-solutions/kimchi-refrigerators"
-                    >구독 상품</a
+                     title="새창열림">구독 상품</a
                   >
                 </div>
               </div>
@@ -2502,9 +2502,9 @@
                 <p>지금 가장 인기 있는 김치냉장고 확인해 보세요!</p>
                 <div class="btn-wrap">
                   <a
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                    target="_blank" rel="noopener"
                     href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000064&categoryId=CT50000072&categoryName=%EA%B9%80%EC%B9%98%EB%83%89%EC%9E%A5%EA%B3%A0"
-                    >베스트 랭킹</a
+                     title="새창열림">베스트 랭킹</a
                   >
                 </div>
               </div>

@@ -219,8 +219,8 @@
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/electric-ranges?subCateId=CT50000077"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        >LG 디오스 인덕션</a
+                        target="_blank" rel="noopener"
+                         title="새창열림">LG 디오스 인덕션</a
                       >
                       <p>미라듀어 글라스</p>
                     </div>
@@ -274,7 +274,7 @@
                         </caption>
                         <thead>
                           <tr class="procuct-name">
-                            <th colspan="3">
+                            <th scope="colgroup" colspan="3">
                               <h4>인덕션</h4>
                               <p>초고화력으로 모든 요리를 빠르게</p>
                             </th>
@@ -663,25 +663,25 @@
                             <td>
                               <a
                                 href="https://www.lge.co.kr/category/electric-ranges?subCateId=CT50000077&filterProduct=AT0000000164:KY0000004222:01"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                                target="_blank" rel="noopener"
                                 class="btn-product"
-                                >제품 보러 가기</a
+                                 title="새창열림">제품 보러 가기</a
                               >
                             </td>
                             <td>
                               <a
                                 href="https://www.lge.co.kr/category/electric-ranges?subCateId=CT50000077&filterProduct=AT0000000164:KY0000001050:01"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                                target="_blank" rel="noopener"
                                 class="btn-product"
-                                >제품 보러 가기</a
+                                 title="새창열림">제품 보러 가기</a
                               >
                             </td>
                             <td>
                               <a
                                 href="https://www.lge.co.kr/category/electric-ranges?subCateId=CT50000077&filterProduct=AT0000000164:KY0000001045:01"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                                target="_blank" rel="noopener"
                                 class="btn-product"
-                                >제품 보러 가기</a
+                                 title="새창열림">제품 보러 가기</a
                               >
                             </td>
                           </tr>
@@ -712,31 +712,31 @@
                         </colgroup>
                         <thead>
                           <tr>
-                            <th colspan="2" rowspan="3">라인업</th>
-                            <th colspan="2">미라듀어</th>
-                            <th colspan="2">매트라인</th>
-                            <th colspan="2">모노라인 글라스</th>
-                            <th colspan="2">오브제 화이트</th>
-                            <th colspan="2">블랙 세라믹</th>
+                            <th scope="colgroup" colspan="2" rowspan="3">라인업</th>
+                            <th scope="colgroup" colspan="2">미라듀어</th>
+                            <th scope="colgroup" colspan="2">매트라인</th>
+                            <th scope="colgroup" colspan="2">모노라인 글라스</th>
+                            <th scope="colgroup" colspan="2">오브제 화이트</th>
+                            <th scope="colgroup" colspan="2">블랙 세라믹</th>
                           </tr>
                           <tr>
-                            <th colspan="2" class="th2">
+                            <th scope="colgroup" colspan="2" class="th2">
                               견고하고 긁힘에 강한 프리미엄 블랙 글라스를 원하는
                               고객
                             </th>
-                            <th colspan="2" class="th2">
+                            <th scope="colgroup" colspan="2" class="th2">
                               인테리어에 고급스럽게 어우러지는 무광 디자인을
                               원하는 고객
                             </th>
-                            <th colspan="2" class="th2">
+                            <th scope="colgroup" colspan="2" class="th2">
                               깔끔한 원바디 디자인과 맑고 선명한
                               프리미엄 화이트 글라스를 원하는 고객
                             </th>
-                            <th colspan="2" class="th2">
+                            <th scope="colgroup" colspan="2" class="th2">
                               화이트 인테리어에 어울리는 심플한 인덕션을 원하는
                               고객
                             </th>
-                            <th colspan="2" class="th2">
+                            <th scope="colgroup" colspan="2" class="th2">
                               실용적이고 깔끔한 블랙 글라스를 원하는 고객
                             </th>
                           </tr>
@@ -775,7 +775,7 @@
                         </thead>
                         <tbody>
                           <tr>
-                            <th colspan="2">모델명</th>
+                            <th scope="row" colspan="2">모델명</th>
                             <td colspan="2">BE*3*<span class="red">M</span>****</td>
                             <td colspan="2">BE*3*<span class="red">SM</span>***</td>
                             <td colspan="2">BE*3*<span class="red">B</span>****</td>
@@ -785,7 +785,7 @@
                             </td>
                           </tr>
                           <tr>
-                            <th colspan="2">글라스 색상</th>
+                            <th scope="row" colspan="2">글라스 색상</th>
                             <td colspan="2">블랙</td>
                             <td colspan="2">무광 블랙</td>
                             <td colspan="2">웜 화이트</td>
@@ -796,7 +796,7 @@
                             <td colspan="2">블랙</td>
                           </tr>
                           <tr>
-                            <th colspan="2">최대 화력</th>
+                            <th scope="row" colspan="2">최대 화력</th>
                             <td colspan="2">3,400W</td>
                             <td colspan="2">3,400W</td>
                             <td colspan="2">3,400W</td>
@@ -804,7 +804,7 @@
                             <td colspan="2">3,400W</td>
                           </tr>
                           <tr>
-                            <th colspan="2">에너지등급</th>
+                            <th scope="row" colspan="2">에너지등급</th>
                             <td colspan="2">1등급</td>
                             <td colspan="2">1등급</td>
                             <td colspan="2">1등급</td>
@@ -812,8 +812,8 @@
                             <td colspan="2">1등급</td>
                           </tr>
                           <tr>
-                            <th rowspan="2">끓음알림</th>
-                            <th class="y th2">O</th>
+                            <th scope="rowgroup" rowspan="2">끓음알림</th>
+                            <th scope="row" class="y th2">O</th>
                             <td colspan="2">BE*3<span class="red">AM</span>****</td>
                             <td colspan="2">BE*3<span class="red">ASM</span>***</td>
                             <td colspan="2">BE*3<span class="red">AB</span>****</td>
@@ -821,7 +821,7 @@
                             <td colspan="2">BE*3<span class="red">ASB</span>***</td>
                           </tr>
                           <tr>
-                            <th class="n th2">X</th>
+                            <th scope="row" class="n th2">X</th>
                             <td colspan="2">BE*3<span class="red">QM</span>****</td>
                             <td colspan="2">-</td>
                             <td colspan="2">-</td>
@@ -832,7 +832,7 @@
                             <td class="line-break">BEI3HRBLE</td>
                           </tr>
                           <tr>
-                            <th colspan="2">사양</th>
+                            <th scope="row" colspan="2">사양</th>
                             <td colspan="2" class="th2">쿼드인버터</td>
                             <td colspan="2" class="th2">쿼드인버터</td>
                             <td colspan="2" class="th2">쿼드인버터</td>
@@ -872,8 +872,8 @@
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/electric-ranges?subCateId=CT50000078"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        >LG 디오스 하이브리드</a
+                        target="_blank" rel="noopener"
+                         title="새창열림">LG 디오스 하이브리드</a
                       >
                       <p>미라듀어 글라스</p>
                     </div>
@@ -925,7 +925,7 @@
                         </caption>
                         <thead>
                           <tr class="procuct-name">
-                            <th>
+                            <th scope="col">
                               <h4>하이브리드</h4>
                               <p>인덕션과 하이라이트를 합쳐 효율적으로</p>
                             </th>
@@ -1060,9 +1060,9 @@
                             <td>
                               <a
                                 href="https://www.lge.co.kr/category/electric-ranges?subCateId=CT50000078                                "
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                                target="_blank" rel="noopener"
                                 class="btn-product"
-                                >제품 보러 가기</a
+                                 title="새창열림">제품 보러 가기</a
                               >
                             </td>
                           </tr>
@@ -1145,8 +1145,8 @@
                             <a
                               class="btn-product"
                               href="https://www.lge.co.kr/category/electric-ranges?subCateId=CT50000077"
-                              target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                              >제품 보러 가기</a
+                              target="_blank" rel="noopener"
+                               title="새창열림">제품 보러 가기</a
                             >
                           </div>
                           <div class="img">
@@ -1165,8 +1165,8 @@
                             <a
                               class="btn-product"
                               href="https://www.lge.co.kr/category/electric-ranges?subCateId=CT50000078"
-                              target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                              >제품 보러 가기</a
+                              target="_blank" rel="noopener"
+                               title="새창열림">제품 보러 가기</a
                             >
                           </div>
                           <div class="img">
@@ -1200,8 +1200,8 @@
                             <a
                               class="btn-product"
                               href="https://www.lge.co.kr/category/electric-ranges?filterProduct=AT0000000242:KY0000000849:01"
-                              target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                              >제품 보러 가기</a
+                              target="_blank" rel="noopener"
+                               title="새창열림">제품 보러 가기</a
                             >
                           </div>
                           <div class="img">
@@ -1282,8 +1282,8 @@
                             <a
                               class="btn-product"
                               href="https://www.lge.co.kr/category/electric-ranges"
-                              target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                              >제품 보러 가기</a
+                              target="_blank" rel="noopener"
+                               title="새창열림">제품 보러 가기</a
                             >
                           </div>
                           <div class="img">
@@ -1503,8 +1503,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/electric-ranges?filterProduct=AT0000001251:KY0000004212:03​"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1862,8 +1862,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/electric-ranges?filterProduct=AT0000001261:KY0000004571:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1947,8 +1947,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/electric-ranges?filterProduct=AT0000001261:KY0000004572:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -2262,9 +2262,9 @@
                 <p>전기레인지, 궁금했던 모든 것에 답해 드려요.</p>
                 <div class="btn-wrap">
                   <a
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                    target="_blank" rel="noopener"
                     href="https://www.lge.co.kr/story/faq/electric-ranges-faq"
-                    >FAQ</a
+                     title="새창열림">FAQ</a
                   >
                 </div>
               </div>
@@ -2278,9 +2278,9 @@
                 <p>전기레인지를 정기적으로 구독하고 싶다면?</p>
                 <div class="btn-wrap">
                   <a
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                    target="_blank" rel="noopener"
                     href="https://www.lge.co.kr/category/care-solutions/electric-stoves"
-                    >구독 상품</a
+                     title="새창열림">구독 상품</a
                   >
                 </div>
               </div>
@@ -2294,9 +2294,9 @@
                 <p>지금 가장 인기 있는 전기레인지 확인해 보세요!</p>
                 <div class="btn-wrap">
                   <a
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                    target="_blank" rel="noopener"
                     href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000064&categoryId=CT50000076&categoryName=%EC%A0%84%EA%B8%B0%EB%A0%88%EC%9D%B8%EC%A7%80"
-                    >베스트 랭킹</a
+                     title="새창열림">베스트 랭킹</a
                   >
                 </div>
               </div>

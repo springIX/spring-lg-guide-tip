@@ -232,8 +232,8 @@
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000119&filterProduct=AT0000000140:KY0000001581:01"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span
+                        target="_blank" rel="noopener"
+                         title="새창열림"><span
                           >LG 코드제로 AI 오브제컬렉션 로보킹 올인원 (자동
                           급배수)</span
                         ></a
@@ -297,7 +297,7 @@
                         </caption>
                         <thead>
                           <tr class="procuct-name">
-                            <th colspan="4">
+                            <th scope="colgroup" colspan="4">
                               <h4>청소 로봇</h4>
                               <p>
                                 AI가 우리 집 공간에 맞춰
@@ -779,41 +779,41 @@
                             <!-- <td>
                               <a
                                 href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000119"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                                target="_blank" rel="noopener"
                                 class="btn-product"
-                                >제품 보러 가기</a
+                                 title="새창열림">제품 보러 가기</a
                               >
                             </td> -->
                             <td>
                               <a
                                 href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000119&filterProduct=AT0000000109:KY0000003021:03"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                                target="_blank" rel="noopener"
                                 class="btn-product"
-                                >제품 보러 가기</a
+                                 title="새창열림">제품 보러 가기</a
                               >
                             </td>
                             <td>
                               <a
                                 href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000119&filterProduct=AT0000000109:KY0000000629:03"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                                target="_blank" rel="noopener"
                                 class="btn-product"
-                                >제품 보러 가기</a
+                                 title="새창열림">제품 보러 가기</a
                               >
                             </td>
                             <td>
                               <a
                                 href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000119&filterProduct=AT0000000109:KY0000000616:03"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                                target="_blank" rel="noopener"
                                 class="btn-product"
-                                >제품 보러 가기</a
+                                 title="새창열림">제품 보러 가기</a
                               >
                             </td>
                             <td>
                               <a
                                 href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000119&filterProduct=AT0000000109:KY0000000628:03"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                                target="_blank" rel="noopener"
                                 class="btn-product"
-                                >제품 보러 가기</a
+                                 title="새창열림">제품 보러 가기</a
                               >
                             </td>
                           </tr>
@@ -841,8 +841,8 @@
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000115&filterProduct=AT0000000140:KY0000002661:01"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span>LG 코드제로 AI 오브제컬렉션 A9</span>
+                        target="_blank" rel="noopener"
+                         title="새창열림"><span>LG 코드제로 AI 오브제컬렉션 A9</span>
                       </a>
                       <p>흡입+스팀 물걸레</p>
                     </div>
@@ -903,7 +903,7 @@
                         </caption>
                         <thead>
                           <tr class="procuct-name">
-                            <th colspan="3">
+                            <th scope="colgroup" colspan="3">
                               <h4>무선청소기</h4>
                               <p>먼지 흡입과 물걸레질을 한손으로 가볍게</p>
                             </th>
@@ -1243,25 +1243,25 @@
                             <td>
                               <a
                                 href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000115&filterProduct=AT0000000109:KY0000003961:03"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                                target="_blank" rel="noopener"
                                 class="btn-product"
-                                >제품 보러 가기</a
+                                 title="새창열림">제품 보러 가기</a
                               >
                             </td>
                             <td>
                               <a
                                 href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000115&filterProduct=AT0000000109:KY0000003602:03"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                                target="_blank" rel="noopener"
                                 class="btn-product"
-                                >제품 보러 가기</a
+                                 title="새창열림">제품 보러 가기</a
                               >
                             </td>
                             <td>
                               <a
                                 href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000115&filterProduct=AT0000000109:KY0000003511:03"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                                target="_blank" rel="noopener"
                                 class="btn-product"
-                                >제품 보러 가기</a
+                                 title="새창열림">제품 보러 가기</a
                               >
                             </td>
                           </tr>
@@ -1297,83 +1297,83 @@
                         </colgroup>
                         <thead>
                           <tr>
-                            <th colspan="2" rowspan="2">모델 라인업</th>
-                            <th>A9 AI</th>
-                            <th>A7 Core</th>
-                            <th>A5</th>
+                            <th scope="colgroup" colspan="2" rowspan="2">모델 라인업</th>
+                            <th scope="col">A9 AI</th>
+                            <th scope="col">A7 Core</th>
+                            <th scope="col">A5</th>
                           </tr>
                           <tr>
-                            <th class="th2">AI958WA</th>
-                            <th class="th2">A737WA</th>
-                            <th class="th2">AS527WA</th>
+                            <th scope="col" class="th2">AI958WA</th>
+                            <th scope="col" class="th2">A737WA</th>
+                            <th scope="col" class="th2">AS527WA</th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
-                            <th colspan="2">올인원타워</th>
+                            <th scope="row" colspan="2">올인원타워</th>
                             <td class="y">O</td>
                             <td class="y">O</td>
                             <td class="y">O</td>
                           </tr>
                           <tr>
-                            <th colspan="2">AI · 스마트 청소</th>
+                            <th scope="row" colspan="2">AI · 스마트 청소</th>
                             <td class="y">O</td>
                             <td class="n">X</td>
                             <td class="n">X</td>
                           </tr>
                           <tr>
-                            <th rowspan="3">기본 사양</th>
-                            <th class="th2">최대흡입력(W)</th>
+                            <th scope="rowgroup" rowspan="3">기본 사양</th>
+                            <th scope="row" class="th2">최대흡입력(W)</th>
                             <td>320</td>
                             <td>220</td>
                             <td>150</td>
                           </tr>
                           <tr>
-                            <th class="th2">본체 무게(kg)</th>
+                            <th scope="row" class="th2">본체 무게(kg)</th>
                             <td>2.54</td>
                             <td>2.47</td>
                             <td>1.97</td>
                           </tr>
                           <tr>
-                            <th class="th2">크기(WxHxD, mm)</th>
+                            <th scope="row" class="th2">크기(WxHxD, mm)</th>
                             <td>300 x 1,100 x 245</td>
                             <td>250 x 1,120 x 260</td>
                             <td>251 x 1,026 x 242</td>
                           </tr>
                           <tr>
-                            <th rowspan="5">본체기능</th>
-                            <th class="th2">간편 비움 시스템</th>
+                            <th scope="rowgroup" rowspan="5">본체기능</th>
+                            <th scope="row" class="th2">간편 비움 시스템</th>
                             <td class="y">O</td>
                             <td class="y">O</td>
                             <td class="n">X</td>
                           </tr>
                           <tr>
-                            <th class="th2">스마트 인버터 모터</th>
+                            <th scope="row" class="th2">스마트 인버터 모터</th>
                             <td class="y">O</td>
                             <td class="y">O</td>
                             <td class="y">O</td>
                           </tr>
                           <tr>
-                            <th class="th2">4단계 길이 조절</th>
+                            <th scope="row" class="th2">4단계 길이 조절</th>
                             <td class="y">O</td>
                             <td class="y">O</td>
                             <td class="n">X</td>
                           </tr>
                           <tr>
-                            <th class="th2">5단계 미세먼지 차단</th>
+                            <th scope="row" class="th2">5단계 미세먼지 차단</th>
                             <td class="y">O</td>
                             <td class="y">O</td>
                             <td class="y">O</td>
                           </tr>
                           <tr>
-                            <th class="th2">오토 스탑&고</th>
+                            <th scope="row" class="th2">오토 스탑&고</th>
                             <td class="y">O</td>
                             <td class="n">X</td>
                             <td class="n">X</td>
                           </tr>
                           <tr>
-                            <th rowspan="2">편의/구성품</th>
-                            <th class="th2">기본 흡입구</th>
+                            <th scope="rowgroup" rowspan="2">편의/구성품</th>
+                            <th scope="row" class="th2">기본 흡입구</th>
                             <td>
                               와이드 LED+ 흡입구, 틈새 흡입구, 다용도 흡입구,
                               침구 전용 흡입구
@@ -1388,21 +1388,21 @@
                             </td>
                           </tr>
                           <tr>
-                            <th class="th2">배터리</th>
+                            <th scope="row" class="th2">배터리</th>
                             <td>2개</td>
                             <td>1개</td>
                             <td>1개</td>
                           </tr>
                           <tr>
-                            <th>스마트 기능</th>
-                            <th class="th2">UP 가전</th>
+                            <th scope="row">스마트 기능</th>
+                            <th scope="row" class="th2">UP 가전</th>
                             <td class="y">O</td>
                             <td class="n">X</td>
                             <td class="n">X</td>
                           </tr>
                           <tr>
-                            <th>성능 효율</th>
-                            <th class="th2">기본 흡입구</th>
+                            <th scope="row">성능 효율</th>
+                            <th scope="row" class="th2">기본 흡입구</th>
                             <td>-</td>
                             <td>-</td>
                             <td>-</td>
@@ -1432,8 +1432,8 @@
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000120&filterProduct=AT0000000140:KY0000001275:01"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span>LG CYKING K8</span></a
+                        target="_blank" rel="noopener"
+                         title="새창열림"><span>LG CYKING K8</span></a
                       >
                       <p>흡입 전용</p>
                     </div>
@@ -1488,7 +1488,7 @@
                         </caption>
                         <thead>
                           <tr class="procuct-name">
-                            <th colspan="3">
+                            <th scope="colgroup" colspan="3">
                               <h4>유선청소기</h4>
                               <p>먼지를 더 많이 담고 비움은 더 편리하게</p>
                             </th>
@@ -1779,25 +1779,25 @@
                             <td>
                               <a
                                 href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000120&filterProduct=AT0000001251:KY0000001074:03"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                                target="_blank" rel="noopener"
                                 class="btn-product"
-                                >제품 보러 가기</a
+                                 title="새창열림">제품 보러 가기</a
                               >
                             </td>
                             <td>
                               <a
                                 href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000120&filterProduct=AT0000000140:KY0000001275:01"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                                target="_blank" rel="noopener"
                                 class="btn-product"
-                                >제품 보러 가기</a
+                                 title="새창열림">제품 보러 가기</a
                               >
                             </td>
                             <td>
                               <a
                                 href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000120&filterProduct=AT0000000140:KY0000001275:01"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                                target="_blank" rel="noopener"
                                 class="btn-product"
-                                >제품 보러 가기</a
+                                 title="새창열림">제품 보러 가기</a
                               >
                             </td>
                           </tr>
@@ -1882,8 +1882,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000119&filterProduct=AT0000000140:KY0000001582:01,AT0000000140:KY0000001581:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1920,8 +1920,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000119&filterProduct=AT0000000109:KY0000003021:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1972,8 +1972,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000119&filterProduct=AT0000000138:KY0000001241:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -2041,8 +2041,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000119&filterProduct=AT0000000138:KY0000001241:01,AT0000000109:KY0000003021:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -2103,8 +2103,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000119&filterProduct=AT0000000138:KY0000001241:01,AT0000001251:KY0000003013:03,AT0000001251:KY0000003012:03,AT0000000109:KY0000003021:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -2167,8 +2167,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000119&filterProduct=AT0000000109:KY0000003021:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -2221,8 +2221,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000119&filterProduct=AT0000000109:KY0000003021:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -2263,8 +2263,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000119&filterProduct=AT0000000109:KY0000000629:03,AT0000000109:KY0000003021:03,AT0000000109:KY0000000628:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
 
@@ -2442,8 +2442,8 @@
                         <a
                           class="btn-product"
                           href="https://www.lge.co.kr/category/vacuum-cleaners?filterProduct=AT0000000109:KY0000003961:03"
-                          target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                          >제품 보러 가기</a
+                          target="_blank" rel="noopener"
+                           title="새창열림">제품 보러 가기</a
                         >
                       </div>
                       <div class="img">
@@ -2477,8 +2477,8 @@
                         <a
                           class="btn-product"
                           href="https://www.lge.co.kr/category/vacuum-cleaners?filterProduct=AT0000000109:KY0000000574:03"
-                          target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                          >제품 보러 가기</a
+                          target="_blank" rel="noopener"
+                           title="새창열림">제품 보러 가기</a
                         >
                       </div>
                       <div class="img">
@@ -2521,8 +2521,8 @@
                         <a
                           class="btn-product"
                           href="https://www.lge.co.kr/category/vacuum-cleaners?filterProduct=AT0000000109:KY0000003602:03"
-                          target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                          >제품 보러 가기</a
+                          target="_blank" rel="noopener"
+                           title="새창열림">제품 보러 가기</a
                         >
                       </div>
                       <div class="img">
@@ -2553,8 +2553,8 @@
                         <a
                           class="btn-product"
                           href="https://www.lge.co.kr/category/vacuum-cleaners?filterProduct=AT0000000109:KY0000003511:03"
-                          target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                          >제품 보러 가기</a
+                          target="_blank" rel="noopener"
+                           title="새창열림">제품 보러 가기</a
                         >
                       </div>
                       <div class="img">
@@ -2602,8 +2602,8 @@
                         <a
                           class="btn-product"
                           href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000115&filterProduct=AT0000000140:KY0000002661:01"
-                          target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                          >제품 보러 가기</a
+                          target="_blank" rel="noopener"
+                           title="새창열림">제품 보러 가기</a
                         >
                       </div>
                       <div class="img">
@@ -2684,8 +2684,8 @@
                         <a
                           class="btn-product"
                           href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000115&filterProduct=AT0000000140:KY0000002661:01,AT0000000140:KY0000001581:01,AT0000000109:KY0000003961:03,AT0000000109:KY0000000574:03"
-                          target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                          >제품 보러 가기</a
+                          target="_blank" rel="noopener"
+                           title="새창열림">제품 보러 가기</a
                         >
                       </div>
                       <div class="img">
@@ -2738,8 +2738,8 @@
                         <a
                           class="btn-product"
                           href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000115&filterProduct=AT0000000138:KY0000001241:01"
-                          target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                          >제품 보러 가기</a
+                          target="_blank" rel="noopener"
+                           title="새창열림">제품 보러 가기</a
                         >
                       </div>
                       <div class="img">
@@ -2792,8 +2792,8 @@
                         <a
                           class="btn-product"
                           href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000115&filterProduct=AT0000000138:KY0000001241:01,AT0000000109:KY0000003602:03,AT0000000109:KY0000000574:03,AT0000000109:KY0000003961:03"
-                          target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                          >제품 보러 가기</a
+                          target="_blank" rel="noopener"
+                           title="새창열림">제품 보러 가기</a
                         >
                       </div>
                       <div class="img">
@@ -2825,8 +2825,8 @@
                         <a
                           class="btn-product"
                           href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000115&filterProduct=AT0000000109:KY0000003961:03"
-                          target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                          >제품 보러 가기</a
+                          target="_blank" rel="noopener"
+                           title="새창열림">제품 보러 가기</a
                         >
                       </div>
                       <div class="img">
@@ -2890,8 +2890,8 @@
                         <a
                           class="btn-product"
                           href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000115&filterProduct=AT0000000109:KY0000003961:03"
-                          target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                          >제품 보러 가기</a
+                          target="_blank" rel="noopener"
+                           title="새창열림">제품 보러 가기</a
                         >
                       </div>
                       <div class="img">
@@ -2950,8 +2950,8 @@
                         <a
                           class="btn-product"
                           href="https://www.lge.co.kr/category/vacuum-cleaners?subCateId=CT50000115&filterProduct=AT0000000109:KY0000003961:03,AT0000000109:KY0000000574:03"
-                          target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                          >제품 보러 가기</a
+                          target="_blank" rel="noopener"
+                           title="새창열림">제품 보러 가기</a
                         >
                       </div>
                       <div class="img">
@@ -3460,14 +3460,14 @@
                 <p>청소기, 궁금했던 모든 것에 답해 드려요.</p>
                 <div class="btn-wrap">
                   <a
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                    target="_blank" rel="noopener"
                     href="https://www.lge.co.kr/story/faq/cordless-vacuum-cleaners-faq"
-                    >무선청소기 FAQ</a
+                     title="새창열림">무선청소기 FAQ</a
                   >
                   <a
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                    target="_blank" rel="noopener"
                     href="https://www.lge.co.kr/story/faq/robotic-vacuum-cleaner-faq"
-                    >청소 로봇 FAQ</a
+                     title="새창열림">청소 로봇 FAQ</a
                   >
                 </div>
               </div>
@@ -3481,9 +3481,9 @@
                 <p>청소기를 정기적으로 구독하고 싶다면?</p>
                 <div class="btn-wrap">
                   <a
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                    target="_blank" rel="noopener"
                     href="https://www.lge.co.kr/category/care-solutions/vacuum-cleaners"
-                    >구독 상품</a
+                     title="새창열림">구독 상품</a
                   >
                 </div>
               </div>
@@ -3497,9 +3497,9 @@
                 <p>지금 가장 인기 있는 청소기 확인해 보세요!</p>
                 <div class="btn-wrap">
                   <a
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                    target="_blank" rel="noopener"
                     href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000100&categoryId=CT50000111&categoryName=%EC%B2%AD%EC%86%8C%EA%B8%B0"
-                    >베스트 랭킹</a
+                     title="새창열림">베스트 랭킹</a
                   >
                 </div>
               </div>

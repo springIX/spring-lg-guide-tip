@@ -274,8 +274,8 @@
                         <div class="bubble">
                           <a
                             href="https://www.lge.co.kr/category/water-purifiers?subCateId=CT50250004&filterProduct=AT0000000144:KY0000000730:01,AT0000000109:KY0000002951:03&filterBrand=AT0000000111:KY0000000617:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            ><span>LG 퓨리케어 오브제컬렉션 얼음정수기</span></a
+                            target="_blank" rel="noopener"
+                             title="새창열림"><span>LG 퓨리케어 오브제컬렉션 얼음정수기</span></a
                           >
                           <p>데스크 정수기</p>
                         </div>
@@ -324,8 +324,8 @@
                         <div class="bubble">
                           <a
                             href="https://www.lge.co.kr/category/water-purifiers?subCateId=CT50000095&filterProduct=AT0000000144:KY0000000730:01,AT0000000121:KY0000000691:01,AT0000000109:KY0000001031:03,AT0000000109:KY0000000774:03,AT0000001251:KY0000001031:03&filterBrand=AT0000000111:KY0000000617:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            ><span
+                            target="_blank" rel="noopener"
+                             title="새창열림"><span
                               >LG 퓨리케어 오브제컬렉션 정수기(음성인식/맞춤
                               출수, 냉온정)</span
                             ></a
@@ -377,8 +377,8 @@
                         <div class="bubble">
                           <a
                             href="https://www.lge.co.kr/category/water-purifiers?filterBrand=AT0000000111:KY0000000617:01&filterProduct=AT0000000109:KY0000002011:03,AT0000000121:KY0000001091:01,AT0000000144:KY0000000730:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            ><span
+                            target="_blank" rel="noopener"
+                             title="새창열림"><span
                               >LG 퓨리케어 오브제컬렉션 정수기(라이트온,
                               정수전용)</span
                             ></a
@@ -430,8 +430,8 @@
                         <div class="bubble">
                           <a
                             href="https://www.lge.co.kr/category/water-purifiers?filterBrand=AT0000000111:KY0000000617:01&filterProduct=AT0000000144:KY0000000730:01,AT0000000109:KY0000000855:03,AT0000000121:KY0000000691:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            ><span
+                            target="_blank" rel="noopener"
+                             title="새창열림"><span
                               >LG 퓨리케어 오브제컬렉션 정수기(상하좌우,
                               냉온정)</span
                             ></a
@@ -492,8 +492,8 @@
                         <div class="bubble">
                           <a
                             href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000109:KY0000000737:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            ><span>LG 퓨리케어 오브제컬렉션 정수기</span>
+                            target="_blank" rel="noopener"
+                             title="새창열림"><span>LG 퓨리케어 오브제컬렉션 정수기</span>
                           </a>
                           <p>듀얼 정수기</p>
                         </div>
@@ -540,8 +540,8 @@
                         <div class="bubble">
                           <a
                             href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000109:KY0000000849:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            ><span>LG 퓨리케어 오브제컬렉션 정수기</span>
+                            target="_blank" rel="noopener"
+                             title="새창열림"><span>LG 퓨리케어 오브제컬렉션 정수기</span>
                           </a>
                           <p>빌트인 정수기</p>
                         </div>
@@ -594,8 +594,8 @@
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/water-purifiers?filterBrand=AT0000000111:KY0000000617:01&filterProduct=AT0000000144:KY0000000891:01"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span>LG 퓨리케어 오브제컬렉션 정수기</span></a
+                        target="_blank" rel="noopener"
+                         title="새창열림"><span>LG 퓨리케어 오브제컬렉션 정수기</span></a
                       >
                       <p>스탠드 정수기</p>
                     </div>
@@ -657,21 +657,21 @@
                     </caption>
                     <thead>
                       <tr class="procuct-name">
-                        <th colspan="4">
+                        <th scope="colgroup" colspan="4">
                           <h4>데스크 정수기</h4>
                           <p>
                             스마트한 정수와 위생관리로 깨끗한 물을
                             <br />걱정 없이 언제나 간편하게
                           </p>
                         </th>
-                        <th colspan="2">
+                        <th scope="colgroup" colspan="2">
                           <h4>빌트인 정수기</h4>
                           <p>
                             정수와 세척 기능을 한 번에 담아 물부터
                             <br />과일·채소까지 깨끗하게
                           </p>
                         </th>
-                        <th>
+                        <th scope="col">
                           <h4>스탠드 정수기</h4>
                           <p>공용 공간에서도 <br />누구나 편리하게</p>
                         </th>
@@ -1607,57 +1607,57 @@
                         <td>
                           <a
                             href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000121:KY0000000691:01,AT0000000144:KY0000000730:01,AT0000000109:KY0000002951:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             class="btn-product"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                         </td>
                         <td>
                           <a
                             href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000121:KY0000000691:01,AT0000000144:KY0000000730:01,AT0000000109:KY0000000774:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             class="btn-product"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                         </td>
                         <td>
                           <a
                             href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000144:KY0000000730:01,AT0000000121:KY0000001091:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             class="btn-product"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                         </td>
                         <td>
                           <a
                             href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000144:KY0000000730:01,AT0000000121:KY0000000691:01,AT0000000109:KY0000000855:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             class="btn-product"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                         </td>
                         <td>
                           <a
                             href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000109:KY0000000737:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             class="btn-product"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                         </td>
                         <td>
                           <a
                             href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000109:KY0000000849:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             class="btn-product"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                         </td>
                         <td>
                           <a
                             href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000109:KY0000000891:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             class="btn-product"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                         </td>
                       </tr>
@@ -2005,8 +2005,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000144:KY0000000849:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -2036,8 +2036,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000109:KY0000000855:03,AT0000000109:KY0000001853:03,AT0000000109:KY0000000774:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -2145,8 +2145,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000109:KY0000001031:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -2196,8 +2196,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000000109:KY0000000774:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -2244,8 +2244,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/water-purifiers?filterProduct=AT0000001251:KY0000000809:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -2456,9 +2456,9 @@
                 <p>정수기, 궁금했던 모든 것에 답해 드려요.</p>
                 <div class="btn-wrap">
                   <a
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                    target="_blank" rel="noopener"
                     href="https://www.lge.co.kr/story/faq/water-purifiers-faq"
-                    >FAQ</a
+                     title="새창열림">FAQ</a
                   >
                 </div>
               </div>
@@ -2472,9 +2472,9 @@
                 <p>정수기를 정기적으로 구독하고 싶다면?</p>
                 <div class="btn-wrap">
                   <a
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                    target="_blank" rel="noopener"
                     href="https://www.lge.co.kr/category/care-solutions/water-purifiers"
-                    >구독 상품</a
+                     title="새창열림">구독 상품</a
                   >
                 </div>
               </div>
@@ -2488,9 +2488,9 @@
                 <p>지금 가장 인기 있는 정수기 확인해 보세요!</p>
                 <div class="btn-wrap">
                   <a
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                    target="_blank" rel="noopener"
                     href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000064&categoryId=CT50000094&categoryName=%EC%A0%95%EC%88%98%EA%B8%B0"
-                    >베스트 랭킹</a
+                     title="새창열림">베스트 랭킹</a
                   >
                 </div>
               </div>

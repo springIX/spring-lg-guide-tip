@@ -227,8 +227,8 @@
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/dehumidifiers?filterProduct=AT0000000149:KY0000000262:01"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span>LG 휘센 오브제컬렉션 제습기</span></a
+                        target="_blank" rel="noopener"
+                         title="새창열림"><span>LG 휘센 오브제컬렉션 제습기</span></a
                       >
                       <p>제습능력 23L<span></span>에너지소비효율등급 1등급</p>
                     </div>
@@ -282,7 +282,7 @@
                         </caption>
                         <thead>
                           <tr class="procuct-name">
-                            <th colspan="3">
+                            <th scope="colgroup" colspan="3">
                               <h4>20L~23L</h4>
                               <p>넓은 공간 제습도 빠르고 강력하게</p>
                             </th>
@@ -699,9 +699,9 @@
                   <div class="btn-wrap">
                     <a
                       href="https://www.lge.co.kr/category/dehumidifiers?filterProduct=AT0000000149:KY0000000240:01,AT0000000149:KY0000002811:01,AT0000000149:KY0000000262:01"
-                      target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                      target="_blank" rel="noopener"
                       class="btn-product"
-                      >제품 보러 가기</a
+                       title="새창열림">제품 보러 가기</a
                     >
                   </div>
                 </div>
@@ -720,8 +720,8 @@
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/dehumidifiers?filterProduct=AT0000000149:KY0000003682:01"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span>LG 휘센 오브제컬렉션 제습기</span></a
+                        target="_blank" rel="noopener"
+                         title="새창열림"><span>LG 휘센 오브제컬렉션 제습기</span></a
                       >
                       <p>제습능력 18L<span></span>에너지소비효율등급 1등급</p>
                     </div>
@@ -774,7 +774,7 @@
                         </caption>
                         <thead>
                           <tr class="procuct-name">
-                            <th colspan="2">
+                            <th scope="colgroup" colspan="2">
                               <h4>15L~18L</h4>
                               <p>
                                 저소음 제습 모드로 긴 하루 끝의 휴식은 나만의
@@ -1063,9 +1063,9 @@
                   <div class="btn-wrap">
                     <a
                       href="https://www.lge.co.kr/category/dehumidifiers?filterProduct=AT0000000149:KY0000002823:01,AT0000000149:KY0000003682:01"
-                      target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                      target="_blank" rel="noopener"
                       class="btn-product"
-                      >제품 보러 가기</a
+                       title="새창열림">제품 보러 가기</a
                     >
                   </div>
                 </div>
@@ -1084,8 +1084,8 @@
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/dehumidifiers?filterProduct=AT0000000149:KY0000000111:01"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span>LG 휘센 오브제컬렉션 제습기</span></a
+                        target="_blank" rel="noopener"
+                         title="새창열림"><span>LG 휘센 오브제컬렉션 제습기</span></a
                       >
                       <p>제습능력 13L<span></span>에너지소비효율등급 1등급</p>
                     </div>
@@ -1138,7 +1138,7 @@
                         </caption>
                         <thead>
                           <tr class="procuct-name">
-                            <th>
+                            <th scope="col">
                               <h4>13L</h4>
                               <p>효율적인 제습으로 집 안 곳곳을 쾌적하게</p>
                             </th>
@@ -1306,9 +1306,9 @@
                   <div class="btn-wrap">
                     <a
                       href="https://www.lge.co.kr/category/dehumidifiers?filterProduct=AT0000000149:KY0000000111:01"
-                      target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                      target="_blank" rel="noopener"
                       class="btn-product"
-                      >제품 보러 가기</a
+                       title="새창열림">제품 보러 가기</a
                     >
                   </div>
                 </div>
@@ -2045,9 +2045,9 @@
                           <div>
                             <a
                               href="https://www.lge.co.kr/care-accessories/dehumidifier/AAA31615801"
-                              target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                              target="_blank" rel="noopener"
                               class="btn-product"
-                              >소모품 보러 가기</a
+                               title="새창열림">소모품 보러 가기</a
                             >
                             <div class="media-wrap">
                               <div class="autoplay-slider-wrap">
@@ -2194,9 +2194,9 @@
                           <div>
                             <a
                               href="https://www.lge.co.kr/care-accessories/dehumidifier?filterSmallCategory=CT50340003"
-                              target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                              target="_blank" rel="noopener"
                               class="btn-product"
-                              >소모품 보러 가기</a
+                               title="새창열림">소모품 보러 가기</a
                             >
                             <div class="media-wrap">
                               <div class="autoplay-slider-wrap">
@@ -2268,9 +2268,9 @@
                           <div>
                             <a
                               href="https://www.lge.co.kr/care-accessories/dehumidifier/AAA31413003"
-                              target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                              target="_blank" rel="noopener"
                               class="btn-product"
-                              >소모품 보러 가기</a
+                               title="새창열림">소모품 보러 가기</a
                             >
                             <div class="media-wrap">
                               <div class="autoplay-slider-wrap">
@@ -2343,9 +2343,9 @@
                 <p>제습기, 궁금했던 모든 것에 답해 드려요.</p>
                 <div class="btn-wrap">
                   <a
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                    target="_blank" rel="noopener"
                     href="https://www.lge.co.kr/story/faq/dehumidifiers-faq"
-                    >FAQ</a
+                     title="새창열림">FAQ</a
                   >
                 </div>
               </div>
@@ -2359,9 +2359,9 @@
                 <p>제습기를 정기적으로 구독하고 싶다면?</p>
                 <div class="btn-wrap">
                   <a
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                    target="_blank" rel="noopener"
                     href="https://www.lge.co.kr/category/care-solutions/dehumidifiers"
-                    >구독 상품</a
+                     title="새창열림">구독 상품</a
                   >
                 </div>
               </div>
@@ -2376,9 +2376,9 @@
                   <p>지금 가장 인기 있는 제습기 확인해 보세요!</p>
                   <div class="btn-wrap">
                     <a
-                      target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                      target="_blank" rel="noopener"
                       href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000130&categoryId=CT50000142&categoryName=%EC%A0%9C%EC%8A%B5%EA%B8%B0"
-                      >베스트 랭킹</a
+                       title="새창열림">베스트 랭킹</a
                     >
                   </div>
                 </div>

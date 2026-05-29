@@ -264,8 +264,8 @@
                         <div class="bubble">
                           <a
                             href="https://www.lge.co.kr/category/humidifiers?subCateId=CT50222000&filterProduct=AT0000000118:KY0000003191:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            ><span
+                            target="_blank" rel="noopener"
+                             title="새창열림"><span
                               >LG 퓨리케어 오브제컬렉션 하이드로타워</span
                             ></a
                           >
@@ -318,8 +318,8 @@
                         <div class="bubble">
                           <a
                             href="https://www.lge.co.kr/category/humidifiers?subCateId=CT50222000&filterProduct=AT0000000118:KY0000004574:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            ><span
+                            target="_blank" rel="noopener"
+                             title="새창열림"><span
                               >LG 퓨리케어 오브제컬렉션 하이드로에센셜</span
                             ></a
                           >
@@ -393,7 +393,7 @@
                           </caption>
                           <thead>
                             <tr class="procuct-name">
-                              <th colspan="2">
+                              <th scope="colgroup" colspan="2">
                                 <h4>정수 가습기</h4>
                                 <p>
                                   정수 필터링을 거친 깨끗한 물로 집 안 공기를
@@ -629,17 +629,17 @@
                               <td>
                                 <a
                                   href="https://www.lge.co.kr/category/humidifiers?subCateId=CT50222000&filterProduct=AT0000000323:KY0000001854:01"
-                                  target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                                  target="_blank" rel="noopener"
                                   class="btn-product"
-                                  >제품 보러 가기</a
+                                   title="새창열림">제품 보러 가기</a
                                 >
                               </td>
                               <td>
                                 <a
                                   href="https://www.lge.co.kr/category/humidifiers?subCateId=CT50222000&filterProduct=AT0000000323:KY0000004402:01"
-                                  target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                                  target="_blank" rel="noopener"
                                   class="btn-product"
-                                  >제품 보러 가기</a
+                                   title="새창열림">제품 보러 가기</a
                                 >
                               </td>
                             </tr>
@@ -669,8 +669,8 @@
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/humidifiers?subCateId=CT50222001&filterProduct=AT0000000118:KY0000000439:01"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span>LG 퓨리케어 자연기화 가습기</span></a
+                        target="_blank" rel="noopener"
+                         title="새창열림"><span>LG 퓨리케어 자연기화 가습기</span></a
                       >
                       <p>
                         자연기화 가습기<span></span> 가습량 500cc/h<span
@@ -736,7 +736,7 @@
                         </caption>
                         <thead>
                           <tr class="procuct-name">
-                            <th colspan="3">
+                            <th scope="colgroup" colspan="3">
                               <h4>자연기화 가습기</h4>
                               <p>
                                 눈에 보이지 않는 미세수분으로 우리 집을 촉촉하게
@@ -951,25 +951,25 @@
                             <td>
                               <a
                                 href="https://www.lge.co.kr/category/humidifiers?subCateId=CT50222001&filterProduct=AT0000000323:KY0000001856:01"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                                target="_blank" rel="noopener"
                                 class="btn-product"
-                                >제품 보러 가기</a
+                                 title="새창열림">제품 보러 가기</a
                               >
                             </td>
                             <td>
                               <a
                                 href="https://www.lge.co.kr/category/humidifiers?subCateId=CT50222001&filterColor=c_yellow"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                                target="_blank" rel="noopener"
                                 class="btn-product"
-                                >제품 보러 가기</a
+                                 title="새창열림">제품 보러 가기</a
                               >
                             </td>
                             <td>
                               <a
                                 href="https://www.lge.co.kr/category/humidifiers?subCateId=CT50222001&filterColor=c_blue"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                                target="_blank" rel="noopener"
                                 class="btn-product"
-                                >제품 보러 가기</a
+                                 title="새창열림">제품 보러 가기</a
                               >
                             </td>
                           </tr>
@@ -1069,8 +1069,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/humidifiers?subCateId=CT50222000"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1181,8 +1181,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/humidifiers?subCateId=CT50222001"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1347,8 +1347,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/humidifiers?filterProduct=AT0000000323:KY0000001854:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1382,8 +1382,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/humidifiers?filterProduct=AT0000000323:KY0000001856:01,AT0000000323:KY0000004402:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1417,8 +1417,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/humidifiers?subCateId=CT50222001&filterProduct=AT0000000323:KY0000001855:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1548,8 +1548,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/humidifiers?subCateId=CT50222000"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                           <div class="img">
                             <img
@@ -1577,8 +1577,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/humidifiers?subCateId=CT50222001"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                           <div class="img">
                             <img
@@ -1833,9 +1833,9 @@
                 <p>가습기, 궁금했던 모든 것에 답해 드려요.</p>
                 <div class="btn-wrap">
                   <a
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                    target="_blank" rel="noopener"
                     href="https://www.lge.co.kr/story/faq/humidifiers-faq"
-                    >FAQ</a
+                     title="새창열림">FAQ</a
                   >
                 </div>
               </div>
@@ -1849,9 +1849,9 @@
                 <p>가습기를 정기적으로 구독하고 싶다면?</p>
                 <div class="btn-wrap">
                   <a
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                    target="_blank" rel="noopener"
                     href="https://www.lge.co.kr/category/care-solutions/humidifiers"
-                    >구독 상품</a
+                     title="새창열림">구독 상품</a
                   >
                 </div>
               </div>
@@ -1865,9 +1865,9 @@
                 <p>지금 가장 인기 있는 가습기 확인해 보세요!</p>
                 <div class="btn-wrap">
                   <a
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                    target="_blank" rel="noopener"
                     href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000130&categoryId=CT50000139&categoryName=%EA%B0%80%EC%8A%B5%EA%B8%B0"
-                    >베스트 랭킹</a
+                     title="새창열림">베스트 랭킹</a
                   >
                 </div>
               </div>
