@@ -1,3 +1,72 @@
+/*
+	talbe-wrap 스크롤여부에 따라서 커서 표시
+*/
+	document.addEventListener("DOMContentLoaded", function () {
+		const tableWraps = document.querySelectorAll(".buying-guide-spec-table");
+
+		function updateScrollState() {
+		tableWraps.forEach(function (tableWrap) {
+			const hasScroll = tableWrap.scrollWidth > tableWrap.clientWidth + 1;
+			tableWrap.classList.toggle("is-scroll", hasScroll);
+		});
+		}
+
+		tableWraps.forEach(function (tableWrap) {
+			let isDragging = false;
+			let startX = 0;
+			let startScrollLeft = 0;
+			let isMoved = false;
+
+			tableWrap.addEventListener("pointerdown", function (event) {
+				if (!tableWrap.classList.contains("is-scroll")) return;
+				if (event.pointerType === "mouse" && event.button !== 0) return;
+
+				isDragging = true;
+				isMoved = false;
+				startX = event.clientX;
+				startScrollLeft = tableWrap.scrollLeft;
+
+				tableWrap.classList.add("is-grabbing");
+				tableWrap.setPointerCapture(event.pointerId);
+			});
+
+			tableWrap.addEventListener("pointermove", function (event) {
+				if (!isDragging) return;
+
+				const moveX = event.clientX - startX;
+
+				if (Math.abs(moveX) > 5) {
+				isMoved = true;
+				}
+
+				tableWrap.scrollLeft = startScrollLeft - moveX;
+				event.preventDefault();
+			});
+
+			tableWrap.addEventListener("pointerup", stopDragging);
+			tableWrap.addEventListener("pointercancel", stopDragging);
+
+			tableWrap.addEventListener("click", function (event) {
+				if (!isMoved) return;
+
+				const clickable = event.target.closest("a, button");
+				if (!clickable) return;
+
+				event.preventDefault();
+				event.stopPropagation();
+			});
+
+			function stopDragging() {
+				isDragging = false;
+				tableWrap.classList.remove("is-grabbing");
+			}
+		});
+
+		updateScrollState();
+
+		window.addEventListener("resize", updateScrollState);
+		window.addEventListener("load", updateScrollState);
+	});
 /* 
 	point-box item css로 매번 크기를 제어하던 부분들 겉어냄
 	요소중 가장큰 높이값을 기준

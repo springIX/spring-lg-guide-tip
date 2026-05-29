@@ -170,9 +170,7 @@
                     </div>
                     <!-- sub tablist -->
                     <div id="vertical-scroll-tab" class="tab-wrap" style="--btn-width: inherit; --btn-m-width: 270px">
-                        <!-- <button class="nav nav-left disabled"><</button>
-                                <button class="nav nav-right">></button> -->
-                        <div class="vertical-scroll-box">
+                        <div class="vertical-scroll-box" role="tablist" aria-orientation="horizontal">
                             <button class="tab-img active" name="buying-guide-tab" data-target="#product-type-1" data-group="product-type">
                                 <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_02.png" alt="">
                                 <span>
@@ -220,7 +218,7 @@
                                 ">
                                     <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                                     <div class="bubble">
-                                        <a href="https://www.lge.co.kr/stan-by-me/32lx6bpga" target="_blank" rel="noopener" aria-label="새 창에서 열림">
+                                        <a href="https://www.lge.co.kr/stan-by-me/32lx6bpga" target="_blank" rel="noopener" title="새창열림">
                                             <span>
                                                 LG 스탠바이미 2 Max
                                             </span>
@@ -272,7 +270,7 @@
                             ">
                                     <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                                     <div class="bubble">
-                                        <a href="https://www.lge.co.kr/stan-by-me/27lx6tqga" target="_blank" rel="noopener" aria-label="새 창에서 열림">
+                                        <a href="https://www.lge.co.kr/stan-by-me/27lx6tqga" target="_blank" rel="noopener" title="새창열림">
                                             <span>
                                                 LG 스탠바이미 2
                                             </span>
@@ -328,7 +326,7 @@
                             ">
                                     <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                                     <div class="bubble">
-                                        <a href="https://www.lge.co.kr/stan-by-me/27lx5qkna" target="_blank" rel="noopener" aria-label="새 창에서 열림">
+                                        <a href="https://www.lge.co.kr/stan-by-me/27lx5qkna" target="_blank" rel="noopener" title="새창열림">
                                             <span>
                                                 LG 스탠바이미 Go
                                             </span>
@@ -384,7 +382,7 @@
                                 모델별 적합한 사용 환경과 핵심 특징, 추천 상황을 한눈에 확인해보세요.
                             </p>
                         </div>
-                        <div class="table-wrap include-tab vertical-scroll-box buying-guide-spec-table">
+                        <div class="table-wrap buying-guide-spec-table">
                             <table>
                                 <caption class="blind">
                                     LG 스탠바이미 라인업 비교표입니다. LG 스탠바이미 2 Max, LG 스탠바이미 2, LG 스탠바이미 Go의 모델명, 적합한 사용 환경, 핵심 특징, 추천 상황을 비교할 수 있습니다.
@@ -812,19 +810,19 @@
                                             제품 보러 가기
                                         </th>
                                         <td>
-                                            <a href="https://www.lge.co.kr/category/stan-by-me?filterProduct=AT0000000109:KY0000004914:03" target="_blank" class="btn-product" rel="noopener" aria-label="새 창에서 열림">
+                                            <a href="https://www.lge.co.kr/category/stan-by-me?filterProduct=AT0000000109:KY0000004914:03" target="_blank" class="btn-product" rel="noopener" title="새창열림">
                                                 스탠바이미 2 Max
                                                 <br class="mo-only">
                                                 보러 가기
                                             </a>
                                         </td>
                                         <td>
-                                            <a href="https://www.lge.co.kr/category/stan-by-me?filterProduct=AT0000000109:KY0000003441:03" target="_blank" class="btn-product" rel="noopener" aria-label="새 창에서 열림">
+                                            <a href="https://www.lge.co.kr/category/stan-by-me?filterProduct=AT0000000109:KY0000003441:03" target="_blank" class="btn-product" rel="noopener" title="새창열림">
                                                 스탠바이미 2 보러 가기
                                             </a>
                                         </td>
                                         <td>
-                                            <a href="https://www.lge.co.kr/category/stan-by-me?filterProduct=AT0000000109:KY0000003442:03" target="_blank" class="btn-product" rel="noopener" aria-label="새 창에서 열림">
+                                            <a href="https://www.lge.co.kr/category/stan-by-me?filterProduct=AT0000000109:KY0000003442:03" target="_blank" class="btn-product" rel="noopener" title="새창열림">
                                                 스탠바이미 Go 보러 가기
                                             </a>
                                         </td>
@@ -867,7 +865,7 @@
                                 나에게 필요한 사양을 기준으로 제품을 비교해보세요.
                             </p>
                         </div>
-                        <div class="table-wrap include-tab vertical-scroll-box buying-guide-spec-table">
+                        <div class="table-wrap buying-guide-spec-table">
                             <table>
                                 <caption class="blind">
                                     LG 스탠바이미 주요 사양 비교표입니다. 화면 크기, 해상도, 화질 엔진, 돌비비전/돌비에트모스, 배터리, 스크린 조절 기능을 비교할 수 있습니다.
@@ -1321,7 +1319,7 @@
                         스탠바이미의 핵심 기능과 활용 방식을 확인해보세요
                     </div>
                     <div class="tab-wrap">
-                        <div class="vertical-scroll-box">
+                        <div class=">
                             <button class="active" name="buying-guide-tab" data-group="buying-point" data-target="#buying-point-1__1">
                                 디자인
                             </button>
@@ -1408,6 +1406,9 @@
                                                             <br>
                                                             * 스탠바이미 전용 액세서리는 별매입니다. 세트 제품 구매 시 구성품을 확인해 주세요.
                                                         </p>
+                                                        <button class="btn-collapse-close" tabindex="0">
+                                                            접기
+                                                        </button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1512,6 +1513,9 @@
                                                             <br>
                                                             * 본 제품은 방수 기능을 지원하지 않습니다.
                                                         </p>
+                                                        <button class="btn-collapse-close" tabindex="0">
+                                                            접기
+                                                        </button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1644,6 +1648,9 @@
                                                             <br>
                                                             * 입력되는 영상에 따라 업스케일링 화질에 차이가 있을 수 있습니다.
                                                         </p>
+                                                        <button class="btn-collapse-close" tabindex="0">
+                                                            접기
+                                                        </button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1783,6 +1790,9 @@
                                                             <br>
                                                             * 시청 콘텐츠와 파일 형식에 따라 차이가 있을 수 있습니다.
                                                         </p>
+                                                        <button class="btn-collapse-close" tabindex="0">
+                                                            접기
+                                                        </button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1822,6 +1832,9 @@
                                                             * 돌비 비전 / 돌비 애트모스 포함 모델은 스탠바이미 2 Max(32LX6BPGA), 스탠바이미 2(27LX6TPGA), 스탠바이미 Go(27LX5QKNA)입니다.<br>
                                                             * 제품별 사양은 다를 수 있으니 정확한 내용은 각 제품별 상세 사양을 확인해 주세요.
                                                         </p>
+                                                        <button class="btn-collapse-close" tabindex="0">
+                                                            접기
+                                                        </button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1928,6 +1941,9 @@
                                                             </b>
                                                             <br>* 제품사용조건에 따라 배터리 사용시간은 달라질 수 있습니다.
                                                         </p>
+                                                        <button class="btn-collapse-close" tabindex="0">
+                                                            접기
+                                                        </button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2057,6 +2073,9 @@
                                                             <br>* 해당 기능은 제품의 다이렉트 음성인식 기능 활성화 및 개인정보제공 동의 후 사용 가능합니다.
                                                             <br>* 음성인식의 경우, 주변 소음 수준에 따라 인식률의 차이가 있을 수 있습니다.
                                                         </p>
+                                                        <button class="btn-collapse-close" tabindex="0">
+                                                            접기
+                                                        </button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2122,6 +2141,9 @@
                                                             <br>* 모바일 기기의 사양 및 제조사에 따라 콘텐츠 공유 방식에 차이가 있을 수 있으며, 화질 차이가 있을 수 있습니다.
                                                             <br>* 사용자 네트워크 환경에 따라 연결상태가 상이할 수 있습니다
                                                         </p>
+                                                        <button class="btn-collapse-close" tabindex="0">
+                                                            접기
+                                                        </button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2184,7 +2206,7 @@
                                 활용도를 높여주는 스탠바이미 <br class="mo-only">액세서리를 함께 알아보세요
                             </h2>
                             <div class="tab-wrap">
-                                <div class="vertical-scroll-box" role="tablist">
+                                <div class=" role="tablist">
                                     <button class="active" name="buying-guide-tab" data-target="#buying-point-4" data-group="buying-point-345">
                                         스탠바이미 2 Max
                                     </button>
@@ -2495,7 +2517,7 @@
                                 스탠바이미, 궁금했던 모든 것에 답해드려요.
                             </p>
                             <div class="btn-wrap">
-                                <a target="_blank" href="https://www.lge.co.kr/story/faq/stan-by-me-faq" rel="noopener" aria-label="새 창에서 열림">
+                                <a target="_blank" href="https://www.lge.co.kr/story/faq/stan-by-me-faq" rel="noopener" title="새창열림">
                                     스탠바이미 FAQ
                                 </a>
                             </div>
@@ -2509,7 +2531,7 @@
                                 스탠바이미를 정기적으로 구독하고 싶다면?
                             </p>
                             <div class="btn-wrap">
-                                <a target="_blank" href="https://www.lge.co.kr/category/care-solutions/stan-by-me" rel="noopener" aria-label="새 창에서 열림">
+                                <a target="_blank" href="https://www.lge.co.kr/category/care-solutions/stan-by-me" rel="noopener" title="새창열림">
                                     구독 상품
                                 </a>
                             </div>
@@ -2521,7 +2543,7 @@
                             </h3>
                             <p>지금 가장 인기 있는 스탠바이미를 확인해 보세요!</p>
                             <div class="btn-wrap">
-                                <a target="_blank" href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000024&categoryId=CT50295000&categoryName=%EC%8A%A4%ED%83%A0%EB%B0%94%EC%9D%B4%EB%AF%B8" rel="noopener" aria-label="새 창에서 열림">
+                                <a target="_blank" href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000024&categoryId=CT50295000&categoryName=%EC%8A%A4%ED%83%A0%EB%B0%94%EC%9D%B4%EB%AF%B8" rel="noopener" title="새창열림">
                                     베스트 랭킹
                                 </a>
                             </div>

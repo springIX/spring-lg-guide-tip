@@ -2960,7 +2960,11 @@
 .buying-guide-special .product-select-tip-list .colWrap { display: flex; justify-content: flex-start; align-items: stretch; }
 .buying-guide-special .tip-content picture { overflow: hidden; }
 .buying-guide-special .tip-content picture img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
-
+.buying-guide-special .table-wrap { cursor: default; }
+.buying-guide-special .product-table .table-wrap table { width: calc(100% - 2px); }
+.buying-guide-special .buying-guide-spec-table.is-scroll { cursor: grab; }
+.buying-guide-special .buying-guide-spec-table.is-scroll.is-grabbing { cursor: grabbing; user-select: none; }
+.buying-guide-special .buying-guide-spec-table.is-scroll table { user-select: none; }
 /* .buying-guide-special .note > li:before { content: "*"; flex-shrink: 0; } */
 /* assets // */
 
@@ -3443,7 +3447,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .buying-guide-special .product-table {
     padding-top: 120px;
   }
@@ -3480,11 +3484,7 @@
     height: 60px;
     align-items: center;
   }
-  .buying-guide-special
-    .product-table
-    .buying-guide-spec-table
-    thead
-    th:not([rowspan]) {
+  .buying-guide-special .product-table .buying-guide-spec-table thead th:not([rowspan]) {
     font-size: 16px;
   }
   .buying-guide-special .product-table .buying-guide-spec-table td {
@@ -3493,36 +3493,6 @@
 
   .buying-guide-special .product-table .buying-guide-spec-table .des {
     font-size: inherit;
-  }
-  .buying-guide-special
-    .product-table
-    .buying-guide-spec-table
-    .des
-    .info:hover:before,
-  .buying-guide-special
-    .product-table
-    .buying-guide-spec-table
-    .des
-    .info:focus:before,
-  .buying-guide-special
-    .product-table
-    .buying-guide-spec-table
-    .des
-    .info:hover
-    + .bubble,
-  .buying-guide-special
-    .product-table
-    .buying-guide-spec-table
-    .des
-    .info:focus
-    + .bubble,
-  .buying-guide-special
-    .product-table
-    .buying-guide-spec-table
-    .des
-    .info:focus
-    + .bubble {
-    display: none;
   }
 }
 /* spec table // */
@@ -3744,6 +3714,7 @@
 }
 
 @media(max-width: 768px){
+  .tooltip-desc .tooltip-message { display: none; }
   .tooltip-desc button:hover:after,
   .tooltip-desc button:focus:after,
   .tooltip-desc button:hover ~ .tooltip-message,
