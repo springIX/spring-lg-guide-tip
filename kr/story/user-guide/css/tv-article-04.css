@@ -339,6 +339,34 @@ img {
 .contents__disclaimer {
   margin-top: 16px;
 }
+.contents__disclaimer .note-list li {
+  position: relative;
+  padding-left: 14px;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.35;
+}
+.contents__disclaimer .note-list li::before {
+  content: "*";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.contents__disclaimer .note-list li + li {
+  margin-top: 2px;
+}
+.contents__disclaimer .note-number-list {
+  margin-top: 2px;
+  /* padding-left: 16px; */
+  list-style: decimal;
+}
+.contents__disclaimer .note-number-list li {
+  padding-left: 0;
+  list-style: decimal;
+}
+.contents__disclaimer .note-number-list li::before {
+  content: none;
+}
 .contents__disclaimer p {
   color: #666;
   font-size: 14px;
@@ -351,6 +379,19 @@ img {
     font-size: 14px;
     font-weight: 400;
     color: #666;
+}
+.visual__disclaimer .note-list li {
+  position: relative;
+  padding-left: 14px;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.35;
+}
+.visual__disclaimer .note-list li::before {
+  content: "*";
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 .contents__tip {
   position: relative;
@@ -414,6 +455,7 @@ img {
 }
 .contents__tip ul li:last-child{
   border-right: none;
+  border-bottom:none;
 }
 .contents__tip ul li strong {
  display: inline-block;
@@ -572,6 +614,16 @@ img {
   }
   .contents__disclaimer {
     margin-top: 12px;
+    padding:0 6px;
+  }
+  .contents__disclaimer .note-list li {
+    padding-left: 11px;
+    font-size: 12px;
+    line-height: 1.35;
+    letter-spacing: -0.16px;
+  }
+  .contents__disclaimer ol.note-number-list  li{
+    padding-left:0;
   }
   .contents__disclaimer p {
     font-size: 12px;
@@ -656,7 +708,7 @@ img {
   .contents__tip a {
     position: unset;
     display: block;
-    margin-top: 8px;
+    margin-top: 16px;
     font-size: 14px;
     line-height: 1.4;
     text-align: center;
@@ -794,6 +846,7 @@ img {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: -3px;
 }
 @media screen and (max-width: 1024px) {
   .product {
@@ -832,6 +885,7 @@ img {
     border-radius: 0;
     background-image: url("/kr/story/user-guide/images/wireless-tv-setup/img_banner_mo.png");
     background-position: center center;
+    margin-top: 60px;
   }
   .product__banner p {
     font-size: 18px;
@@ -854,4 +908,13 @@ img {
     font-size: 11px;
     line-height: 1.6;
 }
+  .visual__disclaimer .note-list li {
+    padding-left: 11px;
+    font-size: 11px;
+    line-height: 1.6;
+  }
+  .visual__disclaimer .note-list li p {
+        word-break: keep-all;
+    }
+
 }
