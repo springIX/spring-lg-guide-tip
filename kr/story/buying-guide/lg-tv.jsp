@@ -239,7 +239,7 @@
                     ">
                       <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                       <div class="bubble">
-                        <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000028" target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 올레드</span></a>
+                        <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000028" target="_blank" rel="noopener" title="새창열림"><span>LG 올레드</span></a>
                         <p>스탠드/벽걸이형<span></span>4K</p>
                       </div>
                     </div>
@@ -288,7 +288,7 @@
                           </caption>
                           <thead>
                             <tr class="procuct-name">
-                              <th colspan="4">
+                              <th scope="colgroup" colspan="4">
                                 <h4>올레드</h4>
                                 <p>세계 최초ㆍ세계 판매 1위 올레드</p>
                               </th>
@@ -616,8 +616,8 @@
                       * 2013~2024년 올레드 TV 세계 판매 1위 (출하량, Omdia기준)
                     </p>
                     <div class="btn-wrap">
-                      <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000028" target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        class="btn-product">제품 보러 가기</a>
+                      <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000028" target="_blank" rel="noopener"
+                        class="btn-product" title="새창열림">제품 보러 가기</a>
                     </div>
                   </div>
                   <div class="product-table">
@@ -639,19 +639,19 @@
                         </colgroup>
                         <thead>
                           <tr>
-                            <th rowspan="2">모델 라인업</th>
-                            <th colspan="4">올레드</th>
+                            <th scope="col" rowspan="2">모델 라인업</th>
+                            <th scope="colgroup" colspan="4">올레드</th>
                           </tr>
                           <tr>
-                            <th class="th2">M 시리즈</th>
-                            <th class="th2">G 시리즈</th>
-                            <th class="th2">C 시리즈</th>
-                            <th class="th2">B 시리즈</th>
+                            <th scope="col" class="th2">M 시리즈</th>
+                            <th scope="col" class="th2">G 시리즈</th>
+                            <th scope="col" class="th2">C 시리즈</th>
+                            <th scope="col" class="th2">B 시리즈</th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
-                            <th>올레드 evo</th>
+                            <th scope="row">올레드 evo</th>
                             <td class="y text">
                               <span class="o">O</span>
                               <p>245cm 시그니처</p>
@@ -661,63 +661,63 @@
                             <td class="n">X</td>
                           </tr>
                           <tr>
-                            <th>해상도</th>
+                            <th scope="row">해상도</th>
                             <td>4K</td>
                             <td>4K</td>
                             <td>4K</td>
                             <td>4K</td>
                           </tr>
                           <tr>
-                            <th>주사율</th>
+                            <th scope="row">주사율</th>
                             <td>120 Hz</td>
                             <td>120 Hz</td>
                             <td>120 Hz</td>
                             <td>120 Hz</td>
                           </tr>
                           <tr>
-                            <th>게이밍 최대 주사율</th>
+                            <th scope="row">게이밍 최대 주사율</th>
                             <td>144 Hz <br />(245cm 120 Hz)</td>
                             <td>165 Hz <br />(245cm 120 Hz)</td>
                             <td>144 Hz</td>
                             <td>120 Hz</td>
                           </tr>
                           <tr>
-                            <th>AI 프로세서</th>
+                            <th scope="row">AI 프로세서</th>
                             <td>알파11(2세대)</td>
                             <td>알파11(2세대)</td>
                             <td>알파9(8세대)</td>
                             <td>알파8(2세대)</td>
                           </tr>
                           <tr>
-                            <th>돌비 비전 / 돌비 애트모스</th>
+                            <th scope="row">돌비 비전 / 돌비 애트모스</th>
                             <td class="y">O</td>
                             <td class="y">O</td>
                             <td class="y">O</td>
                             <td class="y">O</td>
                           </tr>
                           <tr>
-                            <th>올레드 밝기 부스터</th>
+                            <th scope="row">올레드 밝기 부스터</th>
                             <td class="y">O</td>
                             <td class="y">O</td>
                             <td class="y">O</td>
                             <td class="n">X</td>
                           </tr>
                           <tr>
-                            <th>버추얼 서라운드</th>
+                            <th scope="row">버추얼 서라운드</th>
                             <td>11.1.2</td>
                             <td>11.1.2</td>
                             <td>11.1.2</td>
                             <td>9.1.2</td>
                           </tr>
                           <tr>
-                            <th>운영체제</th>
+                            <th scope="row">운영체제</th>
                             <td>webOS 25</td>
                             <td>webOS 25</td>
                             <td>webOS 25</td>
                             <td>webOS 25</td>
                           </tr>
                           <tr>
-                            <th>리모컨</th>
+                            <th scope="row">리모컨</th>
                             <td>프리미엄 AI · AI 매직 리모컨</td>
                             <td>AI 매직 리모컨</td>
                             <td>AI 매직 리모컨</td>
@@ -744,7 +744,7 @@
                     ">
                       <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                       <div class="bubble">
-                        <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50041000" target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG QNED</span>
+                        <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50041000" target="_blank" rel="noopener" title="새창열림"><span>LG QNED</span>
                         </a>
                         <p>스탠드/벽걸이형<span></span>4K</p>
                       </div>
@@ -790,7 +790,7 @@
                           </caption>
                           <thead>
                             <tr class="procuct-name">
-                              <th colspan="2">
+                              <th scope="colgroup" colspan="2">
                                 <h4>QNED</h4>
                                 <p>새롭게 살아나는 컬러, 놀라운 경험의 시작</p>
                               </th>
@@ -935,8 +935,8 @@
                       </div>
                     </div>
                     <div class="btn-wrap">
-                      <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50041000" target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        class="btn-product">제품 보러 가기</a>
+                      <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50041000" target="_blank" rel="noopener"
+                        class="btn-product" title="새창열림">제품 보러 가기</a>
                     </div>
                   </div>
                 </div>
@@ -950,7 +950,7 @@
                     ">
                       <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                       <div class="bubble">
-                        <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000029" target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 나노셀</span></a>
+                        <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000029" target="_blank" rel="noopener" title="새창열림"><span>LG 나노셀</span></a>
                         <p>스탠드/벽걸이형<span></span>4K</p>
                       </div>
                     </div>
@@ -991,7 +991,7 @@
                           </caption>
                           <thead>
                             <tr class="procuct-name">
-                              <th>
+                              <th scope="col">
                                 <h4>나노셀</h4>
                                 <p>퓨어 컬러로 완성한 리얼 4K</p>
                               </th>
@@ -1079,8 +1079,8 @@
                       </div>
                     </div>
                     <div class="btn-wrap">
-                      <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000029" target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        class="btn-product">제품 보러 가기</a>
+                      <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000029" target="_blank" rel="noopener"
+                        class="btn-product" title="새창열림">제품 보러 가기</a>
                     </div>
                   </div>
                 </div>
@@ -1094,7 +1094,7 @@
                     ">
                       <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                       <div class="bubble">
-                        <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000030" target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 울트라 HD</span></a>
+                        <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000030" target="_blank" rel="noopener" title="새창열림"><span>LG 울트라 HD</span></a>
                         <p>스탠드/벽걸이형<span></span>4K</p>
                       </div>
                     </div>
@@ -1135,7 +1135,7 @@
                           </caption>
                           <thead>
                             <tr class="procuct-name">
-                              <th>
+                              <th scope="col">
                                 <h4>울트라 HD</h4>
                                 <p>더욱 선명하고 깊이 있는 4K 화질</p>
                               </th>
@@ -1220,8 +1220,8 @@
                       </div>
                     </div>
                     <div class="btn-wrap">
-                      <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000030" target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        class="btn-product">제품 보러 가기</a>
+                      <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000030" target="_blank" rel="noopener"
+                        class="btn-product" title="새창열림">제품 보러 가기</a>
                     </div>
                   </div>
                 </div>
@@ -1480,7 +1480,7 @@
                           </p>
                           <div class="btn-wrap">
                             <a class="btn-product" href="https://www.lge.co.kr/category/tvs?subCateId=CT50041000"
-                              target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                              target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
                           </div>
                           <div class="img">
                             <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_11.jpg"
@@ -1499,7 +1499,7 @@
                           </p>
                           <div class="btn-wrap">
                             <a class="btn-product" href="https://www.lge.co.kr/category/tvs?subCateId=CT50041000"
-                              target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                              target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
                           </div>
                           <div class="img">
                             <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_12.jpg" alt="QNED TV 화면에 생생한 색상의 추상 이미지가 표시된 모습" />
@@ -1516,7 +1516,7 @@
                           </p>
                           <div class="btn-wrap">
                             <a class="btn-product" href="https://www.lge.co.kr/category/tvs?subCateId=CT50000029"
-                              target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                              target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
                           </div>
                           <div class="img">
                             <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_13.jpg" alt="나노셀 TV 화면에 다채로운 색상의 실타래 이미지가 표시된 모습" />
@@ -1532,7 +1532,7 @@
                           </p>
                           <div class="btn-wrap">
                             <a class="btn-product" href="https://www.lge.co.kr/category/tvs?subCateId=CT50000030"
-                              target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                              target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
                           </div>
                           <div class="img">
                             <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_14.jpg" alt="울트라 HD TV 화면에 여러 색상의 구슬 이미지가 표시된 모습" />
@@ -1612,7 +1612,7 @@
                           <div class="btn-wrap">
                             <a class="btn-product"
                               href="https://www.lge.co.kr/category/tvs?filterProduct=AT0000000170:KY0000000211:02"
-                              target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                              target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
                           </div>
                           <div class="img">
                             <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_15.jpg" alt="거실 벽면에 설치된 대형 TV로 코끼리 영상을 감상하는 모습" />
@@ -1632,7 +1632,7 @@
                           <div class="btn-wrap">
                             <a class="btn-product"
                               href="https://www.lge.co.kr/category/tvs?filterProduct=AT0000000170:KY0000000163:02"
-                              target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                              target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
                           </div>
                           <div class="img">
                             <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_17.jpg" alt="거실에서 가족이 대형 TV의 돌고래 영상을 감상하는 모습" />
@@ -1652,7 +1652,7 @@
                           <div class="btn-wrap">
                             <a class="btn-product"
                               href="https://www.lge.co.kr/category/tvs?filterProduct=AT0000000170:KY0000002103:02"
-                              target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                              target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
                           </div>
                           <div class="img">
                             <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_18.jpg" alt="거실에 설치된 대형 TV에서 수상 스포츠 영상을 감상하는 모습" />
@@ -1672,7 +1672,7 @@
                           <div class="btn-wrap">
                             <a class="btn-product"
                               href="https://www.lge.co.kr/category/tvs?filterProduct=AT0000000170:KY0000000071:02"
-                              target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                              target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
                           </div>
                           <div class="img">
                             <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_19.jpg" alt="거실 TV 화면과 소파 주변으로 몰입감을 표현한 이미지" />
@@ -1768,7 +1768,7 @@
                           <div class="btn-wrap">
                             <a class="btn-product"
                               href="https://www.lge.co.kr/category/tvs?filterProduct=AT0000000145:KY0000002392:01"
-                              target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                              target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
                           </div>
                           <div class="img">
                             <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_21.jpg" alt="알파11 AI 프로세서의 AI 성능, 처리 속도, 그래픽 성능 향상을 안내하는 그래픽" />
@@ -2436,9 +2436,9 @@
                   </h3>
                   <p>TV, 궁금했던 모든 것에 답해 드려요.</p>
                   <div class="btn-wrap">
-                    <a target="_blank" rel="noopener" aria-label="새 창에서 열림" href="https://www.lge.co.kr/story/faq/tvs-faq">TV FAQ
+                    <a target="_blank" rel="noopener" href="https://www.lge.co.kr/story/faq/tvs-faq" title="새창열림">TV FAQ
                     </a>
-                    <a target="_blank" rel="noopener" aria-label="새 창에서 열림" href="https://www.lge.co.kr/story/useful-tip/oled-tv-faq">올레드 TV FAQ
+                    <a target="_blank" rel="noopener" href="https://www.lge.co.kr/story/useful-tip/oled-tv-faq" title="새창열림">올레드 TV FAQ
                     </a>
                   </div>
                 </div>
@@ -2448,7 +2448,7 @@
                   </h3>
                   <p>TV를 정기적으로 구독하고 싶다면?</p>
                   <div class="btn-wrap">
-                    <a target="_blank" rel="noopener" aria-label="새 창에서 열림" href="https://www.lge.co.kr/category/care-solutions/tvs">구독 상품</a>
+                    <a target="_blank" rel="noopener" href="https://www.lge.co.kr/category/care-solutions/tvs" title="새창열림">구독 상품</a>
                   </div>
                 </div>
                 <div class="tip-best">
@@ -2458,8 +2458,8 @@
                   </h3>
                   <p>지금 가장 인기 있는 TV 확인해 보세요!</p>
                   <div class="btn-wrap">
-                    <a target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                      href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000024&categoryId=CT50000025&categoryName=TV">베스트
+                    <a target="_blank" rel="noopener"
+                      href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000024&categoryId=CT50000025&categoryName=TV" title="새창열림">베스트
                       랭킹</a>
                   </div>
                 </div>

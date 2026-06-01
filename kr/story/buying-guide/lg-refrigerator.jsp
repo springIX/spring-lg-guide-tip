@@ -372,8 +372,8 @@
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/refrigerators/j842nd79"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span>LG SIGNATURE 얼음정수 냉장고</span></a
+                        target="_blank" rel="noopener"
+                         title="새창열림"><span>LG SIGNATURE 얼음정수 냉장고</span></a
                       >
                       <p>840L</p>
                     </div>
@@ -420,8 +420,8 @@
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/refrigerators/w826gbb482"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span
+                        target="_blank" rel="noopener"
+                         title="새창열림"><span
                           >LG 디오스 AI 오브제컬렉션 STEM 얼음정수 냉장고
                           (노크온 매직스페이스)</span
                         >
@@ -471,8 +471,8 @@
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/refrigerators/m876gbb161"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span
+                        target="_blank" rel="noopener"
+                         title="새창열림"><span
                           >LG 디오스 AI 오브제컬렉션 STEM 베이직 냉장고
                           (더블매직스페이스)</span
                         ></a
@@ -524,8 +524,8 @@
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/refrigerators/m876gbb231"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span
+                        target="_blank" rel="noopener"
+                         title="새창열림"><span
                           >LG 디오스 AI 오브제컬렉션 냉장고 (매직스페이스)</span
                         ></a
                       >
@@ -576,8 +576,8 @@
                   >
                     <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
-                      <a href="https://www.lge.co.kr/refrigerators/s834mee141" target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span
+                      <a href="https://www.lge.co.kr/refrigerators/s834mee141" target="_blank" rel="noopener"
+                         title="새창열림"><span
                           >LG 디오스 AI 오브제컬렉션 냉장고 (양문형,
                           매직스페이스)</span
                         ></a
@@ -625,8 +625,8 @@
                   >
                     <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
-                      <a href="https://www.lge.co.kr/refrigerators/m874gnn3a1" target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span
+                      <a href="https://www.lge.co.kr/refrigerators/m874gnn3a1" target="_blank" rel="noopener"
+                         title="새창열림"><span
                           >LG 디오스 오브제컬렉션 무드업 냉장고 (노크온)</span
                         ></a
                       >
@@ -675,8 +675,8 @@
                   >
                     <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
-                      <a href="https://www.lge.co.kr/refrigerators/q342gbb133" target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span>LG 모던엣지 냉장고 오브제컬렉션</span></a
+                      <a href="https://www.lge.co.kr/refrigerators/q336mee153" target="_blank" rel="noopener"
+                         title="새창열림"><span>LG 모던엣지 냉장고 오브제컬렉션</span></a
                       >
                       <p>344L</p>
                     </div>
@@ -693,12 +693,10 @@
                   />
                 </div>
                 <div class="text-wrap">
-                  <h4>다른 제품들과 함께 놓아도 공간에 잘 어우러지게</h4>
+                  <h4>냉장실은 위로 냉동실은 아래로 편리한 소형 냉장고</h4>
                   <p>
-                    공간과 취향에 어울리는 트렌디한 컬러와 미니멀한 플랫
-                    디자인이 주방에 감각적인 분위기를 더해줘요. 컨버터블
-                    패키지나 김치냉장고와 함께 조합하면 실용성은 물론,
-                    오브제컬렉션 디자인으로 공간이 더욱 특별해져요.
+              모던엣지 냉장고는 공간과 인테리어에 맞춰 선택할 수 있는 다양한 컬러와 플랫 디자인을 적용한 소형 냉장고예요. 컨버터블 패키지나 김치냉장고와 함께 구성하면 가전 간 디자인 일체감을 고려한 배치가 가능하며, 다양한
+              공간에서 효율적인 활용이 가능해요.
                   </p>
                 </div>
                 <p class="note">
@@ -723,8 +721,8 @@
                   >
                     <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
-                      <a href="https://www.lge.co.kr/refrigerators/d604mps52" target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span>LG 일반냉장고 오브제컬렉션</span></a
+                      <a href="https://www.lge.co.kr/refrigerators/d604mps52" target="_blank" rel="noopener"
+                         title="새창열림"><span>LG 일반냉장고 오브제컬렉션</span></a
                       >
                       <p>612L</p>
                     </div>
@@ -769,8 +767,8 @@
                   >
                     <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
-                      <a href="https://www.lge.co.kr/convertible-refrigerators/x324gb3s" target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span
+                      <a href="https://www.lge.co.kr/convertible-refrigerators/x324gb3s" target="_blank" rel="noopener"
+                         title="새창열림"><span
                           >LG 컨버터블 패키지 오브제컬렉션 Fit & Max
                           (냉장전용고, 좌열림)</span
                         ></a
@@ -792,9 +790,8 @@
                 <div class="text-wrap">
                   <h4>인테리어에 맞춰 스타일도, 기능도 취향대로 완벽하게</h4>
                   <p>
-                    제로 클리어런스 힌지로 간격을 최소화해 자연스럽게
-                    어우러지고, 다양한 조합과 패널 옵션으로 공간과 취향에 맞게
-                    주방을 완성할 수 있어요.
+                    LG전자 컨버터블 패키지는 다양한 조합과 패널 옵션으로 공간과 인테리어에 맞게 주방을 완성할 수 있어요. Fit & Max는 제로 클리어런스 힌지를 적용해 장과의 간격을 최소화하고, 주방 공간에 자연스럽게 어우러지는
+                    디자인을 구현해 인테리어 완성도를 높일 수 있어요.
                   </p>
                 </div>
                 <p class="note">
@@ -829,15 +826,15 @@
                     </caption>
                     <thead>
                       <tr class="procuct-name">
-                        <th>
+                        <th scope="col">
                           <h4>STEM (얼음정수)</h4>
                           <p>깨끗한 물과 얼음으로 음료 한 잔도 특별하게</p>
                         </th>
-                        <th>
+                        <th scope="col">
                           <h4>STEM (베이직)</h4>
                           <p>깨끗한 자동 얼음으로 기다림 없이 편리하게</p>
                         </th>
-                        <th>
+                        <th scope="col">
                           <h4>상냉장/하냉동</h4>
                           <p>
                             실용적인 수납 구조로 식재료 보관을 효율적으로
@@ -1242,25 +1239,25 @@
                         <td>
                           <a
                             href="https://www.lge.co.kr/category/refrigerators?subCateId=CT50000070&filterProduct=AT0000000511:KY0000002781:01,AT0000000511:KY0000004711:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             class="btn-product"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                         </td>
                         <td>
                           <a
                             href="https://www.lge.co.kr/category/refrigerators?subCateId=CT50000070&filterProduct=AT0000000511:KY0000002781:01,AT0000000511:KY0000004712:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             class="btn-product"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                         </td>
                         <td>
                           <a
                             href="https://www.lge.co.kr/category/refrigerators?subCateId=CT50000069"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             class="btn-product"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                         </td>
                       </tr>
@@ -1345,14 +1342,14 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/refrigerators?lineupId=CD00000701"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                           <a
                             class="btn-guide"
                             href="https://www.lge.co.kr/story/user-guide/objetcollection-refrigerator-install-guide"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >설치 가이드 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">설치 가이드 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1412,14 +1409,14 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/refrigerators?filterProduct=AT0000000242:KY0000001248:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                           <a
                             class="btn-guide"
                             href="https://www.lge.co.kr/story/user-guide/objetcollection-refrigerator-install-guide"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >설치 가이드 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">설치 가이드 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1524,8 +1521,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/refrigerators?filterProduct=AT0000001251:KY0000000719:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1561,8 +1558,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/refrigerators?filterProduct=AT0000000112:KY0000000728:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1594,8 +1591,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/refrigerators?filterProduct=AT0000000112:KY0000000919:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1630,8 +1627,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/refrigerators"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1780,8 +1777,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/refrigerators?subCateId=CT50000070"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1855,8 +1852,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/refrigerators?filterProduct=AT0000001251:KY0000003503:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1934,8 +1931,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/refrigerators?filterBrand=AT0000000111:KY0000003992:01&filterProduct=AT0000001251:KY0000004717:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -2015,8 +2012,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/refrigerators?filterBrand=AT0000000111:KY0000003992:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -2074,8 +2071,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/refrigerators?filterBrand=AT0000000111:KY0000003992:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -2156,8 +2153,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/refrigerators?filterProduct=AT0000001251:KY0000003504:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -2197,8 +2194,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/refrigerators"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -2245,8 +2242,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/refrigerators?filterProduct=AT0000001251:KY0000004675:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -2775,9 +2772,9 @@
                 <p>냉장고, 궁금했던 모든 것에 답해 드려요.</p>
                 <div class="btn-wrap">
                   <a
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                    target="_blank" rel="noopener"
                     href="https://www.lge.co.kr/story/useful-tip/refrigerators-faq"
-                    >FAQ</a
+                     title="새창열림">FAQ</a
                   >
                 </div>
               </div>
@@ -2791,9 +2788,9 @@
                 <p>냉장고를 정기적으로 구독하고 싶다면?</p>
                 <div class="btn-wrap">
                   <a
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                    target="_blank" rel="noopener"
                     href="https://www.lge.co.kr/category/care-solutions/refrigerators"
-                    >구독 상품</a
+                     title="새창열림">구독 상품</a
                   >
                 </div>
               </div>
@@ -2807,9 +2804,9 @@
                 <p>지금 가장 인기 있는 냉장고 확인해 보세요!</p>
                 <div class="btn-wrap">
                   <a
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                    target="_blank" rel="noopener"
                     href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000064&categoryId=CT50000065&categoryName=%EB%83%89%EC%9E%A5%EA%B3%A0"
-                    >베스트 랭킹</a
+                     title="새창열림">베스트 랭킹</a
                   >
                 </div>
               </div>

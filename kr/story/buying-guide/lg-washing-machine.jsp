@@ -226,7 +226,7 @@
                     ">
                 <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                 <div class="bubble">
-                  <a href="https://www.lge.co.kr/wash-tower/wa2525egzf" target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 트롬 AI 오브제컬렉션
+                  <a href="https://www.lge.co.kr/wash-tower/wa2525egzf" target="_blank" rel="noopener" title="새창열림"><span>LG 트롬 AI 오브제컬렉션
                       워시타워</span></a>
                   <p>25kg/25kg<span></span>1등급</p>
                 </div>
@@ -273,7 +273,7 @@
                     </caption>
                     <thead>
                       <tr class="procuct-name">
-                        <th colspan="4">
+                        <th scope="colgroup" colspan="4">
                           <h4>워시타워</h4>
                           <p>
                             하나의 바디와 내 옷에 맞춘 섬세한 모션으로
@@ -760,19 +760,19 @@
                       <tr class="product-btn">
                         <td>
                           <a href="https://www.lge.co.kr/wash-tower/wa2525eezf?sKwd=WA2525EEZF&sTab=unit_product_list&sRank=1"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품 보러 가기</a>
+                            target="_blank" rel="noopener" class="btn-product" title="새창열림">제품 보러 가기</a>
                         </td>
                         <td>
                           <a href="https://www.lge.co.kr/wash-tower/wl21egzu?sKwd=WL21EGZU&sTab=unit_product_list&sRank=1"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품 보러 가기</a>
+                            target="_blank" rel="noopener" class="btn-product" title="새창열림">제품 보러 가기</a>
                         </td>
                         <td>
                           <a href="https://www.lge.co.kr/wash-tower/w20egz?sKwd=W20EGZ&sTab=unit_product_list&sRank=1"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품 보러 가기</a>
+                            target="_blank" rel="noopener" class="btn-product" title="새창열림">제품 보러 가기</a>
                         </td>
                         <td>
                           <a href="https://www.lge.co.kr/category/wash-tower?filterProduct=AT0000000109:KY0000002622:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품 보러 가기</a>
+                            target="_blank" rel="noopener" class="btn-product" title="새창열림">제품 보러 가기</a>
                         </td>
                       </tr>
                     </tbody>
@@ -792,8 +792,7 @@
                     ">
                 <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                 <div class="bubble">
-                  <a href="https://www.lge.co.kr/wash-combo/fh25ese" target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 트롬
-                      오브제컬렉션
+                  <a href="https://www.lge.co.kr/wash-combo/fh25ese" target="_blank" rel="noopener" title="새창열림"><span>LG 트롬 AI 오브제컬렉션
                       워시콤보</span></a>
                   <p>25kg/15kg<span></span>1등급</p>
                 </div>
@@ -837,7 +836,7 @@
                     </caption>
                     <thead>
                       <tr class="procuct-name">
-                        <th colspan="2">
+                        <th scope="colgroup" colspan="2">
                           <h4>워시콤보</h4>
                           <p>세탁물을 꺼낼 필요 없이 하나의 통 안에서 해결해 <br />집안일을 간편하게</p>
                         </th>
@@ -1015,11 +1014,11 @@
                       <tr class="product-btn">
                         <td>
                           <a href="https://www.lge.co.kr/wash-combo/fh25ese?sKwd=FH25ESE&sTab=unit_product_list&sRank=1"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품 보러 가기</a>
+                            target="_blank" rel="noopener" class="btn-product" title="새창열림">제품 보러 가기</a>
                         </td>
                         <td>
                           <a href="https://www.lge.co.kr/wash-combo/fh25gag?sKwd=FH25GAG&sTab=unit_product_list&sRank=1"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품 보러 가기</a>
+                            target="_blank" rel="noopener" class="btn-product" title="새창열림">제품 보러 가기</a>
                         </td>
                       </tr>
                     </tbody>
@@ -1039,7 +1038,7 @@
                     ">
                 <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                 <div class="bubble">
-                  <a href="https://wwwstg.lge.co.kr/washing-machines/fx25efe" target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 트롬 AI 오브제컬렉션
+                  <a href="https://wwwstg.lge.co.kr/washing-machines/fx25efe" target="_blank" rel="noopener" title="새창열림"><span>LG 트롬 AI 오브제컬렉션
                       세탁기</span></a>
                   <p>25kg<span></span>1등급</p>
                 </div>
@@ -1082,7 +1081,7 @@
                     </caption>
                     <thead>
                       <tr class="procuct-name">
-                        <th colspan="4">
+                        <th scope="colgroup" colspan="4">
                           <h4>트롬 세탁기</h4>
                           <p>컴팩트한 사이즈로 설치는 간편하게,<br />내 옷에 맞춘 섬세한 모션으로 세탁·탈수는 깨끗하게</p>
                         </th>
@@ -1407,7 +1406,7 @@
                           <p>
                             자동세제함
                             <span class="des">
-                              <button class="info pc-only" aria-label="제품 내용 상세보기"></button>z
+                              <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                               <span class="bubble">세탁량과 오염량에 맞춰 세제·유연제를 자동으로 알맞게</span>
                             </span>
                           </p>
@@ -1429,19 +1428,19 @@
                       <tr class="product-btn">
                         <td>
                           <a href="https://www.lge.co.kr/washing-machines/fx25efe?sKwd=FX25EFE&sTab=unit_product_list&sRank=1"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품 보러 가기</a>
+                            target="_blank" rel="noopener" class="btn-product" title="새창열림">제품 보러 가기</a>
                         </td>
                         <td>
                           <a href="https://www.lge.co.kr/washing-machines/fx25gsr-akor2?sKwd=FX25GSR&sTab=unit_product_list&sRank=1"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품 보러 가기</a>
+                            target="_blank" rel="noopener" class="btn-product" title="새창열림">제품 보러 가기</a>
                         </td>
                         <td>
                           <a href="https://www.lge.co.kr/washing-machines/fx25ear-akor2?sKwd=FX25EAR&sTab=unit_product_list&sRank=1"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품 보러 가기</a>
+                            target="_blank" rel="noopener" class="btn-product" title="새창열림">제품 보러 가기</a>
                         </td>
                         <td>
                           <a href="https://www.lge.co.kr/washing-machines/fg21en-akor2?sKwd=FG21EN&sTab=unit_product_list&sRank=1"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품 보러 가기</a>
+                            target="_blank" rel="noopener" class="btn-product" title="새창열림">제품 보러 가기</a>
                         </td>
                       </tr>
                     </tbody>
@@ -1462,7 +1461,7 @@
                 <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                 <div class="bubble">
                   <a href="https://www.lge.co.kr/care-solutions/washing_machines/ta25gz9?subscCategoryKeyId=242637&dpType=careTab"
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 통돌이 컴포트 세탁기 </span></a>
+                    target="_blank" rel="noopener" title="새창열림"><span>LG 통돌이 컴포트 세탁기 </span></a>
                   <p>25kg<span></span>2등급</p>
                 </div>
               </div>
@@ -1502,7 +1501,7 @@
                     </caption>
                     <thead>
                       <tr class="procuct-name">
-                        <th colspan="2">
+                        <th scope="colgroup" colspan="2">
                           <h4>통돌이</h4>
                           <p>통을 회전해 만들어낸 강력한 물살로 <br />손으로 빤 듯 깨끗하게</p>
                         </th>
@@ -1681,11 +1680,11 @@
                       <tr class="product-btn">
                         <td>
                           <a href="https://www.lge.co.kr/category/washing-machines?subCateId=CT50000103&filterProduct=AT0000001251:KY0000001078:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품 보러 가기</a>
+                            target="_blank" rel="noopener" class="btn-product" title="새창열림">제품 보러 가기</a>
                         </td>
                         <td>
                           <a href="https://www.lge.co.kr/category/washing-machines?subCateId=CT50000103&filterProduct=AT0000000142:KY0000000283:02,AT0000001251:KY0000003401:03,AT0000000150:KY0000001242:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품 보러 가기</a>
+                            target="_blank" rel="noopener" class="btn-product" title="새창열림">제품 보러 가기</a>
                         </td>
                       </tr>
                     </tbody>
@@ -1740,9 +1739,9 @@
                     <div class="btn-wrap" style="--btn-width: 216px; --btn-m-width: 196px">
                       <a class="btn-product"
                         href="https://www.lge.co.kr/category/wash-tower?subCateId=CT50210002&filterProduct=AT0000000143:KY0000003571:01"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                        target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
                       <a class="btn-guide" href="https://www.lge.co.kr/story/user-guide/wash-tower-install-guide"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림">설치 가이드 보러 가기</a>
+                        target="_blank" rel="noopener" title="새창열림">설치 가이드 보러 가기</a>
                     </div>
                     <div class="img">
                       <button class="btn-pause">일시멈춤</button>
@@ -1763,9 +1762,9 @@
                     <div class="btn-wrap" style="--btn-width: 216px; --btn-m-width: 196px">
                       <a class="btn-product"
                         href="https://www.lge.co.kr/category/care-solutions/wash-tower?filterProduct=AT0000000109:KY0000002622:03"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                        target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
                       <a class="btn-guide" href="https://www.lge.co.kr/story/user-guide/wash-tower-install-guide"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림">설치 가이드 보러 가기</a>
+                        target="_blank" rel="noopener" title="새창열림">설치 가이드 보러 가기</a>
                     </div>
                     <div class="img">
                       <button class="btn-pause">일시멈춤</button>
@@ -1788,7 +1787,7 @@
                     </p>
                     <div class="btn-wrap" style="--btn-width: 216px; --btn-m-width: 196px;">
                       <a class="btn-product" href="https://www.lge.co.kr/category/care-solutions/wash-combo"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                        target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
                     </div>
                     <div class="img">
                       <img src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_38.jpg"
@@ -1807,7 +1806,7 @@
                     <div class="btn-wrap" style="--btn-width: 216px; --btn-m-width: 196px;">
                       <a class="btn-product"
                         href="https://www.lge.co.kr/category/washing-machines?filterProduct=AT0000000142:KY0000000283:02"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                        target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
                     </div>
                     <div class="img">
                       <img src="/kr/story/buying-guide/2025/img/washing-machine/img_P07_001_33.jpg"
@@ -1899,7 +1898,7 @@
                   <div class="btn-wrap" style="--btn-width:  216px; --btn-m-width: 196px;">
                     <a class="btn-product"
                       href="https://www.lge.co.kr/category/wash-tower?filterProduct=AT0000001251:KY0000002682:03&filterBrand=AT0000000111:KY0000003992:01"
-                      target="_blank" rel="noopener" aria-label="새 창에서 열림">워시타워 제품 보러 가기</a>
+                      target="_blank" rel="noopener" title="새창열림">워시타워 제품 보러 가기</a>
                   </div>
                   <div class="img">
                     <button class="btn-pause">일시멈춤</button>
@@ -1920,7 +1919,7 @@
                   <div class="btn-wrap" style="--btn-width: 216px; --btn-m-width: 196px;">
                     <a class="btn-product"
                       href="https://www.lge.co.kr/category/washing-machines?subCateId=CT50000102&filterBrand=AT0000000111:KY0000003992:01"
-                      target="_blank" rel="noopener" aria-label="새 창에서 열림">트롬 세탁기 제품 보러 가기</a>
+                      target="_blank" rel="noopener" title="새창열림">트롬 세탁기 제품 보러 가기</a>
                   </div>
                   <div class="img">
                     <button class="btn-pause">일시멈춤</button>
@@ -2026,13 +2025,13 @@
                   <div class="btn-wrap" style="--btn-width: 216px; --btn-m-width: 196px">
                     <a class="btn-product"
                       href="https://www.lge.co.kr/category/wash-tower?filterProduct=AT0000000095:KY0000001053:01,AT0000000095:KY0000000583:01"
-                      target="_blank" rel="noopener" aria-label="새 창에서 열림">워시타워 제품 보러 가기</a>
+                      target="_blank" rel="noopener" title="새창열림">워시타워 제품 보러 가기</a>
                     <a class="btn-product"
                       href="https://www.lge.co.kr/category/wash-combo?filterProduct=AT0000000116:KY0000001051:03,AT0000000116:KY0000000583:03"
-                      target="_blank" rel="noopener" aria-label="새 창에서 열림">워시콤보 제품 보러 가기</a>
+                      target="_blank" rel="noopener" title="새창열림">워시콤보 제품 보러 가기</a>
                     <a class="btn-product"
                       href="https://www.lge.co.kr/category/washing-machines?filterProduct=AT0000000116:KY0000000882:03,AT0000000116:KY0000001051:03,AT0000000116:KY0000000583:03,AT0000000116:KY0000000906:03"
-                      target="_blank" rel="noopener" aria-label="새 창에서 열림">세탁기 제품 보러 가기</a>
+                      target="_blank" rel="noopener" title="새창열림">세탁기 제품 보러 가기</a>
                   </div>
                   <div class="img">
                     <button class="btn-pause">일시멈춤</button>
@@ -2479,11 +2478,11 @@
               드려요.
             </p>
             <div class="btn-wrap" style="--btn-width: 216px; --btn-m-width: 196px;">
-              <a target="_blank" rel="noopener" aria-label="새 창에서 열림" href="https://www.lge.co.kr/story/useful-tip/washing-machines-faq">세탁기 FAQ</a>
-              <a target="_blank" rel="noopener" aria-label="새 창에서 열림" href="https://www.lge.co.kr/story/useful-tip/wash-tower-faq">워시타워 FAQ</a>
+              <a target="_blank" rel="noopener" href="https://www.lge.co.kr/story/useful-tip/washing-machines-faq" title="새창열림">세탁기 FAQ</a>
+              <a target="_blank" rel="noopener" href="https://www.lge.co.kr/story/useful-tip/wash-tower-faq" title="새창열림">워시타워 FAQ</a>
             </div>
             <div class="btn-wrap" style="--btn-width: 216px; --btn-m-width: 196px;">
-              <a target="_blank" rel="noopener" aria-label="새 창에서 열림" href="https://www.lge.co.kr/story/faq/wash-combo-faq">워시콤보 FAQ</a>
+              <a target="_blank" rel="noopener" href="https://www.lge.co.kr/story/faq/wash-combo-faq" title="새창열림">워시콤보 FAQ</a>
             </div>
           </div>
           <div class="tip-subscribe">
@@ -2494,11 +2493,11 @@
               세탁기·워시타워·워시콤보를 정기적으로 구독하고 싶다면?
             </p>
             <div class="btn-wrap" style="--btn-width: 216px; --btn-m-width: 196px;">
-              <a target="_blank" rel="noopener" aria-label="새 창에서 열림" href="https://www.lge.co.kr/category/care-solutions/washing_machines">세탁기 구독 상품</a>
-              <a target="_blank" rel="noopener" aria-label="새 창에서 열림" href="https://www.lge.co.kr/category/care-solutions/wash-tower">워시타워 구독 상품</a>
+              <a target="_blank" rel="noopener" href="https://www.lge.co.kr/category/care-solutions/washing_machines" title="새창열림">세탁기 구독 상품</a>
+              <a target="_blank" rel="noopener" href="https://www.lge.co.kr/category/care-solutions/wash-tower" title="새창열림">워시타워 구독 상품</a>
             </div>
             <div class="btn-wrap" style="--btn-width: 216px; --btn-m-width: 196px;">
-              <a target="_blank" rel="noopener" aria-label="새 창에서 열림" href="https://www.lge.co.kr/category/care-solutions/wash-combo">워시콤보 구독 상품</a>
+              <a target="_blank" rel="noopener" href="https://www.lge.co.kr/category/care-solutions/wash-combo" title="새창열림">워시콤보 구독 상품</a>
             </div>
           </div>
           <div class="tip-best">
@@ -2511,16 +2510,16 @@
               보세요!
             </p>
             <div class="btn-wrap" style="--btn-width: 216px; --btn-m-width: 196px;">
-              <a target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000100&categoryId=CT50000101&categoryName=%EC%84%B8%ED%83%81%EA%B8%B0">세탁기
+              <a target="_blank" rel="noopener"
+                href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000100&categoryId=CT50000101&categoryName=%EC%84%B8%ED%83%81%EA%B8%B0" title="새창열림">세탁기
                 베스트 랭킹</a>
-              <a target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000100&categoryId=CT50000110&categoryName=%EC%9B%8C%EC%8B%9C%ED%83%80%EC%9B%8C">워시타워
+              <a target="_blank" rel="noopener"
+                href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000100&categoryId=CT50000110&categoryName=%EC%9B%8C%EC%8B%9C%ED%83%80%EC%9B%8C" title="새창열림">워시타워
                 베스트 랭킹</a>
             </div>
             <div class="btn-wrap" style="--btn-width: 216px; --btn-m-width: 196px;">
-              <a target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000100&categoryId=CT50250001&categoryName=%EC%9B%8C%EC%8B%9C%EC%BD%A4%EB%B3%B4">워시콤보
+              <a target="_blank" rel="noopener"
+                href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000100&categoryId=CT50250001&categoryName=%EC%9B%8C%EC%8B%9C%EC%BD%A4%EB%B3%B4" title="새창열림">워시콤보
                 베스트 랭킹</a>
             </div>
           </div>

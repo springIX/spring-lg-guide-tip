@@ -228,8 +228,8 @@
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/dishwashers?filterProduct=AT0000001122:KY0000004032:01,AT0000000136:KY0000000219:01"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span>LG 디오스 AI 오브제컬렉션 식기세척기</span></a
+                        target="_blank" rel="noopener"
+                         title="새창열림"><span>LG 디오스 AI 오브제컬렉션 식기세척기</span></a
                       >
                       <p>열풍+스팀<span></span>1등급</p>
                     </div>
@@ -272,8 +272,8 @@
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/dishwashers?filterProduct=AT0000000136:KY0000000219:01,AT0000001122:KY0000000899:01"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span>LG 디오스 AI 오브제컬렉션 식기세척기</span></a
+                        target="_blank" rel="noopener"
+                         title="새창열림"><span>LG 디오스 AI 오브제컬렉션 식기세척기</span></a
                       >
                       <p>스팀<span></span>1등급</p>
                     </div>
@@ -316,8 +316,8 @@
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/dishwashers?filterProduct=AT0000000141:KY0000000103:01,AT0000000621:KY0000003361:01,AT0000001251:KY0000001212:03,AT0000001251:KY0000003642:03,AT0000001251:KY0000003643:03"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span>LG 디오스 AI 오브제컬렉션 식기세척기</span></a
+                        target="_blank" rel="noopener"
+                         title="새창열림"><span>LG 디오스 AI 오브제컬렉션 식기세척기</span></a
                       >
                       <p>논스팀<span></span>1등급</p>
                     </div>
@@ -375,18 +375,18 @@
                     </caption>
                     <thead>
                       <tr class="procuct-name">
-                        <th colspan="2">
+                        <th scope="colgroup" colspan="2">
                           <h4>열풍+스팀 타입</h4>
                           <p>
                             스팀으로 유해세균을 제거하고 열풍으로 물기 없이
                             깔끔하게
                           </p>
                         </th>
-                        <th colspan="2">
+                        <th scope="colgroup" colspan="2">
                           <h4>스팀 타입</h4>
                           <p>트루 스팀으로 유해세균 걱정없이 깨끗하게</p>
                         </th>
-                        <th>
+                        <th scope="col">
                           <h4>논스팀 타입</h4>
                           <p>필요한 기능들로 실속있게</p>
                         </th>
@@ -1054,41 +1054,41 @@
                         <td>
                           <a
                             href="https://www.lge.co.kr/category/dishwashers?subCateId=CT50220010&filterProduct=AT0000001122:KY0000004032:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             class="btn-product"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                         </td>
                         <td>
                           <a
                             href="https://www.lge.co.kr/category/dishwashers?subCateId=CT50220010&filterProduct=AT0000001122:KY0000004032:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             class="btn-product"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                         </td>
                         <td>
                           <a
                             href="https://www.lge.co.kr/category/dishwashers?subCateId=CT50220010&filterProduct=AT0000001122:KY0000000899:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             class="btn-product"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                         </td>
                         <td>
                           <a
                             href="https://www.lge.co.kr/category/dishwashers?subCateId=CT50220011&filterProduct=AT0000001122:KY0000000899:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             class="btn-product"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                         </td>
                         <td>
                           <a
                             href="https://www.lge.co.kr/category/dishwashers?filterProduct=AT0000000136:KY0000000219:01,AT0000000141:KY0000000103:01,AT0000001251:KY0000001212:03,AT0000001251:KY0000003642:03,AT0000001251:KY0000003643:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             class="btn-product"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                         </td>
                       </tr>
@@ -1118,33 +1118,33 @@
                     </colgroup>
                     <thead>
                       <tr>
-                        <th colspan="2" rowspan="2">모델라인업</th>
-                        <th colspan="2">열풍+스팀 타입</th>
-                        <th colspan="2">스팀 타입</th>
-                        <th colspan="2">논스팀 타입</th>
+                        <th scope="colgroup" colspan="2" rowspan="2">모델라인업</th>
+                        <th scope="colgroup" colspan="2">열풍+스팀 타입</th>
+                        <th scope="colgroup" colspan="2">스팀 타입</th>
+                        <th scope="colgroup" colspan="2">논스팀 타입</th>
                       </tr>
                       <tr>
-                        <th class="th2">
+                        <th scope="col" class="th2">
                           D*E6**E
                           <p>위생, 편의 기능 모두 갖춘열풍건조 프리미엄</p>
                         </th>
-                        <th class="th2">
+                        <th scope="col" class="th2">
                           D*E6**L*E
                           <p>실속있는 열풍건조 프리미엄</p>
                         </th>
-                        <th class="th2">
+                        <th scope="col" class="th2">
                           D*E5**E, D*E5**L*E
                           <p>대용량, 편의 기능 갖춘 트루스팀</p>
                         </th>
-                        <th class="th2">
+                        <th scope="col" class="th2">
                           D*E4**E
                           <p>12인용으로 실속있는 트루스팀</p>
                         </th>
-                        <th class="th2">
+                        <th scope="col" class="th2">
                           D*E1**LE
                           <p>필수 기능만 담은 합리적인 선택</p>
                         </th>
-                        <th class="th2">
+                        <th scope="col" class="th2">
                           DUB61TBE
                           <p>심플하게 시작하는 식기세척기 라이프</p>
                         </th>
@@ -1166,8 +1166,8 @@
                           ); /* 스테인리스 */
                         "
                       >
-                        <th>디자인</th>
-                        <th class="th2">컬러</th>
+                        <th scope="row">디자인</th>
+                        <th scope="row" class="th2">컬러</th>
                         <td>
                           <p class="color-chip">
                             <span
@@ -1266,8 +1266,8 @@
                         </td>
                       </tr>
                       <tr>
-                        <th rowspan="2">기본 사양</th>
-                        <th class="th2">용량</th>
+                        <th scope="rowgroup" rowspan="2">기본 사양</th>
+                        <th scope="row" class="th2">용량</th>
                         <td>14인용</td>
                         <td>14인용</td>
                         <td>14인용</td>
@@ -1276,7 +1276,7 @@
                         <td>12인용</td>
                       </tr>
                       <tr>
-                        <th class="th2">설치타입</th>
+                        <th scope="row" class="th2">설치타입</th>
                         <td>
                           빌트인 걸레받이 <br />10cm, 15cm <br />프리스탠딩
                         </td>
@@ -1287,8 +1287,8 @@
                         <td>빌트인 걸레받이 15cm</td>
                       </tr>
                       <tr>
-                        <th rowspan="4">세척</th>
-                        <th class="th2">
+                        <th scope="rowgroup" rowspan="4">세척</th>
+                        <th scope="row" class="th2">
                           100℃ <br class="mobile-only" />트루스팀
                         </th>
                         <td class="y">O</td>
@@ -1299,7 +1299,7 @@
                         <td class="n">X</td>
                       </tr>
                       <tr>
-                        <th class="th2">
+                        <th scope="row" class="th2">
                           토네이도 <br class="mobile-only" />세척날개
                         </th>
                         <td class="y">O</td>
@@ -1310,7 +1310,7 @@
                         <td class="y">O</td>
                       </tr>
                       <tr>
-                        <th class="th2">연수장치</th>
+                        <th scope="row" class="th2">연수장치</th>
                         <td class="y">O</td>
                         <td class="y">O</td>
                         <td class="y">O</td>
@@ -1319,7 +1319,7 @@
                         <td class="y">O</td>
                       </tr>
                       <tr>
-                        <th class="th2">
+                        <th scope="row" class="th2">
                           AI <br class="mobile-only" />자동코스
                         </th>
                         <td class="y">O</td>
@@ -1330,8 +1330,8 @@
                         <td class="n">X</td>
                       </tr>
                       <tr>
-                        <th rowspan="2">건조</th>
-                        <th class="th2">열풍 건조</th>
+                        <th scope="rowgroup" rowspan="2">건조</th>
+                        <th scope="row" class="th2">열풍 건조</th>
                         <td class="y">O</td>
                         <td class="y">O</td>
                         <td class="n">X</td>
@@ -1340,7 +1340,7 @@
                         <td class="n">X</td>
                       </tr>
                       <tr>
-                        <th class="th2">
+                        <th scope="row" class="th2">
                           자동 문열림 <br class="mobile-only" />건조
                         </th>
                         <td class="y">O</td>
@@ -1351,8 +1351,8 @@
                         <td class="n">X</td>
                       </tr>
                       <tr>
-                        <th rowspan="4">선반/편의</th>
-                        <th class="th2">3단 선반</th>
+                        <th scope="rowgroup" rowspan="4">선반/편의</th>
+                        <th scope="row" class="th2">3단 선반</th>
                         <td class="y">O</td>
                         <td class="y">O</td>
                         <td class="y">O</td>
@@ -1361,7 +1361,7 @@
                         <td class="n">X</td>
                       </tr>
                       <tr>
-                        <th class="th2">
+                        <th scope="row" class="th2">
                           글라이드 <br class="mobile-only" />레일
                         </th>
                         <td class="y">O</td>
@@ -1372,7 +1372,7 @@
                         <td class="n">X</td>
                       </tr>
                       <tr>
-                        <th class="th2">내부조명</th>
+                        <th scope="row" class="th2">내부조명</th>
                         <td class="y">O</td>
                         <td class="n">X</td>
                         <td class="n">X</td>
@@ -1381,7 +1381,7 @@
                         <td class="n">X</td>
                       </tr>
                       <tr>
-                        <th class="th2">음성안내</th>
+                        <th scope="row" class="th2">음성안내</th>
                         <td class="y">O</td>
                         <td class="y">O</td>
                         <td class="n">X</td>
@@ -1390,8 +1390,8 @@
                         <td class="n">X</td>
                       </tr>
                       <tr>
-                        <th>스마트 <br class="mobile-only" />기능</th>
-                        <th class="th2">UP 가전</th>
+                        <th scope="row">스마트 <br class="mobile-only" />기능</th>
+                        <th scope="row" class="th2">UP 가전</th>
                         <td class="y">O</td>
                         <td class="y">O</td>
                         <td class="y">O</td>
@@ -1400,8 +1400,8 @@
                         <td class="n">X</td>
                       </tr>
                       <tr>
-                        <th>성능 효율</th>
-                        <th class="th2">
+                        <th scope="row">성능 효율</th>
+                        <th scope="row" class="th2">
                           에너지소비<br class="mobile-only" />효율등급
                         </th>
                         <td>1등급</td>
@@ -1502,14 +1502,14 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/dishwashers?filterProduct=AT0000000242:KY0000000850:01,AT0000000621:KY0000003361:01,AT0000000621:KY0000003362:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                           <a
                             class="btn-guide"
                             href="https://www.lge.co.kr/story/user-guide/dishwashers-install-guide#built-in-150mm"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >설치 가이드 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">설치 가이드 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1531,15 +1531,15 @@
                         >
                           <a
                             class="btn-product"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             href="https://www.lge.co.kr/category/dishwashers?filterProduct=AT0000000242:KY0000002831:01"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                           <a
                             class="btn-guide"
                             href="https://www.lge.co.kr/story/user-guide/dishwashers-install-guide#built-in-150mm"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >설치 가이드 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">설치 가이드 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1569,8 +1569,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/dishwashers?subCateId=CT50220010"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
 
@@ -1591,9 +1591,9 @@
                         <div class="btn-wrap">
                           <a
                             class="btn-product"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             href="https://www.lge.co.kr/category/dishwashers?filterProduct=AT0000000141:KY0000000103:01"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1687,8 +1687,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/dishwashers?filterProduct=AT0000001251:KY0000000056:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1800,8 +1800,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/dishwashers?filterProduct=AT0000001251:KY0000001212:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1849,8 +1849,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/dishwashers?filterProduct=AT0000001251:KY0000003642:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -2049,8 +2049,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/dishwashers?filterProduct=AT0000001122:KY0000004032:01,AT0000001122:KY0000000899:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -2533,9 +2533,9 @@
                 <p>식기세척기, 궁금했던 모든 것에 답해 드려요.</p>
                 <div class="btn-wrap">
                   <a
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                    target="_blank" rel="noopener"
                     href="https://www.lge.co.kr/story/useful-tip/dishwashers-faq"
-                    >FAQ</a
+                     title="새창열림">FAQ</a
                   >
                 </div>
               </div>
@@ -2549,9 +2549,9 @@
                 <p>식기세척기를 정기적으로 구독하고 싶다면?</p>
                 <div class="btn-wrap">
                   <a
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                    target="_blank" rel="noopener"
                     href="https://www.lge.co.kr/category/care-solutions/dishwashers"
-                    >구독 상품</a
+                     title="새창열림">구독 상품</a
                   >
                 </div>
               </div>
@@ -2565,9 +2565,9 @@
                 <p>지금 가장 인기 있는 식기세척기 확인해 보세요!</p>
                 <div class="btn-wrap">
                   <a
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                    target="_blank" rel="noopener"
                     href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000064&categoryId=CT50000086&categoryName=%EC%8B%9D%EA%B8%B0%EC%84%B8%EC%B2%99%EA%B8%B0"
-                    >베스트 랭킹</a
+                     title="새창열림">베스트 랭킹</a
                   >
                 </div>
               </div>

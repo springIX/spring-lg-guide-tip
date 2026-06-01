@@ -64,6 +64,7 @@
         <!-- 이모션 추가 -->
         <link rel="stylesheet" href="/kr/story/buying-guide/2025/css/common.css" type="text/css" />
         <link rel="stylesheet" href="/kr/story/buying-guide/2025/css/purifier.css" type="text/css" />
+        <link rel="stylesheet" href="/kr/story/buying-guide/2025/css/tv.css" type="text/css">
         <script src="/kr/story/buying-guide/2025/js/common.js"></script>
         <script src="/kr/story/buying-guide/2025/js/purifier.js"></script>
         <!-- // 이모션 추가 -->
@@ -254,7 +255,7 @@
                         <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                         <div class="bubble">
                           <a href="https://www.lge.co.kr/category/air-purifier?filterProduct=AT0000000109:KY0000003421:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 퓨리케어 AI 오브제컬렉션 360° 공기청정기</span></a>
+                            target="_blank" rel="noopener" title="새창열림"><span>LG 퓨리케어 AI 오브제컬렉션 360° 공기청정기</span></a>
                           <p>청정사용면적 66㎡~114㎡</p>
                         </div>
                       </div>
@@ -305,7 +306,7 @@
                             </caption>
                             <thead>
                               <tr class="procuct-name">
-                                <th colspan="5">
+                                <th scope="colgroup" colspan="5">
                                   <h4>AI 360°</h4>
                                   <p>
                                     우리 집 오염도에 맞춰 알아서 청정
@@ -825,7 +826,7 @@
                       </div>
                       <div class="btn-wrap">
                         <a href="https://www.lge.co.kr/category/air-purifier?lineupId=CD00000381&SUB_CATE_ID_PARAM=CT50000144"
-                          target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품 보러 가기</a>
+                          target="_blank" rel="noopener" class="btn-product" title="새창열림">제품 보러 가기</a>
                       </div>
                     </div>
                   </div>
@@ -841,7 +842,7 @@
                         <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                         <div class="bubble">
                           <a href="https://www.lge.co.kr/category/air-purifier?filterProduct=AT0000000109:KY0000001884:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 퓨리케어 AI 오브제컬렉션 360° 공기청정기
+                            target="_blank" rel="noopener" title="새창열림"><span>LG 퓨리케어 AI 오브제컬렉션 360° 공기청정기
                               플러스</span>
                           </a>
                           <p>청정사용면적 59.4㎡~100㎡</p>
@@ -890,7 +891,7 @@
                             </caption>
                             <thead>
                               <tr class="procuct-name">
-                                <th colspan="4">
+                                <th scope="colgroup" colspan="4">
                                   <h4>360° 플러스</h4>
                                   <p>
                                     넓은 공간도 360°로 빈틈없이, 멀리까지 빠르게
@@ -1192,7 +1193,7 @@
                       </div>
                       <div class="btn-wrap">
                         <a href="https://www.lge.co.kr/category/air-purifier?filterProduct=AT0000000109:KY0000001884:03"
-                          target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품 보러 가기</a>
+                          target="_blank" rel="noopener" class="btn-product" title="새창열림">제품 보러 가기</a>
                       </div>
                     </div>
                   </div>
@@ -1208,7 +1209,7 @@
                         <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                         <div class="bubble">
                           <a href="https://www.lge.co.kr/category/air-purifier?filterProduct=AT0000000109:KY0000001887:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 퓨리케어 360° 공기청정기 Hit</span></a>
+                            target="_blank" rel="noopener" title="새창열림"><span>LG 퓨리케어 360° 공기청정기 Hit</span></a>
                           <p>청정사용면적 50㎡~62㎡</p>
                         </div>
                       </div>
@@ -1268,7 +1269,7 @@
                             </caption>
                             <thead>
                               <tr class="procuct-name">
-                                <th colspan="4">
+                                <th scope="colgroup" colspan="4">
                                   <h4>360° Hit</h4>
                                   <p>
                                     공간 차지가 작은 슬림한 디자인으로 내가 원하는
@@ -1460,7 +1461,7 @@
                       </div>
                       <div class="btn-wrap">
                         <a href="https://www.lge.co.kr/category/air-purifier?filterProduct=AT0000000109:KY0000001887:03"
-                          target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품 보러 가기</a>
+                          target="_blank" rel="noopener" class="btn-product" title="새창열림">제품 보러 가기</a>
                       </div>
                     </div>
                   </div>
@@ -1476,7 +1477,7 @@
                         <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                         <div class="bubble">
                           <a href="https://www.lge.co.kr/category/air-purifier?filterProduct=AT0000000109:KY0000000987:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 퓨리케어 오브제컬렉션 에어로타워 Hit</span></a>
+                            target="_blank" rel="noopener" title="새창열림"><span>LG 퓨리케어 오브제컬렉션 에어로타워 Hit</span></a>
                           <p>청정사용면적 18.4㎡</p>
                         </div>
                       </div>
@@ -1525,7 +1526,7 @@
                             </caption>
                             <thead>
                               <tr class="procuct-name">
-                                <th colspan="2">
+                                <th scope="colgroup" colspan="2">
                                   <h4>에어로타워</h4>
                                   <p>
                                     깨끗한 바람을 사계절 내내 내게 딱 맞는 온도로
@@ -1712,7 +1713,7 @@
                       </div>
                       <div class="btn-wrap">
                         <a href="https://www.lge.co.kr/category/air-purifier?filterProduct=AT0000000109:KY0000000987:03"
-                          target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품 보러 가기</a>
+                          target="_blank" rel="noopener" class="btn-product" title="새창열림">제품 보러 가기</a>
                       </div>
                     </div>
                   </div>
@@ -1730,7 +1731,7 @@
                             <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                             <div class="bubble">
                               <a href="https://www.lge.co.kr/category/air-purifier?filterProduct=AT0000000109:KY0000001885:03"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 퓨리케어 AI 오브제컬렉션 에어로퍼니처</span></a>
+                                target="_blank" rel="noopener" title="새창열림"><span>LG 퓨리케어 AI 오브제컬렉션 에어로퍼니처</span></a>
                               <p>청정사용면적 19.8㎡</p>
                             </div>
                           </div>
@@ -1752,7 +1753,7 @@
                             <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                             <div class="bubble">
                               <a href="https://www.lge.co.kr/category/air-purifier?filterProduct=AT0000000109:KY0000001885:03"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 퓨리케어 AI 오브제컬렉션 에어로캣타워</span></a>
+                                target="_blank" rel="noopener" title="새창열림"><span>LG 퓨리케어 AI 오브제컬렉션 에어로캣타워</span></a>
                               <p>청정사용면적 19.8㎡</p>
                             </div>
                           </div>
@@ -1778,8 +1779,8 @@
                         <div class="bubble">
                           <a
                             href="https://www.lge.co.kr/category/air-purifier?filterProduct=AT0000000109:KY0000001885:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            ><span
+                            target="_blank" rel="noopener"
+                             title="새창열림"><span
                               >LG 퓨리케어 AI 오브제컬렉션 에어로스피커</span
                             ></a
                           >
@@ -1846,7 +1847,7 @@
                             </caption>
                             <thead>
                               <tr class="procuct-name">
-                                <th colspan="2">
+                                <th scope="colgroup" colspan="2">
                                   <h4>에어로시리즈</h4>
                                   <p>
                                     깨끗한 공기를 라이프스타일에 맞춰 원하는 형태로
@@ -2145,7 +2146,7 @@
                       </div>
                       <div class="btn-wrap">
                         <a href="https://www.lge.co.kr/category/air-purifier?filterProduct=AT0000000109:KY0000001885:03"
-                          target="_blank" rel="noopener" aria-label="새 창에서 열림" class="btn-product">제품 보러 가기</a>
+                          target="_blank" rel="noopener" class="btn-product" title="새창열림">제품 보러 가기</a>
                       </div>
                     </div>
                   </div>
@@ -2163,7 +2164,7 @@
                             <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                             <div class="bubble">
                               <a href="https://www.lge.co.kr/category/air-purifier?lineupId=CD00000601"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 퓨리케어 오브제컬렉션 에어로부스터</span></a>
+                                target="_blank" rel="noopener" title="새창열림"><span>LG 퓨리케어 오브제컬렉션 에어로부스터</span></a>
                               <p>청정사용면적 48.2㎡</p>
                             </div>
                           </div>
@@ -2185,7 +2186,7 @@
                             <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                             <div class="bubble">
                               <a href="https://www.lge.co.kr/category/air-purifier?lineupId=CD00000601"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 퓨리케어 오브제컬렉션 에어로부스터</span></a>
+                                target="_blank" rel="noopener" title="새창열림"><span>LG 퓨리케어 오브제컬렉션 에어로부스터</span></a>
                               <p>청정사용면적 48.2㎡</p>
                             </div>
                           </div>
@@ -2207,7 +2208,7 @@
                             <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                             <div class="bubble">
                               <a href="https://www.lge.co.kr/category/air-purifier?lineupId=CD00000601"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림"><span>LG 퓨리케어 오브제컬렉션 에어로부스터</span></a>
+                                target="_blank" rel="noopener" title="새창열림"><span>LG 퓨리케어 오브제컬렉션 에어로부스터</span></a>
                               <p>청정사용면적 48.2㎡</p>
                             </div>
                           </div>
@@ -2266,7 +2267,7 @@
                             </caption>
                             <thead>
                               <tr class="procuct-name">
-                                <th>
+                                <th scope="col">
                                   <h4>에어로부스터</h4>
                                   <p>
                                     강력한 상하단 청정바람, 슬림 디자인으로 완성
@@ -2379,8 +2380,8 @@
                         </div>
                       </div>
                       <div class="btn-wrap">
-                        <a href="https://www.lge.co.kr/category/air-purifier?lineupId=CD00000601" target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                          class="btn-product">제품 보러 가기</a>
+                        <a href="https://www.lge.co.kr/category/air-purifier?lineupId=CD00000601" target="_blank" rel="noopener"
+                          class="btn-product" title="새창열림">제품 보러 가기</a>
                       </div>
                     </div>
                   </div>
@@ -2442,7 +2443,7 @@
                             <div class="btn-wrap">
                               <a class="btn-product"
                                 href="https://www.lge.co.kr/category/air-purifier?filterProduct=AT0000000097:KY0000000526:02,AT0000000097:KY0000000059:02,AT0000000163:KY0000000302:01"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                                target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
                             </div>
                             <div class="img">
                               <img src="/kr/story/buying-guide/2025/img/purifier/img_P04_101_01.jpg"
@@ -2461,7 +2462,7 @@
                             <div class="btn-wrap">
                               <a class="btn-product"
                                 href="https://www.lge.co.kr/category/air-purifier?filterProduct=AT0000000097:KY0000000413:02"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                                target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
                             </div>
                             <div class="img">
                               <img src="/kr/story/buying-guide/2025/img/purifier/img_P04_101_02.jpg"
@@ -2484,7 +2485,7 @@
                             <div class="btn-wrap">
                               <a class="btn-product"
                                 href="https://www.lge.co.kr/category/air-purifier?filterProduct=AT0000000097:KY0000000411:02"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                                target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
                             </div>
                             <div class="img">
                               <div class="point-slider2 autoplay-slider-wrap">
@@ -2765,7 +2766,7 @@
                             <div class="btn-wrap">
                               <a class="btn-product"
                                 href="https://www.lge.co.kr/category/air-purifier?filterProduct=AT0000001251:KY0000002335:03"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                                target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
                             </div>
                             <div class="img">
                               <img src="/kr/story/buying-guide/2025/img/purifier/img_P04_101_08.jpg"
@@ -2839,7 +2840,7 @@
                             <div class="btn-wrap">
                               <a class="btn-product"
                                 href="https://www.lge.co.kr/category/air-purifier?subCateId=CT50000144&filterProduct=AT0000000109:KY0000003421:03,AT0000000109:KY0000002231:03,AT0000000109:KY0000001882:03,AT0000000109:KY0000001884:03,AT0000000109:KY0000001887:03"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                                target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
                             </div>
                             <div class="img">
                               <div class="point-slider2 autoplay-slider-wrap video-content-slider" data-speed="9000">
@@ -2988,7 +2989,7 @@
                             <div class="btn-wrap">
                               <a class="btn-product"
                                 href="https://www.lge.co.kr/category/air-purifier?filterProduct=AT0000000161:KY0000003301:03,AT0000000161:KY0000004778:03,AT0000000161:KY0000004779:03"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                                target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
                             </div>
                             <div class="img">
                               <img src="/kr/story/buying-guide/2025/img/purifier/img_P04_101_11.jpg"
@@ -3059,7 +3060,7 @@
                             <div class="btn-wrap">
                               <a class="btn-product"
                                 href="https://www.lge.co.kr/category/air-purifier?filterProduct=AT0000000161:KY0000000593:03"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                                target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
                             </div>
                             <div class="img">
                               <img src="/kr/story/buying-guide/2025/img/purifier/img_P04_101_12.jpg"
@@ -3151,7 +3152,7 @@
                             <div class="btn-wrap">
                               <a class="btn-product"
                                 href="https://www.lge.co.kr/category/air-purifier?filterProduct=AT0000000161:KY0000000641:03"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                                target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
                             </div>
                             <div class="img">
                               <img src="/kr/story/buying-guide/2025/img/purifier/img_P04_101_13.jpg"
@@ -3232,6 +3233,55 @@
                         </div>
                       </div>
                     </div>
+                      <div class="media-des">
+                        <h5>영상으로 한번 더, 쉽게 설명해 드릴게요.</h5>
+                        <div class="video-wrap">
+                          <button class="btn-mute muted">음소거</button>
+                          <button class="btn-pause">일시멈춤</button>
+                          <video playsinline loop muted poster="/kr/story/buying-guide/2025/img/purifier/img_P04_101_01_thumbnail.png"
+                            src="/kr/story/buying-guide/2025/video/purifier/vid_P04_101_01.mp4">
+                            <track kind="captions" src="/kr/story/buying-guide/2025/video/purifier/vid_P04_101_01.ko.vtt" srclang="ko"
+                              label="한국어 자막" default>
+                            <track kind="descriptions" src="/kr/story/buying-guide/2025/video/purifier/vid_P04_101_01.descriptions.ko.vtt"
+                              srclang="ko" label="한국어 화면 해설">
+                          </video>
+                          <div class="sr-only">
+                            <p>
+                              영상 자막: 공기청정기의 심장, 청정 성능의 핵심인 필터에 대해 알아볼까요?
+                              필터는 미세먼지, 유해가스를 걸러주고 깨끗한 공기만 내보내는 역할을 하기 때문에
+                              필터의 품질과 성능이 곧 공기청정기의 청정 성능을 결정합니다.
+                              360도 공기청정기의 필터는 유해가스 정화 능력에 따라 총 4가지로 나뉘는데요.
+                              MOF가 다량 적용된 최강 정화 능력을 가진 강력탈취청정 M7 필터.
+                              그다음 동일한 MOF를 적용한 강력한 탈취 성능의 M5 필터.
+                              활성탄을 사용하여 합리적인 탈취 성능을 제공하는 V2 필터.
+                              집진 성능에만 집중한 H 필터가 있습니다.
+                              업계 최고 탈취 성능을 지닌 강력탈취청정 M7 필터와 다양한 라인업의 필터를 라이프스타일에 맞춰 선택하고 실내 공기질을 깨끗이 유지해 보세요.
+                              MOF란 금속 유기 골격체로 2025년 노벨 화학상의 핵심 물질로 화제가 됐는데요.
+                              LG전자는 유해가스 제거에 특화된 MOF를 공기청정기 필터에 적용하여 업계 최고 탈취 성능을 확보했습니다.
+                              일반적으로 탈취에 사용하는 활성탄은 기공이 상대적으로 크고 불규칙해서 습기에 약하지만
+                              MOF는 기공이 매우 작고 규칙적인 구조라, 습기에 강하고 유해가스를 꽉 잡으면 다시 방출되기 어렵다는 장점이 있습니다.
+                              그리고 MOF의 함량이 많고 필터명에 붙은 숫자가 클수록 더욱 강력한 탈취가 가능합니다.
+                              다음은 정품 필터의 중요성입니다. 건강을 위해 공기청정기를 사용하는 만큼 필터도 안전한지 확인이 필요하겠죠?
+                              LG 공기청정기 정품 필터는 6가지 살생물 물질이 검출되지 않아 믿고 사용할 수 있습니다.
+                              필터 관리는 스스로도 교체가 가능하지만 교체가 번거롭게 느껴지신다면 LG 가전 구독을 통해 주기적으로 전문가의 케어를 받아보세요.
+                              앞으로도 믿고 사용할 수 있는 LG 360도 공기청정기 필터와 함께 실내 공기질을 언제나 깨끗하게 관리해 보세요.
+                            </p>
+                            <p>
+                              화면 해설: 공기청정기의 청정 성능의 핵심인 필터라는 제목이 표시됩니다.
+                              공기 중 오염물질이 필터 구조를 통과하며 걸러지는 3D 그래픽이 재생됩니다.
+                              360 공기청정기 필터 종류가 화면에 나열되고, 강력탈취청정 M7 필터, 강력탈취청정 M5 필터, 탈취청정 V2 필터, 퓨리청정 H 필터가 순서대로 소개됩니다.
+                              네 가지 필터의 적용 제품, 성능, 관리 정보를 비교하는 표가 표시됩니다.
+                              LG 공기청정기에 적용된 신소재 MOF를 설명하며, MOF의 격자형 구조와 유해가스를 흡착하는 3D 그래픽이 재생됩니다.
+                              활성탄과 MOF의 구조 차이를 비교하고, M5 필터와 M7 필터의 MOF 함량 차이를 강조합니다.
+                              공기청정기 제품과 정품 필터 표시가 클로즈업되고, 전문가가 공기청정기의 필터를 분리하고 관리하는 장면이 이어집니다.
+                              마지막에는 거실 공간의 LG PuriCare 오브제컬렉션 360도 공기청정기 제품 이미지가 표시됩니다.
+                            </p>
+                          </div>
+                        </div>
+                        <p class="note">
+                          * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
+                        </p>
+                      </div>
                     <div class="point-tip">
                       <h5>이런 포인트도 살펴보면 좋아요!</h5>
                       <div class="tip-content">
@@ -3333,7 +3383,7 @@
                             <div class="btn-wrap">
                               <a class="btn-product"
                                 href="https://www.lge.co.kr/category/air-purifier?filterProduct=AT0000001251:KY0000001574:03"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                                target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
                             </div>
                             <div class="img">
                               <img src="/kr/story/buying-guide/2025/img/purifier/img_P04_101_15.jpg"
@@ -3826,7 +3876,7 @@
                     </h3>
                     <p>공기청정기, 궁금했던 모든 것에 답해 드려요.</p>
                     <div class="btn-wrap">
-                      <a target="_blank" rel="noopener" aria-label="새 창에서 열림" href="https://www.lge.co.kr/story/faq/air-purifier-faq">FAQ</a>
+                      <a target="_blank" rel="noopener" href="https://www.lge.co.kr/story/faq/air-purifier-faq" title="새창열림">FAQ</a>
                     </div>
                   </div>
                   <div class="tip-subscribe">
@@ -3835,7 +3885,7 @@
                     </h3>
                     <p>공기청정기를 정기적으로 구독하고 싶다면?</p>
                     <div class="btn-wrap">
-                      <a target="_blank" rel="noopener" aria-label="새 창에서 열림" href="https://www.lge.co.kr/category/care-solutions/air-purifiers">구독 상품</a>
+                      <a target="_blank" rel="noopener" href="https://www.lge.co.kr/category/care-solutions/air-purifiers" title="새창열림">구독 상품</a>
                     </div>
                   </div>
                   <div class="tip-best">
@@ -3845,8 +3895,8 @@
                     </h3>
                     <p>지금 가장 인기 있는 공기청정기 확인해 보세요!</p>
                     <div class="btn-wrap">
-                      <a target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000130&categoryId=CT50000143&categoryName=%EA%B3%B5%EA%B8%B0%EC%B2%AD%EC%A0%95%EA%B8%B0">베스트
+                      <a target="_blank" rel="noopener"
+                        href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000130&categoryId=CT50000143&categoryName=%EA%B3%B5%EA%B8%B0%EC%B2%AD%EC%A0%95%EA%B8%B0" title="새창열림">베스트
                         랭킹</a>
                     </div>
                   </div>

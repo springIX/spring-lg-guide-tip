@@ -272,8 +272,8 @@
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/lg-styler?filterProduct=AT0000000141:KY0000000441:01,AT0000000141:KY0000002022:01"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span>LG 스타일러 오브제컬렉션 (NEW)</span></a
+                        target="_blank" rel="noopener"
+                         title="새창열림"><span>LG 스타일러 오브제컬렉션 (NEW)</span></a
                       >
                       <p>5벌 + 바지 1벌</p>
                     </div>
@@ -321,8 +321,8 @@
                     <div class="bubble">
                       <a
                         href="https://www.lge.co.kr/category/lg-styler?filterProduct=AT0000000141:KY0000000357:01,AT0000000141:KY0000000356:01"
-                        target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                        ><span>LG 스타일러</span></a
+                        target="_blank" rel="noopener"
+                         title="새창열림"><span>LG 스타일러</span></a
                       >
                       <p>3벌</p>
                     </div>
@@ -372,7 +372,7 @@
                         </caption>
                         <thead>
                           <tr class="procuct-name">
-                            <th>
+                            <th scope="col">
                               <h4>3벌</h4>
                               <p>
                                 출근 전이나 외출 전,
@@ -510,9 +510,9 @@
                             <td>
                               <a
                                 href="https://www.lge.co.kr/category/lg-styler?filterProduct=AT0000000141:KY0000000357:01,AT0000000141:KY0000000356:01"
-                                target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                                target="_blank" rel="noopener"
                                 class="btn-product"
-                                >제품 보러 가기</a
+                                 title="새창열림">제품 보러 가기</a
                               >
                             </td>
                           </tr>
@@ -551,14 +551,14 @@
                     </caption>
                     <thead>
                       <tr class="procuct-name">
-                        <th colspan="4">
+                        <th scope="colgroup" colspan="4">
                           <h4>5벌</h4>
                           <p>
                             여러 벌의 옷을 간편하게 관리하며,
                             <br />일상의 스타일을 손쉽게
                           </p>
                         </th>
-                        <th colspan="1">
+                        <th scope="col" colspan="1">
                           <h4>3벌</h4>
                           <p>
                             출근 전이나 외출 전,
@@ -1088,41 +1088,41 @@
                         <td>
                           <a
                             href="https://www.lge.co.kr/category/lg-styler?filterProduct=AT0000000141:KY0000000441:01,AT0000000141:KY0000002022:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             class="btn-product"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                         </td>
                         <td>
                           <a
                             href="https://www.lge.co.kr/category/lg-styler?filterProduct=AT0000000141:KY0000000441:01,AT0000000141:KY0000002022:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             class="btn-product"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                         </td>
                         <td>
                           <a
                             href="https://www.lge.co.kr/category/lg-styler?filterProduct=AT0000000141:KY0000000441:01,AT0000000141:KY0000002022:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             class="btn-product"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                         </td>
                         <td>
                           <a
                             href="https://www.lge.co.kr/category/lg-styler?filterProduct=AT0000000141:KY0000000441:01,AT0000000141:KY0000002022:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             class="btn-product"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                         </td>
                         <td>
                           <a
                             href="https://www.lge.co.kr/category/lg-styler?filterProduct=AT0000000141:KY0000000357:01,AT0000000141:KY0000000356:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                            target="_blank" rel="noopener"
                             class="btn-product"
-                            >제품 보러 가기</a
+                             title="새창열림">제품 보러 가기</a
                           >
                         </td>
                       </tr>
@@ -1152,28 +1152,28 @@
                   </colgroup>
                   <thead>
                     <tr>
-                      <th colspan="2" rowspan="2">모델라인업</th>
-                      <th colspan="4">5벌</th>
-                      <th>3벌</th>
+                      <th scope="colgroup" colspan="2" rowspan="2">모델라인업</th>
+                      <th scope="colgroup" colspan="4">5벌</th>
+                      <th scope="col">3벌</th>
                     </tr>
                     <tr>
-                      <th class="th2">
+                      <th scope="col" class="th2">
                         SC5***8*A
                         <p>위생 케어로 오늘 입은 옷을 깔끔하게</p>
                       </th>
-                      <th class="th2">
+                      <th scope="col" class="th2">
                         SC5***7*
                         <p>디테일한 구김까지 단정히</p>
                       </th>
-                      <th class="th2">
+                      <th scope="col" class="th2">
                         SC5***6*B
                         <p>다양한 코스로 맞춤관리</p>
                       </th>
-                      <th class="th2">
+                      <th scope="col" class="th2">
                         SC5***4*
                         <p>실속형 제품을 위한 선택</p>
                       </th>
-                      <th class="th2">
+                      <th scope="col" class="th2">
                         S3GHM
                         <p>공간을 효율적으로 활용하기 위한 선택</p>
                       </th>
@@ -1190,8 +1190,8 @@
                         --product-color6: #c4b8a6; /* 클레이 브라운 */
                       "
                     >
-                      <th>디자인</th>
-                      <th class="th2">컬러</th>
+                      <th scope="row">디자인</th>
+                      <th scope="row" class="th2">컬러</th>
                       <td>
                         <p class="color-chip">
                           <span
@@ -1303,8 +1303,8 @@
                     </tr>
 
                     <tr>
-                      <th>기본 사양</th>
-                      <th class="th2">용량</th>
+                      <th scope="row">기본 사양</th>
+                      <th scope="row" class="th2">용량</th>
                       <td>5벌+바지 1벌</td>
                       <td>5벌</td>
                       <td>5벌+바지 1벌</td>
@@ -1312,8 +1312,8 @@
                       <td>3벌</td>
                     </tr>
                     <tr>
-                      <th rowspan="3">주요 기능</th>
-                      <th class="th2">행어</th>
+                      <th scope="rowgroup" rowspan="3">주요 기능</th>
+                      <th scope="row" class="th2">행어</th>
                       <td>다이내믹 무빙행어</td>
                       <td>다이내믹 무빙행어</td>
                       <td>다이내믹 무빙행어</td>
@@ -1321,7 +1321,7 @@
                       <td>무빙행어</td>
                     </tr>
                     <tr>
-                      <th class="th2">스팀</th>
+                      <th scope="row" class="th2">스팀</th>
                       <td>듀얼히팅 트루스팀</td>
                       <td>듀얼히팅 트루스팀</td>
                       <td>듀얼히팅 트루스팀</td>
@@ -1329,7 +1329,7 @@
                       <td>트루스팀</td>
                     </tr>
                     <tr>
-                      <th class="th2">
+                      <th scope="row" class="th2">
                         빌트인 고압 스티머 <br />(슬라이딩 스탠드)
                       </th>
                       <td class="y">O</td>
@@ -1339,8 +1339,8 @@
                       <td class="n">X</td>
                     </tr>
                     <tr>
-                      <th>주요 코스</th>
-                      <th class="th2">자동 환기 시스템</th>
+                      <th scope="row">주요 코스</th>
+                      <th scope="row" class="th2">자동 환기 시스템</th>
                       <td class="y">O</td>
                       <td class="y">O</td>
                       <td class="y">O</td>
@@ -1351,8 +1351,8 @@
                       <td class="n">X</td>
                     </tr>
                     <tr>
-                      <th>편의성</th>
-                      <th class="th2">바지 관리기</th>
+                      <th scope="row">편의성</th>
+                      <th scope="row" class="th2">바지 관리기</th>
                       <td class="y">O</td>
                       <td class="n">X</td>
                       <td class="y">O</td>
@@ -1445,14 +1445,14 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/lg-styler?filterProduct=AT0000000141:KY0000000441:01,AT0000000141:KY0000002022:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                           <a
                             class="btn-guide"
                             href="https://www.lge.co.kr/story/user-guide/lg-styler-install-guide"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >설치 가이드 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">설치 가이드 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1485,14 +1485,14 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/lg-styler?filterProduct=AT0000000141:KY0000000357:01,AT0000000141:KY0000000356:01"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                           <a
                             class="btn-guide"
                             href="https://www.lge.co.kr/story/user-guide/lg-styler-install-guide"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >설치 가이드 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">설치 가이드 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1620,8 +1620,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/lg-styler?filterProduct=AT0000001251:KY0000002116:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -1771,8 +1771,8 @@
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/lg-styler?filterProduct=AT0000001251:KY0000002191:03"
-                            target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                            >제품 보러 가기</a
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
                           >
                         </div>
                         <div class="img">
@@ -2255,8 +2255,8 @@
                         <a
                           class="btn-product"
                           href="https://www.lge.co.kr/story/user-guide/lg-styler-4season-course"
-                          target="_blank" rel="noopener" aria-label="새 창에서 열림"
-                          >다양한 스타일러 코스를 만나보세요</a
+                          target="_blank" rel="noopener"
+                           title="새창열림">다양한 스타일러 코스를 만나보세요</a
                         >
                       </div>
                     </div>
@@ -2617,9 +2617,9 @@
                 <p>스타일러, 궁금했던 모든 것에 답해 드려요.</p>
                 <div class="btn-wrap">
                   <a
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                    target="_blank" rel="noopener"
                     href="https://www.lge.co.kr/story/useful-tip/styler-faq"
-                    >FAQ</a
+                     title="새창열림">FAQ</a
                   >
                 </div>
               </div>
@@ -2633,9 +2633,9 @@
                 <p>스타일러를 정기적으로 구독하고 싶다면?</p>
                 <div class="btn-wrap">
                   <a
-                    target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                    target="_blank" rel="noopener"
                     href="https://www.lge.co.kr/category/care-solutions/lg-styler"
-                    >구독 상품</a
+                     title="새창열림">구독 상품</a
                   >
                 </div>
               </div>
@@ -2650,9 +2650,9 @@
                   <p>지금 가장 인기 있는 스타일러 확인해 보세요!</p>
                   <div class="btn-wrap">
                     <a
-                      target="_blank" rel="noopener" aria-label="새 창에서 열림"
+                      target="_blank" rel="noopener"
                       href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000100&categoryId=CT50000106&categoryName=%EC%9D%98%EB%A5%98%EA%B4%80%EB%A6%AC%EA%B8%B0"
-                      >베스트 랭킹</a
+                       title="새창열림">베스트 랭킹</a
                     >
                   </div>
                 </div>

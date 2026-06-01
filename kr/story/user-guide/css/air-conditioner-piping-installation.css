@@ -192,6 +192,10 @@
 	margin-top: 20px;
 }
 
+#gjw011 .inner-kv-disclaimer .note-list {
+	margin-top: 20px;
+}
+
 #gjw011 .summary-list {
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
@@ -398,12 +402,28 @@
 	padding: 15px 22px 28px;
 }
 
-#gjw011 .notice-list {
+#gjw011 .note-list {
 	margin-top: 20px;
 }
 
-#gjw011 .notice-list li {
-	margin-bottom: 2px;
+#gjw011 .note-list li {
+	position: relative;
+	padding-left: 14px;
+	color: #444;
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+#gjw011 .note-list li::before {
+	content: "*";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#gjw011 .note-list p {
+	color: #444;
+	line-height: 1.6;
 }
 
 #gjw011 .sec-banner {
@@ -471,8 +491,6 @@
 	display: block;
 	width: 10px;
 	height: 20px;
-	background: url("/kr/story/user-guide/img/air-conditioner-distinction-guide/chevron-right.svg")
-		center / contain no-repeat;
 }
 #gjw011 .space-y-pc-20 > div {
 	white-space: nowrap;
@@ -718,8 +736,17 @@
 		padding: 18px 0;
 	}
 
-	#gjw011 .notice-list {
+	#gjw011 .note-list {
 		margin-top: 13px;
+	}
+
+	#gjw011 .note-list li {
+		padding-left: 11px;
+		font-size: 11px;
+	}
+
+	#gjw011 .note-list li + li {
+		margin-top: 2px;
 	}
 
 	#gjw011 .sec-banner {
@@ -768,7 +795,7 @@
 		margin-bottom: 0px;
 	}
 	#gjw011 .inner-kv-disclaimer {
-		padding: 0;
+		padding: 0 20px;
 	}
 
 	#gjw011 td strong {
