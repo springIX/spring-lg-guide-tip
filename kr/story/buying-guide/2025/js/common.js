@@ -571,8 +571,8 @@ function detailTableTopFix() {
   function updatePosition() {
     const st = $(window).scrollTop();
     const $verticalScrollTab = $("#vertical-scroll-tab");
-    const verticalScrollTabH =
-      $verticalScrollTab.length && !$verticalScrollTab.hasClass("sticky")
+    const baseVerticalScrollTabH =
+      $verticalScrollTab.length && $verticalScrollTab.hasClass("sticky")
         ? $verticalScrollTab.outerHeight()
         : 0;
 
@@ -581,11 +581,14 @@ function detailTableTopFix() {
       const $cloneWrap = $wrap.find(".clone-header-table-wrap");
       if (!$cloneWrap.length) return;
 
+      const verticalScrollTabH = $wrap.hasClass("include-tab")
+        ? 0
+        : baseVerticalScrollTabH;
       const $thead = $wrap.find("table thead");
-      const wrapTop = $wrap.offset().top + verticalScrollTabH;
-      const wrapH = $wrap.outerHeight() + verticalScrollTabH;
+      const wrapTop = $wrap.offset().top;
+      const wrapH = $wrap.outerHeight();
       const headH = $thead.outerHeight();
-      const topFix = headerTop($wrap);
+      const topFix = headerTop($wrap) + verticalScrollTabH;
 
       let y = 0;
       if (st < wrapTop - topFix) {
@@ -598,6 +601,7 @@ function detailTableTopFix() {
         $cloneWrap.css({ opacity: 0 });
         y = wrapH - headH;
       }
+
       $cloneWrap.css("transform", `translateY(${y}px)`);
     });
   }

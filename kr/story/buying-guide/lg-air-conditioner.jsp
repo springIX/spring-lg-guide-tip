@@ -307,7 +307,7 @@
                                         라인업별 대표 모델을 기준으로 적합한 사용 환경과 핵심 특징, 추천 상황을 한눈에 확인해 보세요.
                                     </p>
                                 </div>
-                                <div class="table-wrap include-tab vertical-scroll-box buying-guide-spec-table">
+                                <div class="table-wrap buying-guide-spec-table">
                                     <table id="__table_1">
                                         <caption class="blind">LG 스탠드 에어컨 라인업 비교표입니다. 타워I, 뷰I, 뷰II, 쿨 프로, 쿨, 쿨 사계절에어컨의 모델명, 적합한 사용 환경, 핵심 특징, 추천 상황을 비교할 수 있습니다.</caption>
                                         <colgroup>
@@ -1646,9 +1646,9 @@
                                         나에게 필요한 사양을 기준으로 제품을 비교해 보세요.
                                     </p>
                                 </div>
-                                <div class="table-wrap include-tab vertical-scroll-box buying-guide-spec-table">
+                                <div class="table-wrap buying-guide-spec-table">
                                     <table id="__table_2">
-                                        <caption class="blind">LG 스탠드 에어컨 주요 사양 비교표입니다. 모델별 냉방, 청정관리, 제습, 절전, 에너지 효율 기능 지원 여부를 확인할 수 있습니다.</caption>
+                                        <caption class="blind">LG 스탠드 에어컨 주요 사양 비교표입니다. 모델별 냉방, 청정관리, 제습, 절전, 에너지 소비효율 기능 지원 여부를 확인할 수 있습니다.</caption>
                                         <colgroup>
                                             <col class="col1">
                                             <col class="col2">
@@ -3248,7 +3248,7 @@
                                         라인업별 대표 모델을 기준으로 적합한 사용 환경과 핵심 특징, 추천 상황을 한눈에 확인해 보세요.
                                     </p>
                                 </div>
-                                <div class="table-wrap include-tab vertical-scroll-box buying-guide-spec-table">
+                                <div class="table-wrap buying-guide-spec-table">
                                     <table id="__table_3">
                                         <caption class="blind">
                                             LG 벽걸이 에어컨 모델 비교표입니다. 듀얼쿨, 듀얼쿨 사계절, 뷰, 일반 사계절 에어컨의 사용 환경, 냉방 기능, 제습 기능, AI 기능, 절전 기능, 추천 상황을 비교할 수 있습니다.
@@ -3895,10 +3895,10 @@
                                         나에게 필요한 사양을 기준으로 제품을 비교해 보세요.
                                     </p>
                                 </div>
-                                <div class="table-wrap include-tab vertical-scroll-box buying-guide-spec-table">
+                                <div class="table-wrap buying-guide-spec-table">
                                     <table id="__table_4">
                                         <caption class="blind">
-                                            LG 벽걸이 에어컨 모델별 기능 비교표입니다. 듀얼쿨과 사계절 에어컨의 AI바람, AI수면, 온풍, 제습, 청정관리, 절전 기능 및 에너지 효율 등급 지원 여부를 비교할 수 있습니다.
+                                            LG 벽걸이 에어컨 모델별 기능 비교표입니다. 듀얼쿨과 사계절 에어컨의 AI바람, AI수면, 온풍, 제습, 청정관리, 절전 기능 및 에너지 소비효율 등급 지원 여부를 비교할 수 있습니다.
                                         </caption>
                                         <colgroup>
                                             <col class="col1">
@@ -4523,7 +4523,7 @@
                                         창호형 에어컨의 적합한 사용 환경과 핵심 특징, <br class="mo-br">추천 상황을 한눈에 확인해 보세요.
                                     </p>
                                 </div>
-                                <div class="table-wrap include-tab vertical-scroll-box buying-guide-spec-table buying-guide-spec-table-single">
+                                <div class="table-wrap buying-guide-spec-table buying-guide-spec-table-single">
                                     <table>
                                     <caption class="blind">LG 창호형 에어컨 라인업 비교표입니다. 엣지 창호형 에어컨의 모델명, 적합한 사용 환경, 핵심 특징, 추천 상황을 확인할 수 있습니다.</caption>
                                         <colgroup>
@@ -4801,7 +4801,7 @@
                                         나에게 필요한 사양을 기준으로 제품을 비교해 보세요.
                                     </p>
                                 </div>
-                                <div class="table-wrap include-tab vertical-scroll-box buying-guide-spec-table buying-guide-spec-table-single">
+                                <div class="table-wrap buying-guide-spec-table buying-guide-spec-table-single">
                                     <table id="__table_6">
                                     <caption class="blind">LG 창호형 에어컨 주요 사양 비교표입니다. 엣지 창호형 에어컨의 냉방, 청정관리, 제습, 절전 기능 지원 여부를 확인할 수 있습니다.</caption>
                                         <colgroup>
@@ -5096,7 +5096,7 @@
                                         이동식 에어컨의 적합한 사용 환경과 핵심 특징, <br class="mo-br">추천 상황을 한눈에 확인 해보세요. 
                                     </p>
                                 </div>
-                                <div class="table-wrap include-tab vertical-scroll-box buying-guide-spec-table buying-guide-spec-table-single">
+                                <div class="table-wrap buying-guide-spec-table buying-guide-spec-table-single">
                                     <table>
                                         <caption class="blind">LG 이동식 에어컨 라인업 비교표입니다. 이동식 에어컨(듀얼호스)의 모델명, 적합한 사용 환경, 핵심 특징, 추천 상황을 확인할 수 있습니다.</caption>
                                         <colgroup>
@@ -5362,7 +5362,7 @@
                                         나에게 필요한 사양을 기준으로 제품을 비교해 보세요.
                                     </p>
                                 </div>
-                                <div class="table-wrap include-tab vertical-scroll-box buying-guide-spec-table buying-guide-spec-table-single">
+                                <div class="table-wrap buying-guide-spec-table buying-guide-spec-table-single">
                                     <table id="__table_8">
                                     <caption class="blind">LG 이동식 에어컨 주요 사양 비교표입니다. 이동식 에어컨의 냉방, 청정관리, 제습, 절전 기능 지원 여부를 확인할 수 있습니다.</caption>
                                         <colgroup>
@@ -5587,7 +5587,7 @@
                                 <div class="col">
                                     <article class="product-select-tip">
                                         <div class="product-select-tip-icon">
-                                            <img src="/kr/story/buying-guide/2025/img/ic32_check.png" alt="">
+                                            <img src="/kr/story/buying-guide/2025/img/ic32_check.svg" alt="">
                                         </div>
                                         <h3>
                                             사용 공간과 환경 먼저 파악하기
@@ -5602,7 +5602,7 @@
                                 <div class="col">
                                     <article class="product-select-tip">
                                         <div class="product-select-tip-icon">
-                                            <img src="/kr/story/buying-guide/2025/img/ic32_check.png" alt="">
+                                            <img src="/kr/story/buying-guide/2025/img/ic32_check.svg" alt="">
                                         </div>
                                         <h3>
                                             제품 유형과 사용 방식 이해하기
@@ -5617,7 +5617,7 @@
                                 <div class="col">
                                     <article class="product-select-tip">
                                         <div class="product-select-tip-icon">
-                                            <img src="/kr/story/buying-guide/2025/img/ic32_check.png" alt="">
+                                            <img src="/kr/story/buying-guide/2025/img/ic32_check.svg" alt="">
                                         </div>
                                         <h3>
                                             주요 기능과 선택 기준 비교하기
@@ -5630,7 +5630,7 @@
                                 <div class="col">
                                     <article class="product-select-tip">
                                         <div class="product-select-tip-icon">
-                                            <img src="/kr/story/buying-guide/2025/img/ic32_check.png" alt="">
+                                            <img src="/kr/story/buying-guide/2025/img/ic32_check.svg" alt="">
                                         </div>
                                         <h3>
                                            설치 조건 및 사용 환경 적합성 확인하기
@@ -7054,13 +7054,13 @@
                             <div class="tab-wrap">
                                 <div class="vertical-scroll-box">
                                     <button class="active" name="buying-guide-tab" data-target="#buying-point-6" data-group="buying-point-60">
-                                        스트위젯
+                                        스마트위젯
                                     </button>
                                     <button name="buying-guide-tab" data-target="#buying-point-7" data-group="buying-point-60">
-                                        에너지비효율
+                                        에너지소비효율
                                     </button>
                                     <button name="buying-guide-tab" data-target="#buying-point-8" data-group="buying-point-60">
-                                        펫케 모드
+                                        펫케어 모드
                                     </button>
                                     <button name="buying-guide-tab" data-target="#buying-point-9" data-group="buying-point-60">
                                         AOD

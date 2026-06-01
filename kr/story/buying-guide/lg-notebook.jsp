@@ -110,6 +110,7 @@
         </div>
         <!-- 내용 -->
         <!-- 0.5 -->
+
         <!-- Contents -->
         <div class="buying-guide buying-guide-special" id="content">
 
@@ -181,7 +182,7 @@
                         data-target = target element
                         data-group = siblings
                     -->
-                    <div id="vertical-scroll-tab" class="tab-wrap" style="--btn-width: 360px; --btn-m-width: inherit">
+                    <div id="vertical-scroll-tab" class="tab-wrap sticky" style="--btn-width: 360px; --btn-m-width: inherit">
                         <button class="nav nav-left disabled" aria-label="왼쪽으로 이동"></button>
                         <button class="nav nav-right" aria-label="오른쪽으로 이동"></button>
                         <div class="vertical-scroll-box" role="tablist" aria-orientation="horizontal">
@@ -235,7 +236,7 @@
                                 >
                                     <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                                     <div class="bubble">
-                                        <a href="https://www.lge.co.kr/notebook/16z95u-gu7bk" target="_blank" rel="noopener" aria-label="새 창에서 열림">
+                                        <a href="https://www.lge.co.kr/notebook/16z95u-gu7bk" target="_blank" rel="noopener" title="새창열림">
                                             <span>LG gram Pro AI Copilot+ PC</span>
                                         </a>
                                         <p>내장그래픽<span></span>애로우레이크</p>
@@ -252,7 +253,7 @@
                                 <p>
                                     <b>에어로미늄 소재로 완성한 LG gram Pro AI Copilot+ PC는 가볍게 휴대</b>하면서도 <b>메탈의 고급스러움과 강도</b>를 함께 갖춘 노트북입니다. 
                                     2026년도 그램은 <b>인텔과 AMD CPU 라인업으로 구성</b>되어, 작업 스타일에 따라 성능을 선택할 수 있습니다. 
-                                    <b>그래픽 작업, 영상 편집, 고사양 멀티태스킹</b>이 많다면 <b>인텔 CPU 모델</b>이 적합하고, <b>문서 작업과 학습, AI 기능을 활용</b>이 많다면 전력 효율이 좋은 AMD CPU 모델이 좋은 선택이 될 수 있습니다.
+                                    <b>그래픽 작업, 영상 편집, 고사양 멀티태스킹</b>이 많다면 <b>인텔 CPU 모델</b>이 적합하고, <b>문서 작업과 학습, AI 기능 활용</b>이 많다면 전력 효율이 좋은 AMD CPU 모델이 좋은 선택이 될 수 있습니다.
                                 </p>
                             </div>
                             <p class="note aling-left">
@@ -279,7 +280,7 @@
                                 >
                                     <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                                     <div class="bubble">
-                                        <a href="https://www.lge.co.kr/notebook/16t95tp-ka5hk" target="_blank" rel="noopener" aria-label="새 창에서 열림">
+                                        <a href="https://www.lge.co.kr/notebook/16t95tp-ka5hk" target="_blank" rel="noopener" title="새창열림">
                                             <span>
                                                 LG gram Pro 360 AI
                                             </span>
@@ -330,7 +331,7 @@
                                 >
                                     <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                                     <div class="bubble">
-                                        <a href="https://www.lge.co.kr/notebook/15z95u-gs5hk" target="_blank" rel="noopener" aria-label="새 창에서 열림">
+                                        <a href="https://www.lge.co.kr/notebook/15z95u-gs5hk" target="_blank" rel="noopener" title="새창열림">
                                             <span>LG gram AI Copilot+ PC</span>
                                         </a>
                                         <p>내장그래픽<span></span>애로우레이크</p>
@@ -374,7 +375,7 @@
                                 >
                                     <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                                     <div class="bubble">
-                                        <a href="https://www.lge.co.kr/notebook/15u50u-ga5vk" target="_blank" rel="noopener" aria-label="새 창에서 열림">
+                                        <a href="https://www.lge.co.kr/notebook/15u50u-ga5vk" target="_blank" rel="noopener" title="새창열림">
                                             <span>LG gram Book AI</span>
                                         </a>
                                         <p>내장그래픽<span></span>메테오레이크</p>
@@ -404,15 +405,14 @@
                     <section class="product-table">
                         <div class="section-header">
                             <h2 class="section-title">
-                                어떤 <br class="mo-only">
-                                <b>노트북</b>이 나에게 맞을까?
+                                어떤 <b>노트북</b>이 나에게 맞을까?
                             </h2>
                             <p class="section-header-desc">
                                 이용 목적에 맞는 노트북을 선택할 수 있도록,<br>
                                 모델별 적합한 사용 환경과 핵심 특징, 추천 상황을 한눈에 확인해 보세요.
                             </p>
                         </div>
-                        <div class="table-wrap include-tab vertical-scroll-box buying-guide-spec-table">
+                        <div class="table-wrap buying-guide-spec-table">
                             <table id="table_1">
                                     <caption class="blind">LG gram 노트북 라인업 비교표입니다. LG gram Pro AI, LG gram Pro AI Copilot+ PC, LG gram Pro 360 AI, LG gram AI Copilot+ PC, LG gram Book AI의 모델명, 적합한 사용 환경, 핵심 특징, 추천 상황을 비교할 수 있습니다.</caption>
                                 <colgroup>
@@ -471,10 +471,10 @@
                                     </tr>
                                     <tr>
                                         <th class="highlight">적합한<br>사용 환경</th>
-                                        <td class="highlight"><b class="semibold">스튜디오, 재택근무실, 크리에이티브 작업 공간 등 고부하 작업 중심 환경</b></td>
-                                        <td class="highlight"><b class="semibold">사무실, 카페, 이동 중 등 여러 업무를 동시에 처리하는 생산성 중심 환경</b></td>
-                                        <td class="highlight"><b class="semibold">강의실, 카페, 스튜디오 등 필기와 창작이 함께 이루어지는 환경</b></td>
-                                        <td class="highlight"><b class="semibold">카페, 도서관, 이동 중, 강의실 등 휴대성과 빠른 대응이 중요한 일상 환경</b></td>
+                                        <td class="highlight"><b class="semibold">스튜디오, 재택근무실, <br class="pc-only">크리에이티브 작업 공간 등 <br class="pc-only">고부하 작업 중심 환경</b></td>
+                                        <td class="highlight"><b class="semibold">AI 활용이 중요하고 사무실, 카페 등<br class="pc-only"> 이동 중 여러 업무를 동시에 처리하는<br class="pc-only"> 생산성 중심의 환경</b></td>
+                                        <td class="highlight"><b class="semibold">강의실, 카페, 스튜디오 등 <br class="pc-only">필기와 창작이 함께 이루어지는 환경</b></td>
+                                        <td class="highlight"><b class="semibold">카페, 도서관, 이동 중, 강의실 등 <br class="pc-only">휴대성과 빠른 대응이 중요한 일상 환경</b></td>
                                         <td class="highlight"><b class="semibold">집, 학교, 공용 공간 등 문서 작업·온라인 학습·영상 시청 중심의 일상 환경</b></td>
                                     </tr>
                                     <tr>
@@ -488,7 +488,7 @@
                                     <tr>
                                         <th class="highlight">추천 상황</th>
                                         <td class="highlight"><b class="semibold">영상 편집, 렌더링, 게이밍 등 고사양 작업을 빠르고 쾌적하게 처리하고 싶은 경우</b></td>
-                                        <td class="highlight"><b class="semibold">문서 작업, 회의, 자료 조사 등 다양한 업무를 동시에 빠르게 처리하고 싶은 경우</b></td>
+                                        <td class="highlight"><b class="semibold">영상 편집, 그래픽 디자인, 3D 작업 등을 위해 고사양이 필요한 크리에이터나 디자이너가 휴대성도 놓칠 수 없는 경우</b></td>
                                         <td class="highlight"><b class="semibold">학습, 필기, 아이디어 스케치, 콘텐츠 제작을 하나의 기기로 자유롭게 하고 싶은 경우</b></td>
                                         <td class="highlight"><b class="semibold">가볍게 들고 다니며 문서 작업, 리서치, 학습 등 일상적인 작업을 부담 없이 하고 싶은 경우</b></td>
                                         <td class="highlight"><b class="semibold">합리적인 가격대에서 실용적인 사용성과 확장성을 함께 고려하고 싶은 경우</b></td>
@@ -785,11 +785,11 @@
                                     </tr>
                                     <tr>
                                         <th class="th2">제품<br>보러가기</th>
-                                        <td><a href="https://www.lge.co.kr/notebook/16zd95u-gx79k" target="_blank" class="btn-product" rel="noopener" aria-label="새 창에서 열림">LG gram Pro AI 보러 가기</a></td>
-                                        <td><a href="https://www.lge.co.kr/notebook/16z95u-gu7bk" target="_blank" class="btn-product" rel="noopener" aria-label="새 창에서 열림">LG gram Pro AI Copilot+ PC <br class="m-only">보러 가기</a></td>
-                                        <td><a href="https://www.lge.co.kr/notebook/16t95tp-ka5hk" target="_blank" class="btn-product" rel="noopener" aria-label="새 창에서 열림">LG gram Pro 360 AI <br class="m-only">보러 가기</a></td>
-                                        <td><a href="https://www.lge.co.kr/notebook/15z95u-gs5hk" target="_blank" class="btn-product" rel="noopener" aria-label="새 창에서 열림">LG gram AI Copilot+ PC <br>보러 가기</a></td>
-                                        <td><a href="https://www.lge.co.kr/notebook/15u50u-growk?utm_medium=banner&utm_source=naverbs&utm_campaign=20200301_pc_gram_bs_bc&utm_content=Dthumb2-5&utm_term=LG%EA%B7%B8%EB%9E%A8" target="_blank" class="btn-product" rel="noopener" aria-label="새 창에서 열림">LG gram Book AI 보러 가기</a></td>
+                                        <td><a href="https://www.lge.co.kr/notebook/16zd95u-gx79k" target="_blank" class="btn-product" rel="noopener" title="새창열림">LG gram Pro AI 보러 가기</a></td>
+                                        <td><a href="https://www.lge.co.kr/notebook/16z95u-gu7bk" target="_blank" class="btn-product" rel="noopener" title="새창열림">LG gram Pro AI Copilot+ PC <br class="m-only">보러 가기</a></td>
+                                        <td><a href="https://www.lge.co.kr/notebook/16t95tp-ka5hk" target="_blank" class="btn-product" rel="noopener" title="새창열림">LG gram Pro 360 AI <br class="m-only">보러 가기</a></td>
+                                        <td><a href="https://www.lge.co.kr/notebook/15z95u-gs5hk" target="_blank" class="btn-product" rel="noopener" title="새창열림">LG gram AI Copilot+ PC <br>보러 가기</a></td>
+                                        <td><a href="https://www.lge.co.kr/notebook/15u50u-growk?utm_medium=banner&utm_source=naverbs&utm_campaign=20200301_pc_gram_bs_bc&utm_content=Dthumb2-5&utm_term=LG%EA%B7%B8%EB%9E%A8" target="_blank" class="btn-product" rel="noopener" title="새창열림">LG gram Book AI 보러 가기</a></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -815,14 +815,14 @@
                     <section class="product-table">
                         <div class="section-header">
                             <h2 class="section-title">
-                                <b>노트북</b>, 어떤 성늘을 보면 될까?
+                                <b>노트북</b>, 어떤 성능을 보면 될까?
                             </h2>
                             <p class="section-header-desc">
                                 노트북의 주요 스펙을 한눈에 살펴보고<br>
                                 나에게 필요한 사양을 기준으로 제품을 비교해 보세요.
                             </p>
                         </div>
-                        <div class="table-wrap include-tab vertical-scroll-box buying-guide-spec-table">
+                        <div class="table-wrap buying-guide-spec-table">
                             <table id="table_2">
                                 <caption class="blind">LG gram 노트북 주요 사양 비교표입니다. LG gram Pro AI, LG gram Pro AI Copilot+ PC, LG gram Pro 360 AI, LG gram AI Copilot+ PC, LG gram Book AI의 화면 크기, 해상도, 프로세서, 저장장치, 배터리, 무게 등을 비교할 수 있습니다.</caption>
                                 <colgroup>
@@ -940,7 +940,7 @@
                                         <td><b>Intel® Core™ Ultra7 255H<br>Intel® Core™ Ultra5 225H</b></td>
                                         <td><b>Intel® Core™ UltraX7 358H<br>Intel® Core™ Ultra5 338H<br>Intel® Core™ Ultra7 355<br>Intel® Core™ Ultra5 325<br>AMD Ryzen™ AI 7 450<br>AMD Ryzen™ AI 5 435</b></td>
                                         <td><b>Intel® Core™ Ultra7 255H<br>Intel® Core™ Ultra5 255H</b></td>
-                                        <td><b>Intel® Core™ Ultra7 355<br>Intel® Core™ Ultra5 325<br>AMD Ryzen™ AI 7 450<br>AMD Ryzen™ AI 5 435</td>
+                                        <td><b>Intel® Core™ Ultra7 355<br>Intel® Core™ Ultra5 325<br>AMD Ryzen™ AI 7 450<br>AMD Ryzen™ AI 5 435</b></td>
                                         <td><b>Intel® Core™ Ultra5 115U<br>AMD Ryzen™ AI 5 430</b></td>
                                     </tr>
                                     <tr>
@@ -986,7 +986,6 @@
                         </div>
                         <ul class="note aling-left">
                             <li>* 제품별 스펙은 다를 수 있으니 정확한 내용은 각 제품별 상세 스펙을 확인해주세요.</li>
-                            <li>* gram Book AMD 고르곤 포인트 제품은 26년 3월 출시 예정입니다.</li>
                         </ul>
                     </section>
                     <!-- sub product table //-->
@@ -1007,7 +1006,7 @@
                                 <li>
                                     <article class="product-select-tip">
                                         <div class="product-select-tip-icon">
-                                            <img src="/kr/story/buying-guide/2025/img/ic32_check.png" alt="">
+                                            <img src="/kr/story/buying-guide/2025/img/ic32_check.svg" alt="">
                                         </div>
                                         <h3>사용 공간과 환경 먼저 파악하기</h3>
                                         <p>
@@ -1019,7 +1018,7 @@
                                 <li>
                                     <article class="product-select-tip">
                                         <div class="product-select-tip-icon">
-                                            <img src="/kr/story/buying-guide/2025/img/ic32_check.png" alt="">
+                                            <img src="/kr/story/buying-guide/2025/img/ic32_check.svg" alt="">
                                         </div>
                                         <h3>제품 유형과 사용 방식 이해하기</h3>
                                         <p>
@@ -1031,7 +1030,7 @@
                                 <li>
                                     <article class="product-select-tip">
                                         <div class="product-select-tip-icon">
-                                            <img src="/kr/story/buying-guide/2025/img/ic32_check.png" alt="">
+                                            <img src="/kr/story/buying-guide/2025/img/ic32_check.svg" alt="">
                                         </div>
                                         <h3>주요 기능과 선택 기준 비교하기</h3>
                                         <p>
@@ -1105,7 +1104,7 @@
                                                     <div class="btn-wrap">
                                                         <a class="btn-product"
                                                         href="https://www.lge.co.kr/category/notebook?filterProduct=AT0000000109:KY0000001982:03,AT0000000169:KY0000000365:01,AT0000000169:KY0000000377:01,AT0000000087:KY0000003767:01,AT0000000087:KY0000003766:01,AT0000000087:KY0000004674:01"
-                                                        target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                                                        target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
                                                     </div>
                                                     <p class="des">
                                                         * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -1187,7 +1186,7 @@
                                                         태스킹에서도 빠르게 응답하고 속도를 안정적으로 유지할 수 있어요.
                                                     </p>
                                                     <div class="btn-wrap">
-                                                        <a class="btn-product" href="https://www.lge.co.kr/category/notebook?filterProduct=AT0000000087:KY0000001962:01,AT0000000087:KY0000001963:01,AT0000000087:KY0000004674:01" target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                                                        <a class="btn-product" href="https://www.lge.co.kr/category/notebook?filterProduct=AT0000000087:KY0000001962:01,AT0000000087:KY0000001963:01,AT0000000087:KY0000004674:01" target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
                                                     </div>
                                                     <p class="des">
                                                         * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -1222,7 +1221,7 @@
                                                         있어요.
                                                     </p>
                                                     <div class="btn-wrap">
-                                                        <a class="btn-product" target="_blank" href="https://www.lge.co.kr/category/notebook?filterProduct=AT0000000087:KY0000003767:01,AT0000000087:KY0000003766:01" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                                                        <a class="btn-product" target="_blank" href="https://www.lge.co.kr/category/notebook?filterProduct=AT0000000087:KY0000003767:01,AT0000000087:KY0000003766:01" rel="noopener" title="새창열림">제품 보러 가기</a>
                                                     </div>
                                                     <p class="des">
                                                         * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -1307,7 +1306,7 @@
                                                 <div class="point_product_text">
                                                     <h4>내장그래픽</h4>
                                                     <p>
-                                                        내장 그래픽은 별도 그래픽 카드 없이 PC 메인보드 또는 CPU에 GPU가 포함된 내장형 방식을 의미합니다.그램은 GPU가 두 가지 종류로, AMD Ryzen AI
+                                                        내장 그래픽은 별도 그래픽 카드 없이 PC 메인보드 또는 CPU에 GPU가 포함된 내장형 방식을 의미합니다. 그램은 GPU가 두 가지 종류로, AMD Ryzen AI
                                                         400 시리즈의 AMD Radeon Graphics와 인텔 코어 울트라 시리즈의 Intel Arc Graphics가 있습니다.
                                                     </p>
                                                     <p class="des">
@@ -1365,7 +1364,7 @@
                                                         최적화되어, 게이밍은 물론 영상 편집과 3D 작업에서도 뛰어난 성능을 발휘합니다.
                                                     </p>
                                                     <div class="btn-wrap">
-                                                        <a class="btn-product" href="https://www.lge.co.kr/category/notebook?filterProduct=AT0000000100:KY0000004358:01" target="_blank" rel="noopener" aria-label="새 창에서 열림">제품 보러 가기</a>
+                                                        <a class="btn-product" href="https://www.lge.co.kr/category/notebook?filterProduct=AT0000000100:KY0000004358:01" target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
                                                     </div>
                                                     <p class="des">
                                                         * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -1599,7 +1598,7 @@
                                                 <div class="point_product_text">
                                                     <h4>Cocreator</h4>
                                                     <p>
-                                                        Copliot + 를 통해 입력한 이미지와 텍스트를 바탕으로 원하는 결과물을 쉽고 빠르게 도출할 수 있어요.
+                                                        Copilot+ 를 통해 입력한 이미지와 텍스트를 바탕으로 원하는 결과물을 쉽고 빠르게 도출할 수 있어요.
                                                     </p>
                                                     <p class="des">
                                                         * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
@@ -1868,7 +1867,7 @@
                             </h3>
                             <p>노트북, 궁금했던 모든 것에 답해 드려요.</p>
                             <div class="btn-wrap">
-                                <a target="_blank" href="https://www.lge.co.kr/story/faq/stan-by-me-faq" rel="noopener" aria-label="새 창에서 열림">노트북 FAQ</a>
+                                <a target="_blank" href="https://www.lge.co.kr/story/faq/notebook-faq" rel="noopener" title="새창열림">노트북 FAQ</a>
                             </div>
                         </article>
                         <article class="tip-subscribe">
@@ -1878,7 +1877,7 @@
                             </h3>
                             <p>노트북을 정기적으로 구독하고 싶다면?</p>
                             <div class="btn-wrap">
-                                <a target="_blank" href="https://www.lge.co.kr/category/care-solutions/stan-by-me" rel="noopener" aria-label="새 창에서 열림">구독 상품</a>
+                                <a target="_blank" href="https://www.lge.co.kr/category/care-solutions/notebook" rel="noopener" title="새창열림">구독 상품</a>
                             </div>
                         </article>
                         <article class="tip-best">
@@ -1888,7 +1887,7 @@
                             </h3>
                             <p>지금 가장 인기 있는 노트북을 확인해 보세요!</p>
                             <div class="btn-wrap">
-                                <a target="_blank" href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000024&categoryId=CT50295000&categoryName=%EC%8A%A4%ED%83%A0%EB%B0%94%EC%9D%B4%EB%AF%B8" rel="noopener" aria-label="새 창에서 열림">
+                                <a target="_blank" href="https://www.lge.co.kr/best-ranking/todays?superCategoryId=CT50000045&categoryId=CT50000046&categoryName=%EB%85%B8%ED%8A%B8%EB%B6%81" rel="noopener" title="새창열림">
                                     베스트 랭킹
                                 </a>
                             </div>

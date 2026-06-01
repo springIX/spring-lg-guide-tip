@@ -18,11 +18,15 @@
 			let isMoved = false;
 
 			tableWrap.addEventListener("pointerdown", function (event) {
+				isMoved = false;
+
 				if (!tableWrap.classList.contains("is-scroll")) return;
 				if (event.pointerType === "mouse" && event.button !== 0) return;
 
+				const interactive = event.target.closest("button, a, input, select, textarea, label");
+				if (interactive && tableWrap.contains(interactive)) return;
+
 				isDragging = true;
-				isMoved = false;
 				startX = event.clientX;
 				startScrollLeft = tableWrap.scrollLeft;
 

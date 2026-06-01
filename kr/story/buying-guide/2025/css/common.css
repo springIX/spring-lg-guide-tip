@@ -542,7 +542,7 @@
 }
 .buying-guide .tab-wrap.sticky {
   position: sticky;
-  top: 50px;
+  top: 60px;
   z-index: 6;
 }
 .buying-guide .tab-wrap .vertical-scroll-box {
@@ -1991,6 +1991,7 @@
   .buying-guide .product-table .clone-header-table-wrap {
     top: -10px;
     padding-top: 30px;
+    width: max-content;
   }
 }
 .buying-guide .toggle-product-table {
@@ -3545,7 +3546,6 @@
 }
 .product-select-tip-icon {
   width: 24px;
-  margin-bottom: 20px;
 }
 .product-select-tip-icon img {
   width: 100%;

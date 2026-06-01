@@ -169,7 +169,9 @@
                         </div>
                     </div>
                     <!-- sub tablist -->
-                    <div id="vertical-scroll-tab" class="tab-wrap" style="--btn-width: inherit; --btn-m-width: 270px">
+                    <div id="vertical-scroll-tab" class="tab-wrap sticky" style="--btn-width: inherit; --btn-m-width: 270px">
+                        <!-- <button class="nav nav-left disabled"><</button>
+                                <button class="nav nav-right">></button> -->
                         <div class="vertical-scroll-box" role="tablist" aria-orientation="horizontal">
                             <button class="tab-img active" name="buying-guide-tab" data-target="#product-type-1" data-group="product-type">
                                 <img src="/kr/story/buying-guide/2025/img/stand-by-me/img_P16_001_02.png" alt="">
@@ -270,7 +272,7 @@
                             ">
                                     <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                                     <div class="bubble">
-                                        <a href="https://www.lge.co.kr/stan-by-me/27lx6tqga" target="_blank" rel="noopener" title="새창열림">
+                                        <a href="https://www.lge.co.kr/stan-by-me/27lx6tpga" target="_blank" rel="noopener" title="새창열림">
                                             <span>
                                                 LG 스탠바이미 2
                                             </span>
@@ -2587,31 +2589,31 @@
                 "itemListOrder": "https://schema.org/ItemListOrderAscending",
                 "itemListElement": [
                     {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "item": {
-                        "@type": "Product",
-                        "name": "LG 스탠바이미 2",
-                        "url": "https://www.lge.co.kr/stan-by-me/27lx6tqga"
-                    }
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "LG 스탠바이미 2 Max",
+                            "url": "https://www.lge.co.kr/stan-by-me/32lx6bpga"
+                        }
                     },
                     {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "item": {
-                        "@type": "Product",
-                        "name": "LG 스탠바이미 2 Max",
-                        "url": "https://www.lge.co.kr/stan-by-me/32lx6bpga"
-                    }
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "LG 스탠바이미 2",
+                            "url": "https://www.lge.co.kr/stan-by-me/27lx6tpga"
+                        }
                     },
                     {
-                    "@type": "ListItem",
-                    "position": 3,
-                    "item": {
-                        "@type": "Product",
-                        "name": "LG 스탠바이미 Go",
-                        "url": "https://www.lge.co.kr/stan-by-me/27lx5qkna"
-                    }
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "LG 스탠바이미 Go",
+                            "url": "https://www.lge.co.kr/stan-by-me/27lx5qkna"
+                        }
                     }
                 ]
                 }
