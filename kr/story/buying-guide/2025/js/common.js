@@ -571,7 +571,7 @@ function detailTableTopFix() {
   function updatePosition() {
     const st = $(window).scrollTop();
     const $verticalScrollTab = $("#vertical-scroll-tab");
-    const baseVerticalScrollTabH =
+    const verticalScrollTabH =
       $verticalScrollTab.length && $verticalScrollTab.hasClass("sticky")
         ? $verticalScrollTab.outerHeight()
         : 0;
