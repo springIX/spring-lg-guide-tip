@@ -345,6 +345,7 @@
   height: 100%;
   padding: 0 70px;
 }
+.buying-guide .top-banner .content h1,
 .buying-guide .top-banner .content h2 {
   font-size: 60px;
   color: inherit;
@@ -385,6 +386,7 @@
     align-items: center;
     padding: 50px;
   }
+  .buying-guide .top-banner .content h1,
   .buying-guide .top-banner .content h2 {
     font-size: 36px;
     line-height: 130%;
@@ -1292,6 +1294,7 @@
 .buying-guide .compare-wrap .procuct-summary .procuct-name th:only-child {
   border-radius: 12px 12px 0 0;
 }
+.buying-guide .compare-wrap .procuct-summary .procuct-name-tit,
 .buying-guide .compare-wrap .procuct-summary .procuct-name h4 {
   font-size: 24px;
   color: inherit;
@@ -1632,6 +1635,7 @@
   .buying-guide .compare-wrap .procuct-summary .procuct-name td {
     padding: 10px;
   }
+  .buying-guide .compare-wrap .procuct-summary .procuct-name-tit,
   .buying-guide .compare-wrap .procuct-summary .procuct-name h4 {
     font-size: 16px;
     line-height: 140%;
@@ -2068,6 +2072,7 @@
   height: 100%;
   object-fit: cover;
 }
+.buying-guide .subtab-wrap .point-wrap .content .content-tit,
 .buying-guide .subtab-wrap .point-wrap .content h4,
 .buying-guide .subtab-wrap .point-wrap .content h5 {
   font-size: 32px;
@@ -2153,6 +2158,7 @@
     padding: 20px 0;
     min-height: initial;
   }
+  .buying-guide .subtab-wrap .point-wrap .content .content-tit,
   .buying-guide .subtab-wrap .point-wrap .content h4,
   .buying-guide .subtab-wrap .point-wrap .content h5 {
     font-size: 18px;
@@ -2453,6 +2459,7 @@
   gap: 30px;
   min-height: var(--box-height);
 }
+.buying-guide .point-box .colWrap .col .point-box-title,
 .buying-guide .point-box .colWrap .col h4,
 .buying-guide .point-box .colWrap .col h3 {
   font-size: 24px;
@@ -2665,7 +2672,7 @@
     gap: 20px;
     min-height: var(--box-m-height);
   }
-  
+  .buying-guide .point-box .colWrap .col .point-box-title,
   .buying-guide .point-box .colWrap .col h4,
   .buying-guide .point-box .colWrap .col h3 {
     font-size: 16px;
@@ -2717,6 +2724,7 @@
   padding: 40px;
   border-radius: 12px;
 }
+.buying-guide .tip-wrap .tip-faq-title,
 .buying-guide .tip-wrap > article h3,
 .buying-guide .tip-wrap > div h3 {
   display: flex;
@@ -2728,6 +2736,7 @@
   line-height: 140%;
   letter-spacing: -0.18px;
 }
+.buying-guide .tip-wrap .tip-faq-title img,
 .buying-guide .tip-wrap > article h3 img,
 .buying-guide .tip-wrap > div h3 img {
   width: 32px;
@@ -2789,6 +2798,7 @@
 .buying-guide .tip-wrap > div.tip-subscribe {
   background: linear-gradient(180deg, #fafafa 0%, #e8f3f2 100%);
 }
+.buying-guide .tip-wrap > .tip-subscribe .tip-faq-title,
 .buying-guide .tip-wrap > article.tip-subscribe h3,
 .buying-guide .tip-wrap > div.tip-subscribe h3 {
   color: #3a5f5d;
@@ -2801,6 +2811,7 @@
 .buying-guide .tip-wrap > div.tip-best {
   background: linear-gradient(180deg, #fff4f3 0%, #ffe6e7 100%);
 }
+.buying-guide .tip-wrap > .tip-best .tip-faq-title,
 .buying-guide .tip-wrap > article.tip-best h3,
 .buying-guide .tip-wrap > div.tip-best h3 {
   color: #b00200;
@@ -2821,10 +2832,12 @@
     padding: 30px 20px;
     border-radius: 8px;
   }
+  .buying-guide .tip-wrap .tip-faq-title,
   .buying-guide .tip-wrap > article h3,
   .buying-guide .tip-wrap > div h3 {
     font-size: 14px;
   }
+  .buying-guide .tip-wrap .tip-faq-title img,
   .buying-guide .tip-wrap > article h3 img,
   .buying-guide .tip-wrap > div h3 img {
     width: 24px;
@@ -2967,6 +2980,9 @@
 .buying-guide-special .buying-guide-spec-table.is-scroll { cursor: grab; }
 .buying-guide-special .buying-guide-spec-table.is-scroll.is-grabbing { cursor: grabbing; user-select: none; }
 .buying-guide-special .buying-guide-spec-table.is-scroll table { user-select: none; }
+.buying-guide-special .tab-content .img-wrap { aspect-ratio: auto; }
+.buying-guide-special .tab-content .img-wrap picture { display: block; width: 100%; height: auto; overflow: hidden; aspect-ratio: 3/1; }
+.buying-guide-special .tab-content .img-wrap img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
 /* .buying-guide-special .note > li:before { content: "*"; flex-shrink: 0; } */
 /* assets // */
 
@@ -2989,6 +3005,7 @@
   .buying-guide-special .product-select-tip-list .colWrap .col > article + article {
      margin-top: 32px;
   }
+  .buying-guide-special .tab-content .img-wrap picture { aspect-ratio: auto; }
 }
 
 @media (max-width: 768px) {
@@ -3127,8 +3144,46 @@
   padding-top: 240px;
   --table-min-width: 730px;
 }
+.buying-guide-special .buying-guide-spec-table .gray {
+  color: #666;
+  font-weight: 400;
+}
 .buying-guide-special .product-table .buying-guide-spec-table {
   overflow: hidden;
+}
+.buying-guide-special .product-table .buying-guide-spec-table table {
+  border-radius: 12px;
+  overflow: hidden;
+}
+.buying-guide-special .product-table .buying-guide-spec-table .col-width {
+  width: 100px;
+}
+.buying-guide-special .product-table .buying-guide-spec-table .col-width-200 {
+  width: 200px;
+}
+
+.buying-guide-special .product-table .buying-guide-spec-table tbody tr:last-child th:first-child {
+  border-radius: 0;
+}
+.buying-guide-special .product-table .buying-guide-spec-table thead th {
+  font-size: 18px;
+}
+.buying-guide-special .product-table .buying-guide-spec-table tbody th,
+.buying-guide-special .product-table .buying-guide-spec-table tbody td {
+  font-size: 16px;
+}
+.buying-guide-special .product-table ~ .product-table .buying-guide-spec-table tbody td {
+  font-size: 14px;
+}
+.buying-guide-special .product-table ~ .product-table .buying-guide-spec-table tbody .th2 p {
+  font-size: inherit;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-top: 0;
+}
+.buying-guide-special .product-table ~ .product-table .buying-guide-spec-table tbody .th2,
+.buying-guide-special .product-table ~ .product-table .buying-guide-spec-table th {
+  padding: 16px 4px;
 }
 
 .buying-guide-special .product-table .buying-guide-spec-table table {
@@ -3143,13 +3198,6 @@
 .buying-guide-special .product-table .buying-guide-spec-table .clone-header-table-wrap table {
   border-left: 0;
 }
-.buying-guide-special
-  .product-table
-  .buying-guide-spec-table
-  thead
-  th:not([rowspan]) {
-  font-size: 20px;
-}
 .buying-guide-special .product-table .buying-guide-spec-table th,
 .buying-guide-special .product-table .buying-guide-spec-table .th2 {
   font-weight: 700;
@@ -3157,9 +3205,6 @@
 .buying-guide-special .product-table .buying-guide-spec-table th,
 .buying-guide-special .product-table .buying-guide-spec-table td {
   padding: 16px 10px;
-}
-.buying-guide-special .product-table .buying-guide-spec-table td {
-  font-size: 18px;
 }
 .buying-guide-special .product-table .buying-guide-spec-table td small {
   display: block;
@@ -3205,11 +3250,7 @@
   background: url(/kr/story/buying-guide/2025/img/ic24_info.svg) no-repeat
     center/100%;
 }
-.buying-guide-special
-  .product-table
-  .buying-guide-spec-table
-  .des
-  .info:before {
+.buying-guide-special .product-table .buying-guide-spec-table .des .info:before {
   content: "";
   position: absolute;
   bottom: -9px;
@@ -3276,6 +3317,8 @@
   margin: 0 auto;
   padding: 9px 10px;
   width: 100%;
+  height: 100%;
+  max-height: 62px;
   max-width: 220px;
   background: #000;
   border-radius: 8px;
@@ -3486,13 +3529,26 @@
     height: 60px;
     align-items: center;
   }
-  .buying-guide-special .product-table .buying-guide-spec-table thead th:not([rowspan]) {
+  .buying-guide-special .product-table .buying-guide-spec-table thead th {
     font-size: 16px;
   }
   .buying-guide-special .product-table .buying-guide-spec-table td {
     font-size: 14px;
   }
-
+  .buying-guide-special .product-table ~ .product-table .buying-guide-spec-table thead th,
+  .buying-guide-special .product-table ~ .product-table .buying-guide-spec-table tbody th,
+  .buying-guide-special .product-table ~ .product-table .buying-guide-spec-table tbody td {
+    font-size: 12px;
+  }
+  .buying-guide-special .product-table .buying-guide-spec-table .col-width {
+    width: 100px;
+  }
+  .buying-guide-special .product-table .buying-guide-spec-table .col-width-200 {
+    width: 120px;
+  }
+  .buying-guide-special .product-table ~ .product-table .buying-guide-spec-table .col-width {
+    width: 60px;
+  }
   .buying-guide-special .product-table .buying-guide-spec-table .des {
     font-size: inherit;
   }
@@ -4179,4 +4235,11 @@
   .point_product_tip_content .autoplay-slider-wrap .slider-controls .counter .total {
     min-width: 20px;
   }
+}
+
+
+/* spec table mobile min width */
+@media(max-width: 1023px){
+  [data-media-width="700"] { --table-min-width: 700px; }
+  [data-media-width="660"] { --table-min-width: 660px; }
 }
