@@ -6,6 +6,7 @@
     --line: #e7e7e7;
     --ls-title-pc: -0.02em;
     --ls-body: -0.005em;
+    --ls-disclaimer: -0.007em;
     font-family: "Pretendard", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
     background: #ffffff;
     color: var(--ink);
@@ -175,7 +176,7 @@
 
 #snomet .main-title {
     margin-bottom: 22px;
-    font-size: 40px;
+    font-size: 56px;
 }
 
 #snomet .sub-copy {
@@ -211,7 +212,8 @@
     text-align: left;
 }
 
-#snomet .disclaimer .mark {
+#snomet .disclaimer::before {
+    content: "*";
     flex: 0 0 auto;
 }
 
@@ -320,12 +322,19 @@
     background: #f4f4f4;
 }
 
-#snomet .feature-img img,
-#snomet video.feature-img {
+#snomet .feature-img img {
     width: 100%;
     height: auto;
     object-fit: cover;
     object-position: center;
+}
+
+#snomet video.feature-img {
+    width: 100%;
+    aspect-ratio: 1096 / 504;
+    height: auto;
+    object-fit: cover;
+        object-position: center -85px;
 }
 
 #snomet .check-point {
@@ -518,6 +527,7 @@
     font-size: inherit;
     font-weight: 400;
     line-height: inherit;
+    letter-spacing: var(--ls-disclaimer);
 }
 
 #snomet .sec-banner {
@@ -580,6 +590,39 @@
     height: 20px;
 }
 
+#snomet.all-in-one-guide .bullet-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#snomet.all-in-one-guide .bullet-list li {
+    position: relative;
+    padding-left: 14px;
+}
+
+#snomet.all-in-one-guide .bullet-list li::before {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: 0;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #111111;
+}
+
+#snomet.all-in-one-guide .bullet-list p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 0;
+}
+
+#snomet.all-in-one-guide .feature-img img {
+    aspect-ratio: auto;
+}
+
 @media (max-width: 768px) {
     #snomet .pc-only,
     #snomet br.pc-only {
@@ -631,13 +674,16 @@
 
     #snomet .sub-copy,
     #snomet .lead-copy,
-    #snomet .summary-list p,
-    #snomet .point-title {
+    #snomet .summary-list p{
         font-size: 16px;
         line-height: 1.6;
         letter-spacing: var(--ls-body);
     }
-
+    #snomet .point-title{
+        font-size:14px ;
+         line-height: 1.6;
+        letter-spacing: var(--ls-body);
+    }
     #snomet .num-list-red .txt-box > p,
     #snomet .tip-copy p {
         font-size: 14px;
@@ -656,11 +702,11 @@
     }
 
     #snomet .mt-120 {
-        margin-top: 80px;
+        margin-top: 60px;
     }
 
     #snomet .mt-140 {
-        margin-top: 90px;
+        margin-top: 98px;
     }
 
     #snomet .mt-46 {
@@ -673,11 +719,11 @@
     }
 
     #snomet .sec-header .inner-text {
-        margin-bottom: 42px;
+        margin-bottom: 23px;
     }
 
     #snomet .main-title {
-        margin-bottom: 18px;
+        margin-bottom: 13px;
         font-size: 32px;
     }
 
@@ -768,13 +814,18 @@
         object-fit: cover;
     }
 
+    #snomet video.feature-img {
+        aspect-ratio: 350 / 204;
+        object-position: calc(50% - 8.5px) calc(50% - 30px);
+    }
+
     #snomet .check-point {
-        margin-top: 36px;
+        margin-top: 13px;
     }
 
     #snomet .cp-title {
         margin-bottom: 13px;
-        font-size: 20px;
+        font-size: 16px;
     }
 
     #snomet .num-list-red {
@@ -797,7 +848,8 @@
     }
 
     #snomet .num-list-red > li.tip-item {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
     #snomet .num-list-red .tip-item .n {
@@ -822,12 +874,18 @@
         aspect-ratio: 349 / 231;
     }
 
+    #snomet .tip-img img {
+        aspect-ratio: 349 / 231;
+        object-fit: contain;
+    }
+
     #snomet .notice-toggle {
         margin-top: 13px;
     }
 
     #snomet .notice-toggle p {
         letter-spacing: var(--ls-body);
+        font-size:12px;
     }
 
     #snomet .notice-list {
@@ -889,6 +947,30 @@
         width: 7px;
         height: 7px;
         border-width: 1.5px;
+    }
+
+    #snomet.all-in-one-guide .bullet-list {
+        gap: 4px;
+    }
+
+    #snomet.all-in-one-guide .bullet-list li {
+        padding-left: 10px;
+    }
+
+    #snomet.all-in-one-guide .bullet-list li::before {
+        top: 11px;
+        width: 3px;
+        height: 3px;
+    }
+
+    #snomet.all-in-one-guide .bullet-list p {
+        font-size: 14px;
+        line-height: 1.6;
+        letter-spacing: var(--ls-body);
+    }
+
+    #snomet.all-in-one-guide .feature-img img {
+        aspect-ratio: auto;
     }
 }
 

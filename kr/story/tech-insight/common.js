@@ -571,7 +571,7 @@ function detailTableTopFix() {
   function updatePosition() {
     const st = $(window).scrollTop();
     const $verticalScrollTab = $("#vertical-scroll-tab");
-    let verticalScrollTabH =
+    const verticalScrollTabH =
       $verticalScrollTab.length && $verticalScrollTab.hasClass("sticky")
         ? $verticalScrollTab.outerHeight()
         : 0;
@@ -581,9 +581,9 @@ function detailTableTopFix() {
       const $cloneWrap = $wrap.find(".clone-header-table-wrap");
       if (!$cloneWrap.length) return;
 
-      verticalScrollTabH = $wrap.hasClass("include-tab")
+      const verticalScrollTabH = $wrap.hasClass("include-tab")
         ? 0
-        : verticalScrollTabH;
+        : baseVerticalScrollTabH;
       const $thead = $wrap.find("table thead");
       const wrapTop = $wrap.offset().top;
       const wrapH = $wrap.outerHeight();

@@ -1266,6 +1266,7 @@
 .buying-guide .compare-wrap .procuct-summary table td {
   border-left: 1px solid #ddd;
 }
+.buying-guide .compare-wrap .procuct-summary table th:last-child,
 .buying-guide .compare-wrap .procuct-summary table td:last-child {
   border-right: 1px solid #ddd;
 }

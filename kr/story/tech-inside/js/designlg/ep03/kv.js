@@ -52,17 +52,17 @@
   function setRoniKvInitialState() {
     setHeadInitialState();
 
-    // Keep kv layers centered by percentage so GSAP doesn't freeze X into px.
-    gsap.set("#kv .bg-img-wrap .kv4 img", {
+    // Keep image layers centered by percentage so GSAP doesn't freeze X into px.
+    gsap.set("#kv .bg-img-wrap .kv4 img, #kv .bg-img-wrap .kv2 img, #kv .bg-img-wrap .kv5 img", {
       xPercent: -50,
       yPercent: -50,
       x: 0,
       y: 0,
+      scale: 1,
     });
 
     gsap.set("#kv .bg-img-wrap .kv4 img", {
       opacity: 1,
-      scale: 1,
       zIndex: 2,
     });
 
@@ -113,9 +113,9 @@
 
     appendHeadFadeMotion(tl);
 
-    tl.to("#kv .bg-img-wrap .kv4 img", {
-      scale: 1.06,
-      yPercent: -45, // -50 baseline -> move down about 2%
+    tl.to("#kv .bg-img-wrap .kv4 img, #kv .bg-img-wrap .kv2 img, #kv .bg-img-wrap .kv5 img", {
+      scale: 1.0656,
+      yPercent: -45, // -50 baseline -> move down about 5%
       duration: 0.25,
       ease: "none",
     }).to(
@@ -157,11 +157,12 @@
         },
         onRefresh: function () {
           if (!hasRoniKvLayer) return;
-          gsap.set("#kv .bg-img-wrap .kv4 img", {
+          gsap.set("#kv .bg-img-wrap .kv4 img, #kv .bg-img-wrap .kv2 img, #kv .bg-img-wrap .kv5 img", {
             xPercent: -50,
             yPercent: -50,
             x: 0,
             y: 0,
+            scale: 1,
           });
         },
         // markers: true,
