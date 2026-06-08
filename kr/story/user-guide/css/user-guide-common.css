@@ -1,7 +1,7 @@
 #snomet {
     --red: #ea1917;
     --ink: #111111;
-    --muted: #555555;
+    --muted: #444444;
     --soft: #f6f6f6;
     --line: #e7e7e7;
     --ls-title-pc: -0.02em;
@@ -683,6 +683,7 @@
         font-size:14px ;
          line-height: 1.6;
         letter-spacing: var(--ls-body);
+        margin-bottom:4px;
     }
     #snomet .num-list-red .txt-box > p,
     #snomet .tip-copy p {
@@ -859,9 +860,15 @@
         margin-bottom: 14px;
         font-size: 14px;
     }
-
+#snomet .num-list-red .tip-item .n.tip-text{
+    flex:none;
+}
     #snomet .tip-content {
         gap: 13px;
+    }
+
+    #snomet.all-in-one-guide .tip-content {
+        gap: 14px;
     }
 
     #snomet .tip-copy {
@@ -971,6 +978,10 @@
 
     #snomet.all-in-one-guide .feature-img img {
         aspect-ratio: auto;
+    }
+    #snomet .banner-cta-icon{
+        width:7px;
+        height:14px;
     }
 }
 
