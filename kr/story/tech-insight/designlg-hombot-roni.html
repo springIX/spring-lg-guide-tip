@@ -63,6 +63,7 @@
 </head>
 
 <body>
+  
   <link rel="stylesheet" href="https://www.lge.co.kr/kr/story/tech-inside/css/designlg/swiper.css">
   <link rel="stylesheet" href="/kr/story/tech-inside/css/designlg/designlg-hombot-roni.css">
   <script type="text/javascript" src="https://www.lge.co.kr/kr/story/tech-inside/js/designlg/gsap.min.js">
@@ -337,10 +338,14 @@
                     aria-describedby="design-video1-desc" id="design-sec1-video" preload="metadata"
                     poster="/kr/story/tech-inside/img/designlg/ep03/design-video1-poster.jpg">
 
-                    <source src="/kr/story/tech-inside/img/designlg/ep03/story-sec2-video.mp4" type="video/webm"
-                      aria-hidden="true">
-                    <source src="/kr/story/tech-inside/img/designlg/ep03/story-sec2-video.mp4" type="video/mp4"
-                      aria-hidden="true">
+                    <source src="/kr/story/tech-inside/video/designlg/ep03/story-sec2-video-(640x960).mp4" type="video/mp4"
+                      media="(max-width: 767px)" aria-hidden="true">
+                    <source src="/kr/story/tech-inside/video/designlg/ep03/story-sec2-video-(860x860).mp4" type="video/mp4"
+                      media="(min-width: 768px) and (max-width: 1024px)" aria-hidden="true">
+                    <source src="/kr/story/tech-inside/video/designlg/ep03/story-sec2-video-(1380x670).mp4" type="video/mp4"
+                      media="(min-width: 1025px) and (max-width: 1439px)" aria-hidden="true">
+                    <source src="/kr/story/tech-inside/video/designlg/ep03/story-sec2-video-(1920x1080).mp4" type="video/mp4"
+                      media="(min-width: 1440px)" aria-hidden="true">
                   </video>
                   <div class="controller-wrap video-btn"> <button class="active pause js-video-toggle"
                       aria-label="영상 일시정지" aria-controls="design-sec1-video" data-play-text="영상 재생"
