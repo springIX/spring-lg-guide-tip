@@ -288,67 +288,58 @@
       }
     }
 
+    function setActiveQna(qna, personId) {
+      if (!qna || (currentPersonId === personId && qna.classList.contains('is-active'))) return;
+
+      qnaList.forEach(function (item) {
+        item.classList.remove('is-active');
+      });
+      qna.classList.add('is-active');
+      activatePersonUI(personId, false);
+    }
+
     // ================================
-    // ScrollTrigger ??is-active ?쒓굅??
+    // Active Q&A follows the most visible Q&A block.
+    // Boundary-based ScrollTrigger switched people before the next page was visible enough.
     // ================================
-    qnaList.forEach(function (qna, i) {
-      var personId = qna.getAttribute('data-person-id');
-      var nextQna = qnaList[i + 1];
-      var prevQna = qnaList[i - 1];
-      var nextId  = nextQna ? nextQna.getAttribute('data-person-id') : null;
-      var prevId  = prevQna ? prevQna.getAttribute('data-person-id') : null;
+    var activeQnaRaf = 0;
 
-      ScrollTrigger.create({
-        trigger: qna,
-        start: 'top top+=350',
-        end:   'bottom 25%',
-        invalidateOnRefresh: true,
+    function getVisibleAmount(el) {
+      var rect = el.getBoundingClientRect();
+      var viewportHeight = window.innerHeight || document.documentElement.clientHeight || 0;
+      var visibleTop = Math.max(rect.top, 0);
+      var visibleBottom = Math.min(rect.bottom, viewportHeight);
+      return Math.max(0, visibleBottom - visibleTop);
+    }
 
-        onEnter: function () {
-          qnaList.forEach(function (q) { q.classList.remove('is-active'); });
-          qna.classList.add('is-active');
+    function updateActiveQnaByViewport() {
+      activeQnaRaf = 0;
 
-          var isMobile = window.matchMedia(MOBILE_MEDIA_QUERY).matches;
-          if (isMobile) {
-            // ??紐⑤컮?? detail? ?ш린????諛붽퓞
-            activatePersonUI(personId, false, { skipDetail: true });
-          } else {
-            activatePersonUI(personId, false);
-          }
-        },
+      var bestQna = null;
+      var bestVisible = 0;
 
-        onEnterBack: function () {
-          qnaList.forEach(function (q) { q.classList.remove('is-active'); });
-          qna.classList.add('is-active');
-
-          var isMobile = window.matchMedia(MOBILE_MEDIA_QUERY).matches;
-          if (isMobile) {
-            // ??紐⑤컮?? (?꾨옒?먯꽌 ?꾨줈) ?ㅼ떆 end瑜??섏뼱 ?ъ쭊?낇븯硫??꾩옱 detail濡?蹂듦?
-            activatePersonUI(personId, false, { skipDetail: true });
-            togglePeopleDetail(personId);
-          } else {
-            activatePersonUI(personId, false);
-          }
-        },
-
-        // ???ш린遺?곌? "end 吏?섎㈃ ?좉?" ?듭떖
-        onLeave: function () {
-          var isMobile = window.matchMedia(MOBILE_MEDIA_QUERY).matches;
-          if (!isMobile) return;
-
-          // ?꾨옒濡??대젮??end瑜?吏?섎㈃ ???ㅼ쓬 ?щ엺 detail濡??좉?
-          if (nextId) togglePeopleDetail(nextId);
-        },
-
-        onLeaveBack: function () {
-          var isMobile = window.matchMedia(MOBILE_MEDIA_QUERY).matches;
-          if (!isMobile) return;
-
-          // ?꾨줈 ?щ씪媛??start瑜?吏?섎㈃ ???댁쟾 ?щ엺 detail濡??좉?
-          if (prevId) togglePeopleDetail(prevId);
+      qnaList.forEach(function (qna) {
+        var visible = getVisibleAmount(qna);
+        if (visible > bestVisible) {
+          bestVisible = visible;
+          bestQna = qna;
         }
       });
-    });
+
+      if (!bestQna || bestVisible <= 0) return;
+
+      var personId = bestQna.getAttribute('data-person-id');
+      if (personId) setActiveQna(bestQna, personId);
+    }
+
+    function requestActiveQnaUpdate() {
+      if (activeQnaRaf) return;
+      activeQnaRaf = requestAnimationFrame(updateActiveQnaByViewport);
+    }
+
+    window.addEventListener('scroll', requestActiveQnaUpdate, { passive: true });
+    window.addEventListener('resize', requestActiveQnaUpdate);
+    window.addEventListener('load', requestActiveQnaUpdate);
 
     // ================================
     // ?대┃ ???몃Ъ ?꾪솚
@@ -585,4 +576,3 @@
   });
 
 })(window, document, window.jQuery);
-

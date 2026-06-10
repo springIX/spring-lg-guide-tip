@@ -44,23 +44,28 @@
       // Update active state immediately for better keyboard/screen-reader feedback.
       setActiveNav(target);
 
-      $("html, body").animate(
-        { scrollTop: offsetTop },
-        600,
-        "swing",
-        function () {
+      $("html, body")
+        .stop(true)
+        .animate({ scrollTop: offsetTop }, 600, "swing")
+        .promise()
+        .done(function () {
           const $heading = $(target).find(".title").eq(0);
 
           if ($heading.length) {
-            $heading.attr("tabindex", "-1").focus();
+            $heading.attr("tabindex", "-1");
+
+            try {
+              $heading[0].focus({ preventScroll: true });
+            } catch (e) {
+              $heading[0].focus();
+            }
 
             // Remove temporary tabindex after focus moves away.
             $heading.one("blur", function () {
               $(this).removeAttr("tabindex");
             });
           }
-        },
-      );
+        });
     });
 
     // Update active nav + add .on classes while scrolling.

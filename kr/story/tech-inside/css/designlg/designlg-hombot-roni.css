@@ -796,9 +796,23 @@
 #designlg #STORY .content-sec.sec1 .sec-head .sec-copy {
   max-width: 1300px;
 }
+
+#designlg #STORY .content-sec.sec1 .sec-head .sec-copy .copy {
+  flex: 0 0 630px;
+}
+
 #designlg #STORY .content-sec.sec2 .sec-head .sec-copy{
   max-width: 1250px;
 }
+
+#designlg #STORY .content-sec.sec2 .sec-head .sec-copy .copy:first-child {
+  flex: 0 0 618px;
+}
+
+#designlg #STORY .content-sec.sec2 .sec-head .sec-copy .copy:last-child {
+  flex: 0 0 600px;
+}
+
 #designlg #STORY .content-sec.sec3 .sec-head .sec-copy {
   max-width: 1566px;
 }
@@ -878,11 +892,14 @@
   flex: 0 0 100%;
   margin-top: 16px;
   overflow: hidden;
-  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  will-change: max-height;
+  transition:
+    max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    padding-bottom 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: max-height, padding-bottom;
 }
 
 #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .note-list.is-collapsed {
+  display: none;
   pointer-events: none;
 }
 
@@ -955,6 +972,11 @@
 #designlg #DESIGN .content-sec.sec2 .sec-head .sec-copy{
   max-width: 1251px;
 }
+
+#designlg #DESIGN .content-sec.sec2 .sec-head .sec-copy .copy {
+  max-width: 609.5px;
+}
+
 #designlg #DESIGN .content-sec .sec-head .sec-title {
   color: #1a1816;
   letter-spacing: -0.002em;
@@ -963,9 +985,20 @@
 
 #designlg #DESIGN .content-sec .sec-head .sec-copy .copy {
   color: #000;
+  font-size: 18px;
   font-weight: 500;
+  line-height: 1.8;
+  letter-spacing: -0.36px;
   min-width: 0;
   word-break: normal;
+}
+
+#designlg #DESIGN .content-sec.sec1 .sec-head .sec-copy .copy-presence {
+  max-width: 616px;
+}
+
+#designlg #DESIGN .content-sec.sec1 .sec-head .sec-copy .copy-form {
+  max-width: 560px;
 }
 
 #designlg #DESIGN .content-sec .sec-head.sec-row {
@@ -1219,9 +1252,15 @@
 }
 
 #designlg #DESIGN .content-sec.sec4 .sec-head .sec-copy {
+  flex: 0 0 619.545px;
   flex-direction: column;
   gap: 20px;
-  max-width: 620px;
+  width: 619.545px;
+  max-width: 619.545px;
+}
+
+#designlg #DESIGN .content-sec.sec4 .sec-head .sec-copy .copy {
+  max-width: 619.545px;
 }
 
 #designlg #DESIGN .content-sec.sec4 .sec-cnt ul {
@@ -2054,12 +2093,12 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: 20px 20px;
-  transform: rotate(0deg);
+  transform: rotate(180deg);
   transition: transform 0.25s ease;
 }
 
 #designlg .kv-disclaimer-section .disclaimer-item .notice-toggle[aria-expanded="true"]::after {
-  transform: rotate(180deg);
+  transform: rotate(0deg);
 }
 
 #designlg .kv-disclaimer-section .disclaimer-item .note-list {
@@ -2073,14 +2112,15 @@
   overflow: hidden;
   opacity: 1;
   visibility: visible;
-  will-change: max-height, opacity;
+  will-change: max-height, padding-bottom, opacity;
   transition:
     max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    padding-bottom 0.4s cubic-bezier(0.4, 0, 0.2, 1),
     opacity 0.22s ease;
 }
 
 #designlg .kv-disclaimer-section .disclaimer-item:nth-child(2) .note-list {
-  order: 4;
+  order: 3;
 }
 
 #designlg .kv-disclaimer-section .disclaimer-item .note-list:not(.is-collapsed) {
@@ -2088,6 +2128,7 @@
 }
 
 #designlg .kv-disclaimer-section .disclaimer-item .note-list.is-collapsed {
+  display: none;
   max-height: 0 !important;
   opacity: 0;
   pointer-events: none;
@@ -2130,12 +2171,21 @@
   position: relative;
   height: 100svh;
   min-height: 720px;
-  overflow: hidden;
+  overflow: visible;
   background: #020202;
 }
 
 #designlg #kv .inwrap,
-#designlg #kv .kv-stage,
+#designlg #kv .kv-stage {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  margin: 0;
+  overflow: visible;
+}
+
 #designlg #kv .bg-type {
   position: absolute;
   inset: 0;
@@ -2144,6 +2194,10 @@
   max-width: none;
   margin: 0;
   overflow: hidden;
+}
+
+#designlg .pin-spacer:has(#kv) {
+  overflow: visible !important;
 }
 
 #designlg #kv .head {
@@ -2369,17 +2423,6 @@
   z-index: 5;
 }
 
-#designlg #kv .kv-new__bottom-dim {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 6;
-  height: max(4px, 0.35vw);
-  pointer-events: none;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 72%, #000 100%);
-}
-
 /* ************** media: max-width ************** */
 @media screen and (max-width: 767px) {
 
@@ -2389,6 +2432,12 @@
 
 #designlg .video-inner-wrap {
     border-radius: 2px;
+  }
+
+#designlg section .disclaimer button::after {
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
   }
 
 #designlg section .inwrap .heading .eyebrow {
@@ -2431,6 +2480,16 @@
 #designlg section .inwrap article video {
     width: calc(100% + 32px);
     margin-left: -16px;
+  }
+
+#designlg #STORY .content-sec.sec1 .cnt-video-wrap {
+    width: calc(100% + 32px);
+    margin-left: -16px;
+  }
+
+#designlg #STORY .content-sec.sec1 .cnt-video-wrap video {
+    width: 100%;
+    margin-left: 0;
   }
 
 #designlg #kv .head .desc {
@@ -2479,6 +2538,7 @@
   #designlg section .content-sec .sec-head .sec-copy .copy {
     width: 100%;
     font-size: 16px;
+    font-weight: 400;
     line-height: 1.7;
     letter-spacing: -0.32px;
   }
@@ -2803,6 +2863,11 @@
     margin-top: 39px;
   }
 
+#designlg #STORY .content-sec.sec2 .video-inner-wrap,
+#designlg #STORY .content-sec.sec2 .video-inner-wrap video {
+    border-radius: 0;
+  }
+
 #designlg #STORY .content-sec.sec2::before {
     width: 968px;
     height: 645px;
@@ -2829,6 +2894,16 @@
     gap: 20px;
   }
 
+#designlg #STORY .content-sec.sec1 .sec-head .sec-copy .copy {
+    flex: none;
+    max-width: 350px;
+  }
+
+#designlg #STORY .content-sec.sec2 .sec-head .sec-copy .copy:first-child,
+#designlg #STORY .content-sec.sec2 .sec-head .sec-copy .copy:last-child {
+    flex: none;
+  }
+
 #designlg #STORY .content-sec.sec3 .caption {
     display: block;
     margin-top: 10px;
@@ -2842,26 +2917,47 @@
   }
 
 #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle {
-    flex-direction: column;
-    flex-wrap: nowrap;
-    gap: 12px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px 16px;
   }
 
   #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle > p,
   #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .notice-toggle,
   #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .note-list {
-    order: initial;
     flex: none;
   }
 
+  #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle > p {
+    order: 1;
+    flex: 0 0 100%;
+  }
+
+  #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .disclaimer-items {
+    display: contents;
+  }
+
   #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .disclaimer-item {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
+    display: contents;
+  }
+
+  #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .notice-toggle {
+    order: 2;
+    flex: 0 1 auto;
   }
 
   #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .note-list {
+    order: 3;
+    flex: 0 0 100%;
     margin-top: 0;
+  }
+
+  #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .disclaimer-item:not(:last-child) .note-list {
+    padding-bottom: 12px;
+  }
+
+  #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .note-list.is-collapsed {
+    padding-bottom: 0 !important;
   }
 
   #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .notice-toggle,
@@ -2886,6 +2982,18 @@
 
 #designlg #DESIGN .content-sec .sec-head .sec-title {
     white-space: normal;
+  }
+
+#designlg #DESIGN .content-sec.sec1 .sec-head .sec-copy .copy,
+#designlg #DESIGN .content-sec.sec2 .sec-head .sec-copy .copy,
+#designlg #DESIGN .content-sec.sec4 .sec-head .sec-copy .copy {
+    max-width: 348px;
+  }
+
+#designlg #DESIGN .content-sec.sec4 .sec-head .sec-copy {
+    flex: none;
+    width: 100%;
+    max-width: 348px;
   }
 
 #designlg #DESIGN .content-sec .sec-cnt {
@@ -3110,9 +3218,17 @@
     max-width: 100%;
     margin: 0;
   }
+  #designlg #INTERVIEW .inwrap .heading .eyebrow {
+    margin-bottom: 0;
+  }
+  #designlg #INTERVIEW .inwrap .heading .title {
+    height: 49px;
+  }
   #designlg #INTERVIEW .heading .desc {
-    padding: 60px 0 56px;
+    max-width: 350px;
+    padding: 89px 0 56px;
     font-size: 14px;
+    font-weight: 500;
     line-height: 1.6;
     letter-spacing: -0.28px;
   }
@@ -3371,6 +3487,7 @@
   }
   #designlg #INTERVIEW .inwrap .qna-wrap .qna-list dl + .disclaimer {
     color: #6a6d70;
+    margin-top: 12px;
   }
   #designlg #INTERVIEW .inwrap .qna-wrap .qna-list dl + .disclaimer p {
     color: #6a6d70;
@@ -3569,16 +3686,18 @@
   }
 
   #designlg .kv-disclaimer-section .disclaimer-items {
-    flex-direction: column;
-    flex-wrap: nowrap;
-    gap: 12px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px 16px;
     margin-top: 0;
   }
 
   #designlg .kv-disclaimer-section .disclaimer-item {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
+    display: contents;
+  }
+
+  #designlg .kv-disclaimer-section .disclaimer-item .notice-toggle {
+    flex: 0 1 auto;
   }
 
   #designlg .kv-disclaimer-section .disclaimer-item .notice-toggle {
@@ -3603,6 +3722,20 @@
 
   #designlg .kv-disclaimer-section .disclaimer-item .note-list:not(.is-collapsed) {
     max-height: 520px;
+  }
+
+  #designlg .kv-disclaimer-section .disclaimer-item .note-list,
+  #designlg .kv-disclaimer-section .disclaimer-item:nth-child(2) .note-list {
+    order: 3;
+    flex: 0 0 100%;
+  }
+
+  #designlg .kv-disclaimer-section .disclaimer-item:not(:last-child) .note-list {
+    padding-bottom: 12px;
+  }
+
+  #designlg .kv-disclaimer-section .disclaimer-item .note-list.is-collapsed {
+    padding-bottom: 0 !important;
   }
 
   #designlg .kv-disclaimer-section .disclaimer-item .note-list li {
@@ -3733,16 +3866,23 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1919px) {
+@media screen and (min-width: 768px) and (max-width: 1904px) {
 
-  #designlg .disclaimer br.pc-only {
+  #designlg section .content-sec .sec-head .sec-copy .copy br.pc-only {
     display: none;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1800px) {
+@media screen and (min-width: 1905px) {
 
-  #designlg .content-sec .sec-head .sec-copy .copy br.pc-only {
+  #designlg section .content-sec .sec-head .sec-copy .copy br.pc-only {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1919px) {
+
+  #designlg .disclaimer br.pc-only {
     display: none;
   }
 }
@@ -3865,12 +4005,12 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: 20px 20px;
-  transform: rotate(0deg);
+  transform: rotate(180deg);
   transition: transform 0.25s ease;
 }
 
 #designlg #INTERVIEW .disclaimer.has-toggle .notice-toggle[aria-expanded=true]::after {
-  transform: rotate(180deg);
+  transform: rotate(0deg);
 }
 
 #designlg #INTERVIEW .disclaimer.has-toggle .note-list {
@@ -3884,11 +4024,13 @@
   transition:
     max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1),
     padding-top 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    padding-bottom 0.4s cubic-bezier(0.4, 0, 0.2, 1),
     opacity 0.22s ease;
-  will-change: max-height, padding-top, opacity;
+  will-change: max-height, padding-top, padding-bottom, opacity;
 }
 
 #designlg #INTERVIEW .disclaimer.has-toggle .note-list.is-collapsed {
+  display: none;
   max-height: 0 !important;
   padding-top: 0 !important;
   opacity: 0;
@@ -3946,9 +4088,9 @@
 @media screen and (max-width: 767px) {
 
   #designlg #INTERVIEW .disclaimer.has-toggle .disclaimer-items {
-    flex-direction: column;
-    flex-wrap: nowrap;
-    gap: 12px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px 16px;
   }
 
   #designlg #INTERVIEW .disclaimer.has-toggle > p {
@@ -3960,20 +4102,18 @@
   }
 
   #designlg #INTERVIEW .disclaimer.has-toggle .disclaimer-item {
-    display: flex;
+    display: contents;
     flex: none;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0;
   }
 
   #designlg #INTERVIEW .disclaimer.has-toggle .notice-toggle,
   #designlg #INTERVIEW .disclaimer.has-toggle .note-list {
-    order: initial;
     flex: none;
   }
 
   #designlg #INTERVIEW .disclaimer.has-toggle .notice-toggle {
+    order: 2;
+    flex: 0 1 auto;
     font-size: 11px;
     line-height: 1.42;
     letter-spacing: -0.22px;
@@ -3986,8 +4126,18 @@
   }
 
   #designlg #INTERVIEW .disclaimer.has-toggle .note-list {
+    order: 3;
+    flex: 0 0 100%;
     margin-top: 0;
-    padding-top: 6px;
+    padding-top: 0;
+  }
+
+  #designlg #INTERVIEW .disclaimer.has-toggle .disclaimer-item:not(:last-child) .note-list {
+    padding-bottom: 12px;
+  }
+
+  #designlg #INTERVIEW .disclaimer.has-toggle .note-list.is-collapsed {
+    padding-bottom: 0 !important;
   }
 
   #designlg #INTERVIEW .disclaimer.has-toggle .note-list li {

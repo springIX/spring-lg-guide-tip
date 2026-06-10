@@ -1,0 +1,5140 @@
+* {
+  color: #000;
+  word-break: keep-all !important;
+}
+
+body {
+  line-height: 1.5;
+  color: #000;
+}
+
+p,
+span {
+  color: #000;
+}
+
+caption {
+  position: static !important;
+}
+
+.con-wrap .con-box {
+  width: calc(100% - 60px);
+}
+
+.con-box {
+  width: calc(100% - 60px);
+  max-width: 1380px;
+  margin: 0 auto;
+}
+
+.txt-cont {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-title {
+  width: calc(100% - 60px);
+  margin-top: 8%;
+  text-align: left;
+}
+
+.con-wrap .line {
+  width: 100%;
+  height: 1px;
+  background: #cacaca;
+  margin: 30px 0;
+}
+
+.pc-show {
+  display: block;
+}
+
+.pc-show02 {
+  display: none;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.greyColor {
+  color: #666;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.swiper-notification {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  opacity: 0;
+  z-index: -1000;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 48px;
+  height: 48px;
+  -webkit-box-shadow: 2px 4px 16px rgba(0,0,0,0.14);
+          box-shadow: 2px 4px 16px rgba(0,0,0,0.14);
+  border-radius: 50%;
+}
+.swiper-button-next {
+  background: url('/kr/story/images/ico-slide-next.png') no-repeat center center / cover;
+}
+.swiper-button-prev {
+  background: url('/kr/story/images/ico-slide-prev.png') no-repeat center center / cover;
+}
+
+/* .swiper-button-next img,
+.swiper-button-prev img {
+  width: 100%;
+} */
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  display: none;
+}
+
+table {
+  line-height: 1.5 !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.mySwiper {
+  overflow: hidden !important;
+}
+
+.installNotice.con-box {
+  margin-top: 20px;
+}
+
+.installNotice.con-box h6 {
+  color: #666;
+  font-size: 14px;
+}
+
+.installNotice.con-box ul li {
+  color: #666;
+  font-size: 14px;
+}
+
+.installNotice.con-box>ul>li {
+  margin-bottom: 6px;
+}
+
+.installNotice.con-box>ul>li:last-child {
+  margin-bottom: 0px;
+}
+
+.notice-wrap .notice-tit {
+  color: #666;
+  white-space: nowrap;
+}
+
+/*table*/
+.table-wrap {
+  width: 100%;
+}
+
+.table-wrap.mobile {
+  display: none
+}
+
+.table-wrap table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: #fff;
+}
+
+.table-wrap table thead {
+  background-color: #f9f9f9;
+}
+
+.table-wrap table thead th {
+  border-top: 2px solid #666;
+  font-size: 20px;
+  font-weight: 500;
+  color: #666;
+  text-align: center;
+  padding: 15px;
+  vertical-align: middle;
+  position: relative;
+  white-space: nowrap;
+  line-height: 1.4;
+}
+
+.table-wrap table thead th:last-child {
+  border-right: 0 !important;
+}
+
+.table-wrap table tbody td {
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+  border-right: 1px solid #cdcdcd;
+  border-bottom: 1px solid #cdcdcd;
+  letter-spacing: -0.05em;
+}
+
+.table-wrap table tbody tr td {
+  padding: 1% 0;
+  line-height: 1.625;
+  font-weight: 400;
+}
+
+.table-wrap table tbody tr td.tableTit {
+  font-weight: 500;
+}
+
+.table-wrap table tbody td strong {
+  font-weight: 500;
+  color: #666;
+}
+
+.airconditional-table .table-wrap table tbody td:first-child {
+  color: #666;
+}
+
+.airconditional-table .table-wrap table tbody td:last-child {
+  border-right: 0;
+}
+
+.table-wrap table tbody td.last {
+  border-right: none;
+  text-align: left;
+}
+
+.table-wrap table tbody tr td.tableExp {
+  padding: 2% 2% !important;
+  text-align: left;
+}
+
+.table-wrap table tbody td.tableLast {
+  border-right: 0px solid #cdcdcd;
+}
+
+.table-wrap table tbody tr td ul li {
+  position: relative;
+  padding-left: 15px;
+  text-align: left;
+  margin-bottom: 1%;
+}
+
+.table-wrap table tbody tr td ul li::before {
+  content: '•';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.table-wrap table tr.pc-show {
+  display: table-row;
+}
+
+.tableText {
+  font-weight: 400;
+}
+
+.table-all-wrap {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.section03 ul.plumbingMethod strong.txt-red {
+  font-weight: 400 !important;
+}
+
+/* //table */
+
+.cap-section {
+  display: none;
+}
+
+.table-type-03 {
+  max-width: 1380px;
+  margin: 60px auto 20px;
+}
+
+.table-wrap table.table-type-03 thead tr th {
+  border-top: 0;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding: 30px 8px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.table-wrap table.table-type-03 thead tr th:first-child {
+  font-weight: 500;
+}
+
+.table-wrap table.table-type-03 thead tr:first-child th {
+  border-top: 2px solid #666;
+}
+
+.table-wrap table.table-type-03 tbody tr th {
+  background-color: #f9f9f9;
+  vertical-align: middle;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding: 20px 8px;
+  font-weight: 500;
+}
+
+.table-wrap table.table-type-03 tbody tr td ul {
+  display: inline-block;
+}
+
+.table-wrap table.table-type-03 tbody tr td ul li {
+  text-align: center;
+}
+
+.table-wrap table.table-type-03 tbody tr td ul li::before {
+  display: inline-block;
+  position: static;
+  margin-right: 4px;
+}
+
+.table-wrap table.table-type-03 tbody tr td ul li span {
+  font-weight: 700;
+}
+
+.table-wrap+.fur-ex {
+  margin-bottom: 60px;
+}
+
+.table-wrap table tbody td.o-font {
+  font-size: 25px;
+}
+
+.section03 .plumbingSpecies.pc-show .table-wrap {
+  margin-top: 2.2%;
+}
+
+.section03 .plumbingSpecies.pc-show .table-wrap table {
+  border-collapse: collapse;
+}
+
+.section03 .plumbingSpecies.pc-show .table-wrap table tbody .tableTit {
+  font-weight: 500;
+}
+
+.section03 .plumbingSpecies.pc-show .table-wrap table tbody tr td:last-child {
+  border-right: 0px;
+}
+
+.section03 .plumbingSpecies.pc-show .table-wrap table tbody tr td.tableImg {
+  padding: 2%;
+}
+
+.section03 .plumbingSpecies.pc-show .table-wrap table tbody tr td.tableText {
+  padding-left: 3%;
+  text-align: left;
+  font-weight: 400;
+}
+
+.section03 .plumbingSpecies.pc-show span {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 1%;
+  color: #666;
+  font-size: 14px;
+}
+
+.plumbingSpecies.pc-show tbody {
+  background: #fff;
+}
+
+.section03 .portableAirTotal .portableMethod .tableTitImg img {
+  width: 100%;
+}
+
+.section03 .portableMethod .portableImg img {
+  max-width: 100%;
+}
+
+.section03 .portableMethod table thead {
+  background: #f7f7f7;
+}
+
+.section03 .portableMethod table thead th {
+  border-right: 1px solid #cdcdcd;
+  font-size: 18px;
+  color: #000;
+}
+
+.section03 .portableMethod table thead tr:nth-child(1) th[rowspan="2"] {
+  border-bottom: 1px solid #666;
+}
+
+.section03 .portableMethod table thead tr:nth-child(2) th {
+  border-top: 1px solid #cdcdcd;
+  border-bottom: 1px solid #666;
+}
+
+.section03 .portableMethod table thead tr:nth-child(2) th:last-child {
+  border-right: 1px solid #cdcdcd !important;
+}
+
+.section03 .portableMethod table tbody td.tableTit {
+  background: #f7f7f7;
+  font-weight: 400;
+}
+
+.section03 .portableMethod div.notice p {
+  margin-top: 38px;
+}
+
+.portableImg>div {
+  text-align: left;
+}
+
+
+
+
+.section03 .plumbingSpecies.pc-show .table-wrap {
+  margin-top: 2.2%;
+}
+
+.section03 .plumbingSpecies.pc-show .table-wrap table tbody .tableTit {
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.section03 .plumbingSpecies.pc-show .table-wrap table tbody tr td:last-child {
+  border-right: 0px;
+}
+
+.section03 .plumbingSpecies.pc-show .table-wrap table tbody tr td.tableImg {
+  padding: 2%;
+}
+
+.section03 .plumbingSpecies.pc-show .table-wrap table tbody tr td.tableText {
+  padding-left: 3%;
+  text-align: left;
+}
+
+.section03 .plumbingSpecies.pc-show span {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 1%;
+  color: #666;
+}
+
+.plumbingSpecies.pc-show tbody {
+  background: #fff;
+}
+
+
+.table-wrap table.plumbing-table thead {
+  background-color: #fcfcfc;
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.table-wrap table.plumbing-table thead th {
+  color: #010000;
+  line-height: 1.4;
+  border-right: 1px solid #cdcdcd;
+  border-bottom: 1px solid #cdcdcd;
+  background: #fff;
+}
+
+.table-wrap table.plumbing-table thead th.tableTit {
+  font-weight: 500;
+}
+
+.table-wrap table.plumbing-table thead th.tableText {
+  font-weight: 400;
+}
+
+.table-wrap table.plumbing-table thead th:first-child {
+  color: #010000;
+  line-height: 1.4;
+  border-right: 1px solid #cdcdcd;
+  border-bottom: 1px solid #cdcdcd;
+  background-color: #f9f9f9;
+}
+
+.table-wrap table.plumbing-table tbody tr td:first-child {
+  background-color: #f9f9f9;
+}
+
+.table-wrap table.plumbing-table tbody tr:nth-child(3) td:first-child {
+  background-color: #fcfcfc;
+}
+
+.table-wrap table.plumbing-table tbody tr td.tableTit {
+  font-weight: 500;
+}
+
+.table-wrap table.plumbing-table tbody tr td.tableText {
+  font-weight: 400;
+}
+
+
+/*01. 벽걸이 에어컨*/
+.plumbingSpecies .table-wrap tbody tr td img {
+  max-width: 551px;
+  width: 100%
+}
+
+.plumbingSpecies .table-wrap tbody tr td img:first-child {
+  margin-bottom: 20px;
+}
+
+.plumbingSpecies .table-wrap tbody tr td img:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+/* // table */
+
+/*///////////////////////////////////////////////////////////////*/
+/*---------section01 시작 - 설치가이드 타이틀 및 슬라이드 ---------*/
+/*///////////////////////////////////////////////////////////////*/
+.section01 {
+  width: calc(100% - 60px);
+  width: 100%;
+  max-width: 1380px;
+  margin: 0 auto;
+}
+
+.section01 .under-subtext {
+  display: block;
+  font-size: 16px;
+  color: #666;
+  width: 100%;
+  margin: 0 auto;
+  line-height: 1;
+  margin-top: 20px;
+}
+
+
+/*히어로 슬라이드*/
+.main-page-wrap {
+  width: 100%;
+  max-width: 1380px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.main-page-wrap img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*히어로 슬라이드 마감*/
+
+/*히어로 슬라이드 모바일 PC 없어지는 것*/
+.main-page-wrap_m {
+  display: none;
+}
+
+.main-page-wrap_pc {
+  display: block;
+}
+
+/*//////////////////////////////////////////////////////////////*/
+/*---------section02 시작 - 에어컨 유형을 확인해 보세요.---------*/
+/*//////////////////////////////////////////////////////////////*/
+.section02.con-box {
+  margin-top: 82px;
+  width: 100%;
+  max-width: 720px;
+}
+
+.section02 .main-tit {
+  font-size: 32px;
+  text-align: center;
+}
+
+/*에어컨 유형 탭*/
+.section02 .recommend-wrap {
+  width: 100%;
+  max-width: 580px;
+  margin: 0 auto;
+}
+
+.section02 .recommend-list {
+  width: 100%;
+  max-width: 484px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.section02 .recommend-btn {
+  width: calc(50% - 15px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #666;
+  border-radius: 10px;
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #666;
+  padding: 4.33% 0px;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.section02 .recommend-btn:focus-visible {
+  outline: 3px solid #000;
+  outline-offset: -3px;
+}
+
+.section02 .recommend-btn h3.aircon-tab {
+  color: #666;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.section02 .recommend-btn.active {
+  background: #D92A50;
+  border: 2px solid transparent;
+}
+
+.section02 .recommend-btn.active h3.aircon-tab {
+  color: #fff;
+  font-weight: 500;
+}
+
+.section02 .recommend-btn:nth-child(2) {
+  margin: 0;
+}
+
+.section02 .recommend-btn button {
+  width: 100%;
+}
+
+.section02 .tab-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*탭 밑 디테일 설명*/
+.section02 .detail-wrap {
+  margin-top: 42px;
+  margin-bottom: 60px;
+}
+
+.section02 .detail-item {
+  display: none;
+}
+
+.section02 .detail-item.active {
+  display: block;
+}
+
+.section02 .detail-item li {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  position: relative;
+  letter-spacing: -0.05em;
+  text-align: center;
+  line-height: 2.15rem;
+}
+
+.section02 .detail-item li:not(:first-child) {
+  margin-top: 20px;
+}
+
+.section02 .detail-item ul li p {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/*탭 밑 디테일 설명 마감*/
+
+/*//////////////////////////////////////////////////*/
+/*---------section03 시작 - 각 에어컨 콘텐츠 ---------*/
+/*//////////////////////////////////////////////////*/
+.section03 {
+  width: 100%;
+  display: none;
+}
+
+.section03-02,
+.section03-03 {
+  display: none;
+}
+
+.section03.active {
+  display: block;
+}
+
+.section03-wrap {
+  width: 100%;
+  margin-top: 40px;
+}
+
+
+/*airconditional wrap*/
+.airconditional-wrap {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.airconditional-list {
+  display: block;
+}
+
+/*pc 에서는 -> block*/
+
+
+.section03 .airconditional-list_m {
+  display: none;
+}
+
+.section03 .airconditional-wrap.con-box {
+  width: calc(100% - 60px);
+  max-width: 1269px;
+}
+
+
+.section03 .airconditional-list.built-in .airconditional-btn {
+  width: calc(100% / 3 - 14px);
+  height: 280px;
+  border: 1px solid #666;
+  position: relative;
+  border-radius: 20px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.section03 .airconditional-list.built-in .airconditional-btn:focus-visible {
+  outline: 3px solid #000;
+  outline-offset: 3px;
+}
+
+.section03 .airconditional-list .airconditional-btn {
+  width: calc(100% / 2 - 14px);
+  height: 280px;
+  border: 1px solid #666;
+  position: relative;
+  border-radius: 20px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.section03 .airconditional-list.built-in .airconditional-btn.active {
+  border: 3px solid #D92A50;
+}
+
+
+.section03 .airconditional-btn.active {
+  border: 3px solid #D92A50;
+}
+
+.section03 .airconditional-btn {
+  width: 260px;
+  height: 240px;
+  border: 2px solid #ddd;
+  position: relative;
+  border-radius: 20px;
+  background: #fff;
+}
+
+.section03 .airconditional-btn.active {
+  border: 3px solid #D92A50;
+}
+
+.airconditional-notice {
+  letter-spacing: -0.5px;
+  position: relative;
+  padding-left: 25px;
+  /*margin:25px 20px 0; */
+  width: calc(100% - 60px);
+  margin: 0 auto;
+  margin-top: 3%;
+}
+
+.section03-03 .airconditional-notice {
+  text-align: center;
+}
+
+/*
+.airconditional-info { width:100%; height: 85%; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); }
+*/
+.airconditional-container {
+  width: 100%;
+}
+
+.airconditional-item {
+  width: 100%;
+  display: none;
+}
+
+.airconditional-item.active {
+  display: block;
+}
+
+.airconditional-item-tit {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.airconditional-item-tit span {
+  color: #e81f57;
+}
+
+.airconditional-inner_cont-wrap {
+  width: 100%;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.airconditional-inner_cont {
+  width: 100%;
+  position: relative;
+}
+
+.airconditional-inner_cont-img img {
+  width: 100%;
+  background: #f9f9f9;
+}
+
+.airconditional-inner_cont-img>.pc-show video {
+  width: 100%
+}
+
+.airconditional-inner_cont-img>.m-show video {
+  width: 100%;
+}
+
+.airconditional-inner_cont-img.con-box {
+  width: calc(100% - 60px);
+  margin: 0 auto 60px;
+}
+
+.airconditional-inner_cont-img::before {
+  display: block;
+  position: absolute;
+  /* left: 50%; */
+  left: 45%;
+  top: -50px;
+  transform: translateX(-50%);
+  padding: 0.9rem 2.5rem;
+  color: #fff;
+  background: #e81f57;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  white-space: nowrap;
+}
+
+
+.standing-img,
+.standing-img img,
+.standing-info {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.standing-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.standing-img img {
+  height: 100%;
+  opacity: 0.5;
+  margin: 0 auto;
+}
+
+.section03 .airconditional-btn .standing-img img {
+  opacity: 0.5;
+}
+
+.section03 .airconditional-btn.active .standing-img img {
+  opacity: 1;
+}
+
+.standing-info {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.standing-info>span {
+  max-width: 305px;
+  /* width: 100%; */
+  display: block;
+  margin: 0 auto;
+}
+
+.standing-info p {
+  color: #666;
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.section03 .airconditional-btn .standing-info p {
+  color: #666;
+}
+
+.section03 .airconditional-btn .standing-info p span {
+  color: #666;
+  font-weight: bold;
+}
+
+.section03 .airconditional-btn .standing-info span {
+  color: #666;
+  font-weight: 400;
+}
+
+.section03 .airconditional-btn .standing-info span sup {
+  color: #666;
+  font-size: 10px;
+}
+
+.section03 .airconditional-btn.active .standing-info p {
+  color: #000000;
+}
+
+.section03 .airconditional-btn.active .standing-info p span {
+  color: #000;
+  font-weight: bold;
+}
+
+.section03 .airconditional-btn.active .standing-info span {
+  color: #666;
+  font-weight: 400;
+}
+
+.section03 .airconditional-btn.active .standing-info span sup {
+  color: #666;
+  font-size: 10px;
+}
+
+.standing-info span.top-center {
+  top: 50%;
+}
+
+
+
+/*.section03-02 */
+.section03-02 .airconditional-wrap.con-box {
+  width: calc(100% - 60px);
+  max-width: 836px;
+}
+
+.section03-02 .standing-info>span {
+  max-width: 370px;
+}
+
+/*seciton03-03*/
+.section03-03 .airconditional-list {
+  justify-content: center;
+}
+
+.section03-03 .airconditional-notice {
+  text-align: center;
+}
+
+.airconditional-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 0 20px;
+}
+
+
+/*built-in*/
+.section03 .airconditional-list.built-in .airconditional-btn {
+  width: calc(100% / 3 - 14px);
+  height: auto;
+  border: 1px solid #666;
+  position: relative;
+  border-radius: 20px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.section03 .airconditional-list.built-in .airconditional-btn {
+  padding-bottom: 29px
+}
+
+
+/*옵션 화살*/
+.option-arrow {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.select.active .option-arrow {
+  transform: rotate(180deg);
+  top: 40%;
+}
+
+
+
+/*면적 기준에 따라 에어컨 유형이 구분됩니다*/
+.section03 .airconditional-notice {
+  width: calc(100% - 60px);
+  display: block;
+  text-align: center;
+  max-width: 719px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-top: 1px solid #cacaca;
+  padding-top: 40px;
+}
+
+.section03 .airconditional-notice span::before {
+  content: '';
+  display: inline-block;
+  align-items: center;
+  margin-right: 1%;
+  height: 4px;
+  width: 4px;
+  vertical-align: 3px;
+  background: #000;
+  border-radius: 50%;
+}
+
+.section03 .airconditional-notice span {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+
+
+/*//////////////////////////////////////////////////*/
+/*---------------section03 에어컨 설치 추가 비용 안내 ---------------*/
+/*//////////////////////////////////////////////////*/
+
+.section03 .expensesWrap .expenses {
+  margin: 0 auto;
+  width: calc(100% - 60px);
+  max-width: 1380px;
+  margin-top: 61px;
+}
+
+.section03 .expensesWrap .expenses .expenses-tit {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.section03 .expensesWrap .expenses .expenses-tit-left {
+  display: flex;
+  align-items: center;
+}
+
+.section03 .expensesWrap .expenses .expenses-tit-left img {
+  width: 7%;
+}
+
+.section03 .expensesWrap .expenses .expenses-tit-left span {
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+.section03 .expensesWrap .expenses .expenses-tit-right {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-left: 1.125rem;
+  background: url(/kr/story/user-guide/images/air-conditioners-install-guide/icon/close-arrow.png) no-repeat center/ 1.25rem;
+}
+
+
+
+.section03 .expensesWrap .expenses .expenses-tit-right.active {
+  background: url(/kr/story/user-guide/images/air-conditioners-install-guide/icon/open-arrow.png) no-repeat center/ 1.25rem;
+}
+
+.section03 .expensesWrap .expenses .pdp-cost-guide-wrap,
+.section03 .expensesWrap .expenses .pdp-cost-guide-wrap .pdp-cost-guide-cont {
+  padding: 0;
+}
+
+.section03 .expensesWrap .expenses .pdp-cost-guide-wrap .cost-guide-cont-tit {
+  overflow: visible;
+}
+
+.expenses-wrap {
+  width: 100%;
+}
+
+
+
+
+.section03 .subCaption ul li {
+  position: relative;
+  padding-left: 18px;
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 9px;
+  color: #666;
+}
+
+.section03 .subCaption ul li h6 sup {
+  font-size: 10px;
+  color: #666;
+}
+
+.section03 .subCaption ul li::before {
+  content: '※';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.section03 .subCaption {
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+
+.section03 .subCaption.con-box {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+
+.section03 .subCaption h6 {
+  font-size: 14px;
+}
+
+.section03 .subCaption ul li h6>div span {
+  color: #666;
+  white-space: nowrap;
+}
+
+.subCaption ul li h6 {
+  color: #666;
+  font-weight: 400;
+}
+
+.subCaption ul li p {
+  padding-left: 5px;
+  color: #666;
+  font-size: 14px;
+}
+
+.subCaption ul li p sup {
+  color: #666;
+}
+
+.subCaption .prohibited {
+  margin-bottom: 1%;
+}
+
+.subCaption .prohibited h6 {
+  font-weight: bold;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.subCaption .prohibited p {
+  padding-left: 0px;
+  color: #666;
+  font-size: 14px;
+}
+
+.section03 .expensesWrap .expenses .installNotice.con-box {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section03 .expensesWrap .expenses .installNotice h6 {
+  font-size: 14px;
+  color: #666;
+}
+
+.section03 .expensesWrap .expenses .installNotice ul li {
+  font-size: 14px;
+  line-height: 2;
+  color: #666;
+}
+
+.expenses-table sup {
+  font-size: 10px;
+}
+
+.table-wrap table.expenses-table tbody tr td.tableTit {
+  font-weight: 500;
+  padding: 2% 0;
+}
+
+.table-wrap table.expenses-table tbody tr td.tableText {
+  font-weight: 400;
+}
+
+.table-wrap table.expenses-table tbody tr td.tableExp {
+  padding: 0 2% !important;
+  text-align: left;
+}
+
+/*//////////////////////////////////////////////////*/
+/*---------section03 일반 배관 ---------*/
+/*//////////////////////////////////////////////////*/
+.section03 .section03-inner {
+  margin: 0 auto;
+}
+
+.section03 .airconditional-cont {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.section03 .plumbingWrap {}
+
+.section03 .plumbingWrap>div {
+  margin: 0 auto;
+}
+
+.section03 .plumbingWrap h3 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 1.3%;
+  line-height: 1.5;
+}
+
+.section03 .plumbingWrap p {
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.section03 .plumbingTabWrap {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 60px);
+  max-width: 485px;
+  margin: 0 auto;
+  margin-top: 6%;
+  margin-bottom: 7.5%;
+}
+
+.section03 .plumbingTab {
+  width: calc(100% / 2 - 1rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #666;
+  border-radius: 10px;
+  font-size: 2.25rem;
+  font-weight: 400;
+  color: #666;
+  padding: 4.33% 0px;
+  cursor: pointer;
+  line-height: 1;
+  background-color: #fff;
+}
+
+.section03 .plumbingTab.active {
+  background: #D92A50;
+  border: transparent;
+  color: #fff;
+  border: transparent;
+  font-weight: 700;
+}
+
+/*옵션 선택 마침*/
+
+
+/*---------plumbing tab 시작--------*/
+.plumbingContents {
+  display: none;
+}
+
+.plumbingContents.active {
+  display: block;
+}
+
+.section03 .plumbingContents h6 {
+  font-size: 1.75rem;
+  margin-bottom: 3%;
+}
+
+.section03 .plumbingContents p {
+  font-size: 1.75rem;
+  text-align: left;
+}
+
+.section03 .plumbingContents>img {
+  margin-top: 10.5%;
+  margin-bottom: 1.2%;
+  width: 100%;
+}
+
+.section03 .plumbingContents span {
+  font-size: 1.5rem;
+  text-align: left;
+  color: #666;
+}
+
+.section03 ul.plumbingMethod {
+  margin-top: 7.5%;
+}
+
+.section03 ul.plumbingMethod li {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 4.5%;
+}
+
+.section03 ul.plumbingMethod li:last-child {
+  margin-bottom: 3%;
+}
+
+.section03 ul.plumbingMethod li>ul>li {
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/*---------plumbing tab 마침--------*/
+
+.section03 .plumbingSpecies.pc-show span {
+  display: block;
+  margin-top: 1%;
+  color: #666;
+}
+
+/*table*/
+
+
+/*//////////////////////////////////////////////////*/
+/*---------section03 이동식 에어컨 ---------*/
+/*//////////////////////////////////////////////////*/
+.section03 .portableAirTotal .portableMethod {
+  max-width: 1380px;
+  width: calc(100% - 60px);
+  margin: 0 auto;
+}
+
+.portableInstall {
+  margin-top: 61px;
+  padding-bottom: 3.2%;
+}
+
+.portableInstallContents {
+  max-width: 1380px;
+  width: calc(100% - 60px);
+  margin: 0 auto;
+}
+
+.portableInstallContents>h3 {
+  text-align: center;
+}
+
+.section03 .portableInstallContents .con-box {
+  width: 100%;
+  padding-top: 8%;
+  padding-bottom: 1.2%;
+  position: relative;
+}
+
+.section03 .portableInstallContents .con-box .video-info {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.section03 .portableInstallContents .con-box .sub-tit {
+  font-size: 20px;
+  margin-bottom: 0.5%;
+}
+
+.aircon-video {
+  margin-bottom: 90px;
+}
+
+.portableAirTotal .portableType-btn-wrap {
+  position: relative;
+  margin: 82px auto 92px;
+  width: 100%;
+  max-width: 720px;
+  overflow: hidden;
+}
+
+.portableAirTotal .portableType-btn-wrap .portableType-list {
+  position: relative;
+  margin: 40px auto 0;
+  width: 100%;
+  max-width: 484px;
+  overflow: hidden;
+}
+
+.portableAirTotal .portableType-btn-wrap .portableType-list ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.portableAirTotal .portableType-btn-wrap .portableType-list ul li {
+  width: 100%;
+}
+
+.portableAirTotal .portableType-btn-wrap .portableType-list ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #666;
+  border-radius: 10px;
+  padding: 6.7% 0px;
+  font-size: 24px;
+  color: #666;
+  font-weight: 400;
+}
+
+.portableAirTotal .portableType-btn-wrap .portableType-list ul li.active a {
+  border: 2px solid transparent;
+  background: #D92A50;
+  color: #fff;
+  font-weight: 600;
+}
+
+.portableAirTotal .single-hose-wrap {
+  position: relative;
+}
+
+.portableAirTotal .dual-hose-wrap {
+  display: none;
+  position: relative;
+}
+
+/*이동식 에어컨 슬라이드*/
+.section03 .swiper.portableSwiper {
+  width: 100%;
+  height: 100%;
+  margin-top: 3%;
+  overflow: hidden;
+  position: relative;
+}
+
+/*
+.section03 .portableSwiper .swiper-slide { text-align: center; font-size: 18px; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; flex-direction: column; }
+*/
+.section03 .portableSwiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+.section03 .portableSwiper .swiper-button-next::after {
+  display: none;
+}
+
+.section03 .portableSwiper .swiper-button-prev::after {
+  display: none;
+}
+
+
+
+/* .portableSwiper .swiper-button-next {
+  background: url(/kr/story/images/ico-slide-next.png) no-repeat;
+  width: 40px;
+  height: 40px;
+  top: 55%;
+  transform: translateY(-50%);
+  right: 10px;
+  cursor: pointer;
+}
+
+.portableSwiper .swiper-button-prev {
+  background: url(/kr/story/images/ico-slide-prev.png) no-repeat;
+  width: 40px;
+  height: 40px;
+  top: 55%;
+  transform: translateY(-50%);
+  left: 10px;
+  cursor: pointer;
+} */
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  cursor: auto;
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.portableSwiper .swiper-slide>.swiperVideoWrap {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  /*수정사항*/
+  width: 100%;
+  margin-top: 5%
+}
+
+.portableSwiper .swiper-slide>.swiperVideoWrap video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /*수정사항*/
+  background: #fcfcfc;
+}
+
+.swiper-pagination,
+.swiper-container-horizontal>.swiper-pagination-bullets, 
+.swiper-pagination-custom, 
+.swiper-pagination-fraction {
+  position: relative;
+  margin-top: 20px;
+  bottom:0;
+}
+
+.swiper-pagination-bullet {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  opacity: 1;
+  vertical-align: top;
+  background: none;
+  border-radius: 0;
+  margin: 0 !important;
+}
+
+.swiper-pagination-bullet::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  background: #8f8f8f;
+  border-radius: 50%;
+}
+
+.swiper-pagination-bullet-active {
+  width: 32px;
+}
+
+.swiper-pagination-bullet-active::after {
+  width: 24px;
+  border-radius: 20px;
+  background: #000;
+
+}
+
+.portableSwiper .swiper-title {
+  /*width:calc(100% - 60px); */
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 32px;
+  margin-bottom: -4%;
+  margin-left: 1px;
+}
+
+.portableSwiper .swiper-title h3 {
+  margin-top: 0px;
+  width: 93px;
+  height: 40px;
+  background: #D92A50;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 12px 12px 0;
+  margin-right: 1%;
+  font-size: 20px;
+}
+
+
+.section03 .portableSwiper .swiper-title p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 12px 12px 0;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+
+.section03 .portableAirTotal .main-tit {
+  text-align: center;
+}
+
+.section03 .portableInstallContents .con-box .sub-tit {
+  font-size: 26px;
+  margin-bottom: 0.5%;
+  color: #000;
+}
+
+.section03 .portableInstallContents>.swiperUnderText .sub-explain {
+  font-size: 18px;
+  color: #666;
+}
+
+.section03 .portableInstallContents>.swiperUnderText .sub-explain-caption {
+  font-size: 14px;
+  color: #666;
+}
+
+.section03 .portableInstallContents>.swiperUnderText2 {
+  padding-top: 5%;
+}
+
+.section03 .portableInstallContents>.swiperUnderText2 .sub-explain {
+  font-size: 18px;
+  color: #666;
+}
+
+.section03 .portableInstallContents>.swiperUnderText2 .sub-explain-caption {
+  font-size: 14px;
+  color: #666;
+}
+
+.portableAirTotal .video-wrap {
+  background-color: #fff;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.portableAirTotal .video-wrap video {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*//이동식 에어컨 슬라이드*/
+
+.section03 .portableMethod .portableImg {
+  max-width: 356px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.section03 .portableMethod .portableImg img.install-ex01 {
+  width: 100%;
+}
+
+.section03 .portableMethod .portableImg img.install-ex02 {
+  width: 100%;
+}
+
+.section03 .portableMethod .portableImg img.install-ex03 {
+  width: 100%;
+}
+
+/*//////////////////////////////////////////////////*/
+/*---------section03 냉난방 에어컨 ---------*/
+/*//////////////////////////////////////////////////*/
+.acWallTotal h3 {
+  text-align: center;
+}
+
+.acChecklistWrap>li h5 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 0.5%;
+}
+
+.acChecklistWrap h5 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 0.5%;
+}
+
+.acChecklistWrap h3.main-tit {
+  margin-top: 120px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 1;
+}
+
+.acChecklistDetail {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+.acChecklist {
+  max-width: 1380px;
+  width: calc(100% - 60px);
+  margin: 0 auto;
+}
+
+.acChecklistImg {
+  max-width: 1380px;
+  /*
+ width: calc(100% - 60px); */
+  width: 100%;
+  margin: 0 auto;
+}
+
+.acChecklistImg img {
+  width: 100%;
+}
+
+.installSize.fur-ex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.installSize>div p {
+  font-size: 14px;
+}
+
+
+/*
+.acChecklistImg p { text-align: right !important; margin-top:1.2% !important; font-size:1.5rem !important }
+*/
+
+.acChecklistDrawingWrap {
+  max-width: 1380px;
+  width: calc(100% - 60px);
+  margin: 0 auto 10px;
+}
+
+.acChecklistDrawing {
+  width: calc(50% - 10px);
+}
+
+.acChecklistDrawing h5 {
+  font-size: 20px !important;
+  font-weight: 700;
+  margin-top: 2%;
+  margin-bottom: 0.4%;
+  text-align: center;
+}
+
+.acChecklistDrawing p {
+  font-size: 18px !important;
+  color: #666;
+  text-align: center;
+}
+
+.acChecklistDrawing img {
+  width: 100%;
+}
+
+.acChecklistDrawing .fur-ex {
+  margin-top: 20px;
+}
+
+.acChecklistDrawingWrap .acChecklistDrawing-img-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.acChecklistDrawing-txt-wrap {
+  width: 100%;
+  display: flex;
+}
+
+.acChecklistDrawingWrap .fur-ex {
+  margin-top: 20px;
+}
+
+/*실외기 설치 공간 참고 이미지*/
+.section03 .condenserTab {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section03 .condenserTab li {
+  width: 24%;
+  margin-bottom: 10px;
+  padding: 3.55% 0px;
+  border: 2px solid #666;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #fff;
+}
+
+.section03 .condenserTab li a {
+  display: block;
+  text-align: center;
+  font-size: 1.75rem;
+  color: #fff;
+  font-weight: 400;
+  color: #666;
+}
+
+.section03 .condenserTab li.active {
+  background: #D92A50;
+  border: 2px solid transparent;
+}
+
+.section03 .condenserTab li.active a {
+  color: #fff;
+  font-weight: 500;
+}
+
+.section03 .condenserTabContents > div {
+  display: none;
+}
+
+.section03 .condenserTabContents > div img {
+  width: 100%;
+}
+
+.section03 .condenserTabContents > div.active {
+  display: block;
+}
+
+.condenser {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.condenser h4 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.condenserContentsWrap.pc-show .condenserContents {
+  max-width: 1380px;
+  margin: 0 auto;
+  display: flex;
+}
+.condenserContentsWrap.pc-show .condenserContents.align-center {
+  justify-content: center;
+}
+
+.condenserContents li {
+  display: inline-block;
+  position: relative;
+  width: 25%;
+  margin-right: 29px;
+}
+
+.condenserContents li:last-child {
+  margin-right: 0;
+}
+
+.condenserContents li h3 {
+  display: inline-block;
+}
+
+.condenserContents li img {
+  width: 100%;
+}
+
+.condenserContents li h3 {
+  width: 140px;
+  line-height: 2;
+  position: absolute;
+  font-size: 20px;
+  color: #fff;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #D92A50;
+  border-radius: 10px;
+  margin-top: 0px;
+}
+
+.acChecklistWrap li:last-child .condenser>h5 {
+  margin-bottom: 4%;
+}
+
+.acChecklistWrap li:last-child .fur-ex {
+  margin-bottom: 0px;
+}
+
+/*실외기 설치 부연설명*/
+.fur-ex {
+  max-width: 1380px;
+  margin: 0 auto;
+  display: block;
+}
+
+.fur-ex ul li {
+  font-size: 14px;
+  line-height: 1.75;
+  color: #666;
+}
+
+/*//////////////////////////////////////////////////*/
+/*------------section05 자주하는 질문 ------------*/
+/*//////////////////////////////////////////////////*/
+.section05 {
+  width: 100%;
+  margin-top: 61px;
+}
+
+.section06 {
+  width: 100%;
+  margin-top: 140px;
+}
+
+.qna-list {
+  width: calc(100% - 60px);
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.qna {
+  width: 100%;
+  margin: 10px 0;
+}
+
+/*//////////////////////////////////////////////////*/
+/*------------자주하는 질문 ------------*/
+/*//////////////////////////////////////////////////*/
+
+.cntr h2 {
+  margin-bottom: 66px;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cntr>div:nth-child(3) {
+  margin-top: 150px;
+}
+
+
+
+/*자주하는질문 화살*/
+.question-arrow {
+  position: absolute;
+  right: 5%;
+  width: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.question.active .question-arrow {
+  transform: rotate(180deg);
+  top: 20%;
+}
+
+.question-arrow img {
+  width: 100%;
+}
+
+/*자주하는 질문 화살 마침*/
+
+
+/*자주하는 질문 질문*/
+.question-tit,
+.section06 .tit p {
+  font-size: 1.75rem;
+}
+
+.question {
+  align-items: center;
+  width: 100%;
+  border: 1px solid #666;
+  background-color: #fff;
+  font-weight: 700;
+  border-radius: 8px;
+  display: flex;
+  font-size: 1.75rem;
+  position: relative;
+  z-index: 5;
+  cursor: pointer;
+  background-size: 2rem;
+  min-height: auto;
+  padding: 1.5% 4.5%;
+}
+
+.question p {
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.question span {
+  margin-right: 10px;
+  font-size: 22px;
+}
+
+.question span p {
+  margin-right: 10px;
+  font-size: 1.75rem;
+}
+
+.qna .question.active {
+  border: 2px solid #D92A50;
+}
+
+.question.active span {
+  color: #D92A50;
+}
+
+/*자주하는 질문 질문 마침*/
+
+
+/*자주하는 질문 답안*/
+.answer {
+  position: relative;
+  background: #f9f9f9;
+  border: 1px solid #666;
+  border-radius: 8px;
+  letter-spacing: -0.5px;
+  padding: 3.8% 10%;
+}
+
+.answer a {
+  font-weight: 500;
+  position: relative;
+  color: #000;
+  margin-left: 20px;
+  margin-top: 1%;
+  display: inline-block;
+}
+
+.answer a::after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  bottom: -16%;
+  background-color: #000;
+}
+
+.answer a::before {
+  content: '';
+  width: 12px;
+  height: 15px;
+  background-image: url(/kr/story/user-guide/images/air-conditioners-install-guide/triangle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  left: -18px;
+}
+
+.question-tit,
+.section06 .tit p {
+  font-size: 1.52rem;
+}
+
+.answer p {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  line-height: 1.625;
+}
+
+.point-color {
+  color: #e81f57;
+}
+
+.answer .table-wrap {
+  margin-top: 30px;
+}
+
+.answer .table-wrap thead tr th {
+  font-size: 16px;
+  border-right: 1px solid #ddd;
+  padding: 20px 0;
+}
+
+.answer .table-wrap tbody tr td {
+  padding: 20px 0;
+}
+
+.answer strong {
+  font-weight: 500;
+}
+
+.answer .notice {
+  margin-top: 16px;
+}
+
+.answer .notice p {
+  margin: 2px auto 0;
+}
+
+.answer .notice p:first-child {
+  margin: 0 auto;
+}
+
+/*자주하는 질문 답안 마침*/
+
+
+
+.d-md-none {
+  display: block !important;
+}
+
+
+/*////////////////////////////////////////////////*/
+/*---------section05 도움이 더 필요하신가요? -------*/
+/*///////////////////////////////////////////////*/
+.section-help {
+  max-width: 1460px;
+}
+
+.section06 .tit {
+  text-align: center;
+  line-height: 2;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+
+
+.section06 .tit h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.section06 .tit p {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.section06 .tit img {}
+
+.section06 .btn-wrp {
+  margin-top: 10.5%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  max-width: 625px;
+  margin: 0 auto;
+}
+
+.section06 .btn-wrp a {
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 6.5%;
+  background: #fff;
+  border: 1px solid #000;
+  color: #000;
+  transition: all 0.3s;
+  width: calc(100% / 3 - 22px);
+  max-width: 360px;
+  margin: 0 auto;
+  border-radius: 4.375rem;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 2.5;
+}
+
+.section06 .btn-wrp a {
+  margin-top: 5.8%;
+}
+
+.section06 .btn-wrp a:focus-visible {
+  outline: 3px solid #EA1917;
+  outline-offset: -3px;
+}
+
+.section06 .btn-wrp a:hover {
+  background-color: #D92A50;
+  color: #fff;
+  border: 1px solid #D92A50;
+}
+
+.section06 .help-tit {
+  margin-bottom: 4px;
+}
+
+.section06 .help-tit img {
+  display: block;
+  max-width: 70%;
+  height: auto;
+}
+
+.section06 .option-tit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*도움이 더 필요하신가요? 마침*/
+
+
+
+
+/*바로가기 묶음 시작*/
+.skipWrapTotal {
+  margin-top: 10.8%;
+}
+
+.skipWrap.pc-show {
+  display: flex;
+  justify-content: space-between;
+  max-width: 920px;
+  width: calc(100% - 60px);
+  margin: 0 auto;
+}
+
+.skipExp {
+  width: calc(100% - 60px);
+  margin: 0 auto;
+  padding: 8.7% 0px 5%;
+}
+
+.skipExp li {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666;
+}
+
+.skipWrap a {
+  box-shadow: 0px 8px 29px 0px rgba(0, 0, 0, 0.09);
+  text-shadow: 0px 8px 29px rgba(0, 0, 0, 0.09);
+  border-radius: 20px;
+}
+
+.skipWrap a img {
+  width: 100%;
+}
+
+/*바로가기 묶음 마침*/
+
+
+
+
+
+/*부가적인 사항*/
+.option-icon {
+  position: relative;
+}
+
+.border-0 {
+  border-top: 0px !important;
+}
+
+body.disable {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.sns-share {
+  position: relative;
+  text-align: right;
+  max-width: 1284px;
+  margin: 0 auto;
+  padding: 20px 20px 4px 20px;
+}
+
+.input-keyword .sch-input-wrap .input-sch .btn-search {
+  top: 38%;
+  z-index: 1;
+}
+
+.input-keyword .sch-input-wrap .input-sch .btn-search {
+  top: 52%;
+}
+
+.main-tit,
+.sub-tit {
+  line-height: 1.5;
+}
+
+.tooltip-wrap.share [data-fixed=fixed-right]+.tooltip-box {
+  right: 10px;
+  top: 48px;
+}
+
+
+/* slide-section */
+.section03-02.active+.slide-section {
+  display: none;
+}
+
+.slide-section {
+  margin-top: 100px;
+}
+
+.slide-section h4 {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.slide-section .slide-btn-wrap {
+  width: calc(100% - 60px);
+  margin: 30px auto;
+}
+
+.slide-section .slide-wrap .inner > div:not(:first-child) {
+  display: none;
+}
+
+/* .slide-section .slide-wrap ul li:nth-child(2) .wall-slide .swiper-wrapper{justify-content: center;}
+.slide-section .slide-wrap ul li:nth-child(2) .wall-slide .swiper-button-next, .slide-section .slide-wrap ul li:nth-child(2) .wall-slide .swiper-button-prev {display: none !important;} */
+.slide-section .slide-wrap .inner > div .swiper .swiper-wrapper img {
+  max-width: 100%;
+  height: auto;
+}
+
+.slide-section .slide-btn-wrap ul {
+  width: 100%;
+  max-width: 472px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.slide-section .slide-btn-wrap ul li {
+  width: calc(33.33% - 8px);
+  border: 2px solid #666;
+  border-radius: 10px;
+}
+
+.slide-section .slide-btn-wrap ul li a {
+  font-size: 22px;
+  font-weight: 400;
+  width: 100%;
+  padding: 7%;
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+  color: #666;
+}
+
+.slide-section .slide-btn-wrap ul li a:focus-visible {
+  outline: 3px solid #000;
+  outline-offset: -3px;
+}
+
+.slide-section .slide-btn-wrap ul li.active {
+  border-color: transparent;
+}
+
+.slide-section .slide-btn-wrap ul li.active a {
+  background: #D92A50;
+  color: #fff;
+  padding: calc(6% + 2px);
+  font-weight: 500
+}
+
+/* .swiper-button-next,
+.swiper-button-prev {
+  display: block !important;
+} */
+
+.slide-section .slide-wrap .swiper-button-prev {
+  left: 20px;
+}
+
+.slide-section .swiper-button-next {
+  right: 20px;
+}
+
+.con-tit-wrap {
+  background-color: #f4f4f4;
+  padding: 60px 0;
+}
+
+.con-tit-wrap .num {
+  display: block;
+  margin: 0 auto 35px;
+}
+
+.con-tit-wrap .txt-wrap>h4 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.con-tit-wrap .txt-wrap .txt-sub-example {
+  font-size: 18px;
+  color: #666;
+}
+
+.con-tit-wrap .txt-wrap>p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.con-tit-wrap .txt-wrap>p .notice {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #666;
+}
+
+.con-tit-wrap .txt-wrap>ul>li {
+  text-align: center;
+  font-size: 20px;
+}
+
+.con-tit-wrap .txt-wrap>ul>li::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  background-color: #000;
+  border-radius: 50%;
+  vertical-align: 4px;
+  display: inline-block;
+}
+
+
+.con-tit-wrap .img-wrap.pc-show {
+  margin-top: 60px;
+  position: relative;
+}
+
+.con-tit-wrap .img-wrap.pc-show ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.con-tit-wrap .img-wrap.pc-show ul li h4 {
+  background-color: #D92A50;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  display: inline-block;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 8px 30px;
+}
+
+.con-tit-wrap .img-wrap.pc-show p {
+  position: absolute;
+  transform: translateX(-50%);
+  bottom: 0;
+  left: 50%;
+  color: #666;
+  font-size: 14px;
+}
+
+.con-tit-wrap .img-wrap.pc-show li {
+  position: relative;
+}
+
+.con-tit-wrap .img-wrap.pc-show img.img-round {
+  border-radius: 30px;
+}
+
+.con-tit-wrap .img-wrap.pc-show div.notice {
+  margin: 0 auto;
+  max-width: 1380px;
+}
+
+.con-tit-wrap .img-wrap.pc-show div.notice p {
+  position: relative;
+  bottom: 0 !important;
+}
+
+.con-tit-wrap .img-wrap.pc-show li span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 14px;
+}
+
+.airconditional-item:nth-child(2) .con-tit-wrap .img-wrap.pc-show li:first-child {
+  margin-right: 18px;
+}
+
+.airconditional-item:nth-child(2) .con-tit-wrap .img-wrap.pc-show li span {
+  position: absolute;
+  bottom: 105px;
+  right: 0;
+}
+
+.airconditional-item:nth-child(2) .con-tit-wrap .img-wrap.pc-show p {
+  transform: translateX(0);
+  bottom: -40px;
+  left: 0;
+}
+
+.airconditional-item:nth-child(2) .con-tit-wrap:first-child {
+  padding-bottom: 100px;
+}
+
+.con-tit-wrap .img-wrap.pc-show img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.airconditional-item:nth-child(3) .con-tit-wrap .img-wrap div img {
+  margin-top: 60px;
+}
+.airconditional-item:nth-child(3) .con-tit-wrap .img-wrap.pc-show li:first-child {
+  margin-right: 18px;
+}
+
+.insulation-wrap .condenserContents li h3 {
+  width: 200px;
+}
+
+.insulation-txt {
+  margin-top: 20px;
+}
+.insulation-txt li {
+  color: #D92A50;
+}
+.con-tit-wrap .txt-wrap .insulation-txt li:before {
+  background-color: #D92A50;
+}
+
+
+/*2022 07 28 추가*/
+.tab-img-wrap {
+  max-width: 1380px;
+  margin: 0 auto 60px;
+}
+
+.tab-img-wrap .img-wrap {
+  margin-bottom: 20px;
+}
+
+.tab-img-wrap .img-wrap img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.tab-img-wrap .txt-wrap p {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  width: 100%;
+  margin: 0 auto;
+  line-height: 1;
+  margin-bottom: 10px;
+  letter-spacing: -0.05em;
+}
+
+.tab-img-wrap .txt-wrap p:last-child {
+  margin-bottom: 0;
+  ;
+}
+
+.window-slide-wrap .txt-wrap strong {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.window-slide-wrap {
+  max-width: 1380px;
+  margin: 0 auto;
+}
+
+.window-slide-wrap+.window-slide-wrap {
+  padding-top: 100px;
+}
+
+.window-slide-wrap .step {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.window-slide-wrap .step h4 {
+  background-color: #D92A50;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  display: inline-block;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 5px 17px;
+  margin-right: 12px;
+}
+
+.window-slide-wrap .step p {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+/* .window-slide-wrap .swiper-button-next,
+.window-slide-wrap .swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-box-shadow: 3px 8px 15px -2px rgba(0, 0, 0, 0.09);
+  box-shadow: 3px 8px 15px -2px rgba(0, 0, 0, 0.09);
+  transform: translateY(-50%);
+  top: 60%;
+} */
+
+/* .window-slide-wrap .swiper-pagination {
+  position: static;
+  padding-top: 10px;
+  transform: translate(0);
+}
+
+.window-slide-wrap .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #D92A50;
+  width: 28px;
+  border-radius: 6px;
+} */
+
+.window-slide-wrap .img-wrap {
+  padding: 0 7%;
+  margin: 0 auto;
+}
+
+.notice p {
+  text-align: left;
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+  display: block;
+  margin: 10px auto 0;
+}
+
+.window-slide-wrap .notice p {
+  max-width: 1192px;
+}
+
+.window-cont {
+  width: calc(100% - 60px);
+  max-width: 1380px;
+  margin: 0 auto;
+}
+
+.window-cont strong {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+}
+
+.window-cont .notice p {
+  max-width: 100%;
+}
+
+.window-cont h4 {
+  padding: 50px 0 26px;
+  font-size: 24px;
+  color: #000;
+  font-weight: 700;
+}
+
+.window-cont h4 span {
+  display: inline-block;
+  margin-right: 5px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 5px 15px;
+  background-color: #D92A50;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.window-cont .table-wrap table tr th {
+  border-right: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.window-cont .table-wrap+.txt-wrap.notice {
+  padding-top: 20px;
+}
+
+.window-cont .table-wrap+.txt-wrap.notice p {
+  text-align: left;
+  font-size: 14px;
+}
+
+.notice-area {
+  max-width: 1380px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.notice-area strong {
+  font-weight: 700;
+  color: #666;
+}
+
+.notice-area p {
+  color: #666;
+  font-size: 14px;
+}
+
+.con-tit-wrap>div {
+  margin-bottom: 100px;
+}
+
+.con-tit-wrap>div:last-child {
+  margin-bottom: 0;
+}
+
+.con-tit-wrap>div .txt-wrap {
+  margin-bottom: 20px;
+}
+
+.window-guide {
+  display: none;
+}
+
+.window-guide-img {
+  margin-bottom: 110px;
+}
+
+.window-guide-img div video {
+  width: 100%;
+}
+
+.window-guide-img .video {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.window-guide-img .video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.step-third .window-cont strong {
+  padding-top: 50px;
+}
+
+.step-third .window-cont strong:first-child {
+  padding-top: 0;
+}
+
+.step-first-wrap {
+  margin: 0 auto;
+  border-radius: 16px;
+  border: solid 2px #ddd;
+  background: #fff;
+  overflow: hidden;
+}
+
+.step-first-1 .step-first-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.step-first-1 .step-first-wrap img:nth-child(1) {
+  width: calc((100% / 1296) * 418);
+}
+
+.step-first-1 .step-first-wrap img:nth-child(3) {
+  width: calc((100% / 1296) * 848);
+}
+
+.step-first-2 .step-first-wrap {
+  padding: 40px;
+}
+
+.step-first-2 .step-first-wrap>ul {
+  margin: 32px 30px;
+  width: 100%;
+}
+
+.step-first-2 .step-first-wrap>ul li {
+  font-size: 20px;
+  color: #000;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.05em;
+}
+
+.step-first-2 .step-first-wrap>ul li div {
+  margin: 30px auto 15px;
+  text-align: center;
+}
+
+.step-first-2 .step-first-wrap>ul li div img {
+  margin: 0 auto;
+}
+
+.step-first-2 .step-first-wrap>ul li dl {
+  margin: 15px auto 55px;
+}
+
+.step-first-2 .step-first-wrap>ul li dl dt {
+  font-size: 18px;
+  color: #000;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.05em;
+  text-align: center;
+}
+
+.step-first-2 .step-first-wrap>ul li dl dd {
+  margin-top: 15px;
+}
+
+.step-first-2 .step-first-wrap>ul li dl dd li {
+  font-size: 18px;
+  color: #000;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.05em;
+  text-align: center;
+}
+
+.step-first-2 .step-first-wrap>dl {
+  margin: 32px 30px;
+  width: 100%;
+}
+
+.step-first-2 .step-first-wrap>dl dt {
+  font-size: 20px;
+  color: #000;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.05em;
+}
+
+.step-first-2 .step-first-wrap>dl dd li {
+  padding-left: 10px;
+  text-indent: -10px;
+  font-size: 18px;
+  color: #000;
+  line-height: 30px;
+  letter-spacing: -0.05em;
+}
+
+.step-second {
+  margin-bottom: 50px;
+}
+
+.step-second h5 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.step-second .txt-wrap {
+  margin-bottom: 24px;
+}
+
+.step-second .window-cont>p {
+  margin-bottom: 24px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.step-second-wrap {
+  margin: 0 auto;
+  border-radius: 16px;
+  border: solid 2px #ddd;
+  background: #fff;
+  overflow: hidden;
+}
+
+.step-third {
+  margin-bottom: 20px !important;
+}
+
+.step-third .table-wrap tbody tr td:last-child {
+  border-right: 0;
+}
+
+.notice-area {
+  width: calc(100% - 60px);
+  padding-top: 0;
+}
+
+.step-first .frame-cont div {
+  margin: 0 30px;
+}
+
+.step-first .frame-cont img {
+  display: block;
+  margin: 40px auto 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.step-second .frame-cont ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px auto 120px;
+  width: 100%;
+  max-width: 1452px;
+  padding: 0 24px;
+}
+
+.step-second .frame-cont ul li {
+  padding: 0 6px;
+}
+
+.step-third .frame-cont img {
+  display: block;
+  margin: 60px auto 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.step-third .frame-cont .notice {
+  margin-top: 25px;
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  line-height: 1.715;
+}
+
+.step-third .frame-cont .notice li {
+  color: #666;
+}
+
+.step-third .frame-cont .installNotice {
+  margin-top: 120px;
+}
+
+.frame-guide {
+  display: none;
+}
+
+
+/* 사계절에어컨 > 스탠드형 */
+.section03-02 .stand02-wrap {
+  margin-bottom: 40px;
+}
+
+.section03-02 .stand02-wrap li p {
+  position: relative !important;
+  transform: none !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  margin: 15px 0 35px 28px;
+  font-size: 20px !important;
+  color: #000 !important;
+}
+
+
+
+@media screen and (max-width: 1380px) {
+  .pc-show02 {
+    display: block;
+  }
+
+  .main-title {
+    margin: 0 auto;
+    margin-top: 8%;
+  }
+
+  /*
+  .section01 .under-subtext { display: block; width: calc(100% - 60px); margin: 0 auto; margin-top: 1.45%; }
+  .fur-ex.con-box ul { width: calc(100% - 60px); margin: 0 auto; }
+  .section03 .portableInstallContents .con-box { padding-top: 8%; padding-bottom: 1.2%; width:100%; margin: 0 auto; }
+  .condenser .condenserContents { width: calc(100% - 60px); margin: 0 auto; }
+  */
+
+  .standing-info p {
+    font-size: 16px;
+  }
+
+  .section03 .airconditional-btn .standing-info span {
+    font-size: 14px;
+  }
+
+  .table-wrap table tbody td.o-font {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:1030px) {
+  .section03 .airconditional-list.built-in .airconditional-btn:first-child {
+    padding-bottom: 7px;
+  }
+
+  .section03 .airconditional-list.built-in .airconditional-btn:first-child span {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .skipWrap.pc-show a {
+    width: 150px;
+  }
+
+  .section03 .standing-info p {
+    font-size: 17px !important;
+  }
+
+  .section03-02 .standing-info>span {
+    max-width: 310px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+
+  /*실외기 표 내부 수정*/
+  .section03 .portableAirTotal .portableMethod .tableTitImg img {
+    width: 70% !important;
+    margin: 0 auto !important;
+  }
+
+  .aircon-video .video-wrap {
+    padding: 0 !important;
+    height: 100% !important;
+  }
+
+  .aircon-video .video-wrap video {
+    position: static !important;
+  }
+
+  .aircon-video {
+    margin-bottom: 8.4%;
+  }
+
+  .m-show {
+    display: block;
+  }
+
+  .pc-show02 {
+    display: none;
+  }
+
+  .main-page-wrap_pc {
+    display: none;
+  }
+
+  .main-page-wrap_m {
+    display: block;
+  }
+
+  .table-wrap.pc {
+    display: none;
+  }
+
+  .table-wrap.mobile {
+    display: block;
+  }
+
+  .table-wrap table tr.m-show {
+    display: table-row !important;
+  }
+
+  .con-wrap .con-box {
+    margin-bottom: 40px;
+    width: calc(100% - 60px);
+  }
+
+  .installNotice.con-box {
+    width: calc(100% - 60px) !important;
+  }
+
+  .plumbingWrap .installNotice.con-box {
+    width: 100% !important;
+  }
+
+  .section03 .portableInstallContents .con-box {
+    padding-top: 9.5%;
+  }
+
+  /*///////////////////////////////////////////////////////////////*/
+  /*---------section01 시작 - 설치가이드 타이틀 및 슬라이드 ---------*/
+  /*///////////////////////////////////////////////////////////////*/
+  .section01 .under-subtext {
+    display: block;
+    padding-left: 1.625rem;
+    text-indent: -1.625rem;
+    font-size: 1.5rem;
+    color: #666;
+    width: calc(100% - 60px);
+    margin: 0 auto;
+    line-height: 1.5;
+    margin-top: 2.7%;
+  }
+
+
+  .airconditional-list {
+    display: none;
+  }
+
+  /*pc 에서는 -> block*/
+  .airconditional-list_m {
+    display: block !important;
+    position: relative;
+    z-index: 10;
+  }
+
+  .main-title {
+    width: calc(100% - 60px);
+    margin: 0 auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    text-align: left;
+  }
+
+  .page-tit {
+    font-size: 3.85rem !important;
+  }
+
+
+  /*//////////////////////////////////////////////////////////////*/
+  /*---------section02 시작 - 에어컨 유형을 확인해 보세요.---------*/
+  /*//////////////////////////////////////////////////////////////*/
+  .section02.con-box {
+    margin-top: 12%;
+  }
+
+  .main-tit {
+    font-size: 2.5rem !important;
+  }
+
+  .recommend-wrap {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .recommend-list {
+    justify-content: space-between;
+    width: calc(100% - 100px);
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .section02 .recommend-btn .tab-wrap {
+    font-size: 2.25rem;
+    border: 2px solid #666;
+    border-radius: 10px;
+    padding: 9% 0px;
+    box-sizing: border-box;
+  }
+
+  .section02 .recommend-btn .tab-wrap h3 {
+    font-size: 2.25rem;
+    font-weight: 500;
+    color: #666;
+  }
+
+  .section02 .recommend-btn h3.aircon-tab {
+    line-height: 1;
+    font-size: 2.25rem;
+  }
+
+  .section02 .detail-wrap {
+    margin-top: 9%;
+    margin-bottom: 9%;
+  }
+
+  .section02 .detail-item ul li p {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+
+
+
+  /*//////////////////////////////////////////////////////////////*/
+  /*---------section03 ---------*/
+  /*//////////////////////////////////////////////////////////////*/
+  /*selectbox*/
+
+  /*airconditional-list_m*/
+
+  .theme.airconditional-list_m .select {
+    position: relative;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    border: 4px solid #e81f57;
+    border-radius: 16px;
+    cursor: pointer;
+  }
+
+  .theme.airconditional-list_m .select:hover {
+    color: #333;
+  }
+
+  .theme.airconditional-list_m .select .option-img {
+    display: flex;
+    align-items: center;
+    /* min-width: 205px; */
+    justify-content: center;
+    width: calc(60% - 10px);
+  }
+
+  /*
+.theme.airconditional-list_m .select .option-img img { width:100%; }
+*/
+  .theme.airconditional-list_m .select .text {
+    width: 100%;
+    max-height: 220px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 5% 12% 5% 4%;
+    border-radius: 16px;
+    position: relative;
+    background: #fff;
+  }
+
+
+  .theme.airconditional-list_m .select .text img {
+    opacity: 1;
+  }
+
+  .theme.airconditional-list_m .select .text .option-info {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .select {
+    position: relative;
+  }
+
+  .select .option-list {
+    /*position: absolute; */
+    top: 93%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    max-height: 0;
+    padding-top: 8px !important;
+    z-index: -5;
+  }
+
+  .select.active .option-list {
+    max-height: none;
+    opacity: 1 !important;
+  }
+
+  .theme.airconditional-list_m .select .text .option-info {
+    margin-left: 20px;
+    display: inline-block;
+  }
+
+  .section03 .theme.airconditional-list_m .select .option-info h3 {
+    font-size: 1.875rem;
+    line-height: 1;
+    margin-bottom: 2%;
+  }
+
+  .section03 .theme.airconditional-list_m .select .option-info span {
+    font-size: 1.5rem;
+    color: #666;
+    letter-spacing: -0.05em;
+    line-height: 1.3;
+    font-weight: 400;
+    display: inline-block;
+  }
+
+  .theme.airconditional-list_m .select .option-list {
+    position: absolute;
+    list-style: none;
+    padding-top: 8px !important;
+    padding: 0;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.25);
+    background: #fff;
+  }
+
+  .airconditional-list_m .select.active .option-list {
+    max-height: none;
+    opacity: 1 !important;
+    transform: translateZ(1px);
+  }
+
+  .theme.airconditional-list_m .select .option-list .option {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px 10% 20px 20px;
+  }
+
+  .theme.airconditional-list_m .select .option-list .option:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+  }
+
+  .theme.airconditional-list_m .select .option-list .option:hover {
+    background-color: #fff;
+  }
+
+  .theme.airconditional-list_m .select .option-list .option-img {
+    max-width: 300px;
+    height: 100%;
+  }
+
+  .theme.airconditional-list_m .select .option-list .option-img {
+    width: 40%;
+    height: 100%;
+  }
+
+  .theme.airconditional-list_m .select .option-info {
+    margin-left: 20px;
+    font-weight: bold;
+    background: #fff;
+  }
+
+  .theme.airconditional-list_m .select .option-info {
+    font-size: 14px;
+  }
+
+  .theme.airconditional-list_m .select .option-info h3 {
+    font-size: 1.875rem;
+    letter-spacing: -0.05em;
+    line-height: 2.5rem;
+    margin-top: 10px;
+  }
+
+  .section03 .option-info {
+    width: 50%;
+  }
+
+  .section03 .text {
+    display: flex;
+  }
+
+  .text>.option-img {
+    display: flex;
+    align-items: center;
+    width: calc(30% - 10px);
+  }
+
+  .text>.option-info {
+    width: 50%;
+  }
+
+  .section03 .theme.airconditional-list_m .select .option-info h3 {
+    font-size: 1.875rem;
+    line-height: 1;
+    margin-bottom: 2%;
+  }
+
+  .section03 .theme.airconditional-list_m .select .option-info h3>span {
+    color: #000;
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-top: 4%;
+  }
+
+  .theme.airconditional-list_m .select .option-list .option-img {
+    max-width: 300px;
+    height: auto;
+  }
+
+  .section03 .theme.airconditional-list_m .select .option-img {
+    display: inline-block;
+    align-items: unset;
+    justify-content: unset;
+    width: 50%;
+  }
+
+  .section03 .theme.airconditional-list_m .select .option-img img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .theme.airconditional-list_m .select .option-list .option {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px 10% 20px 20px;
+  }
+
+  .theme.airconditional-list_m .select .option-info {
+    margin-left: 3%;
+    font-weight: bold;
+  }
+
+  /*selectbox*/
+
+  .airconditional-notice::before {
+    display: none;
+  }
+
+  .section03 .airconditional-notice {
+    width: calc(100% - 60px);
+    display: block;
+    text-align: left;
+    max-width: 719px;
+    margin: 0 auto;
+    margin-top: 4%;
+    border-top: none;
+    padding: 0px;
+  }
+
+  .section03 .airconditional-notice span {
+    font-size: 1.625rem;
+  }
+
+  .section03 .airconditional-cont {
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .acWallTotal h3 {
+    text-align: center;
+    /*margin-top: 13%; */
+  }
+
+  .section03 .plumbingWrap {
+    margin-top: 0;
+    padding-top: 10.3%;
+    background: #fcfcfc;
+    padding-bottom: 8.2%;
+  }
+
+  .section03 .plumbingWrap h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 4.5%;
+  }
+
+  .acChecklistWrap>li h5 {
+    font-size: 2rem;
+    margin-bottom: 1%;
+    text-align: left;
+    font-weight: 500;
+  }
+
+  .acChecklistWrap h5 {
+    font-size: 2rem;
+    margin-bottom: 1%;
+    text-align: center;
+  }
+
+  .section03 .plumbingWrap p.acChecklistDetail {
+    text-align: left;
+    font-size: 1.75rem;
+    margin-bottom: 4.4%
+  }
+
+  .section03 .plumbingWrap>div>p {
+    font-size: 1.75rem;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+
+  .table-wrap table thead th {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .table-wrap table.expenses-table thead th {
+    font-weight: 500;
+  }
+
+  .table-wrap table tbody td {
+    font-size: 1.5rem;
+    text-align: left;
+    vertical-align: middle;
+    border-right: 1px solid #cdcdcd;
+    letter-spacing: -0.05em;
+    line-height: 1.6;
+  }
+
+  .table-wrap table tbody tr td {
+    padding: 3% 0;
+    word-break: keep-all;
+    font-size: 1.6rem;
+  }
+
+  .expenses-table tbody tr td {
+    text-align: center;
+    /* font-size: var(--fur-size); */
+    font-weight: 400;
+  }
+
+  .fur-ex.con-box ul {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .fur-ex {
+    margin-top: 3%;
+    font-size: 1.5rem;
+  }
+
+  .fur-ex ul li {
+    line-height: 1.5;
+    font-size: 1.5rem;
+    color: #666;
+  }
+
+  .condenser .condenserContents {
+    width: 100%;
+  }
+
+  .condenserContents li {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    margin-right: 0px;
+    margin-bottom: 4%;
+    margin-bottom: 10px;
+  }
+
+  .insulation-wrap {
+    margin-bottom: 40px;
+  }
+
+  .insulation-wrap .condenserContents .condenserTab {
+    width: calc(100% - 120px);
+  }
+  .insulation-wrap .condenserContents .condenserTab li {
+    width: calc(100% / 2 - 1rem);
+    padding: 0;
+    border: none;
+  }
+
+  .insulation-wrap .condenserContents .condenserTab li a {
+    padding: 12px 0;
+    border: 2px solid #666;
+    border-radius: 10px;
+  }
+
+  .insulation-wrap .condenserContents .condenserTab li.active a {
+    border-color: transparent;
+  }
+
+  .theme.airconditional-list_m .select span sup {
+    color: #666;
+    font-size: 1rem;
+  }
+
+  .supCaptionul li p sup {
+    color: #666;
+  }
+
+  /*이동식 에어컨*/
+  .portableAirTotal .portableType-btn-wrap {
+    margin: 12% auto 14%;
+    width: calc(100% - 80px);
+  }
+
+  .portableAirTotal .portableType-btn-wrap .portableType-list ul li a {
+    font-size: 2.25rem;
+  }
+
+
+  /*실외기 실내기 도면*/
+  /*
+.acChecklistImg p { text-align: right !important; margin-top:20px !important; font-size:14px !important }
+*/
+  .installSize>div p {
+    font-size: 1.5rem;
+    ;
+  }
+
+  .acChecklistDrawing {
+    width: calc(50% - 10px);
+  }
+
+  .acChecklistDrawing h5 {
+    font-size: 2rem !important;
+    text-align: center !important;
+    margin-bottom: 6%;
+    margin-top: 4%;
+  }
+
+  .acChecklistDrawing p {
+    font-size: 1.5rem !important;
+    text-align: left !important;
+  }
+
+
+  .acChecklistWrap h3.main-tit {
+    margin-bottom: 3.7% !important;
+    margin-top: 15% !important;
+  }
+
+  .acChecklistDetail {
+    font-size: 1.75rem;
+    text-align: left;
+    margin-bottom: 1.2%;
+  }
+
+  /*에어컨설치비용*/
+
+  .section03 .subCaption ul li {
+    position: relative;
+    padding-left: 18px;
+    text-align: left;
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+    color: #666;
+  }
+
+  .section03 .subCaption ul li::before {
+    content: '※';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .section03 .subCaption {
+    margin-top: 1%;
+    margin-bottom: 5%;
+  }
+
+  .section03 .subCaption.con-box {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 12px;
+  }
+
+  .section03 .subCaption h6 {
+    font-size: 1.5rem;
+    margin-left: 0.7rem;
+  }
+
+  .section03 .subCaption ul li h6 sup {
+    font-size: 0.5rem;
+    color: #666;
+  }
+
+  .subCaption ul li h6 {
+    color: #666;
+    font-weight: 400;
+  }
+
+  .subCaption ul li p {
+    padding-left: 5px;
+    color: #666;
+    font-size: 1.5rem;
+  }
+
+  .subCaption ul li p sup {
+    color: #666;
+  }
+
+  .subCaption .prohibited {
+    margin-bottom: 2%;
+  }
+
+  .subCaption .prohibited h6 {
+    font-weight: bold;
+    color: #666;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    margin-left: 0px;
+    margin-bottom: 2%;
+  }
+
+  .subCaption .prohibited p {
+    padding-left: 0px;
+    color: #666;
+    font-size: 1.5rem;
+  }
+
+  .section03 .expensesWrap .expenses {
+    margin: 0 auto;
+    width: calc(100% - 60px);
+    max-width: 1380px;
+    margin-top: 0;
+  }
+
+  .section03 .expensesWrap .expenses .installNotice.con-box {
+    margin: 0 auto;
+  }
+
+  .section03 .expensesWrap .expenses .installNotice h6 {
+    font-size: 1.5rem;
+    color: #666;
+  }
+
+  .section03 .expensesWrap .expenses .installNotice ul li {
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #666;
+  }
+
+  .table-wrap table.expenses-table tbody tr td sup {
+    font-size: 1rem
+  }
+
+  ;
+  /*에어컨 폰트*/
+
+
+
+  /*//////////////////////////////////////////////////////////////*/
+  /*---------section05 ---------*/
+  /*//////////////////////////////////////////////////////////////*/
+  .section05,
+  .section06 {
+    width: 100%;
+    margin-top: 17.3%;
+  }
+
+  .cntr h2 {
+    margin-bottom: 6.8%;
+    /* font-size: 2rem; */
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .qna-list {
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+  }
+
+  .qna {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .question {
+    align-items: center;
+    width: 100%;
+    padding: 1rem 2.375em;
+    border: 1px solid #666;
+    background-color: #fff;
+    font-weight: 700;
+    border-radius: 8px;
+    display: flex;
+    font-size: 1.75rem;
+    position: relative;
+    z-index: 5;
+    cursor: pointer;
+  }
+
+  .question {
+    min-height: 9.5rem;
+    background-size: 2rem;
+    padding: 0 4.5rem 0 1.75rem;
+    position: relative;
+  }
+
+  .question span {
+    margin-right: 3.7%;
+    font-size: 2.25rem;
+  }
+
+
+  .question p {
+    font-size: 1.75rem;
+    white-space: normal;
+  }
+
+  .question-arrow {
+    position: absolute;
+    right: 5%;
+    width: auto;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .question.active .question-arrow {
+    top: 38%;
+  }
+
+  .answer {
+    padding: 2.9rem 1.5rem;
+  }
+
+
+  .answer p {
+    font-size: 1.52rem;
+  }
+
+  .answer a {
+    font-size: 1.52rem;
+    font-weight: 500;
+    position: relative;
+    color: #000;
+    margin-left: 8%;
+    margin-top: 6%;
+    display: inline-block;
+  }
+
+  .answer a::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    bottom: -16%;
+    background-color: #000;
+  }
+
+  .answer a::before {
+    content: '';
+    width: 18px;
+    height: 21px;
+    background-image: url(/kr/story/user-guide/images/air-conditioners-install-guide/triangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: -10%;
+  }
+
+  .question-tit,
+  .section06 .tit p {
+    font-size: 1.52rem;
+  }
+
+  .icon-help {
+    margin-right: 2.4%;
+  }
+
+  .help-tit {
+    margin-bottom: 3%;
+  }
+
+  .section06 .help-tit {
+    margin-bottom: 1.8%;
+  }
+
+  .section06 .help-tit img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .section06 .tit h5 {
+    font-size: 1.625rem;
+  }
+
+  .section06 .btn-wrp {
+    margin-top: 10.5%;
+    text-align: center;
+    flex-direction: column;
+  }
+
+
+  .section06 .btn-wrp a {
+    width: 60%;
+    max-width: 360px;
+    margin: 0 auto;
+    font-size: 1.625rem;
+    font-weight: bold;
+    padding: 0px;
+    line-height: 2.5;
+  }
+
+  .section06 .btn-wrp a:not(:first-child) {
+    margin-top: 2.5%;
+  }
+
+  .skipWrap.m-show a {
+    display: block;
+    box-shadow: 0px 8px 29px 0px rgb(0 0 0 / 9%);
+    text-shadow: 0px 8px 29px rgb(0 0 0 / 9%);
+    border-radius: 32px;
+  }
+
+  .cntr>div:nth-child(3) {
+    margin-top: 24.5%;
+  }
+
+  .cntr>div:nth-child(3) a {
+    margin-bottom: 5%;
+  }
+
+  .acChecklistWrap>li {
+    margin-bottom: 15%;
+  }
+
+  .acChecklistWrap>li:last-child {
+    margin-bottom: 5%;
+  }
+
+
+  /*에어컨 설치 추가 비용 안내*/
+  .section03 .expensesWrap {
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .section03 .expensesWrap .expenses .expenses-tit-left img {
+    width: 5.696vw;
+  }
+
+  .expensesWrap .expenses .expenses-tit-left span {
+    font-size: 2.25rem !important;
+  }
+
+  .section03 .expensesWrap .expenses .expenses-tit {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    margin-bottom: 7% !important;
+  }
+
+  .section03 .installNotice h6 {
+    font-size: 1.5rem !important;
+    margin-bottom: 0px;
+    font-weight: 700;
+  }
+
+  .section03 .installNotice ul li {
+    font-size: 1.5rem !important;
+    line-height: 1.5 !important;
+  }
+
+  .expenses-table sup {
+    font-size: 0.5rem;
+  }
+
+
+  /*이동식 에어컨 설치방법*/
+  .section03 .expensesWrap .expenses .installNotice.con-box {
+    margin: 0 auto;
+  }
+
+  .section03 .expensesWrap .expenses .installNotice.con-box h6 {
+    margin-bottom: 2.2%;
+  }
+
+  .portableInstall {
+    margin-top: 2.7%;
+    padding-top: 4.25%;
+    background: #fff;
+    padding-bottom: 3.2%;
+  }
+
+  .section03 .swiper.portableSwiper {
+    width: 100%;
+    height: 100%;
+    margin-top: 7%;
+    padding-bottom: 7%;
+  }
+
+  .portableSwiper .swiper-title h3 {
+    margin-top: 0px;
+    max-width: 140px;
+    width: 100%;
+    height: auto;
+    background: #D92A50;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 12px 12px 0;
+    margin-right: 3%;
+    font-size: 1.75rem;
+    font-weight: 700;
+    padding: 1.4%;
+    line-height: 1.5;
+  }
+
+  .portableSwiper .swiper-slide>.swiperVideoWrap {
+    margin-top: 7%;
+  }
+
+  .portableSwiper .swiper-title p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 12px 12px 0;
+    font-weight: bold;
+    font-size: 1.75rem !important;
+  }
+
+  .portableInstallContents>.swiperUnderText .sub-tit {
+    font-size: 1.625rem !important;
+    line-height: 1.66;
+  }
+
+  .portableInstallContents>.swiperUnderText .sub-explain {
+    font-size: 1.625rem !important;
+  }
+
+  .portableInstallContents>.swiperUnderText .sub-explain-caption {
+    font-size: 1.375rem !important;
+  }
+
+  .portableInstallContents>.swiperUnderText2 .sub-tit {
+    font-size: 1.625rem !important;
+    line-height: 1.66;
+  }
+
+  .portableInstallContents>.swiperUnderText2 .sub-explain {
+    font-size: 1.625rem !important;
+  }
+
+  .portableInstallContents>.swiperUnderText2 .sub-explain-caption {
+    font-size: 1.375rem !important;
+  }
+
+  .section03 .portableAirTotal .portableMethod {
+    margin-top: 3%;
+  }
+
+  .section03 .portableAirTotal .portableMethod table tr th {
+    font-size: 1.5rem;
+    border-right: 1px solid #cdcdcd;
+    border-bottom: 1px solid #666;
+    line-height: 1.5;
+    font-weight: 500;
+    position: relative;
+    color: #000;
+    padding: 15px 0;
+  }
+
+  .section03 .portableAirTotal .portableMethod table tr td {
+    font-size: 1.5rem;
+    text-align: center;
+    word-break: keep-all;
+  }
+
+  .section03 .portableAirTotal .portableMethod table tr td span {
+    font-size: 1.375rem;
+  }
+
+  .section03 .portableAirTotal .portableMethod table tr td.portableImg {
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .portableMethod table colgroup col:first-child {
+    width: 25%
+  }
+
+  .portableMethod table colgroup col:last-child {
+    width: 30%
+  }
+
+  .portableMethod div.notice p {
+    margin-top: 2.5%;
+    font-size: 1.375rem;
+  }
+
+  .condenserTabContents {
+    width: calc(100% - 60px);
+    margin: 5% auto 3%;
+  }
+
+  /* .portableSwiper .swiper-button-next {
+    width: 5.557vw;
+    height: 5.557vw;
+    background-image: url(/kr/story/user-guide/images/air-conditioners-install-guide/icon/slide-next-arrow.png);
+    background-repeat: no-repeat;
+    background-size: 5.557vw 5.557vw;
+    top: 60%;
+    transform: translateY(-50%);
+    right: 10px;
+    cursor: pointer;
+  }
+
+  .portableSwiper .swiper-button-prev {
+    width: 5.557vw;
+    height: 5.557vw;
+    background-image: url(/kr/story/user-guide/images/air-conditioners-install-guide/icon/slide-prev-arrow.png);
+    background-repeat: no-repeat;
+    background-size: 5.557vw 5.557vw;
+    top: 60%;
+    transform: translateY(-50%);
+    left: 10px;
+    cursor: pointer;
+  } */
+
+
+  .section05,
+  .section06 {
+    width: 100%;
+    margin-top: 16.7%;
+  }
+
+  .skipExp {
+    width: 100%;
+    padding: 15% 0px 18% 0px;
+  }
+
+  .skipExp li {
+    font-size: 1.5rem;
+  }
+
+  .portableInstallContents {
+    width: 100%;
+  }
+
+  .section03 .portableInstallContents .con-box .video-info {
+    font-size: 1.5rem;
+    top: 6%;
+  }
+
+  .portableSlideWrap2 .swiper-pagination {
+    bottom: 11%;
+  }
+
+  /*스탱드형 에어컨 이미지*/
+  .section03 .plumbingWrap {
+    padding-bottom: 5.2%;
+  }
+
+  .section03 .con-tit-wrap {
+    margin-bottom: 0;
+  }
+
+  .section03 .con-tit-wrap {
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 8.6% 0;
+    margin: 0 auto;
+  }
+
+  .section03 .con-tit-wrap .txt-wrap {
+    width: calc(100% - 60px);
+    margin: 0 auto 1%;
+  }
+
+  .section03 .con-tit-wrap .num {
+    margin: 0 auto 3%;
+    display: block;
+    width: 7vw;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .section03 .con-tit-wrap h4 {
+    font-size: 5vw;
+    font-weight: 700;
+    margin-bottom: 6%;
+    text-align: center;
+  }
+
+  .section03 .con-tit-wrap h6 {
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+
+  .section03 .con-tit-wrap p {
+    font-size: 3.42vw;
+    margin-bottom: 4%;
+    text-align: center;
+  }
+
+  .section03 .con-tit-wrap .txt-sub-example {
+    font-size: 3.2vw;
+  }
+
+  .section03 .con-tit-wrap p .notice {
+    margin-top: 2.223%;
+    font-size: 3.194vw;
+  }
+
+  .plumbingContentsWrap p {
+    text-align: left !important;
+  }
+
+  .section03 .con-tit-wrap p:last-child {
+    margin-bottom: 0;
+  }
+
+  .section03 .con-tit-wrap .txt-wrap>ul {
+    width: calc(100% - 60px);
+    max-width: 560px;
+    margin: 0 auto 6%;
+  }
+
+  .section03 .con-tit-wrap .txt-wrap>ul li {
+    position: relative;
+    text-align: left;
+    font-size: 3.34vw;
+  }
+
+  .section03 .con-tit-wrap .txt-wrap>ul li::before {
+    content: '';
+    width: 1vw;
+    height: 1vw;
+    position: absolute;
+    top: 2vw;
+    left: -2vw;
+    display: inline-block;
+    background-color: #000;
+    border-radius: 50%;
+  }
+
+  .section03 .portableAirTotal .con-tit-wrap .txt-wrap>ul {
+    width: calc(100% - 30px);
+    max-width: 100%;
+  }
+
+  .section03 .airconditional-item .con-tit-wrap {
+    margin-bottom: 0;
+  }
+
+  .section03 .airconditional-inner_cont-img.con-box {
+    margin-bottom: 9%;
+  }
+
+  .section03.section03-02 .airconditional-inner_cont-img+.con-tit-wrap {
+    margin-bottom: 0;
+  }
+
+  .section03 .airconditional-item .con-tit-wrap .img-wrap {
+    margin-bottom: 0;
+    margin-top: 6%;
+  }
+
+  .section03 .airconditional-item:nth-child(2) .con-tit-wrap .img-wrap {
+    margin-bottom: 0;
+  }
+
+  .section03 .airconditional-item:nth-child(2) .con-tit-wrap .txt-wrap p {
+    text-align: center;
+    margin-bottom: 4%;
+  }
+
+  .section03 .airconditional-item:nth-child(2) .plumbingWrap {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .section03 .airconditional-item:nth-child(2) .plumbingWrap .plumbingTabWrap {
+    margin-top: 4%;
+  }
+
+  .section03 .airconditional-item:nth-child(2) .plumbingContentsWrap {
+    width: 100%;
+  }
+
+  .section03 .airconditional-item:nth-child(2) .plumbingContentsWrap p {
+    text-align: left !important;
+  }
+
+  .acChecklistDrawingWrap {
+    width: 100%;
+  }
+
+  .acChecklistDrawing {
+    width: calc(50% - 5px);
+  }
+
+  .acChecklistDrawing-img-wrap {
+    width: 100%;
+    display: flex;
+  }
+
+  .acChecklistDrawing-img-wrap .img-box:first-child {
+    margin-right: 5px;
+  }
+
+  .acChecklistDrawing-txt-wrap {
+    width: 100%;
+    display: flex;
+  }
+
+  .acChecklistDrawingWrap .fur-ex {
+    padding: 0 !important;
+  }
+
+  .acChecklistDrawing p {
+    margin-bottom: 0 !important;
+  }
+
+  .fur-ex {
+    margin-top: 0;
+  }
+
+  .condenser {
+    margin-top: 11%;
+  }
+
+  .section03 .condenserTab li {
+    padding: 2.1% 0;
+  }
+
+  .section03 .condenserTab li.active {
+    background: #D92A50;
+  }
+
+
+  .section03 .plumbingContents>img {
+    margin-bottom: 4.48%;
+  }
+
+  .section03 .plumbingContents>img+img {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .section03 .con-tit-wrap .img-wrap {
+    width: calc(100% - 60px);
+    margin: 0 auto 8.55%;
+  }
+
+  .section03 .con-tit-wrap .img-wrap:last-child {
+    margin-bottom: 0;
+  }
+
+  .section03 .con-tit-wrap .img-wrap img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 8%;
+  }
+
+  .section03 .con-tit-wrap .img-wrap img:last-child {
+    margin-bottom: 0;
+  }
+
+  .section03 .con-tit-wrap .img-wrap img.img-round {
+    margin-bottom: 0;
+    border-radius: 4%;
+  }
+
+  .section03 .con-tit-wrap .img-wrap div.notice p {
+    font-size: 1.375rem;
+  }
+
+  .section03 ul.plumbingMethod li:last-child {
+    margin-bottom: 0;
+  }
+
+  .section03 .plumbingWrap {
+    background: none;
+    padding-top: 0;
+  }
+
+  .airconditional-item.acWallTotal .con-tit-wrap .txt-wrap {
+    width: 100%;
+  }
+
+  .table-type-02 th,
+  .table-type-02 td {
+    vertical-align: middle !important;
+    text-align: center !important;
+  }
+
+  .table-wrap table.table-type-02 thead th {
+    border-top: 0;
+    color: #010000;
+    font-weight: 500;
+    padding: 5% 0;
+  }
+
+  .table-wrap table.table-type-02 thead tr:first-child th {
+    border-top: 2px solid #666;
+  }
+
+  .table-type-02 th {
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+
+  .table-wrap table.table-type-02 tbody td {
+    padding: 2%;
+  }
+
+  .table-wrap table.table-type-02 tbody tr:first-child td:nth-child(-n+2) {
+    background-color: #f9f9f9;
+  }
+
+  .table-wrap table.table-type-02 tbody tr:first-child td:nth-child(2) {
+    text-align: left !important;
+    padding: 3%;
+  }
+
+  .table-wrap table.table-type-02 tbody tr:nth-child(2) td:nth-child(-n+2) {
+    background-color: #f9f9f9;
+  }
+
+  .table-wrap table.table-type-02 tbody tr:nth-child(-n+4) td:nth-child(-n+2) {
+    background-color: #f9f9f9;
+  }
+
+  .table-wrap table.table-type-02 tbody tr:nth-child(5) td:nth-child(1) {
+    background-color: #f9f9f9;
+  }
+
+  .table-wrap table.table-type-02 tbody tr:nth-child(5) td:nth-child(2) {
+    text-align: left !important;
+    padding: 2% 4%;
+  }
+
+  .table-wrap table.table-type-02 tbody tr:nth-child(6) td:nth-child(1) {
+    background-color: #f9f9f9;
+  }
+
+  .table-wrap table.table-type-02 tbody tr:first-child td:last-child {
+    text-align: left !important;
+    padding: 2% 4%;
+  }
+
+  .table-wrap table.table-type-02 tbody tr:first-child td:last-child p {
+    text-align: left !important;
+  }
+
+  .table-wrap table.table-type-02 {
+    margin-bottom: 4%;
+  }
+
+  .airconditional-item.acWallTotal .condenser+.fur-ex {
+    margin-bottom: 0;
+  }
+
+  .airconditional-item.acWallTotal .fur-ex {
+    padding: 0 28px;
+  }
+
+  .airconditional-item.acWallTotal .acChecklistDrawingWrap {
+    padding: 0 30px;
+  }
+
+  .acChecklistDrawing h5 {
+    font-weight: 500;
+  }
+
+  .table-wrap table.table-type-02 tbody tr td ul li {
+    margin-bottom: 30%;
+  }
+
+  .stand-slide-wrap.m-show .stand-slide2 {
+    position: relative;
+    margin-bottom: 8%;
+  }
+
+  .stand-slide-wrap.m-show .stand-slide2 h4 {
+    background-color: #D92A50;
+    color: #fff;
+    font-size: 4vw;
+    font-weight: 500;
+    display: inline-block;
+    border-top-right-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    padding: 1.2vw 6vw 2vw;
+    margin: 2vw 7% 0;
+  }
+
+  .stand-slide-wrap.m-show .stand-slide2 p {
+    margin: 4% 7% 0;
+    text-align: left;
+  }
+
+  .stand-slide-wrap.m-show .stand-slide2 .swiper-slide .img-wrap {
+    width: calc(100% - 80px);
+  }
+
+  /* .stand-slide-wrap.m-show .stand-slide2 .swiper-button-next,
+  .stand-slide-wrap.m-show .stand-slide2 .swiper-button-prev {
+    top: 56vw;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-box-shadow: 3px 8px 15px -2px rgba(0, 0, 0, 0.09);
+    box-shadow: 3px 8px 15px -2px rgba(0, 0, 0, 0.09);
+    transform: translateY(-50%);
+    top: 60%;
+  } */
+
+  .stand-slide-wrap.m-show .stand-slide2 .swiper-button-next {
+    right: 20px;
+  }
+
+  .stand-slide-wrap.m-show .stand-slide2 .swiper-button-prev {
+    left: 20px;
+  }
+
+  .stand-slide-wrap.m-show .stand-slide2 .swiper-pagination {
+    position: static;
+    /* padding-top: 2.456%; */
+    transform: translate(0);
+  }
+
+  /* .stand-slide-wrap.m-show .stand-slide2 .swiper-pagination .swiper-pagination-bullet-active {
+    width: 20px;
+    border-radius: 6px;
+  } */
+
+
+
+
+  .slide-section {
+    margin-top: 14.23%;
+  }
+
+  .slide-section h4 {
+    font-size: 5vw;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .slide-section .slide-btn-wrap {
+    width: calc(100% - 60px);
+    margin: 5.13% auto 4.3%;
+  }
+
+  .slide-section .slide-wrap .inner > div:not(:first-child) {
+    display: none;
+  }
+
+  /* .slide-section .slide-wrap ul li:nth-child(2) .wall-slide .swiper-wrapper{justify-content: unset;}
+.slide-section .slide-wrap ul li:nth-child(2) .wall-slide .swiper-button-next, .slide-section .slide-wrap ul li:nth-child(2) .wall-slide .swiper-button-prev {display: block !important;} */
+  .slide-section .slide-wrap .inner > div .swiper .swiper-wrapper img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+  }
+
+  .slide-section .slide-btn-wrap ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .slide-section .slide-btn-wrap ul li {
+    width: calc(33.33% - 8px);
+    border: 2px solid #666;
+    border-radius: 10px;
+  }
+
+  .slide-section .slide-btn-wrap ul li a {
+    font-size: 3.9vw;
+    font-weight: 400;
+    width: 100%;
+    padding: 7%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    color: #666;
+  }
+
+  .slide-section .slide-btn-wrap ul li.active {
+    border-color: transparent;
+  }
+
+  .slide-section .slide-btn-wrap ul li.active a {
+    background: #D92A50;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block !important;
+    width: 40px;
+    height: 40px;
+  }
+
+  .slide-section .slide-wrap .swiper-button-prev {
+    left: 10px;
+  }
+
+  .slide-section .swiper-button-next {
+    right: 10px;
+  }
+
+  .slide-section .fur-ex {
+    width: calc(100% - 60px);
+    margin: 0 auto;
+  }
+
+  .table-wrap table tbody td.o-font {
+    font-size: 1.9rem;
+  }
+
+  .section03 .expensesWrap .expenses .expenses-tit-right {
+    width: 5vw;
+    height: 2.918vw;
+    background: none;
+    background-image: url(/kr/story/user-guide/images/air-conditioners-install-guide/icon/close-arrow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .section03 .expensesWrap .expenses .expenses-tit-right.active {
+    background: none;
+    background-image: url(/kr/story/user-guide/images/air-conditioners-install-guide/icon/open-arrow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .con-box.plumbingContentsWrap {
+    width: 100%;
+  }
+
+  .section03 .condenserTab {
+    width: calc(100% - 60px);
+    margin: 0 auto;
+  }
+
+  .airconditional-item:nth-child(2) .con-tit-wrap:first-child {
+    padding-bottom: 8.6%;
+  }
+
+  .swiperUnderText {
+    width: calc(100% - 60px) !important;
+  }
+
+  .swiperUnderText2 {
+    width: calc(100% - 60px) !important;
+  }
+
+  .acChecklistDrawingWrap .fur-ex {
+    margin-top: 1.4%;
+  }
+
+  /*익스플로어 오류체크*/
+
+  .no-flexboxlegacy .section05,
+  .no-flexboxlegacy .section06 {
+    margin-bottom: 0px;
+  }
+
+  .no-flexboxlegacy .question {
+    padding: 3rem 4rem 3rem 1.75rem;
+  }
+
+  .no-flexboxlegacy .question .question-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .no-flexboxlegacy .question.active .question-arrow {
+    top: 42%;
+    transform: translateY(-50%) rotate(180deg);
+  }
+
+  .no-flexboxlegacy .borderbottom {
+    border-bottom: 1px solid #cdcdcd;
+  }
+
+  .no-flexboxlegacy .bordertop {
+    border-top: 1px solid #cdcdcd;
+  }
+
+  .tab-img-wrap .txt-wrap p {
+    padding-left: 1.75rem;
+    text-indent: -1.75rem;
+    font-size: 1.625rem;
+    margin-bottom: 0;
+    line-height: 1.614;
+  }
+
+  .step-first,
+  .step-second {
+    margin-bottom: 14.5% !important;
+  }
+
+  .step-third {
+    margin-bottom: 0;
+  }
+
+  .step-third .window-cont>img {
+    width: calc(100% - 60px);
+    margin: 0 auto;
+  }
+
+  .window-slide-wrap .step h4 {
+    margin-bottom: 0;
+    font-size: 3.9vw;
+  }
+
+  .window-slide-wrap {
+    overflow: hidden;
+  }
+
+  .window-slide-wrap .notice p {
+    margin-top: 3%;
+    font-weight: 400;
+  }
+
+  .window-slide-wrap+.window-slide-wrap {
+    padding-top: 10%;
+  }
+
+  /* .window-slide-wrap .swiper-button-next,
+  .window-slide-wrap .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+  }
+
+  .window-slide-wrap .swiper-button-next,
+  .window-slide-wrap .swiper-button-prev {
+    top: 56vw;
+  }
+
+  .window-slide-wrap .window-slide02 .swiper-button-next,
+  .window-slide-wrap .window-slide02 .swiper-button-prev {
+    top: 73vw;
+  }
+
+  .window-slide-wrap .swiper-button-next {
+    right: 35px;
+  }
+
+  .window-slide-wrap .swiper-button-prev {
+    left: 35px;
+  } */
+
+  .window-slide-wrap .img-wrap {
+    max-width: 550px;
+    padding: 0;
+    margin-top: 0 !important;
+  }
+
+  .window-slide-wrap .img-wrap img {
+    margin: 0 auto;
+  }
+
+  .window-slide {
+    overflow: visible !important;
+  }
+
+  .window-slide-wrap .swiper-pagination {
+    padding-top: 2.456%;
+  }
+
+  .window-cont strong {
+    display: block;
+    text-align: center;
+    font-size: 3.9vw;
+  }
+
+  .window-slide-wrap .txt-wrap strong {
+    margin-bottom: 2.546%;
+    font-size: 3.9vw;
+  }
+
+  .con-tit-wrap .step-third .window-cont strong {
+    padding-top: 8%;
+  }
+
+  .notice p {
+    text-align: left !important;
+  }
+
+  .window-cont table tr th,
+  .window-cont table tr td {
+    text-align: center;
+  }
+
+  .window-cont .table-wrap table tr th {
+    font-size: 3.34vw;
+    font-weight: 500;
+    padding: 5.858% 2%;
+  }
+
+  .window-cont .table-wrap+.txt-wrap.notice p {
+    font-size: 3.616vw;
+    margin-bottom: 0;
+    margin-top: 1%;
+  }
+
+  .window-cont .table-wrap+.txt-wrap.notice p+p {
+    margin-top: 0;
+  }
+
+  .window-cont .table-wrap+.txt-wrap.notice {
+    padding-top: 1%;
+  }
+
+  .step-third .window-cont strong:first-child {
+    padding-top: 0;
+  }
+
+  .notice-area {
+    width: calc(100% - 60px);
+    padding-top: 3%;
+  }
+
+  .notice-area strong {
+    font-size: 3.616vw;
+  }
+
+  .notice-area p {
+    text-align: left !important;
+  }
+
+  .cntr.window-guide h2 {
+    font-size: 5vw;
+    margin-bottom: 11.4%;
+  }
+
+  .window-guide-img {
+    margin-bottom: 16.68%;
+  }
+
+  .window-guide-img .notice p {
+    font-size: 3.34vw;
+  }
+
+  .window-guide table tr th,
+  .window-guide table tr td {
+    text-align: center;
+  }
+
+  .window-guide table tr td {
+    font-size: 3.34vw;
+  }
+
+  .answer .table-wrap tbody tr td {
+    padding: 3% 0;
+  }
+
+  .answer .table-wrap thead tr th {
+    font-size: 3.34vw;
+    font-weight: 500;
+  }
+
+  .answer strong {
+    font-size: 3.9vw;
+    font-weight: 500;
+  }
+
+  .answer strong br {
+    display: none
+  }
+
+  .answer .table-wrap {
+    margin-top: 2.2%
+  }
+
+  .window-slide-wrap .step {
+    margin-bottom: 4.55%;
+  }
+
+  .window-slide-wrap .step p span {
+    font-weight: 400;
+  }
+
+  .window-cont {
+    width: calc(100% - 60px);
+  }
+
+  .window-cont h4 {
+    padding: 6.9444vw 0 0;
+    font-size: 3.8889vw !important;
+    text-align: left !important;
+  }
+
+  .window-cont h4 span {
+    font-size: 3.8889vw;
+  }
+
+  .step-first-wrap {
+    border-radius: 1rem;
+    border: 1px solid #ddd;
+  }
+
+  .step-first .txt-wrap h4 {
+    margin-bottom: 0;
+  }
+
+  .step-first-1 .step-first-wrap {
+    flex-wrap: wrap;
+    padding: 5.5556vw;
+  }
+
+  .step-first-2 .step-first-wrap {
+    padding: 4.8611vw 5.5556vw;
+  }
+
+  .step-first-2 .step-first-wrap>ul {
+    margin: 0;
+  }
+
+  .step-first-2 .step-first-wrap>ul li {
+    padding: 3.4722vw 0;
+    font-size: 1.75rem;
+    line-height: 2.75rem;
+  }
+
+  .step-first-2 .step-first-wrap>ul li div {
+    margin: 2.7778vw auto 2.0833vw;
+  }
+
+  .step-first-2 .step-first-wrap>ul li dl {
+    margin: 2.7778vw auto 0;
+  }
+
+  .step-first-2 .step-first-wrap>ul li dl dt {
+    font-size: 1.75rem;
+    line-height: 2.75rem;
+  }
+
+  .step-first-2 .step-first-wrap>ul li dl dd {
+    margin-top: 3.4722vw;
+  }
+
+  .step-first-2 .step-first-wrap>ul li dl dd li {
+    padding: 0;
+    font-size: 1.75rem;
+    line-height: 2.75rem;
+  }
+
+  .step-first-2 .step-first-wrap>dl {
+    margin: 4.8611vw auto 2.7778vw;
+  }
+
+  .step-first-2 .step-first-wrap>dl dt {
+    font-size: 1.75rem;
+    line-height: 2.75rem;
+  }
+
+  .step-first-2 .step-first-wrap>dl dd li {
+    padding-left: 1rem;
+    text-indent: -1rem;
+    font-size: 1.75rem;
+    line-height: 2.75rem;
+  }
+
+  .step-first-2 .notice p {
+    padding-left: 1.75rem;
+    text-indent: -1.75rem;
+  }
+
+  .step-second {
+    margin-bottom: 9.7222vw;
+  }
+
+  .step-second h5 {
+    font-size: 1.75rem;
+    line-height: 2.75rem;
+  }
+
+  .step-second .window-slide-wrap .txt-wrap>p {
+    font-size: 1.75rem;
+    line-height: 2.75rem;
+  }
+
+  .step-second .window-slide-wrap .txt-wrap .notice p {
+    padding-left: 1.75rem;
+    text-indent: -1.75rem;
+  }
+
+  .step-third {
+    margin-bottom: 0 !important;
+  }
+
+  .step-third .table-wrap table tbody td {
+    text-align: center;
+  }
+
+
+  .step-first .frame-cont img {
+    margin: 9.524% auto 0;
+  }
+
+  .step-second .frame-cont ul {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .step-second .frame-cont ul li {
+    padding-top: 9.524%;
+  }
+
+  .step-third .frame-cont img {
+    margin: 7.937% auto 0;
+    max-width: calc(100% - 60px);
+    height: auto;
+  }
+
+  .step-third .frame-cont .notice {
+    margin-top: 7.937%;
+    font-size: 3.194vw;
+  }
+
+  .step-third .frame-cont .installNotice {
+    margin-top: 9.524%;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  html {
+    font-size: 13px;
+  }
+
+  .option-arrow {
+    width: 30px;
+  }
+
+  .option-arrow img {
+    width: 100%;
+  }
+
+  .question-arrow {
+    width: 20px;
+  }
+
+  .question-arrow img {
+    width: 100%;
+  }
+
+  .expenses-tit-left img {
+    width: 35px
+  }
+
+  .icon-help {
+    width: 25px;
+  }
+
+  .section03 .portableMethod .portableImg img.install-ex01.m-show {
+    width: 100%;
+  }
+
+  .section03 .portableMethod .portableImg img.install-ex02.m-show {
+    width: 100%;
+  }
+
+  .section03 .portableMethod .portableImg img.install-ex03.m-show {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  html {
+    font-size: 12px;
+  }
+
+  .portableSwiper .swiper-title h3 {
+    max-width: 120px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  html {
+    font-size: 11px;
+  }
+
+  .portableSwiper .swiper-title h3 {
+    max-width: 100px;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  html {
+    font-size: 9px;
+  }
+
+  .portableSwiper .swiper-title h3 {
+    max-width: 80px;
+  }
+
+  .section02.con-box {
+    width: calc(100% - 80px);
+  }
+
+  .recommend-list {
+    width: 100%
+  }
+
+  .expenses-tit-left img {
+    width: 25px
+  }
+
+  .option-arrow {
+    width: 20px;
+  }
+
+  .question-arrow {
+    width: 20px;
+  }
+
+  .question-arrow img {
+    width: 100%;
+  }
+
+  .icon-help {
+    width: 20px;
+  }
+
+  .section03 .portableMethod .portableImg img.install-ex01.m-show {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+
+@media screen and (max-width: 378px) {
+  html {
+    font-size: 7px;
+  }
+
+  .question-arrow {
+    width: 15px;
+  }
+
+  .question-arrow img {
+    width: 100%;
+  }
+
+  .swiper-pagination {
+    bottom: 24.5%;
+  }
+
+  /* .window-slide-wrap .swiper-button-next {
+    right: 8vw;
+  }
+
+  .window-slide-wrap .swiper-button-prev {
+    left: 8vw;
+  } */
+}

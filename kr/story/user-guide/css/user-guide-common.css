@@ -154,8 +154,16 @@
     margin-top: 140px;
 }
 
+#snomet .mt-80 {
+    margin-top: 80px;
+}
+
 #snomet .mt-46 {
     margin-top: 46px;
+}
+
+#snomet .mt-28 {
+    margin-top: 28px;
 }
 
 #snomet .mb-20 {
@@ -558,6 +566,7 @@
 }
 
 #snomet .sec-banner {
+    margin-top: 80px;
     padding-bottom: 120px;
 }
 
@@ -737,8 +746,16 @@
         margin-top: 98px;
     }
 
+    #snomet .mt-80 {
+        margin-top: 80px;
+    }
+
     #snomet .mt-46 {
         margin-top: 30px;
+    }
+
+    #snomet .mt-28 {
+        margin-top: 13px;
     }
 
     #snomet .sec-header {
@@ -945,6 +962,7 @@
     }
 
     #snomet .sec-banner {
+        margin-top: 60px;
         padding-bottom: 80px;
     }
 
