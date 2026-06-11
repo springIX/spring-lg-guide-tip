@@ -1129,8 +1129,12 @@
   margin-top: 40px;
 }
 .buying-guide .compare-wrap > .des {
-  margin-top: 20px;
-  color: #666666;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #666;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0;
 }
 .buying-guide .point-tip .btn-wrap {
   margin-top: 20px;

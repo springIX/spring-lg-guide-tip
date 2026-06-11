@@ -20,9 +20,7 @@
   white-space: nowrap;
   border: 0;
 }
-main#designlg{
-  overflow-x: hidden;
-}
+
 #designlg,
 #designlg * {
   font-family: "Pretendard Variable", "Pretendard", "Noto Sans", sans-serif;
@@ -86,7 +84,15 @@ main#designlg{
   position: relative;
   overflow: hidden;
 }
+#designlg .sec4 .video-inner-wrap {
+  width: 100%;
+  aspect-ratio: 936/880;
+}
 
+#designlg .sec4 .video-inner-wrap video {
+    margin-top: -3.6%;
+    margin-left: -1.26%;
+}
 #designlg .video-inner-wrap.border-none {
   border-radius: 0;
 }
@@ -2220,10 +2226,10 @@ main#designlg{
   margin: 0;
   overflow: hidden;
 }
-
+/* 
 #designlg .pin-spacer:has(#kv) {
   overflow: visible !important;
-}
+} */
 
 #designlg #kv .head {
   position: relative;
@@ -2499,7 +2505,12 @@ main#designlg{
 #designlg .video-inner-wrap {
     border-radius: 2px;
   }
+#designlg .sec4 .video-inner-wrap {width: 100%;aspect-ratio: 350/285;}
 
+#designlg .sec4 .video-inner-wrap video {
+    margin-top: -10%;
+    margin-left: -1.26%;
+}
 #designlg section .disclaimer button::after {
     width: 16px;
     height: 16px;
