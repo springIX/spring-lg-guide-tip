@@ -312,9 +312,40 @@
       return Math.max(0, visibleBottom - visibleTop);
     }
 
-    function updateActiveQnaByViewport() {
-      activeQnaRaf = 0;
+    function getMobileDecisionLineY() {
+      var viewportHeight = window.innerHeight || document.documentElement.clientHeight || 0;
+      var decisionLineY = 200;
 
+      if (peopleList && peopleList.classList.contains("mobile-show")) {
+        var peopleRect = peopleList.getBoundingClientRect();
+        if (peopleRect.bottom > 0) {
+          decisionLineY = peopleRect.bottom + 20;
+        }
+      }
+
+      return Math.min(decisionLineY, Math.max(120, viewportHeight * 0.45));
+    }
+
+    function getQnaAtViewportLine(lineY) {
+      var fallbackQna = null;
+
+      for (var i = 0; i < qnaList.length; i += 1) {
+        var qna = qnaList[i];
+        var rect = qna.getBoundingClientRect();
+
+        if (rect.top <= lineY && rect.bottom > lineY) {
+          return qna;
+        }
+
+        if (rect.top <= lineY) {
+          fallbackQna = qna;
+        }
+      }
+
+      return fallbackQna;
+    }
+
+    function getMostVisibleQna() {
       var bestQna = null;
       var bestVisible = 0;
 
@@ -326,7 +357,16 @@
         }
       });
 
-      if (!bestQna || bestVisible <= 0) return;
+      return bestVisible > 0 ? bestQna : null;
+    }
+
+    function updateActiveQnaByViewport() {
+      activeQnaRaf = 0;
+
+      var isMobile = window.matchMedia(MOBILE_MEDIA_QUERY).matches;
+      var bestQna = isMobile ? getQnaAtViewportLine(getMobileDecisionLineY()) : getMostVisibleQna();
+
+      if (!bestQna) return;
 
       var personId = bestQna.getAttribute('data-person-id');
       if (personId) setActiveQna(bestQna, personId);

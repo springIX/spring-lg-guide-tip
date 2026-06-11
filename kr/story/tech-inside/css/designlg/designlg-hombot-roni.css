@@ -20,7 +20,9 @@
   white-space: nowrap;
   border: 0;
 }
-
+main#designlg{
+  overflow-x: hidden;
+}
 #designlg,
 #designlg * {
   font-family: "Pretendard Variable", "Pretendard", "Noto Sans", sans-serif;
@@ -38,7 +40,9 @@
   width: 100%;
   display: inline-block;
 }
-
+#designlg .heading .title img{
+  vertical-align: top;
+}
 #designlg section .disclaimer {
   text-align: left;
 }
@@ -207,7 +211,7 @@
 
 #designlg section .inwrap .heading .title {
   height: 95px;
-  overflow: hidden;
+  overflow:hidden;  
 }
 
 #designlg section .inwrap .heading .title img {
@@ -585,7 +589,16 @@
 #designlg nav ul li:nth-child(4) a {
   width: 345px;
 }
+#designlg nav ul li {
+  width:25%
+}
 
+#designlg nav ul li:nth-child(1) a,
+#designlg nav ul li:nth-child(2) a,
+#designlg nav ul li:nth-child(3) a,
+#designlg nav ul li:nth-child(4) a{
+  max-width:100%;
+}
 #designlg nav ul li a {
   padding: 14px 0;
   display: block;
@@ -640,12 +653,14 @@
   padding-top: 118px;
   position: relative;
   z-index: 2;
+  padding:118px 16px 0 16px;
+  
 }
 
 #designlg #STORY .content-sec.sec1 {
   position: relative;
   display: grid;
-  padding: 0 16px;
+  padding: 0; 
 }
 
 #designlg #STORY .content-sec.sec1 .sec-inner .sec-head {
@@ -892,9 +907,9 @@
   flex: 0 0 100%;
   margin-top: 16px;
   overflow: hidden;
-  transition:
+  /* transition:
     max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-    padding-bottom 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    padding-bottom 0.4s cubic-bezier(0.4, 0, 0.2, 1); */
   will-change: max-height, padding-bottom;
 }
 
@@ -928,7 +943,10 @@
   line-height: 1.54;
   letter-spacing: -0.24px;
 }
+#designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .note-list p sup{
+  color: #9a9ea3;
 
+}
 #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .note-list p::before {
   display: none;
 }
@@ -969,12 +987,16 @@
   min-width: 0;
       justify-content: right;
 }
+#designlg #DESIGN .content-sec.sec1 .sec-head .sec-copy{
+  padding-right:44px
+}
 #designlg #DESIGN .content-sec.sec2 .sec-head .sec-copy{
   max-width: 1251px;
 }
 
 #designlg #DESIGN .content-sec.sec2 .sec-head .sec-copy .copy {
   max-width: 609.5px;
+  width: 100%;
 }
 
 #designlg #DESIGN .content-sec .sec-head .sec-title {
@@ -1244,11 +1266,11 @@
   margin: 0 auto;
   position: relative;
   display: flex;
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
 }
 
 #designlg #DESIGN .content-sec.sec4 .sec-head .sec-title {
-  width: 100%;
+  /* width: 100%; */
 }
 
 #designlg #DESIGN .content-sec.sec4 .sec-head .sec-copy {
@@ -1257,6 +1279,7 @@
   gap: 20px;
   width: 619.545px;
   max-width: 619.545px;
+  align-items: end;
 }
 
 #designlg #DESIGN .content-sec.sec4 .sec-head .sec-copy .copy {
@@ -1349,6 +1372,7 @@
 
 #designlg #INTERVIEW.on .heading .desc {
   opacity: 1;
+  max-width:1082px;
 }
 
 #designlg #INTERVIEW .content {
@@ -1575,6 +1599,7 @@
   letter-spacing: -0.36px;
   color: #111111;
   font-weight: 500;
+  word-break:normal;
 }
 
 #designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd > p sup {
@@ -2113,10 +2138,10 @@
   opacity: 1;
   visibility: visible;
   will-change: max-height, padding-bottom, opacity;
-  transition:
+  /* transition:
     max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1),
     padding-bottom 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-    opacity 0.22s ease;
+    opacity 0.22s ease; */
 }
 
 #designlg .kv-disclaimer-section .disclaimer-item:nth-child(2) .note-list {
@@ -2423,6 +2448,47 @@
   z-index: 5;
 }
 
+@media screen and (max-width: 1024px) {
+  #designlg #DESIGN .content-sec .sec-head .sec-copy,
+  #designlg #DESIGN .content-sec .sec-head.sec-row,
+  #designlg #DESIGN .content-sec.sec4 .sec-head .sec-copy{
+    flex-direction: column;
+
+  }
+   #designlg #DESIGN .content-sec.sec1 .sec-head .sec-copy .copy-presence,
+  #designlg #DESIGN .content-sec.sec1 .sec-head .sec-copy .copy-form,
+  #designlg #DESIGN .content-sec.sec2 .sec-head .sec-copy .copy,
+  #designlg #DESIGN .content-sec.sec4 .sec-head .sec-copy .copy {
+    max-width: 100%;
+    
+  }
+  #designlg #DESIGN .content-sec.sec2 .sec-cnt .cnt-img .caption,
+#designlg #DESIGN .content-sec.sec4 .sec-cnt .cnt-img .caption{
+  flex-direction: column;
+}
+#designlg #DESIGN .content-sec.sec4 .sec-cnt .cnt-img .caption .disclaimer{
+  white-space: normal;
+}
+#designlg #DESIGN .content-sec.sec4 .sec-inner .sec-head{
+  padding-bottom:3px;
+}
+#designlg nav ul li{
+  max-width:25%;
+}
+#designlg nav ul li a{
+  width:100%
+}
+
+#designlg nav ul li:nth-child(1) a,
+#designlg nav ul li:nth-child(2) a,
+#designlg nav ul li:nth-child(3) a,
+#designlg nav ul li:nth-child(4) a{
+  max-width:100%;
+}
+#designlg #DESIGN .content-sec.sec1 .sec-head .sec-copy{
+  padding-right:0;
+}
+}
 /* ************** media: max-width ************** */
 @media screen and (max-width: 767px) {
 
@@ -2522,6 +2588,7 @@
   }
   #designlg section .inwrap .heading .title {
     height: 41px;
+    overflow:hidden;
   }
   #designlg section .content-sec .sec-head.sec-column {
     gap: 20px;
@@ -2535,12 +2602,15 @@
     flex-direction: column;
     gap: 20px;
   }
+  #designlg #DESIGN .content-sec .sec-head .sec-copy .copy,
   #designlg section .content-sec .sec-head .sec-copy .copy {
     width: 100%;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.7;
     letter-spacing: -0.32px;
+    word-break: normal;
+
   }
   #designlg section .disclaimer p {
     font-size: 11px;
@@ -2626,16 +2696,21 @@
     width: 100%;
   }
   #designlg #kv .intro-wrap .desc-wrap {
-    position: relative;
-    top: 0;
+    position: absolute;
+    top: unset;
+    bottom: 30px;
     left: 0;
+    right: 0;
+    width: 100%;
+    max-width: none;
     transform: none;
-    padding: 0 20px clamp(24px, 36.2069px - 1.7241vw, 30px);
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: -0.36px;
+    padding: 0 20px;
+    font-size: clamp(14px, 4.103vw, 16px);
+    line-height: 1.54;
+    letter-spacing: -0.32px;
     color: #a0a0a0;
     font-weight: 400;
+    text-align: center;
   }
   #designlg #kv .intro-wrap .disclaimer {
     position: relative;
@@ -2688,12 +2763,13 @@
 
   #designlg #kv .intro-wrap .desc-wrap {
     position: absolute;
-    top: 345px;
-    left: 20px;
-    right: 20px;
-    width: auto;
+    top: unset;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    width: 100%;
     max-width: none;
-    padding: 0;
+    padding: 0 20px;
     transform: none;
     color: #a0a0a0;
     font-size: clamp(14px, 4.103vw, 16px);
@@ -2757,13 +2833,15 @@
     }
 
     #designlg #kv .intro-wrap .desc-wrap {
-      position: relative;
-      top: 0;
+      position: absolute;
+      top: unset;
+      bottom: 30px;
       left: 0;
-      right: auto;
-      width: auto;
+      right: 0;
+      width: 100%;
+      max-width: none;
       transform: none;
-      padding: 0 20px clamp(24px, 36.2069px - 1.7241vw, 30px);
+      padding: 0 20px;
     }
 
     #designlg #kv .intro-wrap .disclaimer {
@@ -2896,7 +2974,6 @@
 
 #designlg #STORY .content-sec.sec1 .sec-head .sec-copy .copy {
     flex: none;
-    max-width: 350px;
   }
 
 #designlg #STORY .content-sec.sec2 .sec-head .sec-copy .copy:first-child,
@@ -2920,6 +2997,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 4px 16px;
+    display: flex;
+    flex-direction: column;
   }
 
   #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle > p,
@@ -2929,16 +3008,20 @@
   }
 
   #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle > p {
-    order: 1;
+    order: 0;
     flex: 0 0 100%;
   }
 
   #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .disclaimer-items {
-    display: contents;
+    display: flex;
+    flex-direction: column;
+    gap: 4px; 
   }
 
   #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .disclaimer-item {
-    display: contents;
+    display: flex;
+    flex-direction: column;
+     gap: 6px;
   }
 
   #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .notice-toggle {
@@ -2953,7 +3036,7 @@
   }
 
   #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .disclaimer-item:not(:last-child) .note-list {
-    padding-bottom: 12px;
+    padding-bottom: 6px;
   }
 
   #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .note-list.is-collapsed {
@@ -2984,16 +3067,17 @@
     white-space: normal;
   }
 
-#designlg #DESIGN .content-sec.sec1 .sec-head .sec-copy .copy,
-#designlg #DESIGN .content-sec.sec2 .sec-head .sec-copy .copy,
-#designlg #DESIGN .content-sec.sec4 .sec-head .sec-copy .copy {
-    max-width: 348px;
-  }
-
 #designlg #DESIGN .content-sec.sec4 .sec-head .sec-copy {
     flex: none;
     width: 100%;
-    max-width: 348px;
+    max-width: none;
+  }
+
+  #designlg #DESIGN .content-sec.sec1 .sec-head .sec-copy .copy-presence,
+  #designlg #DESIGN .content-sec.sec1 .sec-head .sec-copy .copy-form,
+  #designlg #DESIGN .content-sec.sec2 .sec-head .sec-copy .copy,
+  #designlg #DESIGN .content-sec.sec4 .sec-head .sec-copy .copy {
+    max-width: 100%;
   }
 
 #designlg #DESIGN .content-sec .sec-cnt {
@@ -3231,6 +3315,7 @@
     font-weight: 500;
     line-height: 1.6;
     letter-spacing: -0.28px;
+    word-break: normal;
   }
   #designlg #INTERVIEW .inwrap .content {
     min-height: 100%;
@@ -3414,9 +3499,10 @@
     font-weight: 500;
     color: #111111;
     max-width: 350px;
+    word-break:normal;
   }
   #designlg #INTERVIEW .inwrap .qna-wrap .qna-list dl {
-    padding: 40px 20px 0;
+    padding: 40px 20px 0 20px;
   }
   #designlg #INTERVIEW .inwrap .qna-wrap .qna-list dt {
     padding-bottom: 20px;
@@ -3428,14 +3514,15 @@
     font-size: 14px;
     line-height: 1.44;
     letter-spacing: -0.28px;
+    word-break: normal;
   }
   #designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd {
-    padding: 20px 15px;
+    padding: 20px 16px 20px 16px;
   }
   #designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd > p {
     font-size: 16px;
     line-height: 1.6;
-    letter-spacing: -0.38px;
+    letter-spacing: -0.32px;
     color: #161814;
     word-break: break-all;
   }
@@ -3631,6 +3718,7 @@
     text-align: center;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: -0.32px;
   }
 
 #designlg #BANNER .inwrap .heading .btn-wrap {
@@ -3690,10 +3778,13 @@
     flex-wrap: wrap;
     gap: 4px 16px;
     margin-top: 0;
+            flex-direction: column;
   }
 
   #designlg .kv-disclaimer-section .disclaimer-item {
-    display: contents;
+    display: flex;
+    flex-direction: column;
+    gap:6px;
   }
 
   #designlg .kv-disclaimer-section .disclaimer-item .notice-toggle {
@@ -3841,20 +3932,20 @@
 
   #designlg #kv .intro-wrap .desc-wrap {
     position: absolute;
-    /* top: 345px; */
-    left: 50%;
-    right: auto;
-    width: min(350px, calc(100vw - 40px));
+    top: unset;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    width: 100%;
     max-width: none;
-    padding: 0;
+    padding: 0 20px;
     text-align: center;
-    transform: translateX(-50%);
+    transform: none;
     color: #a0a0a0;
     font-size: clamp(14px, 4.1vw, 16px);
     line-height: 1.54;
     letter-spacing: -0.32px;
-    top:unset;
-    bottom:30px;
+    word-break:normal;
   }
 }
 
@@ -3866,14 +3957,53 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1904px) {
+@media screen and (min-width: 768px) and (max-width: 1919px) {
 
-  #designlg section .content-sec .sec-head .sec-copy .copy br.pc-only {
+  #designlg section .content-sec .sec-head .sec-copy .copy,
+  #designlg #STORY .content-sec .sec-head .sec-copy .copy,
+  #designlg #DESIGN .content-sec .sec-head .sec-copy .copy {
+    word-break: keep-all;
+  }
+
+  #designlg #STORY .content-sec.sec1 .sec-head .sec-copy .copy {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  #designlg #STORY .content-sec.sec2 .sec-head .sec-copy .copy:first-child,
+  #designlg #STORY .content-sec.sec2 .sec-head .sec-copy .copy:last-child {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  #designlg #DESIGN .content-sec.sec4 .sec-head .sec-copy {
+    flex: 1 1 auto;
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+    align-items: end;
+  }
+
+  #designlg #STORY .content-sec.sec1 .cnt-video-wrap {
+    position: relative;
+    left: 50%;
+    width: 100vw;
+    margin-left: -50vw;
+  }
+
+  #designlg #STORY .content-sec.sec1 .cnt-video-wrap video {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #designlg section .content-sec .sec-head .sec-copy .copy br.pc-only,
+  #designlg #kv .intro-wrap .desc-wrap br.pc-only,
+  #designlg #BANNER .heading .title br.pc-only {
     display: none;
   }
 }
 
-@media screen and (min-width: 1905px) {
+@media screen and (min-width: 1920px) {
 
   #designlg section .content-sec .sec-head .sec-copy .copy br.pc-only {
     display: block;
@@ -4021,11 +4151,11 @@
   list-style: none;
   overflow: hidden;
   opacity: 1;
-  transition:
+  /* transition:
     max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1),
     padding-top 0.4s cubic-bezier(0.4, 0, 0.2, 1),
     padding-bottom 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-    opacity 0.22s ease;
+    opacity 0.22s ease; */
   will-change: max-height, padding-top, padding-bottom, opacity;
 }
 
@@ -4091,6 +4221,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 4px 16px;
+    flex-direction: column;
   }
 
   #designlg #INTERVIEW .disclaimer.has-toggle > p {
@@ -4104,6 +4235,9 @@
   #designlg #INTERVIEW .disclaimer.has-toggle .disclaimer-item {
     display: contents;
     flex: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
   }
 
   #designlg #INTERVIEW .disclaimer.has-toggle .notice-toggle,
