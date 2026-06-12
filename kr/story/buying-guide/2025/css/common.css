@@ -1232,6 +1232,15 @@
   .sticky-product-no
   .inner
   .inner2
+  div.no-uppercase{
+    text-transform: none;
+  }
+.buying-guide
+  .compare-wrap
+  .procuct-summary
+  .sticky-product-no
+  .inner
+  .inner2
   div
   small {
   text-transform: initial;
