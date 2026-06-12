@@ -412,8 +412,24 @@
     // ================================
     var mobileStickyTriggers = [];
 
+    function isPastMobilePeopleListEnd() {
+      if (!window.matchMedia(MOBILE_MEDIA_QUERY).matches) return false;
+
+      var viewportHeight = window.innerHeight || document.documentElement.clientHeight || 0;
+      var hideLine = viewportHeight * 0.33;
+      var lastQnaList = qnaList[qnaList.length - 1];
+      var endTarget = lastQnaList || section;
+      var endRect = endTarget.getBoundingClientRect();
+
+      return endRect.bottom <= hideLine;
+    }
+
     function setPeopleListState(state) {
       if (!peopleList) return;
+
+      if (state === "show" && isPastMobilePeopleListEnd()) {
+        state = "hidden";
+      }
 
       if (state === "show") {
         peopleList.classList.add("mobile-show");

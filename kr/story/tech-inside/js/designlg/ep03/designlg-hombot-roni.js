@@ -100,26 +100,29 @@ $(document).ready(function () {
           $("#designlg").toggleClass("kv-active", self.isActive);
         },
         onRefresh: function (self) {
-          var isIntroVisible = isMobileKv() && self.progress >= 0.55;
+          var isMobile = isMobileKv();
+          var isKvEndState = isMobile && self.progress >= 0.55;
 
           gsap.set(robot, {
             x: 0,
             y: 0,
-            yPercent: 0,
-            scale: 1,
+            yPercent: isKvEndState ? 5 : 0,
+            scale: isKvEndState ? 1.0656 : 1,
           });
           gsap.set(robotImg, {
-            filter: "brightness(1)",
+            filter: isKvEndState ? "brightness(1.4)" : "brightness(1)",
           });
           gsap.set(steamImg, {
-            autoAlpha: 0,
-            filter: "brightness(1.16) contrast(1.08)",
+            autoAlpha: isKvEndState ? 1 : 0,
+            filter: isKvEndState
+              ? "brightness(1.24) contrast(1.12)"
+              : "brightness(1.16) contrast(1.08)",
           });
           gsap.set(kvTitle, {
-            autoAlpha: isIntroVisible ? 1 : 0,
+            autoAlpha: isKvEndState ? 1 : 0,
           });
           gsap.set(intro, {
-            autoAlpha: isIntroVisible ? 1 : 0,
+            autoAlpha: isKvEndState ? 1 : 0,
           });
         },
       },

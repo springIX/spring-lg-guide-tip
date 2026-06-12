@@ -2573,6 +2573,11 @@
     margin-left: 0;
   }
 
+#designlg #STORY .content-sec.sec1 .cnt-video-wrap .video-inner-wrap.border-none video {
+   border-radius: 0;
+  }
+
+
 #designlg #kv .head .desc {
     white-space: nowrap;
   }
