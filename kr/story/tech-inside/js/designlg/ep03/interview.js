@@ -411,6 +411,25 @@
     // - ??갑?? viewportTop <  #INSPIRATION(top)        => people-list mobile-show
     // ================================
     var mobileStickyTriggers = [];
+    var mobileStickyShowTarget = null;
+
+    function isPastMobileStickyStart() {
+      if (!window.matchMedia(MOBILE_MEDIA_QUERY).matches) return true;
+      if (!mobileStickyShowTarget) return true;
+
+      var viewportHeight = window.innerHeight || document.documentElement.clientHeight || 0;
+      var showTargetRect = mobileStickyShowTarget.getBoundingClientRect();
+      var nav = document.querySelector("#designlg nav#nav");
+      var navBottom = nav ? Math.max(0, Math.round(nav.getBoundingClientRect().bottom)) : 0;
+
+      if (mobileStickyShowTarget.classList.contains("comment")) {
+        return showTargetRect.top <= navBottom;
+      }
+
+      var showLine = viewportHeight * 0.55;
+
+      return showTargetRect.top <= showLine;
+    }
 
     function isPastMobilePeopleListEnd() {
       if (!window.matchMedia(MOBILE_MEDIA_QUERY).matches) return false;
@@ -427,19 +446,44 @@
     function setPeopleListState(state) {
       if (!peopleList) return;
 
+      if (state === "show" && !isPastMobileStickyStart()) {
+        state = "hidden";
+      }
+
       if (state === "show" && isPastMobilePeopleListEnd()) {
         state = "hidden";
       }
 
       if (state === "show") {
+        if (peopleList.classList.contains("mobile-show")) return;
         peopleList.classList.add("mobile-show");
         peopleList.classList.remove("mobile-hidden");
       } else if (state === "hidden") {
+        if (peopleList.classList.contains("mobile-hidden")) return;
         peopleList.classList.add("mobile-hidden");
         peopleList.classList.remove("mobile-show");
       }
 
       requestSTRefresh();
+    }
+
+    var mobileStickyStateRaf = 0;
+
+    function updateMobileStickyStateByScroll() {
+      mobileStickyStateRaf = 0;
+
+      if (!window.matchMedia(MOBILE_MEDIA_QUERY).matches || !peopleList) return;
+
+      if (isPastMobileStickyStart() && !isPastMobilePeopleListEnd()) {
+        setPeopleListState("show");
+      } else {
+        setPeopleListState("hidden");
+      }
+    }
+
+    function requestMobileStickyStateUpdate() {
+      if (mobileStickyStateRaf) return;
+      mobileStickyStateRaf = requestAnimationFrame(updateMobileStickyStateByScroll);
     }
 
     function killMobileStickyTriggers() {
@@ -464,20 +508,21 @@
       // ??珥덇린 ?곹깭: hidden
       setPeopleListState("hidden");
 
-      // 1) 泥?Q&A block??.qna-item 湲곗?
+      // Mobile: show the sticky people nav after the first profile intro copy.
       var firstQnaList = qnaList[0] || section.querySelector(".qna-wrap .qna-list");
+      var firstProfileIntro = firstQnaList ? firstQnaList.querySelector(".interview-people.mo-only .comment") : null;
       var firstItem = firstQnaList ? firstQnaList.querySelector(".qna-item") : null;
-      if (firstItem) {
+      var stickyShowTarget = firstProfileIntro || firstItem;
+      mobileStickyShowTarget = stickyShowTarget;
+      if (stickyShowTarget) {
         var qnaTopST = ScrollTrigger.create({
-          trigger: firstItem,
-          start: "top top", // ??viewport top == item top
+          trigger: stickyShowTarget,
+          start: firstProfileIntro ? "top top" : "top 55%",
           invalidateOnRefresh: true,
           onEnter: function () {
-            // ?뺣갑?? ?용뒗 ?쒓컙 show
             setPeopleListState("show");
           },
           onLeaveBack: function () {
-            // ??갑?? item top ?꾨줈 ?щ씪媛硫?hidden 議곌굔)
             setPeopleListState("hidden");
           }
         });
@@ -499,6 +544,7 @@
       mobileStickyTriggers.push(interviewBottomST);
 
       requestSTRefresh();
+      requestMobileStickyStateUpdate();
     }
 
     initMobileStickyBehavior();
@@ -509,10 +555,12 @@
     // - ?좉? ???몃━嫄??ш뎄????refresh ?쒖꽌 怨좎젙
     // ================================
     handleResize();
+    window.addEventListener('scroll', requestMobileStickyStateUpdate, { passive: true });
     window.addEventListener('resize', function () {
       handleResize();
       initMobileStickyBehavior();
       requestSTRefresh();
+      requestMobileStickyStateUpdate();
     });
 
     // ================================

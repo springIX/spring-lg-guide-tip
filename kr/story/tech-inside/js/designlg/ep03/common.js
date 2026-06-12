@@ -17,6 +17,7 @@
       "#BANNER",
     ];
     var lastScrollTop = 0;
+    var navScrollTimer = 0;
 
     function setActiveNav(target) {
       if (!target) return;
@@ -35,11 +36,56 @@
     var $articles = $("#designlg section .content-sec");
     var $storySec2 = $("#designlg #STORY .content-sec.sec2");
 
+    function getScrollTop() {
+      return window.pageYOffset || document.documentElement.scrollTop || 0;
+    }
+
+    function getNavCoveredHeight() {
+      if (!$nav.length || !$nav[0]) return 0;
+
+      var navRect = $nav[0].getBoundingClientRect();
+      var navHeight = $nav.outerHeight() || 0;
+
+      if (navRect.bottom > 0) {
+        return Math.max(navHeight, Math.round(navRect.bottom));
+      }
+
+      return navHeight;
+    }
+
+    function getTargetScrollTop(target) {
+      var targetEl = document.querySelector(target);
+      if (!targetEl) return null;
+
+      return Math.max(
+        0,
+        Math.round(targetEl.getBoundingClientRect().top + getScrollTop() - getNavCoveredHeight())
+      );
+    }
+
+    function correctNavScrollPosition(target) {
+      window.clearTimeout(navScrollTimer);
+
+      navScrollTimer = window.setTimeout(function () {
+        var scrollTop = getTargetScrollTop(target);
+        if (scrollTop === null) return;
+
+        if (Math.abs(getScrollTop() - scrollTop) > 2) {
+          window.scrollTo(0, scrollTop);
+        }
+      }, 80);
+    }
+
     // Smooth-scroll to section when a nav link is clicked.
     $links.on("click", function (e) {
       e.preventDefault();
       var target = $(this).attr("href");
-      var offsetTop = $(target).offset().top - ($nav.outerHeight() || 0);
+      var offsetTop = getTargetScrollTop(target);
+      if (offsetTop === null) return;
+
+      if (window.gsap) {
+        gsap.killTweensOf(window);
+      }
 
       // Update active state immediately for better keyboard/screen-reader feedback.
       setActiveNav(target);
@@ -49,6 +95,8 @@
         .animate({ scrollTop: offsetTop }, 600, "swing")
         .promise()
         .done(function () {
+          correctNavScrollPosition(target);
+
           const $heading = $(target).find(".title").eq(0);
 
           if ($heading.length) {
