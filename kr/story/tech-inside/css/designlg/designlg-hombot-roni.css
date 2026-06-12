@@ -225,6 +225,7 @@
   width: auto;
   transform: translateY(100%);
   transition: transform 0.5s ease-in-out;
+  max-width:100%;
 }
 
 #designlg section.on .inwrap .heading .title img {
@@ -254,7 +255,7 @@
 }
 
 #designlg section .content-sec .sec-head.sec-row .sec-copy {
-  padding-top: 9px;
+  padding-top: 4px;
 }
 
 #designlg section .content-sec .sec-head .sec-title {
@@ -1753,7 +1754,7 @@
   z-index: 1;
   transition: none;
   padding: 37px 0 66px;
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  /* border-top: 1px solid rgba(255, 255, 255, 0.15); */
 }
 
 #designlg #INSPIRATION .roni-inspiration-swiper-wrap {
@@ -2925,7 +2926,7 @@
   }
 
 #designlg #STORY .content {
-    padding-top: 60px;
+    padding: 60px 0 0 0;
   }
 
 #designlg #STORY .content-sec.sec1 .sec-inner .sec-head {
@@ -3323,14 +3324,15 @@
     margin: 0;
   }
   #designlg #INTERVIEW .inwrap .heading .eyebrow {
-    margin-bottom: 0;
+    margin-bottom: 19;
   }
   #designlg #INTERVIEW .inwrap .heading .title {
     height: 49px;
+    margin-right:56px;
   }
   #designlg #INTERVIEW .heading .desc {
     max-width: 350px;
-    padding: 89px 0 56px;
+    padding: 50px 0 56px;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.6;
@@ -3615,17 +3617,19 @@
   }
 
 #designlg #INSPIRATION .inwrap .disclaimer {
-    padding-top: 56px;
+    padding-top: 12px;
   }
 
 #designlg #INSPIRATION .inwrap .content {
-    padding: 0 0 20px;
+    padding: 0 0 40px;
   }
 
 #designlg #INSPIRATION .inwrap .content .disclaimer {
     padding-top: 56px;
   }
-
+#designlg #INSPIRATION .inwrap .heading{
+  margin-bottom: 40px;
+}
 #designlg #INSPIRATION .img-list {
     height: auto;
     display: block;

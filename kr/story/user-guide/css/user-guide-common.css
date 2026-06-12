@@ -646,18 +646,18 @@
     height: 20px;
 }
 
-#snomet.all-in-one-guide .bullet-list {
+#snomet .bullet-list {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-#snomet.all-in-one-guide .bullet-list li {
+#snomet .bullet-list li {
     position: relative;
     padding-left: 14px;
 }
 
-#snomet.all-in-one-guide .bullet-list li::before {
+#snomet .bullet-list li::before {
     content: "";
     position: absolute;
     top: 14px;
@@ -668,7 +668,7 @@
     background: #111111;
 }
 
-#snomet.all-in-one-guide .bullet-list p {
+#snomet .bullet-list p {
     font-size: 22px;
     font-weight: 400;
     line-height: 1.4;
@@ -808,7 +808,7 @@
     }
 
     #snomet.install-type-comparison-guide .hero-visual-stack {
-        height: 235px;
+        width: 100%;
     }
 
     #snomet .disclaimer {
@@ -932,12 +932,10 @@
     flex:none;
 }
     #snomet .tip-content {
-        gap: 13px;
-    }
-
-    #snomet.all-in-one-guide .tip-content {
         gap: 14px;
     }
+
+
 
     #snomet .tip-copy {
         gap: 4px;
@@ -1038,21 +1036,21 @@
         border-width: 1.5px;
     }
 
-    #snomet.all-in-one-guide .bullet-list {
+    #snomet .bullet-list {
         gap: 4px;
     }
 
-    #snomet.all-in-one-guide .bullet-list li {
+    #snomet .bullet-list li {
         padding-left: 10px;
     }
 
-    #snomet.all-in-one-guide .bullet-list li::before {
+    #snomet .bullet-list li::before {
         top: 11px;
         width: 3px;
         height: 3px;
     }
 
-    #snomet.all-in-one-guide .bullet-list p {
+    #snomet .bullet-list p {
         font-size: 14px;
         line-height: 1.6;
         letter-spacing: var(--ls-body);
