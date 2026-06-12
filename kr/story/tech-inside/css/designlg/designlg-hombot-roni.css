@@ -3071,7 +3071,7 @@
   }
 
 #designlg #DESIGN {
-    padding-bottom: 140px;
+    padding-bottom: 80px;
     padding-top: 80px;
   }
 
@@ -3312,7 +3312,7 @@
 
 /* ************** INTERVIEW ************** */
   #designlg #INTERVIEW {
-    padding-top: 107px;
+    padding-top: 80px;
   }
   #designlg #INTERVIEW .inwrap {
     padding: 0;
@@ -4303,4 +4303,6 @@
     line-height: 1.42;
     letter-spacing: -0.22px;
   }
+
+
 }

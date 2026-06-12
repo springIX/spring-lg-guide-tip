@@ -1136,6 +1136,16 @@
     line-height: 140%;
     letter-spacing: 0;
 }
+
+.buying-guide .compare-wrap .procuct-summary .procuct-spec p.des {
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -0.0001em;
+}
 .buying-guide .point-tip .btn-wrap {
   margin-top: 20px;
 }
@@ -1772,6 +1782,13 @@
     .bubble {
     transform: translateX(0);
   }
+.buying-guide .product-table .table-wrap td p.des2{
+  font-size:11px;
+}
+  .buying-guide .compare-wrap .procuct-summary .procuct-spec p.des{
+    font-size:14px;
+  }
+  
 }
 .buying-guide .product-table {
   padding-top: 120px;
@@ -1870,6 +1887,31 @@
   border-radius: 14px;
   border: 2px solid #027f6c;
 }
+.buying-guide .product-table .table-wrap .y2 {
+  font-size: 0;
+  background-color: #ebf6f1;
+}
+.buying-guide .product-table .table-wrap .y2.text::after {
+  display: none;
+}
+.buying-guide .product-table .table-wrap .y2.text span.o {
+  display: block;
+  width: 14px;
+  height: 14px;
+  margin: 0 auto;
+  border-radius: 14px;
+  border: 2px solid #027f6c;
+}
+.buying-guide .product-table .table-wrap .y2::before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  margin: 0 auto;
+  border-radius: 14px;
+  border: 2px solid #027f6c;
+  margin-bottom:4px;
+}
 .buying-guide .product-table .table-wrap .n {
   font-size: 0;
 }
@@ -1950,6 +1992,15 @@
 .buying-guide .product-table .des {
   margin-top: 20px;
   font-size: 12px;
+  color: #666;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0;
+}
+
+  .buying-guide .product-table p.des2{
+  margin-top:0;
+    font-size: 16px;
   color: #666;
   font-weight: 400;
   line-height: 140%;
