@@ -798,7 +798,7 @@
                       <div class="sticky-product-no include-tab">
                         <div class="inner">
                           <div class="inner2">
-                            <div>QNED evo</div>
+                            <div class="no-uppercase">QNED evo</div>
                             <div>QNED</div>
                           </div>
                         </div>
