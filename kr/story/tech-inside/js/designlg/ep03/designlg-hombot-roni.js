@@ -3,17 +3,54 @@ $(document).ready(function () {
 
   gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
+  if ("scrollRestoration" in history) {
+    history.scrollRestoration = "manual";
+  }
+
+  var $designlg = $("#designlg");
   var $kv = $("#designlg #kv");
   if (!$kv.length) return;
 
   var kvScrollInited = false;
   var kvReadyInited = false;
+  var headScrollLocked = true;
+  var kvAutoAdvanceInited = false;
+  var kvAutoAdvanceAnimating = false;
+  var kvTouchStartY = null;
   var robot = "#designlg #kv .kv-new__robot";
   var robotImg = "#designlg #kv .kv-new__robot img";
   var steamImg =
     "#designlg #kv .kv-new__back-steam img, #designlg #kv .kv-new__front-steam img";
   var kvTitle = "#designlg #kv .kv-new__title";
   var intro = "#designlg #kv .intro-wrap";
+
+  function setDesignlgScrollTop() {
+    var designlgTop = $designlg.length ? Math.max(0, Math.round($designlg.offset().top)) : 0;
+
+    window.scrollTo(0, designlgTop);
+  }
+
+  function isMobileKv() {
+    return window.matchMedia && window.matchMedia("(max-width: 767px)").matches;
+  }
+
+  function preventHeadScroll(e) {
+    if (!headScrollLocked) return;
+
+    e.preventDefault();
+  }
+
+  function preventHeadKeyScroll(e) {
+    var scrollKeys = [" ", "ArrowUp", "ArrowDown", "PageUp", "PageDown", "Home", "End"];
+
+    if (!headScrollLocked || scrollKeys.indexOf(e.key) === -1) return;
+
+    e.preventDefault();
+  }
+
+  function unlockHeadScroll() {
+    headScrollLocked = false;
+  }
 
   function setInitialState() {
     gsap.set("#designlg #kv .head", {
@@ -62,7 +99,9 @@ $(document).ready(function () {
         onToggle: function (self) {
           $("#designlg").toggleClass("kv-active", self.isActive);
         },
-        onRefresh: function () {
+        onRefresh: function (self) {
+          var isIntroVisible = isMobileKv() && self.progress >= 0.55;
+
           gsap.set(robot, {
             x: 0,
             y: 0,
@@ -77,14 +116,86 @@ $(document).ready(function () {
             filter: "brightness(1.16) contrast(1.08)",
           });
           gsap.set(kvTitle, {
-            autoAlpha: 0,
+            autoAlpha: isIntroVisible ? 1 : 0,
           });
           gsap.set(intro, {
-            autoAlpha: 0,
+            autoAlpha: isIntroVisible ? 1 : 0,
           });
         },
       },
     });
+  }
+
+  function setupKvAutoAdvance(tl) {
+    if (kvAutoAdvanceInited || !tl || !tl.scrollTrigger) return;
+    kvAutoAdvanceInited = true;
+
+    var st = tl.scrollTrigger;
+
+    function canAdvanceKv(direction) {
+      var scrollY = window.pageYOffset || document.documentElement.scrollTop || 0;
+
+      if (!st || kvAutoAdvanceAnimating) return false;
+
+      if (direction > 0) {
+        return scrollY >= st.start - 2 && scrollY < st.end - 2 && st.progress < 0.98;
+      }
+
+      return scrollY > st.start + 2 && scrollY <= st.end + 2 && st.progress > 0.02;
+    }
+
+    function advanceKv(direction) {
+      if (kvAutoAdvanceAnimating) return true;
+      if (!canAdvanceKv(direction)) return false;
+
+      kvAutoAdvanceAnimating = true;
+      gsap.to(window, {
+        scrollTo: { y: direction > 0 ? st.end : st.start, autoKill: false },
+        duration: 1.1,
+        ease: "power2.out",
+        overwrite: "auto",
+        onComplete: function () {
+          kvAutoAdvanceAnimating = false;
+        },
+        onInterrupt: function () {
+          kvAutoAdvanceAnimating = false;
+        },
+      });
+
+      return true;
+    }
+
+    window.addEventListener(
+      "wheel",
+      function (e) {
+        if (e.deltaY !== 0 && advanceKv(e.deltaY > 0 ? 1 : -1)) {
+          e.preventDefault();
+        }
+      },
+      { passive: false }
+    );
+
+    window.addEventListener(
+      "touchstart",
+      function (e) {
+        kvTouchStartY = e.touches && e.touches.length ? e.touches[0].clientY : null;
+      },
+      { passive: true }
+    );
+
+    window.addEventListener(
+      "touchmove",
+      function (e) {
+        if (kvTouchStartY === null || !e.touches || !e.touches.length) return;
+
+        var touchDelta = kvTouchStartY - e.touches[0].clientY;
+
+        if (Math.abs(touchDelta) > 8 && advanceKv(touchDelta > 0 ? 1 : -1)) {
+          e.preventDefault();
+        }
+      },
+      { passive: false }
+    );
   }
 
   function loadHead() {
@@ -170,6 +281,8 @@ $(document).ready(function () {
         },
         "<"
       );
+
+    setupKvAutoAdvance(tl);
   }
 
   function onKvReady() {
@@ -180,10 +293,16 @@ $(document).ready(function () {
 
     requestAnimationFrame(function () {
       $("#designlg").removeClass("intro");
-      window.scrollTo(0, 0);
+      setDesignlgScrollTop();
       ScrollTrigger.refresh();
+      unlockHeadScroll();
     });
   }
+
+  setDesignlgScrollTop();
+  window.addEventListener("wheel", preventHeadScroll, { passive: false });
+  window.addEventListener("touchmove", preventHeadScroll, { passive: false });
+  window.addEventListener("keydown", preventHeadKeyScroll, { passive: false });
 
   var headIntro = loadHead();
   headIntro.eventCallback("onComplete", onKvReady);

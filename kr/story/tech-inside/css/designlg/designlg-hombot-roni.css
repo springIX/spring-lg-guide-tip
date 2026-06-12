@@ -2310,18 +2310,21 @@
   letter-spacing: -0.36px;
   text-align: center;
   word-break: keep-all;
+  top: unset;
+  bottom:5%;
 }
 
 #designlg #kv .kv-new {
   position: absolute;
   left: 0;
-  top: 50%;
   z-index: 2;
   width: 100%;
   height: auto;
   overflow: hidden;
-  transform: translateY(-50%);
   pointer-events: none;
+  /* top: 50%;
+  transform: translateY(-50%); */
+  top: 0;
 }
 
 #designlg #kv .kv-new picture,
@@ -2340,6 +2343,7 @@
   width: 100%;
   overflow: hidden;
   padding-bottom: 6px;
+  margin-top: -3%;
 }
 
 #designlg #kv .kv-new::after {
@@ -3715,7 +3719,7 @@
 
 #designlg #BANNER .inwrap {
     background: url("/kr/story/tech-inside/img/designlg/ep03/banner-img-mo.webp") no-repeat 60% center/cover;
-    padding: 0 35px 0;
+    padding: 0 20px 0;
   }
 
 #designlg #BANNER .inwrap .heading {
@@ -3863,6 +3867,7 @@
 
   #designlg #kv .kv-new__inner {
     padding-bottom: 0;
+    margin-top:-5%;
   }
 
   #designlg #kv .kv-new::after {

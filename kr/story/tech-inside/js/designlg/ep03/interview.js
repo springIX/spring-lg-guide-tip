@@ -467,10 +467,11 @@
         });
         mobileStickyTriggers.push(qnaTopST);
       }
-      // 2) #INTERVIEW bottom 기준 (영역 밖으로 나가면 hidden)
+      // 2) 마지막 Q&A 하단이 화면 1/3 지점까지 올라오면 hidden
+      var lastQnaList = qnaList[qnaList.length - 1];
       var interviewBottomST = ScrollTrigger.create({
-        trigger: section,
-        start: "bottom top", // => viewport top == #INTERVIEW bottom
+        trigger: lastQnaList || section,
+        start: "bottom 33%",
         invalidateOnRefresh: true,
         onEnter: function () {
           setPeopleListState("hidden");
