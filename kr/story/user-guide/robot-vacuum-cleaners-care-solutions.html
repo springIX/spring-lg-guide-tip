@@ -5,26 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport"
         content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
-    <meta name="keywords" content="LG전자, 청소 로봇, 로봇청소기, 로보킹, 관리제, 소모품, 브러시, 물걸레" />
-    <meta name="description" content="청소 로봇을 오래 깨끗하게 사용하기 위한 소모품 교체와 관리 방법을 확인해 보세요." />
+    <meta name="keywords" content="LG전자, 청소 로봇, 로봇청소기, 로보킹, 케어서비스, 케어십, 가전 구독" />
+    <meta name="description" content="청소 로봇의 성능을 최적의 상태로 유지할 수 있는 전문 케어서비스와 케어십을 확인해 보세요." />
     <meta property="og:url" content="https://www.lge.co.kr/story/user-guide/robot-vacuum-cleaners-care-solutions" />
     <meta property="og:image" content="https://www.lge.co.kr/lg5-common/images/common/share/share-default.jpg" />
     <link rel="stylesheet" href="https://www.lge.co.kr/lg5-common/css/reset.min.css" />
     <link rel="stylesheet" href="https://www.lge.co.kr/lg5-common/css/app.min.css" />
     <link rel="stylesheet" as="style" crossorigin
         href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.css" />
-    <title>청소 로봇 소모품 관리 가이드 | 사용가이드 | 가이드 | 스토리 | LG전자</title>
+    <title>전문가에게 맡기는 청소 로봇 케어 | 사용가이드 | 가이드 | 스토리 | LG전자</title>
 </head>
 
 <body>
     <link rel="stylesheet" href="/kr/story/user-guide/css/user-guide-common.css">
     <style>
-        #snomet.robot-vacuum-cleaners-care-solutions .sec2-visual {
+        #snomet .care-rotator {
             position: relative;
             overflow: hidden;
         }
     
-        #snomet.robot-vacuum-cleaners-care-solutions .sec2-visual .feature-img {
+        #snomet .care-rotator .feature-img {
             position: absolute;
             inset: 0;
             margin-top: 0;
@@ -32,18 +32,341 @@
             transition: opacity 0.7s ease-in-out;
         }
     
-        #snomet.robot-vacuum-cleaners-care-solutions .sec2-visual .feature-img.is-active {
+        #snomet .care-rotator .feature-img.is-active {
             position: relative;
             opacity: 1;
             z-index: 1;
         }
+
+        #snomet .care-fluid-img img,
+        #snomet .care-rotator .feature-img img {
+            aspect-ratio: auto;
+        }
+
+        #snomet .care-compare {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 20px;
+            margin-top: 24px;
+        }
+
+        #snomet .care-compare__col {
+            overflow: hidden;
+            border-top: 1px solid #111111;
+            border-bottom: 1px solid #111111;
+        }
+
+        #snomet .care-compare__head {
+            display: flex;
+            align-items: flex-start;
+            min-height: 58px;
+            padding: 12px 16px;
+            background: #f3f5f7;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.4;
+        }
+
+        #snomet .care-compare dl {
+            padding: 12px 0;
+        }
+
+        #snomet .care-compare__row {
+            display: grid;
+            grid-template-columns: 120px minmax(0, 1fr);
+            gap: 12px;
+            min-height: 88px;
+            padding: 12px 16px;
+            border-bottom: 1px solid #a7a7a7;
+        }
+
+        #snomet .care-compare__row:last-child {
+            border-bottom: 0;
+        }
+
+        #snomet .care-compare__label,
+        #snomet .care-compare__text {
+            display: block;
+            padding: 0;
+            font-weight: 400;
+            line-height: 1.4;
+        }
+
+        #snomet .care-compare__label {
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        #snomet .care-compare__text {
+            font-size: 22px;
+        }
+
+        #snomet .care-compare__pager {
+            display: none;
+        }
+
+        #snomet .care-tip-line {
+            margin-top: 60px;
+            padding-top: 15px;
+            border-bottom: 1px solid #111111;
+        }
+
+        #snomet .care-tip-line__label {
+            display: flex;
+            align-items: center;
+            gap: 0;
+            margin-bottom: 15px;
+            color: #ea1917;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.4;
+        }
+
+        #snomet .care-tip-line__label::after {
+            content: "";
+            display: block;
+            flex: 1 1 auto;
+            margin-left: 22px;
+            height: 1px;
+            background: #a7a7a7;
+        }
+
+        #snomet .care-tip-line__text {
+            padding: 0 22px;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 1.4;
+        }
+
+        #snomet .section3-notice {
+            margin-top: 20px;
+        }
+
+        #snomet .care-tip-line--section2 {
+            border-top: 0;
+        }
+
+        #snomet .care-tip-line--section3 {
+            margin-top: 60px;
+            padding-top: 15px;
+            padding-bottom: 28px;
+            border-bottom-color: #a7a7a7;
+        }
+
+        #snomet .care-tip-line--section3 .care-tip-line__label {
+            padding: 0 22px;
+        }
+
+        #snomet .care-tip-line--section3 .care-tip-line__label::after {
+            margin-left: 22px;
+        }
+
+        #snomet .care-tip-line--section3 .care-tip-line__text {
+            padding: 0 22px;
+        }
+
+        #snomet .care-tip-line__sub {
+            margin-top: 8px;
+            padding: 0 22px;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 1.4;
+        }
+
+        #snomet .care-service-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 28px;
+            padding: 0 0 28px 22px;
+        }
+
+        #snomet .care-service-list h5 {
+            margin-bottom: 4px;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 1.4;
+        }
+
+        @media screen and (max-width: 768px) {
+            #snomet .care-fluid-img img,
+            #snomet .care-rotator .feature-img img {
+                aspect-ratio: auto;
+            }
+
+            #snomet .care-compare {
+                margin-top: 14px;
+            }
+
+            #snomet .care-compare-wrap {
+                width: 332px;
+                max-width: calc(100vw - 58px);
+                margin-top: 14px;
+            }
+
+            #snomet .care-compare-scroller {
+                width: 100%;
+                overflow-x: auto;
+                overflow-y: hidden;
+                -webkit-overflow-scrolling: touch;
+                scroll-snap-type: x mandatory;
+                scrollbar-width: none;
+            }
+
+            #snomet .care-compare-scroller::-webkit-scrollbar {
+                display: none;
+            }
+
+            #snomet .care-compare-wrap .care-compare {
+                grid-template-columns: 270px 280px;
+                width: max-content;
+                max-width: none;
+                margin-top: 0;
+                padding-right: 52px;
+                gap: 10px;
+            }
+
+            #snomet .care-compare__col {
+                scroll-snap-align: start;
+                scroll-snap-stop: always;
+            }
+
+            #snomet .care-compare__head {
+                min-height: 39px;
+                width: 325px;
+                padding: 9px 11px;
+                font-size: 14px;
+            }
+
+            #snomet .care-compare dl {
+                padding: 0;
+            }
+
+            #snomet .care-compare__row {
+                grid-template-columns: 57px 236px;
+                gap: 15px;
+                width: 325px;
+                min-height: 0;
+                padding: 9px 11px;
+                border-bottom-width: 0.5px;
+            }
+
+            #snomet .care-compare__label,
+            #snomet .care-compare__text {
+                line-height: 1.4;
+            }
+
+            #snomet .care-compare__label {
+                font-size: 14px;
+            }
+
+            #snomet .care-compare__text {
+                font-size: 14px;
+                line-height: 1.6;
+            }
+
+            #snomet .care-compare__pager {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 12px;
+                width: 100%;
+                height: 30px;
+                margin-top: 10px;
+            }
+
+            #snomet .care-compare__pager button {
+                width: 8px;
+                height: 8px;
+                padding: 0;
+                border: 0;
+                border-radius: 999px;
+                background: #9b9b9b;
+                cursor: pointer;
+                transition: 0.3s;
+            }
+
+            #snomet .care-compare__pager button.is-active {
+                width: 24px;
+                background: #000000;
+            }
+
+            #snomet .care-tip-line {
+                margin-top: 28px;
+                padding-top: 0;
+                border-bottom-width: 1px;
+            }
+
+            #snomet .care-tip-line__label {
+                margin-bottom: 18px;
+                font-size: 14px;
+            }
+
+            #snomet .care-tip-line__label::after {
+                margin-left: 7px;
+                height: 0.5px;
+            }
+
+            #snomet .care-tip-line__text {
+                padding: 0;
+                font-size: 16px;
+                line-height: 1.4;
+            }
+
+            #snomet .section3-notice {
+                margin-top: 16px;
+            }
+
+            #snomet .care-tip-line--section2 {
+                margin-top: 14px;
+            }
+
+            #snomet .care-tip-line--section3 {
+                margin-top: 28px;
+                padding-top: 0;
+                padding-bottom: 18px;
+                border-bottom-width: 0.5px;
+            }
+
+            #snomet .care-tip-line--section3 .care-tip-line__label,
+            #snomet .care-tip-line--section3 .care-tip-line__text {
+                padding: 0;
+            }
+
+            #snomet .care-tip-line--section3 .care-tip-line__label {
+                width: 38px;
+                padding: 0 7px;
+            }
+
+            #snomet .care-tip-line--section3 .care-tip-line__label::after {
+                margin-left: 0;
+            }
+
+            #snomet .care-tip-line__sub {
+                margin-top: 4px;
+                padding: 0;
+                font-size: 13px;
+                line-height: 1.6;
+            }
+
+            #snomet .care-service-list {
+                gap: 12px;
+                margin-top: 14px;
+                padding: 0 0 18px;
+            }
+
+            #snomet .care-service-list h5 {
+                margin-bottom: 4px;
+                font-size: 14px;
+            }
+        }
     </style>
-    <main id="snomet" class="all-in-one-guide robot-vacuum-cleaners-care-solutions">
+    <main id="snomet">
         <section class="sec-header">
             <div class="inner-text">
-                <h1 class="main-title">청소 로봇을 오래 쓰는<br class="mo-only"> 소모품 관리 가이드</h1>
-                <p class="sub-copy">청소 로봇의 성능을 꾸준히 유지하려면 브러시, 필터,<br class="mo-only"> 물걸레와 관리제를 주기적으로 확인해야 합니다.<br>
-                    소모품별 관리 방법과 교체 시점을 확인하고<br class="mo-only"> 더 깨끗한 청소 환경을 만들어 보세요.</p>
+                <h1 class="main-title">전문가에게 맡기는<br class="mo-only"> 청소 로봇 케어</h1>
+                <p class="sub-copy">청소 부담을 덜어주는 청소 로봇.단순히 먼지통을 비우는<br class="mo-only"> 자가 관리만으로는 부족할 수 있습니다.<br>
+                    내부 깊숙한 곳까지 이제 케어는 전문가에게 맡겨보세요.</p>
             </div>
     
             <div class="inner-kv">
@@ -64,16 +387,16 @@
     
         <section class="sec-summary mt-120">
             <div class="inner-text">
-                <h2 class="mb-20">청소 로봇 소모품 관리,<br class="mo-only"> 3가지로 요약해 드려요</h2>
+                <h2 class="mb-20">청소 로봇 케어서비스,<br class="mo-only"> 3가지로 요약해 드려요</h2>
                 <ul class="summary-list">
                     <li>
-                        <p>브러시와 필터에 먼지나 머리카락이 쌓이면 흡입력이 떨어질 수 있어 주기적인 청소가 필요합니다.</p>
+                        <p>청소 로봇의 구독 기간동안 전문 케어서비스를 제공합니다.</p>
                     </li>
                     <li>
-                        <p>물걸레와 세척부는 사용 후 상태를 확인하고, 오염이 심하면 세척하거나 교체해 주세요.</p>
+                        <p>케어서비스를 통해 전문가의 정기적인 점검과<br class="mo-only"> 관리로 청소 로봇의 성능을 최적의 상태로<br class="mo-only"> 유지할 수 있습니다.</p>
                     </li>
                     <li>
-                        <p>전용 관리제와 정품 소모품을 사용하면 제품 성능과 위생 관리를 안정적으로 유지할 수 있습니다.</p>
+                        <p>청소 로봇을 이미 구매했거나 구독 기간이 만료된<br class="mo-only"> 경우에도 케어십 서비스를 이용할 수 있습니다.</p>
                     </li>
                 </ul>
             </div>
@@ -83,12 +406,11 @@
             <div class="inner-text">
                 <div class="section-title">
                     <span class="num" aria-hidden="true">1</span>
-                    <h2>청소 성능을 유지하는<br class="mo-only"> 기본 소모품 관리</h2>
+                    <h2>청소 로봇,<br class="mo-only"> 전문 케어가 필요한 이유</h2>
                 </div>
-                <p class="lead-copy">청소 로봇 하부의 브러시와 물걸레, 필터는 먼지와 오염물을 직접 만나는 부품입니다.<br>
-                    제품을 오래 안정적으로 사용하려면 사용 환경에 맞춰 소모품 상태를 정기적으로 확인해 주세요.</p>
+                <p class="lead-copy">먼지 흡입부터 물걸레 청소까지, 청소 로봇의 성능을 <br class="mo-only"> 오래 유지하려면 주기적인 관리가 필요합니다.</p>
     
-                <picture class="feature-img mt-46">
+                <picture class="feature-img care-fluid-img mt-46">
                     <source media="(max-width: 768px)"
                         srcset="/kr/story/user-guide/img/robot-vacuum-cleaners-care-solutions/sec1_mo.png">
                     <img src="/kr/story/user-guide/img/robot-vacuum-cleaners-care-solutions/sec1_pc.png"
@@ -96,29 +418,74 @@
                 </picture>
     
                 <div class="check-point">
-                    <h3 class="cp-title">청소 로봇 소모품 관리 체크 포인트</h3>
+                    <h3 class="cp-title">청소로봇 정기케어 체크 포인트</h3>
                     <ul class="num-list-red">
                         <li>
                             <span class="n lg-red" aria-hidden="true">1</span>
                             <div class="txt-box">
-                                <h4 class="point-title">먼지통과 필터 상태 확인</h4>
-                                <p>먼지통에 먼지가 많이 쌓이면 흡입 성능이 저하될 수 있습니다. 청소 후 먼지통을 비우고, 필터에 먼지가 끼어 있으면 부드러운 솔이나 마른 천으로 털어 주세요.
-                                </p>
+                                <h4 class="point-title">냄새 · 세균 케어</h4>
+                                <p>물때와 이물질이 쌓이기 쉬운 내부 수로와 부품을<br class="mo-only"> 전용 관리제로 세척하고 스팀 살균합니다.</p>
                             </div>
                         </li>
                         <li>
                             <span class="n lg-red" aria-hidden="true">2</span>
                             <div class="txt-box">
-                                <h4 class="point-title">회전 브러시와 사이드 브러시 관리</h4>
-                                <p>브러시에 머리카락이나 반려동물 털이 감기면 회전이 원활하지 않을 수 있습니다. 이물질을 제거하고 브러시가 마모되었는지 확인해 주세요.</p>
+                                <h4 class="point-title">소모품 교체</h4>
+                                <p>브러시와 필터 등 주요 부품을 점검하고 교체해 제품을<br class="mo-only"> 최적의 컨디션으로 유지하도록 돕습니다.</p>
                             </div>
                         </li>
                         <li>
                             <span class="n lg-red" aria-hidden="true">3</span>
                             <div class="txt-box">
-                                <h4 class="point-title">물걸레와 세척부 위생 관리</h4>
-                                <p>물걸레는 사용 후 오염 상태를 확인하고 충분히 건조해 주세요. 자동 세척 기능을 사용하는 경우에도 물걸레와 세척부에 오염이 남아 있지 않은지 주기적으로 확인하는
-                                    것이 좋습니다.</p>
+                                <h4 class="point-title">케어서비스 vs 케어십</h4>
+                                <p>가전 구독의 여부에 따라 케어서비스 또는 케어십으로<br class="mo-only"> 관리할 수 있습니다.</p>
+                                <div class="care-compare-wrap">
+                                    <div class="care-compare-scroller">
+                                        <div class="care-compare" aria-label="케어서비스와 케어십 비교">
+                                            <div class="care-compare__col">
+                                                <h5 class="care-compare__head">케어서비스</h5>
+                                                <dl>
+                                                    <div class="care-compare__row">
+                                                        <dt class="care-compare__label">이용 대상</dt>
+                                                        <dd class="care-compare__text">제품을 구독 중인 고객</dd>
+                                                    </div>
+                                                    <div class="care-compare__row">
+                                                        <dt class="care-compare__label">가입 시점</dt>
+                                                        <dd class="care-compare__text">가전 구독을 맺은 기간 동안<br>자동 제공</dd>
+                                                    </div>
+                                                    <div class="care-compare__row">
+                                                        <dt class="care-compare__label"><span class="pc-only">제공 서비스</span><span
+                                                                class="mo-only">제공<br>서비스</span></dt>
+                                                        <dd class="care-compare__text">구독 계약 조건에 따라<br>방문 관리 · 정기배송 · 회수 등<br>서비스 방식 차이</dd>
+                                                    </div>
+                                                </dl>
+                                            </div>
+                                            <div class="care-compare__col">
+                                                <h5 class="care-compare__head">케어십</h5>
+                                                <dl>
+                                                    <div class="care-compare__row">
+                                                        <dt class="care-compare__label">이용 대상</dt>
+                                                        <dd class="care-compare__text">이미 제품을 구매해 사용 중이거나<br>가전 구독이 종료된 고객</dd>
+                                                    </div>
+                                                    <div class="care-compare__row">
+                                                        <dt class="care-compare__label">가입 시점</dt>
+                                                        <dd class="care-compare__text">일반 구매 제품 사용 중이거나<br>구독 종료 후 별도 가입</dd>
+                                                    </div>
+                                                    <div class="care-compare__row">
+                                                        <dt class="care-compare__label"><span class="pc-only">제공 서비스</span><span
+                                                                class="mo-only">제공<br>서비스</span></dt>
+                                                        <dd class="care-compare__text"><span class="pc-only">제품 유형에 따라 방문 점검 주기<br>및 무상 A/S 범위
+                                                                차이</span><span class="mo-only">제품 유형에 따라<br>방문 점검 주기 및<br>무상 A/S 범위 차이</span></dd>
+                                                    </div>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="care-compare__pager" aria-label="케어서비스와 케어십 비교 슬라이드 이동">
+                                        <button type="button" class="is-active" aria-label="케어서비스 보기"></button>
+                                        <button type="button" aria-label="케어십 보기"></button>
+                                    </div>
+                                </div>
                             </div>
                         </li>
                     </ul>
@@ -129,13 +496,22 @@
                 </button>
                 <ul class="notice-list is-collapsed">
                     <li>
-                        <p>소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.</p>
+                        <p>소비자의 이해를 돕기 위해 연출된 영상 및 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.</p>
+                        </li>
+                        <li class="notice-heading">
+                            <p>[프리스탠딩 타입]</p>
                     </li>
                     <li>
-                        <p>소모품 관리 방법과 교체 주기는 모델 및 사용 환경에 따라 달라질 수 있습니다.</p>
+                        <p>프리스탠딩 타입은 청소 로봇 본체에 자동 물 공급 기능만 적용되어 있어, 수동으로 급수통을 채우고 오수통을 비워야 합니다.</p>
+                        </li>
+                        <li class="notice-heading">
+                            <p>[자동 급배수 타입]</p>
                     </li>
                     <li>
-                        <p>제품 청소 및 소모품 분리 전에는 반드시 제품 전원을 끄고 사용 설명서의 안내를 확인해 주세요.</p>
+                        <p>사전 답사 시, 설치 환경에 따라 자동 급배수 설치가 불가할 수 있으며, 설치 환경 및 설치 형태에 따라 설치비가 추가될 수 있습니다.</p>
+                        </li>
+                        <li>
+                            <p>자동 급배수 키트 별도 구매 시 제품 이동 및 설치 비용은 발생하지 않습니다. 단, 고객님 요청으로 인한 도면 다시 그리기 등 추가 서비스가 발생할 경우 비용이 청구됩니다.</p>
                     </li>
                 </ul>
             </div>
@@ -145,12 +521,12 @@
             <div class="inner-text">
                 <div class="section-title">
                     <span class="num" aria-hidden="true">2</span>
-                    <h2>사용 환경에 맞춰 확인하는<br class="mo-only"> 소모품 교체 시점</h2>
+                    <h2>초기 비용 부담 없는<br class="mo-only"> 케어서비스</h2>
                 </div>
-                <p class="lead-copy">청소 면적이 넓거나 반려동물 털, 긴 머리카락이 많은 환경에서는 소모품이 더 빨리 마모될 수 있습니다.<br>
-                    청소 품질이 달라졌다면 주요 소모품 상태를 순서대로 확인해 보세요.</p>
+                <p class="lead-copy">구독으로 예산 부담은 낮추고 관리는 더해보세요.<br class="mo-only">
+                    LG전자 가전 구독의 케어서비스를 통해 전문 매니저의 <br>정기적인 케어를 받으며 고장 걱정 없이 무상 A/S를 <br class="mo-only">받을 수 있습니다.</p>
     
-                <div class="sec2-visual mt-46" data-sec2-rotator>
+                <div class="care-rotator mt-46" data-sec2-rotator>
                     <picture class="feature-img is-active">
                         <source media="(max-width: 768px)"
                             srcset="/kr/story/user-guide/img/robot-vacuum-cleaners-care-solutions/sec2_1_mo.png">
@@ -177,57 +553,119 @@
                     </picture>
                 </div>
     
-                <div class="check-point">
-                    <h3 class="cp-title">소모품 교체 체크 포인트</h3>
-                    <ul class="num-list-red">
-                        <li>
-                            <span class="n lg-red" aria-hidden="true">1</span>
-                            <div class="txt-box">
-                                <h4 class="point-title">청소 후 먼지가 남는다면 필터와 브러시 확인</h4>
-                                <p>흡입력이 약해졌거나 같은 구역에 먼지가 남는다면 먼지통, 필터, 회전 브러시를 먼저 확인해 주세요. 먼지가 많이 끼어 있거나 브러시가 마모된 경우 청소 또는
-                                    교체가 필요할 수 있습니다.</p>
+                <div class="care-tip-line care-tip-line--section2">
+                    <p class="care-tip-line__label">TIP</p>
+                    <p class="care-tip-line__text">사용 환경에 따라 라이트 플러스와 프리미엄 케어서비스 중 선택해 보세요</p>
+                    <p class="care-tip-line__sub">케어서비스는 관리 방식과 세척 범위에 따라 라이트 플러스와<br class="mo-only"> 프리미엄으로 나뉩니다. <br class="pc-only">
+                        서비스별 차이를 한눈에 확인해
+                        보세요.</p>
+                    <div class="care-service-list">
+                        <div>
+                            <h5>라이트 플러스</h5>
+                            <ul class="bullet-list">
+                                <li>
+                                    <p>필수 관리 위주의 실속형 관리가 필요한 분에게 추천</p>
+                                    </li>
+                                    <li>
+                                    <p>청소 로봇의 주요 부품 점검 청소 및 소모품 교체 진행</p>
+                                    </li>
+                                    </ul>
+                                    </div>
+                        <div>
+                            <h5>프리미엄</h5>
+                            <ul class="bullet-list">
+                                <li>
+                                    <p>청소 로봇 사용량이 많거나 꼼꼼한 관리가 필요한 분에게 적합</p>
+                                </li>
+                                <li>
+                                    <p>하부 센서·바퀴·브러시 주변 등 청소 로봇의 내부 및 하부 분해 집중 관리</p>
+                                    </li>
+                            </ul>
                             </div>
-                        </li>
-                        <li>
-                            <span class="n lg-red" aria-hidden="true">2</span>
-                            <div class="txt-box">
-                                <h4 class="point-title">물걸레 얼룩이 남는다면 물걸레 상태 확인</h4>
-                                <p>물걸레가 심하게 오염되었거나 섬유가 닳으면 물걸레 청소 성능이 떨어질 수 있습니다. 세척 후에도 오염이 남아 있다면 새 물걸레로 교체해 주세요.</p>
                             </div>
-                        </li>
-                        <li>
-                            <span class="n lg-red" aria-hidden="true">3</span>
-                            <div class="txt-box">
-                                <h4 class="point-title">냄새가 걱정된다면 전용 관리제 사용</h4>
-                                <p>오수나 물걸레 냄새가 걱정된다면 LG전자 청소 로봇 전용 관리제를 사용해 보세요. 제품에 맞는 전용 관리제를 사용하면 세척 과정의 위생 관리에 도움이 됩니다.
-                                </p>
-                            </div>
-                        </li>
-                        <li class="tip-item">
-                            <span class="n lg-red tip-text" aria-hidden="true">TIP</span>
-                            <div class="txt-box tip-content">
-                                <div class="tip-copy">
-                                    <h4 class="point-title">LG전자 정품 소모품을 사용해 주세요.</h4>
-                                    <p>제품에 맞지 않는 소모품이나 관리제를 사용하면 청소 성능 저하, 냄새 발생, 제품 고장 등이 생길 수 있습니다. 모델에 맞는 정품 소모품을 확인해 사용해
-                                        주세요.</p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
                 </div>
-    
+
                 <button type="button" class="notice-toggle" aria-expanded="false">
                     <p>유의사항 확인하기</p>
                 </button>
                 <ul class="notice-list is-collapsed">
                     <li>
-                        <p>소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.</p>
+                        <p>소비자의 이해를 돕기 위해 연출된 영상 및 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.</p>
+                        </li>
+                        <li>
+                            <p>에어컨 가전 구독 및 케어십은 프리미엄, 라이트 플러스 상품 중 선택 가능하며, 제공되는 서비스에 따라 케어 방식 및 장비는 상이할 수 있습니다.</p>
+                        </li>
+                        <li>
+                            <p>무상 A/S는 가전 구독 고객에 한하며, 고객 과실로 인한 제품 고장은 제외됩니다.</p>
+                        </li>
+                        <li>
+                            <p>프리미엄 : 분해 세척 케어 서비스, 제품 성능 점검, 필터 클리닝 및 교체, <br class="mo-only">무상 A/S 제공</p>
+                        </li>
+                        <li>
+                            <p>라이트플러스 : 기본 세척 케어 서비스, 제품 성능 점검, 필터 클리닝 및 교체, <br class="mo-only">무상 A/S 제공</p>
+                        </li>
+                        <li>
+                            <p>필터 세척 및 교체는 공기청정 기능이 있는 모델에 한하며, 12개월에 1회 교체 서비스 제공됩니다.</p>
+                        </li>
+                        <li>
+                            <p>케어십은 제품 구매 시점에만 신청 가능하며, 보유 제품은 신청 불가능합니다.</p>
+                        </li>
+                        <li>
+                            <p>라이트 플러스 케어서비스는 12개월 주기로 제공되며, 기본 세척은 36/72개월 차에 진행됩니다.</p>
+                        </li>
+                        <li>
+                            <p>라이트 플러스는 1~2월 구매 시, 같은 해 9월 방문 / 3월 구매 시, 같은 해 10월 방문 / 4월 구매 시, 같은 해 11월 방문 / 5월 구매 시, 다음 해 3월 방문 / 6월 구매 시, 다음
+                                해 4월 방문 / 7월 구매 시, 다음 해 5월 방문 / 8월 구매 시, 다음 해 6월 방문 / 9월 구매 시, 다음 해 9월 방문 / 10월 구매 시 다음 해 10월 방문 / 11~12월 구매 시,
+                                다음 해 11월 방문합니다.</p>
+                        </li>
+                        <li>
+                            <p>프리미엄 케어서비스는 12개월 주기로 제공되며, 분해 세척은 36/72개월 차에 진행됩니다.</p>
+                        </li>
+                        <li>
+                            <p>라이트 플러스는 1~2월 구매 시, 같은 해 9월 방문 / 3월 구매 시, 같은 해 10월 방문 / 4월 구매 시, 같은 해 11월 방문 / 5월 구매 시, 다음 해 3월 방문 / 6월 구매 시, 다음
+                                해 4월 방문 / 7월 구매 시, 다음 해 5월 방문 / 8월 구매 시, 다음 해 6월 방문 / 9월 구매 시, 다음 해 9월 방문 / 10월 구매 시 다음 해 10월 방문 / 11~12월 구매 시,
+                                다음 해 11월 방문합니다.</p>
+                        </li>
+                        <li>
+                            <p>프리미엄 케어서비스는 12개월 주기로 제공되며, 분해 세척은 36/72개월 차에 진행됩니다.</p>
+                        </li>
+                        <li>
+                            <p>프리미엄은 1~3월 구매 시, 다음 해 3월 방문 / 4~6월 구매 시, 다음 해 4월 방문 / 7~8월 구매 시, 다음 해 5월 방문 / 9월 구매 시, 다음 해 9월 방문 / 10월 구매 시, 다음
+                                해 10월 방문 / 11~12월 구매 시, 다음 해 11월 방문합니다.</p>
+                        </li>
+                        <li>
+                            <p>방문 일정은 상황에 따라 변경될 수 있으며 방문 전 케어 서비스 매니저가 사전 연락을 드립니다.</p>
+                        </li>
+                        </ul>
+                        </div>
+                        </section>
+                        
+                        <section class="sec-product mt-140">
+                            <div class="inner-text">
+                                <div class="section-title">
+                                    <span class="num" aria-hidden="true">3</span>
+                                    <h2>구매 후 관리까지 책임지는<br class="mo-only"> 케어십</h2>
+                                </div>
+                                <p class="lead-copy">케어서비스를 받고 싶은데 이미 청소 로봇을 구매했다면, 케어십을 받아보세요.<br>
+                                    일시불로 구매한 제품이나 가전 구독 계약이 종료된 제품은 케어십을 통해 유상 관리 서비스를 이용할 수 있습니다.</p>
+                        
+                                <div class="care-tip-line care-tip-line--section3">
+                                    <p class="care-tip-line__label">TIP</p>
+                                    <p class="care-tip-line__text">보유 제품의 케어십 가능 여부 및 등록 방법은 고객센터(1544-7777)로 문의해 주세요.</p>
+                                </div>
+                        
+                                <ul class="notice-list section3-notice">
+                                    <li>
+                                        <p>소비자의 이해를 돕기 위해 연출된 영상 및 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.</p>
+                                    </li>
+                                    <li>
+                                        <p>제품별로 케어십 가입 여부와 제공 서비스가 다르기 때문에, 보유하신 모델이 케어십 대상인지 확인 바랍니다.</p>
                     </li>
                     <li>
-                        <p>소모품은 사용 환경, 청소 빈도, 바닥 상태에 따라 마모 정도와 교체 주기가 달라질 수 있습니다.</p>
+                        <p>케어십은 유상 관리 서비스이며, 제품에 따라 고장에 대한 무상 A/S 보장 여부와 범위는 제품별·서비스 유형별로 다르게 운영되고 있습니다. 제품별 무상 A/S 가능 범위는 고객센터로 문의해 주세요.</p>
                     </li>
                     <li>
-                        <p>전용 관리제 및 소모품은 제품 모델에 따라 호환 여부가 다를 수 있으므로 구매 전 적용 모델을 확인해 주세요.</p>
+                        <p>케어십 계약기간 이후, 계약 해지 의사가 없을 시 자동 연장됩니다.</p>
                     </li>
                 </ul>
             </div>
@@ -241,9 +679,9 @@
                     <img src="/kr/story/user-guide/img/robot-vacuum-cleaners-care-solutions/banner_pc.png" alt="">
                 </picture>
                 <div class="banner-copy">
-                    <h2>정품 소모품으로<br class="mo-only"> 청소 로봇을 더 깨끗하게<br class="pc-only"> 관리해 보세요</h2>
+                    <h2>청소 로봇,<br> 늘 새것처럼 관리하는 법</h2>
                     <a href="https://www.lge.co.kr/care-solutions/rentalService-aboutcare" target="_blank" rel="noopener"
-                        aria-label="청소 로봇 소모품 자세히 보기 새창 열림">소모품 자세히 보기
+                        aria-label="전문 케어 신청하기 새창 열림">전문 케어 신청하기
                         <img class="banner-cta-icon" src="/kr/story/user-guide/img/common/chevron-right.svg" alt=""
                             aria-hidden="true">
                     </a>
@@ -254,7 +692,7 @@
 
     <script>
         (function () {
-            var rotator = document.querySelector('#snomet.robot-vacuum-cleaners-care-solutions [data-sec2-rotator]');
+            var rotator = document.querySelector('#snomet [data-sec2-rotator]');
             if (!rotator) return;
 
             var slides = rotator.querySelectorAll('.feature-img');
@@ -267,6 +705,76 @@
                 slides[activeIndex].classList.add('is-active');
             }, 1500);
         })();
+
+            (function () {
+                var compareWrap = document.querySelector('#snomet .care-compare-wrap');
+                if (!compareWrap) return;
+
+                var scroller = compareWrap.querySelector('.care-compare-scroller');
+                var slides = compareWrap.querySelectorAll('.care-compare__col');
+                var dots = compareWrap.querySelectorAll('.care-compare__pager button');
+                if (!scroller || slides.length < 2 || dots.length < 2) return;
+
+                var activeIndex = 0;
+
+            function getClosestIndex() {
+                var closestIndex = 0;
+                var closestDistance = Infinity;
+                var scrollerLeft = scroller.getBoundingClientRect().left;
+
+                slides.forEach(function (slide, index) {
+                    var slideLeft = slide.getBoundingClientRect().left - scrollerLeft + scroller.scrollLeft;
+                    var distance = Math.abs(slideLeft - scroller.scrollLeft);
+                    if (distance < closestDistance) {
+                        closestDistance = distance;
+                        closestIndex = index;
+                        }
+                    });
+
+                    return closestIndex;
+                }
+
+                function setActive(index) {
+                    activeIndex = index;
+                    dots.forEach(function (dot, dotIndex) {
+                        dot.classList.toggle('is-active', dotIndex === index);
+                    });
+                }
+
+            function goTo(index) {
+                var slide = slides[index];
+                if (!slide) return;
+                var left = slide.getBoundingClientRect().left - scroller.getBoundingClientRect().left + scroller.scrollLeft;
+
+                scroller.scrollTo({
+                    left: left,
+                    behavior: 'smooth'
+                });
+                setActive(index);
+                }
+
+                dots.forEach(function (dot, index) {
+                    dot.addEventListener('click', function () {
+                        goTo(index);
+                    });
+                });
+
+                scroller.addEventListener('scroll', function () {
+                    window.requestAnimationFrame(function () {
+                        setActive(getClosestIndex());
+                    });
+                }, { passive: true });
+
+            window.addEventListener('resize', function () {
+                var slide = slides[activeIndex];
+                if (slide) {
+                    scroller.scrollLeft = slide.getBoundingClientRect().left - scroller.getBoundingClientRect().left + scroller.scrollLeft;
+                }
+                setActive(getClosestIndex());
+            });
+
+                setActive(getClosestIndex());
+            })();
 
         document.querySelectorAll('#snomet .notice-toggle').forEach(function (button) {
             var noticeList = button.nextElementSibling;
