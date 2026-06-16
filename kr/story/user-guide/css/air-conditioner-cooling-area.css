@@ -684,7 +684,10 @@
 	#gjw008 .table-wrap {
 		margin-top: 13px;
 	}
-
+#gjw008 .table-wrap {
+	border-top: 0.5px solid #000;
+	border-bottom: 0.5px solid #000;
+}
 	#gjw008 .mb-20 {
 		margin-bottom: 13px;
 	}
@@ -833,7 +836,7 @@
 
 	#gjw008 .living-area-table tbody tr:last-child,
 	#gjw008 .bedroom-area-table tbody tr:last-child {
-		border-bottom-color: #000;
+		border-bottom:none;
 	}
 
 	#gjw008 .living-area-table th,
