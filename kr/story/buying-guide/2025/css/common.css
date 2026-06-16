@@ -1138,32 +1138,57 @@
     letter-spacing: 0;
 }
 .buying-guide .compare-wrap > .des3,
-.buying-guide .product-table > .des3 {
+.buying-guide .product-table > .des3,
+.buying-guide [name="product-type"] > .des3.note {
     font-size: 12px;
     color: #666;
     font-weight: 400;
     line-height: 140%;
     letter-spacing: 0;
+}
+.buying-guide .compare-wrap > .des3,
+.buying-guide .product-table > .des3 {
     margin: 20px auto 0 auto;
     max-width: var(--max-table-width);
     min-width: var(--table-width);
 }
+.buying-guide [name="product-type"] > .des3.note {
+    text-align: left;
+}
 .buying-guide .compare-wrap > .des3 .des3-item,
-.buying-guide .product-table > .des3 .des3-item {
+.buying-guide .product-table > .des3 .des3-item,
+.buying-guide [name="product-type"] > .des3.note .des3-item {
     position: relative;
     margin: 0;
     padding-left: 10px;
 }
 .buying-guide .compare-wrap > .des3 .des3-item + .des3-item,
-.buying-guide .product-table > .des3 .des3-item + .des3-item {
+.buying-guide .product-table > .des3 .des3-item + .des3-item,
+.buying-guide [name="product-type"] > .des3.note .des3-item + .des3-item {
     margin-top: 2px;
 }
 .buying-guide .compare-wrap > .des3 .des3-item::before,
-.buying-guide .product-table > .des3 .des3-item::before {
+.buying-guide .product-table > .des3 .des3-item::before,
+.buying-guide [name="product-type"] > .des3.note .des3-item::before {
     content: "*";
     position: absolute;
     top: 0;
     left: 0;
+}
+.buying-guide .compare-wrap > .des3 .des3-item[data-marker]::before,
+.buying-guide .product-table > .des3 .des3-item[data-marker]::before,
+.buying-guide [name="product-type"] > .des3.note .des3-item[data-marker]::before {
+    content: attr(data-marker);
+}
+.buying-guide .compare-wrap > .des3 .des3-item.no-bullet,
+.buying-guide .product-table > .des3 .des3-item.no-bullet,
+.buying-guide [name="product-type"] > .des3.note .des3-item.no-bullet {
+    padding-left: 0;
+}
+.buying-guide .compare-wrap > .des3 .des3-item.no-bullet::before,
+.buying-guide .product-table > .des3 .des3-item.no-bullet::before,
+.buying-guide [name="product-type"] > .des3.note .des3-item.no-bullet::before {
+    content: none;
 }
 .buying-guide .compare-wrap > .des3 .btn-collapse-toggle,
 .buying-guide .product-table > .des3 .btn-collapse-toggle {
@@ -3001,6 +3026,13 @@ line-height: 140%; /* 22.4px */
   .buying-guide .point-box .colWrap .col .media-wrap p {
     font-size: 12px;
     margin-top: 4px;
+  }
+  .buying-guide .product-table .table-wrap .n-text,
+  .buying-guide .product-table .table-wrap .y-text{
+    font-size:12px;
+  }
+  .buying-guide .compare-wrap .procuct-summary .procuct-spec p .des{
+    display:inline-block;
   }
 }
 
