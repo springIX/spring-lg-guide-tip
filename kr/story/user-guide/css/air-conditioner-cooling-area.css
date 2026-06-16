@@ -377,6 +377,21 @@
 	line-height: 1.35;
 }
 
+#gjw008 .living-area-table col:nth-child(1),
+#gjw008 .bedroom-area-table col:nth-child(1) {
+	width: 29.2%;
+}
+
+#gjw008 .living-area-table col:nth-child(2),
+#gjw008 .bedroom-area-table col:nth-child(2) {
+	width: 38.1%;
+}
+
+#gjw008 .living-area-table col:nth-child(3),
+#gjw008 .bedroom-area-table col:nth-child(3) {
+	width: 32.7%;
+}
+
 #gjw008 .tip-panel {
 	margin-top: 46px;
 	border-bottom: 1px solid #a7a7a7;
@@ -413,11 +428,32 @@
 	padding: 0 22px;
 }
 
+#gjw008 .tip-content--area .tip-copy:first-child::after {
+	content: "";
+	display: block;
+	width: calc(100% + 44px);
+	height: 1px;
+	margin: 28px -22px 0;
+	background: #a7a7a7;
+}
+
 #gjw008 .area-conversion-table {
 	margin: 0 22px;
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
 	overflow: hidden;
+}
+
+#gjw008 .area-conversion-table col:nth-child(1),
+#gjw008 .area-conversion-table col:nth-child(3),
+#gjw008 .area-conversion-table col:nth-child(5),
+#gjw008 .area-conversion-table col:nth-child(6) {
+	width: 11.111%;
+}
+
+#gjw008 .area-conversion-table col:nth-child(2),
+#gjw008 .area-conversion-table col:nth-child(4) {
+	width: 27.778%;
 }
 
 #gjw008 .area-conversion-table th,
@@ -745,11 +781,107 @@
 		font-size: 14px;
 	}
 
+	#gjw008 .living-area-table,
+	#gjw008 .living-area-table thead,
+	#gjw008 .living-area-table tbody,
+	#gjw008 .living-area-table tr,
+	#gjw008 .bedroom-area-table,
+	#gjw008 .bedroom-area-table thead,
+	#gjw008 .bedroom-area-table tbody,
+	#gjw008 .bedroom-area-table tr {
+		display: block;
+	}
+
+	#gjw008 .living-area-table tr,
+	#gjw008 .bedroom-area-table tr {
+		display: grid;
+		grid-template-columns: 75px 124px 78px;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#gjw008 .living-area-table tr {
+		grid-template-columns: 70px 120px 80px;
+	}
+
+	#gjw008 .living-area-table thead tr,
+	#gjw008 .bedroom-area-table thead tr {
+		padding: 9px 11px;
+		background: #f3f5f7;
+	}
+
+	#gjw008 .living-area-table thead tr {
+		grid-template-columns: 75px 120px 80px;
+	}
+
+	#gjw008 .living-area-table tbody,
+	#gjw008 .bedroom-area-table tbody {
+		padding-top: 9px;
+		background: #fff;
+	}
+
+	#gjw008 .living-area-table tbody tr,
+	#gjw008 .bedroom-area-table tbody tr {
+		padding: 0 11px 9px;
+		border-bottom: 0.5px solid #a7a7a7;
+	}
+
+	#gjw008 .living-area-table tbody tr + tr,
+	#gjw008 .bedroom-area-table tbody tr + tr {
+		padding-top: 9px;
+	}
+
+	#gjw008 .living-area-table tbody tr:last-child,
+	#gjw008 .bedroom-area-table tbody tr:last-child {
+		border-bottom-color: #000;
+	}
+
+	#gjw008 .living-area-table th,
+	#gjw008 .living-area-table td,
+	#gjw008 .bedroom-area-table th,
+	#gjw008 .bedroom-area-table td {
+		display: block;
+		width: auto;
+		padding: 0;
+		border-top: 0;
+		font-size: 14px;
+		line-height: 1.4;
+		letter-spacing: 0;
+	}
+
+	#gjw008 .living-area-table tr:not(:first-child) td,
+	#gjw008 .bedroom-area-table tr:not(:first-child) td {
+		border-top: 0;
+	}
+
+	#gjw008 .living-area-table td:first-child,
+	#gjw008 .bedroom-area-table td:first-child {
+		width: auto;
+		padding-left: 0;
+	}
+
+	#gjw008 .living-area-table td:nth-child(2),
+	#gjw008 .living-area-table td:nth-child(2) h6,
+	#gjw008 .living-area-table td:nth-child(3),
+	#gjw008 .living-area-table td:nth-child(3) h6,
+	#gjw008 .bedroom-area-table td:nth-child(2),
+	#gjw008 .bedroom-area-table td:nth-child(2) h6,
+	#gjw008 .bedroom-area-table td:nth-child(3),
+	#gjw008 .bedroom-area-table td:nth-child(3) h6 {
+		line-height: 1.6;
+	}
+
 	#gjw008 td:first-child {
 		width: 28%;
 		font-size: 14px;
 		line-height: 1.6;
 		padding-left: 11px;
+	}
+
+	#gjw008 .living-area-table td:first-child,
+	#gjw008 .bedroom-area-table td:first-child {
+		width: auto;
+		padding-left: 0;
 	}
 
 	#gjw008 .tip-panel {
@@ -779,6 +911,12 @@
 		padding: 0;
 	}
 
+	#gjw008 .tip-content--area .tip-copy:first-child::after {
+		width: 100%;
+		height: 0.5px;
+		margin: 13px 0 0;
+	}
+
 	#gjw008 .tip-content--area .tip-copy h5 {
 		margin-bottom: 13px;
 	}
@@ -799,7 +937,7 @@
 
 	#gjw008 .area-conversion-table tr {
 		display: grid;
-		grid-template-columns: 36px 56px 36px 56px 36px 56px;
+		grid-template-columns: 28px 62px 28px 62px 28px 48px;
 		justify-content: space-between;
 		align-items: center;
 	}
