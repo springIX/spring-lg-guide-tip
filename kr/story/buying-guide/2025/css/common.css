@@ -1137,8 +1137,9 @@
     line-height: 140%;
     letter-spacing: 0;
 }
-.buying-guide .compare-wrap > .des3 {
-font-size: 12px;
+.buying-guide .compare-wrap > .des3,
+.buying-guide .product-table > .des3 {
+    font-size: 12px;
     color: #666;
     font-weight: 400;
     line-height: 140%;
@@ -1146,6 +1147,41 @@ font-size: 12px;
     margin: 20px auto 0 auto;
     max-width: var(--max-table-width);
     min-width: var(--table-width);
+}
+.buying-guide .compare-wrap > .des3 .des3-item,
+.buying-guide .product-table > .des3 .des3-item {
+    position: relative;
+    margin: 0;
+    padding-left: 10px;
+}
+.buying-guide .compare-wrap > .des3 .des3-item + .des3-item,
+.buying-guide .product-table > .des3 .des3-item + .des3-item {
+    margin-top: 2px;
+}
+.buying-guide .compare-wrap > .des3 .des3-item::before,
+.buying-guide .product-table > .des3 .des3-item::before {
+    content: "*";
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.buying-guide .compare-wrap > .des3 .btn-collapse-toggle,
+.buying-guide .product-table > .des3 .btn-collapse-toggle {
+    margin-top: 2px;
+}
+.buying-guide .compare-wrap > .des3 .btn-collapse-toggle span,
+.buying-guide .product-table > .des3 .btn-collapse-toggle span,
+.buying-guide .compare-wrap > .des3 .collapse-content p,
+.buying-guide .product-table > .des3 .collapse-content p {
+    font-size: 12px;
+    color: #666;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0;
+}
+.buying-guide .compare-wrap > .des3 .collapse-content p,
+.buying-guide .product-table > .des3 .collapse-content p {
+    margin: 4px 0 0;
 }
 
 .buying-guide .compare-wrap .procuct-summary .procuct-spec p.des {
@@ -1346,6 +1382,10 @@ font-size: 12px;
 .buying-guide .compare-wrap .procuct-summary .procuct-no th {
   padding-top: 20px;
 }
+.buying-guide .compare-wrap .procuct-summary .procuct-no th:last-child {
+
+  border-right: 1px solid #ddd;
+}
 .buying-guide .compare-wrap .procuct-summary .procuct-no {
   font-size: 18px;
   color: inherit;
@@ -1403,9 +1443,15 @@ font-size: 12px;
 .buying-guide
   .compare-wrap
   .procuct-summary
-  .procuct-spec:nth-of-type(odd):not(:last-of-type) {
+  .procuct-spec:nth-of-type(odd) {
   background-color: #f6f6f6;
 }
+/* .buying-guide
+  .compare-wrap
+  .procuct-summary
+  .procuct-spec:nth-of-type(odd):not(:last-of-type) {
+  background-color: #f6f6f6;
+} */
 .buying-guide .compare-wrap .procuct-summary .procuct-spec.last.gray {
   background-color: #f6f6f6;
 }
