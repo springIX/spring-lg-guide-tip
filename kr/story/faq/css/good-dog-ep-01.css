@@ -1,0 +1,1098 @@
+.pc-only {
+  display: block;
+}
+
+.mo-only {
+  display: none;
+}
+
+.highlight span {
+  background: linear-gradient(to top, transparent 15%, #ffcfcf 13%, #ffcfcf 67%, transparent 0%);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  transform: translateY(-50%);
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 0.7;
+  cursor: auto;
+}
+.swiper-button-next.swiper-button-lock,
+.swiper-button-prev.swiper-button-lock {
+  display: none;
+}
+.swiper-button-next:focus-visible,
+.swiper-button-prev:focus-visible {
+  outline: 3px solid #000;
+}
+
+.swiper-button-next {
+  right: -16px;
+  background-image: url('/kr/story/useful-tip/thinq-discover/common/slide-next.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.swiper-button-prev {
+  left: -16px;
+  background-image: url('/kr/story/useful-tip/thinq-discover/common/slide-prev.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.swiper-pagination {
+  position: relative;
+  bottom: 0 !important;
+  margin-top: 18px;
+  text-align: center;
+}
+.swiper-pagination-bullet {
+  position: relative;
+  display: inline-block;
+  opacity: 1;
+  width: 18px;
+  height: 18px;
+  margin: 0 !important;
+  border-radius: 0;
+  background: none;
+}
+.swiper-pagination-bullet::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #fff;
+  transform: translate(-50%, -50%);
+}
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  width: 32px;
+}
+.swiper-pagination-bullet-active::after {
+  width: 24px;
+  border-radius: 6px;
+  background: #000;
+}
+.swiper-pagination-lock {
+  display: none;
+}
+
+.swiper-notification {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1000;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.visual {
+  position: relative;
+  padding: 70px 0 0;
+  text-align: center;
+  background-image: url('/kr/story/faq/images/good-dog-ep-01/img_visual.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff3be;
+}
+.visual__deco {
+  position: relative;
+  width: 100%;
+  height: 75px;
+  margin-top: 156px;
+  background-image: url('/kr/story/faq/images/good-dog-ep-01/img_visual_bottom.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.visual__deco::before {
+  content: '';
+  position: absolute;
+  bottom: 12px;
+  left: 87px;
+  z-index: 2;
+  width: 302px;
+  height: 200px;
+  background-image: url('/kr/story/faq/images/good-dog-ep-01/img_visual_bottom_deco_01.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.visual__deco::after {
+  content: '';
+  position: absolute;
+  right: 87px;
+  bottom: 6px;
+  z-index: 2;
+  width: 380px;
+  height: 221px;
+  background-image: url('/kr/story/faq/images/good-dog-ep-01/img_visual_bottom_deco_02.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.visual__contents {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 44px;
+  margin-top: 44px;
+}
+.visual__eyebrow {
+  display: inline-block;
+  padding: 12px 20px;
+  border: 2px solid #000;
+  border-radius: 500px;
+  box-shadow: 3px 4px 0 0 rgba(72, 59, 34, 0.1490196078);
+  background: #ffea98;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.3;
+}
+.visual__image {
+  max-width: 224px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.visual__image img {
+  width: 100%;
+}
+.visual__title + img {
+  width: 100%;
+  max-width: 663px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.visual__video video {
+  max-width: 447px;
+  border: 4px solid #000;
+  border-radius: 20px;
+  box-shadow: 4px 3px 0 0 #000;
+  aspect-ratio: 1/1;
+}
+.visual-list__title {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.visual-list__title::before {
+  content: '';
+  position: absolute;
+  top: -25px;
+  right: -29px;
+  display: inline-block;
+  width: 34px;
+  height: 29px;
+  background-image: url('/kr/story/faq/images/good-dog-ep-01/ico_star.svg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.visual-list__title::after {
+  content: '';
+  position: absolute;
+  bottom: -18px;
+  left: -10px;
+  display: inline-block;
+  width: 272px;
+  height: 18px;
+  background-image: url('/kr/story/faq/images/good-dog-ep-01/ico_line_01.svg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.visual-list__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
+  margin-top: 35px;
+  padding: 32px 40px;
+  border-radius: 20px;
+  background: rgba(199, 162, 35, 0.1490196078);
+}
+.visual-list__item li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+.visual-list__item li img {
+  width: 72px;
+  height: 72px;
+}
+.visual-list__item li p {
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: left;
+  word-break: keep-all;
+}
+.visual-list__item li p strong {
+  display: block;
+  font-weight: 700;
+}
+@media screen and (max-width: 1024px) {
+  .visual {
+    width: 100%;
+    padding: 100px 0 45.5555555556vw;
+    background-image: url('/kr/story/faq/images/good-dog-ep-01/img_visual_mo.png');
+    background-position: bottom center;
+    aspect-ratio: unset;
+  }
+  .visual__contents {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+  .visual__eyebrow {
+    font-size: 15px;
+    line-height: 1.3;
+  }
+  .visual__image {
+    max-width: 152px;
+    margin-top: 16px;
+  }
+  .visual__title + img + img {
+    max-width: 267px;
+    margin: 16px auto 0;
+  }
+  .visual__video {
+    width: calc(100% - 24px);
+    margin: 20px auto 0;
+  }
+  .visual__video video {
+    width: 100%;
+    max-width: unset;
+    border-width: 2px;
+    box-shadow: 2px 2px 0 0 #000;
+  }
+  .visual-list {
+    width: calc(100% - 24px);
+  }
+  .visual-list__title {
+    font-size: 22px;
+    line-height: 1.4;
+  }
+  .visual-list__title::before {
+    width: 30px;
+    height: 25px;
+  }
+  .visual-list__title::after {
+    bottom: -15px;
+    left: -5px;
+    width: 238px;
+    height: 16px;
+    background-image: url('/kr/story/faq/images/good-dog-ep-01/ico_line_01_mo.svg');
+  }
+  .visual-list__item {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin-top: 22px;
+    padding: 24px 32px;
+  }
+  .visual-list__item li + li {
+    padding-top: 20px;
+    border-top: 1px solid #d8c583;
+  }
+  .visual-list__item li img {
+    width: 48px;
+    height: 48px;
+  }
+  .visual-list__item li p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}
+
+.product__title {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+}
+.product__title::before {
+  content: '';
+  position: absolute;
+  top: -24px;
+  right: -50px;
+  display: inline-block;
+  width: 49px;
+  height: 44px;
+  background-image: url('/kr/story/faq/images/good-dog-ep-01/img_product_deco_01.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.product__title::after {
+  content: '';
+  position: absolute;
+  bottom: -17px;
+  left: 42px;
+  display: inline-block;
+  width: 335px;
+  height: 15px;
+  background-image: url('/kr/story/faq/images/good-dog-ep-01/img_product_deco_02.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.product-swiper {
+  margin-top: 48px;
+}
+.product-swiper .swiper-slide {
+  padding: 20px 20px 40px;
+  border-radius: 40px;
+  background: #f9f8f5;
+  text-align: center;
+}
+.product-swiper__title {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.product-swiper__link {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 12px 28px;
+  border-radius: 500px;
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.product-swiper__link:focus-visible {
+  outline-offset: 3px;
+}
+.product-swiper__link:hover,
+.product-swiper__link:focus {
+  background: #000;
+  color: #fff;
+}
+.product-swiper img {
+  width: 100%;
+}
+@media screen and (max-width: 1900px) {
+  .product-swiper {
+    overflow: visible;
+  }
+  .product-swiper::after {
+    content: '';
+    position: absolute;
+    top: -180px;
+    right: 37px;
+    display: inline-block;
+    width: 204px;
+    height: 181px;
+    background-image: url('/kr/story/faq/images/good-dog-ep-01/img_product_deco.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .product__title {
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: -1.2px;
+  }
+  .product__title::before {
+    top: -25px;
+    right: -25px;
+    width: 31px;
+    height: 28px;
+  }
+  .product__title::after {
+    bottom: -8px;
+    left: 22px;
+    width: 190px;
+    height: 9px;
+  }
+  .product-swiper {
+    overflow: visible;
+    margin-top: 32px;
+  }
+  .product-swiper__title {
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  .product-swiper__link {
+    margin-top: 12px;
+    padding: 10px 24px;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .product-swiper .swiper-slide {
+    padding: 16px 16px 24px;
+    border-radius: 24px;
+  }
+  .product-swiper::after {
+    display: none;
+  }
+}
+
+.more-story {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  overflow: hidden;
+  margin-top: 48px;
+}
+.more-story li {
+  position: relative;
+  overflow: hidden;
+  border-radius: 32px;
+  background: #fff;
+}
+.more-story li.blur {
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.more-story li.blur .blur__text + img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  width: 186px;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  height: 33px;
+  transform: translate(-50%, -50%);
+}
+.more-story li.blur::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 32px;
+  backdrop-filter: blur(5px);
+}
+.more-story__image img {
+  width: 100%;
+  max-width: 330px;
+  border-radius: 32px;
+}
+.more-story__text {
+  padding: 24px 28px 28px;
+}
+.more-story__text span {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: #e42444;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+.more-story__text p {
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  word-break: keep-all;
+}
+.more-story__text p strong {
+  display: block;
+  font-weight: 800;
+}
+@media screen and (max-width: 1024px) {
+  .more-story {
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 24px;
+  }
+  .more-story li {
+    display: flex;
+    gap: 28px;
+    border-radius: 16px;
+  }
+  .more-story li.blur .blur__text + img {
+    width: 136px;
+  }
+  .more-story li.blur::after {
+    border-radius: 16px;
+  }
+  .more-story__image img {
+    max-width: 120px;
+    height: 100%;
+    border-radius: 16px;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  .more-story__text {
+    flex: 1;
+    padding: 19px 24px 19px 0;
+  }
+  .more-story__text span {
+    padding: 4px 12px;
+    font-size: 13px;
+    line-height: 1.4;
+  }
+  .more-story__text p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.48px;
+  }
+}
+
+.section {
+  padding: 140px 0;
+}
+.section__container {
+  max-width: 1412px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.section--product {
+  position: relative;
+  overflow-x: hidden;
+  padding: 120px 0 180px;
+  background: #17884a;
+}
+.section--product::after {
+  content: '';
+  position: absolute;
+  right: -26px;
+  bottom: 0;
+  display: inline-block;
+  width: 360px;
+  height: 318px;
+  background-image: url('/kr/story/faq/images/good-dog-ep-01/img_product_deco.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 1900px) {
+  .section--product::after {
+    display: none;
+  }
+}
+.section--story {
+  background: #f7f6f4;
+}
+.section--story .section__title {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+}
+.section--story .section__title strong {
+  position: relative;
+  color: #f62245;
+}
+.section--story .section__title strong::after {
+  content: '';
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+  width: 405px;
+  height: 9px;
+  background-image: url('/kr/story/faq/images/good-dog-ep-01/ico_line_02.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section--story .section__title::after {
+  content: '';
+  position: absolute;
+  right: -54px;
+  bottom: 23px;
+  width: 64px;
+  height: 66px;
+  background-image: url('/kr/story/faq/images/good-dog-ep-01/ico_footsteps.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section--topfive .section__container {
+  padding: 0 12px;
+}
+.section--topfive .section__container .point-red {
+  color: #f62245;
+}
+.section--topfive .section__container .topfive_title {
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+}
+.section--topfive .section__container .topfive_title span {
+  position: relative;
+}
+.section--topfive .section__container .topfive_title ::after {
+  content: '';
+  position: absolute;
+  top: -13px;
+  right: -36px;
+  width: 40px;
+  height: 30px;
+  background: url('/kr/story/faq/images/good-dog-ep-01/start.svg') no-repeat;
+  background-size: cover;
+}
+.section--topfive .section__container .topfive_title ::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 117px;
+  height: 8px;
+  background: url('/kr/story/faq/images/good-dog-ep-01/line.svg') no-repeat;
+  background-size: cover;
+}
+.section--topfive .section__container .fiveItem {
+  max-width: 1380px;
+  margin-bottom: 20px;
+}
+.section--topfive .section__container .fiveItem:last-child {
+  margin-bottom: 0;
+}
+.section--topfive .section__container .fiveItem--box {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  padding: 48px;
+  border-radius: 16px;
+  background: #ffeeec;
+}
+.section--topfive .section__container .fiveItem--box:nth-of-type(1) .qus-inner-box::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 270px;
+  height: 195px;
+  background: url('/kr/story/faq/images/good-dog-ep-01/top5_01.png') no-repeat;
+  background-size: contain;
+}
+.section--topfive .section__container .fiveItem--box:nth-of-type(2) .qus-inner-box::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 270px;
+  height: 195px;
+  background: url('/kr/story/faq/images/good-dog-ep-01/top5_02.png') no-repeat;
+  background-size: contain;
+}
+.section--topfive .section__container .fiveItem--box:nth-of-type(3) .qus-inner-box::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 270px;
+  height: 195px;
+  background: url('/kr/story/faq/images/good-dog-ep-01/top5_03.png') no-repeat;
+  background-size: contain;
+  transform: translateX(-50%);
+}
+.section--topfive .section__container .fiveItem--box:nth-of-type(4) .qus-inner-box::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 270px;
+  height: 195px;
+  background: url('/kr/story/faq/images/good-dog-ep-01/top5_04.png') no-repeat;
+  background-size: contain;
+}
+.section--topfive .section__container .fiveItem--box:nth-of-type(5) .qus-inner-box::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 270px;
+  height: 195px;
+  background: url('/kr/story/faq/images/good-dog-ep-01/top5_05.png') no-repeat;
+  background-size: contain;
+}
+.section--topfive .section__container .fiveItem--box .qus-box {
+  flex: 0 0 400px;
+  margin-right: 52px;
+  border: 1.5px dotted #f62245;
+  border-radius: 16px;
+}
+.section--topfive .section__container .fiveItem--box .qus-box .qus-inner-box {
+  position: relative;
+  margin: 10px;
+  padding: 40px 40px 231px;
+  border-radius: 16px;
+  background: #fff;
+}
+.section--topfive .section__container .fiveItem--box .qus-box .qus-inner-box .qus-accent {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.section--topfive .section__container .fiveItem--box .qus-box .qus-inner-box .qus-desc {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1.4;
+}
+.section--topfive .section__container .fiveItem--box .answer-box {
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.section--topfive .section__container .fiveItem--box .answer-box::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40%;
+  background: linear-gradient(to bottom, rgba(255, 238, 236, 0), rgb(255, 238, 236) 60%);
+}
+.section--topfive .section__container .fiveItem--box .answer-box.active::after {
+  display: none;
+}
+.section--topfive .section__container .fiveItem--box .answer-box .answer-title {
+  margin-bottom: 36px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  word-break: keep-all;
+}
+.section--topfive .section__container .fiveItem--box .answer-box span {
+  font-weight: 700;
+}
+.section--topfive .section__container .fiveItem--box .answer-box .answer-outBox {
+  position: relative;
+  border: 1.5px dotted #f62245;
+  border-radius: 16px;
+}
+.section--topfive .section__container .fiveItem--box .answer-box .answer-outBox.default {
+  margin-bottom: 0;
+}
+.section--topfive .section__container .fiveItem--box .answer-box .answer-outBox.default .answer-innerBox {
+  height: 214px;
+}
+.section--topfive .section__container .fiveItem--box .answer-box .answer-outBox.active {
+  margin-bottom: 24px;
+}
+.section--topfive .section__container .fiveItem--box .answer-box .answer-outBox.active .answer-innerBox {
+  height: auto;
+}
+.section--topfive .section__container .fiveItem--box .answer-box .answer-outBox .answer-innerBox {
+  overflow: hidden;
+  margin: 10px;
+  padding: 28px 32px;
+  border-radius: 16px;
+  background: #fff;
+}
+.section--topfive .section__container .fiveItem--box .answer-box .answer-outBox .answer-innerBox .sub-txt {
+  margin-bottom: 16px;
+  color: #666;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+.section--topfive .section__container .fiveItem--box .answer-box .answer-outBox .answer-innerBox ul.text {
+  font-weight: 500;
+}
+.section--topfive .section__container .fiveItem--box .answer-box .answer-outBox .answer-innerBox .answer-text {
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  word-break: keep-all;
+}
+.section--topfive .section__container .fiveItem--box .answer-box .answer-outBox .answer-innerBox .answer-text .highlight {
+  color: #f62245;
+  font-weight: 700;
+}
+.section--topfive .section__container .fiveItem--box .answer-box .answer-outBox .answer-innerBox .answer-text-list {
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+.section--topfive .section__container .fiveItem--box .answer-box .answer-outBox .answer-innerBox .answer-text-list li {
+  margin-bottom: 4px;
+}
+.section--topfive .section__container .fiveItem--box .answer-box .answer-outBox .answer-innerBox .answer-text-list li:last-child {
+  margin-bottom: 0;
+}
+.section--topfive .section__container .fiveItem--box .answer-box .answer-outBox .answer-innerBox .answer-desc {
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.6;
+  word-break: keep-all;
+}
+.section--topfive .section__container .fiveItem--box .answer-box .answer-outBox .answer-innerBox .answer-desc:last-child {
+  margin-bottom: 0;
+}
+.section--topfive .section__container .fiveItem--box .answer-box .answer-outBox .answer-innerBox .answer-desc.bold {
+  font-size: 20px;
+  font-weight: 700;
+}
+.section--topfive .section__container .fiveItem--box .answer-box .answer-outBox .answer-innerBox .answer-desc.semi-bold {
+  font-size: 18px;
+  font-weight: 600;
+}
+.section--topfive .section__container .fiveItem--box .answer-box .answer-outBox .answer-innerBox.active {
+  height: auto;
+}
+.section--topfive .section__container .fiveItem--box .answer-box .answer-outBox .answer-innerBox ::after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -14px;
+  width: 39px;
+  height: 29px;
+  background: url('/kr/story/faq/images/good-dog-ep-01/Union.svg');
+  background-size: cover;
+}
+.section--topfive .section__container .fiveItem--box .answer-box .answer-outBox .answer-innerBox ::before {
+  content: '';
+  position: absolute;
+  right: -3px;
+  bottom: -7px;
+  width: 39px;
+  height: 29px;
+  background: url('/kr/story/faq/images/good-dog-ep-01/Union_under.svg');
+  background-size: cover;
+}
+.section--topfive .section__container .fiveItem--box .answer-box .button-box {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section--topfive .section__container .fiveItem--box .answer-box .button-box .toggle-btn {
+  width: 40px;
+  height: 40px;
+}
+.section--topfive .section__container .fiveItem--box .answer-box .button-box .toggle-btn:focus {
+  outline-offset: 3px;
+}
+.section--topfive .section__container .fiveItem--box .answer-box .button-box .toggle-btn img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transform: translateX(-50%);
+}
+.section--topfive .section__container .fiveItem--box .answer-box .button-box .default {
+  z-index: 1;
+}
+.section--topfive .section__container .fiveItem--box .answer-box .button-box .active {
+  bottom: -88px;
+  z-index: 0;
+  display: none;
+}
+.section--topfive .section__container .fiveItem--box.removeAction .button-box {
+  display: none;
+}
+.section--topfive .section__container .fiveItem--box.removeAction .answer-box::after {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .pc-only {
+    display: none;
+  }
+  .mo-only {
+    display: block;
+  }
+  .section {
+    padding: 80px 0;
+  }
+  .section--product {
+    padding: 60px 0 136px;
+  }
+  .section--product .section__container {
+    padding: 0 24px;
+  }
+  .section--product::after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+    display: inline-block;
+    width: 152px;
+    height: 134px;
+    background-image: url('/kr/story/faq/images/good-dog-ep-01/img_product_deco.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .section--story .section__container {
+    padding: 0 12px;
+  }
+  .section--story .section__title {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+  .section--story .section__title strong::after {
+    bottom: -3px;
+    width: 243px;
+    height: 6px;
+    background-image: url('/kr/story/faq/images/good-dog-ep-01/ico_line_02_mo.svg');
+  }
+  .section--story .section__title::after {
+    right: 16%;
+    bottom: -6px;
+    width: 40px;
+    height: 40px;
+  }
+  .section--topfive .section__container .topfive_title {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  .section--topfive .section__container .topfive_title ::after {
+    content: '';
+    position: absolute;
+    top: -8px;
+    right: -15px;
+    width: 19px;
+    height: 16px;
+    background: url('/kr/story/faq/images/good-dog-ep-01/star_mo.svg') no-repeat;
+    background-size: cover;
+  }
+  .section--topfive .section__container .topfive_title ::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 74px;
+    height: 5px;
+    background: url('/kr/story/faq/images/good-dog-ep-01/line_mo.svg') no-repeat;
+    background-size: cover;
+  }
+  .section--topfive .section__container .fiveItem--box {
+    position: relative;
+    display: inherit;
+    padding: 16px;
+    border-radius: 24px;
+  }
+  .section--topfive .section__container .fiveItem--box:nth-of-type(1) .qus-inner-box::after,
+  .section--topfive .section__container .fiveItem--box:nth-of-type(2) .qus-inner-box::after,
+  .section--topfive .section__container .fiveItem--box:nth-of-type(3) .qus-inner-box::after,
+  .section--topfive .section__container .fiveItem--box:nth-of-type(4) .qus-inner-box::after,
+  .section--topfive .section__container .fiveItem--box:nth-of-type(5) .qus-inner-box::after {
+    width: 218px;
+    height: 150px;
+  }
+  .section--topfive .section__container .fiveItem--box .qus-box {
+    margin-right: 0;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  .section--topfive .section__container .fiveItem--box .qus-box .qus-inner-box {
+    margin: 8px;
+    padding: 20px 20px 180px;
+    border-radius: 16px;
+  }
+  .section--topfive .section__container .fiveItem--box .qus-box .qus-inner-box .qus-accent {
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  .section--topfive .section__container .fiveItem--box .qus-box .qus-inner-box .qus-desc {
+    font-size: 20px;
+    letter-spacing: -0.3px;
+  }
+  .section--topfive .section__container .fiveItem--box .answer-box .answer-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .section--topfive .section__container .fiveItem--box .answer-box .answer-outBox.default .answer-innerBox {
+    height: 80px;
+  }
+  .section--topfive .section__container .fiveItem--box .answer-box .answer-outBox.active .answer-innerBox {
+    height: auto;
+  }
+  .section--topfive .section__container .fiveItem--box .answer-box .answer-outBox .answer-innerBox {
+    margin: 8px;
+    padding: 20px;
+  }
+  .section--topfive .section__container .fiveItem--box .answer-box .answer-outBox .answer-innerBox .answer-text {
+    font-size: 15px;
+    word-break: keep-all;
+  }
+  .section--topfive .section__container .fiveItem--box .answer-box .answer-outBox .answer-innerBox .sub-txt {
+    font-size: 15px;
+  }
+  .section--topfive .section__container .fiveItem--box .answer-box .answer-outBox .answer-innerBox .answer-text-list {
+    margin-bottom: 16px;
+    font-size: 15px;
+  }
+  .section--topfive .section__container .fiveItem--box .answer-box .answer-outBox .answer-innerBox .answer-text-list li {
+    margin-bottom: 8px;
+  }
+  .section--topfive .section__container .fiveItem--box .answer-box .answer-outBox .answer-innerBox .answer-text-list li:last-child {
+    margin-bottom: 0;
+  }
+  .section--topfive .section__container .fiveItem--box .answer-box .answer-outBox .answer-innerBox .answer-desc {
+    margin-bottom: 16px;
+    font-size: 16px;
+  }
+  .section--topfive .section__container .fiveItem--box .answer-box .answer-outBox .answer-innerBox .answer-desc:last-child {
+    margin-bottom: 0;
+  }
+  .section--topfive .section__container .fiveItem--box .answer-box .answer-outBox .answer-innerBox .answer-desc.bold {
+    font-size: 16px;
+  }
+  .section--topfive .section__container .fiveItem--box .answer-box .answer-outBox .answer-innerBox .answer-desc.semi-bold {
+    font-size: 16px;
+  }
+  .section--topfive .section__container .fiveItem--box .answer-box .button-box .default {
+    bottom: -20px;
+  }
+}

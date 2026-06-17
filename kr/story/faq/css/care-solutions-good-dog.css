@@ -1,0 +1,3084 @@
+.pc-only {
+  display: block;
+}
+
+.mo-only {
+  display: none;
+}
+
+.highlight span {
+  background: linear-gradient(
+    to top,
+    transparent 15%,
+    #ffcfcf 13%,
+    #ffcfcf 67%,
+    transparent 0%
+  );
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  transform: translateY(-50%);
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 0.7;
+  cursor: auto;
+}
+.swiper-button-next.swiper-button-lock,
+.swiper-button-prev.swiper-button-lock {
+  display: none;
+}
+.swiper-button-next:focus-visible,
+.swiper-button-prev:focus-visible {
+  outline: 3px solid #000;
+}
+
+.swiper-button-next {
+  right: -16px;
+  background-image: url("https://www.lge.co.kr/kr/story/useful-tip/thinq-discover/common/slide-next.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.swiper-button-prev {
+  left: -16px;
+  background-image: url("https://www.lge.co.kr/kr/story/useful-tip/thinq-discover/common/slide-prev.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.swiper-pagination {
+  position: relative;
+  bottom: 0 !important;
+  margin-top: 18px;
+  text-align: center;
+}
+.swiper-pagination-bullet {
+  position: relative;
+  display: inline-block;
+  opacity: 1;
+  width: 18px;
+  height: 18px;
+  margin: 0 !important;
+  border-radius: 0;
+  background: none;
+}
+.swiper-pagination-bullet::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #fff;
+  transform: translate(-50%, -50%);
+}
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  width: 32px;
+}
+.swiper-pagination-bullet-active::after {
+  width: 24px;
+  border-radius: 6px;
+  background: #000;
+}
+.swiper-pagination-lock {
+  display: none;
+}
+
+.swiper-notification {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1000;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.visual {
+  position: relative;
+  padding: 70px 0 0;
+  text-align: center;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/img_visual.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff3be;
+}
+.visual__deco {
+  position: relative;
+  width: 100%;
+  height: 75px;
+  margin-top: 156px;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/img_visual_bottom.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.visual__deco::before {
+  content: "";
+  position: absolute;
+  bottom: 12px;
+  left: 87px;
+  z-index: 2;
+  width: 302px;
+  height: 200px;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/img_visual_bottom_deco_01.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.visual__deco::after {
+  content: "";
+  position: absolute;
+  right: 87px;
+  bottom: 6px;
+  z-index: 2;
+  width: 380px;
+  height: 221px;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/img_visual_bottom_deco_02.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.visual__contents {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 44px;
+  margin-top: 44px;
+}
+.visual__eyebrow {
+  display: inline-block;
+  padding: 12px 20px;
+  border: 2px solid #000;
+  border-radius: 500px;
+  box-shadow: 3px 4px 0 0 rgba(72, 59, 34, 0.1490196078);
+  background: #ffea98;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.3;
+}
+.visual__image {
+  max-width: 224px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.visual__image img {
+  width: 100%;
+}
+.visual__title + img {
+  width: 100%;
+  max-width: 663px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.visual__video video {
+  max-width: 447px;
+  border: 4px solid #000;
+  border-radius: 20px;
+  box-shadow: 4px 3px 0 0 #000;
+  aspect-ratio: 1/1;
+}
+.visual-list__title {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.visual-list__title::before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  right: -29px;
+  display: inline-block;
+  width: 34px;
+  height: 29px;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/ico_star.svg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.visual-list__title::after {
+  content: "";
+  position: absolute;
+  bottom: -18px;
+  left: -10px;
+  display: inline-block;
+  width: 272px;
+  height: 18px;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/ico_line_01.svg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.visual-list__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
+  margin-top: 35px;
+  padding: 32px 40px;
+  border-radius: 20px;
+  background: rgba(199, 162, 35, 0.1490196078);
+}
+.visual-list__item li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+.visual-list__item li img {
+  width: 72px;
+  height: 72px;
+}
+.visual-list__item li p {
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: left;
+  word-break: keep-all;
+}
+.visual-list__item li p strong {
+  display: block;
+  font-weight: 700;
+}
+.visual--secondary {
+  background-color: #ffd4d4;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-02/img_visual.png");
+}
+.visual--secondary .visual__title + img {
+  max-width: 501px;
+}
+.visual--secondary .visual-list__item {
+  border: 1px solid rgba(255, 255, 255, 0.502);
+  background: rgba(255, 101, 104, 0.149);
+}
+.visual--tertiary {
+  background-color: #e4f1bb;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-03/img_visual.png");
+}
+.visual--tertiary .visual__title + img {
+  max-width: 595px;
+}
+.visual--tertiary .visual-list__item {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(113, 189, 63, 0.149);
+}
+.visual--tertiary .visual-list__item li:nth-of-type(1) p strong {
+  display: inline;
+}
+.visual--quaternary {
+  background-color: #c9eaf9;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-04/img_visual.png");
+}
+.visual--quaternary .visual__title + img {
+  max-width: 336px;
+}
+.visual--quaternary .visual-list__item {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(83, 189, 239, 0.149);
+}
+.visual--quinary {
+  background-color: #eed0ff;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-05/img_visual.png");
+}
+.visual--quinary .visual__title + img {
+  max-width: 855px;
+}
+.visual--quinary .visual-list__item {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(163, 83, 239, 0.149);
+}
+.visual--senary {
+  background-color: #f8ead8;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-06/img_visual.png");
+}
+.visual--senary .visual__title + img {
+  max-width: 900px;
+}
+.visual--senary .visual-list__item {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(228, 213, 193, 0.502);
+}
+@media screen and (max-width: 1024px) {
+  .visual {
+    width: 100%;
+    padding: 100px 0 45.5555555556vw;
+    background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/img_visual_mo.png");
+    background-position: bottom center;
+    aspect-ratio: unset;
+  }
+  .visual__contents {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-top: 0;
+  }
+  .visual__eyebrow {
+    font-size: 15px;
+    line-height: 1.3;
+  }
+  .visual__image {
+    max-width: 152px;
+    margin-top: 16px;
+  }
+  .visual__title + img + img {
+    max-width: 267px;
+    margin: 16px auto 0;
+  }
+  .visual__video {
+    width: calc(100% - 24px);
+    margin: 20px auto 0;
+  }
+  .visual__video video {
+    width: 100%;
+    max-width: unset;
+    border-width: 2px;
+    box-shadow: 2px 2px 0 0 #000;
+  }
+  .visual-list {
+    width: calc(100% - 24px);
+  }
+  .visual-list__title {
+    font-size: 22px;
+    line-height: 1.4;
+  }
+  .visual-list__title::before {
+    width: 30px;
+    height: 25px;
+  }
+  .visual-list__title::after {
+    bottom: -15px;
+    left: -5px;
+    width: 238px;
+    height: 16px;
+    background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/ico_line_01_mo.svg");
+  }
+  .visual-list__item {
+    flex-direction: column;
+    gap: 27px;
+    width: 100%;
+    margin-top: 22px;
+    padding: 24px 32px;
+  }
+  .visual-list__item li + li {
+    border: none;
+  }
+  .visual-list__item li img {
+    width: 48px;
+    height: 48px;
+  }
+  .visual-list__item li p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  .visual--secondary {
+    background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-02/img_visual_mo.png");
+  }
+  .visual--secondary .visual__title + img + img {
+    max-width: 174px;
+  }
+  .visual--tertiary {
+    background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-03/img_visual_mo.png");
+  }
+  .visual--tertiary .visual__title + img + img {
+    max-width: 229px;
+  }
+  .visual--quaternary {
+    background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-04/img_visual_mo.png");
+  }
+  .visual--quaternary .visual__title + img + img {
+    max-width: 241px;
+  }
+  .visual--quaternary .visual-list__item li:nth-of-type(2) p strong {
+    display: inline;
+  }
+  .visual--quinary {
+    background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-05/img_visual_mo.png");
+  }
+  .visual--quinary .visual__title + img + img {
+    max-width: 329px;
+  }
+  .visual--senary {
+    background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-06/img_visual_mo.png");
+  }
+  .visual--senary .visual__title + img + img {
+    max-width: 324px;
+  }
+}
+
+.product__title {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+}
+.product__title::before {
+  content: "";
+  position: absolute;
+  top: -24px;
+  right: -50px;
+  display: inline-block;
+  width: 49px;
+  height: 44px;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/img_product_deco_01.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.product__title::after {
+  content: "";
+  position: absolute;
+  bottom: -17px;
+  left: 42px;
+  display: inline-block;
+  width: 335px;
+  height: 15px;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/img_product_deco_02.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.product__title--secondary::after {
+  bottom: -10px;
+  left: 110px;
+  width: 232px;
+  height: 11px;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-06/img_product_deco_02.svg");
+}
+.product-content {
+  position: relative;
+  overflow: hidden;
+  width: calc(100% + 32px);
+  padding: 0 16px;
+}
+.product-swiper {
+  overflow: visible;
+  margin-top: 48px;
+}
+.product-swiper .swiper-wrapper {
+  align-items: stretch;
+}
+.product-swiper .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 20px 20px 40px;
+  border-radius: 40px;
+  background: #f9f8f5;
+  text-align: center;
+}
+.product-swiper__title {
+  flex: 1;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4;
+  word-break: keep-all;
+}
+.product-swiper__desc {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+.product-swiper__link {
+  display: inline-block;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 16px auto 0;
+  padding: 12px 28px;
+  border-radius: 500px;
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.product-swiper__link:focus-visible {
+  outline-offset: 3px;
+}
+.product-swiper__link:hover,
+.product-swiper__link:focus {
+  background: #000;
+  color: #fff;
+}
+.product-swiper img {
+  width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  .product__title {
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: -1.2px;
+  }
+  .product__title::before {
+    top: -25px;
+    right: -25px;
+    width: 31px;
+    height: 28px;
+  }
+  .product__title::after {
+    bottom: -8px;
+    left: 22px;
+    width: 190px;
+    height: 9px;
+  }
+  .product__title--secondary::after {
+    left: 55px;
+    width: 149px;
+    height: 6px;
+  }
+  .product-content {
+    overflow: visible;
+    width: 100%;
+    padding: 0;
+  }
+  .product-swiper {
+    overflow: visible;
+    margin-top: 32px;
+  }
+  .product-swiper__title {
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  .product-swiper__link {
+    margin-top: 12px;
+    padding: 10px 24px;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .product-swiper__desc {
+    flex: 1;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .product-swiper .swiper-slide {
+    padding: 16px 16px 24px;
+    border-radius: 24px;
+  }
+  .product-swiper::after {
+    display: none;
+  }
+}
+
+.more-story {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  overflow: hidden;
+  margin-top: 48px;
+}
+.more-story li {
+  position: relative;
+  border-radius: 32px;
+  background: #fff;
+}
+.more-story li > a {
+  display: block;
+}
+.more-story li.blur {
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.more-story li.blur .blur__text + img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  width: 186px;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  height: 33px;
+  transform: translate(-50%, -50%);
+}
+.more-story li.blur::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 32px;
+  background: rgba(68, 68, 68, 0.5);
+}
+.more-story__image img {
+  width: 100%;
+  max-width: 330px;
+  border-radius: 32px;
+}
+.more-story__text {
+  padding: 24px 28px 28px;
+}
+.more-story__text span {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: #e42444;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+.more-story__text p {
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  word-break: keep-all;
+}
+.more-story__text p strong {
+  display: block;
+  font-weight: 800;
+}
+@media screen and (max-width: 1024px) {
+  .more-story {
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 24px;
+  }
+  .more-story li {
+    border-radius: 16px;
+  }
+  .more-story li a {
+    display: flex;
+    gap: 28px;
+  }
+  .more-story li.blur .blur__text + img {
+    width: 136px;
+  }
+  .more-story li.blur::after {
+    border-radius: 16px;
+  }
+  .more-story__image img {
+    max-width: 120px;
+    height: 100%;
+    border-radius: 16px;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  .more-story__text {
+    flex: 1;
+    padding: 19px 24px 19px 0;
+  }
+  .more-story__text span {
+    padding: 4px 12px;
+    font-size: 13px;
+    line-height: 1.4;
+  }
+  .more-story__text p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.48px;
+  }
+}
+
+.section {
+  padding: 140px 0;
+}
+.section-link {
+  width: 100%;
+  max-width: 1420px;
+  padding: 0 20px;
+}
+.section-link .swiper-wrapper {
+  align-items: stretch;
+}
+.section-link .swiper-slide {
+  height: auto;
+}
+.section-link .swiper-slide a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  height: 100%;
+  padding: 12px 29px 12px 12px;
+  border-radius: 500px;
+  background: #f7f6f4;
+}
+.section-link .swiper-slide.blur {
+  position: relative;
+}
+.section-link .swiper-slide.blur .blur__text + img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  max-width: 125px;
+  transform: translate(-50%, -50%);
+}
+.section-link .swiper-slide.blur a {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+.section-link .swiper-slide.blur a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 500px;
+  background: rgba(68, 68, 68, 0.749);
+}
+.section-link .swiper-button-prev {
+  left: 5px;
+}
+.section-link .swiper-button-next {
+  right: 5px;
+}
+.section-link .swiper-pagination-bullet::after {
+  background: #8f8f8f;
+}
+.section-link .swiper-pagination-bullet-active::after {
+  background: #e42444;
+}
+.section-link__image {
+  width: 88px;
+}
+.section-link__image img {
+  width: 100%;
+}
+.section-link__text span {
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #e42444;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+.section-link__text p {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  word-break: keep-all;
+}
+.section-link__text strong {
+  display: block;
+  margin-top: 2px;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.5;
+}
+.section__container {
+  max-width: 1412px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.section--product {
+  position: relative;
+  overflow-x: hidden;
+  padding: 120px 0 180px;
+  background: #17884a;
+}
+.section--product::after {
+  content: "";
+  position: absolute;
+  right: -26px;
+  bottom: 0;
+  display: inline-block;
+  width: 360px;
+  height: 318px;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/img_product_deco.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 1900px) {
+  .section--product::after {
+    display: none;
+  }
+  .section--product .section__container {
+    position: relative;
+  }
+  .section--product .section__container::after {
+    content: "";
+    position: absolute;
+    top: -28px;
+    right: 25px;
+    display: inline-block;
+    width: 204px;
+    height: 181px;
+    background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/img_product_deco.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .section--product .section__container::after {
+    display: none;
+  }
+}
+.section--story {
+  background: #f7f6f4;
+}
+.section--story .section__title {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+}
+.section--story .section__title strong {
+  position: relative;
+  color: #f62245;
+}
+.section--story .section__title strong::after {
+  content: "";
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+  width: 405px;
+  height: 9px;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/ico_line_02.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section--story .section__title::after {
+  content: "";
+  position: absolute;
+  right: -54px;
+  bottom: 23px;
+  width: 64px;
+  height: 66px;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/ico_footsteps.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section--topfive {
+  padding-top: 120px;
+}
+.section--topfive .section__container {
+  padding: 0 12px;
+}
+.section--topfive .section__container .point-red {
+  color: #f62245;
+}
+.section--topfive .section__container .topfive_title {
+  margin: 80px 0 40px;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+}
+.section--topfive .section__container .topfive_title span {
+  position: relative;
+}
+.section--topfive .section__container .topfive_title ::after {
+  content: "";
+  position: absolute;
+  top: -13px;
+  right: -36px;
+  width: 40px;
+  height: 30px;
+  background: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/start.svg")
+    no-repeat;
+  background-size: cover;
+}
+.section--topfive .section__container .topfive_title ::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 117px;
+  height: 8px;
+  background: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/line.svg")
+    no-repeat;
+  background-size: cover;
+}
+.section--topfive .section__container .fiveItem {
+  max-width: 1380px;
+}
+.section--topfive .section__container .fiveItem__box {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  padding: 48px;
+  border-radius: 16px;
+  background: #ffeeec;
+}
+.section--topfive
+  .section__container
+  .fiveItem__box:nth-of-type(1)
+  .qus-inner-box::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 270px;
+  height: 195px;
+  background: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/top5_01.png")
+    no-repeat;
+  background-size: contain;
+}
+.section--topfive
+  .section__container
+  .fiveItem__box:nth-of-type(2)
+  .qus-inner-box::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 270px;
+  height: 195px;
+  background: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/top5_02.png")
+    no-repeat;
+  background-size: contain;
+}
+.section--topfive
+  .section__container
+  .fiveItem__box:nth-of-type(3)
+  .qus-inner-box::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 270px;
+  height: 195px;
+  background: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/top5_03.png")
+    no-repeat;
+  background-size: contain;
+  transform: translateX(-50%);
+}
+.section--topfive
+  .section__container
+  .fiveItem__box:nth-of-type(4)
+  .qus-inner-box::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 270px;
+  height: 195px;
+  background: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/top5_04.png")
+    no-repeat;
+  background-size: contain;
+}
+.section--topfive
+  .section__container
+  .fiveItem__box:nth-of-type(5)
+  .qus-inner-box::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 270px;
+  height: 195px;
+  background: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/top5_05.png")
+    no-repeat;
+  background-size: contain;
+}
+.section--topfive .section__container .fiveItem__box .qus-box {
+  flex: 0 0 400px;
+  margin-right: 52px;
+  border: 1.5px dotted #f62245;
+  border-radius: 16px;
+}
+.section--topfive .section__container .fiveItem__box .qus-box .qus-inner-box {
+  position: relative;
+  margin: 10px;
+  padding: 40px 40px 231px;
+  border-radius: 16px;
+  background: #fff;
+}
+.section--topfive
+  .section__container
+  .fiveItem__box
+  .qus-box
+  .qus-inner-box
+  .qus-accent {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.section--topfive
+  .section__container
+  .fiveItem__box
+  .qus-box
+  .qus-inner-box
+  .qus-desc {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1.4;
+}
+.section--topfive .section__container .fiveItem__box .answer-box {
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.section--topfive .section__container .fiveItem__box .answer-box::after {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40%;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 238, 236, 0),
+    rgb(255, 238, 236) 60%
+  );
+}
+.section--topfive .section__container .fiveItem__box .answer-box.active::after {
+  display: none;
+}
+.section--topfive .section__container .fiveItem__box .answer-box span {
+  font-weight: 700;
+}
+.section--topfive .section__container .fiveItem__box .answer-box .button-box {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 3;
+}
+.section--topfive
+  .section__container
+  .fiveItem__box
+  .answer-box
+  .button-box
+  .toggle-btn {
+  width: 40px;
+  height: 40px;
+}
+.section--topfive
+  .section__container
+  .fiveItem__box
+  .answer-box
+  .button-box
+  .toggle-btn:focus {
+  outline-offset: 3px;
+}
+.section--topfive
+  .section__container
+  .fiveItem__box
+  .answer-box
+  .button-box
+  .toggle-btn
+  img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transform: translateX(-50%);
+}
+.section--topfive
+  .section__container
+  .fiveItem__box
+  .answer-box
+  .button-box
+  .default {
+  z-index: 1;
+}
+.section--topfive
+  .section__container
+  .fiveItem__box
+  .answer-box
+  .button-box
+  .active {
+  bottom: -88px;
+  z-index: 0;
+  display: none;
+}
+.section--topfive .section__container .fiveItem__box .answer-title {
+  margin-bottom: 36px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  word-break: keep-all;
+  order: 1;
+}
+.section--topfive .section__container .fiveItem__box .answer-outBox {
+  position: relative;
+  border: 1.5px dotted #f62245;
+  border-radius: 16px;
+  order: 2;
+}
+.section--topfive .section__container .fiveItem__box .answer-outBox.default {
+  margin-bottom: 0;
+}
+.section--topfive
+  .section__container
+  .fiveItem__box
+  .answer-outBox.default
+  .answer-innerBox {
+  height: 214px;
+}
+.section--topfive .section__container .fiveItem__box .answer-outBox.active {
+  margin-bottom: 24px;
+}
+.section--topfive
+  .section__container
+  .fiveItem__box
+  .answer-outBox.active
+  .answer-innerBox {
+  height: auto;
+}
+.section--topfive .section__container .fiveItem__box .answer-innerBox {
+  overflow: hidden;
+  margin: 10px;
+  padding: 28px 32px;
+  border-radius: 16px;
+  background: #fff;
+}
+.section--topfive .section__container .fiveItem__box .answer-innerBox .sub-txt {
+  margin-bottom: 16px;
+  color: #666;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+.section--topfive .section__container .fiveItem__box .answer-innerBox ul.text {
+  font-weight: 500;
+}
+.section--topfive
+  .section__container
+  .fiveItem__box
+  .answer-innerBox
+  .answer-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  word-break: keep-all;
+}
+.section--topfive
+  .section__container
+  .fiveItem__box
+  .answer-innerBox
+  .answer-text
+  i {
+  font-style: unset;
+}
+.section--topfive
+  .section__container
+  .fiveItem__box
+  .answer-innerBox
+  .answer-text
+  .highlight {
+  color: #f62245;
+  font-weight: 700;
+}
+.section--topfive
+  .section__container
+  .fiveItem__box
+  .answer-innerBox
+  .answer-text
+  + .answer-text {
+  margin-top: 12px;
+}
+.section--topfive
+  .section__container
+  .fiveItem__box
+  .answer-innerBox
+  .answer-text__button {
+  color: #639604;
+  font-weight: 700;
+}
+.section--topfive
+  .section__container
+  .fiveItem__box
+  .answer-innerBox
+  .answer-text__button::after {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 12px;
+  margin-left: 8px;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-06/ico_arrow_link.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  transform: translateY(1px);
+}
+.section--topfive
+  .section__container
+  .fiveItem__box
+  .answer-innerBox
+  .answer-text__ai {
+  border-bottom: 1px solid #639604;
+  color: #639604;
+  font-weight: 700;
+}
+.section--topfive
+  .section__container
+  .fiveItem__box
+  .answer-innerBox
+  .answer-text-list {
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+.section--topfive
+  .section__container
+  .fiveItem__box
+  .answer-innerBox
+  .answer-text-list
+  li {
+  margin-bottom: 4px;
+}
+.section--topfive
+  .section__container
+  .fiveItem__box
+  .answer-innerBox
+  .answer-text-list
+  li:last-child {
+  margin-bottom: 0;
+}
+.section--topfive
+  .section__container
+  .fiveItem__box
+  .answer-innerBox
+  .answer-desc {
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.6;
+  word-break: keep-all;
+}
+.section--topfive
+  .section__container
+  .fiveItem__box
+  .answer-innerBox
+  .answer-desc:last-child {
+  margin-bottom: 0;
+}
+.section--topfive
+  .section__container
+  .fiveItem__box
+  .answer-innerBox
+  .answer-desc.bold {
+  font-size: 20px;
+  font-weight: 700;
+}
+.section--topfive
+  .section__container
+  .fiveItem__box
+  .answer-innerBox
+  .answer-desc.semi-bold {
+  font-size: 18px;
+  font-weight: 600;
+}
+.section--topfive .section__container .fiveItem__box .answer-innerBox.active {
+  height: auto;
+}
+.section--topfive .section__container .fiveItem__box .answer-innerBox::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -14px;
+  width: 39px;
+  height: 29px;
+  background: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/Union.svg");
+  background-size: cover;
+}
+.section--topfive .section__container .fiveItem__box .answer-innerBox::before {
+  content: "";
+  position: absolute;
+  right: -3px;
+  bottom: -7px;
+  width: 39px;
+  height: 29px;
+  background: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/Union_under.svg");
+  background-size: cover;
+}
+.section--topfive .section__container .fiveItem__box .answer-disclaimer {
+  margin-top: 12px;
+  padding: 16px 20px;
+  border-radius: 16px;
+  background: #f5f5f5;
+}
+.section--topfive .section__container .fiveItem__box .answer-disclaimer li {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.section--topfive .section__container .fiveItem__box.removeAction .button-box {
+  display: none;
+}
+.section--topfive
+  .section__container
+  .fiveItem__box.removeAction
+  .answer-box::after {
+  display: none;
+}
+.section--topfive .section__container .fiveItem__box + .fiveItem__box {
+  margin-top: 20px;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--secondary
+  .fiveItem__box {
+  background-color: #fcf6df;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--secondary
+  .fiveItem__box
+  .point-red {
+  color: #ec5700;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--secondary
+  .fiveItem__box
+  .qus-box {
+  border-color: #ec5700;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--secondary
+  .fiveItem__box
+  .qus-inner-box {
+  aspect-ratio: 1/1;
+  padding-right: 20px;
+  padding-bottom: 0;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--secondary
+  .fiveItem__box
+  .qus-inner-box
+  .qus-accent
+  span {
+  background: linear-gradient(
+    to top,
+    transparent 15%,
+    #ffd8bd 13%,
+    #ffd8bd 67%,
+    transparent 0%
+  );
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--secondary
+  .fiveItem__box:nth-of-type(1)
+  .qus-inner-box::after {
+  left: 50%;
+  width: 241px;
+  height: 146px;
+  transform: translateX(-50%);
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-02/top5_01.png");
+  background-size: cover;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--secondary
+  .fiveItem__box:nth-of-type(2)
+  .qus-inner-box::after {
+  right: 25px;
+  width: 200px;
+  height: 122px;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-02/top5_02.png");
+  background-size: cover;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--secondary
+  .fiveItem__box:nth-of-type(3)
+  .qus-inner-box::after {
+  left: 50%;
+  width: 282px;
+  height: 158px;
+  transform: translateX(-50%);
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-02/top5_03.png");
+  background-size: cover;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--secondary
+  .fiveItem__box:nth-of-type(4)
+  .qus-inner-box::after {
+  width: 270px;
+  height: 195px;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-02/top5_04.png");
+  background-size: cover;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--secondary
+  .fiveItem__box
+  .answer-text
+  .highlight {
+  color: #ec5700;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--secondary
+  .fiveItem__box
+  .answer-title.highlight
+  span {
+  background: linear-gradient(
+    to top,
+    transparent 15%,
+    #ffd8bd 13%,
+    #ffd8bd 67%,
+    transparent 0%
+  );
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--secondary
+  .fiveItem__box
+  .answer-outBox {
+  border-color: #ec5700;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--secondary
+  .fiveItem__box
+  .answer-outBox
+  .answer-innerBox::before {
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-02/Union_under.svg");
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--secondary
+  .fiveItem__box
+  .answer-outBox
+  .answer-innerBox::after {
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-02/Union.svg");
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--secondary
+  .fiveItem__box
+  .answer-box::after {
+  background: linear-gradient(
+    180deg,
+    rgba(252, 246, 223, 0) 18.87%,
+    #fcf6df 55.84%
+  );
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--secondary
+  .fiveItem__box
+  .answer
+  .highlight
+  span {
+  background: linear-gradient(
+    to top,
+    transparent 15%,
+    #fcd0a5 13%,
+    #fcd0a5 67%,
+    transparent 0%
+  );
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--tertiary
+  .fiveItem__box {
+  background-color: #f6ecff;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--tertiary
+  .fiveItem__box
+  .point-red {
+  color: #af22f6;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--tertiary
+  .fiveItem__box
+  .qus-box {
+  border-color: #af22f6;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--tertiary
+  .fiveItem__box
+  .qus-inner-box {
+  aspect-ratio: 1/1;
+  padding-right: 20px;
+  padding-bottom: 0;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--tertiary
+  .fiveItem__box
+  .qus-inner-box
+  .qus-accent
+  span {
+  background: linear-gradient(
+    to top,
+    transparent 15%,
+    #f1d9ff 13%,
+    #f1d9ff 67%,
+    transparent 0%
+  );
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--tertiary
+  .fiveItem__box:nth-of-type(1)
+  .qus-inner-box::after {
+  bottom: 10px;
+  left: 32px;
+  width: 189px;
+  height: 155px;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-03/top5_01.png");
+  background-size: cover;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--tertiary
+  .fiveItem__box:nth-of-type(2)
+  .qus-inner-box::after {
+  right: 0;
+  width: 207px;
+  height: 153px;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-03/top5_02.png");
+  background-size: cover;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--tertiary
+  .fiveItem__box:nth-of-type(3)
+  .qus-inner-box::after {
+  left: 50%;
+  width: 270px;
+  height: 195px;
+  transform: translateX(-50%);
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-03/top5_03.png");
+  background-size: cover;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--tertiary
+  .fiveItem__box:nth-of-type(4)
+  .qus-inner-box::after {
+  right: 0;
+  left: unset;
+  width: 218px;
+  height: 158px;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-03/top5_04.png");
+  background-size: cover;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--tertiary
+  .fiveItem__box:nth-of-type(5)
+  .qus-inner-box::after {
+  left: 0;
+  width: 259px;
+  height: 208px;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-03/top5_05.png");
+  background-size: cover;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--tertiary
+  .fiveItem__box
+  .answer-text
+  .highlight {
+  color: #af22f6;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--tertiary
+  .fiveItem__box
+  .answer-title.highlight
+  span {
+  background: linear-gradient(
+    to top,
+    transparent 15%,
+    #f1d9ff 13%,
+    #f1d9ff 67%,
+    transparent 0%
+  );
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--tertiary
+  .fiveItem__box
+  .answer-outBox {
+  border-color: #af22f6;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--tertiary
+  .fiveItem__box
+  .answer-outBox
+  .answer-innerBox::before {
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-03/Union_under.svg");
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--tertiary
+  .fiveItem__box
+  .answer-outBox
+  .answer-innerBox::after {
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-03/Union.svg");
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--tertiary
+  .fiveItem__box
+  .answer-box::after {
+  background: linear-gradient(
+    180deg,
+    rgba(246, 236, 255, 0) 18.87%,
+    #f6ecff 55.84%
+  );
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--tertiary
+  .fiveItem__box
+  .answer
+  .highlight
+  span {
+  background: linear-gradient(
+    to top,
+    transparent 15%,
+    #fcd0a5 13%,
+    #fcd0a5 67%,
+    transparent 0%
+  );
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quaternary
+  .fiveItem__box {
+  background-color: #fceef7;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quaternary
+  .fiveItem__box
+  .point-red {
+  color: #e810ab;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quaternary
+  .fiveItem__box
+  .qus-box {
+  border-color: #e810ab;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quaternary
+  .fiveItem__box
+  .qus-inner-box {
+  aspect-ratio: 1/1;
+  padding-right: 20px;
+  padding-bottom: 0;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quaternary
+  .fiveItem__box
+  .qus-inner-box
+  .qus-accent
+  span {
+  background: linear-gradient(
+    to top,
+    transparent 15%,
+    #ffd9fe 13%,
+    #ffd9fe 67%,
+    transparent 0%
+  );
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quaternary
+  .fiveItem__box:nth-of-type(1)
+  .qus-inner-box::after {
+  bottom: 0;
+  left: 0;
+  width: 229px;
+  height: 188px;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-04/top5_01.png");
+  background-size: cover;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quaternary
+  .fiveItem__box:nth-of-type(2)
+  .qus-inner-box::after {
+  left: 50%;
+  width: 227px;
+  height: 147px;
+  transform: translateX(-50%);
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-04/top5_02.png");
+  background-size: contain;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quaternary
+  .fiveItem__box:nth-of-type(3)
+  .qus-inner-box::after {
+  left: 50%;
+  width: 346px;
+  height: 195px;
+  transform: translateX(-50%);
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-04/top5_03.png");
+  background-size: cover;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quaternary
+  .fiveItem__box:nth-of-type(4)
+  .qus-inner-box::after {
+  right: 0;
+  left: unset;
+  width: 270px;
+  height: 195px;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-04/top5_04.png");
+  background-size: cover;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quaternary
+  .fiveItem__box:nth-of-type(5)
+  .qus-inner-box::after {
+  left: 0;
+  width: 259px;
+  height: 208px;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-04/top5_05.png");
+  background-size: cover;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quaternary
+  .fiveItem__box
+  .answer-text
+  .highlight {
+  color: #e810ab;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quaternary
+  .fiveItem__box
+  .answer-title.highlight
+  span {
+  background: linear-gradient(
+    to top,
+    transparent 15%,
+    #ffd9fe 13%,
+    #ffd9fe 67%,
+    transparent 0%
+  );
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quaternary
+  .fiveItem__box
+  .answer-outBox {
+  border-color: #e810ab;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quaternary
+  .fiveItem__box
+  .answer-outBox
+  .answer-innerBox::before {
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-04/Union_under.svg");
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quaternary
+  .fiveItem__box
+  .answer-outBox
+  .answer-innerBox::after {
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-04/Union.svg");
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quaternary
+  .fiveItem__box
+  .answer-box::after {
+  background: linear-gradient(
+    180deg,
+    rgba(252, 238, 247, 0) 18.87%,
+    #fceef7 55.84%
+  );
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quinary
+  .fiveItem__box {
+  background-color: #ecf9e6;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quinary
+  .fiveItem__box
+  .point-red {
+  color: #028d00;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quinary
+  .fiveItem__box
+  .qus-box {
+  border-color: #028d00;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quinary
+  .fiveItem__box
+  .qus-inner-box {
+  aspect-ratio: 1/1;
+  padding-right: 20px;
+  padding-bottom: 0;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quinary
+  .fiveItem__box
+  .qus-inner-box
+  .qus-accent
+  span {
+  background: linear-gradient(
+    to top,
+    transparent 15%,
+    #daeec2 13%,
+    #daeec2 67%,
+    transparent 0%
+  );
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quinary
+  .fiveItem__box:nth-of-type(1)
+  .qus-inner-box::after {
+  left: 0;
+  width: 270px;
+  height: 195px;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-05/top5_01.png");
+  background-size: cover;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quinary
+  .fiveItem__box:nth-of-type(2)
+  .qus-inner-box::after {
+  left: 50%;
+  width: 207px;
+  height: 153px;
+  transform: translateX(-50%);
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-05/top5_02.png");
+  background-size: contain;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quinary
+  .fiveItem__box:nth-of-type(3)
+  .qus-inner-box::after {
+  right: 0;
+  left: unset;
+  width: 240px;
+  height: 176px;
+  transform: unset;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-05/top5_03.png");
+  background-size: cover;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quinary
+  .fiveItem__box:nth-of-type(4)
+  .qus-inner-box::after {
+  left: 50%;
+  width: 270px;
+  height: 195px;
+  transform: translateX(-50%);
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-05/top5_04.png");
+  background-size: cover;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quinary
+  .fiveItem__box:nth-of-type(5)
+  .qus-inner-box::after {
+  right: 0;
+  left: unset;
+  width: 259px;
+  height: 208px;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-05/top5_05.png");
+  background-size: cover;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quinary
+  .fiveItem__box
+  .answer-text
+  .highlight {
+  color: #028d00;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quinary
+  .fiveItem__box
+  .answer-text--link
+  strong {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quinary
+  .fiveItem__box
+  .answer-text--link
+  span {
+  background: none;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quinary
+  .fiveItem__box
+  .answer-text--link
+  a {
+  border-bottom: 1.5px solid #028d00;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quinary
+  .fiveItem__box
+  .answer-title.highlight
+  span {
+  background: linear-gradient(
+    to top,
+    transparent 15%,
+    #cae8af 13%,
+    #cae8af 67%,
+    transparent 0%
+  );
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quinary
+  .fiveItem__box
+  .answer-outBox {
+  border-color: #028d00;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quinary
+  .fiveItem__box
+  .answer-outBox
+  .answer-innerBox::before {
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-05/Union_under.svg");
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quinary
+  .fiveItem__box
+  .answer-outBox
+  .answer-innerBox::after {
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-05/Union.svg");
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--quinary
+  .fiveItem__box
+  .answer-box::after {
+  background: linear-gradient(
+    180deg,
+    rgba(236, 249, 230, 0) 18.87%,
+    #ecf9e6 55.84%
+  );
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--senary
+  .fiveItem__box {
+  background-color: #f5fbd2;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--senary
+  .fiveItem__box
+  .point-red {
+  color: #639604;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--senary
+  .fiveItem__box
+  .qus-box {
+  border-color: #639604;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--senary
+  .fiveItem__box
+  .qus-inner-box {
+  aspect-ratio: 1/1;
+  padding-right: 20px;
+  padding-bottom: 0;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--senary
+  .fiveItem__box
+  .qus-inner-box
+  .qus-accent
+  span {
+  background: linear-gradient(
+    to top,
+    transparent 15%,
+    #eaf0b9 13%,
+    #eaf0b9 67%,
+    transparent 0%
+  );
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--senary
+  .fiveItem__box:nth-of-type(1)
+  .qus-inner-box::after {
+  left: 50%;
+  width: 270px;
+  height: 195px;
+  transform: translateX(-50%);
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-06/top5_01.png");
+  background-size: cover;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--senary
+  .fiveItem__box:nth-of-type(2)
+  .qus-inner-box::after {
+  right: 0;
+  left: unset;
+  width: 221px;
+  height: 163px;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-06/top5_02.png");
+  background-size: contain;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--senary
+  .fiveItem__box:nth-of-type(3)
+  .qus-inner-box::after {
+  left: 50%;
+  width: 270px;
+  height: 195px;
+  transform: translateX(-50%);
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-06/top5_03.png");
+  background-size: cover;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--senary
+  .fiveItem__box:nth-of-type(4)
+  .qus-inner-box::after {
+  right: 0;
+  left: unset;
+  width: 270px;
+  height: 195px;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-06/top5_04.png");
+  background-size: cover;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--senary
+  .fiveItem__box:nth-of-type(5)
+  .qus-inner-box::after {
+  left: 50%;
+  width: 208px;
+  height: 156px;
+  transform: translateX(-50%);
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-06/top5_05.png");
+  background-size: cover;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--senary
+  .fiveItem__box
+  .answer-text
+  .highlight {
+  color: #639604;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--senary
+  .fiveItem__box
+  .answer-text--link
+  strong {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--senary
+  .fiveItem__box
+  .answer-text--link
+  span {
+  background: none;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--senary
+  .fiveItem__box
+  .answer-text--link
+  a {
+  border-bottom: none;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--senary
+  .fiveItem__box
+  .answer-text--link
+  a::after {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 12px;
+  margin-left: 8px;
+  transform: translateY(1px);
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-06/ico_arrow_link.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--senary
+  .fiveItem__box
+  .answer-text--disclaimer {
+  padding-left: 6px;
+  color: #888;
+  font-size: 14px;
+  line-height: 1.6;
+  text-indent: -6px;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--senary
+  .fiveItem__box
+  .answer-title.highlight
+  span {
+  background: linear-gradient(
+    to top,
+    transparent 15%,
+    #eaf0b9 13%,
+    #eaf0b9 67%,
+    transparent 0%
+  );
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--senary
+  .fiveItem__box
+  .answer-outBox {
+  border-color: #639604;
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--senary
+  .fiveItem__box
+  .answer-outBox
+  .answer-innerBox::before {
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-06/Union_under.svg");
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--senary
+  .fiveItem__box
+  .answer-outBox
+  .answer-innerBox::after {
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-06/Union.svg");
+}
+.section--topfive
+  .section__container
+  .fiveItem__container--senary
+  .fiveItem__box
+  .answer-box::after {
+  background: linear-gradient(
+    180deg,
+    rgba(245, 251, 210, 0) 18.87%,
+    #f5fbd2 55.84%
+  );
+}
+
+.fiveItem-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.fiveItem-modal.active {
+  display: block;
+}
+.fiveItem-modal__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  max-width: 1080px;
+  padding: 60px;
+  border-radius: 40px;
+  background: #fff;
+  transform: translate(-50%, -50%);
+}
+.fiveItem-modal__title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.fiveItem-modal__sub-title {
+  margin-top: 40px;
+  font-size: 26px;
+  line-height: 1.6;
+}
+.fiveItem-modal__sub-title strong {
+  background: linear-gradient(
+    to top,
+    transparent 15%,
+    #ffd5d2 13%,
+    #ffd5d2 67%,
+    transparent 0%
+  );
+}
+.fiveItem-modal__sub-title:nth-of-type(3) strong {
+  background: linear-gradient(
+    to top,
+    transparent 15%,
+    #f5f0b0 13%,
+    #f5f0b0 67%,
+    transparent 0%
+  );
+}
+.fiveItem-modal__inner {
+  overflow-y: scroll;
+  width: 100%;
+  max-height: 676px;
+  margin: 0 auto;
+}
+.fiveItem-modal__detail {
+  width: 100%;
+  margin-top: 16px;
+  border-spacing: 0;
+}
+.fiveItem-modal__detail th,
+.fiveItem-modal__detail td {
+  padding: 12px 16px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.fiveItem-modal__detail th {
+  border-top: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+  background: #f6f6f6;
+  font-weight: 600;
+  text-align: center;
+}
+.fiveItem-modal__detail th:not(:last-of-type) {
+  border-right: 1px solid #d8d8d8;
+}
+.fiveItem-modal__detail td {
+  border-bottom: 1px solid #d8d8d8;
+  text-align: center;
+}
+.fiveItem-modal__detail td strong {
+  display: block;
+  margin-top: 4px;
+  font-weight: 600;
+}
+.fiveItem-modal__detail td:nth-of-type(1) {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  text-align: left;
+}
+.fiveItem-modal__detail td:nth-of-type(1) img {
+  flex: 1;
+  width: 60px;
+}
+.fiveItem-modal__detail td:nth-of-type(1) strong {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+.fiveItem-modal__detail td:not(:last-of-type) {
+  border-right: 1px solid #d8d8d8;
+}
+.fiveItem-modal__disclaimer {
+  margin-top: 20px;
+}
+.fiveItem-modal__disclaimer li {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.fiveItem-modal__disclaimer li a {
+  border-bottom: 1px solid #e42444;
+  color: #e42444;
+  font-weight: 700;
+}
+.fiveItem-modal__close {
+  position: absolute;
+  top: -25px;
+  right: -25px;
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #000;
+}
+.fiveItem-modal__close::after {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-06/ico_close_wt.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 1024px) {
+  .fiveItem-modal__container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 16px 0 0;
+    border-radius: 0;
+    transform: unset;
+  }
+  .fiveItem-modal__inner {
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+    max-height: unset;
+    padding-bottom: 28px;
+  }
+  .fiveItem-modal__title {
+    position: sticky;
+    top: 0;
+    padding: 0 16px 16px;
+    border-bottom: 1px solid #000;
+    background: #fff;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  .fiveItem-modal__sub-title {
+    margin-top: 28px;
+    padding: 0 20px;
+    font-size: 22px;
+    line-height: 1.6;
+  }
+  .fiveItem-modal__sub-title:nth-of-type(3) {
+    margin-top: 40px;
+  }
+  .fiveItem-modal__detail {
+    width: 100%;
+    padding: 0 20px;
+    border-bottom: 1px solid #d8d8d8;
+  }
+  .fiveItem-modal__detail th {
+    padding: 8px 0;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .fiveItem-modal__detail td {
+    padding: 12px;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .fiveItem-modal__detail td strong {
+    margin-top: 2px;
+  }
+  .fiveItem-modal__detail td:nth-of-type(1) strong {
+    margin-top: 0;
+    margin-bottom: 2px;
+  }
+  .fiveItem-modal__detail td > div {
+    display: none;
+  }
+  .fiveItem-modal__close {
+    top: 16px;
+    right: 16px;
+    left: unset;
+    width: 22px;
+    height: 22px;
+    background-color: unset;
+    transform: unset;
+  }
+  .fiveItem-modal__close::after {
+    background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-06/ico_close_bk.svg");
+  }
+  .fiveItem-modal__disclaimer {
+    margin-top: 16px;
+  }
+  .fiveItem-modal__disclaimer li {
+    padding: 0 20px;
+    font-size: 14px;
+    line-height: 1.4;
+    word-break: keep-all;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .pc-only {
+    display: none;
+  }
+  .mo-only {
+    display: block;
+  }
+  .section {
+    padding: 80px 0;
+  }
+  .section-link {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-link .swiper-slide {
+    width: 100%;
+  }
+  .section-link__image {
+    width: 76px;
+  }
+  .section-link__text p {
+    margin-top: 4px;
+    font-size: 15px;
+  }
+  .section-link__text strong {
+    margin-top: 0;
+    font-size: 15px;
+  }
+  .section--product {
+    padding: 60px 0 136px;
+  }
+  .section--product .section__container {
+    padding: 0 24px;
+  }
+  .section--product::after {
+    content: "";
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+    display: inline-block;
+    width: 152px;
+    height: 134px;
+    background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/img_product_deco.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .section--story .section__container {
+    padding: 0 12px;
+  }
+  .section--story .section__title {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+  .section--story .section__title strong::after {
+    bottom: -3px;
+    width: 243px;
+    height: 6px;
+    background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/ico_line_02_mo.svg");
+  }
+  .section--story .section__title::after {
+    right: 16%;
+    bottom: -6px;
+    width: 40px;
+    height: 40px;
+  }
+  .section--topfive {
+    padding-top: 48px;
+  }
+  .section--topfive .section__container .topfive_title {
+    margin: 48px 0 24px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  .section--topfive .section__container .topfive_title ::after {
+    content: "";
+    position: absolute;
+    top: -8px;
+    right: -15px;
+    width: 19px;
+    height: 16px;
+    background: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/star_mo.svg")
+      no-repeat;
+    background-size: cover;
+  }
+  .section--topfive .section__container .topfive_title ::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 74px;
+    height: 5px;
+    background: url("/kr/story/faq/images/care-solutions-good-dog/ep-01/line_mo.svg")
+      no-repeat;
+    background-size: cover;
+  }
+  .section--topfive .section__container .fiveItem__box {
+    position: relative;
+    display: inherit;
+    padding: 16px;
+    border-radius: 24px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__box:nth-of-type(1)
+    .qus-inner-box::after,
+  .section--topfive
+    .section__container
+    .fiveItem__box:nth-of-type(2)
+    .qus-inner-box::after,
+  .section--topfive
+    .section__container
+    .fiveItem__box:nth-of-type(3)
+    .qus-inner-box::after,
+  .section--topfive
+    .section__container
+    .fiveItem__box:nth-of-type(4)
+    .qus-inner-box::after,
+  .section--topfive
+    .section__container
+    .fiveItem__box:nth-of-type(5)
+    .qus-inner-box::after {
+    width: 218px;
+    height: 150px;
+  }
+  .section--topfive .section__container .fiveItem__box .qus-box {
+    margin-right: 0;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  .section--topfive .section__container .fiveItem__box .qus-box .qus-inner-box {
+    margin: 8px;
+    padding: 20px 20px 180px;
+    border-radius: 16px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__box
+    .qus-box
+    .qus-inner-box
+    .qus-accent {
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__box
+    .qus-box
+    .qus-inner-box
+    .qus-desc {
+    font-size: 20px;
+    letter-spacing: -0.3px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__box
+    .answer-box
+    .answer-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__box
+    .answer-box
+    .answer-outBox.default
+    .answer-innerBox {
+    height: 80px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__box
+    .answer-box
+    .answer-outBox.active
+    .answer-innerBox {
+    height: auto;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__box
+    .answer-box
+    .answer-outBox
+    .answer-innerBox {
+    margin: 8px;
+    padding: 20px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__box
+    .answer-box
+    .answer-outBox
+    .answer-innerBox
+    .answer-text {
+    font-size: 15px;
+    word-break: keep-all;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__box
+    .answer-box
+    .answer-outBox
+    .answer-innerBox
+    .answer-text--disclaimer {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__box
+    .answer-box
+    .answer-outBox
+    .answer-innerBox
+    .sub-txt {
+    font-size: 15px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__box
+    .answer-box
+    .answer-outBox
+    .answer-innerBox
+    .answer-text-list {
+    margin-bottom: 16px;
+    font-size: 15px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__box
+    .answer-box
+    .answer-outBox
+    .answer-innerBox
+    .answer-text-list
+    li {
+    margin-bottom: 8px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__box
+    .answer-box
+    .answer-outBox
+    .answer-innerBox
+    .answer-text-list
+    li:last-child {
+    margin-bottom: 0;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__box
+    .answer-box
+    .answer-outBox
+    .answer-innerBox
+    .answer-desc {
+    margin-bottom: 16px;
+    font-size: 16px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__box
+    .answer-box
+    .answer-outBox
+    .answer-innerBox
+    .answer-desc:last-child {
+    margin-bottom: 0;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__box
+    .answer-box
+    .answer-outBox
+    .answer-innerBox
+    .answer-desc.bold {
+    font-size: 16px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__box
+    .answer-box
+    .answer-outBox
+    .answer-innerBox
+    .answer-desc.semi-bold {
+    font-size: 16px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__box
+    .answer-box
+    .button-box
+    .default {
+    bottom: -20px;
+  }
+  .section--topfive .section__container .fiveItem__box + .fiveItem__box {
+    margin-top: 40px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--secondary
+    .qus-box
+    .qus-inner-box {
+    padding-bottom: 0;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--secondary
+    .fiveItem__box:nth-of-type(1)
+    .qus-inner-box::after {
+    width: 173px;
+    height: 105px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--secondary
+    .fiveItem__box:nth-of-type(2)
+    .qus-inner-box::after {
+    width: 143px;
+    height: 83px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--secondary
+    .fiveItem__box:nth-of-type(3)
+    .qus-inner-box {
+    padding-right: 6px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--secondary
+    .fiveItem__box:nth-of-type(3)
+    .qus-inner-box::after {
+    width: 218px;
+    height: 122px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--secondary
+    .fiveItem__box:nth-of-type(4)
+    .qus-inner-box::after {
+    width: 198px;
+    height: 150px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--secondary
+    .answer-disclaimer {
+    border-radius: 16px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--secondary
+    .answer-disclaimer
+    li {
+    font-size: 13px;
+    word-break: keep-all;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--tertiary
+    .qus-box
+    .qus-inner-box {
+    padding-bottom: 0;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--tertiary
+    .fiveItem__box:nth-of-type(1)
+    .qus-inner-box::after {
+    width: 147px;
+    height: 114px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--tertiary
+    .fiveItem__box:nth-of-type(2)
+    .qus-inner-box::after {
+    width: 116px;
+    height: 86px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--tertiary
+    .fiveItem__box:nth-of-type(3)
+    .qus-inner-box {
+    padding-right: 6px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--tertiary
+    .fiveItem__box:nth-of-type(3)
+    .qus-inner-box::after {
+    width: 218px;
+    height: 150px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--tertiary
+    .fiveItem__box:nth-of-type(4)
+    .qus-inner-box::after {
+    width: 169px;
+    height: 112px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--tertiary
+    .fiveItem__box:nth-of-type(5)
+    .qus-inner-box {
+    padding-right: 6px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--tertiary
+    .fiveItem__box:nth-of-type(5)
+    .qus-inner-box::after {
+    width: 146px;
+    height: 154px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--tertiary
+    .answer-disclaimer {
+    border-radius: 16px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--tertiary
+    .answer-disclaimer
+    li {
+    font-size: 13px;
+    word-break: keep-all;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--quaternary
+    .qus-box
+    .qus-inner-box {
+    padding-bottom: 0;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--quaternary
+    .fiveItem__box:nth-of-type(1)
+    .qus-inner-box::after {
+    width: 180px;
+    height: 140px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--quaternary
+    .fiveItem__box:nth-of-type(2)
+    .qus-inner-box::after {
+    width: 171px;
+    height: 99px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--quaternary
+    .fiveItem__box:nth-of-type(3)
+    .qus-inner-box::after {
+    width: 256px;
+    height: 144px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--quaternary
+    .fiveItem__box:nth-of-type(4)
+    .qus-inner-box::after {
+    right: 10px;
+    width: 189px;
+    height: 142px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--quaternary
+    .fiveItem__box:nth-of-type(5)
+    .qus-inner-box::after {
+    width: 218px;
+    height: 150px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--quaternary
+    .answer-disclaimer {
+    border-radius: 16px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--quaternary
+    .answer-disclaimer
+    li {
+    font-size: 13px;
+    word-break: keep-all;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--quinary
+    .qus-box
+    .qus-inner-box {
+    padding-bottom: 0;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--quinary
+    .fiveItem__box:nth-of-type(1)
+    .qus-inner-box::after {
+    width: 218px;
+    height: 150px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--quinary
+    .fiveItem__box:nth-of-type(2)
+    .qus-inner-box::after {
+    width: 177px;
+    height: 124px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--quinary
+    .fiveItem__box:nth-of-type(3)
+    .qus-inner-box::after {
+    width: 187px;
+    height: 144px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--quinary
+    .fiveItem__box:nth-of-type(4)
+    .qus-inner-box::after {
+    width: 190px;
+    height: 138px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--quinary
+    .fiveItem__box:nth-of-type(5)
+    .qus-inner-box::after {
+    width: 184px;
+    height: 148px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--quinary
+    .answer-disclaimer {
+    border-radius: 16px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--quinary
+    .answer-disclaimer
+    li {
+    font-size: 13px;
+    word-break: keep-all;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--senary
+    .fiveItem__box:nth-of-type(1)
+    .qus-inner-box::after {
+    width: 218px;
+    height: 150px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--senary
+    .fiveItem__box:nth-of-type(2)
+    .qus-inner-box::after {
+    bottom: -6px;
+    width: 180px;
+    height: 144px;
+    background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-06/top5_02_mo.png");
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--senary
+    .fiveItem__box:nth-of-type(3)
+    .qus-inner-box::after {
+    width: 187px;
+    height: 131px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--senary
+    .fiveItem__box:nth-of-type(4)
+    .qus-inner-box::after {
+    width: 200px;
+    height: 139px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--senary
+    .fiveItem__box:nth-of-type(5)
+    .qus-inner-box::after {
+    width: 215px;
+    height: 148px;
+    background-image: url("/kr/story/faq/images/care-solutions-good-dog/ep-06/top5_05_mo.png");
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--senary
+    .answer-disclaimer {
+    border-radius: 16px;
+  }
+  .section--topfive
+    .section__container
+    .fiveItem__container--senary
+    .answer-disclaimer
+    li {
+    font-size: 13px;
+    word-break: keep-all;
+  }
+}
