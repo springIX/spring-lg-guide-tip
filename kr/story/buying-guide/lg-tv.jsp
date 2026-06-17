@@ -739,9 +739,9 @@
                             </div>
                             <div class="des3">
                                         <p class="des3-item">본 내용은 라인업의 대표 모델 기준 사양으로 작성되었으며, 모델별 사양은 상이할 수 있습니다. <br>
-                                            구매 시 선택하신 모델의 제품 정보 페이지에 기재된 사양을 확인해 주시기 바랍니다.</p>
+                        구매 시 선택하신 모델의 제품 정보 페이지에 기재된 사양을 확인해 주시기 바랍니다.</p>
                         <p class="des3-item">26년 출시 제품을 기준으로 작성된 표로, 제품별 스펙은 다를 수 있으니 정확한 내용은 각 제품별 상세 스펙을 확인해주세요.</p>
-                        </div>
+                                    </div>
                             <div class="btn-wrap">
                                 <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000028" target="_blank"
                                     rel="noopener" class="btn-product" title="새창열림">제품 보러 가기</a>
@@ -889,7 +889,7 @@
                                 <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                                 <div class="bubble">
                                     <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000028" target="_blank" rel="noopener"
-                                        title="새창열림"><span>LG QNED evo AI</span></a>
+                                        title="새창열림"><span>Mircro RGB evo AI</span></a>
                                     <p>스탠드/벽걸이형<span></span>4K</p>
                                 </div>
                             </div>
@@ -921,8 +921,8 @@
                                 <div class="sticky-product-no include-tab">
                                     <div class="inner">
                                         <div class="inner2">
-                                            <div>Micro RGB evo</div>
-                                            <div>Mini RGB evo</div>
+                                            <div style="text-transform: none;">Micro RGB evo</div>
+                                            <div style="text-transform: none;">Mini RGB evo</div>
                                         </div>
                                     </div>
                                 </div>
@@ -937,8 +937,8 @@
                                                 </th>
                                             </tr>
                                             <tr class="procuct-no">
-                                                <th scope="col">Micro RGB evo</th>
-                                                <th scope="col">Mini RGB evo</th>
+                                                <th scope="col" style="text-transform: none;">Micro RGB evo</th>
+                                                <th scope="col" style="text-transform: none;">Mini RGB evo</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -997,49 +997,49 @@
                                                     <p> 알파11 AI 프로세서 (3세대) <span class="des"> <button class="info pc-only" aria-label="제품 내용 상세보기"></button> <span
                                                                 class="bubble">4배 더 빠른 딥러닝 성능으로 향상된 화질과
                                                                 사운드 제공</span> </span> </p>
-                                                    </td>
-                                                    <td>
+                                                </td>
+                                                <td>
                                                     <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_alpha11.svg" alt="알파11 AI 프로세서" /> </div>
                                                     <p> 알파11 AI 프로세서 (3세대) <span class="des"> <button class="info pc-only" aria-label="제품 내용 상세보기"></button> <span
                                                                 class="bubble">4배 더 빠른 딥러닝 성능으로 향상된 화질과
                                                                 사운드 제공</span> </span> </p>
-                                                    </td>
-                                                    </tr>
-                                                    <tr class="procuct-spec">
-                                                        <td>
-                                                            <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_webOS.svg" alt="webOS" /> </div>
-                                                    <p> webOS 26 <span class="des"> <button class="info pc-only" aria-label="제품 내용 상세보기"></button> <span class="bubble">영상부터
-                                                                음악, 게임, 앱까지 취향에 맞는
-                                                                콘텐츠를 한눈에 제공</span> </span> </p>
-                                                    </td>
+                                                </td>
+                                                </tr>
+                                                <tr class="procuct-spec">
                                                     <td>
                                                     <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_webOS.svg" alt="webOS" /> </div>
                                                     <p> webOS 26 <span class="des"> <button class="info pc-only" aria-label="제품 내용 상세보기"></button> <span class="bubble">영상부터
                                                                 음악, 게임, 앱까지 취향에 맞는
                                                                 콘텐츠를 한눈에 제공</span> </span> </p>
-                                                    </td>
-                                                    </tr>
-                                                    <tr class="procuct-spec last">
-                                                        <td>
+                                                </td>
+                                                <td>
+                                                    <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_webOS.svg" alt="webOS" /> </div>
+                                                    <p> webOS 26 <span class="des"> <button class="info pc-only" aria-label="제품 내용 상세보기"></button> <span class="bubble">영상부터
+                                                                음악, 게임, 앱까지 취향에 맞는
+                                                                콘텐츠를 한눈에 제공</span> </span> </p>
+                                                </td>
+                                                </tr>
+                                                <tr class="procuct-spec last">
+                                                    <td>
                                                     <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_165HZ.svg" alt="게이밍 주사율 (165Hz)" /> </div>
                                                     <p> 게이밍 주사율 120Hz <br>(VRR 최대 165Hz) <span class="des"> <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                                             <span class="bubble">165Hz 가변 주사율(VRR)로 티어링
                                                                 걱정없는 게임 환경</span> </span> </p>
-                                                    </td>
-                                                    <td>
+                                                </td>
+                                                <td>
                                                     <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_144HZ.svg" alt="게이밍 주사율 (144Hz)" /> </div>
                                                     <p> 게이밍 주사율 120Hz <br>(VRR 최대 144Hz) <span class="des"> <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                                                             <span class="bubble">144Hz 가변 주사율(VRR)로 티어링
                                                                 걱정없는 게임 환경</span> </span> </p>
-                                                    </td>
-                                                    </tr>
-                                                    </tbody>
-                                                    </table>
-                                                    </div>
-                                                    </div>
-                                                    <div class="des3" style="--max-table-width: 920px">
-                                                        <p class="des3-item"> 본 내용은 라인업의 대표 모델 기준 사양으로 작성되었으며, 모델별 사양은 상이할 수 있습니다. <br> 구매 시 선택하신 모델의 제품 정보 페이지에 기재된 사양을
-                                                            확인해 주시기 바랍니다. </p>
+                                                </td>
+                                                </tr>
+                                                </tbody>
+                                                </table>
+                                                </div>
+                                                </div>
+                                                <div class="des3" style="--max-table-width: 920px">
+                                                    <p class="des3-item"> 본 내용은 라인업의 대표 모델 기준 사양으로 작성되었으며, 모델별 사양은 상이할 수 있습니다. <br> 구매 시 선택하신 모델의 제품 정보 페이지에 기재된 사양을
+                                                        확인해 주시기 바랍니다. </p>
                                 <p class="des3-item">26년 출시 제품을 기준으로 작성된 표로, 제품별 스펙은 다를 수 있으니 정확한 내용은 각 제품별 상세 스펙을 확인해주세요.</p>
                                 <p class="des3-item">LG Mini RGB evo AI는 LG Micro RGB evo AI와 다르게 그린, 블루 칩과 레드 부스터가 동시에 발광하는 기술이 적용되어 있습니다.</p>
                                 <p class="des3-item">High Purity RGB 스펙트럼 디스플레이 인증 / 더블 100% 컬러 인증</p> <button class="btn-collapse-toggle">
@@ -1050,106 +1050,106 @@
                                         100% 컬러 인증]<br> ① 인증기관: InterTek<br> ② 인증 기준일: 2025년 12월<br> ③ 인증 대상: 2026년형 MRGB9M, MRGB8*시리즈 기준<br> ④
                                         인증 내용(인증번호): CIE1931 색공간에서 색영역을 측정해 DCI-P3, Adobe RGB 100% 인증(25KRQ1091-01) </p>
                                 </div>
+                            </div>
+                            <div class="btn-wrap"> <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000028" target="_blank" rel="noopener"
+                                    class="btn-product" title="새창열림">제품 보러 가기</a> </div>
+                            </div>
+                            <div class="product-table">
+                                <h4 class="box-subtitle"> 가장 합리적인 선택을 위해<br /> 스펙을 명확하게 비교해서 보여드려요. </h4>
+                                <div class="table-wrap include-tab vertical-scroll-box">
+                                    <table>
+                                        <caption class="blind"> LG RGB TV 모델 라인업 스펙 비교표 - Micro RGB evo, Mini RGB evo 라인업의 해상도, 컬러, 주사율, 사운드, 운영체제와
+                                            리모컨 정보를 비교합니다. </caption>
+                                        <colgroup>
+                                            <col class="col1" />
+                                            <col />
+                                            <col />
+                                            <col />
+                                        </colgroup>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" rowspan="2">모델 라인업</th>
+                                                <th scope="colgroup" colspan="3">RGB</th>
+                                            </tr>
+                                            <tr>
+                                                <th scope="col" class="th2">Micro RGB evo</th>
+                                                <th scope="col" class="th2" colspan="2">Mini RGB evo</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">시리즈</th>
+                                                <td>MRGB96</td>
+                                                <td>MRGB9M</td>
+                                                <td>MRGB86</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">해상도</th>
+                                                <td>4K</td>
+                                                <td>4K</td>
+                                                <td>4K</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">컬러</th>
+                                                <td>Micro RGB<br class="mo-only"> 초정밀 컬러<br>(트리플 100%<br class="mo-only"> 컬러)</td>
+                                                <td>Mini RGB 컬러<br>(더블 100% 컬러)</td>
+                                                <td>Mini RGB 컬러<br>(더블 100% 컬러)</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">주사율</th>
+                                                <td>120Hz<br>(VRR<br class="mo-only"> 최대 165Hz)</td>
+                                                <td>120Hz<br>(VRR<br class="mo-only"> 최대 144Hz)</td>
+                                                <td>120Hz<br>(VRR<br class="mo-only"> 최대 144Hz)</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">FreeSync</th>
+                                                <td class="y-text">지원</td>
+                                                <td class="y-text">지원</td>
+                                                <td class="y-text">지원</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">AI 프로세서</th>
+                                                <td>알파11 AI<br class="mo-only"> 프로세서 (3세대)</td>
+                                                <td>알파11 AI<br class="mo-only"> 프로세서 (3세대)</td>
+                                                <td>알파8 AI <br class="mo-only"> 프로세서 (3세대)</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">돌비 비전 / 돌비 애트모스</th>
+                                                <td class="y-text">지원</td>
+                                                <td class="y-text">지원</td>
+                                                <td class="y-text">지원</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">버추얼 서라운드</th>
+                                                <td>11.1.2</td>
+                                                <td>11.1.2</td>
+                                                <td>11.1.2</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">출력 / 채널</th>
+                                                <td>40W / 2.2ch</td>
+                                                <td>20W / 2.0ch</td>
+                                                <td>20W / 2.0ch</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">운영체제</th>
+                                                <td>webOS 26</td>
+                                                <td>webOS 26</td>
+                                                <td>webOS 26</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">리모컨</th>
+                                                <td>AI 매직 리모컨</td>
+                                                <td>AI 매직 리모컨</td>
+                                                <td> AI 매직 리모컨 <p class="des2">* 일부 일반 리모컨</p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
-                                <div class="btn-wrap"> <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000028" target="_blank" rel="noopener"
-                                        class="btn-product" title="새창열림">제품 보러 가기</a> </div>
-                                </div>
-                                <div class="product-table">
-                                    <h4 class="box-subtitle"> 가장 합리적인 선택을 위해<br /> 스펙을 명확하게 비교해서 보여드려요. </h4>
-                                    <div class="table-wrap include-tab vertical-scroll-box">
-                                        <table>
-                                            <caption class="blind"> LG RGB TV 모델 라인업 스펙 비교표 - Micro RGB evo, Mini RGB evo 라인업의 해상도, 컬러, 주사율, 사운드, 운영체제와
-                                                리모컨 정보를 비교합니다. </caption>
-                                            <colgroup>
-                                                <col class="col1" />
-                                                <col />
-                                                <col />
-                                                <col />
-                                            </colgroup>
-                                            <thead>
-                                                <tr>
-                                                    <th scope="col" rowspan="2">모델 라인업</th>
-                                                    <th scope="colgroup" colspan="3">RGB</th>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="col" class="th2">Micro RGB evo</th>
-                                                    <th scope="col" class="th2" colspan="2">Mini RGB evo</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th scope="row">시리즈</th>
-                                                    <td>MRGB96</td>
-                                                    <td>MRGB9M</td>
-                                                    <td>MRGB86</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">해상도</th>
-                                                    <td>4K</td>
-                                                    <td>4K</td>
-                                                    <td>4K</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">컬러</th>
-                                                    <td>Micro RGB<br class="mo-only"> 초정밀 컬러<br>(트리플 100%<br class="mo-only"> 컬러)</td>
-                                                    <td>Mini RGB 컬러<br>(더블 100% 컬러)</td>
-                                                    <td>Mini RGB 컬러<br>(더블 100% 컬러)</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">주사율</th>
-                                                    <td>120Hz<br>(VRR<br class="mo-only"> 최대 165Hz)</td>
-                                                    <td>120Hz<br>(VRR<br class="mo-only"> 최대 144Hz)</td>
-                                                    <td>120Hz<br>(VRR<br class="mo-only"> 최대 144Hz)</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">FreeSync</th>
-                                                    <td class="y-text">지원</td>
-                                                    <td class="y-text">지원</td>
-                                                    <td class="y-text">지원</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">AI 프로세서</th>
-                                                    <td>알파11 AI<br class="mo-only"> 프로세서 (3세대)</td>
-                                                    <td>알파11 AI<br class="mo-only"> 프로세서 (3세대)</td>
-                                                    <td>알파8 AI <br class="mo-only"> 프로세서 (3세대)</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">돌비 비전 / 돌비 애트모스</th>
-                                                    <td class="y-text">지원</td>
-                                                    <td class="y-text">지원</td>
-                                                    <td class="y-text">지원</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">버추얼 서라운드</th>
-                                                    <td>11.1.2</td>
-                                                    <td>11.1.2</td>
-                                                    <td>11.1.2</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">출력 / 채널</th>
-                                                    <td>40W / 2.2ch</td>
-                                                    <td>20W / 2.0ch</td>
-                                                    <td>20W / 2.0ch</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">운영체제</th>
-                                                    <td>webOS 26</td>
-                                                    <td>webOS 26</td>
-                                                    <td>webOS 26</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">리모컨</th>
-                                                    <td>AI 매직 리모컨</td>
-                                                    <td>AI 매직 리모컨</td>
-                                                    <td> AI 매직 리모컨 <p class="des2">* 일부 일반 리모컨</p>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <div class="des3">
-                                        <p class="des3-item"> 본 내용은 라인업의 대표 모델 기준 사양으로 작성되었으며, 모델별 사양은 상이할 수 있습니다. <br> 구매 시 선택하신 모델의 제품 정보 페이지에 기재된 사양을
-                                            확인해 주시기 바랍니다. </p>
+                            <div class="des3">
+                                <p class="des3-item"> 본 내용은 라인업의 대표 모델 기준 사양으로 작성되었으며, 모델별 사양은 상이할 수 있습니다. <br> 구매 시 선택하신 모델의 제품 정보 페이지에 기재된 사양을
+                                    확인해 주시기 바랍니다. </p>
                                 <p class="des3-item">26년 출시 제품을 기준으로 작성된 표로, 제품별 스펙은 다를 수 있으니 정확한 내용은 각 제품별 상세 스펙을 확인해주세요.</p>
                                 <p class="des3-item">LG Mini RGB evo AI는 LG Micro RGB evo AI와 다르게 그린, 블루 칩과 레드 부스터가 동시에 발광하는 기술이 적용되어 있습니다.</p>
                                 <p class="des3-item">High Purity RGB 스펙트럼 디스플레이 인증 / 더블 100% 컬러 인증</p> <button class="btn-collapse-toggle">
@@ -1160,11 +1160,11 @@
                                         100% 컬러 인증]<br> ① 인증기관: InterTek<br> ② 인증 기준일: 2025년 12월<br> ③ 인증 대상: 2026년형 MRGB9M, MRGB8*시리즈 기준<br> ④
                                         인증 내용(인증번호): CIE1931 색공간에서 색영역을 측정해 DCI-P3, Adobe RGB 100% 인증(25KRQ1091-01) </p>
                                 </div>
-                                </div>
-                                </div>
-                                </div>
-                                <div id="product-type-3" name="product-type" style="display: none">
-                                    <div class="img-wrap">
+                            </div>
+                            </div>
+                            </div>
+                            <div id="product-type-3" name="product-type" style="display: none">
+                                <div class="img-wrap">
                                 <div class="bubble-wrap left" style=" --pc-top: 39%; --pc-vertical: 63.5%; --mobile-top: 40%; --mobile-left: 22.5%; ">
                                     <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                                     <div class="bubble"> <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50041000" target="_blank"
