@@ -73,8 +73,6 @@
                     
                     <video class="feature-img roni-video mt-46" autoplay muted loop playsinline preload="metadata"
                         poster="/kr/story/user-guide/img/robot-vacuum-cleaners-lifestyle-guide/roni_section_pc.png"
-                        data-poster-pc="/kr/story/user-guide/img/robot-vacuum-cleaners-lifestyle-guide/roni_section_pc.png"
-                        data-poster-mo="/kr/story/user-guide/img/robot-vacuum-cleaners-lifestyle-guide/roni_section_mo.png"
                         aria-label="거실 공간에서 청소 중인 LG HOM-BOT RONi 영상">
                         <source media="(max-width: 768px)"
                             src="/kr/story/user-guide/videos/robot-vacuum-cleaners-lifestyle-guide/roni_section_mo.mp4" type="video/mp4">
@@ -128,7 +126,7 @@
                                             영역의 청소를 다시 이어갑니다.<br>공간 특성에 따라 흡입력과 물 공급량, 청소 간격까지 자동으로<br class="mo-only">조절해 한층 효율적인 청소가
                                             가능합니다.</p>
                                     </div>
-                                    <video class="tip-img" autoplay muted loop playsinline preload="metadata" data-start-time="3.2"
+                                    <video class="tip-img" autoplay muted loop playsinline preload="metadata"
                                         poster="/kr/story/user-guide/img/robot-vacuum-cleaners-lifestyle-guide/roni_tip_pc.png"
                                         aria-label="위험 상황을 회피하며 AI 주행 중인 LG HOM-BOT RONi 영상">
                                         <source media="(max-width: 768px)"
@@ -760,7 +758,7 @@
         </section>
     </main>
     <script>
-        document.querySelectorAll('#snomet .notice-toggle').forEach(function (button) {
+        Array.prototype.forEach.call(document.querySelectorAll('#snomet .notice-toggle'), function (button) {
             var noticeList = button.nextElementSibling;
 
             if (!noticeList || !noticeList.classList.contains('notice-list')) {
@@ -802,41 +800,6 @@
             });
         });
 
-    // document.querySelectorAll('#snomet video[data-poster-pc][data-poster-mo]').forEach(function (video) {
-    //     var mediaQuery = window.matchMedia('(max-width: 768px)');
-    //     var updatePoster = function () {
-    //         video.setAttribute('poster', mediaQuery.matches ? video.getAttribute('data-poster-mo') : video.getAttribute('data-poster-pc'));
-    //     };
-
-    //     updatePoster();
-
-    //     if (mediaQuery.addEventListener) {
-    //         mediaQuery.addEventListener('change', updatePoster);
-    //     } else if (mediaQuery.addListener) {
-    //         mediaQuery.addListener(updatePoster);
-    //     }
-    // });
-
-    // document.querySelectorAll('#snomet video[data-start-time]').forEach(function (video) {
-    //     var startTime = parseFloat(video.getAttribute('data-start-time'));
-
-    //     if (Number.isNaN(startTime)) {
-    //         return;
-    //     }
-
-    //     var setStartTime = function () {
-    //         try {
-    //             if (video.currentTime < startTime) {
-    //                 video.currentTime = startTime;
-    //             }
-    //         } catch (error) {
-    //             // Some browsers block seeking until metadata is ready.
-    //         }
-    //     };
-
-    //     video.addEventListener('loadedmetadata', setStartTime);
-    //     video.addEventListener('play', setStartTime);
-    // });
     </script>
 </body>
 
