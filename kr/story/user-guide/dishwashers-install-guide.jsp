@@ -3057,53 +3057,7 @@ if (cookies != null) {
           });
         </script>
         <!--section06-->
-        <section class="con-box section06 animate__animated animate__fadeInUp">
-          <div class="video-wrap">
-            <h4 class="main-tit animate__animated animate__fadeIn">식기세척기 설치가이드 영상 보기</h4>
-            <div class="video-cont">
-              <video id="video" class="video-source" preload="auto" plasyinline
-                poster="/kr/story/user-guide/images/dishwashers-install-guide/video-thumbnail.png">
-                <source src="/kr/story/user-guide/video/dishwashers-install-guide/dishWasher_Guide.mp4"
-                  type="video/mp4">
-              </video>
-              <button class="video-play-btn" type="button"><img
-                  src="/kr/story/user-guide/images/dishwashers-install-guide/video-play-btn.png" alt="영상재생버튼"></button>
-              <!-- controller -->
-              <div class="caption-wrap">
-                <button type="button" class="btn size on"><span>자막</span></button>
-              </div>
-              <div class="cap-section">
-                <div class="rectangle">
-                  LG 디오스 식기세척기 설치 안내 영상입니다.<br>
-                  LG 디오스 식기세척기는 프리스탠딩 제품과 빌트인 전용 제품으로 나뉩니다.<br>
-                  프리스탠딩 식기세척기는 장 옆에 프리스탠딩으로 설치하거나 걸레받이 절단 또는 제거 후 설치가 가능합니다.<br>
-                  기존 보유 12인용 식기세척기가 걸레받이가 없던 타입이라면 프리스탠딩 모델로 빌트인 설치가 바로 가능합니다.<br>
-                  프리스탠딩 제품을 빌트인으로 설치 시 가로 600밀리미터, 높이 815밀리미터, 깊이 600밀리미터 이상 설치 공간이 필요합니다.<br>
-                  설치 공간이 확보되면 탑 플레이트를 제거하고 소음 액세서리를 설치하게 됩니다.<br>
-                  높이와 수평 조절은 물론이고 제품 고정까지 꼼꼼하게 마무리해 드립니다.<br>
-                  걸레받이의 높이가 10센티미터 이하인 경우 프리스탠딩 제품을 권장드립니다.<br>
-                  빌트인 식기세척기는 기존 싱크장에 들어가도록 걸레받이 절단 없이 설치됩니다.<br>
-                  가구 핏에 맞게 설치를 원한다면 빌트인 제품을 선택하시면 됩니다.<br>
-                  빌트인 전용 제품의 경우 가로 600밀리미터, 높이 815밀리미터, 깊이 600밀리미터 이상 설치 공간이 필요합니다.<br>
-                  빌트인 제품에서는 높이, 수평 조절과 제품 고정만으로 빠르고 세심하게 제품을 설치하게 됩니다.<br>
-                  LG 디오스 식기세척기는 상단부터 판매 설치까지 원스톱으로 친절하게 설치해 드립니다.<br>
-                  먼저 식기세척기 설치 공간을 확인 후 싱크대 리폼 공사가 이루어집니다.<br>
-                  프리스탠딩과 기존 12인용 식기세척기 보유 또는 리모델링이 완료된 곳은 사전 답사 없이 바로 설치가 가능하고 걸레받이 절단 없이도 설치할 수 있어 고객님들의 편의를 한 번 더
-                  생각했습니다.<br>
-                  또한 가구장 사이즈를 잘 모르시는 경우 가까운 매장에 신청 시 사전 답사를 무료로 진행하고 있습니다.<br>
-                  식기세척기를 설치할 때는 급배수가 간편하고 전기 콘센트 연결도 편하도록 싱크대 가까이에 설치합니다.<br>
-                  600밀리미터 규격장 설치 시 빈 가구장에 맞춰 다른 빌트인 제품처럼 빠른 설치가 가능합니다.<br>
-                  비규격장과 코너장의 경우 절단 및 매움 작업이 필요하며 발생되는 추가 비용은 설치 당일 기사님께 직접 결제합니다.<br>
-                  빌트인 가스, 쿡탑과 전기레인지가 설치돼 있다면 직렬로 설치가 가능하고 시공 시 추가 비용이 발생할 수 있습니다.<br>
-                  엘지 디오스 식기세척기는 다양한 주방 환경에 따라 최적의 위치에 꼼꼼하게 설치됩니다.<br>
-                  엘지 디오스 식기세척기.
-                </div>
-              </div>
-              <!--// controller -->
-            </div>
-            <p>&#42; 사전답사는 22년 8월 주문건까지만 진행되고 9월부터 종료됩니다.</p>
-          </div>
-        </section>
+      
 
     
         <!-- 250715 수정 -->
