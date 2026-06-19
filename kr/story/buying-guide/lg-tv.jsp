@@ -202,8 +202,8 @@
                     사용 목적에 따라 꼭 맞는 제품을 골라보세요.
                 </h3>
                 <div id="vertical-scroll-tab" class="tab-wrap sticky" style="--btn-width: 300px; --btn-m-width: 250px">
-                    <!-- <button class="nav nav-left disabled"><</button>
-                                                    <button class="nav nav-right">></button> -->
+                    <button class="nav nav-left disabled">&lt;</button>
+                    <button class="nav nav-right">&gt;</button>
                     <div class="vertical-scroll-box">
                         <button class="tab-img active" name="buying-guide-tab" data-target="#product-type-1"
                             data-group="product-type">
@@ -218,8 +218,7 @@
                         </button>
                         <button class="tab-img" name="buying-guide-tab" data-target="#product-type-3"
                             data-group="product-type">
-                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_001_07.png"
-                                alt="TV LG QNED 제품의 이미지" />
+                            <img src="/kr/story/buying-guide/2025/img/tv/img_P14_001_07.png" alt="TV LG QNED 제품의 이미지" />
                             <span><b>QNED</b>#풍부한컬러 #프리미엄TV</span>
                         </button>
                         <button class="tab-img" name="buying-guide-tab" data-target="#product-type-4"
@@ -248,7 +247,7 @@
                                 style="--pc-top: 35%;--pc-vertical: 63.5%;--mobile-top: 40%;--mobile-left: 22.5%;--mobile-m-left: 20px;">
                                 <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                                 <div class="bubble">
-                                    <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000028" target="_blank"
+                                    <a href="https://www.lge.co.kr/category/tvs?lineupId=CD00001001" target="_blank"
                                         rel="noopener" title="새창열림"><span>LG
                                             올레드 evo AI</span></a>
                                     <p>스탠드/벽걸이형<span></span>4K</p>
@@ -267,10 +266,8 @@
                                 온전하게
                             </h4>
                             <p>
-                                자체발광 디스플레이가 구현하는 퍼펙트 블랙과 무<br class="mo-only">한대 명암비, 정확한 컬러로 영화, 다큐, 게임 속 장<br class="mo-only">면 하나하나를 사실적으로 표현해, 마치 화면
-                                속에<br class="mo-only"> 들어간
-                                듯한 몰입감을 느낄
-                                수 있어요.
+                               백라이트 없이 스스로 빛을 내는 올레드 기술로 밝은 곳에서도 완벽한 블랙과 생생한 색감을 구현해 차원이 다른 몰입도의 시청 경험을 제공합니다.
+AI 프로세서가 830만개의 픽셀을 정교하게 분석해 화질을 업스케일링하고 사운드를 콘텐츠에 맞게 최적화해 영화, 스포츠 등 다양한 장르에서 풍부한 감동을 전달합니다.
                             </p>
                         </div>
                         <div class="des3 note">
@@ -443,8 +440,8 @@
                                                         <span class="des">
                                                             <button class="info pc-only"
                                                                 aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">화면의 최대 밝기와 하이라이트 표현을 끌어올려 밝은 환경에서도 빛과
-                                                                어둠의 디테일을 살려 표현하는 밝기 향상 기술</span>
+                                                            <span class="bubble">밝은 환경에서도 빛과 어둠의 디테일을 살리고, 실물 그대로의 정확한
+                                                                컬러를 표현</span>
                                                         </span>
                                                     </p>
                                                     <p class="des">* 모델별 상이</p>
@@ -460,8 +457,8 @@
                                                         <span class="des">
                                                             <button class="info pc-only"
                                                                 aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">화면의 최대 밝기와 하이라이트 표현을 끌어올려 밝은 환경에서도 빛과
-                                                                어둠의 디테일을 살려 표현하는 밝기 향상 기술</span>
+                                                            <span class="bubble">밝은 환경에서도 빛과 어둠의 디테일을 살리고, 실물 그대로의 정확한
+                                                                컬러를 표현</span>
                                                         </span>
                                                     </p>
                                                     <p class="des">* 모델별 상이</p>
@@ -555,7 +552,7 @@
                                                         <span class="des">
                                                             <button class="info pc-only"
                                                                 aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">4배 더 빠른 딥러닝 성능으로 향상된 화질과 사운드 제공</span>
+                                                            <span class="bubble">딥러닝 알고리즘으로 최적의 화질과 사운드 제공</span>
                                                         </span>
                                                     </p>
                                                 </td>
@@ -569,7 +566,7 @@
                                                         <span class="des">
                                                             <button class="info pc-only"
                                                                 aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">4배 더 빠른 딥러닝 성능으로 향상된 화질과 사운드 제공</span>
+                                                            <span class="bubble">딥러닝 알고리즘으로 최적의 화질과 사운드 제공</span>
                                                         </span>
                                                     </p>
                                                 </td>
@@ -583,7 +580,7 @@
                                                         <span class="des">
                                                             <button class="info pc-only"
                                                                 aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">4배 더 빠른 딥러닝 성능으로 향상된 화질과 사운드 제공</span>
+                                                            <span class="bubble">딥러닝 알고리즘으로 최적의 화질과 사운드 제공</span>
                                                         </span>
                                                     </p>
                                                 </td>
@@ -597,7 +594,7 @@
                                                         <span class="des">
                                                             <button class="info pc-only"
                                                                 aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">딥러닝으로 화질 레벨을 분류해 영상 화질 개선</span>
+                                                            <span class="bubble">딥러닝 알고리즘으로 최적의 화질과 사운드 제공</span>
                                                         </span>
                                                     </p>
                                                 </td>
@@ -613,7 +610,7 @@
                                                         <span class="des">
                                                             <button class="info pc-only"
                                                                 aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">영상부터 음악, 게임, 앱까지 취향에 맞는 콘텐츠를 한눈에
+                                                            <span class="bubble">영상부터 음악, 게임, 앱까지 빠르고 원활하게 접근할 수 있는 플랫폼
                                                                 제공</span>
                                                         </span>
                                                     </p>
@@ -628,7 +625,7 @@
                                                         <span class="des">
                                                             <button class="info pc-only"
                                                                 aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">영상부터 음악, 게임, 앱까지 취향에 맞는 콘텐츠를 한눈에
+                                                            <span class="bubble">영상부터 음악, 게임, 앱까지 빠르고 원활하게 접근할 수 있는 플랫폼
                                                                 제공</span>
                                                         </span>
                                                     </p>
@@ -643,7 +640,7 @@
                                                         <span class="des">
                                                             <button class="info pc-only"
                                                                 aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">영상부터 음악, 게임, 앱까지 취향에 맞는 콘텐츠를 한눈에
+                                                            <span class="bubble">영상부터 음악, 게임, 앱까지 빠르고 원활하게 접근할 수 있는 플랫폼
                                                                 제공</span>
                                                         </span>
                                                     </p>
@@ -658,7 +655,7 @@
                                                         <span class="des">
                                                             <button class="info pc-only"
                                                                 aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">영상부터 음악, 게임, 앱까지 취향에 맞는 콘텐츠를 한눈에
+                                                            <span class="bubble">영상부터 음악, 게임, 앱까지 빠르고 원활하게 접근할 수 있는 플랫폼
                                                                 제공</span>
                                                         </span>
                                                     </p>
@@ -676,7 +673,7 @@
                                                         <span class="des">
                                                             <button class="info pc-only"
                                                                 aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">144Hz 가변 주사율(VRR)로 티어링 걱정없는 게임
+                                                            <span class="bubble">144Hz 가변 주사율(VRR)로 끊김 없이 즐기는 게임
                                                                 환경</span>
                                                         </span>
                                                     </p>
@@ -693,7 +690,7 @@
                                                         <span class="des">
                                                             <button class="info pc-only"
                                                                 aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">165Hz 가변 주사율(VRR)로 티어링 걱정없는 게임
+                                                            <span class="bubble">165Hz 가변 주사율(VRR)로 끊김 없이 즐기는 게임
                                                                 환경</span>
                                                         </span>
                                                     </p>
@@ -710,7 +707,7 @@
                                                         <span class="des">
                                                             <button class="info pc-only"
                                                                 aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">165Hz 가변 주사율(VRR)로 티어링 걱정없는 게임
+                                                            <span class="bubble">165Hz 가변 주사율(VRR)로 끊김 없이 즐기는 게임
                                                                 환경</span>
                                                         </span>
                                                     </p>
@@ -726,7 +723,7 @@
                                                         <span class="des">
                                                             <button class="info pc-only"
                                                                 aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">144Hz 가변 주사율(VRR)로 티어링 걱정없는 게임
+                                                            <span class="bubble">144Hz 가변 주사율(VRR)로 끊김 없이 즐기는 게임
                                                                 환경</span>
                                                         </span>
                                                     </p>
@@ -738,12 +735,13 @@
                                 </div>
                             </div>
                             <div class="des3">
-                                        <p class="des3-item">본 내용은 라인업의 대표 모델 기준 사양으로 작성되었으며, 모델별 사양은 상이할 수 있습니다. <br>
-                        구매 시 선택하신 모델의 제품 정보 페이지에 기재된 사양을 확인해 주시기 바랍니다.</p>
-                        <p class="des3-item">26년 출시 제품을 기준으로 작성된 표로, 제품별 스펙은 다를 수 있으니 정확한 내용은 각 제품별 상세 스펙을 확인해주세요.</p>
-                                    </div>
+                                <p class="des3-item">본 내용은 라인업의 대표 모델 기준 사양으로 작성되었으며, 모델별 사양은 상이할 수 있습니다. <br>
+                                    구매 시 선택하신 모델의 제품 정보 페이지에 기재된 사양을 확인해 주시기 바랍니다.</p>
+                                <p class="des3-item">26년 출시 제품을 기준으로 작성된 표로, 제품별 스펙은 다를 수 있으니 정확한 내용은 각 제품별 상세 스펙을
+                                    확인해주세요.</p>
+                                </div>
                             <div class="btn-wrap">
-                                <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000028" target="_blank"
+                                <a href="https://www.lge.co.kr/category/tvs?lineupId=CD00001001" target="_blank"
                                     rel="noopener" class="btn-product" title="새창열림">제품 보러 가기</a>
                             </div>
                         </div>
@@ -878,7 +876,8 @@
                                 </table>
                             </div>
                             <div class="des3">
-                                <p class="des3-item">26년 출시 제품을 기준으로 작성된 표로, 제품별 스펙은 다를 수 있으니 정확한 내용은 각 제품별 상세 스펙을 확인해주세요.</p>
+                                <p class="des3-item">26년 출시 제품을 기준으로 작성된 표로, 제품별 스펙은 다를 수 있으니 정확한 내용은 각 제품별 상세 스펙을
+                                    확인해주세요.</p>
                             </div>
                         </div>
                     </div>
@@ -888,27 +887,26 @@
                                 style="--pc-top: 35%;--pc-vertical: 63.5%;--mobile-top: 40%;--mobile-left: 22.5%;--mobile-m-left: 20px;">
                                 <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                                 <div class="bubble">
-                                    <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000028" target="_blank" rel="noopener"
-                                        title="새창열림"><span>Mircro RGB evo AI</span></a>
+                                    <a href="https://www.lge.co.kr/category/tvs?lineupId=CD00001002" target="_blank" rel="noopener" title="새창열림"><span>LG
+                                            Mircro RGB evo AI</span></a>
                                     <p>스탠드/벽걸이형<span></span>4K</p>
                                 </div>
                             </div>
                             <img src="/kr/story/buying-guide/2025/img/tv/micro_rgb_evo_01.jpg"
-                                alt="따뜻한 톤의 거실 벽면에 TV가 설치되어 있고, 화면의 알록달록 색감의 보석이 공간 전체에 세련된 분위기를 더하는 모습입니다." class="pc-only" />
+                                alt="따뜻한 톤의 거실 벽면에 TV가 설치되어 있고, 화면의 알록달록 색감의 보석이 공간 전체에 세련된 분위기를 더하는 모습입니다."
+                                class="pc-only" />
                             <img src="/kr/story/buying-guide/2025/img/tv/micro_rgb_evo_02.jpg"
-                                alt="따뜻한 톤의 거실 벽면에 TV가 설치되어 있고, 화면의 알록달록 색감의 보석이 공간 전체에 세련된 분위기를 더하는 모습입니다." class="mobile-only" />
+                                alt="따뜻한 톤의 거실 벽면에 TV가 설치되어 있고, 화면의 알록달록 색감의 보석이 공간 전체에 세련된 분위기를 더하는 모습입니다."
+                                class="mobile-only" />
                         </div>
                         <div class="text-wrap">
                             <h4>
                                 초정밀 컬러로 구현하는<br class="pc-only"> 생생한 화질
                             </h4>
                             <p>
-                                OLED의 전문성과 독보적인 기술로 탄생한 1세대<br class="mo-only"> RGB TV로 업계 최초 트리플 100% 컬러 인증을 받<br class="mo-only">아 영화, 방송, 사진, 이미지까지
-                                선명한 색을
-                                구현합<br class="mo-only">니다. 또한 3세대 알파11
-                                AI 프로세서를 탑재해<br class="mo-only"> OLED와 동일한 수준의 픽셀 제어가 가능하며 마이<br class="mo-only">크로 디밍 울트라 기술로 밝기와 어둠을 초정밀 제어<br
-                                    class="mo-only">해
-                                정확하고 생생한 화질을 제공합니다.
+                                마이크로 사이즈의 3원색인 R (빨강), G (초록), B (파랑) 을 미세 단위로 제어해 한층 더 정확하고 선명한 색을 구현합니다.
+화면을 영역별로 정밀하게 분석해 명암과 디테일을 효과적으로 표현하며, 업계 최초로 3가지 색 영역 인증 받아 방송,영화,사진 등
+다양한 콘텐츠를 또렷하게 감상할 수 있습니다.
                             </p>
                         </div>
                         <div class="des3 note">
@@ -928,7 +926,8 @@
                                 </div>
                                 <div class="summary-table">
                                     <table class="no-btn">
-                                        <caption class="blind"> LG RGB TV 대표 모델 비교표 - 세계 최초ㆍ세계 판매 1위 RGB 라인업의 주요 특징을 확인할 수 있습니다. </caption>
+                                        <caption class="blind"> LG RGB TV 대표 모델 비교표 - 세계 최초ㆍ세계 판매 1위 RGB 라인업의 주요 특징을 확인할
+                                            수 있습니다. </caption>
                                         <thead>
                                             <tr class="procuct-name">
                                                 <th scope="colgroup" colspan="4">
@@ -948,16 +947,18 @@
                                                             src="/kr/story/buying-guide/2025/img/tv/Micro_RGB_evo_front.png"
                                                             alt="TV LG Micro RGB evo 제품 이미지" class="front" /> <img
                                                             src="/kr/story/buying-guide/2025/img/tv/Micro_RGB_evo_side.png"
-                                                            alt="TV LG Micro RGB evo 측면 이미지" class="side" /> <button class="btn-angle"
-                                                            name="btn-angle"> 다른 각도 보기 </button> </div>
+                                                            alt="TV LG Micro RGB evo 측면 이미지" class="side" /> <button
+                                                            class="btn-angle" name="btn-angle"> 다른 각도 보기 </button>
+                                                    </div>
                                                 </td>
                                                 <td>
                                                     <div class="procuct-img"> <img
                                                             src="/kr/story/buying-guide/2025/img/tv/Mini_RGB_evo_front.png"
                                                             alt="TV LG Mini RGB evo 제품 이미지" class="front" /> <img
                                                             src="/kr/story/buying-guide/2025/img/tv/Mini_RGB_evo_side.png"
-                                                            alt="TV LG Mini RGB evo 측면 이미지" class="side" /> <button class="btn-angle"
-                                                            name="btn-angle"> 다른 각도 보기 </button> </div>
+                                                            alt="TV LG Mini RGB evo 측면 이미지" class="side" /> <button
+                                                            class="btn-angle" name="btn-angle"> 다른 각도 보기 </button>
+                                                    </div>
                                                 </td>
                                             </tr>
                                             <tr class="procuct-spec">
@@ -965,221 +966,235 @@
                                                     <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_4k.svg"
                                                             alt="무선 4K 해상도" /> </div>
                                                     <p> 4K 해상도 <span class="des"> <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">깔끔한 무선 연결로 4K 해상도를 편리하게</span> </span> </p>
+                                                            <span class="bubble">깔끔한 무선 연결로 4K 해상도를 편리하게</span> </span>
+                                                    </p>
                                                 </td>
                                                 <td>
                                                     <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_4k.svg"
                                                             alt="4K 해상도" /> </div>
                                                     <p> 4K 해상도 <span class="des"> <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">탁월한 컬러와 밝기로 4K 영상을 생생하게</span> </span> </p>
+                                                            <span class="bubble">탁월한 컬러와 밝기로 4K 영상을 생생하게</span> </span>
+                                                    </p>
                                                 </td>
                                             </tr>
                                             <tr class="procuct-spec">
                                                 <td>
                                                     <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/icon_microRGB.svg"
                                                             alt="모니터 안에 Micro RGB 아이콘" /> </div>
-                                                    <p> Micro RGB 초정밀 컬러<br>(트리플 100% 컬러) <span class="des"> <button class="info pc-only"
-                                                                aria-label="제품 내용 상세보기"></button> <span class="bubble">빨강, 초록, 파랑 색상을 더욱 정밀하게
-                                                                제어하여, 영상 속 빛과 색을 실시간으로 아주 미세한 단위까지 조절해 넓은 색 영역을 한층 더 선명하고 정확하게 표현</span> </span>
+                                                    <p> Micro RGB 초정밀 컬러<br>(트리플 100% 컬러) <span class="des"> <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                                            <span class="bubble">빨강, 초록, 파랑 색상을 더욱 정밀하게
+                                                                제어하여, 영상 속 빛과 색을 실시간으로 아주 미세한 단위까지 조절해 넓은 색 영역을 한층 더
+                                                                선명하고 정확하게 표현</span> </span>
                                                     </p>
                                                 </td>
                                                 <td>
-                                                    <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/icon_miniRGB.svg" alt="모니터 안에 Mini RGB 아이콘" />
-                                                    </div>
-                                                    <p> Mini RGB 컬러<br>(더블 100% 컬러) <span class="des"> <button class="info pc-only" aria-label="제품 내용 상세보기"></button> <span
-                                                                class="bubble">빨강, 초록, 파랑 색상을 더욱 섬세하게
-                                                                표현하도록 설계되어 일반적인 LED, 미니 LED보다 더 넓은 색 영역을 표현</span> </span> </p>
+                                                    <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/icon_miniRGB.svg"
+                                                            alt="모니터 안에 Mini RGB 아이콘" /> </div>
+                                                    <p> Mini RGB 컬러<br>(더블 100% 컬러) <span class="des"> <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                                            <span class="bubble">빨강, 초록, 파랑 색상을 더욱 섬세하게
+                                                                표현하도록 설계되어 일반적인 LED, 미니 LED보다 더 넓은 색 영역을 표현</span>
+                                                        </span> </p>
                                                 </td>
                                             </tr>
                                             <tr class="procuct-spec">
                                                 <td>
-                                                    <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_alpha11.svg" alt="알파11 AI 프로세서" /> </div>
-                                                    <p> 알파11 AI 프로세서 (3세대) <span class="des"> <button class="info pc-only" aria-label="제품 내용 상세보기"></button> <span
-                                                                class="bubble">4배 더 빠른 딥러닝 성능으로 향상된 화질과
-                                                                사운드 제공</span> </span> </p>
+                                                    <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_alpha11.svg"
+                                                            alt="알파11 AI 프로세서" /> </div>
+                                                    <p> 알파11 AI 프로세서 (3세대) <span class="des"> <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                                            <span class="bubble">딥러닝 알고리즘으로 최적의 화질과 사운드 제공</span>
+                                                        </span> </p>
                                                 </td>
                                                 <td>
-                                                    <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_alpha11.svg" alt="알파11 AI 프로세서" /> </div>
-                                                    <p> 알파11 AI 프로세서 (3세대) <span class="des"> <button class="info pc-only" aria-label="제품 내용 상세보기"></button> <span
-                                                                class="bubble">4배 더 빠른 딥러닝 성능으로 향상된 화질과
-                                                                사운드 제공</span> </span> </p>
+                                                    <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_alpha11.svg"
+                                                            alt="알파11 AI 프로세서" /> </div>
+                                                    <p> 알파11 AI 프로세서 (3세대) <span class="des"> <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                                            <span class="bubble">딥러닝 알고리즘으로 최적의 화질과 사운드 제공</span>
+                                                        </span> </p>
                                                 </td>
-                                                </tr>
-                                                <tr class="procuct-spec">
-                                                    <td>
-                                                    <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_webOS.svg" alt="webOS" /> </div>
-                                                    <p> webOS 26 <span class="des"> <button class="info pc-only" aria-label="제품 내용 상세보기"></button> <span class="bubble">영상부터
-                                                                음악, 게임, 앱까지 취향에 맞는
-                                                                콘텐츠를 한눈에 제공</span> </span> </p>
+                                            </tr>
+                                            <tr class="procuct-spec">
+                                                <td>
+                                                    <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_webOS.svg"
+                                                            alt="webOS" /> </div>
+                                                    <p> webOS 26 <span class="des"> <button class="info pc-only"
+                                                                aria-label="제품 내용 상세보기"></button> <span
+                                                                class="bubble">영상부터 음악, 게임, 앱까지 빠르고 원활하게 접근할 수 있는 플랫폼
+                                                                제공</span> </span> </p>
                                                 </td>
                                                 <td>
-                                                    <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_webOS.svg" alt="webOS" /> </div>
-                                                    <p> webOS 26 <span class="des"> <button class="info pc-only" aria-label="제품 내용 상세보기"></button> <span class="bubble">영상부터
-                                                                음악, 게임, 앱까지 취향에 맞는
-                                                                콘텐츠를 한눈에 제공</span> </span> </p>
+                                                    <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_webOS.svg"
+                                                            alt="webOS" /> </div>
+                                                    <p> webOS 26 <span class="des"> <button class="info pc-only"
+                                                                aria-label="제품 내용 상세보기"></button> <span
+                                                                class="bubble">영상부터 음악, 게임, 앱까지 빠르고 원활하게 접근할 수 있는 플랫폼
+                                                                제공</span> </span> </p>
                                                 </td>
-                                                </tr>
-                                                <tr class="procuct-spec last">
-                                                    <td>
-                                                    <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_165HZ.svg" alt="게이밍 주사율 (165Hz)" /> </div>
+                                            </tr>
+                                            <tr class="procuct-spec last">
+                                                <td>
+                                                    <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_165HZ.svg"
+                                                            alt="게이밍 주사율 (165Hz)" /> </div>
                                                     <p> 게이밍 주사율 120Hz <br>(VRR 최대 165Hz) <span class="des"> <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">165Hz 가변 주사율(VRR)로 티어링
-                                                                걱정없는 게임 환경</span> </span> </p>
+                                                            <span class="bubble">165Hz 가변 주사율(VRR)로 끊김 없이 즐기는 게임
+                                                                환경</span> </span> </p>
                                                 </td>
                                                 <td>
-                                                    <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_144HZ.svg" alt="게이밍 주사율 (144Hz)" /> </div>
+                                                    <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_144HZ.svg"
+                                                            alt="게이밍 주사율 (144Hz)" /> </div>
                                                     <p> 게이밍 주사율 120Hz <br>(VRR 최대 144Hz) <span class="des"> <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">144Hz 가변 주사율(VRR)로 티어링
-                                                                걱정없는 게임 환경</span> </span> </p>
-                                                </td>
-                                                </tr>
-                                                </tbody>
-                                                </table>
-                                                </div>
-                                                </div>
-                                                <div class="des3" style="--max-table-width: 920px">
-                                                    <p class="des3-item"> 본 내용은 라인업의 대표 모델 기준 사양으로 작성되었으며, 모델별 사양은 상이할 수 있습니다. <br> 구매 시 선택하신 모델의 제품 정보 페이지에 기재된 사양을
-                                                        확인해 주시기 바랍니다. </p>
-                                <p class="des3-item">26년 출시 제품을 기준으로 작성된 표로, 제품별 스펙은 다를 수 있으니 정확한 내용은 각 제품별 상세 스펙을 확인해주세요.</p>
-                                <p class="des3-item">LG Mini RGB evo AI는 LG Micro RGB evo AI와 다르게 그린, 블루 칩과 레드 부스터가 동시에 발광하는 기술이 적용되어 있습니다.</p>
-                                <p class="des3-item">High Purity RGB 스펙트럼 디스플레이 인증 / 더블 100% 컬러 인증</p> <button class="btn-collapse-toggle">
-                                    <span class="collapse">더보기</span> <span class="active">접기</span> </button>
-                                <div class="collapse-content">
-                                    <p> [High Purity RGB 스펙트럼 디스플레이 인증]<br> ① 인증 기관: TUV<br> ② 인증 기준일: 2026년 5월<br> ③ 인증 대상: 2026년형 MRGB9M
-                                        기준<br> ④ 인증 내용(인증 번호): 스펙트럼 피크 분리 지수(mPSI), 스펙트럼 중첩 비율(SOR)을 측정해 TUV 평가 기준 충족(1111318248)<br><br> [더블
-                                        100% 컬러 인증]<br> ① 인증기관: InterTek<br> ② 인증 기준일: 2025년 12월<br> ③ 인증 대상: 2026년형 MRGB9M, MRGB8*시리즈 기준<br> ④
-                                        인증 내용(인증번호): CIE1931 색공간에서 색영역을 측정해 DCI-P3, Adobe RGB 100% 인증(25KRQ1091-01) </p>
-                                </div>
-                            </div>
-                            <div class="btn-wrap"> <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000028" target="_blank" rel="noopener"
-                                    class="btn-product" title="새창열림">제품 보러 가기</a> </div>
-                            </div>
-                            <div class="product-table">
-                                <h4 class="box-subtitle"> 가장 합리적인 선택을 위해<br /> 스펙을 명확하게 비교해서 보여드려요. </h4>
-                                <div class="table-wrap include-tab vertical-scroll-box">
-                                    <table>
-                                        <caption class="blind"> LG RGB TV 모델 라인업 스펙 비교표 - Micro RGB evo, Mini RGB evo 라인업의 해상도, 컬러, 주사율, 사운드, 운영체제와
-                                            리모컨 정보를 비교합니다. </caption>
-                                        <colgroup>
-                                            <col class="col1" />
-                                            <col />
-                                            <col />
-                                            <col />
-                                        </colgroup>
-                                        <thead>
-                                            <tr>
-                                                <th scope="col" rowspan="2">모델 라인업</th>
-                                                <th scope="colgroup" colspan="3">RGB</th>
-                                            </tr>
-                                            <tr>
-                                                <th scope="col" class="th2">Micro RGB evo</th>
-                                                <th scope="col" class="th2" colspan="2">Mini RGB evo</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <th scope="row">시리즈</th>
-                                                <td>MRGB96</td>
-                                                <td>MRGB9M</td>
-                                                <td>MRGB86</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">해상도</th>
-                                                <td>4K</td>
-                                                <td>4K</td>
-                                                <td>4K</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">컬러</th>
-                                                <td>Micro RGB<br class="mo-only"> 초정밀 컬러<br>(트리플 100%<br class="mo-only"> 컬러)</td>
-                                                <td>Mini RGB 컬러<br>(더블 100% 컬러)</td>
-                                                <td>Mini RGB 컬러<br>(더블 100% 컬러)</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">주사율</th>
-                                                <td>120Hz<br>(VRR<br class="mo-only"> 최대 165Hz)</td>
-                                                <td>120Hz<br>(VRR<br class="mo-only"> 최대 144Hz)</td>
-                                                <td>120Hz<br>(VRR<br class="mo-only"> 최대 144Hz)</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">FreeSync</th>
-                                                <td class="y-text">지원</td>
-                                                <td class="y-text">지원</td>
-                                                <td class="y-text">지원</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">AI 프로세서</th>
-                                                <td>알파11 AI<br class="mo-only"> 프로세서 (3세대)</td>
-                                                <td>알파11 AI<br class="mo-only"> 프로세서 (3세대)</td>
-                                                <td>알파8 AI <br class="mo-only"> 프로세서 (3세대)</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">돌비 비전 / 돌비 애트모스</th>
-                                                <td class="y-text">지원</td>
-                                                <td class="y-text">지원</td>
-                                                <td class="y-text">지원</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">버추얼 서라운드</th>
-                                                <td>11.1.2</td>
-                                                <td>11.1.2</td>
-                                                <td>11.1.2</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">출력 / 채널</th>
-                                                <td>40W / 2.2ch</td>
-                                                <td>20W / 2.0ch</td>
-                                                <td>20W / 2.0ch</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">운영체제</th>
-                                                <td>webOS 26</td>
-                                                <td>webOS 26</td>
-                                                <td>webOS 26</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">리모컨</th>
-                                                <td>AI 매직 리모컨</td>
-                                                <td>AI 매직 리모컨</td>
-                                                <td> AI 매직 리모컨 <p class="des2">* 일부 일반 리모컨</p>
+                                                            <span class="bubble">144Hz 가변 주사율(VRR)로 끊김 없이 즐기는 게임
+                                                                환경</span> </span> </p>
                                                 </td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
-                            <div class="des3">
-                                <p class="des3-item"> 본 내용은 라인업의 대표 모델 기준 사양으로 작성되었으며, 모델별 사양은 상이할 수 있습니다. <br> 구매 시 선택하신 모델의 제품 정보 페이지에 기재된 사양을
+                            </div>
+                            <div class="des3" style="--max-table-width: 920px">
+                                <p class="des3-item"> 본 내용은 라인업의 대표 모델 기준 사양으로 작성되었으며, 모델별 사양은 상이할 수 있습니다. <br> 구매 시
+                                    선택하신 모델의 제품 정보 페이지에 기재된 사양을
                                     확인해 주시기 바랍니다. </p>
-                                <p class="des3-item">26년 출시 제품을 기준으로 작성된 표로, 제품별 스펙은 다를 수 있으니 정확한 내용은 각 제품별 상세 스펙을 확인해주세요.</p>
-                                <p class="des3-item">LG Mini RGB evo AI는 LG Micro RGB evo AI와 다르게 그린, 블루 칩과 레드 부스터가 동시에 발광하는 기술이 적용되어 있습니다.</p>
+                                <p class="des3-item">26년 출시 제품을 기준으로 작성된 표로, 제품별 스펙은 다를 수 있으니 정확한 내용은 각 제품별 상세 스펙을
+                                    확인해주세요.</p>
+                                <p class="des3-item">LG Mini RGB evo AI는 LG Micro RGB evo AI와 다르게 그린, 블루 칩과 레드 부스터가 동시에
+                                    발광하는 기술이 적용되어 있습니다.</p>
                                 <p class="des3-item">High Purity RGB 스펙트럼 디스플레이 인증 / 더블 100% 컬러 인증</p> <button class="btn-collapse-toggle">
                                     <span class="collapse">더보기</span> <span class="active">접기</span> </button>
                                 <div class="collapse-content">
-                                    <p> [High Purity RGB 스펙트럼 디스플레이 인증]<br> ① 인증 기관: TUV<br> ② 인증 기준일: 2026년 5월<br> ③ 인증 대상: 2026년형 MRGB9M
-                                        기준<br> ④ 인증 내용(인증 번호): 스펙트럼 피크 분리 지수(mPSI), 스펙트럼 중첩 비율(SOR)을 측정해 TUV 평가 기준 충족(1111318248)<br><br> [더블
-                                        100% 컬러 인증]<br> ① 인증기관: InterTek<br> ② 인증 기준일: 2025년 12월<br> ③ 인증 대상: 2026년형 MRGB9M, MRGB8*시리즈 기준<br> ④
+                                    <p> [High Purity RGB 스펙트럼 디스플레이 인증]<br> ① 인증 기관: TUV<br> ② 인증 기준일: 2026년 5월<br> ③ 인증
+                                        대상: 2026년형 MRGB9M
+                                        기준<br> ④ 인증 내용(인증 번호): 스펙트럼 피크 분리 지수(mPSI), 스펙트럼 중첩 비율(SOR)을 측정해 TUV 평가 기준
+                                        충족(1111318248)<br><br> [더블
+                                        100% 컬러 인증]<br> ① 인증기관: InterTek<br> ② 인증 기준일: 2025년 12월<br> ③ 인증 대상: 2026년형
+                                        MRGB9M, MRGB8*시리즈 기준<br> ④
                                         인증 내용(인증번호): CIE1931 색공간에서 색영역을 측정해 DCI-P3, Adobe RGB 100% 인증(25KRQ1091-01) </p>
                                 </div>
                             </div>
+                            <div class="btn-wrap"> <a href="https://www.lge.co.kr/category/tvs?lineupId=CD00001002" target="_blank" rel="noopener"
+                                    class="btn-product" title="새창열림">제품 보러 가기</a> </div>
+                        </div>
+                        <div class="product-table">
+                            <h4 class="box-subtitle"> 가장 합리적인 선택을 위해<br /> 스펙을 명확하게 비교해서 보여드려요. </h4>
+                            <div class="table-wrap include-tab vertical-scroll-box">
+                                <table>
+                                    <caption class="blind"> LG RGB TV 모델 라인업 스펙 비교표 - Micro RGB evo, Mini RGB evo 라인업의
+                                        해상도, 컬러, 주사율, 사운드, 운영체제와
+                                        리모컨 정보를 비교합니다. </caption>
+                                    <colgroup>
+                                        <col class="col1" />
+                                        <col />
+                                        <col />
+                                        <col />
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" rowspan="2">모델 라인업</th>
+                                            <th scope="colgroup" colspan="3">RGB</th>
+                                        </tr>
+                                        <tr>
+                                            <th scope="col" class="th2">Micro RGB evo</th>
+                                            <th scope="col" class="th2" colspan="2">Mini RGB evo</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">시리즈</th>
+                                            <td>MRGB96</td>
+                                            <td>MRGB9M</td>
+                                            <td>MRGB86</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">해상도</th>
+                                            <td>4K</td>
+                                            <td>4K</td>
+                                            <td>4K</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">컬러</th>
+                                            <td>Micro RGB<br class="mo-only"> 초정밀 컬러<br>(트리플 100%<br class="mo-only">
+                                                컬러)</td>
+                                            <td>Mini RGB 컬러<br>(더블 100% 컬러)</td>
+                                            <td>Mini RGB 컬러<br>(더블 100% 컬러)</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">주사율</th>
+                                            <td>120Hz<br>(VRR<br class="mo-only"> 최대 165Hz)</td>
+                                            <td>120Hz<br>(VRR<br class="mo-only"> 최대 144Hz)</td>
+                                            <td>120Hz<br>(VRR<br class="mo-only"> 최대 144Hz)</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">FreeSync</th>
+                                            <td class="y-text">지원</td>
+                                            <td class="y-text">지원</td>
+                                            <td class="y-text">지원</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">AI 프로세서</th>
+                                            <td>알파11 AI<br class="mo-only"> 프로세서 (3세대)</td>
+                                            <td>알파11 AI<br class="mo-only"> 프로세서 (3세대)</td>
+                                            <td>알파8 AI <br class="mo-only"> 프로세서 (3세대)</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">돌비 비전 / 돌비 애트모스</th>
+                                            <td class="y-text">지원</td>
+                                            <td class="y-text">지원</td>
+                                            <td class="y-text">지원</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">버추얼 서라운드</th>
+                                            <td>11.1.2</td>
+                                            <td>11.1.2</td>
+                                            <td>11.1.2</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">출력 / 채널</th>
+                                            <td>40W / 2.2ch</td>
+                                            <td>20W / 2.0ch</td>
+                                            <td>20W / 2.0ch</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">운영체제</th>
+                                            <td>webOS 26</td>
+                                            <td>webOS 26</td>
+                                            <td>webOS 26</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">리모컨</th>
+                                            <td>AI 매직 리모컨</td>
+                                            <td>AI 매직 리모컨</td>
+                                            <td> AI 매직 리모컨 <p class="des2">* 일부 일반 리모컨</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
+                            <div class="des3">
+                            
+                                <p class="des3-item">26년 출시 제품을 기준으로 작성된 표로, 제품별 스펙은 다를 수 있으니 정확한 내용은 각 제품별 상세 스펙을
+                                    확인해주세요.</p>
+
                             </div>
-                            <div id="product-type-3" name="product-type" style="display: none">
-                                <div class="img-wrap">
-                                <div class="bubble-wrap left" style=" --pc-top: 39%; --pc-vertical: 63.5%; --mobile-top: 40%; --mobile-left: 22.5%; ">
-                                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
-                                    <div class="bubble"> <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50041000" target="_blank"
-                                            rel="noopener" title="새창열림"><span>LG QNED evo AI</span> </a>
-                                        <p>스탠드/벽걸이형<span></span>4K</p>
-                                    </div>
-                                </div> <img src="/kr/story/buying-guide/2025/img/tv/img_P14_001_11.jpg"
-                                    alt="밝은 거실 공간에 대형 TV가 놓여 있으며, 화면의 생동감 넘치는 원색 추상 패턴이 공간에 활기와 선명한 분위기를 더하는 이미지입니다." class="pc-only" /> <img
-                                    src="/kr/story/buying-guide/2025/img/tv/img_M14_001_07.jpg"
-                                    alt="밝은 거실 공간에 대형 TV가 놓여 있으며, 화면의 생동감 넘치는 원색 추상 패턴이 공간에 활기와 선명한 분위기를 더하는 이미지입니다." class="mobile-only" />
-                            </div>
-                            <div class="text-wrap">
-                                <h4> LG만의 QNED 컬러 솔루션으로 <br>마치 눈앞에 있는 듯 생생하게 </h4>
-                                <p> LG의 고색재현 기술을 적용해 색 표현을 극대화하<br class="mo-only">고, 전 모델 컬러볼륨 100% 인증을 받은 프리미엄<br class="mo-only"> LCD TV예요.
-                                    압도적 기술로 한층 더 깊고 생동감<br class="mo-only"> 있는 화면을 경험할 수 있어요. </p>
+                        </div>
+                    </div>
+                    <div id="product-type-3" name="product-type" style="display: none">
+                        <div class="img-wrap">
+                            <div class="bubble-wrap left"
+                                style=" --pc-top: 39%; --pc-vertical: 63.5%; --mobile-top: 40%; --mobile-left: 22.5%; ">
+                                <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
+                                <div class="bubble"> <a href="https://www.lge.co.kr/category/tvs?lineupId=CD00001003"
+                                        target="_blank" rel="noopener" title="새창열림"><span>LG QNED evo AI</span> </a>
+                                    <p>스탠드/벽걸이형<span></span>4K</p>
+                                </div>
+                            </div> <img src="/kr/story/buying-guide/2025/img/tv/img_P14_001_11.jpg"
+                                alt="밝은 거실 공간에 대형 TV가 놓여 있으며, 화면의 생동감 넘치는 원색 추상 패턴이 공간에 활기와 선명한 분위기를 더하는 이미지입니다."
+                                class="pc-only" /> <img src="/kr/story/buying-guide/2025/img/tv/img_M14_001_07.jpg"
+                                alt="밝은 거실 공간에 대형 TV가 놓여 있으며, 화면의 생동감 넘치는 원색 추상 패턴이 공간에 활기와 선명한 분위기를 더하는 이미지입니다."
+                                class="mobile-only" />
+                        </div>
+                        <div class="text-wrap">
+                            <h4> LG만의 QNED 컬러 솔루션으로 <br>마치 눈앞에 있는 듯 생생하게 </h4>
+                            <p> 나노셀 기반의 LG의 고색재현 기술을 적용해 색 표현을 강화하고, 전 모델 컬러볼륨 100% 인증을 받은 프리미엄 LCD TV입니다.
+AI 프로세서가 화질과 사운드를 자동으로 분석하고 최적화해 선명한 4K 시청 경험을 제공합니다. </p>
                             </div>
                             <div class="des3 note">
                                 <p class="des3-item">소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.</p>
@@ -1253,27 +1268,27 @@
                                                         <p>
                                                             4K 해상도
                                                             <span class="des">
-                                                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
-                                                                <span class="bubble">탁월한 컬러와 밝기로 4K 영상을 생생하게</span>
+                                                            <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                                            <span class="bubble">탁월한 컬러와 밝기로 4K 영상을 생생하게</span>
                                                             </span>
-                                                        </p>
-                                                        </td>
-                                                        <td>
-                                                            <div class="spec-img">
-                                                                <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_4K.svg" alt="4K 해상도" />
-                                                            </div>
-                                                            <p>
-                                                                4K 해상도
-                                                                <span class="des">
-                                                                    <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
-                                                                    <span class="bubble">탁월한 컬러와 밝기로 4K 영상을 생생하게</span>
-                                                                </span>
                                                             </p>
-                                                        </td>
-                                                        </tr>
-                                                        <tr class="procuct-spec">
+                                                            </td>
                                                             <td>
                                                                 <div class="spec-img">
+                                                        <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_4K.svg" alt="4K 해상도" />
+                                                        </div>
+                                                        <p>
+                                                            4K 해상도
+                                                            <span class="des">
+                                                            <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                                            <span class="bubble">탁월한 컬러와 밝기로 4K 영상을 생생하게</span>
+                                                            </span>
+                                                            </p>
+                                                            </td>
+                                                            </tr>
+                                                            <tr class="procuct-spec">
+                                                                <td>
+                                                                    <div class="spec-img">
                                                         <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_QNEDpro.svg"
                                                             alt="QNED 컬러 프로" />
                                                     </div>
@@ -1282,8 +1297,8 @@
                                                         <span class="des">
                                                             <button class="info pc-only"
                                                                 aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">LG QNED의 최신 컬러 솔루션으로 마치 눈앞에 있는 듯 생생한
-                                                                화질</span>
+                                                            <span class="bubble">LG만의 고색재현 기술로 색의 깊이와 생동감 있는 컬러 구현
+                                                            </span>
                                                         </span>
                                                     </p>
                                                 </td>
@@ -1297,7 +1312,8 @@
                                                         <span class="des">
                                                             <button class="info pc-only"
                                                                 aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">최신 컬러 솔루션으로 한층 더 풍부한 화질</span>
+                                                            <span class="bubble">밝고 풍부한 컬러 표현으로 장면의 디테일까지 또렷하게 표현
+                                                            </span>
                                                         </span>
                                                     </p>
                                                 </td>
@@ -1313,7 +1329,8 @@
                                                         <span class="des">
                                                             <button class="info pc-only"
                                                                 aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">미니 LED로 작은<br class="mo-only"> 디테일까지 더 밝고<br class="mo-only"> 선명하게 표현</span>
+                                                            <span class="bubble">미니 LED로 작은<br class="mo-only"> 디테일까지 더
+                                                                밝고<br class="mo-only"> 선명하게 표현</span>
                                                         </span>
                                                     </p>
                                                 </td>
@@ -1326,7 +1343,8 @@
                                                         <span class="des">
                                                             <button class="info pc-only"
                                                                 aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">미니 LED로 작은<br class="mo-only"> 디테일까지 더 밝고<br class="mo-only"> 선명하게 표현</span>
+                                                            <span class="bubble">미니 LED로 작은<br class="mo-only"> 디테일까지 더
+                                                                밝고<br class="mo-only"> 선명하게 표현</span>
                                                         </span>
                                                     </p>
                                                 </td>
@@ -1342,9 +1360,9 @@
                                                         <span class="des">
                                                             <button class="info pc-only"
                                                                 aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">딥러닝으로 화질 레벨을 분류해 영상 화질 개선</span>
+                                                            <span class="bubble">딥러닝 알고리즘으로 최적의 화질과 사운드 제공</span>
                                                         </span><br>
-                                                        <p class="des">* 85''이하 : 2세대</p>
+                                                    <p class="des">* 85''이하 : 2세대</p>
                                                     </p>
                                                 </td>
                                                 <td>
@@ -1357,7 +1375,7 @@
                                                         <span class="des">
                                                             <button class="info pc-only"
                                                                 aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">화질 엔진으로 알아서 최적의 화질과 사운드 향상</span>
+                                                            <span class="bubble">딥러닝 알고리즘으로 최적의 화질과 사운드 제공</span>
                                                         </span>
                                                     </p>
                                                 </td>
@@ -1373,7 +1391,7 @@
                                                         <span class="des">
                                                             <button class="info pc-only"
                                                                 aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">영상부터 음악, 게임,<br class="mo-only"> 앱까지 취향에 맞는<br class="mo-only"> 콘텐츠를 한눈에
+                                                            <span class="bubble">영상부터 음악, 게임, 앱까지 빠르고 원활하게 접근할 수 있는 플랫폼
                                                                 제공</span>
                                                         </span>
                                                     </p>
@@ -1388,7 +1406,7 @@
                                                         <span class="des">
                                                             <button class="info pc-only"
                                                                 aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">영상부터 음악, 게임,<br class="mo-only"> 앱까지 취향에 맞는<br class="mo-only"> 콘텐츠를 한눈에
+                                                            <span class="bubble">영상부터 음악, 게임, 앱까지 빠르고 원활하게 접근할 수 있는 플랫폼
                                                                 제공</span>
                                                         </span>
                                                     </p>
@@ -1403,7 +1421,8 @@
                                                         게이밍 주사율 120Hz<br>(VRR 최대 144Hz)
                                                         <span class="des">
                                                             <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">144Hz 가변 주사율<br class="mo-only">(VRR)로 티어링 걱정<br class="mo-only">없는 게임 환경</span>
+                                                            <span class="bubble">144Hz 가변 주사율<br class="mo-only">(VRR)로
+                                                                끊김 없이 즐기는 게임 환경</span>
                                                         </span>
                                                     </p>
                                                 </td>
@@ -1415,7 +1434,7 @@
                                                         게이밍 주사율 60Hz
                                                         <span class="des">
                                                             <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">60Hz 가변 주사율로<br class="mo-only"> 티어링 걱정없는<br class="mo-only"> 게임 환경</span>
+                                                            <span class="bubble">60Hz 가변 주사율로 끊김 없이 즐기는 게임 환경</span>
                                                         </span>
                                                     </p>
                                                 </td>
@@ -1429,10 +1448,11 @@
                                     본 내용은 라인업의 대표 모델 기준 사양으로 작성되었으며, 모델별 사양은 상이할 수 있습니다. <br>
                                     구매 시 선택하신 모델의 제품 정보 페이지에 기재된 사양을 확인해 주시기 바랍니다.
                                 </p>
-                                <p class="des3-item">26년 출시 제품을 기준으로 작성된 표로, 제품별 스펙은 다를 수 있으니 정확한 내용은 각 제품별 상세 스펙을 확인해주세요.</p>
+                                <p class="des3-item">26년 출시 제품을 기준으로 작성된 표로, 제품별 스펙은 다를 수 있으니 정확한 내용은 각 제품별 상세 스펙을
+                                    확인해주세요.</p>
                             </div>
                             <div class="btn-wrap">
-                                <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50041000" target="_blank"
+                                <a href="https://www.lge.co.kr/category/tvs?lineupId=CD00001003" target="_blank"
                                     rel="noopener" class="btn-product" title="새창열림">제품 보러 가기</a>
                             </div>
                         </div>
@@ -1573,7 +1593,8 @@
                                 </table>
                             </div>
                             <div class="des3">
-                                <p class="des3-item">26년 출시 제품을 기준으로 작성된 표로, 제품별 스펙은 다를 수 있으니 정확한 내용은 각 제품별 상세 스펙을 확인해주세요.</p>
+                                <p class="des3-item">26년 출시 제품을 기준으로 작성된 표로, 제품별 스펙은 다를 수 있으니 정확한 내용은 각 제품별 상세 스펙을
+                                    확인해주세요.</p>
                             </div>
                         </div>
                     </div>
@@ -1587,7 +1608,7 @@
                                                             ">
                                 <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                                 <div class="bubble">
-                                    <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000029" target="_blank"
+                                    <a href="https://www.lge.co.kr/category/tvs?lineupId=CD00001004" target="_blank"
                                         rel="noopener" title="새창열림"><span>LG
                                             나노셀 AI</span></a>
                                     <p>스탠드/벽걸이형<span></span>4K</p>
@@ -1602,8 +1623,8 @@
                             <h4>뛰어난 색감 표현력과<br class="mo-only"> 슬림한 디자인으로 <br class="pc-only">공간을 돋보이게</h4>
                             <div>
                                 <p>
-                                    1나노미터의 미세 입자로 불순한 색의 파장을 제거<br class="mo-only">해 색의 순도를 높이는 나노셀 기술로 컬러를 한층<br class="mo-only"> 더 선명하게 표현하고 깔끔한 디자인으로 공간을
-                                    돋<br class="mo-only">보이게 만들어줘요.
+                                    1나노미터 크기의 미세 입자로 불필요한 색을 줄이고 색의 순도를 높여 자연스럽고 정확한 컬러를 구현하는 나노셀 기술이 적용되었습니다.
+AI 프로세서가 화질과 사운드를 분석해 장면에 맞게 조정함으로써 일상적인 시청 환경에서도 균형 잡힌 화질과 사운드를 제공합니다.
                                 </p>
                             </div>
                         </div>
@@ -1663,15 +1684,15 @@
                                                         <p>
                                                             4K 해상도
                                                             <span class="des">
-                                                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
-                                                                <span class="bubble">탁월한 컬러와 밝기로 4K 영상을 생생하게</span>
+                                                            <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                                            <span class="bubble">탁월한 컬러와 밝기로 4K 영상을 생생하게</span>
                                                             </span>
-                                                        </p>
-                                                        </td>
-                                                        </tr>
-                                                        <tr class="procuct-spec gray">
-                                                            <td>
-                                                                <div class="spec-img">
+                                                            </p>
+                                                            </td>
+                                                            </tr>
+                                                            <tr class="procuct-spec gray">
+                                                                <td>
+                                                                    <div class="spec-img">
                                                         <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_nanocolor.svg"
                                                             alt="나노셀 퓨어 컬러" />
                                                     </div>
@@ -1697,8 +1718,7 @@
                                                         <span class="des">
                                                             <button class="info pc-only"
                                                                 aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">화질 엔진으로 알아서
-                                                                <br class="mobile-only" />최적의 화질과 사운드 향상</span>
+                                                            <span class="bubble">딥러닝 알고리즘으로 최적의 화질과 사운드 제공</span>
                                                         </span>
                                                     </p>
                                                 </td>
@@ -1731,8 +1751,8 @@
                                                         <span class="des">
                                                             <button class="info pc-only"
                                                                 aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">영상부터 음악, 게임, 앱까지 취향에 맞는
-                                                                <br class="mobile-only" />콘텐츠를 한눈에 제공</span>
+                                                            <span class="bubble">영상부터 음악, 게임, 앱까지 빠르고 원활하게 접근할 수 있는 플랫폼
+                                                                제공</span>
                                                         </span>
                                                     </p>
                                                 </td>
@@ -1746,8 +1766,7 @@
                                                         게이밍 주사율 60Hz
                                                         <span class="des">
                                                             <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">60Hz 가변 주사율로 티어링 걱정없는 <br class="mo-only">
-                                                                게임 환경</span>
+                                                            <span class="bubble">60Hz 가변 주사율로 끊김 없이 즐기는 게임 환경</span>
                                                         </span>
                                                     </p>
                                                 </td>
@@ -1763,7 +1782,7 @@
                                 </p>
                             </div>
                             <div class="btn-wrap">
-                                <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000029" target="_blank"
+                                <a href="https://www.lge.co.kr/category/tvs?lineupId=CD00001004" target="_blank"
                                     rel="noopener" class="btn-product" title="새창열림">제품 보러 가기</a>
                             </div>
                         </div>
@@ -1774,16 +1793,17 @@
                                 style="--pc-top: 35%;--pc-vertical: 63.5%;--mobile-top: 40%;--mobile-left: 22.5%;--mobile-m-left: 20px;">
                                 <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                                 <div class="bubble">
-                                    <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000028" target="_blank" rel="noopener"
-                                        title="새창열림"><span>LG
+                                    <a href="https://www.lge.co.kr/category/tvs?lineupId=CD00001005" target="_blank" rel="noopener" title="새창열림"><span>LG
                                             NANO 4K UHD</span></a>
                                     <p>스탠드/벽걸이형<span></span>4K</p>
                                 </div>
                             </div>
                             <img src="/kr/story/buying-guide/2025/img/tv/nano_4k_uhd_01.jpg"
-                                alt="따뜻한 톤의 거실 벽면에 TV가 설치되어 있고, 화면의 보라·그린 색감의 추상 패턴이 공간 전체에 세련되고 차분한 분위기를 더하는 모습입니다." class="pc-only" />
+                                alt="따뜻한 톤의 거실 벽면에 TV가 설치되어 있고, 화면의 보라·그린 색감의 추상 패턴이 공간 전체에 세련되고 차분한 분위기를 더하는 모습입니다."
+                                class="pc-only" />
                             <img src="/kr/story/buying-guide/2025/img/tv/nano_4k_uhd_02.jpg"
-                                alt="따뜻한 톤의 거실 벽면에 TV가 설치되어 있고, 화면의 보라·그린 색감의 추상 패턴이 공간 전체에 세련되고 차분한 분위기를 더하는 모습입니다." class="mobile-only" />
+                                alt="따뜻한 톤의 거실 벽면에 TV가 설치되어 있고, 화면의 보라·그린 색감의 추상 패턴이 공간 전체에 세련되고 차분한 분위기를 더하는 모습입니다."
+                                class="mobile-only" />
                         </div>
                         <div class="text-wrap">
                             <h4>
@@ -1791,8 +1811,8 @@
                                 선명한 화질
                             </h4>
                             <p>
-                                장면 속 명암 대비를 정교하게 분석해 숨은 디테일을 살려주는 나노 디테일 향상 기술을 통해 선명한 화질을 구현합니다. 또한 Gemini와 Copilot을 모두 지원하여 더욱 편리한 사용 경험을 제공하는 것은 물론
-                                신뢰성을 인정받은 LG Shield 솔루션으로 다양한 콘텐츠를 안전하게 즐길 수 있습니다.
+                                나노 디테일 향상 기술로 화면 속 미세한 명암과 밝기를 정밀하게 분석해 깊이감 있고 선명한 4K 화질을 구현하며,
+AI 기능으로 시청 중인 콘텐츠 관련 정보를 안내하고 필요한 정보는 TV에서 바로 검색할 수 있어 사용이 편리합니다.
                             </p>
                         </div>
                         <div class="des3 note">
@@ -1810,7 +1830,8 @@
                                 </div>
                                 <div class="summary-table">
                                     <table class="single no-btn">
-                                        <caption class="blind"> LG NANO 4K UHD TV 대표 모델 비교표 - 디테일이 살아있는 선명한 화질의 NANO 4K UHD 라인업 주요 특징을 확인할 수
+                                        <caption class="blind"> LG NANO 4K UHD TV 대표 모델 비교표 - 디테일이 살아있는 선명한 화질의 NANO 4K
+                                            UHD 라인업 주요 특징을 확인할 수
                                             있습니다. </caption>
                                         <thead>
                                             <tr class="procuct-name">
@@ -1830,8 +1851,9 @@
                                                             src="/kr/story/buying-guide/2025/img/tv/NANO 4K UHD_front.png"
                                                             alt="TV LG NANO 4K UHD 제품 이미지" class="front" /> <img
                                                             src="/kr/story/buying-guide/2025/img/tv/NANO 4K UHD_side.png"
-                                                            alt="TV LG NANO 4K UHD 측면 이미지" class="side" /> <button class="btn-angle"
-                                                            name="btn-angle"> 다른 각도 보기 </button> </div>
+                                                            alt="TV LG NANO 4K UHD 측면 이미지" class="side" /> <button
+                                                            class="btn-angle" name="btn-angle"> 다른 각도 보기 </button>
+                                                    </div>
                                                 </td>
                                             </tr>
                                             <tr class="procuct-spec">
@@ -1839,7 +1861,8 @@
                                                     <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_4K.svg"
                                                             alt="4K 해상도" /> </div>
                                                     <p> 4K 해상도 <span class="des"> <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">탁월한 컬러와 밝기로 4K 영상을 생생하게</span> </span> </p>
+                                                            <span class="bubble">탁월한 컬러와 밝기로 4K 영상을 생생하게</span> </span>
+                                                    </p>
                                                 </td>
                                             </tr>
                                             <tr class="procuct-spec">
@@ -1847,17 +1870,18 @@
                                                     <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_HDR10.svg"
                                                             alt="모니터 안에HDR10 PRO가 적힌 아이콘 " /> </div>
                                                     <p> HDR10 PRO <span class="des"> <button class="info pc-only"
-                                                                aria-label="제품 내용 상세보기"></button> <span class="bubble"><br
-                                                                    class="mo-only"></span> </span> </p>
+                                                                aria-label="제품 내용 상세보기"></button> <span
+                                                                class="bubble">장면별로 명암비와 컬러를 극대화하여 더 밝고, 생동감 넘치는 화질
+                                                                구현</span> </span> </p>
                                                 </td>
                                             </tr>
                                             <tr class="procuct-spec">
                                                 <td>
                                                     <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_alpha7.svg"
                                                             alt="알파7 AI 프로세서 (9세대)" /> </div>
-                                                    <p> 알파7 AI 프로세서 (9세대) <span class="des"> <button class="info pc-only"
-                                                                aria-label="제품 내용 상세보기"></button> <span class="bubble">화질 엔진으로 알아서 최적의 화질과 사운드
-                                                                향상</span> </span> </p>
+                                                    <p> 알파7 AI 프로세서 (9세대) <span class="des"> <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                                            <span class="bubble">딥러닝 알고리즘으로 최적의 화질과 사운드 제공</span>
+                                                        </span> </p>
                                                 </td>
                                             </tr>
                                             <tr class="procuct-spec">
@@ -1865,7 +1889,8 @@
                                                     <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_4kup.svg"
                                                             alt="4K 업스케일링" /> </div>
                                                     <p> 4K 업스케일링 <span class="des"> <button class="info pc-only"
-                                                                aria-label="제품 내용 상세보기"></button> <span class="bubble">강력한 프로세서로 콘텐츠의 해상도, 선명도
+                                                                aria-label="제품 내용 상세보기"></button> <span
+                                                                class="bubble">강력한 프로세서로 콘텐츠의 해상도, 선명도
                                                                 업스케일링</span> </span> </p>
                                                 </td>
                                             </tr>
@@ -1874,8 +1899,9 @@
                                                     <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_webOS.svg"
                                                             alt="webOS 26" /> </div>
                                                     <p> webOS 26 <span class="des"> <button class="info pc-only"
-                                                                aria-label="제품 내용 상세보기"></button> <span class="bubble">영상부터 음악, 게임, 앱까지 취향에
-                                                                맞는<br class="mo-only"> 콘텐츠를 한눈에 제공</span> </span> </p>
+                                                                aria-label="제품 내용 상세보기"></button> <span
+                                                                class="bubble">영상부터 음악, 게임, 앱까지 빠르고 원활하게 접근할 수 있는 플랫폼
+                                                                제공</span> </span> </p>
                                                 </td>
                                             </tr>
                                             <tr class="procuct-spec last gray">
@@ -1883,8 +1909,9 @@
                                                     <div class="spec-img"> <img src="/kr/story/buying-guide/2025/img/tv/icon_60Hz.svg"
                                                             alt="게이밍 주사율 60Hz" /> </div>
                                                     <p> 게이밍 주사율 60Hz <span class="des"> <button class="info pc-only"
-                                                                aria-label="제품 내용 상세보기"></button> <span class="bubble">60Hz 가변 주사율로 티어링 걱정없는 <br
-                                                                    class="mo-only"> 게임 환경</span> </span> </p>
+                                                                aria-label="제품 내용 상세보기"></button> <span
+                                                                class="bubble">60Hz 가변 주사율로 끊김 없이 즐기는 게임 환경</span>
+                                                        </span> </p>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -1892,30 +1919,35 @@
                                 </div>
                             </div>
                             <div class="des3" style="--max-table-width: 620px">
-                                <p class="des3-item"> 본 내용은 라인업의 대표 모델 기준 사양으로 작성되었으며, 모델별 사양은 상이할 수 있습니다. <br> 구매 시 선택하신 모델의 제품 정보 페이지에 기재된 사양을
+                                <p class="des3-item"> 본 내용은 라인업의 대표 모델 기준 사양으로 작성되었으며, 모델별 사양은 상이할 수 있습니다. <br> 구매 시
+                                    선택하신 모델의 제품 정보 페이지에 기재된 사양을
                                     확인해 주시기 바랍니다. </p>
                             </div>
-                            <div class="btn-wrap"> <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000029" target="_blank"
-                                    rel="noopener" class="btn-product" title="새창열림">제품 보러 가기</a> </div>
+                            <div class="btn-wrap"> <a href="https://www.lge.co.kr/category/tvs?lineupId=CD00001005" target="_blank" rel="noopener"
+                                    class="btn-product" title="새창열림">제품 보러 가기</a> </div>
                         </div>
+                    </div>
+                    <div id="product-type-6" name="product-type" style="display: none">
+                        <div class="img-wrap">
+                            <div class="bubble-wrap left"
+                                style=" --pc-top: 38%; --pc-vertical: 63.5%; --mobile-top: 40%; --mobile-left: 22.5%; ">
+                                <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
+                                <div class="bubble"> <a href="https://www.lge.co.kr/category/tvs?lineupId=CD00001006"
+                                        target="_blank" rel="noopener" title="새창열림"><span>LG 울트라 HD TV AI</span></a>
+                                    <p>스탠드/벽걸이형<span></span>4K</p>
+                                </div>
+                            </div> <img src="/kr/story/buying-guide/2025/img/tv/img_P14_001_13.jpg"
+                                alt="밝은 거실에 TV가 놓여 있고, 화면에는 다채로운 색상의 구 모양 오브제들이 선명하게 표현되어 공간에 생동감과 화려한 분위기를 더합니다."
+                                class="pc-only" /> <img src="/kr/story/buying-guide/2025/img/tv/img_M14_001_09.jpg"
+                                alt="밝은 거실에 TV가 놓여 있고, 화면에는 다채로운 색상의 구 모양 오브제들이 선명하게 표현되어 공간에 생동감과 화려한 분위기를 더합니다."
+                                class="mobile-only" />
                         </div>
-                        <div id="product-type-6" name="product-type" style="display: none">
-                            <div class="img-wrap">
-                                <div class="bubble-wrap left" style=" --pc-top: 38%; --pc-vertical: 63.5%; --mobile-top: 40%; --mobile-left: 22.5%; ">
-                                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
-                                    <div class="bubble"> <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000030" target="_blank"
-                                            rel="noopener" title="새창열림"><span>LG 울트라 HD TV AI</span></a>
-                                        <p>스탠드/벽걸이형<span></span>4K</p>
-                                    </div>
-                                </div> <img src="/kr/story/buying-guide/2025/img/tv/img_P14_001_13.jpg"
-                                    alt="밝은 거실에 TV가 놓여 있고, 화면에는 다채로운 색상의 구 모양 오브제들이 선명하게 표현되어 공간에 생동감과 화려한 분위기를 더합니다." class="pc-only" /> <img
-                                    src="/kr/story/buying-guide/2025/img/tv/img_M14_001_09.jpg"
-                                    alt="밝은 거실에 TV가 놓여 있고, 화면에는 다채로운 색상의 구 모양 오브제들이 선명하게 표현되어 공간에 생동감과 화려한 분위기를 더합니다." class="mobile-only" />
-                            </div>
-                            <div class="text-wrap">
-                                <h4>선명한 4K 화질과 AI 기능을 <br>합리적 가격으로 부담 없이</h4>
-                                <p> 저해상도 콘텐츠를 선명한 4K로 업스케일링하고,<br class="mo-only"> 다양한 OTT와 AI 검색, 챗봇 등 편리한 AI기능들도<br class="mo-only"> 경험할 수
-                                    있어요. </p>
+                        <div class="text-wrap">
+                            <h4>선명한 4K 화질과 AI 기능을 <br>합리적 가격으로 부담 없이</h4>
+                            <p> 4K 해상도와 HDR 기술로 장면별 밝기와 색감을 조정해 또렷한 화면을 제공하며, AI 프로세서가 영상과 사운드를 분석해 시청 환경을 최적화합니다.
+AI로 TV 설정을 간편하게 변경해 편리하게 시청할 수 있습니다.
+
+</p>
                             </div>
                             <div class="des3 note">
                                 <p class="des3-item">소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.</p>
@@ -1973,15 +2005,15 @@
                                                         <p>
                                                             4K 해상도
                                                             <span class="des">
-                                                                <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
-                                                                <span class="bubble">탁월한 컬러와 밝기로 4K 영상을 생생하게</span>
+                                                            <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                                                            <span class="bubble">탁월한 컬러와 밝기로 4K 영상을 생생하게</span>
                                                             </span>
-                                                        </p>
-                                                        </td>
-                                                        </tr>
-                                                        <tr class="procuct-spec gray">
-                                                            <td>
-                                                                <div class="spec-img">
+                                                            </p>
+                                                            </td>
+                                                            </tr>
+                                                            <tr class="procuct-spec gray">
+                                                                <td>
+                                                                    <div class="spec-img">
                                                         <img src="/kr/story/buying-guide/2025/img/tv/ic48_14_HDR10.svg"
                                                             alt="모니터 안에HDR10 PRO가 적힌 아이콘 " />
                                                     </div>
@@ -2007,7 +2039,7 @@
                                                         <span class="des">
                                                             <button class="info pc-only"
                                                                 aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">화질 엔진으로 알아서 최적의 화질과 사운드 향상</span>
+                                                            <span class="bubble">딥러닝 알고리즘으로 최적의 화질과 사운드 제공</span>
                                                         </span>
                                                     </p>
                                                 </td>
@@ -2040,7 +2072,7 @@
                                                         <span class="des">
                                                             <button class="info pc-only"
                                                                 aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">영상부터 음악, 게임, 앱까지 취향에 맞는<br class="mo-only"> 콘텐츠를 한눈에
+                                                            <span class="bubble">영상부터 음악, 게임, 앱까지 빠르고 원활하게 접근할 수 있는 플랫폼
                                                                 제공</span>
                                                         </span>
                                                     </p>
@@ -2055,8 +2087,7 @@
                                                         게이밍 주사율 60Hz
                                                         <span class="des">
                                                             <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
-                                                            <span class="bubble">60Hz 가변 주사율로 티어링 걱정없는<br class="mo-only">
-                                                                게임 환경</span>
+                                                            <span class="bubble">60Hz 가변 주사율로 끊김 없이 즐기는 게임 환경</span>
                                                         </span>
                                                     </p>
                                                 </td>
@@ -2072,7 +2103,7 @@
                                 </p>
                             </div>
                             <div class="btn-wrap">
-                                <a href="https://www.lge.co.kr/category/tvs?subCateId=CT50000030" target="_blank"
+                                <a href="https://www.lge.co.kr/category/tvs?lineupId=CD00001006" target="_blank"
                                     rel="noopener" class="btn-product" title="새창열림">제품 보러 가기</a>
                             </div>
                         </div>
@@ -2306,23 +2337,31 @@
                                     <div class="content">
                                         <h5>세계가 인정한 NO.1 LG 올레드</h5>
                                         <p>
-                                            1년 연속 세계 판매 1위를 기록한 LG 올레드. <br class="pc-only">
+                                            13년 연속 세계 판매 1위를 기록한 LG 올레드. <br class="pc-only">
                                             어떤 TV를 살지 고민된다면, 세계에서 가장 많이 선택 받은 LG 올레드가 정답입니다.
                                         </p>
                                         <div class="img">
                                             <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_09.jpg"
-                                                alt="세계 판매 1위 올레드 TV 1년 연속 기록을 안내하는 그래픽 이미지" />
+                                                alt="세계 판매 1위 올레드 TV 13년 연속 기록을 안내하는 그래픽 이미지" />
                                         </div>
                                         <p class="des">
                                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br />
-                                            ※ 2024년 CES 혁신상 수상: Digital Imaging / Photography, Audio/Video Components & Accessories, Video Displays 부문(88OLEDZ3),
-                                            Digital Imaging / Photography 부문(118” 4K Micro LED), Embedded Technologies, Audio/Video Components & Accessories 부문
-                                            (OLED M4), Gaming & eSports 부문(83OLEDM4), Audio/Video Components & Accessories 부문 (83OLEDC4), Mobile Devices,
-                                            Accessories & Apps, Content & Entertainment 부문(StanbyME Go LX5), Video Display, Embedded Technologies, Digital Imaging /
-                                            Photography 부문(4K Transparent OLED T), Content & Entertainment 부문(Voice ID 기반 컨텐츠 추천), Digital Health 부문 (Intelligent
-                                            Fit), Content & Entertainment 부문(Transparent Screen UX), Artificial Intelligence (AI) 부문(LG Imagine Live)​<br />
-                                            ※ CES혁신상은 제출된 설명 자료에 근거하여 심사하는 상으로, 수여기관인 CTA는 지원서나 주장 내용의 사실관계를 입증하거나, 수상제품 테스트를 진행하지 않습니다.​<br />
-                                            ※ 한국소비자원 성능평가: 소비자의 선호도에 따라 주요 고려 요소는 다를 수 있음, SDR 영상품질/HDR영상품질/시야각 부문에서 매우 우수 평가​
+                                            ※ 2024년 CES 혁신상 수상: Digital Imaging / Photography, Audio/Video Components &
+                                            Accessories, Video Displays 부문(88OLEDZ3),
+                                            Digital Imaging / Photography 부문(118” 4K Micro LED), Embedded Technologies,
+                                            Audio/Video Components & Accessories 부문
+                                            (OLED M4), Gaming & eSports 부문(83OLEDM4), Audio/Video Components &
+                                            Accessories 부문 (83OLEDC4), Mobile Devices,
+                                            Accessories & Apps, Content & Entertainment 부문(StanbyME Go LX5), Video
+                                            Display, Embedded Technologies, Digital Imaging /
+                                            Photography 부문(4K Transparent OLED T), Content & Entertainment 부문(Voice ID
+                                            기반 컨텐츠 추천), Digital Health 부문 (Intelligent
+                                            Fit), Content & Entertainment 부문(Transparent Screen UX), Artificial
+                                            Intelligence (AI) 부문(LG Imagine Live)​<br />
+                                            ※ CES혁신상은 제출된 설명 자료에 근거하여 심사하는 상으로, 수여기관인 CTA는 지원서나 주장 내용의 사실관계를 입증하거나, 수상제품
+                                            테스트를 진행하지 않습니다.​<br />
+                                            ※ 한국소비자원 성능평가: 소비자의 선호도에 따라 주요 고려 요소는 다를 수 있음, SDR 영상품질/HDR영상품질/시야각 부문에서 매우
+                                            우수 평가​
                                         </p>
                                     </div>
                                     <div class="content">
@@ -2343,18 +2382,41 @@
                                 </div>
                                 <div class="point-wrap" id="buying-point-1-3" name="buying-point-1"
                                     style="display: none">
-                                    <h4 class="hide">QNED보다 더 정교한 색감, QNED evo</h4>
+                                    <h4 class="hide">QNED보다 더 정교한 색감 QNED evo</h4>
                                     <div class="content">
-                                        <h5>QNED보다 더 정교한 색감, QNED evo</h5>
+                                        <h5>초정밀 컬러와 디테일 완성 Micro RGB evo
+                                        </h5>
+                                        <p>
+                                            Micro RGB Technology는 LG만의 독자적인 기술로 트리플 100% 컬러 인증을 획득한 차세대 디스플레이 백라이트
+                                            기술입니다.
+                                            고색순도 RGB 스펙트럼 디스플레이가 적용되어 색을 보다 정확하고 선명하게 표현하며, 기존 Mini LED 백라이트 대비 더욱 풍부한
+                                            컬러와 명암비를 제공합니다.
+
+                                        </p>
+                                        <div class="btn-wrap">
+                                            <a class="btn-product"
+                                                href="https://www.lge.co.kr/category/tvs?lineupId=CD00001002&SUB_CATE_ID_PARAM=CT50041000"
+                                                target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
+                                        </div>
+                                        <div class="img">
+                                            <img src="/kr/story/buying-guide/2025/img/tv/img_P01_101_02.jpg"
+                                                alt="화려한 색상의 꽃이 어두운 배경 위에 피어 있습니다. 꽃잎은 파란색, 빨간색, 노란색이 조화를 이루며 빛나고 있으며, 중심부는 붉은색으로 강조되어 있습니다. 꽃잎의 섬세한 디테일이 돋보이며, 전체적으로 생동감 넘치는 아름다움을 표현하고 있습니다." />
+                                        </div>
+                                        <p class="des">
+                                            * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br />
+
+                                        </p>
+                                    </div>
+                                    <div class="content">
+                                        <h5>QNED보다 더 정교한 색감 QNED evo</h5>
                                         <p>
                                             QNED의 상위 라인업인 QNED evo는 QNED TV의 정교한 색감에 더해 빛을 더 섬세하게 제어하는 미니 LED를 적용했습니다.
                                             작은 디테일까지 더 선명하게,
                                             블랙은 더 깊게, 컬러는 더 생생하게 표현해줍니다.
                                         </p>
                                         <div class="btn-wrap">
-                                            <a class="btn-product"
-                                                href="https://www.lge.co.kr/category/tvs?subCateId=CT50041000"
-                                                target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
+                                            <a class="btn-product" href="https://www.lge.co.kr/category/tvs?subCateId=CT50041000" target="_blank" rel="noopener"
+                                                title="새창열림">제품 보러 가기</a>
                                         </div>
                                         <div class="img">
                                             <img src="/kr/story/buying-guide/2025/img/tv/img_P14_101_11.jpg"
@@ -2366,26 +2428,7 @@
                                         </p>
                                     </div>
                                     <div class="content">
-                                        <h5>초정밀 컬러로 구현하는 생생한 화질</h5>
-                                        <p>
-                                            OLED의 전문성과 독보적인 기술로 탄생한 1세대 RGB TV로 업계 최초 트리플 100% 컬러 인증을 받아 영화, 방송, 사진, 이미지까지 선명한 색을 구현합니다. 또한 3세대 알파11 AI 프로세서를
-                                            탑재해 OLED와 동일한 수준의 픽셀 제어가 가능하며 마이크로 디밍 울트라 기술로 밝기와 어둠을 초정밀 제어해 정확하고 생생한 화질을 제공합니다.
-                                        </p>
-                                        <div class="btn-wrap">
-                                            <a class="btn-product" href="https://www.lge.co.kr/category/tvs?subCateId=CT50041000" target="_blank" rel="noopener"
-                                                title="새창열림">제품 보러 가기</a>
-                                        </div>
-                                        <div class="img">
-                                            <img src="/kr/story/buying-guide/2025/img/tv/img_P01_101_02.jpg"
-                                                alt="화려한 색상의 꽃이 어두운 배경 위에 피어 있습니다. 꽃잎은 파란색, 빨간색, 노란색이 조화를 이루며 빛나고 있으며, 중심부는 붉은색으로 강조되어 있습니다. 꽃잎의 섬세한 디테일이 돋보이며, 전체적으로 생동감 넘치는 아름다움을 표현하고 있습니다." />
-                                        </div>
-                                        <p class="des">
-                                            * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br />
-                                            * LG QNED evo는 LG QNED MiniLED의 새로운 이름입니다.
-                                        </p>
-                                        </div>
-                                        <div class="content">
-                                        <h5>더 극대화된 컬러 표현력, QNED</h5>
+                                        <h5>더 극대화된 컬러 표현력 QNED</h5>
                                         <p>
                                             기존 나노셀 TV에서 색 재현율, 명암비, 밝기를 개선해 출시한 QNED TV 입니다. 순도 높은 컬러를 표현하는 나노셀 기준, 각각의
                                             색 표현을 끌어올리는
@@ -2404,8 +2447,10 @@
                                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
                                         </p>
                                     </div>
+
+
                                     <div class="content">
-                                        <h5>본연의 색 그대로 더 리얼한, 나노셀</h5>
+                                        <h5>본연의 색 그대로 더 리얼한 나노셀</h5>
                                         <p>
                                             1나노미터(nm)의 미세 입자를 적용해 불순한 색의 파장을 제거하고 색의 순도를 높여 실제 눈으로 보는 듯 생생하게 표현해줍니다. 넓은
                                             시야각으로 어떤 각도에서
@@ -2425,15 +2470,16 @@
                                         </p>
                                     </div>
                                     <div class="content">
-                                        <h5>디테일이 살아있는 선명한 화질</h5>
+                                        <h5>디테일이 살아있는 선명한 화질 NANO 4K UHD</h5>
                                         <p>
-                                            장면 속 명암 대비를 정교하게 분석해 숨은 디테일을<br class="mo-only"> 살려주는 나노 디테일 향상 기술을 통해 선명한 화질<br class="mo-only">을 구현합니다. 또한 Gemini와
-                                            Copilot을 모두 지<br class="mo-only">원하여 더욱 편리한 사용 경험을 제공하는 것은
-                                            물론<br class="mo-only"> 신뢰성을 인정받은 LG Shield 솔루션으로 다양한<br class="mo-only"> 콘텐츠를 안전하게 즐길 수 있습니다.
+                                            나노 디테일 향상 기술로 화면 속 미세한 명암과 질감, 윤곽선을 정밀하게 분석해 작은 디테일까지 또렷하게 표현해주고, 머리카락 한 올의
+                                            결, 옷감의 질감, 풍경의 섬세한 입자까지 자연스럽게 살아나 더욱 깊이 있고
+                                            입체적인 화면을 완성합니다.
+
                                         </p>
                                         <div class="btn-wrap">
-                                            <a class="btn-product" href="https://www.lge.co.kr/category/tvs?subCateId=CT50000029" target="_blank" rel="noopener"
-                                                title="새창열림">제품 보러 가기</a>
+                                            <a class="btn-product" href="https://www.lge.co.kr/category/tvs?lineupId=CD00001005&SUB_CATE_ID_PARAM=CT50000029"
+                                                target="_blank" rel="noopener" title="새창열림">제품 보러 가기</a>
                                         </div>
                                         <div class="img">
                                             <img src="/kr/story/buying-guide/2025/img/tv/img_P01_101_01.jpg" alt="나노셀 TV 화면에 다채로운 색상의 실타래 이미지가 표시된 모습" />
@@ -2441,9 +2487,9 @@
                                         <p class="des">
                                             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.
                                         </p>
-                                        </div>
-                                        <div class="content">
-                                        <h5>기본에 충실한, 울트라 HD</h5>
+                                    </div>
+                                    <div class="content">
+                                        <h5>기본에 충실한 울트라 HD</h5>
                                         <p>
                                             뛰어난 성능은 기본으로 넓은 시야각과 생생한 4K 화질까지 합리적인 가격으로 구매할 수 있는 TV입니다.
                                         </p>
@@ -2705,9 +2751,9 @@
                                     <div class="content">
                                         <h5>알파11 AI 프로세서</h5>
                                         <p>
-                                            내가 보는 영상과 사운드를 알아서 분석해 최적의 화질과 사운드를 바꿔주는 올레드의 1년 기술이 담긴 똑똑한 프로세서에요. 6.7배
-                                            향상된 AI 성능과 2.2배
-                                            빨라진 처리 속도, 3.6배 개선된 그래픽 성능으로 원본 그대로 생생하게 고화질 영상과 게임을 즐길 수 있습니다.
+                                            내가 보는 영상과 사운드를 알아서 분석해 최적의 화질과 사운드를 바꿔주는 올레드의 13년 기술이 담긴 똑똑한 프로세서에요. 5.6배
+                                            향상된 AI 성능과 50%
+                                            빨라진 처리 속도, 70% 개선된 그래픽 성능으로 원본 그대로 생생하게 고화질 영상과 게임을 즐길 수 있습니다.
                                         </p>
                                         <div class="btn-wrap">
                                             <a class="btn-product"
@@ -2726,8 +2772,9 @@
                                         </button>
                                         <div class="collapse-content">
                                             <p>
-                                            * 13년의 기술력: 2013년 LG 올레드 출시 기준<br>
-                                            * 25년형 알파9 AI 프로세서 비교 기준
+                                                * 13년의 기술력: 2013년 LG 올레드 출시 기준<br>
+                                                * 25년형 알파9 AI 프로세서 비교 기준
+
 
                                             </p>
                                             <button class="btn-collapse-close">접기</button>
@@ -2756,9 +2803,9 @@
                                         </button>
                                         <div class="collapse-content">
                                             <p>
-                                    [듀얼 업스케일링 & 다이내믹 톤 매핑 울트라] <br>
-                                    * 이미지는 최대 4K 화질로 업스케일링됩니다. 결과는 원본 해상도에 따라 달라질 수 있습니다. <br>
-                                    * 입력되는 영상에 따라 업스케일링 화질에 차이가 있을 수 있습니다.
+                                                [듀얼 업스케일링 & 다이내믹 톤 매핑 울트라] <br>
+                                                * 이미지는 최대 4K 화질로 업스케일링됩니다. 결과는 원본 해상도에 따라 달라질 수 있습니다. <br>
+                                                * 입력되는 영상에 따라 업스케일링 화질에 차이가 있을 수 있습니다.
 
                                             </p>
                                             <button class="btn-collapse-close">접기</button>
@@ -2786,14 +2833,14 @@
                                         </button>
                                         <div class="collapse-content">
                                             <p>
-                                            [AI 보이스 리마스터링 프로] <br>
-                                            * 사운드 모드 메뉴를 통해 활성화해야 합니다. <br>
-                                            * 소리는 청취 환경에 따라 다를 수 있습니다. <br>
-                                            * AI 보이스 리마스터링 프로는 3세대 알파11 AI 프로세서를 탑재한 모델에서 지원합니다. <br><br>
-                                            [버추얼 11.1.2 서라운드] <br>
-                                            * 버추얼 11.1.2 서라운드는 영상의 사운드를 분석해 가상의 스피커 채널을 추가하는(업믹싱) AI 기술입니다. <br>
-                                            * 주변 환경에 따라 차이가 있을 수 있습니다. <br>
-                                            * 시청 콘텐츠와 파일 형식에 따라 차이가 있을 수 있습니다. <br>
+                                                [AI 보이스 리마스터링 프로] <br>
+                                                * 사운드 모드 메뉴를 통해 활성화해야 합니다. <br>
+                                                * 소리는 청취 환경에 따라 다를 수 있습니다. <br>
+                                                * AI 보이스 리마스터링 프로는 3세대 알파11 AI 프로세서를 탑재한 모델에서 지원합니다. <br><br>
+                                                [버추얼 11.1.2 서라운드] <br>
+                                                * 버추얼 11.1.2 서라운드는 영상의 사운드를 분석해 가상의 스피커 채널을 추가하는(업믹싱) AI 기술입니다. <br>
+                                                * 주변 환경에 따라 차이가 있을 수 있습니다. <br>
+                                                * 시청 콘텐츠와 파일 형식에 따라 차이가 있을 수 있습니다. <br>
 
                                             </p>
                                             <button class="btn-collapse-close">접기</button>
@@ -2846,9 +2893,9 @@
                                         </button>
                                         <div class="collapse-content">
                                             <p>
-                                            * 제공되는 AI 서비스 모델은 변경되거나 구독이 필요할 수 있습니다. <br>
-                                            * 기능은 지역과 모델에 따라 다를 수 있습니다. <br>
-                                            * Gemini & Copilot은 4월부터 순차 업데이트 예정이며, 서비스 제공 시점은 변경될 수 있습니다.
+                                                * 제공되는 AI 서비스 모델은 변경되거나 구독이 필요할 수 있습니다. <br>
+                                                * 기능은 지역과 모델에 따라 다를 수 있습니다. <br>
+                                                * Gemini & Copilot은 4월부터 순차 업데이트 예정이며, 서비스 제공 시점은 변경될 수 있습니다.
                                             </p>
                                             <button class="btn-collapse-close">접기</button>
                                         </div>
@@ -2860,8 +2907,8 @@
                                     <div class="content">
                                         <h5>AI 챗봇</h5>
                                         <p>
-                                        TV에 문제 상황이 감지되면 사용자의 도움이 필요한지 먼저 제안하고
-                                        단계별 안내를 통해 바로 문제를 해결하거나 고객센터 연결까지 도와줍니다.
+                                            TV에 문제 상황이 감지되면 사용자의 도움이 필요한지 먼저 제안하고
+                                            단계별 안내를 통해 바로 문제를 해결하거나 고객센터 연결까지 도와줍니다.
 
                                         </p>
                                         <div class="img">
@@ -2981,7 +3028,8 @@
                                         <p class="des">
                                             * 소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.<br />
                                             * 구동 시 TV와 제로 커넥트 박스에 각각 전원 연결이 필요합니다.<br />
-                                            * 세계 최초 무선 : 4k 120Hz 무선 AV 전송 기술, CES 2023 공식 어워드 인증 및 수상(혁신상)기준, 美 라스베이거스 (‘23년 1월)
+                                            * 세계 최초 무선 : 4k 120Hz 무선 AV 전송 기술, CES 2023 공식 어워드 인증 및 수상(혁신상)기준, 美 라스베이거스
+                                            (‘23년 1월)
                                         </p>
                                     </div>
                                 </div>
