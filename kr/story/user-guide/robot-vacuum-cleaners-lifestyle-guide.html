@@ -757,50 +757,7 @@
             </div>
         </section>
     </main>
-    <script>
-        Array.prototype.forEach.call(document.querySelectorAll('#snomet .notice-toggle'), function (button) {
-            var noticeList = button.nextElementSibling;
-
-            if (!noticeList || !noticeList.classList.contains('notice-list')) {
-                return;
-            }
-
-            noticeList.style.maxHeight = button.getAttribute('aria-expanded') === 'true' ? noticeList.scrollHeight + 'px' : '0px';
-
-            if (button.getAttribute('aria-expanded') !== 'true') {
-                noticeList.style.marginTop = '0px';
-            }
-
-            button.addEventListener('click', function () {
-                var isExpanded = button.getAttribute('aria-expanded') === 'true';
-
-                button.setAttribute('aria-expanded', String(!isExpanded));
-
-                if (isExpanded) {
-                    noticeList.style.maxHeight = noticeList.scrollHeight + 'px';
-                    void noticeList.offsetWidth;
-                    noticeList.classList.add('is-collapsed');
-                    noticeList.style.maxHeight = '0px';
-                    noticeList.style.marginTop = '0px';
-                } else {
-                    noticeList.classList.remove('is-collapsed');
-                    noticeList.style.marginTop = '';
-
-                    setTimeout(function () {
-                        noticeList.style.maxHeight = noticeList.scrollHeight + 'px';
-                    }, 100);
-                }
-            });
-
-            window.addEventListener('resize', function () {
-                if (button.getAttribute('aria-expanded') === 'true') {
-                    noticeList.style.maxHeight = noticeList.scrollHeight + 'px';
-                    noticeList.style.marginTop = '';
-                }
-            });
-        });
-
-    </script>
+    <script src="/kr/story/user-guide/js/user-guide-common.js"></script>
 </body>
 
 </html>
