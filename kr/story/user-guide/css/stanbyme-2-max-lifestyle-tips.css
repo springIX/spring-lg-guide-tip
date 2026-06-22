@@ -570,6 +570,9 @@
   }
 
   #gjw004 .sec-header .disclaimer {
+    margin: 0 20px 0;
+  }
+  #gjw004 .sec-header .disclaimer:first-child {
     margin: 13px 20px 0;
   }
 
