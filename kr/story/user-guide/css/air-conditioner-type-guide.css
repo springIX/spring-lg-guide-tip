@@ -546,6 +546,123 @@
 #gjw003 .tip-num li + li { margin-top: 8px; }
 #gjw003 .tip-num-tit { font-weight: 700; letter-spacing: -0.05em; line-height: 1.4; }
 #gjw003 .tip-num-desc { margin-top: 8px; letter-spacing: -0.05em; line-height: 1.4; }
+#gjw003 .install-kit-guide {
+  width: 100%;
+  margin-top: 28px;
+}
+#gjw003 .install-kit-section + .install-kit-section {
+  margin-top: 28px;
+}
+#gjw003 .install-kit-heading {
+  margin-bottom: 13px;
+}
+#gjw003 .install-kit-heading h5 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #000000;
+}
+#gjw003 .install-kit-heading h6 {
+  margin-top: 13px;
+  font-size: 22px;
+  line-height: 1.4;
+  color: #333333;
+}
+#gjw003 .install-kit-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+}
+#gjw003 .install-kit-table {
+  width: 1052px;
+  min-width: 1052px;
+}
+#gjw003 .install-kit-table th,
+#gjw003 .install-kit-table td {
+  text-align: center;
+  vertical-align: middle;
+}
+#gjw003 .install-kit-table th {
+  padding: 20px 22px;
+}
+#gjw003 .install-kit-table td {
+  padding: 16px 22px;
+}
+#gjw003 .install-kit-table th:first-child,
+#gjw003 .install-kit-table td:first-child {
+    text-align: left;
+    padding-right: 0;
+}
+#gjw003 .install-kit-table th:not(:first-child),
+#gjw003 .install-kit-table td:not(:first-child) {
+  padding-left: 22px;
+}
+#gjw003 .install-kit-table tbody tr:not(:last-child) td {
+  border-bottom-color: #a7a7a7;
+}
+#gjw003 .install-kit-table th h5 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+#gjw003 .install-kit-table td h6 {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #000000;
+}
+#gjw003 .install-kit-table td h6 strong {
+  font-weight: 600;
+}
+#gjw003 .install-kit-table td:first-child h6,
+#gjw003 .install-kit-table td:first-child h6 strong {
+  line-height: 1.35;
+}
+#gjw003 .install-kit-table th:last-child,
+#gjw003 .install-kit-table td:last-child {
+  text-align: left;
+}
+#gjw003 .install-kit-example-img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
+  object-fit: contain;
+}
+#gjw003 .install-kit-table td:last-child .install-kit-example-img {
+  margin-left: 0;
+}
+#gjw003 .install-kit-example-general-01 {
+  width: 248px;
+}
+#gjw003 .install-kit-example-general-02 {
+  width: 248px;
+}
+#gjw003 .install-kit-example-general-03 {
+  width: 248px;
+}
+#gjw003 .install-kit-example-small-01 {
+  width: 248px;
+}
+#gjw003 .install-kit-example-small-02 {
+  width: 248px;
+}
+#gjw003 .install-kit-empty {
+  color: transparent !important;
+}
+#gjw003 .install-kit-condition {
+  margin-top: 28px;
+}
+#gjw003 .install-kit-condition h6 {
+  font-size: 22px;
+  line-height: 1.4;
+  color: #333333;
+}
+#gjw003 .install-kit-mobile {
+  display: none;
+}
+#gjw003 .window-type-mobile {
+  display: none;
+}
 
 /* ---------------------------------------------------
            Mobile Responsive (768px 이하 - 가이드 수치 적용)
@@ -762,10 +879,55 @@
   width: 36.22%;
 }
 
-#gjw003 .data-table2 th:nth-child(2),
+  #gjw003 .data-table2 th:nth-child(2),
 #gjw003 .data-table2 td:nth-child(2) {
   width: 33.51%;
 }
+  #gjw003 .data-table-wall col:nth-child(1) {
+    width: 25% !important;
+  }
+  #gjw003 .data-table-wall col:nth-child(2) {
+    width: 25% !important;
+  }
+  #gjw003 .data-table-wall col:nth-child(3) {
+    width: 25% !important;
+  }
+  #gjw003 .data-table-wall col:nth-child(4) {
+    width: 25% !important;
+  }
+  #gjw003 .data-table-wall {
+    min-width: 350px;
+    border-top-width: 0.5px;
+    border-bottom: 0.5px solid #000000;
+  }
+  #gjw003 .data-table-wall th,
+  #gjw003 .data-table-wall td {
+    padding: 9px 11px;
+    vertical-align: middle;
+  }
+  #gjw003 .data-table-wall th:not(:first-child),
+  #gjw003 .data-table-wall td:not(:first-child) {
+    padding-left: 11px;
+  }
+  #gjw003 .data-table-wall th:last-child,
+  #gjw003 .data-table-wall td:last-child {
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  #gjw003 .data-table-wall th h5,
+  #gjw003 .data-table-wall td h6 {
+    font-size: 14px;
+    letter-spacing: -0.005em;
+  }
+  #gjw003 .data-table-wall th h5 {
+    line-height: 1.4;
+  }
+  #gjw003 .data-table-wall td h6 {
+    line-height: 1.6;
+  }
+  #gjw003 .data-table-wall tbody tr:not(:last-child) td {
+    border-bottom-color: #a7a7a7;
+  }
   /* 불릿 리스트 모바일 */
   #gjw003 .bullet-list {
     padding-left: 6px;
@@ -961,5 +1123,321 @@
   #gjw003 .tip-num li { line-height: 1.6; }
   #gjw003 .tip-num li + li { margin-top: 4px; }
 
+  #gjw003 .install-kit-guide {
+    margin-top: 13px;
+  }
+  #gjw003 .install-kit-section + .install-kit-section {
+    margin-top: 18px;
+  }
+  #gjw003 .install-kit-heading {
+    margin-bottom: 8px;
+  }
+  #gjw003 .install-kit-heading h5,
+  #gjw003 .install-kit-heading h6,
+  #gjw003 .install-kit-condition h6 {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  #gjw003 .install-kit-heading h6 {
+    margin-top: 4px;
+  }
+  #gjw003 .install-kit-table-wrap {
+    display: block;
+  }
+  #gjw003 .install-kit-mobile {
+    display: none;
+    margin-top: 8px;
+    overflow: hidden;
+  }
+  #gjw003 .install-kit-mobile[style],
+  #gjw003 .install-kit-mobile {
+    grid-template-columns: 122px minmax(0, 1fr);
+    column-gap: 0;
+  }
+  #gjw003 .install-kit-mobile-labels {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-top: 0.5px solid #000000;
+    border-bottom: 0.5px solid #000000;
+    background-color: #ffffff;
+    z-index: 1;
+  }
+  #gjw003 .install-kit-mobile-scroll {
+    min-width: 0;
+    overflow: hidden;
+  }
+  #gjw003 .install-kit-mobile-track {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    cursor: grab;
+    user-select: none;
+  }
+  #gjw003 .install-kit-mobile-track::-webkit-scrollbar {
+    display: none;
+  }
+  #gjw003 .install-kit-mobile-track::before {
+    display: none;
+  }
+  #gjw003 .install-kit-mobile-track::after {
+    display: none;
+  }
+  #gjw003 .install-kit-mobile .install-kit-mobile-track::after {
+    content: "";
+    display: block;
+    flex: 0 0 calc((100% - 156px) / 2);
+  }
+  #gjw003 .install-kit-mobile-track.is-dragging {
+    cursor: grabbing;
+    scroll-behavior: auto;
+  }
+  #gjw003 .install-kit-mobile-card {
+    flex: 0 0 156px;
+    overflow: hidden;
+    border-top: 0.5px solid #000000;
+    border-bottom: 0.5px solid #000000;
+    scroll-snap-align: center;
+    background-color: #ffffff;
+  }
+  #gjw003 .install-kit-mobile-card.is-first {
+    flex-basis: 270px;
+  }
+  #gjw003 .install-kit-mobile-head,
+  #gjw003 .install-kit-mobile-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 9px 11px;
+    font-size: 14px;
+    letter-spacing: -0.005em;
+    color: #000000;
+  }
+  #gjw003 .install-kit-mobile-head {
+    min-height: 58px;
+    background-color: #f3f5f7;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  #gjw003 .install-kit-mobile-row {
+    min-height: 58px;
+    border-bottom: 0.5px solid #a7a7a7;
+    line-height: 1.6;
+  }
+  #gjw003 .install-kit-mobile-row:last-child {
+    border-bottom: 0;
+  }
+  #gjw003 .install-kit-mobile-row:first-of-type {
+    min-height: 49px;
+    padding-top: 0;
+  }
+  #gjw003 .install-kit-mobile-head span,
+  #gjw003 .install-kit-mobile-row span {
+    flex: 0 0 100%;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  #gjw003 .install-kit-mobile-head strong,
+  #gjw003 .install-kit-mobile-row strong {
+    flex: 0 0 100%;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: center;
+  }
+  #gjw003 .install-kit-mobile-head strong {
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  #gjw003 .install-kit-mobile-card:not(.is-first) .install-kit-mobile-head,
+  #gjw003 .install-kit-mobile-card:not(.is-first) .install-kit-mobile-row {
+    justify-content: center;
+  }
+  #gjw003 .install-kit-mobile-card:not(.is-first) .install-kit-mobile-head strong,
+  #gjw003 .install-kit-mobile-card:not(.is-first) .install-kit-mobile-row strong {
+    flex-basis: 100%;
+  }
+  #gjw003 .install-kit-mobile-dots {
+    display: flex;
+    grid-column: 1 / -1;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    padding: 5px 0 7px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+  }
+  #gjw003 .install-kit-mobile-dots button {
+    flex: 0 0 8px;
+    width: 8px;
+    min-width: 0;
+    height: 8px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 999px;
+    appearance: none;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    background-color: #8f8f8f;
+    cursor: pointer;
+    transition: width 0.3s, flex-basis 0.3s, background-color 0.3s;
+  }
+  #gjw003 .install-kit-mobile-dots button[aria-current="true"] {
+    flex-basis: 24px;
+    width: 24px;
+    background-color: #000000;
+  }
+  #gjw003 .install-kit-mobile .install-kit-example-img {
+    max-height: 42px;
+  }
+  #gjw003 .install-kit-condition {
+    margin-top: 18px;
+  }
+
   
+}
+
+@media screen and (max-width: 450px) {
+  #gjw003 .window-type-table-wrap {
+    display: none;
+  }
+  #gjw003 .window-type-mobile {
+    display: grid;
+    grid-template-columns: 109px minmax(0, 1fr);
+    width: 100%;
+    margin-top: 13px;
+    overflow: hidden;
+  }
+  #gjw003 .window-type-mobile-labels {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-top: 0.5px solid #000000;
+    border-bottom: 0.5px solid #000000;
+    background-color: #ffffff;
+    z-index: 1;
+  }
+  #gjw003 .window-type-mobile-scroll {
+    min-width: 0;
+    overflow: hidden;
+  }
+  #gjw003 .window-type-mobile .install-kit-mobile-track {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    cursor: grab;
+    user-select: none;
+  }
+  #gjw003 .window-type-mobile .install-kit-mobile-track::-webkit-scrollbar {
+    display: none;
+  }
+  #gjw003 .window-type-mobile .install-kit-mobile-track::after {
+    content: "";
+    display: block;
+    flex: 0 0 max(0px, calc((100% - 210px) / 2));
+  }
+  #gjw003 .window-type-mobile .install-kit-mobile-track.is-dragging {
+    cursor: grabbing;
+    scroll-behavior: auto;
+  }
+  #gjw003 .window-type-mobile .install-kit-mobile-card {
+    flex: 0 0 210px;
+    overflow: hidden;
+    border-top: 0.5px solid #000000;
+    border-bottom: 0.5px solid #000000;
+    background-color: #ffffff;
+    scroll-snap-align: center;
+  }
+  #gjw003 .window-type-mobile .install-kit-mobile-head {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 38px;
+    min-height: 0;
+    padding: 9px 11px;
+    background-color: #f3f5f7;
+  }
+  #gjw003 .window-type-mobile-labels .install-kit-mobile-head,
+  #gjw003 .window-type-mobile-labels .install-kit-mobile-row {
+    padding-left: 11px;
+    padding-right: 4px;
+  }
+  #gjw003 .window-type-mobile .install-kit-mobile-head strong,
+  #gjw003 .window-type-mobile .install-kit-mobile-head span {
+    flex: 1 1 auto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: -0.005em;
+    color: #000000;
+    text-align: left;
+  }
+  #gjw003 .window-type-mobile .install-kit-mobile-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 39px;
+    min-height: 0;
+    padding: 9px 11px;
+    border-bottom: 0.5px solid #a7a7a7;
+    color: #000000;
+  }
+  #gjw003 .window-type-mobile .install-kit-mobile-row:first-of-type {
+    min-height: 0;
+    padding-top: 9px;
+  }
+  #gjw003 .window-type-mobile .install-kit-mobile-row:last-child {
+    height: 61px;
+    border-bottom: 0;
+  }
+  #gjw003 .window-type-mobile .install-kit-mobile-row strong,
+  #gjw003 .window-type-mobile .install-kit-mobile-row span {
+    flex: 1 1 auto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: -0.005em;
+    text-align: left;
+  }
+  #gjw003 .window-type-mobile .window-type-mobile-labels .install-kit-mobile-row span {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  #gjw003 .window-type-mobile .install-kit-mobile-card:not(.is-first) .install-kit-mobile-head,
+  #gjw003 .window-type-mobile .install-kit-mobile-card:not(.is-first) .install-kit-mobile-row {
+    justify-content: flex-start;
+  }
+  #gjw003 .window-type-mobile .install-kit-mobile-card:not(.is-first) .install-kit-mobile-head strong {
+    flex: 1 1 auto;
+  }
+  #gjw003 .window-type-mobile .install-kit-mobile-card:not(.is-first) .install-kit-mobile-row strong {
+    flex: 1 1 auto;
+  }
+  #gjw003 .window-type-mobile .install-kit-mobile-dots {
+    grid-column: 1 / -1;
+  }
+  #gjw003 .install-kit-section:first-of-type .install-kit-table-wrap {
+    display: none;
+  }
+  #gjw003 .install-kit-section:first-of-type .install-kit-mobile {
+    display: grid;
+  }
+  #gjw003 .install-kit-section:nth-of-type(2) .install-kit-table-wrap {
+    display: none;
+  }
+  #gjw003 .install-kit-section:nth-of-type(2) .install-kit-mobile {
+    display: grid;
+  }
 }
