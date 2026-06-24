@@ -497,9 +497,9 @@
                             </div>
                         </div>
                         <div class="install-kit-mobile-dots" aria-label="창호 종류 설치 표 보기">
-                            <button type="button" aria-label="1번째 표 보기" aria-current="true"></button>
-                            <button type="button" aria-label="2번째 표 보기"></button>
-                            <button type="button" aria-label="3번째 표 보기"></button>
+                            <button type="button" aria-label="단창일 때 보기" aria-current="true"></button>
+                            <button type="button" aria-label="이중창 앞창틀 설치 보기"></button>
+                            <button type="button" aria-label="이중창 뒤창틀 설치 보기"></button>
                         </div>
                     </div>
 
@@ -629,12 +629,12 @@
                                     <div class="table-wrap install-kit-table-wrap">
                                         <table class="data-table install-kit-table portable-install-kit-table">
                                             <colgroup>
-                                                <col style="width: 160px;">
-                                                <col style="width: 170px;">
-                                                <col style="width: 170px;">
-                                                <col style="width: 170px;">
-                                                <col style="width: 170px;">
-                                                <col style="width: 212px;">
+                                                <col style="width: 180px;">
+                                                <col style="width: 164px;">
+                                                <col style="width: 164px;">
+                                                <col style="width: 164px;">
+                                                <col style="width: 164px;">
+                                                <col style="width: 200px;">
                                             </colgroup>
                                             <thead>
                                                 <tr>
@@ -924,7 +924,7 @@
                 <h3 class="mb-20 text-black">우리집 공간에 맞는 에어컨을 알아보세요</h3>
                 <ul class="product-grid">
                     <li>
-                        <a href="https://www.lge.co.kr/air-conditioners/fq25gn9be2"
+                        <a href="https://www.lge.co.kr/category/air-conditioners?subCateId=CT50000133"
                             style="display: block; width: 100%; text-align: center;">
                             <div class="img-box">
 
@@ -934,7 +934,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.lge.co.kr/air-conditioners/fq22gn9he1"
+                        <a href="https://www.lge.co.kr/category/air-conditioners?subCateId=CT50000134"
                             style="display: block; width: 100%; text-align: center;">
                             <div class="img-box">
 
@@ -945,7 +945,7 @@
                     </li>
 
                     <li>
-                        <a href="https://www.lge.co.kr/air-conditioners/sq07gs9ees-akor"
+                        <a href="https://www.lge.co.kr/category/air-conditioners?subCateId=CT50000135"
                             style="display: block; width: 100%; text-align: center;">
                             <div class="img-box">
 
@@ -956,7 +956,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.lge.co.kr/air-conditioners/wq05fewws1"
+                        <a href="https://www.lge.co.kr/category/air-conditioners?subCateId=CT50114000"
                             style="display: block; width: 100%; text-align: center;">
                             <div class="img-box">
 
@@ -985,6 +985,7 @@
                 var ticking = false;
                 var lockedIndex = null;
                 var lockTimer = null;
+                var alignToStart = slider.classList.contains('window-type-mobile') || slider.classList.contains('portable-install-kit-mobile');
 
                 if (!track || !cards.length || !dots.length) {
                     return;
@@ -1007,21 +1008,28 @@
                     return (cardRect.left - trackRect.left) + track.scrollLeft + (cardRect.width / 2);
                 }
 
+                function getCardStart(card) {
+                    var cardRect = card.getBoundingClientRect();
+                    var trackRect = track.getBoundingClientRect();
+
+                    return (cardRect.left - trackRect.left) + track.scrollLeft;
+                }
+
                 function getScrollLeftForCard(card) {
                     var maxScrollLeft = track.scrollWidth - track.clientWidth;
-                    var scrollLeft = getCardCenter(card) - (track.clientWidth / 2);
+                    var scrollLeft = alignToStart ? getCardStart(card) : getCardCenter(card) - (track.clientWidth / 2);
 
                     return Math.min(Math.max(scrollLeft, 0), maxScrollLeft);
                 }
 
                 function updateActiveDot() {
-                    var currentCenter = track.scrollLeft + (track.clientWidth / 2);
+                    var currentPosition = alignToStart ? track.scrollLeft : track.scrollLeft + (track.clientWidth / 2);
                     var nearestIndex = 0;
                     var nearestDistance = Infinity;
 
                     cards.forEach(function (card, index) {
-                        var cardCenter = getCardCenter(card);
-                        var distance = Math.abs(cardCenter - currentCenter);
+                        var cardPosition = alignToStart ? getCardStart(card) : getCardCenter(card);
+                        var distance = Math.abs(cardPosition - currentPosition);
                         if (distance < nearestDistance) {
                             nearestDistance = distance;
                             nearestIndex = index;

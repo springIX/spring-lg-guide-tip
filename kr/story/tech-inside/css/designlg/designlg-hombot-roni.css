@@ -72,6 +72,14 @@
   left: 0;
 }
 
+#designlg section .disclaimer .no-marker {
+  padding-left: 0;
+}
+
+#designlg section .disclaimer .no-marker::before {
+  content: none;
+}
+
 #designlg section .disclaimer button {
   position: relative;
   font-size: 12px;
