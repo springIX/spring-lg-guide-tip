@@ -646,6 +646,41 @@
 #gjw003 .install-kit-example-small-02 {
   width: 248px;
 }
+#gjw003 .portable-install-kit-table th h5 {
+  font-weight: 700;
+}
+#gjw003 .portable-install-kit-table {
+  table-layout: fixed;
+}
+#gjw003 .portable-install-kit-table thead tr {
+  height: 66px;
+}
+#gjw003 .portable-install-kit-table tbody tr {
+  height: 55px;
+}
+#gjw003 .portable-install-kit-table th,
+#gjw003 .portable-install-kit-table td {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+#gjw003 .portable-install-kit-table td:last-child .install-kit-example-img {
+  margin-left: 0;
+}
+#gjw003 .install-kit-example-portable-01 {
+  width: 72px;
+}
+#gjw003 .install-kit-example-portable-02 {
+  width: 85px;
+}
+#gjw003 .install-kit-example-portable-03 {
+  width: 97px;
+}
+#gjw003 .install-kit-example-portable-04 {
+  width: 109px;
+}
+#gjw003 .install-kit-example-portable-05 {
+  width: 124px;
+}
 #gjw003 .install-kit-empty {
   color: transparent !important;
 }
@@ -1296,6 +1331,30 @@
   }
   #gjw003 .install-kit-mobile .install-kit-example-img {
     max-height: 42px;
+  }
+  #gjw003 .portable-install-kit-mobile .install-kit-mobile-head {
+    height: 38px;
+    min-height: 38px;
+  }
+  #gjw003 .portable-install-kit-mobile .install-kit-mobile-row {
+    height: 58px;
+    min-height: 58px;
+  }
+  #gjw003 .portable-install-kit-mobile .install-kit-mobile-row:first-of-type {
+    height: 58px;
+    min-height: 58px;
+    padding-top: 9px;
+  }
+  #gjw003 .portable-install-kit-mobile .install-kit-mobile-row:last-child {
+    height: 67px;
+    min-height: 67px;
+  }
+  #gjw003 .portable-install-kit-mobile .install-kit-mobile-card,
+  #gjw003 .portable-install-kit-mobile .install-kit-mobile-labels {
+    height: 337px;
+  }
+  #gjw003 .portable-install-kit-mobile .install-kit-example-img {
+    max-height: 49px;
   }
   #gjw003 .install-kit-condition {
     margin-top: 18px;
