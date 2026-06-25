@@ -950,6 +950,18 @@
   letter-spacing: -0.24px;
 }
 
+#designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .note-list .notice-heading {
+  padding-left: 0;
+}
+
+#designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .note-list .notice-heading:not(:first-child) {
+  margin-top: 4px;
+}
+
+#designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .note-list .notice-heading::before {
+  content: none;
+}
+
 #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .note-list p {
   padding-left: 0;
   color: #9a9ea3;
