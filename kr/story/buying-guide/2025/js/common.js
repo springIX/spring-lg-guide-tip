@@ -194,7 +194,7 @@ function syncTabAccessibilityForGroup(group) {
     $button.attr({
       role: "tab",
       "aria-selected": isSelected ? "true" : "false",
-      tabindex: isSelected ? "0" : "-1",
+      // tabindex: isSelected ? "0" : "-1",
     });
     syncTabSelectedText($button, isSelected);
 

@@ -887,11 +887,44 @@
 }
 
 #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .disclaimer-items {
-  display: contents;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+#designlg .disclaimer-items--mobile {
+  display: none !important;
+}
+
+#designlg .disclaimer-items--pc {
+  display: flex !important;
 }
 
 #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .disclaimer-item {
-  display: contents;
+  display: flex;
+  flex-direction: column;
+}
+
+#designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .disclaimer-toggle-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px 24px;
+  align-items: flex-start;
+  padding-left: 8px;
+}
+
+#designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .disclaimer-toggle-row {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 4px 24px;
+}
+
+#designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .disclaimer-toggle-row:first-child .notice-toggle:first-child {
+  margin-left: -8px;
+}
+
+#designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .disclaimer-note-group {
+  width: 100%;
 }
 
 #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .notice-toggle {
@@ -912,7 +945,8 @@
   cursor: pointer;
 }
 
-#designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .disclaimer-item:first-child .notice-toggle::before {
+#designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .disclaimer-toggle-row:first-child .notice-toggle:first-child::before,
+#designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .disclaimer-items--mobile > .disclaimer-item:first-child > .notice-toggle::before {
   content: "*";
   color: #9a9ea3;
 }
@@ -2093,14 +2127,37 @@
 
 #designlg .kv-disclaimer-section .disclaimer-items {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px 24px;
+  flex-direction: column;
+  gap: 0;
   margin-top: 0;
   color: #6a6d70;
 }
 
 #designlg .kv-disclaimer-section .disclaimer-item {
-  display: contents;
+  display: flex;
+  flex-direction: column;
+}
+
+#designlg .kv-disclaimer-section .disclaimer-toggle-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px 24px;
+  align-items: flex-start;
+  padding-left: 8px;
+}
+
+#designlg .kv-disclaimer-section .disclaimer-toggle-row {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 4px 24px;
+}
+
+#designlg .kv-disclaimer-section .disclaimer-toggle-row:first-child .notice-toggle:first-child {
+  margin-left: -8px;
+}
+
+#designlg .kv-disclaimer-section .disclaimer-note-group {
+  width: 100%;
 }
 
 #designlg .kv-disclaimer-section .disclaimer-item .notice-toggle {
@@ -2128,7 +2185,8 @@
   order: 2;
 }
 
-#designlg .kv-disclaimer-section .disclaimer-item:first-child .notice-toggle::before {
+#designlg .kv-disclaimer-section .disclaimer-toggle-row:first-child .notice-toggle:first-child::before,
+#designlg .kv-disclaimer-section .disclaimer-items--mobile > .disclaimer-item:first-child > .notice-toggle::before {
   content: "*";
   color: #6a6d70;
 }
@@ -4139,15 +4197,35 @@
 
 #designlg #INTERVIEW .disclaimer.has-toggle .disclaimer-items {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  gap: 0 24px;
-  align-items: flex-start;
- 
+  width: 100%;
+  flex-direction: column;
 }
 
 #designlg #INTERVIEW .disclaimer.has-toggle .disclaimer-item {
-  display: contents;
+  display: flex;
+  flex-direction: column;
+}
+
+#designlg #INTERVIEW .disclaimer.has-toggle .disclaimer-toggle-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0 24px;
+  align-items: flex-start;
+  padding-left: 8px;
+}
+
+#designlg #INTERVIEW .disclaimer.has-toggle .disclaimer-toggle-row {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0 24px;
+}
+
+#designlg #INTERVIEW .disclaimer.has-toggle .disclaimer-toggle-row:first-child .notice-toggle:first-child {
+  margin-left: -8px;
+}
+
+#designlg #INTERVIEW .disclaimer.has-toggle .disclaimer-note-group {
+  width: 100%;
 }
 
 #designlg #INTERVIEW .disclaimer.has-toggle .notice-toggle {
@@ -4177,7 +4255,8 @@ button.notice-toggle.mb-4 {
   content: "*";
   color: #6a6d70;
 } */
-#designlg #INTERVIEW .disclaimer.has-toggle .disclaimer-item:first-child .notice-toggle::before {
+#designlg #INTERVIEW .disclaimer.has-toggle .disclaimer-toggle-row:first-child .notice-toggle:first-child::before,
+#designlg #INTERVIEW .disclaimer.has-toggle .disclaimer-items--mobile > .disclaimer-item:first-child > .notice-toggle::before {
   content: "*";
   color: #6a6d70;
 }
@@ -4275,6 +4354,14 @@ button.notice-toggle.mb-4 {
 
 @media screen and (max-width: 767px) {
 
+  #designlg .disclaimer-items--pc {
+    display: none !important;
+  }
+
+  #designlg .disclaimer-items--mobile {
+    display: flex !important;
+  }
+
   #designlg #INTERVIEW .disclaimer.has-toggle .disclaimer-items {
     flex-direction: row;
     flex-wrap: wrap;
@@ -4291,7 +4378,6 @@ button.notice-toggle.mb-4 {
   }
 
   #designlg #INTERVIEW .disclaimer.has-toggle .disclaimer-item {
-    display: contents;
     flex: none;
     display: flex;
     flex-direction: column;
