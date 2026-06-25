@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang='ko'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="../assets/css/faq-common.css">
+</head>
+<body>
+    <style>
+        /* 실제로는 숨김처리 되는 요소입니다. */
+        .blind { background-color: red !important; }
+    </style>
+
+<!-- CMS 등록 내용 -->
+    <script src="/kr/story/js/swiper-bundle-v11.min.js"></script>
+    <link rel="stylesheet" href="/kr/story/faq/css/faq-common.css">
+    <link rel="stylesheet" href="/kr/story/css/swiper-bundle-v11.min.css">
+    
+    <!-- 컨텐츠 등록 영역 시작-->
+    <div class="machine-faq">
+        <section class="machine-faq__haed-content center">
+            <h1>고객 Q&A 한눈에 보기 <br>- 가습기 편 -</h1>
+            <p>
+                <span>LG 가습기에 대한 모든 궁금증,</span> <span>여기에서 해결해 보세요</span>
+            </p>
+            <div class="img-content">
+                <img src="/kr/story/faq/images/humidifiers-faq/faq-keyvisual-pc.png" class="pc-only" alt="기화식? 초음파식? 정수복합식? 어떤 점이 다른 거지? 가습기와 공기청정기를 함께 사용해도 될까? 수돗물을 사용해도 괜찮을까? 가습기 선택부터 사용법까지, 가장 궁금해하는 질문을 모아 답해드려요. 실내 공간에 LG 가습기가 놓여 있으며, 뒤편에는 아늑한 분위기를 연출한 모습.">
+                <img src="/kr/story/faq/images/humidifiers-faq/faq-keyvisual-mo.png" class="mo-only" alt="기화식? 초음파식? 정수복합식? 어떤 점이 다른 거지? 가습기와 공기청정기를 함께 사용해도 될까? 수돗물을 사용해도 괜찮을까? 가습기 선택부터 사용법까지, 가장 궁금해하는 질문을 모아 답해드려요. 실내 공간에 LG 가습기가 놓여 있으며, 뒤편에는 아늑한 분위기를 연출한 모습.">
+            </div>
+        </section>
+        <section class="machine-faq__detail-content">
+            <div class="machine-faq__tap center" role="tablist">
+                <!--접근성: role 추가-->
+                <button type="button" data-content="product" id="product-tab" role="tab" aria-selected="true" aria-controls="product-cont">가습기 제품 질문</button>
+                <!--접근성: id, role, aria-controls, aria-selected 추가-->
+                <button type="button" data-content="common" id="common-tab" role="tab" aria-selected="false" aria-controls="common-cont">주문 및 배송 알아보기</button>
+                <!--접근성: id, role, aria-controls, aria-selected 추가-->
+            </div>
+            <div class="machine-faq__tap-content">
+                <div class="machine-faq__inner-content machine-faq__inner-content--product show" id="product-cont" role="tabpanel" aria-labelledby="product-tab">
+                    <div class="center">
+                        <h2>
+                            가습기 제품 질문
+                        </h2>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 가습기 종류에 따른 차이점이 궁금해요.</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    <span class="block">LG전자의 가습기는 정수복합식(하이드로타워,하이드로에센셜) 그리고 자연기화식으로 두 가지 방식의 가습기가 있습니다.</span> <span style="font-weight: 700">하이드로타워</span> 는 4단계 프리미엄 정수복합식 가습이 가능하며 정수 필터로 물속 석회질(스케일 원인 물질)과 유해물질을 99.99% 걸러준 뒤,
+                                    <br>
+                                    100°C로 가열하여 유해균을 99.999% 살균하고, 공기청정 필터로 극초미세먼지를 99.999% 제거한 깨끗한 바람과 함께 가습하는 방식입니다. 가습 종료 후에는 잔수 회수와 자동 건조로 내부를 청결하게 관리해줍니다. <span style="font-weight: 700">하이드로에센셜</span> 은 3단계 프리미엄 정수복합식 가습이 가능하며 정수 필터로 물속 석회질(스케일 원인 물질)과 유해물질, 중금속 3종을 99% 걸러준 뒤,
+                                    <br>
+                                    100°C로 가열하여 유해균을 99.999% 살균합니다. 하단의 청정 가습 필터가 먼지 유입을 막아주어 위생적인 내부 관리가 가능해요. 가습 종료 후에는 잔수 회수와 자동 건조로 내부를 청결하게 관리해줍니다. <span style="font-weight: 700">자연기화 가습기</span> 는 물에 젖은 가습기 안의 필터가 마르면서 자연스럽게 수분을 퍼뜨리는 방식으로,
+                                    <br>
+                                    디스크가 물을 빨아들이면 가습기에 있는 팬이 바람을 보내어 수분을 증발시키는 방식입니다. 눈에 보이지 않을 만큼 작은 미세수분으로 넓은 공간을 고르게 가습해줍니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 공기청정기와 같이 사용할 수 있나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    <span class="block">일반적인 가습기는 공기청정기와 함께 사용하실 수 없습니다.</span> 가습 물방울 속에 포함된 석회질 성분을 공기청정기 센서가 미세먼지로 인식하기 때문에, 공기청정기가 미세먼지 나쁨 기준으로 가동하기 때문이죠. 하이드로타워와 하이드로에센셜은 정수필터가 있기 때문에 물속에 있는 석회질을 제거해줘 공기청정기 센서가 인식하지 않아 함께 사용 가능합니다. 자연기화 가습기를 사용할 때에는 공기청정기는 꺼두시거나, 멀리 두시고 사용하시는 게 좋습니다.
+                                </p>
+                                <div class="machine-faq__more-content">
+                                    <p>자세한 내용은 아래 버튼을 클릭해 보세요.</p>
+                                    <a href="https://www.lge.co.kr/support/solutions-20150238861533">스스로 해결 바로가기</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. TV나 공기청정기 등 다른 가전제품 옆에 두고 사용해도 되나요? 안전을 위해 몇 cm 정도 간격을 두어야 하나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>가습기의 수분으로 인해 가전제품 내부에 습기가 차 정밀 부품에 영향을 줄 수 있습니다. 따라서, 가전제품이나 벽면으로부터 최소 1m 정도 거리를 두고 설치하는 것을 권장합니다.</p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 가습기에는 수돗물과 정수물 중 어떤 걸 넣어야 하나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>모두 사용 가능 합니다. 가습기 사용을 위해 물통에 물을 받으면 모두 가습될 때까지 고여있게 됩니다. 고여있는 물은 실내 공기오염도나 온도에 따라 시간이 지날수록 상할 수 있습니다. 수돗물 속에는 소독을 위한 염소 성분이 들어있기 때문에 먹는 정수기 물 보다는 더 오래 상태가 유지됩니다. 그래서 수돗물을 권장드리며, 자주 물을 바꿔준다면 정수기 물도 사용 가능합니다. 또한, 지하수나 약수물은 관리되지 않는 물이기 때문에 어떤 성분이 들어가 있을 지 예측되지 않고, 하이드로타워의 정수필터 수명이 줄어들 수 있어 사용을 자제해 주시기를 바랍니다.</p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 사용 후 남은 물은 반드시 버려야 하나요? 다시 사용할 때는 새 물을 채워야 하나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>물통의 남은 물은 정수필터로 걸러지고 100도로 끓여 분무하므로 위생상 문제가 없어 별도로 버리지 않고 계속 채워서 사용하시면 됩니다. 다만, 제품 작동을 멈춘 채로 오래동안 방치할 경우 냄새가 날 수 있으므로 사용하지 않을 때는 물통을 비우고 정수필터를 분리해주세요.</p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 가습기 사용 후에도 제품에 계속 물기가 남아 있어요.</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    <span class="block">하이드로타워, 하이드로에센셜은 자동 건조 기능이 탑재되어 있어요.</span> <span style="font-weight: 700">하이드로타워, 하이드로에센셜 자동 건조 기능은 6시간으로 기본 세팅</span> 되어 있는데, 공간의 온도나 습도에 따라 건조되는 시간이 다를 수 있습니다. 건조 시간이 짧아 제품의 물기가 남아 있을 경우 사용하시는 공간 환경에 맞게 LG ThinQ 앱이나 리모컨의 ‘자동’ 버튼을 길게 눌러서 건조 시간을 조절해보세요. 자동건조 꺼짐부터 최대 6시간까지 필요에 맞게 세팅할 수 있어요.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 하이드로타워, 하이드로에센셜은 어느 곳에서 얼마나 오래 사용할 수 있는지 궁금해요.</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    <span class="block">하이드로타워의 가습 용량은 시간당 700cc로, 안방이나 침실과 같은 비교적 넓은 공간(아파트 기준 50㎡ 내외)에 추천드려요.</span> <span class="block">하이드로에센셜의 가습 용량은 시간당 500cc로, 아이방이나 서재와 같은 비교적 작은 공간(아파트 기준 35㎡ 내외)에 추천드려요.</span> <span class="block">공간에 비해 가습량이 부족하면 희망습도를 맞추기 어렵기 때문에 공간이 넓을수록 더 많은 가습량을 제공하는 제품을 사용하는것을 추천드려요.</span> 물통 용량은 자주 채울 필요 없이 넉넉하기 때문에 번거로움을 덜 수 있어요. <span style="font-weight: 700">가습모드/가습공청모드로 가습세기 ‘약’ 모드로 사용 시 방 기준 약 20시간 사용 가능합니다.</span>
+                                    <br>
+                                    사용 시간은 사용하시는 모드와 생활 환경에 따라 달라질 수 있습니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 하이드로타워, 하이드로에센셜은 공기청정 기능과 가습 기능을 따로 사용할 수 있나요? 그리고 포근 가습 기능은 무엇인가요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    <span class="block">하이드로타워는 크게 가습청정, 가습, 공기청정 세 가지 모드로 사용할 수 있습니다.</span> 공기청정 모드에서는 공기청정기로, 가습 모드에서는 가습기로, 가습청정 모드에서는 두 가지 기능을 동시에 사용할 수 있어요. 사용 공간의 습도나 공기 질에 따라 필요한 기능을 선택해 사계절 활용할 수 있는 것이 큰 장점이에요. <span style="font-weight: 700">하이드로에센셜</span> 은 공기청정 기능은 없으나, <span style="font-weight: 700">청정 가습 필터로 먼지 유입을 막아주어 내부를 위생적으로 유지할 수 있어요.</span> 하이드로타워와 같은 가습 방식이 탑재되어 있어요. <span style="font-weight: 700">포근 가습은 하이드로타워, 하이드로에센셜 모두 탑재</span> 되어 있어,
+                                    <br>
+                                    일반적인 가습기와 달리 실내 온도가 거의 떨어지지 않도록 유지해 주기에, 춥고 건조한 겨울철에도 포근하게 생활할 수 있도록 도와줍니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 가습할 때 나오는 수증기는 가까이 있을 경우 뜨거워서 위험하지 않나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>분무되는 '포근 가습'의 온도는 사람의 체온과 비슷한 30~35도 수준입니다. 가까이 있어도 뜨겁지 않고 기분 좋은 온기를 전달하므로 안심하고 사용하실 수 있습니다.</p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 하이드로타워, 제품 높이가 높은 편인데 안전성은 문제없을까요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    <span style="font-weight: 700">하이드로타워는 제품의 안전성을 최우선으로 고려한 인체공학적 디자인으로 설계</span> 되었습니다. 인체에 가장 편안한 높이, 쉽게 넘어지지 않는 안전한 설계로 대한인간공학회 ESK, 인간공학디자인상 위원회 EDA GRANDPRIX Award를 수상했어요. (23년 LG 퓨리케어 하이드로타워로 수상) 또한, 전원 자동 차단 기능 등 제품이 기울어지거나 넘어질 경우를 대비한 안전 장치도 적용 되어있어 때문에 안심하고 사용할 수 있습니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 넘어졌을 때 자동으로 전원이 차단되나요? 넘어질 경우 뜨거운 물이 흐르거나 튀어나올 위험은 없나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    LG가전 안전 품질 기준에 따라 제품이 45도 기울어지면 전원이 차단되어 제품이 작동이 멈춥니다. 100도로 끓는 수조는 제품 중앙 스테인리스 수조 형태로 있으며 내부 관을 통해 외부로 흘러 나오면서 식게 되어
+                                    <br>
+                                    50도 이내 수준으로 흘러 나오면서 온도가 떨어져 안전합니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 가습기를 냄새 없이 잘 관리할 수 있는 방법이 있을까요? 어떻게 청소하면 되는지도 궁금해요.</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    자동건조 기능 설정을 6시간으로 높여서 사용하시면 좋습니다. 냄새의 원인은 고인 물이 상하는 것인데, 자동건조 기능으로 물이 고이지 않게 관리할 수 있습니다. 실내 공기질이나 온도에 따라 제품 위생 상태가 다를 수 있지만, 2주에 한번 가습이 나오는 부분을 분해해 청소한다면 더욱 깨끗하게 사용하실 수 있습니다. <span style="font-weight: 700">하이드로타워, 하이드로에센셜</span> 은 정수 필터와 물통, 미스트 케이스를 완전히 분해해 손쉽게 청소할 수 있어 편리해요.
+                                </p>
+                                <div class="machine-faq__more-content">
+                                    <p>자가관리가 힘들다면, 아래 버튼을 통해 케어 서비스를 확인해 보세요.</p>
+                                    <a href="https://www.lge.co.kr/care-solutions/rentalService-aboutcare">케어십 바로가기</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 필요한 소모품을 추가로 구매하고 싶어요.</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>공기청정 필터, 정수 필터, 무빙휠 등 가습기에 필요한 소모품을 추가로 구매하고 싶으신가요? 아래 버튼을 클릭하여 다양한 가습기 용품을 만나보세요.</p>
+                                <div class="machine-faq__more-content">
+                                    <a href="https://www.lge.co.kr/care-accessories/dehumidifier-humidifier-air-washer">케어용품/소모품 바로가기</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 제품에 문제가 있는 것 같아요. 서비스센터 방문 전 시도해 볼 수 있는 방법이 궁금해요.</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>가습기 사용 중 제품 결함, 오류 등 문제가 발생하셨나요? 서비스센터 방문 전 스스로 해결할 수 있는 방법을 알려드릴게요. 스스로 해결이 어려운 경우 아래 링크를 통해 상담 요청을 하시면 담당자가 확인 후 좀 더 자세한 안내를 드리고 있습니다.</p>
+                                <div class="machine-faq__more-content">
+                                    <a href="https://www.lge.co.kr/support/solutions">스스로 해결 바로가기</a> <a href="https://www.lge.co.kr/support/request-call-reservation">상담 예약/문의 바로가기</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 하이드로타워와 하이드로에센셜의 기능 상 가장 큰 차이점은 무엇인가요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    두 제품은 동일한 "정수 복합식 가습" 방식이 적용되었지만,
+                                    <br>
+                                    하이드로타워는 공기청정모드가 있고, 하이드로에센셜은 가습모드만 사용 가능합니다. 하이드로타워는 시간 당 700cc의 가습량으로 큰 방에서 사용하기에 충분하고,
+                                    <br>
+                                    하이드로에센셜은 시간 당 500cc의 가습량으로 작은 방에서 사용하기에 적합합니다. 보다 자세한 사항은 LGE.COM 내 제품 비교하기를 통해 알아보세요.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 물통 청소는 얼마나 자주 세척해야 하나요? 청소 방법은 어떻게 되나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    가습 후 자동건조 기능을 매번 사용하신다면, 2주 1회, 한 달에 2번 세척을 권장합니다.
+                                    <br>
+                                    물통 청소 시에는 정수필터를 분리하고 표면이 부드러운 천으로 닦아주세요 제품은 세제사용이 불가하며, 스테인리스 물통만 중성세제 사용이 가능합니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 물통을 식기세척기 사용 가능한가요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    <span style="font-weight: 700">하이드로타워 물통</span> 은 스테인리스 재질이기 때문에, 분해하신 뒤 식기세척기로 세척하실 수 있습니다. <span style="font-weight: 700">하이드로에센셜 물통</span> 은 플라스틱이라 식기세척기 사용은 권장드리지 않습니다. 플라스틱이더라도 인체에 유해하지 않은 소재가 사용되었습니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="machine-faq__inner-content machine-faq__inner-content--common" id="common-cont" role="tabpanel" aria-labelledby="common-tab">
+                    <div class="center">
+                        <h2>
+                            주문 및 배송 알아보기
+                        </h2>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. 배송 희망일 지정이 가능한가요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>주문/결제 화면에서 원하시는 배송 희망일을 지정하실 수 있습니다. 단, 배송 희망일은 배송 시 참고 사항이며, 실제 배송되는 날짜는 변경될 수 있습니다. 배송 시간 지정을 원하신다면, 배송 전날 또는 당일 오전 설치 엔지니어가 해피콜을 드리고 있는데 이때 원하시는 시간을 말씀해 주시면 됩니다.</p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. 주문 후 배송지 및 연락처 변경 가능한가요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>제품 주문 이후에는 상세주소만 변경이 가능합니다. (도로명/지번주소지 변경 불가) 상세주소 변경은 가상 계좌에 입금이 되기 전 상태인 ‘주문 접수’와 ‘배송 준비 중’일 때 진행하실 수 있습니다. 단, 소모품은 ‘주문 접수’ 상태에서만 가능합니다. 그 외에는 제품 배송이 시작되지 않았다면 기존 주문을 취소하고 다시 주문해 주시기 바랍니다. 궁금한 점이 있으신 경우 고객센터(1544-7777)로 문의해 주세요.</p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. 반품/환불/취소 처리는 어떻게 해야 하나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>고객 인수 완료 후 단순변심/감성불량에 의한 반품은 불가합니다. *고객 인수 완료란 : 제품을 설치/시운전하고 외관이 이상 없음을 고객과 상호 확인하여 고객으로부터 인수 완료 서명을 받은 이후의 상태를 말함. - 택배 등 고객 인수 완료 전 제품의 경우에는 제품을 받은 날로부터 7일 이내에는 반품 처리가 가능합니다. - 다음 경우에는 반품/교환이 불가합니다. · 고객에게 책임이 있는 사유로 재화 등이 멸실되거나 훼손된 경우. 다만, 재화 등의 내용을 확인하기 위하여 포장 등을 훼손한 경우는 제외합니다. · 고객의 사용 또는 일부 소비로 재화 등의 가치가 현저히 감소한 경우 · 시간이 지나 다시 판매하기 곤란할 정도로 재화 등의 가치가 현저히 감소한 경우 · 본품의 전원을 연결하여 사용한 경우 - 반품/교환 시 고객의 귀책 사유로 수거가 지연될 경우에는 반품이 제한될 수 있습니다. - 제조사 사정(신모델 출시 등) 및 부품 가격 변동 등에 의해 가격이 변동될 수 있으며, 이로 인한 반품 및 가격 보상은 불가합니다. - 본품을 반품할 경우 사은품도 반품 처리되며, 사은품을 사용한 경우 해당 비용 고객 부담 후 본품만 반품 처리 가능합니다. - 환불 처리는 반품 확정 이후 가능하며, 처리 완료 시까지 통상적으로 영업일 기준 약 7일 정도가 소요되오니 이용에 참고 부탁드립니다. - 반품/교환 관련 자세한 사항은 고객센터(1544-7777)로 연락 바랍니다.</p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. 제품의 A/S 보증기간은 어떻게 되나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>제품별 보증 기간은 LGE.COM 홈페이지 또는 앱의 '고객지원 > 서비스 안내 > 요금/보증 안내'에서 확인하실 수 있습니다.</p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. 배송 및 설치비는 무료인가요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>대부분의 상품에 대하여 무료 배송 및 기본 설치를 지원해 드리고 있습니다. 다만, 일부 도서 산간 지역 및 제품 특성(에어컨 및 대형 인치 TV 설치 등), 고객님의 설치 환경에 따라 추가 비용이 발생할 수 있으며 이는 고객 부담이니 유의하세요.</p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. 설치 상품의 경우 사전 확인 사항이 있나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>설치가 필요한 제품은 반드시 설치 환경을 확인해 주세요.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--더 많은 정보-->
+            <div class="machine-faq__other-content">
+                <div class="center">
+                    <!--수정-->
+                    <div class="img-content">
+                        <img src="/kr/story/faq/images/humidifiers-faq/faq-other-pc.png" class="pc-only" alt="고급스러운 거실 한가운데에서 LG 퓨리케어 오브제컬렉션 하이드로타워가 부드러운 증기를 위로 분사하며 작동 중인 모습. 뒤편 대리석 벽난로와 모던한 가구들이 배치되어 있어 세련되고 고급스러운 인테리어 분위기를 전달함.">
+                        <img src="/kr/story/faq/images/humidifiers-faq/faq-other-mo.png" class="mo-only" alt="고급스러운 거실 한가운데에서 LG 퓨리케어 오브제컬렉션 하이드로타워가 부드러운 증기를 위로 분사하며 작동 중인 모습. 뒤편 대리석 벽난로와 모던한 가구들이 배치되어 있어 세련되고 고급스러운 인테리어 분위기를 전달함.">
+                    </div>
+                    <!--// 수정-->
+                    <div>
+                        <h2>가습기에 대한 궁금증이 해결되셨나요?</h2>
+                        <p>
+                            더 많은 정보가 필요하시다면
+                            <br>
+                            아래 페이지를 이용해 주세요.
+                        </p>
+                        <div class="links">
+                            <a href="https://www.lge.co.kr/support/solutions"><span>스스로 해결 페이지 바로가기</span></a> <a href="https://www.lge.co.kr/category/humidifiers"><span>가습기 제품 보러가기</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--더 많은 스토리 보러가기-->
+        <div id="review-area">
+            <div class="review-wrap">
+                <h2>더 많은 스토리 보러가기</h2>
+                <div class="review-list">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="https://www.lge.co.kr/story/user-guide/puricare-hydrotower-user-guide"><img src="/kr/story/faq/images/humidifiers-faq/faq_another_story_thumb_01.jpg" alt=""> <strong>퓨리케어 하이드로타워 제품 사용법 알아보기</strong> <span>사용가이드</span></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://www.lge.co.kr/story/user-guide/puricare-hydrotower-preparation"><img src="/kr/story/faq/images/humidifiers-faq/faq_another_story_thumb_02.jpg" alt=""> <strong>퓨리케어 하이드로타워 사용 전 준비사항 확인하기</strong> <span>사용가이드</span></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://www.lge.co.kr/story/hands-on-reviews/lglife-blog-puricare-hydrotower-2"><img src="/kr/story/faq/images/humidifiers-faq/faq_another_story_thumb_03.jpg" alt=""> <strong>하이드로타워로 가습의 퀄리티를 바꿔보세요</strong> <span>리뷰</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--// 컨텐츠 등록 영역 시작-->
+    <!--// 컨텐츠 등록 영역 시작-->
+
+    <!-- tablist controls ? -->
+    <script>
+        $(document).ready(function (){
+            function getFilterRoot($node) {
+                var $root = $node.parents().filter(function () {
+                    var $ancestor = $(this);
+                    return $ancestor.find('[data-filter]').length && $ancestor.find('[data-category]').length;
+                }).first();
+
+                return $root.length ? $root : $node.closest('.machine-faq__inner-content');
+            }
+
+            function applyFilter($btn) {
+                var $root = getFilterRoot($btn);
+                var filter = $btn.data('filter') || 'all';
+                var $filterButtons = $root.find('[data-filter]');
+                var $items = $root.find('[data-category]');
+
+                $filterButtons.attr('aria-pressed', 'false');
+                $btn.attr('aria-pressed', 'true');
+
+                $items.each(function () {
+                    var $item = $(this);
+                    var isVisible = filter === 'all' || $item.data('category') === filter;
+                    $item.attr('hidden', isVisible ? null : '');
+
+                    if (!isVisible && $item.hasClass('active')) {
+                        $item.removeClass('active');
+                        $item.find('.machine-faq__title').attr('aria-expanded', 'false');
+                    }
+                });
+            }
+
+            function tapAction() {
+                var $innerContent = $('.machine-faq__inner-content');
+                var $tabButton = $('.machine-faq__tap button');
+
+                $innerContent.eq(0).addClass('show');
+                $tabButton.eq(0).addClass('active');
+
+                $tabButton.on('click', function () {
+                    $innerContent.removeClass('show');
+                    $tabButton.removeClass('active').attr('aria-selected', false);
+                    $(this).addClass('active').attr('aria-selected', true);
+
+                    var $targetScope = $('.machine-faq__inner-content--' + $(this).data('content'));
+                    $targetScope.addClass('show');
+
+                    var $targetBtn = $targetScope
+                        .find('[data-filter][aria-pressed="true"], [data-filter="all"]')
+                        .first();
+
+                    if ($targetBtn.length) applyFilter($targetBtn);
+                });
+            }
+
+            function subTabDragScroll() {
+                $('.machine-faq__sub-tab').each(function () {
+                    var $el = $(this);
+                    var el = this;
+                    var activePointerId = null;
+                    var startX = 0;
+                    var startScroll = 0;
+                    var dragMoved = false;
+                    var threshold = 4;
+
+                    function canScroll() {
+                        return el.scrollWidth > el.clientWidth + 1;
+                    }
+
+                    function pointerFrom(e) {
+                        return e.originalEvent || e;
+                    }
+
+                    $el
+                        .on('pointerdown.subTabDrag', function (e) {
+                            var p = pointerFrom(e);
+                            if (!canScroll()) return;
+                            if (p.pointerType === 'mouse' && p.button !== 0) return;
+
+                            activePointerId = p.pointerId;
+                            startX = p.clientX;
+                            startScroll = el.scrollLeft;
+                            dragMoved = false;
+                            $el.css('cursor', 'grabbing');
+
+                            try {
+                                el.setPointerCapture(p.pointerId);
+                            } catch (err) {}
+                        })
+                        .on('pointerup.subTabDrag pointercancel.subTabDrag', function (e) {
+                            var p = pointerFrom(e);
+                            if (activePointerId === null || p.pointerId !== activePointerId) return;
+
+                            activePointerId = null;
+                            $el.css('cursor', '');
+
+                            try {
+                                el.releasePointerCapture(p.pointerId);
+                            } catch (err) {}
+
+                            if (dragMoved) {
+                                $el.attr('data-suppress-click', '1');
+                                window.setTimeout(function () {
+                                    $el.removeAttr('data-suppress-click');
+                                }, 50);
+                            }
+                        });
+
+                    el.addEventListener(
+                        'pointermove',
+                        function (e) {
+                            if (activePointerId === null || e.pointerId !== activePointerId) return;
+
+                            var dx = e.clientX - startX;
+                            if (Math.abs(dx) > threshold) {
+                                dragMoved = true;
+                                el.scrollLeft = startScroll - dx;
+                                e.preventDefault();
+                            }
+                        },
+                        { passive: false }
+                    );
+
+                    el.addEventListener(
+                        'click',
+                        function (e) {
+                            if ($el.attr('data-suppress-click')) {
+                                e.preventDefault();
+                                e.stopPropagation();
+                            }
+                        },
+                        true
+                    );
+                });
+            }
+
+            function filterAction() {
+                $('.machine-faq').on('click.filterAction', '.machine-faq__sub-tab button', function () {
+                    applyFilter($(this));
+                });
+
+                var $initialScope = $('.machine-faq__inner-content.show').first();
+                var $initialBtn = $initialScope.find('[data-filter][aria-pressed="true"]').first();
+                if ($initialBtn.length) applyFilter($initialBtn);
+            }
+
+            function accordionAction() {
+                $('.machine-faq__title').on('click', function () {
+                    if ($(this).closest('.machine-faq__item').hasClass('active')) {
+                        $(this).closest('.machine-faq__item').removeClass('active');
+                        $(this).attr('aria-expanded', false);
+                    } else {
+                        $('.machine-faq__item').removeClass('active');
+                        $('.machine-faq__title').attr('aria-expanded', false);
+                        $(this).closest('.machine-faq__item').addClass('active');
+                        $(this).attr('aria-expanded', true);
+                    }
+
+                    if ($('.machine-faq')[0].clientWidth < 1024) {
+                        window.scroll({
+                            top: $(this).closest('.machine-faq__item')[0].offsetTop - 50,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            }
+
+            function makeSwiper() {
+                var reviewSwiper = new Swiper('.review-list .swiper', {
+                    slidesPerView: 2.1,
+                    spaceBetween: 10,
+                    navigation: {
+                        nextEl: '.review-list .swiper-button-next',
+                        prevEl: '.review-list .swiper-button-prev'
+                    },
+                    pagination: {
+                        el: '.review-list .swiper-pagination',
+                        clickable: true
+                    },
+                    a11y: {
+                        firstSlideMessage: '첫번째',
+                        lastSlideMessage: '마지막',
+                        prevSlideMessage: '이전',
+                        nextSlideMessage: '다음',
+                        paginationBulletMessage: '{{index}}번째',
+                        slideLabelMessage: '{{index}}번째 / 총 {{slidesLength}}개'
+                    },
+                    breakpoints: {
+                        1024: {
+                            slidesPerView: 3,
+                            spaceBetween: 40
+                        }
+                    }
+                });
+            }
+
+            tapAction();
+            filterAction();
+            accordionAction();
+            subTabDragScroll();
+            makeSwiper();
+        });
+    </script>
+    <!-- tablist controls // -->
+
+<!-- CMS 등록 내용 //-->
+</body>
+</html>

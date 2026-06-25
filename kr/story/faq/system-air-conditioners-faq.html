@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang='ko'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="../assets/css/faq-common.css">
+</head>
+<body>
+
+    <style>
+        /* 실제로는 숨김처리 되는 요소입니다. */
+        .blind { background-color: red !important; }
+    </style>
+
+<!-- CMS 등록 내용 -->
+   
+    <!-- public assets -->
+    <script src="/kr/story/js/swiper-bundle-v11.min.js"></script>
+    <link rel="stylesheet" href="/kr/story/css/swiper-bundle-v11.min.css">
+    <link rel="stylesheet" href="/kr/story/faq/css/faq-common.css">
+    <!-- public assets // -->
+
+    <!-- content wrap -->
+    <div class="machine-faq">
+        <section class="machine-faq__haed-content center">
+            <h1>
+                고객 Q&A 한눈에 보기
+                <br>
+                - 시스템에어컨 편 -
+            </h1>
+            <p>
+                <span>LG 휘센 시스템에어컨에 대한 모든 궁금증,</span> <span>여기에서 해결해 보세요</span>
+            </p>
+            <div class="img-content">
+                <img src="/kr/story/faq/images/system-air-conditioners-faq/faq-keyvisual-pc.png" class="pc-only" alt="LG 휘센 시스템에어컨은 어디에서 구매할 수 있을까? 청소는 어떻게 해야 할까? 설치가 오래 걸리지는 않을까?">
+                <img src="/kr/story/faq/images/system-air-conditioners-faq/faq-keyvisual-mo.png" class="mo-only" alt="LG 휘센 시스템에어컨은 어디에서 구매할 수 있을까? 청소는 어떻게 해야 할까? 설치가 오래 걸리지는 않을까?">
+            </div>
+        </section>
+        <section class="machine-faq__detail-content">
+            <div class="machine-faq__tap-content">
+                <div class="machine-faq__inner-content machine-faq__inner-content--product" id="product-cont" role="tabpanel" aria-labelledby="product-tab">
+                    <div class="center">
+                        <h2>
+                            시스템에어컨 제품 질문
+                        </h2>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. LG 휘센 시스템에어컨은 어디에서 구매할 수 있나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    LG 휘센 시스템에어컨은 LG전자 공식 인증 전문점을 통해 구입할 수 있습니다.
+                                    <br>
+                                    또한, LG전자 홈페이지(LGE.COM)에서 온라인 견적 문의를 남겨주시면 고객님 댁과 가장 가까운 인증 전문점과 연결해 드리고 있습니다.
+                                    <br>
+                                    인증 전문점과 직접 연락을 원하시는 경우에는 아래 링크를 통해 지역별 인증 전문점을 확인해 주세요.
+                                </p>
+                                <div class="machine-faq__more-content">
+                                    <a href="https://www.lge.co.kr/kr/business/contents/support/offices-store.do">전문점 확인하기</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 설치 시간은 얼마나 걸리나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    시스템에어컨 설치는 ‘타공 – 배관 매립 – 실내기 설치 – 도배 마감 – 실외기 설치 및 작동 점검’ 순서로 진행되며
+                                    <br>
+                                    모든 과정이 단 하루만에 가능합니다. 단, 실내기 대수와 천장 공사 상황에 따라 시간 차이는 있을 수 있습니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 천장 속 공간이 18cm가 나오지 않아도 시스템에어컨을 설치할 수 있나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    천장 내부 공간이 실내기를 설치하기에 부족하다면 슬림매립키트 액세서리 또는 천장 일부 단내림 후 설치가 가능하며,
+                                    <br>
+                                    이 경우 추가 비용이 발생할 수 있습니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 기존 시스템에어컨이 있는 상태에서 설치가 안 된 장소에 추가 설치하는 것도 가능한가요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>타사 에어컨의 경우 설치가 불가능하며, LG 휘센 시스템에어컨의 경우에도 제조년도와 실외기 용량 등에 따라 설치가 어려울 수 있습니다.</p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 필터 청소/교체는 어떻게 해야 하나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    LG 휘센 시스템에어컨에는 기본적으로 프리필터가 들어가며, 고객 선택 시 공기청정필터, 탈취필터를 적용할 수 있습니다.
+                                    <br>
+                                    3가지 필터는 모두 반영구적 사용이 가능해 교체하실 필요는 없습니다.
+                                    <br>
+                                    프리필터는 2주에 한 번, 공기청정필터는 6개월에 한 번 주기적으로 물세척만 해주시면 되고
+                                    <br>
+                                    탈취필터는 6개월에 한 번 햇빛이나 형광등에 건조시켜 주시면 됩니다.
+                                    <br>
+                                    구독 상품을 활용하시면 케어 전문 매니저가 주기적으로 방문하여 알아서 관리해 줍니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 제품 사용 중 문제가 발생하거나 고장나면 어떻게 해야 하나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    LG전자 콜센터 1544-7777로 문의해주시기 바랍니다.
+                                    <br>
+                                    현장 방문을 통한 서비스가 필요할 경우에는 LG전자 서비스센터에서 기사 방문을 안내드립니다.
+                                    <br>
+                                    주요 문제 해결 방법은 LG 홈페이지(LGE.COM)에서도 직접 확인하실 수 있습니다.
+                                </p>
+                                <div class="machine-faq__more-content">
+                                    <a href="https://www.lge.co.kr/support/solutions">스스로 해결 바로가기</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 시스템 에어컨은 정확히 어떤 에어컨인가요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    <span class="block">실외기 한 대로 여러 대의 실내기를 연결해 사용하는 방식입니다.</span>
+                                    <br>
+                                    천장 내부로 배관을 연결하기 때문에 밖으로 노출되지 않아 인테리어가 깔끔하며,
+                                    <br>
+                                    바닥 공간을 차지하지 않아 실내를 더 넓게 쓸 수 있는 것이 큰 장점입니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 우리 집에도 설치가 가능할지 어떻게 알 수 있나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    가장 확실한 방법은 전문 기사님의 사전 점검을 받아보시는 것입니다.
+                                    <br>
+                                    보통 2006년 이후 건축되었거나 스프링클러가 설치된 아파트는 대부분 가능하지만, 현장 상황에 따라 차이가 있을 수 있습니다.
+                                    <br>
+                                    정확한 확인을 위해 LG전자 고객센터(1544-7777)을 통해 사전 점검을 문의해주시면 접수를 도와드리고 있습니다. (사전 점검 시, 이전 설치/신규 설치 유형에 따라 추가 비용이 발생할 수 있습니다.)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 지금 살고 있는 집(거주 중)에도 설치가 가능한가요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    거주 중인 공간에도 설치가 가능합니다.
+                                    <br>
+                                    설치로 인해 집이 더러워지지 않도록 설치 전 가구와 집안 곳곳을 비닐로 감싸는 <span style="font-weight: 700">'꼼꼼한 보양 작업' 후 설치를 진행하고 있습니다.</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 공사 기간은 얼마나 걸리고, 추가 설치도 가능한가요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    공사는 <span style="font-weight: 700">보통 하루 정도</span> 소요되나, <span style="font-weight: 700">거주 환경에 따라 시간이 조금 더 걸릴 수도 있습니다.</span>
+                                    <br>
+                                    또한 실내기 추가 설치의 경우, 기존에 설치된 제품 사양과 설치 환경에 따라 가능 여부가 달라지므로 전문 기사님의 사전 점검을 꼭 받아보셔야 합니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 청소는 어떻게 하나요? 직접 할 수 있나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    <span style="font-weight: 700">내부의 필터를 꺼내 물세척하는 방식</span>으로 셀프 관리가 가능합니다. 아래 링크의 영상을 확인하여 편리하게 관리해보세요.
+                                </p>
+                                <div class="machine-faq__more-content">
+                                    <a href="https://www.lge.co.kr/support/solutions-1433235107665">원형 카세트 청소 방법</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <span class="blind">질문</span> <span>Q. 알아두면 유용한 시스템 에어컨의 편의 기능이 있나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    LG ThinQ 앱과 공기 청정 키트를 활용하시면 시스템 에어컨의 활용도를 높일 수 있습니다.
+                                    <br>
+                                    <br>
+                                    ■ 리모컨 없이 제어: 리모컨을 찾을 필요 없이 스마트폰 ThinQ 앱으로 밖에서도 전원을 켜고 모니터링할 수 있습니다.
+                                    <br>
+                                    <br>
+                                    ■ 사계절 공기 청정: 추가 구매 가능한 공기 청정 키트를 설치하면 공기질을 디스플레이로 확인하며 1년 내내 상쾌한 공기를 유지할 수 있습니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--더 많은 정보-->
+            <div class="machine-faq__other-content">
+                <div class="center">
+                    <!--수정-->
+                    <div class="img-content">
+                        <img src="/kr/story/faq/images/system-air-conditioners-faq/faq-other-pc.png" class="pc-only" alt="">
+                        <img src="/kr/story/faq/images/system-air-conditioners-faq/faq-other-mo.png" class="mo-only" alt="">
+                    </div>
+                    <!--// 수정-->
+                    <div>
+                        <h2>
+                            시스템에어컨에 대한
+                            <br>
+                            궁금증이 해결되셨나요?
+                        </h2>
+                        <p>
+                            더 많은 정보가 필요하시다면
+                            <br>
+                            아래 페이지를 이용해 주세요.
+                        </p>
+                        <div class="links">
+                            <a href="https://www.lge.co.kr/support/solutions"><span>스스로 해결 페이지 바로가기</span></a> <a href="https://www.lge.co.kr/category/system-air-conditioners"><span>시스템에어컨 제품 보러가기</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--더 많은 스토리 보러가기-->
+    </div>
+    <!-- content wrap // -->
+
+    <!-- tablist controls -->
+    <script>
+        $(document).ready(function (){
+            function getFilterRoot($node) {
+                var $root = $node.parents().filter(function () {
+                    var $ancestor = $(this);
+                    return $ancestor.find('[data-filter]').length && $ancestor.find('[data-category]').length;
+                }).first();
+
+                return $root.length ? $root : $node.closest('.machine-faq__inner-content');
+            }
+
+            function applyFilter($btn) {
+                var $root = getFilterRoot($btn);
+                var filter = $btn.data('filter') || 'all';
+                var $filterButtons = $root.find('[data-filter]');
+                var $items = $root.find('[data-category]');
+
+                $filterButtons.attr('aria-pressed', 'false');
+                $btn.attr('aria-pressed', 'true');
+
+                $items.each(function () {
+                    var $item = $(this);
+                    var isVisible = filter === 'all' || $item.data('category') === filter;
+                    $item.attr('hidden', isVisible ? null : '');
+
+                    if (!isVisible && $item.hasClass('active')) {
+                        $item.removeClass('active');
+                        $item.find('.machine-faq__title').attr('aria-expanded', 'false');
+                    }
+                });
+            }
+
+            function tapAction() {
+                var $innerContent = $('.machine-faq__inner-content');
+                var $tabButton = $('.machine-faq__tap button');
+
+                $innerContent.eq(0).addClass('show');
+                $tabButton.eq(0).addClass('active');
+
+                $tabButton.on('click', function () {
+                    $innerContent.removeClass('show');
+                    $tabButton.removeClass('active').attr('aria-selected', false);
+                    $(this).addClass('active').attr('aria-selected', true);
+
+                    var $targetScope = $('.machine-faq__inner-content--' + $(this).data('content'));
+                    $targetScope.addClass('show');
+
+                    var $targetBtn = $targetScope
+                        .find('[data-filter][aria-pressed="true"], [data-filter="all"]')
+                        .first();
+
+                    if ($targetBtn.length) applyFilter($targetBtn);
+                });
+            }
+
+            function subTabDragScroll() {
+                $('.machine-faq__sub-tab').each(function () {
+                    var $el = $(this);
+                    var el = this;
+                    var activePointerId = null;
+                    var startX = 0;
+                    var startScroll = 0;
+                    var dragMoved = false;
+                    var threshold = 4;
+
+                    function canScroll() {
+                        return el.scrollWidth > el.clientWidth + 1;
+                    }
+
+                    function pointerFrom(e) {
+                        return e.originalEvent || e;
+                    }
+
+                    $el
+                        .on('pointerdown.subTabDrag', function (e) {
+                            var p = pointerFrom(e);
+                            if (!canScroll()) return;
+                            if (p.pointerType === 'mouse' && p.button !== 0) return;
+
+                            activePointerId = p.pointerId;
+                            startX = p.clientX;
+                            startScroll = el.scrollLeft;
+                            dragMoved = false;
+                            $el.css('cursor', 'grabbing');
+
+                            try {
+                                el.setPointerCapture(p.pointerId);
+                            } catch (err) {}
+                        })
+                        .on('pointerup.subTabDrag pointercancel.subTabDrag', function (e) {
+                            var p = pointerFrom(e);
+                            if (activePointerId === null || p.pointerId !== activePointerId) return;
+
+                            activePointerId = null;
+                            $el.css('cursor', '');
+
+                            try {
+                                el.releasePointerCapture(p.pointerId);
+                            } catch (err) {}
+
+                            if (dragMoved) {
+                                $el.attr('data-suppress-click', '1');
+                                window.setTimeout(function () {
+                                    $el.removeAttr('data-suppress-click');
+                                }, 50);
+                            }
+                        });
+
+                    el.addEventListener(
+                        'pointermove',
+                        function (e) {
+                            if (activePointerId === null || e.pointerId !== activePointerId) return;
+
+                            var dx = e.clientX - startX;
+                            if (Math.abs(dx) > threshold) {
+                                dragMoved = true;
+                                el.scrollLeft = startScroll - dx;
+                                e.preventDefault();
+                            }
+                        },
+                        { passive: false }
+                    );
+
+                    el.addEventListener(
+                        'click',
+                        function (e) {
+                            if ($el.attr('data-suppress-click')) {
+                                e.preventDefault();
+                                e.stopPropagation();
+                            }
+                        },
+                        true
+                    );
+                });
+            }
+
+            function filterAction() {
+                $('.machine-faq').on('click.filterAction', '.machine-faq__sub-tab button', function () {
+                    applyFilter($(this));
+                });
+
+                var $initialScope = $('.machine-faq__inner-content.show').first();
+                var $initialBtn = $initialScope.find('[data-filter][aria-pressed="true"]').first();
+                if ($initialBtn.length) applyFilter($initialBtn);
+            }
+
+            function accordionAction() {
+                $('.machine-faq__title').on('click', function () {
+                    if ($(this).closest('.machine-faq__item').hasClass('active')) {
+                        $(this).closest('.machine-faq__item').removeClass('active');
+                        $(this).attr('aria-expanded', false);
+                    } else {
+                        $('.machine-faq__item').removeClass('active');
+                        $('.machine-faq__title').attr('aria-expanded', false);
+                        $(this).closest('.machine-faq__item').addClass('active');
+                        $(this).attr('aria-expanded', true);
+                    }
+
+                    if ($('.machine-faq')[0].clientWidth < 1024) {
+                        window.scroll({
+                            top: $(this).closest('.machine-faq__item')[0].offsetTop - 50,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            }
+
+            function makeSwiper() {
+                var reviewSwiper = new Swiper('.review-list .swiper', {
+                    slidesPerView: 2.1,
+                    spaceBetween: 10,
+                    navigation: {
+                        nextEl: '.review-list .swiper-button-next',
+                        prevEl: '.review-list .swiper-button-prev'
+                    },
+                    pagination: {
+                        el: '.review-list .swiper-pagination',
+                        clickable: true
+                    },
+                    a11y: {
+                        firstSlideMessage: '첫번째',
+                        lastSlideMessage: '마지막',
+                        prevSlideMessage: '이전',
+                        nextSlideMessage: '다음',
+                        paginationBulletMessage: '{{index}}번째',
+                        slideLabelMessage: '{{index}}번째 / 총 {{slidesLength}}개'
+                    },
+                    breakpoints: {
+                        1024: {
+                            slidesPerView: 3,
+                            spaceBetween: 40
+                        }
+                    }
+                });
+            }
+
+            tapAction();
+            filterAction();
+            accordionAction();
+            subTabDragScroll();
+            makeSwiper();
+        });
+    </script>
+    <!-- tablist controls // -->
+</body>
+</html>

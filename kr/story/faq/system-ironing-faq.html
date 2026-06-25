@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang='ko'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="../assets/css/faq-common.css">
+</head>
+<body>
+    <style>
+        /* 실제로는 숨김처리 되는 요소입니다. */
+        .blind { background-color: red !important; }
+    </style>
+
+<!-- CMS 등록 내용 -->
+    <!-- schema -->
+
+    <!-- schema //-->
+    <!-- public assets -->
+    <script src="/kr/story/js/swiper-bundle-v11.min.js"></script>
+    <link rel="stylesheet" href="/kr/story/css/swiper-bundle-v11.min.css">
+    <link rel="stylesheet" href="/kr/story/faq/css/faq-common.css">
+    <!-- public assets // -->
+
+    <!-- content wrap -->
+    <div class="machine-faq" style="margin-top: 46px;">
+        <section class="machine-faq__haed-content center">
+            <h1>
+                고객 Q&A 한눈에 보기
+                <br>
+                - 시스템 아이어닝 편 -
+            </h1>
+            <p>
+                <span>LG 시스템 아이어닝에 대한 궁금증,</span> <span>여기에서 해결해 보세요</span>
+            </p>
+            <div class="img-content">
+                <img src="/kr/story/faq/images/system-ironing-faq/faq-keyvisual-pc.png" class="pc-only" alt="‘스팀을 사용 전 예열 시간은 얼마나 걸릴까?’, ‘배수통의 물은 언제 비워야 할까?’, ‘LG ThinQ 앱으로 어떤 기능을 사용할 수 있을까?’, ‘시스템 아이어닝 사용법부터 앱 연결까지, 가장 궁금해하는 질문을 모아 답해드려요’라는 텍스트가 포함된 LG 시스템 아이어닝 안내 화면.">
+                <img src="/kr/story/faq/images/system-ironing-faq/faq-keyvisual-mo.png" class="mo-only" alt="‘스팀을 사용 전 예열 시간은 얼마나 걸릴까?’, ‘배수통의 물은 언제 비워야 할까?’, ‘LG ThinQ 앱으로 어떤 기능을 사용할 수 있을까?’, ‘시스템 아이어닝 사용법부터 앱 연결까지, 가장 궁금해하는 질문을 모아 답해드려요’라는 텍스트가 포함된 LG 시스템 아이어닝 안내 화면.">
+            </div>
+        </section>
+        <section class="machine-faq__detail-content">
+            <div class="machine-faq__tap center" role="tablist">
+                <!--접근성: role 추가-->
+                <button type="button" data-content="product" id="product-tab" role="tab" aria-selected="true" aria-controls="product-cont">시스템 아이어닝 제품 질문</button>
+                <!--접근성: id, role, aria-controls, aria-selected 추가-->
+                <button type="button" data-content="common" id="common-tab" role="tab" aria-selected="false" aria-controls="common-cont">주문 및 배송 알아보기</button>
+                <!--접근성: id, role, aria-controls, aria-selected 추가-->
+            </div>
+            <div class="machine-faq__tap-content">
+                <div class="machine-faq__inner-content machine-faq__inner-content--product" id="product-cont" role="tabpanel" aria-labelledby="product-tab">
+                    <!--접근성: id, role, aria-labelledby 추가-->
+                    <div class="center">
+                        <h2>
+                            시스템 아이어닝 제품 질문
+                        </h2>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. 스팀을 사용하기 위한 예열시간은 얼마나 되나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    스팀을 사용하기 위한 예열시간은 약 3분 30초 정도입니다.
+                                    <br>
+                                    제품 전원을 켠 후 비교적 짧은 시간 안에 스팀 사용이 가능해, 바쁜 아침이나 외출 전에도 부담 없이 사용할 수 있습니다.
+                                    <br>
+                                    예열이 완료되면 제품에서 안내가 표시됨과 동시에 알림음이 울려, 스팀 사용 가능 시점을 쉽게 확인할 수 있습니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. 작동 중 ‘치지직’, ‘타닥타닥’ 하는 소리가 나요.</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    작동 중 들리는 ‘치지직’, ‘타닥타닥’ 소리는 고온·고압의 스팀을 생성하는 과정에서 발생하는 정상적인 소음입니다.
+                                    <br>
+                                    이는 높은 온도로 급격히 가열되면서 물이 끓을 때 나는 소리로, 뜨거운 프라이팬에 물을 떨어뜨렸을 때 들리는 소리와 동일한 현상입니다.
+                                    <br>
+                                    제품의 이상이나 고장이 아니므로 안심하고 사용하셔도 됩니다.
+                                    <br>
+                                    다만, 소음이 평소보다 현저하게 커지거나 지속될 경우에는 LG전자 서비스 센터(1544-7777) 또는 가까운 대리점에 문의해 주세요.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. 배수통의 물은 언제 비워야 하나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    배수통의 물은 스팀 발생기 세척 기능을 약 2회 이상 사용한 후 비워주세요.
+                                    <br>
+                                    제품 하단에 있는 배수통을 꺼낼 때에는 물이 넘치지 않도록 수평을 유지한 상태로 조심스럽게 꺼내는 것이 좋습니다.
+                                    <br>
+                                    단, 스팀 발생기 세척이 끝난 직후에는 배수통을 바로 비우지 마세요.
+                                    <br>
+                                    배수통 안에 뜨거운 물이 남아 있어 화상의 위험이 있을 수 있으므로, 충분히 식은 후 비워주시기 바랍니다. 또한, 배수통에 있는 물은 급수통에 다시 넣지 마세요.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. 제품을 LG ThinQ 앱으로 연결하면 어떤 기능을 사용할 수 있나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    LG ThinQ 앱으로 제품을 연결하면 스마트폰으로 보다 편리하게 제품을 관리할 수 있습니다.
+                                    <br>
+                                    <br>
+                                    첫 번째, 원격 제어 기능을 통해 코스별 바람 옵션 등 주요 설정을 조절하거나 제품을 끌 수 있습니다.
+                                    <br>
+                                    두 번째, 제품 코스 관리 기능으로 자주 사용하는 코스의 순서를 변경하거나 코스를 추가·삭제할 수 있습니다.
+                                    <br>
+                                    세 번째, 스마트 알림(Push 메시지)을 통해 코스 준비 완료나 제품 이상 발생 시 알림을 받을 수 있습니다.
+                                    <br>
+                                    네 번째, 스마트 진단 기능으로 제품 상태를 확인하고 문제 해결을 도와줍니다.
+                                    <br>
+                                    마지막으로, 업그레이드 알림 및 기능 업데이트를 통해 LG ThinQ 앱에서 새로운 기능을 간편하게 적용할 수 있습니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. 별도 설치가 필요한가요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    본 제품은 별도의 설치 작업 없이 바로 사용할 수 있습니다.
+                                    <br>
+                                    전원 연결과 급수통에 물을 채운 후 간단한 설정만으로 사용이 가능해, 설치 공간이나 추가 공사에 대한 부담 없이 편리하게 이용하실 수 있습니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="machine-faq__inner-content machine-faq__inner-content--common" id="common-cont" role="tabpanel" aria-labelledby="common-tab">
+                <!--접근성: id, role, aria-labelledby 추가-->
+                <div class="center">
+                    <h2>
+                        주문 및 배송 알아보기 
+                    </h2>
+                    <div class="machine-faq__item">
+                        <button type="button" class="machine-faq__title" aria-expanded="false">
+                            <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. 배송 희망일 지정이 가능한가요?</span>
+                        </button>
+                        <div class="machine-faq__content">
+                            <span class="blind">답변</span>
+                            <p>
+                                주문/결제 화면에서 원하시는 배송 희망일을 지정하실 수 있습니다.
+                                <br>
+                                단, 배송 희망일은 배송 시 참고 사항이며, 실제 배송되는 날짜는 변경될 수 있습니다.
+                                <br>
+                                배송 시간 지정을 원하신다면, 배송 전날 또는 당일 오전 설치 엔지니어가 해피콜을 드리고 있는데 이때 원하시는 시간을 말씀해 주시면 됩니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="machine-faq__item">
+                        <button type="button" class="machine-faq__title" aria-expanded="false">
+                            <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. 주문 후 배송지 및 연락처 변경 가능한가요?</span>
+                        </button>
+                        <div class="machine-faq__content">
+                            <span class="blind">답변</span>
+                            <p>
+                                제품 주문 이후에는 상세주소만 변경이 가능합니다. (도로명/지번주소지 변경 불가)
+                                <br>
+                                상세주소 변경은 가상 계좌에 입금이 되기 전 상태인 ‘주문 접수’와 ‘배송 준비 중’일 때 진행하실 수 있습니다. 단, 소모품은 ‘주문 접수’ 상태에서만 가능합니다.
+                                <br>
+                                그 외에는 제품 배송이 시작되지 않았다면 기존 주문을 취소하고 다시 주문해 주시기 바랍니다.
+                                <br>
+                                궁금한 점이 있으신 경우 고객센터(1544-7777)로 문의해 주세요.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="machine-faq__item">
+                        <button type="button" class="machine-faq__title" aria-expanded="false">
+                            <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. 반품/환불/취소 처리는 어떻게 해야 하나요?</span>
+                        </button>
+                        <div class="machine-faq__content">
+                            <span class="blind">답변</span>
+                            <p>
+                                고객 인수 완료 후 단순변심/감성불량에 의한 반품은 불가합니다.
+                                <br>
+                                *고객 인수 완료란 : 제품을 설치/시운전하고 외관이 이상 없음을 고객과 상호 확인하여 고객으로부터 인수 완료 서명을 받은 이후의 상태를 말함.
+                                <br>
+                                <br>
+                                - 택배 등 고객 인수 완료 전 제품의 경우에는 제품을 받은 날로부터 7일 이내에는 반품 처리가 가능합니다.
+                                <br>
+                                - 다음 경우에는 반품/교환이 불가합니다.
+                                <br>
+                                · 고객에게 책임이 있는 사유로 재화 등이 멸실되거나 훼손된 경우. 다만, 재화 등의 내용을 확인하기 위하여 포장 등을 훼손한 경우는 제외합니다.
+                                <br>
+                                · 고객의 사용 또는 일부 소비로 재화 등의 가치가 현저히 감소한 경우
+                                <br>
+                                · 시간이 지나 다시 판매하기 곤란할 정도로 재화 등의 가치가 현저히 감소한 경우
+                                <br>
+                                · 본품의 전원을 연결하여 사용한 경우
+                                <br>
+                                - 반품/교환 시 고객의 귀책 사유로 수거가 지연될 경우에는 반품이 제한될 수 있습니다.
+                                <br>
+                                - 제조사 사정(신모델 출시 등) 및 부품 가격 변동 등에 의해 가격이 변동될 수 있으며, 이로 인한 반품 및 가격 보상은 불가합니다.
+                                <br>
+                                - 본품을 반품할 경우 사은품도 반품 처리되며, 사은품을 사용한 경우 해당 비용 고객 부담 후 본품만 반품 처리 가능합니다.
+                                <br>
+                                - 환불 처리는 반품 확정 이후 가능하며, 처리 완료 시까지 통상적으로 영업일 기준 약 7일 정도가 소요되오니 이용에 참고 부탁드립니다.
+                                <br>
+                                - 반품/교환 관련 자세한 사항은 고객센터(1544-7777)로 연락 바랍니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="machine-faq__item">
+                        <button type="button" class="machine-faq__title" aria-expanded="false">
+                            <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. 제품의 A/S 보증기간은 어떻게 되나요?</span>
+                        </button>
+                        <div class="machine-faq__content">
+                            <span class="blind">답변</span>
+                            <p>제품별 보증 기간은 LGE.COM 홈페이지 또는 앱의 '고객지원 > 서비스 안내 > 요금/보증 안내'에서 확인하실 수 있습니다.</p>
+                        </div>
+                    </div>
+                    <div class="machine-faq__item">
+                        <button type="button" class="machine-faq__title" aria-expanded="false">
+                            <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. 배송 및 설치비는 무료인가요?</span>
+                        </button>
+                        <div class="machine-faq__content">
+                            <span class="blind">답변</span>
+                            <p>
+                                대부분의 상품에 대하여 무료 배송 및 기본 설치를 지원해 드리고 있습니다.
+                                <br>
+                                다만, 일부 도서 산간 지역 및 제품 특성(에어컨 및 대형 인치 TV 설치 등), 고객님의 설치 환경에 따라 추가 비용이 발생할 수 있으며 이는 고객 부담이니 유의하세요.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="machine-faq__item">
+                        <button type="button" class="machine-faq__title" aria-expanded="false">
+                            <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. 설치 상품의 경우 사전 확인 사항이 있나요?</span>
+                        </button>
+                        <div class="machine-faq__content">
+                            <span class="blind">답변</span>
+                            <p>설치가 필요한 제품은 반드시 설치 환경을 확인해 주세요.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--더 많은 정보-->
+            <div class="machine-faq__other-content">
+                <div class="center">
+                    <!--수정-->
+                    <div class="img-content">
+                        <img src="/kr/story/faq/images/system-ironing-faq/faq-other-pc.png" class="pc-only" alt="햇살이 비치는 드레스룸 중앙에 설치된 화이트와 블랙 배색의 LG 시스템 아이어닝 제품 모습. 하단 받침대와 중앙 기둥, 다림판, 스팀 다리미 전용 거치대 및 전선 지지대로 구성된 현대적인 디자인의 가전제품 이미지.">
+                        <img src="/kr/story/faq/images/system-ironing-faq/faq-other-mo.png" class="mo-only" alt="햇살이 비치는 드레스룸 중앙에 설치된 화이트와 블랙 배색의 LG 시스템 아이어닝 제품 모습. 하단 받침대와 중앙 기둥, 다림판, 스팀 다리미 전용 거치대 및 전선 지지대로 구성된 현대적인 디자인의 가전제품 이미지.">
+                    </div>
+                    <!--// 수정-->
+                    <div>
+                        <h2>
+                            시스템 아이어닝에 대한 궁금증이
+                            <br>
+                            해결되셨나요?
+                        </h2>
+                        <p>
+                            더 많은 정보가 필요하시다면
+                            <br>
+                            아래 페이지를 이용해 주세요.
+                        </p>
+                        <div class="links">
+                            <a href="https://www.lge.co.kr/support/solutions"><span>스스로 해결 페이지 바로가기</span></a> <a href="/category/system-ironing"><span>시스템 아이어닝 제품 보러가기</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--더 많은 스토리 보러가기-->
+        <!--<div id="review-area"> <div class="review-wrap"> <h3>더 많은 스토리 보러가기</h3><div    class="review-list"> <div class="swiper"> <div class="swiper-wrapper">    <divclass="swiper-slide">    <ahref="https://www.lge.co.kr/story/buying-guide/lg-massage-chairs-guide">    <imgsrc="/kr/story/faq/images/massage-chairs-faq/faq_another_story_thumb_01.jpg"alt=""/>    <strong>나의 휴식을 책임질 안마의자 구매가이드</strong> <span>구매가이드</span> </a> </div><div    class="swiper-slide">    <ahref="https://www.lge.co.kr/story/user-guide/massage-chairs-guide">    <imgsrc="/kr/story/faq/images/massage-chairs-faq/faq_another_story_thumb_02.jpg"alt=""/>    <strong>LG 힐링미 안마의자 사용법</strong> <span>사용가이드</span> </a> </div>    <divclass="swiper-slide">    <ahref="https://www.lge.co.kr/story/hands-on-reviews/lglife-blog-massage-chairs-2"><imgsrc="/kr/story/faq/images/massage-chairs-faq/faq_another_story_thumb_03.jpg"alt=""/>    <strong>힐링미 구매 후 소파에 앉아 있는 시간이 줄었어요</strong> <span>리뷰</span> </a></div> </div>    </div> <div class="swiper-button-next"></div>    <divclass="swiper-button-prev"></div> <div class="swiper-pagination"></div>    </div></div> </div>-->
+    </div>    
+    <!-- content wrap // -->
+
+    <!-- tablist controls ? -->
+    <script>
+        $(document).ready(function (){
+            function getFilterRoot($node) {
+                var $root = $node.parents().filter(function () {
+                    var $ancestor = $(this);
+                    return $ancestor.find('[data-filter]').length && $ancestor.find('[data-category]').length;
+                }).first();
+
+                return $root.length ? $root : $node.closest('.machine-faq__inner-content');
+            }
+
+            function applyFilter($btn) {
+                var $root = getFilterRoot($btn);
+                var filter = $btn.data('filter') || 'all';
+                var $filterButtons = $root.find('[data-filter]');
+                var $items = $root.find('[data-category]');
+
+                $filterButtons.attr('aria-pressed', 'false');
+                $btn.attr('aria-pressed', 'true');
+
+                $items.each(function () {
+                    var $item = $(this);
+                    var isVisible = filter === 'all' || $item.data('category') === filter;
+                    $item.attr('hidden', isVisible ? null : '');
+
+                    if (!isVisible && $item.hasClass('active')) {
+                        $item.removeClass('active');
+                        $item.find('.machine-faq__title').attr('aria-expanded', 'false');
+                    }
+                });
+            }
+
+            function tapAction() {
+                var $innerContent = $('.machine-faq__inner-content');
+                var $tabButton = $('.machine-faq__tap button');
+
+                $innerContent.eq(0).addClass('show');
+                $tabButton.eq(0).addClass('active');
+
+                $tabButton.on('click', function () {
+                    $innerContent.removeClass('show');
+                    $tabButton.removeClass('active').attr('aria-selected', false);
+                    $(this).addClass('active').attr('aria-selected', true);
+
+                    var $targetScope = $('.machine-faq__inner-content--' + $(this).data('content'));
+                    $targetScope.addClass('show');
+
+                    var $targetBtn = $targetScope
+                        .find('[data-filter][aria-pressed="true"], [data-filter="all"]')
+                        .first();
+
+                    if ($targetBtn.length) applyFilter($targetBtn);
+                });
+            }
+
+            function subTabDragScroll() {
+                $('.machine-faq__sub-tab').each(function () {
+                    var $el = $(this);
+                    var el = this;
+                    var activePointerId = null;
+                    var startX = 0;
+                    var startScroll = 0;
+                    var dragMoved = false;
+                    var threshold = 4;
+
+                    function canScroll() {
+                        return el.scrollWidth > el.clientWidth + 1;
+                    }
+
+                    function pointerFrom(e) {
+                        return e.originalEvent || e;
+                    }
+
+                    $el
+                        .on('pointerdown.subTabDrag', function (e) {
+                            var p = pointerFrom(e);
+                            if (!canScroll()) return;
+                            if (p.pointerType === 'mouse' && p.button !== 0) return;
+
+                            activePointerId = p.pointerId;
+                            startX = p.clientX;
+                            startScroll = el.scrollLeft;
+                            dragMoved = false;
+                            $el.css('cursor', 'grabbing');
+
+                            try {
+                                el.setPointerCapture(p.pointerId);
+                            } catch (err) {}
+                        })
+                        .on('pointerup.subTabDrag pointercancel.subTabDrag', function (e) {
+                            var p = pointerFrom(e);
+                            if (activePointerId === null || p.pointerId !== activePointerId) return;
+
+                            activePointerId = null;
+                            $el.css('cursor', '');
+
+                            try {
+                                el.releasePointerCapture(p.pointerId);
+                            } catch (err) {}
+
+                            if (dragMoved) {
+                                $el.attr('data-suppress-click', '1');
+                                window.setTimeout(function () {
+                                    $el.removeAttr('data-suppress-click');
+                                }, 50);
+                            }
+                        });
+
+                    el.addEventListener(
+                        'pointermove',
+                        function (e) {
+                            if (activePointerId === null || e.pointerId !== activePointerId) return;
+
+                            var dx = e.clientX - startX;
+                            if (Math.abs(dx) > threshold) {
+                                dragMoved = true;
+                                el.scrollLeft = startScroll - dx;
+                                e.preventDefault();
+                            }
+                        },
+                        { passive: false }
+                    );
+
+                    el.addEventListener(
+                        'click',
+                        function (e) {
+                            if ($el.attr('data-suppress-click')) {
+                                e.preventDefault();
+                                e.stopPropagation();
+                            }
+                        },
+                        true
+                    );
+                });
+            }
+
+            function filterAction() {
+                $('.machine-faq').on('click.filterAction', '.machine-faq__sub-tab button', function () {
+                    applyFilter($(this));
+                });
+
+                var $initialScope = $('.machine-faq__inner-content.show').first();
+                var $initialBtn = $initialScope.find('[data-filter][aria-pressed="true"]').first();
+                if ($initialBtn.length) applyFilter($initialBtn);
+            }
+
+            function accordionAction() {
+                $('.machine-faq__title').on('click', function () {
+                    if ($(this).closest('.machine-faq__item').hasClass('active')) {
+                        $(this).closest('.machine-faq__item').removeClass('active');
+                        $(this).attr('aria-expanded', false);
+                    } else {
+                        $('.machine-faq__item').removeClass('active');
+                        $('.machine-faq__title').attr('aria-expanded', false);
+                        $(this).closest('.machine-faq__item').addClass('active');
+                        $(this).attr('aria-expanded', true);
+                    }
+
+                    if ($('.machine-faq')[0].clientWidth < 1024) {
+                        window.scroll({
+                            top: $(this).closest('.machine-faq__item')[0].offsetTop - 50,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            }
+
+            function makeSwiper() {
+                var reviewSwiper = new Swiper('.review-list .swiper', {
+                    slidesPerView: 2.1,
+                    spaceBetween: 10,
+                    navigation: {
+                        nextEl: '.review-list .swiper-button-next',
+                        prevEl: '.review-list .swiper-button-prev'
+                    },
+                    pagination: {
+                        el: '.review-list .swiper-pagination',
+                        clickable: true
+                    },
+                    a11y: {
+                        firstSlideMessage: '첫번째',
+                        lastSlideMessage: '마지막',
+                        prevSlideMessage: '이전',
+                        nextSlideMessage: '다음',
+                        paginationBulletMessage: '{{index}}번째',
+                        slideLabelMessage: '{{index}}번째 / 총 {{slidesLength}}개'
+                    },
+                    breakpoints: {
+                        1024: {
+                            slidesPerView: 3,
+                            spaceBetween: 40
+                        }
+                    }
+                });
+            }
+
+            tapAction();
+            filterAction();
+            accordionAction();
+            subTabDragScroll();
+            makeSwiper();
+        });
+    </script>
+    <!-- tablist controls // -->
+
+<!-- CMS 등록 내용 //-->
+</body>
+</html>

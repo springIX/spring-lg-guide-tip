@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang='ko'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="../assets/css/faq-common.css">
+</head>
+<body>
+    <style>
+        /* 실제로는 숨김처리 되는 요소입니다. */
+        .blind { background-color: red !important; }
+    </style>
+
+<!-- CMS 등록 내용 -->
+    <!-- schema -->
+
+    <!-- schema //-->
+    <!-- public assets -->
+    <script src="/kr/story/js/swiper-bundle-v11.min.js"></script>
+    <link rel="stylesheet" href="/kr/story/css/swiper-bundle-v11.min.css">
+    <link rel="stylesheet" href="/kr/story/faq/css/faq-common.css">
+    <!-- public assets // -->
+
+    <!-- content wrap -->
+    <div class="machine-faq">
+        <section class="machine-faq__haed-content center">
+            <h1>
+                고객 Q&A 한눈에 보기
+                <br>
+                - LG 시네빔 큐브 편 -
+            </h1>
+            <p>
+                <span>LG 시네빔 큐브에 대한 모든 궁금증,</span> <span>여기에서 해결해 보세요</span>
+            </p>
+            <div class="img-content">
+                <img src="/kr/story/useful-tip/cinebeam-qube-faq/faq-keyvisual-pc.png" class="pc-only" alt="화면 크기는 어느 정도일까? 보조 배터리로도 사용할 수 있을까? 어떤 리모컨을 연결할 수 있을까? 시네빔 선택부터 사용법까지, 가장 궁금해하는 질문을 모아 답해드려요. 하얀 원형 구조물 위에 시네빔이 올려져 있는 모습.">
+                <img src="/kr/story/useful-tip/cinebeam-qube-faq/faq-keyvisual-mo.png" class="mo-only" alt="화면 크기는 어느 정도일까? 보조 배터리로도 사용할 수 있을까? 어떤 리모컨을 연결할 수 있을까? 시네빔 선택부터 사용법까지, 가장 궁금해하는 질문을 모아 답해드려요. 하얀 원형 구조물 위에 시네빔이 올려져 있는 모습.">
+            </div>
+        </section>
+        <section class="machine-faq__detail-content">
+            <div class="machine-faq__tap center" role="tablist">
+                <!--접근성: role 추가-->
+                <button type="button" data-content="product" id="product-tab" role="tab" aria-selected="true" aria-controls="product-cont">LG 시네빔 큐브 제품 질문</button>
+                <!--접근성: id, role, aria-controls, aria-selected 추가-->
+                <button type="button" data-content="common" id="common-tab" role="tab" aria-selected="false" aria-controls="common-cont">주문 및 배송 알아보기</button>
+                <!--접근성: id, role, aria-controls, aria-selected 추가-->
+            </div>
+            <div class="machine-faq__tap-content">
+                <div class="machine-faq__inner-content machine-faq__inner-content--product" id="product-cont" role="tabpanel" aria-labelledby="product-tab">
+                    <!--접근성: id, role, aria-labelledby 추가-->
+                    <div class="center">
+                        <h2>
+                            LG 시네빔 큐브 제품 질문
+                        </h2>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. 투사 거리가 어떻게 되나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    LG 시네빔 큐브 제품은 투사 거리가 길어질수록 더 큰 화면으로 즐길 수 있어요. <span class="block">먼저 약 1.3m의 투사 거리를 기준으로는 약 50인치의 화면 크기로 사용할 수 있어요. 최대 120인치의 화면 크기로 컨텐츠를 즐길 수 있는데, 이렇게 사용하기 위해서는 약 3m 정도의 투사 거리가 필요해요.</span> 단, 이는 설치 환경에 따라 차이가 있을 수 있으니 참고해 주세요.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <!--접근성: blind 텍스트 추가--> <span>Q. 투사 거리별 화면 크기는 어떻게 될까요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <!--접근성: blind 텍스트 추가-->
+                                <p>
+                                    투사 거리에 따른 화면 크기가 궁금하시다면 아래 표를 참고해 주세요.
+                                    <br>
+                                    단, 해당 정보는 설치 환경에 따라 차이가 발생할 수 있습니다.
+                                </p>
+                                <!--시네빔: 투사 거리별 화면 크기는 어떻게 될까요?-->
+                                <div class="img-explain-content cinebeam">
+                                    <ul class="explain-img">
+                                        <li>
+                                            <img src="/kr/story/useful-tip/cinebeam-qube-faq/cinebeam-1.png" alt="스크린과 시네빔 프로젝터의 배치도를 나타낸 도표로, 화면 가로길이(X), 투사 거리(D)가 표시된 모습. ">
+                                        </li>
+                                        <li>
+                                            <img src="/kr/story/useful-tip/cinebeam-qube-faq/cinebeam-2.png" alt="스크린과 시네빔 프로젝터의 배치도를 나타낸 도표로, 화면 세로길이(Y), 투사 거리(D)가 표시된 모습. ">
+                                        </li>
+                                    </ul>
+                                    <div class="pc-only">
+                                        <table>
+                                            <caption>투사 거리에 따른 16:9 화면 크기에 대한 표 - 화면 크기, 화면 가로길이, 화면 세로길이, 투사 거리의 내용을 확인할 수 있습니다.</caption>
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col" colspan="4">16:9 화면 크기</th>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="col">화면 크기</th>
+                                                    <th scope="col">
+                                                        <span class="ico-x">X</span> 화면 가로길이
+                                                    </th>
+                                                    <th scope="col">
+                                                        <span class="ico-y">Y</span> 화면 세로길이
+                                                    </th>
+                                                    <th scope="col">
+                                                        <span class="ico-d">D</span> 투사 거리
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <strong>50인치</strong> · 1,270mm
+                                                    </td>
+                                                    <td>1,107mm</td>
+                                                    <td>623mm</td>
+                                                    <td>1,328mm</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <strong>60인치</strong> · 1,524mm
+                                                    </td>
+                                                    <td>1,328mm</td>
+                                                    <td>747mm</td>
+                                                    <td>1,594mm</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <strong>70인치</strong> · 1,778mm
+                                                    </td>
+                                                    <td>1,550mm</td>
+                                                    <td>872mm</td>
+                                                    <td>1,860mm</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <strong>80인치</strong> · 2,032mm
+                                                    </td>
+                                                    <td>1,771mm</td>
+                                                    <td>996mm</td>
+                                                    <td>2,125mm</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <strong>90인치</strong> · 2,286mm
+                                                    </td>
+                                                    <td>1,992mm</td>
+                                                    <td>1,121mm</td>
+                                                    <td>2,391mm</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <strong>100인치</strong> · 2,540mm
+                                                    </td>
+                                                    <td>2,214mm</td>
+                                                    <td>1,245mm</td>
+                                                    <td>2,657mm</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <strong>110인치</strong> · 2,794mm
+                                                    </td>
+                                                    <td>2,435mm</td>
+                                                    <td>1,370mm</td>
+                                                    <td>2,922mm</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <strong>120인치</strong> · 3,048mm
+                                                    </td>
+                                                    <td>2,657mm</td>
+                                                    <td>1,494mm</td>
+                                                    <td>3,188mm</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <p>· 위 표의 수치는 설치환경에 따라 차이가 발생할 수 있습니다.</p>
+                                    </div>
+                                    <div class="mo-only">
+                                        <table>
+                                            <caption>투사 거리에 따른 16:9 화면 크기에 대한 표 - 화면 크기, 화면 가로길이, 화면 세로길이, 투사 거리의 내용을 확인할 수 있습니다.</caption>
+                                            <colgroup>
+                                                <col width="50%">
+                                                <col width="50%">
+                                            </colgroup>
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col" colspan="2">16:9 화면 크기</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <strong>50인치</strong> 1,270mm
+                                                    </td>
+                                                    <td>
+                                                        <ul>
+                                                            <li>
+                                                                <span cl="cl" ㄹass="ico-x">X</span> <span class="blind">화면 가로길이</span> 1,107mm
+                                                            </li>
+                                                            <li>
+                                                                <span class="ico-y">Y</span> <span class="blind">화면 세로길이</span> 623mm
+                                                            </li>
+                                                            <li>
+                                                                <span class="ico-d">D</span> <span class="blind">투사 거리</span> 1,328mm
+                                                            </li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <strong>60인치</strong> 1,524mm
+                                                    </td>
+                                                    <td>
+                                                        <ul>
+                                                            <li>
+                                                                <span class="ico-x">X</span> <span class="blind">화면 가로길이</span> 1,328mm
+                                                            </li>
+                                                            <li>
+                                                                <span class="ico-y">Y</span> <span class="blind">화면 세로길이</span> 747mm
+                                                            </li>
+                                                            <li>
+                                                                <span class="ico-d">D</span> <span class="blind">투사 거리</span> 1,594mm
+                                                            </li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <strong>70인치</strong> 1,778mm
+                                                    </td>
+                                                    <td>
+                                                        <ul>
+                                                            <li>
+                                                                <span class="ico-x">X</span> <span class="blind">화면 가로길이</span> 1,550mm
+                                                            </li>
+                                                            <li>
+                                                                <span class="ico-y">Y</span> <span class="blind">화면 세로길이</span> 872mm
+                                                            </li>
+                                                            <li>
+                                                                <span class="ico-d">D</span> <span class="blind">투사 거리</span> 1,860mm
+                                                            </li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <strong>80인치</strong> 2,032mm
+                                                    </td>
+                                                    <td>
+                                                        <ul>
+                                                            <li>
+                                                                <span class="ico-x">X</span> <span class="blind">화면 가로길이</span> 1,771mm
+                                                            </li>
+                                                            <li>
+                                                                <span class="ico-y">Y</span> <span class="blind">화면 세로길이</span> 996mm
+                                                            </li>
+                                                            <li>
+                                                                <span class="ico-d">D</span> <span class="blind">투사 거리</span> 2,125mm
+                                                            </li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <strong>90인치</strong> 2,286mm
+                                                    </td>
+                                                    <td>
+                                                        <ul>
+                                                            <li>
+                                                                <span class="ico-x">X</span> <span class="blind">화면 가로길이</span> 1,992mm
+                                                            </li>
+                                                            <li>
+                                                                <span class="ico-y">Y</span> <span class="blind">화면 세로길이</span> 1,121mm
+                                                            </li>
+                                                            <li>
+                                                                <span class="ico-d">D</span> <span class="blind">투사 거리</span> 2,391mm
+                                                            </li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <strong>100인치</strong> 2,540mm
+                                                    </td>
+                                                    <td>
+                                                        <ul>
+                                                            <li>
+                                                                <span class="ico-x">X</span> <span class="blind">화면 가로길이</span> 2,214mm
+                                                            </li>
+                                                            <li>
+                                                                <span class="ico-y">Y</span> <span class="blind">화면 세로길이</span> 1,245mm
+                                                            </li>
+                                                            <li>
+                                                                <span class="ico-d">D</span> <span class="blind">투사 거리</span> 2,657mm
+                                                            </li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <strong>110인치</strong> 2,794mm
+                                                    </td>
+                                                    <td>
+                                                        <ul>
+                                                            <li>
+                                                                <span class="ico-x">X</span> <span class="blind">화면 가로길이</span> 2,435mm
+                                                            </li>
+                                                            <li>
+                                                                <span class="ico-y">Y</span> <span class="blind">화면 세로길이</span> 1,370mm
+                                                            </li>
+                                                            <li>
+                                                                <span class="ico-d">D</span> <span class="blind">투사 거리</span> 2,922mm
+                                                            </li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <strong>120인치</strong> 3,048mm
+                                                    </td>
+                                                    <td>
+                                                        <ul>
+                                                            <li>
+                                                                <span class="ico-x">X</span> <span class="blind">화면 가로길이</span> 2,657mm
+                                                            </li>
+                                                            <li>
+                                                                <span class="ico-y">Y</span> <span class="blind">화면 세로길이</span> 1,494mm
+                                                            </li>
+                                                            <li>
+                                                                <span class="ico-d">D</span> <span class="blind">투사 거리</span> 3,188mm
+                                                            </li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <p>· 위 표의 수치는 설치환경에 따라 차이가 발생할 수 있습니다.</p>
+                                    </div>
+                                </div>
+                                <!--// 시네빔: 투사 거리별 화면 크기는 어떻게 될까요?-->
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. 밝은 색의 벽지에 대고 사용이 가능한가요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    스크린 없이 벽지에 빔을 투사하는 경우 빛 반사 혹은 울리불리 현상이 나타날 수 있어요. 또한 벽지에 색이 있는 경우 컨텐츠 시청에 불편함을 느끼실 수 있습니다.
+                                    <br>
+                                    그래서 <span style="font-weight: 700">LG 시네빔 큐브를 사용하실 때에는 가급적 평평한 스크린을 함께 사용하시는 것을 추천해 드려요.</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. LG 시네빔 큐브와 호환되는 매직 리모컨은 무엇인가요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    리모컨을 함께 사용하면 더욱 편리하게 LG 시네빔 큐브를 즐기실 수 있어요.
+                                    <br>
+                                    <span style="font-weight: 700">LG 시네빔 큐브와 호환되는 리모컨은 인공지능 라이팅 리모컨(모델명 : AKB76039501)이에요.</span>
+                                </p>
+                                <div class="machine-faq__more-content">
+                                    <p>인공지능 라이팅 리모컨의 구매를 원하시는 경우, 아래 버튼을 클릭해 주세요.</p>
+                                    <a href="https://www.lge.co.kr/care-accessories/projector-(minibeam-etc.)/akb76039501">케어용품/소모품 바로가기</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. LG 시네빔 큐브 전용 액세서리가 있나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    제품에 관심을 가져 주셔서 감사합니다. LG 시네빔 큐브 전용 스탠드 및 관련 소모품은 커버, 배터리 커버, 스탠드 등이 있어요.
+                                    <br>
+                                    다음 페이지에서 상세 내용을 확인해 보세요.
+                                </p>
+                                <div class="machine-faq__more-content">
+                                    <a href="https://www.lge.co.kr/projectors?subCateId=CT50308000">시네빔 액세서리 바로가기</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. LG 시네빔 큐브에서 지원하는 DC 전원의 규격이 어떻게 되나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    <span style="font-weight: 700">LG 시네빔 큐브에서 지원하는 DC 전원의 규격은 외경 6.5mm, 내경 4.3mm입니다.</span>
+                                    <br>
+                                    덧붙여 전원 출력은 19V, 3.42A(65W)인 점도 참고해 주세요.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. LG 시네빔 큐브에 전원 보조 배터리와 외장 메모리를 동시에 연결할 수 있나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    <span class="block">LG 시네빔 큐브의 경우, USB-C 입력단자가 1개로 1개의 기기만 연결할 수 있어요.</span> 그래서 보조 배터리와 USB 저장장치 등 2개 이상의 장치를 동시에 연결하는 것은 어려운 점 참고해 주세요.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. LG 시네빔 큐브도 가전 구독이 가능한가요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    제품에 관심을 가져 주셔서 감사합니다.
+                                    <br>
+                                    LG 시네빔 큐브는 현재 가전 구독 서비스는 제공되지 않아 일반 판매로만 구매가 가능한 점 양해 부탁드립니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. LG 시네빔 큐브 26년형에 전원 보조 배터리와 외장 메모리를 동시에 연결할 수 있나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>LG 시네빔 큐브 26년형의 경우, USB-C 입력단자 2개로 동시에 보조 배터리와 외장 메모리 연결이 가능합니다.</p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. LG 시네빔 큐브 26년형 전용 액세서리가 있나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    LG 시네빔 큐브 26년형 제품 전용 스탠드 및 관련 소모품은 커버, 배터리 커버, 스탠드 등이 있어요.
+                                    <br>
+                                    다음 페이지에서 상세 내용을 확인해 보세요.
+                                </p>
+                                <div class="machine-faq__more-content">
+                                    <a href="https://www.lge.co.kr/projectors?subCateId=CT50308000">시네빔 액세서리 바로가기</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. LG 시네빔 큐브 26년형도 가전 구독이 가능한가요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    제품에 관심을 가져 주셔서 감사합니다.
+                                    <br>
+                                    LG 시네빔 큐브 26년형은 현재 가전 구독 서비스는 제공되지 않아 일반 판매로만 구매가 가능한 점 양해 부탁드립니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="machine-faq__inner-content machine-faq__inner-content--common" id="common-cont" role="tabpanel" aria-labelledby="common-tab">
+                    <!--접근성: id, role, aria-labelledby 추가-->
+                    <div class="center">
+                        <h2>
+                            주문 및 배송 알아보기
+                        </h2>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. 배송 희망일 지정이 가능한가요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    주문/결제 화면에서 원하시는 배송 희망일을 지정하실 수 있습니다.
+                                    <br>
+                                    단, 배송 희망일은 배송 시 참고 사항이며, 실제 배송되는 날짜는 변경될 수 있습니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. 주문 후 배송지 및 연락처 변경 가능한가요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    제품 주문 이후에는 상세주소만 변경이 가능합니다. (도로명/지번주소지 변경 불가)
+                                    <br>
+                                    상세주소 변경은 가상 계좌에 입금이 되기 전 상태인 ‘주문 접수’와 ‘배송 준비 중’일 때 진행하실 수 있습니다. 단, 소모품은 ‘주문 접수’ 상태에서만 가능합니다.
+                                    <br>
+                                    그 외에는 제품 배송이 시작되지 않았다면 기존 주문을 취소하고 다시 주문해 주시기 바랍니다.
+                                    <br>
+                                    궁금한 점이 있으신 경우 고객센터(1544-7777)로 문의해 주세요.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. 반품/환불/취소 처리는 어떻게 해야 하나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    고객 인수 완료 후 단순변심/감성불량에 의한 반품은 불가합니다.
+                                    <br>
+                                    *고객 인수 완료란 : 제품을 설치/시운전하고 외관이 이상 없음을 고객과 상호 확인하여 고객으로부터 인수 완료 서명을 받은 이후의 상태를 말함.
+                                    <br>
+                                    <br>
+                                    - 택배 등 고객 인수 완료 전 제품의 경우에는 제품을 받은 날로부터 7일 이내에는 반품 처리가 가능합니다.
+                                    <br>
+                                    - 다음 경우에는 반품/교환이 불가합니다.
+                                    <br>
+                                    · 고객에게 책임이 있는 사유로 재화 등이 멸실되거나 훼손된 경우. 다만, 재화 등의 내용을 확인하기 위하여 포장 등을 훼손한 경우는 제외합니다. ·
+                                    <br>
+                                    고객의 사용 또는 일부 소비로 재화 등의 가치가 현저히 감소한 경우
+                                    <br>
+                                    · 시간이 지나 다시 판매하기 곤란할 정도로 재화 등의 가치가 현저히 감소한 경우
+                                    <br>
+                                    · 본품의 전원을 연결하여 사용한 경우
+                                    <br>
+                                    - 반품/교환 시 고객의 귀책 사유로 수거가 지연될 경우에는 반품이 제한될 수 있습니다.
+                                    <br>
+                                    - 제조사 사정(신모델 출시 등) 및 부품 가격 변동 등에 의해 가격이 변동될 수 있으며, 이로 인한 반품 및 가격 보상은 불가합니다.
+                                    <br>
+                                    - 본품을 반품할 경우 사은품도 반품 처리되며, 사은품을 사용한 경우 해당 비용 고객 부담 후 본품만 반품 처리 가능합니다.
+                                    <br>
+                                    - 환불 처리는 반품 확정 이후 가능하며, 처리 완료 시까지 통상적으로 영업일 기준 약 7일 정도가 소요되오니 이용에 참고 부탁드립니다.
+                                    <br>
+                                    - 반품/교환 관련 자세한 사항은 고객센터(1544-7777)로 연락 바랍니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. 제품의 A/S 보증기간은 어떻게 되나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>제품별 보증 기간은 LGE.COM 홈페이지 또는 앱의 '고객지원 > 서비스 안내 > 요금/보증 안내'에서 확인하실 수 있습니다.</p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. 배송 및 설치비는 무료인가요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>
+                                    대부분의 상품에 대하여 무료 배송 및 기본 설치를 지원해 드리고 있습니다.
+                                    <br>
+                                    다만, 일부 도서 산간 지역 및 제품 특성 (에어컨 및 대형 인치 TV 설치 등), 고객님의 설치 환경에 따라 추가 비용이 발생할 수 있으며 이는 고객 부담이니 유의하세요.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="machine-faq__item">
+                            <button type="button" class="machine-faq__title" aria-expanded="false">
+                                <!--접근성: aria-expanded 추가--> <span class="blind">질문</span> <span>Q. 설치 상품의 경우 사전 확인 사항이 있나요?</span>
+                            </button>
+                            <div class="machine-faq__content">
+                                <span class="blind">답변</span>
+                                <p>설치가 필요한 제품은 반드시 설치 환경을 확인해 주세요.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--더 많은 정보-->
+            <div class="machine-faq__other-content">
+                <div class="center">
+                    <!--수정-->
+                    <div class="img-content">
+                        <img src="/kr/story/useful-tip/cinebeam-qube-faq/faq-other-pc.png" class="pc-only" alt="alt">
+                        <img src="/kr/story/useful-tip/cinebeam-qube-faq/faq-other-mo.png" class="mo-only" alt="alt">
+                    </div>
+                    <!--// 수정-->
+                    <div>
+                        <h2>LG 시네빔 큐브에 대한 궁금증이 해결되셨나요?</h2>
+                        <p>더 많은 정보가 필요하시다면 아래 페이지를 이용해 주세요.</p>
+                        <div class="links">
+                            <a href="https://www.lge.co.kr/support/solutions"><span>스스로 해결 페이지 바로가기</span></a> <a href="https://www.lge.co.kr/projectors/hu710pb"><span>LG 시네빔 큐브 제품 보러가기</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--더 많은 스토리 보러가기-->
+        <div id="review-area">
+            <div class="review-wrap">
+                <h2>더 많은 스토리 보러가기</h2>
+                <div class="review-list">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="https://www.lge.co.kr/story/hands-on-reviews/lglife-in-cinebeam-12"><img src="/kr/story/useful-tip/cinebeam-qube-faq/faq_another_story_thumb_01.jpg" alt=""> <strong>인스타그램 eunheehome 님이 경험한 가전 리뷰</strong> <span>LG 시네빔</span></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://www.lge.co.kr/story/hands-on-reviews/lglife-in-cinebeam-9"><img src="/kr/story/useful-tip/cinebeam-qube-faq/faq_another_story_thumb_02.jpg" alt=""> <strong>인스타그램 suzan.likes.home 님이 경험한 가전 리뷰</strong> <span>LG 시네빔</span></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://www.lge.co.kr/story/hands-on-reviews/lglife-in-cinebeam-6"><img src="/kr/story/useful-tip/cinebeam-qube-faq/faq_another_story_thumb_03.jpg" alt=""> <strong>인스타그램 lantcamping 님이 경험한 가전 리뷰</strong> <span>LG 시네빔</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--// 컨텐츠 등록 영역 시작-->
+    <!-- content wrap // -->
+
+    <!-- tablist controls ? -->
+    <script>
+        $(document).ready(function (){
+            function getFilterRoot($node) {
+                var $root = $node.parents().filter(function () {
+                    var $ancestor = $(this);
+                    return $ancestor.find('[data-filter]').length && $ancestor.find('[data-category]').length;
+                }).first();
+
+                return $root.length ? $root : $node.closest('.machine-faq__inner-content');
+            }
+
+            function applyFilter($btn) {
+                var $root = getFilterRoot($btn);
+                var filter = $btn.data('filter') || 'all';
+                var $filterButtons = $root.find('[data-filter]');
+                var $items = $root.find('[data-category]');
+
+                $filterButtons.attr('aria-pressed', 'false');
+                $btn.attr('aria-pressed', 'true');
+
+                $items.each(function () {
+                    var $item = $(this);
+                    var isVisible = filter === 'all' || $item.data('category') === filter;
+                    $item.attr('hidden', isVisible ? null : '');
+
+                    if (!isVisible && $item.hasClass('active')) {
+                        $item.removeClass('active');
+                        $item.find('.machine-faq__title').attr('aria-expanded', 'false');
+                    }
+                });
+            }
+
+            function tapAction() {
+                var $innerContent = $('.machine-faq__inner-content');
+                var $tabButton = $('.machine-faq__tap button');
+
+                $innerContent.eq(0).addClass('show');
+                $tabButton.eq(0).addClass('active');
+
+                $tabButton.on('click', function () {
+                    $innerContent.removeClass('show');
+                    $tabButton.removeClass('active').attr('aria-selected', false);
+                    $(this).addClass('active').attr('aria-selected', true);
+
+                    var $targetScope = $('.machine-faq__inner-content--' + $(this).data('content'));
+                    $targetScope.addClass('show');
+
+                    var $targetBtn = $targetScope
+                        .find('[data-filter][aria-pressed="true"], [data-filter="all"]')
+                        .first();
+
+                    if ($targetBtn.length) applyFilter($targetBtn);
+                });
+            }
+
+            function subTabDragScroll() {
+                $('.machine-faq__sub-tab').each(function () {
+                    var $el = $(this);
+                    var el = this;
+                    var activePointerId = null;
+                    var startX = 0;
+                    var startScroll = 0;
+                    var dragMoved = false;
+                    var threshold = 4;
+
+                    function canScroll() {
+                        return el.scrollWidth > el.clientWidth + 1;
+                    }
+
+                    function pointerFrom(e) {
+                        return e.originalEvent || e;
+                    }
+
+                    $el
+                        .on('pointerdown.subTabDrag', function (e) {
+                            var p = pointerFrom(e);
+                            if (!canScroll()) return;
+                            if (p.pointerType === 'mouse' && p.button !== 0) return;
+
+                            activePointerId = p.pointerId;
+                            startX = p.clientX;
+                            startScroll = el.scrollLeft;
+                            dragMoved = false;
+                            $el.css('cursor', 'grabbing');
+
+                            try {
+                                el.setPointerCapture(p.pointerId);
+                            } catch (err) {}
+                        })
+                        .on('pointerup.subTabDrag pointercancel.subTabDrag', function (e) {
+                            var p = pointerFrom(e);
+                            if (activePointerId === null || p.pointerId !== activePointerId) return;
+
+                            activePointerId = null;
+                            $el.css('cursor', '');
+
+                            try {
+                                el.releasePointerCapture(p.pointerId);
+                            } catch (err) {}
+
+                            if (dragMoved) {
+                                $el.attr('data-suppress-click', '1');
+                                window.setTimeout(function () {
+                                    $el.removeAttr('data-suppress-click');
+                                }, 50);
+                            }
+                        });
+
+                    el.addEventListener(
+                        'pointermove',
+                        function (e) {
+                            if (activePointerId === null || e.pointerId !== activePointerId) return;
+
+                            var dx = e.clientX - startX;
+                            if (Math.abs(dx) > threshold) {
+                                dragMoved = true;
+                                el.scrollLeft = startScroll - dx;
+                                e.preventDefault();
+                            }
+                        },
+                        { passive: false }
+                    );
+
+                    el.addEventListener(
+                        'click',
+                        function (e) {
+                            if ($el.attr('data-suppress-click')) {
+                                e.preventDefault();
+                                e.stopPropagation();
+                            }
+                        },
+                        true
+                    );
+                });
+            }
+
+            function filterAction() {
+                $('.machine-faq').on('click.filterAction', '.machine-faq__sub-tab button', function () {
+                    applyFilter($(this));
+                });
+
+                var $initialScope = $('.machine-faq__inner-content.show').first();
+                var $initialBtn = $initialScope.find('[data-filter][aria-pressed="true"]').first();
+                if ($initialBtn.length) applyFilter($initialBtn);
+            }
+
+            function accordionAction() {
+                $('.machine-faq__title').on('click', function () {
+                    if ($(this).closest('.machine-faq__item').hasClass('active')) {
+                        $(this).closest('.machine-faq__item').removeClass('active');
+                        $(this).attr('aria-expanded', false);
+                    } else {
+                        $('.machine-faq__item').removeClass('active');
+                        $('.machine-faq__title').attr('aria-expanded', false);
+                        $(this).closest('.machine-faq__item').addClass('active');
+                        $(this).attr('aria-expanded', true);
+                    }
+
+                    if ($('.machine-faq')[0].clientWidth < 1024) {
+                        window.scroll({
+                            top: $(this).closest('.machine-faq__item')[0].offsetTop - 50,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            }
+
+            function makeSwiper() {
+                var reviewSwiper = new Swiper('.review-list .swiper', {
+                    slidesPerView: 2.1,
+                    spaceBetween: 10,
+                    navigation: {
+                        nextEl: '.review-list .swiper-button-next',
+                        prevEl: '.review-list .swiper-button-prev'
+                    },
+                    pagination: {
+                        el: '.review-list .swiper-pagination',
+                        clickable: true
+                    },
+                    a11y: {
+                        firstSlideMessage: '첫번째',
+                        lastSlideMessage: '마지막',
+                        prevSlideMessage: '이전',
+                        nextSlideMessage: '다음',
+                        paginationBulletMessage: '{{index}}번째',
+                        slideLabelMessage: '{{index}}번째 / 총 {{slidesLength}}개'
+                    },
+                    breakpoints: {
+                        1024: {
+                            slidesPerView: 3,
+                            spaceBetween: 40
+                        }
+                    }
+                });
+            }
+
+            tapAction();
+            filterAction();
+            accordionAction();
+            subTabDragScroll();
+            makeSwiper();
+        });
+    </script>
+    <!-- tablist controls // -->
+
+<!-- CMS 등록 내용 //-->
+</body>
+</html>
