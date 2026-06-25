@@ -912,7 +912,7 @@
   cursor: pointer;
 }
 
-#designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .notice-toggle::before {
+#designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .disclaimer-item:first-child .notice-toggle::before {
   content: "*";
   color: #9a9ea3;
 }
@@ -2128,7 +2128,7 @@
   order: 2;
 }
 
-#designlg .kv-disclaimer-section .disclaimer-item .notice-toggle::before {
+#designlg .kv-disclaimer-section .disclaimer-item:first-child .notice-toggle::before {
   content: "*";
   color: #6a6d70;
 }
@@ -3041,7 +3041,10 @@
     display: flex;
     flex-direction: column;
   }
-
+#designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .disclaimer-item .notice-toggle::before {
+  content: "*";
+  color: #9a9ea3;
+}
   #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle > p,
   #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .notice-toggle,
   #designlg #STORY .content-sec.sec3 .story-disclaimer.has-toggle .note-list {
@@ -4140,6 +4143,7 @@
   flex-direction: row;
   gap: 0 24px;
   align-items: flex-start;
+ 
 }
 
 #designlg #INTERVIEW .disclaimer.has-toggle .disclaimer-item {
@@ -4163,8 +4167,17 @@
   line-height: 1.54;
   letter-spacing: -0.24px;
 }
-
-#designlg #INTERVIEW .disclaimer.has-toggle .notice-toggle::before {
+button.notice-toggle.mb-4 {
+    margin-bottom: 4px;
+}
+#designlg #INTERVIEW .disclaimer.has-toggle .notice-toggle.pl-7 {
+    padding-left: 7px;
+}
+/* #designlg #INTERVIEW .disclaimer.has-toggle .notice-toggle::before {
+  content: "*";
+  color: #6a6d70;
+} */
+#designlg #INTERVIEW .disclaimer.has-toggle .disclaimer-item:first-child .notice-toggle::before {
   content: "*";
   color: #6a6d70;
 }
@@ -4297,7 +4310,10 @@
     line-height: 1.42;
     letter-spacing: -0.22px;
   }
-
+#designlg #INTERVIEW .disclaimer.has-toggle .disclaimer-item .notice-toggle::before{
+    content: "*";
+  color: #6a6d70;
+}
   #designlg #INTERVIEW .disclaimer.has-toggle .notice-toggle::after {
     width: 16px;
     height: 16px;
@@ -4327,6 +4343,11 @@
     line-height: 1.42;
     letter-spacing: -0.22px;
   }
-
+  .mb-4{
+    margin-bottom: 0;
+  }
+  #designlg #INTERVIEW .disclaimer.has-toggle .notice-toggle.pl-7 {
+    padding-left: 0px;
+}
 
 }
