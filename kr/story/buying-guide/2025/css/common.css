@@ -1509,6 +1509,13 @@
   display: inline-block;
   margin: 2px 0 0 0;
   vertical-align: top;
+  color: #666;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.0001em;
 }
 .buying-guide .compare-wrap .procuct-summary .procuct-spec p .des .info {
   position: relative;
