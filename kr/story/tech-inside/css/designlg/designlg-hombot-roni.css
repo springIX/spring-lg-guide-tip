@@ -1828,12 +1828,11 @@
   align-items: flex-end;
   gap: 16px;
   will-change: transform;
-    max-height: 930px;
 }
 
 #designlg #INSPIRATION .img-list li {
-  width: 15.6771vw;
-  height: 15.6771vw;
+  width: 19.2708vw;
+  height: 19.2708vw;
   flex-shrink: 0;
   position: relative;
   opacity: 0.2;
