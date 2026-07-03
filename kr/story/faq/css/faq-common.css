@@ -690,6 +690,43 @@
   margin-top: 24px;
 }
 
+.machine-faq__inner-content--robot .machine-faq__note-heading {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.machine-faq__inner-content--robot .machine-faq__note-list {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.machine-faq__inner-content--robot .machine-faq__note-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.machine-faq__inner-content--robot .machine-faq__note-list li + li {
+  margin-top: 4px;
+}
+
+.machine-faq__inner-content--robot .machine-faq__note-marker {
+  flex: 0 0 auto;
+  font-weight: 400;
+  line-height: inherit;
+  text-align: left;
+}
+
+.machine-faq__inner-content--robot .machine-faq__note-list p {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+}
+
 @media screen and (max-width: 1024px) {
   .machine-faq__content {
     padding: 20px;
