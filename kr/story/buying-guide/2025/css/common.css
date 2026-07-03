@@ -211,6 +211,9 @@
   white-space: nowrap;
   border: 0;
 }
+/* .buying-guide .a11y-hidden.js-tab-selected-text {
+    left: 0;
+} */
 .buying-guide [role="tabpanel"][hidden] {
   display: none !important;
 }
@@ -229,10 +232,61 @@
   letter-spacing: 0;
   text-align: right;
 }
+.buying-guide .guide-disclaimer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #666;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0;
+  text-align: left;
+}
+.buying-guide .guide-disclaimer--pc-right {
+  text-align: right;
+}
+.buying-guide .guide-disclaimer--pc-right .guide-disclaimer__item {
+  width: fit-content;
+  max-width: 100%;
+  margin-left: auto;
+  text-align: left;
+}
+.buying-guide .guide-disclaimer__item {
+  position: relative;
+  margin: 0;
+  padding-left: 10px;
+}
+.buying-guide .guide-disclaimer__item::before {
+  content: "*";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.buying-guide .guide-disclaimer__item + .guide-disclaimer__item {
+  margin-top: 2px;
+}
+.buying-guide .guide-disclaimer__item[data-marker]::before {
+  content: attr(data-marker);
+}
+.buying-guide .guide-disclaimer__item.no-bullet {
+  padding-left: 0;
+}
+.buying-guide .guide-disclaimer__item.no-bullet::before {
+  content: none;
+}
 @media only screen and (max-width: 1023px) {
   .buying-guide .note {
     margin-top: 9px;
     text-align: left;
+  }
+  .buying-guide .guide-disclaimer {
+    margin-top: 9px;
+  }
+  .buying-guide .guide-disclaimer--pc-right {
+    text-align: left;
+  }
+  .buying-guide .guide-disclaimer--pc-right .guide-disclaimer__item {
+    width: auto;
+    margin-left: 0;
   }
 }
 .buying-guide .autoplay-slider-wrap {
@@ -616,6 +670,7 @@
   font-weight: 400;
   line-height: 140%;
   letter-spacing: -0.16px;
+  position: relative;
 }
 .buying-guide .tab-wrap button.tab-img b {
   color: #000;
@@ -635,6 +690,16 @@
 }
 .buying-guide .tab-wrap button.active b {
   color: #fff;
+}
+@media only screen and (max-width: 1523px) {
+.buying-guide .tab-wrap .nav.nav-left{
+  left:0;
+  z-index: 1;
+}
+.buying-guide .tab-wrap .nav.nav-right{
+  right:0;
+  z-index: 1;
+}
 }
 @media only screen and (max-width: 1023px) {
   .buying-guide .tab-wrap {
@@ -907,6 +972,17 @@
 .buying-guide .tab-content .text-wrap > div p {
   width: 100%;
 }
+.buying-guide .tab-content .text-wrap .text-wrap-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.buying-guide .tab-content .text-wrap .text-wrap-note {
+  color: #666;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: -0.16px;
+}
 .buying-guide .tab-content .text-wrap > div .btn-collapse-toggle {
   margin-top: 10px;
 }
@@ -1044,6 +1120,9 @@
 
   .buying-guide .tab-content .text-wrap > div {
     width: 100%;
+  }
+  .buying-guide .tab-content .text-wrap .text-wrap-note {
+    font-size: 14px;
   }
   .buying-guide .tab-content .text-wrap > div .collapse-content p {
     font-size: 12px;
@@ -1739,6 +1818,10 @@
   outline: 1px solid #000;
   outline-offset: -4px !important;
 }
+.buying-guide .product-table .table-wrap.margin-custom-x{
+  margin: 50px auto 0;
+margin: 50px auto 0;
+}
 @media only screen and (max-width: 1023px) {
   .buying-guide .compare-wrap .procuct-summary {
     margin: 0 -20px;
@@ -1895,6 +1978,7 @@
   position: relative;
   margin-top: 50px;
 }
+
 .buying-guide .product-table .table-wrap table {
   table-layout: fixed;
   width: 100%;
@@ -2107,6 +2191,9 @@ line-height: 140%; /* 22.4px */
     width: 100vw;
     margin: 20px -20px 0;
   }
+  .buying-guide .product-table .table-wrap.margin-custom-x{
+  margin:20px -20px 0;
+}
   .buying-guide .product-table .table-wrap table {
     margin: 0 20px;
     border-radius: 8px;
