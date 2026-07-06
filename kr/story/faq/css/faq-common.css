@@ -733,6 +733,12 @@
   line-height: inherit;
 }
 
+.machine-faq__inner-content--robot .machine-faq__note-detail,
+.machine-faq__inner-content--product .machine-faq__note-detail {
+  display: block;
+  margin-top: 4px;
+}
+
 @media screen and (max-width: 1024px) {
   .machine-faq__content {
     padding: 20px;

@@ -4116,6 +4116,7 @@
   #designlg section .content-sec .sec-head .sec-copy .copy br.pc-only {
     display: block;
   }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1919px) {
@@ -4123,6 +4124,8 @@
   #designlg .disclaimer br.pc-only {
     display: none;
   }
+
+
 }
 
 @media screen and (min-width: 1921px) {
@@ -4437,5 +4440,7 @@ button.notice-toggle.mb-4 {
   #designlg #INTERVIEW .disclaimer.has-toggle .notice-toggle.pl-7 {
     padding-left: 0px;
 }
-
+    #designlg  br.pc-only2 {
+    display: none;
+  }
 }

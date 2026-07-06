@@ -468,6 +468,57 @@
     object-position: center;
 }
 
+#snomet .roni-station-tip {
+    width: 966px;
+    max-width: 100%;
+}
+
+#snomet .roni-station-table {
+    overflow: hidden;
+    width: 100%;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+#snomet .roni-station-table__row {
+    display: grid;
+    grid-template-columns: 180px 1fr 1fr;
+    column-gap: 40px;
+    padding: 22px;
+    border-bottom: 1px solid #a7a7a7;
+}
+
+#snomet .roni-station-table__row:last-child {
+    border-bottom: 0;
+}
+
+#snomet .roni-station-table__head {
+    background: #f3f5f7;
+    border-bottom-color: transparent;
+}
+
+#snomet .roni-station-table__cell {
+    min-width: 0;
+    color: #000;
+    font-size: 22px;
+    line-height: 1.4;
+    letter-spacing: 0;
+    word-break: keep-all;
+}
+
+#snomet .roni-station-table__head .roni-station-table__cell,
+#snomet .roni-station-table__label {
+    font-weight: 700;
+}
+
+#snomet .roni-station-table__head .roni-station-table__label {
+    opacity: 0;
+}
+
+#snomet .roni-station-mobile {
+    display: none;
+}
+
 #snomet .notice-toggle {
     display: inline-flex;
     align-items: center;
@@ -971,6 +1022,149 @@
 
     #snomet video.tip-img {
         object-fit: cover;
+    }
+
+    #snomet .roni-station-tip {
+        width: 100%;
+    }
+
+    #snomet .roni-station-table--pc {
+        display: none;
+    }
+
+    #snomet .roni-station-mobile {
+        display: grid;
+        grid-template-columns: 79px minmax(0, 1fr);
+        row-gap: 10px;
+        width: 100%;
+        margin-top: 13px;
+    }
+
+    #snomet .roni-station-mobile__labels,
+    #snomet .roni-station-mobile__card {
+        overflow: hidden;
+        border-top: 0.5px solid #000;
+        border-bottom: 0.5px solid #000;
+        background-color: #fff;
+    }
+
+    #snomet .roni-station-mobile__labels {
+        position: relative;
+        z-index: 1;
+    }
+
+    #snomet .roni-station-mobile__scroll {
+        min-width: 0;
+        overflow: hidden;
+    }
+
+    #snomet .roni-station-mobile__track {
+        display: flex;
+        gap: 10px;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+    }
+
+    #snomet .roni-station-mobile__track::-webkit-scrollbar {
+        display: none;
+    }
+
+    #snomet .roni-station-mobile__track::after {
+        content: "";
+        display: block;
+        flex: 0 0 100%;
+    }
+
+    #snomet .roni-station-mobile__card {
+        flex: 0 0 236px;
+        scroll-snap-align: start;
+    }
+
+    #snomet .roni-station-mobile__head,
+    #snomet .roni-station-mobile__row {
+        display: flex;
+        align-items: center;
+        padding: 9px 11px;
+        box-sizing: border-box;
+        color: #000;
+        font-size: 14px;
+        line-height: 1.6;
+        letter-spacing: -0.005em;
+        word-break: keep-all;
+    }
+
+    #snomet .roni-station-mobile__head {
+        height: 38px;
+        background-color: #f3f5f7;
+        font-weight: 700;
+        line-height: 1.4;
+    }
+
+    #snomet .roni-station-mobile__row {
+        border-top: 0.5px solid #a7a7a7;
+    }
+
+    #snomet .roni-station-mobile__labels .roni-station-mobile__row {
+        font-weight: 700;
+        line-height: 1.4;
+    }
+
+    #snomet .roni-station-mobile__head strong,
+    #snomet .roni-station-mobile__row strong {
+        font-weight: 700;
+        line-height: 1.4;
+    }
+
+    #snomet .roni-station-mobile__row:nth-child(2) {
+        height: 41px;
+    }
+
+    #snomet .roni-station-mobile__row:nth-child(3) {
+        height: 62px;
+    }
+
+    #snomet .roni-station-mobile__row:nth-child(4) {
+        height: 58px;
+    }
+
+    #snomet .roni-station-mobile__row:nth-child(5) {
+        height: 62px;
+    }
+
+    #snomet .roni-station-mobile__row:nth-child(6) {
+        height: 67px;
+    }
+
+    #snomet .roni-station-mobile__dots {
+        display: flex;
+        grid-column: 1 / -1;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        width: 100%;
+        height: 30px;
+        background-color: #fff;
+    }
+
+    #snomet .roni-station-mobile__dots button {
+        width: 8px;
+        min-width: 0;
+        height: 8px;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        border-radius: 999px;
+        background-color: #8f8f8f;
+        cursor: pointer;
+        transition: width 0.3s, background-color 0.3s;
+    }
+
+    #snomet .roni-station-mobile__dots button[aria-current="true"] {
+        width: 24px;
+        background-color: #000;
     }
 
     #snomet .notice-toggle {
