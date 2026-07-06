@@ -1,4 +1,30 @@
-<link rel="stylesheet" href="/kr/story/css/animate.min.css" />
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link href="https://www.lge.co.kr/lg5-common/css/components/KRP0016.min.css?v=20210930" type="text/css"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="https://www.lge.co.kr/lg5-common/./images/favicon.ico" />
+    <link rel="stylesheet" href="https://www.lge.co.kr/lg5-common/css/reset.min.css" />
+    <link rel="stylesheet" href="https://www.lge.co.kr/lg5-common/css/app.min.css" />
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script src="//code.jquery.com/ui/jquery-ui-git.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-viewport-checker/1.8.8/jquery.viewportchecker.min.js">
+    </script>
+    <script src="https://www.lge.co.kr/kr/story/hands-on-reviews/js/life-style-gram-view/swiper.min.js"></script>
+    <c:import url="/WEB-INF/jsp/common/includes/googleHeaderScript.jsp" charEncoding="utf-8" />
+    <c:import url="/WEB-INF/jsp/common/includes/jsDefault.jsp" charEncoding="utf-8" />
+    <script type="text/javascript" src="https://www.lge.co.kr/kr/story/js/kiosk-check.js"></script>
+    <!-- kiosk 관련 gnb, link 처리 -->
+</head>
+
+<body>
+    <link rel="stylesheet" href="/kr/story/css/animate.min.css" />
 <link rel="stylesheet" href="/kr/story/user-guide/css/install-guide-common.css" />
 <link rel="stylesheet" href="/kr/story/user-guide/css/robot-vacuum-cleaners-install-guide.css" />
 <div class="wrap subRenewWrap newRobotCleaner"> <!-- 내용 -->
@@ -23,12 +49,12 @@
             </div> <!-- 250710 수정 -->
             <p class="main__disclaimer"> * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다. </p> <!-- // 250710 수정 -->
             <!-- // 250715 수정 -->
-            <p class="main-page-desc txt-cont"> LG 코드제로 AI 로보킹 올인원과 홈봇 RONi <br>
+            <p class="main-page-desc txt-cont"> LG 코드제로 AI 로보킹 올인원과 홈봇 RONi(로니) <br>
                 자동급배수 설치 전, 설치 환경을 확인해주세요
             </p>
         </section> <!-- Tab -->
         <div class="guide-tab__button" role="tablist"> <button type="button" data-content="roni" id="roni-tab"
-                role="tab" aria-selected="true" aria-controls="roni-cont">RONi</button> <button type="button"
+                role="tab" aria-selected="true" aria-controls="roni-cont">RONi(로니)</button> <button type="button"
                 data-content="roboking" id="roboking-tab" role="tab" aria-selected="false"
                 aria-controls="roboking-cont">로보킹 AI 올인원</button> </div> <!-- 로니 -->
         <div class="guide-tab__cont guide-tab__cont--roni" id="roni-cont" role="tabpanel" aria-labelledby="roni-tab">
@@ -38,7 +64,7 @@
                     <div class="content-title-wrap txt-cont"> <span class="content-num"> <span class="blind">순서</span> 1
                         </span>
                         <h3 class="content-title">
-                            RONi 자동 급배수 설치 전, 아래와 같은 설치 환경 조성이 권장되며, <br class="pc-only">
+                            RONi(로니) 자동 급배수 설치 전, 아래와 같은 설치 환경 조성이 권장되며, <br class="pc-only">
                             LG 전문 설치 기사의 사전 답사가 필수 진행됩니다.
                         </h3>
                     </div>
@@ -86,9 +112,30 @@
                                     src="/kr/story/user-guide/images/robot-vacuum-cleaners-install-guide/img/img_content_1.png"
                                     alt="배수캡이 강조된 배관 연결도." /> <img
                                     src="/kr/story/user-guide/images/robot-vacuum-cleaners-install-guide/img/img_content_2.png"
-                                    alt="Y 커넥터가 강조된 배관 연결도." /> </div> <!-- 251024 추가 --> <span class="content-notice">·
-                                배수 Y 커넥터 + 배수 Y 커넥터 조합 설치 불가</span> <span class="content-notice">· 싱크대 하부 배수 Y 커넥터가 이미
-                                설치되어 있는 경우 설치 불가</span>
+                                    alt="Y 커넥터가 강조된 배관 연결도." /> </div> <!-- 251024 추가 --> 
+                                     <table class="content-table"
+                                aria-label="청소 로봇 배수캡 설치 가능 여부 표. 이 표는 기존 설치 여부와 Y자 커넥터 유무에 따라 배수캡을 설치할 수 있는지를 나타냅니다.">
+                                <!-- 1행: '기존 설치'(좌측 2열 x 2행 병합) / 'Y자 커넥터'(우측 2열 병합) -->
+                                <tr>
+                                    <th colspan="2" rowspan="2" class="c1 has-border">기존 설치</th>
+                                    <th colspan="2" class="c3 c4 has-border">Y자 커넥터</th>
+                                </tr> <!-- 2행: 좌측 두 칸은 위와 병합됨, 우측은 있음 / 없음 -->
+                                <tr>
+                                    <th class="c3 has-border">있음</th>
+                                    <th class="c4 has-border">없음</th>
+                                </tr> <!-- 3행: 배수캡(2행 병합) + 있음 + 내용 -->
+                                <tr>
+                                    <th rowspan="2" class="c1">배수캡</th>
+                                    <th class="c2 has-border">있음</th>
+                                    <td class="c3 has-border">설치 가능</td>
+                                    <td class="c4 has-border">설치 가능</td>
+                                </tr> <!-- 4행: (배수캡 병합 유지) + 없음 + 내용 -->
+                                <tr>
+                                    <th class="c2">없음</th>
+                                    <td class="c3 highlight">설치 불가</td>
+                                    <td class="c4">설치 가능</td>
+                                </tr>
+                            </table> 
                             <!-- <span class="content-notice">· 배수 Y 커넥터 + 배수 Y 커넥터 조합 설치 불가</span> <span class="content-notice"> · 싱크대 하부 배수 Y 커넥터가 이미 설치되어 있는 경우 <br class="mo-only" /> 설치 불가 </span> -->
                         </li>
                         <li class="content-list">
@@ -152,7 +199,7 @@
                 <div class="section-container">
                     <div class="content-title-wrap txt-cont"> <span class="content-num"> <span class="blind">순서</span> 3
                         </span>
-                        <h3 class="content-title"> RONi 히든 스테이션 설치 공간을 <br>
+                        <h3 class="content-title"> RONi(로니) 히든 스테이션 설치 공간을 <br>
                             공간을 확인해 주세요
                         </h3>
                     </div>
@@ -374,7 +421,7 @@
                                                     <div class="data">
                                                         <div class="data__row">
                                                             <div class="data__col first">시공 주체</div>
-                                                            <div class="data__col">LG 전문 설치기사 (판토스)</div>
+                                                            <div class="data__col">LG 전문 설치기사 <br class="mo-only"> (판토스)</div>
                                                             <div class="data__col"> 판토스 외에 고객이 원하실 경우 별도 업체로 가구시공 진행 후,
                                                                 제품 설치만
                                                                 별도 가능합니다. </div>
@@ -427,7 +474,7 @@
                             <div class="product-link__image"> <img
                                     src="/kr/story/user-guide/images/robot-vacuum-cleaners-install-guide/img/img_content_product_02.png"
                                     alt="" /> </div>
-                            <div class="product-link__info"> <strong> LG HOM-BOT AI<br /> 오브제컬렉션 로니 </strong> </div>
+                            <div class="product-link__info"> <strong> LG HOM-BOT AI<br /> 오브제컬렉션 RONi(로니) </strong> </div>
                             <span class="product-link__button">제품 보러 가기</span>
                         </a> </div>
                     <div class="product-link__wrap mo-only">
@@ -498,19 +545,19 @@
                                 <tr>
                                     <th colspan="2" rowspan="2" class="c1 has-border">기존 설치</th>
                                     <th colspan="2" class="c3 c4 has-border">Y자 커넥터</th>
-                                </tr> <!-- 2행: 좌측 두 칸은 위와 병합됨, 우측은 O / X -->
+                                </tr> <!-- 2행: 좌측 두 칸은 위와 병합됨, 우측은 있음 / 없음 -->
                                 <tr>
-                                    <th class="c3 has-border">O</th>
-                                    <th class="c4 has-border">X</th>
-                                </tr> <!-- 3행: 배수캡(2행 병합) + O + 내용 -->
+                                    <th class="c3 has-border">있음</th>
+                                    <th class="c4 has-border">없음</th>
+                                    </tr> <!-- 3행: 배수캡(2행 병합) + 있음 + 내용 -->
                                 <tr>
                                     <th rowspan="2" class="c1">배수캡</th>
-                                    <th class="c2 has-border">O</th>
+                                    <th class="c2 has-border">있음</th>
                                     <td class="c3 has-border">설치 가능</td>
                                     <td class="c4 has-border">설치 가능</td>
-                                </tr> <!-- 4행: (배수캡 병합 유지) + X + 내용 -->
+                                </tr> <!-- 4행: (배수캡 병합 유지) + 없음 + 내용 -->
                                 <tr>
-                                    <th class="c2">X</th>
+                                    <th class="c2">없음</th>
                                     <td class="c3 highlight">설치 불가</td>
                                     <td class="c4">설치 가능</td>
                                 </tr>
@@ -792,7 +839,7 @@
                                             <div class="data">
                                                 <div class="data__row">
                                                     <div class="data__col first">시공 주체</div>
-                                                    <div class="data__col">LG 전문 설치기사 (판토스)</div>
+                                                    <div class="data__col">LG 전문 설치기사 <br class="mo-only">(판토스)</div>
                                                     <div class="data__col"> 판토스 외에 고객이 원하실 경우<br class="mo-only" /> 별도
                                                         업체로 가구시공 진행 후,<br class="mo-only" /> 제품 설치만 별도 가능합니다. </div>
                                                 </div>
@@ -845,3 +892,6 @@
     </div>
 </div>
 <script> function tapAction() { const $tabButton = $(".guide-tab__button button"); const $tabCont = $(".guide-tab__cont"); $tabButton.eq(0).addClass("active"); $tabCont.eq(0).addClass("active"); $tabButton.on("click", function () { $tabButton.removeClass("active").attr("aria-selected", false); $tabCont.removeClass("active"); $(this).addClass("active").attr("aria-selected", true); $(`.guide-tab__cont--` + $(this).data("content"),).addClass("active"); }); } tapAction();</script>
+</body>
+
+</html>
