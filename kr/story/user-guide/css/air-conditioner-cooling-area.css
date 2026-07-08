@@ -397,6 +397,10 @@
 	border-bottom: 1px solid #a7a7a7;
 }
 
+#gjw008 .tip-panel--area {
+	border-bottom: 0;
+}
+
 #gjw008 .tip-label {
 	display: flex;
 	align-items: center;
@@ -422,6 +426,7 @@
 	flex-direction: column;
 	gap: 28px;
 	padding-right: 0;
+	padding-bottom: 0;
 }
 
 #gjw008 .tip-copy {
@@ -807,6 +812,10 @@
 		grid-template-columns: 70px 120px 80px;
 	}
 
+	#gjw008 .bedroom-area-table tr {
+		grid-template-columns: 86px 120px 78px;
+	}
+
 	#gjw008 .living-area-table thead tr,
 	#gjw008 .bedroom-area-table thead tr {
 		padding: 9px 11px;
@@ -908,6 +917,7 @@
 
 	#gjw008 .tip-content--area {
 		gap: 18px;
+		padding-bottom: 0;
 	}
 
 	#gjw008 .tip-copy {

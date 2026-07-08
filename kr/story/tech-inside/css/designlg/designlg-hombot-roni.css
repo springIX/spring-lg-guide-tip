@@ -29,6 +29,18 @@
   color: #fff;
 }
 
+#designlg .roni-nowrap {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-decoration: inherit;
+  white-space: nowrap;
+}
+
 #designlg button:focus:not(:focus-visible) {
   outline: none;
 }
@@ -208,7 +220,7 @@
   overflow: hidden;
 }
 
-#designlg section .inwrap .heading .eyebrow span {
+#designlg section .inwrap .heading .eyebrow span:not(.roni-nowrap) {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.58;
@@ -219,7 +231,7 @@
   transition: transform 0.5s ease-in-out;
 }
 
-#designlg section.on .inwrap .heading .eyebrow span {
+#designlg section.on .inwrap .heading .eyebrow span:not(.roni-nowrap) {
   transform: translateY(0);
 }
 
@@ -625,7 +637,7 @@
   height: 100%;
 }
 
-#designlg nav ul li a span {
+#designlg nav ul li a span:not(.roni-nowrap) {
   color: #959595;
   font-weight: 400;
   font-size: 16px;
@@ -634,13 +646,13 @@
 }
 
 #designlg nav ul li a:hover,
-#designlg nav ul li a:hover span {
+#designlg nav ul li a:hover span:not(.roni-nowrap) {
   font-weight: 700;
   color: #fff;
 }
 
 #designlg nav ul li.active a,
-#designlg nav ul li.active a span {
+#designlg nav ul li.active a span:not(.roni-nowrap) {
   background-color: #10113a;
   font-weight: 700;
   color: #fff;
@@ -1500,7 +1512,7 @@
   padding-bottom: 8px;
 }
 
-#designlg #INTERVIEW .inwrap .people-list .tag-wrap button span {
+#designlg #INTERVIEW .inwrap .people-list .tag-wrap button span:not(.roni-nowrap) {
   display: inline-block;
 }
 
@@ -1619,7 +1631,7 @@
   align-items: flex-start;
 }
 
-#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dt span {
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dt span:not(.roni-nowrap) {
   font-size: 18px;
   font-weight: 600;
   line-height: 1.58;
@@ -1627,11 +1639,11 @@
   color: #444444;
 }
 
-#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dt span:first-child {
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dt span:not(.roni-nowrap):first-child {
   flex: 0 0 auto;
 }
 
-#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dt span:last-child {
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dt span:not(.roni-nowrap):last-child {
   flex: 1 1 auto;
 }
 
@@ -1688,8 +1700,7 @@
 }
 
 #designlg #INTERVIEW .inwrap .qna-wrap .qna-list dd .qna-img li .caption {
-  display: inline-flex;
-  justify-content: flex-end;
+  display: block;
   color: #2e2c27;
   font-size: 18px;
   line-height: 1.8;
@@ -1798,7 +1809,7 @@
   margin-bottom: 50px;
 }
 
-#designlg #INSPIRATION .inwrap .heading .eyebrow span {
+#designlg #INSPIRATION .inwrap .heading .eyebrow span:not(.roni-nowrap) {
   color: #646669;
 }
 
@@ -2606,7 +2617,7 @@
     margin-bottom: 14px;
   }
 
-#designlg section .inwrap .heading .eyebrow span {
+#designlg section .inwrap .heading .eyebrow span:not(.roni-nowrap) {
     font-size: 12px;
   }
 
@@ -2682,7 +2693,7 @@
   #designlg section .inwrap .heading .eyebrow {
     margin-bottom: 19px;
   }
-  #designlg section .inwrap .heading .eyebrow span {
+  #designlg section .inwrap .heading .eyebrow span:not(.roni-nowrap) {
     font-size: 12px;
     line-height: 1.8;
     letter-spacing: -0.24px;
@@ -2991,7 +3002,7 @@
   }
 
 #designlg nav ul li a:hover,
-  #designlg nav ul li a:hover span {
+  #designlg nav ul li a:hover span:not(.roni-nowrap) {
     color: #959595;
     font-weight: 400;
   }
@@ -3361,7 +3372,7 @@
     gap: 8px;
   }
 
-#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dt span {
+#designlg #INTERVIEW .inwrap .qna-wrap .qna-list dt span:not(.roni-nowrap) {
     font-size: 14px;
   }
 
@@ -3615,7 +3626,7 @@
   #designlg #INTERVIEW .inwrap .qna-wrap .qna-list dt h4 {
     gap: 8px;
   }
-  #designlg #INTERVIEW .inwrap .qna-wrap .qna-list dt span {
+  #designlg #INTERVIEW .inwrap .qna-wrap .qna-list dt span:not(.roni-nowrap) {
     font-size: 14px;
     line-height: 1.44;
     letter-spacing: -0.28px;

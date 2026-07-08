@@ -6,7 +6,7 @@
     --line: #e7e7e7;
     --ls-title-pc: -0.02em;
     --ls-body: -0.005em;
-    --ls-disclaimer: -0.007em;
+    --ls-disclaimer: -0.005em;
     font-family: "Pretendard", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
     background: #ffffff;
     color: var(--ink);
@@ -126,7 +126,7 @@
 }
 
 #snomet .num-list-red .txt-box > p + p {
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
 #snomet .lg-red {
@@ -357,12 +357,48 @@
     object-position: center;
 }
 
+#snomet .feature-media {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background: #f4f4f4;
+    line-height: 0;
+}
+
+#snomet .feature-media--allinone-dim {
+    aspect-ratio: 1096 / 504;
+}
+
+#snomet .feature-media > video.feature-img {
+    position: absolute;
+    max-width: none;
+    aspect-ratio: auto;
+}
+
+#snomet .feature-media--allinone-dim > video.feature-img {
+    top: -40.78%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: initial;
+    object-position: center;
+}
+
+#snomet .feature-media--allinone-dim::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(90deg, #fbfbfb 0%, rgba(251, 251, 251, 0) 48%);
+    mix-blend-mode: multiply;
+}
+
 #snomet video.feature-img {
     width: 100%;
     aspect-ratio: 1096 / 504;
     height: auto;
     object-fit: cover;
-        object-position: center -85px;
+    object-position: center -85px;
 }
 
 #snomet video.feature-img.roni-video {
@@ -486,6 +522,7 @@
     column-gap: 40px;
     padding: 22px;
     border-bottom: 1px solid #a7a7a7;
+    align-items: center;
 }
 
 #snomet .roni-station-table__row:last-child {
@@ -495,6 +532,26 @@
 #snomet .roni-station-table__head {
     background: #f3f5f7;
     border-bottom-color: transparent;
+}
+
+#snomet .roni-station-table__image-row {
+    align-items: flex-start;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+#snomet .roni-station-table__image-cell {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 160px;
+}
+
+#snomet .roni-station-table__image-cell img {
+    display: block;
+    width: auto;
+    max-width: 310px;
+    max-height: 160px;
 }
 
 #snomet .roni-station-table__cell {
@@ -604,6 +661,10 @@
 
 #snomet .notice-list .notice-heading {
     padding-left: 0;
+}
+
+#snomet .notice-list li:not(.notice-heading) + .notice-heading {
+    margin-top: 8px;
 }
 
 #snomet .notice-list .notice-heading::before {
@@ -952,6 +1013,21 @@
         object-position: calc(50% - 8.5px) calc(50% - 30px);
     }
 
+    #snomet .feature-media--allinone-dim {
+        aspect-ratio: 350 / 204;
+    }
+
+    #snomet .feature-media > video.feature-img {
+        aspect-ratio: auto;
+    }
+
+    #snomet .feature-media--allinone-dim > video.feature-img {
+        top: -14.95%;
+        left: 50%;
+        width: 104.9%;
+        transform: translateX(-50%);
+    }
+
     #snomet video.feature-img.roni-video {
         object-position: center;
     }
@@ -1079,7 +1155,7 @@
     }
 
     #snomet .roni-station-mobile__card {
-        flex: 0 0 236px;
+        flex: 0 0 216px;
         scroll-snap-align: start;
     }
 
@@ -1119,23 +1195,39 @@
     }
 
     #snomet .roni-station-mobile__row:nth-child(2) {
-        height: 41px;
+        height: 114px;
     }
 
     #snomet .roni-station-mobile__row:nth-child(3) {
-        height: 62px;
+        height: 41px;
     }
 
     #snomet .roni-station-mobile__row:nth-child(4) {
-        height: 58px;
-    }
-
-    #snomet .roni-station-mobile__row:nth-child(5) {
         height: 62px;
     }
 
+    #snomet .roni-station-mobile__row:nth-child(5) {
+        height: 58px;
+    }
+
     #snomet .roni-station-mobile__row:nth-child(6) {
+        height: 62px;
+    }
+
+    #snomet .roni-station-mobile__row:nth-child(7) {
         height: 67px;
+    }
+
+    #snomet .roni-station-mobile__image-row {
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    #snomet .roni-station-mobile__image-row img {
+        display: block;
+        width: auto;
+        max-width: 96px;
+        max-height: 96px;
     }
 
     #snomet .roni-station-mobile__dots {

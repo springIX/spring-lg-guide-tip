@@ -689,6 +689,9 @@
 .machine-faq__content p + .img-explain-content {
   margin-top: 24px;
 }
+.machine-faq__content .machine-faq__answer-img {
+  margin-top: 24px;
+}
 
 .machine-faq__inner-content--robot .machine-faq__note-heading,
 .machine-faq__inner-content--product .machine-faq__note-heading {
@@ -747,6 +750,9 @@
   .machine-faq__content::before {
     left: 20px;
     width: calc(100% - 40px);
+  }
+  .machine-faq__content .machine-faq__answer-img {
+    margin-top: 16px;
   }
 }
 .machine-faq__more-content {
