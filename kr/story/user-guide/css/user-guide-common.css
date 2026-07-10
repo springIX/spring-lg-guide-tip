@@ -554,6 +554,16 @@
     max-height: 160px;
 }
 
+#snomet .roni-station-table__image--hidden {
+    max-width: 245px;
+    max-height: 172px;
+}
+
+#snomet .roni-station-table__image--objet {
+    max-width: 170px;
+    max-height: 170px;
+}
+
 #snomet .roni-station-table__cell {
     min-width: 0;
     color: #000;
@@ -1159,6 +1169,10 @@
         scroll-snap-align: start;
     }
 
+    #snomet .roni-station-mobile__card:nth-child(2) {
+        flex-basis: 236px;
+    }
+
     #snomet .roni-station-mobile__head,
     #snomet .roni-station-mobile__row {
         display: flex;
@@ -1195,7 +1209,7 @@
     }
 
     #snomet .roni-station-mobile__row:nth-child(2) {
-        height: 114px;
+        height: 138px;
     }
 
     #snomet .roni-station-mobile__row:nth-child(3) {
@@ -1219,15 +1233,25 @@
     }
 
     #snomet .roni-station-mobile__image-row {
-        align-items: center;
+        align-items: flex-start;
         justify-content: flex-start;
+        overflow: hidden;
     }
 
     #snomet .roni-station-mobile__image-row img {
         display: block;
-        width: auto;
-        max-width: 96px;
-        max-height: 96px;
+        object-fit: contain;
+    }
+
+    #snomet .roni-station-mobile__image--hidden {
+        width: 140px;
+        height: 140px;
+        transform: translateY(-10px);
+    }
+
+    #snomet .roni-station-mobile__image--objet {
+        width: 120px;
+        height: 120px;
     }
 
     #snomet .roni-station-mobile__dots {

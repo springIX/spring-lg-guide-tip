@@ -1842,8 +1842,8 @@
 }
 
 #designlg #INSPIRATION .img-list li {
-  width: 19.2708vw;
-  height: 19.2708vw;
+  width: min(15.6771vw, var(--side-size));
+  height: min(15.6771vw, var(--side-size));
   flex-shrink: 0;
   position: relative;
   opacity: 0.2;
@@ -1857,11 +1857,9 @@
 }
 
 #designlg #INSPIRATION .img-list li.active-box {
-  width: 48.4375vw;
-  height: 100%;
+  width: min(48.4375vw, var(--active-size));
+  height: min(48.4375vw, var(--active-size));
   opacity: 1;
-      max-width: 930px;
-    max-height: 930px;
 }
 
 #designlg #INSPIRATION .img-list li p {

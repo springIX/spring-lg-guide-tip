@@ -88,7 +88,7 @@
       var sideWidth = sideSlide.getBoundingClientRect().width;
       var listStyle = window.getComputedStyle(inspirationImageListWrap);
       var gapValue = parseFloat(listStyle.columnGap || listStyle.gap || "0") || 0;
-      var visibleWidth = activeWidth + sideWidth * 3 + gapValue * 4;
+      var visibleWidth = activeWidth + sideWidth * 4 + gapValue * 4;
 
       inspirationGalleryWrap.style.width = visibleWidth + "px";
       inspirationGalleryWrap.style.maxWidth = "100%";
