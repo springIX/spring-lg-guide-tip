@@ -21,162 +21,181 @@
     <!-- schema -->
     <script type="application/ld+json">
         [
-            {
-                "@context": "https://schema.org",
-                "@type": "Article",
-                "@id": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation#article",
-                "headline": "알고 보면 쉬운 에어컨 배관 구별법",
-                "description": "에어컨 설치 시 일반배관과 매립배관의 구별 방법을 알려드려요.",
-                "url": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation",
-                "image": "https://www.lge.co.kr/kr/story/user-guide/img/air-conditioner-piping-installation/hero_pc.jpg",
-                "author": {
-                    "@type": "Organization",
-                    "name": "LG전자",
-                    "alternateName": "LG Electronics",
-                    "url": "https://www.lge.co.kr/"
+                {
+                        "@context": "https://schema.org",
+                        "@type": "Article",
+                        "@id": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation#article",
+                        "headline": "알고 보면 쉬운 에어컨 배관 구별법",
+                        "description": "에어컨 설치 시 일반배관과 매립배관의 구별 방법을 알려드려요.",
+                        "url": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation",
+                        "image": [
+                                {
+                                        "@type": "ImageObject",
+                                        "url": "https://www.lge.co.kr/kr/story/user-guide/img/air-conditioner-piping-installation/hero_pc.jpg",
+                                        "caption": "LG 에어컨이 설치된 실내 공간 연출 이미지",
+                                        "description": "LG 에어컨이 설치된 실내 공간 연출 이미지"
+                                },
+                                {
+                                        "@type": "ImageObject",
+                                        "url": "https://www.lge.co.kr/kr/story/user-guide/img/air-conditioner-piping-installation/pipe_view_pc.jpg",
+                                        "caption": "매립배관과 일반배관의 설치 방식 차이를 보여주는 비교 이미지",
+                                        "description": "매립배관과 일반배관의 설치 방식 차이를 보여주는 비교 이미지"
+                                },
+                                {
+                                        "@type": "ImageObject",
+                                        "url": "https://www.lge.co.kr/kr/story/user-guide/img/air-conditioner-piping-installation/pipe_check_pc.jpg",
+                                        "caption": "벽면 배관 연결구와 LG 에어컨 배관 환경을 확인하는 예시 이미지",
+                                        "description": "벽면 배관 연결구와 LG 에어컨 배관 환경을 확인하는 예시 이미지"
+                                }
+                        ],
+                        "author": {
+                                "@type": "Organization",
+                                "name": "LG전자",
+                                "alternateName": "LG Electronics",
+                                "url": "https://www.lge.co.kr/"
+                        },
+                        "publisher": {
+                                "@type": "Organization",
+                                "name": "LG전자",
+                                "alternateName": "LG Electronics",
+                                "url": "https://www.lge.co.kr/",
+                                "logo": {
+                                        "@type": "ImageObject",
+                                        "url": "https://www.lge.co.kr/kr/images/nextjs/lg_logo_213x56.png",
+                                        "width": 213,
+                                        "height": 56
+                                }
+                        },
+                        "mainEntityOfPage": {
+                                "@type": "WebPage",
+                                "@id": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation"
+                        },
+                        "articleSection": "사용가이드",
+                        "keywords": [
+                                "LG전자",
+                                "에어컨",
+                                "에어컨 배관",
+                                "매립배관",
+                                "일반배관",
+                                "에어컨 설치",
+                                "에어컨 배관 구별법",
+                                "에어컨 설치가이드",
+                                "사전 답사"
+                        ],
+                        "about": [
+                                {
+                                        "@type": "Product",
+                                        "name": "LG 에어컨",
+                                        "category": "에어컨",
+                                        "brand": {
+                                                "@type": "Brand",
+                                                "name": "LG전자"
+                                        }
+                                }
+                        ],
+                        "mainEntity": [
+                                {
+                                        "@id": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation#howto"
+                                },
+                                {
+                                        "@id": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation#defined-terms"
+                                }
+                        ]
                 },
-                "publisher": {
-                    "@type": "Organization",
-                    "name": "LG전자",
-                    "alternateName": "LG Electronics",
-                    "url": "https://www.lge.co.kr/",
-                    "logo": {
-                        "@type": "ImageObject",
-                        "url": "https://www.lge.co.kr/kr/images/nextjs/lg_logo_213x56.png",
-                        "width": 213,
-                        "height": 56
-                    }
+                {
+                        "@context": "https://schema.org",
+                        "@type": "HowTo",
+                        "@id": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation#howto",
+                        "name": "에어컨 일반배관과 매립배관 구별 방법",
+                        "description": "벽면 배관 노출 여부, 제품 모델명 끝자리, 우리 집 배관 환경, 기존 배관 상태를 확인해 에어컨 배관 형태와 설치 가능 여부를 점검하는 방법입니다.",
+                        "step": [
+                                {
+                                        "@type": "HowToStep",
+                                        "position": 1,
+                                        "name": "매립배관과 일반배관 차이 확인하기",
+                                        "text": "벽면 내부에 배관이나 연결구가 보이면 매립배관, 벽면 밖으로 배관이 노출되어 보이면 일반배관으로 구분할 수 있습니다. 매립배관은 건물 신축 또는 인테리어 시 벽이나 천장 내부에 미리 시공되어 배관이 보이지 않고, 일반배관은 에어컨 설치 시 벽 내·외부로 새로 시공되어 상태 확인과 유지보수가 비교적 쉽습니다."
+                                },
+                                {
+                                        "@type": "HowToStep",
+                                        "position": 2,
+                                        "name": "모델명과 집 배관 환경 확인하기",
+                                        "text": "일반배관 제품은 모델명 마지막이 숫자로 끝나고, 매립배관 제품은 제품명에 매립배관이 표시되며 모델명 마지막이 M으로 끝납니다. 신축 아파트의 거실이나 안방 벽면에 배관 연결구가 박스 형태로 매립되어 있다면 매립배관 환경일 수 있고, 구옥 또는 빌라에서 벽면 밖으로 배관이 노출되어 보이면 일반배관 환경일 수 있습니다."
+                                },
+                                {
+                                        "@type": "HowToStep",
+                                        "position": 3,
+                                        "name": "스탠드와 조합내기 벽걸이 배관 기준 확인하기",
+                                        "text": "벽걸이만 단독으로 설치하는 경우에는 모두 일반배관으로 제공됩니다. 스탠드 에어컨과 조합내기 벽걸이 에어컨의 배관 설치 환경이 다르다면 스탠드 제품 기준으로 선택하고, 배관 설치 환경이 다른 경우 자재 설치비가 발생할 수 있습니다."
+                                },
+                                {
+                                        "@type": "HowToStep",
+                                        "position": 4,
+                                        "name": "기존 배관 사용 전 현장 점검하기",
+                                        "text": "이미 배관이 설치되어 있어도 새 에어컨과 호환되지 않을 수 있으므로 배관 부식, 찌그러짐, 누설 여부와 배관 길이 및 직경이 새 에어컨 규격과 맞는지 확인해야 합니다. 벽 속 매립배관, 길이가 긴 배관, 여러 번 꺾인 배관처럼 구조가 특이한 경우에는 설치 전 전문 서비스매니저의 점검을 받아보세요."
+                                }
+                        ]
                 },
-                "mainEntityOfPage": {
-                    "@type": "WebPage",
-                    "@id": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation"
+                {
+                        "@context": "https://schema.org",
+                        "@type": "DefinedTermSet",
+                        "@id": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation#defined-terms",
+                        "name": "에어컨 배관 용어",
+                        "url": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation",
+                        "hasDefinedTerm": [
+                                {
+                                        "@type": "DefinedTerm",
+                                        "@id": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation#term-built-in-piping",
+                                        "name": "매립배관",
+                                        "description": "건물 신축 또는 인테리어 시 벽이나 천장 내부에 미리 시공되어 외부에서 배관이 보이지 않는 에어컨 배관 방식입니다.",
+                                        "inDefinedTermSet": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation#defined-terms"
+                                },
+                                {
+                                        "@type": "DefinedTerm",
+                                        "@id": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation#term-exposed-piping",
+                                        "name": "일반배관",
+                                        "description": "에어컨 설치 시 배관을 벽 내·외부로 새로 시공하며, 배관이 벽면이나 몰딩을 통해 겉으로 노출될 수 있는 배관 방식입니다.",
+                                        "inDefinedTermSet": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation#defined-terms"
+                                },
+                                {
+                                        "@type": "DefinedTerm",
+                                        "@id": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation#term-pre-installation-inspection",
+                                        "name": "에어컨 설치 전 사전 답사",
+                                        "description": "기존 배관의 부식, 찌그러짐, 누설 여부와 배관 길이 및 직경을 확인해 새 에어컨과의 호환 여부를 점검하는 서비스입니다.",
+                                        "inDefinedTermSet": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation#defined-terms"
+                                }
+                        ]
                 },
-                "articleSection": "사용가이드",
-                "keywords": [
-                    "LG전자",
-                    "에어컨",
-                    "에어컨 배관",
-                    "매립배관",
-                    "일반배관",
-                    "에어컨 설치",
-                    "에어컨 배관 구별법",
-                    "에어컨 설치가이드",
-                    "사전 답사"
-                ],
-                "about": [
-                    {
-                        "@type": "Product",
-                        "name": "LG 에어컨",
-                        "category": "에어컨",
-                        "brand": {
-                            "@type": "Brand",
-                            "name": "LG전자"
-                        }
-                    }
-                ],
-                "mainEntity": [
-                    {
-                        "@id": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation#howto"
-                    },
-                    {
-                        "@id": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation#defined-terms"
-                    }
-                ]
-            },
-            {
-                "@context": "https://schema.org",
-                "@type": "HowTo",
-                "@id": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation#howto",
-                "name": "에어컨 일반배관과 매립배관 구별 방법",
-                "description": "벽면 배관 노출 여부, 제품 모델명 끝자리, 우리 집 배관 환경, 기존 배관 상태를 확인해 에어컨 배관 형태와 설치 가능 여부를 점검하는 방법입니다.",
-                "step": [
-                    {
-                        "@type": "HowToStep",
-                        "position": 1,
-                        "name": "매립배관과 일반배관 차이 확인하기",
-                        "text": "벽면 내부에 배관이나 연결구가 보이면 매립배관, 벽면 밖으로 배관이 노출되어 보이면 일반배관으로 구분할 수 있습니다. 매립배관은 건물 신축 또는 인테리어 시 벽이나 천장 내부에 미리 시공되어 배관이 보이지 않고, 일반배관은 에어컨 설치 시 벽 내·외부로 새로 시공되어 상태 확인과 유지보수가 비교적 쉽습니다."
-                    },
-                    {
-                        "@type": "HowToStep",
-                        "position": 2,
-                        "name": "모델명과 집 배관 환경 확인하기",
-                        "text": "일반배관 제품은 모델명 마지막이 숫자로 끝나고, 매립배관 제품은 제품명에 매립배관이 표시되며 모델명 마지막이 M으로 끝납니다. 신축 아파트의 거실이나 안방 벽면에 배관 연결구가 박스 형태로 매립되어 있다면 매립배관 환경일 수 있고, 구옥 또는 빌라에서 벽면 밖으로 배관이 노출되어 보이면 일반배관 환경일 수 있습니다."
-                    },
-                    {
-                        "@type": "HowToStep",
-                        "position": 3,
-                        "name": "스탠드와 조합내기 벽걸이 배관 기준 확인하기",
-                        "text": "벽걸이만 단독으로 설치하는 경우에는 모두 일반배관으로 제공됩니다. 스탠드 에어컨과 조합내기 벽걸이 에어컨의 배관 설치 환경이 다르다면 스탠드 제품 기준으로 선택하고, 배관 설치 환경이 다른 경우 자재 설치비가 발생할 수 있습니다."
-                    },
-                    {
-                        "@type": "HowToStep",
-                        "position": 4,
-                        "name": "기존 배관 사용 전 현장 점검하기",
-                        "text": "이미 배관이 설치되어 있어도 새 에어컨과 호환되지 않을 수 있으므로 배관 부식, 찌그러짐, 누설 여부와 배관 길이 및 직경이 새 에어컨 규격과 맞는지 확인해야 합니다. 벽 속 매립배관, 길이가 긴 배관, 여러 번 꺾인 배관처럼 구조가 특이한 경우에는 설치 전 전문 서비스매니저의 점검을 받아보세요."
-                    }
-                ]
-            },
-            {
-                "@context": "https://schema.org",
-                "@type": "DefinedTermSet",
-                "@id": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation#defined-terms",
-                "name": "에어컨 배관 용어",
-                "url": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation",
-                "hasDefinedTerm": [
-                    {
-                        "@type": "DefinedTerm",
-                        "@id": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation#term-built-in-piping",
-                        "name": "매립배관",
-                        "description": "건물 신축 또는 인테리어 시 벽이나 천장 내부에 미리 시공되어 외부에서 배관이 보이지 않는 에어컨 배관 방식입니다.",
-                        "inDefinedTermSet": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation#defined-terms"
-                    },
-                    {
-                        "@type": "DefinedTerm",
-                        "@id": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation#term-exposed-piping",
-                        "name": "일반배관",
-                        "description": "에어컨 설치 시 배관을 벽 내·외부로 새로 시공하며, 배관이 벽면이나 몰딩을 통해 겉으로 노출될 수 있는 배관 방식입니다.",
-                        "inDefinedTermSet": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation#defined-terms"
-                    },
-                    {
-                        "@type": "DefinedTerm",
-                        "@id": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation#term-pre-installation-inspection",
-                        "name": "에어컨 설치 전 사전 답사",
-                        "description": "기존 배관의 부식, 찌그러짐, 누설 여부와 배관 길이 및 직경을 확인해 새 에어컨과의 호환 여부를 점검하는 서비스입니다.",
-                        "inDefinedTermSet": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation#defined-terms"
-                    }
-                ]
-            },
-            {
-                "@context": "https://schema.org",
-                "@type": "BreadcrumbList",
-                "@id": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "홈",
-                        "item": "https://www.lge.co.kr"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "스토리",
-                        "item": "https://www.lge.co.kr/story"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "사용가이드",
-                        "item": "https://www.lge.co.kr/story/user-guide"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 4,
-                        "name": "알고 보면 쉬운 에어컨 배관 구별법",
-                        "item": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation"
-                    }
-                ]
-            }
+                {
+                        "@context": "https://schema.org",
+                        "@type": "BreadcrumbList",
+                        "@id": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation#breadcrumb",
+                        "itemListElement": [
+                                {
+                                        "@type": "ListItem",
+                                        "position": 1,
+                                        "name": "홈",
+                                        "item": "https://www.lge.co.kr"
+                                },
+                                {
+                                        "@type": "ListItem",
+                                        "position": 2,
+                                        "name": "스토리",
+                                        "item": "https://www.lge.co.kr/story"
+                                },
+                                {
+                                        "@type": "ListItem",
+                                        "position": 3,
+                                        "name": "사용가이드",
+                                        "item": "https://www.lge.co.kr/story/user-guide"
+                                },
+                                {
+                                        "@type": "ListItem",
+                                        "position": 4,
+                                        "name": "알고 보면 쉬운 에어컨 배관 구별법",
+                                        "item": "https://www.lge.co.kr/story/user-guide/air-conditioner-piping-installation"
+                                }
+                        ]
+                }
         ]
     </script>
     <!-- schema // -->
@@ -195,7 +214,7 @@
                 <div class="hero-visual">
                     <picture>
                         <source media="(max-width: 768px)" srcset="/kr/story/user-guide/img/air-conditioner-piping-installation/hero_mo.jpg">
-                        <img src="/kr/story/user-guide/img/air-conditioner-piping-installation/hero_pc.jpg" alt="에어컨이 설치된 실내 공간 연출 이미지">
+                        <img src="/kr/story/user-guide/img/air-conditioner-piping-installation/hero_pc.jpg" alt="LG 에어컨이 설치된 실내 공간 연출 이미지">
                     </picture>
                 </div>
             </div>
@@ -352,18 +371,18 @@
                                 <picture>
                                     <source media="(max-width: 768px)"
                                         srcset="/kr/story/user-guide/img/air-conditioner-piping-installation/pipe_check_mo.jpg">
-                                    <img src="/kr/story/user-guide/img/air-conditioner-piping-installation/pipe_check_pc.jpg" alt="벽면 배관 연결구와 에어컨 배관 환경을 확인하는 예시 이미지">
+                                    <img src="/kr/story/user-guide/img/air-conditioner-piping-installation/pipe_check_pc.jpg" alt="벽면 배관 연결구와 LG 에어컨 배관 환경을 확인하는 예시 이미지">
                                 </picture>
                             </div>
                         </li>
                         <li class="tip-item tip-item-with-img">
                             <h3 class="n">TIP</h3>
                             <div class="txt-box">
-                                <h5>스탠드(거실)과 조합내기 벽걸이(방) 에어컨의 배관 설치 환경이 다르다면?
+                                <h5>스탠드(거실)와 조합내기 벽걸이(방) 에어컨의 배관 설치 환경이 다르다면?
                                 </h5>
                                 <h6>
                                     벽걸이만 단독으로 설치하는 경우에는 모두 일반배관으로<br class="mo-only"> 제공됩니다. <br class="pc-only">
-                                    스탠드 에어컨과 벽걸이 에어컨의 배관 설치 환경이 <br class="mo-only">다르다면, 스탠드 제품 기준으로 선택해 주세요.
+                                    스탠드 에어컨과 조합내기 벽걸이 에어컨의 배관 설치 환경이 <br class="mo-only">다르다면, 스탠드 제품 기준으로 선택해 주세요.
                                 </h6>
                                 <ul class="example-list">
                                     <li>
@@ -383,7 +402,7 @@
                         <p>구매 시 꼭 매립배관 혹은 일반배관 여부를 확인 후 주문해 주세요. 배관을 잘못 선택할 경우 설치가 불가합니다. </p>
                     </li>
                     <li>
-                        <p>스탠드(거실), 조합내기 벽걸이(방) 에어컨의 배관 설치 환경이 다른 경우 자재 설치비가 발생할 있습니다.</p>
+                        <p>스탠드(거실), 조합내기 벽걸이(방) 에어컨의 배관 설치 환경이 다른 경우 자재 설치비가 발생할 수 있습니다.</p>
                     </li>
                     <li>
                         <p>벽걸이의 경우 모두 일반배관입니다. 단 스탠드와 함께 설치되는 조합내기 벽걸이의 경우 매립배관일 수 있습니다.</p>
