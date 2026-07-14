@@ -293,7 +293,7 @@ img {
   display: inline-block;
   width: 36px;
   height: 36px;
-  background-image: url("https://wwwstg.lge.co.kr/kr/story/user-guide/images/tv-stand-checklist/ico_checkpoint.svg");
+  background-image: url("/kr/story/user-guide/images/tv-stand-checklist/ico_checkpoint.svg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -574,7 +574,7 @@ img {
   width: 32px;
   height: 32px;
   transform: translateY(-50%);
-  background-image: url("https://wwwstg.lge.co.kr/kr/story/user-guide/images/tv-stand-checklist/ico_arrow_bk.svg");
+  background-image: url("/kr/story/user-guide/images/tv-stand-checklist/ico_arrow_bk.svg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -584,7 +584,7 @@ img {
   margin-top: 24px;
   padding: 65px 140px;
   border-radius: 28px;
-  background-image: url("https://wwwstg.lge.co.kr/kr/story/user-guide/images/tv-stand-checklist/img_banner.png");
+  background-image: url("/kr/story/user-guide/images/tv-stand-checklist/img_banner.png");
   background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -619,7 +619,7 @@ img {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url("https://wwwstg.lge.co.kr/kr/story/user-guide/images/tv-stand-checklist/ico_arrow_right_wt.svg");
+  background-image: url("/kr/story/user-guide/images/tv-stand-checklist/ico_arrow_right_wt.svg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -659,7 +659,7 @@ img {
   .product__banner {
     padding: 40px 36px 58.8888888889vw;
     border-radius: 0;
-    background-image: url("https://wwwstg.lge.co.kr/kr/story/user-guide/images/tv-stand-checklist/img_banner_mo.png");
+    background-image: url("/kr/story/user-guide/images/tv-stand-checklist/img_banner_mo.png");
     background-position: center center;
   }
   .product__banner p {
