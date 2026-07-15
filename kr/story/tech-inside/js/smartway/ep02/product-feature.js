@@ -37,6 +37,8 @@
         let bannerScrollCleanup = null;
         let pointAreaPcCheckObserver = null;
         let ftContentBgObserver = null; // 제품 기능 옵저버 저장
+        let eventsBound = false;
+        let pointInfoEventsBound = false;
 
        
        
@@ -50,12 +52,14 @@
             introScrollEvent();
             ftContentBgEvent();
 
-            if (!isMobile) {
-                pointAreaCheck();
-                pointStackScrollKeyDown();
-            } else {
-                pointSwiper();
+            // 모드 전환 시 남아 있는 바깥/안쪽 Swiper를 먼저 정리한다.
+            pointReset();
+            pointInfoButtonEvent();
+
+            // productPoint 스크롤 인터렉션 제거 - 모바일 스와이퍼만 유지
+            if (isMobile) {
                 pointInSwiper();
+                pointSwiper();
             }
 
             tipSwiper();
@@ -65,9 +69,12 @@
         }
 
         function bindEvents() {
+            if (eventsBound) return;
+
             $(window).on('scroll', handleScroll);
             $(window).on('resize', handleResize);
             window.addEventListener('pageshow', handlePageshow);
+            eventsBound = true;
 
         }
         function handleScroll() {
@@ -297,9 +304,9 @@
             const colors = ftColorMap[sectionClass];
 
 
-            // 모든 섹션의 Disclaimer 요소에 색상 적용
-            const allSections = document.querySelectorAll('#productFeature .content-sec');
-            
+            // 현재 활성(보이는) 섹션의 Disclaimer 요소에만 색상 적용
+            const allSections = [activeSection];
+
             allSections.forEach(section => {
                 // 요소들
                 const desc       = section.querySelectorAll('.sw-disclaimer ul li *');
@@ -388,11 +395,10 @@
                 ftContentBgObserver.observe(section);
             });
         }
-        
+
         // 전역으로 노출하여 다른 파일에서 호출 가능하도록
         window.ftContentBgEvent = ftContentBgEvent;
-      
-     
+
         function tipSwiper() {
             if (!pfTipBoxSlide) return;
 
@@ -586,29 +592,115 @@
                     slide.swiper = null;
                 }
             });
+
+            closePointInfoMessages();
             
+        }
+
+        function pointInfoButtonEvent() {
+            if (!productPoint || pointInfoEventsBound) return;
+
+            productPoint.addEventListener('click', function(event) {
+                const button = event.target.closest('.sw-info-btn');
+                if (!button || !productPoint.contains(button)) return;
+
+                // 사이트 공통 이벤트나 Swiper의 클릭 차단보다 먼저 처리한다.
+                event.preventDefault();
+                event.stopPropagation();
+                event.stopImmediatePropagation();
+
+                const disclaimer = button.closest('.sw-disclaimer');
+                const message = disclaimer && disclaimer.querySelector('.sw-info-msg');
+                if (!message) return;
+
+                const shouldOpen = button.getAttribute('aria-expanded') !== 'true';
+                closePointInfoMessages();
+
+                if (shouldOpen) {
+                    button.classList.add('active');
+                    button.setAttribute('aria-expanded', 'true');
+                    button.textContent = '닫기';
+                    message.hidden = false;
+                    message.classList.add('active');
+                    message.setAttribute('aria-hidden', 'false');
+
+                    const pointBox = button.closest('.point-box');
+                    if (pointBox) pointBox.classList.add('dim');
+                }
+            }, true);
+
+            productPoint.addEventListener('click', function(event) {
+                if (!event.target.closest('.sw-info-msg')) {
+                    closePointInfoMessages();
+                }
+            });
+
+            document.addEventListener('click', function(event) {
+                if (!productPoint.contains(event.target)) {
+                    closePointInfoMessages();
+                }
+            });
+
+            document.addEventListener('keydown', function(event) {
+                if (event.key === 'Escape') {
+                    closePointInfoMessages(true);
+                }
+            });
+
+            pointInfoEventsBound = true;
+        }
+
+        function closePointInfoMessages(restoreFocus) {
+            if (!productPoint) return;
+
+            let activeButton = null;
+            productPoint.querySelectorAll('.sw-info-btn').forEach(button => {
+                if (button.classList.contains('active')) activeButton = button;
+                button.classList.remove('active');
+                button.setAttribute('aria-expanded', 'false');
+                button.textContent = '더보기';
+            });
+
+            productPoint.querySelectorAll('.sw-info-msg').forEach(message => {
+                message.classList.remove('active');
+                message.setAttribute('aria-hidden', 'true');
+                message.hidden = true;
+            });
+
+            productPoint.querySelectorAll('.point-box.dim').forEach(pointBox => {
+                pointBox.classList.remove('dim');
+            });
+
+            if (restoreFocus && activeButton) activeButton.focus();
         }
         // -- mo point swiper event --
         function pointSwiper() {
-            pointReset();
-            if(isMobile && pointSlide){
-                setTimeout(() => {
-                    pointSwipersInstance = new Swiper(pointSlide, {
-                        slidesPerView: 1.145,
-                        centeredSlides: true,
-                        spaceBetween: 12,
-                        allowTouchMove: true,
-                        simulateTouch: true,
-                        on: {
-                            touchStart: function() {
-                                this.el.classList.add('touch');
-                            }
-                        }
-                    });
-                      pointSwipersInstance = pointSwipersInstance;
-                }, 100);
-                
+            //pc,mo 기존 스와이퍼 정리
+            if (pointSwipersInstance) {
+                pointSwipersInstance.destroy(true, true);
+                pointSwipersInstance = null;
             }
+
+            if(!isMobile || !pointSlide) return;
+
+            pointSwipersInstance = new Swiper(pointSlide, {
+                slidesPerView: 'auto',
+                centeredSlides: true,
+                spaceBetween: 12,
+                roundLengths: true,
+                allowTouchMove: true,
+                simulateTouch: true,
+                nested: true,
+                observer: true,
+                observeParents: true,
+                resistanceRatio: 0.6,
+                on: {
+                    touchStart: function() {
+                        this.el.classList.add('touch');
+                        closePointInfoMessages();
+                    }
+                }
+            });
         }
         function pointInSwiper() {
             // 기존 inner Swiper 인스턴스 파괴
@@ -622,26 +714,42 @@
             if(!isMobile) return;
             
             pointInnerSlide.forEach((slide, index) => {
+                const nextButton = slide.querySelector('.swiper-button-next');
+                const prevButton = slide.querySelector('.swiper-button-prev');
+
                 const swiper = new Swiper(slide, {
                     slidesPerView: 1,
                     spaceBetween: 12,
                     allowTouchMove: false,
                     simulateTouch: false,
-                    observer: true,
-                    observeParents: true,
+                    // observeParents 제거: 바깥 스와이퍼 초기화/드래그와의 간섭 방지
                     loop: true,
                     // loopAdditionalSlides: 1,
                     // loopedSlides: 1,
                     navigation: {
-                        nextEl: slide.querySelector('.swiper-button-next'),
-                        prevEl: slide.querySelector('.swiper-button-prev'),
+                        nextEl: nextButton,
+                        prevEl: prevButton,
                     },
                     nested: true,
                 });
+
+                // 화살표 조작이 바깥 point Swiper의 제스처로 해석되지 않게 분리한다.
+                [nextButton, prevButton].forEach(button => {
+                    if (!button) return;
+                    button.addEventListener('pointerdown', stopPointSwiperPropagation);
+                    button.addEventListener('touchstart', stopPointSwiperPropagation, { passive: true });
+                    button.addEventListener('click', stopPointSwiperPropagation);
+                });
+
                 // 인스턴스를 slide.swiper에 저장하여 나중에 destroy 가능하도록
                 slide.swiper = swiper;
             });
         }
+
+        function stopPointSwiperPropagation(event) {
+            event.stopPropagation();
+        }
+        /* productPoint 스크롤 인터렉션(PC 스택 스크롤) 제거 - 주석 처리
         // -- pc point scroll event --
         function pointAreaCheck() {
             if (!productPoint) return;
@@ -735,6 +843,7 @@
                 }
             });
         }
+        */
 
 
 
