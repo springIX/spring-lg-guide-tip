@@ -1,0 +1,389 @@
+/* 타이틀 */
+.main__title {
+  padding: 0 20px;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.main__eyebrow {
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+/* KV */
+.main__visual {
+  max-width: 1380px;
+  margin: 60px auto 0;
+}
+
+.main__visual img, video {
+  width: 100%;
+  border-radius: 28px;
+}
+
+.main__disclaimer {
+  max-width: 1380px;
+  margin: 16px auto 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #666666;
+}
+
+.main__disclaimer + .main__disclaimer {
+  margin-top: 4px;
+}
+
+/* QNA */
+.section-qna {
+  max-width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0 !important;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0 !important;
+}
+
+.section-qna + .section-help {
+  margin-top: 0;
+  padding-top: 125px !important;
+}
+
+.qna-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.643;
+  text-align: center;
+}
+
+.qna-list {
+  max-width: 912px;
+  width: 100%;
+  margin: 35px auto 0;
+}
+
+.qna-list .qna {
+  margin: 0;
+}
+
+.qna-list .qna + .qna {
+  margin-top: 10px;
+}
+
+.qna-list .question {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 16px 100px 16px 42.75px;
+  background: url('https://www.lge.co.kr/kr/story/user-guide/images/objetcollection-refrigerator-install-guide/arrow-down.png') no-repeat 95% 50% / 20px;
+  border: 1px solid #666;
+  background-color: #fff;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.qna-list .question span {
+  margin-left: 0;
+  margin-right: 10px;
+  font-size: 24px;
+  line-height: 1.6;
+}
+
+.qna-list .question p {
+  font-size: 18px;
+  line-height: 1.6;
+  word-break: keep-all;
+}
+
+.qna-list .answer {
+  position: relative;
+  margin-top: -10px;
+  padding: 52px 90px;
+  background: #f9f9f9;
+  border: 1px solid #666;
+  border-radius: 8px;
+  letter-spacing: -0.5px;
+  z-index: 0;
+}
+
+.qna-list .answer p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000 !important;
+  word-break: keep-all;
+}
+
+.qna-list .answer .answer__link {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-decoration: underline;
+}
+
+.qna-list .answer .answer__disclaimer {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #666;
+}
+
+.qna-list .answer .highlight {
+  color: #D92A50;
+}
+
+.qna-list .qna.active .question {
+  border: 2px solid #D92A50;
+  background-image: url('/kr/story/user-guide/images/arrow-up.png');
+}
+
+.qna-list .qna.active .question span {
+  color: #D92A50;
+}
+
+/* Help */
+.section-help {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 150px !important;
+}
+
+.help {
+  margin: 0 auto;
+}
+
+.help-title {
+  display: block;
+  font-size: 18px;
+  line-height: 1.65;
+  text-align: center;
+}
+
+.help-title p {
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.65;
+}
+
+.help-title img {
+  width: 32px;
+  height: 32px;
+  margin-right: 5px;
+}
+
+.help-link {
+  margin-top: 36px;
+  text-align: center;
+}
+
+.help-link a {
+  min-width: 165px;
+  padding: 6px 0;
+  margin: 0 24px;
+  background: #ffffff;
+  border: 2px solid #222222;
+  color: #222222;
+  font-size: 16px;
+  line-height: 26px;
+  border-radius: 26px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+/* 250724 수정 */
+.help-link a:hover {
+  background: #d92a50;
+  color: #ffffff;
+}
+/* // 250724 수정 */
+
+.product-link__wrap {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-link__wrap.pc-only {
+  display: flex !important;
+}
+
+.product-link__wrap.mo-only {
+  display: none !important;
+}
+
+.product-link {
+  display: flex;
+  flex-direction: column;
+  width: 210px;
+  min-height: 270px;
+  border-radius: 20px;
+  background: #ffffff !important;
+  box-shadow: 0px 8px 29px 0px rgba(4, 0, 0, 0.09);
+  text-align: center;
+  font-size: 16px;
+  margin: 72px 0 0;
+}
+
+.product-link:focus-visible {
+  outline-offset: 1px;
+}
+
+.product-link .product-link__image {
+  position: relative;
+  display: block;
+}
+
+.product-link img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.product-link .product-link__info {
+  flex: 1;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.product-link .product-link__info strong {
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.product-link .product-link__button {
+  display: block;
+  width: 140px;
+  margin: 15px auto 25px;
+  padding-right: 10px;
+  font-size: 12px;
+  line-height: 36px;
+  text-align: center;
+  color: #fff;
+  border-radius: 2rem;
+  background: #000 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='8.5px' height='13.5px'%3E%3Cpath fill-rule='evenodd' stroke='rgb(255, 255, 255)' stroke-width='1px' stroke-linecap='butt' stroke-linejoin='miter' fill='none' d='M1.49,1.202 L6.321,6.472 L1.49,11.746 '/%3E%3C/svg%3E") no-repeat center right 14px;
+}
+
+@media screen and (max-width: 1024px) {
+  /* 타이틀 */
+  .main__title {
+    font-size: 30px;
+  }
+
+  .main__eyebrow {
+    font-size: 20px;
+    margin-bottom: 4px;
+  }
+
+  /* KV */
+  .main__visual {
+    margin-top: 24px;
+  }
+
+  .main__visual img, video {
+    border-radius: 0;
+  }
+
+  .main__disclaimer {
+    margin-top: 8px;
+    padding: 0 20px;
+    font-size: 12px;
+    line-height: 1.3;
+  }
+
+  /* QNA */
+  .qna-title {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  .qna-list .question {
+    padding:  21px 46px 21px 16px;
+  }
+
+  .qna-list .question span {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+  .qna-list .question p {
+    font-size: 14px;
+  }
+
+  .qna-list .answer {
+    padding: 40px 16px 32px;
+  }
+
+  .qna-list .answer p {
+    font-size: 14px;
+  }
+
+  /* Help */
+  .section-help {
+    padding-bottom: 70px !important;
+  }
+
+  /* .help {
+    padding: 0 20px;
+  } */
+
+  .help-title {
+    font-size: 14px;
+  }
+
+  .help-title p {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  .help-link {
+    margin-top: 28px;
+  }
+
+  .help-link a {
+    display: block;
+    width: 55%;
+    margin: 10px auto;
+  }
+
+  .product-link__wrap.pc-only {
+    display: none !important;
+  }
+
+  .product-link__wrap.mo-only {
+    display: block !important;
+  }
+
+  .product-link {
+    width: 100%;
+    min-height: unset;
+    margin: 70px auto 0;
+    box-shadow: unset;
+  }
+
+  .product-link a {
+    display: block;
+    border-radius: 24px;
+    box-shadow: 0px 8px 29px 0px rgba(4, 0, 0, 0.09);
+  }
+
+  .product-link a + a {
+    margin-top: 20px;
+  }
+}

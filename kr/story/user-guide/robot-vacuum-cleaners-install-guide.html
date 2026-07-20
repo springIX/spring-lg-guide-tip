@@ -115,8 +115,14 @@
                                     alt="배수캡이 강조된 배관 연결도." /> <img
                                     src="/kr/story/user-guide/images/robot-vacuum-cleaners-install-guide/img/img_content_2.png"
                                     alt="Y 커넥터가 강조된 배관 연결도." /> </div> <!-- 251024 추가 --> 
-                                     <table class="content-table"
+                                    <table class="content-table"
                                 aria-label="로봇청소기 배수캡 설치 가능 여부 표. 이 표는 기존 설치 여부와 Y자 커넥터 유무에 따라 배수캡을 설치할 수 있는지를 나타냅니다.">
+                                <colgroup>
+                                    <col class="content-table__col content-table__col--drain">
+                                    <col class="content-table__col content-table__col--status">
+                                    <col class="content-table__col content-table__col--connector-yes">
+                                    <col class="content-table__col content-table__col--connector-no">
+                                </colgroup>
                                 <!-- 1행: '기존 설치'(좌측 2열 x 2행 병합) / 'Y자 커넥터'(우측 2열 병합) -->
                                 <tr>
                                     <th colspan="2" rowspan="2" class="c1 has-border">기존 설치</th>
@@ -129,13 +135,13 @@
                                 <tr>
                                     <th rowspan="2" class="c1">배수캡</th>
                                     <th class="c2 has-border">있음</th>
-                                    <td class="c3 has-border">설치 가능</td>
-                                    <td class="c4 has-border">설치 가능</td>
+                                    <td class="c3 has-border">설치<br class="mo-only"> 가능</td>
+                                    <td class="c4 has-border">설치<br class="mo-only"> 가능</td>
                                 </tr> <!-- 4행:(배수캡 병합 유지) + 없음 + 내용 -->
                                 <tr>
                                     <th class="c2">없음</th>
-                                    <td class="c3 highlight">설치 불가</td>
-                                    <td class="c4">설치 가능</td>
+                                    <td class="c3 highlight">설치<br class="mo-only"> 불가</td>
+                                    <td class="c4">설치<br class="mo-only"> 가능</td>
                                 </tr>
                             </table> 
                             <!-- <span class="content-notice">· 배수 Y 커넥터 + 배수 Y 커넥터 조합 설치 불가</span> <span class="content-notice"> · 싱크대 하부 배수 Y 커넥터가 이미 설치되어 있는 경우 <br class="mo-only" /> 설치 불가 </span> -->
@@ -349,10 +355,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="item-wrap full"> <!-- 1122 수정 -->
+                                    <div class="item-wrap full additional-construction-card"> <!-- 1122 수정 -->
                                         <div class="roundedCard"> <!-- // 1122 수정 -->
                                             <p class="item-title">추가 시공 상세</p>
-                                            <div class="data">
+                                            <div class="data data--additional-construction">
                                                 <div class="data__row">
                                                     <div class="data__col first">장 타공</div>
                                                     <div class="data__col">무료</div>
@@ -413,44 +419,78 @@
                                                         </ul>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item-wrap full"> <!-- 1122 수정 -->
-                                        <div class="roundedCard"> <!-- // 1122 수정 -->
-                                            <div class="item-wrap full"> <!-- 1122 수정 -->
-                                                <div class="roundedCard"> <!-- // 1122 수정 -->
-                                                    <p class="item-title">시공 업체 안내</p>
-                                                    <div class="data">
-                                                        <div class="data__row">
-                                                            <div class="data__col first">시공 주체</div>
-                                                            <div class="data__col">LG 전문 설치기사 <br class="mo-only">(판토스)</div>
-                                                            <div class="data__col"> 판토스 외에 고객이 원하실 경우 별도 업체로 가구시공 진행 후,
-                                                                제품 설치만
-                                                                별도 가능합니다. </div>
+                                                <div class="data__row data__row--wide-label">
+                                                    <div class="data__col first">가구장 후면 레그<br class="mo-only"> 이동/재설치</div>
+                                                    <div class="data__col">20,000원</div>
+                                                    <div class="group">
+                                                        <p class="title">작업 내용</p>
+                                                        <ul class="bullet">
+                                                            <li class="bullet__item">후면 레그 좌우 간격 455mm 미확보<br class="mo-only"> 혹은 전면 레그와의 간격 335mm<br class="mo-only"> 미확보 시, 후면 레그 분리 후 위치 조정<br class="mo-only"> 혹은 신규 레그로 재설치가 필요한 경우
+                                                                <span class="etc">* 후면 레그 위치 조정은 히든스테이션이<br class="mo-only"> 설치되는 장의 범위를 벗어나지 않아야 함</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="data__row data__row--service-group">
+                                                    <div class="service-price-list">
+                                                        <div class="service-price-row">
+                                                            <div class="first">콘센트 연장작업 (완성형 멀티탭)</div>
+                                                            <div>무료</div>
                                                         </div>
+                                                        <div class="service-price-row">
+                                                            <div class="first">콘센트 연장작업 (조립형 멀티탭)</div>
+                                                            <div>40,000원</div>
+                                                        </div>
+                                                        <div class="sink-service">
+                                                            <div class="sink-service__title first">싱크대<br class="pc-only"> 타공작업<br class="pc-only"> (홀타공)</div>
+                                                            <div class="sink-service__options">
+                                                                <div class="service-price-row">
+                                                                    <div class="first">인조대리석 상판<br><span class="sink-option-detail">(아크릴/목재 재질)</span></div>
+                                                                    <div>무료</div>
+                                                                </div>
+                                                                <div class="service-price-row">
+                                                                    <div class="first">천연대리석 상판<br><span class="sink-option-detail">(칸스톤/엔지니어드스톤 등 포함)</span></div>
+                                                                    <div>50,000원</div>
+                                                                </div>
+                                                                <div class="service-price-row">
+                                                                    <div class="first">세라믹</div>
+                                                                    <div>110,000원</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="group service-description">
+                                                        <p class="title">작업 내용</p>
+                                                        <ul class="bullet">
+                                                            <li class="bullet__item">콘센트가 설치 공간과 거리가 있을 경우,<br class="mo-only"> 분리형 콘센트를 조립하여 콘센트를<br class="mo-only"> 연장하는 경우</li>
+                                                            <li class="bullet__item">콘센트-멀티탭 연결을 위해 멀티탭<br class="mo-only"> 헤드-전원선분리 및 상판 타공 후,<br class="mo-only"> 재조립하여 연결하는 경우</li>
+                                                        </ul>
+                                                        <span class="etc">* 싱크대 재질에 따라 추가 타공 비용 발생</span>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <span class="content-notice">[주의사항]</span>
-                                        <span class="content-notice">* 자가주택이 아닌 경우, 싱크대 시공 및 작업이 발생할 경우를 대비하여 사전에 집 주인의
-                                            동의가 꼭
-                                            필요합니다.</span>
-                                        <span class="content-notice">* 모든 추가 설치 과정에 대해서는 고객님의 동의 하에 설치 및 시공이
-                                            가능합니다.</span>
-                                            <span class="content-notice" style="margin-top:15px">[추가 비용 관련]</span>
-                                            <span class="content-notice">* 상기 추가 비용은 별도 추가 작업으로 인한 인건비 및 재료비이며 고객 부담입니다.
-                                                (VAT 포함, 현금
-                                                및 카드 결제 가능)</span>
+                                    </div>
+                                    <div class="item-wrap full contractor-card"> <!-- 1122 수정 -->
+                                        <div class="roundedCard"> <!-- // 1122 수정 -->
+                                            <p class="item-title">시공 업체 안내</p>
+                                            <div class="data">
+                                                <div class="data__row">
+                                                    <div class="data__col first">시공 주체</div>
+                                                    <div class="data__col">LG 전문 설치기사<br class="mo-only"> (판토스)</div>
+                                                    <div class="data__col">판토스 외에 고객이 원하실 경우<br class="mo-only"> 별도 업체로 가구시공 진행 후, 제품 설치만<br class="mo-only"> 별도 가능합니다.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="contractor-notices">
+                                            <span class="content-notice">[주의사항]</span>
+                                            <span class="content-notice">* 자가주택이 아닌 경우, 싱크대 시공 및 작업이 발생할 경우를 대비하여 사전에 집 주인의 동의가 꼭 필요합니다.</span>
+                                            <span class="content-notice">* 모든 추가 설치 과정에 대해서는 고객님의 동의 하에 설치 및 시공이 가능합니다.</span>
+                                            <span class="content-notice notice-heading">[추가 비용 관련]</span>
+                                            <span class="content-notice">* 상기 추가 비용은 별도 추가 작업으로 인한 인건비 및 재료비<br class="mo-only">이며 고객 부담입니다.(VAT 포함, 현금 및 카드 결제 가능)</span>
                                             <span class="content-notice">* 싱크대 노후화 등 환경에 따라 시공비 추가 또는 시공이 불가할 수 있습니다.</span>
-                                            <span class="content-notice">* 실제 설치 진행 과정에서 사전답사를 통해 확인이 어려운 작업이 발생하는 경우, 추가
-                                                비용이 발생할 수
-                                                있습니다.</span>
-
-
-
-
+                                            <span class="content-notice">* 실제 설치 진행 과정에서 사전답사를 통해 확인이 어려운 작업이 발생하는 경우, 추가 비용이 발생할 수 있습니다.</span>
+                                        </div>
                                         <!-- <span class="content-notice">* 위 추가 시공은 고객 요청에 의한 별도 추가 작업으로 인건비 및 재료비를 포함하며, 전액 고객 부담(VAT 포함, 현금 및 카드 결제 가능)</span>
                                                                                                                                                                                                                                                                     <span class="content-notice">* 싱크대 노후화 등 환경에 따라 시공비가 추가되거나 시공이 불가할 수 있음(Ex : 스커드장)</span>
                                                                                                                                                                                                                                                                     <span class="content-notice">* 사전답사 시 확인이 어려운 작업이 있을 시 실제 설치에서 추가 비용이 발생할 수 있음</span>
@@ -544,6 +584,12 @@
                                     alt="Y 커넥터가 강조된 배관 연결도." /> </div> <!-- 251024 추가 -->
                             <table class="content-table"
                                 aria-label="로봇청소기 배수캡 설치 가능 여부 표. 이 표는 기존 설치 여부와 Y자 커넥터 유무에 따라 배수캡을 설치할 수 있는지를 나타냅니다.">
+                                <colgroup>
+                                    <col class="content-table__col content-table__col--drain">
+                                    <col class="content-table__col content-table__col--status">
+                                    <col class="content-table__col content-table__col--connector-yes">
+                                    <col class="content-table__col content-table__col--connector-no">
+                                </colgroup>
                                 <!-- 1행: '기존 설치'(좌측 2열 x 2행 병합) / 'Y자 커넥터'(우측 2열 병합) -->
                                 <tr>
                                     <th colspan="2" rowspan="2" class="c1 has-border">기존 설치</th>
@@ -556,13 +602,13 @@
                                 <tr>
                                     <th rowspan="2" class="c1">배수캡</th>
                                     <th class="c2 has-border">있음</th>
-                                    <td class="c3 has-border">설치 가능</td>
-                                    <td class="c4 has-border">설치 가능</td>
+                                    <td class="c3 has-border">설치<br class="mo-only"> 가능</td>
+                                    <td class="c4 has-border">설치<br class="mo-only"> 가능</td>
                                 </tr> <!-- 4행:(배수캡 병합 유지) + 없음 + 내용 -->
                                 <tr>
                                     <th class="c2">없음</th>
-                                    <td class="c3 highlight">설치 불가</td>
-                                    <td class="c4">설치 가능</td>
+                                    <td class="c3 highlight">설치<br class="mo-only"> 불가</td>
+                                    <td class="c4">설치<br class="mo-only"> 가능</td>
                                 </tr>
                             </table> <!-- // 251024 추가 -->
                             <!-- <span class="content-notice">· 배수 Y 커넥터 + 배수 Y 커넥터 조합 설치 불가</span> <span class="content-notice"> · 싱크대 하부 배수 Y 커넥터가 이미 설치되어 있는 경우 <br class="mo-only" /> 설치 불가 </span> -->

@@ -1,0 +1,999 @@
+#lglife-etnews {
+    --red: #db3437;
+    --ink: #191c1f;
+    --muted: #646669;
+    --panel: rgba(245, 245, 245, 0.6);
+    font-family: "Pretendard", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+    color: var(--ink);
+    background: #fff;
+    word-break: keep-all;
+    letter-spacing: 0;
+}
+
+#lglife-etnews *,
+#lglife-etnews *::before,
+#lglife-etnews *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0;
+}
+
+#lglife-etnews img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+#lglife-etnews ul {
+    list-style: none;
+}
+
+#lglife-etnews a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#lglife-etnews button {
+    font: inherit;
+}
+
+#lglife-etnews a:focus-visible,
+#lglife-etnews button:focus-visible {
+    outline: 2px solid #015fcb;
+    outline-offset: 4px;
+}
+
+#lglife-etnews .mo-only {
+    display: none;
+}
+
+#lglife-etnews .pc-only {
+    display: block;
+}
+
+#lglife-etnews br.pc-only {
+    display: block;
+}
+
+#lglife-etnews .content-wide {
+    width: min(1380px, calc(100% - 40px));
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#lglife-etnews .sec-header {
+    overflow: hidden;
+    background: #fff;
+    text-align: center;
+}
+
+#lglife-etnews .header-copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 80px 20px 72px;
+}
+
+#lglife-etnews .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 38px;
+    margin-bottom: 8px;
+    padding: 4px 18px;
+    border-radius: 4px;
+    color: var(--red);
+    background: rgba(219, 52, 55, 0.1);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.68;
+}
+
+#lglife-etnews .header-copy h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+#lglife-etnews .header-kicker {
+    margin-top: 12px;
+    color: #444;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.8;
+}
+
+#lglife-etnews .header-description {
+    margin-top: 28px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+#lglife-etnews .hero-visual {
+    display: block;
+    overflow: hidden;
+    width: min(1920px, 100%);
+    height: 616px;
+    margin: 0 auto;
+    background: #f3f3f3;
+}
+
+#lglife-etnews .hero-visual img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#lglife-etnews .hero-disclaimer {
+    padding-top: 12px;
+    padding-left: 8px;
+    color: var(--muted);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+    text-indent: -8px;
+    text-align: left;
+}
+
+#lglife-etnews .page-content {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 100px 0 120px;
+}
+
+#lglife-etnews h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.68;
+}
+
+#lglife-etnews .sec-summary h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-align: center;
+}
+
+#lglife-etnews .summary-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 48px 80px;
+    border-radius: 30px;
+    background: var(--panel);
+}
+
+#lglife-etnews .summary-list li {
+    position: relative;
+    padding-left: 22px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+#lglife-etnews .summary-list li::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #111;
+}
+
+#lglife-etnews .section-title {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+#lglife-etnews .section-title > p {
+    margin-bottom: 8px;
+    color: var(--red);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.68;
+}
+
+#lglife-etnews .review-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    min-height: 306px;
+    padding: 32px 80px;
+    border-radius: 30px;
+    background: var(--panel);
+}
+
+#lglife-etnews .reviewer-image {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    flex: 0 0 180px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+#lglife-etnews .reviewer-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#lglife-etnews .review-content {
+    width: 832px;
+    max-width: 100%;
+}
+
+#lglife-etnews .review-content h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+#lglife-etnews .keyword-list {
+    display: flex;
+    flex-wrap: nowrap;
+    width: max-content;
+    gap: 10px;
+}
+
+#lglife-etnews .keyword-list li {
+    flex-shrink: 0;
+    padding: 4px 12px;
+    border: 1px solid var(--red);
+    border-radius: 40px;
+    color: var(--red);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+#lglife-etnews .review-content blockquote {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #d9d9d9;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+#lglife-etnews .article-paper {
+    padding: 44px 32px 50px;
+    border-radius: 30px;
+    background: #f9f9f9;
+}
+
+#lglife-etnews .article-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+#lglife-etnews .article-header img {
+    width: 110px;
+    height: 40px;
+    object-fit: contain;
+}
+
+#lglife-etnews .article-header p {
+    color: #444;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+    text-align: center;
+}
+
+#lglife-etnews .article-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 636px));
+    justify-content: center;
+    gap: 10px;
+}
+
+#lglife-etnews .article-card {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 32px;
+    border: 0;
+    background: #fff;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15), 0 8px 4px rgba(0, 0, 0, 0.1);
+}
+
+#lglife-etnews .article-card h3 {
+    min-height: 56px;
+    margin-bottom: 20px;
+    color: #111;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+#lglife-etnews .article-card h3 span {
+    display: block;
+    color: var(--red);
+}
+
+#lglife-etnews .article-copy {
+    flex: 1;
+    width: calc(100% + 20px);
+    min-height: 216px;
+    margin-right: -20px;
+    padding: 10px 0 10px 14px;
+    border-left: 2px solid #d9d9d9;
+    color: #444;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+#lglife-etnews mark {
+    padding: 1px 2px 2px;
+    color: inherit;
+    background: rgba(251, 255, 0, 0.3);
+    font-weight: 700;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+#lglife-etnews .article-image {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 16px;
+    background: #191c1f;
+}
+
+#lglife-etnews .article-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#lglife-etnews .article-card:last-child .article-image img {
+    object-position: center 36%;
+}
+
+#lglife-etnews .notice-summary,
+#lglife-etnews .notice-detail,
+#lglife-etnews .feature-notice {
+    color: var(--muted);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+#lglife-etnews .notice-summary {
+    margin-top: 12px;
+}
+
+#lglife-etnews .notice-summary > p,
+#lglife-etnews .feature-notice > p {
+    padding-left: 8px;
+    text-indent: -8px;
+}
+
+#lglife-etnews .notice-summary a:hover {
+    text-decoration: underline;
+}
+
+#lglife-etnews .notice-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    margin-top: 20px;
+    border: 0;
+    color: var(--muted);
+    background: transparent;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.4;
+    cursor: pointer;
+}
+
+#lglife-etnews .notice-toggle::after {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: url("/kr/story/hands-on-reviews/img/lglife-ai-home/chevron_down.svg") center / contain no-repeat;
+    transition: transform 0.2s ease;
+}
+
+#lglife-etnews .notice-toggle[aria-expanded="true"]::after {
+    transform: rotate(180deg);
+}
+
+#lglife-etnews .notice-detail {
+    margin-top: 20px;
+}
+
+#lglife-etnews .notice-detail[hidden] {
+    display: none;
+}
+
+#lglife-etnews .notice-detail h3,
+#lglife-etnews .notice-detail h4 {
+    margin-top: 16px;
+    color: var(--muted);
+    font-size: inherit;
+    font-weight: 700;
+    line-height: inherit;
+}
+
+#lglife-etnews .notice-detail h3:first-child,
+#lglife-etnews .notice-detail h4:first-child {
+    margin-top: 0;
+}
+
+#lglife-etnews .notice-detail li {
+    position: relative;
+    padding-left: 9px;
+}
+
+#lglife-etnews .notice-detail li::before {
+    content: "*";
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#lglife-etnews .sec-features > h2 {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+#lglife-etnews .feature-list {
+    padding: 50px;
+    border-radius: 30px;
+    background: var(--panel);
+}
+
+#lglife-etnews .feature-item {
+    display: grid;
+    grid-template-columns: 630px minmax(0, 1fr);
+    gap: 60px;
+    align-items: start;
+}
+
+#lglife-etnews .feature-item + .feature-item {
+    margin-top: 50px;
+    padding-top: 50px;
+    border-top: 1px solid #d9d9d9;
+}
+
+#lglife-etnews .feature-media {
+    display: block;
+    overflow: hidden;
+    width: 630px;
+    height: 400px;
+    border-radius: 16px;
+    background: #fff;
+}
+
+#lglife-etnews .feature-media img,
+#lglife-etnews .feature-media video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#lglife-etnews .feature-video-wrap {
+    position: relative;
+}
+
+#lglife-etnews .video-toggle {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.58);
+    cursor: pointer;
+}
+
+#lglife-etnews .video-toggle::before,
+#lglife-etnews .video-toggle::after {
+    position: absolute;
+    top: 9px;
+    width: 3px;
+    height: 14px;
+    border-radius: 2px;
+    background: #fff;
+    content: "";
+}
+
+#lglife-etnews .video-toggle::before {
+    left: 11px;
+}
+
+#lglife-etnews .video-toggle::after {
+    right: 11px;
+}
+
+#lglife-etnews .video-toggle.is-paused::before {
+    top: 8px;
+    left: 12px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 12px solid #fff;
+    border-radius: 0;
+    background: transparent;
+}
+
+#lglife-etnews .video-toggle.is-paused::after {
+    display: none;
+}
+
+#lglife-etnews .feature-content {
+    padding-top: 6px;
+}
+
+#lglife-etnews .feature-content > h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+#lglife-etnews .feature-content > p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+#lglife-etnews .feature-notice {
+    margin-top: 40px;
+}
+
+#lglife-etnews .feature-notice .notice-toggle {
+    margin-top: 20px;
+}
+
+#lglife-etnews .sec-footer-cta {
+    padding: 100px 20px;
+    border-top: 1px solid #ddd;
+}
+
+#lglife-etnews .faq-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: min(1280px, 100%);
+    min-height: 137px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+    background: #fdf3f3;
+}
+
+#lglife-etnews .faq-link span {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#lglife-etnews .faq-link strong {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+#lglife-etnews .faq-link small {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#lglife-etnews .faq-link > img {
+    width: 6px;
+    height: 11px;
+}
+
+@media screen and (max-width: 1300px) and (min-width: 769px) {
+    #lglife-etnews .review-card {
+        gap: 48px;
+        padding-right: 48px;
+        padding-left: 48px;
+    }
+
+    #lglife-etnews .article-copy {
+        font-size: 18px;
+    }
+
+    #lglife-etnews .feature-item {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        gap: 40px;
+    }
+
+    #lglife-etnews .feature-media {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #lglife-etnews .pc-only,
+    #lglife-etnews br.pc-only {
+        display: none;
+    }
+
+    #lglife-etnews .mo-only,
+    #lglife-etnews br.mo-only {
+        display: block;
+    }
+
+    #lglife-etnews .content-wide {
+        width: calc(100% - 40px);
+    }
+
+    #lglife-etnews .header-copy {
+        gap: 0;
+        min-height: 420px;
+        padding: 60px 20px 44px;
+    }
+
+    #lglife-etnews .eyebrow {
+        min-height: 38px;
+        margin-bottom: 12px;
+        font-size: 18px;
+    }
+
+    #lglife-etnews .header-copy h1 {
+        font-size: 36px;
+        line-height: 1.4;
+    }
+
+    #lglife-etnews .header-kicker {
+        margin-top: 8px;
+        font-size: 16px;
+        line-height: 1.8;
+        white-space: nowrap;
+    }
+
+    #lglife-etnews .header-description {
+        width: 305px;
+        margin-top: 16px;
+        font-size: 16px;
+        line-height: 1.45;
+    }
+
+    #lglife-etnews .hero-visual {
+        height: 282px;
+    }
+
+    #lglife-etnews .hero-visual img {
+        object-position: center;
+    }
+
+    #lglife-etnews .hero-disclaimer {
+        padding-top: 12px;
+        color: #444;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+
+    #lglife-etnews .page-content {
+        gap: 60px;
+        padding: 60px 0 80px;
+    }
+
+    #lglife-etnews h2 {
+        font-size: 28px;
+        line-height: 1.5;
+    }
+
+    #lglife-etnews .sec-summary h2 {
+        margin-bottom: 32px;
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+    #lglife-etnews .summary-list {
+        align-items: flex-start;
+        gap: 10px;
+        padding: 24px 20px;
+        border-radius: 8px;
+    }
+
+    #lglife-etnews .summary-list li {
+        padding-left: 18px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    #lglife-etnews .summary-list li:nth-child(3) {
+        width: calc(100% + 8px);
+        margin-right: -8px;
+    }
+
+    #lglife-etnews .summary-list li::before {
+        top: 8px;
+        left: 3px;
+        width: 4px;
+        height: 4px;
+    }
+
+    #lglife-etnews .section-title {
+        margin-bottom: 32px;
+    }
+
+    #lglife-etnews .section-title > p {
+        margin-bottom: 4px;
+        font-size: 14px;
+    }
+
+    #lglife-etnews .review-card {
+        flex-direction: column;
+        gap: 32px;
+        min-height: 0;
+        padding: 32px 20px;
+        border-radius: 8px;
+    }
+
+    #lglife-etnews .reviewer-image {
+        flex-basis: 80px;
+        width: 80px;
+        height: 80px;
+    }
+
+    #lglife-etnews .review-content {
+        width: 310px;
+    }
+
+    #lglife-etnews .review-content h3 {
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    #lglife-etnews .keyword-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        gap: 6px;
+    }
+
+    #lglife-etnews .keyword-list li {
+        padding: 2px 10px;
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    #lglife-etnews .keyword-list li:first-child {
+        flex-basis: max-content;
+        margin: 0 50px;
+    }
+
+    #lglife-etnews .review-content blockquote {
+        margin-top: 32px;
+        padding-top: 12px;
+        font-size: 14px;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    #lglife-etnews .article-paper {
+        padding: 32px 16px 20px;
+        border-radius: 16px;
+    }
+
+    #lglife-etnews .sec-article.content-wide {
+        width: 100%;
+        padding: 28px 20px 40px;
+    }
+
+    #lglife-etnews .article-header {
+        gap: 4px;
+        margin-bottom: 16px;
+    }
+
+    #lglife-etnews .article-header img {
+        width: 88px;
+        height: 36px;
+    }
+
+    #lglife-etnews .article-header p {
+        font-size: 11px;
+        line-height: 1.42;
+    }
+
+    #lglife-etnews .article-grid {
+        display: flex;
+        flex-direction: column;
+        width: 302px;
+        margin-right: auto;
+        margin-left: auto;
+        gap: 8px;
+    }
+
+    #lglife-etnews .article-card {
+        gap: 8px;
+        padding: 24px;
+        box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15), 0 4px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    #lglife-etnews .article-card h3 {
+        min-height: 0;
+        margin-bottom: 0;
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    #lglife-etnews .article-copy {
+        width: calc(100% + 8px);
+        min-height: 0;
+        margin-right: -8px;
+        padding: 10px 0 10px 10px;
+        font-size: 14px;
+        line-height: 1.44;
+    }
+
+    #lglife-etnews .article-image {
+        height: 180px;
+        margin-top: 0;
+        border-radius: 16px;
+    }
+
+    #lglife-etnews .article-card:last-child .article-image img {
+        object-position: center 35%;
+    }
+
+    #lglife-etnews .notice-summary,
+    #lglife-etnews .notice-detail,
+    #lglife-etnews .feature-notice {
+        color: #444;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+
+    #lglife-etnews .notice-summary {
+        margin-top: 12px;
+    }
+
+    #lglife-etnews .notice-summary a {
+        word-break: break-all;
+    }
+
+    #lglife-etnews .notice-toggle {
+        margin-top: 12px;
+        color: #444;
+        font-size: 11px;
+        line-height: 1.4;
+    }
+
+    #lglife-etnews .notice-detail {
+        margin-top: 16px;
+    }
+
+    #lglife-etnews .sec-features > h2 {
+        margin-bottom: 32px;
+    }
+
+    #lglife-etnews .feature-list {
+        padding: 24px;
+        border-radius: 8px;
+    }
+
+    #lglife-etnews .feature-item {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    #lglife-etnews .feature-item + .feature-item {
+        margin-top: 40px;
+        padding-top: 40px;
+    }
+
+    #lglife-etnews .feature-media {
+        width: 100%;
+        height: 180px;
+        border-radius: 16px;
+    }
+
+    #lglife-etnews .video-toggle {
+        right: 12px;
+        bottom: 12px;
+        width: 24px;
+        height: 24px;
+    }
+
+    #lglife-etnews .video-toggle::before,
+    #lglife-etnews .video-toggle::after {
+        top: 7px;
+        width: 2px;
+        height: 10px;
+    }
+
+    #lglife-etnews .video-toggle::before {
+        left: 8px;
+    }
+
+    #lglife-etnews .video-toggle::after {
+        right: 8px;
+    }
+
+    #lglife-etnews .video-toggle.is-paused::before {
+        top: 6px;
+        left: 9px;
+        border-top-width: 6px;
+        border-bottom-width: 6px;
+        border-left-width: 9px;
+    }
+
+    #lglife-etnews .feature-content {
+        padding-top: 0;
+    }
+
+    #lglife-etnews .feature-content > h3 {
+        margin-bottom: 12px;
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    #lglife-etnews .feature-content > p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    #lglife-etnews .feature-notice {
+        margin-top: 20px;
+    }
+
+    #lglife-etnews .feature-notice .notice-toggle {
+        margin-top: 12px;
+    }
+
+    #lglife-etnews .sec-footer-cta {
+        padding: 60px 20px;
+    }
+
+    #lglife-etnews .faq-link {
+        min-height: 111px;
+        padding: 24px 20px;
+    }
+
+    #lglife-etnews .faq-link strong {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    #lglife-etnews .faq-link small {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #lglife-etnews .header-copy h1 {
+        font-size: 9.23vw;
+    }
+
+    #lglife-etnews .header-kicker {
+        font-size: 4.1vw;
+    }
+}

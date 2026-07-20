@@ -1,0 +1,879 @@
+#lglife-kmib {
+    --red: #db3437;
+    --tab-red: #ea1917;
+    --ink: #191c1f;
+    --muted: #646669;
+    --panel: rgba(245, 245, 245, 0.6);
+    color: var(--ink);
+    background: #fff;
+    font-family: "Pretendard", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+    letter-spacing: 0;
+    word-break: keep-all;
+}
+
+#lglife-kmib *,
+#lglife-kmib *::before,
+#lglife-kmib *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0;
+}
+
+#lglife-kmib img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+#lglife-kmib ul {
+    list-style: none;
+}
+
+#lglife-kmib a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#lglife-kmib button {
+    border: 0;
+    background: none;
+    font: inherit;
+    cursor: pointer;
+}
+
+#lglife-kmib a:focus-visible,
+#lglife-kmib button:focus-visible {
+    outline: 2px solid #015fcb;
+    outline-offset: 4px;
+}
+
+#lglife-kmib [hidden] {
+    display: none !important;
+}
+
+#lglife-kmib .mo-only {
+    display: none;
+}
+
+#lglife-kmib .pc-only,
+#lglife-kmib br.pc-only {
+    display: block;
+}
+
+#lglife-kmib .content-wide {
+    width: min(1380px, calc(100% - 40px));
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#lglife-kmib .sec-header {
+    overflow: hidden;
+    background: #fff;
+    text-align: center;
+}
+
+#lglife-kmib .header-copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 80px 20px 72px;
+}
+
+#lglife-kmib .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 38px;
+    margin-bottom: 8px;
+    padding: 4px 18px;
+    border-radius: 4px;
+    color: var(--red);
+    background: rgba(219, 52, 55, 0.1);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.68;
+}
+
+#lglife-kmib .header-copy h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+#lglife-kmib .header-kicker {
+    margin-top: 12px;
+    color: #444;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.8;
+}
+
+#lglife-kmib .header-description {
+    margin-top: 28px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+#lglife-kmib .hero-visual {
+    display: block;
+    overflow: hidden;
+    width: min(1920px, 100%);
+    height: 616px;
+    margin: 0 auto;
+    background: #f3f3f3;
+}
+
+#lglife-kmib .hero-visual img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 47%;
+}
+
+#lglife-kmib .hero-disclaimer {
+    padding-top: 12px;
+    padding-left: 8px;
+    color: var(--muted);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+    text-align: left;
+    text-indent: -8px;
+}
+
+#lglife-kmib .page-content {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 100px 0 120px;
+}
+
+#lglife-kmib h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.68;
+}
+
+#lglife-kmib .sec-summary h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-align: center;
+}
+
+#lglife-kmib .summary-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    min-height: 202px;
+    padding: 48px 80px;
+    border-radius: 30px;
+    background: var(--panel);
+}
+
+#lglife-kmib .summary-list li {
+    position: relative;
+    padding-left: 22px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+#lglife-kmib .summary-list li::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #111;
+}
+
+#lglife-kmib .section-title {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+#lglife-kmib .section-title > p {
+    margin-bottom: 8px;
+    color: var(--red);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.68;
+}
+
+#lglife-kmib .review-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    min-height: 306px;
+    padding: 32px 80px;
+    border-radius: 30px;
+    background: var(--panel);
+}
+
+#lglife-kmib .reviewer-image {
+    display: block;
+    overflow: hidden;
+    flex: 0 0 180px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+#lglife-kmib .reviewer-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 12%;
+}
+
+#lglife-kmib .review-content {
+    width: 790px;
+}
+
+#lglife-kmib .review-content h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+#lglife-kmib .keyword-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+#lglife-kmib .keyword-list li {
+    padding: 2px 10px;
+    border: 1px solid var(--red);
+    border-radius: 24px;
+    color: var(--red);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    white-space: nowrap;
+}
+
+#lglife-kmib .review-content blockquote {
+    padding-top: 12px;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+#lglife-kmib .article-paper {
+    padding: 50px;
+    border-radius: 30px;
+    background: var(--panel);
+}
+
+#lglife-kmib .article-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 16px;
+}
+
+#lglife-kmib .article-header img {
+    width: 93px;
+    height: 16px;
+    object-fit: contain;
+}
+
+#lglife-kmib .article-header p {
+    color: var(--muted);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+    text-align: center;
+}
+
+#lglife-kmib .article-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+}
+
+#lglife-kmib .article-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 786px;
+    padding: 32px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background: #fff;
+    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+#lglife-kmib .article-card h3 {
+    min-height: 56px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+#lglife-kmib .article-card h3 span {
+    display: block;
+    color: var(--red);
+}
+
+#lglife-kmib .article-copy {
+    flex: 1;
+    padding-left: 18px;
+    border-left: 3px solid #d9d9d9;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+#lglife-kmib mark {
+    background: linear-gradient(transparent 30%, rgba(251, 255, 0, 0.3) 30%, rgba(251, 255, 0, 0.3) 88%, transparent 88%);
+    color: inherit;
+    font-weight: 700;
+}
+
+#lglife-kmib .article-image {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 408px;
+    border-radius: 16px;
+    background: #191c1f;
+}
+
+#lglife-kmib .article-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#lglife-kmib .notice-summary,
+#lglife-kmib .feature-notice,
+#lglife-kmib .notice-detail {
+    color: #444;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+#lglife-kmib .notice-summary {
+    margin-top: 20px;
+}
+
+#lglife-kmib .notice-summary > p,
+#lglife-kmib .feature-notice > p {
+    padding-left: 8px;
+    text-indent: -8px;
+}
+
+#lglife-kmib .notice-summary a:hover {
+    text-decoration: underline;
+}
+
+#lglife-kmib .notice-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    margin-top: 12px;
+    color: #444;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+#lglife-kmib .notice-toggle::after {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: url("/kr/story/hands-on-reviews/img/lglife-ai-home-kmib/chevron_down.svg") center / 16px no-repeat;
+    transition: transform 0.2s ease;
+}
+
+#lglife-kmib .notice-toggle[aria-expanded="true"]::after {
+    transform: rotate(180deg);
+}
+
+#lglife-kmib .notice-detail {
+    margin-top: 16px;
+}
+
+#lglife-kmib .notice-detail h3,
+#lglife-kmib .notice-detail h4 {
+    margin-top: 18px;
+    color: #222;
+    font-size: inherit;
+    font-weight: 700;
+}
+
+#lglife-kmib .notice-detail h3:first-child,
+#lglife-kmib .notice-detail h4:first-child {
+    margin-top: 0;
+}
+
+#lglife-kmib .notice-detail li {
+    position: relative;
+    padding-left: 10px;
+}
+
+#lglife-kmib .notice-detail li::before {
+    content: "*";
+    position: absolute;
+    left: 0;
+}
+
+#lglife-kmib .sec-features > h2 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#lglife-kmib .feature-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 30px;
+}
+
+#lglife-kmib .feature-tabs button {
+    width: 180px;
+    padding: 15px 20px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    background: #fff;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+#lglife-kmib .feature-tabs button[aria-selected="true"] {
+    border-color: var(--tab-red);
+    background: var(--tab-red);
+    color: #fff;
+}
+
+#lglife-kmib .feature-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px;
+    border-radius: 30px;
+    background: var(--panel);
+}
+
+#lglife-kmib .feature-item {
+    display: grid;
+    grid-template-columns: 647px minmax(0, 1fr);
+    gap: 50px;
+    align-items: center;
+}
+
+#lglife-kmib .feature-item + .feature-item {
+    padding-top: 50px;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+#lglife-kmib .feature-media {
+    display: block;
+    overflow: hidden;
+    width: 647px;
+    height: 411px;
+    border-radius: 16px;
+    background: #191c1f;
+}
+
+#lglife-kmib .feature-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#lglife-kmib .feature-content h3 {
+    margin-bottom: 12px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+#lglife-kmib .feature-content > p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+#lglife-kmib .feature-notice {
+    margin-top: 20px;
+}
+
+#lglife-kmib .feature-notice .notice-toggle {
+    margin-top: 12px;
+}
+
+#lglife-kmib .sec-footer-cta {
+    padding: 120px max(20px, calc((100% - 1380px) / 2));
+    border-top: 1px solid #ddd;
+}
+
+#lglife-kmib .faq-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 97px;
+    padding: 20px 32px;
+    border-radius: 8px;
+    background: #fff6f6;
+}
+
+#lglife-kmib .faq-link span {
+    display: flex;
+    flex-direction: column;
+}
+
+#lglife-kmib .faq-link strong {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+#lglife-kmib .faq-link small {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#lglife-kmib .faq-link > img {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 1500px) and (min-width: 769px) {
+    #lglife-kmib .feature-item {
+        grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+    }
+
+    #lglife-kmib .feature-media {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    #lglife-kmib .pc-only,
+    #lglife-kmib br.pc-only {
+        display: none;
+    }
+
+    #lglife-kmib .mo-only,
+    #lglife-kmib br.mo-only {
+        display: block;
+    }
+
+    #lglife-kmib .content-wide {
+        width: calc(100% - 40px);
+    }
+
+    #lglife-kmib .header-copy {
+        min-height: 318px;
+        padding: 28px 20px 27px;
+    }
+
+    #lglife-kmib .eyebrow {
+        min-height: 38px;
+        margin-bottom: 12px;
+        font-size: 18px;
+    }
+
+    #lglife-kmib .header-copy h1 {
+        font-size: 36px;
+        line-height: 1.4;
+    }
+
+    #lglife-kmib .header-kicker {
+        margin-top: 8px;
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    #lglife-kmib .header-description {
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    #lglife-kmib .hero-visual {
+        width: 100%;
+        height: 324px;
+    }
+
+    #lglife-kmib .hero-visual img {
+        object-position: 54% center;
+    }
+
+    #lglife-kmib .hero-disclaimer {
+        width: calc(100% - 40px);
+        min-height: 104px;
+        padding-top: 16px;
+        font-size: 11px;
+        line-height: 1.4;
+    }
+
+    #lglife-kmib .page-content {
+        gap: 60px;
+        padding: 60px 0;
+    }
+
+    #lglife-kmib h2 {
+        font-size: 28px;
+        line-height: 1.5;
+    }
+
+    #lglife-kmib .sec-summary h2 {
+        margin-bottom: 32px;
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+    #lglife-kmib .summary-list {
+        align-items: stretch;
+        gap: 10px;
+        min-height: 194px;
+        padding: 24px 20px;
+        border-radius: 8px;
+    }
+
+    #lglife-kmib .summary-list li {
+        padding-left: 20px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    #lglife-kmib .summary-list li::before {
+        top: 8px;
+        left: 7px;
+        width: 4px;
+        height: 4px;
+    }
+
+    #lglife-kmib .section-title {
+        margin-bottom: 32px;
+    }
+
+    #lglife-kmib .section-title > p {
+        margin-bottom: 4px;
+        font-size: 14px;
+    }
+
+    #lglife-kmib .review-card {
+        flex-direction: column;
+        gap: 32px;
+        min-height: 471px;
+        padding: 32px 20px;
+        border-radius: 8px;
+    }
+
+    #lglife-kmib .reviewer-image {
+        flex-basis: 80px;
+        width: 80px;
+        height: 80px;
+    }
+
+    #lglife-kmib .review-content {
+        width: 100%;
+    }
+
+    #lglife-kmib .review-content h3 {
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    #lglife-kmib .keyword-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6px;
+        margin-bottom: 32px;
+    }
+
+    #lglife-kmib .keyword-list li {
+        padding: 2px 10px;
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    #lglife-kmib .review-content blockquote {
+        padding-top: 12px;
+        font-size: 14px;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    #lglife-kmib .sec-article.content-wide {
+        width: 100%;
+    }
+
+    #lglife-kmib .article-paper {
+        width: 350px;
+        margin: 0 auto;
+        padding: 32px 16px 20px;
+        border-radius: 16px;
+        background: #f9f9f9;
+    }
+
+    #lglife-kmib .article-header {
+        margin-bottom: 16px;
+    }
+
+    #lglife-kmib .article-header p {
+        font-size: 11px;
+        line-height: 1.42;
+    }
+
+    #lglife-kmib .article-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    #lglife-kmib .article-card {
+        gap: 8px;
+        min-height: 0;
+        padding: 24px;
+    }
+
+    #lglife-kmib .article-card h3 {
+        min-height: 0;
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    #lglife-kmib .article-copy {
+        padding-left: 10px;
+        border-left-width: 2px;
+        font-size: 14px;
+        line-height: 1.44;
+    }
+
+    #lglife-kmib .article-image {
+        height: 180px;
+    }
+
+    #lglife-kmib .notice-summary,
+    #lglife-kmib .feature-notice,
+    #lglife-kmib .notice-detail {
+        font-size: 11px;
+        line-height: 1.4;
+    }
+
+    #lglife-kmib .notice-summary {
+        width: 350px;
+        margin: 16px auto 0;
+    }
+
+    #lglife-kmib .notice-toggle {
+        margin-top: 12px;
+        font-size: 11px;
+    }
+
+    #lglife-kmib .sec-article > .notice-toggle,
+    #lglife-kmib .sec-article > .notice-detail {
+        margin-left: calc((100% - 350px) / 2);
+        margin-right: calc((100% - 350px) / 2);
+    }
+
+    #lglife-kmib .notice-detail {
+        margin-top: 16px;
+    }
+
+    #lglife-kmib .sec-features > h2 {
+        margin-bottom: 32px;
+    }
+
+    #lglife-kmib .feature-tabs {
+        gap: 5px;
+        margin-bottom: 20px;
+    }
+
+    #lglife-kmib .feature-tabs button {
+        width: auto;
+        padding: 12px 20px;
+        border-color: #ddd;
+        font-size: 14px;
+    }
+
+    #lglife-kmib .feature-panel {
+        gap: 40px;
+        padding: 24px;
+        border-radius: 8px;
+    }
+
+    #lglife-kmib .feature-item {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    #lglife-kmib .feature-item + .feature-item {
+        padding-top: 40px;
+    }
+
+    #lglife-kmib .feature-media {
+        width: 100%;
+        height: 180px;
+    }
+
+    #lglife-kmib .feature-content h3 {
+        margin-bottom: 12px;
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    #lglife-kmib .feature-content > p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    #lglife-kmib .feature-notice {
+        margin-top: 20px;
+    }
+
+    #lglife-kmib .sec-footer-cta {
+        padding: 60px 20px;
+    }
+
+    #lglife-kmib .faq-link {
+        min-height: 118px;
+        padding: 20px;
+    }
+
+    #lglife-kmib .faq-link strong {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    #lglife-kmib .faq-link small {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 374px) {
+    #lglife-kmib .header-copy h1 {
+        font-size: 32px;
+    }
+
+    #lglife-kmib .feature-tabs button {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}

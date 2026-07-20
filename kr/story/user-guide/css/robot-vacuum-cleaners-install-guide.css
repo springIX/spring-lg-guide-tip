@@ -524,6 +524,93 @@ body {
   border-top: 1px dashed #ddd;
 }
 
+.roundedCard .data--additional-construction .data__row:not(.data__row--service-group) {
+  grid-template-columns: 258px 80px 1fr;
+  column-gap: 32px;
+}
+
+.roundedCard .data--additional-construction .data__row:not(.data__row--service-group) > .group {
+  margin-left: 8px;
+}
+
+.roundedCard .data--additional-construction .data__row--wide-label {
+  grid-template-columns: 258px 80px 1fr;
+  column-gap: 32px;
+}
+
+.roundedCard .data--additional-construction .data__row--wide-label > .group {
+  margin-left: 8px;
+}
+
+.roundedCard .data--additional-construction .data__row--service-group {
+  grid-template-columns: 370px 690px;
+  column-gap: 40px;
+  align-items: start;
+}
+
+.roundedCard .data--additional-construction .service-price-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 370px;
+}
+
+.roundedCard .data--additional-construction .service-price-row {
+  display: grid;
+  grid-template-columns: 258px 80px;
+  column-gap: 32px;
+  box-sizing: border-box;
+}
+
+.roundedCard .data--additional-construction .service-price-list > .service-price-row:first-child {
+  padding-bottom: 20px;
+}
+
+.roundedCard .data--additional-construction .service-price-list > .service-price-row + .service-price-row {
+  height: 84px;
+  padding-top: 20px;
+  border-top: 1px dashed #c5c5c5;
+}
+
+.roundedCard .data--additional-construction .service-description {
+  min-height: 95px;
+}
+
+.roundedCard .data--additional-construction .service-description .bullet__item:not(:first-child) {
+  margin-top: 0;
+}
+
+.roundedCard .data--additional-construction .sink-service {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  column-gap: 52px;
+  height: 272px;
+  padding-top: 20px;
+  border-top: 1px dashed #c5c5c5;
+  box-sizing: border-box;
+}
+
+.roundedCard .data--additional-construction .sink-service__options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.roundedCard .data--additional-construction .sink-service__options .service-price-row {
+  grid-template-columns: 150px 80px;
+  column-gap: 32px;
+}
+
+.roundedCard .data--additional-construction .sink-service__options .service-price-row:first-child {
+  padding-bottom: 20px;
+}
+
+.roundedCard .data--additional-construction .sink-service__options .service-price-row + .service-price-row {
+  height: 84px;
+  padding-top: 20px;
+  border-top: 1px dashed #c5c5c5;
+}
+
 .roundedCard .data__col .group:not(:first-child) {
   margin-top: 20px;
   padding-top: 20px;
@@ -589,6 +676,23 @@ body {
 
 .roundedCard .data .bullet__item:not(:first-child) {
   margin-top: 8px;
+}
+
+.content-list-wrap.type2 .content-list .detail-container .contractor-card .item-title {
+  line-height: 1.4;
+}
+
+.contractor-card .contractor-notices {
+  margin-top: 34px;
+}
+
+.content-list-wrap.type2 .content-list .contractor-card .contractor-notices .content-notice {
+  margin-top: 0;
+  line-height: 1.4;
+}
+
+.content-list-wrap.type2 .content-list .contractor-card .contractor-notices .notice-heading {
+  margin-top: 20px;
 }
 
 /* 1122 �섏젙1 ��*/
@@ -791,7 +895,7 @@ body {
   }
 
   .content-list {
-    padding: 46px 16px 32px;
+    padding: 44px 16px 32px;
   }
 
   .section04 {
@@ -801,7 +905,7 @@ body {
   .content-list .content-txt {
     text-align: center;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.4;
   }
 
   .content-list .content-txt::before {
@@ -814,7 +918,7 @@ body {
   .content-list .content-notice {
     text-align: center;
     font-size: 12px;
-    line-height: 1.2;
+    line-height: 1.4;
   }
 
   .content-list .content-notice + .content-notice {
@@ -846,7 +950,7 @@ body {
     padding-bottom: 36px;
     flex-direction: column;
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 1.4;
   }
 
   .content-list-wrap.type2 .content-list .detail-title span {
@@ -854,7 +958,7 @@ body {
     right: 0;
     bottom: 0;
     font-size: 12px;
-    line-height: 1.2;
+    line-height: 1.4;
   }
 
   .content-list-wrap.type2 .content-list .detail-container,
@@ -874,7 +978,7 @@ body {
   .content-list-wrap.type2 .content-list .detail-container .item-wrap .item-title {
     text-align: center;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.4;
   }
 
   .content-list-wrap.type2 .content-list .detail-container .item-desc {
@@ -892,7 +996,7 @@ body {
   }
 
   .content-list-wrap.type2 .content-list .detail-container .item-notice {
-    line-height: 1.2;
+    line-height: 1.4;
   }
 
   .content-list-wrap.type2 .content-list .detail-container .item-desc + .item-desc,
@@ -949,7 +1053,7 @@ body {
   .content-list-wrap.type2 .content-list .content-notice {
     margin-top: 8px;
     font-size: 12px;
-    line-height: 1.2;
+    line-height: 1.4;
   }
 
   .content-list-wrap.type2 .content-list .content-notice + .content-notice {
@@ -1067,8 +1171,155 @@ body {
     border-top: 0;
   }
 
+  .roundedCard .data--additional-construction .data__row--wide-label {
+    display: grid;
+    column-gap: 0;
+    min-height: 237px;
+  }
+
+  .roundedCard .data--additional-construction > .data__row:not(.data__row--service-group) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0;
+    row-gap: 16px;
+  }
+
+  .roundedCard .data--additional-construction > .data__row:not(.data__row--service-group) > .group {
+    grid-column: 1 / -1;
+  }
+
+  .roundedCard .data--additional-construction .data__row--wide-label > .group {
+    flex: 1 1 100%;
+    margin-left: 0;
+  }
+
+  .roundedCard .data--additional-construction .data__row:not(.data__row--service-group) > .group {
+    flex: 1 1 100%;
+    margin-left: 0;
+  }
+
+  .roundedCard .data--additional-construction .data__row--service-group {
+    display: block;
+  }
+
+  .roundedCard .data--additional-construction .service-price-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: auto;
+    padding-bottom: 0;
+  }
+
+  .roundedCard .data--additional-construction .service-price-row {
+    grid-template-columns: minmax(0, 1fr) auto;
+    column-gap: 16px;
+  }
+
+  .roundedCard .data--additional-construction .service-price-list > .service-price-row:first-child {
+    padding-bottom: 0;
+  }
+
+  .roundedCard .data--additional-construction .service-price-list > .service-price-row + .service-price-row {
+    height: auto;
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+  }
+
+  .roundedCard .data--additional-construction .sink-service {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+    margin-top: 0;
+    padding-top: 12px;
+    border-top: 0;
+  }
+
+  .roundedCard .data--additional-construction .service-price-list .service-price-row,
+  .roundedCard .data--additional-construction .sink-service__title {
+    line-height: 22px;
+  }
+
+  .roundedCard .data--additional-construction .sink-service__options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .roundedCard .data--additional-construction .sink-service__options .service-price-row {
+    grid-template-columns: minmax(0, 1fr) auto;
+    column-gap: 8px;
+  }
+
+  .roundedCard .data--additional-construction .sink-service__options .first::before {
+    content: '- ';
+  }
+
+  .roundedCard .data--additional-construction .sink-service__options .service-price-row:first-child {
+    padding-bottom: 0;
+  }
+
+  .roundedCard .data--additional-construction .sink-service__options .service-price-row + .service-price-row {
+    height: auto;
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+  }
+
+  .roundedCard .data--additional-construction .sink-option-detail {
+    display: inline-block;
+    padding-left: 8px;
+  }
+
+  .roundedCard .data--additional-construction .service-description {
+    margin-top: 24px;
+    width: 222.78125px;
+    min-height: 187px;
+    padding: 0;
+    border-top: 0;
+  }
+
+  .roundedCard .data--additional-construction .service-description .etc {
+    margin-top: 8px;
+  }
+
+  .roundedCard .data--additional-construction .service-description .bullet__item:not(:first-child) {
+    margin-top: 8px;
+  }
+
+  .content-list-wrap.type2 .content-list .detail-container .additional-construction-card .item-title {
+    line-height: 1.4;
+  }
+
   .roundedCard .data .bullet--split {
     display: block;
+  }
+
+  .contractor-card .contractor-notices {
+    margin-top: 8px;
+    word-break: break-word;
+  }
+
+  .contractor-card > .roundedCard {
+    padding-bottom: 28px;
+  }
+
+  .content-list-wrap.type2 .content-list .detail-container .contractor-card .item-title {
+    line-height: 1.4;
+  }
+
+  .content-list-wrap.type2 .content-list .contractor-card .contractor-notices .content-notice {
+    margin-top: 4px;
+    line-height: 16.8px;
+  }
+
+  .content-list-wrap.type2 .content-list .contractor-card .contractor-notices .content-notice:first-child {
+    margin-top: 0;
+  }
+
+  .content-list-wrap.type2 .content-list .contractor-card .contractor-notices .notice-heading {
+    margin-top: 15px;
   }
 
   /* // 1122 �섏젙2 �� */
@@ -1168,12 +1419,40 @@ td {
 @media screen and (max-width: 768px) {
   .content-table {
     width: 100%;
+    table-layout: fixed;
+  }
+
+  .content-table__col--drain {
+    width: 75.59375px;
+  }
+
+  .content-table__col--status {
+    width: 66.34375px;
+  }
+
+  .content-table__col--connector-yes {
+    width: 87.515625px;
+  }
+
+  .content-table__col--connector-no {
+    width: 86.546875px;
   }
 
   .content-table th,
   td {
     font-size: 14px;
     padding: 10px 22px;
+  }
+
+  .content-table .c1,
+  .content-table .c2 {
+    padding-right: 8px;
+    padding-left: 8px;
+    white-space: nowrap;
+  }
+
+  .content-table td {
+    word-break: keep-all;
   }
 }
 
@@ -1255,7 +1534,7 @@ td {
     font-size: 16px;
     line-height: 1.4;
   }
-  
+
   .help-title p {
     font-size: 20px;
     line-height: 1.4;
