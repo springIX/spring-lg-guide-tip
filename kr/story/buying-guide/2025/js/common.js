@@ -60,6 +60,7 @@ $(document).ready(function () {
   videoHandler(); // 영상 pause/play
   initTabAccessibility();
   initBlankLinkAccessibility();
+  initUsefulTipInAppBrowser();
   enableHorizontalDragScroll();
   verticalScrollTabHandler(); // 상품 탭 가로 스크롤 내비게이션
   $(".bubble-wrap .dot").on("click", function (e) {
@@ -132,6 +133,46 @@ function initBlankLinkAccessibility() {
     $link.attr("rel", relValues.join(" "));
   });
 }
+
+function openNewInAppBrowser(target) {
+  if (
+    window.vcui &&
+    vcui.detect &&
+    vcui.detect.isIOS &&
+    window.webkit &&
+    webkit.messageHandlers &&
+    webkit.messageHandlers.callbackHandler
+  ) {
+    const obj = {
+      command: "openNewInAppBrowser",
+      url: target.href,
+      titlebar_show: "Y",
+      bottombar_show: "N",
+    };
+    const jsonString = JSON.stringify(obj);
+    webkit.messageHandlers.callbackHandler.postMessage(jsonString);
+    return false;
+  }
+
+  if (window.android && android.openNewWebview) {
+    android.openNewWebview(target.href, true, false);
+    return false;
+  }
+
+  return true;
+}
+
+function initUsefulTipInAppBrowser() {
+  $(document).on(
+    "click",
+    ".buying-guide .useful-tip a[target='_blank']",
+    function () {
+      return openNewInAppBrowser(this);
+    },
+  );
+}
+
+window.openNewInAppBrowser = openNewInAppBrowser;
 
 function initTabAccessibility() {
   const $tabButtons = $("button[name=buying-guide-tab]");
@@ -553,7 +594,11 @@ function detailTableTopFix() {
     // 클론 테이블(헤더만)
     const $cloneWrap = $("<div class='clone-header-table-wrap' ></div>");
     const $cloneTbl = $("<table class='clone-header-table'></table>");
+    const tableStyle = $table.attr("style");
+    const $colgroup = $table.children("colgroup").first();
     const $cloneHead = $thead.clone();
+    if (tableStyle) $cloneTbl.attr("style", tableStyle);
+    if ($colgroup.length) $cloneTbl.append($colgroup.clone());
     $cloneTbl.append($cloneHead);
     $cloneWrap.append($cloneTbl);
     $wrap.append($cloneWrap);
@@ -618,16 +663,32 @@ function detailTableTopFix() {
 }
 
 function videoHandler() {
+  function updatePauseButtonLabel($button, isPaused) {
+    const label = isPaused ? "재생" : "일시정지";
+    $button.text(label).attr("aria-label", label);
+  }
+
+  function updateMuteButtonLabel($button, isMuted) {
+    const label = isMuted ? "음소거 해제" : "음소거";
+    $button.text(label).attr("aria-label", label);
+  }
+
   $("video").each(function () {
     const video = this;
     const $btnPause = $(this).siblings(".btn-pause");
+    const $btnMute = $(this).siblings(".btn-mute");
+
+    updatePauseButtonLabel($btnPause, video.paused);
+    updateMuteButtonLabel($btnMute, video.muted);
 
     video.addEventListener("playing", () => {
       $btnPause.removeClass("play"); // 재생 중 아이콘 표시
+      updatePauseButtonLabel($btnPause, false);
     });
 
     video.addEventListener("pause", () => {
       $btnPause.addClass("play"); // 멈춤 아이콘 표시
+      updatePauseButtonLabel($btnPause, true);
     });
   });
 
@@ -653,6 +714,7 @@ function videoHandler() {
     const muted = !video.muted;
     video.muted = muted;
     $(this).toggleClass("muted", muted);
+    updateMuteButtonLabel($(this), muted);
     if ($(this).parents("div").hasClass("media-des")) {
       $(this).toggleClass("lock", muted);
     }
