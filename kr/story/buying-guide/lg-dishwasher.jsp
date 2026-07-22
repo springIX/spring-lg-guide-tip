@@ -75,6 +75,7 @@
     <!-- // 이모션 추가 -->
   </head>
 
+
   <body>
     <c:import url="/WEB-INF/jsp/common/includes/googleBodyScript.jsp" charEncoding="utf-8" />
     <div class="wrap subRenewWrap subRenewWrap--share subRenewWrap--story">
@@ -136,7 +137,7 @@
             alt="주방 하부장에 빌트인된 LG 오브제컬렉션 식기세척기가 우아한 화이트 인테리어와 조화를 이루는 모습."
             class="mobile-only"
           />
-          <p class="note">
+          <p class="note note--pc-right">
             * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은
             다를 수 있습니다.
           </p>
@@ -183,9 +184,9 @@
                 >
                   <img
                     src="/kr/story/buying-guide/2025/img/dishwasher/img_P01_001_02.png"
-                    alt="열풍+스팀 식기세척기 제품 이미지"
+                    alt="빌트인 식기세척기 제품 이미지"
                   />
-                  <span><b>열풍+스팀</b>#살균 #건조</span>
+                  <span><b>빌트인</b>#열풍+스팀 #AI #깔끔설치</span>
                 </button>
                 <button
                   class="tab-img"
@@ -194,22 +195,10 @@
                   data-group="product-type"
                 >
                   <img
-                    src="/kr/story/buying-guide/2025/img/dishwasher/img_P01_001_03.png"
-                    alt="스팀 식기세척기 제품 이미지"
+                    src="/kr/story/buying-guide/2025/img/dishwasher/DFCF633J_tab.png"
+                    alt="카운터탑 식기세척기 제품 이미지"
                   />
-                  <span><b>스팀</b>#살균</span>
-                </button>
-                <button
-                  class="tab-img"
-                  name="buying-guide-tab"
-                  data-target="#product-type-3"
-                  data-group="product-type"
-                >
-                  <img
-                    src="/kr/story/buying-guide/2025/img/dishwasher/img_P01_001_04.png"
-                    alt="논스팀 식기세척기 제품 이미지"
-                  />
-                  <span><b>논스팀</b>#실속</span>
+                  <span><b>카운터탑</b>#최대용량카운터탑 #간편설치</span>
                 </button>
               </div>
             </div>
@@ -227,30 +216,34 @@
                     <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a
-                        href="https://www.lge.co.kr/category/dishwashers?filterProduct=AT0000001122:KY0000004032:01,AT0000000136:KY0000000219:01"
+                        href="https://wwwstg.lge.co.kr/dishwashers/dkgh988e"
                         target="_blank" rel="noopener"
                          title="새창열림"><span>LG 디오스 AI 오브제컬렉션 식기세척기</span></a
                       >
-                      <p>열풍+스팀<span></span>1등급</p>
+                      <p>빌트인<span></span>1등급</p>
                     </div>
                   </div>
                   <img
-                    src="/kr/story/buying-guide/2025/img/dishwasher/img_P01_001_05.jpg"
-                    alt="아이보리색 주방 가구의 정면 모습으로, 식기세척기가 빌트인되어 있고 위에는 대리석 조리대가 보입니다."
+                    src="/kr/story/buying-guide/2025/img/dishwasher/lineup_builtin_pc.jpg"
+                    alt="LG 디오스 AI 오브제컬렉션 식기세척기 DKGH988E가 주방 공간에 설치된 모습."
                     class="pc-only"
                   />
                   <img
-                    src="/kr/story/buying-guide/2025/img/dishwasher/img_M01_001_05.jpg"
-                    alt="아이보리색 주방 가구의 정면 모습으로, 식기세척기가 빌트인되어 있고 위에는 대리석 조리대가 보입니다."
+                    src="/kr/story/buying-guide/2025/img/dishwasher/lineup_builtin_mo.jpg"
+                    alt="LG 디오스 AI 오브제컬렉션 식기세척기 DKGH988E가 주방 공간에 설치된 모습."
                     class="mobile-only"
                   />
                 </div>
                 <div class="text-wrap">
-                  <h4>세척과 건조, 수납까지 책임지는 식기세척기</h4>
+                  <h4>자동 세제 투입부터 건조까지,<br />AI가 알아서 완성하는 식기세척기</h4>
                   <p>
-                    강력한 세척 날개와 트루스팀, 연수장치가 물 얼룩과 기름때,
-                    위생까지 말끔하게 케어하고 열풍건조로 남은 물기까지 제거해
-                    식기를 뽀송하게 관리할 수 있어요.
+                    빌트인으로 주방인테리어와 깔끔하게 맞추어<br class="mobile-only">
+                    설치 할 수 있습니다. <br>
+                    식기 오염도를 감지해 세척 코스를 자동으로<br class="mobile-only">
+                    설정하고, 필요한 만큼만 세제를 자동으로 투입해<br class="mobile-only">
+                    낭비를 줄여줍니다. 100℃ 고온 스팀과 연수장치로 기름때부터 물 얼룩까지 확실하게 제거하고,<br class="mobile-only">
+                    흡습·열풍 건조로 남은 물기까지 깔끔하게<br class="mobile-only">
+                    마무리 해 줍니다.
                   </p>
                 </div>
               </div>
@@ -259,51 +252,7 @@
                 name="product-type"
                 style="display: none"
               >
-                <div class="img-wrap">
-                  <div
-                    class="bubble-wrap"
-                    style="
-                      --pc-vertical: 56.8%;
-                      --mobile-left: 62.5%;
-                      --mobile-m-left: -30px;
-                    "
-                  >
-                    <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
-                    <div class="bubble">
-                      <a
-                        href="https://www.lge.co.kr/category/dishwashers?filterProduct=AT0000000136:KY0000000219:01,AT0000001122:KY0000000899:01"
-                        target="_blank" rel="noopener"
-                         title="새창열림"><span>LG 디오스 AI 오브제컬렉션 식기세척기</span></a
-                      >
-                      <p>스팀<span></span>1등급</p>
-                    </div>
-                  </div>
-                  <img
-                    src="/kr/story/buying-guide/2025/img/dishwasher/img_P01_001_06.jpg"
-                    alt="미니멀한 디자인의 주방으로, 크림색 수납장과 빌트인 식기세척기, 그리고 싱크대 수전이 보이는 공간입니다."
-                    class="pc-only"
-                  />
-                  <img
-                    src="/kr/story/buying-guide/2025/img/dishwasher/img_M01_001_06.jpg"
-                    alt="미니멀한 디자인의 주방으로, 크림색 수납장과 빌트인 식기세척기, 그리고 싱크대 수전이 보이는 공간입니다."
-                    class="mobile-only"
-                  />
-                </div>
-                <div class="text-wrap">
-                  <h4>유해세균 걱정없이 강력한 식기세척기</h4>
-                  <p>
-                    스팀이 깊숙이 스며들어 음식물 찌꺼기와 세균을 제거해 식기를
-                    새것처럼 깨끗하게 세척해줘요. 크고 작은 그릇을 유연하게
-                    배치해 공간을 효율적으로 활용할 수 있어요.
-                  </p>
-                </div>
-              </div>
-              <div
-                id="product-type-3"
-                name="product-type"
-                style="display: none"
-              >
-                <div class="img-wrap">
+                <div class="img-wrap img-wrap-countertop">
                   <div
                     class="bubble-wrap"
                     style="
@@ -315,38 +264,44 @@
                     <button type="button" class="dot" aria-label="제품 정보 보기"><span></span></button>
                     <div class="bubble">
                       <a
-                        href="https://www.lge.co.kr/category/dishwashers?filterProduct=AT0000000141:KY0000000103:01,AT0000000621:KY0000003361:01,AT0000001251:KY0000001212:03,AT0000001251:KY0000003642:03,AT0000001251:KY0000003643:03"
+                        href="https://wwwstg.lge.co.kr/dishwashers/dfcf633j"
                         target="_blank" rel="noopener"
                          title="새창열림"><span>LG 디오스 AI 오브제컬렉션 식기세척기</span></a
                       >
-                      <p>논스팀<span></span>1등급</p>
+                      <p>카운터탑<span></span>1등급</p>
                     </div>
                   </div>
                   <img
-                    src="/kr/story/buying-guide/2025/img/dishwasher/img_P01_001_07.jpg"
-                    alt="스테인리스 전면 패널을 가진 빌트인 식기세척기가 흰색 및 나무색 캐비닛으로 둘러싸인 주방에 설치되어 있습니다."
+                    src="/kr/story/buying-guide/2025/img/dishwasher/lineup_countertop_pc.jpg"
+                    alt="LG 디오스 카운터탑 식기세척기 DFCF633J 제품 이미지"
                     class="pc-only"
                   />
                   <img
-                    src="/kr/story/buying-guide/2025/img/dishwasher/img_M01_001_07.jpg"
-                    alt="스테인리스 전면 패널을 가진 빌트인 식기세척기가 흰색 및 나무색 캐비닛으로 둘러싸인 주방에 설치되어 있습니다."
+                    src="/kr/story/buying-guide/2025/img/dishwasher/lineup_countertop_mo.jpg"
+                    alt="LG 디오스 카운터탑 식기세척기 DFCF633J 제품 이미지"
                     class="mobile-only"
                   />
                 </div>
                 <div class="text-wrap">
-                  <h4>입체물살로 세척하는 실속형 식기세척기</h4>
+                  <h4>더 많이, 더 깨끗하게.<br />국내 최대 용량 카운터탑 식기세척기</h4>
                   <p>
-                    토네이도 세척날개가 강력한 물살을 뿜어내어 깨끗하게
-                    세척해줘요. 연수 장치가 물 얼룩을 줄이고 스마트 선반+가 식기
-                    크기에 맞게 조절되어 깔끔하게 정리할 수 있어요.
+                    카운터탑은 별도 설치 없이 싱크대 위에 올려놓고<br class="mobile-only">
+                    사용할 수 있습니다.<br class="mobile-only">
+                    28cm 프라이팬도 들어가는 넉넉한 공간으로<br class="mobile-only">
+                    한 번에 더 많은 그릇을 세척하고, 기름때부터<br class="mobile-only">
+                    물 얼룩까지 스팀으로 깨끗하게 제거한 뒤 건조까지 완료해 바로 꺼내 쓸 수 있습니다.<br class="mobile-only">
+                    트리플 세척날개로 빠르고 빈틈없이 세척하고,<br class="mobile-only">
+                    연수장치로 물 얼룩을 줄여주고, 2중 건조 방식으로 남은 물기를 빠르게 건조시켜줍니다.
                   </p>
                 </div>
               </div>
             </div>
-            <p class="note">
-              * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
-              스펙은 다를 수 있습니다.
-            </p>
+            <div class="guide-disclaimer guide-disclaimer--pc-right">
+              <p class="guide-disclaimer__item">
+                소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
+                스펙은 다를 수 있습니다.
+              </p>
+            </div>
             <div class="compare-wrap">
               <h3 class="section-title">
                 <b>대표 모델</b>을 한눈에 비교하고, <br class="pc-only" />내게
@@ -355,11 +310,12 @@
               <div
                 class="procuct-summary vertical-scroll-box"
                 id="procuct-summary"
-                style="--col-width: 20%; --table-width: 760px"
+                style="--col-width: 16.666%; --table-width: 920px"
               >
                 <div class="sticky-product-no">
                   <div class="inner">
                     <div class="inner2">
+                      <div>DKGH988E</div>
                       <div>DUE6BGE</div>
                       <div>DUE6EWL2E</div>
                       <div>DUE5MBL2E</div>
@@ -375,7 +331,7 @@
                     </caption>
                     <thead>
                       <tr class="procuct-name">
-                        <th scope="colgroup" colspan="2">
+                        <th scope="colgroup" colspan="3">
                           <h4>열풍+스팀 타입</h4>
                           <p>
                             스팀으로 유해세균을 제거하고 열풍으로 물기 없이
@@ -392,6 +348,7 @@
                         </th>
                       </tr>
                       <tr class="procuct-no">
+                        <th scope="col">DKGH988E</th>
                         <th scope="col">DUE6BGE</th>
                         <th scope="col">DUE6EWL2E</th>
                         <th scope="col">DUE5MBL2E</th>
@@ -401,6 +358,23 @@
                     </thead>
                     <tbody>
                       <tr>
+                        <td>
+                          <div class="procuct-img">
+                            <img
+                              src="/kr/story/buying-guide/2025/img/dishwasher/DKGH988E_table_front.png"
+                              alt="식기세척기 LG 디오스 AI 오브제컬렉션 식기세척기 (DKGH988E) 제품 이미지 정면"
+                              class="front"
+                            />
+                            <img
+                              src="/kr/story/buying-guide/2025/img/dishwasher/DKGH988E_table_side.png"
+                              alt="식기세척기 LG 디오스 AI 오브제컬렉션 식기세척기 (DKGH988E) 제품 이미지 좌측 측면 문열림"
+                              class="side"
+                            />
+                            <button class="btn-angle" name="btn-angle">
+                              다른 각도 보기
+                            </button>
+                          </div>
+                        </td>
                         <td>
                           <div class="procuct-img">
                             <img
@@ -488,6 +462,24 @@
                         </td>
                       </tr>
                       <tr class="procuct-spec">
+                        <td>
+                          <div class="spec-img">
+                            <img
+                              src="/kr/story/buying-guide/2025/img/dishwasher/ic48_01_steam.svg"
+                              alt="트루스팀"
+                            />
+                          </div>
+                          <p>
+                            100℃ 트루스팀
+                            <span class="des">
+                              <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                              <span class="bubble"
+                                >100℃ 미세스팀으로<br class="mobile-only" />
+                                유해세균 걱정없이</span
+                              >
+                            </span>
+                          </p>
+                        </td>
                         <td>
                           <div class="spec-img">
                             <img
@@ -665,100 +657,153 @@
                             </span>
                           </p>
                         </td>
-                      </tr>
-                      <tr class="procuct-spec">
                         <td>
                           <div class="spec-img">
                             <img
-                              src="/kr/story/buying-guide/2025/img/dishwasher/ic48_01_softner.svg"
-                              alt="연수장치"
+                              src="/kr/story/buying-guide/2025/img/dishwasher/ic48_01_wing.svg"
+                              alt="토네이도 세척날개"
                             />
                           </div>
                           <p>
-                            연수장치
+                            토네이도 세척날개
                             <span class="des">
                               <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
                               <span class="bubble"
-                                >석회질 물질을 감소시켜
-                                <br class="mobile-only" />물 얼룩 걱정없이</span
-                              >
-                            </span>
-                          </p>
-                        </td>
-                        <td>
-                          <div class="spec-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/dishwasher/ic48_01_softner.svg"
-                              alt="연수장치"
-                            />
-                          </div>
-                          <p>
-                            연수장치
-                            <span class="des">
-                              <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
-                              <span class="bubble"
-                                >석회질 물질을 감소시켜
-                                <br class="mobile-only" />물 얼룩 걱정없이</span
-                              >
-                            </span>
-                          </p>
-                        </td>
-                        <td>
-                          <div class="spec-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/dishwasher/ic48_01_softner.svg"
-                              alt="연수장치"
-                            />
-                          </div>
-                          <p>
-                            연수장치
-                            <span class="des">
-                              <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
-                              <span class="bubble"
-                                >석회질 물질을 감소시켜
-                                <br class="mobile-only" />물 얼룩 걱정없이</span
-                              >
-                            </span>
-                          </p>
-                        </td>
-                        <td>
-                          <div class="spec-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/dishwasher/ic48_01_softner.svg"
-                              alt="연수장치"
-                            />
-                          </div>
-                          <p>
-                            연수장치
-                            <span class="des">
-                              <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
-                              <span class="bubble"
-                                >석회질 물질을 감소시켜
-                                <br class="mobile-only" />물 얼룩 걱정없이</span
-                              >
-                            </span>
-                          </p>
-                        </td>
-                        <td>
-                          <div class="spec-img">
-                            <img
-                              src="/kr/story/buying-guide/2025/img/dishwasher/ic48_01_softner.svg"
-                              alt="연수장치"
-                            />
-                          </div>
-                          <p>
-                            연수장치
-                            <span class="des">
-                              <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
-                              <span class="bubble"
-                                >석회질 물질을 감소시켜
-                                <br class="mobile-only" />물 얼룩 걱정없이</span
+                                >입체 물살을 만들어 구석구석 깨끗하게</span
                               >
                             </span>
                           </p>
                         </td>
                       </tr>
                       <tr class="procuct-spec">
+                        <td>
+                          <div class="spec-img">
+                            <img
+                              src="/kr/story/buying-guide/2025/img/dishwasher/ic48_01_softner.svg"
+                              alt="연수장치"
+                            />
+                          </div>
+                          <p>
+                            연수장치
+                            <span class="des">
+                              <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                              <span class="bubble"
+                                >석회질 물질을 감소시켜
+                                <br class="mobile-only" />물 얼룩 걱정없이</span
+                              >
+                            </span>
+                          </p>
+                        </td>
+                        <td>
+                          <div class="spec-img">
+                            <img
+                              src="/kr/story/buying-guide/2025/img/dishwasher/ic48_01_softner.svg"
+                              alt="연수장치"
+                            />
+                          </div>
+                          <p>
+                            연수장치
+                            <span class="des">
+                              <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                              <span class="bubble"
+                                >석회질 물질을 감소시켜
+                                <br class="mobile-only" />물 얼룩 걱정없이</span
+                              >
+                            </span>
+                          </p>
+                        </td>
+                        <td>
+                          <div class="spec-img">
+                            <img
+                              src="/kr/story/buying-guide/2025/img/dishwasher/ic48_01_softner.svg"
+                              alt="연수장치"
+                            />
+                          </div>
+                          <p>
+                            연수장치
+                            <span class="des">
+                              <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                              <span class="bubble"
+                                >석회질 물질을 감소시켜
+                                <br class="mobile-only" />물 얼룩 걱정없이</span
+                              >
+                            </span>
+                          </p>
+                        </td>
+                        <td>
+                          <div class="spec-img">
+                            <img
+                              src="/kr/story/buying-guide/2025/img/dishwasher/ic48_01_softner.svg"
+                              alt="연수장치"
+                            />
+                          </div>
+                          <p>
+                            연수장치
+                            <span class="des">
+                              <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                              <span class="bubble"
+                                >석회질 물질을 감소시켜
+                                <br class="mobile-only" />물 얼룩 걱정없이</span
+                              >
+                            </span>
+                          </p>
+                        </td>
+                        <td>
+                          <div class="spec-img">
+                            <img
+                              src="/kr/story/buying-guide/2025/img/dishwasher/ic48_01_softner.svg"
+                              alt="연수장치"
+                            />
+                          </div>
+                          <p>
+                            연수장치
+                            <span class="des">
+                              <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                              <span class="bubble"
+                                >석회질 물질을 감소시켜
+                                <br class="mobile-only" />물 얼룩 걱정없이</span
+                              >
+                            </span>
+                          </p>
+                        </td>
+                        <td>
+                          <div class="spec-img">
+                            <img
+                              src="/kr/story/buying-guide/2025/img/dishwasher/ic48_01_softner.svg"
+                              alt="연수장치"
+                            />
+                          </div>
+                          <p>
+                            연수장치
+                            <span class="des">
+                              <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                              <span class="bubble"
+                                >석회질 물질을 감소시켜
+                                <br class="mobile-only" />물 얼룩 걱정없이</span
+                              >
+                            </span>
+                          </p>
+                        </td>
+                      </tr>
+                      <tr class="procuct-spec">
+                        <td>
+                          <div class="spec-img">
+                            <img
+                              src="/kr/story/buying-guide/2025/img/dishwasher/ic48_01_AIcourse.svg"
+                              alt="AI 자동코스"
+                            />
+                          </div>
+                          <p>
+                            AI 자동코스
+                            <span class="des">
+                              <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                              <span class="bubble"
+                                >식기 오염도에 맞춘<br class="mobile-only" />
+                                세척 코스로 스마트하게</span
+                              >
+                            </span>
+                          </p>
+                        </td>
                         <td>
                           <div class="spec-img">
                             <img
@@ -901,6 +946,28 @@
                               src="/kr/story/buying-guide/2025/img/dishwasher/ic48_01_door.svg"
                               alt="자동문열림"
                             />
+                            <img
+                              src="/kr/story/buying-guide/2025/img/dishwasher/ic48_01_heat.svg"
+                              alt="열풍건조"
+                            />
+                          </div>
+                          <p>
+                            자동문열림 + 열풍건조
+                            <span class="des">
+                              <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                              <span class="bubble"
+                                >세척 후 열풍으로 <br class="mobile-only" />
+                                물기 없이 뽀송하게</span
+                              >
+                            </span>
+                          </p>
+                        </td>
+                        <td>
+                          <div class="spec-img">
+                            <img
+                              src="/kr/story/buying-guide/2025/img/dishwasher/ic48_01_door.svg"
+                              alt="자동문열림"
+                            />
                           </div>
                           <p>
                             자동문열림
@@ -951,6 +1018,28 @@
                         </td>
                       </tr>
                       <tr class="procuct-spec">
+                        <td>
+                          <div class="spec-img">
+                            <img
+                              src="/kr/story/buying-guide/2025/img/dishwasher/ic48_01_smartplus.svg"
+                              alt="스마트 선반"
+                            />
+                            <img
+                              src="/kr/story/buying-guide/2025/img/dishwasher/ic48_01_rail.svg"
+                              alt="스마트 선반 +"
+                            />
+                          </div>
+                          <p>
+                            스마트 선반 +
+                            <span class="des">
+                              <button class="info pc-only" aria-label="제품 내용 상세보기"></button>
+                              <span class="bubble"
+                                >3단 선반과 레일로 <br class="mobile-only" />
+                                식기 수납을 편리하게</span
+                              ></span
+                            >
+                          </p>
+                        </td>
                         <td>
                           <div class="spec-img">
                             <img
@@ -1053,6 +1142,14 @@
                       <tr class="product-btn">
                         <td>
                           <a
+                            href="https://wwwstg.lge.co.kr/dishwashers/dkgh988e"
+                            target="_blank" rel="noopener"
+                            class="btn-product"
+                             title="새창열림">제품 보러 가기</a
+                          >
+                        </td>
+                        <td>
+                          <a
                             href="https://www.lge.co.kr/category/dishwashers?subCateId=CT50220010&filterProduct=AT0000001122:KY0000004032:01"
                             target="_blank" rel="noopener"
                             class="btn-product"
@@ -1102,7 +1199,7 @@
                   스펙을 명확하게 비교해서 보여드려요.
                 </h4>
                 <div class="table-wrap vertical-scroll-box">
-                  <table>
+                  <table style="min-width: 980px">
                     <caption class="blind">
                       LG 식기세척기 모델 라인업 스펙 비교표 - 열풍+스팀 타입, 스팀 타입, 논스팀 타입의 용량, 세척, 건조, 편의 기능과 제품 링크 정보를 비교합니다.
                     </caption>
@@ -1115,22 +1212,27 @@
                       <col />
                       <col />
                       <col />
+                      <col />
                     </colgroup>
                     <thead>
                       <tr>
-                        <th scope="colgroup" colspan="2" rowspan="2">모델라인업</th>
-                        <th scope="colgroup" colspan="2">열풍+스팀 타입</th>
+                        <th scope="colgroup" colspan="2" rowspan="2">모델 라인업</th>
+                        <th scope="colgroup" colspan="3">열풍+스팀 타입</th>
                         <th scope="colgroup" colspan="2">스팀 타입</th>
                         <th scope="colgroup" colspan="2">논스팀 타입</th>
                       </tr>
                       <tr>
                         <th scope="col" class="th2">
+                          DKGH988E
+                          <p>마이크로<br class="mobile-only" />버블샷으로<br class="mobile-only" />더 강력해진<br class="mobile-only" />트루세척 2.0</p>
+                        </th>
+                        <th scope="col" class="th2">
                           D*E6**E
-                          <p>위생, 편의 기능 모두 갖춘열풍건조 프리미엄</p>
+                          <p>위생, 편의 기능<br class="mobile-only" />모두 갖춘<br class="mobile-only" />열풍건조 프리미엄</p>
                         </th>
                         <th scope="col" class="th2">
                           D*E6**L*E
-                          <p>실속있는 열풍건조 프리미엄</p>
+                          <p>실속있는 열풍건조<br class="mobile-only" />프리미엄</p>
                         </th>
                         <th scope="col" class="th2">
                           D*E5**E, D*E5**L*E
@@ -1138,15 +1240,15 @@
                         </th>
                         <th scope="col" class="th2">
                           D*E4**E
-                          <p>12인용으로 실속있는 트루스팀</p>
+                          <p>12인용으로<br class="mobile-only" />실속있는 트루스팀</p>
                         </th>
                         <th scope="col" class="th2">
                           D*E1**LE
-                          <p>필수 기능만 담은 합리적인 선택</p>
+                          <p>필수 기능만 담은<br class="mobile-only" />합리적인 선택</p>
                         </th>
                         <th scope="col" class="th2">
                           DUB61TBE
-                          <p>심플하게 시작하는 식기세척기 라이프</p>
+                          <p>심플하게 시작하는<br class="mobile-only" />식기세척기 라이프</p>
                         </th>
                       </tr>
                     </thead>
@@ -1164,264 +1266,232 @@
                             #dedede 49.99%,
                             #8c8c8c 102.76%
                           ); /* 스테인리스 */
+                          --product-color7: #111; /* 에센스 블랙 */
                         "
                       >
                         <th scope="row">디자인</th>
                         <th scope="row" class="th2">컬러</th>
                         <td>
-                          <p class="color-chip">
-                            <span
-                              class="chip"
-                              style="background: var(--product-color1)"
-                            ></span
-                            >네이처 베이지
-                          </p>
-                          <p class="color-chip">
-                            <span
-                              class="chip"
-                              style="background: var(--product-color2)"
-                            ></span
-                            >네이처 에센스 화이트
-                          </p>
-                          <p class="color-chip">
-                            <span
-                              class="chip"
-                              style="background: var(--product-color3)"
-                            ></span
-                            >솔리드 그린
-                          </p>
+                          <p class="color-chip"><span class="chip" style="background: var(--product-color1)"></span>네이처베이지</p>
+                          <p class="color-chip"><span class="chip" style="background: var(--product-color2)"></span>네이처 에센스 화이트</p>
+                          <p class="color-chip"><span class="chip" style="background: var(--product-color7)"></span>에센스 블랙</p>
                         </td>
                         <td>
-                          <p class="color-chip">
-                            <span
-                              class="chip"
-                              style="background: var(--product-color1)"
-                            ></span
-                            >네이처 베이지
-                          </p>
-                          <p class="color-chip">
-                            <span
-                              class="chip"
-                              style="background: var(--product-color2)"
-                            ></span
-                            >네이처 에센스 화이트
-                          </p>
-                          <p class="color-chip">
-                            <span
-                              class="chip"
-                              style="background: var(--product-color4)"
-                            ></span
-                            >네이처 프라임 실버
-                          </p>
+                          <p class="color-chip"><span class="chip" style="background: var(--product-color1)"></span>네이처 베이지</p>
+                          <p class="color-chip"><span class="chip" style="background: var(--product-color2)"></span>네이처 에센스 화이트</p>
+                          <p class="color-chip"><span class="chip" style="background: var(--product-color3)"></span>솔리드 그린</p>
                         </td>
                         <td>
-                          <p class="color-chip">
-                            <span
-                              class="chip"
-                              style="background: var(--product-color1)"
-                            ></span
-                            >네이처 베이지
-                          </p>
-                          <p class="color-chip">
-                            <span
-                              class="chip"
-                              style="background: var(--product-color5)"
-                            ></span
-                            >맨해튼 미드나잇
-                          </p>
-                          <p class="color-chip">
-                            <span
-                              class="chip"
-                              style="background: var(--product-color6)"
-                            ></span
-                            >스테인리스
-                          </p>
+                          <p class="color-chip"><span class="chip" style="background: var(--product-color1)"></span>네이처 베이지</p>
+                          <p class="color-chip"><span class="chip" style="background: var(--product-color2)"></span>네이처 에센스 화이트</p>
+                          <p class="color-chip"><span class="chip" style="background: var(--product-color4)"></span>네이처 프라임 실버</p>
                         </td>
                         <td>
-                          <p class="color-chip">
-                            <span
-                              class="chip"
-                              style="background: var(--product-color1)"
-                            ></span
-                            >네이처 베이지
-                          </p>
+                          <p class="color-chip"><span class="chip" style="background: var(--product-color1)"></span>네이처 베이지</p>
+                          <p class="color-chip"><span class="chip" style="background: var(--product-color5)"></span>맨해튼 미드나잇</p>
+                          <p class="color-chip"><span class="chip" style="background: var(--product-color6)"></span>스테인리스</p>
                         </td>
                         <td>
-                          <p class="color-chip">
-                            <span
-                              class="chip"
-                              style="background: var(--product-color1)"
-                            ></span
-                            >네이처 베이지
-                          </p>
+                          <p class="color-chip"><span class="chip" style="background: var(--product-color1)"></span>네이처 베이지</p>
                         </td>
                         <td>
-                          <p class="color-chip">
-                            <span
-                              class="chip"
-                              style="background: var(--product-color6)"
-                            ></span
-                            >스테인리스
-                          </p>
+                          <p class="color-chip"><span class="chip" style="background: var(--product-color1)"></span>네이처 베이지</p>
+                        </td>
+                        <td>
+                          <p class="color-chip"><span class="chip" style="background: var(--product-color6)"></span>스테인리스</p>
                         </td>
                       </tr>
                       <tr>
-                        <th scope="rowgroup" rowspan="2">기본 사양</th>
+                        <th scope="rowgroup" rowspan="3">기본 사양</th>
                         <th scope="row" class="th2">용량</th>
                         <td>14인용</td>
                         <td>14인용</td>
                         <td>14인용</td>
+                        <td>14인용</td>
                         <td>12인용</td>
                         <td>12인용</td>
                         <td>12인용</td>
                       </tr>
                       <tr>
-                        <th scope="row" class="th2">설치타입</th>
-                        <td>
-                          빌트인 걸레받이 <br />10cm, 15cm <br />프리스탠딩
-                        </td>
-                        <td>빌트인 걸레받이 15cm</td>
-                        <td>빌트인 걸레받이 15cm 프리스탠딩</td>
-                        <td>빌트인 걸레받이 15cm</td>
-                        <td>빌트인 걸레받이 15cm</td>
-                        <td>빌트인 걸레받이 15cm</td>
+                        <th scope="row" class="th2" rowspan="2">설치타입</th>
+                        <td>빌트인 / 프리스탠딩 겸용</td>
+                        <td>빌트인 / 프리스탠딩 겸용</td>
+                        <td>빌트인 전용</td>
+                        <td>빌트인 전용</td>
+                        <td>빌트인 전용</td>
+                        <td>빌트인 전용</td>
+                        <td>빌트인 전용</td>
                       </tr>
                       <tr>
-                        <th scope="rowgroup" rowspan="4">세척</th>
-                        <th scope="row" class="th2">
-                          100℃ <br class="mobile-only" />트루스팀
-                        </th>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="n">X</td>
-                        <td class="n">X</td>
+                        <td>걸레받이 높이 10cm, 15cm</td>
+                        <td>걸레받이 높이 10cm, 15cm</td>
+                        <td>걸레받이 높이 15cm</td>
+                        <td>걸레받이 높이 15cm</td>
+                        <td>걸레받이 높이 15cm</td>
+                        <td>걸레받이 높이 15cm</td>
+                        <td>걸레받이 높이 15cm</td>
                       </tr>
                       <tr>
-                        <th scope="row" class="th2">
-                          토네이도 <br class="mobile-only" />세척날개
-                        </th>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
+                        <th scope="rowgroup" rowspan="6">세척</th>
+                        <th scope="row" class="th2">100℃ <br>트루스팀</th>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="th2">토네이도 <br>세척날개</th>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="th2">마이크로<br>버블샷</th>
+                        <td class="y">적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
                       </tr>
                       <tr>
                         <th scope="row" class="th2">연수장치</th>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
                       </tr>
                       <tr>
-                        <th scope="row" class="th2">
-                          AI <br class="mobile-only" />자동코스
-                        </th>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="n">X</td>
+                        <th scope="row" class="th2">AI <br>자동코스</th>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="n">미적용</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="th2">자동세제</th>
+                        <td class="y">적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
                       </tr>
                       <tr>
                         <th scope="rowgroup" rowspan="2">건조</th>
+                        <th scope="row" class="th2">자동 문열림 <br>건조</th>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="n">미적용</td>
+                      </tr>
+                      <tr>
                         <th scope="row" class="th2">열풍 건조</th>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="n">X</td>
-                        <td class="n">X</td>
-                        <td class="n">X</td>
-                        <td class="n">X</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
                       </tr>
                       <tr>
-                        <th scope="row" class="th2">
-                          자동 문열림 <br class="mobile-only" />건조
-                        </th>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="n">X</td>
-                      </tr>
-                      <tr>
-                        <th scope="rowgroup" rowspan="4">선반/편의</th>
+                        <th scope="rowgroup" rowspan="5">선반/편의</th>
                         <th scope="row" class="th2">3단 선반</th>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="n">X</td>
-                        <td class="n">X</td>
-                        <td class="n">X</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
                       </tr>
                       <tr>
-                        <th scope="row" class="th2">
-                          글라이드 <br class="mobile-only" />레일
-                        </th>
-                        <td class="y">O</td>
-                        <td class="n">X</td>
-                        <td class="n">X</td>
-                        <td class="n">X</td>
-                        <td class="n">X</td>
-                        <td class="n">X</td>
+                        <th scope="row" class="th2">글라이드 <br>레일</th>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="th2">보틀 세척</th>
+                        <td class="y">적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
                       </tr>
                       <tr>
                         <th scope="row" class="th2">내부조명</th>
-                        <td class="y">O</td>
-                        <td class="n">X</td>
-                        <td class="n">X</td>
-                        <td class="n">X</td>
-                        <td class="n">X</td>
-                        <td class="n">X</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
                       </tr>
                       <tr>
                         <th scope="row" class="th2">음성안내</th>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="n">X</td>
-                        <td class="n">X</td>
-                        <td class="n">X</td>
-                        <td class="n">X</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
+                        <td class="n">미적용</td>
                       </tr>
                       <tr>
-                        <th scope="row">스마트 <br class="mobile-only" />기능</th>
+                        <th scope="row">스마트 <br>기능</th>
                         <th scope="row" class="th2">UP 가전</th>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="y">O</td>
-                        <td class="n">X</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="y">적용</td>
+                        <td class="n">미적용</td>
                       </tr>
                       <tr>
                         <th scope="row">성능 효율</th>
-                        <th scope="row" class="th2">
-                          에너지소비<br class="mobile-only" />효율등급
-                        </th>
-                        <td>1등급</td>
-                        <td>1등급</td>
-                        <td>1등급</td>
-                        <td>1등급</td>
-                        <td>1등급</td>
-                        <td>4등급</td>
+                        <th scope="row" class="th2">에너지소비<br>효율등급</th>
+                        <td>1등급</td><td>1등급</td><td>1등급</td><td>1등급</td><td>1등급</td><td>1등급</td><td>4등급</td>
                       </tr>
                     </tbody>
                   </table>
                 </div>
-                <p class="des">
-                  * 이 콘텐츠는 LG 디오스 식기세척기의 특정 라인업을 기반으로
-                  제품 스펙을 간추려 설명한 것으로, 고객의 이해를 돕기 위해
-                  제작되었습니다.<br />
-                  * 세부 스펙은 각 모델에 따라 다를 수 있어 제품 상세 페이지에서
-                  별도로 확인이 필요합니다.<br />
-                  * 음성안내의 경우 DUE6PFL3E, DUE6BGLE, DUE6BGL3E 모델에는
-                  적용되어 있지 않습니다.
+                <p class="des asterisk-note-list">
+                  <span class="asterisk-note-list__item">이 콘텐츠는 LG 디오스 식기세척기의 특정 라인업을 기반으로<br class="mobile-only" />제품 스펙을 간추려 설명한 것으로,
+                    고객의 이해를 돕기 위해
+                    제작되었습니다.</span>
+                  <span class="asterisk-note-list__item">세부 스펙은 각 모델에 따라 다를 수 있어 제품 상세 페이지에서<br class="mobile-only" />별도로 확인이
+                    필요합니다.</span>
+                  <span class="asterisk-note-list__item">음성안내의 경우 DUE6PFL3E, DUE6BGLE, DUE6BGL3E<br class="mobile-only" />모델에는 적용되어 있지
+                    않습니다.</span>
+                  <span class="asterisk-note-list__item">DKGH988E은 AI 자동세척코스가 제품 디스플레이에 기재된<br class="mobile-only" /> 기본 코스이나 나머지 기존 모델들은 UP가전으로 업데이트 시 <br class="mobile-only" /> 사용 가능합니다.</span>
                 </p>
               </div>
             </div>
@@ -1437,28 +1507,20 @@
               주방을 업그레이드해줄 식기세척기의 핵심 기능을 만나보세요.
             </h3>
             <div class="tab-wrap">
-              <button
-                class="active"
-                name="buying-guide-tab"
-                data-group="buying-point"
-                data-target="#buying-point-1"
-              >
-                설치 및 용량
-              </button>
-              <button
-                name="buying-guide-tab"
-                data-target="#buying-point-2"
-                data-group="buying-point"
-              >
-                세척 기능
-              </button>
-              <button
-                name="buying-guide-tab"
-                data-target="#buying-point-3"
-                data-group="buying-point"
-              >
-                건조 기능
-              </button>
+              <div class="vertical-scroll-box">
+                <button class="active" name="buying-guide-tab" data-group="buying-point" data-target="#buying-point-1">
+                  설치 및 용량
+                </button>
+                <button name="buying-guide-tab" data-target="#buying-point-ai" data-group="buying-point">
+                  AI 자동 세척
+                </button>
+                <button name="buying-guide-tab" data-target="#buying-point-2" data-group="buying-point">
+                  세척 기능
+                </button>
+                <button name="buying-guide-tab" data-target="#buying-point-3" data-group="buying-point">
+                  건조 기능
+                </button>
+                </div>
             </div>
             <div class="tab-content">
               <div id="buying-point-1" name="buying-point">
@@ -1490,10 +1552,10 @@
                       <div class="content">
                         <h5>빌트인</h5>
                         <p>
-                          싱크대 하부장에 설치하는 방식으로 가구장에 딱 맞춘 듯
-                          깔끔하게 설치할 수 있어요. 일반 걸레받이용(15cm), 낮은
-                          걸레받이용(10cm) 두 가지가 있어 싱크대 걸레받이 높이에
-                          맞게 설치가 가능해요.
+                          싱크대 하부장에 설치하는 방식으로 가구장에 <br class="mobile-only">딱 맞춘 듯
+                          깔끔하게 설치할 수 있어요. <br> 일반 걸레받이용(15cm), 낮은
+                          걸레받이용(10cm)<br class="mobile-only"> 두 가지가 있어 싱크대 걸레받이 높이에
+                          맞게<br class="mobile-only"> 설치가 가능해요.
                         </p>
                         <div
                           class="btn-wrap"
@@ -1514,8 +1576,14 @@
                         </div>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/dishwasher/img_P01_101_01.jpg"
-                            alt="식기세척기 LG 디오스 AI 오브제컬렉션 식기세척기 (DUE6BGE.AKOR) 메인이미지 1, 화이트 컬러의 빌트인 식기세척기, 심플한 주방 인테리어와 조화롭게 배치됨."
+                            src="/kr/story/buying-guide/2025/img/dishwasher/install_type_builtin_pc.jpg"
+                            alt="화이트 주방 하부장에 빌트인 식기세척기가 깔끔하게 설치된 모습."
+                            class="pc-only"
+                          />
+                          <img
+                            src="/kr/story/buying-guide/2025/img/dishwasher/install_type_builtin_mo.jpg"
+                            alt="화이트 주방 하부장에 빌트인 식기세척기가 깔끔하게 설치된 모습."
+                            class="mobile-only"
                           />
                         </div>
                       </div>
@@ -1544,8 +1612,46 @@
                         </div>
                         <div class="img">
                           <img
-                            src="/kr/story/buying-guide/2025/img/dishwasher/img_P01_101_02.jpg"
+                            src="/kr/story/buying-guide/2025/img/dishwasher/install_type_freestanding_pc.jpg"
                             alt="화이트 컬러의 프리스탠딩 식기세척기가 흰색 조리대 아래에 설치되어 있으며, 검은색 상판과 디지털 디스플레이가 장착되어 있습니다."
+                            class="pc-only"
+                          />
+                          <img
+                            src="/kr/story/buying-guide/2025/img/dishwasher/install_type_freestanding_mo.jpg"
+                            alt="화이트 컬러의 프리스탠딩 식기세척기가 흰색 조리대 아래에 설치되어 있으며, 검은색 상판과 디지털 디스플레이가 장착되어 있습니다."
+                            class="mobile-only"
+                          />
+                        </div>
+                      </div>
+                      <div class="content">
+                        <h5>카운터탑</h5>
+                        <p>
+                          빌트인 설치 없이 싱크대 위에 올려놓고<br class="mobile-only"> 사용할 수 있어 설치
+                          부담이 없습니다. <br>설치 고민은 줄인 카운터탑 타입으로<br class="mobile-only"> 여유로운
+                          식사 후 시간을 즐기세요.
+                        </p>
+                        <div
+                          class="btn-wrap"
+                          style="--btn-width: 184px; --btn-m-width: 156px"
+                        >
+                          <a
+                            class="btn-product"
+                            href="https://wwwstg.lge.co.kr/dishwashers/dfcf633j"
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
+                          >
+
+                        </div>
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/dishwasher/install_type_countertop_pc.jpg"
+                            alt="싱크대 위에 카운터탑 식기세척기가 설치된 모습."
+                            class="pc-only"
+                          />
+                          <img
+                            src="/kr/story/buying-guide/2025/img/dishwasher/install_type_countertop_mo.jpg"
+                            alt="싱크대 위에 카운터탑 식기세척기가 설치된 모습."
+                            class="mobile-only"
                           />
                         </div>
                       </div>
@@ -1561,18 +1667,18 @@
                         <h5>14인용</h5>
                         <p>
                           스마트 선반으로 공간을 효율적으로 활용해 최대 110개의
-                          식기를 한 번에 세척할 수 있습니다. 12인용 대비 수납
+                          식기를 한 번에 세척할 수 있습니다. <br class="pc-only">12인용 대비 수납
                           개수가 16개 더 많아 대가족이나 손님 접대가 많은 가정에
                           적합합니다.
                         </p>
-                        <div class="btn-wrap">
+                        <!-- <div class="btn-wrap">
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/dishwashers?subCateId=CT50220010"
                             target="_blank" rel="noopener"
                              title="새창열림">제품 보러 가기</a
                           >
-                        </div>
+                        </div> -->
 
                         <div class="img">
                           <img
@@ -1585,23 +1691,53 @@
                         <h5>12인용</h5>
                         <p>
                           합리적인 가격과 실속 있는 구성으로 꼭 필요한 기능만
-                          선택할 수 있습니다. 최대 96개의 식기를 수납할 수 있어
+                          선택할 수 있습니다. <br class="pc-only">최대 96개의 식기를 수납할 수 있어
                           일반적인 가정에서 사용하기에 충분합니다.
                         </p>
-                        <div class="btn-wrap">
+                        <!-- <div class="btn-wrap">
                           <a
                             class="btn-product"
                             target="_blank" rel="noopener"
                             href="https://www.lge.co.kr/category/dishwashers?filterProduct=AT0000000141:KY0000000103:01"
                              title="새창열림">제품 보러 가기</a
                           >
-                        </div>
+                        </div> -->
                         <div class="img">
                           <img
                             src="/kr/story/buying-guide/2025/img/dishwasher/img_P01_101_05.jpg"
                             alt="식기세척기 내부에서 손이 식기 선반을 당겨 내고 있으며, 위쪽 선반에는 흰색 컵이, 아래쪽 선반에는 흰색 접시가 놓여 있습니다."
                           />
                         </div>
+                      </div>
+                      <div class="content">
+                        <h5>8인용</h5>
+                        <p>
+                          6인용 대비 최대 16개의 식기를 더 수납할 수 있는 국내 최대
+                          용량의 카운터탑은<br class="pc-only"> 28cm 프라이팬, 31.4cm 높이의 큰 식기,
+                          4인 가족 식사 그릇도 한 번에 담을 수 있어<br class="pc-only"> 설거지가 더욱
+                          편리합니다.
+                        </p>
+                        <!-- <div class="btn-wrap">
+                          <a
+                            class="btn-product"
+                            href="https://wwwstg.lge.co.kr/dishwashers/dfcf633j"
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
+                          >
+                        </div> -->
+                        <div class="img">
+                          <img
+                            src="/kr/story/buying-guide/2025/img/dishwasher/capacity_8_servings_pc.jpg"
+                            alt="카운터탑 식기세척기 내부에 프라이팬과 식기가 수납된 모습."
+                            class="pc-only"
+                          />
+                          <img
+                            src="/kr/story/buying-guide/2025/img/dishwasher/capacity_8_servings_mo.jpg"
+                            alt="카운터탑 식기세척기 내부에 프라이팬과 식기가 수납된 모습."
+                            class="mobile-only"
+                          />
+                        </div>
+                      
                       </div>
                     </div>
                   </div>
@@ -1616,11 +1752,9 @@
                       </h6>
                       <p class="tip-text">
                         인테리어를 중시하는 신혼부부나 리모델링 가정에는 주방
-                        가구와 조화를 이루는 빌트인 타입이 적합합니다. 이사나
-                        구조 변경이 잦다면 별도 시공 없이 설치 가능한 프리스탠딩
-                        타입이 효율적입니다. 식기 사용량이 많으면 14인용, 외식이
-                        잦거나 1~2인 가구는 12인용으로 충분합니다. 육아 가정은
-                        자주 세척하며 위생 관리가 쉬운 기능을 고려하세요.
+                        가구와 조화를 이루는 빌트인 타입이 적합합니다. 이사나 구조 변경이 잦다면 별도 시공 없이 설치 가능한 프리스탠딩 타입이 효율적입니다.
+                        식기 사용량이 많으면 14인용, 일반 가정은 12인용, 설치 부담을
+                        줄이고 싶다면 8인용 카운터탑을 고려하세요.
                       </p>
                     </div>
                     <div class="img">
@@ -1639,6 +1773,185 @@
                 </div>
               </div>
               <div
+                id="buying-point-ai"
+                name="buying-point"
+                style="display: none"
+              >
+                <div class="subtab-wrap">
+                  <div class="subtab-btn">
+                    <button
+                      class="active"
+                      name="buying-guide-tab"
+                      data-target="#buying-point-ai-1"
+                      data-group="buying-point-ai"
+                    >
+                      AI 자동 세척
+                    </button>
+                    <button
+                      name="buying-guide-tab"
+                      data-target="#buying-point-ai-2"
+                      data-group="buying-point-ai"
+                    >
+                      자동세제 투입
+                    </button>
+                  </div>
+                  <div class="subtab-content">
+                    <div
+                      class="point-wrap"
+                      id="buying-point-ai-1"
+                      name="buying-point-ai"
+                    >
+                      <h4 class="hide">AI 자동 세척</h4>
+                      <div class="content">
+                        <h5>AI 자동 세척</h5>
+                        <p>
+                          식기의 오염도에 따라 예비 세척 4단계, 본세척 2단계,
+                          헹굼 4단계의 총 32단계 세척 코스를 자동으로 설정하는
+                          기능입니다. <br class="pc-only">세척 상황에 맞게 자동으로 설정되어, 정밀하고
+                          편안한 식기 세척을 경험해 보세요.
+                        </p>
+                        <!-- <div class="btn-wrap">
+                          <a
+                            class="btn-product"
+                            href="https://wwwstg.lge.co.kr/dishwashers/dkgh988e"
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
+                          >
+                        </div> -->
+                        <div class="img video-contain">
+                          <button class="btn-pause">일시멈춤</button>
+                          <video autoplay playsinline loop muted src="/kr/story/buying-guide/2025/video/dishwasher/ai_auto_wash.mp4"></video>
+                        </div>
+                        <p class="des asterisk-note-list">
+                          <span class="asterisk-note-list__item">소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.</span>
+                        </p>
+                        <button class="btn-collapse-toggle">
+                          <span class="asterisk-toggle-label">
+                            AI 자동세척 / 자동 세제 AI코스 세제량 조절 /
+                            효율적인 세척 성능 / 동작시간 54분, 에너지 92%, <br class="pc-only">
+                            물 사용량 14.9L 절감 시험 결과
+                          </span>
+                        </button>
+                        <div class="collapse-content">
+                          <p class="asterisk-note-list">
+                            <b>[AI 자동세척]</b>
+                            <span class="asterisk-note-list__item">AI 자동 기능 선택 시 처음 표출되는 소요시간은 기본 설정 시간이며, 오염도 센싱 후 감지된 오염도에 따라 계속 잔여시간이 변경될 수
+                              있습니다.</span>
+                          </p>
+                          <p class="asterisk-note-list">
+                            <b>[자동 세제 AI코스 세제량 조절]</b>
+                            <span class="asterisk-note-list__item">AI 자동 코스 최초 오염도 4단계에 따라 각각 세제 투입량 15ml, 20ml, 25ml, 30ml 투입 진행합니다.</span>
+                            <span class="asterisk-note-list__item">세제함을 사용하고 싶지 않을 시 해당 기능 미사용 가능하며, 세부 가이드는 매뉴얼 참조 해주세요.</span>
+                            <span class="asterisk-note-list__item">일반 주방세제를 사용할 경우 고장의 원인이 될 수 있으므로 사용하지 말아주세요.</span>
+                            <span class="asterisk-note-list__item">사용하던 세제의 종류가 변경 되었을 때, 세제통 내부를 청소해주세요.</span>
+                          </p>
+                          <p class="asterisk-note-list">
+                            <b>[효율적인 세척 성능]</b>
+                            <span class="asterisk-note-list__item">세척 코스 32단계 : 예비 세척시 4단계, 본 세척시 2단계, 헹굼 시 4단계의 조합으로 32단계의 세척 코스 설정 가능</span>
+                            <span class="asterisk-note-list__item">효율관리기자재 운용규정의 식기세척기 14인용 기준 오염도 매우 낮음 감지 시, 오염도 매우 높음 감지 시 보다 동작시간 54분 단축, 에너지
+                              소비량 92%, 물 사용량 14.9L 절약합니다.</span>
+                            <span class="asterisk-note-list__item">AI 자동 기능 선택 시 처음 표출되는 소요시간은 기본 설정 시간이며, 오염도 센싱 후 감지된 오염도에 따라 계속 잔여시간이
+                              변경됩니다.</span>
+                          </p>
+                          <p class="asterisk-note-list">
+                            <b>[동작시간 54분, 에너지 92%, 물 사용량 14.9L 절감 시험 결과]</b>
+                            <span class="asterisk-note-list__item">시험모델 : DKGH988E모델 2대</span>
+                            <span class="asterisk-note-list__item">시험기관 : TUV 라인란드(2026.06)</span>
+                            <span class="asterisk-note-list__item">시험조건 : DKGH988E모델 2대에 오염도 매우 낮은 조건과 오염도 매우 높은 조건 식기 로딩하여 각각 AI 자동 세척 코스로 세척 후
+                              동작시간, 사용된 에너지 사용량, 물 사용량 측정</span>
+                          </p>
+                          <button class="btn-collapse-close">접기</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="point-wrap"
+                      id="buying-point-ai-2"
+                      name="buying-point-ai"
+                      style="display: none"
+                    >
+                      <h4 class="hide">자동세제 투입</h4>
+                      <div class="content">
+                        <h5>자동세제 투입</h5>
+                        <p>
+                          자동세제 투입 기능은 액체세제를 한 달에 1~2회 보충하면,
+                          AI 자동 세척 시 센싱된 오염도에 맞춰 적정량의 세제가
+                          자동으로 투입됩니다. <br class="pc-only">세제를 매번 넣을 필요 없이 낭비를
+                          줄여 편리하고 효율적인 세척이 가능해요. <br class="pc-only">기능 On/Off를
+                          통해 고체 세제도 사용할 수 있어 원하는 세제 타입에 맞게
+                          활용할 수 있습니다.
+                        </p>
+                        <!-- <div class="btn-wrap">
+                          <a
+                            class="btn-product"
+                            href="https://wwwstg.lge.co.kr/dishwashers/dkgh988e"
+                            target="_blank" rel="noopener"
+                             title="새창열림">제품 보러 가기</a
+                          >
+                        </div> -->
+                        <div class="img video-contain">
+                          <button class="btn-pause">일시멈춤</button>
+                          <video autoplay playsinline loop muted src="/kr/story/buying-guide/2025/video/dishwasher/auto_detergent.mp4"></video>
+                        </div>
+                        <p class="des asterisk-note-list">
+                          <span class="asterisk-note-list__item">소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.</span>
+                        </p>
+                        <button class="btn-collapse-toggle">
+                          <span class="asterisk-toggle-label">자동세제 AI코스 세제량 조절</span>
+                        </button>
+                        <div class="collapse-content">
+                          <p class="asterisk-note-list">
+                            <b>[자동세제 AI코스 세제량 조절]</b>
+                            <span class="asterisk-note-list__item">AI 자동 코스 최초 오염도 4단계에 따라 각각 세제 투입량 15ml, 20ml, 25ml, 30ml 투입 진행합니다.</span>
+                            <span class="asterisk-note-list__item">AI 자동 코스 이외의 코스 사용시에는 15ml, 20ml, 25ml, 30ml, 35ml 중 투입량을 설정하시면 해당 양만큼
+                              투입됩니다.</span>
+                            <span class="asterisk-note-list__item">세제함을 사용하고 싶지 않을 시 해당 기능 미사용 가능하며, 세부 가이드는 매뉴얼 참조 해주세요.</span>
+                            <span class="asterisk-note-list__item">일반 주방세제를 사용할 경우 고장의 원인이 될 수 있으므로 사용하지 말아주세요.</span>
+                            <span class="asterisk-note-list__item">사용하던 세제의 종류가 변경 되었을 때, 세제통 내부를 청소해주세요.</span>
+                          </p>
+                          <button class="btn-collapse-close">접기</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="point-tip">
+                  <h5>이런 포인트도 살펴보면 좋아요!</h5>
+                  <div class="tip-content">
+                    <div class="content">
+                      <p class="tag">
+                        #아이있는집 #안심세척 #위생관리 #시간절약
+                      </p>
+                      <h6 class="tip-title">
+                        아이 식기까지 안심하고 맡길 수 있는 위생 세척으로
+                        확실하게
+                      </h6>
+                      <p class="tip-text">
+                        아이 식기부터 가족의 주방용품까지 위생에 민감한 가정에게
+                        꼭 맞는 기능이에요. 고온 스팀으로 눈에 보이지 않는
+                        유해세균까지 꼼꼼히 제거해 안심할 수 있고, 매일 반복되는
+                        세척과 관리도 훨씬 효율적으로 도와줍니다. 표면 오염은
+                        물론 내부까지 청결하게 관리해 위생적인 환경을 오래
+                        유지할 수 있으며, 간편한 조작과 자동 관리 기능으로
+                        불필요한 시간과 노력을 줄여줍니다.
+                      </p>
+                    </div>
+                    <div class="img">
+                      <img src="/kr/story/buying-guide/2025/img/dishwasher/img_P01_101_07.jpg"
+                        alt="식기세척기 내부에서 물이 뿌려지고, 상단 선반에 놓여 있는 접시와 유리잔에 물방울이 맺혀 있는 모습." class="pc-only" />
+                      <img src="/kr/story/buying-guide/2025/img/dishwasher/img_M01_101_07.jpg"
+                        alt="식기세척기 내부에서 물이 뿌려지고, 상단 선반에 놓여 있는 접시와 유리잔에 물방울이 맺혀 있는 모습." class="mobile-only" />
+                    </div>
+                  </div>
+                </div>
+                <div class="guide-disclaimer guide-disclaimer--pc-right">
+                  <p class="guide-disclaimer__item">
+                    소비자의 이해를 돕기 위해 연출된 이미지와 영상이며, 제품별 색상 및
+                    스펙은 다를 수 있습니다.
+                  </p>
+                </div>
+              </div>
+              <div
                 id="buying-point-2"
                 name="buying-point"
                 style="display: none"
@@ -1648,17 +1961,24 @@
                     <button
                       class="active"
                       name="buying-guide-tab"
-                      data-target="#buying-point-2-1"
+                      data-target="#buying-point-2-4"
                       data-group="buying-point-2"
                     >
-                      100℃ 트루 스팀
+                      트루세척 2.0
                     </button>
                     <button
                       name="buying-guide-tab"
                       data-target="#buying-point-2-2"
                       data-group="buying-point-2"
                     >
-                      토네이도 세척 날개
+                      토네이도 세척날개 & 마이크로 버블샷
+                    </button>
+                    <button
+                      name="buying-guide-tab"
+                      data-target="#buying-point-2-1"
+                      data-group="buying-point-2"
+                    >
+                      100℃ 트루 스팀
                     </button>
                     <button
                       name="buying-guide-tab"
@@ -1671,111 +1991,70 @@
                   <div class="subtab-content">
                     <div
                       class="point-wrap"
-                      id="buying-point-2-1"
+                      id="buying-point-2-4"
                       name="buying-point-2"
                     >
-                      <h4 class="hide">100℃ 트루 스팀</h4>
+                      <h4 class="hide">트루세척 2.0</h4>
                       <div class="content">
-                        <h5>100℃ 트루 스팀</h5>
+                        <h5>트루세척 2.0</h5>
                         <p>
-                          고온수와 미세스팀이 함께 분사되는 세척코스로
-                          유해세균과 바이러스를 99.999% 제거합니다. <br />
-                          상부,하부,전면 스팀으로 식기를 꼼꼼하게 집중 케어 해
-                          줍니다.
+                          트루세척 2.0으로 마이크로 버블샷이 적용되어 업그레이드 된
+                          토네이도 세척날개와 언제나 안심인 100℃ 강력한 트루스팀으로
+                          강화된 세척 성능을 경험할 수 있습니다.<br class="pc-only"> 연수장치를 통해
+                          물 얼룩 발생까지 줄여 한층 업그레이드 된 세척 기능을
+                          만나보세요.
                         </p>
-                        <div class="btn-wrap">
+                        <!-- <div class="btn-wrap">
                           <a
                             class="btn-product"
-                            href="https://www.lge.co.kr/category/dishwashers?filterProduct=AT0000001251:KY0000000056:03"
+                            href="https://wwwstg.lge.co.kr/dishwashers/dkgh988e"
                             target="_blank" rel="noopener"
                              title="새창열림">제품 보러 가기</a
                           >
-                        </div>
-                        <div class="img">
+                        </div> -->
+                        <div class="img video-contain">
                           <button class="btn-pause">일시멈춤</button>
-                          <video
-                            autoplay
-                            playsinline
-                            loop
-                            muted
-                            src="/kr/story/buying-guide/2025/video/dishwasher/vid_P01_001_01.mp4"
-                          ></video>
+                          <video autoplay playsinline loop muted src="/kr/story/buying-guide/2025/video/dishwasher/true_wash_20.mp4"></video>
                         </div>
+                        <p class="des asterisk-note-list">
+                          <span class="asterisk-note-list__item">소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.</span>
+                        </p>
                         <button class="btn-collapse-toggle">
-                          <span
-                            >* 100℃ 트루스팀 / 유해세균, 바이러스 99.999%
-                            제거</span
+                          <span class="asterisk-toggle-label">강력한 세척 / 100℃ 트루스팀 / 유해세균, 바이러스
+                            99.999% 제거 / 물 얼룩 제거 실험</span
                           >
                         </button>
                         <div class="collapse-content">
-                          <p>
-                            <b>[100℃ 트루스팀]</b><br />
-                            * 트루스팀은 물을 끓이는 가열 장치 및 분사노즐을
-                            구비하여 제품 내부에 스팀을 공급하는 기술임<br />
-                            * 스팀 발생기 내의 스팀 온도는 100℃이며 제품 사용 시
-                            분사노즐을 통과한 스팀과 내부 식기의 온도는 낮아질
-                            수 있음<br />
-                            * 100℃ 트루스팀 적용 여부는 모델별로 상이함
+                          <p class="asterisk-note-list">
+                            <b>[강력한 세척]</b>
+                            <span class="asterisk-note-list__item">업그레이드된 토네이도 세척날개가 적용된 해당 모델의 규격 코스인 ‘일반’코스의 세척 점수는 14인용 기준 91.5점, 기존 토네이도 세척날개가
+                              적용된 자사 D**6***모델 의 ‘일반’코스 규격의 세척점수는 14인용 기준 88.6점으로 업그레이드된 토네이도 세척날개 모델의 세척 점수가 더 높음(한국에너지공단 효율관리제도 등록 기준)</span>
                           </p>
-                          <p>
-                            <b>[유해세균, 바이러스 99.999% 제거]</b><br />
-                            * 대장균, 살모넬라, 리스테리아[KTR S마크 인증,
-                            2020.3], 황색포도상구균, 장염 비브리오균, 녹농균,
-                            폐렴막대균,메티실린 내성 황색포도상구균[KTR
-                            실험결과, 2020.6~7],<br />
-                            Enteroccoccus faecalis(엔테로코커스 페칼리스),
-                            Candida albicans(칸디다 알비칸스),
-                            VRE(반코마이신내성장알균), Bacillus cereus(바실러스
-                            세레우스), Bacillus subtilis(바실러스
-                            서브틸리스),<br />
-                            Yersinia enterocolitica(여시니아 엔테로콜리티카),
-                            Shigella(쉬겔라), Citrobacter freundii(시트로박터
-                            프레운디)[KTR 실험결과 2020.8~10]<br />
-                            Aeromonas hydrophilla(아에로모나스 하이드로필라),
-                            Pseudomonas fluorescens(슈도모나스 플루오레센스),
-                            Staphylococcus warneri(스테필로코커스 와르네리),
-                            Streptococcus mutans(스트렙토코크스 뮤탄스)[KTR
-                            실험결과, 2021.8]<br />
-                            : 밥그릇, 국그릇 용기에 균주 접종 후 식기 바구니에
-                            적재하여 표준(+고온살균/스팀) 코스 동작 후 생균
-                            감소율 확인<br />
-                            * 장관출혈성대장균(O157:H7), 노로바이러스, A형 간염
-                            바이러스(세계김치연구소 실험결과, 2019.9)<br />
-                            : 노로바이러스는 휴먼 노로바이러스의 대체 미생물인
-                            뮤린 노로바이러스 결과임, 유리, 도자기, 플라스틱,
-                            스테인리스 스틸 재질의 용기에 균주 및 바이러스 접종
-                            후 상/하단 식기바구니에 적재하여
-                            표준(+고온살균/스팀) 코스<br />
-                            동작 후 생균 감소율 확인<br />
-                            * 클로스트리디움 퍼프린젠스(인터텍 실험결과,
-                            2020.8)<br />
-                            : 밥그릇, 국그릇 용기에 균주 접종 후 식기 바구니에
-                            적재하여 표준(+고온살균/스팀) 코스 동작 후 생균
-                            감소율 확인<br />
-                            * HCoV-229E (휴먼코로나)[전북대학교 인수공통전염병
-                            연구소 실험결과, 2020.7]<br />
-                            : 코로나 바이러스의 일정으로 신종 코로나
-                            바이러스(COVID-19)에 대한 실험이 아님, 유리, 도자기,
-                            플라스틱, 스테인리스 스틸 재질의 용기에 균주 및
-                            바이러스 접종 후 상/하단 식기바구니에 적재하여
-                            표준(+고온살균/스팀) 코스 동작 후 생균 감소율
-                            확인<br />
-                            * A/H1N1(인플루엔자A)[고려대학교 의료원 실험 결과,
-                            2021.1]<br />
-                            : 유리, 도자기, 플라스틱, 스테인리스 스틸 재질의
-                            용기에 균주 및 바이러스 접종 후 상/하단 식기바구니에
-                            적재하여 표준(+고온살균/스팀) 코스 동작 후 생균
-                            감소율 확인<br />
-                            * Enterobacter cloaca(엔테로박터 클로아케),
-                            Cronobacter sakaii(크로노박터 사카자키)[KCL
-                            실험결과, 2021.8~9]<br />
-                            : 밥그릇, 국그릇 용기에 균주 접종 후 식기 바구니에
-                            적재하여 표준(+고온살균/스팀) 코스 동작 후 생균
-                            감소율 확인<br />
-                            * 실험모델의 표준, 고온살균 코스와 D*E*** 모델의
-                            1시간, 살균 코스는 동일한 코스임<br />
-                            * 실험결과로 실제 사용 코스와 환경에 따라 결과는
-                            달라질 수 있음
+                          <p class="asterisk-note-list">
+                            <b>[100℃ 트루스팀]</b>
+                            <span class="asterisk-note-list__item">트루스팀은 물을 끓이는 가열 장치 및 분사노즐을 구비하여 제품 내부에 스팀을 공급하는 기술임</span>
+                            <span class="asterisk-note-list__item">스팀 발생기 내의 스팀 온도는 100℃이며 제품 사용 시 분사노즐을 통과한 스팀과 내부 식기의 온도는 낮아질 수 있음</span>
+                            <span class="asterisk-note-list__item">100℃ 트루스팀 적용 여부는 모델별로 상이함</span>
+                            <span class="asterisk-note-list__item">트루스팀은 스팀 옵션을 선택해야만 작동됩니다.</span>
+                          </p>
+                          <p class="asterisk-note-list">
+                            <b>[유해세균, 바이러스 99.999% 제거]</b>
+                            <span class="asterisk-note-list__item">시험균: 대장균, 살모넬라, 리스테리아, 황색포도상구균, 녹농균, 폐렴막대균 6종</span>
+                            <span class="asterisk-note-list__item">시험기관 : KTR(2026.03), KOTITI(2026.03) 두 개 기관 검증</span>
+                            <span class="asterisk-note-list__item">시험방법 : 밥그릇, 국그릇 용기에 균주 접종 후 식기 바구니에 적재하여 39분(+살균/스팀) 코스 동작 후 생균 감소율 확인</span>
+                            <span class="asterisk-note-list__item">실험결과로 실제 사용 코스와 환경에 따라 결과는 달라질 수 있음</span>
+                          </p>
+                          <p class="asterisk-note-list">
+                            <b>[물 얼룩 제거 실험]</b>
+                            <span class="asterisk-note-list__item">실험모델 : DKGH988E모델 2EA</span>
+                            <span class="asterisk-note-list__item">실험조건 : 강력코스 + 100℃ 트루스팀 + 연수장치 사용 기준</span>
+                            <span class="asterisk-note-list__item">실험방법 : 연수장치 + 스팀 옵션 동시 미적용/적용 조건, 전체 식기 111개 중 투명 식기(접시 6개, 컵 6개) 포함하여 세척 후 물
+                              자국 평가</span>
+                            <span class="asterisk-note-list__item">물경도: 250ppm 기준</span>
+                            <span class="asterisk-note-list__item">연수장치 미적용 조건의 경우 Resin 없는 연수장치를 사용</span>
+                            <span class="asterisk-note-list__item">실험결과 : 연수장치 + 스팀옵션 적용 시 물 얼룩 평균 28점으로 미적용(168점) 대비 최대 83% 감소</span>
+                            <span class="asterisk-note-list__item">실험기관 : TUV 라인란드(2026.5)</span>
+                            <span class="asterisk-note-list__item">실험 결과로 실제 사용 코스와 사용 환경에 따라 결과는 달라질 수 있음</span>
                           </p>
                           <button class="btn-collapse-close">접기</button>
                         </div>
@@ -1787,45 +2066,121 @@
                       name="buying-point-2"
                       style="display: none"
                     >
-                      <h4 class="hide">토네이도 세척 날개</h4>
+                      <h4 class="hide">토네이도 세척날개 & 마이크로 버블샷</h4>
                       <div class="content">
-                        <h5>토네이도 세척 날개</h5>
+                        <h5>토네이도 세척날개</h5>
                         <p>
-                          양방향으로 회전하는 4개의 날개와 좌우 각도로 움직이는
-                          2개의 멀티모션 날개로 빈틈없이 구석구석 세척합니다.
-                          토네이도 세척날개를 중심으로 총 54개의 입체물살이
-                          빠르고 강력한 세척을 완성할 수 있습니다.
+                          토네이도 세척날개의 입체 물살 노즐이 다양한 각도로 세척수를
+                          분사해 <br class="pc-only">식기 전체에 물살을 고르게 전달합니다.<br class="pc-only"> 총 54개의
+                          물살이 동시에 퍼져 남은 오염까지 깨끗하게 씻어냅니다.
                         </p>
-                        <div class="btn-wrap">
+                        <div class="img video-contain">
+                          <button class="btn-pause">일시멈춤</button>
+                          <video autoplay playsinline loop muted
+                            src="/kr/story/buying-guide/2025/video/dishwasher/tornado_wash_blade.mp4"></video>
+                        </div>
+                        <p class="des asterisk-note-list">
+                          <span class="asterisk-note-list__item">소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및 스펙은 다를 수 있습니다.</span>
+                        </p>
+                        <button class="btn-collapse-toggle">
+                          <span class="asterisk-toggle-label">강력해진 물줄기 / 54개의 입체물살</span>
+                        </button>
+                        <div class="collapse-content">
+                          <p class="asterisk-note-list">
+                            <b>[강력해진 물줄기]</b>
+                            <span class="asterisk-note-list__item">업그레이드된 토네이도 세척날개가 적용된 해당 모델의 규격 코스인 ‘일반’코스의 세척 점수는 14인용 기준 91.5점, 기존 토네이도
+                              세척날개가 적용된 자사 D**6***모델 의 ‘일반’코스 규격의 세척점수는 14인용 기준 88.6점으로 업그레이드된 토네이도 세척날개 모델의 세척 점수가 더 높음(한국에너지공단 효율관리제도 등록
+                              기준)</span>
+                          </p>
+                          <p class="asterisk-note-list">
+                            <b>[54개 입체물살]</b>
+                            <span class="asterisk-note-list__item">54개 입체물살은 상부 스프링클러, 중간 와이드 세척날개, 하부 토네이도 세척날개의 총 토출구수를 의미합니다.</span>
+                            <span class="asterisk-note-list__item">세척날개의 세척 프로그램 상 54개의 토출구에서 물살이 동시에 분사되지 않습니다.</span>
+                          </p>
+                          <button class="btn-collapse-close">접기</button>
+                        </div>
+                        </div>
+                        <div class="content">
+                          <h5>마이크로 버블샷</h5>
+                          <p>
+                          마이크로 버블샷에서 미세한 에어버블을 분사해 세척력을
+                          높였습니다.<br class="pc-only"> 더 강력해진 세척으로 식기에 남은 오염을 제거해요.
+                          </p>
+                          <div class="img video-contain">
+                            <button class="btn-pause">일시멈춤</button>
+                            <video autoplay playsinline loop muted
+                              src="/kr/story/buying-guide/2025/video/dishwasher/micro_bubble_shot.mp4"></video>
+                          </div>
+                          <p class="des asterisk-note-list">
+                            <span class="asterisk-note-list__item">소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.</span>
+                          </p>
+                          <button class="btn-collapse-toggle">
+                            <span class="asterisk-toggle-label">마이크로 버블샷</span>
+                            </button>
+                            <div class="collapse-content">
+                            <p class="asterisk-note-list">
+                              <b>[마이크로 버블샷]</b>
+                              <span class="asterisk-note-list__item">마이크로 버블은 하부 날개에서 만들어지며, 상기 이미지는 이해를 돕기 위해 연출된 이미지입니다.</span>
+                            </p>
+                          <button class="btn-collapse-close">접기</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="point-wrap"
+                      id="buying-point-2-1"
+                      name="buying-point-2"
+                      style="display: none"
+                    >
+                      <h4 class="hide">100℃ 트루 스팀</h4>
+                      <div class="content">
+                        <h5>100℃ 트루 스팀</h5>
+                        <p>
+                          100℃ 트루스팀은 물을 끓이는 가열 장치와 분사 노즐로
+                          생성된 100℃ 스팀을<br class="pc-only"> 제품 내부에 공급해 눌러붙은 음식물을
+                          불려줍니다. <br class="pc-only">고온수와 미세 스팀을 함께 분사하는 세척코스로
+                          유해 세균과 바이러스도 99.999%까지 깨끗하게 제거할 수 있어요.
+                        </p>
+                        <!-- <div class="btn-wrap">
                           <a
                             class="btn-product"
-                            href="https://www.lge.co.kr/category/dishwashers?filterProduct=AT0000001251:KY0000001212:03"
+                            href="https://www.lge.co.kr/category/dishwashers?filterProduct=AT0000001251:KY0000000056:03"
                             target="_blank" rel="noopener"
                              title="새창열림">제품 보러 가기</a
                           >
-                        </div>
-                        <div class="img">
+                        </div> -->
+                        <div class="img video-contain">
                           <button class="btn-pause">일시멈춤</button>
                           <video
                             autoplay
                             playsinline
                             loop
                             muted
-                            src="/kr/story/buying-guide/2025/video/dishwasher/vid_P01_101_02.mp4"
+                            src="/kr/story/buying-guide/2025/video/dishwasher/true_steam_100.mp4"
                           ></video>
                         </div>
+                        <p class="des asterisk-note-list">
+                          <span class="asterisk-note-list__item">소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.</span>
+                        </p>
                         <button class="btn-collapse-toggle">
-                          <span>* 54개 입체물살</span>
+                          <span class="asterisk-toggle-label">100℃ 트루스팀 / 유해세균, 바이러스 99.999%
+                            제거</span
+                          >
                         </button>
                         <div class="collapse-content">
-                          <p>
-                            * 54개 입체물살은 상부 스프링클러, 중간 와이드
-                            세척날개, 하부 토네이도 세척날개의 총 토출구수를
-                            의미함<br />
-                            * 세척날개가 정회전, 역회전하면서 물을 분사시켜
-                            세척되므로, 세척날개의 세척프로그램 상 54개의
-                            토출구에서 물살이 동시에 분사되지 않음<br />
-                            * 이해를 돕기위해 연출된 이미지입니다.
+                          <p class="asterisk-note-list">
+                            <b>[100℃ 트루스팀]</b>
+                            <span class="asterisk-note-list__item">트루스팀은 물을 끓이는 가열 장치 및 분사노즐을 구비하여 제품 내부에 스팀을 공급하는 기술임</span>
+                            <span class="asterisk-note-list__item">스팀 발생기 내의 스팀 온도는 100℃이며 제품 사용 시 분사노즐을 통과한 스팀과 내부 식기의 온도는 낮아질 수 있음</span>
+                            <span class="asterisk-note-list__item">100℃ 트루스팀 적용 여부는 모델별로 상이함</span>
+                            <span class="asterisk-note-list__item">트루스팀은 스팀 옵션을 선택해야만 작동됩니다.</span>
+                          </p>
+                          <p class="asterisk-note-list">
+                            <b>[유해세균, 바이러스 99.999% 제거]</b>
+                            <span class="asterisk-note-list__item">시험균 : 대장균, 살모넬라, 리스테리아, 황색포도상구균, 녹농균, 폐렴막대균 6종</span>
+                            <span class="asterisk-note-list__item">시험기관 : KTR(2026.03), KOTITI(2026.03) 두 개 기관 검증</span>
+                            <span class="asterisk-note-list__item">시험방법 : 밥그릇, 국그릇 용기에 균주 접종 후 식기 바구니에 적재하여 39분(+살균/스팀) 코스 동작 후 생균 감소율 확인</span>
+                            <span class="asterisk-note-list__item">실험결과로 실제 사용 코스와 환경에 따라 결과는 달라질 수 있음</span>
                           </p>
                           <button class="btn-collapse-close">접기</button>
                         </div>
@@ -1841,55 +2196,47 @@
                       <div class="content">
                         <h5>연수 장치</h5>
                         <p>
-                          국내 식기세척기 브랜드 중 유일하게 연수장치 적용으로
-                          세척수의 석회지 물질을 감소시켜 트루스팀과 함께 사용할
-                          경우 물 얼룩을 최대 87% 줄일 수 있습니다.
+                          국내 식기세척기 브랜드 중 유일하게 세척수의 석회질 물질을
+                          감소시키는 연수장치를 적용해 물 얼룩을 최대 83% 줄일 수
+                          있습니다. <br class="pc-only">연수 장치를 효과적으로 사용하고 싶은 경우에는
+                          사용 지역의 물 경도에 맞춰 주기적으로 소금을 보충해 주세요.
                         </p>
-                        <div class="btn-wrap">
+                        <!-- <div class="btn-wrap">
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/dishwashers?filterProduct=AT0000001251:KY0000003642:03"
                             target="_blank" rel="noopener"
                              title="새창열림">제품 보러 가기</a
                           >
+                        </div> -->
+                        <div class="img video-contain">
+                          <button class="btn-pause">일시멈춤</button>
+                          <video autoplay playsinline loop muted src="/kr/story/buying-guide/2025/video/dishwasher/water_softener.mp4"></video>
                         </div>
-                        <div class="img">
-                          <img
-                            src="/kr/story/buying-guide/2025/img/dishwasher/img_P01_101_06.jpg"
-                            alt="와인잔을 손으로 잡고 있는 모습이 보이며, 잔의 중앙에 세로로 선이 그어져 있습니다. 왼쪽 절반은 얼룩이 있는 상태이고, 오른쪽 절반은 깨끗하게 닦인 상태입니다. 배경은 어두운 색상입니다."
-                          />
-                        </div>
+                        <p class="des asterisk-note-list">
+                          <span class="asterisk-note-list__item">소비자의 이해를 돕기 위해 연출된 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.</span>
+                        </p>
                         <button class="btn-collapse-toggle">
-                          <span
-                            >* 국내 브랜드 유일 연수장치 / 물 얼룩 제거
-                            실험</span
+                          <span class="asterisk-toggle-label">물 얼룩 제거
+                            실험 / 국내 브랜드 유일 연수장치 </span
                           >
                         </button>
                         <div class="collapse-content">
-                          <p>
-                            <b>[국내 브랜드 유일 연수장치]</b><br />
-                            * 국립전파연구원 홈페이지에 등록된 동급
-                            식기세척기(국산, 가정용, 12인용 이상) 기준(2024.03)
+                        <p class="asterisk-note-list">
+                          <b>[물 얼룩 제거 실험]</b>
+                          <span class="asterisk-note-list__item">실험모델 : DKGH988E모델 2EA</span>
+                          <span class="asterisk-note-list__item">실험조건 : 강력코스 + 100℃ 트루스팀 + 연수장치 사용 기준</span>
+                          <span class="asterisk-note-list__item">실험방법 : 연수장치 + 스팀 옵션 동시 미적용/적용 조건, 전체 식기 111개 중 투명 식기(접시 6개, 컵 6개) 포함하여 세척 후 물
+                            자국 평가</span>
+                          <span class="asterisk-note-list__item">물경도 : 250ppm 기준</span>
+                          <span class="asterisk-note-list__item">연수장치 미적용 조건의 경우 Resin 없는 연수장치를 사용</span>
+                          <span class="asterisk-note-list__item">실험결과 : 연수장치 + 스팀옵션 적용 시 물 얼룩 평균 28점으로 미적용(168점) 대비 최대 83% 감소</span>
+                          <span class="asterisk-note-list__item">실험기관 : TUV 라인란드(2026.5)</span>
+                          <span class="asterisk-note-list__item">실험 결과로 실제 사용 코스와 사용 환경에 따라 결과는 달라질 수 있음</span>
                           </p>
-                          <p>
-                            <b>[물 얼룩 제거 실험]</b><br />
-                            * 실험모델 : DFB22*(실험모델과 D*E*** 모델의
-                            연수장치, 스팀 성능은 동일함)<br />
-                            * 실험조건 : 표준코스 + 100℃ 트루스팀 + 연수장치
-                            사용 기준<br />
-                            * 실험방법 : 연수장치 + 스팀 옵션 동시 미적용/적용
-                            조건, 전체 식기 64개 중 투명 식기(접시 6개, 컵 6개)
-                            포함하여 세척 후 물 자국 평가,<br />
-                            물경도 100ppm 기준, 연수장치 적용 조건의 경우 Test
-                            후 다음 시험 전 이온수지 재생 절차 진행 후 실험
-                            진행함<br />
-                            * 실험결과 : 연수장치 + 스팀옵션 적용 시 물 얼룩
-                            15개로 미적용(물 얼룩 122개) 대비 최대 87% 감소<br />
-                            * 실험기관 : TUV 라인란드(2020.6)<br />
-                            * 실험 결과로 실제 사용 코스와 사용 환경에 따라
-                            결과는 달라질 수 있음<br />
-                            * 실험모델의 표준코스와 D*E*** 모델의 1시간 코스는
-                            동일한 코스임
+                          <p class="asterisk-note-list">
+                            <b>[국내 브랜드 유일 연수장치]</b>
+                            <span class="asterisk-note-list__item">국립전파연구원 홈페이지에 등록된 동급 식기세척기(국산, 가정용, 12인용 이상) 기준(2026.06)</span>
                           </p>
                           <button class="btn-collapse-close">접기</button>
                         </div>
@@ -1939,148 +2286,61 @@
                 style="display: none"
               >
                 <div class="subtab-wrap">
-                  <div class="subtab-btn">
-                    <button
-                      class="active"
-                      name="buying-guide-tab"
-                      data-target="#buying-point-3-1"
-                      data-group="buying-point-3"
-                    >
-                      응축 건조
-                    </button>
-                    <button
-                      name="buying-guide-tab"
-                      data-target="#buying-point-3-2"
-                      data-group="buying-point-3"
-                    >
-                      자동 문열림 건조
-                    </button>
-                    <button
-                      name="buying-guide-tab"
-                      data-target="#buying-point-3-3"
-                      data-group="buying-point-3"
-                    >
-                      열풍 건조
-                    </button>
-                  </div>
+
                   <div class="subtab-content">
                     <div
                       class="point-wrap"
                       id="buying-point-3-1"
                       name="buying-point-3"
                     >
-                      <h4 class="hide">응축 건조</h4>
+                      <h4 class="hide">트루건조 2.0</h4>
                       <div class="content">
-                        <h5>응축 건조</h5>
+                        <h5>트루건조 2.0</h5>
                         <p>
-                          내부의 뜨거운 수증기가 차가운 워터자켓*이 있는 벽면에
-                          물방울로 맺혀(=응축) 하단으로 배출합니다.
+                          내부의 뜨거운 수증기가 벽면에 물방울로 맺히고 하단으로
+                          배출되는 응축 건조, 흡습 장치를 통해 내부 수증기를 제거하고
+                          건조된 열기를 다시 방출해 열기를 통해 건조하는 흡습 건조,
+                          안전한 온도가 되면 문이 자동으로 열려 남아있는 습기와 냄새를
+                          배출하는 자동 문 열림 건조, 뜨거운 열풍으로 <br class="pc-only">남은 물기까지
+                          건조하는 열풍 건조로 4중 건조 방식을 적용한 트루건조 2.0을
+                          통해 건조 성능은 높이고 건조 시간과 에너지 사용은 줄였습니다.
                         </p>
-                        <div class="img">
-                          <img
-                            src="/kr/story/buying-guide/2025/img/dishwasher/img_P01_101_08.jpg"
-                            alt="식기세척기 내부를 보여주는 이미지로, 금속 재질의 벽면과 회전 날개가 보입니다. 붉은색 화살표 세 개가 물결 모양으로 그려져 있으며, 벽면에 물방울이 맺혀 있습니다."
-                          />
-                        </div>
-                        <button class="btn-collapse-toggle">
-                          <span>* 응축 건조 (워터자켓)</span>
-                        </button>
-                        <div class="collapse-content">
-                          <p>
-                            * 워터자켓이란? 차가운 물을 주입하여 수증기를
-                            응축하는 수랭식 건조장치<br />
-                            * 세척 종료 후 워터자켓 내부는 비워집니다.
-                          </p>
-                          <button class="btn-collapse-close">접기</button>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="point-wrap"
-                      id="buying-point-3-2"
-                      name="buying-point-3"
-                      style="display: none"
-                    >
-                      <h4 class="hide">자동 문열림 건조</h4>
-                      <div class="content">
-                        <h5>자동 문열림 건조</h5>
-                        <p>
-                          세척 완료 후, 안전한 온도가 되면 자동으로 문이 열려
-                          습기 및 냄새를 배출합니다.
-                        </p>
-                        <div class="img">
-                          <button class="btn-pause">일시멈춤</button>
-                          <video
-                            autoplay
-                            playsinline
-                            loop
-                            muted
-                            src="/kr/story/buying-guide/2025/video/dishwasher/vid_P01_101_03.mp4"
-                          ></video>
-                        </div>
-                        <button class="btn-collapse-toggle">
-                          <span>* 자동 문 열림 건조</span>
-                        </button>
-                        <div class="collapse-content">
-                          <p>
-                            * 자동 문 열림의 경우 소비자 안전을 위해 일정한 온도
-                            이하에서만 자동으로 문이 열리며 실 사용 환경에 따라
-                            문 열림 시간이 타이머와 상이할 수 있습니다.
-                          </p>
-                          <button class="btn-collapse-close">접기</button>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="point-wrap"
-                      id="buying-point-3-3"
-                      name="buying-point-3"
-                      style="display: none"
-                    >
-                      <h4 class="hide">열풍 건조</h4>
-                      <div class="content">
-                        <h5>열풍 건조</h5>
-                        <p>
-                          세척이 끝난 뒤 자동으로 문이 열리고, 뜨거운 열풍으로 
-                          남은 물기를 빠르게 건조시켜 줍니다. 에어필터를 통과한
-                          공기로 건조해 더욱 깨끗합니다.
-                        </p>
-                        <div class="btn-wrap">
+                        <!-- <div class="btn-wrap">
                           <a
                             class="btn-product"
                             href="https://www.lge.co.kr/category/dishwashers?filterProduct=AT0000001122:KY0000004032:01,AT0000001122:KY0000000899:01"
                             target="_blank" rel="noopener"
                              title="새창열림">제품 보러 가기</a
                           >
-                        </div>
-                        <div class="img">
+                        </div> -->
+                        <div class="img video-contain">
                           <button class="btn-pause">일시멈춤</button>
-                          <video
-                            autoplay
-                            playsinline
-                            loop
-                            muted
-                            src="/kr/story/buying-guide/2025/video/dishwasher/vid_P01_101_04.mp4"
-                          ></video>
+                          <video autoplay playsinline loop muted src="/kr/story/buying-guide/2025/video/dishwasher/true_dry_20.mp4"></video>
                         </div>
+                        <p class="des asterisk-note-list">
+                          <span class="asterisk-note-list__item">소비자의 이해를 돕기 위해 연출된 ㅇ 영상이며, 제품별 색상 및 스펙은 다를 수 있습니다.</span>
+                        </p>
                         <button class="btn-collapse-toggle">
-                          <span>* 열풍건조</span>
+                          <span class="asterisk-toggle-label">응축 건조 / 흡습 건조 / 자동 문 열림 건조 / 열풍 건조</span>
                         </button>
                         <div class="collapse-content">
-                          <p>
-                            - 에어필터 성능 시험 <br />
-                            * 에어필터는 생활 먼지 및 2.5~10㎛의 미세먼지를
-                            차단합니다.<br />
-                            * 에어필터 교체 주기는 약 1년입니다. (열풍 90분,
-                            보관 4시간, 매일 1회 사용 기준이며, 사용 조건에 따라
-                            차이가 있을 수 있습니다.)<br />
-                            * 미세먼지 (2.5~10㎛) 기준, 평균 감쇠율 84.2%<br />
-                            * 시험 모델 : D*B*4**(시험모델과 D*E**** 모델의
-                            에어필터는 동일함)<br />
-                            * 시험 입자 : JIS Test dust Class 8<br />
-                            * 시험 조건 : 에어필터가 제품에 장착된 상태에서
-                            열풍건조 코스 작동 시 에어필터의 필터링 실험 결과<br />
-                            * 시험 기관 : 에코에너지기술연구소 (2021.12)
+                          <p class="asterisk-note-list">
+                            <b>[응축 건조 (워터자켓)]</b>
+                            <span class="asterisk-note-list__item">워터자켓이란? 차가운 물을 주입하여 수증기를 응축하는 수랭식 건조장치</span>
+                            <span class="asterisk-note-list__item">세척 종료 후 워터자켓 내부는 비워집니다.</span>
+                          </p>
+                          <p class="asterisk-note-list">
+                            <b>[흡습 건조]</b>
+                            <span class="asterisk-note-list__item">제품 내부의 흡습제에서 내부공기의 습기를 빨아들여 열을 발생시키는 방식</span>
+                          </p>
+                          <p class="asterisk-note-list">
+                            <b>[자동 문 열림 건조]</b>
+                            <span class="asterisk-note-list__item">자동 문 열림의 경우 소비자 안전을 위해 일정한 온도 이하에서만 자동으로 문이 열리며 실 사용 환경에 따라 문 열림 시간이 타이머와 상이할 수
+                              있습니다.</span>
+                          </p>
+                          <p class="asterisk-note-list">
+                            <b>[열풍 건조]</b>
+                            <span class="asterisk-note-list__item">흡습제가 들어있는 장치에서 뜨거운 바람을 제품 내부에 불어넣어주어 건조시키는 방식</span>
                           </p>
                           <button class="btn-collapse-close">접기</button>
                         </div>
@@ -2121,68 +2381,54 @@
                   </div>
                 </div>
               </div>
-              <p class="note">
-                * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
-                스펙은 다를 수 있습니다.
-              </p>
+              <div class="guide-disclaimer guide-disclaimer--pc-right">
+                <p class="guide-disclaimer__item">
+                  소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
+                  스펙은 다를 수 있습니다.
+                </p>
+              </div>
               <div class="point-box">
                 <h4 class="box-subtitle">
                   생활에 편리함을 더하는 <br />
                   실용적인 기능도 함께 알아보세요.
                 </h4>
                 <div class="tab-wrap">
-                  <button
-                    class="active"
-                    name="buying-guide-tab"
-                    data-target="#buying-point-4"
-                    data-group="buying-point-45"
-                  >
-                    스마트 선반
-                  </button>
-                  <button
-                    name="buying-guide-tab"
-                    data-target="#buying-point-5"
-                    data-group="buying-point-45"
-                  >
-                    편의 기능
-                  </button>
+                  <div class="vertical-scroll-box">
+                    <button class="active" name="buying-guide-tab" data-target="#buying-point-4" data-group="buying-point-45">
+                      스마트 선반
+                    </button>
+                    <button name="buying-guide-tab" data-target="#buying-point-5" data-group="buying-point-45">
+                      편의 기능
+                    </button>
+                  </div>
                 </div>
                 <div class="tab-content">
                   <div id="buying-point-4" name="buying-point-45">
                     <div
-                      class="slideWrap colWrap"
+                      class="slideWrap colWrap point-box-no-detail"
                       style="--box-height: 471px; --box-m-height: 345px"
                     >
                       <div class="col">
                         <div>
                           <div class="content-wrap">
                             <div>
-                              <h4>스마트 수납</h4>
+                              <h4>3단 선반</h4>
                               <p>
-                                스마트 선반은 높낮이와 공간을 쉽게 조절해 작은
-                                식기부터 부피가 큰 냄비까지 수납합니다. 상단
-                                선반은 3단계 높이 조절이 가능하고, 다용도 선반과
-                                접이식 식기 꽂이로 공간을 효율적으로 활용할 수
-                                있습니다.
+                                최상단 선반은 접이식 칸막이와 2단 높이 조절 <br class="pc-only">
+                                레버를 적용하여 수저는 물론 국자와 <br class="pc-only">
+                                작은 컵도 자유롭게 적재가 가능합니다.<br class="pc-only">
+                                여기에 글라이드 레일도 추가 적용되어 쉽게 열고<br class="pc-only">
+                                꺼낼 수 있어요.
                               </p>
                             </div>
                             <div>
                               <div class="media-wrap">
-                                <button class="btn-pause">일시멈춤</button>
-                                <video
-                                  autoplay
-                                  playsinline
-                                  loop
-                                  muted
-                                  src="/kr/story/buying-guide/2025/video/dishwasher/vid_P01_101_05.mp4"
-                                ></video>
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/dishwasher/smart_shelf_3tier.jpg"
+                                  alt="식기세척기 3단 선반에 식기가 수납된 모습."
+                                />
                               </div>
                             </div>
-                          </div>
-                          <div class="detail-wrap">
-                            <button class="btn-collapse-toggle hidden">
-                              <span>세부 정보</span>
-                            </button>
                           </div>
                         </div>
                       </div>
@@ -2190,32 +2436,19 @@
                         <div>
                           <div class="content-wrap">
                             <div>
-                              <h4>글라이드 레일</h4>
+                              <h4>보틀 세척</h4>
                               <p>
-                                글라이드 레일을 적용해 많은 식기가 적재된 무거운
-                                선반도 부드럽게 열고 닫을 수 있습니다. 적은
-                                힘으로도 식기를 쉽게 넣고 꺼낼 수 있으며,
-                                글라이드 레일 특유의 매끄러운 움직임으로
-                                고급스럽고 편안한 사용감을 제공합니다.
+                                보틀 세척은 5개의 전용 노즐에서 분사되는 강한<br class="pc-only">
+                                물줄기로 텀블러나 깊이가 깊은 컵까지 깨끗하게 세척할 수 있습니다. On/Off 스위치로 보틀 세척 기능의 사용 <br class="pc-only">
+                                여부를 선택할 수 있어, 구석구석 닦기 어려웠던 보틀도 필요할 때 편리하게 세척할 수 있어요.
                               </p>
                             </div>
                             <div>
-                              <div class="media-wrap">
+                              <div class="media-wrap video-contain">
                                 <button class="btn-pause">일시멈춤</button>
-                                <video
-                                  autoplay
-                                  playsinline
-                                  loop
-                                  muted
-                                  src="/kr/story/buying-guide/2025/video/dishwasher/vid_P01_101_06.mp4"
-                                ></video>
+                                <video autoplay playsinline loop muted src="/kr/story/buying-guide/2025/video/dishwasher/bottle_wash.mp4"></video>
                               </div>
                             </div>
-                          </div>
-                          <div class="detail-wrap">
-                            <button class="btn-collapse-toggle hidden">
-                              <span>세부 정보</span>
-                            </button>
                           </div>
                         </div>
                       </div>
@@ -2225,38 +2458,19 @@
                             <div>
                               <h4>전용 거치대</h4>
                               <p>
-                                프라이팬 전용 선반은 프라이팬을 눕히지 않고 세워
-                                보관해 공간을 넉넉하게 활용할 수 있습니다.
-                                칼·가위 전용 선반은 수저와 국자, 작은 컵 등
-                                다양한 주방 집기를 깔끔하게 정리해 위생적이고
-                                효율적인 수납을 제공합니다.
+                                전용 거치대는 접고 펼 수 있는 식기 꽂이와 <br class="pc-only">프라이팬,
+                                칼/가위, 와인 거치대로 구성되어 식기를<br class="pc-only">
+                                효율적으로 수납할 수 있습니다.<br class="pc-only">
+                                여러 형태의 식기를 상황에 맞게 정리할 수 있어<br class="pc-only">
+                                공간 활용과 사용 편의성을 높여줘요.
                               </p>
                             </div>
                             <div>
-                              <div class="media-wrap">
+                              <div class="media-wrap video-contain">
                                 <button class="btn-pause">일시멈춤</button>
-                                <video
-                                  autoplay
-                                  playsinline
-                                  loop
-                                  muted
-                                  src="/kr/story/buying-guide/2025/video/dishwasher/vid_P01_101_07.mp4"
-                                ></video>
+                                <video autoplay playsinline loop muted
+                                  src="/kr/story/buying-guide/2025/video/dishwasher/dedicated_holder.mp4"></video>
                               </div>
-                            </div>
-                          </div>
-                          <div class="detail-wrap">
-                            <button class="btn-collapse-toggle">
-                              <span>* 프라이팬 선반</span>
-                            </button>
-                            <div class="collapse-content">
-                              <p>
-                                * 지름 약 30cm의 프라이팬을 수납할 경우에는 상단
-                                노즐에 닿지 않는지 반드시 확인해주셔야
-                                합니다.<br />
-                                (일부 모델에 한함)
-                              </p>
-                              <button class="btn-collapse-close">접기</button>
                             </div>
                           </div>
                         </div>
@@ -2269,91 +2483,66 @@
                     style="display: none"
                   >
                     <div
-                      class="slideWrap colWrap"
-                      style="--box-height: 615px; --box-m-height: 422px"
+                      class="slideWrap colWrap point-box-compact-media point-box-no-detail"
+                      style="--box-height: 501px; --box-m-height: 345px"
                     >
                       <div class="col">
                         <div>
                           <div class="content-wrap">
                             <div>
-                              <h4>내부 조명</h4>
+                              <h4>세척 코스</h4>
                               <p>
-                                식기세척기 내부에 조명을 적용해 어두운
-                                주방에서도 식기를 넣고 빼기 편리하도록
-                                도와줍니다. 2단계 밝기 조절 기능을 지원하여 사용
-                                환경에 맞게 조절할 수 있으며, 눈부심 걱정 없이
-                                쾌적하게 사용할 수 있어요. 세척 중간에 문을
-                                열어도 식기 위치를 쉽게 확인할 수 있어 더욱
-                                편리하고, 내부 공간이 한층 고급스럽게
-                                연출됩니다.
+                                총 7개의 다양한 세척 코스로 상황에 맞는 효과적인<br class="pc-only">
+                                세척이 가능합니다.<br class="pc-only">
+                                오염도에 맞춰 알아서 세척하고 싶을 땐 AI 자동 코스를,<br class="pc-only">
+                                빠르게 세척하고 싶을 땐 39분 코스를 활용해 보세요.<br class="pc-only">
+                                더 상세한 코스 설정이 필요할 경우,<br class="pc-only">
+                                UP가전의 다운로드 코스를 활용해 세척할 수 있어요.
                               </p>
                             </div>
                             <div>
                               <div class="media-wrap">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/dishwasher/img_P01_101_10.jpg"
-                                  alt="어두운 주방 공간에서 빛이 나는 개방된 식기세척기, 내부에 접시와 컵이 정리된 모습."
-                                />
+                                <div class="point-slider2 autoplay-slider-wrap">
+                                  <div class="slider">
+                                    <div>
+                                      <img
+                                        src="/kr/story/buying-guide/2025/img/dishwasher/wash_course_pc_01.jpg"
+                                        alt="식기세척기 세척 코스 화면 예시."
+                                        class="pc-only"
+                                      />
+                                      <img
+                                        src="/kr/story/buying-guide/2025/img/dishwasher/wash_course_mo_01.jpg"
+                                        alt="식기세척기 세척 코스 화면 예시."
+                                        class="mobile-only"
+                                      />
+                                    </div>
+                                    <div>
+                                      <img
+                                        src="/kr/story/buying-guide/2025/img/dishwasher/wash_course_pc_02.jpg"
+                                        alt="식기세척기 세척 코스 화면 예시."
+                                        class="pc-only"
+                                      />
+                                      <img
+                                        src="/kr/story/buying-guide/2025/img/dishwasher/wash_course_mo_02.jpg"
+                                        alt="식기세척기 세척 코스 화면 예시."
+                                        class="mobile-only"
+                                      />
+                                    </div>
+                                  </div>
+                                  <div class="slider-controls">
+                                    <button class="btn-play" data-state="playing">
+                                      일시정지
+                                    </button>
+                                    <div class="counter">
+                                      <span class="current">1</span>
+                                      <span class="bar"></span>
+                                      <span class="total">2</span>
+                                    </div>
+                                    <button class="btn-nav btn-prev">Prev</button>
+                                    <button class="btn-nav btn-next">Next</button>
+                                  </div>
+                                </div>
                               </div>
-                            </div>
-                          </div>
-                          <div class="detail-wrap">
-                            <button class="btn-collapse-toggle hidden">
-                              <span>세부 정보</span>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div>
-                          <div class="content-wrap">
-                            <div>
-                              <h4>음성 안내</h4>
-                              <p>
-                                식기세척기 사용 중 놓치기 쉬운 소모품 교체나
-                                위생 관리 알람은 물론, 에러 원인까지 음성으로
-                                친절하게 안내해 드려요. 세척 코스 설명과 관리
-                                알림을 음성으로 알려주기 때문에 누구나 쉽게
-                                이해하고 편리하게 사용할 수 있습니다.
-                              </p>
-                            </div>
-                            <div>
-                              <div class="media-wrap">
-                                <button class="btn-pause">일시멈춤</button>
-                                <video
-                                  autoplay
-                                  playsinline
-                                  loop
-                                  muted
-                                  src="/kr/story/buying-guide/2025/video/dishwasher/vid_P01_101_08.mp4"
-                                ></video>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="detail-wrap">
-                            <button class="btn-collapse-toggle">
-                              <span>* 음성안내</span>
-                            </button>
-                            <div class="collapse-content">
-                              <p>
-                                * 음성안내는 선택한 버튼에 대하여 안내해 주는
-                                기능입니다. 최초 "기본 안내"로 설정되어
-                                있으며, <br />
-                                LG ThinQ 앱 > 설정 > 제품 소리에서 안내 정도를
-                                변경할 수 있습니다. <br />
-                                '꺼짐', '최소 안내', '기본 안내', '최대 안내'
-                                순서로 더 많은 기능을 안내해 줍니다.<br />
-                                * LG ThinQ 앱 내에 가전제품 등록을 위해서는 가정
-                                내 무선인터넷 환경이 필요합니다.<br />
-                                * ThinQ 기능 사용을 위해서는 스마트폰의 Google
-                                Play 스토어 또는 Apple App 스토어에서 'LG ThinQ'
-                                앱을 설치하여 Wi-Fi에 연결해야 합니다. 자세한
-                                사용 방법은 애플리케이션의 도움말을 참고해
-                                주세요.<br />
-                                * LG ThinQ 앱의 실제 기능은 보유 제품, 모델별로
-                                차이가 있을 수 있습니다.
-                              </p>
-                              <button class="btn-collapse-close">접기</button>
                             </div>
                           </div>
                         </div>
@@ -2364,51 +2553,59 @@
                             <div>
                               <h4>UP 가전</h4>
                               <p>
-                                사용 중인 제품에 새로운 기능을 더해 성능을 계속
-                                업그레이드해 드려요. 최적화 코스 다운로드나 알림
-                                멜로디 설정 같은 기능을 추가할 수 있고, 취향맞춤
-                                코스는 사용자의 만족도 평가를 반영해 점점 더
-                                나은 코스로 발전합니다. LG ThinQ 앱에 제품을
-                                등록하면 다양한 업데이트를 편리하게 경험할 수
-                                있습니다.
+                                UP가전을 업데이트 하면 신제품을 구매하지 않아도<br class="pc-only">
+                                새로운 코스들을 사용할 수 있습니다.<br class="pc-only">
+                                상단급속 코스, 유리 및 와인잔 코스, 기름기 많은<br class="pc-only">
+                                식기 코스, 통살균 코스 등 우리 집 식생활과 식기에<br class="pc-only">
+                                맞는 다양한 다운로드 코스를 활용할 수 있어요.
                               </p>
                             </div>
                             <div>
                               <div class="media-wrap">
-                                <img
-                                  src="/kr/story/buying-guide/2025/img/dishwasher/img_P01_101_11.jpg"
-                                  alt="주방에는 나무 소재의 캐비닛과 가스레인지가 설치되어 있으며, 그 옆에는 식기세척기가 있습니다. 식기세척기 앞에는 스마트홈 아이콘이 표시되어 있습니다. 한 손이 스마트폰을 들고 있으며, 화면에는 '다운로드 코스'라는 제목과 함께 '상단 급속 (P1)', '냄비와 프라이팬 (P2)', '유리 및 와인잔 (P3)', '고기류 구이 (P4)', '기름기 많은 식기 (P5)', '단단하게 눌어붙은 식기 (P6)', '쌓서 요리 (P7)' 등의 옵션이 나열되어 있습니다. 배경에는 식기와 창밖의 나무가 보입니다."
-                                />
+                                <div class="point-slider2 autoplay-slider-wrap">
+                                  <div class="slider">
+                                    <div>
+                                      <img src="/kr/story/buying-guide/2025/img/dishwasher/up_appliance_pc_01.jpg"
+                                        alt="LG ThinQ 앱에서 식기세척기 UP가전 코스를 확인하는 화면." class="pc-only" />
+                                      <img src="/kr/story/buying-guide/2025/img/dishwasher/up_appliance_mo_01.jpg"
+                                        alt="LG ThinQ 앱에서 식기세척기 UP가전 코스를 확인하는 화면." class="mobile-only" />
+                                    </div>
+                                    <div>
+                                      <img src="/kr/story/buying-guide/2025/img/dishwasher/up_appliance_pc_02.jpg"
+                                        alt="LG ThinQ 앱에서 식기세척기 UP가전 코스를 확인하는 화면." class="pc-only" />
+                                      <img src="/kr/story/buying-guide/2025/img/dishwasher/up_appliance_mo_02.jpg"
+                                        alt="LG ThinQ 앱에서 식기세척기 UP가전 코스를 확인하는 화면." class="mobile-only" />
+                                    </div>
+                                    <div>
+                                      <img src="/kr/story/buying-guide/2025/img/dishwasher/up_appliance_pc_03.jpg"
+                                        alt="LG ThinQ 앱에서 식기세척기 UP가전 코스를 확인하는 화면." class="pc-only" />
+                                      <img src="/kr/story/buying-guide/2025/img/dishwasher/up_appliance_mo_03.jpg"
+                                        alt="LG ThinQ 앱에서 식기세척기 UP가전 코스를 확인하는 화면." class="mobile-only" />
+                                    </div>
+                                    <div>
+                                      <img src="/kr/story/buying-guide/2025/img/dishwasher/up_appliance_pc_04.jpg"
+                                        alt="LG ThinQ 앱에서 식기세척기 UP가전 코스를 확인하는 화면." class="pc-only" />
+                                      <img
+                                        src="/kr/story/buying-guide/2025/img/dishwasher/up_appliance_mo_04.jpg"
+                                        alt="LG ThinQ 앱에서 식기세척기 UP가전 코스를 확인하는 화면."
+                                        class="mobile-only"
+                                      />
+                                    </div>
+                                    </div>
+                                    <div class="slider-controls">
+                                      <button class="btn-play" data-state="playing">
+                                        일시정지
+                                      </button>
+                                      <div class="counter">
+                                        <span class="current">1</span>
+                                        <span class="bar"></span>
+                                        <span class="total">4</span>
+                                      </div>
+                                      <button class="btn-nav btn-prev">Prev</button>
+                                      <button class="btn-nav btn-next">Next</button>
+                                    </div>
+                                    </div>
                               </div>
-                            </div>
-                          </div>
-                          <div class="detail-wrap">
-                            <button class="btn-collapse-toggle">
-                              <span>* LG ThinQ 앱 / 다운로드</span>
-                            </button>
-                            <div class="collapse-content">
-                              <p>
-                                <b>[LG ThinQ 앱]</b><br />
-                                * LG ThinQ 앱 내에 가전제품 등록을 위해서는 가정
-                                내 무선인터넷 환경이 필요합니다.<br />
-                                * ThinQ 기능 사용을 위해서는 스마트폰의 Google
-                                Play 스토어 또는 Apple App 스토어에서 'LG ThinQ'
-                                앱을 설치하여 Wi-Fi에 연결해야 합니다. 자세한
-                                사용 방법은 애플리케이션의 도움말을 참고해
-                                주세요.<br />
-                                * LG ThinQ 앱은 일부 스마트폰에서는 기능 사용에
-                                제약이 발생하거나 작동하지 않을 수 있으니, 최소
-                                사양을 확인 후 사용하세요.<br />
-                                * LG ThinQ 앱의 실제 기능은 보유 제품, 모델별로
-                                차이가 있을 수 있습니다.
-                              </p>
-                              <p>
-                                <b>[다운로드]</b><br />
-                                * 다운로드 코스는 한 번에 1개의 코스만 저장
-                                가능함<br />
-                                * 선택 가능한 코스는 모델에 따라 다를 수 있음
-                              </p>
-                              <button class="btn-collapse-close">접기</button>
                             </div>
                           </div>
                         </div>
@@ -2417,104 +2614,61 @@
                         <div>
                           <div class="content-wrap">
                             <div>
-                              <h4>세척 코스</h4>
+                              <h4>음성 안내</h4>
                               <p>
-                                식기의 오염도와 사용 환경에 따라 다양한 세척
-                                코스를 선택해 보세요. 자동과 1시간 코스 같은
-                                대표 코스부터 강력, 일반 세척 코스까지 상황에
-                                맞게 사용할 수 있습니다. 급속, 기름기 많은 식기,
-                                단단하게 눌어붙은 식기, 통살균, 플라스틱 전용 등
-                                다운로드 코스를 통해 더 세분화된 세척도
-                                가능합니다. 건조 단독 코스와 아이가 자는
-                                시간에도 안심할 수 있는 조용 코스까지 준비되어
-                                있어 생활 패턴에 맞게 편리하게 이용할 수
-                                있습니다.
+                                음성안내 기능으로 놓치기 쉬운 소모품 교체 시점과<br class="pc-only">
+                                위생 관리 알림은 물론, 제품 오류 원인까지 편리하게<br class="pc-only">
+                                확인할 수 있습니다.<br class="pc-only">
+                                필요한 정보를 음성으로 바로 제공해 누구나 더욱 쉽고 편리하게 사용할 수 있어요.
                               </p>
                             </div>
                             <div>
                               <div class="media-wrap">
                                 <img
-                                  src="/kr/story/buying-guide/2025/img/dishwasher/img_P01_101_12.jpg"
-                                  alt="이미지에는 LG 로고가 있는 식기세척기의 제어 패널이 보입니다. 패널에는 자동, 1시간, 일반, 강력, 조용 이라는 세척 코스가 표시되어 있습니다. 아래에는 각 코스에 대한 설명이 있습니다. 자동코스는 식기 오염도에 따라 세척 시간과 온도를 자동으로 조절합니다. 1시간코스는 일반적인 식사에 사용한 식기를 짧은 시간 내에 세척합니다. 일반코스는 전기를 효율적으로 사용합니다. 조용코스는 소음을 낮춘 코스로 조용한 세척이 가능합니다."
+                                  src="/kr/story/buying-guide/2025/img/dishwasher/voice_guide_pc.jpg"
+                                  alt="식기세척기 음성 안내 기능 화면 예시."
+                                  class="pc-only"
+                                />
+                                <img
+                                  src="/kr/story/buying-guide/2025/img/dishwasher/voice_guide_mo.jpg"
+                                  alt="식기세척기 음성 안내 기능 화면 예시."
+                                  class="mobile-only"
                                 />
                               </div>
                             </div>
                           </div>
-                          <div class="detail-wrap">
-                            <button class="btn-collapse-toggle">
-                              <span>* 다운로드 / 1시간코스</span>
-                            </button>
-                            <div class="collapse-content">
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div>
+                          <div class="content-wrap">
+                            <div>
+                              <h4>내부 조명</h4>
                               <p>
-                                <b>[다운로드]</b><br />
-                                * 일반코스+ 기능은 25년부터 출시된 14인용 이상
-                                열풍 및 스팀 기능이 있는 전모델에 적용됩니다.
-                                (모델명 : D*E6***, D*E5***)<br />
-                                * 일반코스+ 기능을 사용하기 위해서는 Android OS
-                                Play스토어, iOS App Store에서 LG ThinQ 앱 별도
-                                설치가 필요하며, 초기 식기세척기와 연결시 동일한
-                                Wi-fi 환경안에서 동작되어야 합니다. 또한, LG
-                                ThinQ 앱 내에 가전제품 등록을 위해서는 가정 내
-                                무선인터넷 환경이 필요하며, 제품등록 후 UP가전
-                                센터 메뉴를 통해 SW업그레이드가 필요하며, 이후
-                                제품에서 일반코스를 눌러 제품을 동작시켜야
-                                합니다. * 효율관리기자재
-                                운용규정(산업통상자원부고시 제2023-170호) 기준에
-                                따른 KTC 시험결과(25.05)로 , 연간소비전력량,
-                                1인당 1회 세척시 물사용량, 1회 세척시간 비교
-                                기준입니다.<br />
-                                * LG ThinQ 앱은 일부 스마트폰에서는 기능 사용에
-                                제약이 발생하거나 작동하지 않을 수 있으니, 최소
-                                사양을 확인 후 사용해야 합니다.<br />
-                                * LG ThinQ 앱의 실제 기능은 보유 제품, 모델별로
-                                차이가 있을 수 있습니다.<br />
-                                * 외부에서 LG ThinQ 앱 사용시, 데이터 사용
-                                환경이 필요합니다.<br />
-                                * AI자동 기능은 25년부터 출시된 14인용 이상 열풍
-                                및 스팀 기능이 있는 전모델에 적용됩니다. (모델명
-                                : D*E6***, D*E5***, 단, DBE7PT 모델은 제외)<br />
-                                * AI 자동 기능을 사용하기 위해서는 Android OS
-                                Play스토어, iOS App Store에서 LG ThinQ 앱 별도
-                                설치가 필요하며, 초기 식기세척기와 연결시 동일한
-                                Wi-fi 환경안에서 동작되어야 합니다. 또한, LG
-                                ThinQ 앱 내에 가전제품 등록을 위해서는 가정 내
-                                무선인터넷 환경이 필요하며, 제품등록 후 UP가전
-                                센터 메뉴를 통해 SW업그레이드가 필요하며, 이후
-                                제품에서 자동코스를 눌러 제품을 동작시켜야
-                                합니다. * AI 자동 기능 선택 시 처음 표출되는
-                                소요시간은 기본 설정 시간이며, 오염도 센싱 후
-                                감지된 오염도에 따라 잔여시간이 변경됩니다.<br />
-                                오염도 센싱은 약 6~7분 소요됩니다.<br />
-                                * AI 코스는 오염도 센싱 후 미약, 약, 중, 강
-                                4단계로 구분합니다.<br />
-                                * LG ThinQ 앱은 일부 스마트폰에서는 기능 사용에
-                                제약이 발생하거나 작동하지 않을 수 있으니, 최소
-                                사양을 확인 후 사용해야 합니다.<br />
-                                * LG ThinQ 앱의 실제 기능은 보유 제품, 모델별로
-                                차이가 있을 수 있습니다.<br />
-                                * 외부에서 LG ThinQ 앱 사용시, 데이터 사용
-                                환경이 필요합니다.
+                                2단계 밝기 조절이 가능한 내부 조명으로,<br class="pc-only">
+                                어두운 주방에서도 식기를 편리하게 확인하고 꺼낼 수 있습니다.<br class="pc-only">
+                                눈부심 걱정 없이, 언제든 편하게 사용해 보세요.
                               </p>
-                              <p>
-                                <b>[1시간코스]</b><br />
-                                *1시간 코스는 자사 내부 평가 방법에 의거한 내부
-                                실험 결과로 주위 온도, 내부 적재량, 설정 등 사용
-                                환경에 따라 작동시간은 차이가 있을 수 있음<br />
-                                *DUE6BG 모델 시료 3대로 총 9회 실험, 주위 온도
-                                23℃, 급수 온도 25℃, 27℃, 무부하 조건으로 실험함
-                              </p>
-                              <button class="btn-collapse-close">접기</button>
+                            </div>
+                            <div>
+                              <div class="media-wrap video-contain">
+                                <button class="btn-pause">일시멈춤</button>
+                                <video autoplay playsinline loop muted src="/kr/story/buying-guide/2025/video/dishwasher/inner_light.mp4"></video>
+                              </div>
                             </div>
                           </div>
                         </div>
                       </div>
+
                     </div>
                   </div>
                 </div>
-                <p class="note">
-                  * 소비자의 이해를 돕기 위해 연출된 이미지이며, 제품별 색상 및
-                  스펙은 다를 수 있습니다.
-                </p>
+                <div class="guide-disclaimer guide-disclaimer--pc-right">
+                  <p class="guide-disclaimer__item">
+                    소비자의 이해를 돕기 위해 연출된 이미지와 영상이며, 제품별 색상 및
+                    스펙은 다를 수 있습니다.
+                  </p>
+                </div>
               </div>
             </div>
           </section>

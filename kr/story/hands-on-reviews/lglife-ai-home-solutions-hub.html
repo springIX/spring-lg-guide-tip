@@ -340,11 +340,46 @@
             var detail = document.getElementById(button.getAttribute('aria-controls'));
             if (!detail) return;
 
+            detail.style.transition = 'none';
+            detail.hidden = false;
+            detail.classList.add('is-collapsed');
+            detail.style.maxHeight = '0px';
+            detail.setAttribute('aria-hidden', 'true');
+            detail.offsetHeight;
+            detail.style.transition = '';
+
             button.addEventListener('click', function () {
                 var expanded = button.getAttribute('aria-expanded') === 'true';
-                button.setAttribute('aria-expanded', String(!expanded));
-                button.textContent = expanded ? '더보기' : '닫기';
-                detail.hidden = expanded;
+
+                if (expanded) {
+                    detail.style.maxHeight = detail.scrollHeight + 'px';
+
+                    requestAnimationFrame(function () {
+                        button.setAttribute('aria-expanded', 'false');
+                        button.textContent = '더보기';
+                        detail.classList.add('is-collapsed');
+                        detail.style.maxHeight = '0px';
+                        detail.setAttribute('aria-hidden', 'true');
+                    });
+
+                    return;
+                }
+
+                button.setAttribute('aria-expanded', 'true');
+                button.textContent = '닫기';
+                detail.classList.remove('is-collapsed');
+                detail.style.maxHeight = detail.scrollHeight + 'px';
+                detail.setAttribute('aria-hidden', 'false');
+            });
+
+            detail.addEventListener('transitionend', function (event) {
+                if (event.propertyName === 'max-height' && button.getAttribute('aria-expanded') === 'true') {
+                    detail.style.maxHeight = 'none';
+                }
+            });
+
+            window.addEventListener('resize', function () {
+                detail.style.maxHeight = button.getAttribute('aria-expanded') === 'true' ? 'none' : '0px';
             });
         });
 

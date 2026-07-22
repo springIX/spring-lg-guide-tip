@@ -11,6 +11,8 @@
 				}
 	}
 %>
+
+
   <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -698,7 +700,7 @@
                     <div class="table-wrap include-tab vertical-scroll-box">
                       <table>
                         <caption class="blind">
-                          LG 전기레인지 모델 라인업 스펙 비교표 - 미라듀어, 매트라인, 모노라인 글라스, 오브제 화이트, 블랙 세라믹 라인업의 화구, 조작, 편의 기능과 제품 링크 정보를 비교합니다.
+                          LG 전기레인지 모델 라인업 스펙 비교표 - 미라듀어, 매트라인, 오브제 화이트, 블랙 세라믹 라인업의 화구, 조작, 편의 기능과 제품 링크 정보를 비교합니다.
                         </caption>
                         <colgroup>
                           <col class="col1" />
@@ -715,7 +717,6 @@
                             <th scope="colgroup" colspan="2" rowspan="3">라인업</th>
                             <th scope="colgroup" colspan="2">미라듀어</th>
                             <th scope="colgroup" colspan="2">매트라인</th>
-                            <th scope="colgroup" colspan="2">모노라인 글라스</th>
                             <th scope="colgroup" colspan="2">오브제 화이트</th>
                             <th scope="colgroup" colspan="2">블랙 세라믹</th>
                           </tr>
@@ -727,10 +728,6 @@
                             <th scope="colgroup" colspan="2" class="th2">
                               인테리어에 고급스럽게 어우러지는 무광 디자인을
                               원하는 고객
-                            </th>
-                            <th scope="colgroup" colspan="2" class="th2">
-                              깔끔한 원바디 디자인과 맑고 선명한
-                              프리미엄 화이트 글라스를 원하는 고객
                             </th>
                             <th scope="colgroup" colspan="2" class="th2">
                               화이트 인테리어에 어울리는 심플한 인덕션을 원하는
@@ -755,12 +752,6 @@
                             </td>
                             <td colspan="2">
                               <img
-                                src="/kr/story/buying-guide/2025/img/electric-range/img_P09_001_20.png"
-                                alt="전기레인지 LG 디오스 인덕션 (BEI3ABWLE.AKOR) 메인이미지"
-                              />
-                            </td>
-                            <td colspan="2">
-                              <img
                                 src="/kr/story/buying-guide/2025/img/electric-range/img_P09_001_16.png"
                                 alt="전기레인지 LG 디오스 오브제컬렉션 인덕션 (BEI3ANHLE.AKOR) 메인이미지 2"
                               />
@@ -778,17 +769,16 @@
                             <th scope="row" colspan="2">모델명</th>
                             <td colspan="2">BE*3*<span class="red">M</span>****</td>
                             <td colspan="2">BE*3*<span class="red">SM</span>***</td>
-                            <td colspan="2">BE*3*<span class="red">B</span>****</td>
-                            <td colspan="2">BE*3*<span class="red">N</span>**** / BE*3*<span class="red">K</span>****</td>
+                            <td colspan="2">BE*3<span class="red">N</span>**** / BE*3<span class="red">QK</span>**** / BEI3<span
+                                class="red">HK</span>*LE</td>
                             <td colspan="2">
-                              BE*3<span class="red">SB</span>*** / BE*3*<span class="red">EB</span>*** / BE*3*<span class="red">RB</span>**
+                              BEI3*<span class="red">SB</span>LE / BEI3*<span class="red">EB</span>*** / BEI3*<span class="red">RB</span>LE
                             </td>
                           </tr>
                           <tr>
                             <th scope="row" colspan="2">글라스 색상</th>
                             <td colspan="2">블랙</td>
                             <td colspan="2">무광 블랙</td>
-                            <td colspan="2">웜 화이트</td>
                             <td colspan="2">
                               화이트<br />
                               <small>*조작부 컬러는 모델별 별도 확인</small>
@@ -801,11 +791,9 @@
                             <td colspan="2">3,400W</td>
                             <td colspan="2">3,400W</td>
                             <td colspan="2">3,400W</td>
-                            <td colspan="2">3,400W</td>
                           </tr>
                           <tr>
                             <th scope="row" colspan="2">에너지등급</th>
-                            <td colspan="2">1등급</td>
                             <td colspan="2">1등급</td>
                             <td colspan="2">1등급</td>
                             <td colspan="2">1등급</td>
@@ -816,27 +804,26 @@
                             <th scope="row" class="y th2">O</th>
                             <td colspan="2">BE*3<span class="red">AM</span>****</td>
                             <td colspan="2">BE*3<span class="red">ASM</span>***</td>
-                            <td colspan="2">BE*3<span class="red">AB</span>****</td>
                             <td colspan="2">BE*3<span class="red">AN</span>****</td>
-                            <td colspan="2">BE*3<span class="red">ASB</span>***</td>
+                            <td colspan="2">BEI3<span class="red">ASB</span>***</td>
                           </tr>
                           <tr>
                             <th scope="row" class="n th2">X</th>
                             <td colspan="2">BE*3<span class="red">QM</span>****</td>
                             <td colspan="2">-</td>
-                            <td colspan="2">-</td>
-                            <td colspan="2">BE*3<span class="red">QK</span>****</td>
+                            <td>BE*3<span class="red">QK</span>****</td>
+                            <td>BEI3<span class="red">HK</span>*LE</td>
                             <td class="line-break">
-                              BE*3<span class="red">QEB</span>***<br />BE*3<span class="red">QRB</span>**
+                              BEI3<span class="red">QEB</span>***<br />BEI3<span class="red">QRB</span>**
                             </td>
-                            <td class="line-break">BEI3HRBLE</td>
+                            <td class="line-break">BEI3<span class="red">H</span>*BLE</td>
                           </tr>
                           <tr>
                             <th scope="row" colspan="2">사양</th>
                             <td colspan="2" class="th2">쿼드인버터</td>
                             <td colspan="2" class="th2">쿼드인버터</td>
-                            <td colspan="2" class="th2">쿼드인버터</td>
-                            <td colspan="2" class="th2">쿼드인버터</td>
+                            <td class="th2">쿼드인버터</td>
+                            <td class="th2">듀얼인버터</td>
                             <td class="th2">쿼드인버터</td>
                             <td class="th2">듀얼인버터</td>
                           </tr>
