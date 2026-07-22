@@ -1,4 +1,4 @@
-#lglife-etnews {
+#lglife-ai-home-solutions-hub {
     --red: #db3437;
     --ink: #191c1f;
     --muted: #646669;
@@ -7,68 +7,78 @@
     color: var(--ink);
     background: #fff;
     word-break: keep-all;
-    letter-spacing: 0;
+    letter-spacing: -0.02em;
 }
 
-#lglife-etnews *,
-#lglife-etnews *::before,
-#lglife-etnews *::after {
+#lglife-ai-home-solutions-hub *,
+#lglife-ai-home-solutions-hub *::before,
+#lglife-ai-home-solutions-hub *::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    letter-spacing: 0;
 }
 
-#lglife-etnews img {
+#lglife-ai-home-solutions-hub img {
     display: block;
     width: 100%;
     max-width: 100%;
 }
 
-#lglife-etnews ul {
+#lglife-ai-home-solutions-hub ul {
     list-style: none;
 }
 
-#lglife-etnews a {
+#lglife-ai-home-solutions-hub a {
     color: inherit;
     text-decoration: none;
 }
 
-#lglife-etnews button {
+#lglife-ai-home-solutions-hub button {
     font: inherit;
 }
 
-#lglife-etnews a:focus-visible,
-#lglife-etnews button:focus-visible {
+#lglife-ai-home-solutions-hub p,
+#lglife-ai-home-solutions-hub li,
+#lglife-ai-home-solutions-hub h3,
+#lglife-ai-home-solutions-hub h4,
+#lglife-ai-home-solutions-hub blockquote,
+#lglife-ai-home-solutions-hub button,
+#lglife-ai-home-solutions-hub strong,
+#lglife-ai-home-solutions-hub small {
+    letter-spacing: -0.02em;
+}
+
+#lglife-ai-home-solutions-hub a:focus-visible,
+#lglife-ai-home-solutions-hub button:focus-visible {
     outline: 2px solid #015fcb;
     outline-offset: 4px;
 }
 
-#lglife-etnews .mo-only {
+#lglife-ai-home-solutions-hub .mo-only {
     display: none;
 }
 
-#lglife-etnews .pc-only {
+#lglife-ai-home-solutions-hub .pc-only {
     display: block;
 }
 
-#lglife-etnews br.pc-only {
+#lglife-ai-home-solutions-hub br.pc-only {
     display: block;
 }
 
-#lglife-etnews .content-wide {
+#lglife-ai-home-solutions-hub .content-wide {
     width: min(1380px, calc(100% - 40px));
     margin-right: auto;
     margin-left: auto;
 }
 
-#lglife-etnews .sec-header {
+#lglife-ai-home-solutions-hub .sec-header {
     overflow: hidden;
     background: #fff;
-    text-align: center;
+    text-align: left;
 }
 
-#lglife-etnews .header-copy {
+#lglife-ai-home-solutions-hub .header-copy {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,7 +86,7 @@
     padding: 80px 20px 72px;
 }
 
-#lglife-etnews .eyebrow {
+#lglife-ai-home-solutions-hub .eyebrow {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -88,16 +98,19 @@
     background: rgba(219, 52, 55, 0.1);
     font-size: 18px;
     font-weight: 700;
+    letter-spacing: 0;
     line-height: 1.68;
 }
 
-#lglife-etnews .header-copy h1 {
+#lglife-ai-home-solutions-hub .header-copy h1 {
     font-size: 50px;
     font-weight: 700;
+    letter-spacing: 0;
     line-height: 1.4;
+    text-align: center;
 }
 
-#lglife-etnews .header-kicker {
+#lglife-ai-home-solutions-hub .header-kicker {
     margin-top: 12px;
     color: #444;
     font-size: 18px;
@@ -105,60 +118,69 @@
     line-height: 1.8;
 }
 
-#lglife-etnews .header-description {
+#lglife-ai-home-solutions-hub .header-description {
     margin-top: 28px;
     font-size: 18px;
     font-weight: 500;
     line-height: 1.5;
+    text-align: center;
 }
 
-#lglife-etnews .hero-visual {
+#lglife-ai-home-solutions-hub .hero-area {
+    width: min(1920px, 100%);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#lglife-ai-home-solutions-hub .hero-visual {
     display: block;
     overflow: hidden;
-    width: min(1920px, 100%);
+    width: 100%;
     height: 616px;
-    margin: 0 auto;
     background: #f3f3f3;
 }
 
-#lglife-etnews .hero-visual img {
+#lglife-ai-home-solutions-hub .hero-visual img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
 }
 
-#lglife-etnews .hero-disclaimer {
+#lglife-ai-home-solutions-hub .hero-disclaimer {
+    width: fit-content;
+    max-width: calc(100% - 80px);
+    margin-right: 0;
+    margin-left: 40px;
     padding-top: 12px;
-    padding-left: 8px;
     color: var(--muted);
     font-size: 14px;
     font-weight: 500;
     line-height: 1.4;
-    text-indent: -8px;
     text-align: left;
 }
 
-#lglife-etnews .page-content {
+#lglife-ai-home-solutions-hub .page-content {
     display: flex;
     flex-direction: column;
     gap: 100px;
     padding: 100px 0 120px;
 }
 
-#lglife-etnews h2 {
+#lglife-ai-home-solutions-hub h2 {
     font-size: 40px;
     font-weight: 700;
+    letter-spacing: 0;
     line-height: 1.68;
 }
 
-#lglife-etnews .sec-summary h2 {
+#lglife-ai-home-solutions-hub .sec-summary h2 {
     margin-bottom: 20px;
     font-size: 28px;
     text-align: center;
 }
 
-#lglife-etnews .summary-list {
+#lglife-ai-home-solutions-hub .summary-list {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -168,7 +190,7 @@
     background: var(--panel);
 }
 
-#lglife-etnews .summary-list li {
+#lglife-ai-home-solutions-hub .summary-list li {
     position: relative;
     padding-left: 22px;
     font-size: 20px;
@@ -176,7 +198,7 @@
     line-height: 1.5;
 }
 
-#lglife-etnews .summary-list li::before {
+#lglife-ai-home-solutions-hub .summary-list li::before {
     content: "";
     position: absolute;
     top: 12px;
@@ -187,20 +209,21 @@
     background: #111;
 }
 
-#lglife-etnews .section-title {
+#lglife-ai-home-solutions-hub .section-title {
     margin-bottom: 60px;
     text-align: center;
 }
 
-#lglife-etnews .section-title > p {
+#lglife-ai-home-solutions-hub .section-title > p {
     margin-bottom: 8px;
     color: var(--red);
     font-size: 16px;
     font-weight: 700;
+    letter-spacing: 0;
     line-height: 1.68;
 }
 
-#lglife-etnews .review-card {
+#lglife-ai-home-solutions-hub .review-card {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -211,7 +234,7 @@
     background: var(--panel);
 }
 
-#lglife-etnews .reviewer-image {
+#lglife-ai-home-solutions-hub .reviewer-image {
     position: relative;
     display: block;
     overflow: hidden;
@@ -222,33 +245,33 @@
     background: #fff;
 }
 
-#lglife-etnews .reviewer-image img {
+#lglife-ai-home-solutions-hub .reviewer-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
 }
 
-#lglife-etnews .review-content {
+#lglife-ai-home-solutions-hub .review-content {
     width: 832px;
     max-width: 100%;
 }
 
-#lglife-etnews .review-content h3 {
+#lglife-ai-home-solutions-hub .review-content h3 {
     margin-bottom: 20px;
     font-size: 24px;
     font-weight: 700;
     line-height: 1.5;
 }
 
-#lglife-etnews .keyword-list {
+#lglife-ai-home-solutions-hub .keyword-list {
     display: flex;
     flex-wrap: nowrap;
     width: max-content;
     gap: 10px;
 }
 
-#lglife-etnews .keyword-list li {
+#lglife-ai-home-solutions-hub .keyword-list li {
     flex-shrink: 0;
     padding: 4px 12px;
     border: 1px solid var(--red);
@@ -259,7 +282,7 @@
     line-height: 1.5;
 }
 
-#lglife-etnews .review-content blockquote {
+#lglife-ai-home-solutions-hub .review-content blockquote {
     margin-top: 40px;
     padding-top: 20px;
     border-top: 1px solid #d9d9d9;
@@ -268,13 +291,13 @@
     line-height: 1.4;
 }
 
-#lglife-etnews .article-paper {
+#lglife-ai-home-solutions-hub .article-paper {
     padding: 44px 32px 50px;
     border-radius: 30px;
     background: #f9f9f9;
 }
 
-#lglife-etnews .article-header {
+#lglife-ai-home-solutions-hub .article-header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -282,13 +305,13 @@
     margin-bottom: 24px;
 }
 
-#lglife-etnews .article-header img {
+#lglife-ai-home-solutions-hub .article-header img {
     width: 110px;
     height: 40px;
     object-fit: contain;
 }
 
-#lglife-etnews .article-header p {
+#lglife-ai-home-solutions-hub .article-header p {
     color: #444;
     font-size: 14px;
     font-weight: 500;
@@ -296,14 +319,14 @@
     text-align: center;
 }
 
-#lglife-etnews .article-grid {
+#lglife-ai-home-solutions-hub .article-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 636px));
     justify-content: center;
     gap: 10px;
 }
 
-#lglife-etnews .article-card {
+#lglife-ai-home-solutions-hub .article-card {
     display: flex;
     flex-direction: column;
     min-width: 0;
@@ -313,7 +336,7 @@
     box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15), 0 8px 4px rgba(0, 0, 0, 0.1);
 }
 
-#lglife-etnews .article-card h3 {
+#lglife-ai-home-solutions-hub .article-card h3 {
     min-height: 56px;
     margin-bottom: 20px;
     color: #111;
@@ -322,25 +345,27 @@
     line-height: 1.4;
 }
 
-#lglife-etnews .article-card h3 span {
+#lglife-ai-home-solutions-hub .article-card h3 span {
     display: block;
     color: var(--red);
 }
 
-#lglife-etnews .article-copy {
-    flex: 1;
-    width: calc(100% + 20px);
-    min-height: 216px;
-    margin-right: -20px;
-    padding: 10px 0 10px 14px;
+#lglife-ai-home-solutions-hub .article-copy {
+    width: calc(100% - 7.47265625px);
+    padding: 10px 0 10px 12px;
     border-left: 2px solid #d9d9d9;
     color: #444;
     font-size: 20px;
     font-weight: 400;
     line-height: 1.4;
+    word-break: break-word;
 }
 
-#lglife-etnews mark {
+#lglife-ai-home-solutions-hub .article-card:nth-child(2) .article-copy {
+    width: calc(100% + 14px);
+}
+
+#lglife-ai-home-solutions-hub mark {
     padding: 1px 2px 2px;
     color: inherit;
     background: rgba(251, 255, 0, 0.3);
@@ -349,7 +374,7 @@
     box-decoration-break: clone;
 }
 
-#lglife-etnews .article-image {
+#lglife-ai-home-solutions-hub .article-image {
     display: block;
     overflow: hidden;
     width: 100%;
@@ -359,40 +384,49 @@
     background: #191c1f;
 }
 
-#lglife-etnews .article-image img {
+#lglife-ai-home-solutions-hub .article-card:first-child .article-image {
+    margin-top: 48px;
+}
+
+#lglife-ai-home-solutions-hub .article-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-#lglife-etnews .article-card:last-child .article-image img {
+#lglife-ai-home-solutions-hub .article-card:last-child .article-image img {
     object-position: center 36%;
 }
 
-#lglife-etnews .notice-summary,
-#lglife-etnews .notice-detail,
-#lglife-etnews .feature-notice {
+#lglife-ai-home-solutions-hub .notice-summary,
+#lglife-ai-home-solutions-hub .notice-detail,
+#lglife-ai-home-solutions-hub .feature-notice {
     color: var(--muted);
     font-size: 14px;
     font-weight: 500;
     line-height: 1.4;
 }
 
-#lglife-etnews .notice-summary {
+#lglife-ai-home-solutions-hub .notice-summary {
+    width: min(1282px, 100%);
     margin-top: 12px;
 }
 
-#lglife-etnews .notice-summary > p,
-#lglife-etnews .feature-notice > p {
+#lglife-ai-home-solutions-hub #article-notice-detail {
+    width: min(1282px, 100%);
+}
+
+#lglife-ai-home-solutions-hub .notice-summary > p,
+#lglife-ai-home-solutions-hub .feature-notice > p {
     padding-left: 8px;
     text-indent: -8px;
 }
 
-#lglife-etnews .notice-summary a:hover {
+#lglife-ai-home-solutions-hub .notice-summary a:hover {
     text-decoration: underline;
 }
 
-#lglife-etnews .notice-toggle {
+#lglife-ai-home-solutions-hub .notice-toggle {
     display: inline-flex;
     align-items: center;
     gap: 2px;
@@ -406,28 +440,28 @@
     cursor: pointer;
 }
 
-#lglife-etnews .notice-toggle::after {
+#lglife-ai-home-solutions-hub .notice-toggle::after {
     content: "";
     width: 16px;
     height: 16px;
-    background: url("/kr/story/hands-on-reviews/img/lglife-ai-home/chevron_down.svg") center / contain no-repeat;
+    background: url("/kr/story/hands-on-reviews/img/lglife-ai-home-solutions-hub/chevron_down.svg") center / contain no-repeat;
     transition: transform 0.2s ease;
 }
 
-#lglife-etnews .notice-toggle[aria-expanded="true"]::after {
+#lglife-ai-home-solutions-hub .notice-toggle[aria-expanded="true"]::after {
     transform: rotate(180deg);
 }
 
-#lglife-etnews .notice-detail {
+#lglife-ai-home-solutions-hub .notice-detail {
     margin-top: 20px;
 }
 
-#lglife-etnews .notice-detail[hidden] {
+#lglife-ai-home-solutions-hub .notice-detail[hidden] {
     display: none;
 }
 
-#lglife-etnews .notice-detail h3,
-#lglife-etnews .notice-detail h4 {
+#lglife-ai-home-solutions-hub .notice-detail h3,
+#lglife-ai-home-solutions-hub .notice-detail h4 {
     margin-top: 16px;
     color: var(--muted);
     font-size: inherit;
@@ -435,48 +469,48 @@
     line-height: inherit;
 }
 
-#lglife-etnews .notice-detail h3:first-child,
-#lglife-etnews .notice-detail h4:first-child {
+#lglife-ai-home-solutions-hub .notice-detail h3:first-child,
+#lglife-ai-home-solutions-hub .notice-detail h4:first-child {
     margin-top: 0;
 }
 
-#lglife-etnews .notice-detail li {
+#lglife-ai-home-solutions-hub .notice-detail li {
     position: relative;
-    padding-left: 9px;
+    padding-left: 7px;
 }
 
-#lglife-etnews .notice-detail li::before {
+#lglife-ai-home-solutions-hub .notice-detail li::before {
     content: "*";
     position: absolute;
     top: 0;
     left: 0;
 }
 
-#lglife-etnews .sec-features > h2 {
+#lglife-ai-home-solutions-hub .sec-features > h2 {
     margin-bottom: 60px;
     text-align: center;
 }
 
-#lglife-etnews .feature-list {
+#lglife-ai-home-solutions-hub .feature-list {
     padding: 50px;
     border-radius: 30px;
     background: var(--panel);
 }
 
-#lglife-etnews .feature-item {
+#lglife-ai-home-solutions-hub .feature-item {
     display: grid;
     grid-template-columns: 630px minmax(0, 1fr);
     gap: 60px;
     align-items: start;
 }
 
-#lglife-etnews .feature-item + .feature-item {
+#lglife-ai-home-solutions-hub .feature-item + .feature-item {
     margin-top: 50px;
     padding-top: 50px;
     border-top: 1px solid #d9d9d9;
 }
 
-#lglife-etnews .feature-media {
+#lglife-ai-home-solutions-hub .feature-media {
     display: block;
     overflow: hidden;
     width: 630px;
@@ -485,19 +519,19 @@
     background: #fff;
 }
 
-#lglife-etnews .feature-media img,
-#lglife-etnews .feature-media video {
+#lglife-ai-home-solutions-hub .feature-media img,
+#lglife-ai-home-solutions-hub .feature-media video {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-#lglife-etnews .feature-video-wrap {
+#lglife-ai-home-solutions-hub .feature-video-wrap {
     position: relative;
 }
 
-#lglife-etnews .video-toggle {
+#lglife-ai-home-solutions-hub .video-toggle {
     position: absolute;
     right: 16px;
     bottom: 16px;
@@ -510,8 +544,8 @@
     cursor: pointer;
 }
 
-#lglife-etnews .video-toggle::before,
-#lglife-etnews .video-toggle::after {
+#lglife-ai-home-solutions-hub .video-toggle::before,
+#lglife-ai-home-solutions-hub .video-toggle::after {
     position: absolute;
     top: 9px;
     width: 3px;
@@ -521,15 +555,15 @@
     content: "";
 }
 
-#lglife-etnews .video-toggle::before {
+#lglife-ai-home-solutions-hub .video-toggle::before {
     left: 11px;
 }
 
-#lglife-etnews .video-toggle::after {
+#lglife-ai-home-solutions-hub .video-toggle::after {
     right: 11px;
 }
 
-#lglife-etnews .video-toggle.is-paused::before {
+#lglife-ai-home-solutions-hub .video-toggle.is-paused::before {
     top: 8px;
     left: 12px;
     width: 0;
@@ -541,41 +575,41 @@
     background: transparent;
 }
 
-#lglife-etnews .video-toggle.is-paused::after {
+#lglife-ai-home-solutions-hub .video-toggle.is-paused::after {
     display: none;
 }
 
-#lglife-etnews .feature-content {
-    padding-top: 6px;
+#lglife-ai-home-solutions-hub .feature-content {
+    padding-top: 0;
 }
 
-#lglife-etnews .feature-content > h3 {
+#lglife-ai-home-solutions-hub .feature-content > h3 {
     margin-bottom: 20px;
     font-size: 24px;
     font-weight: 700;
     line-height: 1.5;
 }
 
-#lglife-etnews .feature-content > p {
+#lglife-ai-home-solutions-hub .feature-content > p {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.4;
 }
 
-#lglife-etnews .feature-notice {
+#lglife-ai-home-solutions-hub .feature-notice {
     margin-top: 40px;
 }
 
-#lglife-etnews .feature-notice .notice-toggle {
+#lglife-ai-home-solutions-hub .feature-notice .notice-toggle {
     margin-top: 20px;
 }
 
-#lglife-etnews .sec-footer-cta {
+#lglife-ai-home-solutions-hub .sec-footer-cta {
     padding: 100px 20px;
     border-top: 1px solid #ddd;
 }
 
-#lglife-etnews .faq-link {
+#lglife-ai-home-solutions-hub .faq-link {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -587,163 +621,173 @@
     background: #fdf3f3;
 }
 
-#lglife-etnews .faq-link span {
+#lglife-ai-home-solutions-hub .faq-link span {
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
 
-#lglife-etnews .faq-link strong {
+#lglife-ai-home-solutions-hub .faq-link strong {
     font-size: 20px;
     font-weight: 700;
     line-height: 1.5;
 }
 
-#lglife-etnews .faq-link small {
+#lglife-ai-home-solutions-hub .faq-link small {
     font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
 }
 
-#lglife-etnews .faq-link > img {
+#lglife-ai-home-solutions-hub .faq-link > img {
     width: 6px;
     height: 11px;
 }
 
 @media screen and (max-width: 1300px) and (min-width: 769px) {
-    #lglife-etnews .review-card {
+    #lglife-ai-home-solutions-hub .review-card {
         gap: 48px;
         padding-right: 48px;
         padding-left: 48px;
     }
 
-    #lglife-etnews .article-copy {
+    #lglife-ai-home-solutions-hub .article-copy {
         font-size: 18px;
     }
 
-    #lglife-etnews .feature-item {
+    #lglife-ai-home-solutions-hub .feature-item {
         grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
         gap: 40px;
     }
 
-    #lglife-etnews .feature-media {
+    #lglife-ai-home-solutions-hub .feature-media {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
-    #lglife-etnews .pc-only,
-    #lglife-etnews br.pc-only {
+    #lglife-ai-home-solutions-hub .pc-only,
+    #lglife-ai-home-solutions-hub br.pc-only {
         display: none;
     }
 
-    #lglife-etnews .mo-only,
-    #lglife-etnews br.mo-only {
+    #lglife-ai-home-solutions-hub .mo-only,
+    #lglife-ai-home-solutions-hub br.mo-only {
         display: block;
     }
 
-    #lglife-etnews .content-wide {
+    #lglife-ai-home-solutions-hub .content-wide {
         width: calc(100% - 40px);
     }
 
-    #lglife-etnews .header-copy {
+    #lglife-ai-home-solutions-hub .header-copy {
         gap: 0;
         min-height: 420px;
         padding: 60px 20px 44px;
     }
 
-    #lglife-etnews .eyebrow {
+    #lglife-ai-home-solutions-hub .eyebrow {
         min-height: 38px;
         margin-bottom: 12px;
         font-size: 18px;
     }
 
-    #lglife-etnews .header-copy h1 {
+    #lglife-ai-home-solutions-hub .header-copy h1 {
         font-size: 36px;
         line-height: 1.4;
+        text-align: center;
     }
 
-    #lglife-etnews .header-kicker {
+    #lglife-ai-home-solutions-hub .header-kicker {
         margin-top: 8px;
         font-size: 16px;
         line-height: 1.8;
         white-space: nowrap;
     }
 
-    #lglife-etnews .header-description {
+    #lglife-ai-home-solutions-hub .header-description {
         width: 305px;
         margin-top: 16px;
         font-size: 16px;
         line-height: 1.45;
     }
 
-    #lglife-etnews .hero-visual {
+    #lglife-ai-home-solutions-hub .hero-visual {
         height: 282px;
     }
 
-    #lglife-etnews .hero-visual img {
+    #lglife-ai-home-solutions-hub .hero-visual img {
         object-position: center;
     }
 
-    #lglife-etnews .hero-disclaimer {
+    #lglife-ai-home-solutions-hub .hero-disclaimer {
+        width: calc(100% - 40px);
+        max-width: none;
+        margin-right: auto;
+        margin-left: auto;
         padding-top: 12px;
+        padding-left: 8px;
         color: #444;
         font-size: 11px;
         font-weight: 400;
+        letter-spacing: -0.005em;
         line-height: 1.4;
+        text-align: left;
+        text-indent: -8px;
     }
 
-    #lglife-etnews .page-content {
+    #lglife-ai-home-solutions-hub .page-content {
         gap: 60px;
         padding: 60px 0 80px;
     }
 
-    #lglife-etnews h2 {
+    #lglife-ai-home-solutions-hub h2 {
         font-size: 28px;
+        letter-spacing: -0.02em;
         line-height: 1.5;
     }
 
-    #lglife-etnews .sec-summary h2 {
+    #lglife-ai-home-solutions-hub .sec-summary h2 {
         margin-bottom: 32px;
         font-size: 24px;
         line-height: 1.5;
     }
 
-    #lglife-etnews .summary-list {
+    #lglife-ai-home-solutions-hub .summary-list {
         align-items: flex-start;
         gap: 10px;
         padding: 24px 20px;
         border-radius: 8px;
     }
 
-    #lglife-etnews .summary-list li {
+    #lglife-ai-home-solutions-hub .summary-list li {
         padding-left: 18px;
         font-size: 14px;
         line-height: 1.5;
     }
 
-    #lglife-etnews .summary-list li:nth-child(3) {
+    #lglife-ai-home-solutions-hub .summary-list li:nth-child(3) {
         width: calc(100% + 8px);
         margin-right: -8px;
     }
 
-    #lglife-etnews .summary-list li::before {
+    #lglife-ai-home-solutions-hub .summary-list li::before {
         top: 8px;
         left: 3px;
         width: 4px;
         height: 4px;
     }
 
-    #lglife-etnews .section-title {
+    #lglife-ai-home-solutions-hub .section-title {
         margin-bottom: 32px;
     }
 
-    #lglife-etnews .section-title > p {
+    #lglife-ai-home-solutions-hub .section-title > p {
         margin-bottom: 4px;
         font-size: 14px;
     }
 
-    #lglife-etnews .review-card {
+    #lglife-ai-home-solutions-hub .review-card {
         flex-direction: column;
         gap: 32px;
         min-height: 0;
@@ -751,42 +795,42 @@
         border-radius: 8px;
     }
 
-    #lglife-etnews .reviewer-image {
+    #lglife-ai-home-solutions-hub .reviewer-image {
         flex-basis: 80px;
         width: 80px;
         height: 80px;
     }
 
-    #lglife-etnews .review-content {
+    #lglife-ai-home-solutions-hub .review-content {
         width: 310px;
     }
 
-    #lglife-etnews .review-content h3 {
+    #lglife-ai-home-solutions-hub .review-content h3 {
         margin-bottom: 20px;
         font-size: 16px;
         line-height: 1.4;
         text-align: center;
     }
 
-    #lglife-etnews .keyword-list {
+    #lglife-ai-home-solutions-hub .keyword-list {
         flex-wrap: wrap;
         justify-content: center;
         width: 100%;
         gap: 6px;
     }
 
-    #lglife-etnews .keyword-list li {
+    #lglife-ai-home-solutions-hub .keyword-list li {
         padding: 2px 10px;
         font-size: 14px;
         line-height: 1.4;
     }
 
-    #lglife-etnews .keyword-list li:first-child {
+    #lglife-ai-home-solutions-hub .keyword-list li:first-child {
         flex-basis: max-content;
         margin: 0 50px;
     }
 
-    #lglife-etnews .review-content blockquote {
+    #lglife-ai-home-solutions-hub .review-content blockquote {
         margin-top: 32px;
         padding-top: 12px;
         font-size: 14px;
@@ -794,32 +838,32 @@
         text-align: center;
     }
 
-    #lglife-etnews .article-paper {
+    #lglife-ai-home-solutions-hub .article-paper {
         padding: 32px 16px 20px;
         border-radius: 16px;
     }
 
-    #lglife-etnews .sec-article.content-wide {
+    #lglife-ai-home-solutions-hub .sec-article.content-wide {
         width: 100%;
         padding: 28px 20px 40px;
     }
 
-    #lglife-etnews .article-header {
+    #lglife-ai-home-solutions-hub .article-header {
         gap: 4px;
         margin-bottom: 16px;
     }
 
-    #lglife-etnews .article-header img {
+    #lglife-ai-home-solutions-hub .article-header img {
         width: 88px;
         height: 36px;
     }
 
-    #lglife-etnews .article-header p {
+    #lglife-ai-home-solutions-hub .article-header p {
         font-size: 11px;
         line-height: 1.42;
     }
 
-    #lglife-etnews .article-grid {
+    #lglife-ai-home-solutions-hub .article-grid {
         display: flex;
         flex-direction: column;
         width: 302px;
@@ -828,115 +872,133 @@
         gap: 8px;
     }
 
-    #lglife-etnews .article-card {
+    #lglife-ai-home-solutions-hub .article-card {
         gap: 8px;
         padding: 24px;
         box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15), 0 4px 2px rgba(0, 0, 0, 0.1);
     }
 
-    #lglife-etnews .article-card h3 {
+    #lglife-ai-home-solutions-hub .article-card h3 {
         min-height: 0;
         margin-bottom: 0;
         font-size: 14px;
         line-height: 1.4;
     }
 
-    #lglife-etnews .article-copy {
-        width: calc(100% + 8px);
-        min-height: 0;
-        margin-right: -8px;
+    #lglife-ai-home-solutions-hub .article-copy {
+        width: 100%;
         padding: 10px 0 10px 10px;
         font-size: 14px;
         line-height: 1.44;
     }
 
-    #lglife-etnews .article-image {
+    #lglife-ai-home-solutions-hub .article-card:nth-child(2) .article-copy {
+        width: 100%;
+    }
+
+    #lglife-ai-home-solutions-hub .article-image {
         height: 180px;
         margin-top: 0;
         border-radius: 16px;
     }
 
-    #lglife-etnews .article-card:last-child .article-image img {
+    #lglife-ai-home-solutions-hub .article-card:first-child .article-image {
+        margin-top: 0;
+    }
+
+    #lglife-ai-home-solutions-hub .article-card:last-child .article-image img {
         object-position: center 35%;
     }
 
-    #lglife-etnews .notice-summary,
-    #lglife-etnews .notice-detail,
-    #lglife-etnews .feature-notice {
+    #lglife-ai-home-solutions-hub .notice-summary,
+    #lglife-ai-home-solutions-hub .notice-detail,
+    #lglife-ai-home-solutions-hub .feature-notice {
         color: #444;
         font-size: 11px;
         font-weight: 400;
+        letter-spacing: -0.005em;
         line-height: 1.4;
     }
 
-    #lglife-etnews .notice-summary {
+    #lglife-ai-home-solutions-hub .notice-summary p,
+    #lglife-ai-home-solutions-hub .notice-detail h3,
+    #lglife-ai-home-solutions-hub .notice-detail h4,
+    #lglife-ai-home-solutions-hub .notice-detail li,
+    #lglife-ai-home-solutions-hub .feature-notice p,
+    #lglife-ai-home-solutions-hub .feature-notice h4,
+    #lglife-ai-home-solutions-hub .feature-notice li {
+        letter-spacing: -0.005em;
+    }
+
+    #lglife-ai-home-solutions-hub .notice-summary {
         margin-top: 12px;
     }
 
-    #lglife-etnews .notice-summary a {
+    #lglife-ai-home-solutions-hub .notice-summary a {
         word-break: break-all;
     }
 
-    #lglife-etnews .notice-toggle {
+    #lglife-ai-home-solutions-hub .notice-toggle {
         margin-top: 12px;
         color: #444;
         font-size: 11px;
+        letter-spacing: -0.005em;
         line-height: 1.4;
     }
 
-    #lglife-etnews .notice-detail {
+    #lglife-ai-home-solutions-hub .notice-detail {
         margin-top: 16px;
     }
 
-    #lglife-etnews .sec-features > h2 {
+    #lglife-ai-home-solutions-hub .sec-features > h2 {
         margin-bottom: 32px;
     }
 
-    #lglife-etnews .feature-list {
+    #lglife-ai-home-solutions-hub .feature-list {
         padding: 24px;
         border-radius: 8px;
     }
 
-    #lglife-etnews .feature-item {
+    #lglife-ai-home-solutions-hub .feature-item {
         display: flex;
         flex-direction: column;
         gap: 32px;
     }
 
-    #lglife-etnews .feature-item + .feature-item {
+    #lglife-ai-home-solutions-hub .feature-item + .feature-item {
         margin-top: 40px;
         padding-top: 40px;
     }
 
-    #lglife-etnews .feature-media {
+    #lglife-ai-home-solutions-hub .feature-media {
         width: 100%;
         height: 180px;
         border-radius: 16px;
     }
 
-    #lglife-etnews .video-toggle {
+    #lglife-ai-home-solutions-hub .video-toggle {
         right: 12px;
         bottom: 12px;
         width: 24px;
         height: 24px;
     }
 
-    #lglife-etnews .video-toggle::before,
-    #lglife-etnews .video-toggle::after {
+    #lglife-ai-home-solutions-hub .video-toggle::before,
+    #lglife-ai-home-solutions-hub .video-toggle::after {
         top: 7px;
         width: 2px;
         height: 10px;
     }
 
-    #lglife-etnews .video-toggle::before {
+    #lglife-ai-home-solutions-hub .video-toggle::before {
         left: 8px;
     }
 
-    #lglife-etnews .video-toggle::after {
+    #lglife-ai-home-solutions-hub .video-toggle::after {
         right: 8px;
     }
 
-    #lglife-etnews .video-toggle.is-paused::before {
+    #lglife-ai-home-solutions-hub .video-toggle.is-paused::before {
         top: 6px;
         left: 9px;
         border-top-width: 6px;
@@ -944,56 +1006,57 @@
         border-left-width: 9px;
     }
 
-    #lglife-etnews .feature-content {
+    #lglife-ai-home-solutions-hub .feature-content {
+        width: 100%;
         padding-top: 0;
     }
 
-    #lglife-etnews .feature-content > h3 {
+    #lglife-ai-home-solutions-hub .feature-content > h3 {
         margin-bottom: 12px;
         font-size: 16px;
         line-height: 1.4;
     }
 
-    #lglife-etnews .feature-content > p {
+    #lglife-ai-home-solutions-hub .feature-content > p {
         font-size: 14px;
         line-height: 1.4;
     }
 
-    #lglife-etnews .feature-notice {
+    #lglife-ai-home-solutions-hub .feature-notice {
         margin-top: 20px;
     }
 
-    #lglife-etnews .feature-notice .notice-toggle {
+    #lglife-ai-home-solutions-hub .feature-notice .notice-toggle {
         margin-top: 12px;
     }
 
-    #lglife-etnews .sec-footer-cta {
+    #lglife-ai-home-solutions-hub .sec-footer-cta {
         padding: 60px 20px;
     }
 
-    #lglife-etnews .faq-link {
+    #lglife-ai-home-solutions-hub .faq-link {
         min-height: 111px;
         padding: 24px 20px;
     }
 
-    #lglife-etnews .faq-link strong {
+    #lglife-ai-home-solutions-hub .faq-link strong {
         font-size: 16px;
         font-weight: 600;
         line-height: 1.5;
     }
 
-    #lglife-etnews .faq-link small {
+    #lglife-ai-home-solutions-hub .faq-link small {
         font-size: 14px;
         line-height: 1.5;
     }
 }
 
 @media screen and (max-width: 390px) {
-    #lglife-etnews .header-copy h1 {
+    #lglife-ai-home-solutions-hub .header-copy h1 {
         font-size: 9.23vw;
     }
 
-    #lglife-etnews .header-kicker {
+    #lglife-ai-home-solutions-hub .header-kicker {
         font-size: 4.1vw;
     }
 }

@@ -158,10 +158,22 @@
 }
 
 #gjw006 p.caption {
+	display: flex;
+	align-items: flex-start;
 	width: 1380px;
 	max-width: calc(100% - 40px);
 	margin-top: 20px;
 	margin-bottom: 0;
+	padding-left: 0;
+}
+
+#gjw006 .caption-mark {
+	flex: 0 0 14px;
+}
+
+#gjw006 .caption-text {
+	min-width: 0;
+	flex: 1;
 }
 
 #gjw006 .sec-top-summary {
@@ -417,7 +429,7 @@
 }
 
 #gjw006 .sec-banner {
-	margin-top: 120px;
+	margin-top: 80px;
 	padding-bottom: 80px;
 }
 
@@ -573,10 +585,6 @@
 	}
 
 	#gjw006 .sec-header .inner-text {
-		padding-top: 40px;
-	}
-
-	#gjw006 .sec-header .inner-text {
 		margin-bottom: 23px;
 	}
 
@@ -607,6 +615,12 @@
 		width: auto;
 		max-width: none;
 		margin-top: 13px;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	#gjw006 .caption-mark {
+		flex-basis: 11px;
 	}
 
 	#gjw006 .sec-top-summary {
