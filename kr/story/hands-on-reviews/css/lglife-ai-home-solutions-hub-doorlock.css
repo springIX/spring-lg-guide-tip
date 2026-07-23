@@ -246,10 +246,12 @@
 }
 
 #lglife-ai-home-solutions-hub-doorlock .reviewer-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
+    position: absolute;
+    top: 17.47px;
+    left: 25.09px;
+    width: 139.82px;
+    max-width: none;
+    height: auto;
 }
 
 #lglife-ai-home-solutions-hub-doorlock .review-content {
@@ -413,7 +415,7 @@
 }
 
 #lglife-ai-home-solutions-hub-doorlock #article-notice-detail {
-    width: min(1282px, 100%);
+    width: 100%;
 }
 
 #lglife-ai-home-solutions-hub-doorlock .notice-summary > p,
@@ -507,7 +509,7 @@
 
 #lglife-ai-home-solutions-hub-doorlock .notice-detail li {
     position: relative;
-    padding-left: 7px;
+    padding-left: 10px;
 }
 
 #lglife-ai-home-solutions-hub-doorlock .notice-detail li::before {
@@ -832,6 +834,12 @@
         height: 80px;
     }
 
+    #lglife-ai-home-solutions-hub-doorlock .reviewer-image img {
+        top: 10.54px;
+        left: 9.48px;
+        width: 63.32px;
+    }
+
     #lglife-ai-home-solutions-hub-doorlock .review-content {
         width: 310px;
     }
@@ -844,7 +852,8 @@
     }
 
     #lglife-ai-home-solutions-hub-doorlock .keyword-list {
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: max-content max-content;
         justify-content: center;
         width: 100%;
         gap: 6px;
@@ -856,9 +865,9 @@
         line-height: 1.4;
     }
 
-    #lglife-ai-home-solutions-hub-doorlock .keyword-list li:first-child {
-        flex-basis: max-content;
-        margin: 0 50px;
+    #lglife-ai-home-solutions-hub-doorlock .keyword-list li:nth-child(-n + 3) {
+        grid-column: 1 / -1;
+        justify-self: center;
     }
 
     #lglife-ai-home-solutions-hub-doorlock .review-content blockquote {
@@ -959,6 +968,10 @@
     #lglife-ai-home-solutions-hub-doorlock .feature-notice h4,
     #lglife-ai-home-solutions-hub-doorlock .feature-notice li {
         letter-spacing: -0.005em;
+    }
+    #lglife-ai-home-solutions-hub-doorlock .notice-detail li {
+        position: relative;
+        padding-left: 8px;
     }
 
     #lglife-ai-home-solutions-hub-doorlock .notice-summary {

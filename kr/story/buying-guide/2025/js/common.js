@@ -60,7 +60,6 @@ $(document).ready(function () {
   videoHandler(); // 영상 pause/play
   initTabAccessibility();
   initBlankLinkAccessibility();
-  initUsefulTipInAppBrowser();
   enableHorizontalDragScroll();
   verticalScrollTabHandler(); // 상품 탭 가로 스크롤 내비게이션
   $(".bubble-wrap .dot").on("click", function (e) {
@@ -134,45 +133,6 @@ function initBlankLinkAccessibility() {
   });
 }
 
-function openNewInAppBrowser(target) {
-  if (
-    window.vcui &&
-    vcui.detect &&
-    vcui.detect.isIOS &&
-    window.webkit &&
-    webkit.messageHandlers &&
-    webkit.messageHandlers.callbackHandler
-  ) {
-    const obj = {
-      command: "openNewInAppBrowser",
-      url: target.href,
-      titlebar_show: "Y",
-      bottombar_show: "N",
-    };
-    const jsonString = JSON.stringify(obj);
-    webkit.messageHandlers.callbackHandler.postMessage(jsonString);
-    return false;
-  }
-
-  if (window.android && android.openNewWebview) {
-    android.openNewWebview(target.href, true, false);
-    return false;
-  }
-
-  return true;
-}
-
-function initUsefulTipInAppBrowser() {
-  $(document).on(
-    "click",
-    ".buying-guide .useful-tip a[target='_blank']",
-    function () {
-      return openNewInAppBrowser(this);
-    },
-  );
-}
-
-window.openNewInAppBrowser = openNewInAppBrowser;
 
 function initTabAccessibility() {
   const $tabButtons = $("button[name=buying-guide-tab]");
