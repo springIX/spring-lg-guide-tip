@@ -20,12 +20,11 @@ $(document).ready(function(){
         $('.choice-content-list').removeClass('on');
         $('.choice-content-list').eq(thisIndex).addClass('on');
 
-        var noticeIndex = thisIndex === 3 ? 0 : thisIndex;
         $('.choice-notice-list').removeClass('on');
-        $('.choice-notice-list').eq(noticeIndex).addClass('on');
+        $('.choice-notice-list').eq(thisIndex).addClass('on');
 
         $('.section02 .detail-wrap').css('display','block');
-        $('.section04 .choice-notice-content').eq(0).css('display','block');
+        $('.section04 .choice-notice-content').eq(0).css('display', thisIndex === 3 ? 'none' : 'block');
 
         $('.choice-btn-wrap').removeClass('on');
         $('.choice-btn-wrap').eq(thisIndex).addClass('on');
