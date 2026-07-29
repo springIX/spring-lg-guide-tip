@@ -788,6 +788,10 @@
     padding-left: 14px;
 }
 
+#snomet.all-in-one-guide .sec-summary + .sec-product .bullet-list li {
+    padding-left: 6px;
+}
+
 #snomet .bullet-list li::before {
     content: "";
     position: absolute;
