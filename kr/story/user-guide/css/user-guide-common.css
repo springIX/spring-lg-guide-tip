@@ -788,8 +788,11 @@
     padding-left: 14px;
 }
 
-#snomet.all-in-one-guide .sec-summary + .sec-product .bullet-list li {
-    padding-left: 6px;
+#snomet .bullet-list--body li,
+#snomet .bullet-list--compact li,
+#snomet .bullet-list--service li,
+#snomet .bullet-list--tip li {
+    padding-left: 12px;
 }
 
 #snomet .bullet-list li::before {
@@ -1379,8 +1382,18 @@
         padding-left: 10px;
     }
 
-    #snomet .bullet-list li::before {
-        top: 11px;
+    #snomet .bullet-list--body li,
+    #snomet .bullet-list--compact li,
+    #snomet .bullet-list--service li,
+    #snomet .bullet-list--tip li {
+        padding-left: 6px;
+    }
+
+    #snomet .bullet-list--body li::before,
+    #snomet .bullet-list--compact li::before,
+    #snomet .bullet-list--service li::before,
+    #snomet .bullet-list--tip li::before {
+        top: 10px;
         width: 3px;
         height: 3px;
     }
@@ -1389,6 +1402,11 @@
         font-size: 14px;
         line-height: 1.6;
         letter-spacing: var(--ls-body);
+    }
+
+    #snomet .bullet-list--service p,
+    #snomet .bullet-list--tip p {
+        line-height: 1.4;
     }
 
     #snomet.all-in-one-guide .feature-img img {

@@ -152,7 +152,7 @@ if (cookies != null) {
         </div>
       </div>
     </div>
-    <!-- 컨텐츠 시작 -->
+  <!-- 컨텐츠 시작 -->
   <div class="con-wrap container">
       <!--메인페이지-->
       <section class="con-box">
@@ -223,7 +223,7 @@ if (cookies != null) {
                     <img src="/kr/story/user-guide/images/dishwashers-install-guide/recommend-list05.png"
                       alt="싱크대 위에 설치하는 카운터 탑 전용 식기세척기">
                   </div>
-                  <strong class="main-txt"><span>카운터 탑 전용</span><br>걸레받이 없는 모델</strong>
+                  <strong class="main-txt main-txt--single">카운터 탑 전용</strong>
                   <p>카운터 탑 전용은 싱크대에 빌트인 하지 않고<br class="pc-show">
                     싱크대 위에 올려놓고 사용할 수 있는<br class="pc-show">
                     모델입니다.</p>
@@ -251,7 +251,7 @@ if (cookies != null) {
 
               <ul class="main-txt">
                 <li>&#42;프리스탠딩 겸용 제품(DFB****)은 걸레받이 높이에 상관없이 설치가 가능하나, 걸레받이 절단이 필요함</li>
-                <li>&#42; 식기세척기 높이 조절하여 설치할 경우(빌트인 전용 최대 60mm, 프리스탠딩 겸용 최대 30mm), 조절된 제품
+                <li>&#42;식기세척기 높이 조절하여 설치할 경우(빌트인 전용 최대 60mm, 프리스탠딩 겸용 최대 30mm), 조절된 제품
                   높이만큼 걸레받이 높이 기준이 변경됨</li>
               </ul>
 
@@ -1571,9 +1571,11 @@ if (cookies != null) {
                   <div>
                     <p class="notice sub-tit">전면</p>
                     <img src="/kr/story/user-guide/images/dishwashers-install-guide/recommend-list05-03.png"
-                      alt="싱크대 위에 설치된 카운터 탑 식기세척기의 전면 크기, 폭 555mm와 높이 524mm" class="pc-show">
+                      alt="싱크대 위에 설치된 카운터 탑 식기세척기의 전면 크기, 폭 555mm와 높이 524mm"
+                      class="pc-show">
                     <img src="/kr/story/user-guide/images/dishwashers-install-guide/m-recommend-list05-03.png"
-                      alt="싱크대 위에 설치된 카운터 탑 식기세척기의 전면 크기, 폭 555mm와 높이 524mm" class="m-show">
+                      alt="싱크대 위에 설치된 카운터 탑 식기세척기의 전면 크기, 폭 555mm와 높이 524mm"
+                      class="m-show">
                     <p class="unit">(단위 <span>:</span> mm)</p>
                   </div>
                 </div>
@@ -1583,17 +1585,21 @@ if (cookies != null) {
                     <li>
                       <p class="notice sub-tit">설치 공간</p>
                       <img src="/kr/story/user-guide/images/dishwashers-install-guide/recommend-list05-04.png"
-                        alt="카운터 탑 식기세척기 설치 공간의 크기, 폭 555mm와 깊이 520mm, 높이 524mm" class="pc-show">
+                        alt="카운터 탑 식기세척기 설치 공간의 크기, 폭 555mm와 깊이 520mm, 높이 524mm"
+                        class="pc-show">
                       <img src="/kr/story/user-guide/images/dishwashers-install-guide/m-recommend-list05-04.png"
-                        alt="카운터 탑 식기세척기 설치 공간의 크기, 폭 555mm와 깊이 520mm, 높이 524mm" class="m-show">
+                        alt="카운터 탑 식기세척기 설치 공간의 크기, 폭 555mm와 깊이 520mm, 높이 524mm"
+                        class="m-show">
                       <p class="unit">(단위 <span>:</span> mm)</p>
                     </li>
                     <li>
                       <p class="notice sub-tit">도어 오픈</p>
                       <img src="/kr/story/user-guide/images/dishwashers-install-guide/recommend-list05-05.png"
-                        alt="카운터 탑 식기세척기 도어를 열 때 필요한 공간 429mm" class="pc-show">
+                        alt="카운터 탑 식기세척기 도어를 열 때 필요한 공간 429mm"
+                        class="pc-show">
                       <img src="/kr/story/user-guide/images/dishwashers-install-guide/m-recommend-list05-05.png"
-                        alt="카운터 탑 식기세척기 도어를 열 때 필요한 공간 429mm" class="m-show">
+                        alt="카운터 탑 식기세척기 도어를 열 때 필요한 공간 429mm"
+                        class="m-show">
                       <p class="unit">(단위 <span>:</span> mm)</p>
                     </li>
                   </ul>
@@ -1650,7 +1656,7 @@ if (cookies != null) {
                           </tr>
                           <tr>
                             <td>598~600</td>
-                            <td>설치는 가능 / 설치 시 주의 (여유공간이 없을 수 있음)<br>
+                            <td>설치는 가능 / 설치 시 주의 <br class="mo-only"> (여유공간이 없을 수 있음)<br>
                               여유공간 부족으로 무리하게 설치 시<br>외관 손상이 우려됨</td>
                           </tr>
                           <tr>
@@ -1717,9 +1723,11 @@ if (cookies != null) {
                   <h5>*걸레받이 높이/깊이별 설치 자세히 보기</h5>
                   <div class="countertop-molding__image">
                     <img src="/kr/story/user-guide/images/dishwashers-install-guide/recommend-list05-08.png"
-                      alt="식기세척기 설치 시 걸레받이의 높이와 깊이를 고려해야 하는 치수 정보 이미지" class="pc-show">
+                      alt="식기세척기 설치 시 걸레받이의 높이와 깊이를 고려해야 하는 치수 정보 이미지"
+                      class="pc-show">
                     <img src="/kr/story/user-guide/images/dishwashers-install-guide/m-recommend-list05-08.png"
-                      alt="식기세척기 설치 시 걸레받이의 높이와 깊이를 고려해야 하는 치수 정보 이미지" class="m-show">
+                      alt="식기세척기 설치 시 걸레받이의 높이와 깊이를 고려해야 하는 치수 정보 이미지"
+                      class="m-show">
                     <p>* 식기세척기 높이 조절하여 설치할 경우(빌트인 전용 최대 60mm, 프리스탠딩 겸용 최대 30mm),
                       조절된 제품 높이만큼 걸레받이 높이 기준이 변경됨</p>
                   </div>
@@ -2184,49 +2192,48 @@ if (cookies != null) {
               </div>
             </div>
           </div>
-
-          <div class="choice-notice-list">
-            <div class="notice-content animate__animated animate__fadeInUp">
-              <div class="notice-box">
-                <div class="notice-tit">
-                  <h4>카운터 탑으로 설치 프로세스</h4>
-                </div>
-                <div class="notice-txt">
-                  <ol class="ol-type01">
-                    <li>
-                      <div class="ol-type01-tit">
-                        <img src="/kr/story/user-guide/images/dishwashers-install-guide/notice-step1-no.png" alt="1단계"
-                          class="pc-show">
-                        <img src="/kr/story/user-guide/images/dishwashers-install-guide/m-notice-step1-no.png" alt="1단계"
-                          class="m-show">
-                        <h6>제품 구매</h6>
-                      </div>
-                      <div class="ol-type-01-txt">
-                        <img src="/kr/story/user-guide/images/dishwashers-install-guide/notice-step1-icon.png" alt="">
-                        <p>싱크대 위에 올려놓고 <br class="pc-show">
-                          설치를 원하는 고객님은 <br class="pc-show">
-                          카운터 탑 전용 모델을 구매해 주세요.</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="ol-type01-tit">
-                        <img src="/kr/story/user-guide/images/dishwashers-install-guide/notice-step2-no.png" alt="2단계"
-                          class="pc-show">
-                        <img src="/kr/story/user-guide/images/dishwashers-install-guide/m-notice-step2-no.png" alt="2단계"
-                          class="m-show">
-                        <h6>제품 설치</h6>
-                      </div>
-                      <div class="ol-type-01-txt">
-                        <img src="/kr/story/user-guide/images/dishwashers-install-guide/notice-step4-icon.png" alt="">
-                        <p>LG 전문설치기사가 방문하여 <br class="pc-show">
-                          설치를 진행합니다.</p>
-                      </div>
-                    </li>
-                  </ol>
-                </div>
-              </div>
+<div class="choice-notice-list">
+  <div class="notice-content animate__animated animate__fadeInUp">
+    <div class="notice-box">
+      <div class="notice-tit">
+        <h4>카운터 탑으로 설치 프로세스</h4>
+      </div>
+      <div class="notice-txt">
+        <ol class="ol-type01">
+          <li>
+            <div class="ol-type01-tit">
+              <img src="/kr/story/user-guide/images/dishwashers-install-guide/notice-step1-no.png" alt="1단계"
+                class="pc-show">
+              <img src="/kr/story/user-guide/images/dishwashers-install-guide/m-notice-step1-no.png" alt="1단계"
+                class="m-show">
+              <h6>제품 구매</h6>
             </div>
-          </div>
+            <div class="ol-type-01-txt">
+              <img src="/kr/story/user-guide/images/dishwashers-install-guide/notice-step1-icon.png" alt="">
+              <p>싱크대 위에 올려놓고 <br class="pc-show">
+                설치를 원하는 고객님은 <br class="pc-show">
+                카운터 탑 전용 모델을 구매해 주세요.</p>
+            </div>
+          </li>
+          <li>
+            <div class="ol-type01-tit">
+              <img src="/kr/story/user-guide/images/dishwashers-install-guide/notice-step2-no.png" alt="2단계"
+                class="pc-show">
+              <img src="/kr/story/user-guide/images/dishwashers-install-guide/m-notice-step2-no.png" alt="2단계"
+                class="m-show">
+              <h6>제품 설치</h6>
+            </div>
+            <div class="ol-type-01-txt">
+              <img src="/kr/story/user-guide/images/dishwashers-install-guide/notice-step4-icon.png" alt="">
+              <p>LG 전문설치기사가 방문하여 <br class="pc-show">
+                설치를 진행합니다.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
         </section>
 
         <!--section04-->
@@ -2672,19 +2679,19 @@ if (cookies != null) {
                       <td class="txt-left">
                         <h5 class="main-txt">공통</h5>
                         <p>가구장 문을 분해<br>(보통 하나로 되어있음) (600mm)</p>
-	                        <h5 class="main-txt">1) 프리스탠딩 겸용 모델</h5>
-	                        <ul class="ul-type03">
-	                          <li>
-	                            내부 선반 걸레받이 제거 후 공간<br>확보
-	                          </li>
-	                        </ul>
-	                        <h5 class="main-txt">2) 빌트인 전용 모델</h5>
-	                        <ul class="ul-type03">
-	                          <li>빌트인 전용 모델의 경우 걸레받이<br>유지 (절단X)</li>
-	                          <li>걸레받이 환경에 따라 상단 일부 절단할 수 있음</li>
-	                        </ul>
-	                      </td>
-	                      <td>무상<br>(20년 9월<br>부터)</td>
+                          <h5 class="main-txt">1) 프리스탠딩 겸용 모델</h5>
+                          <ul class="ul-type03">
+                            <li>
+                              내부 선반 걸레받이 제거 후 공간<br>확보
+                            </li>
+                          </ul>
+                          <h5 class="main-txt">2) 빌트인 전용 모델</h5>
+                          <ul class="ul-type03">
+                            <li>빌트인 전용 모델의 경우 걸레받이<br>유지 (절단X)</li>
+                            <li>걸레받이 환경에 따라 상단 일부 절단할 수 있음</li>
+                          </ul>
+                          </td>
+                          <td>무상<br>(20년 9월<br>부터)</td>
                       <td>LG 전문설치기사(판토스)<br>
                         <span class="mobile-hanging-indent">* 단, 난이도가 높은 경우 특수 시공업체에서 시공하며 추가 비용이 발생할 수 있음</span></td>
                     </tr>
@@ -2744,19 +2751,19 @@ if (cookies != null) {
                         <ul class="ul-type03">
                           <li>
                             한쪽 문 350mm X 2 = 700mm
-	                          </li>
-	                          <li>
-	                            문이 두 개 이상이며, 600mm<br>초과
-	                          </li>
-	                        </ul>
-	                        <h5 class="main-txt">2) 싱크장 좌우 리폼 작업 후<br>공간 확보</h5>
-	                        <ul class="ul-type03">
-	                          <li>빌트인 전용 모델의 경우<br>걸레받이 유지 (절단X)</li>
-	                          <li>걸레받이 환경에 따라 상단 일부<br>절단할 수 있음</li>
-	                        </ul>
-	                        <h5 class="main-txt">3) 식기세척기 설치공간 외 나머지<br>공간을 도어가 열리지 않는 멍장<br>(멍도어) 마감</h5>
-	                      </td>
-	                      <td>100,000<br>~</td>
+                            </li>
+                            <li>
+                              문이 두 개 이상이며, 600mm<br>초과
+                            </li>
+                            </ul>
+                            <h5 class="main-txt">2) 싱크장 좌우 리폼 작업 후<br>공간 확보</h5>
+                            <ul class="ul-type03">
+                              <li>빌트인 전용 모델의 경우<br>걸레받이 유지 (절단X)</li>
+                              <li>걸레받이 환경에 따라 상단 일부<br>절단할 수 있음</li>
+                            </ul>
+                            <h5 class="main-txt">3) 식기세척기 설치공간 외 나머지<br>공간을 도어가 열리지 않는 멍장<br>(멍도어) 마감</h5>
+                            </td>
+                            <td>100,000<br>~</td>
                         <td>LG 전문설치기사(판토스)/특수 시공업체<br>
                         <span class="mobile-hanging-indent">* 시공난이도에 따라 다름</span></td>
                     </tr>
@@ -2809,21 +2816,21 @@ if (cookies != null) {
                   </thead>
                   <tbody>
                     <tr>
-	                      <td>수납공간<br>작업</td>
-	                      <td class="txt-left">
-	                        <h5 class="main-txt mobile-bullet-indent">• 식기세척기 설치공간을 확보하고 나머지 공간을 빼낸 비규격장을 사용하여 수납공간 작업</h5>
-	                      </td>
-	                      <td>+30,000<br>~</td>
-	                      <td>LG전문설치기사(판토스)/특수시공업체</td>
-	                    </tr>
-	                    <tr>
-	                      <td>양념 ACC<br>추가</td>
-	                      <td class="txt-left">
+                        <td>수납공간<br>작업</td>
+                        <td class="txt-left">
+                          <h5 class="main-txt mobile-bullet-indent">• 식기세척기 설치공간을 확보하고 나머지 공간을 빼낸 비규격장을 사용하여 수납공간 작업</h5>
+                        </td>
+                        <td>+30,000<br>~</td>
+                        <td>LG전문설치기사(판토스)/특수시공업체</td>
+                        </tr>
+                        <tr>
+                          <td>양념 ACC<br>추가</td>
+                          <td class="txt-left">
                           <h5 class="main-txt mobile-bullet-indent">• 빼내는 장 너비가 750㎜가 넘는 경우 슬라이딩 양념 ACC 시공 가능</h5><br>
                           <span class="mobile-hanging-indent">* 단, 고객과 사전에 상담 및 합의가 된 후 자재 준비하여 시공 가능함</span>
-	                      </td>
-	                      <td>+70,000<br>~</td>
-	                      <td>특수시공<br>업체</td>
+                          </td>
+                          <td>+70,000<br>~</td>
+                          <td>특수시공<br>업체</td>
                     </tr>
                   </tbody>
                 </table>
@@ -3101,7 +3108,7 @@ if (cookies != null) {
           <div class="notice-cont installation-cost-guide animate__animated animate__fadeInUp">
             <h4 class="main-tit">*식기세척기 설치 추가 비용 안내</h4>
 
-            <div class="installation-cost-guide__group">
+            <div class="installation-cost-guide__group installation-cost-guide__group--common">
               <h5 class="table-tit">1. 공통</h5>
               <div class="table-cont">
                 <table class="table-type01">
@@ -3129,10 +3136,10 @@ if (cookies != null) {
                     </tr>
                     <tr>
                       <td class="border-right-grey">싱크대 홀 타공 (인조대리석, 아크릴, 목재 등)</td>
-                      </tr>
-                      <tr>
-                        <td>싱크대 줄 타공 (천연대리석, 엔지니어드 스톤)</td>
-                        <td>10만원</td>
+                    </tr>
+                    <tr>
+                      <td>싱크대 줄 타공 (천연대리석, 엔지니어드 스톤)</td>
+                      <td>10만원</td>
                     </tr>
                   </tbody>
                 </table>
@@ -3143,7 +3150,115 @@ if (cookies != null) {
               </div>
             </div>
 
-            <div class="installation-cost-guide__group">
+            <div class="installation-cost-guide__group installation-cost-guide__group--countertop">
+              <div class="table-cont installation-cost-guide__table-scroll">
+                <table class="table-type01 installation-cost-guide__detail-table">
+                  <caption>카운터 탑 전용 식기세척기 설치 추가 비용 - 구분, 단가, 작업 내용, 설치 업체의 내용을 확인할 수 있습니다.</caption>
+                  <colgroup>
+                    <col class="installation-cost-guide__col--category">
+                    <col class="installation-cost-guide__col--material">
+                    <col class="installation-cost-guide__col--size">
+                    <col class="installation-cost-guide__col--price">
+                    <col class="installation-cost-guide__col--work">
+                    <col class="installation-cost-guide__col--installer">
+                  </colgroup>
+                  <thead>
+                    <tr>
+                      <th scope="col" colspan="3">구분</th>
+                      <th scope="col">단가</th>
+                      <th scope="col">작업 내용</th>
+                      <th scope="col">설치</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="rowgroup" rowspan="4">싱크대 타공</th>
+                      <td colspan="2">인조대리석 상판<br>(아크릴/목재 재질)</td>
+                      <td>무료</td>
+                      <td class="installation-cost-guide__work">
+                        <ul class="installation-cost-guide__work-list">
+                          <li class="installation-cost-guide__work-primary">하부장 내부에 원수 및 배수관 연결이 필요하여 호스가 싱크대를
+                            통과해야 하는 경우</li>
+                          <li class="installation-cost-guide__work-detail">원수 혹은 배수만 내부로 연결할 경우 : 타공 9~10mm</li>
+                          <li class="installation-cost-guide__work-detail">원수 및 배수호스 모두 내부로 연결할 경우 : 타공 약 15mm</li>
+                        </ul>
+                      </td>
+                      <td rowspan="6">판토스</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="2">천연대리석 상판<br>(칸스톤/엔지니어드스톤 등)</td>
+                      <td>타공사이즈<br>(10mm)</td>
+                      <td>50,000</td>
+                      <td class="installation-cost-guide__work">
+                        <ul class="installation-cost-guide__work-list">
+                          <li class="installation-cost-guide__work-primary">하부장 내부에 원수 및 배수관 연결이 필요하여 호스가 싱크대를
+                            통과해야 하는 경우</li>
+                          <li class="installation-cost-guide__work-detail">급수선 얇은 경우 : 타공 9~10mm</li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>타공사이즈<br>(30mm 이상)</td>
+                      <td>100,000</td>
+                      <td class="installation-cost-guide__work">
+                        <ul class="installation-cost-guide__work-list">
+                          <li class="installation-cost-guide__work-primary">하부장 내부에 원수 및 배수관 연결이 필요하여 호스가 싱크대를
+                            통과해야 하는 경우</li>
+                          <li class="installation-cost-guide__work-detail">급/배수선이 두꺼운 경우(30mm) 혹은 얇은 급수 + 배수 함께
+                            뚫는 경우(40mm)</li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="2">세라믹</td>
+                      <td>110,000</td>
+                      <td class="installation-cost-guide__work">
+                        <ul class="installation-cost-guide__work-list">
+                          <li class="installation-cost-guide__work-primary">하부장 내부에 원수 및 배수관 연결이 필요하여 호스가 싱크대를
+                            통과해야 하는 경우</li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row" colspan="3">3T 이상 두께의 싱크볼</th>
+                      <td>70,000</td>
+                      <td class="installation-cost-guide__work">
+                        <ul class="installation-cost-guide__work-list">
+                          <li class="installation-cost-guide__work-primary">두께가 3mm 미만인 스테인리스 싱크볼의 경우,<br class="m-show">무상 시공 가능
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row" colspan="3">콘센트 연장작업</th>
+                      <td>40,000</td>
+                      <td class="installation-cost-guide__work">
+                        <ul class="installation-cost-guide__work-list">
+                          <li class="installation-cost-guide__work-primary">하부장 내 콘센트 신설이 필요한 경우<br class="m-show">(싱크대 재질에 따라 타공 비용
+                            별도)</li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row" colspan="3">차단기 신설</th>
+                      <td>견적가</td>
+                      <td class="installation-cost-guide__work">
+                        <ul class="installation-cost-guide__work-list">
+                          <li class="installation-cost-guide__work-primary">주방 내 타제품(전기레인지, 식기세척기 등) 사용으로 전력이 부족할 경우
+                          </li>
+                        </ul>
+                      </td>
+                      <td>특수시공업체</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="installation-cost-guide__notes">
+                <p>* 고객댁 환경에 따라 추가 비용이 발생할 수 있음</p>
+              </div>
+            </div>
+
+            <div class="installation-cost-guide__group installation-cost-guide__group--built-in">
               <h5 class="table-tit">2. 빌트인</h5>
               <div class="table-cont">
                 <table class="table-type01">
@@ -3540,10 +3655,10 @@ if (cookies != null) {
   <c:import url="/WEB-INF/jsp/common/includes/footerDefault.jsp" charEncoding="utf-8" />
   <!-- // footerDefault -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-viewport-checker/1.8.8/jquery.viewportchecker.min.js"
-        integrity="sha512-FRX6MYITclzDyyMmSQLgZoZTfE+GLzAQpjs15adVZMY6AqhsrBLx8UZwp4FoqrrRFWY9TiaPwja7EY5fk309vw=="
-        crossorigin="anonymous"></script> 
-    <!-- 250715 수정 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-viewport-checker/1.8.8/jquery.viewportchecker.min.js"
+    integrity="sha512-FRX6MYITclzDyyMmSQLgZoZTfE+GLzAQpjs15adVZMY6AqhsrBLx8UZwp4FoqrrRFWY9TiaPwja7EY5fk309vw=="
+    crossorigin="anonymous"></script>
+  <!-- 250715 수정 -->
   <script src="/kr/story/user-guide/js/install-guide-common.js"></script>
   <!-- // 250715 수정 -->
 

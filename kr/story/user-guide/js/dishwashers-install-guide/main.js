@@ -23,8 +23,14 @@ $(document).ready(function(){
         $('.choice-notice-list').removeClass('on');
         $('.choice-notice-list').eq(thisIndex).addClass('on');
 
+        var isCountertop = thisIndex === 3;
+        var $costGuide = $('.installation-cost-guide');
+
         $('.section02 .detail-wrap').css('display','block');
-        $('.section04 .choice-notice-content').eq(0).css('display', thisIndex === 3 ? 'none' : 'block');
+        $('.section04 .choice-notice-content').eq(0).css('display', isCountertop ? 'none' : 'block');
+        $costGuide.find('.installation-cost-guide__group--common').toggle(!isCountertop);
+        $costGuide.find('.installation-cost-guide__group--countertop').toggle(isCountertop);
+        $costGuide.find('.installation-cost-guide__group--built-in').toggle(!isCountertop);
 
         $('.choice-btn-wrap').removeClass('on');
         $('.choice-btn-wrap').eq(thisIndex).addClass('on');

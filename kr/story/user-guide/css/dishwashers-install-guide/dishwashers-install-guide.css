@@ -112,6 +112,7 @@ section:not(.section08) {
   padding: 0 6% 2%;
   border-radius: 21.5px;
   border: 2px solid #666;
+      max-width: 90%;
 }
 
 .section02 .recommend-wrap .recommend-list li .main-txt span {
@@ -2286,10 +2287,6 @@ section:not(.section08) {
   letter-spacing: -0.8px;
 }
 
-.con-wrap .section-qna + .section-help {
-  padding-top: 5px !important;
-}
-
 .con-wrap .section-help {
   max-width: 1380px;
   box-sizing: border-box;
@@ -2337,6 +2334,19 @@ section:not(.section08) {
 .section02 .recommend-wrap .recommend-list li p,
 .section02 .recommend-wrap .recommend-list li.on p {
   line-height: 1.4;
+}
+
+.con-wrap .section02 .recommend-wrap .recommend-list li .main-txt.main-txt--single {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(2.8em + 10px);
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.con-wrap .section02 .recommend-wrap .recommend-list li.on .main-txt.main-txt--single {
+  height: calc(2.8em + 14px);
 }
 
 .section03 .countertop-content .list-content {
@@ -2507,6 +2517,11 @@ section:not(.section08) {
   margin-top: 40px;
 }
 
+.installation-cost-guide__group--countertop {
+  display: none;
+  margin-top: 0 !important;
+}
+
 .installation-cost-guide .table-tit {
   margin-bottom: 20px;
   line-height: 1.4;
@@ -2538,6 +2553,102 @@ section:not(.section08) {
   line-height: 1.4;
   text-align: center;
   vertical-align: middle;
+}
+
+.installation-cost-guide .installation-cost-guide__detail-table th,
+.installation-cost-guide .installation-cost-guide__detail-table td {
+  padding: 12px 10px;
+  word-break: keep-all;
+}
+
+.installation-cost-guide__detail-table .installation-cost-guide__col--category,
+.installation-cost-guide__detail-table .installation-cost-guide__col--material,
+.installation-cost-guide__detail-table .installation-cost-guide__col--size {
+  width: 196px;
+}
+
+.installation-cost-guide__detail-table .installation-cost-guide__col--price,
+.installation-cost-guide__detail-table .installation-cost-guide__col--installer {
+  width: 140px;
+}
+
+.installation-cost-guide__detail-table .installation-cost-guide__col--work {
+  width: 512px;
+}
+
+.installation-cost-guide .installation-cost-guide__detail-table tbody tr:nth-child(1) {
+  height: 118px;
+}
+
+.installation-cost-guide .installation-cost-guide__detail-table tbody tr:nth-child(2),
+.installation-cost-guide .installation-cost-guide__detail-table tbody tr:nth-child(3) {
+  height: 98px;
+}
+
+.installation-cost-guide .installation-cost-guide__detail-table tbody tr:nth-child(n + 4) {
+  height: 73px;
+}
+
+.section04 .installation-cost-guide .installation-cost-guide__detail-table tbody th,
+.section04 .installation-cost-guide .installation-cost-guide__detail-table tbody td {
+  height: auto;
+}
+
+.installation-cost-guide .installation-cost-guide__detail-table tbody th {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+  vertical-align: middle;
+  border-right: 1px solid #cdcdcd;
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.installation-cost-guide .installation-cost-guide__detail-table .installation-cost-guide__work {
+  color: #000;
+  text-align: left;
+}
+
+.installation-cost-guide .installation-cost-guide__work-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.installation-cost-guide .installation-cost-guide__work-list li {
+  position: relative;
+  margin: 0;
+  padding-left: 12px;
+  color: inherit;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.installation-cost-guide .installation-cost-guide__work-list li::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.installation-cost-guide .installation-cost-guide__work-primary {
+  font-weight: 600;
+}
+
+.installation-cost-guide .installation-cost-guide__work-primary::before {
+  content: "\2022";
+}
+
+.installation-cost-guide .installation-cost-guide__work-detail {
+  font-weight: 400;
+}
+
+.installation-cost-guide .installation-cost-guide__work-detail::before {
+  content: "*";
+}
+
+.installation-cost-guide .installation-cost-guide__work-primary + .installation-cost-guide__work-detail {
+  margin-top: 5px;
 }
 
 .installation-cost-guide__notes {
@@ -2748,54 +2859,6 @@ section:not(.section08) {
 
   .section04 .choice-notice-content > .table-wrap:nth-of-type(6) td {
     padding: 25.5px;
-  }
-
-  .section04 .choice-notice-content > .table-wrap:nth-of-type(1) table {
-    height: 312px;
-  }
-
-  .section04 .choice-notice-content > .table-wrap:nth-of-type(1) .table-cont {
-    height: 312px;
-  }
-
-  .section04 .choice-notice-content > .table-wrap:nth-of-type(2) table {
-    height: 315px;
-  }
-
-  .section04 .choice-notice-content > .table-wrap:nth-of-type(2) .table-cont {
-    height: 315.01px;
-  }
-
-  .section04 .choice-notice-content > .table-wrap:nth-of-type(3) table {
-    height: 273px;
-  }
-
-  .section04 .choice-notice-content > .table-wrap:nth-of-type(3) {
-    height: 350.88px;
-  }
-
-  .section04 .choice-notice-content > .table-wrap:nth-of-type(4) table {
-    height: 314px;
-  }
-
-  .section04 .choice-notice-content > .table-wrap:nth-of-type(4) {
-    height: 412px;
-  }
-
-  .section04 .choice-notice-content > .table-wrap:nth-of-type(4) .table-cont {
-    height: 314.81px;
-  }
-
-  .section04 .choice-notice-content > .table-wrap:nth-of-type(5) table {
-    height: 733px;
-  }
-
-  .section04 .choice-notice-content > .table-wrap:nth-of-type(6) table {
-    height: 523px;
-  }
-
-  .section04 .choice-notice-content > .table-wrap:nth-of-type(6) {
-    height: 621px;
   }
 
   .section04 .choice-notice-content > .table-wrap > p {
@@ -3239,10 +3302,6 @@ section:not(.section08) {
     height: 102px;
   }
 
-  .con-wrap .section-qna + .section-help {
-    padding-top: 40px !important;
-  }
-
   .con-wrap .section-help {
     margin-bottom: 80px;
     padding-bottom: 0 !important;
@@ -3434,6 +3493,56 @@ section:not(.section08) {
 
   .installation-cost-guide .table-type01 col:last-child {
     width: 21% !important;
+  }
+
+  .installation-cost-guide__table-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .installation-cost-guide .installation-cost-guide__detail-table {
+    min-width: 850px;
+  }
+
+  .con-wrap .section04 .installation-cost-guide .installation-cost-guide__detail-table th,
+  .con-wrap .section04 .installation-cost-guide .installation-cost-guide__detail-table td {
+    padding: 12px 8px;
+  }
+
+  .con-wrap .section04 .installation-cost-guide .installation-cost-guide__detail-table tbody th,
+  .con-wrap .section04 .installation-cost-guide .installation-cost-guide__detail-table tbody td {
+    padding: 12px 9px 13px 8px;
+  }
+
+  .installation-cost-guide__detail-table .installation-cost-guide__col--category,
+  .installation-cost-guide__detail-table .installation-cost-guide__col--material,
+  .installation-cost-guide__detail-table .installation-cost-guide__col--size,
+  .installation-cost-guide__detail-table .installation-cost-guide__col--installer {
+    width: 110px;
+  }
+
+  .installation-cost-guide__detail-table .installation-cost-guide__col--price {
+    width: 70px;
+  }
+
+  .installation-cost-guide__detail-table .installation-cost-guide__col--work {
+    width: 340px;
+  }
+
+  .installation-cost-guide .installation-cost-guide__detail-table tbody tr:nth-child(1) {
+    height: 110px;
+  }
+
+  .installation-cost-guide .installation-cost-guide__detail-table tbody tr:nth-child(2) {
+    height: 90px;
+  }
+
+  .installation-cost-guide .installation-cost-guide__detail-table tbody tr:nth-child(3) {
+    height: 110px;
+  }
+
+  .installation-cost-guide .installation-cost-guide__detail-table tbody tr:nth-child(n + 4) {
+    height: 65px;
   }
 
   .con-wrap .section04 .installation-cost-guide .table-type01 th {
