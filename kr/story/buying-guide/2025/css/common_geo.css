@@ -3283,6 +3283,9 @@ td.spec_table_bg_primary {
 .buying-guide .btn-collapse-toggle .asterisk-toggle-label {
     position: relative;
     padding-left: 10px;
+    font-size: 12px;
+    line-height: 140%;
+    letter-spacing: 0;
 }
 .buying-guide .btn-collapse-toggle .asterisk-toggle-label::before {
     content: "*";
@@ -3291,10 +3294,7 @@ td.spec_table_bg_primary {
     top: 0;
 }
 .buying-guide-dishwasher .btn-collapse-toggle .asterisk-toggle-label {
-    font-size: 12px;
     font-weight: 700;
-    line-height: 140%;
-    letter-spacing: 0;
 }
 
 .buying-guide .subtab-wrap {
