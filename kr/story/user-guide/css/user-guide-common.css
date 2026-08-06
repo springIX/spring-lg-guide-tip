@@ -306,6 +306,11 @@
     letter-spacing: var(--ls-body);
 }
 
+#snomet.robot-vacuum-care-guide .notice-list.summary-disclaimer {
+    width: min(1096px, calc(100% - 40px));
+    margin: 20px auto 0;
+}
+
 #snomet .section-title {
     display: flex;
     align-items: flex-start;
@@ -993,6 +998,11 @@
         letter-spacing: var(--ls-body);
     }
 
+    #snomet.robot-vacuum-care-guide .notice-list.summary-disclaimer {
+        width: calc(100% - 40px);
+        margin-top: 10px;
+    }
+
     #snomet .sec-summary h2 {
         margin-bottom: 10px;
         line-height: 1.6;
@@ -1458,6 +1468,17 @@
     aspect-ratio: auto;
 }
 
+#snomet .care-guide-overview,
+#snomet .care-guide-steps {
+    margin-top: 46px;
+}
+
+#snomet.robot-vacuum-care-guide .care-guide-overview > .care-compare-wrap {
+    padding: 32px 0;
+    border-top: 1px solid #111111;
+    border-bottom: 1px solid #111111;
+}
+
 #snomet .care-compare {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1497,6 +1518,27 @@
 
 #snomet .care-compare__row:last-child {
     border-bottom: 0;
+}
+
+#snomet.robot-vacuum-care-guide .care-compare__row {
+    box-sizing: border-box;
+}
+
+#snomet.robot-vacuum-care-guide .care-compare__row:first-child {
+    height: 74px;
+    min-height: 74px;
+    padding-top: 0;
+}
+
+#snomet.robot-vacuum-care-guide .care-compare__row:nth-child(2) {
+    height: 86px;
+    min-height: 86px;
+}
+
+#snomet.robot-vacuum-care-guide .care-compare__row:last-child {
+    height: 105px;
+    min-height: 105px;
+    padding-bottom: 0;
 }
 
 #snomet .care-compare__label,
@@ -1609,6 +1651,11 @@
         aspect-ratio: auto;
     }
 
+    #snomet .care-guide-overview,
+    #snomet .care-guide-steps {
+        margin-top: 13px;
+    }
+
     #snomet .care-compare {
         margin-top: 14px;
     }
@@ -1617,6 +1664,12 @@
         width: 332px;
         max-width: calc(100vw - 58px);
         margin-top: 14px;
+    }
+
+    #snomet.robot-vacuum-care-guide .care-guide-overview > .care-compare-wrap {
+        padding: 16px 0;
+        border-top-width: 0.5px;
+        border-bottom-width: 0.5px;
     }
 
     #snomet .care-compare-scroller {
@@ -1666,6 +1719,26 @@
         border-bottom-width: 0.5px;
     }
 
+    #snomet.robot-vacuum-care-guide .care-compare__row:first-child {
+        height:63px;
+        min-height: 54px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+    }
+
+    #snomet.robot-vacuum-care-guide .care-compare__row:nth-child(2) {
+        height: 63px;
+        min-height: 63px;
+    }
+
+    #snomet.robot-vacuum-care-guide .care-compare__row:last-child {
+        height: 85px;
+        min-height: 85px;
+        padding-bottom: 9px;
+    }
+#snomet.robot-vacuum-care-guide .care-compare-intro {
+        margin: 0 0 13px;
+    }
     #snomet .care-compare__label,
     #snomet .care-compare__text {
         line-height: 1.4;
@@ -1774,4 +1847,5 @@
         margin-bottom: 4px;
         font-size: 14px;
     }
+
 }

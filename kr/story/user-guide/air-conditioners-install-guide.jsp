@@ -976,27 +976,22 @@
 																							</ul>
 																						</td>
 																					</tr>
-																					<tr>
-																						<th scope="row" rowspan="3" class="bd-left-none">외부 작업</th>
-																						<td rowspan="2">고객 보유 앵글 설치</td>
-																						<td>미조립 설치</td>
-																						<td>30,000</td>
-																						<td rowspan="2">-</td>
-																						<td class="al-left">
-																							<ul class="cost-guide-list-bull">
-																								<li>조립이 완료된 상태의 앵글을 고객 댁 베란다에 부착만 하는 경우</li>
-																							</ul>
-																						</td>
-																					</tr>
-																					<tr>
-																						<td>조립 설치</td>
+<tr>
+																						<th scope="row" rowspan="2" class="bd-left-none">외부 작업</th>
+																						<td>고객 보유 앵글 설치</td>
+																						<td>앵글 난간/외벽 부착 설치</td>
 																						<td>70,000</td>
+																						<td>-</td>
 																						<td class="al-left">
 																							<ul class="cost-guide-list-bull">
-																								<li>고객께서 앵글 자재만 보유하여 조립 후 설치가 필요한 경우</li>
+																								<li>고객께서 보유한 앵글 자재를 외부 난간 및 외벽에 부착/설치하는 경우
+																									<br>
+																									(앵글 낙하로 인한 피해에 대한 책임 포함)
+																								</li>
 																							</ul>
 																						</td>
 																					</tr>
+																					
 																					<tr>
 																						<td>난간대 / 외벽 작업</td>
 																						<td>지면에서 2M 이상<br> 실외기 기준</td>
@@ -2746,26 +2741,21 @@
 																								</td>
 																							</tr>
 																							<tr>
-																								<th scope="row" rowspan="3" class="bd-left-none">외부 작업</th>
-																								<td rowspan="2">고객 보유 앵글 설치</td>
-																								<td>미조립 설치</td>
-																								<td>30,000</td>
-																								<td rowspan="2">-</td>
-																								<td class="al-left">
-																									<ul class="cost-guide-list-bull">
-																										<li>조립이 완료된 상태의 앵글을 고객 댁 베란다에 부착만 하는 경우</li>
-																									</ul>
-																								</td>
-																							</tr>
-																							<tr>
-																								<td>조립 설치</td>
+																								<th scope="row" rowspan="2" class="bd-left-none">외부 작업</th>
+																								<td>고객 보유 앵글 설치</td>
+																								<td>앵글 난간/외벽 부착 설치</td>
 																								<td>70,000</td>
+																								<td>-</td>
 																								<td class="al-left">
 																									<ul class="cost-guide-list-bull">
-																										<li>고객께서 앵글 자재만 보유하여 조립 후 설치가 필요한 경우</li>
+																										<li>고객께서 보유한 앵글 자재를 외부 난간 및 외벽에 부착/설치하는 경우
+																											<br>
+																											(앵글 낙하로 인한 피해에 대한 책임 포함)
+																										</li>
 																									</ul>
 																								</td>
-																							</tr>
+																								</tr>
+																							
 																							<tr>
 																								<td>난간대 / 외벽 작업</td>
 																								<td>지면에서 2M 이상<br> 실외기 기준</td>
@@ -3742,27 +3732,22 @@
 																									</ul>
 																								</td>
 																							</tr>
-																							<tr>
-																								<th scope="row" rowspan="3" class="bd-left-none">외부 작업</th>
-																								<td rowspan="2">고객 보유 앵글 설치</td>
-																								<td>미조립 설치</td>
-																								<td>30,000</td>
-																								<td rowspan="2">-</td>
-																								<td class="al-left">
-																									<ul class="cost-guide-list-bull">
-																										<li>조립이 완료된 상태의 앵글을 고객 댁 베란다에 부착만 하는 경우</li>
-																									</ul>
+<tr>
+																						<th scope="row" rowspan="2" class="bd-left-none">외부 작업</th>
+																						<td>고객 보유 앵글 설치</td>
+																						<td>앵글 난간/외벽 부착 설치</td>
+																						<td>70,000</td>
+																						<td>-</td>
+																						<td class="al-left">
+																							<ul class="cost-guide-list-bull">
+																								<li>고객께서 보유한 앵글 자재를 외부 난간 및 외벽에 부착/설치하는 경우
+																									<br>
+																									(앵글 낙하로 인한 피해에 대한 책임 포함)
+																								</li>
+																								</ul>
 																								</td>
-																							</tr>
-																							<tr>
-																								<td>조립 설치</td>
-																								<td>70,000</td>
-																								<td class="al-left">
-																									<ul class="cost-guide-list-bull">
-																										<li>고객께서 앵글 자재만 보유하여 조립 후 설치가 필요한 경우</li>
-																									</ul>
-																								</td>
-																							</tr>
+																								</tr>
+																							
 																							<tr>
 																								<td>난간대 / 외벽 작업</td>
 																								<td>지면에서 2M 이상<br> 실외기 기준</td>
