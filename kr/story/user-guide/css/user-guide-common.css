@@ -514,6 +514,11 @@
     max-width: 100%;
 }
 
+#snomet .roni-product-cta {
+    width: 280px;
+    max-width: 100%;
+}
+
 #snomet .roni-station-table {
     overflow: hidden;
     width: 100%;
@@ -1129,6 +1134,11 @@
 
     #snomet .roni-station-tip {
         width: 100%;
+    }
+
+    #snomet .roni-product-cta {
+        width: auto;
+        gap: 5px;
     }
 
     #snomet .roni-station-table--pc {
