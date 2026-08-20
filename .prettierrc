@@ -1,0 +1,19 @@
+{
+    "printWidth": 400,
+    "tabWidth": 4,
+    "useTabs": false,
+    "htmlWhitespaceSensitivity": "ignore",
+    "singleAttributePerLine": false,
+    "bracketSameLine": false,
+    "singleQuote": false,
+    "semi": true,
+    "endOfLine": "lf",
+    "overrides": [
+        {
+            "files": ["*.css", "*.scss"],
+            "options": {
+                "printWidth": 120
+            }
+        }
+    ]
+}
