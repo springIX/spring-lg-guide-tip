@@ -19,6 +19,14 @@ body {
   display: none !important;
 }
 
+.pc-inline-only {
+  display: inline !important;
+}
+
+.mo-inline-only {
+  display: none !important;
+}
+
 .txt-cont {
   margin: 0 auto;
   text-align: center;
@@ -524,6 +532,54 @@ body {
   border-top: 1px dashed #ddd;
 }
 
+.roundedCard .data.data--construction {
+  margin-top: 20px;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.roundedCard .data--construction .construction-row {
+  grid-template-columns: 130px 124px 124px 1fr;
+  column-gap: 8px;
+}
+
+.roundedCard .data--construction .construction-row:not(:first-child) {
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+.roundedCard .data--construction .construction-row--paired {
+  border-top: 0;
+}
+
+.roundedCard .data--construction .construction-row--paired:not(:last-child) {
+  padding-bottom: 20px;
+}
+
+.roundedCard .data--construction .construction-option,
+.roundedCard .data--construction .construction-price {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.roundedCard .data--construction .construction-option {
+  font-weight: 500;
+}
+
+.roundedCard .data--construction .construction-detail .group:not(:first-child) {
+  margin-top: 20px;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.roundedCard .data--construction .construction-basic-last {
+  margin-bottom: 20px;
+}
+
+.roundedCard .data--additional-construction .channel-construction-row {
+  display: none;
+}
+
 .roundedCard .data--additional-construction .data__row:not(.data__row--service-group) {
   grid-template-columns: 258px 80px 1fr;
   column-gap: 32px;
@@ -815,6 +871,14 @@ body {
     display: block !important;
   }
 
+  .pc-inline-only {
+    display: none !important;
+  }
+
+  .mo-inline-only {
+    display: inline !important;
+  }
+
   .qna-br {
     display: none;
   }
@@ -972,8 +1036,19 @@ body {
   .content-list-wrap.type2 .content-list .detail-container .item-wrap {
     padding: 20px 16px 28px;
   }
+
+  /* .content-list-wrap.type2 .content-list .detail-container .construction-card,
+  .content-list-wrap.type2 .content-list .detail-container .additional-construction-card,
+  .content-list-wrap.type2 .content-list .detail-container .contractor-card {
+    margin-right: -16px;
+    margin-left: -16px;
+  } */
+
 .content-list-wrap.type2 .content-list .detail-container .img-wrap {
-  max-width: 100%;
+  width: 100%;
+  max-width: 298px;
+  margin-right: auto;
+  margin-left: auto;
 }
   .content-list-wrap.type2 .content-list .detail-container .item-wrap .item-title {
     text-align: center;
@@ -1171,6 +1246,94 @@ body {
     border-top: 0;
   }
 
+  .roundedCard .data.data--construction {
+    margin-top: 24px;
+    padding-top: 0;
+    border-top: 0;
+  }
+
+  .roundedCard .data--construction .construction-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-rows: auto auto auto;
+    column-gap: 16px;
+    row-gap: 4px;
+  }
+
+  .roundedCard .data--construction .construction-row:not(:first-child) {
+    margin-top: 0;
+    padding-top: 24px;
+  }
+
+  .roundedCard .data--construction .construction-type {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: left;
+  }
+
+  .roundedCard .data--construction .construction-option {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: left;
+  }
+
+  .roundedCard .data--construction .construction-price {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    align-self: end;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: right;
+  }
+
+  .roundedCard .data--construction .construction-detail {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    margin-top: 12px;
+    text-align: left;
+  }
+
+  .roundedCard .data--construction .construction-detail .group:not(:first-child) {
+    margin-top: 16px;
+  }
+
+  .roundedCard .data--construction .construction-basic-last {
+    margin-bottom: 24px;
+  }
+
+  .roundedCard .data--construction .construction-option--empty,
+  .roundedCard .data--construction .construction-type--empty {
+    display: none;
+  }
+
+  .roundedCard .data--construction .construction-row--single,
+  .roundedCard .data--construction .construction-row--paired {
+    grid-template-rows: auto auto;
+  }
+
+  .roundedCard .data--construction .construction-row--single .construction-price,
+  .roundedCard .data--construction .construction-row--paired .construction-price,
+  .roundedCard .data--construction .construction-row--paired .construction-option {
+    grid-row: 1;
+  }
+
+  .roundedCard .data--construction .construction-row--single .construction-detail,
+  .roundedCard .data--construction .construction-row--paired .construction-detail {
+    grid-row: 2;
+  }
+
+  .roundedCard .data--construction .construction-row--paired:not(:last-child) {
+    padding-bottom: 24px;
+  }
+
+  .roundedCard .data--additional-construction .channel-construction-row {
+    display: grid;
+  }
+
   .roundedCard .data--additional-construction .data__row--wide-label {
     display: grid;
     column-gap: 0;
@@ -1182,6 +1345,18 @@ body {
     grid-template-columns: 1fr 1fr;
     column-gap: 0;
     row-gap: 16px;
+  }
+
+  .roundedCard .data--additional-construction > .reinforcement-construction-row:not(.data__row--service-group) {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+
+  .roundedCard .data--additional-construction .reinforcement-construction-row > .data__col:first-child {
+    white-space: nowrap;
+  }
+
+  .roundedCard .data--additional-construction .reinforcement-construction-row .service-description {
+    width: 100%;
   }
 
   .roundedCard .data--additional-construction > .data__row:not(.data__row--service-group) > .group {
