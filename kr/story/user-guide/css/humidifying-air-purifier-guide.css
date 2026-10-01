@@ -1,0 +1,432 @@
+#hydrotower-guide {
+  color: #000;
+  background: #fff;
+  font-family: "Pretendard", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+  word-break: keep-all;
+}
+
+#hydrotower-guide,
+#hydrotower-guide * {
+  box-sizing: border-box;
+}
+
+#hydrotower-guide h1,
+#hydrotower-guide h2,
+#hydrotower-guide h3,
+#hydrotower-guide h4,
+#hydrotower-guide p,
+#hydrotower-guide ol {
+  margin: 0;
+  padding: 0;
+}
+
+#hydrotower-guide ol {
+  list-style: none;
+}
+
+#hydrotower-guide .mo-only,
+#hydrotower-guide .mo-break {
+  display: none;
+}
+
+#hydrotower-guide .text-inner {
+  width: min(1096px, calc(100% - 40px));
+  margin-inline: auto;
+}
+
+#hydrotower-guide .guide-header {
+  padding-top: 80px;
+}
+
+#hydrotower-guide h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+}
+
+#hydrotower-guide .header-description {
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: -0.005em;
+}
+
+#hydrotower-guide .visual-placeholder {
+  background: #a6a6a6;
+}
+
+#hydrotower-guide .hero-visual {
+  width: min(1380px, calc(100% - 40px));
+  height: 500px;
+  margin: 46px auto 0;
+}
+
+#hydrotower-guide .disclaimer {
+  position: relative;
+  padding-left: 14px;
+  color: #444;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.005em;
+}
+
+#hydrotower-guide .disclaimer::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "*";
+}
+
+#hydrotower-guide .hero-disclaimer {
+  width: min(1380px, calc(100% - 40px));
+  margin: 20px auto 0;
+}
+
+#hydrotower-guide .guide-summary {
+  margin-top: 120px;
+}
+
+#hydrotower-guide .guide-summary h2,
+#hydrotower-guide .guide-section h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+}
+
+#hydrotower-guide .guide-summary .point-list {
+  margin-top: 20px;
+}
+
+#hydrotower-guide .point-list {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+#hydrotower-guide .point-list li {
+  display: grid;
+  grid-template-columns: 130px minmax(0, 1fr);
+  align-items: center;
+  min-width: 0;
+  padding: 28px 0;
+}
+
+#hydrotower-guide .point-list li + li {
+  border-top: 1px solid #d0d0d0;
+}
+
+#hydrotower-guide .point-number {
+  color: #ea1917;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+}
+
+#hydrotower-guide .point-list h3,
+#hydrotower-guide .point-list h4 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+#hydrotower-guide .point-list p {
+  margin-top: 8px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+#hydrotower-guide .guide-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+  margin-top: 120px;
+}
+
+#hydrotower-guide .section-title {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+#hydrotower-guide .section-number {
+  display: inline-flex;
+  flex: 0 0 56px;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  color: #fff;
+  background: #000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+#hydrotower-guide .section-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: -0.005em;
+}
+
+#hydrotower-guide .section-visual {
+  width: 100%;
+  height: 504px;
+  margin-top: 46px;
+}
+
+#hydrotower-guide .check-points {
+  margin-top: 46px;
+}
+
+#hydrotower-guide .check-points > h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+}
+
+#hydrotower-guide .check-points .point-list li {
+  align-items: center;
+  padding-block: 32px;
+}
+
+#hydrotower-guide .check-points .point-list p {
+  line-height: 1.4;
+}
+
+#hydrotower-guide .check-points .point-list .disclaimer {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+#hydrotower-guide .product-banner {
+  display: flex;
+  align-items: center;
+  min-height: 280px;
+  margin-top: 140px;
+  margin-bottom: 120px;
+  padding: 40px 130px;
+  overflow: hidden;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #ebe3dc, #ebeaeb);
+}
+
+#hydrotower-guide .product-banner h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -0.005em;
+}
+
+#hydrotower-guide .product-banner a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 51px;
+  margin-top: 20px;
+  padding: 10px 24px 10px 30px;
+  border-radius: 60px;
+  color: #fff;
+  background: #000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+#hydrotower-guide .product-banner a:focus-visible {
+  outline: 2px solid #ea1917;
+  outline-offset: 3px;
+}
+
+#hydrotower-guide .product-banner a img {
+  display: block;
+  width: 10px;
+  height: 20px;
+}
+
+@media (max-width: 768px) {
+  
+  #hydrotower-guide{
+    padding-top:20px;
+  }
+  #hydrotower-guide .pc-only {
+    display: none;
+  }
+
+  #hydrotower-guide .mo-only,
+  #hydrotower-guide .mo-break {
+    display: initial;
+  }
+
+  #hydrotower-guide .guide-header {
+    padding-top: 0;
+  }
+
+  #hydrotower-guide h1 {
+    font-size: 32px;
+    line-height: 1.4;
+    letter-spacing: -0.005em;
+  }
+
+  #hydrotower-guide .header-description {
+    margin-top: 13px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  #hydrotower-guide .hero-visual {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 390 / 235;
+    margin-top: 23px;
+  }
+
+  #hydrotower-guide .disclaimer {
+    padding-left: 11px;
+    font-size: 11px;
+    line-height: 1.6;
+  }
+
+  #hydrotower-guide .hero-disclaimer {
+    margin-top: 13px;
+  }
+
+  #hydrotower-guide .guide-summary {
+    margin-top: 60px;
+  }
+
+  #hydrotower-guide .guide-summary h2,
+  #hydrotower-guide .guide-section h2 {
+    font-size: 22px;
+    line-height: 1.4;
+    letter-spacing: -0.005em;
+  }
+
+  #hydrotower-guide .guide-summary .point-list {
+    margin-top: 10px;
+  }
+
+  #hydrotower-guide .point-list li {
+    grid-template-columns: 38px minmax(0, 1fr);
+    padding: 11px 0;
+  }
+
+  #hydrotower-guide .point-number {
+    font-size: 14px;
+  }
+
+  #hydrotower-guide .point-list h3,
+  #hydrotower-guide .point-list h4 {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  #hydrotower-guide .point-list p {
+    margin-top: 4px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  #hydrotower-guide .guide-sections {
+    gap: 80px;
+    margin-top: 80px;
+  }
+
+  #hydrotower-guide .section-title {
+    gap: 10px;
+  }
+
+  #hydrotower-guide .section-number {
+    flex-basis: 28px;
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+    margin-top: 2px;
+  }
+
+  #hydrotower-guide .section-copy {
+    gap: 8px;
+    margin-top: 13px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  #hydrotower-guide .section-visual {
+    height: auto;
+    aspect-ratio: 350 / 231;
+    margin-top: 13px;
+  }
+
+  #hydrotower-guide .check-points {
+    margin-top: 13px;
+  }
+
+  #hydrotower-guide .check-points > h3 {
+    margin-bottom: 13px;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  #hydrotower-guide .check-points .point-list p {
+    line-height: 1.6;
+  }
+
+  #hydrotower-guide .check-points .point-list li {
+    padding-block: 13px;
+  }
+
+  #hydrotower-guide .check-points .point-list .disclaimer {
+    margin-top: 20px;
+    font-size: 11px;
+    line-height: 1.6;
+  }
+
+  #hydrotower-guide .product-banner {
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 350px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    padding: 30px 20px 20px;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #ebe3dc, #dbdbd9 52%, #cccbc9);
+    text-align: center;
+  }
+
+  #hydrotower-guide .banner-copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 300px;
+  }
+
+  #hydrotower-guide .product-banner h2 {
+    font-size: 22px;
+    line-height: 1.4;
+  }
+
+  #hydrotower-guide .product-banner a {
+    min-height: 44px;
+    margin-top: 0;
+    padding: 9px 18px;
+    font-size: 16px;
+  }
+
+  #hydrotower-guide .product-banner a img {
+    width: 7px;
+    height: 14px;
+  }
+}

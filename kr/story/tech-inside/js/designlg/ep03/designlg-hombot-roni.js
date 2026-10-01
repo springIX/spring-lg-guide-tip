@@ -11,12 +11,16 @@ $(document).ready(function () {
   var $kv = $("#designlg #kv");
   if (!$kv.length) return;
 
+  $("html, body").addClass("roni-intro-lock");
+
   var kvScrollInited = false;
   var kvReadyInited = false;
   var headScrollLocked = true;
   var kvAutoAdvanceInited = false;
   var kvAutoAdvanceAnimating = false;
   var kvTouchStartY = null;
+  var kvStageObserver = null;
+  var observedKvStageHeight = 0;
   var robot = "#designlg #kv .kv-new__robot";
   var robotImg = "#designlg #kv .kv-new__robot img";
   var steamImg =
@@ -32,6 +36,37 @@ $(document).ready(function () {
 
   function isMobileKv() {
     return window.matchMedia && window.matchMedia("(max-width: 767px)").matches;
+  }
+
+  function syncKvResponsiveHeight() {
+    $kv.css("min-height", "");
+
+    if (!isMobileKv()) return;
+
+    var stageHeight = $kv.find(".kv-stage").outerHeight(true) || 0;
+    var bottomReserve = Math.min(32, Math.max(28, window.innerWidth * 0.0808));
+    // Keep the pinned boundary on a whole CSS pixel. Fractional heights can
+    // expose the page background as a 1px seam when ScrollTrigger unpins.
+    var kvHeight = Math.ceil(stageHeight + bottomReserve) + 2;
+
+    $kv.css("min-height", kvHeight + "px");
+  }
+
+  function observeKvStageHeight() {
+    var stage = $kv.find(".kv-stage").get(0);
+
+    if (!stage || typeof ResizeObserver === "undefined" || kvStageObserver) return;
+
+    observedKvStageHeight = stage.getBoundingClientRect().height;
+    kvStageObserver = new ResizeObserver(function (entries) {
+      var nextHeight = entries[0] ? entries[0].contentRect.height : 0;
+
+      if (Math.abs(nextHeight - observedKvStageHeight) < 0.25) return;
+
+      observedKvStageHeight = nextHeight;
+      refreshKvLayout();
+    });
+    kvStageObserver.observe(stage);
   }
 
   function preventHeadScroll(e) {
@@ -50,6 +85,7 @@ $(document).ready(function () {
 
   function unlockHeadScroll() {
     headScrollLocked = false;
+    $("html, body").removeClass("roni-intro-lock");
   }
 
   function setInitialState() {
@@ -90,12 +126,17 @@ $(document).ready(function () {
       scrollTrigger: {
         trigger: "#kv",
         start: "top top",
-        end: "+=120%",
+        end: function () {
+          var kvVisualHeight = $("#designlg #kv .kv-new").outerHeight(true);
+
+          return "+=" + Math.max(1, Math.round(kvVisualHeight || window.innerHeight));
+        },
         scrub: 1,
         pin: "#kv",
         pinSpacing: true,
         anticipatePin: 1,
         invalidateOnRefresh: true,
+        onRefreshInit: syncKvResponsiveHeight,
         onToggle: function (self) {
           $("#designlg").toggleClass("kv-active", self.isActive);
         },
@@ -292,13 +333,23 @@ $(document).ready(function () {
     if (kvReadyInited) return;
     kvReadyInited = true;
 
+    syncKvResponsiveHeight();
     activateKVScroll();
+    observeKvStageHeight();
 
     requestAnimationFrame(function () {
       $("#designlg").removeClass("intro");
       setDesignlgScrollTop();
       ScrollTrigger.refresh();
       unlockHeadScroll();
+    });
+  }
+
+  function refreshKvLayout() {
+    if (!kvScrollInited) return;
+
+    requestAnimationFrame(function () {
+      ScrollTrigger.refresh();
     });
   }
 
@@ -309,4 +360,10 @@ $(document).ready(function () {
 
   var headIntro = loadHead();
   headIntro.eventCallback("onComplete", onKvReady);
+
+  $(window).one("load", refreshKvLayout);
+
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(refreshKvLayout);
+  }
 });

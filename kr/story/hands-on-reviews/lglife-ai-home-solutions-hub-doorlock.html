@@ -534,13 +534,798 @@
         </div>
 
         <section class="sec-footer-cta">
-            <a href="https://www.lge.co.kr/story/faq/ai-home-faq" class="faq-link">
-                <span>
-                    <strong>AI Home 솔루션 FAQ</strong>
-                    <small>연결부터 사용법까지,<br class="mo-only"> 가장 궁금해하는 질문을 모아 답해드립니다.</small>
-                </span>
-                <img src="/kr/story/hands-on-reviews/img/lglife-ai-home-solutions-hub-doorlock/chevron_right.svg" alt="">
-            </a>
+        <style>
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid {
+                display: grid;
+                width: 100%;
+                max-width: 1380px;
+                margin-left: auto;
+                margin-right: auto;
+                gap: 20px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--1 {
+                grid-template-columns: minmax(0px, 1fr);
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--2 {
+                grid-template-columns: repeat(2, minmax(0px, 1fr));
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--3 {
+                grid-template-columns: repeat(3, minmax(0px, 1fr));
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--4 {
+                grid-template-columns: repeat(4, minmax(0px, 1fr));
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--5 {
+                grid-template-columns: repeat(5, minmax(0px, 1fr));
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--10 {
+                grid-template-columns: repeat(2, minmax(0px, 1fr));
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-mobile-groups {
+                width: 100%;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-mobile-group__title {
+                margin: 60px 0px 30px;
+                color: rgb(0, 0, 0);
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 1.5;
+                letter-spacing: -0.4px;
+                text-align: center;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-mobile-group:first-child .lge-faq-banner-mobile-group__title {
+                margin-top: 0px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner {
+                position: relative;
+                display: flex;
+                overflow: hidden;
+                width: 100%;
+                box-sizing: border-box;
+                border-radius: 10px;
+                color: rgb(0, 0, 0);
+                text-decoration: none;
+                font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner:hover {
+                color: rgb(0, 0, 0);
+                text-decoration: none;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--basic {
+                min-height: 139px;
+                align-items: center;
+                justify-content: space-between;
+                padding: 40px;
+                background: var(--faq-bg, #fdf3f3);
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--basic:hover {
+                background: var(--faq-bg, #fdf3f3);
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--image {
+                min-height: 240px;
+                align-items: center;
+                padding: 32px 6.7%;
+                background: center center / cover no-repeat rgb(247, 246, 244);
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--image:hover {
+                background-color: rgb(247, 246, 244);
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--image::after {
+                content: "";
+                position: absolute;
+                inset: 0px;
+                background: linear-gradient(90deg, rgba(247, 246, 244, 0.98) 0%, rgba(247, 246, 244, 0.76) 32%, rgba(247, 246, 244, 0) 64%);
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--4 .lge-faq-banner--basic,
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--5 .lge-faq-banner--basic {
+                min-height: 162px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--4 .lge-faq-banner--basic {
+                padding: 40px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--5 .lge-faq-banner--basic {
+                padding: 24px 20px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--5 .lge-faq-banner__title {
+                align-items: flex-start;
+                flex-direction: column;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--5 .lge-faq-banner__icon {
+                align-self: start;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--4 .lge-faq-banner--image {
+                min-height: 400px;
+                padding: 32px 24px;
+                align-items: flex-end;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--4 .lge-faq-banner__copy {
+                max-width: 78%;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner__copy {
+                position: relative;
+                z-index: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+                max-width: 55%;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner__title {
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                margin: 0px;
+                color: var(--faq-accent, #b00200);
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 1.5;
+                letter-spacing: -0.4px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--image .lge-faq-banner__title {
+                color: rgb(0, 0, 0);
+                font-size: 24px;
+                letter-spacing: -0.48px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner__icon {
+                position: relative;
+                display: inline-block;
+                flex: 0 0 auto;
+                width: 27px;
+                height: 21px;
+                background: var(--faq-accent, #b00200);
+                mask: url("https://www.lge.co.kr/kr/story/faq/images/faq-banner/faq-inquiry.svg") center center / contain no-repeat;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner__icon::after {
+                content: "";
+                position: absolute;
+                top: 8px;
+                left: 8px;
+                width: 3px;
+                height: 3px;
+                border-radius: 50%;
+                background: rgb(255, 255, 255);
+                box-shadow: rgb(255, 255, 255) 4px 0px, rgb(255, 255, 255) 8px 0px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner__description {
+                color: rgb(25, 28, 31);
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 1.5;
+                letter-spacing: -0.3px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--image .lge-faq-banner__description {
+                color: rgb(0, 0, 0);
+                font-size: 18px;
+                font-weight: 500;
+                letter-spacing: -0.36px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner__chevron {
+                position: relative;
+                z-index: 1;
+                flex: 0 0 auto;
+                width: 6px;
+                height: 12px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner__cta {
+                display: inline-flex;
+                align-items: center;
+                gap: 10px;
+                min-height: 39px;
+                padding: 6px 26px 6px 32px;
+                border-radius: 400px;
+                background: rgb(0, 0, 0);
+                color: rgb(255, 255, 255);
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 1.5;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner__cta img {
+                width: 6px;
+                height: 11px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--mobile {
+                width: 350px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--mobile.lge-faq-banner--basic {
+                min-height: 118px;
+                padding: 24px 20px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--mobile.lge-faq-banner--image {
+                min-height: 160px;
+                padding: 24px;
+                background-size: cover !important;
+                background-position: center center !important;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--mobile.lge-faq-banner--image::after {
+                background: linear-gradient(90deg, rgba(247, 246, 244, 0.98) 0%, rgba(247, 246, 244, 0.8) 46%, rgba(247, 246, 244, 0) 77%);
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--mobile .lge-faq-banner__copy {
+                gap: 4px;
+                max-width: 226px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--mobile.lge-faq-banner--image .lge-faq-banner__copy {
+                gap: 16px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--mobile .lge-faq-banner__title {
+                font-size: 16px;
+                letter-spacing: -0.32px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--mobile.lge-faq-banner--image .lge-faq-banner__title {
+                font-size: 14px;
+                letter-spacing: -0.28px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--mobile .lge-faq-banner__description {
+                font-size: 12px;
+                font-weight: 400;
+                letter-spacing: -0.24px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--mobile.lge-faq-banner--image .lge-faq-banner__description {
+                font-size: 12px;
+                font-weight: 500;
+                letter-spacing: -0.24px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--mobile .lge-faq-banner__icon {
+                width: 22px;
+                height: 18px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--mobile .lge-faq-banner__icon::after {
+                top: 7px;
+                left: 6px;
+                width: 2.5px;
+                height: 2.5px;
+                border-radius: 50%;
+                background: rgb(255, 255, 255);
+                box-shadow: rgb(255, 255, 255) 3.5px 0px, rgb(255, 255, 255) 7px 0px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--mobile .lge-faq-banner__chevron {
+                width: 6px;
+                height: 12px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--mobile .lge-faq-banner__cta {
+                min-height: 30px;
+                padding: 5px 14px 5px 20px;
+                font-size: 12px;
+                font-weight: 700;
+            }
+        
+            @media (min-width: 768px) and (max-width: 1379px) {
+                #lge-faq-banner-t70i9igx .lge-faq-banner-grid--pc {
+                    width: calc(100% - 40px);
+                }
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--mobile {
+                width: calc(100% - 40px);
+                max-width: none;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--mobile .lge-faq-banner--mobile {
+                width: 100%;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner {
+                box-sizing: border-box;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--basic:is(:hover, :focus, :focus-visible, :active, .active),
+            #lge-faq-banner-t70i9igx .lge-faq-banner--basic2:is(:hover, :focus, :focus-visible, :active, .active) {
+                background-color: var(--faq-bg, #fdf3f3) !important;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--image:is(:hover, :focus, :focus-visible, :active, .active) {
+                background-color: rgb(247, 246, 244) !important;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner__icon,
+            #lge-faq-banner-t70i9igx .lge-faq-banner--mobile .lge-faq-banner__icon {
+                flex: 0 0 32px;
+                width: 32px;
+                height: 32px;
+                background: var(--faq-icon, #191e1e);
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner__icon::after,
+            #lge-faq-banner-t70i9igx .lge-faq-banner--mobile .lge-faq-banner__icon::after {
+                top: 12px;
+                left: 9px;
+                width: 4px;
+                height: 4px;
+                border-radius: 50%;
+                background: rgb(255, 255, 255);
+                box-shadow: rgb(255, 255, 255) 5px 0px, rgb(255, 255, 255) 10px 0px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner__plp-icon {
+                position: relative;
+                display: inline-block;
+                flex: 0 0 23px;
+                width: 23px;
+                height: 23px;
+                align-self: center;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner__plp-icon img {
+                position: absolute;
+                top: -16.418px;
+                left: -16.414px;
+                display: block;
+                width: 78px;
+                height: 78px;
+                max-width: none;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--5 .lge-faq-banner__plp-icon,
+            #lge-faq-banner-t70i9igx .lge-faq-banner--basic2 .lge-faq-banner__plp-icon {
+                align-self: flex-start;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner__title-text {
+                color: inherit;
+                font: inherit;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--pc .lge-faq-banner__description {
+                font-weight: 500;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--basic .lge-faq-banner__copy {
+                max-width: calc(100% - 24px);
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--image {
+                height: 240px;
+                padding: 32px;
+                background-image: var(--faq-image);
+                background-size: var(--faq-image-size);
+                background-position: var(--faq-image-position);
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--image::after {
+                display: block;
+                pointer-events: none;
+                background: var(--faq-image-overlay, none);
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--image .lge-faq-banner__copy {
+                max-width: 290px;
+                gap: 12px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--1 .lge-faq-banner--pc.lge-faq-banner--image {
+                padding-left: 92px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--4 .lge-faq-banner--image {
+                height: 400px;
+                padding: 32px;
+                align-items: flex-start;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--4 .lge-faq-banner--image .lge-faq-banner__copy {
+                max-width: 100%;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--1 .lge-faq-banner--pc.lge-faq-banner--basic,
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--2 .lge-faq-banner--pc.lge-faq-banner--basic,
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--3 .lge-faq-banner--pc.lge-faq-banner--basic {
+                min-height: 139px;
+                padding: 40px;
+                border-radius: 12px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--4 .lge-faq-banner--pc.lge-faq-banner--basic {
+                min-height: 158px;
+                padding: 40px;
+                border-radius: 12px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--1 .lge-faq-banner--pc .lge-faq-banner__copy,
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--2 .lge-faq-banner--pc .lge-faq-banner__copy,
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--3 .lge-faq-banner--pc .lge-faq-banner__copy {
+                gap: 8px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--4 .lge-faq-banner--pc .lge-faq-banner__copy {
+                gap: 4px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--1 .lge-faq-banner--pc .lge-faq-banner__description,
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--2 .lge-faq-banner--pc .lge-faq-banner__description,
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--3 .lge-faq-banner--pc .lge-faq-banner__description,
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--4 .lge-faq-banner--pc .lge-faq-banner__description {
+                font-size: 14px;
+                font-weight: 500;
+                letter-spacing: -0.28px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--1 .lge-faq-banner--pc .lge-faq-banner__chevron,
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--2 .lge-faq-banner--pc .lge-faq-banner__chevron,
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--3 .lge-faq-banner--pc .lge-faq-banner__chevron,
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--4 .lge-faq-banner--pc .lge-faq-banner__chevron,
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--10 .lge-faq-banner--pc .lge-faq-banner__chevron {
+                width: 16px;
+                height: 16px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--5 .lge-faq-banner--pc.lge-faq-banner--basic {
+                min-height: 236px;
+                padding: 40px;
+                border-radius: 12px;
+                align-items: flex-start;
+                justify-content: flex-start;
+                flex-direction: column;
+                gap: 16px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--5 .lge-faq-banner--pc .lge-faq-banner__copy {
+                width: 100%;
+                max-width: 100%;
+                gap: 8px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--5 .lge-faq-banner--pc .lge-faq-banner__title {
+                gap: 4px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--5 .lge-faq-banner--pc .lge-faq-banner__description {
+                font-size: 14px;
+                font-weight: 500;
+                letter-spacing: -0.28px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--10 .lge-faq-banner--pc.lge-faq-banner--basic,
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--10 .lge-faq-banner--pc.lge-faq-banner--basic2 {
+                min-height: 137px;
+                padding: 40px;
+                border-radius: 12px;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: row;
+                gap: 20px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--10 .lge-faq-banner--pc .lge-faq-banner__copy {
+                width: auto;
+                max-width: calc(100% - 36px);
+                gap: 4px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--10 .lge-faq-banner--pc .lge-faq-banner__title {
+                align-items: center;
+                flex-direction: row;
+                gap: 4px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--10 .lge-faq-banner--pc .lge-faq-banner__icon {
+                align-self: auto;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--10 .lge-faq-banner--pc .lge-faq-banner__description {
+                font-size: 14px;
+                font-weight: 500;
+                letter-spacing: -0.28px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--basic2 {
+                min-height: 236px;
+                padding: 40px;
+                border-radius: 12px;
+                align-items: flex-start;
+                justify-content: flex-start;
+                flex-direction: column;
+                gap: 16px;
+                background: var(--faq-bg, #fdf3f3);
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--basic2:hover {
+                background: var(--faq-bg, #fdf3f3);
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--basic2 .lge-faq-banner__copy {
+                width: 100%;
+                max-width: 100%;
+                gap: 8px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--basic2 .lge-faq-banner__title {
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 4px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--basic2 .lge-faq-banner__icon {
+                align-self: start;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--basic2 .lge-faq-banner__description {
+                font-size: 14px;
+                font-weight: 500;
+                letter-spacing: -0.28px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner__basic-cta {
+                position: relative;
+                z-index: 1;
+                display: inline-flex;
+                align-items: center;
+                gap: 4px;
+                color: rgb(25, 28, 31);
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 1.5;
+                letter-spacing: -0.16px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner__basic-cta img {
+                display: block;
+                width: 16px;
+                height: 16px;
+                object-fit: contain;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner__tablet-chevron {
+                display: none;
+                position: relative;
+                z-index: 1;
+                flex: 0 0 auto;
+                width: 16px;
+                height: 16px;
+                object-fit: contain;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner__cta {
+                box-sizing: border-box;
+                margin-top: 6px;
+                flex-shrink: 0;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--mobile.lge-faq-banner--image {
+                height: 160px;
+                min-height: 160px;
+                padding: 24px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--mobile .lge-faq-banner__chevron {
+                width: 16px;
+                height: 16px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--mobile.lge-faq-banner--image .lge-faq-banner__copy {
+                max-width: 200px;
+                gap: 6px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner--mobile .lge-faq-banner__cta {
+                margin-top: 6px;
+            }
+        
+            @media (min-width: 750px) and (max-width: 1380px) {
+                #lge-faq-banner-t70i9igx .lge-faq-banner-grid--tablet-stack.lge-faq-banner-grid--5 {
+                    grid-template-columns: minmax(0px, 1fr);
+                    gap: 20px;
+                }
+        
+                #lge-faq-banner-t70i9igx .lge-faq-banner-grid--tablet-stack.lge-faq-banner-grid--10 {
+                    grid-template-columns: minmax(0px, 1fr);
+                    gap: 20px;
+                }
+        
+                #lge-faq-banner-t70i9igx .lge-faq-banner-grid--tablet-stack.lge-faq-banner-grid--5 .lge-faq-banner--pc.lge-faq-banner--basic,
+                #lge-faq-banner-t70i9igx .lge-faq-banner-grid--tablet-stack.lge-faq-banner-grid--5 .lge-faq-banner--pc.lge-faq-banner--basic2 {
+                    min-height: 137px;
+                    padding: 40px;
+                    border-radius: 12px;
+                    align-items: center;
+                    justify-content: space-between;
+                    flex-direction: row;
+                    gap: 20px;
+                }
+        
+                #lge-faq-banner-t70i9igx .lge-faq-banner-grid--tablet-stack.lge-faq-banner-grid--5 .lge-faq-banner--pc .lge-faq-banner__copy {
+                    width: auto;
+                    max-width: calc(100% - 36px);
+                    gap: 4px;
+                }
+        
+                #lge-faq-banner-t70i9igx .lge-faq-banner-grid--tablet-stack.lge-faq-banner-grid--5 .lge-faq-banner--pc .lge-faq-banner__description br {
+                    display: none;
+                }
+        
+                #lge-faq-banner-t70i9igx .lge-faq-banner-grid--tablet-stack.lge-faq-banner-grid--5 .lge-faq-banner--pc .lge-faq-banner__title {
+                    align-items: flex-end;
+                    flex-direction: row;
+                    gap: 4px;
+                }
+        
+                #lge-faq-banner-t70i9igx .lge-faq-banner-grid--tablet-stack.lge-faq-banner-grid--5 .lge-faq-banner--pc .lge-faq-banner__icon {
+                    align-self: auto;
+                }
+        
+                #lge-faq-banner-t70i9igx .lge-faq-banner-grid--tablet-stack .lge-faq-banner__basic-cta {
+                    display: none;
+                }
+        
+                #lge-faq-banner-t70i9igx .lge-faq-banner-grid--tablet-stack .lge-faq-banner__tablet-chevron {
+                    display: block;
+                    margin-left: auto;
+                }
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--tablet-preview.lge-faq-banner-grid--5 {
+                grid-template-columns: minmax(0px, 1fr);
+                gap: 20px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--tablet-preview.lge-faq-banner-grid--10 {
+                grid-template-columns: minmax(0px, 1fr);
+                gap: 20px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--tablet-preview.lge-faq-banner-grid--5 .lge-faq-banner--pc.lge-faq-banner--basic,
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--tablet-preview.lge-faq-banner-grid--5 .lge-faq-banner--pc.lge-faq-banner--basic2 {
+                min-height: 137px;
+                padding: 40px;
+                border-radius: 12px;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: row;
+                gap: 20px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--tablet-preview.lge-faq-banner-grid--5 .lge-faq-banner--pc .lge-faq-banner__copy {
+                width: auto;
+                max-width: calc(100% - 36px);
+                gap: 4px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--tablet-preview.lge-faq-banner-grid--5 .lge-faq-banner--pc .lge-faq-banner__description br {
+                display: none;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--tablet-preview.lge-faq-banner-grid--5 .lge-faq-banner--pc .lge-faq-banner__title {
+                align-items: flex-end;
+                flex-direction: row;
+                gap: 4px;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--tablet-preview.lge-faq-banner-grid--5 .lge-faq-banner--pc .lge-faq-banner__icon {
+                align-self: auto;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--tablet-preview .lge-faq-banner__basic-cta {
+                display: none;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-grid--tablet-preview .lge-faq-banner__tablet-chevron {
+                display: block;
+                margin-left: auto;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-responsive__pc {
+                width: 100%;
+                max-width: 1380px;
+                margin-left: auto;
+                margin-right: auto;
+                box-sizing: border-box;
+            }
+        
+            #lge-faq-banner-t70i9igx .lge-faq-banner-responsive__mobile {
+                display: none;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                box-sizing: border-box;
+            }
+        
+            @media (max-width: 767px) {
+                #lge-faq-banner-t70i9igx .lge-faq-banner-responsive__pc {
+                    display: none;
+                }
+        
+                #lge-faq-banner-t70i9igx .lge-faq-banner-responsive__mobile {
+                    display: block;
+                }
+            }
+        </style>
+        <div id="lge-faq-banner-t70i9igx" class="lge-faq-banner-scope">
+            <div class="lge-faq-banner-responsive">
+                <div class="lge-faq-banner-responsive__pc"
+                    style="width:100%;max-width:1380px;margin-left:auto;margin-right:auto;box-sizing:border-box;padding-top:0px;padding-bottom:0px">
+                    <div class="lge-faq-banner-grid lge-faq-banner-grid--2 lge-faq-banner-grid--pc" style="max-width:1380px">
+                        <a class="lge-faq-banner lge-faq-banner--basic lge-faq-banner--pc"
+                            href="https://www.lge.co.kr/category/home-iot-product"
+                            style="--faq-bg:#edf5f4;--faq-accent:#2b4f4d;--faq-icon:#185a52;"><span
+                                class="lge-faq-banner__copy"><strong class="lge-faq-banner__title"><span
+                                        class="lge-faq-banner__plp-icon" aria-hidden="true"><img
+                                            src="https://www.lge.co.kr/kr/story/faq/images/faq-banner/go_plp.svg"
+                                            alt=""></span><span class="lge-faq-banner__title-text">AI Home 제품
+                                        바로가기</span></strong><span class="lge-faq-banner__description">AI Home, 원하는 제품을 한눈에
+                                    찾아보세요.</span></span><img class="lge-faq-banner__chevron"
+                                src="https://www.lge.co.kr/kr/story/faq/images/faq-banner/icon_arrow.svg" alt=""></a>
+                        <a class="lge-faq-banner lge-faq-banner--basic lge-faq-banner--pc"
+                            href="https://www.lge.co.kr/story/faq/ai-home-faq"
+                            style="--faq-bg:#fdf3f3;--faq-accent:#b00200;--faq-icon:#d32421;"><span
+                                class="lge-faq-banner__copy"><strong class="lge-faq-banner__title"><span
+                                        class="lge-faq-banner__icon" aria-hidden="true"></span><span
+                                        class="lge-faq-banner__title-text">AI Home FAQ</span></strong><span
+                                    class="lge-faq-banner__description">AI Home, 궁금했던 모든 것에 답해 드려요.</span></span><img
+                                class="lge-faq-banner__chevron"
+                                src="https://www.lge.co.kr/kr/story/faq/images/faq-banner/icon_arrow.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="lge-faq-banner-responsive__mobile"
+                    style="width:100%;margin-left:auto;margin-right:auto;box-sizing:border-box;padding-top:0px;padding-bottom:0px">
+                    <div class="lge-faq-banner-grid lge-faq-banner-grid--1 lge-faq-banner-grid--mobile">
+                        <a class="lge-faq-banner lge-faq-banner--basic lge-faq-banner--mobile"
+                            href="https://www.lge.co.kr/category/home-iot-product"
+                            style="--faq-bg:#edf5f4;--faq-accent:#2b4f4d;--faq-icon:#185a52;"><span
+                                class="lge-faq-banner__copy"><strong class="lge-faq-banner__title"><span
+                                        class="lge-faq-banner__plp-icon" aria-hidden="true"><img
+                                            src="https://www.lge.co.kr/kr/story/faq/images/faq-banner/go_plp.svg"
+                                            alt=""></span><span class="lge-faq-banner__title-text">AI Home 제품
+                                        바로가기</span></strong><span class="lge-faq-banner__description">AI Home, 원하는 제품을 한눈에
+                                    찾아보세요.</span></span><img class="lge-faq-banner__chevron"
+                                src="https://www.lge.co.kr/kr/story/faq/images/faq-banner/icon_arrow.svg" alt=""></a>
+                        <a class="lge-faq-banner lge-faq-banner--basic lge-faq-banner--mobile"
+                            href="https://www.lge.co.kr/story/faq/ai-home-faq"
+                            style="--faq-bg:#fdf3f3;--faq-accent:#b00200;--faq-icon:#d32421;"><span
+                                class="lge-faq-banner__copy"><strong class="lge-faq-banner__title"><span
+                                        class="lge-faq-banner__icon" aria-hidden="true"></span><span
+                                        class="lge-faq-banner__title-text">AI Home FAQ</span></strong><span
+                                    class="lge-faq-banner__description">AI Home, 궁금했던 모든 것에 답해 드려요.</span></span><img
+                                class="lge-faq-banner__chevron"
+                                src="https://www.lge.co.kr/kr/story/faq/images/faq-banner/icon_arrow.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
         </section>
     </main>
 

@@ -329,6 +329,11 @@
   top: 0;
 }
 
+html.roni-intro-lock,
+body.roni-intro-lock {
+  overflow: hidden !important;
+}
+
 #designlg.intro section {
   opacity: 0;
   visibility: hidden;
@@ -337,6 +342,11 @@
 #designlg.intro #kv {
   opacity: 1;
   visibility: visible;
+}
+
+#designlg.intro .lge-faq-banner-responsive,
+#designlg.kv-active .lge-faq-banner-responsive {
+  visibility: hidden;
 }
 
 #designlg #kv {
@@ -2292,7 +2302,7 @@
   position: relative;
   height: 100svh;
   min-height: 720px;
-  overflow: visible;
+  overflow: hidden;
   background: #020202;
 }
 
@@ -2316,10 +2326,9 @@
   margin: 0;
   overflow: hidden;
 }
-/* 
-#designlg .pin-spacer:has(#kv) {
-  overflow: visible !important;
-} */
+#designlg .pin-spacer:has(> #kv) {
+  background: #020202;
+}
 
 #designlg #kv .head {
   position: relative;
@@ -2449,16 +2458,17 @@
 }
 
 #designlg #kv .kv-new__top {
-  position: relative;
-  z-index: 2;
-  width: 100%;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding-top: 164px;
+    background: #010103;
 }
-
 #designlg #kv .kv-new__title {
   position: absolute;
   left: 50%;
   z-index: 6;
-  width: min(90%, 445px);
+  width: min(90%, 1296px);
   text-align: center;
   transform: translateX(-50%);
   pointer-events: none;
@@ -2481,9 +2491,18 @@
   line-height: 1.3;
   letter-spacing: -0.8px;
 }
+#designlg #kv .kv-new__title .summary {
+  margin: 0;
+  color: #f3f3f3;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.58;
+  letter-spacing: -0.002em;
+  margin-top:30px;
+}
 
 #designlg #kv .kv-new__title--pc {
-  top: 50%;
+  top: 60%;
   display: block;
   transform: translate(-50%, -50%);
 }
@@ -3963,7 +3982,7 @@
   }
 
   #designlg #kv .kv-new__lower {
-    aspect-ratio: 780 / 1154;
+    aspect-ratio: 780 / 336;
   }
 
   #designlg #kv .kv-new__inner {
@@ -4001,8 +4020,9 @@
   }
 
   #designlg #kv .kv-new__lower-bg img {
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
+    object-position: center top;
   }
 
   #designlg #kv .kv-stage > .intro-wrap {
@@ -4027,9 +4047,9 @@
   }
 
   #designlg #kv .kv-new__title--mo {
-    bottom: 30px;
+    bottom: 80px;
     display: block;
-    width: min(350px, calc(100vw - 40px));
+    width: min(768px, calc(100vw - 40px));
   }
 
   #designlg #kv .kv-new__title .eyebrow {
@@ -4046,7 +4066,17 @@
     letter-spacing: -0.56px;
     white-space: normal;
   }
-
+#designlg #kv .kv-new__title .summary {
+font-size: clamp(18px, 4.55vw, 24px);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -0.002em;
+  margin-top:40px;
+}
+#designlg #kv .kv-new .kv-new__top picture{
+  padding-top:147px;
+  background: #04050E;
+}
   #designlg #kv .intro-wrap .desc-wrap {
     position: absolute;
     top: unset;
@@ -4451,5 +4481,95 @@ button.notice-toggle.mb-4 {
 }
     #designlg  br.pc-only2 {
     display: none;
+  }
+  #designlg #kv .kv-new__top{
+    padding-top:0;
+  }
+}
+
+/* Keep the KV copy in normal flow directly after the interactive visual. */
+#designlg #kv {
+  height: auto;
+  min-height: 0;
+}
+
+#designlg #kv .inwrap,
+#designlg #kv .kv-stage {
+  position: relative;
+  inset: auto;
+  height: auto;
+  min-height: 0;
+  overflow: hidden;
+}
+
+#designlg #kv .head {
+  position: absolute;
+  inset: 0 0 auto;
+  width: 100%;
+  height: 100svh;
+  min-height: 720px;
+}
+
+#designlg #kv .kv-new {
+  position: relative;
+  top: auto;
+}
+
+#designlg #kv .intro-wrap,
+#designlg #kv .kv-stage > .intro-wrap {
+  position: relative;
+  inset: auto;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  overflow: hidden;
+}
+
+#designlg #kv .intro-wrap .copy-inner {
+  position: relative;
+  inset: auto;
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  transform: none;
+}
+
+#designlg #kv .intro-wrap .desc-wrap {
+  position: relative;
+  inset: auto;
+  width: min(1000px, calc(100% - 80px));
+  margin: 0 auto;
+  padding: 48px 0 64px;
+  transform: none;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1280px) {
+  #designlg #kv .intro-wrap,
+  #designlg #kv .kv-stage > .intro-wrap {
+    margin-top: clamp(-330px, -17.2vw, -220px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #designlg #kv .head {
+    min-height: 812px;
+  }
+
+  #designlg #kv .kv-new__top {
+    overflow: hidden;
+  }
+
+  #designlg #kv .intro-wrap .copy-inner {
+    padding: 0;
+  }
+
+  #designlg #kv .intro-wrap .desc-wrap {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    padding: 40px 20px 48px;
+    transform: none;
   }
 }
