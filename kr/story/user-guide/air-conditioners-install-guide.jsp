@@ -5444,7 +5444,7 @@
 								</div>
 
 								<div class="help-link animate__animated animate__fadeInUp ani-delay02 full-visible">
-									<a href="https://www.lge.co.kr/support/email-inquiry" class="btn">이메일 문의</a>
+									<a href="https://www.lge.co.kr/support/email-inquiry" class="btn">1:1 문의</a>
 									<a href="https://www.lge.co.kr/support/request-call-reservation" class="btn">전화상담
 										예약</a>
 									<a href="https://www.lge.co.kr/support/service-engineer-reservation" class="btn">출장

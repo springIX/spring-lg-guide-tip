@@ -1956,7 +1956,7 @@
 
                                     <div class="help-link animate__animated animate__fadeInUp ani-delay02">
                                         <a href="https://www.lge.co.kr/support/email-inquiry" class="btn"
-                                            target="_self">이메일
+                                            target="_self">1:1
                                             문의</a>
                                         <a href="https://www.lge.co.kr/support/request-call-reservation" class="btn"
                                             target="_self">전화상담 예약</a>

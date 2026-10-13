@@ -694,14 +694,18 @@
 }
 
 .machine-faq__inner-content--robot .machine-faq__note-heading,
+.machine-faq--wash-machines .machine-faq__note-heading,
 .machine-faq__inner-content--product .machine-faq__note-heading,
+.machine-faq__inner-content--humidifying .machine-faq__note-heading,
 .machine-faq--refrigerators .machine-faq__note-heading {
   font-size: inherit;
   line-height: inherit;
 }
 
 .machine-faq__inner-content--robot .machine-faq__note-list,
+.machine-faq--wash-machines .machine-faq__note-list,
 .machine-faq__inner-content--product .machine-faq__note-list,
+.machine-faq__inner-content--humidifying .machine-faq__note-list,
 .machine-faq--refrigerators .machine-faq__note-list {
   margin: 0;
   padding: 0;
@@ -710,7 +714,9 @@
 }
 
 .machine-faq__inner-content--robot .machine-faq__note-list li,
+.machine-faq--wash-machines .machine-faq__note-list li,
 .machine-faq__inner-content--product .machine-faq__note-list li,
+.machine-faq__inner-content--humidifying .machine-faq__note-list li,
 .machine-faq--refrigerators .machine-faq__note-list li {
   display: flex;
   align-items: flex-start;
@@ -718,13 +724,17 @@
 }
 
 .machine-faq__inner-content--robot .machine-faq__note-list li + li,
+.machine-faq--wash-machines .machine-faq__note-list li + li,
 .machine-faq__inner-content--product .machine-faq__note-list li + li,
+.machine-faq__inner-content--humidifying .machine-faq__note-list li + li,
 .machine-faq--refrigerators .machine-faq__note-list li + li {
   margin-top: 4px;
 }
 
 .machine-faq__inner-content--robot .machine-faq__note-marker,
+.machine-faq--wash-machines .machine-faq__note-marker,
 .machine-faq__inner-content--product .machine-faq__note-marker,
+.machine-faq__inner-content--humidifying .machine-faq__note-marker,
 .machine-faq--refrigerators .machine-faq__note-marker {
   flex: 0 0 auto;
   font-weight: 400;
@@ -733,7 +743,9 @@
 }
 
 .machine-faq__inner-content--robot .machine-faq__note-list p,
+.machine-faq--wash-machines .machine-faq__note-list p,
 .machine-faq__inner-content--product .machine-faq__note-list p,
+.machine-faq__inner-content--humidifying .machine-faq__note-list p,
 .machine-faq--refrigerators .machine-faq__note-list p {
   flex: 1;
   min-width: 0;
@@ -743,7 +755,9 @@
 }
 
 .machine-faq__inner-content--robot .machine-faq__note-detail,
+.machine-faq--wash-machines .machine-faq__note-detail,
 .machine-faq__inner-content--product .machine-faq__note-detail,
+.machine-faq__inner-content--humidifying .machine-faq__note-detail,
 .machine-faq--refrigerators .machine-faq__note-detail {
   display: block;
   margin-top: 4px;
@@ -995,5 +1009,55 @@
 
   .machine-faq__detail-content .machine-faq__tap-content .machine-faq__inner-content .center h3 {
     padding-bottom: 24px;
+  }
+}
+
+.machine-faq--humidifiers .machine-faq__tap button {
+  width: 50%;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 1024px) {
+  .machine-faq--humidifiers .machine-faq__tap button {
+    flex: 0 0 auto;
+    width: auto;
+    min-width: 150px;
+    padding-inline: 16px;
+  }
+}
+
+.machine-faq--wash-machines .machine-faq__tap button {
+  width: calc(100% / 3);
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 1024px) {
+  .machine-faq--wash-machines .machine-faq__tap button {
+    flex: 0 0 auto;
+    width: auto;
+    min-width: 150px;
+    padding-inline: 16px;
+  }
+}
+
+.machine-faq--humidifying-faq .machine-faq__tap button {
+  width: 50%;
+}
+
+/* 가습 공기청정기 FAQ 하단 배너: 제품 비율 유지 */
+.machine-faq--humidifying-faq .machine-faq__other-content .img-content {
+  aspect-ratio: 680 / 495;
+  overflow: hidden;
+  border-radius: 28px;
+}
+.machine-faq--humidifying-faq .machine-faq__other-content .img-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+@media screen and (max-width: 1024px) {
+  .machine-faq--humidifying-faq .machine-faq__other-content .img-content {
+    aspect-ratio: 328 / 192;
   }
 }
