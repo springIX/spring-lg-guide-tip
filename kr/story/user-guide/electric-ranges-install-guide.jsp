@@ -1865,11 +1865,32 @@
                                             <div class="answer" style="display: none;">
                                                 <span class="blind">답변</span>
                                                 <p>
-                                                    <span class="point-color">전기레인지 프리스탠딩 케이스는 온라인 및 오프라인 매장에서 구매
-                                                        가능합니다.</span>
-                                                    <br class="qna-br">빌트인 케이스는 전문 설치가 필요한 부품으로 별도 구매 시 1544 - 7777로
-                                                    문의해주세요.
+                                                    <span class="point-color">전기레인지 프리스탠딩 케이스는 온라인 및<br class="mo-only"> 오프라인 매장에서 구매하실 수 있으며,<br class="pc-only"><br
+                                                            class="mo-only"> 빌트인 케이스는 별도 구매가
+                                                        불가능합니다.</span>
                                                 </p>
+                                                <div class="case-purchase-detail">
+                                                    <p><strong>■ 케이스 종류별 구매 및 설치 방법</strong></p>
+                                                    <ul class="case-purchase-list">
+                                                        <li><span class="case-purchase-marker">•</span>
+                                                            <p>프리스탠딩 케이스: 온라인 및 오프라인 매장에서 구매 가능합니다.</p>
+                                                        </li>
+                                                        <li><span class="case-purchase-marker">•</span>
+                                                            <p>빌트인 케이스: 전문 설치가 필요한 부품으로 케이스만 별도로 구매하실 수 없습니다.</p>
+                                                        </li>
+                                                        <li><span class="case-purchase-marker">-</span>
+                                                            <p>설치기사가 제품을 지참하여 방문 후 설치까지 함께 도와드립니다.</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="case-purchase-detail">
+                                                    <p><strong>■ 빌트인 케이스 설치 접수</strong></p>
+                                                    <ul class="case-purchase-list">
+                                                        <li><span class="case-purchase-marker">•</span>
+                                                            <p>LG전자 고객센터(1544-7777)로 문의하여 접수해 주세요.</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </li>
                                         <li class="qna">

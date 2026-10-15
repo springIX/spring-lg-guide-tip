@@ -132,6 +132,48 @@
   text-decoration: underline;
 }
 
+.qna-list .answer .case-purchase-detail {
+  margin-top: 1.5em;
+}
+
+.qna-list .answer .case-purchase-detail strong {
+  font-weight: 700;
+}
+
+.qna-list .answer .case-purchase-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.qna-list .answer .case-purchase-list > li {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.qna-list .answer .case-purchase-list > li + li {
+  margin-top: 4px;
+}
+
+.qna-list .answer .case-purchase-list p {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+}
+
+.qna-list .answer .case-purchase-marker {
+  flex: 0 0 auto;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+@media (max-width: 1024px) {
+  .qna-list .answer .case-purchase-marker {
+    font-size: 14px;
+  }
+}
+
 .qna-list .answer .answer__disclaimer {
   display: block;
   margin-top: 8px;

@@ -241,18 +241,23 @@
   white-space: nowrap;
 }
 
-#hydrotower-guide .check-points .point-list .test-disclaimer {
+#hydrotower-guide .check-points .test-disclaimer {
   padding-left: 0;
 }
 
 #hydrotower-guide .notice-toggle {
   display: inline-flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 4px;
   margin-top: 20px;
   padding: 0;
   border: 0;
-  color: #666;
+  color: #444;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.005em;
   background: transparent;
   cursor: pointer;
 }
@@ -260,9 +265,10 @@
 #hydrotower-guide .notice-toggle::after {
   width: 20px;
   height: 20px;
+  margin-top: 1px;
   flex: 0 0 20px;
   background: center / 10px 6px no-repeat;
-  background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23666' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23444' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
   content: "";
   transform: rotate(180deg);
   transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -293,15 +299,19 @@
   }
 }
 
-#hydrotower-guide .check-points .point-list .test-disclaimer::before {
+#hydrotower-guide .check-points .test-disclaimer::before {
   display: none;
+}
+
+#hydrotower-guide .check-points .test-disclaimer {
+  color: #444;
 }
 
 #hydrotower-guide .test-disclaimer-group + .test-disclaimer-group {
   margin-top: 8px;
 }
 
-#hydrotower-guide .check-points .point-list .test-disclaimer-title {
+#hydrotower-guide .check-points .test-disclaimer-title {
   margin-top: 0;
   font-size: 14px;
   font-weight: 400;
@@ -398,7 +408,7 @@
   #hydrotower-guide .disclaimer,
   #hydrotower-guide .check-points .point-list .disclaimer,
   #hydrotower-guide .notice-toggle span,
-  #hydrotower-guide .check-points .point-list .test-disclaimer-title,
+  #hydrotower-guide .check-points .test-disclaimer-title,
   #hydrotower-guide .test-disclaimer li {
     line-height: 22px;
   }
@@ -548,7 +558,10 @@
   }
 
   #hydrotower-guide .notice-toggle {
+    display: block;
     margin-top: 13px;
+    font-size: 12px;
+    line-height: 1.6;
   }
 
   #hydrotower-guide .notice-toggle span {
@@ -556,11 +569,42 @@
     line-height: 1.6;
   }
 
+  #hydrotower-guide .notice-toggle::after {
+    display: none;
+  }
+
+  #hydrotower-guide .notice-toggle-label {
+    display: inline;
+  }
+
+  #hydrotower-guide .notice-toggle .notice-summary-item:last-child::after {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 4px;
+    vertical-align: middle;
+    background: center / 10px 6px no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23444' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    content: "";
+    transform: rotate(180deg);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  #hydrotower-guide .notice-toggle[aria-expanded="false"] .notice-summary-item:last-child::after {
+    transform: rotate(0deg);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    #hydrotower-guide .notice-toggle .notice-summary-item:last-child::after {
+      transition: none;
+    }
+  }
+
   #hydrotower-guide .test-disclaimer-group + .test-disclaimer-group {
     margin-top: 16px;
   }
 
-  #hydrotower-guide .check-points .point-list .test-disclaimer-title,
+  #hydrotower-guide .check-points .test-disclaimer-title,
   #hydrotower-guide .test-disclaimer li {
     font-size: 11px;
     line-height: 1.6;
@@ -626,5 +670,46 @@
     object-fit: cover;
     object-position: center;
     transform: translateX(-50%);
+  }
+}
+
+#hydrotower-guide .check-points > .notice-toggle + .notice-list {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  #hydrotower-guide .check-points > .notice-toggle + .notice-list {
+    margin-top: 13px;
+  }
+}
+
+#hydrotower-guide .notice-toggle {
+  position: relative;
+  padding-left: 14px;
+  max-width: 100%;
+  text-align: left;
+}
+#hydrotower-guide .notice-toggle::before {
+  content: "*";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 14px;
+  font: inherit;
+  line-height: inherit;
+}
+#hydrotower-guide .notice-toggle-label {
+  min-width: 0;
+}
+#hydrotower-guide .notice-toggle .notice-summary-item {
+  display: inline-block;
+  white-space: nowrap;
+}
+@media (max-width: 768px) {
+  #hydrotower-guide .notice-toggle {
+    padding-left: 10px;
+  }
+  #hydrotower-guide .notice-toggle::before {
+    width: 10px;
   }
 }
